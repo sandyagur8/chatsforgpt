@@ -1,0 +1,354 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-11-21,12:51:57","awliang","#0","","","https://cdn.discordapp.com/attachments/1042217838884171816/1044309206993469470/unknown.png"
+"2022-11-28,05:28:41","awliang","#0","Hello and welcome to the <#1042217838884171816> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Biconomy Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Biconomy** is a Web3 developer platform that empowers blockchain developers to build without limits, so we can all easily access and benefit from a decentralised future.
+
+We power meta-transactions at scale with a non-custodial, multi-chain, and gas efficient relayer infrastructure network.
+
+Since Nov 2022, we’ve launched a powerful and hyper-flexible SDK that lets developers build effortlessly while keeping things simple for end users.
+
+Integration with the SDK takes only minutes, and allows easy plugging, stacking, and customisation of APIs and modules that result in one-click user journeys, transaction bundling, and control over gas fees.
+
+﻿https://biconomy.io
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 Top Prize - $3000 - Best Module on Biconomy SDK
+🥈 Second Prize - $2000 - Best Transaction Batch using Biconomy SDK
+🏊‍♂️ Prize Pool - $5000 - Biconomy will grant $250 to dApps that integrate the Biconomy SDK, uses the smart contract wallets to build offer UX flows, and has a working demo/dapp (max 20 projects).
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🚀 **WORKSHOP**
+**Building dApps that even grandmas can use**
+Time: 05:30 PM IST – Dec 02, 2022
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+**Resources:**
+Read our Docs https://rebrand.ly/bico-sdk-docs
+Book a Demo: https://rebrand.ly/sdk-book-demo
+**Contact us:**
+Telegram https://t.me/biconomy
+Email: support@biconomy.io
+Twitter https://twitter.com/biconomy
+Discord: http://discord.gg/biconomy
+LinkedIn: https://www.linkedin.com/company/biconomy","",""
+"2022-12-02,00:01:52","waterreptile19","#0","Hi.... Tried going through the docs","",""
+"2022-12-02,00:02:03","waterreptile19","#0","where is **useWeb3AuthContext** coming from ?","",""
+"2022-12-02,00:02:10","waterreptile19","#0","searched the sdk and its not there","",""
+"2022-12-02,00:02:46","waterreptile19","#0","https://biconomy.gitbook.io/sdk/sdk-reference/connect-wallet","",""
+"2022-12-02,00:02:48","waterreptile19","#0","from this","",""
+"2022-12-02,08:47:46",".livingrock","#0","Hey <@301287416017190912> 
+check this page
+https://biconomy.gitbook.io/sdk/guides/user-onboarding-and-smart-account-deployments
+and this as well
+https://github.com/bcnmy/sdk-demo/tree/main/src/contexts","waterreptile19#0",""
+"2022-12-02,08:50:04",".livingrock","#0","pasting all the resources here for exmaples and hosted demos","",""
+"2022-12-02,08:50:08",".livingrock","#0","https://biconomy.gitbook.io/sdk/introduction/overview
+
+
+https://sdk-demo.biconomy.io/bridge
+
+
+https://eips.ethereum.org/EIPS/eip-4337
+
+
+https://github.com/bcnmy/sdk-examples
+
+https://github.com/bcnmy/sdk-demo
+
+https://github.com/bcnmy/biconomy-sdk-starter-kit/pull/1/files
+
+https://sdk-staging.biconomy.io/","",""
+"2022-12-02,08:50:43",".livingrock","#0","feel free to hang out at the booth (ping on telegram <@745647175127793744>7 if anyone needs slides)",".livingrock#0",""
+"2022-12-02,23:38:00","HarishTeens","#2672","Hey folks, After doing Social Login is there any auth token that is available ? need something to make API calls on behalf of the user","",""
+"2022-12-03,00:19:50","__acidichydrogen__","#0","User Info","",""
+"2022-12-03,00:48:36","ykw047","#0","Hey, auth token is not exposed via our sdk. Hence, you wouldn't be able to make API calls on behalf of the user","",""
+"2022-12-03,05:07:52","__acidichydrogen__","#0","@here Checkout these examples on integrating the SDK: https://github.com/bcnmy/sdk-examples","",""
+"2022-12-03,05:27:16","taijusanagi","#0","Hi we are  trying to use Biconomy SDK for the Account Abstraction. 
+
+We are trying to have use Safe as Account Abstraction wallet and use Biconomy SDK to interact with it. I know we can deploy new one by this, but do you know how to connect existing custom Account Abstraction wallet?
+https://biconomy.gitbook.io/sdk/guides/user-onboarding-and-smart-account-deployments","",""
+"2022-12-03,05:30:16","freedress","#1108","Hi. I have few doubts about Biconomy.
+
+To avoid, spam users doing gasless transactions and for easier onboarding, web2 social logins are used, right?","",""
+"2022-12-03,05:54:29","__acidichydrogen__","#0","Thread","",""
+"2022-12-03,05:55:17",".livingrock","#0","@here anyone facing webpack issues check this https://github.com/bcnmy/biconomy-client-sdk/issues/87","",""
+"2022-12-03,07:13:01","pranavsudhir","#0","Hey,
+I'm currently trying to create an account in biconomy. And it is asking for a  website URL while signing up.  How do we skip that portion as currently our project is being built and it is not deployed.","",""
+"2022-12-03,08:51:03","shiva_mangina","#0","Hi Team, <@745647175127793744> 
+
+```const { ethers } = require(""ethers"");
+const HDWalletProvider = require(""@truffle/hdwallet-provider"");
+const SmartAccount = require(""@biconomy/smart-account"").default;
+
+const infura = ""X"";
+const pkey = ""x"";
+
+const main = async () => {
+  let provider = new HDWalletProvider(pkey, infura);
+  const walletProvider = new ethers.providers.Web3Provider(provider);
+
+  const wallet = new SmartAccount(walletProvider, {
+    activeNetworkId: 5,
+    supportedNetworksIds: [5],
+  });
+  const smartAccount = await wallet.init();
+ 
+  const balanceParams = {
+ 
+    chainId: 5, // chainId of your choice
+    eoaAddress: smartAccount.address,
+   
+    tokenAddresses: [""0x0000000000000000000000000000000000000000""],
+  };
+
+  const balFromSdk = await smartAccount.getAlltokenBalances(balanceParams);
+  
+  const erc20Interface = new ethers.utils.Interface([
+    'function transfer(address _to, uint256 _value)'
+  ])
+
+const data = erc20Interface.encodeFunctionData(
+  'transfer', [""0x4886D04828BE81Bd618666b2f93C0339B55a85a3"", new ethers.BigNumber.from(""11100000"")]
+)
+
+const tx1 = {
+  to:  ""0x0000000000000000000000000000000000000000"",
+  data: data
+}
+  
+  
+
+  const txHash = await smartAccount.sendTransaction({
+    chainId: 5, // chainId of your choice
+   
+    tx: tx1,
+  });
+  console.log('txHash: ', txHash);
+};
+// const smartAccountSigner = smartAccount.getsigner()
+
+main();```
+
+I'm trying to run this code to send ERC 20 token
+
+I'm getting this error
+
+```Error: invalid BigNumber value (argument=""value"", value=undefined, code=INVALID_ARGUMENT, 
+  reason: 'invalid BigNumber value',
+  code: 'INVALID_ARGUMENT',
+  argument: 'value',
+  value: undefined
+}```
+
+can you please help me here?",".livingrock#0",""
+"2022-12-03,08:51:51","shiva_mangina","#0","How to pass the amount in the transaction?","",""
+"2022-12-03,09:36:21","benro008","#0","https://goerli.etherscan.io/tx/0x0b98f9821726b153aac0af8943be10129022db0935b38d80cb420feb81609757
+
+SCW: https://goerli.etherscan.io/address/0x4Af3b10b3823DdDdf9d0187e1a7086BC26800c15#internaltx","",""
+"2022-12-03,12:18:49","roamingrahi","#0","smart wallet transactions are failing with ``Fail with error 'BSA010'``
+The relayers are not sending enough gas
+https://goerli.etherscan.io/tx/0x87634d59cc211bd030c849cfbb142222c296e5b1d3d080119414bf9a8498767c
+
+Can someone take a look?","",""
+"2022-12-03,12:34:53","__acidichydrogen__","#0","Goerli Transaction Hash (Txhash) Details...","",""
+"2022-12-03,13:06:55","ykw047","#0","Hey,
+you can go through this https://biconomy.gitbook.io/sdk/sdk-reference/sending-transactions/gasless-transactions/sending-erc-20-tokens for sending erc20 tokens","shiva_mangina#0",""
+"2022-12-03,13:11:20","__acidichydrogen__","#0","Goerli Transaction Hash (Txhash) Details...","",""
+"2022-12-06,01:37:58","raijin9696","#0","Hi <@791729160480489523> is Biconomy looking for summer interns/any career opportunities the following year?","ykw047#0",""
+"2022-12-06,01:39:05","raijin9696","#0","Loved using Biconomy this hackathon and the different features of the SDK seemed really relevant and cool, would love to work with ya guys","",""
+"2022-12-13,06:51:56","arishmit","#0","I had a query, if anyone could assist, suppose there is an EOA with 0.1 ETH and the user wants to transfer the entirety to a contract. Can we do this using meta txns and biconomy? like the updated contract balance would be 0.1 ETH and that of EOA would be 0, gas would be paid from gas tanks","",""
+"2022-12-14,12:15:56",".livingrock","#0","for native token transfers meta transactions are not supported. you could do this for some erc20 tokens on mainnet and most erc20 tokens on polygon","arishmit#0",""
+"2022-12-14,12:17:03","arishmit","#0","I was made aware of that, was wondering if there was some hack or workaround that could be done.","",""
+"2023-07-10,14:54:02","awliang","#0","","","https://cdn.discordapp.com/attachments/1042217838884171816/1128036428509626478/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,11:13:50","awliang","#0","Hello and welcome to the <#1042217838884171816> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Biconomy Team at any point with your questions!
+
+👀 **ABOUT**
+**Biconomy** is a Web3 developer and transaction infrastructure platform that helps developers build effortless experiences for their end users.
+
+As pioneers of Account Abstraction (ERC-4337) and Gasless transactions, we accelerate the mass adoption of Web3 through simplified UX, achieved with a powerful decentralised UX stack. 
+
+Developers use our Account Abstraction-compliant SDK to easily remove UX complexities, onboard users, and scale their dApps.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🔑 Best Session Key Validation Modules - 2 x $2500
+👤 Best Consumer dApps built with Biconomy - 3 x $1000
+🏊 Pool Prize - $2000 
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Getting Started on Account Abstraction with the Biconomy SDK
+Time: 03:30 PM CEST – Jul 21, 2023
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.biconomy.io/
+https://biconomy.notion.site/Biconomy-Builder-Blocks-b99686e50acc4d399056fd6c73b02e06?pvs=4
+https://biconomy.notion.site/Biconomy-SDK-Demos-9f4bf3614ec744e3a260ae32694ae316?pvs=4
+https://biconomy.notion.site/AA-101-cc0420154f6e47988688c8ecbbc09a6c?pvs=4","",""
+"2023-07-20,07:52:25",".livingrock","#0","https://docs.biconomy.io/docs/Biconomy%20AA%20Stack/Paymaster/installation 
+Paymaster SDK","",""
+"2023-07-21,16:54:58","rahat","#0","Todays workshop code can be found below:
+
+https://github.com/Rahat-ch/eth_global_paris_workshop_code","",""
+"2023-07-21,17:40:54","0x4miin3","#0","Gm! We have some questions regarding the biconomy sdk. Is smb still in the venue?","",""
+"2023-07-22,03:45:14","rahat","#0","We will be there soon!","",""
+"2023-07-22,03:47:54","sibkatya","#0","Hi there) Can we create our own paymaster?","",""
+"2023-07-22,03:57:02","arcangelo420","#0","you should be able to do it via the biconomy dashboard: https://dashboard.biconomy.io/","sibkatya#0",""
+"2023-07-22,04:42:13","arcangelo420","#0","does anyone know where I can find the ""Modular Session Keys Guide"" that is mentioned on the ETHGlobal website?","",""
+"2023-07-22,07:00:02",".livingrock","#0","https://www.notion.so/biconomy/Modular-Session-Keys-0af1f41b18904974a1b8a05d0cad47ed","",""
+"2023-07-22,07:03:14","arcangelo420","#0","i am not able to access the page unfortunately",".livingrock#0",""
+"2023-07-22,07:03:43","arcangelo420","#0","notion says ""either it does not exist or you do not have permission to access""","",""
+"2023-07-22,07:33:29","rahat","#0","https://github.com/bcnmy/sdk-demo","",""
+"2023-07-22,07:33:47","rahat","#0","adding sessions keys link here one sec","",""
+"2023-07-22,07:34:29","rahat","#0","session keys <@504018812794830868>","arcangelo420#0",""
+"2023-07-22,07:34:29","rahat","#0","https://www.biconomy.io/post/modular-session-keys","",""
+"2023-07-22,07:48:55","rahat","#0","an implementation with next js using the full service: 
+
+social login
+paymaster
+bundler
+gasless transaction
+
+https://github.com/Rahat-ch/aaclimatecoin","",""
+"2023-07-22,09:16:37","jr____","#0","It is working now! Thank you!","rahat#0",""
+"2023-07-22,09:24:26","rahat","#0","Would love to check it out if you swing by some time!","jr____#0",""
+"2023-07-22,09:29:45","seddik11","#0","Hello,
+I am hacking in EthParis and I would like to know if there is some example to configure the Paymaster to pay for EOA wallet (in the FullStack Tutorial is only for smart account) ?
+Thnx","",""
+"2023-07-22,09:38:52","rahat","#0","Hey! Unfortunately this is not possible with the 4337 approach as this requires a smart contract wallet 
+
+Our eoa gasless solution requires using 2771 meta transactions approach","seddik11#0",""
+"2023-07-22,09:46:19","juliomcruz","#0","Hello, trying to call a smart contract what was deploy in mumbai for the social login, and i hace the follow error:","",""
+"2023-07-22,09:46:20","juliomcruz","#0","Counter.tsx:103 Error executing transaction: {code: 404, message: 'Smart contract data not found for address: 0x436c2d54612732b04ed472cb6e0fefe028b18b9c'}","",""
+"2023-07-22,09:46:31","juliomcruz","#0","<@542169022339350538>","rahat#0",""
+"2023-07-22,09:58:42","claudio_barreira","#0","How do I whitelist the vercel link where our dapp is hosted to work with Biconomy Social login?","","https://cdn.discordapp.com/attachments/1042217838884171816/1132310760954007552/image.png"
+"2023-07-22,10:22:12","kris0x","#0","hello biconomy, we are trying to deploy our app to vercel (https://peer-wallet.vercel.app/)
+but when using social login we get the error: 
+```
+loglevelSentry.esm.js:56 Error: could not validate redirect, please whitelist your domain: https://peer-wallet.vercel.app for provided clientId BDtxlmCXNAWQFGiiaiVY3Qb1aN-d7DQ82OhT6B-RBr5j_rGnrKAqbIkvLJlf-ofYlJRiNSHbnkeHlsh8j3ueuYY at https://dashboard.web3auth.io.
+    Also, this project is on testnet network. Please ensure the the used Client ID belongs to this network.
+    at D (middleware.ts:563:9)
+    at R (middleware.ts:605:15)
+    at openloginJrpc.esm.js:450:9
+    at new Promise (<anonymous>)
+    at T._runMiddleware (openloginJrpc.esm.js:423:12)
+    at T._runAllMiddleware (openloginJrpc.esm.js:409:46)
+    at async T._processRequest (openloginJrpc.esm.js:624:31)
+    at async T._handle (openloginJrpc.esm.js:602:5)
+```
+
+there is no instructions to use our own web3auth key.. we initalize the sdk like this:","",""
+"2023-07-22,10:22:13","kris0x","#0","```ts
+const login = useCallback(async () => {
+    if (!sdkRef.current) {
+      const socialLoginSDK = new SocialLogin();
+      const signature1 = await socialLoginSDK.whitelistUrl(
+        ""http://localhost:3000""
+      );
+      const signature2 = await socialLoginSDK.whitelistUrl(
+        ""https://peer-wallet.vercel.app""
+      );
+      await socialLoginSDK.init({
+        chainId: ethers.utils.hexValue(ChainId.POLYGON_MUMBAI).toString(),
+        network: ""testnet"",
+        whitelistUrls: {
+          ""http://localhost:3000"": signature1,
+          ""https://peer-wallet.vercel.app"": signature2,
+        },
+      });
+      sdkRef.current = socialLoginSDK;
+    }
+    if (!sdkRef.current.provider) {
+      sdkRef.current.showWallet();
+      enableInterval(true);
+    } else {
+      setupSmartAccount();
+    }
+  }, [setupSmartAccount]);
+```","",""
+"2023-07-22,10:22:23","kris0x","#0","on localhost works fine","",""
+"2023-07-22,11:13:05","guilletala","#0","I have read in many places that with account abstraction we can do recurring payments and subscriptions. Do you know guys if there is any  tutorial for doing that using Biconomy?","",""
+"2023-07-22,11:59:43","seeinplays","#0","gm, I'm trying to use social logins but I'm running into an error
+
+```Server Error
+ReferenceError: document is not defined```
+
+My current code is in message.txt, I'm adding social login in addition to wallet connect","","https://cdn.discordapp.com/attachments/1042217838884171816/1132341215141048353/message.txt"
+"2023-07-22,12:23:01",".livingrock","#0","have you registered the contract on Biconomy dashboard as paymaster policies?","juliomcruz#0",""
+"2023-07-22,12:55:49","seeinplays","#0","gm I m trying to use social logins but I","",""
+"2023-07-22,12:55:50","seeinplays","#0","Use a dynamic import on the wallet connection file like this
+
+https://github.com/Rahat-ch/aaclimatecoin/blob/main/src/pages/index.tsx","",""
+"2023-07-22,15:48:51","arcangelo420","#0","someone managed to implement session keys and is able to help me out?","",""
+"2023-07-22,18:12:34","seeinplays","#0","i'm getting this error: `index.js:82 WebSocket connection to 'wss://q.bridge.walletconnect.org/?env=browser&host=localhost%3A3000&protocol=wc&version=1' failed: `
+
+it's pointing to the v1 bridge that was shutdown. it needs to point to the v2 relay `relay.walletconnect.org`","",""
+"2023-07-22,22:35:18","seeinplays","#0","if i wanted to use social login, but use the log out button on a different section, how can i code it so that it does the correct action?","",""
+"2023-07-23,08:19:16","defivas","#0","Our track submission didn’t go through before, just talked to organizers and they pushed it 15mins ago - could you please check project “Placeholder 4337” ? 
+
+Built an account abstraction enabled derivative trading platform.","",""
+"2023-07-23,08:19:36","defivas","#0","You might need to “refresh” the project list to see it","",""
+"2023-07-23,08:21:51","defivas","#0","🙏🙏🙏","",""
+"2023-07-23,11:12:44","elshan_eth","#0","Hi
+Can we contact with Biconomy team after the hackathon? We have a project and we want talk with you about partnerships","",""
+"2023-07-24,07:58:22","elshan_eth","#0","<@542169022339350538>","rahat#0",""
+"2023-07-24,22:03:56","rahat","#0","hey <@821374507780538440> feel free to send me a dm","elshan_eth#0",""
+"2023-07-24,22:04:29","rahat","#0","Our track submission didn’t go through","",""
+"2023-07-24,22:04:30","rahat","#0","hey unfortunately we still couldn't see this submission","",""
+"2023-07-24,22:04:55","rahat","#0","would love to still check it out if you have a showcase link handy","",""
+"2023-09-13,13:31:15","awliang","#0","","","https://cdn.discordapp.com/attachments/1042217838884171816/1151570807420616806/image.png"
+"2023-09-15,00:21:48","awliang","#0","Hello and welcome to the <#1042217838884171816> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Biconomy Team at any point with your questions!
+
+👀 **ABOUT**
+**Biconomy** is a Web3 developer and transaction infrastructure platform that helps developers build effortless experiences for their end users.
+
+As pioneers of Account Abstraction (ERC-4337) and Gasless transactions, we accelerate the mass adoption of Web3 through simplified UX, achieved with a powerful decentralised UX stack.
+
+Developers use our Account Abstraction-compliant SDK to easily remove UX complexities, onboard users, and scale their dApps.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best use of Modules with Biconomy SDK - $2000 x 2
+Best one-click Defi Recipe with Biconomy SDK - $1000 x 2
+Best web2 experience onchain - $1000 x 2
+Pool Prize - $2000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+Intro to Modules on the Biconomy SDK
+Time: 04:20 PM EDT – Sep 22, 2023
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.biconomy.io/
+https://biconomy.notion.site/Biconomy-Builder-Blocks-b99686e50acc4d399056fd6c73b02e06?pvs=4
+https://biconomy.notion.site/Biconomy-SDK-Demos-9f4bf3614ec744e3a260ae32694ae316?pvs=4
+https://biconomy.notion.site/AA-101-cc0420154f6e47988688c8ecbbc09a6c?pvs=4","",""
+"2023-09-20,15:22:09","shiv7306","#0","Does the biconomy SDK work with react native?","",""

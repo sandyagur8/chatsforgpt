@@ -1,0 +1,476 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-08-11,17:22:47","awliang","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1007398700760432670/unknown.png"
+"2022-08-15,10:45:53","awliang","#0","Hello and welcome to the <#1006682877653688340> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Aave Grants DAO Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Aave Grants DAO** is a community-led grants program, focused on growing a thriving ecosystem of contributors within Aave through funding ideas, projects and events that benefit the ecosystem. 
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Most innovative Aave V3 Integration**
+🥇$9,000
+🥈 $5,500
+🥉 $4,000
+✨ $1,500
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://mexico.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**Hacking with Aave v3**
+w/ *Miguel M*
+Friday, August 19 @ 5:00 pm
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.aave.com/hacking-on-aave-v3/
+https://aavegrants.org/apply-for-a-grant
+https://aavenews.substack.com/","",""
+"2022-08-20,22:03:48","jetsetterjim","#0","Hi 😄 - I just dropped by the Aave booth in the event center and it seems like everyone was out for the night. Will anyone from the team be here tomorrow?","",""
+"2022-08-21,10:31:57","miguelmtzinf","#0","Hey <@373273472396427266> , come to the booth today if you have any question!","jetsetterjim#0",""
+"2022-08-25,19:38:58","awliang","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1012506404533317713/unknown.png"
+"2022-08-29,15:12:41","awliang","#0","Hello and welcome to the <#1006682877653688340> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Aave Grants DAO Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Aave Grants DAO** is a community-led grants program, focused on growing a thriving ecosystem of contributors within Aave through funding ideas, projects and events that benefit the ecosystem. 
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Stablecoin Growth** - *Build projects and integrations that bring more stablecoin liquidity into Aave such as new yield aggregation tools, wallet integrations or fintech / e-commerce integrations. *
+🥇 1st prize - $3,000
+🥈 2nd prize - $1,000
+
+**Credit Delegation with Lens Protocol** - *Assess reputation of Lens profiles and use this data to enable users to delegate or access credit.*
+🥇 1st prize - $3,000
+🥈 2nd prize - $1,000
+
+**Accessibility** - *Enable new ways or groups of users to access the Aave protocol.*
+🥇 1st prize - $3,000
+🥈 2nd prize - $1,000
+
+**Aave Forex Tool** - *Allow users to efficiently access forex liquidity using one or all of: E-mode, flashloans, DeFi integrations such as Curve *
+🥇 1st prize - $3,000
+🥈 2nd prize - $1,000
+
+**Transaction Builder **- *Write a dispatcher contract that can allow the users to submit multiple actions in a single transaction. For example, Deposit then Borrow (Deposit ETH > Borrow USDC) or Leverage Long On Asset (Deposit ETH > Borrow USDC > Buy ETH > Deposit ETH > Borrow USDC)*
+🥇 1st prize - $3,000
+🥈2nd prize - $1,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+*Workshop coming soon!*
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.aave.com/hacking-on-aave-v3/
+https://aavegrants.org/apply-for-a-grant
+https://aavenews.substack.com/","",""
+"2022-08-31,05:41:53","vishuu0123","#0","looking for mentor who can guide us more about our idea  integrating aave v3","",""
+"2022-08-31,11:43:37","bryan","#8472","we need mentorship for integrating the lens protocol in our idea","",""
+"2022-08-31,13:42:27","hidetaka","#3633","We are thinking of creating something like a Web3 version of Patreon.
+
+We envision the following use cases for your technology lie below.
+
+Are you eligible in either case for your prize?　Or is only one of the two eligible? Or do you have any idea?
+
+1. Provide a UX that makes it easy for creators to lend their earnings to lenders using AAVE.
+
+2. Allow fans to donate AAVE yields to creators.","",""
+"2022-09-01,21:25:36","kiku.ra","#0","I am keen to produce more insights from on chain data. 
+https://docs.aave.com/hacking-on-aave-v3/#data-analysis
+Looking for some guidance to understand what Aave is looking for?","",""
+"2022-09-03,01:00:47","joelcodes","#0","Howdy everyone, is there anyone from the sponsor team that can validate if our idea is worth building? I organized the key components in a document I can share with you. Feel free to DM or reply here. Thank you!","",""
+"2022-09-04,00:23:52","defispartan","#0","<@533994454391062529> can assist with Lens questions","fabriguespe#0、bryan#8472",""
+"2022-09-04,00:24:32","defispartan","#0","You can post here or DM me (may be slow to respond over holiday weekend though)","vishuu0123#0",""
+"2022-09-04,00:32:15","defispartan","#0","For this hackathon, Aave is offering prizes for 5 different project categories: https://discord.com/channels/554623348622098432/1006682877653688340/1013888945110655036. The first idea sounds like it could fit into the accessibility or stablecoins category. The second idea also sounds like it could fall under accessibility, though I will warn that this project would be more technically challenging","hidetaka#3633",""
+"2022-09-04,00:36:48","defispartan","#0","For ETHOnline, Aave is offering 5 prize categories: https://discord.com/channels/554623348622098432/1006682877653688340/1013888945110655036","kiku.ra#0",""
+"2022-09-04,00:37:32","defispartan","#0","You can post here or DM me (may be slow to respond over holiday weekend though)","joelcodes#0",""
+"2022-09-04,07:57:20","fabriguespe","#0","Gm gm <#959960606729977986>","bryan#8472",""
+"2022-09-04,08:02:09","pash161","#0","Hey Team!
+This might be little out of context here. But we are building a analytics platform for DAO contributors. ( with analytics like discord activity, forum activity, snapshot activity). 
+This analytics platform also powers the overall governance process.
+As per Aave grants DAO notion page i see there is a requirement for a Governance UI and i feel what we are building could solve this.
+Who can i talk to from Aave team to understand the exact requirement for this Governance UI.","","https://cdn.discordapp.com/attachments/1006682877653688340/1015954925286604851/Screenshot_2022-09-04_at_5.28.54_PM.png"
+"2022-09-04,08:02:27","pash161","#0","gm gm!!!","fabriguespe#0",""
+"2022-09-04,11:02:24","joelcodes","#0","Have a great weekend! I sent it over so you can read (~2mins) at your convenience","defispartan#0",""
+"2022-09-06,03:55:03","nftartboy","#0","Hi Aave and Lens team,
+our team is considering to use Lens Protocol, but our wallet adresses seem to be not eligible. Is there any chance to get our handles anyways?","",""
+"2022-09-06,11:12:35","0xbilll","#0","Hey Pash! The best way to get feedback on a grant is to submit an application with what you're thinking through the aave grants website. That page isn't meant to be strict bounties but rather inspiration for builders.  Let's keep this chat focused on the hackathon tho!","pash161#0",""
+"2022-09-06,11:14:07","0xbilll","#0","Feel free to reply to this Tweet with what you're building! https://twitter.com/AaveGrants/status/1567157547185983488","",""
+"2022-09-06,11:48:08","0xsoe","#0","Hey <@751163174769786982>  our team is working on fixed income assets using Aave & efficient AMM optimized for zero-coupon bond .
+As you said above, to win Aave's prizes at this hack, do we have to necessarily  apply through the aave grants website?","0xbilll#0",""
+"2022-09-06,13:20:41","numtel","#8850","This sounds similar to the sticky app I helped build at ethmexico, where content creators are paid out the yield from the investment fund that's in an aave pool https://ethglobal.com/showcase/sticky-app-mzxc5","hidetaka#3633",""
+"2022-09-06,20:29:53","0xbilll","#0","No, grants are totally seperate from the hackathon bounties","0xsoe#0",""
+"2022-09-07,14:55:01","creedebeauvoir","#0","Hey <@&978595534812102666>   👋 
+
+Aave 🛠 New Frontiers for DeFi Builders is starting soon-ish !!
+
+Join on Zoom: https://ethglobal.zoom.us/j/85753466247
+Watch on YouTube: https://youtu.be/pHByDLwY7Fo","",""
+"2022-09-07,15:03:34","vishuu0123","#0","<@202112256081788929>  please check dm","defispartan#0",""
+"2022-09-07,15:35:56","numtel","#8850","Thanks for the presentation. I was watching on YouTube so I couldn't ask a question but I was wondering if I would still be eligible for the social credit prize if I only use lens as part of the account reputation profile? My goal is to enable partially collateralized loans but if I do the borrowing on aave with onBehalfOf, the borrower will have to pay interest on aave as well as any agreed interest to the lender. Also, wondering if eligible for accessibility prize if this app performs all HTML rendering on chain in order to be censorship resistant.","",""
+"2022-09-08,02:30:37",".sha256yan","#0","hello, thinking of building an amortization schedule for aave loans which automatically makes payments at set intervals, wondering if a similar service exists already","",""
+"2022-09-08,08:15:08","stanislav6300","#0","Hello! We`ve an idea how to integrate aave to our project. Could we set up a small call with aave's representative?","",""
+"2022-09-09,00:44:55","defispartan","#0","Hey there, yep this would certainly be eligible. And yes the delegator is responsible for paying the accrued interest plus any agreed-upon premium. To handle the calculations for this I would recommend performing the delegation through a vault such as this (https://medium.com/aave/first-credit-delegation-on-aave-protocol-to-deversifi-is-here-c6c0aedb70d4). And yes absolutely a censorship-resistant interface would be eligible for the accessibility category","numtel#8850",""
+"2022-09-09,00:47:38","defispartan","#0","I've heard of protocol doing scheduled interest payouts, but I'm not aware of any project which does this for repayments",".sha256yan#0",""
+"2022-09-09,00:50:26","defispartan","#0","Feel free to send me a DM and we can set something up","stanislav6300#0",""
+"2022-09-09,02:52:07","zkmeta","#0","hi, my team is thinking about adding some transaction builder functionality into our project. I was wondering if we could meet with someone from AAVE to get feedback on our initial ideas and help us brainstorm some additional use cases. As well as some initial guidance on writing the routing contract","",""
+"2022-09-09,11:20:54","donoso_eth","#0","hi <@202112256081788929> , thks for the presentation and the passion, justr saw the recording.","defispartan#0",""
+"2022-09-09,11:23:47","donoso_eth","#0","Have though a question. Developing in a hardhat network forked is awesome (like the aave sandbox), however, sometimes would make the process easier when developpin on a testnet, are the aave contracts deployed on testnets and there are some liquidity?, or the sandbox is the only way to develop?","",""
+"2022-09-10,04:38:41","zkgpt","#0","I think they do have deployed the protocol to Testnets, and you could get the testnet addresses from the dev doc https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses, or you could access the testnet UI via https://staging.aave.com/","donoso_eth#0",""
+"2022-09-10,05:42:27","donoso_eth","#0","thks @web3, just oversaw this","zkgpt#0",""
+"2022-09-10,21:54:22","joelcodes","#0","```
+cannot estimate gas; transaction may fail or may require manual gas limit (error={""reason"":""processing response error"",""code"":""SERVER_ERROR"",""body"":""{\""jsonrpc\"":\""2.0\"",\""id\"":111,\""error\"":{\""code\"":3,\""message\"":\""execution reverted: ERC20: transfer amount exceeds balance\"",\""data\"":\""0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002645524332303a207472616e7366657220616d6f756e7420657863656564732062616c616e63650000000000000000000000000000000000000000000000000000\""}}"",""error"":{""code"":3,""data"":""0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002645524332303a207472616e7366657220616d6f756e7420657863656564732062616c616e63650000000000000000000000000000000000000000000000000000""},""requestBody"":""{\""method\"":\""eth_estimateGas\"",\""params\"":[{\""value\"":\""0x0\"",\""from\"":\""0xde29485df7e941866442ceb25dce1b9c64d02a26\"",\""to\"":\""0x0b3c23243106a69449e79c14c58bb49e358f9b10\"",\""data\"":\""0x40c10f19000000000000000000000000001b3b4d0f3714ca98ba10f6042daebf0b1b7b6f00000000000000000000000000000000000000000000021e19e0c9bab2400000\""}],\""id\"":111,\""jsonrpc\"":\""2.0\""}"",""requestMethod"":""POST"",""url"":""https://polygon-mumbai.g.alchemy.com/v2/demo""}, method=""estimateGas"", transaction={""from"":""0xDE29485dF7e941866442ceb25DCe1b9c64D02A26"",""to"":""0x0b3C23243106A69449e79C14c58BB49E358f9B10"",""value"":{""type"":""BigNumber"",""hex"":""0x00""},""data"":""0x40c10f19000000000000000000000000001b3b4d0f3714ca98ba10f6042daebf0b1b7b6f00000000000000000000000000000000000000000000021e19e0c9bab2400000"",""accessList"":null}, code=UNPREDICTABLE_GAS_LIMIT, version=providers/5.5.3)
+```
+
+Does anyone else get this when they try to use the faucet ?","",""
+"2022-09-10,21:56:12","joelcodes","#0","https://app.aave.com/faucet/?marketName=proto_mumbai_v3","",""
+"2022-09-10,21:56:25","joelcodes","#0","This is when trying to get tokens for Mumbai testing","",""
+"2022-09-11,01:45:59","nanquiedo","#0","Hello!","",""
+"2022-09-11,01:46:01","nanquiedo","#0","Is there a recommended way to obtain a users health factor at a given past time?","",""
+"2022-09-11,01:46:16","nanquiedo","#0","I have obtained the user's deposit/withdraw/borrow/repay/liquidation history from the graph but I don't know how I would go about calculating the health factor at a given time considering the interest rates
+with the info I have right now I can only calculate health factors based on the principal amount of loans
+Could there be a way to obtain the interest accrued by the user instead of calculating it?","",""
+"2022-09-12,09:50:37","stanislav6300","#0","Hi <@202112256081788929>! Could you please check the DM.","defispartan#0",""
+"2022-09-13,03:27:51","nanquiedo","#0","Could anyone help me with calculating a history of accrued interest?","",""
+"2022-09-13,03:28:17","nanquiedo","#0","I'm having problems calculating interest for variable interest rate","",""
+"2022-09-13,09:27:14","defispartan","#0","Unfortunately certain assets have been minted to the max_uint256, so they can no longer be minted :/ We are working on a V2 of faucets that fixes this","joelcodes#0",""
+"2022-09-13,09:29:40","defispartan","#0","You can call `getUserAccountData` on the Pool contract at a pervious block using ethers (querying a full archive node) or perform this simulation in a browser using https://tenderly.co","nanquiedo#0",""
+"2022-09-13,12:26:06","joelcodes","#0","Oooof that’s a bummer. Can you send me some directly?","defispartan#0",""
+"2022-09-13,16:01:46","nanquiedo","#0","Thank you very much for your answer <@202112256081788929>, I'm looking into it right now. I think I'm very close to obtaining the full dataset I need. 😃","defispartan#0",""
+"2022-09-13,21:39:23","zhanganiev","#0","Hello there
+
+We are building raffle application for nfts, and we will have some `idle assets` (erc20, erc777) locked in contract.
+We are looking for the way to use `idle assets` effectively in favor of application users and protocol treasury.
+
+Is there is straight forward solution for it from AAVE?
+Thank you","",""
+"2022-09-13,23:42:07","numtel","#8850","Hello, so I just realized that I've been creating a P2P lending app that's very similar to ETHLend but I can't find any kind of post mortem about it, the website just redirects to Aave.com. What happened to ETHLend?","",""
+"2022-09-14,07:22:02","Howard Peng","#5260","hiiii","",""
+"2022-09-14,08:57:15","sarvagnakadiya","#1069","Hello AAVE,
+how can I supply/withdraw funds to your Pool(AAVE)
+can you please help me with it
+It would be great if you share a little example of it.","",""
+"2022-09-14,18:51:21","numtel","#8850","I'm not affiliated with aave but here's an example of how to deposit and withdrawal. https://github.com/numtel/sticky-contracts/blob/main/contracts/StickyInterestSkimmer.sol#L47 There's a mock pool and test too in the other directory","sarvagnakadiya#1069",""
+"2022-09-15,02:38:34","sarvagnakadiya","#1069","Thanks for the help <@396436305531240448> 
+But just to be sure. Do we have to use deposit() function to deposit onto AAVE pool?","numtel#8850",""
+"2022-09-15,02:39:15","sarvagnakadiya","#1069","because as I read the documentation, we need to use supply() function to upload it on Pool.","",""
+"2022-09-15,02:40:05","numtel","#8850","I think that might be the old version that uses supply?","",""
+"2022-09-15,02:41:21","numtel","#8850","The confusing part to me was the last 2 arguments of the deposit function: onBehalfOf and referralCode","",""
+"2022-09-15,02:41:34","numtel","#8850","You can deposit to another account with onBehalfOf","",""
+"2022-09-15,02:41:57","numtel","#8850","Afaik, referralCode doesn't matter, so that's why I used 0","",""
+"2022-09-15,02:53:36","sarvagnakadiya","#1069","I think supply() is the new version for it.","numtel#8850",""
+"2022-09-15,02:53:51","sarvagnakadiya","#1069","https://docs.aave.com/developers/core-contracts/pool
+have a look.","",""
+"2022-09-15,02:55:04","numtel","#8850","Oh hmm maybe it's just an alias to the same function","",""
+"2022-09-15,02:56:06","sarvagnakadiya","#1069","Okay thankyou for your help. I might try using the deposit() function.","",""
+"2022-09-15,02:56:33","numtel","#8850","Ok you're right with supply","",""
+"2022-09-15,02:56:56","numtel","#8850","If you look at the pool.sol file on GitHub it says deposit is deprecated but maintained for compatibility","",""
+"2022-09-15,02:57:23","sarvagnakadiya","#1069","Okay! thankyou for your help","",""
+"2022-09-15,10:42:26","aayush_gupta","#0","we are trying to create treasury dapp for DAO and want to earn yield on capital. can we use` AAVE` to do that and if yes, How ? and are we still qualify for bounty ?","",""
+"2022-09-15,19:31:39","mmsaki","#0","hi team aave, I want to use some WETH on optimism goerli I was wondering what function allows me to  mint the ERC20 mintable on testnet","",""
+"2022-09-16,03:42:45","mmsaki","#0","I was able to figure it out","",""
+"2022-09-16,09:41:58","hashharan","#0","Hey AAVE team and fellow hackers, I have been flirting with this idea for some time and have finally decided to do it for this Hackathon. My goal is to create a ERC20 shorting protocol that simplifies the process of shorting any ERC20 tokens. My idea goes like this. When user comes wanting to short a particular amount of crypto currency. The protocol will collateral from them as required by AAVE to borrow that amount of crypto currency. We place the collateral to AAVE take the crypto currency and sell it in UNISWAP. This will effectively create a short position for the user. If the value of the crypto currency goes down and when the user wants to close the short position I will buy back the crypto from UNISWAP at a cheaper price and pay it back to AAVE and get my initial collateral back. Booking the difference as profit. If the price goes up but liquidation threshold is not reached the user can close the position booking a loss. In case it is liquidated the user books full loss corresponding to the LTV of the crypto currency when the loan was taken.","",""
+"2022-09-16,09:43:20","hashharan","#0","Well what do guys think about this? Am I missing something?","",""
+"2022-09-16,09:44:35","hashharan","#0","Will I be able offset the interest owed to AAVE for the borrowed crypto currency by lending the collateral and taking interest?","",""
+"2022-09-16,12:22:46","paulodiaz","#0","We want to build an uncollateralized lending platform around AAVE's credit delegation features. For this, we have created a credit score model to provide lenders with information about borrowers behavior using AAVE collateralized borrowing history and Lens Protocol interactions with other users.
+We are starting with coding and would like to hear some feedback on the project. Also we intend to add a feature where lenders can diversify their loans by depositing into a pools and lend to many users at a time.  Send me DM","",""
+"2022-09-16,13:13:10","koheingt","#0","gmgm <@202112256081788929> 
+its been a while since we met at ethdenver (:
+
+we are building an operation tool for delegatees to solve voter apathy issue and make defi protocols like aave to be robust and resilient.
+so love to get some feedback from u!
+https://kohei-eth.notion.site/ETHOnline-2022-Operation-System-for-Delegatees-f7760e8d4cd04e3c8d3dce2028805c85","defispartan#0",""
+"2022-09-16,14:20:44","numtel","#8850","I think aave grants dao just awarded a grant to build such a thing, not to dissuade your efforts https://airtable.com/shrfKMMjmEGsLBAJo/tblTo9YFEL3FyypwZ/viw10yypfQuTU9ut1/rece2ne5aEG47gTmh","koheingt#0",""
+"2022-09-16,14:27:43","numtel","#8850","Hello, I'm also building an uncollateralized loan platform. I've got it mostly coded now but didn't write anything for aave credit delegation. (I wanted full capital efficiency even if it disaligns me from the prizes) If you haven't started coding yet and want to simplify your project by writing an aave delegation contract that interacts on top of my lwned as an optional feature for lenders, let me know, there's plenty of space on my team, (just me atm) otherwise maybe I'll have time to write something like that myself, not sure yet https://ethglobal.com/showcase/lwned-75x0f","paulodiaz#0",""
+"2022-09-16,15:59:38","koheingt","#0","oh thanks for sharing! didnt know jun is working on recognized delegate program now (:
+but to ur point its quite different thing. this is more like a framing a role, responsibility and compensation for paid delegatee role at aave (like recognized delegate program at Maker) and our pj is a internal management tool to reduce the friction of delegatees' work.","numtel#8850",""
+"2022-09-16,16:04:29","numtel","#8850","Oh interesting, that sounds pretty good","koheingt#0",""
+"2022-09-16,22:01:15","hashharan","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1020514746451099648/BigShot_ERC20_shorting.jpeg"
+"2022-09-16,22:01:36","hashharan","#0","let me know what do you guys think 🙂","",""
+"2022-09-16,22:01:40","hashharan","#0","dm open","",""
+"2022-09-16,22:20:12","numtel","#8850","You should make the whole thing an erc20 token where mint() performs the actions on the left and burn() performs the actions on the right, then it solves the ""some tokenized representation"" thing","hashharan#0",""
+"2022-09-16,22:24:21","numtel","#8850","Not sure if there's any issues with opening positions at different times but then you could have your own set of short tokens to mirror aTokens. I think there are already some leveraged long/short tokens that exist","",""
+"2022-09-16,22:51:46","numtel","#8850","Maybe it makes more sense to be an NFT than an erc20 since each position is going to have a unique liquidation price","",""
+"2022-09-16,23:09:33","hashharan","#0","I didn't get into how exactly the tokenized representation should be but both very good ideas","",""
+"2022-09-16,23:09:50","hashharan","#0","Can you point me to these projects or repos that do this?","numtel#8850",""
+"2022-09-16,23:10:56","numtel","#8850","I don't know, I've just seen them while browsing coingecko sometimes. I can take a look if you can't find anything","hashharan#0",""
+"2022-09-16,23:52:23","hashharan","#0","sure let me take look first and contact you","",""
+"2022-09-17,07:56:47","hashharan","#0","the short option in coin gecko does not seem to do anything further","","https://cdn.discordapp.com/attachments/1006682877653688340/1020664614939263027/unknown.png"
+"2022-09-17,08:32:40","l0gykal","#0","Hello I'd be interested to know if we can build something on top of AAVE Portals yet?","",""
+"2022-09-17,12:41:54","donoso_eth","#0","Hi, I was wondering whether it is possible to check when after a credit delegation to a user, if this user has already borrowed the amount. I imagine there is no call back when the user borrows? any help is welcome","",""
+"2022-09-17,14:36:59","donoso_eth","#0","Hi, I am trying on mumbai to min the 'usdc mintable token' tried several times but pending for a lot of time and then fails","",""
+"2022-09-17,14:37:00","donoso_eth","#0","https://mumbai.polygonscan.com/tx/0x8d5995566e305d6d0c463357a4bdce32fd21faa4eeb267d8364689df6a95f6d6","",""
+"2022-09-17,14:37:27","donoso_eth","#0","In other project I've tested on goerli and works perfectly","",""
+"2022-09-18,09:02:04","l0gykal","#0","<@202112256081788929>","defispartan#0",""
+"2022-09-19,13:41:20","0xprat","#0","Hey guys looking to talk to someone from the team regarding our project","",""
+"2022-09-19,13:51:25","donoso_eth","#0","Hi, having this error when using faucet on mumbai on staging.aave.com","",""
+"2022-09-19,13:51:28","donoso_eth","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1021478649570017370/unknown.png"
+"2022-09-19,13:51:36","donoso_eth","#0","not able to change any parameters","",""
+"2022-09-19,19:29:22","numtel","#8850","Take a look at this token https://www.coingecko.com/en/coins/3x-long-bitcoin-token","hashharan#0",""
+"2022-09-19,19:35:20","numtel","#8850","Looks like it is managed by an oracle service by ftx. If you can do it all on chain, that'd be cool. I'd imagine you'd have to rebase balances if the volatility range goes too far.","",""
+"2022-09-20,05:25:23","stanislav6300","#0","Hello #aave! We'd like to deploy our DeForex project to Optimism Goerly testnet. 
+Do you have your contracts for tests there?","",""
+"2022-09-20,10:00:09","zkgpt","#0","you can get all Testnet contracts address from https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses","stanislav6300#0",""
+"2022-09-20,10:35:48","stanislav6300","#0","Thanks!","zkgpt#0",""
+"2022-09-20,21:32:15","markcarey","#0","Looking to interact with Aave V3 on mumbai, but seems all the `ERC20Mintable` test tokens are all taken (minted to the point that the totalSupply cannot be increased further). Any suggestion how we can test? 😉","",""
+"2022-09-21,04:46:03","0xJess","#2735","<@923971611047112705> <@822180265753444412> The mumbai faucet is depleted, you can try a different test market until the faucet is renewed. Here is the link for the testnet addresses https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses","donoso_eth#0、markcarey#0",""
+"2022-09-21,05:58:34","zhanganiev","#0","Hello,
+
+In our project we have erc20 iddle assets. So we want those assets to work and not iddle.
+If aave could solve that problem?
+
+Would be glad to brainstorm about it and get solidity support like pair coding.
+
+1. Do you have office hours?
+2. Can we expect solidity support for aave implementation?","",""
+"2022-09-21,06:44:27","donoso_eth","#0","thks, would be renewed before the end of hackathon?","0xJess#2735",""
+"2022-09-21,19:16:38","markcarey","#0","Thanks. Yeah, I went with Goerli instead.... 😉","0xJess#2735",""
+"2022-09-22,04:29:58","dolocat","#8098","Hi, may I know where can I get the aToken address after I've call supply() to the pool.sol? It seems that the function doesn't return the aToken address.","",""
+"2022-09-22,22:50:14","markcarey","#0","It seems like the aToken address is output in one of the Events emitted. That said, I just look up the aToken addresses manually and store them in variables, so in my code I know that when supplying X, the AToken address will be Y, etc.","dolocat#8098",""
+"2022-09-23,12:09:43","_heeze","#0","wanted to know what the base currency of the aave price feed is","","https://cdn.discordapp.com/attachments/1006682877653688340/1022902597478260786/Screenshot_2022-09-23_at_16.19.16.png"
+"2022-09-23,18:13:22","0xJess","#2735","Hi <@526853083993735173>, please DM me for office hours/support","zhanganiev#0",""
+"2022-09-23,18:24:05","0xJess","#2735","getAssetPrice(address asset) will return the price of the asset depending on the market e.g. USD, or ETH","_heeze#0",""
+"2022-09-23,18:25:24","donoso_eth","#0","Hi  <@1004323901783945268> , can i query the current APY from an asset within the pool, I don't find the corresponding function?","0xJess#2735",""
+"2022-09-23,18:27:44","donoso_eth","#0","I  am  doing calls from a contract, not using subgraphs","",""
+"2022-09-23,18:39:03","donoso_eth","#0","<@1004323901783945268> is the function scaledTotalSupply used to calculate the APY in the atoken contract?","0xJess#2735",""
+"2022-09-23,18:42:42","0xJess","#2735","Hello! This documentation shows on-chain for v2: https://docs.aave.com/developers/v/2.0/guides/apy-and-apr#on-chain (use Pool.sol if using V3)","donoso_eth#0",""
+"2022-09-23,18:47:57","0xJess","#2735","The scaled total supply is the sum of all the updated stored balances, divided by the reserve index at the moment of the update","donoso_eth#0",""
+"2022-09-23,18:52:33","0xJess","#2735","<@923971611047112705> Some extra info: https://docs.aave.com/risk/liquidity-risk/borrow-interest-rate#interest-rate-model. And a really cool new dev tool from Newt (https://twitter.com/wearenewt/status/1565010368077991937) --- https://www.config.fyi/ which helps to see risk parameters more clearly","donoso_eth#0",""
+"2022-09-23,18:54:11","0xJess","#2735","Hey! You can DM me if you'd like to talk","0xprat#0",""
+"2022-09-24,12:43:07","l0gykal","#0","Hey, do someone knows how to get the aToken address when you have the Token address?","",""
+"2022-09-24,17:38:54","defispartan","#0","The ProtocolDataProvider (V2) or PoolDataProvider (V3) has a function called getReserveTokenAddresses which returns the aToken and debtToken addresses for an asset","l0gykal#0",""
+"2022-09-25,03:36:53","l0gykal","#0","Thx🤟","",""
+"2022-09-25,07:12:34","hashharan","#0","Hey all, I'm working on optimism aave market. I have a scenario where I want to withdraw the entire usdc collateral in the user's account from inside solidity. When I do getUserAccountData what is the currency of the totalCollateralBase variable. How to do I convert it to USDC in order to call the withdraw amount with it.
+I tried getting the rate from oracle but the rate I got from the oracle for usdc did not make a lot of sense to me","",""
+"2022-09-25,15:59:28","koheingt","#0","<@202112256081788929> 
+we built the one-stop dashboard tool for delegatees to solve voter apathy issues to make defi protocols like aave to be robust and resilient at ethonline.
+
+but we didn't manage to leave a github link for applying the sponsor integration in our submission 😭
+
+this is the code for adding the AAVE governance details into our database. From there we are querying your governorBravo contract to fetch proposal and voting data.
+https://github.com/senate-xyz/senate/blob/dev/prisma/seed.ts#L23
+☝️ This is the code for adding the AAVE governance details into our database. From there we are querying your governorBravo contract to fetch proposal and voting data.
+https://github.com/senate-xyz/senate/blob/dev/services/proposal-detective/src/app.ts#L11 
+☝️ Here's the link for the contract querying part 
+
+
+more on this pj page (: : https://ethglobal.com/showcase/senate-pxfwm","defispartan#0",""
+"2022-09-25,19:40:39","newway1220","#0","This our project : https://ethglobal.com/showcase/futaba-gruwk
+We have used Aave smart contract as Base contract to listen to events on Optimism.","",""
+"2022-09-25,22:03:00","hashharan","#0","https://twitter.com/HariHaranHash/status/1574214114066325504?s=20&t=r-bWK0XYuhjJATU2RwFoag","",""
+"2022-09-25,22:03:34","hashharan","#0","https://ethglobal.com/showcase/big-shot-wndi1","",""
+"2022-09-25,22:04:30","hashharan","#0","https://github.com/HashHaran/BigShot","",""
+"2022-09-26,03:17:22","0xsoe","#0","Hey <@202112256081788929> 
+
+we integrates Aave V2/Aave V3 ! Let's check it out!
+
+Napier integrates various lending protocol as yield source.  Napier AMM aggregates PTs into one nPT.  so, integrating larger TVL protocol results in more liqudity.
+
+**Here's what we built:**
+
+**Name**: 🧮 Napier Finance
+**Description**: The most efficient fixed-yield market compatible with any DeFi yield sources and Principal Tokens.
+**Github**: https://github.com/massun-onibakuchi/napier
+
+**Public URL**: https://ethglobal.com/showcase/napier-finance-suazx","defispartan#0",""
+"2022-09-30,03:38:43","0xsoe","#0","Hey Aave team <@202112256081788929> <@751163174769786982> ! Im Yusuke, founder at Napier Finance. Im so excited to win Aave 2nd prize in stablecoin growth department!🥈","defispartan#0、0xbilll#0",""
+"2022-09-30,03:38:59","0xsoe","#0","Thank you very much. I'm sure that Napier will bring network effect like tvl growth into Aave near the future🫡","",""
+"2022-09-30,03:40:06","0xsoe","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1025311061861208114/unknown.png"
+"2022-09-30,10:33:42","0xbilll","#0","Hey <@912892177556865025>! Thanks for reaching out and big congrats. Definitely stay in touch, excited to see whats next","0xsoe#0",""
+"2022-10-01,04:18:14","0xsoe","#0","Hey thank you very much <@751163174769786982> ! Definitely keep intouch and  I wanna send you friend request but i couldnt.
+can you share me your TG in DM?","0xbilll#0",""
+"2022-10-01,10:04:22","0xbilll","#0","i can't either. find me in the main aave grants tg 🙂","0xsoe#0",""
+"2023-02-09,06:26:09","awliang","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1073203149021646918/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,12:25:13","awliang","#0","Hello and welcome to the <#1006682877653688340> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Aave Grants DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**Aave Grants DAO** is a community-led grants program, focused on growing a thriving ecosystem of contributors within Aave through funding ideas, projects and events that benefit the ecosystem. 
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 - $5,000 USDC
+🥈 - $3,000 USDC
+🥉 - $2,000 USDC
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+🚀  **WORKSHOP**
+Introduction to GHO: Payments Workshop
+Time: 07:00 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.aave.com/hacking-on-aave-v3/
+https://aavegrants.org/apply-for-a-grant
+https://aavenews.substack.com/","",""
+"2023-04-12,23:11:37","0xJess","#2735","Hi everyone, we're super excited to see what you build this week!
+
+To learn more about the GHO and Aave hackathon, ideas and resources, check out these threads:
+
+Aave Twitter: 
+https://twitter.com/AaveAave/status/1646292043071885315
+
+Aave Lenster: 
+https://lenster.xyz/posts/0x02-0x47
+
+The team will be at the booth and the hackathon all weekend. Please do reach out if you have any questions or would like to discuss ideas!
+Telegram: @jessglover
+Twitter: <@1004323901783945268>glover
+
+Come to our workshop on Friday at 7:30 PM JST, Workshop Room 1 (5th floor)
+
+LFGHO! 👻","0xJess#2735",""
+"2023-04-13,01:12:56","miguelmtzinf","#0","Hey all! looking forward to see what you guys are working for the hackathon! Feel free to ask your questions here if needed 😄","",""
+"2023-04-14,13:34:04","xentoshi","#0","hey how can I get an atoken for testing GHO?","",""
+"2023-04-14,20:01:39","0xgraham","#0","You receive an aToken when you deposit into Aave.","",""
+"2023-04-15,04:59:22","miguelmtzinf","#0","Here the link for the GHO Solidity Workshop:
+https://github.com/miguelmtzinf/gho-solidity-workshop
+Check it out!","",""
+"2023-04-15,05:24:14","xentoshi","#0","help","","https://cdn.discordapp.com/attachments/1006682877653688340/1096727678666682398/image.png"
+"2023-04-15,05:34:23","0xgraham","#0","Did you 'yarn' or yarn install first?","",""
+"2023-04-15,05:34:34","0xgraham","#0","<@910938156696735745>","xentoshi#0",""
+"2023-04-15,05:36:18","miguelmtzinf","#0","are you following the workshop? <@910938156696735745>","xentoshi#0",""
+"2023-04-15,05:36:38","miguelmtzinf","#0","What are you trying to do?","",""
+"2023-04-15,05:38:38","xentoshi","#0","i'm trying to execute the contract for borrowing gho","miguelmtzinf#0",""
+"2023-04-15,05:43:25","dabit3","#0","can you give steps to reproduce please?","xentoshi#0",""
+"2023-04-15,05:48:21","0xsarah","#0","is there GHO on mumbai?","",""
+"2023-04-15,05:48:47","0xJess","#2735","No, Goerli testnet","0xsarah#0",""
+"2023-04-15,06:57:33","miguelmtzinf","#0","No need to install with yarn/npm, just follow the steps and use forge to install the packages!","xentoshi#0",""
+"2023-04-15,20:19:42","0xgraham","#0","If you submitted an Aave project, the Aave team is at the booth ready for you to present it!","",""
+"2023-04-15,20:55:37","0xbilll","#0","gm! Let's GHO","",""
+"2023-04-15,23:13:39","macmacmacprime","#0","👻","",""
+"2023-04-15,23:17:33","0xgraham","#0","Hey all, last call for presentation for teams that hacked on GHO/AAVE at the Aave booth!","",""
+"2023-04-16,01:32:14","miguelmtzinf","#0","Thanks all for presenting your projects. Amazing work everyone! 🤖🤖👨‍🔧👨‍🔧","",""
+"2023-04-16,06:25:22","0xcchan","#0","Hi! Can we just check if th e winners have been announced?","",""
+"2023-05-01,14:20:38","awliang","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1102660870431055992/Viewable_on_TV.png"
+"2023-05-08,13:04:40","awliang","#0","Hello and welcome to the <#1006682877653688340> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Aave Grants DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**Aave Grants DAO** is a community-led grants program, focused on growing a thriving ecosystem of contributors within the Aave Protocol’s community. Through funding ideas, projects and events that benefit the broader Aave ecosystem. 
+
+The **Aave Protocol** is one of the most widely used decentralized liquidity protocols that allows users to supply and borrow digital assets. With demand for a stablecoin in the Aave ecosystem, the Aave Companies introduced GHO. **GHO** is a decentralized, over-collateralized, asset-backed stablecoin that is native to the Aave Protocol and pegged to the U.S. dollar. 
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best projects on GHO and/or Aave:
+*   🥇 $3,500 USDC
+*   🥈 $2,500 USDC
+*   🥉 $1,500 USDC
+
+5️⃣ Plus the 5 best GHO integrations will receive $500 USDC each
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🔗 **IMPORTANT LINKS**
+GHO
+https://docs.gho.xyz/
+https://docs.gho.xyz/developer-docs/contracts-overview
+https://github.com/aave/gho-core
+https://docs.gho.xyz/developer-docs/overview#gho-sdk
+
+Aave
+https://docs.aave.com/developers/getting-started/readme
+https://docs.aave.com/developers/deployed-contracts/v3-mainnet
+https://github.com/aave/aave-v3-core
+https://github.com/aave/aave-utilities
+https://github.com/bgd-labs/aave-address-book","",""
+"2023-05-12,21:33:18","JC212","#7101","Hi. We are planning to leverage GHO as a payment solution for our project and needed some help","",""
+"2023-05-12,21:33:55","JC212","#7101","Can we please connect tomorrow AM for some questions/ advise","",""
+"2023-05-13,07:10:30","0xJess","#2735","Hi! how can I help?","JC212#7101",""
+"2023-05-13,07:14:01","0xJess","#2735","Hi everyone, Aave team is at the booth! Come and say and grab some swag!","",""
+"2023-05-13,11:21:40","crocovivant","#1553","Hello ! What is the GHO Goerli contract address ? can't seem to find it","",""
+"2023-05-13,11:22:16","crocovivant","#1553","0xcbE9771eD31e761b744D3cB9eF78A1f32DD99211","",""
+"2023-05-13,11:47:37","0xJess","#2735","https://docs.gho.xyz/developer-docs/contracts-overview Here are the contracts!","crocovivant#1553",""
+"2023-05-13,11:50:39","0xJess","#2735","We also have a repo from the GHO workshop: https://github.com/miguelmtzinf/gho-solidity-workshop
+
+This is a quick way to integrate with the GHO smart contracts","",""
+"2023-05-13,12:11:27","0xJess","#2735","And if you are using the Aave Utilities JavaScript SDK  (https://github.com/aave/aave-utilities) to integrate with the frontend, have a look at a few code examples to supply, borrow and repay here: https://docs.gho.xyz/developer-docs/overview#gho-sdk","",""
+"2023-05-13,18:20:59","0xJess","#2735","Hey everyone, I'm around at the hackathon or online here if you have any questions before you submit your projects tomorrow!
+
+🚨🚨🚨
+
+As well as presenting to the main judges, you must also present to the team at the booth to be eligible for a prize (the whole team do not need to present). We are at the back opposite the main stage and will be there from 9am-12:30pm 
+
+Good luck with the last few hours and please do reach out!!","",""
+"2023-05-13,19:47:11","jordan.public","#0","https://ethglobal.com/showcase/guardian-oracle-keeper-protocol-rpcws","",""
+"2023-05-14,08:43:39","floydd34dsh0t","#0","Hey <@1004323901783945268>! How will the hackers get a raave ticket? 😀","0xJess#2735",""
+"2023-05-14,11:40:15","jordan.public","#0","Does anyone want to share a ride to rAAVE?","",""
+"2023-05-14,12:30:06","benedictaltier","#0","Anyone at venue wanna share a ride there now/shortly?","",""
+"2023-05-14,15:47:25","seanwbren","#0","For anyone at rAAVE fyi your wristband qr is a POAP","",""
+"2023-05-19,04:54:07","kkx","#8999","hi anyone knows when the lens handle can be claimed by those who got the POAP in the venue?","",""
+"2023-09-13,13:23:22","awliang","#0","","","https://cdn.discordapp.com/attachments/1006682877653688340/1151568823670034442/image.png"
+"2023-09-14,23:51:58","awliang","#0","Hello and welcome to the <#1006682877653688340> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Aave Grants DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**Aave Grants DAO** is a community-led grants program, focused on growing a thriving ecosystem of contributors within the Aave Protocol’s community. Through funding ideas, projects and events that benefit the broader Aave ecosystem. 
+
+The **Aave Protocol** is one of the most widely used decentralized liquidity protocols that allows users to supply and borrow digital assets. With demand for a stablecoin in the Aave ecosystem, the Aave Companies introduced GHO. **GHO** is a decentralized, over-collateralized, asset-backed stablecoin that is native to the Aave Protocol and pegged to the U.S. dollar.
+
+
+🏆 **PRIZE OVERVIEW**
+
+*Best Aave Protocol Integrations*
+1st: $3000 
+2nd: $2000
+
+*Best uses of GHO*
+1st: $3000 
+2nd: $2000
+
+
+🥇 Aave — Best Integration $3,000
+🥈 Aave — Best Integration $2,000
+🥇 Aave — Best Use of GHO $3,000
+🥈 Aave — Best Use of GHO $2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+👻 Building with Aave & GHO
+Time: 04:40 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.gho.xyz/
+https://docs.gho.xyz/developer-docs/contracts-overview
+https://github.com/aave/gho-core
+https://docs.gho.xyz/developer-docs/overview#gho-sdk
+https://docs.aave.com/developers/getting-started/readme
+https://docs.aave.com/developers/deployed-contracts/v3-mainnet
+https://github.com/aave/aave-v3-core
+https://github.com/aave/aave-utilities
+https://github.com/bgd-labs/aave-address-book","",""

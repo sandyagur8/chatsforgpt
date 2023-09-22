@@ -1,0 +1,674 @@
+
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ApeCoin Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+
+🏆 **PRIZE OVERVIEW **
+
+🤝 **Best Integration:**
+🥇 First Place - $2,000 
+🥈 Second Place - $1,000
+🥉 Third Place - $500
+
+💡 **Best Contribution:**
+🥇 First Place - $3,500
+🥈 Second Place - $2,000
+🥉 Third Place - $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://apecoin.com/
+https://forum.apecoin.com/
+https://twitter.com/apecoin
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/#/
+https://github.com/apestakeui/ui
+leeederek says Hey ApeCoin sponsors! Excited to meet you guys and chat. I had a quick question about current painpoints within the ApeCoin DAO community. Can I DM someone on the team? Specifically looking for someone who is a contributor or community leader to the DAO. Thanks 🙂
+kirilligum says we built a kyc transfer wrapper for erc721 and would like to wrap apecoin. can you send some to test on the testnet? is there a faucet?
+xinbenlv says hi
+xinbenlv says Dear sponsor team, does ApeCoin has testnet deployment, ideally on goerli? @here
+patrickworkman says LFG! Thank you!!
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin Team at any point with your questions!
+
+👀 **ABOUT**
+We encourage all developers to come build on ApeCoin. Whether you’re interested in governance improvements, security infrastructure, or a better way to drop custom merch, ApeCoin wants to make sure you have the resources to build it!
+
+We are open to all ideas, but if you’re looking for some inspiration here are some areas our community has been interested in: Governance - DAO tooling, dashboards, analytics, etc Community - expanding ApeCoin reach to more NFT communities Security - tooling or resources for NFT holders, especially tooling around account abstraction
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best Integration Prizes go to the projects that can show the most innovative use of ApeCoin in a dApp.**
+🥇 First Place - $2,000
+🥈 Second Place - $1,000
+🥉 Third Place - $500
+
+**Best Contribution Prizes go to the projects that help the ApeCoin community the most.** 
+🥇 First Place - $3,500
+🥈 Second Place - $2,000
+🥉 Third Place - $1,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/scaling2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+http://apecoin.com/
+http://twitter.com/apecoin
+http://forum.apecoin.com/
+https://discord.gg/wg0
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/
+0xwebmoss says Hi, can you give examples of custom merch that you would drop?
+gmbh says do I need to hold APECOIN to join the discord?
+gmbh says How much apecoin is needed to enter?
+gmbh says 
+gmbh says is this correct?
+0xwebmoss says Seems so, also tried to join 😭
+gmbh says Anyone here from the Apecoin team? <@720407640131240026>
+jvaleska says buildling <:buidler4:707335147145396315>
+awliang says I've just pinged their team to come answer all your questions 🙂
+gmbh says thank you 🙏
+0xkamal7 says Hi, I am working on to improve the governance of apecoin community , would love to connect with apecoin team to know more on how we can improve.
+maaria.eth says hey!!! <@426010774620602368> <@524645705176973325> <@720407640131240026> <@909865544243642418> and everyone else!
+maaria.eth says thank you for the questions!! working group zero is similar to the working groups for ENS. Participation in the DAO is open to anyone (no apecoin needed), and the working groups support with more operational and community building efforts.
+maaria.eth says here's a better discord link: https://discord.gg/wg0
+maaria.eth says Some resources to check out: 
+
+- Website: http://apecoin.com 
+*good for details on the DAO structure*
+
+- Delegate Site: https://delegate.apecoin.com/
+*for delegating governance voting*
+
+- Twitter: http://twitter.com/apecoin 
+*good for real-time info*
+
+- Forum: http://forum.apecoin.com 
+*best place to see proposals and discussion in progress*
+*Anyone can view the forum, but 1 ApeCoin is required to participate in the conversation *
+
+- Discord: https://discord.gg/wg0
+*where the DAO working group meets and DAO discourse happens*
+*i recommend looking at the 'start-here and 'faq' channels to begin*
+
+- ApeCoin Smart Contract: https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+gmbh says Still cannot get past Vulcan verification, only rules and verify channels are available
+maaria.eth says uh oh let me get back to you!
+maaria.eth says okay so currently you need 1 APE to join, but that seems silly so let me try to find a solution
+aarav4838 says <@570693318133022768> Help me to get access to that server
+aarav4838 says May be noob question,
+Hey, how to query to get data that how many proposals are active in apecoinDAO
+maaria.eth says right now it requires 1 APE to join, but i'm working on a solution. Will post something as soon as that is figured out.
+maaria.eth says Voting happens on Snapshot. https://snapshot.org/#/apecoin.eth  
+You can query active proposals via Snapshot API: https://docs.snapshot.org/guides/graphql-api
+aarav4838 says thanks
+0xwebmoss says Thanks 😊
+0xkamal7 says Hey <@570693318133022768> Thank you for the links but they are unfruitful for the time being.
+Maybe create a #developer channel where you can give access to those with test ape tokens ?
+maaria.eth says you can use this link for test ape tokens: https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+maaria.eth says To mint test APE you can do the following steps from that address: 
+
+Select the contract tab on etherscan
+Connect your wallet 
+Select the Write Contract tab
+Use the mint function which has the following parameters: 
+      - Address: 
+      - Amount: Enter the amount of ApeCoin you would like. Important to note that the contract does not use decimal numbers so one ApeCoin isa ctually in the form of Wei (1000000000000000000000). Use the following converter for easily copy and pasting the values you want https://eth-converter.com. 
+Click/tap the Write button and you will be presented with the transaction URL on Etherscan. You must have some Goerli ETH to use for gas fees (https://goerlifaucet.com)(
+0xwebmoss says Hey <@570693318133022768> Thanks for the update, can I ask if you have any cool images I can use in my project, like official Apecoin and BAYC if you have please. I have pulled the press kit but hoping you have some backgrounds or other .png or svgs
+0xwebmoss says I'm also wanting to know more about "custom merch" as mentioned, what do you have in mind here
+maaria.eth says As long as it’s not used for commercial purposes you can use my BAYC #7913. Here’s the IPFS hash: https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png 
+
+Press kit is best for ApeCoin asset. 
+
+If you need more NFTs I can ask folks from the community. Lmk!
+maaria.eth says Some folks have done things like Ape Wine and Ape Water where the holder can have their NFT branded onto the packaging. There’s also someone who does awesome custom pins of individual NFTs. Tiffany’s collaboration with the punks was also really cool, where ppl got special pendants of their cryptopunks
+0xwebmoss says Too cool for school, thanks a bunch, like the ape water 💧
+maaria.eth says Can you DM me?
+maaria.eth says Can you DM me?
+0xwebmoss says Sent a friend request
+gmbh says Cannot dm you or add you as a friend. Please add me if you can
+0xkamal7 says <@570693318133022768> acc to your settings you ll hv to send a friend req for us to DM u . Pllease send me one too.
+0xwebmoss says Are you'll hacking han solo style or in a team <@426010774620602368> <@909865544243642418>
+gmbh says Im in a team
+0xkamal7 says We are a team of 2 building on Improving the governance @ apecoin , lmk If you are interested to join us 🙂
+0xwebmoss says Thanks <@909865544243642418> I'm already too far down my own little rabbit hole right now but do appreciate the offer. I'm building a hopefully very slick user interface for all the Apes and Apecoin goodness 🙈🙉🙊
+ivanmolto says Awesome to be here
+maaria.eth says for some reason i'm not seeing it. just requested you back
+0xwebmoss says <@570693318133022768> Just accepted, dm's are open 📨
+maaria.eth says can't wait to see what you guys come up with!!! in case its helpful, i'd also check out: delegate.apecoin.com (our dedicated delegation site)
+marcosha says excited to integrate apecoin into our app.
+ialberquilla says Do you have docs on how to integrate with your NFT marketplace? It is deployed in any tesnet?
+maaria.eth says what kind of integration are you looking for? it's currently live here: https://www.apecoinmarketplace.com/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/networks/mainnet
+0xwebmoss says Not sure there's an api to the marketplace directly, maybe this helps https://docs.apestake.io/
+0xwebmoss says I'm using Nft Port and Infura NFT api to pull NFTs by contract address and get NFt details that way, is that what you trying to do?
+0xwebmoss says Found some cool digital assets on Yuga labs if you'll need for your projects. Just search for their media kit
+0xwebmoss says Happy coding frens 🐒
+ivanmolto says Thank you for sharing 🙏🏽
+ialberquilla says I want to publish NFTs created in our project to your markerplace. But the marketplace always ask to switch the network to Etereum Mainnet
+maaria.eth says the marketplace is dedicated to specific NFT collections, it is not an open marketplace so you would not be able to publish NFTs onto the platform
+0xwebmoss says Oh wow, I'm really having fun with this buidl, so many cool ideas to play with, full ape mode engaged
+hodlr says https://media.discordapp.net/attachments/961119751818588170/971318627582218260/digapecoin.gif
+0xwebmoss says Buidlin with pace and vigor ... 🐒🧪
+0xwebmoss says Hi, please follow my buidl in the open on Twitter at @ApeInn_
+0xwebmoss says Will greatly appreciate a like and share 🙏 😊
+anky_but_on_steroids says Yooooo
+0xwebmoss says Is there anyone we can reach out to about the Ape staking docs, got figures pulling for my dashboard but mine seem different 🤔 just want to try see if I'm calc'ing it correct?
+maaria.eth says https://docs.apestake.io/
+maaria.eth says is that what you're looking for?
+0xwebmoss says Hi, kinda, been going through that and implementing, the values come back as hex and I'm doing a conversion but not sure its correct, trying to match up my values to the apestaking site built by horizon but no Bueno, their pool APYs differ, etc
+0xwebmoss says Its the get Pool details call I'm querying I guess
+0xwebmoss says Was also getting an error on this one for some reason https://docs.apestake.io/#/Reading?id=get-individual-stake
+maaria.eth says do you have a github repo you can share?  or some screenshots of the errors you're having? Also, there was an open source client made for staking that may be a helpful resource https://github.com/apestakeui/ui
+0xwebmoss says Thanks, thats great, I'll give it a read through first my demo is here https://apeinn.xyz/
+0xwebmoss says If it breaks, just keep the pieces 🙉🙈🙊
+0xwebmoss says <@570693318133022768> <@205811956169310208> Hiya, I just pushed some fresh updates to apeinn.xyz, please let me know if you see your NFT's on the search view, it should list all your BAYC, MAYC and BAKC NFT's, if you click on one it should open a new NFT view, it works for me on Goerli but I got no Real Apes to play with, just wanna make sure it works because I'm switching contracts from Goerli to Ethereum for the production site
+0xwebmoss says many thanks in advance 🙏
+maaria.eth says hey!!! didn't see my sewer pass show up. that might be because I burned it for the new HV-MTL collection? https://zapper.xyz/nft/ethereum/0x4b15a9c28034dc83db40cd810001427d3bd7163d?tab=explore
+maaria.eth says also yoooo this site is pretty dope!!! its a one stop shop
+0xwebmoss says Hey, thanks, greatly appreciated...been having a lot of fun with it, loads to build out but getting there ... will checkout the sewer pass code and see, its linked to the live contract and uses NFT Port to pull nft deets so maybe something up there
+0xwebmoss says Thanks for checking, a star 🌟  you are
+0xwebmoss says Hiya, I added that HV-MTL contract to the list on the Search so you can check if you like, it should show under the Sewerpass row now for Ethereum chain ... let me know if you see it, and send us a screenshot please, sharing is caring <:nfthack:819973379049127996>
+0xwebmoss says Might need to try here https://apeinn.netlify.app/
+0xwebmoss says Godaddy giving me issues
+fabriziogianni7 says hey guys,  I would to talk with you about some project. can you reach out?
+maaria.eth says wooohooo it worked!!!!
+maaria.eth says hey! what's up? theres a few folks from the ape community in here so feel free to ask your questions in here
+0xkamal7 says Bullish about building for apecoin
+Here we share our first glimpses. 🤞🏻 https://twitter.com/building4APE/status/1638960791780216833
+0xwebmoss says https://tenor.com/view/bayc-bored-ape-dance-gif-22713434
+0xwebmoss says sweet tea and biscuits
+0xwebmoss says https://tenor.com/view/community-geek-gif-5468706
+0xwebmoss says What happens if you click on the NFT, does it load all the deets in the nft view yet? Or does that still come? Keen to check the final result once the nft "evolves", they robots right?
+maaria.eth says Here's what happens when i click on the NFT
+maaria.eth says wooo!
+0xwebmoss says Nice man, see you got ol push protocol firing away there, lekker, as they say here in South Africa 🇿🇦
+0xwebmoss says If you need some Apecoin images, etc. Let me know, found a few cool images you can use on your Twitter and site.
+0xwebmoss says Thanks, will investigate 🔎
+0xkamal7 says Thank you , your's too looks amazing UI.
+0xkamal7 says cc  <@907085501222240337> can you connect nd tk on things.
+0xwebmoss says I sent him a friend request
+aarav4838 says Sure
+0xwebmoss says https://tenor.com/view/the-end-is-near-homer-simpson-its-coming-the-simpsons-gif-4804767
+marcosha says is the apecoin deployed on goerli testnet? can i get some funds?
+marcosha says 0xeF37717B1807a253c6D140Aca0141404D23c26D4
+0xkamal7 says nope only on Mainnet
+jvaleska says Can I post my project and maybe get some feedback?
+0xwebmoss says Feel free to post, not sure if you only want sponsor feedback though? We a small motley crew over here in the Apecoin channel, happy to help a fellow hacker
+0xwebmoss says Hows the updates looking <@907085501222240337>, you need anything my brother
+0xwebmoss says Gonna be online for the rest of the day banging away on ApeInn, so let me know if you do
+0xwebmoss says Hey, check the Apecoin staking docs, might find something in there, links from the prizes page
+0xwebmoss says See here https://docs.apestake.io/#/
+jvaleska says hey hey
+This is a link to my project showcase, live website link and github included.
+https://ethglobal.com/showcase/apeslegacy-aw48c
+jvaleska says Hope you like it 💜  I had fun building it!
+0xwebmoss says Very cool idea, love it and defos a use case for all NFTs, especially as NFTs move out into different scopes other than jpegs, etc. Well done, did you hack solo on it
+0xwebmoss says https://tenor.com/view/all-of-us-now-tired-sleepy-im-tired-so-tired-gif-18663320
+jvaleska says thanks 💜  yeah, I am thinking to present some EIP to add the inheritable functionality as a ERC, so every dev could make inheritable nfts in a easy way if they want and with no extra contracts, but it wont be available for previous collections, these ones need a structure like this dApp. yeah, solo hacking, but It is nothing complex, I spent the most of the time with the notifications system. Also the project is opened to suggestions, changes and improvements
+0xwebmoss says https://tenor.com/view/hey-duggee-hug-birthday-gif-22240999
+0xwebmoss says You've got a good description in your showcase, maybe try bring some of that info into the demo site, try explain a little more and even work in a use case to tell a story. Otherwise I dug it
+0xwebmoss says Gotta add this somewhere on home page, your catch phrase if I can call it that 'The mechanism is not like the real world inheritance. It is decentralized, fast, easy, cheap, no paperwork, no third parties, infallible, immutable, flexible, trusted... So, better.'
+0xwebmoss says My submission is in for Apecoin hack track and here's what I built, I hope you enjoy... Please don't use real Apecoin or Ape NFT's in the staking, just in case, it needs more work and testing.
+
+Name: 🐵 The Ape Inn
+Description: The Ape Inn is where all the big apes come to play... Stake, swap or shop with all your Apecoin $APE's. Checkout our Gucci Ape merch section for limited releases, Ape AI search and so much more.
+Github: https://github.com/Webmoss/ape-inn
+Demo: https://apeinn.netlify.app/  or https://apeinn.xyz/
+Public URL: https://ethglobal.com/showcase/the-ape-inn-1ntf4
+aarav4838 says Have a look at our project.
+
+https://ethglobal.com/showcase/apecoin-dao-9ew12
+0xkamal7 says Cool , Nice Submission 🐵
+0xwebmoss says Excellent, well done guys
+jvaleska says thanks 💜 sure, thats a great idea! thanks again mate!
+ivanmolto says Awesome hackathon with great submissions. Good luck for everyone. Here is my submission https://ethglobal.com/showcase/ape-alpha-uj78z
+0xwebmoss says Very cool, was thinking where I can get all those juicy stats and now I know, well done
+0xwebmoss says Also see my staking apy's are off a digit ... lol 😆was confused by that
+ivanmolto says Thank you! The thing is I have seen very good ideas here. Love all of them. About the staking I was reading the staking contract.
+0xwebmoss says I see you ApeVerse, you sneaky banana, also a very cool project
+0xwebmoss says Checkout Apecoin UEFN project, thats dope, well done
+0xwebmoss says Great concept by Apes Refi Club
+0xwebmoss says Some DAO magic by Ape X Govern
+0xwebmoss says Last one I could see was APE Dao (2.0), another cool DAO tool
+0xwebmoss says Awesome projects everyone 👏 well done
+0xwebmoss says You can find all projects here https://ethglobal.com/showcase?events=scaling2023
+ervin.zk says Hello everyone. This is Ervin. This time we built an ape domain service in which people are able to cross chain the .ape names on different blockchain platforms. Please kindly find our showcase here. https://ethglobal.com/showcase/star-name-service-omnichain-platform-s8wb2
+maaria.eth says AMAZING SUBMISSIONS EVERYONE!!!!!
+ivanmolto says Hey <@570693318133022768> just sending a DM. Thank you
+dev_jdeed says Crazy projects just wow!
+dev_jdeed says goodluck to everyone
+aarav4838 says <@570693318133022768> In our project, we have disabled token gating just for judging,
+aarav4838 says So the judges could have access to the merch page
+hodlr says gm contributors ! I’m Lost, one of the judges here and an elected Steward in the ApeCoin DAO. 
+
+I submitted my choices last night and I want to say that I was incredibly impressed by the caliber of hacks we received.
+
+This has been eye opening for me as a comparison to the current state of our DAO, including incoming proposals, and I’d like to welcome everyone to continue contributing to the apecoin dao. Our DAO is still young, learning, growing, and there’s unlimited potential to come and create an impact together.
+
+I hope you all had a chance to join us in the Discord and Discourse already, if not it’s pinned here. Looking forward to seeing the results posted.
+
+Also, I’d like to invite you all to consider submitting a grant request proposal to the apecoin dao directly on Discourse(pinned) if you’re working on something you feel has the potential to really make an impact.
+0xwebmoss says Hi Lost, thanks for your wonderful feedback, its greatly appreciated. I'm sure the rest will agree, we all eagerly awaiting tomorrow's results. I slid into discord but must checkout discourse still, I would definitely like to find out more and have a few questions, but will save them for another day I think. Thanks again to Maaria for all your help, a star you are. Regards Craig Moss
+0xwebmoss says Good luck frens, only one more day to go
+hodlr says Happy to answer questions here for the benefit of anyone who maybe looking in, or if you prefer to dm that’s okay too. You’ll have to send a  friend request though so I can accept a dm🧡
+0xwebmoss says Thanks again Lost, I'll drop a dm and link in discord. I guess my first question is about IP and usage, in my project I got a little creative so want to make sure I'm not overstepping boundaries in that regard. Then I'd like to try get some feedback on what worked, what didn't in my project and maybe get some suggestions on features the great apes would like to see built on ... I'm gonna try link with NF3 Exchange and would love to chat to them and see how we can work together perhaps and utilize the foundation they provided. Lastly thing is there a few awesome project here, so again seeing how we can work together and help grow our projects in the Apecoin system collectively,
+jvaleska says I just want to congratulate all the hackers and sponsor staff for their work and add that as a builder I have no problem to contribute and collaborate to improve the ecosystem, either through my project, or with new ideas, we all know that this world is changing every second. Thanks again and congrats 💜
+dev_jdeed says WOW **Makes Ape noises**
+dev_jdeed says **
+dev_jdeed says Congrats everyone, I'm a see if I can take my project to the next level adding more features. Thanks Guys ❤️
+0xwebmoss says Well done everyone and congrats to Apecoin UEFN, loved your project and so did my son, very well deserved. Look forward to hacking with you all again soon ... happy coding frens
+0xwebmoss says A gargantuan thank you to Maaria and Lost, I don't think you realize what a positive change you have made in my families life today, for that I'm truly grateful, thank you ♥️
+ivanmolto says Congrats to the winners 🏆
+mckitat says For all the builders out there, we'd love for you to start using our product Zkaptcha (anti-bot protection) for your NFT collections. Thank you Apecoin for the recognition! For those interested, fill this 30 second form out and we'll reach out to you!
+https://docs.google.com/forms/d/e/1FAIpQLSeJu-kGFT8kUHVo__dQU_IB-KbF6cTab0F1pHSHe6ndtr_1ZA/viewform
+dev_jdeed says Can anyone join the discord to apply for a grant?
+dev_jdeed says You did it WebMoss congrats on your submission
+0xkamal7 says Happy for everyone who won ⭐ and  for everyone who put in great efforts to build awesome submissions. ✨ 
+
+However, I thought one sponsor could nominate only 1 project  in any category ! But Surprisingly saw one project getting two different categorical Prizes within the same sponsor.
+Were the rest not to the level of making to the mark ? 
+Think Ape Sync could have been a good contender 👀 ?
+
+Would love to have some clarifications over this from <@205811956169310208> <@570693318133022768>
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+ApeCoin serves several purposes including: 
+
+*   Governance - allows ApeCoin holders to participate in the ApeCoin DAO 
+*   Unification of Spend - shared and open currency across more NFT native communities 
+*   Access - exclusive games, merch, events, and services 
+*   Incentivization - tool for third-party developers to incorporate APE into their services, games, and other projects
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best Integration:**
+🥇 First Place - $3,000 
+🥈 Second Place - $2,000
+
+**Best Contribution:**
+🥇 First Place - $3,000
+🥈 Second Place - $2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🚀 **WORKSHOP**
+ ApeCoin DAO Workshop 🛠
+Time: 6:00 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+http://apecoin.com/
+http://twitter.com/apecoin
+http://forum.apecoin.com/
+https://discord.gg/wg0
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/
+https://github.com/apestakeui/ui
+https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+https://snapshot.org/#/apecoin.eth)
+https://docs.snapshot.org/guides/graphql-api
+https://delegate.apecoin.com/
+https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png - not to be used for commercial purposes
+raimie says Hey guys, looking for teammates for the ApeCoin prize. Anyone keen to join us?
+Jaewon says Hey Ape coin! How can I get in touch with the team?
+maaria.eth says hey ya'll what's up? you can message us here or come see us at our sponsor booth <@1002429967071727616>
+Jaewon says Hey <@570693318133022768>
+Jaewon says Could you please provide some detailed info about Best Contribution? <@570693318133022768>
+Jaewon says <@570693318133022768>
+maaria.eth says Best contribution is around NFT tooling or DAO tooling. Something that is valuable for Apecoin but has the potential to be applied to broader communities or use cases
+Jaewon says We haven't been able to integrate apecoin right now, but is it okay to apply if we have room to help the NFT community? <@570693318133022768>
+maaria.eth says You can apply but priority will probably be given to projects that use apecoin in some way
+Jaewon says How about the product for Ape coin holders? <@570693318133022768>
+maaria.eth says I don’t think I understand the question
+joyfuljoy410 says Are you still up?
+richik1999 says Hey guys, I am at EthTokyo, trying to stream APE coins by wrapping them using Superfluid. But APE coins are not there on Polygon Mumbai and I do not have any APE coins on the mainnet. Please help here!
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471>channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+ApeCoin serves several purposes including: 
+
+*   Governance - allows ApeCoin holders to participate in the ApeCoin DAO 
+*   Unification of Spend - shared and open currency across more NFT native communities 
+*   Access - exclusive games, merch, events, and services 
+*   Incentivization - tool for third-party developers to incorporate APE into their services, games, and other projects
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best Integration:**
+*   🥇 First Place - $3,000
+*   🥈 Second Place - $2,000
+
+**Best Contribution:**
+*   🥇 First Place - $3,000
+*   🥈 Second Place - $2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🔗 **IMPORTANT LINKS**
+http://apecoin.com/
+http://twitter.com/apecoin
+http://forum.apecoin.com/
+https://discord.gg/wg0
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/
+https://github.com/apestakeui/ui
+https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+https://snapshot.org/#/apecoin.eth
+https://docs.snapshot.org/guides/graphql-api
+https://delegate.apecoin.com/
+https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png - not to be used for commercial purposes
+allcity says HelloHello...
+maaria.eth says EXCITED FOR ETH LISBON!!!!!
+anne_well says GM all! 
+
+Feel free to reach out to me if you have any comments, questions , concerns.
+
+
+Looking forward to seeing your projects!
+marciob says <@708364669693198398> 
+is it eligible if we deploy an APE coin contract on Gnosis for demonstration?
+complexiasc says Bom dia all! 
+
+I am building Qsound - a music platform where music is content gated to NFTs. They can be general pass NFTs minted on Qsound, but can also be arbitrary NFTs (such as a bored ape) - anything the artist/publisher decides is the best way to promote their music. 
+
+I'm looking for some test NFTs. Is that a thing?
+
+address is 0x63bF7B0834a014540d29A93Dbe230A629C10601e
+
+Thanks!
+complexiasc says <@708364669693198398>
+0xmantastic says <@708364669693198398> Is anyone around from the Apecoin team? Wanted to give a huge shoutout to you guys! -team Otherswipe for the Otherside 🦧
+anne_well says GM! We will be at Raave ! 
+
+Congrats to everyone who won!
+0xmantastic says Ah ok, no rAAVE tickets for us though 😦
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+ApeCoin serves several purposes including: 
+
+*   Governance - allows ApeCoin holders to participate in the ApeCoin DAO 
+*   Unification of Spend - shared and open currency across more NFT native communities 
+*   Access - exclusive games, merch, events, and services 
+*   Incentivization - tool for third-party developers to incorporate APE into their services, games, and other projects
+
+
+🏆 **PRIZE OVERVIEW**
+*More to come!*
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/hackfs2023/prizes
+grav3r says <:duke:969348488301248625> <a:gm:944316837137641552>
+mattydoe says GM ApeCoin!
+madhav_28_ says Hey Apecoin....
+madhav_28_ says I am building a project called park3   , in which we are building  a dao for people to vote,
+madhav_28_ says Uses have to stacked their apecoin, and the reward will be later than rewarded to users as an  appreciation for voting
+madhav_28_ says How can I build this , is there is a guide/docs Thanks
+cyberroninn says Not sure they are online yet, but Anne  is one of the sponsors <@968060194212950056>
+madhav_28_ says <@708364669693198398> Hey
+madhav_28_ says <@708364669693198398> Does the apecoin supports FILECOIN network. We are planning to build dataDao, in which we are thiinking of using the Apecoin as a staking and Governance Token  token
+YAGPDB.xyz says Gave up trying to execute custom command #5 after 1 minute because there is already one or more instances of it being executed.
+mattydoe says GM everybody.  looking forward to using Apecoin in our project !
+.wurdig says Hey Team! Is there a testnet APE on FIL?
+mayurrrr says any mentor available for call??
+neogoku5 says Hi, any mentor from apecoin? we would like to quickly sync for validating ideas
+nunohvreis says Hey 👋  Just pinged them, ApeCoin team should be here ASAP 🙏
+arredr2 says <@724428675348430928>
+arredr2 says <@781392213011595265>
+gerry0070 says I can jump in a call or a Discord VC to answer any questions I can tomorrow afternoon CST
+gerry0070 says <@755799954513068172>
+mattydoe says Cool thank you
+madhav_28_ says Hii We are building  IPHS -> "Inter Planetary Cultural Storage"  Network 
+It will be a "Global Cultures DataDAO"
+
+Preserving cultural histories and places in a dynamic data verification and processing system.
+Creating standards for archival data in a new decentralized records network.
+Enabling DeSci communities to study public data and use it for innovations.
+
+I am looking forward to use apecoin as a Governance token for IPCS. Currently I am going to deploy contracts on Callibration testnet. So Is there any testnet apecoin for callibration are there. So I can use them 
+
+<@872254060005310544> <@712426851259252766> <@724428675348430928> <@781392213011595265>
+nunohvreis says <@1014005774084735077> or <@781392213011595265> should be able to help you, <@968060194212950056> 🙂 tagging them for vis
+madhav_28_ says Sure
+madhav_28_ says <@712426851259252766> <@872254060005310544>  <@724428675348430928> <@781392213011595265>  Can Anybody help from the apecoin team. We ought to use apecoin as a governance token in our project
+veratheape says I’m not aware it on calibration testnet but let me double check. It’s on Goerli testnet.
+madhav_28_ says So <@781392213011595265> Is it possible if i deploy my contract on Callibration testnet and can used the apecoin testnet tokens which are on goerli testnet for governance features. As We are building a project called Inter Planatery Cultural Storage , It will be datadao. And I am looking to use Testnet Apecoins as a governance and voting token
+gerry0070 says This is the contract I used to test with 
+
+0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+gerry0070 says There are two...I will verify this is the latest
+madhav_28_ says On WHich blockchain it is on
+gerry0070 says Apologies. Goerli
+gerry0070 says ETH Testnet
+madhav_28_ says And How can I get apecoin testnet tokens? is there any faucet?
+gerry0070 says Give me a few minutes I'll track down the faucet.  Its been a while since I used it.
+madhav_28_ says Sure No Problem Mate
+gerry0070 says The mint function is 4.
+gerry0070 says 
+gerry0070 says Of course please only mint what you need 🙏
+madhav_28_ says Okk so anyone can mint , any amount of tokens for themselves?
+gerry0070 says correct
+madhav_28_ says <@724428675348430928>
+gerry0070 says Yeah so if you plan to use the tokens on the testnet to test governance you're good, if you try and use them to actually govern thats not going to work.
+gerry0070 says Well it would until someone figured out they can mint as many as they like
+gerry0070 says But for testing it should be great.  I haven't used the calibration testnet so I may be missing a little context
+gerry0070 says As far as I'm aware there are no calibration Testnet ApeCoin tokens
+madhav_28_ says Can I custom build those for demo purposes?
+gerry0070 says Yes
+madhav_28_ says If I custom build my one Apecoin tokens and deploy it on callibration testnet. Then Will I still be eligible for prizes?
+gerry0070 says I'm not aware of a rule that would prohibit that.  Let me double check before I misspeak though
+madhav_28_ says yeah Please
+gerry0070 says Love the idea to use ApeCoin as governance
+maaria.eth says yeah you'll still be eligible. i'm not familiar with callibration testnet but we've given away prizes to projects built on goerli before so this shouldn't be an issue
+veratheape says You can also deploy an ERC20 token(mock apecoin) on the Calibration testnet.
+madhav_28_ says Thanks for the help
+madhav_28_ says sure
+madhav_28_ says <@570693318133022768> <@724428675348430928> <@781392213011595265> Deployed Contract Address of Apecoin Testtokens on Callibration testnet is this --> 0x23526C1341f844864AC5B95A19b7f5842E3fd90b . And Code is This --> 
+
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.10;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract SimpleERC20 is ERC20 {
+
+
+    constructor() ERC20("APECOIN", "APE"){
+    }
+
+    function mint(address to, uint256 amount) public{
+    
+        _mint(to, amount);
+    }
+}
+
+Does <@570693318133022768> <@724428675348430928> It will work  for hackathon  prizes?
+maaria.eth says are you just minting test APE to show the use case in your application?
+maaria.eth says there's the Goerli testnet APE coin as well. I can send you that hang on
+maaria.eth says https://discord.com/channels/554623348622098432/1031686703246737471/1084222350070919239
+madhav_28_ says Nope these  apecoin test token are deployed on calibration testnet , and these will works as voting tokes
+madhav_28_ says For the application
+maaria.eth says That should be fine. Our voting happens on Snapshot and we allow (1) delegation and (2) voting from APE that is currently being staked. So I would just keep that in mind when building out the voting application.
+maaria.eth says you can check out the strategies that we use for voting here: https://snapshot.org/#/apecoin.eth/settings
+madhav_28_ says <@570693318133022768> So In my project there will be two usecase for apecoin , first we will be when anybody wants to mint an nft , then he/she would give a certain amount of apecoin token ad fees and when there will be voting,  a voter has to hold minimum 1 apecoin testnet token
+maaria.eth says the voting mechanism makes sense. When you say someone will give a certain amount of apecoin token as fees, do you mean they are covering gas in APE or that the NFT is being sold in APE? or something else entirely?
+madhav_28_ says So,  so fees will be paid in fil coin, but we are gonna to charge user some 0.01 apecoin to mint an nft , which will be later used to incentives the voters and mainteing the project
+maaria.eth says got it. yeah those test net tokens should be fine
+madhav_28_ says Thanks
+mattydoe says Thank you Apecoin team!!! we had a great time in this hackathon making our app "inter planetary cultural storage"🚀
+steph.lens says gm Apecoin DAO! Check out Wallet OTP, a 2 factor authentication one-time-password generator for any web2 or web3 app. If you log into Wallet OTP from a wallet that stakes or holds $ape, you get a special verified APE theme. https://www.ethglobal.com/showcase/wallet-otp-one-time-password-pp9gx
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+👀 **ABOUT**
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+ApeCoin serves several purposes including: 
+
+*Governance - allows ApeCoin holders to participate in the ApeCoin DAO 
+*Unification of Spend - shared and open currency across more NFT native communities 
+*Access - exclusive games, merch, events, and services 
+*Incentivization - tool for third-party developers to incorporate APE into their services, games, and other projects
+
+
+🏆 **PRIZE OVERVIEW**
+Best Integration: Best use of ApeCoin in a dApp or application. This includes things like payments and gaming.
+🥇 $3,000
+🥈 $2,000
+
+Best Contribution: Relates to tooling and experiences around using NFTs in games, phygital, or metaverse experiences. Should use ERC-6551, ERC-4337, or another new ERC standard in its architecture. 
+🥇 $3,000
+🥈 $2,000
+
+**↓ Full Prize Breakdown ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🔗** IMPORTANT LINKS**
+http://forum.apecoin.com/
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/
+https://github.com/apestakeui/ui
+https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+https://snapshot.org/#/apecoin.eth
+https://docs.snapshot.org/guides/graphql-api
+https://delegate.apecoin.com/
+https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png - not to be used for commercial purposes
+maaria.eth says We updated the Contribution prize pool. Here are the updated prizes and prompts:
+
+**Best Integration**: Best use of ApeCoin in a dApp or application. This includes things like payments and gaming.
+
+*   🥇 $3,000
+*   🥈 $2,000
+
+**Best Contribution**: Relates to tooling and experiences around using NFTs in games, phygital, or metaverse experiences. Should use ERC-6551, ERC-4337, or another new ERC standard in its architecture. 
+
+*   🥇 $3,000
+*   🥈 $2,000
+leeederek says Hello <@570693318133022768> , gm! 
+
+We're building a smart contract auditing tool. Do you have any ApeCoin specific contracts that we can audit to test functionality? Examples could include upcoming changes or implementations of code to the ApeCoin ecosystem. We can also audit smart contracts that are being submitted to ApeCoin for this hackathon as well. Please let me know 🙂
+tomi2253 says Hi there, I’m building a solution to give DAO members more confidence in their vote. This leverages AI. I want to confirm how to best use ApeCoin so I’m  eligible for your prizes.
+tomi2253 says Is there someone I can DM and have a quick chat with?
+tomi2253 says Or speak to here at the hackathon
+tomi2253 says <@570693318133022768>
+maaria.eth says Hey we don’t have ang upgrades coming to it!
+maaria.eth says Hey! I’ll be at the booth in an hour. There may already be some other folks there right now
+maaria.eth says <@385594413281443842> someone is there now!
+tomi2253 says missed this
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin DAO Team at any point with your questions!
+
+👀 **ABOUT**
+**ApeCoin** is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3. Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events. 
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best Integration: Best use of ApeCoin in a dApp or application. This includes things like payments and gaming.
+🥇 $3,000
+🥈 $2,000
+
+Best Contribution: Relates to tooling and experiences around using NFTs in games, phygital, or metaverse experiences. Should use ERC-6551, ERC-4337, or another new ERC standard in its architecture. 
+🥇 $3,000
+🥈 $2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+http://forum.apecoin.com/
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://docs.apestake.io/
+https://github.com/apestakeui/ui
+https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+https://snapshot.org/#/apecoin.eth
+https://docs.snapshot.org/guides/graphql-api
+https://delegate.apecoin.com/
+https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png - not to be used for commercial purposes
+awliang says 
+awliang says Hello and welcome to the <#1031686703246737471> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ApeCoin Team at any point with your questions!
+
+👀 **ABOUT**
+ApeCoin is an ERC-20 governance and utility token for decentralized communities building at the forefront of culture and web3.
+
+Yuga Labs, the company behind the Bored Ape Yacht Club ecosystem, is a contributor to the APE ecosystem and is adopting ApeCoin as the primary token for the BAYC ecosystem as well as upcoming metaverse and gaming experiences. 
+
+APE adoption will be driven largely by communities who are driving culture forward through NFTs, art, gaming, entertainment, community and events.
+
+ApeCoin serves several purposes including: 
+- Governance - allows ApeCoin holders to participate in the ApeCoin DAO 
+- Unification of Spend - shared and open currency across more NFT native communities 
+- Access - exclusive games, merch, events, and services 
+- Incentivization - tool for third-party developers to incorporate APE into their services, games, and other projects
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best Integration:** Best use of ApeCoin in a dApp or application. This includes things like payments and gaming.
+🥇 $3,000
+🥈 $2,000
+
+**Best Contribution:**
+🥇 $3,000
+🥈 $2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+http://apecoin.com/
+https://goerli.etherscan.io/address/0x328507DC29C95c170B56a1b3A758eB7a9E73455c
+http://forum.apecoin.com/
+http://twitter.com/apecoin
+https://etherscan.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381
+https://snapshot.org/#/apecoin.eth
+https://docs.snapshot.org/guides/graphql-api
+https://delegate.apecoin.com/
+https://docs.apestake.io/
+https://github.com/apestakeui/ui
+https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7913.png -- not to be used for commercial purposes
