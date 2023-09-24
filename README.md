@@ -19,6 +19,13 @@ Just do `npm install --global yarn` to install yarn
 - run `node telegram.js`
 - the output file is now in telegram_output
 
+### How to run discord chat server
+
+- cd into `gpt-bot`
+- run `yarn`
+- run `node index.js`
+- Thats it! Your bot should be online now. 
+
 
 
 
