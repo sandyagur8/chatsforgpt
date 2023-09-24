@@ -1,0 +1,534 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"343481730360934411","mortimr","29/01/2022 12:07 am","Hey ! Been playing around with Warp and came across an error. Whenever I cast an address to some uint type, the warp test or warp transpile command fails with a ""No such file or directory: './contracts/Contract_marked.sol'"" error","",""
+"343481730360934411","mortimr","29/01/2022 12:08 am","I'm simply doing this
+```
+        if (uint160(token0) > uint160(token1)) {
+            return (token1, token0);
+        }
+```
+and then I'm unable to test or transpile, as soon as I remove the condition (or replace it with `if (true)`), it works again","",""
+"882552936046149662","swp0x0","30/01/2022 11:35 pm","Is the type of token0 address? Since the size of addresses on starknet is 251 bits (felt) we can't allow casting to uint160, try replacing the cast to uint160 with a cast to uint256","",""
+"343481730360934411","mortimr","31/01/2022 1:56 am","in the end I decided to do it in cairo. Was using solc 0.8.x and casting address to uint256 is not allowed iirc","",""
+"882552936046149662","swp0x0","31/01/2022 1:59 am","We have a modified solc packaged with our compiler. Since addresses are different sizes on starknet and ethereum we have to add this restriction","","👌 (5)"
+"899660332144930826","Henri#6408","02/02/2022 10:15 pm","Hello, how's it going?
+I am trying to use warp but I am facing the following issues:
+- How do I check that my Solidity compiler version is >= 0.8.0 ? I usually use truffle and solc is installed locally but not globally. Should I installed it? Is it worth adding in the readme?
+- In my contract, does this mean I can only transpile contract with `pragma solidity ^0.8.0;` ?
+- To warp a contract `contract test {}` in test.sol in the current directory, is the proper command ` warp transpile . test   ` or ` warp transpile test.sol test    ` or something else?
+All of these fail with the same error","",""
+"899660332144930826","Henri#6408","03/02/2022 2:26 pm","ping @swp0x0","",""
+"242639311290368000","mempoolsurfer","03/02/2022 7:37 pm","Hello @Henri-l | StarkWare ,
+
+- we only support the `^0.8.0` pragma so your contract will need to be prefixed with that and only use the associated solidity semantics. This is because we had to patch `solc` and we've only applied the patch to the latest version.
+- `warp transpile test.sol test` is the correct command, the pragma change should fix the associated errors","",""
+"899660332144930826","Henri#6408","03/02/2022 11:09 pm","cool, I'll check thanks","",""
+"585509977079283744","aundumla","15/02/2022 7:59 pm","Why abi of warp compiled contract does not match original solidity abi? Only __main is marked as external?","",""
+"242639311290368000","mempoolsurfer","15/02/2022 10:27 pm","@maciejka 
+
+Ah yeah, this is because we do transpilation of the yul output of solc. This is a low level implementation of how solidity works which generates a single function that acts on solidity calldata including the function selector, as a result we only have one entry point (`__main`). Right now the best way to interact with these functions is through the warp cli which will transform the input data to match `__main`'s expectations.
+
+The next release of warp will produce contracts that are a lot closer to the original solidity and will have abi's that resemble the original abi's (with the solidity types replaced with the equivalent representation in cairo types) .
+
+Incidentally dropping this approach is part of the big optimisation in the next release","","👍 (1)"
+"585509977079283744","aundumla","16/02/2022 2:32 am","How do you call current release? I am writing down my warp experiments results here: https://github.com/maciejka/warp-experiments. It would be good to tag them with the version name.","",""
+"882552936046149662","swp0x0","16/02/2022 4:13 pm","In our discussions we usually make the distinction by calling the publicly available warp, warp-yul and the unreleased just warp.
+You could just use the version numbers to make the distinction.","",""
+"242639311290368000","mempoolsurfer","16/02/2022 7:04 pm","The current version being v1.0.0","","👍 (2)"
+"823926145950548069","greg_vardy","17/02/2022 6:48 pm","Hey, this is the result with Warp 2.0:
+```
+TransactionExecutionInfo(l2_to_l1_messages=[], retdata=[], call_info=ContractCall(from_address=0, to_address=853031882329879988110788167131438560599508991440602885024179159002209265266, code_address=853031882329879988110788167131438560599508991440602885024179159002209265266, entry_point_selector=1159040026212278395030414237414753050475174923702621880048416706425641521556, entry_point_type=<EntryPointType.CONSTRUCTOR: 2>, calldata=[], signature=[], cairo_usage=ExecutionResources(n_steps=141, builtin_instance_counter={'pedersen_builtin': 3, 'range_check_builtin': 9, 'bitwise_builtin': 0, 'output_builtin': 0, 'ecdsa_builtin': 0, 'ec_op_builtin': 0}, n_memory_holes=22), events=[OrderedEventContent(order=0, keys=[1721755586656337256828716504348548063126269799266918699117823686106611979840], data=[0])], l2_to_l1_messages=[], internal_call_responses=[], storage_read_values=[0, 0, 0], storage_accessed_addresses={836735127226530856290038377916146650151565133455895011807651666118175808177, 1165551277826709238745824463394777050368434019895407989733095195173621241026, 1165551277826709238745824463394777050368434019895407989733095195173621241027}), internal_calls=[])
+```","",""
+"823926145950548069","greg_vardy","17/02/2022 6:48 pm","As you can see it uses 141 steps, which is pretty close to 111","",""
+"823926145950548069","greg_vardy","17/02/2022 6:48 pm","can you add it to your repo @maciejka ?","",""
+"823926145950548069","greg_vardy","17/02/2022 6:52 pm","Our transpiled contract is also smaller, `dai_warp2: 1012K` `dai_native: 1.1M` (compiled)","",""
+"823926145950548069","greg_vardy","17/02/2022 6:55 pm","Also, your constructor is incorrect. it should be something like:
+```
+@constructor
+func constructor{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr
+  }():
+    let (caller : felt) = get_caller_address()
+    _wards.write(caller, 1)
+    Rely.emit(caller)
+    return ()
+end
+```","",""
+"585509977079283744","aundumla","17/02/2022 7:07 pm","It was written before `get_caller_address` was available. And even now it is not possible to deploy from arbitrary address, so get_caller_address is always 0 in constructors.","",""
+"585509977079283744","aundumla","17/02/2022 7:10 pm","Looks like great progress! How can I test warp 2 by myself?","",""
+"585509977079283744","aundumla","17/02/2022 7:12 pm","Generally yes, but I need to think how to reorganise the page to include more results. And I would like to try more methods.","",""
+"823926145950548069","greg_vardy","17/02/2022 9:57 pm","We'll be making it public in the coming weeks","",""
+"823926145950548069","greg_vardy","17/02/2022 9:57 pm","","https://cdn.discordapp.com/attachments/935889632124616765/943906518909198356/steps.png",""
+"585509977079283744","aundumla","17/02/2022 9:59 pm","Promising!","",""
+"585509977079283744","aundumla","18/02/2022 2:36 am","Added version 2.0 info: https://github.com/maciejka/warp-experiments. I hope it is ok to include your chart.","",""
+"585509977079283744","aundumla","18/02/2022 3:14 am","Does version 2.0 generate transpiled cairo?","",""
+"823926145950548069","greg_vardy","18/02/2022 2:10 pm","Yeah","",""
+"823926145950548069","greg_vardy","18/02/2022 2:10 pm","Thanks!","",""
+"837722460232482836","sliver#8863","18/02/2022 9:01 pm","do u think it would still be worth learning cairo even though Warp is showing great progress?","",""
+"837722460232482836","sliver#8863","18/02/2022 9:01 pm","if u know solidity and can deploy solidity contracts to starknet, why learn cairo?","",""
+"754641878934225008","odinfree","19/02/2022 6:13 pm","To make things, solidity cannot do.","",""
+"823926145950548069","greg_vardy","20/02/2022 2:03 am","Yeah, it will alway be worth learning Cairo","",""
+"585509977079283744","aundumla","21/02/2022 2:34 am","feature request: add `--version` parameter to the `warp` command","",""
+"390363276577341448","okuyiga","21/02/2022 1:53 pm","whats the best way to debug the following error? 
+```ERROR: Compilation failed
+```","",""
+"390363276577341448","okuyiga","21/02/2022 1:54 pm","dont see anything too insightful in the stack trace","",""
+"242639311290368000","mempoolsurfer","21/02/2022 5:18 pm","Can do","","👌 (1)"
+"823926145950548069","greg_vardy","21/02/2022 6:31 pm","Can you paste the solidity here?","",""
+"446493540629872651","garbin#0607","28/02/2022 5:48 pm","why your game in a zip file ?","",""
+"754641878934225008","odinfree","28/02/2022 6:23 pm","we deleted it, it was a scam.","",""
+"343481730360934411","mortimr","28/02/2022 8:10 pm","Hey warp team ! Found a flattening issue on a comment edge case. Opened a new issue on gh ! https://github.com/NethermindEth/warp/issues/261","",""
+"753127877914132481","pyramidmaker","28/02/2022 10:21 pm","Hi team, what is the new date for the warp walkthrough that was going to happen last week?","",""
+"511272055623122961","laurip","01/03/2022 6:13 pm","I'm having issues installing Warp (`pip install sol-warp` after all the other steps in the README). I guess some of my libraries are too new, but any hints about how to resolve the issue? Errors like: `ERROR: web3 5.28.0 has requirement eth-abi<3.0.0,>=2.0.0b6, but you'll have eth-abi 3.0.0 which is incompatible.`","",""
+"511272055623122961","laurip","01/03/2022 6:13 pm","furthermore, had to `pip install wheel`  to get rid of some issues - not mentioned in readme.","",""
+"511272055623122961","laurip","01/03/2022 6:16 pm","also I'm not sure what this means - I have solcjs installed but not solc: `Prerequisites: Make sure your Solidity compiler version is >= 0.8.0`","",""
+"754641878934225008","odinfree","01/03/2022 6:47 pm","working on new date","",""
+"511272055623122961","laurip","03/03/2022 11:41 am","hmm, should I ping someone here? dunno who's working on Warp","",""
+"619138323776012307","guthl_starkware","03/03/2022 12:44 pm","@Greg Vardy","",""
+"823926145950548069","greg_vardy","04/03/2022 4:52 pm","On it, sorry just in a meeting","",""
+"823926145950548069","greg_vardy","04/03/2022 4:54 pm","solcjs is just a binding to the solidity compiler (solc).","",""
+"823926145950548069","greg_vardy","04/03/2022 4:54 pm","Check what version you're using , as the error message states, it should be >= 0.8.0","",""
+"511272055623122961","laurip","04/03/2022 4:55 pm","what version of.. what?","",""
+"823926145950548069","greg_vardy","04/03/2022 4:56 pm","This has nothing to do with Warp, it's because your python virtual env already had a different version of web3 installed before you tried to install warp","",""
+"823926145950548069","greg_vardy","04/03/2022 4:56 pm","The solidity compiler","",""
+"511272055623122961","laurip","04/03/2022 4:56 pm","my solcjs is 0.8.12","",""
+"511272055623122961","laurip","04/03/2022 4:57 pm","I understand. I just have no idea what I should do about it. Install a second version of web3? don't know where the newer version has come from","",""
+"823926145950548069","greg_vardy","04/03/2022 4:59 pm","Deactivate your venv (type `deactivate` on your command line) then `rm -rf VENV_FOLDER` , then:
+```
+python3.7 -m venv VENV_NAME
+source VENV_NAME/bin/activate
+pip install z3-solver
+pip install sol-warp
+```","",""
+"823926145950548069","greg_vardy","04/03/2022 5:04 pm","Yeah that's fine, the `prerequisites: Make sure your Solidity compiler version is >= 0.8.0` isn't an error","",""
+"511272055623122961","laurip","04/03/2022 5:48 pm","got the same 3.0 errors upon installation. Tried warping anyway, and it gives `warp.yul.WarpException.WarpException: nethersolc call failed: /home/laurip/warp/lib/python3.7/site-packages/warp/bin/linux/nethersolc: /lib/x86_64-linux-gnu/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /home/laurip/warp/lib/python3.7/site-packages/warp/bin/linux/nethersolc)
+/home/laurip/warp/lib/python3.7/site-packages/warp/bin/linux/nethersolc: /lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/laurip/warp/lib/python3.7/site-packages/warp/bin/linux/nethersolc`","",""
+"823926145950548069","greg_vardy","04/03/2022 5:54 pm","What OS are you on? What version is your C/C++ compiler?","",""
+"511272055623122961","laurip","04/03/2022 5:54 pm","Ubuntu on WSL2. `cpp (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0`","",""
+"511272055623122961","laurip","04/03/2022 5:55 pm","(so, Windows)","",""
+"823926145950548069","greg_vardy","04/03/2022 6:04 pm","Ah I see what's happening, I'll make a quick fix and let you know when you can try again","","👍 (1)"
+"823926145950548069","greg_vardy","04/03/2022 6:17 pm","@LauriP , it's been fixed. you can do `pip install sol-warp==1.1.1` and it should work.","",""
+"823926145950548069","greg_vardy","04/03/2022 6:17 pm","I just had to make it compatible with the older versions of libstdc++","",""
+"511272055623122961","laurip","04/03/2022 6:39 pm","`warp.yul.WarpException.WarpException: nethersolc call failed: /home/laurip/warp/lib/python3.7/site-packages/warp/bin/linux/nethersolc: error while loading shared libraries: libcvc4.so.7: cannot open shared object file: No such file or directory`","",""
+"823926145950548069","greg_vardy","04/03/2022 7:03 pm","@LauriP  can you clone this and try run `./nethersolc` in WSL https://github.com/BitBaseBit/nethersolc-test","",""
+"823926145950548069","greg_vardy","04/03/2022 7:14 pm","(do a git pull for the latest commit)","",""
+"511272055623122961","laurip","04/03/2022 7:15 pm","Started a thread.","",""
+"272122339309649921","naps62","11/03/2022 10:33 pm","Hi 👋 
+I attended yesterday's crowdcast. is the recording available yet? I remember a mention that it would be published
+
+Got a couple of people at my company interested in watching","",""
+"619138323776012307","guthl_starkware","11/03/2022 11:04 pm","It is still available on the initial link","",""
+"619138323776012307","guthl_starkware","11/03/2022 11:04 pm","Crowd cast","",""
+"744819490881142876","nitzangrossman","12/03/2022 10:48 am","We will upload it soon to YouTube.  We'll post link on the website","",""
+"212146572736200704","pscott1337","14/03/2022 5:11 pm","@Greg Vardy Hey I see `precompiles` have the status ""Will be supported in the future""
+Do you already support `ecrecover` by any chance ? Or any tool to verify a signature signed by eth l1 keys ?","",""
+"823926145950548069","greg_vardy","14/03/2022 6:06 pm","We're adding support for `ecrecover` in Warp 2.0","",""
+"619138323776012307","guthl_starkware","14/03/2022 6:51 pm","Yeahhhhhh","",""
+"212146572736200704","pscott1337","15/03/2022 2:52 am","Interesting! Does that mean you've effectively hand-written it from scratch in pure cairo?","",""
+"212146572736200704","pscott1337","15/03/2022 2:53 am","I saw an already existing `ecrecover` implem but it uses a lot of non-whitelisted `hints` which are not usable on starknet yet :p","",""
+"326484027882209280","bleaknight","15/03/2022 3:42 pm","hi guys, just deployed my first transpiled contract, are transpiled contracts only interactable with the warp cli? the read and write sections on voyager are not what I expected. thanks in advance!","",""
+"823926145950548069","greg_vardy","15/03/2022 10:02 pm","It is indeed only interactable with the Warp CLI, this will not be the case with Warp 2 though","","🧠 (1)"
+"585509977079283744","aundumla","16/03/2022 12:58 am","When Warp will be able to transpile Starknet Verifier?","","👀 (1)"
+"585509977079283744","aundumla","01/04/2022 5:01 pm","Where can I find sources of warplib imported by NethermindEth/Cairo-SafeMath?","",""
+"892023496220225536","prtk418","03/04/2022 12:09 pm","Has anyone tried deploying upgradable contracts to starknet by compiling the contracts to cairo?
+I am working on a project which uses Diamond standard and tried to deploy to starknet, the transcompilation worked fine however the deployment failed
+Also I have some doubt as to how upgradability will work if we migrate to cairo","",""
+"892023496220225536","prtk418","03/04/2022 12:20 pm","Getting this error while deploying","https://cdn.discordapp.com/attachments/935889632124616765/960068677410119680/Screenshot_2022-04-03_at_12.19.58_PM.png",""
+"892023496220225536","prtk418","03/04/2022 12:21 pm","I am using `extcodesize` in solidity to check if a contract has code","",""
+"892023496220225536","prtk418","03/04/2022 12:37 pm","Temporarily deployed the contract by commenting the code which was using `extcodesize`
+Wanted to know how do I get the address from which the deployment hapenned. I used `warp deploy`","",""
+"242639311290368000","mempoolsurfer","04/04/2022 3:00 pm","That's a mistake in this repo, everything imported from warplib should actually be imported from src. eq https://github.com/NethermindEth/Cairo-SafeMath/blob/main/src/mul_signed_unsafe.cairo#L6 should actually import https://github.com/NethermindEth/Cairo-SafeMath/blob/main/src/mul_unsafe.cairo
+
+The original implementation is from our latest warp implementation https://github.com/NethermindEth/warp/tree/warp-ts/warplib, the lib here is a shell where the files are generated by checking that branch out and running `yarn warplib` https://github.com/NethermindEth/warp/blob/warp-ts/package.json#L25","",""
+"242639311290368000","mempoolsurfer","04/04/2022 3:09 pm","This repo may also be a little out of date, would recommend using the warplib impl in warp until we address this","",""
+"242639311290368000","mempoolsurfer","04/04/2022 3:16 pm","Unfortunately this isn't supported by warp because it isn't support on starknet. By a weird design quirk it won't error out on compile, only on deploy (because the yul was generating these in the deploy, but we could safely ignore them). The latest implementation addresses this. Just chatted to Starkware and there's no good way of checking that a contract exists at an address yet. I'd recommend just taking out that check for now (if that's an option). They plan to release implementations of `extcodehash` and `extcodesize` in the future but there no concrete plan for them yet. Their rough timeline guess was 1.5 months from now at the least","",""
+"892023496220225536","prtk418","04/04/2022 3:53 pm","Aah got it, thanks for the detailed response. Really appreciate this!
+I can remove usage of `extcodesize`","",""
+"242639311290368000","mempoolsurfer","04/04/2022 4:37 pm","Np. Looking into the deploy address right now","",""
+"892023496220225536","prtk418","04/04/2022 4:54 pm","Also wanted to clarify a few things regarding migration to starknet from solidity:
+- My ABIs will be same right? In UI I am assuming I wont have to make any changes
+- I have a js script which I use to deploy a contract (using ethers). Major work of the script is to attach a facet to my diamond contract (https://eips.ethereum.org/EIPS/eip-2535), I have a bit of doubt as to how this will work out. In the script I need to invoke functions from contract passing in some calldata as well, will that work if I pass the same into starknet? The question might sound dumb but sorry for that
+Ref script - https://github.com/mudgen/diamond-3-hardhat/blob/main/scripts/deploy.js","",""
+"242639311290368000","mempoolsurfer","04/04/2022 8:22 pm","- in the current warp the ABI is the same. Unfortunately in the next iteration this won't be the case but I think theres some discussion on automatically translating the abis
+- I don't fully understand your question because I'm not at all familiar with multi-facet proxies but I don't see any imediate problem with warp 1.0. Warp 2.0 would need a lot of tweaking to get it to work","",""
+"348946057637658625",".sanchopansa","05/04/2022 2:46 pm","Greetings, sers! I was an active developer/zk contributor back in the days when Groth16 was all the rage and have been following the developments with new proof systems, StarkNet and zkSync since then, but haven't been so active on the dev side. I don't have any experience with warp or Cairo, but started getting my feet wet with transpiling and deploying my first contract to the Goerli testnet yesterday and I have some basic questions; would appreciate if anyone could give me some feedback:
+- what kind of efficiency gains can one expect from writing the contracts directly in Cairo as opposed to transpiling with warp?
+- have there been any security issues reported on the Cairo code generated from warp so far?
+- I read that there will be an audit of the warp codebase, but afaiu it hasn't been done yet; is there any ETA for it?
+
+And a couple of more specific things I was pondering yesterday:
+- when you run `warp deploy` or `warp invoke`, which account is paying for the tx fees on the Goerli testnet? I was able to run those commands without setting up a StarkNet account
+- when I run `warp call` on a toy contract (a modification of the default Greeter contract from hardhat to have a uint256 instead of a string as the greeting), I get the following output:
+```
+ sancho@united  ~/src/warp-test  warp call --program Greeter.json --address 0x05d06996d67742c099c6a0bdb7fdbebb654974d7de2ae3f3de7f37fdee703fc8 --function greet --inputs '[]'
+32 2 0 42
+```
+where 42 is the output I'm expecting. What are the first 3 values?","",""
+"348946057637658625",".sanchopansa","05/04/2022 2:56 pm","And one other question regarding the output of `warp call`. Initially, I had a string as the greeting and the output was quite different:
+```
+ sancho@united  ~/src/warp-test  warp call --program Greeter.json --address 0x00d838b0ea90387a6af729a326812a3e65d8abc033543965bba8f3f30a104ba9 --function greet --inputs '[]'
+96 6 0 32 0 11 0x4e65774772656574696e670000000000 0
+```","",""
+"348946057637658625",".sanchopansa","05/04/2022 2:56 pm","What would be the proper way to parse this for a mere human?","",""
+"882552936046149662","swp0x0","06/04/2022 7:33 pm","Hey @sanchopansa 
+- Warp v1, which is the current release, transpiled YUL to cairo code. So the performance wasn't very good when we benchmarked it against handwritten ERC20 it was 30x-90x worse but we're working on Warp v2. Warp v2 transpiles solidity to cairo directly and the performance for that is much better, almost the same as native cairo. I have attached some graphs that show the performance for both versions against handwritten cairo code.
+
+- Version 1 has been out for a couple of months and no one has got back to us with any security issues yet but obviously we can't be sure until the compiler has been audited.
+
+- The current ETA for warp v2's start audit date is around start of June ± 1 week
+
+- warp cli is just a wrapper over the starknet cli and its main job is to translate between the Ethereuem ABI and Cairo ABI. IIRC when v1 was released starknet cli did not have account support so whatever account starknet cli uses when no account is mentioned warp will also be using that account.
+
+-  The first value 32 is the size of the result in bytes, the second value (2) there is the length of the result and the last two are the actual result. The result is two numbers because in YUL uint256 is the only type so the result of your call is a uint256 and in cairo a uint256 is represented as two felt (high and low). In this case 0 is the high component and 42 is the low component.
+
+- The output in the second case follows the similar format (size, len, result). The string is encoded as numbers here and its big-endian since that's how strings are encoded on the EVM.","https://cdn.discordapp.com/attachments/935889632124616765/961264941917159445/steps.png,https://cdn.discordapp.com/attachments/935889632124616765/961264942147862631/warp_improvements.png",""
+"348946057637658625",".sanchopansa","07/04/2022 6:16 pm","Thank you! That’s very helpful and detailed 🙂
+
+How long do you expect the audit to last? Just trying to gauge a rough timeline for v2, as we may rely on it for a project I’m working on.","",""
+"348946057637658625",".sanchopansa","07/04/2022 6:19 pm","One other question out of curiosity  — the plots above seem to indicate that the transpiled code for the transfer and transferFrom methods is more efficient than the native one? How come/why is that the case?","",""
+"585509977079283744","aundumla","08/04/2022 5:10 pm","is `warp-ts` the right branch to evaluate warp 2.0?","",""
+"242639311290368000","mempoolsurfer","10/04/2022 11:12 am","Yeah, that's warp 2.0's develop","",""
+"882552936046149662","swp0x0","12/04/2022 11:18 pm","We don't have a timeline for the audit right now, we'll update the community once we know.
+The slightly better performance in transfer and transferFrom might be due to way the code in solidity was structured maybe it skipped a check. I wouldn't read too much into it.
+
+Once we release warp 2.0, we'll have updated numbers they might be a bit different from these ones but not too much.","","👍 (1)"
+"823342271986008066","liamz4799","18/04/2022 8:48 pm","Hey! Warp is dope, I'm just playing around with it to test Cairo/Starknet's throughput. I've hit some error though on invoking my contract -","",""
+"823342271986008066","liamz4799","18/04/2022 8:48 pm","```
+Every 3.0s: warp status 0x7d90eec39048cc3458fb835949cdb4c188954e93072d8b1de495d8cd049bb86                                                                                                                                             Mac-mini.local: Tue Apr 19 01:16:11 2022
+
+{
+    ""tx_failure_reason"": {
+        ""code"": ""ENTRY_POINT_NOT_FOUND_IN_CONTRACT"",
+        ""error_message"": ""Entry point 0x240060cdb34fcc260f41eac7474ee1d7c80b7e3607daff9ac67c7ea2ebb1c44 not found in contract with address 0x725bfb8a9a7c62c155f3fb4b4b7fb0dadc38e84f955a36cd6868caae4ad4.""
+    },
+    ""tx_status"": ""REJECTED""
+}
+```","",""
+"823342271986008066","liamz4799","18/04/2022 8:51 pm","Any ideas? That address `0x725bfb8a9a7c62c155f3fb4b4b7fb0dadc38e84f955a36cd6868caae4ad4` looks like it was deployed 6hrs ago, around the time I setup my wallet contract using `nile setup`. Anyone have an idea how they might be related? Will debug tomorrow","",""
+"823342271986008066","liamz4799","18/04/2022 8:51 pm","My invoke output-
+```
+Invoke transaction was sent.
+Contract address: 0x045a3da5a86f28cea96456a30c6216b8cb96495d130f70b66e4c9b1251979fb9
+Transaction hash: 0x7d90eec39048cc3458fb835949cdb4c188954e93072d8b1de495d8cd049bb86
+```","",""
+"695633867016503406","lingraj_","18/04/2022 10:48 pm","Does warp supports `msg.sender`?","",""
+"695633867016503406","lingraj_","22/04/2022 9:04 am","can we use starknet-js to interact with the contracts deployed via warp transpiler?","",""
+"385694377655271424","tranquilflow","23/04/2022 6:18 pm","There is probably a simple solution I'm missing here, but I'm trying to transpile with the command:
+
+`warp transpile ~/starkhack MyToken`
+
+and I get a bunch of error messages with the last bit being: 
+
+`nethersolc call failed: ""/home/flow/starkhack"" is not a valid file.`","",""
+"385694377655271424","tranquilflow","23/04/2022 6:24 pm","seems to have been resolved by using 
+
+`warp transpile ~/starkhack/MyToken.sol MyToken.sol`","",""
+"385694377655271424","tranquilflow","23/04/2022 7:03 pm","although now I get an error:
+
+`File ""/home/flow/warp/lib/python3.7/site-packages/warp/yul/utils.py"", line 68, in get_requests
+    raise WarpException(f""Contract {target_contract} is not found in {filepath}"")
+warp.yul.WarpException.WarpException: Contract MyTokenFlat is not found in /home/flow/starkhack/MyTokenFlat.sol`","",""
+"385694377655271424","tranquilflow","23/04/2022 7:20 pm","and then using
+
+`warp transpile ~/starkhack/MyTokenFlat.sol MyTokenFlat`
+
+gives the error
+
+`PermissionError: [Errno 13] Permission denied: '/home/flow/starkhack/MyTokenFlat.json'
+`
+Which seems to be an error given when you are trying to open a file but the path is a folder... bit confused here would love some clarification on exact syntax to get this to run","",""
+"385694377655271424","tranquilflow","23/04/2022 7:50 pm","Issue resolved. my 'starkhack' folder was setup with the root account and so I didn't have permissions to utilise it. Used chomod as a quick work around to get permissions needed.","",""
+"117430577891639300","darkosnightmare","27/04/2022 9:20 pm","Will `sha256` support also be present in 2.0?","",""
+"823926145950548069","greg_vardy","28/04/2022 9:14 pm","That's something that needs to be implemented as a builtin, otherwise it's step count will be way too large","",""
+"521491280208068623","MatinLex#7524","28/04/2022 11:43 pm","Question regarding the transpiled result - I cannot seem to compile it normally with cairo with errors like
+```
+testERC20.cairo:3:6: Could not find module 'evm.array'. Searched in the following paths:
+/Users/xxx/Project/cairo/test/evm/array.cairo
+/Users/xxx/cairo_venv/lib/python3.8/site-packages/evm/array.cairo
+from evm.array import validate_array
+     ^*******^
+```","",""
+"521491280208068623","MatinLex#7524","28/04/2022 11:44 pm","is there a way for cairo to recognize this evm package? thanks","",""
+"353235059400114176","calvinhobbes#6498","29/04/2022 8:47 pm","nice transpiler guys!  Thanks for the good work","",""
+"353235059400114176","calvinhobbes#6498","29/04/2022 8:48 pm","quick question. Is alpha-goerli having problems right now. Trying to deploy with warp and keep getting: ""Got BadRequest while trying to access https://alpha4.starknet.io/gateway/add_transaction. Status code: 502""","",""
+"353235059400114176","calvinhobbes#6498","29/04/2022 8:59 pm","hmm, seems to work with a smaller contract. Does warp have issues with timing out when deploying some bigger contracts?","",""
+"231584498058395648","_schusterdev","02/05/2022 2:03 am","Hey folks, I am attempting to use the warp library to transpile a voting app in solidity into cairo and then deploy it. Upon deploying, I get the following error:
+
+`TypeError: Incorrect argument count.  Expected '1'.  Got '0'`
+
+Any ideas of what this might mean?","",""
+"231584498058395648","_schusterdev","02/05/2022 2:03 am","(FYI, newbie to Cairo, not a newbie to code)","",""
+"231584498058395648","_schusterdev","02/05/2022 2:03 am","@MatinLex yep, got the same issue, not sure how to resolve it","",""
+"353235059400114176","calvinhobbes#6498","02/05/2022 9:16 pm","usually means your contract has an argument in the constructor. If your doesn't, trying deploying with 0 0 as inputs (worked for me one time)","",""
+"585509977079283744","aundumla","25/05/2022 8:05 pm","Hi! I am trying to understand what is the idea about storage management by transpiled contracts in `ts-warp`.  It seems that instead of using storage directly, everything seems to be stored in `WARP_STORAGE`. Then each solidity state variable is assigned unique id which are mapped to `WARP_STORAGE` indexes by `WARP_MAPPING`.  What is the purpose of this indirection? Is it the final design?","",""
+"971455629736685609","Dom_Nethermind#4291","26/05/2022 8:08 pm","Hi! Warp2's model of storage is primarily designed around supporting mutable references to mutable data, which is why it works differently to how storage would normally be set up in a handwritten cairo program. Almost all storage data is stored as felts in WARP_STORAGE, e.g. for a uint256 storage variable there'd be two felts stored consecutively. The extra level of indirection only comes into play with dynamic arrays and mappings. To allow the dynamic allocation of elements of such objects, extra storage vars are generated to hold the location in WARP_STORAGE of the elements. This is the final overall design, though there are optimisations planned to reduce the number of reads and writes where possible","",""
+"585509977079283744","aundumla","27/05/2022 5:15 pm","Would you please share examples of solidity code where this construction is necessary? Is this a good point of reference: https://github.com/NethermindEth/warp/tree/warp-ts/example_contracts/mutableReferences ?","",""
+"667978105281052672","wallace5390","29/05/2022 1:25 am","Hello","",""
+"667978105281052672","wallace5390","29/05/2022 1:25 am","Im trying to deploy a contract using warp deploy but Im getting this error:","",""
+"667978105281052672","wallace5390","29/05/2022 1:25 am","Got BadRequest
+Traceback (most recent call last):
+  File ""/Users/wallace/cairo_venv/lib/python3.8/site-packages/services/external_api/base_client.py"", line 116, in _send_request
+    raise BadRequest(status_code=response.status, text=text)
+services.external_api.base_client.BadRequest: HTTP error ocurred. Status: 502. Text: 
+<html><head>
+<meta http-equiv=""content-type"" content=""text/html;charset=utf-8"">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>","",""
+"667978105281052672","wallace5390","29/05/2022 1:26 am","Ive tried several times but still getting the same error. I think it might be related to the contract size (the generated compiled.json file has 178kb).","",""
+"667978105281052672","wallace5390","29/05/2022 1:26 am","Any advice? Thanks!","",""
+"667978105281052672","wallace5390","29/05/2022 1:27 am","actually, 55 MB not 178 kb","",""
+"667978105281052672","wallace5390","29/05/2022 1:28 am","178kb is the resulting .json, 55MB the compiled.json","",""
+"456226577798135808","Deleted User","29/05/2022 1:43 am","so you were able to generate the json, right? What command did you try to deploy it?","",""
+"667978105281052672","wallace5390","29/05/2022 1:44 am","yes, it generated the Contract.json file. It even generated the compiled.json file. It seems to fail when calling starknet --deploy under the hoods","",""
+"456226577798135808","Deleted User","29/05/2022 1:44 am","yeah 55MB looks huge for a compiled contract","",""
+"456226577798135808","Deleted User","29/05/2022 1:44 am","lemme check with a cairo native one","",""
+"667978105281052672","wallace5390","29/05/2022 1:44 am","I used the ""warp deploy"" command","",""
+"456226577798135808","Deleted User","29/05/2022 1:45 am","Well I have a 1 MB for a ""small"" contract so 55 MB might not be stupidly big","",""
+"456226577798135808","Deleted User","29/05/2022 1:46 am","okay, I never used warp before but if you have the json we can try to deploy it with nile","",""
+"456226577798135808","Deleted User","29/05/2022 1:46 am","mind sending me the compiled json?","",""
+"667978105281052672","wallace5390","29/05/2022 1:46 am","","https://cdn.discordapp.com/attachments/935889632124616765/980203021164249098/NFTMarketController_compiled.json.zip",""
+"667978105281052672","wallace5390","29/05/2022 1:47 am","the constructor of the contract requires an address parameter","",""
+"667978105281052672","wallace5390","29/05/2022 1:47 am","I was trying to deploy it like this:","",""
+"667978105281052672","wallace5390","29/05/2022 1:47 am","warp deploy NFTMarketController.json --constructor_args [""0x015609fa579f56716d48a40628ee9ea0f7c154200d1fa99831b211cf480c50bb""]","",""
+"456226577798135808","Deleted User","29/05/2022 1:56 am","alright","",""
+"456226577798135808","Deleted User","29/05/2022 1:56 am","I'll try with starknet deploy","",""
+"667978105281052672","wallace5390","29/05/2022 1:57 am","thank you","",""
+"456226577798135808","Deleted User","29/05/2022 2:03 am","@Wallace can you show me the constructor?","",""
+"667978105281052672","wallace5390","29/05/2022 2:04 am","From the solidity contract?","",""
+"456226577798135808","Deleted User","29/05/2022 2:04 am","yes","",""
+"667978105281052672","wallace5390","29/05/2022 2:04 am","constructor(address _nftControllerAddress) {
+    ownerAddress = msg.sender;
+    nftController = NFTController(_nftControllerAddress);
+  }","",""
+"456226577798135808","Deleted User","29/05/2022 2:06 am","okay, I got the same error than you when trying with your contract","",""
+"667978105281052672","wallace5390","29/05/2022 2:08 am","yeah, I guess it could be related to the contract size. I've been commenting out some few sections of the code and re-trying. Eventually, I can get it to deploy when I comment out some parts of the code","",""
+"890475847084027945","qmt5688","29/05/2022 4:42 am","Hello everyone 🖖","",""
+"933758982777106542","web3探索者#7365","30/05/2022 5:39 pm","I also happen this error when deploy contract.","",""
+"667978105281052672","wallace5390","30/05/2022 6:46 pm","I wonder if that's more a general error when deploying.","",""
+"667978105281052672","wallace5390","30/05/2022 7:02 pm","Perhaps anybody with an actual .cairo contract with a reasonable size (a couple of dozen MB?) could try?","",""
+"933758982777106542","web3探索者#7365","30/05/2022 8:33 pm","Maybe, contract compiled size is  30M.","",""
+"667978105281052672","wallace5390","30/05/2022 9:58 pm","Yeah, mine was like 55M. I was able to deploy smaller contracts (with 1-10MB). Perhaps it has to do with some request size limit on the server side. Is there anyone here that could shed some light on that?","",""
+"933758982777106542","web3探索者#7365","30/05/2022 10:46 pm","I think  it should more specifically  for  this error msg.","",""
+"933758982777106542","web3探索者#7365","31/05/2022 11:30 am","@Wallace I decide use Cairo write this smart contract instead of use solidity and warp.","",""
+"667978105281052672","wallace5390","31/05/2022 6:59 pm","Oh, yeah, I thought the same as a workaround. Unfortunately, I have 0 experience with cairo, so that can take a while.","",""
+"667978105281052672","wallace5390","31/05/2022 7:03 pm","@web3探索者 , if you get success, would you please let me know?","",""
+"933758982777106542","web3探索者#7365","31/05/2022 7:08 pm","ok, some codes in https://github.com/OpenZeppelin/cairo-contracts  hope can help us.","",""
+"667978105281052672","wallace5390","31/05/2022 11:32 pm","Thanks! I'll check it out.","","✅ (2)"
+"971455629736685609","Dom_Nethermind#4291","01/06/2022 2:02 am","Started a thread.","",""
+"892023496220225536","prtk418","03/06/2022 5:02 pm","Hey guys, Getting this error due to solc and solidity file version mismatch. How can I change the version of solc in order to make this work. Don't want to update the contracts","https://cdn.discordapp.com/attachments/935889632124616765/982245463858229318/Screenshot_2022-06-03_at_5.01.39_PM.png",""
+"892023496220225536","prtk418","05/06/2022 12:53 pm","How do i get the account address which was used to deploy a contract using `warp deploy PROGRAM`?","",""
+"892023496220225536","prtk418","05/06/2022 1:59 pm","Getting this error while deployment on goerli, anyone else facing this?","https://cdn.discordapp.com/attachments/935889632124616765/982924221892153395/Screenshot_2022-06-05_at_1.59.15_PM.png",""
+"933758982777106542","web3探索者#7365","05/06/2022 9:13 pm","This error for many people , it reason is contract compile result size too big. I advise not use warp in now time.","",""
+"667978105281052672","wallace5390","07/06/2022 5:07 am","Yeah, warp right now generates incredible big files. It works fine for very simple contracts, but not for more complex ones, unfortunately.","",""
+"440035772150710282","trader jack#9423","12/06/2022 10:50 pm","Hi, is there a rough ETA on when Solidity 0.7 will be supported? Thanks!","",""
+"818866820944625753","kirstenpomales","17/06/2022 2:37 pm","Does anyone have examples of contracts that were successfully transpiled from Solidity to Cairo? I'm trying to understand what kinds of contracts are ""simple"" enough to work well with Warp.","",""
+"818866820944625753","kirstenpomales","17/06/2022 2:37 pm","Also, presumably there is work being done on Warp to allow it to handle more complex contracts? Would be curious what kind of timeline this is on.","",""
+"818866820944625753","kirstenpomales","17/06/2022 2:40 pm","Has anyone ever tried to transpile Kleros escrow contracts to Cairo?","",""
+"882552936046149662","swp0x0","17/06/2022 8:04 pm","The latest release on npm has experimental 0.7 support, would be wonderful if you could try and file issues if you find any","",""
+"945246954227642388","0xgai_","20/06/2022 1:42 pm","Hi All,
+
+For those who missed the announcement on Twitter, Warp 2.0 is under audit at the moment and available for use under the warp-ts branch on our repo: https://github.com/NethermindEth/warp. This version transpiles directly from solidity to Cairo. The resultant Cairo contracts are human-readable and should be shorter than Warp 1.0.
+
+There is an updated readMe that has installation instructions and a list of features that are currently being developed/not supported.
+
+If you have any questions or get stuck please reach out to us!","",""
+"945246954227642388","0xgai_","20/06/2022 1:47 pm","Started a thread.","",""
+"945246954227642388","0xgai_","20/06/2022 2:21 pm","Started a thread.","",""
+"315167102363369472","_mahlukat","21/06/2022 2:03 am","Hi everyone, I am getting this error while executing this command ""warp transpile example_contracts/ERC20.sol""","https://cdn.discordapp.com/attachments/935889632124616765/988542056047722496/unknown.png",""
+"585509977079283744","aundumla","21/06/2022 12:23 pm","It seems that there is a storage api  mismatch between what Warp needs and what is provided by StarkNet. I mean right now it is possible to write to storage only by symbolic reference, while Warp requires lower level access by storage address(which is how memory is actually organized).","",""
+"882552936046149662","swp0x0","21/06/2022 10:11 pm","Did you run warp install?","",""
+"882552936046149662","swp0x0","22/06/2022 5:00 pm","Started a thread.","",""
+"315167102363369472","_mahlukat","24/06/2022 2:43 am","","https://cdn.discordapp.com/attachments/935889632124616765/989639384615747614/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 2:43 am","@swp0x0","",""
+"315167102363369472","_mahlukat","24/06/2022 2:44 am","I am getting error while executing “warp install”","",""
+"315167102363369472","_mahlukat","24/06/2022 2:44 am","Can someone help me ?","",""
+"882552936046149662","swp0x0","24/06/2022 3:55 am","Have you tried the suggestion? Pass the path to your python3.7 installation with the --python flag","",""
+"315167102363369472","_mahlukat","24/06/2022 3:56 am","Yes I did, I tried it with many diffrent python versions. But didn’t work.","",""
+"882552936046149662","swp0x0","24/06/2022 3:57 am","Can you show us the output with the --verbose flag passed to warp install","",""
+"315167102363369472","_mahlukat","24/06/2022 3:57 am","sure","",""
+"315167102363369472","_mahlukat","24/06/2022 3:57 am","one sec","",""
+"315167102363369472","_mahlukat","24/06/2022 3:58 am","","https://cdn.discordapp.com/attachments/935889632124616765/989658288826249267/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 3:59 am","","https://cdn.discordapp.com/attachments/935889632124616765/989658365485539348/unknown.png",""
+"882552936046149662","swp0x0","24/06/2022 4:00 am","Can you pass both the python flag and the verbose flag?","",""
+"315167102363369472","_mahlukat","24/06/2022 4:01 am","sure","",""
+"315167102363369472","_mahlukat","24/06/2022 4:02 am","","https://cdn.discordapp.com/attachments/935889632124616765/989659148453052526/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 4:02 am","/usr/bin/ folder dir.","https://cdn.discordapp.com/attachments/935889632124616765/989659234763415582/unknown.png",""
+"882552936046149662","swp0x0","24/06/2022 4:08 am","Not sure what's messing up your paths here, you could manually try creating a venv called warp_venv in global yarn node modules folder","",""
+"315167102363369472","_mahlukat","24/06/2022 4:10 am","These are the what i have in relavant folder.","",""
+"315167102363369472","_mahlukat","24/06/2022 4:10 am","","https://cdn.discordapp.com/attachments/935889632124616765/989661320393683034/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 4:13 am","but it trying to find warp_venv/bin/activate/ directory in this folder.","",""
+"882552936046149662","swp0x0","24/06/2022 6:35 pm","When warp install runs succesfully, it create the warp_venv folder","",""
+"882552936046149662","swp0x0","24/06/2022 6:36 pm","You can create it manually by running `python3.7 -m venv warp_venv`","",""
+"882552936046149662","swp0x0","24/06/2022 6:36 pm","activate the venv and `pip install cairo-lang==0.8.2.1`","",""
+"315167102363369472","_mahlukat","24/06/2022 10:28 pm","Okay, will definitely try and get back to you.","",""
+"315167102363369472","_mahlukat","24/06/2022 10:40 pm","","https://cdn.discordapp.com/attachments/935889632124616765/989940478415867934/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 10:40 pm","","https://cdn.discordapp.com/attachments/935889632124616765/989940530026803291/unknown.png",""
+"315167102363369472","_mahlukat","24/06/2022 10:40 pm","my folder structure is this. Still there is no warp_venv folder","",""
+"537353067733975041","ago#5957","29/06/2022 9:05 pm","Hey, Warp looks great! Thanks for building it. I ran into some problems when transpiling the following line https://github.com/ChorusOne/tendermint-sol/blob/main/contracts/proto/ProtoBufRuntime.sol#L2874 specifically got the error message in the screenshot. I know it's a pain to handle variable assignment within IF statements in Cairo,  this is something I've bumped into before. Do you think this is causing the problem in the transpilation here, or maybe there is sth else and even a way to get around this?","https://cdn.discordapp.com/attachments/935889632124616765/991728504217538591/unknown.png",""
+"882552936046149662","swp0x0","05/07/2022 7:08 pm","Our latest blog covering how warp v2 is better and an example of what it might take to transpile your existing contracts
+https://twitter.com/nethermindeth/status/1544313377740230659?s=20&t=JirXpzY3LzliJ2Igg1apdA","","nice (4)"
+"996709647899697182","blockDev#9358","13/07/2022 3:09 pm","Hi all, does warp support all the solidity code?","",""
+"996709647899697182","blockDev#9358","13/07/2022 3:09 pm","I am unable to transpile the code","",""
+"434310656968097792","jaskaran21","13/07/2022 5:19 pm","","https://cdn.discordapp.com/attachments/935889632124616765/996745160388001873/Screenshot_from_2022-07-13_17-18-46.png",""
+"434310656968097792","jaskaran21","13/07/2022 5:19 pm","HI all , i am facing this error can anyone help ?","",""
+"434310656968097792","jaskaran21","13/07/2022 5:20 pm","i have tried to use uint256 instead of uint 160 but no help even tried to change 20 bytes to 32 bytes still no luck","",""
+"882552936046149662","swp0x0","13/07/2022 9:22 pm","Started a thread.","",""
+"882552936046149662","swp0x0","13/07/2022 9:23 pm","Started a thread.","",""
+"707131341141049344","danilowhk","04/08/2022 1:05 am","Hello I am getting an ""error"" when trying to install warp","",""
+"707131341141049344","danilowhk","04/08/2022 1:05 am","I going through method 1 and when i do ""warp install""  its not downloading the dependencies but also not giving any error message","",""
+"707131341141049344","danilowhk","04/08/2022 1:06 am","","https://cdn.discordapp.com/attachments/935889632124616765/1004472900352487604/Screenshot_2022-08-03_at_16.36.29.png",""
+"707131341141049344","danilowhk","04/08/2022 1:07 am","warp version is giving me ""Warp Version 2.1.0""""","",""
+"882552936046149662","swp0x0","04/08/2022 10:55 am","Started a thread.","",""
+"429305681674240000","arturobx","01/09/2022 9:27 am","Hi everyone, I try to deployed my transpiled contract and I get this error, I'm using python 3.7, Warp version 2.1.0, contract code from: https://github.com/NethermindEth/warp/blob/develop/example_contracts/ERC20.sol, any ideas about the error?","https://cdn.discordapp.com/attachments/935889632124616765/1014745798543671326/Captura_de_Pantalla_2022-08-31_a_las_22.38.31.png",""
+"429305681674240000","arturobx","02/09/2022 8:48 pm","anyone can help me?","",""
+"906095871316348938","closer2282","03/09/2022 7:54 pm","Since we're on weekends, i suppose the team are at rest, maybe you'll get reply on Monday","",""
+"429305681674240000","arturobx","05/09/2022 6:27 am","ok thanks","",""
+"882552936046149662","swp0x0","07/09/2022 4:56 pm","Started a thread.","",""
+"429305681674240000","arturobx","10/09/2022 3:40 am","Hi guy It's me again haha, I try to deploy a cairo smart contract transpiled with WARP, I set the env variables and execute the comand `warp deploy_account` to create a new account, when I execute `warp deploy  warp_output/contracts/ERC20__WC__WARP.cairo --account 0x06C0B5023B7C278647cb63203F08a37647e17773878527c0d61133fC6950F47d` I get this error: `Error: AccountNotFoundException: Account '0x06C0B5023B7C278647cb63203F08a37647e17773878527c0d61133fC6950F47d' for network 'alpha-goerli' was not found.`","",""
+"429305681674240000","arturobx","10/09/2022 3:40 am","any ideas?","",""
+"945246954227642388","0xgai_","12/09/2022 10:16 pm","Hi there,
+
+Could you have a look at the file in ~./starknet_accounts/starknet_open_zeppelin_accounts.json, it will show you your accounts. If there is nothing there under ""alpha-goerlie"" you will have to deploy an account. Make sure you have the Environment Variables mentioned in this tutorial set: https://www.cairo-lang.org/docs/hello_starknet/account_setup.html#choosing-a-wallet-provider, once they are set you can run warp deploy_account and retry the above.","",""
+"429305681674240000","arturobx","12/09/2022 10:40 pm","Hi, thanks for your answer I set the Environment Variables but I can't find the starknet_open_zeppelin_accounts.json file","",""
+"945246954227642388","0xgai_","15/09/2022 4:54 am","Then you will need to deploy an account on StarkNet, did you try run warp deploy_account after setting the environment variables?","",""
+"945246954227642388","0xgai_","15/09/2022 4:55 am","We are having a Nethermind merge watch party feel free to join https://www.youtube.com/watch?v=_87HylU9r_Y","",""
+"893028536720433204","potti3339","20/09/2022 1:38 pm","i got an error with mac m1 , anyone knows how to fix it?","",""
+"893028536720433204","potti3339","20/09/2022 1:38 pm","","https://cdn.discordapp.com/attachments/935889632124616765/1021694328512462918/unknown.png",""
+"882552936046149662","swp0x0","21/09/2022 3:51 pm","Started a thread.","",""
+"267300878736818176","_dsi","11/10/2022 3:38 am","Hey guys, I'm trying to compile a dummy contract but I'm getting ```warp_output/contracts/Test__WC__Test.cairo:9:124: Unexpected token Token('LBRACE', '{'). Expected: "":"".
+func WS0_READ_Uint256{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr : felt}(loc: felt) ->(val: Uint256){```","",""
+"267300878736818176","_dsi","11/10/2022 3:38 am","Test.sol ```sol
+pragma solidity ^0.8.0;
+
+contract Test {
+    uint256 public yes;
+
+    constructor(uint256 val) {
+        yes = val;
+    }
+}```","",""
+"267300878736818176","_dsi","11/10/2022 3:42 am","It's not up to date with the new cairo version ?","",""
+"544050672539271178","lyledavids","14/10/2022 8:26 pm","gm, is there a specific python version I need for warp?
+on https://nethermindeth.github.io/warp/docs/getting_started/a-usage-and-installation it says 3.7
+on https://github.com/NethermindEth/warp#warp it says 3.9
+
+does it matter or will it work with any version release after 3.7?
+@odin free | StarkWare","",""
+"906095871316348938","closer2282","15/10/2022 9:03 am","@swp0x0","",""
+"882552936046149662","swp0x0","16/10/2022 1:41 am","Started a thread.","",""
+"848616398964260925","scarletssstarktitan","19/10/2022 9:55 pm","@Liron  👆   @Closer | StarkTitan","",""
+"945246954227642388","0xgai_","04/11/2022 3:58 pm","Alright, we now have this channel monitored by Slack. Support will increase 100x. Feel free to ask away!","","👍 (2)"
+"965087015613919302","henry6789_crypto","14/11/2022 7:46 pm","Does the newbie button still work? sir","",""
+"771092645900320830","rodro_p","14/11/2022 8:07 pm","What do you mean by newbie button?","",""
+"965087015613919302","henry6789_crypto","14/11/2022 8:52 pm","The button still works for newbies who want to mine?","",""
+"771092645900320830","rodro_p","14/11/2022 9:10 pm","This is probably not the project you are looking for. Warp is a transpiler which transform solidity code into cairo code. The project has no relationship with mining","",""
+"699514842058326016","ashis1111","23/11/2022 11:23 pm","Hello guys
+Ashis this side. Just starting out with starknet and I am using wrap to transpile the solidity contract to cairo","",""
+"699514842058326016","ashis1111","23/11/2022 11:23 pm","I am running into the following issue","",""
+"699514842058326016","ashis1111","23/11/2022 11:24 pm","https://paste.ubuntu.com/p/zT26hr4hyQ/","",""
+"699514842058326016","ashis1111","23/11/2022 11:25 pm","Any kind if  help would be  great","",""
+"699514842058326016","ashis1111","23/11/2022 11:25 pm","Hey @swp0x0 
+We talked over tg","",""
+"927849119299567627","ors3051","08/12/2022 8:41 pm","here's something cool 😄 https://twitter.com/nethermindeth/status/1600854071254171650","",""
+"460883620480024577","0xliberato","09/12/2022 9:38 pm","only one winner?","","👍 (1)"
+"720487945320136744","0xecho","13/12/2022 6:07 pm","Hi Warp team, i'm trying to traspile my contract but i'm facing problems in the transpilation of ""msg.value""","",""
+"720487945320136744","0xecho","13/12/2022 6:08 pm","my warp version is 2.2.2","",""
+"720487945320136744","0xecho","13/12/2022 6:09 pm","this project is for the Nethermind Warp competition","",""
+"720487945320136744","0xecho","13/12/2022 6:22 pm","the error message that i'm receiving: `Transpilation abandoned msg object not supported outside of 'msg.sender'`","",""
+"720487945320136744","0xecho","13/12/2022 6:23 pm","would be against the rules of the competition if traspile the rest of the contract and after the transpilation write in Cairo the function that is givin me this error?","",""
+"927849119299567627","ors3051","14/12/2022 9:47 pm","Heya! I've let the team know about this","",""
+"945246954227642388","0xgai_","14/12/2022 10:37 pm","Hi @0xEcho, it is possible to write Cairo stubs in warp. Please take a look https://github.com/NethermindEth/warp/blob/develop/docs/docs/features/cairo_stubs.mdx
+Also there is a page explaining how to deal with unsupported features https://github.com/NethermindEth/warp/blob/develop/docs/docs/get_around_unsupported_features.md","",""
+"720487945320136744","0xecho","14/12/2022 11:22 pm","thank you","",""
+"720487945320136744","0xecho","14/12/2022 11:22 pm","thank you ,this will help a lot","",""
+"927849119299567627","ors3051","15/12/2022 5:38 pm","Join our Warp Twitter spaces today at 3pm UTC and ask the team any questions you may have! https://twitter.com/nethermindeth/status/1602737669439909888?s=20&t=5jMhdSgNRJHhac3zhyCxTA","",""
+"720487945320136744","0xecho","15/12/2022 5:51 pm","okay","",""
+"242639311290368000","mempoolsurfer","19/12/2022 6:50 pm","I know this is a while back but to give some context msg.value is not supported. There is no low level mechanic to transfer eth in StarkNet, you'll just need to replace it with an ERC20 transfer in solidity","",""
+"492775270944604180","vargastartup#1355","19/12/2022 8:31 pm","I'm curious are keccak256 and sha256 identical?
+https://www.newton.so/view/63a07ca5327e1315afeb0fa2","",""
+"882552936046149662","swp0x0","19/12/2022 9:19 pm","https://www.newton.so/view/63a07ca5327e1315afeb0fa2#answer-63a087e2ae78ec25b90ab7aa
+Posted an answer on newton","",""
+"492775270944604180","vargastartup#1355","21/12/2022 8:11 pm","@swp0x0 thank you! legend!
+
+just curious: do you wanna brainstorm about frequently asked questions about Warp and create an FAQ about it?","",""
+"882552936046149662","swp0x0","19/01/2023 9:34 pm","marking as done, it was great meeting you @vargastartup!","",""
+"927867756857147433","darya1994","18/03/2023 1:38 pm","Hello! Yesterday I made a withdrawal of funds to the metamask wallet, the tokens have not yet arrived! https://starkscan.co/tx/0x054694cf45f62b134df77ed6d621f6f0cd0ac725efa1d8c7fe5c63afd16af5d6","",""
+"927867756857147433","darya1994","18/03/2023 1:39 pm","https://explorer.arbitrum.io/tx/0xb8d480c7d4fe71cf46b044a244412a8d7346870114c906d5690bf1c6eea0e520","",""
+"907981161534468146","wind.rider","18/03/2023 1:50 pm","sorry,ser, this channel is for warp, if you have any problem with starkgate, feel free to use #🌉｜starkgate ,and pls check my reply over there: https://discord.com/channels/793094838509764618/957558236662366219/1086564603665846373 thank you","",""
+"265568907388125196","idrtis","28/03/2023 5:49 pm","Hello, I was just testing warp to deploy the example ERC20.sol to alpha goerli testnet. How can I use my existing bravos wallet address which has some testnet funds? I couldnt find any option using warp or starknet commands","",""
+"399196149879275540","bu.ran","17/04/2023 4:34 pm","Hello,
+I wanna use interace like IUniswapV2Factory.
+However, starknet address isn't same as EVM and an error ""Explicit type conversion not allowed from ""uint256"" to ""contract IUniswapV2Factory"" occur.
+How can I write the code?
+
+```
+  uint256 private jediswap = 0x0262744f8cea943dadc8823c318eaf24d0110dee2ee8026298f49a3bc58ed74a; 
+  IUniswapV2Factory private factory = IUniswapV2Factory(jediswap);
+```","",""
+"242639311290368000","mempoolsurfer","17/04/2023 5:28 pm","Hey @bu-ran is this error message as a result of compiling with Warp or from solc?","",""
+"399196149879275540","bu.ran","17/04/2023 6:25 pm","it seems from solc as uint256 isn't allowed to use with contract.
+
+```
+CompileFailedError: Compiler Errors: ==== 0.8.14 ====:
+ TypeError: Explicit type conversion not allowed from ""uint256"" to ""contract IUniswapV2Factory"".
+```","",""
+"242639311290368000","mempoolsurfer","17/04/2023 7:12 pm","Is that the output of a `warp transpile` call? Can you give the full log here?","",""
+"771092645900320830","rodro_p","17/04/2023 7:22 pm","Have you tried adding an address cast in between, I think that should work: smth like `IUniswap private factory = IUniswap(address(jediswap))`","",""
+"771092645900320830","rodro_p","17/04/2023 7:31 pm","Hi, sorry for the late answer, have you tried using the `--wallet` or `--account` options when deploying?","",""
+"399196149879275540","bu.ran","18/04/2023 8:20 am","Thank you!
+the sentence which you mentioned works well.","",""
+"569811676115763200","williamfu#9792","28/05/2023 8:12 am","root@Australia01:~# warp version
+node:internal/errors:867
+  const err = new Error(message);
+              ^
+
+Error: Command failed: starknet --version
+/bin/sh: 1: starknet: not found
+
+    at ChildProcess.exithandler (node:child_process:419:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1091:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'starknet --version'
+}
+
+Node.js v18.16.0
+I got the error, what should I do to solve it?","",""
+"569811676115763200","williamfu#9792","28/05/2023 8:14 am","https://github.com/NethermindEth/warp/blob/develop/dependencies.md
+there is no startnet install","",""
+"639208913475993624","cicr99","30/05/2023 6:47 pm","Hi, could you share the steps you followed so we can try to reproduce the error?
+You could also try using the docker method here https://github.com/NethermindEth/warp#quickstart which provides a ready to use environment. This conversation has further details about it https://discord.com/channels/629004402170134531/935339119515676673/1112430237922361436 (this is in the warp channel in Nethermind discord server)","","👍🏻 (3)"
+"936964473342808114","zk0t","24/07/2023 1:41 am","Hey, im having issue installing Warp. When i try to run ""yarn global add"" it says that the global directory does not exist","",""
+"936964473342808114","zk0t","24/07/2023 1:41 am","Anyone have any idea what's going wrong here?","",""
+"848616398964260925","scarletssstarktitan","24/07/2023 1:59 am","@ZK0Thttps://stackoverflow.com/questions/40317578/yarn-global-command-not-working] (https://stackoverflow.com/questions/40317578/yarn-global-command-not-working)  find this for you would you like to have a check and hope it is helpful **[stack ]【github][sign]**","",""
+"936964473342808114","zk0t","24/07/2023 2:12 am","thank you; I  actually managed to get the yarn global command working but now when it installs warp, every return message is a warning or error. Have tried multiple times - its very weird","",""
+"936964473342808114","zk0t","24/07/2023 2:12 am","any help would be appreciated","","👀 (1)"
+"848616398964260925","scarletssstarktitan","24/07/2023 2:16 am","sorry ,pls wait for the Nethermind team on line and help you thank you ser","",""
+"936964473342808114","zk0t","24/07/2023 2:17 am","thank you for all your help, as ever!","","🙏🏻 (1)"
+"1017901748263845959","tall_dev","27/07/2023 3:10 am","You can simply use clear error message with yatn Launchpad or send a dm to @eli_def I will Never Dm.  team for help","",""
+"927849119299567627","ors3051","31/07/2023 8:03 pm","Hey everyone 👋 Here's an important announcement from Nethermind and the Warp team. 
+
+With recent developments in the Starknet ecosystem and the introduction of Cairo 1.0, we've decided to sunset Warp.
+
+🔎 Please read about the details of this decision in our latest blog post! 
+
+📍Let us know if you have any questions! 
+📖 https://medium.com/nethermind-eth/sunsetting-warp-a-farewell-to-the-solidity-to-cairo-transpiler-79e9fdab5f5a
+
+🔗https://twitter.com/NethermindStark/status/1686017702219919360?s=20","",""
+"242639311290368000","mempoolsurfer","01/08/2023 5:52 pm","Hey everyone. Thank you so much for asking so many questions about Warp and working through its bugs. It was a tough decision to sunset the project. If you are heavily impacted by this, reach out to us. Nethermind would like to help in any way we can.","","👍 (7)"
+"647563469553664018","apostle_bubba","09/09/2023 3:34 am","is there another way to transpile solidity smart contract into cairo after warp shut down? thanks in advance!","",""
+"429096494713274369","0xcoburn","09/09/2023 3:35 am","no, but kakarotzkevm will be the go to solution in the future","",""
+"647563469553664018","apostle_bubba","09/09/2023 3:40 am","wow that's sad and can I change manually the code so it will work on starknet somehow? what's the solution for me? I just need the nft collection and dapp contracts to work","",""
+"647563469553664018","apostle_bubba","09/09/2023 3:40 am","or the only solution is try to understand Cairo basically","",""
+"429096494713274369","0xcoburn","09/09/2023 4:02 am","write it in cairo 🤗","",""
+"647563469553664018","apostle_bubba","09/09/2023 4:53 am","I will try my best bro, thanks for your kind support. The only problem is that I am absolute noob in coding","",""

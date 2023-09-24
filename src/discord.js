@@ -2,7 +2,7 @@ import csv from 'csvtojson'
 import fs from 'fs'
 
 /* Change this file path to csv file name */
-const filesArray=['celo0.csv', 'celo1.csv', 'celo2.csv']
+const filesArray=['uniswap0.csv', 'uniswap1.csv', 'uniswap2.csv', 'uniswap3.csv', 'uniswap4.csv', 'uniswap5.csv', 'uniswap6.csv', 'uniswap7.csv', 'uniswap8.csv']
 const nameSplit= filesArray[0].split(".")
 for(let i=0;i<filesArray.length;i++){
     const csvFilePath='discord_raw_chats/'+filesArray[i]

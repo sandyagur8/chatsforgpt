@@ -1,0 +1,165 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"1009420542392152094","igorurbanik","31/07/2023 2:06 pm","https://tenor.com/view/fence-cast-fundici%C3%B3n-reja-light-gif-16462466","","🔥 (9)"
+"862996769125826560",".jameswade","01/08/2023 5:08 am","we must use sncast on testnet testnet2 and mainnet？","",""
+"862996769125826560",".jameswade","01/08/2023 6:23 am","how to deploy an account by sncast","",""
+"862996769125826560",".jameswade","01/08/2023 6:23 am","it show Contract error","",""
+"848616398964260925","scarletssstarktitan","01/08/2023 6:53 am","1. Is your problem in any of the
+ * READMEs: https://github.com/foundry-rs/starknet-foundry/blob/master/README.md
+ * Issues: https://github.com/foundry-rs/starknet-foundry/issues
+ * Open PRs: https://github.com/foundry-rs/starknet-foundry/pulls
+2. Are you on latest version?
+3. Did you check the Foundry Book for solution? https://foundry-rs.github.io/starknet-foundry","",""
+"862996769125826560",".jameswade","01/08/2023 8:43 am","","https://cdn.discordapp.com/attachments/1135094786676756560/1135772261815689286/image.png",""
+"862996769125826560",".jameswade","01/08/2023 8:43 am","","https://cdn.discordapp.com/attachments/1135094786676756560/1135772327334903838/1690859575364.jpg",""
+"689810936088756226","war_in","01/08/2023 1:20 pm","Hey @Jameswade 👋 
+At the moment you can only create and deploy Openzeppelin account contract. We do not support any other providers (but we will). However, if you want to use some account on devnet you can:
+- take one from the predeployed account list (if --seed is passed to the `starknet-devnet` command all accounts will have the same data every time)
+- fork testnet state with `--fork-network testnet` and be able to create and deploy account with `sncast`
+
+We are still investigating what will be the best way to manage your account and we have two prepositions:
+- pass a class hash to the `sncast account create` command and be able to deploy any account (probably not so easy to implement 😉)
+- choose an account from the provided list [OZ, Argent and Bravos?] (there will be problems with this approach e.g. one you  came across)","",""
+"862996769125826560",".jameswade","01/08/2023 2:33 pm","I read your official documents, did not find the part of the account creation and deployment, and went to check the DOC of your Git warehouse before discovering some documents. Today, there is nothing to continue to read. I hope you will modify the document in time.Thank you for help, I will try it at home and try it again","",""
+"862996769125826560",".jameswade","01/08/2023 2:35 pm","and i dont use devnet,i used katana, I will try it at home and try it again,thank u","",""
+"917780377433669663",".amlord","01/08/2023 3:38 pm","Hi Guys, I posted this question in the `protostar` channel, but just noticed this new one for foundry! The issue I'm having is with passing parameters of different types to a constructor. The code I have is as follows:","https://cdn.discordapp.com/attachments/1135094786676756560/1135876603684065330/message.txt",""
+"689810936088756226","war_in","01/08/2023 3:41 pm","Started a thread.","",""
+"689810936088756226","war_in","01/08/2023 3:47 pm","Started a thread.","",""
+"416298073069715456","t.aksoy","02/08/2023 9:12 pm","Hello, I added this to scarb.toml but when I run snforge it is failing. 
+`[[target.starknet-contract]]
+# Enable Sierra codegen.
+sierra = true`
+------
+`Failed to parse "".......starknet_artifacts.json"" contents. Make sure you have enabled sierra code generation in Scarb.toml`
+
+`snforge --version
+forge 0.3.0`","",""
+"917780377433669663",".amlord","02/08/2023 10:28 pm","Started a thread.","",""
+"332538472650768386","drknzz","03/08/2023 7:14 pm","**Hi all!**
+Please join the community call today.
+Details here:
+https://github.com/foundry-rs/starknet-foundry/discussions/386","",""
+"917780377433669663",".amlord","09/08/2023 7:24 pm","Hi Guys, I'm working on a contract & looking to make it updatable using the Proxy pattern. I'm getting an issue when running tests against the following code:
+```
+    #[constructor]
+    fn constructor(ref self: ContractState, implementation_hash: ClassHash) {
+        let caller_address = get_caller_address();
+        self.admin.write(caller_address);
+        self.implementation_hash.write(implementation_hash);
+
+        // create initialisation calldata to set initial owner
+        let mut calldata: Array<felt252> = ArrayTrait::new();
+        calldata.append(caller_address.into());
+
+        // initialise proxy from implementation class logic
+        library_call_syscall(
+            implementation_hash,
+            'initializer',
+            calldata.span(),
+        );
+    }
+```","",""
+"795662667012374569","ademolakelvin","10/08/2023 2:25 pm","Hello everyone, I'm trying out Starnket Foundry. I just initiated a new foundry project and when I run `snforge` to run test, I get the error below:
+
+```
+error: Unexpected argument type. Expected: ""core::felt252"", found: ""core::result::Result::<core::felt252, core::felt252>"".
+ --> test_contract.cairo:15:9
+        class_hash, constructor_calldata: @ArrayTrait::new()
+        ^********^
+
+error: Unexpected return type. Expected: ""core::starknet::contract_address::ContractAddress"", found: ""core::felt252"".
+ --> test_contract.cairo:12:54
+fn deploy_contract(name: felt252) -> ContractAddress {
+```
+
+Is there extra setup needed to run test in Starknet-foundry? I can't seem to find anything of such on the doc","",""
+"950845066086350939","glihm","11/08/2023 2:52 am","Started a thread.","",""
+"892858955934605382","xpartychad","17/08/2023 3:37 am","How can i call the constructor with multiple arguments from the test file ? 
+```fn deploy_contract(name: felt252) -> ContractAddress {
+    let class_hash = declare(name);
+    let prepared = PreparedContract {
+        class_hash, constructor_calldata: @ArrayTrait::new()
+    };
+    deploy(prepared).unwrap()
+}```
+
+This is my Constructor signature : 
+```fn constructor(ref self: ContractState, treasuryAddress: felt252, flipFee: u256)```
+
+UPDATE: 
+
+I managed to call the constructor with a single `felt252` argument by dropping my u256 argument because i had to supply an array to the ctor of type `Array::<core::felt252>` , however what if my second argument is a different type than felt252 ?
+
+```let mut calldata = ArrayTrait::new();
+    let treasury:felt252= 0x034e31357d1c3693bda06d04bf4c51557514eced5a8e9973bdb772f7fb978b36;
+    calldata.append(treasury);
+    let prepared = PreparedContract {
+        class_hash, constructor_calldata: @calldata
+    };```","",""
+"1072946275609231381","pmagiera","17/08/2023 3:51 pm","Started a thread.","",""
+"892858955934605382","xpartychad","20/08/2023 5:16 am","Hey all, How do i get my own address inside the tests ? I need to pass the address of the owner as a parameter in one of the functions and i want to get the address of the test contract that calls that function (or the test signer, i am not sure how it is handled)","",""
+"917780377433669663",".amlord","21/08/2023 12:39 pm","Started a thread.","",""
+"917780377433669663",".amlord","21/08/2023 1:34 pm","FYI: Just back from holiday & updated to the latest versions. I was getting some errors following the update, so checked the changelog and found that we now need to add the `snforge_std` dependency: https://github.com/foundry-rs/starknet-foundry/blob/master/CHANGELOG.md#changed. I found that the `tag` option is failing, so I've had to use the `rev` option instead.","",""
+"509692086556033024","distracteddev","21/08/2023 3:03 pm","I'm struggling to declare OZ contracts in my test library. Is this currently supported? 
+
+```
+let eth_class_hash = declare('ERC20');
+Failure data:
+    Got an exception while executing a hint:
+    Failed to get contract artifact for name = ERC20. Make sure starknet target is correctly defined in Scarb.toml file.
+```
+
+Scarb.toml
+```
+[package]
+name = ""guildly""
+version = ""0.1.0""
+cairo-version = ""2.1.0-rc1""
+
+[dependencies]
+starknet = "">=2.1.0-rc0""
+openzeppelin = { git = ""https://github.com/OpenZeppelin/cairo-contracts.git"", branch = ""cairo-2"" }
+snforge_std = { git = ""https://github.com/foundry-rs/starknet-foundry.git"", tag = ""v0.4.1"" }
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+
+[scripts]
+test = ""snforge""
+
+[tool.snforge]
+exit_first = true
+```","",""
+"887999107715715083","trejowsk","21/08/2023 6:29 pm","Started a thread.","",""
+"159474162685968386","psyclonic","22/08/2023 9:20 pm","Can we have multiple contracts in the same root now? I know with protostar or older scarb, there were some weird things about project structure to let you have multiple contracts in the same location…","",""
+"950845066086350939","glihm","23/08/2023 1:06 am","Hello, with starknet foundry you can test any package built with scarb.
+So yes, you can without any problem test several contracts belonging to the same scarb package.","","👍 (1)"
+"553957629232152586","zion08","23/08/2023 7:15 pm","can still run node?","",""
+"907981161534468146","wind.rider","23/08/2023 7:17 pm","@Zion ser,this channel is for foundry issue,pls check my reply from: https://discord.com/channels/793094838509764618/853954510515208192/1143904175252590703 thank you","",""
+"917780377433669663",".amlord","24/08/2023 11:23 pm","Hi All! I've been chatting on the #🦀｜cairo-1 channel as I has an issue with some contract functionality I've struggling with... I'm seeing the issue when running via snforge, so might be best asked here.
+
+The issue is that my contract has a storage value that's a custom struct, inside a LegacyMap: LegacyMap<ContractAddress, VerifierInfo>,.  It all compiles fine, but the issue I'm having is that when reading from it, it doesn't seem to have stored anything on write.
+
+I've followed the instructions here: https://book.cairo-lang.org/ch99-01-03-01-storage-variables.html, and am running Cairo 2.1.0 at present, testing via snforge 0.4.1.","",""
+"622383155613138944","m4d_m4n","30/08/2023 5:33 pm","Hi! So in my test I use `start_mock_call` cheatcode, however when I then call the function from contract, it return an error: `Requested contract address ContractAddress(PatriciaKey(StarkFelt(""0x0346c57f094d641ad94e43468628d8e9c574dcb2803ec372576ccc60a40be2c4""))) is not deployed.` I import the exact address as an constant, so it is the same one. Anybody encountered similar problem? I use snforge 0.5.0 (build from current main branch)","",""
+"1009420542392152094","igorurbanik","30/08/2023 6:04 pm","Started a thread.","",""
+"795662667012374569","ademolakelvin","30/08/2023 7:16 pm","sncast  --url https://alpha4-2.starknet.io account create --name some-name                                                                                                                                                   ✔ 
+Error: Couldn't fetch chain_id
+
+Caused by:
+    0: error decoding response body: expected value at line 1 column 1
+    1: expected value at line 1 column 1
+
+when i try an creat an account, i get the following error in the CLI","",""
+"798149118605787137","naturegreen.","03/09/2023 3:08 am","Got an error while deploying:
+{""code"": ""StarknetErrorCode.DEPRECATED_TRANSACTION"", ""message"": ""Deploy transaction is no longer supported.""}
+
+
+This error was gotten from the Cairo playground where I was deploying a smart contract. Please I need help","",""
+"689810936088756226","war_in","04/09/2023 12:10 pm","Started a thread.","",""
+"712800065634172998","robinhood1234","04/09/2023 10:43 pm","I want to test a smart contract that has many contract dependencies. I want to mock these contracts and deploy only the one that is being tested. However, I still need to call functions of the other mocked contracts that do not have a return value but modify variables in the contracts","",""
+"1072946275609231381","pmagiera","04/09/2023 11:01 pm","Started a thread.","",""
+"712800065634172998","robinhood1234","10/09/2023 11:27 pm","Is there a way to install snforge via Windows?","",""
+"622383155613138944","m4d_m4n","11/09/2023 5:25 pm","Hi! I was wondering if there is a way of returning an Enum variant when mocking an contract call? I have a struct that needs to be returned and one of the fields is an Enum :/","",""
+"712800065634172998","robinhood1234","13/09/2023 5:51 pm","hi i am not understanding the solution (https://github.com/foundry-rs/starknet-foundry/issues/647)","",""
+"1072946275609231381","pmagiera","13/09/2023 8:35 pm","Started a thread.","",""

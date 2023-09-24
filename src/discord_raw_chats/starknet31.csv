@@ -1,0 +1,391 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"754641878934225008","odinfree","25/06/2022 3:11 pm","a tutorial about how to run #Juno on a #Raspberry, you have the opportunity to decentralize #StarkNet on your own and with the minimum muscle
+
+https://twitter.com/maceo_eth/status/1540348265304129539?t=hE7d8G_eb5Az-wMFxOsMsg&s=19","",""
+"754641878934225008","odinfree","25/06/2022 3:11 pm","Pinned a message.","",""
+"302141565055401984","the_ruler07","27/06/2022 7:06 pm","can anyone run a node for starknet? if not, where can I apply for it?","",""
+"907981161534468146","wind.rider","27/06/2022 7:12 pm","ser😀 , there's no need to apply, pls check the tweet posted by odin to get the tutorial(run juno's node)☝🏻 ,thank you","","🎉 (2)"
+"392359034574995457","koi_sats","28/06/2022 7:33 pm","Is it normal ? 
+go build github.com/goccy/go-json/internal/encoder/vm: /usr/local/go/pkg/tool/linux_arm/compile: signal: killed
+# github.com/NethermindEth/juno/internal/db
+../go/pkg/mod/github.com/!nethermind!eth/juno@v0.0.0-20220627130229-aefab20fbded/internal/db/mdbx_env.go:39:46: cannot use 25769803776 (untyped int constant) as int value in argument to env.SetGeometry (overflows)","",""
+"392359034574995457","koi_sats","28/06/2022 7:41 pm","I can't install Juno because i get this error, i don't know who i can contact to help me.
+I followed the raspberry tutorial.","",""
+"392359034574995457","koi_sats","28/06/2022 7:43 pm","Hum don't know how it can help me. I'm trying to install juno via SSH on my raspberry.","",""
+"392359034574995457","koi_sats","28/06/2022 7:45 pm","@Anat V Someone tried to scam here, @velomanager","",""
+"907981161534468146","wind.rider","28/06/2022 7:53 pm","Sorry sir, maybe you can use #🧹｜scam-report  to describe the details, I see there's the original message has been deleted, thank you🤝","","👍 (1),🤝 (1)"
+"392359034574995457","koi_sats","28/06/2022 7:55 pm","Just posted too in there but the guy has left the discord. 
+
+If someone can help me with my Juno installation on raspberry 😅 ?
+
+https://discord.com/channels/793094838509764618/990189698813149214/991343021054496828","",""
+"907981161534468146","wind.rider","28/06/2022 7:58 pm","sorry,ser😀 ,pls be patient ,when juno's dev see it will assist you,thank you🤝","","❤️ (2)"
+"870080118431813662","cryptofuture#5603","30/06/2022 9:22 am","any incentives of ruuning a juno？","",""
+"906038435431743499","lighter5863","09/07/2022 5:16 pm","@cryptofuture admin will attend to u soon","",""
+"826889603180396614","bristi123","02/08/2022 8:33 pm","Any admin here?","",""
+"892697675709972482",".dovanthang","03/08/2022 12:42 pm","I just ran it yesterday, it went up to 260 requests but today I go back in and it's 0, do I need to run it every day?","https://cdn.discordapp.com/attachments/990189698813149214/1004285739279847464/unknown.png",""
+"923648730345918596","samogonshik.ua","15/08/2022 11:28 am","what is the problem ????","https://cdn.discordapp.com/attachments/990189698813149214/1008615741345505330/unknown.png",""
+"957683266125721650","AlexR#8900","18/08/2022 11:25 pm","Please help. Whats the problem?","https://cdn.discordapp.com/attachments/990189698813149214/1009883271406043266/1.jpg",""
+"609654755786096652","koivunej","29/08/2022 2:43 pm","@Samogonshik.UA @AlexR note these are issues running pathfinder not juno. please use #🛰｜pathfinder-support-only","",""
+"888245058392969237","jackwu6992","06/09/2022 12:56 pm","https://playground.open-rpc.org/?uiSchema%5BappBar%5D%5Bui:splitView%5D=false&%5BappBar%5D%5Bui:input%5D=false&uiSchema%5BappBar%5D%5Bui:darkMode%5D=true&uiSchema%5BappBar%5D%5Bui:examplesDropdown%5D=false&schemaUrl=https://raw.githubusercontent.com/starkware-libs/starknet-specs/v0.1.0/api/starknet_api_openrpc.json&uiSchema The api doc don't  provide the ""send transaction"". which api should I use to send a transaction?","",""
+"609654755786096652","koivunej","06/09/2022 4:20 pm","there's a separate write api spec in the same repository directory, but I can't say if juno implements that","",""
+"888245058392969237","jackwu6992","06/09/2022 7:33 pm","Can you give me the url link?","",""
+"609654755786096652","koivunej","06/09/2022 7:38 pm","a link would do you no good; openrpc playground is broken for specs like the write api, it cannot load dependent specs; it's in the same repo.","",""
+"888245058392969237","jackwu6992","06/09/2022 7:39 pm","which repo?","",""
+"609654755786096652","koivunej","06/09/2022 7:41 pm","it's in the openrpc playground url query part but here's a direct link: https://github.com/starkware-libs/starknet-specs/blob/master/api/starknet_write_api.json","",""
+"555116256605241365","tshaka","15/09/2022 12:25 am","Only seeing this now 😅 but no, it is not supported yet.","",""
+"555116256605241365","tshaka","15/09/2022 12:26 am","Did you find help?","",""
+"392359034574995457","koi_sats","15/09/2022 12:40 am","Nop but I think it’s because I have an old raspberry.","",""
+"392359034574995457","koi_sats","15/09/2022 12:41 am","I tried on VM windows and it worked","",""
+"555116256605241365","tshaka","15/09/2022 1:27 am","Started a thread.","",""
+"558847435011522611","SY.Lai#0056","21/10/2022 12:42 pm","Could I deploy node on my VPS instead of Raspberry? Cuz I don't have a Raspberry.","",""
+"852512623114321950","abuisset","08/11/2022 3:33 pm","Hi
+Is there any plan to support websockets for fetching events ?","",""
+"882552936046149662","swp0x0","09/11/2022 9:58 pm","Hey @Antho | OnlyDust ! Juno is undergoing a re-write right now. We will think about a websocket connection layer.
+Until we get back into full swing, you can checkout apibara and pathfinder; not sure if they provide a websocket connection","",""
+"841701454053638184","Luffy Nguyen🚢#0946","09/11/2022 10:13 pm","I have installed node, what should I do next?","",""
+"852512623114321950","abuisset","10/11/2022 12:55 am","Ok, got it. Thank you!","",""
+"961163652948459570","simpletox","15/11/2022 3:38 pm","hey guys","",""
+"961163652948459570","simpletox","15/11/2022 3:38 pm","Who can help me?","",""
+"429096494713274369","0xcoburn","17/11/2022 6:22 am","If its unrelated to juno you can ask us over in #🐼｜general-chat","",""
+"961163652948459570","simpletox","22/11/2022 12:16 am","I've been in the community for quite a while, I was wondering if there are any updates on nodes? Do I need to install node updates? Because I started the node and did not update, I wonder if it is working","",""
+"303487275923406848","anil2ec4","26/11/2022 11:38 pm","How can I keep track of the current size of the DATA required to run a node?","",""
+"653700875503665168","meta_root","27/11/2022 1:05 am","Where can I find the minimum system requirements for the Starknet node?","",""
+"907981161534468146","wind.rider","29/11/2022 10:37 am","ser,pls check:https://discord.com/channels/793094838509764618/990189698813149214/990189880371998790 and juno is undergoing a rewrite right now,thank you","",""
+"944641253008629762","0xqutub","29/11/2022 1:18 pm","is there any airdrop to juno stakers","",""
+"906095871316348938","closer2282","01/12/2022 7:44 am","Replied here
+https://discord.com/channels/793094838509764618/996428142040326224/1047697166157746237","",""
+"448063042123595776","bustaaal","30/12/2022 1:03 am","hello is there a dev ?","",""
+"685516513759068166","england_","10/01/2023 8:23 pm","what's the matter mate?","",""
+"889142633451118642","0xweb3dev","10/01/2023 9:56 pm","Hey, what exactly you are looking for ?","",""
+"889142633451118642","0xweb3dev","10/01/2023 9:56 pm","For dev assistance, please use #🚑｜dev-help channel.","",""
+"928703965107986474","chyngyz001","01/03/2023 8:21 pm","hi,  can i use few servers  connected to one wallet while running node starknet? or 1 wallet=1server?","",""
+"907981161534468146","wind.rider","04/03/2023 7:07 am","Ser, AFAIK running juno doesn't require  connection to your wallet(pls correct me if I'm wrong), and  it's still in development,pls check:https://github.com/NethermindEth/jun ,FYI,thank you","",""
+"490992714687709196","glcstaked","27/03/2023 8:16 pm","do you know if juno aims to be a non-archival implementation","",""
+"907981161534468146","wind.rider","28/03/2023 7:51 am","Sorry ser, I don't have info on that, if you haven't been able to get an answer here, the github discussion forum might be able to help you: https://github.com/NethermindEth/juno/discussions, thank you🙏🏻","",""
+"820328440648433665","lazarmitic","06/04/2023 12:06 pm","Is it possible to call read contract functions using starknet.py? I started Juno node and waited for it to reach bock I'm trying to read data from. I'm getting error: ```Error: Client failed with code -32601: Method Not Found.```
+
+Same code works fine if I target starknet mainnet or any other public RPC endpoint (which use pathfinder probably).","",""
+"490992714687709196","glcstaked","14/04/2023 7:38 pm","thanks","","🙏🏻 (3)"
+"999371800469311598","Bazem#9066","15/04/2023 6:15 am",":happy:","",""
+"927849119299567627","ors3051","20/04/2023 6:12 pm","The team released an update for Juno, supporting STARKNET v0.11.0, which now includes a ~5x improvement in Pedersen-Hash taking less than a day to sync mainnet! 🔥
+
+ Plus many new RPCs!   
+
+👉 https://github.com/NethermindEth/juno/releases/tag/v0.2.1","","bullish (7)"
+"126385519469789184","omerfirmak#7332","25/04/2023 11:19 pm","Started a thread.","",""
+"927849119299567627","ors3051","26/04/2023 1:58 pm","👋 New Juno release v0.2.2 is out!
+
+This is a patch release with fixes for handling block versioning, as well as improved compatibility with non-sem-ver compliant Starknet 👇
+
+https://github.com/NethermindEth/juno/releases/tag/v0.2.2","","bullish (2),StarkNet (3),🙌 (2)"
+"375828479897239564","clever.sol#1961","29/04/2023 11:50 am","Hey, guys! 
+
+is there a chance to get help with running node on juno? 
+I tried to run container using GLCstaked instructions, but it does not seem to be running.
+
+Juno version used is 0.2.2.. 
+
+probably its closed ports matters, but not sure.. is there a way to check logs somehow?","https://cdn.discordapp.com/attachments/990189698813149214/1101754805216616468/image.png",""
+"830547801032884319","beatroot#6098","29/04/2023 10:45 pm","Hey, no worries, more than glad to help! 😊
+
+1. To check out the logs, just run this: `docker logs <container_name>` (in your case, container name is `starknet-node-starknet-node-1`).
+
+2. It seems that the GLCstaked instructions you followed were for v0.1.0. Since v0.2.0, some flags have changed. You'll need to update the following lines:
+
+```command:
+    --db-path=/var/lib/juno
+    --verbosity=0
+    --network=0
+    --rpc-port=6060```
+And change them to:
+```command:
+    --db-path=/var/lib/juno
+    --log-level=info
+    --network=mainnet
+    --rpc-port=6060```
+
+This should help you get your container running smoothly! And if you need more info, just head over to the official Juno readme on GitHub: https://github.com/NethermindEth/juno
+
+Good luck, and if you have any more questions, feel free to ask!","","👍 (6)"
+"1033238400955859005","akshende111","18/05/2023 7:54 pm","hi iam running a node and my disk is full now and node is stopped any help with this","",""
+"927849119299567627","ors3051","19/05/2023 7:58 pm","Just pinged our team 🙂","",""
+"927849119299567627","ors3051","19/05/2023 7:59 pm","Juno v0.3.0 is ready for download 🔥
+
+What's been added 👇
+🔎  Starknet v0.11.2 support
+🔎 New RPC endpoints 
+🔎 Implemented StateSnapshot 
+🔎 History for contracts, nonce, and class hash 
+
+and much more! Enjoy 👇 🥳
+🔗 https://github.com/NethermindEth/juno/releases/tag/v0.3.0","https://cdn.discordapp.com/attachments/990189698813149214/1109125726361354280/Juno_Client_v0.3.0_Release.png","🔥 (5),🙌 (3),StarkNet (3)"
+"927849119299567627","ors3051","26/05/2023 7:29 pm","Hey everyone, Juno v0.3.1 is ready for download! ⚡️
+
+
+What’s new? 
+🛠 Fixed Goerli sync issue as well as an issue with NumAsHex(0) being omitted in RPC
+🛠 Added fetch and store compiled classes for each Sierra class
+
+More details 👇
+https://github.com/NethermindEth/juno/releases/tag/v0.3.1","","bullish (6),💯 (1)"
+"1036308379502641304","prabhu14","04/06/2023 12:31 pm","Why it's is showing like.. There is no traffic... Anything wrong?","https://cdn.discordapp.com/attachments/990189698813149214/1114811143303729152/IMG_20230604_122638.jpg",""
+"907981161534468146","wind.rider","04/06/2023 12:32 pm","sorry,ser,for pathfinder issue pls use #🛰｜pathfinder-support-only ,thank you","","👍 (3)"
+"755040159749111941","samtin0x","25/06/2023 9:12 pm","hey, what is the current storage requirements for a Juno node? vs. let's say pathfinder?","",""
+"126385519469789184","omerfirmak#7332","26/06/2023 10:29 pm","Hey, should be around 1/5th of Pathfinder","",""
+"830547801032884319","beatroot#6098","27/06/2023 3:06 pm","I actually have both nodes fully synced. For the existing ~90k blocks on the mainnet, Juno used 28GiB, while Pathfinder around 239GiB","","🔥 (1)"
+"755040159749111941","samtin0x","27/06/2023 6:32 pm","that's impressive, I'll use Juno then 🙂","","❤️ (2)"
+"755040159749111941","samtin0x","27/06/2023 8:01 pm","I've gone through the readme and it seems   --eth-node <YOUR-ETH-NODE> is not needed anymore? In fact, I get an error if I use this flag","","🔥 (1)"
+"830547801032884319","beatroot#6098","27/06/2023 8:22 pm","Oh, that's right, the `--eth-node` flag is indeed added in our new version. The readme has been updated already but the official docker image release isn't out just yet.
+
+You can either play around with our unofficial latest docker image `nethermindeth/juno:IronGauntlets-e38ad45dc26ba39b2217f6d4a460817ad801df5b`, or hang on with `v0.3.1 ` without l1 verifier until the official release.","","👍 (1)"
+"755040159749111941","samtin0x","27/06/2023 8:30 pm","Cool, I think I’ll stick to the current version. It would be useful to have a guide on how to upgrade once the release is out","",""
+"830547801032884319","beatroot#6098","27/06/2023 8:45 pm","Thanks for the suggestion, we'll definitely add the instruction! Basically, when the new version is ready, you'll just need to stop the old one and start new with the same DB path.","","💯 (1)"
+"351374939862859776","sirshibaninja","28/06/2023 12:05 pm","I got that error too","",""
+"351374939862859776","sirshibaninja","28/06/2023 12:07 pm","Why would Juno be using less disk space compared to Pathfinder.  That's incredible","",""
+"830547801032884319","beatroot#6098","28/06/2023 7:45 pm","Juno storage is structured differently, Pathfinder seems to store the entire state for each height and they use SQLite while Juno store the diffs between each block and use pebble.","","🔥 (1)"
+"830547801032884319","beatroot#6098","28/06/2023 7:59 pm","Yeah, we still didn't release official version with l1 verifier. For now you can just ignore `--eth-node <YOUR-ETH-NODE>` param, or run Juno using the newest image from our main branch:
+```docker run -d \
+  --name juno \
+  -p 6060:6060 \
+  -v /home/juno:/var/lib/juno \
+  nethermindeth/juno:joshklop-51fbd8e07287b76b2115b968fc197795b7c50efa \
+  --rpc-port 6060 \
+  --db-path /var/lib/juno \
+  --eth-node <YOUR-ETH-NODE>
+```","",""
+"1040802415416455229","ekomic","03/07/2023 6:28 pm","Good family.","",""
+"1040802415416455229","ekomic","03/07/2023 6:29 pm","I want to start running starknet node .. but utilising my cloud platform. E.g AWS. Is that possible?","",""
+"1040802415416455229","ekomic","03/07/2023 6:30 pm","And again.. any rewards for running a starknet node? E.g fees reward or basically no rewards for now?","",""
+"830547801032884319","beatroot#6098","04/07/2023 3:22 am","Hey, sure, you can use AWS!","",""
+"830547801032884319","beatroot#6098","04/07/2023 3:22 am","Unfortunately there is no rewards for now.","",""
+"927849119299567627","ors3051","04/07/2023 9:13 pm","Hey friends👋
+
+Our latest Juno node implementation just finished its test ride! Results?
+🚀 Juno synced 90000 blocks in just over 41h, with a 28GiB DB size
+🚀 average CPU usage clocked at 34.3%, while RAM usage maintained an average of 9%
+🚀 RPC response time averaged 31ms & P95 at 39ms
+https://twitter.com/NethermindStark/status/1676241693706801152?s=20
+
+
+More details in our benchmarking report 👇
+https://nethermind.notion.site/Benchmarking-Report-918a7828fd254be29614ebe725613c6e","https://cdn.discordapp.com/attachments/990189698813149214/1125814082025574481/Juno_Benchmark_1.png","🔥 (4)"
+"385700268773474304","mateipbwarelabs.com","10/07/2023 8:17 pm","Hey @Carls , do you have a benchmark comparing all other starknet clients? Thank you","",""
+"830547801032884319","beatroot#6098","11/07/2023 2:09 pm","Hey, for now there are 3 starknet clients: Pathfinder, Juno and Papyrus but comparing with Papyrus would not be entirely fair or meaningful, as Papyrus does not build the state Trie yet, a process that takes up a significant portion of the execution time in both Pathfinder and Juno.","",""
+"927849119299567627","ors3051","11/07/2023 3:45 pm","Juno 0.4 is ready for download! 🔥🔥
+
+🔗 full RPC support 
+🔗 L1 verifier 
+🔗 Integration of Rust CairoVM 
+
+and much more! 👇
+
+https://twitter.com/NethermindStark/status/1678388435592028161?s=20","","🔥 (5)"
+"927849119299567627","ors3051","13/07/2023 4:58 pm","GM 👋 Juno v0.4.1 is ready for download! 
+
+https://twitter.com/NethermindStark/status/1679451616460656640?s=20","","🔥 (1)"
+"700650371344891935","syphilis6688","16/07/2023 4:14 am","Hi, sometimes I get this message in my logs. I added ""--restart unless-stopped"" to my command, so my node restarts after a while. However, I don't understand why I'm getting this message. I'm running my node using Docker","https://cdn.discordapp.com/attachments/990189698813149214/1129906365125627994/image.png",""
+"972062061175635998","lxh#9329","17/07/2023 11:48 am","Do we have a node open to the public?","",""
+"907981161534468146","wind.rider","17/07/2023 11:52 am","I'm not sure what you mean by a node open to the public,ser,but you can run juno right now: https://github.com/NethermindEth/juno#run-with-docker","",""
+"972062061175635998","lxh#9329","17/07/2023 12:08 pm","I mean： Do I have to create the nodes myself? Do you have nodes already created that I can access?","",""
+"907981161534468146","wind.rider","17/07/2023 12:10 pm","Yes, you can create your own nodes ser, it's used for development and educational purposes, for more info about Starknet nodes pls refer:https://book.starknet.io/chapter_4/node.html thx","",""
+"972062061175635998","lxh#9329","17/07/2023 12:12 pm","I'm not comfortable creating nodes right now, do you have nodes that are open to the public that I can connect to?","",""
+"907981161534468146","wind.rider","17/07/2023 12:16 pm","Usually we running our own nodes, ser","",""
+"972062061175635998","lxh#9329","17/07/2023 12:24 pm","oh,Is starknet compatible with evm? Or does it have its own jsonrpc?","",""
+"907981161534468146","wind.rider","17/07/2023 12:26 pm","starknet's evm is implemented by two projects, pls check:https://discord.com/channels/793094838509764618/893514287887294526/1123841779301621870 about jsonrpc,pls check: https://github.com/NethermindEth/juno#-supported-features thank you","",""
+"972062061175635998","lxh#9329","17/07/2023 12:57 pm","What are the corresponding StarkNet methods for the methods in the following Ethernet APIs？
+eth_sendRawTransaction，eth_getBalance, eth_getTransactionCount ，eth_estimateGas，eth_gasPrice","",""
+"907981161534468146","wind.rider","17/07/2023 1:09 pm","Sorry ser, this channel is for juno, pls check my reply in https://discord.com/channels/793094838509764618/853954510515208192/1130403194267250698, thank you","",""
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 1:24 pm","Hi Mates, is there a guide for dummies like my self on how to run a node?","",""
+"907981161534468146","wind.rider","17/07/2023 1:31 pm","for juno,pls check: https://github.com/NethermindEth/juno#run-with-docker ser,thank you","",""
+"973127804197699644","m514650","17/07/2023 1:46 pm","Hi, after looking github project I see a PR in progress to expose prometheus metrics 😍  same port will be used (6060) with /metrics context or will be different ? thx","",""
+"700650371344891935","syphilis6688","17/07/2023 2:26 pm","Hi everyone! I've created a guide on installing a node with Juno, both with and without a snapshot, for french community. Check it out and feel free to provide any feedback! 😊
+https://medium.com/@SyphilisNode/starknet-en-un-%C3%A9clair-installez-le-n%C5%93ud-le-plus-rapide-et-l%C3%A9ger-avec-juno-8510773de460","","🔥 (1)"
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 2:27 pm","thank you!","","🙏🏻 (1)"
+"700650371344891935","syphilis6688","17/07/2023 2:28 pm","Hi! Feel free to translate and use my guide 🙂","",""
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 2:31 pm","thank you mate, translation might actually work. How ever, I have zero knowledge...might not be able to do it after all...unless your guide is really for dummies...I will try and let you kno 🙂","",""
+"700650371344891935","syphilis6688","17/07/2023 2:36 pm","No worries! I wrote my guide to be as explicit as possible, making it accessible for people with zero knowledge 😄","",""
+"700650371344891935","syphilis6688","17/07/2023 2:37 pm","And I made some changes to the commands, as the ones on the GitHub Juno page were not up to date","",""
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 3:19 pm","perfect I will try it and prais it once I am done 🙂","",""
+"830547801032884319","beatroot#6098","17/07/2023 3:24 pm","No public node yet, but we're aiming to get one up and running in a few days.","",""
+"700650371344891935","syphilis6688","17/07/2023 3:28 pm","Feel free to DM me if you have problem 😄","","👍 (1)"
+"830547801032884319","beatroot#6098","17/07/2023 3:36 pm","Looks like you might be running out of memory. Can you share details about your VM resources? Also, could you provide the outputs of `docker stats` and `docker inspect [container-name]`, preferably when the error occurs?","",""
+"830547801032884319","beatroot#6098","17/07/2023 3:43 pm","Hey! By default, the Prometheus metrics will be exposed on a different port than RPC, and this port will be configurable.","","👍 (1)"
+"700650371344891935","syphilis6688","17/07/2023 4:03 pm","Because I added the < --restart unless-stopped > flag to my command, my node restarted afterward, and the error didn't appear again","",""
+"700650371344891935","syphilis6688","17/07/2023 4:03 pm","","https://cdn.discordapp.com/attachments/990189698813149214/1130447252767391784/image.png",""
+"407584258648178689","IronGauntlets#5041","17/07/2023 5:30 pm","Please have a look here for Starknet Node's rpc methods: https://github.com/starkware-libs/starknet-specs/blob/master/api/starknet_api_openrpc.json","",""
+"972062061175635998","lxh#9329","17/07/2023 6:26 pm","What are the parameters about this json-rpc request? Is there any documentation on this? I get the err ""expected value at line 2 column 24"" abput :
+curl --location 'https://starknet-goerli.g.alchemy.com/v2/PBvB1f_YUOZpvd-zz1g9PNTzYL48jaSV' \
+--header 'Content-Type: application/json' \
+--data '{
+    ""jsonrpc"": ""2.0"", 
+    ""method"": ""starknet_getBlockWithTxHashes"", 
+    ""params"":
+        {
+            ""block_id"":833534
+        },
+    ""id"": """"
+    }'
+How to deal with the err ?","",""
+"407584258648178689","IronGauntlets#5041","17/07/2023 6:33 pm","I don't think the node is a Juno node. Also, the request data should be as follows:
+{
+  ""jsonrpc"": ""2.0"",
+  ""method"": ""starknet_getBlockWithTxHashes"",
+  ""params"": {
+    ""block_id"": {
+      ""block_number"": 833534
+    }
+  },
+  ""id"": 0
+}","",""
+"407584258648178689","IronGauntlets#5041","17/07/2023 6:35 pm","and  https://github.com/starkware-libs/starknet-specs/blob/master/api/starknet_api_openrpc.json, defines the node spec you can copy paste it in https://playground.open-rpc.org/ for easier navigation","",""
+"972062061175635998","lxh#9329","17/07/2023 8:11 pm","oh,,how to see the  the request data every function? Do we have the documentation?","",""
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 10:50 pm","Hi mate, I followed your guide and in step 1 when subscirbing to contabo I forgot to check the docker box...how can I change it afterwards?!","",""
+"700650371344891935","syphilis6688","17/07/2023 10:56 pm","I believe that by default, you will have the Linux configuration","",""
+"700650371344891935","syphilis6688","17/07/2023 10:57 pm","It's not a problem, you will just have to install Docker. I'll send you the command in private","",""
+"830547801032884319","beatroot#6098","18/07/2023 2:06 pm","Oh, I see what could be an issue. In your article you've used `nethermindeth/juno:latest-amd64` which is docker hub for our testing/pre-releases purposes,  the official one with tested and verified version is here: `nethermind/juno:latest`","",""
+"700650371344891935","syphilis6688","18/07/2023 2:48 pm","When I was writing my article, the 'latest' version wasn't up-to-date for the past 2 months :/ Someone advised me to use 'latest-amd64', which was up-to-date","",""
+"700650371344891935","syphilis6688","18/07/2023 2:55 pm","When I use nethermindeth/juno:latest, it's not working, and I get the error message Error: unknown flag: --eth-node. However, with nethermindeth/juno:latest-amd64, my node only encounters one error at block 108000, after which everything works fine.","",""
+"830547801032884319","beatroot#6098","18/07/2023 3:22 pm","I mean `nethermind/juno:latest`, not nethermind**eth**/juno:latest","",""
+"700650371344891935","syphilis6688","18/07/2023 3:45 pm","It's working with ** nethermind/juno:latest ** 😄","","👌 (1)"
+"973127804197699644","m514650","18/07/2023 11:21 pm","Hi, is there a way plz to set these juno args using env variables ? Cause I'd like to use `docker compose` instead of `docker run` but don't know how to do this if no env var is recognized.","https://cdn.discordapp.com/attachments/990189698813149214/1130919836554375168/image.png",""
+"973127804197699644","m514650","18/07/2023 11:24 pm","Probably by mounting` --config string                    The yaml configuration file`   🙂","",""
+"700650371344891935","syphilis6688","18/07/2023 11:54 pm","I updated the command in my article and tested it. Everything is working well now. Thank you for your advice! 😊","",""
+"460883620480024577","0xliberato","19/07/2023 7:24 am","is possible to run a node for mainnet or only testnet on juno?","","✅ (1)"
+"830547801032884319","beatroot#6098","19/07/2023 1:10 pm","Awesome, glad it all worked out! Your article is really great. We should probably prepare something similar in English. 🙂","",""
+"830547801032884319","beatroot#6098","19/07/2023 1:13 pm","Sure, Juno runs on mainnet by default. You can confirm this by adding `--network mainnet` when starting your node.","",""
+"830547801032884319","beatroot#6098","19/07/2023 1:15 pm","Hey, there's no way to set that now, but we're planning to add this soon. See here: https://github.com/NethermindEth/juno/issues/905","",""
+"700650371344891935","syphilis6688","19/07/2023 3:02 pm","If you want, my wife, who has experience in web3 and is fluent in English, can translate this article. I can send you the document in private","",""
+"972062061175635998","lxh#9329","19/07/2023 3:06 pm","OK，I have some other questions ,can you help me :
+1. what is the transaction signature algorithm?
+2. how to generate contract address from public key?
+3. how to use starknet_addInvokeTransaction transaction?
+4. How do I call DEPLOY_ACCOUNT to create a contract address and what parameters are required? 
+Is there any golang code for the above questions?","","✅ (1)"
+"973127804197699644","m514650","20/07/2023 3:56 am","nice thx 🙂","","🤝 (2)"
+"830547801032884319","beatroot#6098","20/07/2023 1:03 pm","No worries, we can handle that, thanks!","","👍 (1)"
+"972062061175635998","lxh#9329","25/07/2023 9:54 am","How to deal with the err?","https://cdn.discordapp.com/attachments/990189698813149214/1133253295549456455/image.png",""
+"972062061175635998","lxh#9329","25/07/2023 12:46 pm","I don't know where the error is, is there something wrong with my field? Or am I calculating it incorrectly?","",""
+"972062061175635998","lxh#9329","26/07/2023 2:33 pm","the CURL is right ? I'm trying to estimate the cost before the transaction is uploaded, but I'm not sure how the parameters should be written：
+
+curl --location '0.0.0.0:5050' \
+--header 'Content-Type: application/json' \
+--data '{
+""jsonrpc"": ""2.0"", 
+""method"": ""starknet_estimateFee"",
+  ""params"": 
+    {
+        ""request"":[""0x1df0a7fd4e0cccdf669c3692b017d44da84d5c1b1eb7d1e8337942f8adb0807""],
+        ""block_id"":""latest""
+    }
+  ,
+ ""id"": 0
+ }'","",""
+"830547801032884319","beatroot#6098","26/07/2023 4:23 pm","Hey, your request is invalid, in `request` you have to pass whole transactions you want to be estimated, not txn_hash, see the spec: https://github.com/starkware-libs/starknet-specs/blob/c7743497f1f90abca986750a171247c74a236546/api/starknet_api_openrpc.json#L520C22-L520C42","",""
+"927849119299567627","ors3051","26/07/2023 7:07 pm","Hey everyone, Juno is now production-ready 🔥🔥
+
+It provides a complete RPC solution for devs, wallets, explorers, and indexers! 
+
+🔗 Read more in our blog post 
+https://twitter.com/NethermindStark/status/1684194946377555972?s=20","","🔥 (4)"
+"932730814121246740","Andrewke#1242","26/07/2023 10:30 pm","Hi wanna ask abour node runers does it possible then in minnet noders will be get some OAP or POAP NFT like reward?","",""
+"972062061175635998","lxh#9329","27/07/2023 12:19 pm","About the method ""starknet_getTransactionReceipt':
+What does this field “keys” mean? and How to distinguish the meaning of each data return value?","https://cdn.discordapp.com/attachments/990189698813149214/1134014737101881364/image.png",""
+"972062061175635998","lxh#9329","31/07/2023 2:06 pm","???","",""
+"830547801032884319","beatroot#6098","01/08/2023 4:39 pm","Hey, please take a look at starknet docs: https://docs.starknet.io/documentation/architecture_and_concepts/Events/starknet-events/","",""
+"927849119299567627","ors3051","01/08/2023 4:58 pm","GM Juno users & testers! Our first Release Candidate is ready for download 🔥
+
+Help us make Juno even better and faster 💪 we welcome your questions and feedback!
+
+🔗https://github.com/NethermindEth/juno/releases/tag/v0.5.0-rc0
+
+https://twitter.com/NethermindStark/status/1686335912165150720?s=20","https://cdn.discordapp.com/attachments/990189698813149214/1135896779825619016/Juno_v0.5.0_release_candidate.png",""
+"490992714687709196","glcstaked","02/08/2023 12:11 am","I got Juno working with Sedge deployed- Eth node, both nodes hosted locally 
+
+https://twitter.com/GLCstaked/status/1686444135731838996","","👏 (1),🔥 (1)"
+"490992714687709196","glcstaked","02/08/2023 12:11 am","outlined all the steps here in this guide: https://mirror.xyz/0xf3bF9DDbA413825E5DdF92D15b09C2AbD8d190dd/lpKUpNTbRHgqFV28My563Hgohe0trtdqaAvpozILx1s","","🔥 (1)"
+"832544815529984020","anneli4753","08/08/2023 3:27 pm","Gm Starknet builders ☕  Juno v0.5.0 is ready for download!  🔥 
+
+Full support for the upcoming Starknet v0.12.1 upgrade, which improves the efficiency of the sequencer capacity 🚀 
+
+We've also added Prometheus metrics so you can track Juno’s resource usage and volume of RPC requests! Check out the full changelog here 👇 
+
+🔗  https://github.com/NethermindEth/juno/releases
+
+https://twitter.com/NethermindStark/status/1688843801819807744?s=20","https://cdn.discordapp.com/attachments/990189698813149214/1138410605661921290/Juno_v0.5.0_1.png","🎉 (4)"
+"390901942445932544","veldhuus","15/08/2023 1:20 am","hello i finished the Juno installation guide. and it looks like my node is now syncing, what should I do now to confirm it here? I see #☊｜full-node-why-you-post-ip-numbers-makes-no-sense , but no pinned message there about what to actually post there","",""
+"887097270154199061","mandip_","15/08/2023 1:21 am","The third party node services does not track who is running the node. So, posting is not required if you are not having any issues.","",""
+"390901942445932544","veldhuus","15/08/2023 1:23 am","cool so there is 0 benefit from doing so. I see people posting their IP-addresses (weird), but also their Argent wallet addresses.","",""
+"887097270154199061","mandip_","15/08/2023 1:25 am","That's for fun purpose only i believe, not really required. No rewards for running node since node does not participate on consensus. Also, I suppose wallet is not required for running node","",""
+"390901942445932544","veldhuus","15/08/2023 1:26 am","Perfect, i'll let it be 😄","",""
+"927849119299567627","ors3051","17/08/2023 3:29 pm","GM everyone! 
+
+Juno v0.5.1 is ready for download 🔥
+
+Full support for Starknet v0.12.2 is here! This upgrade will bring a new endpoint to the Starknet feeder gateway & allow full nodes like Juno to implement P2P communication 💪
+
+
+🔗https://github.com/NethermindEth/juno/releases/tag/v0.5.1","https://cdn.discordapp.com/attachments/990189698813149214/1141672645222469692/Juno_v0.5.1.png","🔥 (2)"
+"1119113389860474943","aka2882aka","17/08/2023 6:45 pm","hello, i know JUNO at first. I'm sure you'll be able to answer my questions.","",""
+"1119113389860474943","aka2882aka","17/08/2023 6:45 pm","I want to learn about starknet's fee mechanism through the source code.","",""
+"1119113389860474943","aka2882aka","17/08/2023 6:46 pm","I just cloned the juno repository and am skimming through the code... where should I look?","",""
+"973127804197699644","m514650","17/08/2023 9:13 pm","Thanks for metrics, seems well working !","https://cdn.discordapp.com/attachments/990189698813149214/1141759202524667944/image.png","🙌 (1)"
+"467031582146822144","joshklop","21/08/2023 12:08 am","The fee calculation isn't in the Juno repo right now. It's in the blockifier source here: https://github.com/starkware-libs/blockifier/blob/97c73b42669665f29d1e9347301bf805b402dd50/crates/blockifier/src/fee/fee_utils.rs#L50","","🥰 (1)"
+"1119113389860474943","aka2882aka","21/08/2023 7:22 am","allright, thank you for reply. i am just now getting to know some Layer2 overall node configuration. i am not a tech guy, so it seems to be taking too much time. 😂","",""
+"927849119299567627","ors3051","22/08/2023 9:28 pm","Hey everyone, introducing Juno v0.6.0! Live & ready for download 🔥 👇
+https://github.com/NethermindEth/juno/releases/tag/v0.6.0
+
+https://twitter.com/NethermindStark/status/1693993432652636391?s=20","https://cdn.discordapp.com/attachments/990189698813149214/1143574952914714654/Juno_v0.6.0_1.png","🔥 (4)"
+"973127804197699644","m514650","24/08/2023 6:26 pm","Hello, my upgrade 0.5.1 > 0.6 is stuck for 4h at step 5/14. Does someone have an idea about migration process time plz ? Or I give up and fetch last 0.6 snapshot ? Thx","https://cdn.discordapp.com/attachments/990189698813149214/1144253954025328710/image.png",""
+"126385519469789184","omerfirmak#7332","25/08/2023 6:36 pm","Hey, it must have finished by now, but the migrations on 0.6.0 are pretty heavy. So it is the expected behaviour","",""
+"973127804197699644","m514650","28/08/2023 1:10 am","After ~6h and still stuck on 5th step I prefered to abort and retreive the 0.6 snapshot. Everything is fine now 👍🏻","","👌 (3)"
+"927849119299567627","ors3051","04/09/2023 4:54 pm","GM Starknet! Juno's latest benchmarking report is out, dive in 🤿
+🔗 https://nethermind.notion.site/Juno-v0-6-0-Full-Node-Implementation-Performance-756efef9a6b74919a9a06ed68f5fe410","https://cdn.discordapp.com/attachments/990189698813149214/1148217096430420018/Juno_Benchmark_V.0.60_Updated.png","bullish (4)"
+"766937161613574155","miraitowa#0695","11/09/2023 5:44 pm","Hello, has anyone encountered this problem when deploying accounts on nodes built using juno? Junter
+LibraryError:40:Contracterror
+The version we are currently using for js sdk is 5.14.1, and the version of node is juno 6.0.0","",""
+"467031582146822144","joshklop","11/09/2023 9:05 pm","Hi! Any chance you could share more of the logs?","",""
+"766937161613574155","miraitowa#0695","12/09/2023 7:04 am","This is the nodejs log, the current version of starknet.js is 5.19.5
+LibraryError: 24: Block not found
+    at RpcProvider.errorHandler (/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:4696:13)
+    at RpcProvider.fetchEndpoint (/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:4703:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Account.estimateAccountDeployFee (/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:6303:22)
+    at async Account.getSuggestedMaxFee (/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:6547:23)
+    at async Account.deployAccount (/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:6481:49)
+    at async /Users/jfl/Work/wallet-nodejs/node-starknet/routers/api.js:102:36
+/Users/jfl/Work/wallet-nodejs/node-starknet/node_modules/starknet/dist/index.js:4696
+      throw new LibraryError(`${code}: ${message}`);","",""
+"830547801032884319","beatroot#6098","12/09/2023 10:21 pm","Hey, thanks for reporting this, we're working on the fix.","",""
+"467031582146822144","joshklop","13/09/2023 1:46 am","Fix has been merged. If our testing goes well, there should be a release out very soon. Thanks again!","",""
+"830547801032884319","beatroot#6098","13/09/2023 1:44 pm","@miraitowa can you re-try using Juno v0.6.1? All should work there. 🙂","","👍🏻 (1)"
+"927849119299567627","ors3051","13/09/2023 7:32 pm","GM Starknet! Juno v0.6.1 is live & ready for download! 
+
+🔗https://github.com/NethermindEth/juno/releases/tag/v0.6.1
+
+A big shoutout to all external contributors for your commits! More in the X post 👇
+https://x.com/NethermindStark/status/1701957309516087308?s=20","https://cdn.discordapp.com/attachments/990189698813149214/1151518186727018556/Juno_v0.6.1.png","StarkNet (2)"
+"219728691658227712","curtistar","16/09/2023 2:06 pm","hi, who can help me pls, I setup juno, sync is ok, but can't connect via Argent to rpc?","",""
+"1105394558155628605","RuthWalker | X#3769","16/09/2023 5:28 pm","Are you getting an error message when you do, if so share any relevant screenshot for a clearer description","",""
+"219728691658227712","curtistar","16/09/2023 10:24 pm","nop, but f12 networking just respone erorrs like block not found, ca not found","",""
+"219728691658227712","curtistar","16/09/2023 10:24 pm","but if i manualy send some request like ""curent block"" its work fines","",""
+"766937161613574155","miraitowa#0695","18/09/2023 7:39 am","Okay, I'll test the upgrade first","",""
+"766937161613574155","miraitowa#0695","18/09/2023 5:00 pm","Started a thread.","",""
+"830547801032884319","beatroot#6098","18/09/2023 5:42 pm","Did you use the `--pending-poll-interval` flag when you started Juno? Also, make sure you're on Juno v0.6.2. Give that a shot and let us know if it helps, thanks!","",""
+"219728691658227712","curtistar","18/09/2023 6:23 pm","and what dutoration need to set ?","",""
+"830547801032884319","beatroot#6098","18/09/2023 6:30 pm","It depends on your specific needs. For making the `starknet-js` tests pass, a pending-poll-interval of 2s should work.
+```
+pending-poll-interval
+# How often to fetch the pending block when synced to the head of the chain.
+# Provide a duration like 5s (five seconds) or 10m (10 minutes).
+# Disabled by default.
+```","",""
+"927849119299567627","ors3051","18/09/2023 7:29 pm","Hey friends! Juno v0.6.2 is available for download! 
+
+Full changelog
+🔗https://github.com/NethermindEth/juno/releases/tag/v0.6.2","https://cdn.discordapp.com/attachments/990189698813149214/1153329496934580254/Juno_v0.6.2.png","🎉 (2)"
+"1105394558155628605","RuthWalker | X#3769","18/09/2023 11:08 pm","I sent you a friend request","",""
+"927849119299567627","ors3051","20/09/2023 8:59 pm","Juno v0.6.3 is available for download! Packed with stability boosts  🔥
+
+Full list 👇
+https://github.com/NethermindEth/juno/releases/tag/v0.6.3","https://cdn.discordapp.com/attachments/990189698813149214/1154076799119147089/Juno_v0.6.3.png",""

@@ -1,0 +1,70 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"754641878934225008","odinfree","20/06/2022 6:16 pm","@Tom Brand | StarkWare","",""
+"529548692714422276","Tom Brand | StarkWare#1971","21/06/2022 5:37 pm","Hello, this is a place to publicly discuss StarkNet.js development. May the force be with us 💪","",""
+"940166658591424512","Antun | ShardLabs#0568","21/06/2022 6:00 pm","👋  I opened the GitHub discussion for the abstract Provider interface. It's WIP but feel free to drop any comments https://github.com/0xs34n/starknet.js/discussions/233","","🔥 (40)"
+"368420164540170241","janek26","27/06/2022 7:42 pm","Hey all! one more PR https://github.com/0xs34n/starknet.js/pull/238","","✅ (20)"
+"940166658591424512","Antun | ShardLabs#0568","30/06/2022 2:39 pm","https://github.com/0xs34n/starknet.js/projects/3 - I created a board to track progress for the new 4.0 version with the abstract Provider interface. I urge contributors to update the board as necessary 🖖","",""
+"529548692714422276","Tom Brand | StarkWare#1971","30/06/2022 6:29 pm","Started the call, let's see how it rolls 🥁","",""
+"961920231574503444","yogabraavos","11/07/2022 5:44 pm","Hey team, as part of SN 0.9.1 upgrade, the response for `estimate_fee` is going to change to:
+`{""overall_fee"":16968000079184,""unit"":""wei"",""gas_price"":1500000007,""gas_usage"":1131}`
+Namely, `amount` => `overall_fee` is a **breaking change.**
+
+I created initial PR for it:
+https://github.com/0xs34n/starknet.js/pull/248
+
+Since `starknet-devnet` still doesn't support 0.9.1 I had to locally  patch it so tests will pass.","",""
+"961920231574503444","yogabraavos","11/07/2022 5:47 pm","@STARK Team can you add Ariel to this channel as well?","",""
+"754641878934225008","odinfree","11/07/2022 6:07 pm","@FeedTheFed | StarkWare this ariel?","","👍 (6)"
+"366895980764725250","pave_spaceshard","11/07/2022 7:12 pm","Started a thread.","",""
+"366895980764725250","pave_spaceshard","11/07/2022 7:14 pm","Started a thread.","",""
+"366895980764725250","pave_spaceshard","11/07/2022 7:14 pm","just a note regarding devnet, the 0.9.1 is still not on testnet, we plan to support these new features by then or shortly after (we get the specs for new releases currently at the same time as everyone else)","","👍🏽 (11)"
+"529548692714422276","Tom Brand | StarkWare#1971","13/07/2022 4:55 pm","Created an event for tomorrow's bi-weekly call - https://discord.com/events/793094838509764618/996738980945088592","","🔥 (19)"
+"197513423179743243","0xsean","15/07/2022 7:20 pm","Hey @here added @Toni | SpaceShard✨ and Ivan from Shard Labs as collaborators to the StarkNet.js GitHub as @Antun | ShardLabs will be handing off the project to them","","👍 (9),♥️ (3)"
+"529548692714422276","Tom Brand | StarkWare#1971","17/07/2022 5:25 pm","@Contributor  what is the status re tests vs. v0.9.1? are we good to go?","",""
+"961920231574503444","yogabraavos","17/07/2022 7:24 pm","@Tom Brand | StarkWare on the `estimate_fee` front we are good to do (version 3.17.0)","",""
+"940166658591424512","Antun | ShardLabs#0568","18/07/2022 12:26 pm","Nothing else from the v0.9.1 should break `starknet.js`, so I think we are good to go","",""
+"529548692714422276","Tom Brand | StarkWare#1971","18/07/2022 5:44 pm","👍","",""
+"368420164540170241","janek26","27/07/2022 4:00 pm","Hey all!
+🎆  starknet.js v4 was released
+
+you can check it out using:
+```
+yarn add starknet@next
+```
+
+We will soon have a way to request version 4 from Argent X and `get-starknet` aswell.","","🔥 (7)"
+"529548692714422276","Tom Brand | StarkWare#1971","28/07/2022 5:07 pm","Link for this week weekly call - https://discord.com/events/793094838509764618/1002177851774214156","",""
+"529548692714422276","Tom Brand | StarkWare#1971","28/07/2022 6:47 pm","https://starkware.notion.site/StarkNet-0-10-0-4ac978234c384a30a195ce4070461257","",""
+"639071462778470431","stan7717","28/07/2022 6:53 pm","Here is an example of issues that are ready to have to contributors to work on: https://github.com/gabsn/starknet.dart/issues
+Basically the issue labels we expect the issues to hold are listed here: https://github.com/onlydustxyz/github-contribution-labels/labels
+An article we wrote about this: https://mirror.xyz/onlydust.eth/zrXDEdrIwvjsgS0bvS_dHGoFx3BbxZMl7aWJXMQAbyM
+
+@Janek | argent.xyz @0xs34n ping me once you have some issues ready, we'll take them to the platform app.onlydust.xyz","",""
+"197513423179743243","0xsean","28/07/2022 6:54 pm","Thanks! cc @Pave | SpaceShard","","👍 (7)"
+"639071462778470431","stan7717","01/08/2022 3:15 pm","Hey @0xs34n @Pave | SpaceShard @Janek | argent.xyz , have you had time to create the issues you want to suggest as external contributions? We'll present them in an OnlyDust community call this week so keep me updated when you have them 🙂","","👍 (3)"
+"961920231574503444","yogabraavos","01/08/2022 5:25 pm","@Stan , this should also be considered:
+https://github.com/0xs34n/starknet.js/issues/251","","✅ (6)"
+"366895980764725250","pave_spaceshard","01/08/2022 8:17 pm","Started a thread.","",""
+"529548692714422276","Tom Brand | StarkWare#1971","11/08/2022 6:33 pm","https://discord.gg/8vRNmCbc","",""
+"529548692714422276","Tom Brand | StarkWare#1971","25/08/2022 6:24 pm","https://discord.com/events/793094838509764618/1012344108297224252","",""
+"197513423179743243","0xsean","25/08/2022 6:40 pm","Relevant PR https://github.com/0xs34n/starknet.js/pull/307","",""
+"529548692714422276","Tom Brand | StarkWare#1971","25/08/2022 6:56 pm","https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.4/html/release_notes/deprecated_features_rhv","",""
+"197513423179743243","0xsean","03/09/2022 6:14 pm","https://www.youtube.com/watch?v=c7jn1RApaCs","","👍 (4)"
+"529548692714422276","Tom Brand | StarkWare#1971","08/09/2022 6:24 pm","https://discord.com/events/793094838509764618/1017417634804928514","",""
+"529548692714422276","Tom Brand | StarkWare#1971","22/09/2022 6:27 pm","https://discord.gg/QuwTg4jX","",""
+"366895980764725250","pave_spaceshard","06/10/2022 6:32 pm","https://discord.gg/5NQQxQTM","",""
+"366895980764725250","pave_spaceshard","20/10/2022 6:30 pm","@here https://discord.gg/C5AruaHm","",""
+"349267519040651265","dhruv_kelawala","20/10/2022 6:45 pm","Sorry for the bad audio","",""
+"529548692714422276","Tom Brand | StarkWare#1971","17/11/2022 7:27 pm","https://discord.com/events/793094838509764618/1042800531762057246","",""
+"366895980764725250","pave_spaceshard","28/11/2022 8:14 pm","@here hi! 👋 
+You are maybe aware that soon StarkNet will not allow free deployments of Accounts. 
+That is why we modified and updated our workshop repo, which you can check out on how to adapt your flow: https://github.com/0xs34n/starknet.js-workshop
+It uses the newest Account and ERC20 OpenZeppelin contacts. 
+For an example that uses the Argent Account contract check out: https://github.com/0xs34n/starknet.js-account
+For the theory check out this guide: https://starkware.notion.site/Deploy-a-contract-and-an-account-on-StarkNet-ed2fd13301d2414e8223bb72bb90e386
+NOTE: starknet.js guides are not yet up to date with these changes, but they will be very soon","",""
+"349267519040651265","dhruv_kelawala","06/01/2023 3:48 pm","@Iris https://github.com/0xs34n/starknet.js/pull/461#issuecomment-1373435738","",""
+"349267519040651265","dhruv_kelawala","09/01/2023 5:41 pm","@Iris I have requested a few changes on the PR. It'd be great if you can work on it today if you got time","",""
+"961920231574503444","yogabraavos","09/02/2023 7:33 pm","hi @here, are we having the bi-weekly?","",""
+"690115504404299928","avimak","09/02/2023 7:40 pm","?","",""
+"248159775085428737","tonitabak","10/02/2023 3:47 pm","Ariel moved to next week.","",""

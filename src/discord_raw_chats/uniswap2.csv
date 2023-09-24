@@ -1,0 +1,2221 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 2:07 am","gm @Uniswap Community Developer ☀️ 
+
+We're excited to announce the deployment of Permit2 & Universal Router—new smart contracts that increase the flexibility of token approvals & aggregate ERC20s & NFT swaps into one :flyingunicorn: 
+
+**Permit2 improves the security, UX, and flexibility of ERC20 token approvals with features like:**
+🤝 Shared approval management across applications
+☝️ Universal permits for any token
+⏰ Time-bound token approvals
+🧺 Batch approvals & revokes for tokens
+
+**Universal Router**
+Aggregates ERC20 and NFT trades into a highly flexible and gas-optimized swap router 🌀
+UR allows you to swap multiple tokens on Uniswap and buy NFTs across marketplaces, all in one transaction!
+
+As always, Permit2 and Universal Router are non-upgradable, unowned, fully audited, and open-source 🤖
+They will be released following a two-week bug bounty period (more details to come.)
+Find the source code here:
+https://github.com/Uniswap/permit2","","🫡 (9),🙏 (6),🛠️ (3),🇼 (1),1RR3 (1),❤️‍🔥 (1),flyingunicorn (2),Uni (3),RunningUnicorn (1),unicornbarf (1),Unisocks (1),SavageHayden (1)"
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 2:11 am","https://uniswap.org/blog/permit2-and-universal-router","","❤️‍🔥 (1),flyingunicorn (2),Uni (1),unicornbarf (1),Unisocks (1),RunningUnicorn (1),SavageHayden (1)"
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 3:29 am","@Uniswap Community Developer FYI! 👇 
+https://twitter.com/Uniswap/status/1593356852959612930?s=20&t=m9YoN-GsLbxykTiqdiww-g","","🐛 (6),🪲 (3),🐞 (2),1RR3 (1),❤️‍🔥 (2),Uni (2),flyingunicorn (1),🦄 (1),unicornbarf (1),Unisocks (2),SavageHayden (1)"
+"472110641772101633","drop32table32users","18/11/2022 4:54 pm","Hi, can someone shed some light on the V3 ways to get quotes. Afaik the 3 main ways are:
+1. Call to https://api.uniswap.org/v1/
+2. Using the @uniswap/smart-order-router
+3. Using the Multicall and Quoter contracts on-chain
+I guess my question is, where to find some pro and contra regarding these options?","",""
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 4:57 pm","Best to ask in #🧶│on-chain-integrations","","🙏 (1)"
+"694274491819491389","filipevenancio.eth","18/11/2022 8:15 pm","Yo yo","",""
+"694274491819491389","filipevenancio.eth","18/11/2022 8:15 pm","GM Guys. My question is: Can I sell or only buy using the universal-router?? if not how can I become a ""marketplace"" ??","",""
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 9:26 pm","gm filipe! Universal Router is a swap router that supports ERC20s and NFTs. We're going to add this to our web app soon. You can use this on other platforms if they integrate Universal Router.","https://cdn.discordapp.com/attachments/1042613771316764752/1043192959849468004/diagram-2.jpg","❤️‍🔥 (1),Uni (2),🦄 (1),RunningUnicorn (1),flyingunicorn (1)"
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 9:26 pm","Check out this graphic we made","",""
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 9:27 pm","Imagine you're trying to purchase a Crypto Coven but you don't have enough weth in your wallet","",""
+"989275482488983663","AnthonyNicholas#4331","18/11/2022 9:28 pm","You could use the universal router to swap tokens in your wallet, across v2 and v3 pools to get the best price. You end up with 0.8 WETH. The router takes the weth, sends it to OpenSea, and opensea will buy that NFT for you","",""
+"694274491819491389","filipevenancio.eth","18/11/2022 11:00 pm","the question is, if I want to sell instead of buying?  if I want to list or sell in those markets? or use the offers there?","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 2:52 am","You can't sell with Universal Router. Universal router is a swap router, so you're swapping assets in your wallet to obtain another asset. For example - you swap one token on Uniswap for another token.
+
+With universal router - you can swap a token for an NFT","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:52 am","Ok and NFT for Token?","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 2:53 am","Yes! 😁","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 2:54 am","token -> nft
+nft -> token
+nft -> nft","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:54 am","Nice","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:54 am","Thx for Ur time","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 2:56 am","I apologize, I did a poor job at explaining it. With Universal Router, you can buy NFTs with any ERC20 token. Theoretically, you could sell an NFT for an ERC20 token but only some NFT marketplaces allow this.","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:56 am","Ok","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:57 am","The docs also poorly explain the transactions allowed","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:57 am","They are more focus on purchases.","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:59 am","Ask the team if possible to mention which markets will do what in the documentation","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:59 am","It seems logic sudoswap and nftx will do it","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 2:59 am","Since both already use routerV2","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 6:39 pm","I think we'll announce that after we launch the NFT aggregator. If you didn't know, we're launching an NFT marketplace aggregator soon. The aggregator will give users the best prices.","",""
+"694274491819491389","filipevenancio.eth","19/11/2022 8:17 pm","nice alpha 🙂 thx","",""
+"989275482488983663","AnthonyNicholas#4331","19/11/2022 8:50 pm","https://tenor.com/view/yes-wink-gotcha-you-tube-thanks-gif-3467082","",""
+"751622913269956664","million_miles","21/11/2022 12:48 pm","Hello manager,  I'm from https://element.market/ team,  i noticed that you guys are developing Universal Router, which is integrating with some NFT marketplaces, we expect Element could be one of your partner🙏","",""
+"751622913269956664","million_miles","21/11/2022 12:49 pm","Do we need to submit any application to you?","https://cdn.discordapp.com/attachments/1042613771316764752/1044150026177355846/image.png",""
+"951371912146219048","levi52.","22/11/2022 7:56 am","hi","",""
+"589192601328943104","0xrbp","22/11/2022 10:57 am","hi guys, is the new ""universal router"" that swaps NFTs, integrated with Sudoswap?","",""
+"589192601328943104","0xrbp","22/11/2022 10:57 am","Also, is this universal router it's own NFT AMM or is it just leveraging Sudoswap?","",""
+"951371912146219048","levi52.","22/11/2022 1:36 pm","How is the X2Y2.json input generated? An error occurred in the runInput generated by X2Y2-sdk, so I want to know how you generate the input.
+on universal-router","",""
+"951371912146219048","levi52.","22/11/2022 1:37 pm","@Anthony 🦄 // Community Manager","",""
+"471357824299958273","crypto_rachel","22/11/2022 1:47 pm","I would suggest you reach out to X2Y2, since it's their code they would know the what's needed
+https://discord.com/invite/x2y2-io","",""
+"989275482488983663","AnthonyNicholas#4331","22/11/2022 4:52 pm","I’m pretty sure Universal Router will use multiple marketplaces but let me confirm with my team","",""
+"751622913269956664","million_miles","23/11/2022 6:56 am","@Anthony 🦄 // Community Manager  Could you help to confirm with team about our request?","",""
+"756459335806353449","advock_k","23/11/2022 1:19 pm","heyoo!! where can i find permit2 deployment address ?","",""
+"989275482488983663","AnthonyNicholas#4331","23/11/2022 8:07 pm","UR is using 8 different NFT marketplaces, sudoswap is one of those marketplaces. You can read more here- https://github.com/Uniswap/universal-router/blob/main/README.md","",""
+"989275482488983663","AnthonyNicholas#4331","23/11/2022 8:30 pm","Yes sir!!! 0x000000000022D473030F116dDEE9F6B43aC78BA3","",""
+"843155325619535912","Etherscan Bot#5753","23/11/2022 8:30 pm","<https://etherscan.io/address/0x000000000022D473030F116dDEE9F6B43aC78BA3>","",""
+"989275482488983663","AnthonyNicholas#4331","23/11/2022 8:30 pm","🫡","","flyingunicorn (1)"
+"874945032862449674","_gr_","24/11/2022 3:13 am","hello 👋 
+excited about the new permit2 contract!
+who can I ask a quick question about batching txns?","","➕ (1)"
+"756459335806353449","advock_k","24/11/2022 10:52 am","Thank YOOOO :Uni:","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:47 pm","Hello! I have a question.. need some.help from an admin please!","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:47 pm","A transaction that i made went trhough uniswap v2 instead of uniswap v3 and i just lost .104 eth","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:47 pm","Is there a way to recover my investment??","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:47 pm","https://etherscan.io/tx/0x6d785ad54475c0e5fe313740506ca9b7f7586f42f46b6a5991fe919b48de7e2c","",""
+"465797021161488389","jakekvm01#3731","24/11/2022 5:47 pm","Please create a ticket here #🙋│help","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:48 pm","Where is the help?","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:48 pm","Sorry","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:48 pm","Cant find the section!","",""
+"465797021161488389","jakekvm01#3731","24/11/2022 5:50 pm","Please click this >>  #🙋│help","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:50 pm","It doesnt work! Nothing happens, damn!","",""
+"696295517818191933","uspalameis#1583","24/11/2022 5:51 pm","","https://cdn.discordapp.com/attachments/1042613771316764752/1045313104751382528/Record_2022-11-24-13-20-35.mp4",""
+"465797021161488389","jakekvm01#3731","24/11/2022 5:51 pm","Please verify here first #👋│verify","",""
+"989275482488983663","AnthonyNicholas#4331","24/11/2022 6:38 pm","Hey! I can help you","",""
+"874945032862449674","_gr_","24/11/2022 7:04 pm","hello sir,
+I was wanting to know the best way of batching txns in a multi-user scenario
+I was thinking of doing a batch of permitTransferFrom calls but it seems that is not possible","",""
+"874945032862449674","_gr_","24/11/2022 7:14 pm","I guess the way to do it is not through signature transfers put doing a (signed) permit and then batched transferFrom","",""
+"751622913269956664","million_miles","25/11/2022 8:02 am","@Anthony 🦄 // Community Manager  Could you help me?","",""
+"756459335806353449","advock_k","25/11/2022 11:38 am","Helle guys ! a quick question. the contract AllowanceTransfer.sol  and SignatureTransfer.sol should have different addresses right ?","",""
+"989275482488983663","AnthonyNicholas#4331","25/11/2022 9:41 pm","Hey there, no application is needed. We can integrate your NFT marketplace into our platform. Do you have API docs?","",""
+"989275482488983663","AnthonyNicholas#4331","25/11/2022 9:42 pm","I'm not a developer but I can ask our team. I'll ping you once they message me back.","",""
+"989275482488983663","AnthonyNicholas#4331","25/11/2022 9:46 pm","Hey! Let me check with my team. I'll get back to you soon","",""
+"989275482488983663","AnthonyNicholas#4331","25/11/2022 9:51 pm","Hey @Advock_k and @_GR_, I'll get back to you guys on monday","","👀 (1)"
+"751622913269956664","million_miles","28/11/2022 2:26 pm","I  have messaged to you, please check, thanks❤️","","👍 (2)"
+"895376352809734186","J. Paz#2338","29/11/2022 1:05 pm","Started a thread.","",""
+"989275482488983663","AnthonyNicholas#4331","29/11/2022 3:19 pm","AllowanceTransfer.sol and SignatureTransfer.sol is the same contract. Permit2 is those 2 contracts through inheritance.","",""
+"895376352809734186","J. Paz#2338","29/11/2022 3:36 pm","that's good, right?","",""
+"943520393229139969","ming#8821","30/11/2022 8:51 pm","🔥","",""
+"535827767640457216","bombom#0695","02/12/2022 6:54 pm","how much does uniswap nft marketplace charge?","",""
+"535827767640457216","bombom#0695","02/12/2022 6:54 pm","couldn't find anything on fees","",""
+"989275482488983663","AnthonyNicholas#4331","03/12/2022 12:24 am","@bombom Uniswap NFT is a marketplace aggregator. Uniswap NFT is free, the only fee you pay is the marketplace's fee that you're buying from","",""
+"874945032862449674","_gr_","03/12/2022 1:35 am","hey friend, any eta on an update from devs?","",""
+"989275482488983663","AnthonyNicholas#4331","03/12/2022 4:24 am","Haven't heard back, you can also ask in #💻│dev-chat. I think a member of our dev community might know","",""
+"535827767640457216","bombom#0695","03/12/2022 9:18 am","thanks","",""
+"535827767640457216","bombom#0695","03/12/2022 9:19 am","how come the nfts are cheaper in uniswap vs on opensea? for example pudgy penguins are 3.3 on uniswap but 3.4 on opensea","",""
+"471357824299958273","crypto_rachel","03/12/2022 9:20 am","uniswap aggregates prices from multiple places, there could be lower prices on another","",""
+"535827767640457216","bombom#0695","03/12/2022 9:29 am","ok probably like looksrare or okx","",""
+"535827767640457216","bombom#0695","03/12/2022 9:32 am","sometimes when i fill in the amount in uniswap for x coin, the amount i'll receive in y coin is like waaaaaaay less than it should be. then after a couple of minutes of wait or refresh page then the correct amount of y will appear. if i clicked on sign and swap with the smaller amount of y, will i actually get the smaller amount of y or the higher realistic amount of y coin? (say i clicked by accident without checking)","",""
+"535827767640457216","bombom#0695","03/12/2022 9:33 am","im guessing this happens as liquidity in v2 or v3 are very different and it's showing the price of the lower liquidity","",""
+"471357824299958273","crypto_rachel","03/12/2022 9:40 am","yeah, if there are issues with a pool or, different LQ in between, this will slow the auto router down and cause issues/delays","",""
+"535827767640457216","bombom#0695","03/12/2022 9:40 am","so if i clicked on approve and swap with the smaller amount, will i actually get the smaller amount?","",""
+"471357824299958273","crypto_rachel","03/12/2022 9:42 am","unfortunately yes, if people jump to fast this can happen","",""
+"535827767640457216","bombom#0695","03/12/2022 10:14 am","thx for confirming. will be careful every time then","","np (1)"
+"830263154188484648","Bensonboris#7099","09/12/2022 2:55 pm","I have issues opening uniswap. I keep getting an error occurred while processing your request and I should contact support","",""
+"821415859200589865","mooncat5997","09/12/2022 4:15 pm","Hello Uniswap, is there a specific NFT channel ?","",""
+"989275482488983663","AnthonyNicholas#4331","09/12/2022 7:28 pm","Hey Ben, can you please open a ticket here - #🙋│help?","",""
+"989275482488983663","AnthonyNicholas#4331","09/12/2022 7:28 pm","#🖼│nfts","",""
+"830263154188484648","Bensonboris#7099","09/12/2022 7:28 pm","I can't access the help page","",""
+"989275482488983663","AnthonyNicholas#4331","09/12/2022 7:28 pm","You should see it now","",""
+"821415859200589865","mooncat5997","09/12/2022 7:34 pm","thanks I get it now @Anthony 🦄 // Community Manager","","👍 (2)"
+"915428145979609138","x-inu#8659","27/12/2022 1:06 pm","hi @ANTHONY,  can i pls know contract address of the Universal Router??","",""
+"989275482488983663","AnthonyNicholas#4331","28/12/2022 3:26 am","The Universal Router address is 0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b","",""
+"843155325619535912","Etherscan Bot#5753","28/12/2022 3:26 am","<https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b>","",""
+"915428145979609138","x-inu#8659","28/12/2022 5:29 am","@ANTHONY thank you.","","👍 (1)"
+"834715427895640084","0x.alex","29/12/2022 4:50 pm","quick question. uniswap v3 has 2 routers running on polygon?
+router1 and router2?
+
+i am using this in one of my smart contracts and it seems this is the ""old"" router. 
+what is the equivalent in new one?
+
+ISwapRouter.ExactInputSingleParams","",""
+"834715427895640084","0x.alex","29/12/2022 4:51 pm","mumbai polygon","",""
+"834715427895640084","0x.alex","29/12/2022 4:52 pm","0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45 
+--> new
+
+0xE592427A0AEce92De3Edee1F18E0157C05861564
+--> ""old""
+
+are they using the same pairs?","",""
+"843155325619535912","Etherscan Bot#5753","29/12/2022 4:52 pm","<https://etherscan.io/address/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45>","",""
+"843155325619535912","Etherscan Bot#5753","29/12/2022 4:52 pm","<https://etherscan.io/address/0xE592427A0AEce92De3Edee1F18E0157C05861564>","",""
+"471357824299958273","crypto_rachel","30/12/2022 10:19 am","It really doesn't matter for polygon as there isn't an official uniswap version 2 on poly. Outside of a few minor differences in the way they are called, they are the same.
+Only eth network matters as the v2 of the v3 contracts will handle both uni v2 and v3","",""
+"915428145979609138","x-inu#8659","08/01/2023 6:46 pm","hi there.
+I'm trying to read and understand input data of this transaction below to the universal router.
+
+0x7874ab3016a29b47f0651e0588019ab735cfa42da57b3aad6337e4417e864b36
+
+I could understand some of it but cannot understand the rest..
+I broke each line of input data for the sake of readability and put line number as  in the file.
+I also wrote out my understanding/guess to some of the lines. may not be correct.
+
+So can anyone pls help me understand how i can read this input data?
+(especially on ones with ???)","",""
+"843155325619535912","Etherscan Bot#5753","08/01/2023 6:46 pm","<https://etherscan.io/tx/0x7874ab3016a29b47f0651e0588019ab735cfa42da57b3aad6337e4417e864b36>","",""
+"915428145979609138","x-inu#8659","08/01/2023 6:47 pm","here is the file.","https://cdn.discordapp.com/attachments/1042613771316764752/1061634697240776824/message.txt",""
+"401842633464610837","_kfx","08/01/2023 9:52 pm","hi x-inu, their transaction format looks tough one! I could recognize some of the values, but not all, so I wrot e a Python program to decode it:
+```from eth_abi import abi
+
+txb = bytes.fromhex(tx[10:])
+commands, inputs, deadline = abi.decode([""bytes"", ""bytes[]"", ""uint256""], txb)
+
+for command, input in zip(commands, inputs):
+
+    if command == 0xb: # wrap ETH
+        recipient, amount = abi.decode([""address"", ""uint256""], input)
+        print(f""wrap {amount/1e18} ETH for {recipient}"")
+
+    elif command == 0x0: # swap exact in
+        recipient, amountIn, amountOutMin, path, payer = abi.decode([""address"", ""uint256"", ""uint256"", ""bytes"", ""bool""], input)
+        token0 = hex(int.from_bytes(path[0:20], ""big""))
+        fee = int.from_bytes(path[20:23], ""big"")
+        token1 = hex(int.from_bytes(path[23:], ""big""))
+        print(f""swap {amountIn/1e18} {token0} ({fee / 10000}%) -> {token1} for {recipient}"")
+```","","👍 (1)"
+"401842633464610837","_kfx","08/01/2023 9:53 pm","the output is:
+```wrap 0.001 ETH for 0x0000000000000000000000000000000000000002
+swap 0.001 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 (0.05%) -> 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 for 0x0000000000000000000000000000000000000001```","",""
+"843155325619535912","Etherscan Bot#5753","08/01/2023 9:53 pm","<https://etherscan.io/address/0x0000000000000000000000000000000000000002>","",""
+"843155325619535912","Etherscan Bot#5753","08/01/2023 9:53 pm","<https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2>","",""
+"843155325619535912","Etherscan Bot#5753","08/01/2023 9:53 pm","<https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48>","",""
+"843155325619535912","Etherscan Bot#5753","08/01/2023 9:53 pm","<https://etherscan.io/address/0x0000000000000000000000000000000000000001>","",""
+"401842633464610837","_kfx","08/01/2023 9:54 pm","the strange addresses 0x..01 and 0x..02 are not real of course - I spend most of the time trying to find what they are.
+the answer is here:
+https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Constants.sol#L20","","👍 (1)"
+"401842633464610837","_kfx","08/01/2023 9:56 pm","@x-inu let me know if you can understand the remaining ??? with help of this. if you permit, I will also post this reply on Stack Exchange, for the benefit of others","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:17 pm","@kfx appreciate it. im taking a look at it but still doesn't make sense about the 0x..01 and 0x..02 things. 
+i mean, does the address(1) in line 20 corresponds to the 0x..01?? so the address(2) does for the 0x..02??","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:18 pm","thx a lot for your python code as well. i also use python to handle the data from mainnet. it will help me learn more about handling transaction data.","",""
+"401842633464610837","_kfx","08/01/2023 10:19 pm","line 12 in your data: 0000000000000000000000000000000000000000000000000000000000000002 - this replaced by address(this) when executing the code","",""
+"401842633464610837","_kfx","08/01/2023 10:20 pm","line 15 in your data: 0000000000000000000000000000000000000000000000000000000000000001 - this is replaced by msg.sender","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:24 pm","so the first of all, i was supposed to know that there is some parameters that are to be replaced by the solidity code when a transaction is processed on it and should not assume every parameter comes from input data..","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:25 pm","that was my initial assumption but when i tried debugging to see data flow within solidity code, it didn't let me check every single line of solidity source code and value in every single variable.. ( i used Truffle and Ganache)","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:26 pm","how did you find that particular part from the Constants.sol??","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:27 pm","i mean, do you have any tool/IDE that you would recommend for a debugging tool so that next time i encounter this type of transactions, I can chase the streaming data flow over the source code?? @kfx","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:32 pm","edited some of my msg where it didn't make sense or simply wrong grammar wise.","",""
+"915428145979609138","x-inu#8659","08/01/2023 10:39 pm","okay i have to sleep for tonight but will check this thread sometime within 12 hours.","",""
+"401842633464610837","_kfx","08/01/2023 10:44 pm","not really an IDE, I was reading the code of the smart contract to figure it out. Tenderly is a good tool though, shows the execution trace","",""
+"915428145979609138","x-inu#8659","09/01/2023 10:40 am","im back. thx @kfx yesterday. got  it. no IDE but you just read it. i knew the Tenderly does some job for that but I found that tool seemed to fail to display correct values while debugging. i still use that tool though just to get rough idea of methods in the course of thread.","",""
+"915428145979609138","x-inu#8659","09/01/2023 10:42 am","just woke up. i will check other lines and source code to see if i can understand what each line means. will come back.","",""
+"843155325619535912","Etherscan Bot#5753","09/01/2023 6:41 pm","<https://etherscan.io/address/0x2142EA5a7A922a3F5A98A81567FA691187E550B1>","",""
+"915428145979609138","x-inu#8659","09/01/2023 7:42 pm","hi @kfx 
+
+thx for your advice yesterday. 
+still trying to understand how the line 12 and 15 are replaced by each  address(n).
+
+have questions:
+
+Q1:  can you please tell me where this address(n) in Constants.sol comes from? i don't see its declaration in the Constants.sol..
+
+Q2:  > this replaced by address(this) when executing the 
+            would that ""this"" be the contract address of WETH??
+
+Q3:  when does this Constants.sol get called?
+
+sorry but I only query mainnet with python but I don't write solidity.","",""
+"401842633464610837","_kfx","09/01/2023 8:05 pm","@x-inu
+
+the replacement 0x0000000000000000000000000000000000000002 -> address(this) happens in this line:
+https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Recipient.sol#L12","",""
+"843155325619535912","Etherscan Bot#5753","09/01/2023 8:05 pm","<https://etherscan.io/address/0x0000000000000000000000000000000000000002>","",""
+"401842633464610837","_kfx","09/01/2023 8:06 pm","Q1: see here https://github.com/Uniswap/universal-router/blob/b972662f8d3f0ba55ef99411720f613f77c3fab5/contracts/libraries/Constants.sol#L22
+Q2: it would the address of the UniversalRouter contract
+Q3: see above, in the file Recipient.sol","",""
+"401842633464610837","_kfx","09/01/2023 8:08 pm","if you're confused about `address(2) ` it just means ""take the number 2 and treat as address"", like in Python you'd say `int(""11""`) to covert the string `""11""` to integer","",""
+"915428145979609138","x-inu#8659","09/01/2023 8:29 pm","> > Q1: see here https://github.com/Uniswap/universal-router/blob/b972662f8d3f0ba55ef99411720f613f77c3fab5/contracts/libraries/Constants.sol#L22
+        yeah i see the comment but I was asking exactly where this address(2) gets value of ""this"". 
+        is this actually this line here? 
+        https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Recipient.sol#L16
+
+> > Q2: it would the address of the UniversalRouter contract
+        okay but why?
+
+> > Q3: see above, in the file Recipient.sol
+        do you mean this line?  
+        https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Recipient.sol#L4
+
+> > if you're confused about address(2)  it just means ""take the number 2 and treat as address"", like in Python you'd say int(""11"") to covert the string ""11"" to integer
+         So is this address(n) not a some kind of data type(like an array that has corresponding values to each '0','1' and '2')
+         but just a number(but to be treated as type of address)??","",""
+"401842633464610837","_kfx","09/01/2023 11:56 pm","your assumptions are correct
+
+> > it would be the address of the UniversalRouter contract
+>  okay but why?
+> 
+because the code that executes the Recipient.sol library function belongs to the UniversalRouter contract. Check this answer for what `this` and `address(this)` means: https://ethereum.stackexchange.com/a/49189/77075","",""
+"401842633464610837","_kfx","10/01/2023 12:03 am","@x-inu are you ok with me posting (rephrasing) your question along with my answer to Stack Exchange?","",""
+"915428145979609138","x-inu#8659","10/01/2023 10:01 am","> > because the code that executes the Recipient.sol library function belongs to the UniversalRouter contract. 
+   @kfx okay but why is that not Dispatcher?
+   because seems like the Dispatcher is actual contract that has the part to execute recipient.map() function as (3) below.
+   this part is the one you mentioned as ""the code that executes the Recipient.sol"", right?
+   is it just solidity specification and do i just have to see the top-most contract in the call sequence as ""this""? 
+   or am I just seeing the code wrong?
+
+   this is how i read:","",""
+"915428145979609138","x-inu#8659","10/01/2023 10:02 am","(1) address(this) is called at:
+           https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Recipient.sol#L16
+           return address(this);
+
+     (2) inside this function:
+           https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Recipient.sol#L12
+           function map(address recipient) internal view returns (address) {
+
+     (3) and that function is called by this line:
+           https://github.com/Uniswap/universal-router/blob/main/contracts/base/Dispatcher.sol#L102
+           Payments.wrapETH(recipient.map(), amountMin);
+
+     (4) within this contract:
+           https://github.com/Uniswap/universal-router/blob/main/contracts/base/Dispatcher.sol#L18
+           abstract contract Dispatcher is Payments, V2SwapRouter, V3SwapRouter, Callbacks {
+
+     (5) imported here:
+           https://github.com/Uniswap/universal-router/blob/main/contracts/UniversalRouter.sol#L4
+           import {Dispatcher} from './base/Dispatcher.sol';","",""
+"915428145979609138","x-inu#8659","10/01/2023 10:03 am","> > are you ok with me posting (rephrasing) your question along with my answer to Stack Exchange?
+   sure thx.","",""
+"401842633464610837","_kfx","10/01/2023 1:26 pm",">  okay but why is that not Dispatcher?
+> 
+the `UniversalRouter` is a `Dispatcher`: 
+Line 12, UniversalRouter.sol:
+`contract UniversalRouter is RouterImmutables, IUniversalRouter, Dispatcher, RewardsCollector, ReentrancyLock {`
+Meaning it inherits from the Dispatcher contract.
+The one actually deployed is the UniversalRouter. Even more, Dispatcher contract cannot deployed, because it's defined as `abstract` in the source code - it's just one aspect of the univ router functionality","",""
+"915428145979609138","x-inu#8659","10/01/2023 5:55 pm","oh okay, got better picture of how those contracts are used in the universal router now. thx a lot @kfx","","np (1),ILOVEFLUF (1)"
+"726143212326092870","indonesian_activist#0796","11/01/2023 10:26 am","Hi guys, regarding the universal router smart contract integration,  does this mean we don't need to specify the paths/hops anymore and the router will automatically try to route via the best route ?","",""
+"471357824299958273","crypto_rachel","11/01/2023 10:28 am","No routes will still be needed. The universal router just add NFTs to it","",""
+"726143212326092870","indonesian_activist#0796","11/01/2023 10:29 am","Ah I see, are there no current ways that would enable us to omit providing the route info when executing swaps via smart contracts ?","",""
+"471357824299958273","crypto_rachel","11/01/2023 10:30 am","No, this wouldn't be cost effective.
+only way is the auto router 
+https://docs.uniswap.org/sdk/v3/guides/routing","",""
+"726143212326092870","indonesian_activist#0796","11/01/2023 10:33 am","Really appreciate the info Rachel,one more thing,  I assume you can't use the auto router via smartcontracts/solidity only and would need to execute it via react/etherjs ?","",""
+"471357824299958273","crypto_rachel","11/01/2023 10:35 am","you can call other contracts from other contracts, but you may just end up spending more gas if it's only a simple trade, but there are reasons for it being needed","",""
+"726143212326092870","indonesian_activist#0796","11/01/2023 12:10 pm","Thx, so the AutoRouter is not an actual callable smart contract on the blockchain but a collection of js scripts that you can use to construct the paths automatically for you to then call the uni router ?","",""
+"471357824299958273","crypto_rachel","11/01/2023 12:12 pm","yes","",""
+"1015497450276016178","fireball2427","11/01/2023 3:00 pm","How are you?
+I am a blockchain dapp developer who is very interested in your new technology - Permit2.
+I am trying to use a demo smart contract Permit2Vault , with a react frontend.
+But I failed everytime when I send signed signature.
+If anyone have experience of implement it on a frontend web3 and the demo smart contract, please help me.","",""
+"764540246783426590","gasper#5379","12/01/2023 8:48 pm","Hey, I just made a post about how to use Permit2, hope it helps
+https://twitter.com/gasperpre/status/1613547641203195911?s=20&t=l4_FNFqNkPmBDc342BTHlA","","PartyFrog (1),🙏 (1)"
+"764540246783426590","gasper#5379","12/01/2023 8:49 pm","You can also share your code if you want and I can help you figure it out","",""
+"1015497450276016178","fireball2427","13/01/2023 1:44 am","Yes, I will share my codes.","",""
+"1015497450276016178","fireball2427","13/01/2023 1:44 am","This is the frontend code.","",""
+"1015497450276016178","fireball2427","13/01/2023 2:02 am","And this is the sample smart contract from you.","",""
+"1015497450276016178","fireball2427","13/01/2023 2:18 am","I always fail in the last part of frontend code - call depositERC20() function of smart contract.
+Please let me know what I am wrong.","",""
+"764540246783426590","gasper#5379","13/01/2023 3:17 am","@dreamdev  I see a few things that might be the problem:
+1. You are using wrong `domain` in `msgParms`. The domain should be the one of Permit2 not of the token. So something like this :
+```
+domain: {
+  name: 'Permit2',
+  chainId: OPTIMISM_CHAIN_ID,
+  verifyingContract: OPTIMISM_PERMIT2_ADDRESS
+}
+```
+2. `PermitTransferFrom` in `msgParams` is missing `spender` property, and  `msgData` is also missing `spender`. I know this is confusing because in the contracts `PermitTransferFrom` struct does not have it, but that is because the Permit2 contract uses `msg.sender` as `spender` when creating the typed data hash. So your `PermitTransferFrom` when creating the signature should look like this:
+```
+PermitTransferFrom: [
+    { name: 'permitted', type: 'TokenPermissions' },
+    { name: 'spender', type: 'address' },
+    { name: 'nonce', type: 'uint256' },
+    { name: 'deadline', type: 'uint256' }
+  ]
+```
+And `messageData` should look like this:
+```
+{
+   permitted: {
+       token: OPTIMISM_USDT_ADDRESS,
+       amount: usdtBalance.toString()
+   },
+   spender: VAULT_ADDRESS_ON_OPTIMISM
+   nonce: globalWeb3.utils.toHex(nonce).toString(),
+   deadline: deadline.toString()
+}
+```","",""
+"1015497450276016178","fireball2427","13/01/2023 6:21 am","Thank you for help.
+Let me try.","",""
+"471357824299958273","crypto_rachel","13/01/2023 6:22 am","https://tenor.com/view/jenn-jenn-robbins-pink-this-this-this-gif-17150214","",""
+"427542885844647947","slyracoon23","15/01/2023 4:45 am","Hey there!
+I have been looking the code.
+
+I am correct to assume you can you string multiple encode `commands[i]` and `inputs[i]` as its encoded input parameters to `UniversalRouter.execute` and it will execute them one after another. I wasn't able to find any example of a multiple transaction function in the github.","",""
+"471357824299958273","crypto_rachel","15/01/2023 4:46 am","yes this is possible","",""
+"427542885844647947","slyracoon23","15/01/2023 4:47 am","Great!","",""
+"427542885844647947","slyracoon23","15/01/2023 4:50 am","Who's the calling context? If you string them together.
+Can you for instance make something like this
+
+Bob(EOA) --- transferNFT --> escrow(smart-contract) --> make seaport trade on seaport smart-contract --> escrow(smart-contract) -- transfer erc20 -> bob(EOA)","",""
+"427542885844647947","slyracoon23","15/01/2023 4:50 am","for example","",""
+"427542885844647947","slyracoon23","15/01/2023 4:51 am","Will it be Bob during the seaport trade or the escrow contract during the seaport transaction call?","",""
+"427542885844647947","slyracoon23","15/01/2023 4:51 am","@Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","15/01/2023 4:55 am","What do you mean by escrow here
+Here is a list of the commands
+https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code#F11#L1
+it can do a lot","",""
+"427542885844647947","slyracoon23","15/01/2023 4:59 am","Yes, sorry for not being clear. I want Bob and Alice to combine a trade on seaport.
+
+Bob has a Doodle 
+Alice has a crypto punk
+
+Say John is trading 2 Crypto punks for a Doodle and crypto punk
+
+Neither Bob nor Alice have that but together they do.
+
+I want to make it as safe as possible and so I thought that one party(either Bob or Alice) puts their respective NFT in the escrow contract. Once one of them did it the other can execute a transaction to fulfill the order.","",""
+"427542885844647947","slyracoon23","15/01/2023 4:59 am","I hope I am making sense","",""
+"427542885844647947","slyracoon23","15/01/2023 4:59 am","Then hopefully the get to split the NFT trade however they like","",""
+"471357824299958273","crypto_rachel","15/01/2023 4:59 am","ahh I see","",""
+"471357824299958273","crypto_rachel","15/01/2023 5:02 am","yes I could see this possible, would take a separate contract or trust as they would need to have permission to operate the nft, since only one call can be made to the universal router for this action","",""
+"427542885844647947","slyracoon23","15/01/2023 5:03 am","Right, is this the best way to go about it?","",""
+"427542885844647947","slyracoon23","15/01/2023 5:03 am","I mean we could use `approves `too","",""
+"427542885844647947","slyracoon23","15/01/2023 5:03 am","for both","",""
+"471357824299958273","crypto_rachel","15/01/2023 5:05 am","a separate contract would be the best and more trustless.
+You would use the approves within the separate contract, ofc one of the two would pay more gas, unless there is something to cover that too","",""
+"427542885844647947","slyracoon23","15/01/2023 5:06 am","Ya, the gas part is not a big issue now","",""
+"427542885844647947","slyracoon23","15/01/2023 5:06 am","but I agree a separate contract seems best","",""
+"427542885844647947","slyracoon23","15/01/2023 5:06 am","I assume permit2 is only for erc20 not erc721","",""
+"471357824299958273","crypto_rachel","15/01/2023 5:08 am","not sure on that tbh, but it would have to be implemented in the contract prior to","",""
+"427542885844647947","slyracoon23","15/01/2023 5:09 am","Ya, makes sense","",""
+"427542885844647947","slyracoon23","15/01/2023 5:10 am","Thank you very much. This was very helpful","",""
+"471357824299958273","crypto_rachel","15/01/2023 5:10 am","happy to help","",""
+"619215957734195212","fv_","17/01/2023 3:35 am","hi, is there any way to make the router automatically decide whether to make the swap on v2 or v3, depending on which has the best quote at the moment?","",""
+"915428145979609138","x-inu#8659","17/01/2023 8:00 am","hi there
+does anyone know how to specify a swap transactions to go through the universal router for a specific command?
+I would like to use this command id 0x09 (V2_SWAP_EXACT_OUT).
+can I just do that using metamask?","",""
+"471357824299958273","crypto_rachel","18/01/2023 11:47 am","No the contracts can't do that.. The UI uses an auto router to determine that beforehand 
+https://docs.uniswap.org/sdk/v3/guides/routing","",""
+"471357824299958273","crypto_rachel","18/01/2023 11:49 am","you would have to build the data with a script, to much data to safely do by hand. Not a lot of examples or data on this router yet as it's brand new. But more will come with time, just Developers in this space are always slammed... Not enough devs for everything","",""
+"915428145979609138","x-inu#8659","18/01/2023 12:20 pm","@Crypto_Rachel thx i see.  
+
+im now trying to do things like whatever @kfx  showed me with python the other day above for decoding input data, except in this time, it will be  opposite from what kfx did. it was like decoding input into each command id and corresponding params and decode each pair with specified param types according to each command id.
+so this time, in my case, im assuming it will be something like:
+
+1) determine each set of command id and params to use and turn them into input data respectably using eth_abi module (encoding).
+2) stack them together to form the entire input data to be sent to ethereum.
+3) issue a command to the universal router to call its function. (assuming execute())
+
+may not make sense to you but hopefully, if input data was correctly structured, it will be processed on the universal router in the way I expect.","",""
+"471357824299958273","crypto_rachel","18/01/2023 12:27 pm","while I haven't used it at all yet, sadly barely had time to read it. I assume it will work a lot like the multi call in v3 does
+
+you build each call separately like swap Exact Out, with it's data using the abi of the contract., However it's likely with functions outside the router you will need to incorporate other contract abis.
+once you get all the separate calls built you push them into an array, and then you would then use the `execute` function to abi encode. This is fairly standard, but I haven't worked with it yet 😦","",""
+"459719417140609049","fr4g0r","19/01/2023 9:22 pm","Hello all, anyone knows what is this? since today, I'm having this problems, with all stable coins","https://cdn.discordapp.com/attachments/1042613771316764752/1065660090134315088/image.png",""
+"459719417140609049","fr4g0r","19/01/2023 9:32 pm","https://twitter.com/YikesCrypto/status/1616093156499460097?s=20&t=bbwqa4W-WhVMVqAQ1sJ7og","",""
+"459719417140609049","fr4g0r","19/01/2023 9:32 pm","Multiple people with the same issue","",""
+"471357824299958273","crypto_rachel","19/01/2023 9:32 pm","So the new permit2 went live yesterday.... Try clearing your cookies and cache, and then Hard refresh your browser (CTRL + SHIFT + R) ctlr= cmd if mac)","",""
+"459719417140609049","fr4g0r","19/01/2023 9:33 pm","Already tried to clear all, and reconnect my wallet, but same issue 😦","",""
+"471357824299958273","crypto_rachel","19/01/2023 9:34 pm","yeah, hoping it would work... I know the devs are aware of this and will get fixed asap
+in the meantime you could use the Old versions VIA IPFS links
+
+IPFS Links
+Release v4.131.0
+
+https://bafybeicdceqhvnz4cczqvbyw2jit6yylrsqpi5b5jbarmwkxgeeo3ailxq.ipfs.dweb.link/
+https://bafybeicdceqhvnz4cczqvbyw2jit6yylrsqpi5b5jbarmwkxgeeo3ailxq.ipfs.cf-ipfs.com/
+
+Links not always up to date Check here for the Latest release.
+https://github.com/Uniswap/uniswap-interface/releases","",""
+"459719417140609049","fr4g0r","19/01/2023 9:36 pm","Thanks!","","YW (1)"
+"471357824299958273","crypto_rachel","19/01/2023 9:38 pm","yeah, you're welcome","","❤️ (1)"
+"399593121996079115","ninja_dev","21/01/2023 4:29 am","Tried converting this on JS side, but no luck.","",""
+"399593121996079115","ninja_dev","21/01/2023 4:29 am","Anybody else have any luck decoding the input data?","",""
+"471357824299958273","crypto_rachel","21/01/2023 6:35 am","I'll try to get to this soon","",""
+"399593121996079115","ninja_dev","21/01/2023 6:58 am","Thanks! It's a bit tough trying to decipher these transactions as their s various inputs.
+
+Why Uni, why!! Lol","",""
+"471357824299958273","crypto_rachel","21/01/2023 6:59 am","how are you trying to decode it, and what scripting...This should be able to be done with the abi of the contract","",""
+"399593121996079115","ninja_dev","21/01/2023 7:01 am","SO am using the new ABI for the universal contract and can get the inputs back. But then deciphering the inputs to something readable is wehre I am getting stuck.","",""
+"399593121996079115","ninja_dev","21/01/2023 7:02 am","For example, this TX.
+https://etherscan.io/tx/0xf8c7ecef5de032339ecc905a88fbcd25689e9738567fd5a258abb3daa19824e8","",""
+"399593121996079115","ninja_dev","21/01/2023 7:02 am","I can extract the INPUT, and it gives me this.
+
+0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000177b2370b147eb3
+0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000177b2370b147eb300000000000000000000000000000000000000000000000000017419187601c300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000001e8e29ca51363d923725ab9dac73bd7e9c440f71","",""
+"843155325619535912","Etherscan Bot#5753","21/01/2023 7:02 am","<https://etherscan.io/tx/0x0000000000000000000000000000000000000000000000000000000000000002>","",""
+"843155325619535912","Etherscan Bot#5753","21/01/2023 7:02 am","<https://etherscan.io/tx/0x0000000000000000000000000000000000000000000000000000000000000001>","",""
+"399593121996079115","ninja_dev","21/01/2023 7:04 am","But then converting that input to know the values to something readable is where I am getting stuck. 
+
+I did something similar with a multicall TX on UniV3Router2 as I was able to find the ABI for the methods called on a multicall and then match that, but can't do the same here with this execute method.
+
+My scripts/code is in JS/Node.","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:06 am","EthersJS? I'll focus on that one","",""
+"399593121996079115","ninja_dev","21/01/2023 7:06 am","Using Web3Js actually.","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:09 am","so does it give you the input `0b 08` anywhere?","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:09 am","or is that all it prints for the whole variable","",""
+"399593121996079115","ninja_dev","21/01/2023 7:14 am","Se yes, after parsing the tx with the abi, I can get the command, inputs, and deadline. The command does give th 0b 08, and then the input is the value noted above.","",""
+"399593121996079115","ninja_dev","21/01/2023 7:16 am","And this is how im converting the params from execute using the ABI.","https://cdn.discordapp.com/attachments/1042613771316764752/1066171874431729766/image.png",""
+"399593121996079115","ninja_dev","21/01/2023 7:17 am","Similar to a multicall, but with the multicall it had the method ids for swapExactETHForTokens, for example, which I was than able to use the results of the ""inputs"" values to decode.","",""
+"399593121996079115","ninja_dev","21/01/2023 7:19 am","And heres my examle of  multicalls, where I decode the tx first, then the values from the array of inputs.","https://cdn.discordapp.com/attachments/1042613771316764752/1066172570497454080/image.png",""
+"471357824299958273","crypto_rachel","21/01/2023 7:19 am","so with those you should be able to decode them using the commands from the library. those represent wrap_ETH and v2_SWAP_EXACT_IN..
+from there you would need to decode them both with the UR abi","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:20 am","```java
+library Commands {
+    // Masks to extract certain bits of commands
+    bytes1 internal constant FLAG_ALLOW_REVERT = 0x80;
+    bytes1 internal constant COMMAND_TYPE_MASK = 0x1f;
+    bytes1 internal constant NFT_TYPE_MASK = 0x10;
+    bytes1 internal constant SUB_IF_BRANCH_MASK = 0x08;
+
+    // Command Types. Maximum supported command at this moment is 0x1F.
+
+    // Command Types where value<0x08, executed in the first nested-if block
+    uint256 constant V3_SWAP_EXACT_IN = 0x00;
+    uint256 constant V3_SWAP_EXACT_OUT = 0x01;
+    uint256 constant PERMIT2_TRANSFER_FROM = 0x02;
+    uint256 constant PERMIT2_PERMIT_BATCH = 0x03;
+    uint256 constant SWEEP = 0x04;
+    uint256 constant TRANSFER = 0x05;
+    uint256 constant PAY_PORTION = 0x06;
+    uint256 constant COMMAND_PLACEHOLDER_0x07 = 0x07;
+
+    // Command Types where 0x08<=value<=0x0f, executed in the second nested-if block
+    uint256 constant V2_SWAP_EXACT_IN = 0x08;
+    uint256 constant V2_SWAP_EXACT_OUT = 0x09;
+    uint256 constant PERMIT2_PERMIT = 0x0a;
+    uint256 constant WRAP_ETH = 0x0b;
+    uint256 constant UNWRAP_WETH = 0x0c;
+    uint256 constant PERMIT2_TRANSFER_FROM_BATCH = 0x0d;
+    uint256 constant COMMAND_PLACEHOLDER_0x0e = 0x0e;
+    uint256 constant COMMAND_PLACEHOLDER_0x0f = 0x0f;
+
+    // Command Types where 0x10<=value<0x18, executed in the third nested-if block
+    uint256 constant SEAPORT = 0x10;
+    uint256 constant LOOKS_RARE_721 = 0x11;
+    uint256 constant NFTX = 0x12;
+    uint256 constant CRYPTOPUNKS = 0x13;
+    uint256 constant LOOKS_RARE_1155 = 0x14;
+    uint256 constant OWNER_CHECK_721 = 0x15;
+    uint256 constant OWNER_CHECK_1155 = 0x16;
+    uint256 constant SWEEP_ERC721 = 0x17;
+
+    // Command Types where 0x18<=value<=0x1f, executed in the final nested-if block
+    uint256 constant X2Y2_721 = 0x18;
+    uint256 constant SUDOSWAP = 0x19;
+    uint256 constant NFT20 = 0x1a;
+    uint256 constant X2Y2_1155 = 0x1b;
+    uint256 constant FOUNDATION = 0x1c;
+    uint256 constant SWEEP_ERC1155 = 0x1d;
+    uint256 constant COMMAND_PLACEHOLDER_0x1e = 0x1e;
+    uint256 constant COMMAND_PLACEHOLDER_0x1f = 0x1f;
+}
+```","",""
+"399593121996079115","ninja_dev","21/01/2023 7:23 am","Ok ok, so these would be the abis for that particular method/function on either the UniV2 router or UniV3 router, yeah?","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:25 am","well those two specifically are in the Universal router, so that abi should work (atleast for that tx. others may need other contract abis)","",""
+"399593121996079115","ninja_dev","21/01/2023 7:27 am","Hmm ok. So would I need to use the same abi to decode the results after the first decide, so input the results tx input.
+
+Or should it already be decoding it just by that initial decode. Because I was already using the universalABI but no luck decoding the TX inputs for the execute method","",""
+"471357824299958273","crypto_rachel","21/01/2023 7:31 am","the first decode dumps you this 👆 , which should be two objects, you would loop through the objects and call the decode in order of the inputs. So with txData[0] you would decode using the 0b command wrap_ETH, and txData[1] you would use v2SwapExactInput to decode","",""
+"399593121996079115","ninja_dev","21/01/2023 7:56 am","Hmm on the Universal Router abi I don't see the v2SwalExactInput info to decode. Or maybe I'm missing it.
+
+Sorry been trying to figure this out all day lol my brains a little fried.","",""
+"471357824299958273","crypto_rachel","21/01/2023 8:00 am","no worries https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code#F17#L53","",""
+"399593121996079115","ninja_dev","21/01/2023 8:15 am","Yes I see it there, but not in the abi to actually decode it. Or do I need to build my own abi based on that function.","","🤔 (1)"
+"471357824299958273","crypto_rachel","21/01/2023 8:22 am","hmm yeah, 🤔  it isn't... due to being internal...
+So I guess you will have to decode based off of command, and you will have to build up the commands that you want to read.
+but like kfx did, you would have to do the manual abi.decode with the variables like this for wrapETH `abi.decode([""address"", ""uint256""], input)`","",""
+"399593121996079115","ninja_dev","21/01/2023 9:17 am","Yeah that's the part I'm struggling with. Will take a step back.","",""
+"471357824299958273","crypto_rachel","21/01/2023 9:19 am","Yeah I would myself (eventually will) probably create a dictionary object with the library commands and the sol type cast and use those to decode","",""
+"399593121996079115","ninja_dev","21/01/2023 9:22 am","Yeah, why Uni have to make my life harder! Lol","","🤣 (1)"
+"471357824299958273","crypto_rachel","21/01/2023 9:24 am","to make it easier and better in the end 😊","",""
+"399593121996079115","ninja_dev","21/01/2023 9:37 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1066207387259768922/image0.gif","😍 (1)"
+"399593121996079115","ninja_dev","21/01/2023 9:38 am","😆 my life was easier before. I do like how the new methods.aee though. So once there's a solid way to decode I think it will be. Just gotta get over the hump","","💯 (1)"
+"399593121996079115","ninja_dev","22/01/2023 12:41 am","Ok i got a way to get this done.","","PartyFrog (1)"
+"378236262743801867","epheph","24/01/2023 5:17 am","is there a way to access the pre-permit2 version or disable to use straight router approvals?","",""
+"233879881346187264","mokoshinu_","24/01/2023 10:14 am","Hi, I managed to execute a 0xb,  however I failed to execute 0x8 and not sure what could be the root issue, although I followed the same pattern to construct my inputs. Can someone help me to dig the possible issues?","",""
+"233879881346187264","mokoshinu_","24/01/2023 10:15 am","Is a permit2 execution required prior this step? my understanding is the command itself also include a permit2TransferFrom","",""
+"471357824299958273","crypto_rachel","24/01/2023 10:37 am","do you mean in the UI? no not afaik","",""
+"471357824299958273","crypto_rachel","24/01/2023 10:54 am","pretty sure you need to call wrap and swap in same call wrapping first","",""
+"233879881346187264","mokoshinu_","24/01/2023 11:43 am","I tried it but it failed as well.","",""
+"233879881346187264","mokoshinu_","24/01/2023 11:45 am","Inputs parameters should be correct, I do have the 5 set as per the documentation https://docs.uniswap.org/contracts/universal-router/technical-reference#v2_swap_exact_in","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:03 pm","pretty sure wrap address needs to be address(2) so that the router gets the weth","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:04 pm","and then `bool payerIsUser == false`","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:09 pm","Correct me if my understanding is incorrect. Do you mean the address from the path variable for which the first address should be the weth address? If so, it is in my case.","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:09 pm","@Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:13 pm","no not the path... The call to wrap the eth, the recipient","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:14 pm","I see thanks for the clarification. Let me try again","","👍 (1)"
+"233879881346187264","mokoshinu_","24/01/2023 12:19 pm","I've updated the recipient as the weth address, and  set the payerIsUser == false, still failed. I may have missed a step or two.","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:20 pm","I checked the path whi is = [WETH, DAI]","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:22 pm","looks like you set the recipient of the wrapETH as the WETH address? 
+how did you set that? you would want it to be address(2)","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:23 pm","To  your first question yes I have hardcorded the recipient as the WETH Address.","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:24 pm","address(0)... I need to check how to do that","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:24 pm","sorry address(2)","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:25 pm","it's just all 0s with a 2 at the end
+`0x0000000000000000000000000000000000000002`","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:27 pm","Oh no wonder I see the same pattern from other TX, alright let me try again, thanks !","","👍 (1)"
+"233879881346187264","mokoshinu_","24/01/2023 12:27 pm","Therefore should the path be updated accordingly as  well?","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:28 pm","Trying to understand the mechanism from end to end","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:28 pm","no the path should still be the two tokens in and out","",""
+"233879881346187264","mokoshinu_","24/01/2023 12:28 pm","Understood","",""
+"471357824299958273","crypto_rachel","24/01/2023 12:28 pm","just ETH is WETH for the pools, as all pools are WETH erc-20 based","","👍 (1)"
+"233879881346187264","mokoshinu_","24/01/2023 12:32 pm","You're genius, it worked 🙂 thanks so much","","PartyFrog (1),YW (1)"
+"233879881346187264","mokoshinu_","24/01/2023 1:19 pm","Another question @Crypto_Rachel Does the reverse process should follow the same logic,  which means 0x08 then 0x0c ? or a single 0x08 can also be executed?","",""
+"471357824299958273","crypto_rachel","24/01/2023 1:28 pm","you would need to swap and then unwrap","",""
+"233879881346187264","mokoshinu_","24/01/2023 1:41 pm","Understood, should the address recipient be address(2) for the swap ?","",""
+"471357824299958273","crypto_rachel","24/01/2023 1:44 pm","tbh, past my bedtime, and falling asleep. I have not used this contract so I have to go through it and read logic. To tired 😪 
+
+just step through the logic in the code, fairly easy to follow. If you're still having issues tomorrow ping me","",""
+"233879881346187264","mokoshinu_","24/01/2023 1:45 pm","No problem you already helped me a lot, thanks again. GN 🙂","",""
+"1064927115910332476","Fawizy#1172","25/01/2023 7:52 pm","Hello 
+Am new here","",""
+"989275482488983663","AnthonyNicholas#4331","26/01/2023 7:56 pm","👋","",""
+"989275482488983663","AnthonyNicholas#4331","26/01/2023 7:56 pm","Do you have any questions?","",""
+"233879881346187264","mokoshinu_","26/01/2023 8:32 pm","I do have a question","",""
+"233879881346187264","mokoshinu_","26/01/2023 8:33 pm","I executed a 0x0a080c however it always fails,","",""
+"233879881346187264","mokoshinu_","26/01/2023 8:37 pm","V value is 0x01 however I see from other wallet addresses where their TX were mined successfully, the V value is 0x1c","",""
+"233879881346187264","mokoshinu_","26/01/2023 8:37 pm","Any idea?","",""
+"233879881346187264","mokoshinu_","26/01/2023 10:52 pm","May I request a sub-channel for easier follow-up regarding my issue? Thanks!","",""
+"989275482488983663","AnthonyNicholas#4331","27/01/2023 1:24 am","Is it a gas error?","",""
+"471357824299958273","crypto_rachel","27/01/2023 1:36 am","shouldn't be sharing signed data","","👍 (1)"
+"471357824299958273","crypto_rachel","27/01/2023 1:36 am","where does the tx fail?","",""
+"233879881346187264","mokoshinu_","27/01/2023 5:59 am","Hi Anthony, I tried  to increase gas, it still fails","",""
+"233879881346187264","mokoshinu_","27/01/2023 6:02 am","It already fails at 0xa, i compared with TX's from other wallets and difference that I noticed is at the signature level is mine appears as not being canonical. Could that be the root cause issue?","",""
+"471357824299958273","crypto_rachel","27/01/2023 12:09 pm","not sure, how are you signing data? do you have a failed tx.  **don't share pk**, but if you drop code I can look...also give this a look https://gasperpre.com/how-to-implement-uniswap-permit2-in-your-protocol/","",""
+"1033164159145234467","atilla4030","27/01/2023 8:28 pm","Hey guys, we have v2 and v3 pools in our DEX. We're trying to reduce the issues of high price impact, gas and difference of protocol btw v2 and v3 pools. Here's our plan:
+
+1 - Provide smart route order with deets of our chain, v2 and v3 router, pools etc, subgraphs
+2 - Deploy universal router with the v2 and v3 router addresses
+3 - get our users to give permit2 the classic eth approve()
+4 - compute a smart route with 1, get a permit, and feed it to execute() (can smart-route-order output a good output for universal router execute()?)
+5 - have the universal router make the calls
+
+Is this a sound plan and are there any gotchas I should know about calculating amountIn/amountOut or permit? Thanks in advance!","",""
+"471357824299958273","crypto_rachel","29/01/2023 3:23 am","to reduce High Impact on price the pools LQ needs to be bigger","",""
+"1033164159145234467","atilla4030","29/01/2023 6:39 am","quality article","",""
+"1033164159145234467","atilla4030","29/01/2023 6:40 am","Our issue is uneven liquidity. USDC -> ETH has high price impact but USDC DOT -> DOT ETH have little impact, so we have to use smart route to get an extra hop for low impact","",""
+"1033164159145234467","atilla4030","29/01/2023 6:41 am","Just want to know if the steps are sound, and if there are any gotchas I should be aware of while following them","",""
+"471357824299958273","crypto_rachel","29/01/2023 6:43 am","yes going through pools with higher LQ will help reduce price impact","",""
+"456226577798135808","Deleted User","30/01/2023 2:56 pm","Hey=> Trying to decode the data and commands of universal router transactions. Really struggling? Seems to behave differently to decoding other stacked commands e.g multicalls","",""
+"456226577798135808","Deleted User","30/01/2023 2:57 pm","I need to do this via python","",""
+"989275482488983663","AnthonyNicholas#4331","30/01/2023 7:58 pm","Send sara a dm on Twitter. Sara is one of our protocol engineers, and she is very familiar with UR. Here's her Twitter: https://twitter.com/saraareynolds","",""
+"456226577798135808","Deleted User","30/01/2023 7:59 pm","Hey-thankyou","","👍 (1)"
+"989275482488983663","AnthonyNicholas#4331","30/01/2023 8:26 pm","Do you have a twitter acc? I'll let sara know that you are trying to get in touch","",""
+"456226577798135808","Deleted User","30/01/2023 8:49 pm","no not yet","",""
+"456226577798135808","Deleted User","30/01/2023 8:49 pm","ty you tho","","👍 (1)"
+"1033164159145234467","atilla4030","31/01/2023 2:49 pm","I see that some of the commands in Universal Router require the msg.sender to be the owner of tokens, is this correct? We're aiming to transfer users tokens on their behalf after they provide a signature. Is this possible with universal router or do we have to develop our own solution? Thanks!","",""
+"619215957734195212","fv_","31/01/2023 3:20 pm","hi! what's the best way to calculate permit2's next nonce? should i use the transaction count? random numbers? afaik, i could save gas if choosing a nonce value that reuses a storage slot","","🤔 (1)"
+"471357824299958273","crypto_rachel","31/01/2023 11:12 pm","yes, this is what uniswap does, you use the `transferFrom` function with a signature from them allowing your protocol to spend tokens","",""
+"575962128683499540","tomi_ohl","01/02/2023 4:44 am","gm, is there any way to view/be able to buy NFTs on Polygon? I only see NFTs that are on Ethereum. Tried to search some of the polygon nfts I found on opensea, but they don't show up on the UI","",""
+"471357824299958273","crypto_rachel","01/02/2023 4:48 am","Uniswap is only ETH net for NFTs rn, but this will come in the future","",""
+"575962128683499540","tomi_ohl","01/02/2023 4:53 am","Oh okay, thanks for the info! However, theoretically the universal router contract is already capable of swapping nfts on polygon too, if I see correctly, am I right?","",""
+"471357824299958273","crypto_rachel","01/02/2023 4:54 am","yes I think so","","thankyou (1)"
+"395553071255650306","b_f_","02/02/2023 8:58 am","Hi all, is uniswap or anyone here working on a version of the `smart-order-router` library but for Universal Router?
+
+or, more generally, what's the current recommended way to plan optimal swap routes with Universal Router?","",""
+"471357824299958273","crypto_rachel","02/02/2023 9:05 am","so I'm pretty positive it's already setup within the smart order router, just need to choose which version
+https://github.com/Uniswap/smart-order-router/blob/adf5b62fe5264f72903571537861de327c850751/src/routers/router.ts#L127","","❤️ (1)"
+"949817649590841374","aking#3877","02/02/2023 10:18 am","Im geting a truble whit the signature
+
+```javascript
+import { MaxUint256, PERMIT2_ADDRESS, SignatureTransfer } from ""@uniswap/permit2-sdk"";
+import { ethers } from ""ethers""
+import { DesarrolladorABI, DesarrolladorAddress } from ""../contracts/Desarrollador"";
+import { contractAddress, abi } from ""../contracts/ERC20""
+// import { Tmisabi, TmisContractAddress } from ""../contracts/TmisRequire"";
+
+export default function PruebaBoton() {
+
+    const Conectar = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        try {
+            await erc20.approve(PERMIT2_ADDRESS, MaxUint256)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+```","",""
+"949817649590841374","aking#3877","02/02/2023 10:18 am","```javascript
+
+    const Permit = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const contract = new ethers.Contract(DesarrolladorAddress, DesarrolladorABI, signer);
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        const PermitTransferFrom = {
+            permitted: {
+                // token we are permitting to be transferred
+                token: erc20.address,
+                // amount we are permitting to be transferred
+                amount: 100000000000000000000n
+            },
+            // who can transfer the tokens
+            spender: contract.address,
+            nonce: 1,
+            // signature deadline
+            deadline: MaxUint256
+        };
+        const Witness = {
+            // type name that matches the struct that we created in contract
+            witnessTypeName: 'Witness',
+            // type structure that matches the struct
+            witnessType: { Witness: [{ name: 'user', type: 'address' }] },
+            // the value of the witness.
+            // USER_ADDRESS is the address that we want to give the tokens to
+            witness: { user: DesarrolladorAddress },
+        }
+        const { domain, types, values } = SignatureTransfer.getPermitData(PermitTransferFrom, PERMIT2_ADDRESS, 5, Witness);
+        let signature = await signer._signTypedData(domain, types, values);
+        console.log(signature)
+    }   
+
+    return(
+        <div>
+            <button onClick={Conectar}>
+                Aprovar
+            </button>
+            <button className=""px-8"" onClick={Permit}>
+                Firmar
+            </button>
+        </div>
+    )
+}
+```","",""
+"949817649590841374","aking#3877","02/02/2023 10:23 am","It give the signature but when i call the function of (DesarrolladorAddress) it does not work
+this is the original example
+```js
+import { loadFixture } from ""@nomicfoundation/hardhat-network-helpers"";
+import { expect } from ""chai"";
+import { ethers } from ""hardhat"";
+import { constants } from ""ethers"";
+import { SignatureTransfer, PermitTransferFrom, PermitBatchTransferFrom, PERMIT2_ADDRESS } from ""@uniswap/permit2-sdk"";
+  describe(""SignatureTransfer"", function () {
+    it(""Should deposit"", async function () {
+        const { vault, permit2, account } = await loadFixture(loadContracts);
+        const erc20 = await deployERC20();
+
+        const amount = 1000;
+
+        await erc20.mint(account.address, amount);
+        await erc20.connect(account).approve(PERMIT2_ADDRESS, constants.MaxUint256); // approve max
+
+        const permit: PermitTransferFrom = {
+            permitted: {
+                token: erc20.address,
+                amount: amount
+            },
+            spender: vault.address,
+            nonce: 1,
+            deadline: constants.MaxUint256
+        };
+
+        const { domain, types, values } = SignatureTransfer.getPermitData(permit, PERMIT2_ADDRESS, 1);
+        let signature = await account._signTypedData(domain, types, values);
+
+        await vault.connect(account).deposit(amount, permit, signature);
+
+        expect(await vault.tokenBalancesByUser(account.address, erc20.address), amount);
+        expect(await erc20.balanceOf(account.address), 0);
+        expect(await erc20.balanceOf(vault.address), amount);
+```
+i think that is because i chanched the struct of the const permit
+react does not letme do that because it is typescript struct","",""
+"949817649590841374","aking#3877","02/02/2023 10:24 am","And i am using js react, any advice?? i tryed nonce 1 and 0 as param and it is not","",""
+"949817649590841374","aking#3877","02/02/2023 10:25 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1070568061612077107/image.png",""
+"688447309952057345","cervohs","02/02/2023 2:56 pm","somebody does have a exemple code to purchase nft on opensea with solidity using universal router ?","",""
+"619215957734195212","fv_","02/02/2023 5:33 pm","bump @Crypto_Rachel","",""
+"949817649590841374","aking#3877","02/02/2023 10:33 pm","@everyone this article is amazing but the signature does not work 
+https://gasperpre.com/how-to-implement-uniswap-permit2-in-your-protocol/
+some one know how to make the script off chain to get user signature to desposit his tokens into a smart contract?","",""
+"395553071255650306","b_f_","02/02/2023 11:55 pm","thank you! should have looked at the repo first","","YW (1)"
+"471357824299958273","crypto_rachel","03/02/2023 1:24 am","Yeah, I did look at this... It looks like the contract is expecting sequential numbers, likely starting from nonce 0 or 1","","👍 (1)"
+"471357824299958273","crypto_rachel","03/02/2023 1:42 am","so I haven't toyed with the permit2 yet.. I have this that was found https://gasperpre.com/how-to-implement-uniswap-permit2-in-your-protocol/
+
+check it out,,, not sure which struct you changed, but signature structures are very specific and can't be changed (outside the the variables ofc)","",""
+"471357824299958273","crypto_rachel","03/02/2023 1:44 am","signatures can be very difficult to get correct.. what do you mean specifically by the sig doesn't work","",""
+"949817649590841374","aking#3877","03/02/2023 10:26 am","I mean that, yes it give me a hash and i use that spesific hash as an input in the function permitTransferFrom()","",""
+"949817649590841374","aking#3877","03/02/2023 10:27 am","```javascript
+function permitTransferFrom(
+        PermitTransferFrom memory permit,
+        SignatureTransferDetails calldata transferDetails,
+        address owner,
+        bytes calldata signature
+) external;
+```
+This is the function and parametres","",""
+"949817649590841374","aking#3877","03/02/2023 10:30 am","```javascript
+npm install @uniswap/permit2-sdk
+import {
+    // permit2 contract address
+    PERMIT2_ADDRESS,
+    // the type of permit that we need to sign
+    PermitTransferFrom,
+    // Witness type
+    Witness,
+    // this will help us get domain, types and values that we need to create a signature
+    SignatureTransfer
+} from ""@uniswap/permit2-sdk"";
+
+const erc20 = new ethers.Contract(erc20Address, erc20Abi, signerOrProvider);
+await erc20.approve(PERMIT2_ADDRESS, constants.MaxUint256);
+const contract = new ethers.Contract(contractAddress, contractAbi, signerOrProvider);
+const permit: PermitTransferFrom = {
+    permitted: {
+        // token we are permitting to be transferred
+        token: erc20.address,
+        // amount we are permitting to be transferred
+        amount: amount
+    },
+    // who can transfer the tokens
+    spender: contract.address,
+    nonce: 1,
+    // signature deadline
+    deadline: constants.MaxUint256
+};
+const witness: Witness = {
+    // type name that matches the struct that we created in contract
+    witnessTypeName: 'Witness',
+    // type structure that matches the struct
+    witnessType: { Witness: [{ name: 'user', type: 'address' }] },
+    // the value of the witness.
+    // USER_ADDRESS is the address that we want to give the tokens to
+    witness: { user: USER_ADDRESS },
+}
+const { domain, types, values } = SignatureTransfer.getPermitData(permit, PERMIT2_ADDRESS, CHAIN_ID, witness);
+let signature = await wallet._signTypedData(domain, types, values);
+await contract.deposit(amount, erc20.address, wallet.address, USER_ADDRESS, permit, signature);
+```
+This is the script of the webside that you send me (thank you very much by the way)","",""
+"949817649590841374","aking#3877","03/02/2023 10:36 am","```javascript
+import { MaxUint256, PERMIT2_ADDRESS, SignatureTransfer } from ""@uniswap/permit2-sdk"";
+import { ethers } from ""ethers""
+import { DesarrolladorABI, DesarrolladorAddress } from ""../contracts/Desarrollador"";
+import { contractAddress, abi } from ""../contracts/ERC20""
+
+    const Conectar = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        try {
+            await erc20.approve(PERMIT2_ADDRESS, MaxUint256)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+```","",""
+"949817649590841374","aking#3877","03/02/2023 10:36 am","```javascript
+    const Permit = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        // const contract = new ethers.Contract(DesarrolladorAddress, DesarrolladorABI, signer);
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        const PermitTransferFrom = {
+            permitted: {
+                // token we are permitting to be transferred
+                token: erc20.address,
+                // amount we are permitting to be transferred
+                amount: ""100000000000000000000""
+            },
+            // who can transfer the tokens
+            spender: PERMIT2_ADDRESS,
+            nonce: 0,
+            // signature deadline
+            deadline: 1685453781
+        };
+        const Witness = {
+            // type name that matches the struct that we created in contract
+            witnessTypeName: 'Witness',
+            // type structure that matches the struct
+            witnessType: { Witness: [{ name: 'user', type: 'address' }] },
+            // the value of the witness.
+            // USER_ADDRESS is the address that we want to give the tokens to
+            witness: { user: DesarrolladorAddress },
+        }
+        const { domain, types, values } = SignatureTransfer.getPermitData(PermitTransferFrom, PERMIT2_ADDRESS, 5, Witness);
+        let signature = await signer._signTypedData(domain, types, values);
+        console.log(signature)
+    }   
+```","",""
+"949817649590841374","aking#3877","03/02/2023 10:37 am","And this is my script that i maded in react js","",""
+"949817649590841374","aking#3877","03/02/2023 10:37 am","So the console.log(signature) give me a hash","",""
+"949817649590841374","aking#3877","03/02/2023 10:39 am","i use this params in the permitTransferFrom()
+```javascript
+function permitTransferFrom(
+        PermitTransferFrom memory permit,
+        SignatureTransferDetails calldata transferDetails,
+        address owner,
+        bytes calldata signature
+) external;
+```
+and does not work","",""
+"949817649590841374","aking#3877","03/02/2023 10:39 am","maybe im forget something","",""
+"471357824299958273","crypto_rachel","03/02/2023 10:57 am","so I haven't worked with it yet..
+but if you get a signature then the data signed isn't correct..
+Spender in there would be the contract that is able to do the `transferFrom` if i'm not mistaking","",""
+"1033164159145234467","atilla4030","03/02/2023 4:51 pm","Does universal router support permit2 with witness hash?","",""
+"949817649590841374","aking#3877","03/02/2023 10:23 pm","I already have it.
+it finally works, thank you very much for give me this information https://gasperpre.com/how-to-implement-uniswap-permit2-in-your-protocol/ it really worked","",""
+"1033164159145234467","atilla4030","04/02/2023 9:30 am","hey man, can I see your code?","",""
+"1033164159145234467","atilla4030","04/02/2023 8:19 pm","I have added a new command to universal router:
+
+```
+       const permit: PermitTransferFrom = {
+          permitted: {
+              // token we are permitting to be transferred
+              token: wethContract.address,
+              // amount we are permitting to be transferred
+              amount: ethers.utils.parseEther(""1"")
+          },
+          // who can transfer the tokens
+          spender: router.address,
+          nonce: 0,
+          // signature deadline
+          deadline: 0
+        };
+
+        const bobBalance: BigNumber = await wethContract.balanceOf(alice.address);
+        expect(bobBalance.gt(0)).to.eq(true)
+
+
+        const witness: Witness = {
+          // type name that matches the struct that we created in contract
+          witnessTypeName: 'Witness',
+          // type structure that matches the struct
+          witnessType: { Witness: [{ name: 'user', type: 'address' }] },
+          // the value of the witness.
+          // USER_ADDRESS is the address that we want to give the tokens to
+          witness: { user: router.address },
+      }
+
+       const { domain, types, values } = SignatureTransfer.getPermitData(permit, permit2.address, 1, witness);
+      let signature = await bob._signTypedData(domain, types, values);
+
+    
+      planner.addCommand(CommandType.PERMIT_WITNESS,[
+        ethers.utils.parseEther(""0.99""),
+        bob.address,
+        router.address,
+        permit,
+        signature
+      ])
+
+```","",""
+"1033164159145234467","atilla4030","04/02/2023 8:19 pm","And the code in the router:
+
+```                        (
+                            uint256 _amount,
+                            address _owner,
+                            address _user,
+                            ISignatureTransfer.PermitTransferFrom memory _permit,
+                            bytes memory _signature
+                        ) = abi.decode(
+                                inputs,
+                                (uint256, address, address, ISignatureTransfer.PermitTransferFrom, bytes)
+                            );
+                        address permit2addr = address(PERMIT2);
+
+                        ISignatureTransfer(permit2addr).permitWitnessTransferFrom(
+                            _permit,
+                            ISignatureTransfer.SignatureTransferDetails({to: _user, requestedAmount: _amount}),
+                            _owner,
+                            // witness
+                            keccak256(abi.encode(WITNESS_TYPEHASH, Witness(_user))),
+                            // witnessTypeString,
+                            WITNESS_TYPE_STRING,
+                            _signature
+                        );
+```
+
+My transaction is reverting. Anything wrong you see here?","",""
+"1070365034141712515","hg_trader#5720","04/02/2023 10:49 pm","Hey, any help decoding universal router tranactions via python?","",""
+"1070365034141712515","hg_trader#5720","05/02/2023 12:00 am","hey, did decoding with V£/V2 router work? My only issue is that the funnctions arent in the same form:(","",""
+"1070365034141712515","hg_trader#5720","05/02/2023 12:05 am","as in V3_SWAP_EXACT_IN just isn't a function on the v3 abis, just ""swapExactTokensForTokens"". How do i know which one is right","",""
+"399593121996079115","ninja_dev","05/02/2023 12:13 am","Yes! I was able to get it. Not at my PC today but I'll try to get ya how I decoded it. I am using JS just for reference","",""
+"1070365034141712515","hg_trader#5720","05/02/2023 12:14 am","been bugging me for ages. thankyou","",""
+"949817649590841374","aking#3877","05/02/2023 1:20 am","Of corse man here it is","",""
+"949817649590841374","aking#3877","05/02/2023 1:23 am","```javascript
+    const Permit = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        // const contract = new ethers.Contract(DesarrolladorAddress, DesarrolladorABI, signer);
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        const PermitTransferFrom = {
+            permitted: {
+                // token we are permitting to be transferred
+                token: erc20.address,
+                // amount we are permitting to be transferred
+                amount: ""100000000000000000000""
+            },
+            // Address al que le queremos enviar los tokens
+            spender: DesarrolladorAddress,
+            nonce: 0,
+            // signature deadline
+            deadline: 1685453781
+        };
+        const { domain, types, values } = SignatureTransfer.getPermitData(PermitTransferFrom, PERMIT2_ADDRESS, 5);
+        let signature = await signer._signTypedData(domain, types, values);
+        console.log(signature)
+    }   
+```
+As you can see i deleted whitness","",""
+"949817649590841374","aking#3877","05/02/2023 1:25 am","If you have any mistake i think is because you have different smart contract that i have i dont implemet ISignatureTansfer.PermitTransferFrom","",""
+"949817649590841374","aking#3877","05/02/2023 1:25 am","Good luky","",""
+"949817649590841374","aking#3877","05/02/2023 4:02 am","@Crypto_Rachel How do I know if a user has already interacted with permit2? I mean, let's imagine someone has already approved USDT, for example, and permit2 has the MaxUint256 of their tokens, and to prevent the user from using the approval function again in another smart contract, how does the other smart contract know that the user already did the permission function allow2?","",""
+"1033164159145234467","atilla4030","05/02/2023 6:27 pm","thanks bro,","",""
+"1033164159145234467","atilla4030","05/02/2023 6:38 pm","Anyway, I added a new command to Universal Router that uses permitWitnessTransferFrom (adding extra data in the signature and verifying), might make a pull request later","",""
+"757941341387882569","bitbud","06/02/2023 1:34 am","Hey, Could you achieve decoding via python?","",""
+"757941341387882569","bitbud","06/02/2023 3:33 am","Hey, In Python, I was using uniswap v2 router and v3 router for my swaps. but now i have to make approves everywhere. I need to update my code to work with universal router as far as I understood. Can anyone help me with how to call swap functions on universal router?","",""
+"471357824299958273","crypto_rachel","06/02/2023 3:45 am","thought you said you had it....
+
+with permit2 a user does the old fashioned approval for their token to permit2 
+in the signature this signs for the transfer amount and the spender/contract which can perform the transferFrom.","",""
+"471357824299958273","crypto_rachel","06/02/2023 3:46 am","You don't have to upgrade your code unless you plan to integrate NFT purchases, The v2 , v3, and v3router02 will always be available","",""
+"757941341387882569","bitbud","06/02/2023 3:48 am","Yes, But then I thought I have to approve multiple times for the same token. With Uniswap V2 can i use permit2?","",""
+"471357824299958273","crypto_rachel","06/02/2023 3:51 am","you do one paid approval for the token, calling the tokens approve with the spender as permit2 and full amount...   Each time you make a transaction for that token it will only need one of the permit calls","",""
+"757941341387882569","bitbud","06/02/2023 3:55 am","I think I have misunderstood the permit2 contract. Lets say I approved a token on uniswap website and then tried to sell it through v2router via my code. Can i achieve that? Or I need to be using universal router?","",""
+"471357824299958273","crypto_rachel","06/02/2023 3:57 am","yes, but you would need to sign using the v2 router as the spender when you sign","",""
+"757941341387882569","bitbud","06/02/2023 4:00 am","Aha! Thanks I think I got it. Thank you. So All i need to update approvals, thanks again!","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:02 am","well doing the permit is difficult.. Technically you don't need to change anything, just this would allow a gassless setup that would revoke automatically at the chosen deadline","",""
+"757941341387882569","bitbud","06/02/2023 4:04 am","Actually the problem is this: When I am home I can sell the token no problem. But sometimes i am not at home and decide to sell, then i have to use uniswap and there i need to reapprove tokens which i already approved. Many tokens i had to approve for v2 v3 v3router2 and now i ll need to approve universal router for that. this s my problem.  I want to solve my problem once and for all.","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:05 am","you can have Both approved","",""
+"757941341387882569","bitbud","06/02/2023 4:07 am","When I approve multiple contracts then do i spend more gas? I mean how much more gas, like close to 2x or just a lil bit more?","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:09 am","approval (if done using max approval) is a one time thing, once it approves you don't have to pay again unless you limit your approval amounts or revoke that approval. So like if you had other routers approved already, you can pay the approval for permit2 and use the UI, this still leaves the other approvals intact","",""
+"757941341387882569","bitbud","06/02/2023 4:12 am","Yes, that is I know. But lets say i will decide to trade a token X in the future, then i will have to approve it multiple times as far as i understood. And there were times these approves were quite expensive when the gas prices were high. these days (when gas prices are cheap) it s ok to approve once more but when the count of these reapprovals add up and gas prices are high  it might make significant money. what do i miss, sir?","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:15 am","a Max approval is not likely to Ever run out, as it's a huge number....
+so if you do max approval you only pay gas once for that particular protocol to be able to use the funds
+
+permit2 give more flexibility and and you can sign a message for other protocols","",""
+"757941341387882569","bitbud","06/02/2023 4:21 am","Thank you for your paitently answering my questions, But I still dont get it. I know that max approval is too big. But dont we have to approve it for every token? So for token X I need to max approve v2 and v3 and universal router, and then for the token Y I have to make 3 approves as well and for the token Z again i have to make multiple approves.","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:26 am","yes, you would have to make individual token approvals to each token no matter what..","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:26 am","even permit 2","",""
+"757941341387882569","bitbud","06/02/2023 4:29 am","Thank you that s why i wanted to update to universal router so from everywhere i can use universal router. and one approve for every token","",""
+"471357824299958273","crypto_rachel","06/02/2023 4:30 am","still need to manually approve every token, but yes permit2 gives the ability to use other protocols with same approval","",""
+"757941341387882569","bitbud","06/02/2023 4:31 am","Thank you, first i have to find a way to use universal router with python:) Trying to get chatgpt help me in that case 🙂","",""
+"949817649590841374","aking#3877","06/02/2023 7:48 am","I mean, at first you need to do the approve function of a token
+
+Contract A has a button that says (approve USDT to uniswap permit2) user X executes the function approving the variable (MAXUINT256) of USDT, user X no longer has to do that approval anymore
+
+User X reaches contract B which has the same USDT approve function, so that it does not do it again, how does contract B know that user X has already done that approval before?","",""
+"949817649590841374","aking#3877","06/02/2023 7:52 am","@Crypto_Rachel  Other question, how i know the nonce of a user have whit permit2  address, the contract permit2 have a nonce mapping function that i can use?","",""
+"471357824299958273","crypto_rachel","06/02/2023 8:19 am","to see if a user has approved the permit2 on a token, you would call the tokens contract for approval.
+to get the nonce you would call the approval read on the permit2","",""
+"471357824299958273","crypto_rachel","06/02/2023 8:20 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1071986121405370368/OL99.png",""
+"949817649590841374","aking#3877","07/02/2023 12:24 am","you are right thanks a lot
+
+the param of here (<input> (uint256)) is always 0? because nonce = 1 is correct when i input 0 but when i input 1 it give me 0 that is false","","YW (1)"
+"949817649590841374","aking#3877","07/02/2023 12:25 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1072229083481645197/image.png,https://cdn.discordapp.com/attachments/1042613771316764752/1072229083699757137/image.png",""
+"459971928275550208","vaibhav_chellani","07/02/2023 10:18 pm","hey folks! trying to understand how many projects use permit2 contracts in production and if uniswap uses permit2 in production today, coz the interactions on the contract seem quite low","",""
+"989275482488983663","AnthonyNicholas#4331","08/02/2023 12:18 am","Hey Vaibhav, I'm not too sure which projects use our P2 contract (I can ask our team) but we use P2 on our UI https://twitter.com/Uniswap/status/1615824670825250816?s=20&t=EZq4lp-cvGiWWnPQnH8few","",""
+"459971928275550208","vaibhav_chellani","08/02/2023 2:11 am","Why do I not see any activity on the on-chain contracts?","",""
+"459971928275550208","vaibhav_chellani","08/02/2023 2:11 am","Just trying to figure out how production ready it is","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:13 am","interaction with the contract is mostly in the background. User manually approves via token approving Permit2, from there it checks signatures which happens in the background afaik","",""
+"757941341387882569","bitbud","08/02/2023 2:36 am","Hi, I have been trying to make a simple swap using universal router in Python.
+In the docs it says, i need to encode path as byte array. I used the function below to make that happen.","https://cdn.discordapp.com/attachments/1042613771316764752/1072624510550950009/image.png",""
+"757941341387882569","bitbud","08/02/2023 2:38 am","Then I tried to call the function like below without succes. Is there anyone here who can help me?","https://cdn.discordapp.com/attachments/1042613771316764752/1072624821151731792/image.png",""
+"471357824299958273","crypto_rachel","08/02/2023 2:45 am","so what do you get when you log encoded, share the path and I might be able to help, but it doesn't look wrong. outside of the fact that it looks like a string of bytes","",""
+"757941341387882569","bitbud","08/02/2023 2:50 am","Path output becomes '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d60001f41f9840a85d5aF5bf1D1762F925BDADdC4201F984'
+When the inputs are [ '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'] and [500]
+I am trying to swap eth to uni on goerli testnet
+
+Maybe I am making mistake in other conversions?","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:53 am","nvm","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:53 am","the extra 1f in the address threw me 😄","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:54 am","so if you are using ETH, you will need to make sure you use the wrap function call too.","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:55 am","WRAP_ETH = 0x0b;","",""
+"471357824299958273","crypto_rachel","08/02/2023 2:56 am","and include the amount of ETH in the transaction dictionary `value`","",""
+"757941341387882569","bitbud","08/02/2023 3:00 am","@Crypto_Rachel 
+To make it simpler, i can wrap eth beforehand, and then try to make the swap work. but I think the problem here is i dont understand about types, and how to pass them. Earlier, I was calling swapExactethfortokens function with normal parameters and it was working, now as i see i cannot pass parameters directly but I have to change them to byte or bytearray and then call the function. I was looking through files script files on uniswap v3 there i saw the encode function and tried to write python version.
+
+Here there s a path function i found. 
+
+https://github.com/Uniswap/v3-periphery/blob/main/test/shared/path.ts","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:11 am","so the bytes arg, iirc, needs to be abi encoded as string.
+this adds 0's to the end, I think the total length including the byte function commands of 32 bytes , so since your only using one command you would had 62 0s behind it","",""
+"757941341387882569","bitbud","08/02/2023 3:15 am","hmm in my code , bytes_arg argument is set as   b'\x00' maybe i am missing things here?","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:17 am","yeah but if it's only sending b'\x00' then you need 62 0s behind as far as I'm aware","",""
+"757941341387882569","bitbud","08/02/2023 3:19 am","Already leading with 2 zeros that makes totally 64 zeros? I Manually made the transaction through the uniswap web site on goerli chain. tx: https://goerli.etherscan.io/tx/0xcc9bee1d81a54ed40bdfa1c0d67170f03678971ce37cc5392bc3e25ae5e00b5e","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:21 am","ok then it is abi encoding it","",""
+"757941341387882569","bitbud","08/02/2023 3:23 am","When I encode on etherscan the command is written as 0x0b00 , So the first two bytes for weth?","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:24 am","if you input this into etherscan write contract page, then they abi encoded for you. check at the bottom to see how it was encoded","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:24 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1072636575936151645/image.png",""
+"757941341387882569","bitbud","08/02/2023 3:25 am","Yes I saw this but didnt undeerstand much.","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:30 am","```
+0x3593564c
+0000000000000000000000000000000000000000000000000000000000000060
+00000000000000000000000000000000000000000000000000000000000000a0
+0000000000000000000000000000000000000000000000000000000063dfc5c0
+0000000000000000000000000000000000000000000000000000000000000002
+
+0b00000000000000000000000000000000000000000000000000000000000000
+
+0000000000000000000000000000000000000000000000000000000000000002
+0000000000000000000000000000000000000000000000000000000000000040
+00000000000000000000000000000000000000000000000000000000000000a0
+0000000000000000000000000000000000000000000000000000000000000040
+0000000000000000000000000000000000000000000000000000000000000002
+000000000000000000000000000000000000000000000000002386f26fc10000
+0000000000000000000000000000000000000000000000000000000000000100
+0000000000000000000000000000000000000000000000000000000000000001
+000000000000000000000000000000000000000000000000002386f26fc10000
+000000000000000000000000000000000000000000000000002fe69934588843
+00000000000000000000000000000000000000000000000000000000000000a0
+0000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000002b
+b4fbf271143f4fbf7b91a5ded31805e42b2208d60001f41f9840a85d5af5bf1d1762f925bdaddc4201f984000000000000000000000000000000000000000000
+```
+All this is due to the abi encoding of web3. It does the job of telling solidity what code means what and where it is.
+
+not sure you will be able to do without abi encoding.... Not sure what `function` would log. But try to log that
+but as you see the split above `0b0000......` that's the abi encoded version of the bytes that get passed","",""
+"757941341387882569","bitbud","08/02/2023 3:45 am","Thank you, I am going to try to understand this and maybe i ll find mistakes in my code.  Need to work some more hours. 🙂","",""
+"471357824299958273","crypto_rachel","08/02/2023 3:47 am","so maybe this will help, I don't think it handles the universal router, but it has abi encoding
+https://github.com/uniswap-python/uniswap-python","",""
+"757941341387882569","bitbud","08/02/2023 3:48 am","Thanks 🙂","","YW (1)"
+"311350946330574849","maxandrew","09/02/2023 2:28 am","Just to be clear the Auto Router only routes trades for that specific chain/L2 right?","",""
+"221594574261452801","lockface77","09/02/2023 2:29 am","Hello how to you encode the command for universal router? Using web3js","",""
+"221594574261452801","lockface77","09/02/2023 2:30 am","Like if I just set: ""0x0b"" It will do a Wrap eth command?","",""
+"757941341387882569","bitbud","09/02/2023 3:16 am","Im also trying to understand it, But I think, there we need to call it with two parameters.","https://cdn.discordapp.com/attachments/1042613771316764752/1072996943220977783/image.png",""
+"221594574261452801","lockface77","09/02/2023 3:52 am","Just figured it out if you want","",""
+"757941341387882569","bitbud","09/02/2023 4:05 am","Hey help me out if you can 🙂","",""
+"221594574261452801","lockface77","09/02/2023 4:07 am","I am using ethers:
+```javascript
+const command = ""0x0b"";
+const abiCoder = new ethers.AbiCoder();
+const wrap_eth_params = abiCoder.encode([""address"", ""uint256""], [TARGET, AMOUNT]);
+const transaction = await universal_router_contract.execute(command, [wrap_eth_params]);
+await transaction.wait()
+```","","👍 (1)"
+"221594574261452801","lockface77","09/02/2023 4:08 am","Replace TARGET by the wallet that will receive the wrapped eth and AMOUNT by the amount in bigint that you want to wrap","",""
+"221594574261452801","lockface77","09/02/2023 4:08 am","```javascript
+const amount = parseUnits(eth_input, 18);
+```","",""
+"757941341387882569","bitbud","09/02/2023 4:10 am","Thank you, Im trying to make this work in python. and I have sth more to ask. When we try to swap eth to token using universal router, first we need to call this function but there what should we set for the address? Do you know that?","",""
+"471357824299958273","crypto_rachel","09/02/2023 4:12 am","If using ETH, you need to do the wrapETH call before the trade","",""
+"757941341387882569","bitbud","09/02/2023 4:14 am","On the etherscan, I could see the two parameters for that the first one is being 2 and second one is the amount of ether i wanted to swap. So Does that mean for universalrouter i should use 2 Instead of address?","",""
+"471357824299958273","crypto_rachel","09/02/2023 4:15 am","can't say what you're looking at","",""
+"757941341387882569","bitbud","09/02/2023 4:15 am","this is the transaction I am trying to understand : https://goerli.etherscan.io/tx/0xcc9bee1d81a54ed40bdfa1c0d67170f03678971ce37cc5392bc3e25ae5e00b5e","",""
+"471357824299958273","crypto_rachel","09/02/2023 4:21 am","so that is to have the router receive the token, using address(2)
+https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code#F12#L23","",""
+"757941341387882569","bitbud","09/02/2023 4:25 am","thank you that was the question 🙂","","YW (1)"
+"908638336028127274","mengxin5427","09/02/2023 9:55 am","May I ask where the official interface can call the Uniswap V2: Router 2 contract?","",""
+"908638336028127274","mengxin5427","09/02/2023 9:56 am","Now the official interface calls the UniversalRouter contract","",""
+"508391840525975553","Tickets#6981","09/02/2023 9:58 am","","",""
+"471357824299958273","crypto_rachel","09/02/2023 9:59 am","👆","",""
+"908638336028127274","mengxin5427","09/02/2023 11:04 am","thanks","","YW (1)"
+"1033164159145234467","atilla4030","09/02/2023 8:05 pm","Question out of curiosity, I see that in https://github.com/Uniswap/universal-router/blob/main/contracts/modules/uniswap/v2/V2SwapRouter.sol v2 router is being reimplemented, why is that?Does this call the actual v2 router specified in the constants? What  is the function of calling payorpermit2transfer thru these functions as opposed to directly calling v2 router? thanks in advance","",""
+"908638336028127274","mengxin5427","09/02/2023 8:26 pm","Why did I provide V2 and V3 liquidity on goerli’s old version of uni, and then I swap, only the V3 contract and the V3 pool were called, but the V2 pool did not change","",""
+"750547188253327381","basistrader","10/02/2023 7:55 am","hi guys","",""
+"750547188253327381","basistrader","10/02/2023 7:55 am","anybody from the team here? i've got some questions about which tokens are considered ""routing tokens"" by the router, because it seems that there's only a small pre-defined list","",""
+"354458973572956160","vengeanc3","11/02/2023 1:25 am","to approve tokens to trade on universal router, can i just change the approval address to permit2/universal address? or is there something i need to do with permit2?","",""
+"619215957734195212","fv_","13/02/2023 6:32 pm","what's the benefit of using Permit2Lib over not using it?","",""
+"619215957734195212","fv_","13/02/2023 6:34 pm","and what's the difference between approving permit2 contract just with a normal `.approve()` vs doing the `.permit2()`?","",""
+"989275482488983663","AnthonyNicholas#4331","13/02/2023 7:50 pm","I believe you can but you should send Sara a DM just to make sure - https://twitter.com/saraareynolds","",""
+"989275482488983663","AnthonyNicholas#4331","13/02/2023 7:50 pm","Sara is on the uniswap labs protocols team","",""
+"949817649590841374","aking#3877","13/02/2023 9:42 pm","It is like a security measure that you have approvals based on signatures since if you do the approve() function in your protocol and you have some vulnerability in your contract, the user tokens could be lost","",""
+"949817649590841374","aking#3877","13/02/2023 9:43 pm","Apart from that there is a benefit that we all use permit2 since if someone approved DAI in my protocol they will no longer have to approve DAI in yours, and they should never do it since they have already approved it 1 time, I am saving users a lot of money","",""
+"949817649590841374","aking#3877","13/02/2023 9:44 pm","https://discordapp.com/channels/597638925346930701/607978109089611786/1074429467746893946","",""
+"949817649590841374","aking#3877","13/02/2023 9:45 pm","@everyone can help me with this problem?, i asked in #💻│dev-chat  and did not get answer 😦
+PROBLEM: https://discordapp.com/channels/597638925346930701/607978109089611786/1074429467746893946","",""
+"750547188253327381","basistrader","13/02/2023 9:51 pm","hi guys","",""
+"619215957734195212","fv_","14/02/2023 3:25 pm","hmm.. but that benefit is if i do a normal approve to the permit2 contract (e.g `dai.approve(PERMIT2_ADDRESS, 1e18)`), right? 
+
+my question is: what's the difference between doing, for example `dai.approve(0xJOE, 1e18)` vs `mycontract.permit2(dai, owner, 0xJOE, 1e18, deadline, v, r, s)`?","",""
+"619215957734195212","fv_","14/02/2023 3:58 pm","i' a little bit confused with the `transferFrom2()`, in order to use that, there should first be a call to `permit2()` to allow a spender to transfer those funds, correct? if so, doing `mycontract.permit2()` + `mycontract.transferFrom2()` is the same as doing `dai.approve()` + `PERMIT2.permitTransferFrom()`? or do i have any benefit from using the `Permit2Lib.sol`?","",""
+"471357824299958273","crypto_rachel","15/02/2023 8:43 am","permit2 give the ability to only pay one gas approval fee, so rather than paying approve() each time permit2 allows for signature gasless approvals","",""
+"471357824299958273","crypto_rachel","15/02/2023 8:45 am","you would have to do a lot, this is done via the UR (universal router), gather signature for transaction and use the permit2_transfer_from call within the call to execute","",""
+"504560889358319636","dante055","15/02/2023 10:55 am","@Crypto_Rachel In permit2 permitTransferFrom function unorder nonces are used (any unique nonce will work). But their is a problem if different project use different ways to calculate nonce then the their are chances that they is clash for some users. So is their universal standard to determine the nonce so that nonces dont clash.","","🤷‍♀️ (1)"
+"1055050314690088980","romansimachenko","15/02/2023 2:32 pm","Hey guys! How can i generate a byte string in python for this contract? Do you have some Python examples or even JS?","https://cdn.discordapp.com/attachments/1042613771316764752/1075341438960812092/image.png",""
+"1055050314690088980","romansimachenko","15/02/2023 2:33 pm","command is: 0x00 - V3_SWAP_EXACT_IN","https://cdn.discordapp.com/attachments/1042613771316764752/1075341648604696576/image.png",""
+"1055050314690088980","romansimachenko","15/02/2023 2:34 pm","i need some python examples how can i create byte string(containing encoded input params) for this func","",""
+"1055050314690088980","romansimachenko","15/02/2023 3:05 pm","@Genki have you solved your problem? can you generate bytes data and pass it to the contract?","",""
+"1055050314690088980","romansimachenko","15/02/2023 3:22 pm","@Crypto_Rachel can you help or advice me?","",""
+"949817649590841374","aking#3877","16/02/2023 1:48 am","Please i need help","",""
+"949817649590841374","aking#3877","16/02/2023 1:49 am","I am in goerli test net and the first signatures of my metamask wallet works, 
+I want to emphasize here THE FIRST SIGNATURES OF ANY WALLET WORKS
+But I'm noticing that the nonce doesn't increment one by one, it increment like first 0 then 1 then 11 then 52 then 2059.
+When a wallet reaches 2059 nonce the signature stops working, and the uniswap contract tells me that it is still a signature error, But it's not true it just stops working when it reaches that nonce 2059
+
+The param of uint256 that i use is alwais 0 becuse this 0 alwais change, if i use 1 do not change","",""
+"949817649590841374","aking#3877","16/02/2023 1:50 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1075511848545292400/337a71d7-992e-41e3-938c-2d4c6688ec47.png",""
+"949817649590841374","aking#3877","16/02/2023 1:50 am","This is the logic that i use","",""
+"949817649590841374","aking#3877","16/02/2023 1:50 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1075511942090854520/66fba80e-eb19-46d9-ae85-4287a6201b70.png",""
+"949817649590841374","aking#3877","16/02/2023 1:50 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1075511973434896474/624bcade-baab-40e7-a564-6e1cd458c44b.png",""
+"949817649590841374","aking#3877","16/02/2023 1:53 am","Is very simple but when the nonce is 2059 stop working the signatures 
+maybe this error is of the Permit2 contract in this special network (goerli) 
+
+But in mainet or polligon is safe and correct
+
+or maybe not and the contract permit2 does not work when a nonce get the 2059","",""
+"504560889358319636","dante055","16/02/2023 10:16 am","@Crypto_Rachel  Can we use timestamp as nonce in permitTransferFrom? Will it cause some problem in future ??","",""
+"575962128683499540","tomi_ohl","16/02/2023 8:09 pm","In JS you can use ethers.utils.defaultAbiCoder.encode
+You need something similar for python (or write your own abicoder implementation)","",""
+"949817649590841374","aking#3877","18/02/2023 12:15 am","No you cannot use timestamp becuse the nonce is something controlled by the smart contract PERMIT2 this increment automaticly","",""
+"949817649590841374","aking#3877","18/02/2023 12:15 am","for get the nonce study my scrip","",""
+"747641632802865276","chaikans","18/02/2023 4:13 pm","Does anyone know how to do the uniswap permit2  batch approval","",""
+"949817649590841374","aking#3877","18/02/2023 9:40 pm","i just know the permirTransferFrom","",""
+"977361685981560853","doug0697","18/02/2023 10:07 pm","Does universal-router-sdk support Seaport when consideration is ERC20 token? It seems that it only support Seaport when consideration is ETH.","",""
+"977361685981560853","doug0697","18/02/2023 11:00 pm","Thank you for confirming that we can buy NFTs with ERC20 token through UR. Could you give me a code example on how to do it?","",""
+"747641632802865276","chaikans","19/02/2023 5:20 am","Can you explain that to me","",""
+"949817649590841374","aking#3877","19/02/2023 10:38 am","Actually i have no time for explain you because im resolving this problem https://discordapp.com/channels/597638925346930701/1042613771316764752/1075511652553867284 for myself because @everyone is ghosting me 
+
+but you must read this if you wanna be in my level 
+https://docs.uniswap.org/contracts/permit2/overview
+https://github.com/dragonfly-xyz/useful-solidity-patterns/blob/main/patterns/permit2/Permit2Vault.sol","",""
+"949817649590841374","aking#3877","19/02/2023 10:40 am","and study my script it works but when the nonce is 2059 stop working but nobody cares","",""
+"143827786698719233","safmath","19/02/2023 6:39 pm","i care, but for now i can't even sign a freaking tx","","👍 (1)"
+"1065974161501077584","tonisquares","20/02/2023 1:28 am","Hi. If I have a position in v3 going out and in for the last 10 days. How can I know if I should maintain the pos or get out an in again with a new range????","",""
+"949817649590841374","aking#3877","20/02/2023 8:34 am","Dude are you for real?","",""
+"949817649590841374","aking#3877","20/02/2023 8:39 am","```javascript
+import { MaxUint256, PERMIT2_ADDRESS, SignatureTransfer } from ""@uniswap/permit2-sdk"";
+import { ethers } from ""ethers""
+import { DesarrolladorAddress } from ""../contracts/Desarrollador"";
+import { contractAddress, abi } from ""../contracts/ERC20""
+import { DaIcontractAddress, DaIabi} from ""../contracts/DAI""
+import { Permit2Abi } from ""../contracts/Permit2""
+
+export default function PruebaBoton() {
+
+    const Conectar = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const erc20 = new ethers.Contract(contractAddress, abi, signer);
+        try {
+            await erc20.approve(PERMIT2_ADDRESS, MaxUint256)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    const ApprovarDai = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const erc20 = new ethers.Contract(DaIcontractAddress, DaIabi, signer);
+        try {
+            await erc20.approve(PERMIT2_ADDRESS, MaxUint256)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+```","",""
+"949817649590841374","aking#3877","20/02/2023 8:39 am","```javascript
+
+    const Permit = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+        const address = await provider.send(""eth_requestAccounts"", []);
+        const signer = provider.getSigner()
+        const permit2 = new ethers.Contract(PERMIT2_ADDRESS, Permit2Abi, signer);
+        const nonces = await permit2.nonceBitmap(address[0], 0)
+        // @note nonces get a uint256 of a function of Permit2 Contract goerli testnet
+        const num = nonces.toNumber()
+        // const num = ethers.utils.formatUnits(nonces, 18)
+        const PermitTransferFrom = {
+            permitted: {
+                // token we are permitting to be transferred
+                token: ""0xE0164EE2C2178A7beC66EED45a8A9d0a2296217e"",
+                // amount we are permitting to be transferred
+                amount: ""3150000000000000000""
+            },
+            // Address al que le queremos enviar los tokens
+            spender: ""0x9B6a048c301DFCA268E86C36EdE42DB126101Bc9"",
+            nonce: num,
+            // signature deadline
+            deadline: 1685453781
+        };
+        const { domain, types, values } = SignatureTransfer.getPermitData(PermitTransferFrom, PERMIT2_ADDRESS, 5);
+        let signature = await signer._signTypedData(domain, types, values);
+        console.log(signature, num)
+    }   
+
+    return(
+        <div>
+            <button onClick={Conectar}>
+                Aprovar USDTC
+            </button>
+            <button className=""px-8"" onClick={ApprovarDai}>
+                Aprovar DAI
+            </button>
+            <button className=""pr-8"" onClick={Permit}>
+                Firmar
+            </button>
+        </div>
+    )
+}
+```","",""
+"843155325619535912","Etherscan Bot#5753","20/02/2023 8:40 am","<https://etherscan.io/address/0xE0164EE2C2178A7beC66EED45a8A9d0a2296217e>","",""
+"843155325619535912","Etherscan Bot#5753","20/02/2023 8:40 am","<https://etherscan.io/address/0x9B6a048c301DFCA268E86C36EdE42DB126101Bc9>","",""
+"949817649590841374","aking#3877","20/02/2023 8:40 am","First you need aprove the token you espect to spend","",""
+"949817649590841374","aking#3877","20/02/2023 8:40 am","second sing whit the correct data","",""
+"949817649590841374","aking#3877","20/02/2023 8:42 am","third you put the data that you signed ""exact""! and you pass them as a parameter to the uniswap permit function","",""
+"143827786698719233","safmath","20/02/2023 1:07 pm","ho man i'm not using javascript i'm deeply sorry i'm using golang and there is no much information about singatures in golang. I'm trying to sign the PermitSingle struct.
+
+`types := apitypes.Types{
+        ""EIP712Domain"": {
+            {Name: ""name"", Type: ""string""},
+            {Name: ""version"", Type: ""string""},
+            {Name: ""chainId"", Type: ""uint256""},
+            {Name: ""verifyingContract"", Type: ""address""},
+        },
+        ""PermitDetails"": {
+            {Name: ""token"", Type: ""address""},
+            {Name: ""amount"", Type: ""uint256""},
+            {Name: ""expiration"", Type: ""uint64""},
+            {Name: ""nonce"", Type: ""uint64""},
+        },
+        ""PermitSingle"": {
+            {Name: ""details"", Type: ""PermitDetails""},
+            {Name: ""spender"", Type: ""address""},
+            {Name: ""sigDeadline"", Type: ""uint256""},
+        },
+    }
+
+    domain := apitypes.TypedDataDomain{
+        Name:              ""Permit2"",
+        Version:           ""1"",
+        ChainId:           (*math.HexOrDecimal256)(big.NewInt(5)),
+        VerifyingContract: ""0x000000000022d473030f116ddee9f6b43ac78ba3"",
+    }
+
+    typedData := apitypes.TypedData{
+        Types:       types,
+        PrimaryType: ""PermitSingle"",
+        Domain:      domain,
+        Message: map[string]interface{}{
+            ""details"": map[string]interface{}{
+                ""token"":      ""0x1F98431c8aD98523631AE4a59f267346ea31F984"",
+                ""amount"":     ""1461501637330902918203684832716283019655932542975"",
+                ""expiration"": ""1779403258"",
+                ""nonce"":      ""0"",
+            },
+            ""spender"":     router.Hex(),
+            ""sigDeadline"": ""1776813058"",
+        },
+    }
+`","",""
+"843155325619535912","Etherscan Bot#5753","20/02/2023 1:07 pm","<https://etherscan.io/address/0x000000000022d473030f116ddee9f6b43ac78ba3>","",""
+"843155325619535912","Etherscan Bot#5753","20/02/2023 1:07 pm","<https://etherscan.io/address/0x1F98431c8aD98523631AE4a59f267346ea31F984>","",""
+"143827786698719233","safmath","20/02/2023 1:08 pm","but looks like i'm missing something","",""
+"747641632802865276","chaikans","20/02/2023 9:27 pm","How do i Batch approve on permit2","",""
+"354458973572956160","vengeanc3","20/02/2023 9:53 pm","how do you do a swap with universal router for a token that isnt approved yet?","",""
+"1062800470076301423","Andy_4_chains#3432","21/02/2023 3:40 am","how do I add another NFT/1155 marketplace to Universal Router?","",""
+"977361685981560853","doug0697","21/02/2023 4:02 am","It seems that the 2nd time I use the permit2 the nonce need to increment by one. Is there a way to get the previous nonce so that I can increment it by one?","",""
+"843155325619535912","Etherscan Bot#5753","21/02/2023 12:30 pm","<https://etherscan.io/address/0x000000000022D473030F116dDEE9F6B43aC78BA3>","",""
+"1033164159145234467","atilla4030","21/02/2023 4:16 pm","in the universal router code theres a function that gets the latest nonce in uniswap.test.ts","",""
+"1033164159145234467","atilla4030","21/02/2023 4:16 pm","in the tests","",""
+"1033164159145234467","atilla4030","21/02/2023 4:17 pm","you can model from that","",""
+"874389249686917121","0xhczd","21/02/2023 5:03 pm","i need uniswap v2 factory&router address. can you help me ?","",""
+"1033164159145234467","atilla4030","21/02/2023 5:14 pm","@0xHczd its in constants.ts","",""
+"977361685981560853","doug0697","21/02/2023 7:19 pm","Thank you, @Atilla . May I ask another question? I believe we can buy NFTs with ERC20 token on Seaport through Universal Router. But I only see examples using ETH to buy NFT. Could you please point me to the code example to buy NFTs with ERC20 token on Seaport through Universal Router?","",""
+"1033164159145234467","atilla4030","21/02/2023 8:17 pm","in tests also, should say erc20 -> NFT","",""
+"977361685981560853","doug0697","21/02/2023 8:31 pm","I looked at this code (https://github.com/Uniswap/universal-router-sdk/blob/main/test/nftTrades.test.ts). But did not see erc20->NFT. Could you please send the link that have erc20->NFT?","",""
+"977361685981560853","doug0697","21/02/2023 8:45 pm","The ERC20 -> Seaport NFT is done through ERC20 -> ETH -> Seaport NFT in https://github.com/Uniswap/universal-router/blob/main/test/integration-tests/UniversalRouter.test.ts#L240.
+Is there a way to do ERC20 -> Seaport NFT directly?
+If Seaport order consideration=ERC20, offer=NFT, then we need direct ERC20 -> Seaport NFT to fulfill the order, right?","",""
+"471357824299958273","crypto_rachel","22/02/2023 4:20 am","https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d
+https://etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f","",""
+"1033164159145234467","atilla4030","22/02/2023 4:57 am","does seaport offer erc20 to nft swaps? i doubt it","",""
+"1033164159145234467","atilla4030","22/02/2023 5:02 am","yeah so such functionality doesnt exist","",""
+"977361685981560853","doug0697","22/02/2023 5:37 am","Seaport supports offer NFT -> consideration ERC20, (e.g., Sell an NFT to USDC).
+Can Uniswap Universal Router fulfill Seaport order with consideration ERC20 -> offer NFT (e.g., Buy the NFT with USDC)?
+If so, could you please point me to some code example?","",""
+"949817649590841374","aking#3877","22/02/2023 8:40 pm","Whatt error do you have?","",""
+"949817649590841374","aking#3877","22/02/2023 8:40 pm","And why are you usning goland?","",""
+"143827786698719233","safmath","22/02/2023 9:37 pm","tx is reverted hehe, good ol ""fail"" revert message, i'm using golang because the most famous eth client is coded in go. Also go is fast and reliable for backend applications","",""
+"143827786698719233","safmath","22/02/2023 9:38 pm","i read again and again the permit2 & universal router contract, but i dont see what i'm missing","",""
+"575962128683499540","tomi_ohl","23/02/2023 6:03 am","> But I only see examples using ETH to buy NFT.
+Can you point me to such an example? (except uniswap's tests)","",""
+"204517376832569346","matinkaboli","23/02/2023 7:08 pm","Hi. Is there any examples of people using JavaScript to interact with Universal Router?","",""
+"989275482488983663","AnthonyNicholas#4331","23/02/2023 8:54 pm","There isn't an example, but I can share this feedback with the team","",""
+"1069425512562294855","millll#9451","28/02/2023 8:13 pm","how does the permit2 approve for all tokens work","",""
+"471357824299958273","crypto_rachel","01/03/2023 1:11 am","permit 2 you approve a amount (standard being max), That give the contract the ability to spend the tokens. within the Permit 2 contract it also needs a signature to actually move the tokens during a transaction, so any protocol /  router can implement the use of this Permit2 contract in their protocol. This allows for Only 1 gas approval per token for any protocol that uses permit2","",""
+"1062800470076301423","Andy_4_chains#3432","01/03/2023 1:34 am","@Crypto_Rachel The command option `0x1c` for `FOUNDATION` in the UR, is that the Uniswap Foundation or Foundation NFT?","",""
+"471357824299958273","crypto_rachel","01/03/2023 1:36 am","https://foundation.app/","","👍 (1)"
+"1033577228618956940","RawBoefye#1397","02/03/2023 10:14 am","please somebody help me with swapping and approval","",""
+"1030203336328220794",".daniele17","02/03/2023 8:24 pm","Hi, with the universal router it's possible swap with normal erc20 tokens that are not permit2? and if yes, wich commands i should use ?","",""
+"1055050314690088980","romansimachenko","03/03/2023 1:49 pm","Hey guys!
+have decoded inputs from execute command i have this type of path `7f5c764cbc14f9669b88837ca1490cca17c3160700006494b008aa00579c1307b0ef2c499ad98a8ce58e58` it's made from 3 parts
+the first part is address swap from - `7f5c764cbc14f9669b88837ca1490cca17c31607`
+the last part is address swap to - `94b008aa00579c1307b0ef2c499ad98a8ce58e58`
+in the middle part we have - `000064`, also i see that it can be `000bb8` what is this? if i convert `000064` from hex to decimal i see `100`. what can it be?","",""
+"143827786698719233","safmath","03/03/2023 2:39 pm","it's the pool fee :
+https://docs.uniswap.org/concepts/protocol/fees
+The path is constructed like this : address(tokenIn),byte(0x00),int(poolfee),address(tokenOut)","",""
+"1055050314690088980","romansimachenko","03/03/2023 2:42 pm","thank you a lot bro, i spent a day for this..... how can i find out a pool fee for my swap?","",""
+"143827786698719233","safmath","03/03/2023 2:46 pm","depending on what you do, but you'll need to check if a pool existe for a certain pair","",""
+"143827786698719233","safmath","03/03/2023 2:46 pm","you do UR swap or V3 swap ?","",""
+"1055050314690088980","romansimachenko","03/03/2023 2:53 pm","okay how can i check it?","",""
+"1055050314690088980","romansimachenko","03/03/2023 2:53 pm","i do my swap using `Uniswap: Universal Router`, V3, using command `execute` and i need to calculate this pool fee to make a right swap","",""
+"1030203336328220794",".daniele17","03/03/2023 10:02 pm","you can use the SDK integration to calculate the best quote for your trade. You can find that in a doc here https://docs.uniswap.org/sdk/v3/guides/trading","",""
+"949817649590841374","aking#3877","04/03/2023 6:22 pm","what you wanna do?","",""
+"1033164159145234467","atilla4030","07/03/2023 10:55 pm","I added one-time signature support to universal router, lmk if interested","",""
+"864525710194638918","joanem","08/03/2023 7:50 am","It seems your wallet is connected to a unsupported network. Uniswap is not on Klaytn. Make sure you switch to a supported network","",""
+"735092000604553337","cici8023","10/03/2023 8:15 pm","Excuse me, I would like to send a `PermitSingle` to call `Permit2.permit(address owner, PermitSingle memory permitSingle, bytes calldata signature)` . I have filled all fields of `permitSingle` , but how to make a signature of it? Could you please show me some example python code using `web3` or `brownie` package?","",""
+"747641632802865276","chaikans","10/03/2023 9:33 pm","Can someone explain how the batch approval work?  Do I approve a single token and use the signature to do a batch transfer","",""
+"747641632802865276","chaikans","10/03/2023 9:34 pm","?","",""
+"735092000604553337","cici8023","11/03/2023 7:37 pm","Yeah. I have reconstructed the correct signature for `PermitSingle` .","",""
+"221594574261452801","lockface77","12/03/2023 5:43 pm","Hello, does someone have a code example to buy an NFT from OpenSea using the Universal router?","",""
+"989275482488983663","AnthonyNicholas#4331","13/03/2023 8:18 pm","No but I'm putting together a sheet of questions and examples for our team","","👍 (2),😀 (1)"
+"989275482488983663","AnthonyNicholas#4331","13/03/2023 8:18 pm","I understand the current docs don't have these examples, so I'm gonna work with my team on putting these examples in the docs","",""
+"1033164159145234467","atilla4030","14/03/2023 3:57 pm","Hey guys, we're struggling to come up with nonce for SignatureTransfer. AFAIK we need to make the nonce number so that the first 248 bits contains the word position and last 8 bits the actual bit position.  Has anyone written code that does this? Thanks!","",""
+"1033164159145234467","atilla4030","14/03/2023 5:17 pm","went through the SignatureTransfer code, saw this
+```
+    function bitmapPositions(uint256 nonce) private pure returns (uint256 wordPos, uint256 bitPos) {
+        wordPos = uint248(nonce >> 8);
+        bitPos = uint8(nonce);
+    }
+
+    /// @notice Checks whether a nonce is taken and sets the bit at the bit position in the bitmap at the word position
+    /// @param from The address to use the nonce at
+    /// @param nonce The nonce to spend
+    function _useUnorderedNonce(address from, uint256 nonce) internal {
+        (uint256 wordPos, uint256 bitPos) = bitmapPositions(nonce);
+        uint256 bit = 1 << bitPos;
+        uint256 flipped = nonceBitmap[from][wordPos] ^= bit;
+
+        if (flipped & bit == 0) revert InvalidNonce();
+    }
+```
+does this mean that the nonce number was shifted 8 times to the right? was the nonce number in the first 8 bits of the big endian uint256? does casting to uint8 get the first 8 upper bits? I understand what _useUnorderedNonce does now though, thanks!","",""
+"1033164159145234467","atilla4030","14/03/2023 8:44 pm","So I did more research, turns out the upper 248 bits are index and lower 8 bits are for bit position. I created a new function to get an unused nonce:
+```
+  function getNonce(address from, uint256 nonce) public returns (uint256) {
+        if(nonceBitMap[address][nonce] > 0) { return 0; } //error cond
+        uint256 shifted = nonce << 8; //move 8 bits into wordPos area
+        uint one = shifted ^ 1; //flips the 1st bit in case its not
+        return one;
+
+    }
+
+```
+is this code correct?","",""
+"354458973572956160","vengeanc3","15/03/2023 6:53 am","call the function from permit contract","",""
+"354458973572956160","vengeanc3","15/03/2023 6:53 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1085372732839034900/vengeance2023-03-14_at_20.23.40.png","Uni (1)"
+"354458973572956160","vengeanc3","15/03/2023 6:53 am","","https://cdn.discordapp.com/attachments/1042613771316764752/1085372794478538762/vengeance2023-03-14_at_20.23.44.png","👍 (1)"
+"354458973572956160","vengeanc3","15/03/2023 6:54 am","@Atilla","",""
+"1033164159145234467","atilla4030","15/03/2023 2:20 pm","thats valid only for AllowanceTransfer, not SignatureTransfer. Either way we found the solution:
+
+get a random number using randomBytes or randomInt:
+
+Take that number, put it in uint256, shift it 8 times to the right, because the nonce's upper 248 bits are the word position, and lower 8 bits are the bit position,
+leave bitPos (the lower 8 bits) as 1 by XORing the uint256 with 1,
+pass it as nonce in permitwitnesstransferfrom.
+
+you can create a helper function to see if that nonce was already used or not","",""
+"1015497450276016178","fireball2427","15/03/2023 4:39 pm","Is there any IQuoter on Optimism network.
+I checked Optimism etherscan website.
+But I can't find any suceed transaction for quote.
+What's wrong Uniswap Quoter on Optimism?","",""
+"471357824299958273","crypto_rachel","15/03/2023 10:37 pm","https://optimistic.etherscan.io/address/0x61ffe014ba17989e743c5f6cb21bf9697530b21e#code","",""
+"551284380547416067","0xhaku","16/03/2023 10:11 am","What is the appropriate nonce to put in SignatureTransfer?
+I believe the EOA nonce can be obtained from web3.eth.getTransactionCount, is it correct to assign this?","",""
+"1033164159145234467","atilla4030","16/03/2023 8:22 pm","refer to","",""
+"1033164159145234467","atilla4030","16/03/2023 8:22 pm","this","",""
+"1033164159145234467","atilla4030","16/03/2023 8:23 pm","for testing 0 and 1 works, but for production you should do as I quoted","",""
+"551284380547416067","0xhaku","16/03/2023 9:00 pm","Thank you for the information.
+It may not be necessary to set the nonce regularly using this method.
+Do you know the correct method for generating the nonce when UniversalRouter calls SignatureTransfer?","",""
+"915428145979609138","x-inu#8659","16/03/2023 10:05 pm","hi there. 
+does anyone know where the source code for the universal router in actual production environment(mainnet)?
+because i found there have been many updates on the github since devs have actively been adding some modifications..
+(https://github.com/Uniswap/universal-router)
+
+i mean, how were we supposed to check current running source code?  
+i wanna see as-is in mainnet. not to-be.","",""
+"638926785916043268","steven.varga","17/03/2023 2:39 am","Can anyone tell  why the `address` of command  `V3_SWAP_EXACT_IN`  is `0x01 | 0x02`  as opposed to a 20byte address? see tx `0x6689d446e54a752e0dcc074214ecbfc0fd5bc33a886060a79e9099014e828ce1`   with commands `0x0a000c`  in both command `0x00` and `0x0c` I expected a 20 byte address but I see `0x1` or `0x2`","",""
+"638926785916043268","steven.varga","17/03/2023 2:52 am","And with your post you saved my day, many thanks!","","np (1)"
+"354458973572956160","vengeanc3","17/03/2023 4:45 am","you mean where it's used in the app? the interface repo you can look at the useUniversalRouter hook","",""
+"915428145979609138","x-inu#8659","17/03/2023 5:28 am","@Vengeance 
+i was just asking where i can refer to for actual source code of contracts currently running in the mainnet. 
+i wanna see the same code as the one in mainnet.
+
+in github, it's been updated/overwritten after deployment to the mainnet, right?","",""
+"471357824299958273","crypto_rachel","17/03/2023 7:17 am","you can see any verified code on etherscan https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code","",""
+"471357824299958273","crypto_rachel","17/03/2023 7:21 am","there are three commands there `0a` permit2 call  `00` v3 swap exactIn, and `0c` unwrap WETH
+address 1 and 2 are used as constants
+```
+    /// @dev Used as a flag for identifying that msg.sender should be used, saves gas by sending more 0 bytes
+    address internal constant MSG_SENDER = address(1);
+
+    /// @dev Used as a flag for identifying address(this) should be used, saves gas by sending more 0 bytes
+    address internal constant ADDRESS_THIS = address(2);
+```","","👍 (1)"
+"915428145979609138","x-inu#8659","17/03/2023 8:04 am","@Crypto_Rachel 
+thx","","YW (1)"
+"1033164159145234467","atilla4030","17/03/2023 9:42 am","That's actually how you have to do it, the nonces you use get used and also if you use an unshifted nonce you will get an error. It's not too difficult to shift numbers and do bitwise operations, i'll help if you want","",""
+"1033164159145234467","atilla4030","17/03/2023 12:03 pm","""Instead of using incrementing nonces, we introduce non-monotonic, or unordered nonces with a nonceBitmap.
+
+The nonceBitmap maps an owner's address to a uint248 value, which we will call wordPos which is the index of the desired bitmap. There are 248 possible indices and this 248 possible bitmaps where each bitmap holds 256 bits. A bit must be flipped on to prevent replays of users’ signatures. Bits that are dirtied may not be used again.""","",""
+"551284380547416067","0xhaku","17/03/2023 5:21 pm","I see
+this kind of implementation correct?
+https://github.com/shonentropy3/cdeer/blob/15faa9d33e6ded2cececf3ecf3e1c07b99b58943/front/utils/Permit2Nonce.js","",""
+"1033164159145234467","atilla4030","17/03/2023 5:32 pm","great find, I was actually looking for something like that, I did it myself instead 🤣","",""
+"1033164159145234467","atilla4030","17/03/2023 5:32 pm","yes!","","ty (1)"
+"1033164159145234467","atilla4030","18/03/2023 6:27 pm","permitWitnessTransferFrom doesn't work with ledger, any ideas?","",""
+"783264558873444352","aichairman.eth","19/03/2023 2:18 pm","hello, should I verify the contracts of uniswap on the arbitrum, optimism or ethereum?","",""
+"1082981208402690048","green#5557","20/03/2023 12:17 am","hey. permit2 is cool. could it be deployed in gnosis chain? i noticed it's not there: https://gnosisscan.io/address/0x000000000022D473030F116dDEE9F6B43aC78BA3#code","",""
+"1033164159145234467","atilla4030","20/03/2023 1:50 pm","you can deploy it","",""
+"1033164159145234467","atilla4030","20/03/2023 1:51 pm","they have a hardhat deployment script in the repo","",""
+"422085742454505473","hyooka","20/03/2023 6:52 pm","no dev replies here man
+sadge","",""
+"1055050314690088980","romansimachenko","21/03/2023 1:38 pm","hey guys! how can i approve my token for swap on Uniswap Universal Router? This code doesn't work for me, approval tx is successfull, but i can't swap still. Hovewer, when i approve token through Uniswap Interface, and then try to swap via Python it's succeeded..... What the problem can be?
+`0xb555edF5dcF85f42cEeF1f3630a52A108E55A654` - Uniswap Universal Router smart contract address, maybe i need to set here another address?","https://cdn.discordapp.com/attachments/1042613771316764752/1087649032752594964/image.png",""
+"843155325619535912","Etherscan Bot#5753","21/03/2023 1:38 pm","<https://etherscan.io/address/0xb555edF5dcF85f42cEeF1f3630a52A108E55A654>","",""
+"1055050314690088980","romansimachenko","21/03/2023 1:41 pm","`https://optimistic.etherscan.io/tx/0xe4258d632d14d1c260077be1babe46f922f11bf6b5fa01cffa47e6d906aa382d` - successfull approval tx
+`https://optimistic.etherscan.io/tx/0x991576e86cf36f7a1aebdac174e8d047157520e1ee39cbf6d690c6d13f73516d` - failed swap tx
+Help me please","",""
+"1033164159145234467","atilla4030","21/03/2023 2:21 pm","give approval to your tokens to the Permit2 contract then use the permit command","","👍 (1)"
+"1055050314690088980","romansimachenko","21/03/2023 2:27 pm","yeah, just done it, but have new issue, maybe you know what does it meen? Transaction `Fail with error 'TRANSFER_FROM_FAILED'`","",""
+"1055050314690088980","romansimachenko","21/03/2023 2:28 pm","something with pool path? or what?","",""
+"1033164159145234467","atilla4030","21/03/2023 2:31 pm","signature failed?","",""
+"1055050314690088980","romansimachenko","21/03/2023 2:31 pm","https://optimistic.etherscan.io/tx/0xfc55293bf4dc309da40e706452864508335c421cb2ece1ce99ffb882f85d3321","",""
+"1033164159145234467","atilla4030","21/03/2023 2:47 pm","your call has no commands","",""
+"1082981208402690048","green#5557","23/03/2023 12:18 am","yeah... it's just that it would be very convenient to have it in the `0x000000000022D473030F116dDEE9F6B43aC78BA3` address","",""
+"1082981208402690048","green#5557","23/03/2023 12:20 am","oh wait, it comes with a salt, maybe that means i can deploy on the same address?","",""
+"1082981208402690048","green#5557","23/03/2023 12:29 am","yeah... it doesn't matter, create2 uses the sender as an argument. so i wont be able to get the same address, too bad
+`new_address = hash(0xFF, sender, salt, bytecode)`","",""
+"1033164159145234467","atilla4030","23/03/2023 1:39 am","you can actually use the uniswap sende","",""
+"1033164159145234467","atilla4030","23/03/2023 1:40 am","r","",""
+"1033164159145234467","atilla4030","23/03/2023 1:40 am","just find the address","",""
+"915428145979609138","x-inu#8659","23/03/2023 1:03 pm","hi there does anyone know
+how to know parameters used during the deployment process of the universal router? couldn't find VERIFIED source code in Etherscan..
+
+here is what is said to be transaction for creating universal router:
+https://etherscan.io/txs?a=0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b&f=5","",""
+"638926785916043268","steven.varga","23/03/2023 11:39 pm","When signing `permitSingle`  for  `address owner, PermitSingle memory permitSingle, bytes calldata signature) external;`  Do you sign `solidity::encode(PermitSingle)`  ? context: universal_router:  `0x0a PERMIT2_PERMIT`","",""
+"1033164159145234467","atilla4030","24/03/2023 11:47 pm","for anyone who has problems with signing permit2 signatures using ledger and metamask, change the code this way:
+```
+        const signature = await signer._signTypedData(domain, types, values)
+        //replace 
+        let {r,s,v} = utils.splitSignature(signature);
+        console.log(""rsv:"",{r,s,v})
+        if(v == 0) v = 27
+        if(v == 1) v = 28
+        console.log(utils.joinSignature({r,s,v}))
+        const joined = utils.joinSignature({r,s,v});
+
+
+        return { signature: joined, permit, witness }
+```
+v of signature needs to be replaced with 27 or 28 (for 0 and 1 respectively) in order for metamask to accept it.","",""
+"638926785916043268","steven.varga","04/04/2023 8:44 pm","In permit2 I see `{signature_deadline,expiration}` and when used with universal router the latter also has optional `deadline`. What is the suggested settings? ie `permit2::signature_deadline == permit2::expiration == universal_router::deadline` ?","",""
+"902181311576428605","Cy#0004","05/04/2023 8:12 am","Does it matter that `execute(bytes,bytes[])` and `dispatch` do not validate `commands` and `inputs`?","",""
+"638926785916043268","steven.varga","06/04/2023 8:33 pm","How to get the  current `nonce` for `permit2::AllowanceTransfer(...)`?","",""
+"638926785916043268","steven.varga","06/04/2023 9:36 pm","@Vengeance got this covered here:   https://discord.com/channels/597638925346930701/1042613771316764752/1085372607228026970","","catJAM (1)"
+"843155325619535912","Etherscan Bot#5753","06/04/2023 9:36 pm","","",""
+"989275482488983663","AnthonyNicholas#4331","06/04/2023 9:59 pm","Pinned a message.","",""
+"471357824299958273","crypto_rachel","06/04/2023 10:30 pm","you can call the allowance function here
+https://etherscan.io/address/0x000000000022D473030F116dDEE9F6B43aC78BA3#readContract#F2
+allowance(token owner address, token address, spender address)","","👍 (1)"
+"471357824299958273","crypto_rachel","06/04/2023 10:38 pm","deadlines for the permit2 are crazy, but I forget which is which in the code rn. So you have a deadline for how long the signature is for (UI uses 1 month), the other is for a swap signature deadline, so that if the swap goes beyond x time that the signature can't be used in replay. There is also a possible deadline from the actual swap","","👍 (1)"
+"471357824299958273","crypto_rachel","06/04/2023 10:40 pm","Not really, however as usual it is reliant on the person/code calling it","",""
+"739885113260900513","trz9022","08/04/2023 12:21 am","Hi everyone! I'm trying to hash a batch of txs, following EIP712, for consumption on the `Permit2` contract, but I'm unable to. This one works for a single tx (aka `PermitTransferFrom`):
+```js
+keccak256(abi.encodePacked(
+  ""\x19\x01"",
+  permit2.DOMAIN_SEPARATOR(),
+  keccak256(abi.encode(
+     PERMIT_TRANSFER_FROM_TYPEHASH,
+     keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted.token,
+        permit.permitted.amount
+     )),
+     spender,
+     permit.nonce,
+     permit.deadline
+   ))
+));
+```
+...but I don't how how to get it to work for a `PermitBatchTransferFrom` struct. I tried:
+```js
+keccak256(abi.encodePacked(
+  ""\x19\x01"",
+  permit2.DOMAIN_SEPARATOR(),
+  keccak256(abi.encode(
+PERMIT_BATCH_TRANSFER_FROM_TYPEHASH,
+     keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted[0].token,
+        permit.permitted[0].amount
+     )),
+     keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted[1].token,
+        permit.permitted[1].amount
+     )),
+     spender,
+     permit.nonce,
+     permit.deadline
+   ))
+));
+```
+..but it didn't work. Any help would be extremely appreciated 🙂","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:35 am","so not 100% but I think the tokenPermissions need to be doubled in an array, one for each batch (again, not 100% just reading for first time)
+```
+bytes32 public constant _PERMIT_BATCH_TRANSFER_FROM_TYPEHASH = keccak256(
+        ""PermitBatchTransferFrom(TokenPermissions[] permitted,address spender,uint256 nonce,uint256 deadline)TokenPermissions(address token,uint256 amount)""
+    );
+```","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:36 am","Might be best to loop through your perit.permitted","",""
+"739885113260900513","trz9022","08/04/2023 12:42 am","But isn't looping the same I just did there, on the 2nd snippet? With the `permit.permitted[index]`? Or do you suggest to loop somewhere else?","",""
+"739885113260900513","trz9022","08/04/2023 12:42 am","And yep, this is what I have for `_PERMIT_BATCH_TRANSFER_FROM_TYPEHASH`","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:43 am","like with your first one, do that only add a for loop, that goes through and encodes each like your first","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:43 am","only with the PERMIT_BATCH_TRANSFER_FROM_TYPEHASH","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:44 am","@TrZ, and like I said, I haven't used the permit2 yet, so I am just kinda doing an educated guess 😊","",""
+"739885113260900513","trz9022","08/04/2023 12:45 am","And I appreciate so much that you're taking the time to help me triage this thing. It's so hard to debug since you don't know where the problem is. It's just ""invalid signature""","","😢 (1)"
+"471357824299958273","crypto_rachel","08/04/2023 12:46 am","well what i'm seeing is it needs an array of some setup, 🤷‍♀️  I'll keep looking too. Are you using the SDK?","",""
+"739885113260900513","trz9022","08/04/2023 12:46 am","Nope. This is all in solidity","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:47 am","Ahh, yeah little different. 🤔","",""
+"739885113260900513","trz9022","08/04/2023 12:50 am","I think that with this approach, I'd still get the second snippet. Because instead of getting this:
+```js
+keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted[0].token,
+        permit.permitted[0].amount
+     )),
+     keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted[1].token,
+        permit.permitted[1].amount
+     )),
+```
+...,I'd get something like :
+```js
+for(uint i=0;i<length;i++) {
+keccak256(abi.encode(
+        TOKEN_PERMISSIONS_TYPEHASH,
+        permit.permitted[i].token,
+        permit.permitted[i].amount
+     ))
+}
+```
+...which would all get `abi.encode`ed","",""
+"471357824299958273","crypto_rachel","08/04/2023 12:50 am","yeah that was my next thought","","🤔 (1)"
+"471357824299958273","crypto_rachel","08/04/2023 12:51 am","cause I do think perhaps the array only needs that","",""
+"739885113260900513","trz9022","08/04/2023 12:51 am","Yeah","",""
+"739885113260900513","trz9022","08/04/2023 12:51 am","I'm following this repo in case it helps you: https://github.com/dragonfly-xyz/useful-solidity-patterns/blob/main/patterns/permit2/Permit2Vault.sol","",""
+"739885113260900513","trz9022","08/04/2023 12:52 am","And these docs: https://docs.uniswap.org/contracts/permit2/reference/signature-transfer#batched-permittransferfrom","","👍 (1)"
+"739885113260900513","trz9022","08/04/2023 1:08 am","I tried also:
+```js
+bytes32[] memory tokenPermissionHashes = new bytes32[](permit.permitted.length);
+for (uint256 i = 0; i < permit.permitted.length; ++i) {
+            tokenPermissionHashes[i] = _hashTokenPermissions(permit.permitted[i]);
+        }
+
+        return keccak256(
+            abi.encode(
+                _PERMIT_BATCH_TRANSFER_FROM_TYPEHASH,
+      keccak256(abi.encodePacked(tokenPermissionHashes)),
+                spender,
+                permit.nonce,
+                permit.deadline
+            )
+        );
+```
+```js
+function _hashTokenPermissions(IPermit2.TokenPermissions memory permit)
+        private
+        pure
+        returns (bytes32)
+    {
+        return keccak256(abi.encode(
+            TOKEN_PERMISSIONS_TYPEHASH,
+            permit.token,
+            permit.amount
+        ));
+    }
+```","","😢 (1)"
+"471357824299958273","crypto_rachel","08/04/2023 1:12 am","So how are you calling the function after sig?","",""
+"739885113260900513","trz9022","08/04/2023 1:18 am","```js
+function _signPermit(
+        IPermit2.PermitBatchTransferFrom memory permit,
+        address spender,
+        uint256 signerKey
+    ) internal view returns (bytes memory sig)
+    {
+        (uint8 v, bytes32 r, bytes32 s) =
+            vm.sign(signerKey, _getEIP712Hash(permit, spender));
+        return abi.encodePacked(r, s, v);
+    }
+```","",""
+"739885113260900513","trz9022","08/04/2023 1:19 am","Aaah! after sig
+```js
+bytes memory sig = _signPermit(permit, address(energyFacet), bobKey);
+```","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:19 am","so I meant how are you calling the Permit2","",""
+"739885113260900513","trz9022","08/04/2023 1:20 am","```js
+PERMIT2.permitTransferFrom(permit, details, msg.sender, buyOp_.signature);
+```
+And the `permit` struct there is kinda long code that I don't want to put it here to spam the channel, but it's quite simple so I think I got that part right. Have triple-checked it already","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:21 am","is details an array also?","",""
+"739885113260900513","trz9022","08/04/2023 1:21 am","Like with:
+```js
+details = new IPermit2.SignatureTransferDetails[](2);
+        details[0] = feeDetails;
+        details[1] = quoteDetails;
+        }
+```
+and `IPermit2.TokenPermissions[] `","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:21 am","yeah 🤔","",""
+"739885113260900513","trz9022","08/04/2023 1:21 am","Yep","","🤔 (1)"
+"471357824299958273","crypto_rachel","08/04/2023 1:23 am","Well I will dig more, maybe we will get some help with the Solidity BatchTransfer","",""
+"739885113260900513","trz9022","08/04/2023 1:25 am","That'd be awesome! I also left an open issue in the repo you guys (Uniswap) quoted in the permit2 docs asking if they could add a working example for a batch transfer. 
+
+They did one for a single transfer which worked like a charm","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:38 am","is the single example in github or the docs you posted earlier","",""
+"739885113260900513","trz9022","08/04/2023 1:41 am","Yep. Here: https://github.com/dragonfly-xyz/useful-solidity-patterns/blob/main/patterns/permit2/Permit2Vault.sol
+
+And this is the file with the foundry test where they do the EIP712 hashing of the single `PermitTransferFrom` struct: https://github.com/dragonfly-xyz/useful-solidity-patterns/blob/main/test/Permit2Vault.t.sol","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:42 am","ahh yeah ok, thought you meant uniswap had one 😊","",""
+"739885113260900513","trz9022","08/04/2023 1:43 am","It's the repo used as a reference by Uniswap tho 🙂","https://cdn.discordapp.com/attachments/1042613771316764752/1093992031635918978/image.png",""
+"739885113260900513","trz9022","08/04/2023 1:44 am","https://docs.uniswap.org/contracts/permit2/overview","",""
+"471357824299958273","crypto_rachel","08/04/2023 1:44 am","cool good to know thanks 🙏","","🤜 (2)"
+"471357824299958273","crypto_rachel","08/04/2023 2:05 am","@TrZ so here are the params from the docs
+```
+struct PermitBatch {
+        // the permit data for multiple token allowances
+        PermitDetails[] details;
+        // address permissioned on the allowed tokens
+        address spender;
+        // deadline on the permit signature
+        uint256 sigDeadline;
+    }
+
+struct PermitDetails {
+        // ERC20 token address
+        address token;
+        // the maximum amount allowed to spend
+        uint160 amount;
+        // timestamp at which a spender's token allowances become invalid
+        uint48 expiration;
+        // an incrementing value indexed per owner,token,and spender for each signature
+        uint48 nonce;
+    }
+```
+Ok so I'm going to throw this at you and run out for a bit.
+so I think the permit batch struct wants the permitDetails sturct for the array. Still an educated guess perhaps give that a try","",""
+"739885113260900513","trz9022","08/04/2023 2:15 am","From which docs did you get this? 🤔 
+
+I'm seeing in the docs I sent before that the batch struct is:
+```js
+struct PermitBatchTransferFrom {
+        // the tokens and corresponding amounts permitted for a transfer
+        TokenPermissions[] permitted;
+        // a unique value for every token owner's signature to prevent signature replays
+        uint256 nonce;
+        // deadline on the permit signature
+        uint256 deadline;
+    }
+```
+...and the details struct:
+```js
+struct SignatureTransferDetails {
+        // Recipient of tokens.
+        address to;
+        // Amount to transfer.
+        uint256 requestedAmount;
+    }
+```","",""
+"739885113260900513","trz9022","08/04/2023 2:15 am","https://docs.uniswap.org/contracts/permit2/reference/signature-transfer#batched-permittransferfrom","",""
+"739885113260900513","trz9022","08/04/2023 2:17 am","And they differ in kind of a significant way.
+
+In the snippet you sent, there would be two nonces and two deadlines (since each Details struct would have each own), while in the docs of the link, there would be only one since the Details struct there doesn't come with a nonce or a deadline","",""
+"471357824299958273","crypto_rachel","08/04/2023 2:22 am","those were from the contract, just trying to piece it together","","👍 (1)"
+"739885113260900513","trz9022","08/04/2023 3:56 am","The test from the Permit2 repo: https://github.com/Uniswap/permit2/blob/main/test/utils/PermitSignature.sol","",""
+"739885113260900513","trz9022","08/04/2023 6:20 pm","This was the answer, Rachel, in case you're curious (my msg from above ^). Already tested it out
+
+Jump to line 176 on that repo and you'll see it. Thanks a lot again for all your effort 🙂","",""
+"915428145979609138","x-inu#8659","08/04/2023 9:07 pm","hi there does anyone know
+how to know parameters used during the deployment process of the universal router? couldn't find VERIFIED source code in Etherscan..
+
+here is what is said to be transaction for creating universal router:
+https://etherscan.io/txs?a=0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b&f=5","",""
+"471357824299958273","crypto_rachel","08/04/2023 11:09 pm","Yeah I saw the post while I was out. I figured it would give you the answers needed","","🤜 (1)"
+"336516852995850241","melonges","09/04/2023 3:32 am","Hi! I'm using with the Uniuniversal Router smart contract from my frontend, using PERMIT2_PERMIT and V2_SWAP_EXACT_OUT. The V2_SWAP_EXACT_OUT command has a recipient argument, but I would like to split the result of the swap into two recipients. Is it possible to do this?","",""
+"354458973572956160","vengeanc3","10/04/2023 12:47 am","like a commission?","",""
+"336516852995850241","melonges","10/04/2023 1:47 am","ye, like this","",""
+"920077391144038432","Yikui#6498","11/04/2023 2:08 pm","help .   Many thanks https://docs.uniswap.org/contracts/permit2/reference/allowance-transfer    for the third parameter of the permit function,  it says ""signature - the signature over the permit data. Supports EOA signatures, compact signatures defined by EIP-2098, and contract signatures defined by EIP-1271""   I am so confused how to get this signature with JS ? Can i find some example codes somewhere?","",""
+"638926785916043268","steven.varga","11/04/2023 6:57 pm","For others who want to sign from C, C++, ... : follow EIP-712 then sign the the message with ECDSA on secp256k1 curve such that: `parity += 27`","",""
+"920077391144038432","Yikui#6498","11/04/2023 7:40 pm","Vengeance's code works well. thanks","","😎 (1)"
+"877987000593039411","dirtymic","12/04/2023 10:27 pm","I'm running these tests on a forked Hardhat Node
+I'm working on buying multiple NFTs using the Universal Router SDK integrated to a frontend I made from either Seaport or Looksrare (the situation right now includes 1 USDC --> ETH exactOutput Uniswap Trade and 1 Seaport Trade that includes 2 ERC721 NFTs). 
+I'm running into multiple problems that include:
+
+1.) 
+When I produce the calldata and value parameters from SwapRouter.swapCallParameters the    commands in the calldata are `0x010c0e04` which doesn't include any seaport commands.
+The input to swapCallParameters can be seen below:
+
+/* Starts with approving Permit2 contract for USDC amount and setting the allowance through Permit2 */
+```
+let ERC20 = new Contract(poolToken.address, IERC20.abi, provider);
+      const permitApp = await ERC20.connect(signer).approve(
+        PERMIT2_ADDRESS,
+        BigNumber.from(2).pow(160).sub(1)
+      );
+      console.log(""permitApproval"", permitApp);
+      const permit2 = new Contract(PERMIT2_ADDRESS, permitABI.abi, provider);
+      const tokenApproval = await permit2
+        .connect(signer)
+        .approve(
+          poolToken.address,
+          UNIVERSAL_ROUTER_ADDRESS(1),
+          BigNumber.from(2).pow(160).sub(1),
+          Math.floor(Date.now() / 1000 + 18000000)
+        )```
+/* Next is the construction of the Uniswap Trade (exactOutput USDC --> ETH V3) added to the trades list */
+```
+const routerTrade = buildTrade([
+        await V3Trade.fromRoute(
+          new RouteV3([tradePool], poolToken, ETHER),
+          CurrencyAmount.fromRawAmount(ETHER, total),
+          TradeType.EXACT_OUTPUT
+        ),
+      ]);
+      console.log(routerTrade);
+      const uniswapTrade = new UniswapTrade(routerTrade, {
+        slippageTolerance: new Percent(5, 100),
+        recipient: ROUTER_AS_RECIPIENT,
+      });
+      console.log(""uniswapTrade"", uniswapTrade);
+      trades.push(uniswapTrade);```","",""
+"877987000593039411","dirtymic","12/04/2023 11:25 pm","Started a thread.","",""
+"915428145979609138","x-inu#8659","14/04/2023 6:53 am","hi there does anyone know
+how to know parameters used during the deployment process of the universal router? couldn't find VERIFIED source code in Etherscan..
+
+here is what is said to be transaction for creating universal router:
+https://etherscan.io/txs?a=0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b&f=5","",""
+"471357824299958273","crypto_rachel","14/04/2023 11:39 pm","they are all at the bottom of the contract read page
+https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code","",""
+"915428145979609138","x-inu#8659","15/04/2023 4:16 pm","@Crypto_Rachel  thx a lot!!","","YW (2)"
+"1084879059101696012","chernandez#1398","18/04/2023 2:46 pm","hi! i've swapped 3678usdt(3681$) to grt tokens, but just has swapped 3344$. Where is the rest?? https://arbiscan.io/tx/0xaa01e12a3d28b3cd338a08435e6ed8a14dc6c55323454f43c0602d9929492348 Contract name is Uniswap: universal router","",""
+"1024969451671650355","uglybear#3956","29/04/2023 8:16 pm","@x-inu 😎","",""
+"1024969451671650355","uglybear#3956","29/04/2023 8:16 pm","😎","",""
+"336516852995850241","melonges","30/04/2023 3:49 am","Hello! I have a some problem and question.
+I cant make wrap (0x0b). But args it seems to be correct.
+and i see that wrap can be less or equal universal router balance, but balance is  usually low. 
+advance thanks
+@Crypto_Rachel )))","https://cdn.discordapp.com/attachments/1042613771316764752/1101996100946247720/Screenshot_2023-04-30_at_01.14.12.png",""
+"336516852995850241","melonges","30/04/2023 3:53 am","and if you know, how to calculate value for such transaction?","",""
+"471357824299958273","crypto_rachel","30/04/2023 4:06 am","was just about to leave, so gotta leave it at this.
+Make sure an ETH value is included in the tx
+also for that balance you might just want to use contract balance constant `uint256 internal constant CONTRACT_BALANCE = 0x8000000000000000000000000000000000000000000000000000000000000000;`","","👆 (1)"
+"336516852995850241","melonges","30/04/2023 4:23 am","it is possible  to understand what is problem?
+i know its crazy)","https://cdn.discordapp.com/attachments/1042613771316764752/1102004660308562000/image.png",""
+"471357824299958273","crypto_rachel","30/04/2023 11:40 am","not with the images provided. share failed tx or more info","",""
+"336516852995850241","melonges","30/04/2023 4:16 pm","okey.
+I have similar working tx. but but here the steps are: swap -> unwrap -> transfer -> transfer -> and  our internal opcode  for the specific solution.
+that works","https://cdn.discordapp.com/attachments/1042613771316764752/1102184219221954580/Screenshot_2023-04-30_at_13.40.38.png",""
+"336516852995850241","melonges","30/04/2023 4:18 pm","but this tx: wrap -> swap -> transfer -> transfer -> internal opcode does not work.
+txValue more than necessary, args of swap opcode also correct.
+I dont understand how to solve it","https://cdn.discordapp.com/attachments/1042613771316764752/1102184754385793034/Screenshot_2023-04-30_at_13.39.00.png",""
+"336516852995850241","melonges","30/04/2023 4:21 pm","","https://cdn.discordapp.com/attachments/1042613771316764752/1102185452812894248/image.png",""
+"336516852995850241","melonges","30/04/2023 6:15 pm","@Crypto_Rachel the upper one works, but the lower one doesn't","https://cdn.discordapp.com/attachments/1042613771316764752/1102214082955853874/result.txt",""
+"860269080417796096",".gemshunter","30/04/2023 10:55 pm","hello, can anyone help me how to buy a uniswap v3 router? Thanks","","✅ (1)"
+"799564051092078597","james1847","02/05/2023 1:30 pm","@Crypto_Rachel hi r u there?","",""
+"799564051092078597","james1847","02/05/2023 1:31 pm","when I want to get the uniswap v3 outputAmount of some transaction using the code: `const quotedAmountOut = await quoterContract.callStatic.quoteExactInputSingle(
+            fromToken.address,
+            toToken.address,
+            immutables.fee,
+            amountIn.toString(),
+            0
+        );`.  I always get the error: `Uncaught Error: call revert exception; VM Exception while processing transaction: reverted with reason string ""AS"" [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=""quoteExactInputSingle(address,address,uint24,uint256,uint160)"", data=""0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000024153000000000000000000000000000000000000000000000000000000000000"", errorArgs=[""AS""], errorName=""Error"", errorSignature=""Error(string)"", reason=""AS"", code=CALL_EXCEPTION, version=abi/5.7.0)`","",""
+"471357824299958273","crypto_rachel","02/05/2023 10:48 pm","please delete and post in #💻│dev-chat , this room for permit2 and UR","",""
+"603483655184187412","tampele","05/05/2023 6:55 am","How can I go about getting quotes with the universal router? For example, with SwapRouter, I was able to use the QuoterV2 contract to get detailed quote information before making the actual swap. Is there anything similar for UniversalRouter?","",""
+"471357824299958273","crypto_rachel","05/05/2023 10:52 pm","the quoter v2 is for v3 pools. the UR didn't change how they operate, only added a new router to call stuff. Not even needed if you don't want to do NFT stuff or permit2, you can still use old contracts","",""
+"603483655184187412","tampele","05/05/2023 10:59 pm","Thanks! I was looking primarily at UR mostly because of the ability to chain commands... one case I'm interested in is adding an UNWRAP_ETH command to avoid having to separately make a new transaction to the WETH contract","",""
+"471357824299958273","crypto_rachel","05/05/2023 11:00 pm","you can still use the quoter for the UR too","",""
+"603483655184187412","tampele","05/05/2023 11:03 pm","and the gasEstimate returned by the quoter will still be accurate if the swap is done with the UR?","",""
+"471357824299958273","crypto_rachel","05/05/2023 11:11 pm","the gas is ONLY for the swap itself this never included the code for routers (outside it's own), depends on all that you are doing in the UR more actions == more gas","","🙏 (1)"
+"603483655184187412","tampele","05/05/2023 11:13 pm","Got it, that makes sense. Thanks a lot!","","YW (1)"
+"336516852995850241","melonges","06/05/2023 2:14 am","what difference between `V3_SWAP_EXACT_IN` and `V3_SWAP_EXACT_OUT`?","",""
+"471357824299958273","crypto_rachel","06/05/2023 2:18 am","exact in you are sending an exact amount and asking for an output
+exact out you are asking for exact tokens out, and it takes what it needs up to the max slippage allowed","","✅ (1)"
+"336516852995850241","melonges","06/05/2023 3:02 am","if you know, its will be work for native -> token swap? tokenA is wrap native token","https://cdn.discordapp.com/attachments/1042613771316764752/1104158693924290611/image.png",""
+"471357824299958273","crypto_rachel","06/05/2023 3:04 am","better future discussion in #☕│sdk-integrations 
+but you have to use the native token setup check here https://discord.com/channels/597638925346930701/1087869256521236510/1087870932082770053","",""
+"336516852995850241","melonges","06/05/2023 3:06 am","thank you so much","","YW (1)"
+"1040190999412084828","kanth_defi","08/05/2023 1:22 pm","how can i know the defi clients integrated with universal-order-router and permit2?","",""
+"471357824299958273","crypto_rachel","09/05/2023 12:08 am","Anyone can integrate, no real way to know","",""
+"1040190999412084828","kanth_defi","10/05/2023 10:20 pm","a question on chains on which permit2 is available
+is it only Mainnet, Optimism, Arbitrum, BSC & Polygon
+
+any plans to do it for other evm chains like aurora, fantom ?
+and also about the non-evm chains, zk chains","",""
+"471357824299958273","crypto_rachel","11/05/2023 12:50 am","Uniswap labs will launch on chains where they are on in the UI (think celo has it too iirc)","",""
+"1040190999412084828","kanth_defi","11/05/2023 12:58 pm","thanks @Crypto_Rachel 
+where can i see the road map for launch on other chains like aurora, fantom,  xdai, polygonZKEvm ...","",""
+"471357824299958273","crypto_rachel","11/05/2023 12:59 pm","no road map. Any further chains need to be voted on in governance","","👍 (1)"
+"914812382180700221","davvyy#0181","11/05/2023 7:41 pm","Hey All,
+
+Can anyone tell me a link or guide to integrate new chain ID to interface?","",""
+"914812382180700221","davvyy#0181","11/05/2023 7:42 pm","@Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","11/05/2023 11:49 pm","https://discord.com/channels/597638925346930701/607978109089611786/1091751967677763624","",""
+"961950764564090902","jackgh.","17/05/2023 7:18 pm","@Crypto_Rachel https://github.com/Uniswap/universal-router/blob/main/deploy-addresses/polygon.json is the only change between these two addresses the reetrnacy lock?","",""
+"471357824299958273","crypto_rachel","18/05/2023 12:02 am","No there is more.","",""
+"961950764564090902","jackgh.","18/05/2023 1:53 pm","do you have any idea or know of a project that looks at which router sees the most volume?","",""
+"471357824299958273","crypto_rachel","18/05/2023 11:27 pm","I do not, But high chance it's the UR now since it's what UI uses","",""
+"523058945883897856","0xams","21/05/2023 2:40 am","Posting here maybe I’ll be lucky (posted already without success in the other channel) can anyone here help please: i'm trying to fetch all uniswap buy swap transaction for any given block (). I struggle a lot when it's uniswap universal router. Anyone have a suggestion to fetch all transactions from a block and filter all transactions related to a buy swap (eth against token) ? When it’s Uniswap V2 router I can fetch the buy tx using the functions but the universal router has functions I cannot decode..im losing my mind on this","",""
+"401842633464610837","_kfx","21/05/2023 11:31 am","can you fetch all swap events instead? and then use the tx hash from the event to find the transactions?","",""
+"523058945883897856","0xams","21/05/2023 2:23 pm","Yes I did that it’s working but not for pending transactions they don’t have events yet I believe","",""
+"401842633464610837","_kfx","21/05/2023 11:07 pm","are you just interested in collecting just the potential swap transactions, or also their results? if you're interested in results then you must also execute the transaction somehow, for example on a locally forked chain. then you can get the events.
+if you're just collecting all swap transactions for some reason, then its fair to assume that most transactions involving the universal router are swap transactions. maybe that's enough? on the other hand, to be really sure if any given tx does a swap, you *must* execute it.","",""
+"915938658748628992","alexalex1135","27/05/2023 12:57 pm","Can I use router v2 to swap a token in a v3 pool?","",""
+"901766481119944764","wshannn.eth","28/05/2023 3:13 pm","The code corresponding to the first parameter commands of UniversalRouter.execute: 0x0a080c, where to see what method, I can't find it in Commands.sol, is there any other document?","",""
+"471357824299958273","crypto_rachel","29/05/2023 12:57 am","https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code#F11#L28","",""
+"901766481119944764","wshannn.eth","29/05/2023 11:33 am","I tried calling the UniversalRouter.execute method but it kept failing with ""invalid arrayify value""","https://cdn.discordapp.com/attachments/1042613771316764752/1112622329915265025/image.png",""
+"403426778401734657","xghoul0x","29/05/2023 8:03 pm","Hey are their router contracts deployed for univ2 on arbitrum and optimism?","",""
+"403426778401734657","xghoul0x","29/05/2023 8:04 pm","Wait I found it","",""
+"638926785916043268","steven.varga","30/05/2023 1:11 am","Is there a way to use Permit2 with NonfungiblePositionManager? (how to add liquidity in a similar fashion as making a swap with universal router and permit2, using a single transaction)","",""
+"471357824299958273","crypto_rachel","30/05/2023 2:09 am","No official uniswap on anything outside of ETH","","👍 (1)"
+"471357824299958273","crypto_rachel","30/05/2023 2:11 am","permit2 is only setup for the Universal Router, so nafaik","","👍 (1)"
+"1098287941752717322","dexterweb3.","30/05/2023 10:38 am","Hi guys!
+Looks like I'm going around in circles with my problem, so I would really appreciate an additional view.
+I implementing swap functionality using Universal Router on my side, and found that: when I try swap ETH to ERC20 - it works fine, I get a success transaction.
+**My ETH -> ERC20 code looks like this:**
+
+    ....
+    let planner = new RoutePlanner();
+    planner.addCommand(CommandType.WRAP_ETH, [pairAddress, value])
+    planner.addCommand(CommandType.V2_SWAP_EXACT_IN, [
+      address,
+      0,
+      minAmountOut,
+      [WETH_ADDRESS, erc20address],
+      true,
+    ])
+
+    const { commands, inputs } = planner;
+    
+    const txn = await universalUniSwapContract.write({args: [commands, inputs], value: value})
+    
+    return txn;
+
+**It work absolutely correct **
+
+
+**But when I try prepare ERC20 -> ETH transaction:**
+    ....
+    let planner = new RoutePlanner();
+    
+    planner.addCommand(CommandType.V2_SWAP_EXACT_IN, [
+      address,
+      value,
+      1,
+      [erc20address, WETH_ADDRESS],
+      true,
+    ])
+    planner.addCommand(CommandType.UNWRAP_WETH, [address, value])
+    
+    const { commands, inputs } = planner;
+    const txn = await universalUniSwapContract.write({args: [commands, inputs]})
+    return txn;
+
+ I see  errors:
+*AbiErrorSignatureNotFoundError: Encoded error signature ""0xd81b2f2e"" not found on ABI.
+Make sure you are using the correct ABI and that the error exists on it.*
+
+Perhaps I missed something? I can not understand what the problem... Thank you so much for all your advice and ideas.","",""
+"471357824299958273","crypto_rachel","30/05/2023 10:48 am","are you using your address in the return of weth?
+the contract won't have the weth to unwrap, you will want to use the ETH address from contract or the UR address for the return...
+not sure why you are getting the abi error, that should be correct","",""
+"1098287941752717322","dexterweb3.","30/05/2023 10:54 am","Yeah, at my code example for V2_SWAP_EXACT_IN and UNWRAP_WETH I using my address (transaction caller address). 
+Is it not correct, right? For V2_SWAP_EXACT_IN I should use Universal Router contract address?","",""
+"471357824299958273","crypto_rachel","30/05/2023 10:55 am","on the WETH out if you want weth to be unwrapped by the router, the router needs the WETH to unwrap","","👍 (1)"
+"1098287941752717322","dexterweb3.","30/05/2023 11:02 am","Thanks for catch! 
+Trying to understand a reason of ABI exception
+The interesting moment - when I tried V2_SWAP_EXACT_OUT it didn't provide ABI exception, there was something another 😄","",""
+"471357824299958273","crypto_rachel","30/05/2023 11:10 am","yeah, tbh I haven't used it, but if I think of something. perhaps try logging the `commandType.Unwrap_WETH`","",""
+"1098287941752717322","dexterweb3.","30/05/2023 11:19 am","I got this logging for commandType.Unwrap_WETH
+
+**commands**
+'0x08'
+**inputs[0]**
+'0x000000000000000000000000ef1c6e67703c7bd7107eed8303fbe6ec2554bf6b00000000000000000000000000000000000000000000003635c9adc5dea00000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000006bc40d4099f9057b23af309c08d935b890d7adc0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'","",""
+"471357824299958273","crypto_rachel","30/05/2023 11:20 am","weird that's logging the v2 swap command","",""
+"471357824299958273","crypto_rachel","30/05/2023 11:21 am","0x0c is the unwrap command","",""
+"1098287941752717322","dexterweb3.","30/05/2023 11:37 am","I checked it again","https://cdn.discordapp.com/attachments/1042613771316764752/1112985661016907808/image.png,https://cdn.discordapp.com/attachments/1042613771316764752/1112985661264384050/image.png","🤔 (1)"
+"471357824299958273","crypto_rachel","30/05/2023 11:43 am","where do you setup the execute part","",""
+"1098287941752717322","dexterweb3.","30/05/2023 11:51 am","I just took RoutePlanner code from repo of **universal-router-main**, that allow me to build correct command and input values 
+On a top lvl I just call write transaction with data that I got.
+
+All examples I checked from test (Uniswap.test.ts). It helped to understand execution behaviour for my case  
+
+Not sure that it's a best approach 😄","",""
+"471357824299958273","crypto_rachel","30/05/2023 11:54 am","always millions of ways to do the same thing","","👍 (1)"
+"1098287941752717322","dexterweb3.","30/05/2023 11:56 am","After second unwarp command my logs looks:
+
+**commands**
+0x080c
+
+**inputs[0]**
+'0x000000000000000000000000ef1c6e67703c7bd7107eed8303fbe6ec2554bf6b00000000000000000000000000000000000000000000003635c9adc5dea00000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000006bc40d4099f9057b23af309c08d935b890d7adc0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+
+**inputs[1]**
+'0x000000000000000000000000a11deef1ee52a17f63b37cb247090182acdde38100000000000000000000000000000000000000000000003635c9adc5dea00000'","",""
+"1098287941752717322","dexterweb3.","30/05/2023 11:56 am","I probably provided you wrong log on a first step","",""
+"471357824299958273","crypto_rachel","30/05/2023 12:03 pm","hmm yeah, ok. Well it's not setting up the encode function there with the signature of the execute function. I would backtrace to find out where the code encodes the whole function call it should have a 4byte signature 0xXXXXXXXX","",""
+"1098287941752717322","dexterweb3.","30/05/2023 12:19 pm","Really strange, will try play with it ... 
+
+Also want to ask about that case
+
+I changed to EXACT_OUT and now don't have any issue with ABI but I got that error:
+
+*ContractFunctionExecutionError: The contract function ""execute"" reverted.
+Error: V2TooMuchRequested()*
+
+
+Do you know what is mean V2TooMuchRequested ? 
+The value I requested not so big and not over availability on my address","https://cdn.discordapp.com/attachments/1042613771316764752/1112996294697418782/image.png",""
+"328569043974094849","raul1ro","31/05/2023 8:36 pm","Someone knows how to build this swap: https://docs.uniswap.org/contracts/universal-router/technical-reference#v3_swap_exact_in
+I am trying something like in image, but my transaction is getting reverted. This is what I am trying","https://cdn.discordapp.com/attachments/1042613771316764752/1113483606216683561/image.png",""
+"247365925177655296","Wario#2087","04/06/2023 4:37 am","hey man where is it ? lol","",""
+"403426778401734657","xghoul0x","04/06/2023 4:40 am","I found the router contracts. They don’t have them for v2 on arb or optimism though.","",""
+"825716736484704277","nickedrz","06/06/2023 1:56 am","Hey all!
+
+Does anyone know if there's a way to get quotes for a specific version of Uniswap (namely v2 and v3 separately). I've gone through Quoter and QuoterV2 but they both aggregate and bring the same base information for all 4 functions. I want to try to compare the same pool (say USDC-ETH at specific fee tier) for both v2 and v3 separately. Have looked at previous comments but it's still unclear to me.
+
+Maybe @Crypto_Rachel?","",""
+"471357824299958273","crypto_rachel","06/06/2023 2:17 am","I have examples of getting quotes for both versions in #💡︱developer-faq","",""
+"825716736484704277","nickedrz","06/06/2023 2:36 am","Oh, sorry about that, I'll check them out. Thank you!","","YW (1)"
+"1024969451671650355","uglybear#3956","07/06/2023 6:41 am","😎 chill","",""
+"977867201660981338","LUPI#7586","08/06/2023 7:33 am","Help everyone does anyone here knows how to fix this? I created a pair on uniswap on polygon network, however when i click the link i created it directing me into the bsc network and not on polygon here is my link..
+
+Please tell me where did i go wrong?
+
+https://app.uniswap.org/#/swap?inputCurrency=0x73cb87FdAfF7E653A2b2Ca8Ab5b53a1b4F031127&outputCurrency=0xc2132D05D31c914a87C6611C10748AEb04B58e8F&chainId=137","",""
+"913107753491386429","sunbreather_","09/06/2023 1:08 am","Hey everyone, I'm trying to understand the universal router, but am having trouble. All the docs say the contracts accepts a signature but I looked at the router and I dont see anycode at all handling signatures in any way, am i missing something?","",""
+"471357824299958273","crypto_rachel","09/06/2023 1:13 am","Signatures are passed through the Permit2 contract when calling one of the permit functions in the UR","",""
+"309066211612950528","vankop","10/06/2023 8:34 pm","hi, do you have a guide how to implement swaps using universal router? example in readme https://github.com/Uniswap/universal-router-sdk#trading-erc20s-on-uniswap here not working 🙂","",""
+"221594574261452801","lockface77","14/06/2023 9:31 pm","Hey,m looking for same thing 😢","",""
+"221594574261452801","lockface77","14/06/2023 9:33 pm","I already have allowance for my token on permit 2 but whenever I try to execute a swap, it fails to transfer from permit2","",""
+"221594574261452801","lockface77","14/06/2023 9:36 pm","Do I need to setup allowance in permit2 to allow universal router?","",""
+"221594574261452801","lockface77","14/06/2023 9:42 pm","Ok yeah, I need to approve from permit2 to do a transfer like this. Otherwise I tshould use this: https://docs.uniswap.org/contracts/universal-router/technical-reference#permit2_permit
+
+Problem solved I can swap 🙂","",""
+"880782287313190964","_saads","15/06/2023 12:33 am","can you share code gist for reference or some sample that you followed","",""
+"221594574261452801","lockface77","15/06/2023 12:36 am","This: https://github.com/Uniswap/v3-periphery/blob/main/test/shared/path.ts
+
+The encodePath method to encode a path for UniswapV3","","👍 (1)"
+"880782287313190964","_saads","15/06/2023 12:44 am","thanks let me check","",""
+"186261842149113857","0xwesty","19/06/2023 7:06 pm","Where can I find an example of using the universal router to perform swaps?
+
+I have something like this so far 
+```import ""@uniswap/permit2-sdk"";
+import ""@uniswap/v3-sdk"";
+import ""@uniswap/sdk-core"";
+import { BigNumberish } from ""@ethersproject/bignumber"";
+import { TransactionRequest } from ""@ethersproject/abstract-provider"";
+import { Wallet, ethers } from ""ethers"";
+import { Network, Alchemy } from 'alchemy-sdk';
+import { UniversalRouter } from ""@uniswap/universal-router"";
+
+const WALLET_ADDRESS_POINTER = '0x0000000000000000000000000000000000000001'; // Router will resolve this constant to caller's wallet address
+const ROUTER_ADDRESS_POINTER = '0x0000000000000000000000000000000000000002'; // Router will resolve this constant to its own address
+const CONTRACT_BALANCE_POINTER = '0x8000000000000000000000000000000000000000000000000000000000000000'; // Router will resolve this constant to the router's own balance
+
+const abiCoder = new ethers.utils.AbiCoder();
+const universalRouter = new UniversalRouter();
+const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'; // WETH address on mainnet
+
+//Use Universal Router
+//Use Permit2
+async function buyV3(
+    wallet: Wallet,
+    token: String,
+    ethIn: BigNumberish,
+    minOut: BigNumberish,
+    deadline: Number,
+): Promise<TransactionRequest> {
+    // Function implementation goes here
+
+    const routerPath = [WETH_ADDRESS, token]; // Path to swap WETH for token
+    
+    const wrapEthCommandData = abiCoder.encode(
+        ['address', 'uint256'], 
+        [ROUTER_ADDRESS_POINTER, ethIn]
+    );
+
+    const swapCommandData = abiCoder.encode(
+        ['address', 'uint256', 'uint256', 'address[]', 'bool'], 
+        [WALLET_ADDRESS_POINTER, CONTRACT_BALANCE_POINTER, minOut, routerPath, false]
+    );
+    
+    const commands = '0x0b08'; // WRAP_ETH and V2_SWAP_EXACT_IN commands
+
+    const buyTransaction = await universalRouter.populateTransaction['execute(bytes,bytes[],uint256)'](commands, [wrapEthCommandData, swapCommandData], deadline); //Encode the final execute command
+
+    return {} as TransactionRequest; // Placeholder until real implementation
+}```
+
+It's not finished of course, but I am getting somewhere I think","",""
+"826765003964416051","gbotemi","20/06/2023 8:41 pm","I am trying to build universal router and permit2 sdk, but I'm getting build error. has anyone faced this problem before and how did you fix it?","",""
+"551284380547416067","0xhaku","22/06/2023 7:19 pm","I propose the following method for determining the nonce of permit2
+```
+const now = Math.floor(Date.now() / 1000);
+const nonce = BigNumber.from(
+  ethers.utils.keccak256(
+    ethers.utils.toUtf8Bytes(contractAddress + EOA + now)
+  )
+);
+```
+keccak256 is bytes32 type, so it can be converted to uint256 type as it is.
+The combination of contract address and EOA address is unique for each Dapp.
+Even if there is a collision, the possibility of another collision is very low because now is changed.
+
+Please let me know if you have a better way.","",""
+"819217962480697374","jimbo7910","27/06/2023 10:18 pm","Hey everyone - I have a question RE: Permit2. Generally speaking, I'm fairly certain that this can reduce the required number of signatures for my app's UX to only one but want to confirm. 
+
+Am I correct in thinking that the ""Signature Based Token Transfers"" method of Permit 2 can achieve this same UX with a max approval?","",""
+"471357824299958273","crypto_rachel","27/06/2023 10:36 pm","yes if you approve max tokens in the on chain approval, then everything else including different protocol changes is only a signature","",""
+"819217962480697374","jimbo7910","27/06/2023 10:48 pm","Thanks for the response, the specific thing I'm trying to understand is that if a max token approval is required on the Permit2 contract then for my use case to see where the funcitonality differs from standard 2612","",""
+"471357824299958273","crypto_rachel","27/06/2023 10:54 pm","The first approval can be whatever you want it to be, However that is the MAX limit the contract can spend via permits. it can be 1 or max. This works like the original setup where the contract is only allowed to spend the tokens allowed in the token contract... The signature can then limit it to a exact amount
+
+have some links in #deleted-channel","",""
+"819217962480697374","jimbo7910","28/06/2023 12:05 am","Yeah thank you for sharing. One thing I'm still confused about @Crypto_Rachel , what tokens specifically don't support EIP-2612? I'm unable to find any kind of list anywhere. Just trying to understand specifically why this is actually an improvement from that EIP","",""
+"471357824299958273","crypto_rachel","28/06/2023 12:09 am","don't know any lists, and not sure I could speak about the improvements","",""
+"194538735382167553","elcabrono#7465","29/06/2023 3:31 pm","is it just me getting an 522 error using the smart-order-router?","",""
+"471357824299958273","crypto_rachel","30/06/2023 1:13 am","Best in #💻│dev-chat  or #☕│sdk-integrations 
+i've not seen this error happen before... Make sure that you are using a good RPC provider. This is a time out error so could be internet speed related too","","👍 (1)"
+"316571475664568324",".skorcius","30/06/2023 9:10 pm","Hi, I am trying to encode/decode a transaction for the universal router for the command `V3_SWAP_EXACT_IN`. The only thing that I have remaining is how to encode the path, I didn't find documentation about how to do it, Do you know how can I do it? Or if you have documentation about it?","",""
+"316571475664568324",".skorcius","30/06/2023 11:24 pm","Nevermind, I just see it","",""
+"1119716024166645780","_3rdeye.","04/07/2023 1:13 am","Hello I have tried seeking for support on the uniswap site and I have been told same thing over and over  for days now. I need assistance","",""
+"471357824299958273","crypto_rachel","05/07/2023 12:34 am","What is the issue you are having","",""
+"350618056583544836","feedzed","05/07/2023 6:36 pm","Launched a token, no problems on buys and tx but can’t sell it, tx get paid but fail to execute. Showing universal router as route when selling and uniswapv2 when buying, can this be the issu? If yes how can I resolve this?! Already used the same code with sushi router and everything worked fine.. no one answering on discord and when filling the support form they send me here 🫠","",""
+"1095663229918777404","venkatesh#6255","06/07/2023 7:37 pm","I changed the addresses to my fork addresses in smart oder router; but it's still facing issues while fetching the quotes. Any ideas on how to implement or fork the smart oder router.","",""
+"994638742998487090","tshong","07/07/2023 4:40 pm","does anyone have written method for sending transaction via universal router","",""
+"658938313620717588","elnaril_dev","07/07/2023 6:09 pm","Feel free to check this Python Universal Router SDK: https://github.com/Elnaril/uniswap-universal-router-decoder","",""
+"994638742998487090","tshong","07/07/2023 6:39 pm","Thank you will look on it.","","👍 (1)"
+"972618395554029618","0xwildebeest","08/07/2023 7:19 am","@Crypto_Rachel  @Anthony 🦄 // Community Manager  I thought you mentioned that in alpha router, quoting for V3 happens off-chain. I see that it is on-chain in Uniswap/smart-order-router/src/providers/on-chain-quote-provider.ts (github). What am I missing? Thank you!","",""
+"471357824299958273","crypto_rachel","12/07/2023 3:32 am","calling the quoter is done from a script. You can't use this in a contract on chain.
+info on the quoter here https://discord.com/channels/597638925346930701/1090100195255140452","",""
+"972618395554029618","0xwildebeest","12/07/2023 9:29 pm","Thanks. When we run a script manually like this to get a quote with no gas, where do we get the chain status to calculate things? From the subgraph data that Uniswap has saved? Or read from the chain (latest block) directly?","",""
+"471357824299958273","crypto_rachel","13/07/2023 4:20 am",">  where do we get the chain status to calculate things
+
+specify what things you want to calculate . I personnally prefer all data from the block chain","",""
+"392749743781969922","usamsen","13/07/2023 5:35 pm","I'm currently working to comprehend the intricacies of the Universal Router's operation, particularly the preconditions required before it successfully connects two pools.
+
+Let's take an example scenario:
+
+I have created two pools:
+Pool between Token 1 and Token 2
+Pool between Token 2 and Token 3
+With these two pools, I anticipate the establishment of a swap route from Token 1 to Token 3. The expected flow is as follows:
+
+Token 1 to Token 2 (via the first pool)
+Token 2 to Token 3 (via the second pool)
+
+However, I'm encountering an issue where the Universal Router does not seem to recognize this route by default. I'm uncertain whether multiple swaps are necessary or whether an additional pool needs to be created before the Router can enable such routes.
+
+Could you help me understand the criteria or conditions that must be fulfilled for the Router to permit these routes? I'm experiencing difficulties getting this to work on the Polygon Mainnet during my tests.
+
+Any guidance or explanation would be greatly appreciated.","",""
+"471357824299958273","crypto_rachel","14/07/2023 4:12 am","So it's the Auto Router script that does the pool routing on the UI. On the contract end you can swap between anything with common pool.... 
+
+Using the UI that route would take a while to show up and would need regular trades on the individual pool . If you use a Whitelisted token Like weth, matic, usdt, usdc or another whitelisted it will get picked up quicker.","",""
+"748215503197306994","kalinbas","18/07/2023 2:43 pm","Hi there! I am starting to use Universal Router and had a question. Is there a way to use it with old school approvals or does it only work with Permit2?
+I only see a PERMIT2_TRANSFER_FROM command but no TRANSFER_FROM command","","🤔 (1)"
+"471357824299958273","crypto_rachel","19/07/2023 1:20 am","Yes I think it is only setup for the Permit2... I'm not seeing anything for transferFrom standard, may be possible with another contract, but would take a lot of digging","",""
+"985266691049136249","santoshinakamoto","21/07/2023 1:13 pm","Have a question on using uniswap router2. I have a test wallet on polygon that has matic that I’m swapping to wmatic (this is actually a test in mainnet fork). I am getting errors on doing TransferHelper.safeApprove on matic. Is it because matic is not a wrapped token?
+How do i do a approve of matic token then?","",""
+"471357824299958273","crypto_rachel","21/07/2023 1:38 pm","Matic is the native token on polygon. You don't approve it, you must include the value of matic in the transaction dictionary","",""
+"803288570562478110","_sloloris","22/07/2023 9:28 am","@Crypto_Rachel is there an issue w the uniswapv2 router rn?","",""
+"471357824299958273","crypto_rachel","22/07/2023 9:30 am","there has been a bot attacking pools with a `Sync Attack` sending small amounts of weth to the pool and syncing if No LQ was added on creation","",""
+"471357824299958273","crypto_rachel","22/07/2023 9:30 am","what issues are you having","",""
+"803288570562478110","_sloloris","22/07/2023 9:31 am","Keep getting failed jsonRPC response","",""
+"471357824299958273","crypto_rachel","22/07/2023 9:32 am","what are you doing?","",""
+"471357824299958273","crypto_rachel","22/07/2023 9:34 am","trying to mint LQ, or swap","",""
+"803288570562478110","_sloloris","22/07/2023 9:34 am","Swap","",""
+"471357824299958273","crypto_rachel","22/07/2023 9:36 am","no issues with normal swaps... Check the pool, check your RPC and double check the data using","",""
+"803288570562478110","_sloloris","22/07/2023 9:37 am","Ok will do 🙏","",""
+"1095663229918777404","venkatesh#6255","25/07/2023 11:18 am","tried deploying routing API in aws but it's isn't getting deployed. Is there anything that I should focus on ,while deploying other code integration.","",""
+"296644317865312277","0xmurathan","31/07/2023 2:26 pm","What is the best way to get the path of an uniswap v3 swap?","",""
+"296644317865312277","0xmurathan","31/07/2023 2:50 pm","I would like to query historical volume traded on distinct multi-swap route","",""
+"471357824299958273","crypto_rachel","01/08/2023 12:06 am","Using the Auto router, this is what the UI uses https://discord.com/channels/597638925346930701/1087869256521236510","",""
+"296644317865312277","0xmurathan","01/08/2023 12:08 pm","Hi Rachel, thank you for your response. I would like to specify input and output tokens for historical swaps and analyze which route processes the most volume using on-chain data. How do you think I should approach to this?","",""
+"471357824299958273","crypto_rachel","02/08/2023 4:10 am","Perhaps the graph would be easiest, it tracks volume. I have info on the call here https://discord.com/channels/597638925346930701/1087867335089590363/1087868251209482342, and the graph links are above it","",""
+"867102509449347093","aadisoft","09/08/2023 1:34 am","Hello everyone, I need your help in setting up the uniswap router address in the below function:
+
+function initContract() external onlyOwner {
+        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);
+        // Create a uniswap pair for this new token
+        uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
+            .createPair(address(this), _uniswapV2Router.WETH());
+        uniswapV2Router = _uniswapV2Router;
+    }
+
+But when I am calling the unit function I'm getting error. Earlier this was working.","",""
+"471357824299958273","crypto_rachel","09/08/2023 1:52 am","Check this out real quick https://discord.com/channels/597638925346930701/1090359525447581746/1132798532580024421
+make sure your pool hasn't been hit with the Sync attack","",""
+"867102509449347093","aadisoft","09/08/2023 1:55 am","@Crypto_Rachel Thanks for reaching on my consurn. I was facing issues while deploying the token as using uniswap V2 router address. I am getting error while executing the initcontract function.","",""
+"471357824299958273","crypto_rachel","09/08/2023 9:57 am","Its possible that the pair was created from the same attacker.. Check to see if you have a pool created already https://discord.com/channels/597638925346930701/1087859119186251846/1090057782046236682","",""
+"867102509449347093","aadisoft","09/08/2023 11:20 am","I was calling this function first time. Can we create the create the V2 part on uniswap now a days.","",""
+"471357824299958273","crypto_rachel","09/08/2023 11:44 am","I'm saying the person might have already created your pool. Not you or your team the bad actor doing the `Sync Attack`
+what is your tokens address ( you can dm it for privacy )","",""
+"867102509449347093","aadisoft","09/08/2023 11:52 am","@Crypto_Rachel The contract is not deployed on mainnet yet because when I was trying to deploy using the uniswap v2 router address and I put the pair creation code in constructor, I'm getting error.","",""
+"867102509449347093","aadisoft","09/08/2023 11:54 am","So, my question is still can we use unisawp V2 router address for create the new pair","",""
+"471357824299958273","crypto_rachel","09/08/2023 11:59 am","so that initContract() is a function not the constructor of the contract (perhaps you call the function in the constructor.
+where are you calling the initContract from
+
+Well the v2 router never created pools, it has always been the factory contract like you have in the function","",""
+"867102509449347093","aadisoft","09/08/2023 12:04 pm","Yes, initContract function is not the constructor. Earlier I added the same code constructor but during this I was not able to deploy the contract.","",""
+"471357824299958273","crypto_rachel","09/08/2023 12:05 pm","The bot doing the attack is even creating pools.","",""
+"867102509449347093","aadisoft","09/08/2023 12:05 pm","Basically, I wanted to create the tax token with the help of V2 router address","",""
+"867102509449347093","aadisoft","09/08/2023 12:08 pm","Last year I did the same thing for one project with the same flow and even the same code but right now. I was not able to deploy the contract. May be uniswap remove the V2 pair adding liquidity support on official website","",""
+"471357824299958273","crypto_rachel","09/08/2023 12:08 pm","If you are building a new contract you want to create on the factory and mint to the pool in constructor","",""
+"689976223887392769","curiousciaran#1274","10/08/2023 1:21 pm","@Crypto_Rachel I am trying to change my code from the old v3 router2 to the universal router. Can I just approve the universal router to spend tokens, or do I need to interact with the permit2 contract in order to perform swaps/unwraps?","",""
+"471357824299958273","crypto_rachel","11/08/2023 2:21 am","Unfortunately while you can do some things with the UR that don't require permit2 you do need the permit2 for it to transfer tokens.
+
+You could have a contract that sends the tokens to UR and then calls the swap commands
+
+ETH purchases don't need of course, and any tokens that it holds can be transferred with commands","",""
+"689976223887392769","curiousciaran#1274","11/08/2023 3:39 am","So if I sent ETH and did a wrap and then a swap then that would work without a permit2 or approval? 
+
+But if I did a V3_EXACT swap that would require a permit2 and the UR approval would not work?","",""
+"471357824299958273","crypto_rachel","11/08/2023 3:54 am","correct you can send ETH to the contract -> calling the wrapETH to use it for swaps
+
+Anything that requires the UR to transferFrom(user) will need the permit2","",""
+"689976223887392769","curiousciaran#1274","11/08/2023 11:16 am","Thank you for this, it is clarifying and I appreciate the help.","","YW (1)"
+"865398073207423016","t36abb","16/08/2023 5:26 pm","In the case of a contract holding tokens to authorize via Permit2 (eg gnosis safe) where does the signature come from? presumably I can't use eth_signtypeddata_v4 since that would require an EOA?    cc @Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","17/08/2023 7:09 am","TBH I don't know enough about smart contract signatures to answer.  Not sure they use permit2 though, iirc they were still using old setup","","👍 (1)"
+"865398073207423016","t36abb","17/08/2023 11:00 am","its permit2 FYI when safe does a transaction- I do have a working transaction ID just trying to figure how how it was generated and validated - was thinking maybe try to recover the signature to see what address it matches hmm","",""
+"865398073207423016","t36abb","17/08/2023 11:00 am","thanks","",""
+"471357824299958273","crypto_rachel","17/08/2023 8:20 pm","share at tx","",""
+"865398073207423016","t36abb","17/08/2023 9:08 pm","here is the trade from USDC to ETH: https://goerli.etherscan.io/tx/0x28ff05b67b7f597dfd94af471217dba1cb6e22faa6e6a9dbac764d4d7cfe0058
+The Safe is 0xB22389190244dA295193854949Cc7a13e5a9f959
+My signer EOA wallet is 0x6c7bd68ddc7670c8fb5a1cf3524d609d171a94f0","","🙏 (1)"
+"972618395554029618","0xwildebeest","21/08/2023 2:48 am","Default routing config of alpha-router is here: Uniswap/smart-order-router/src/routers/alpha-router/config.ts
+Are these the default ones used in client-side routing? Or the default ones for API?","",""
+"471357824299958273","crypto_rachel","22/08/2023 3:22 am","I do believe so, but not sure if they are in same place","",""
+"972618395554029618","0xwildebeest","22/08/2023 5:48 am","I only see one set of default parameters! Which one are they for? The client-side routing or the API?","",""
+"471357824299958273","crypto_rachel","22/08/2023 6:18 am","I'll have to dig through the code on my other comp. I don't have it here yet. I'll look in a bit.
+I know they use the same code, just not sure if they both use that","",""
+"972618395554029618","0xwildebeest","22/08/2023 6:22 am","Thanks a lot. It will be great if you kindly check what the set of of config parameters are for each of ""client-side routing"" and ""API"". I am pretty sure the API search should be broader but can't find two different sets of config parameters.","",""
+"471357824299958273","crypto_rachel","22/08/2023 12:14 pm","I'll have to dig more tomorrow, or find the right person to ask","",""
+"972618395554029618","0xwildebeest","23/08/2023 5:04 am","Thanks a lot, looking forward to it.","",""
+"471357824299958273","crypto_rachel","24/08/2023 5:16 am","Sorry, last night I couldn't come back on till I got another answer for something else.....
+
+I looked, and from what I see and the statement on the setup/readMe states. It does use the same setup.
+
+The biggest difference I think really comes with the caching of the data.
+
+Naturally when you are setting up this api you can setup the settings in a way that you would think is better.
+I think it is done when you build with the constructor as well.","https://cdn.discordapp.com/attachments/1042613771316764752/1144055048016515114/Uniswap_routing-api.png",""
+"972618395554029618","0xwildebeest","24/08/2023 6:17 pm","Thanks,  however, I heard from Hayden (in some podcast) that the default search for running on the server is much broader than  local / client-side.","",""
+"471357824299958273","crypto_rachel","25/08/2023 3:28 am","I'll dig more, but I'm pretty sure that is correct. Maybe they set it with more broader scope with the config, but what I see it's all using the same basic coding","",""
+"972618395554029618","0xwildebeest","25/08/2023 4:22 pm","I agree that they use the same algo. I just want to know what default config params each use exactly.","","👀 (1)"
+"704596699925970994","ygboucherk","27/08/2023 4:45 pm","Please fix this","",""
+"704596699925970994","ygboucherk","27/08/2023 4:45 pm","It keeps non-eoa users from having a proper swap experience","",""
+"311181184594083840","tinska9650","05/09/2023 2:04 pm","how to call execute on solidity? Need to call 0x08 (no wraps or permits), contract has pre-approved the router as spender","",""
+"311181184594083840","tinska9650","05/09/2023 2:05 pm","```
+bytes[] memory payload = new bytes[](1);
+payload[0] = abi.encode(address(this), amountIn, amountOutMin, path, true);
+IUniversalRouter(router).execute(""\x08"", payload);
+```","",""
+"311181184594083840","tinska9650","05/09/2023 2:05 pm","getting execution reverted","",""

@@ -1,0 +1,2117 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"208960037308071937","cecco_","07/03/2022 6:11 pm","Hello everyone 👋","",""
+"754641878934225008","odinfree","07/03/2022 6:12 pm","do you have a favourite react icon ?","",""
+"208960037308071937","cecco_","07/03/2022 6:12 pm","Can we have the atom ⚛️","",""
+"208960037308071937","cecco_","07/03/2022 6:12 pm","(Looks like the react logo)","",""
+"208960037308071937","cecco_","07/03/2022 6:18 pm","The first thing I want to ask in this channel: there are two styles of API, one is apollo client's style and the other is wagmi style. The first looks like `const { data, loading, refetch } = useXXX()`, the second is like `const [{ data, loading }, refetch] = useXXX()`. So vote `W` for wagmi style, and `A` for Apollo style.","","🇼 (2),🇦 (9)"
+"208960037308071937","cecco_","07/03/2022 6:19 pm","I can see the pros/cons of both, I like the second because it mimics the built-in react hooks (`useState`, `useReducer`)","",""
+"456226577798135808","Deleted User","08/03/2022 12:02 am","🔥finally","",""
+"456226577798135808","Deleted User","08/03/2022 12:15 am","I prefer the first one, useState and useReducer use an array for a reason, we are the one who specify the name of the first and the second index
+but for a custom hook that has the return type, I think the first one would be better.","",""
+"208960037308071937","cecco_","08/03/2022 1:04 am","I really like the way you describe it and I agree 100%.","","👍 (2)"
+"856676601331580938","jpick713","08/03/2022 1:11 am","hello, finally have your own channel for this 🙌","","🔥 (2)"
+"456226577798135808","Deleted User","09/03/2022 10:12 pm","Hey there! Did I misunderstand how to use useStarknetInvoke?","",""
+"456226577798135808","Deleted User","09/03/2022 10:12 pm","```js
+    const { contract } = useEykarContract()
+    const { invoke } = useStarknetInvoke({ contract: contract, method: 'mint_plot_with_new_colony' })
+```","",""
+"456226577798135808","Deleted User","09/03/2022 10:13 pm","```js
+<button className={[styles.footer_element, styles.button].join("" "")} onClick={() => {
+                                    console.log(account, hasStarknet) 
+                                    console.log(""minting"", new Buffer.from(name).toString('hex'))
+                                    invoke({ args: { name: new Buffer.from(name).toString('hex') } }) }}>
+...
+```","",""
+"456226577798135808","Deleted User","09/03/2022 10:13 pm","","https://cdn.discordapp.com/attachments/950372319119937606/951158213838008440/unknown.png",""
+"456226577798135808","Deleted User","09/03/2022 10:13 pm","This doesn't open me argentx to confirm the transaction","",""
+"208960037308071937","cecco_","09/03/2022 11:20 pm","Nope that's the correct way to use it. Have you tried making the onClick callback async and await `invoke`?","",""
+"208960037308071937","cecco_","09/03/2022 11:20 pm","Also see if the console says anything.","",""
+"456226577798135808","Deleted User","09/03/2022 11:45 pm","Hmmm I just restarted the project and it works, that might just be a hot reload issue","",""
+"942085399415783465","beyoonddsuiswap","10/03/2022 12:35 am","Fire test network,fast transactions(only 1 of 12 was slow),good nft marketplace,myswap is great dex.Love this ecosystem so much!","",""
+"501611472523100171","minhdoan#0665","10/03/2022 5:14 pm","which network have you played with ? goerli alpha?","",""
+"456226577798135808","Deleted User","10/03/2022 11:04 pm","@cecco_ ser, do you have a plan to upgrade starknet-react to support 0.3.2 starknetjs?.","",""
+"456226577798135808","Deleted User","10/03/2022 11:05 pm","I'm kinda get stuck with a multicall, dunno if the old version of starknetjs already supported a multicall or not","",""
+"456226577798135808","Deleted User","10/03/2022 11:11 pm","or the result value needs to be deserialized somehow.","",""
+"208960037308071937","cecco_","10/03/2022 11:21 pm","Yep I want to update as soon as possible too. Checked the other day and it looks like get starknet has the required changes but not published to npm.","",""
+"208960037308071937","cecco_","10/03/2022 11:21 pm","Update is going to help a lot with array return values","",""
+"456226577798135808","Deleted User","10/03/2022 11:31 pm","it seems like the return value is not an array, so I can get only first index of a multicall","",""
+"456226577798135808","Deleted User","10/03/2022 11:31 pm","have u been facing this issue before?","",""
+"456226577798135808","Deleted User","10/03/2022 11:43 pm","might need to have workaround while waiting for their updates, perhap I should query via the api call rather than having a starknetjs as a facade first","",""
+"456226577798135808","Deleted User","10/03/2022 11:48 pm","yup, need to a direct call from an api, for now  🥲","",""
+"208960037308071937","cecco_","11/03/2022 12:31 am","Yep that's the issue. Will be fixed after the update.","",""
+"208960037308071937","cecco_","11/03/2022 12:32 am","Now you can use the library returned by `useStarknet` and make calls yourself.","",""
+"456226577798135808","Deleted User","11/03/2022 1:29 am","yup that's the only way now, thanks man @cecco_","",""
+"573207504818012160","teeman#3583","11/03/2022 7:03 am","anyone here been building with starknet react? I'm running into errors even just after following the example in the docs @cecco_ FYI","",""
+"942085399415783465","beyoonddsuiswap","11/03/2022 10:25 am","Goerli starknet","",""
+"456226577798135808","Deleted User","11/03/2022 12:02 pm","I am, what's an error tho?","",""
+"208960037308071937","cecco_","11/03/2022 4:21 pm","What error are you getting? What OS and node version are you using?","",""
+"208960037308071937","cecco_","11/03/2022 4:30 pm","@Ceri What you mention is a know issue, before starknet.js 3 the contract interface didn't support array return values. We're now waiting for get-starknet to be updated to use starknet 3.1 to then update our recommended dependencies","",""
+"208960037308071937","cecco_","11/03/2022 4:30 pm","The workaround for now is to use the library returned by `useStarknet` and make raw calls to the contract. Or wait until we update (hopefully soon).","",""
+"317017549860634664","ceriwatt","11/03/2022 4:34 pm","ok for now i'll give a a try with the useStarknet Hook, i guess i've make raw call using the library ? is there any documentation or code snippets on how to use such calls ?","",""
+"208960037308071937","cecco_","11/03/2022 4:36 pm","Here's the code to make a contract call https://github.com/0xs34n/starknet.js/blob/v2.5.1/src/contract.ts#L169","",""
+"208960037308071937","cecco_","11/03/2022 4:36 pm","Then you parse the return value of `callContract` which will be an array of felts","",""
+"317017549860634664","ceriwatt","11/03/2022 4:37 pm","ok, thanks a lot @cecco_  i'll take a look","",""
+"208960037308071937","cecco_","11/03/2022 4:42 pm","I'll try to update ASAP after get-starknet is updated. This is the #1 complain about the library 🙂","","🔥 (5)"
+"573207504818012160","teeman#3583","12/03/2022 5:49 am","I'm getting type errors, and this is only after copying and trying your examples in the docs. I've been using Yarn (1.22.0) OS 12.2.1. For me (and I'm not sure why) I was able to narrow the problem line to the import lines themselves. Is this just an issue between the keyboard and the chair? CC: @Deleted User","",""
+"208960037308071937","cecco_","12/03/2022 3:48 pm","I released version 0.5.0 to npm, this version upgrades `starknet` and `@argent/get-starknet` to v3.  Notice that the type of the `args` parameter to `useStarknetCall` and `useStarknetInvoke` changed to an array so it's a breaking change.","",""
+"208960037308071937","cecco_","12/03/2022 3:49 pm","Are you using `create-react-app`?","",""
+"456226577798135808","Deleted User","12/03/2022 5:13 pm","noted ser","",""
+"573207504818012160","teeman#3583","12/03/2022 9:14 pm","Yes I am 🙂","",""
+"208960037308071937","cecco_","12/03/2022 9:15 pm","There seems to be an issue with starknet.js and cra. If you're starting a new project I recommend using the nextjs template https://github.com/auclantis/starknet-react#getting-started-with-nextjs","",""
+"573207504818012160","teeman#3583","13/03/2022 4:39 am","Ok cool, thanks 🙂 Any plans to address that issue? I've got a few projects I'm trying to migrate over to starknet apps that were made with CRA","",""
+"208960037308071937","cecco_","13/03/2022 2:32 pm","I'll chat with the starknet js team and see what we can do.","",""
+"573207504818012160","teeman#3583","13/03/2022 7:05 pm","Amazing, thanks!","",""
+"456226577798135808","Deleted User","14/03/2022 6:31 pm","has anyone else had this kind of problem?","https://cdn.discordapp.com/attachments/950372319119937606/952914290485121054/unknown.png",""
+"456226577798135808","Deleted User","14/03/2022 6:36 pm","you might need to update your libs, its due to an argent breaking changes","",""
+"456226577798135808","Deleted User","14/03/2022 6:36 pm","to support the fee, I guess.","",""
+"456226577798135808","Deleted User","14/03/2022 6:41 pm","Oh okay! Did you get it to work?","",""
+"456226577798135808","Deleted User","14/03/2022 6:41 pm","Those are my dependencies (I just updated them):
+```
+    ""@argent/get-starknet"": ""^2.1.1"",
+    ""@starknet-react/core"": ""^0.5.0"",
+    ""starknet"": ""^2.9.0""
+```","",""
+"456226577798135808","Deleted User","14/03/2022 6:43 pm","Try yarn outdated and upgrade to the current ones, for me it worked.","",""
+"456226577798135808","Deleted User","14/03/2022 6:55 pm","Can you show me what versions you have? Because there seems to be a conflict when I try to update all of mines to the last version","",""
+"208960037308071937","cecco_","14/03/2022 7:03 pm","You need to update to v3 https://github.com/auclantis/starknet-react/blob/main/examples/starknet-react-next/package.json","",""
+"208960037308071937","cecco_","14/03/2022 7:04 pm","Also I've released `@starknet-react/core` v0.6.0, which introduces connectors. It's again a breaking change (sorry). Replace `connectBrowserWallet` with `connect(new InjectedConnector())` and you're good to go.","",""
+"456226577798135808","Deleted User","14/03/2022 7:06 pm","Great, I’ll try it right now","",""
+"456226577798135808","Deleted User","14/03/2022 7:06 pm","Is it needed to upgrade now? Or just your v5 is enough","",""
+"208960037308071937","cecco_","14/03/2022 7:06 pm","You can wait, that's the only change and it's just an API thing to be future proof","",""
+"456226577798135808","Deleted User","14/03/2022 7:08 pm","Can you elaborate the future proof ser.","",""
+"208960037308071937","cecco_","14/03/2022 7:11 pm","If in the future Wallet Connect launches on StarkNet, we can add a new provider for it and support them.","",""
+"456226577798135808","Deleted User","14/03/2022 7:13 pm","I see, thanks man","",""
+"456226577798135808","Deleted User","14/03/2022 7:18 pm","```
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: eykar.org@0.1.0
+npm ERR! Found: @argent/get-starknet@3.0.1
+npm ERR! node_modules/@argent/get-starknet
+npm ERR!   @argent/get-starknet@""^3.0"" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer @argent/get-starknet@""^2.1"" from @starknet-react/core@0.6.0
+npm ERR! node_modules/@starknet-react/core
+npm ERR!   @starknet-react/core@""^0.6.0"" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See /Users/thomas/.npm/eresolve-report.txt for a full report.
+```
+Hmm I'm not sure to understand what I did wrong","",""
+"208960037308071937","cecco_","14/03/2022 7:23 pm","Try to delete `node_modules` and retry","",""
+"208960037308071937","cecco_","14/03/2022 7:23 pm","Actually no, it's an issue no our end. Quick fix incoming","",""
+"208960037308071937","cecco_","14/03/2022 7:36 pm","I published version 0.6.1 that fixes this. Can you try again?","",""
+"456226577798135808","Deleted User","14/03/2022 7:39 pm","Sure","",""
+"456226577798135808","Deleted User","14/03/2022 7:43 pm","seems to be working, let's update connectBrowserWallet","",""
+"456226577798135808","Deleted User","14/03/2022 7:43 pm","did you also remove hasStarknet? @cecco_","",""
+"208960037308071937","cecco_","14/03/2022 7:44 pm","Yes, now you can achieve the same with `InjectedConnector.ready`","",""
+"456226577798135808","Deleted User","14/03/2022 7:45 pm","Oh awesome","",""
+"456226577798135808","Deleted User","14/03/2022 8:06 pm","I think I have an issue there:
+```js
+    const { account, connect } = useStarknet()
+    const { contract } = useEykarContract()
+    const { data, loading } = useStarknetCall({ contract: contract, method: 'get_player_colonies', args: { player: account } })
+
+    useEffect(() => {
+        if (!InjectedConnector.ready)
+            return;
+        if (!account) {
+            connect(new InjectedConnector())
+            return;
+        }
+
+     ...
+
+```
+
+account is undefined when you first load the page and I think this causes this error:","",""
+"456226577798135808","Deleted User","14/03/2022 8:06 pm","","https://cdn.discordapp.com/attachments/950372319119937606/952938205181796362/unknown.png",""
+"456226577798135808","Deleted User","14/03/2022 8:06 pm","how should I call the function only when account has a value?","",""
+"208960037308071937","cecco_","14/03/2022 8:09 pm","The type of `args` changed to be an array. so `args: { player: account }` becomes `args: [account]`. Also notice that like you said the value of account is undefined, so the library will try to call the contract with args `[undefined]`, which will result in an error. The solution is to change it to `args: account ? [account] : undefined`, when `args` are undefined the library will not call the contract. Once the user connects, the value of account is updated and the library will finally make the request.","",""
+"897062041561493525","fominmitya1998","15/03/2022 3:12 am","Hello there,  where should i leave review?","",""
+"208960037308071937","cecco_","15/03/2022 3:59 am","If it's feedback about the react library here is good","",""
+"326484027882209280","bleaknight","15/03/2022 3:55 pm","hey guys, we were playing with this library, is there a code example we can check out where some arguments (strings and/or integers) being passed into a contract invoke? we're trying to figure out the syntax and expected type(hex or dec etc). Thanks in advance!","",""
+"208960037308071937","cecco_","15/03/2022 4:10 pm","Yes the next.js example has it https://github.com/auclantis/starknet-react/blob/main/examples/starknet-react-next/src/components/IncrementCounter.tsx#L8","",""
+"208960037308071937","cecco_","15/03/2022 4:11 pm","The arguments passed to `invoke` are then passed to `ContractInterface.invoke`, so it's the same as that library.","",""
+"856676601331580938","jpick713","15/03/2022 4:20 pm","Community call!
+Looking forward to seeing how the newest version works out with examples 👍","",""
+"326484027882209280","bleaknight","15/03/2022 4:22 pm","Thanks for that, everything needs to be in hex? including addresses?","",""
+"208960037308071937","cecco_","15/03/2022 4:27 pm","From what I understand starknet.js automatically parses args. So you can pass a string (converted to big number, then felt), a number, an array, or a struct.","",""
+"326484027882209280","bleaknight","15/03/2022 4:28 pm","oh awesome! thanks","",""
+"208960037308071937","cecco_","15/03/2022 4:29 pm","Another good trick, if you know the type of the function arguments you can passe it to `useStarknetInvoke` and typescript will enforce them. So `useStarknetInvoke<[number[]]>(...)` means that `invoke` will accept only one argument, an array of numbers.","","👍 (1)"
+"573207504818012160","teeman#3583","15/03/2022 7:06 pm","When's the community call?","",""
+"907981161534468146","wind.rider","15/03/2022 7:14 pm","plz check:https://discord.com/events/793094838509764618/953237388811972658","",""
+"382327204094279680","unidendefi","15/03/2022 7:23 pm","Is there a screen share for the community call","",""
+"272122339309649921","naps62","15/03/2022 7:25 pm","@Henri-l | StarkWare @cecco_ is this suposed to be having a screenshare? 🤔","",""
+"272122339309649921","naps62","15/03/2022 7:25 pm","I had to go out for a few minutes","",""
+"355719507601260544","franalgaba.eth","15/03/2022 7:26 pm","link to stream: https://www.youtube.com/watch?v=PSTCTVMmMz4","",""
+"272122339309649921","naps62","15/03/2022 7:26 pm","ahh thank you 🙏","","👍 (1)"
+"856676601331580938","jpick713","15/03/2022 7:27 pm","incredible, great presentation @cecco_","","💎 (1)"
+"456226577798135808","Deleted User","16/03/2022 12:18 am","Hey thank you very much, I just tried it but I still have a problem","",""
+"456226577798135808","Deleted User","16/03/2022 12:18 am","","https://cdn.discordapp.com/attachments/950372319119937606/953364062249582632/unknown.png",""
+"456226577798135808","Deleted User","16/03/2022 12:18 am","This is my code:","",""
+"456226577798135808","Deleted User","16/03/2022 12:18 am","```js
+    useEffect(() => {
+        if (!InjectedConnector.ready)
+            return;
+        if (!account) {
+            connect(new InjectedConnector())
+            return;
+        }
+        if (!contract || loading)
+            return;
+        if (data) {
+            console.log(data)
+            ...
+        }
+    }, [account, data, loading])
+```","",""
+"456226577798135808","Deleted User","16/03/2022 12:19 am","As you can see it logs colonies_len and i am not sure to understand why","",""
+"456226577798135808","Deleted User","16/03/2022 12:19 am","Oh wait, could this mean this array is of size 0 and not an array which contains 0?","",""
+"208960037308071937","cecco_","16/03/2022 1:47 am","Yeah looks like that","",""
+"208960037308071937","cecco_","16/03/2022 1:48 am","That result is not what I would expect. Tomorrow il repro it and open an issue with starknet js","","❤️ (1)"
+"383661577548726275","ivanvisochansky","16/03/2022 11:15 am","I like the brilliant ambitions and perspectives of the project. It's great to see the process of building a large-scale and multifaceted service.
+
+However, at this stage, when testing the main functions of the site, lags and long delays are constantly encountered. Hope you get it all figured out soon!","",""
+"326484027882209280","bleaknight","16/03/2022 11:23 am","Hi again, I just tried to run the next.js example, when I try to use the connect button, I'd get ""ConnectorNotFoundError"", when I console log the error output from useStarknet, I'd get ""could not activate Starknet"" any idea what I'm missing here?","",""
+"326484027882209280","bleaknight","16/03/2022 11:23 am","using argentx 3.0","",""
+"208960037308071937","cecco_","16/03/2022 2:47 pm","Did you have to unlock the wallet? I noticed that can happen. Can you open an issue on github?","",""
+"326484027882209280","bleaknight","16/03/2022 4:26 pm","wallet was already unlocked, sure I'll do that","",""
+"208960037308071937","cecco_","16/03/2022 5:09 pm","Thank you. Will review tonight or tomorrow.","","🚀 (1)"
+"930074643186991215","Gil#5097","16/03/2022 11:14 pm","Hey guys, is it possible to use a custom provider with this? (im running my node locally, i'd like to use a provider with my localhost address instead) ive been looking at the source and doesn't seem possible, but I may have missed something","",""
+"208960037308071937","cecco_","17/03/2022 2:05 am","Does it work if you connect argent and switch to local host there?","",""
+"208960037308071937","cecco_","17/03/2022 2:06 am","But yes, somehow you should be able to switch/customize the default provider.","",""
+"930074643186991215","Gil#5097","17/03/2022 2:56 pm","ive try that but had some issues. because some times it tried to use the testnet url (instead of localhost) in some instances. I cant recall right now where. for now I've been using starknet.js directly but ill give it another try so i can be more specific. ill came back with more details later","",""
+"930074643186991215","Gil#5097","17/03/2022 3:47 pm","yeah, know im having the same issue as @bleaknight","",""
+"208960037308071937","cecco_","17/03/2022 4:22 pm","What's the expected behavior? Should the network determined by 1) argent x if connected (+ fallback if not connected) 2) your code only (and users need to manually change network)","",""
+"208960037308071937","cecco_","17/03/2022 4:23 pm","I want to make sure I understand your use case to fix it in a way that makes sense","",""
+"208960037308071937","cecco_","17/03/2022 4:23 pm","Working on this today.","",""
+"930074643186991215","Gil#5097","17/03/2022 4:32 pm","well, the ideal would be to get it from the wallet (argent x) then fall back, i think. but an optional prop on the StarknetProvider to pass a custom provider is a nice one as well. So if argent-x not connected it could use a custom provider and if no custom provider is passed use the default one","",""
+"208960037308071937","cecco_","17/03/2022 4:41 pm","I opened this issue to track it. https://github.com/auclantis/starknet-react/issues/59 Let me know if the proposed API looks good to you","",""
+"930074643186991215","Gil#5097","17/03/2022 4:44 pm","seems perfect","",""
+"895328389299318866","eni7912","17/03/2022 5:37 pm","Hey there,
+I'm not really sure why but I can't get starknet-react to render anything.
+As soon as I include StarknetProvider, page goes blank and nothing is rendered","",""
+"930074643186991215","Gil#5097","17/03/2022 5:38 pm","take a look at the browser console. you might have some errors there","",""
+"930074643186991215","Gil#5097","17/03/2022 5:39 pm","are you using create-react-app? (if so that might be the issue here. i thing there's a bug with that)","",""
+"895328389299318866","eni7912","17/03/2022 5:40 pm","yeah, initiated with CRA. Error code is 
+
+```js
+Uncaught TypeError: (0 , superstruct_1.string) is not a function
+    at Object../node_modules/starknet/dist/utils/typedData/types.js (types.js:27:1)
+    at Object.options.factory (react refresh:6:1)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at Object../node_modules/starknet/dist/utils/typedData/utils.js (utils.js:5:1)
+    at Object.options.factory (react refresh:6:1)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at Object../node_modules/starknet/dist/utils/typedData/index.js (index.js:42:1)
+    at Object.options.factory (react refresh:6:1)
+```","",""
+"930074643186991215","Gil#5097","17/03/2022 5:40 pm","i think for now, the best way is to use the next app on the starknet-react repo","",""
+"895328389299318866","eni7912","17/03/2022 5:41 pm","i remember seeing something about BigInt support ?","",""
+"930074643186991215","Gil#5097","17/03/2022 5:42 pm","to be honest i dont really know","",""
+"895328389299318866","eni7912","17/03/2022 5:44 pm","https://github.com/0xs34n/starknet.js/issues/37#issuecomment-955797303
+
+Tried this fix but without success","",""
+"930074643186991215","Gil#5097","17/03/2022 5:48 pm","i saw the #10 comunity call (way after that issue was closed) and cecco_ said there is a bug with CRA so i dont believe that is the same issue here","",""
+"895328389299318866","eni7912","17/03/2022 5:50 pm","okay, tyvm
+Will try with nextjs !","",""
+"208960037308071937","cecco_","17/03/2022 6:11 pm","You're seeing this issue https://github.com/0xs34n/starknet.js/issues/131","","👍 (2)"
+"208960037308071937","cecco_","17/03/2022 8:51 pm","Once github comes back online I'll push the fixes to the connector issue and the default provider","",""
+"895328389299318866","eni7912","17/03/2022 9:51 pm","Do you need someone to work on the multicall issue ?","",""
+"208960037308071937","cecco_","17/03/2022 9:53 pm","That would be great. I don't know where to start because I'm not too familiar with starknet.js internals.","",""
+"895328389299318866","eni7912","17/03/2022 9:53 pm","neither am I but i kinda need it for a project of my own. I'll see what I can do, although i don't know starknetjs either.
+
+I know that argentX said that they now natively support multicall, i'll try to see how","",""
+"208960037308071937","cecco_","17/03/2022 9:55 pm","Oh I thought you meant the issue with create-react-app. What issue are you having with multicall?","",""
+"710142435208069220","bzhbuck","17/03/2022 10:30 pm","I'm trying to use starknet-react to mint an nft on goerli but i'm not able to get useStarknetInvoke to work","",""
+"710142435208069220","bzhbuck","17/03/2022 10:30 pm","```  const { account } = useStarknet()
+  const { contract } = useContract({ abi: contract.abi, address: insuranceNftAddress })
+  const { invoke } = useStarknetInvoke({ contract: contract, method: 'mint' })
+  invoke({ args: ['1', '1', '1', '1', '1', '1', '1', '1'] })
+```","",""
+"710142435208069220","bzhbuck","17/03/2022 10:31 pm","The mint method takes 8 arguments which i've just stubbed as the string 1 for now.  I'm not seeing any network calls in the console however.  Anything look obviously wrong with the code?","",""
+"895328389299318866","eni7912","17/03/2022 10:35 pm","https://github.com/auclantis/starknet-react/issues/6 I thought this should be implemented ?","",""
+"930074643186991215","Gil#5097","17/03/2022 11:11 pm","now its working as we discussed, tks a lot 😄","",""
+"208960037308071937","cecco_","17/03/2022 11:21 pm","Can you share the address of the contract?","",""
+"208960037308071937","cecco_","17/03/2022 11:22 pm","If you want to implement this, I'll provide guidance. I think for now it should be a separate hook.","",""
+"208960037308071937","cecco_","17/03/2022 11:22 pm","Let's start by sketching out an API","",""
+"895328389299318866","eni7912","17/03/2022 11:24 pm","okay, thanks
+I'm going to get more familiar with multicalls in starknet and starknetjs before beginning. Any recommandation ? I'll start once I'm ready","",""
+"208960037308071937","cecco_","17/03/2022 11:32 pm","Alas I'm not too familiar with it too. I will post my idea for how the api should look like later today.","","👍 (1)"
+"710142435208069220","bzhbuck","18/03/2022 12:15 am","0x022a3539a4e8f029819b74d24d0f88a75750b948359bb50123f195518749167d","",""
+"208960037308071937","cecco_","18/03/2022 12:46 am","Ok, what's happening is that the contract has only 6 inputs: the first 2 are uint256 so you need to pass `{'low': 0, 'high': 123}`","",""
+"710142435208069220","bzhbuck","18/03/2022 1:01 am","That is helpful however i'm still not seeing anything when I click the mint button.  The only calls in the network tab of the dev console is get_block.  I'm not sure if it's setup incorrectly or not.  The function in which `invoke` is called is being run.  But there's no error message or failure when it is run.","",""
+"208960037308071937","cecco_","18/03/2022 1:27 am","I'm trying to reproduce the behaviour.","","👍🏻 (1)"
+"208960037308071937","cecco_","18/03/2022 2:06 am","Have you tried to print the value of `error`?","",""
+"710142435208069220","bzhbuck","18/03/2022 2:08 am","returns as undefined","",""
+"208960037308071937","cecco_","18/03/2022 2:12 am","Interesting. Do you mint uploading your contract abi to gist.github and sharing it with me?","",""
+"710142435208069220","bzhbuck","18/03/2022 2:13 am","sure","",""
+"710142435208069220","bzhbuck","18/03/2022 2:18 am","https://gist.github.com/BastianDao/29e0def1fa6d302274603219c9fae2af","",""
+"208960037308071937","cecco_","18/03/2022 2:22 am","This code seems to work for me https://gist.github.com/fracek/575fa60beba4482a54865162155683be","",""
+"710142435208069220","bzhbuck","18/03/2022 2:22 am","@cecco_ Think i figured it out.  The second argument is a uint256 as well","",""
+"208960037308071937","cecco_","18/03/2022 2:23 am","Yep!","",""
+"710142435208069220","bzhbuck","18/03/2022 2:23 am","My bad, didn't realize the second argument was also a uint256. Appreciate the help!","",""
+"208960037308071937","cecco_","18/03/2022 2:23 am","No worries, glad it's working now!","","🤝 (1)"
+"511272055623122961","laurip","18/03/2022 6:03 pm","Trying the nextjs example, trying to connect argentx to localhost but the account contract deployment fails every time. ""rejected: illegal method signature"". Ideas? Using 0.6.2.","",""
+"511272055623122961","laurip","18/03/2022 6:10 pm","it sounds like there's some version mismatch, but can't figure out where","",""
+"208960037308071937","cecco_","18/03/2022 6:37 pm","What do  you mean with ""account contract deployment""? What version of Argent X are you using?","",""
+"511272055623122961","laurip","18/03/2022 6:38 pm","3.0","",""
+"511272055623122961","laurip","18/03/2022 6:39 pm","when I try to create a wallet, I assume Argent starts deploying the account contract. and that fails","",""
+"208960037308071937","cecco_","18/03/2022 6:40 pm","It sounds like an issue with Argent","",""
+"511272055623122961","laurip","18/03/2022 6:40 pm","ah, true, probably more at that end. thanks","",""
+"456226577798135808","Deleted User","18/03/2022 8:12 pm","If you use argent extension, you should able to do so, unless the sequencer is slow 🥲","",""
+"456226577798135808","Deleted User","19/03/2022 12:26 am","Hey! When I use useStarknetInvoke, data gives me the transaction hash instantly. How can I detect when this transaction was updated (failed or was a success)?","",""
+"856676601331580938","jpick713","19/03/2022 12:28 am","useTransactionManager hook should help with that
+https://github.com/auclantis/starknet-react/blob/main/examples/starknet-react-next/src/components/TransactionList.tsx
+transaction.status for each item will listen and update","","👍 (1)"
+"456226577798135808","Deleted User","19/03/2022 2:07 am","Awesome, thank you!","",""
+"456226577798135808","Deleted User","19/03/2022 2:42 pm","useTransactionManager worked perfectly 🙂","",""
+"456226577798135808","Deleted User","19/03/2022 2:42 pm","But now I have another issue: when deploying my website on ipfs it seems the connection doesn't work well","",""
+"456226577798135808","Deleted User","19/03/2022 2:43 pm","","https://cdn.discordapp.com/attachments/950372319119937606/954668814702882866/Screen_Recording_2022-03-19_at_10.11.45.mov",""
+"456226577798135808","Deleted User","19/03/2022 2:43 pm","This is what my code looks like:","",""
+"456226577798135808","Deleted User","19/03/2022 2:43 pm","```js
+            if (InjectedConnector.ready) {
+              connect(new InjectedConnector())
+              router.push('/game');
+            } else {
+              setConnectMenuToggled(true)
+            }
+```","",""
+"208960037308071937","cecco_","19/03/2022 3:06 pm","It changed to `InjectedConnect.ready()`","",""
+"456226577798135808","Deleted User","19/03/2022 3:14 pm","Thank you, I'll try that 😛","",""
+"456226577798135808","Deleted User","19/03/2022 3:15 pm","I'm a bit surprised that it works in local and not on the deployed ipfs version though","",""
+"456226577798135808","Deleted User","19/03/2022 3:41 pm","did you change it in 0.6.2? InjectedConnect.ready seems to be undefined for me while InjectedConnector.ready seems to work (except on ipfs)","",""
+"208960037308071937","cecco_","19/03/2022 3:56 pm","Yes 0.6.2 is a bug fix for that. Basically if Argent X is not unlocked/authorized the starknet global is not defined and so it's as if it's not installed.","",""
+"456226577798135808","Deleted User","19/03/2022 4:01 pm","Oh okay that's why updating fixed the bug on ipfs, but I still can't use InjectedConnect.ready","",""
+"208960037308071937","cecco_","19/03/2022 4:02 pm","Ohh, sorry 🤦","",""
+"208960037308071937","cecco_","19/03/2022 4:02 pm","I meant `InjectedConnector.ready()`","",""
+"208960037308071937","cecco_","19/03/2022 4:02 pm","The difference is that now it's a function to a static property","",""
+"456226577798135808","Deleted User","19/03/2022 4:02 pm","Aaaah okay, perfect!","",""
+"619138323776012307","guthl_starkware","20/03/2022 9:33 pm","Can you accept me as a friend?","",""
+"511272055623122961","laurip","21/03/2022 7:03 pm","what kind of plans are there for deploying a contract with the plugin?","",""
+"511272055623122961","laurip","21/03/2022 7:06 pm","or even some possibility to send arbitrary data? (unsure how contract deployment data should & could be sent, though)","",""
+"208960037308071937","cecco_","21/03/2022 7:32 pm","Haven't though about this yet, we probably need a new hook `useContractFactory`and then you can call `.deploy` on the factory?","",""
+"208960037308071937","cecco_","21/03/2022 7:32 pm","What do you mean? At the moment the library is a thin layer on top of starknet.js.","",""
+"856676601331580938","jpick713","21/03/2022 7:32 pm","yeah in starknet deploy is just invoke with type : 'deploy'","",""
+"511272055623122961","laurip","21/03/2022 8:30 pm","I'm just thinking in Ethereum terms, where contract deployment is just sending bytecode. So maybe in the end with Starknet it's similar? No idea. If yes, then allowing the send of arbitrary bytecode through react might be a temporary solution","",""
+"511272055623122961","laurip","21/03/2022 8:30 pm","Will need to look how starknet.js does it","",""
+"208960037308071937","cecco_","21/03/2022 8:31 pm","Deploy transactions are different https://starknet.io/documentation/transaction-structure-and-hash/","",""
+"511272055623122961","laurip","21/03/2022 8:31 pm","Ok, right :)","",""
+"524187438508146699","clacladev","21/03/2022 9:54 pm","Hello @cecco_ I just need a help with the new Invoke and TS (not an expert in TS yet). I created a typed react hook for the mint method of a contract of mine. 
+```
+export interface MintParams {
+  to: string
+  tokenURI: string
+}
+
+export function useMint(): UseStarknetInvoke<MintParams> {
+  return useStarknetInvoke({
+    contract: useChannelContract(),
+    method: 'mint',
+  })
+}
+```
+
+But it seems to be wrong. How do I define the arguments and types of the wrapped invoke() function?","",""
+"208960037308071937","cecco_","21/03/2022 11:00 pm","`MintParams` should be `type MintParams = [string, string]`","",""
+"208960037308071937","cecco_","21/03/2022 11:01 pm","That's because the type of `args` in starknet.js `Contract.invoke` is an array","",""
+"524187438508146699","clacladev","21/03/2022 11:08 pm","thanks!","",""
+"511272055623122961","laurip","22/03/2022 4:44 pm","I'd have need for the deployment functionality soonish. Do you have any estimates about its implementation?","",""
+"511272055623122961","laurip","22/03/2022 4:45 pm","btw, the project is awesome, thanks a lot for this","",""
+"208960037308071937","cecco_","22/03/2022 5:01 pm","I don't need it so I'm not sure I can implement it the best way. I will push the code to a branch, then you copy-paste in your project and let me know if it works well enough for you. Would that be ok?","",""
+"511272055623122961","laurip","22/03/2022 5:02 pm","sounds good!","",""
+"208960037308071937","cecco_","22/03/2022 8:35 pm","You can try this code. If you deploy using `deploy` the transaction is automatically tracked (not sure it works tho). https://gist.github.com/fracek/1b9f9e3bf449c4e183f7168d9297c89b","",""
+"511272055623122961","laurip","23/03/2022 1:34 pm","thanks! will try today or tomorrow","",""
+"524187438508146699","clacladev","23/03/2022 3:41 pm","I have a problem: useStarknetCall always returns undefined. I opened an issue, but is anyone experiencing the same problem? https://github.com/auclantis/starknet-react/issues/68","",""
+"208960037308071937","cecco_","23/03/2022 4:12 pm","Replied on github 🙂","","🙌 (1)"
+"511272055623122961","laurip","23/03/2022 6:40 pm","I'm not sure what's happening. The deployment doesn't even popup my ArgentX, but it gets a transaction hash. But it doesn't seem to get processed. Here's what I do (`TargetSource` is a copy of the artifact JSON from folder starknet-artifacts, `TargetABI` is the ABI from the same folder).
+```
+  const compiled = TargetSource as CompiledContract;
+  const artifact = useContractFactory({
+    compiledContract: compiled,
+    abi: TargetABI as Abi,
+  });
+
+  let waiting: Contract | undefined;
+  const deploy = async () => {
+    waiting = await artifact.deploy({
+      constructorCalldata: [],
+      //addressSalt: """",
+    });
+  };
+  console.log(""deploy"", waiting);
+```","",""
+"208960037308071937","cecco_","23/03/2022 6:48 pm","Add `library` to the dependency list of the `useEffect`","",""
+"511272055623122961","laurip","23/03/2022 6:49 pm","line 33? ok.","",""
+"208960037308071937","cecco_","23/03/2022 6:50 pm","No line 33 in the gist I posted","",""
+"511272055623122961","laurip","23/03/2022 6:50 pm","yeah sorry, local formatting changed stuff","",""
+"511272055623122961","laurip","23/03/2022 6:51 pm","still no popup","",""
+"208960037308071937","cecco_","23/03/2022 6:52 pm","Can you share the compiled contract json in a gist? I can try it out","",""
+"856676601331580938","jpick713","24/03/2022 4:23 pm","is there a nice repo example of an overaching invoke hook that returns as seperate functions multiple invoke methods...
+```{invokeMethod_1, invokeMethod_2,...}``` = useOverarchingInvokeforContractA()?","",""
+"208960037308071937","cecco_","24/03/2022 4:27 pm","So I think the API for that should look like
+
+```
+const { data, loading, error, refetch } = useMulticall([
+ { contract, args },
+ { contract, args },
+])
+```
+
+where `data` is an array with the return values of each multicall call","",""
+"208960037308071937","cecco_","24/03/2022 4:27 pm","Would love to hear everyone's feedback.","",""
+"208960037308071937","cecco_","24/03/2022 4:28 pm","Also a similar interface for `execute`, which is a multi-invoke.","","👍 (1)"
+"856676601331580938","jpick713","24/03/2022 4:29 pm","Thanks, I will dig in to the execute interface while awaiting feedback, that seems along the lines of what I need...","",""
+"856676601331580938","jpick713","24/03/2022 4:30 pm","I had always thought of multicall as being needed for when you have multiple calls in one fell swoop, is execute similar? cause then what I need is not really that (though it will be useful in many cases!), but those broken up into functions","",""
+"208960037308071937","cecco_","24/03/2022 4:30 pm","If you want to contribute to the library I can help you with the contribution.","",""
+"208960037308071937","cecco_","24/03/2022 4:31 pm","Execute is used to send multiple transactions in one, for example approve a token for spending and spend it in one transaction.","",""
+"208960037308071937","cecco_","24/03/2022 4:31 pm","Multicall is an optimization to get multiple call results in one rpc call.","",""
+"856676601331580938","jpick713","24/03/2022 4:32 pm","ok, yeah that is really useful, but not quite what I am envisioning, but yeah that is nice for those use cases","",""
+"208960037308071937","cecco_","24/03/2022 4:32 pm","What do you ned?","",""
+"856676601331580938","jpick713","24/03/2022 4:34 pm","I was thinking more a hook where I could pass in a method name string and it would execute a specific invoke or if that is too tricky, making an hook that encapsulates say 5 different invoke methods for one contract. so for instance if I want to invoke setter_1 I can call setter_1 function, but if I want to call setter_2 I call setter_2 function...","",""
+"208960037308071937","cecco_","24/03/2022 4:40 pm","The first one sounds like `useStarknetInvoke`.","","👍 (1)"
+"856676601331580938","jpick713","24/03/2022 4:40 pm","right, is there an example using multiple methods with that?
+thanks","",""
+"208960037308071937","cecco_","24/03/2022 4:47 pm","You need to call `useStarknetInvoke` with the functions you want to use. 
+
+```
+const { invoke: setter1 } = useStarknetInvoke({...})
+const { invoke: setter2 } = useStarknetInvoke({...})
+```","","👍 (1)"
+"856676601331580938","jpick713","24/03/2022 4:47 pm","thanks, I pretty simple it seems","",""
+"585509977079283744","aundumla","25/03/2022 4:23 am","Would anyone be interested in TypeChain(https://github.com/dethcrypto/TypeChain) for StarkNet?","","💯 (1)"
+"619138323776012307","guthl_starkware","25/03/2022 11:51 am","I don’t know but just do it 🙂","",""
+"585509977079283744","aundumla","25/03/2022 12:06 pm","I asking because it might be already done.","",""
+"208960037308071937","cecco_","25/03/2022 3:29 pm","Yes would love to see that!","",""
+"456226577798135808","Deleted User","27/03/2022 5:26 pm","wow!, yes, I'm very interested","",""
+"585509977079283744","aundumla","28/03/2022 6:08 pm","Anyone knows authors of: https://github.com/akropolisio/typechain-target-starknet ? Seems like an abandoned project.","",""
+"511272055623122961","laurip","28/03/2022 7:00 pm","Is there a way to detect account change? the `account` from `useStarknet` doesn't change","",""
+"208960037308071937","cecco_","29/03/2022 1:25 am","It's an open issue because at the time Argent didn't support it. Should fix it.","",""
+"710142435208069220","bzhbuck","29/03/2022 2:09 am","Having an issue with a basic call to a contract.","",""
+"710142435208069220","bzhbuck","29/03/2022 2:09 am","`  const { data: name, error: nameError } = useStarknetCall({ NFTContract, method: 'name', args: [] })`","",""
+"710142435208069220","bzhbuck","29/03/2022 2:10 am","That and other calls returned undefined in the browser console.  I have confirmed on Voyager there is a value present.  Anything glaringly incorrect with that call?","",""
+"456226577798135808","Deleted User","29/03/2022 9:32 am","for me, nope","",""
+"511272055623122961","laurip","29/03/2022 10:49 am","Ok. Any estimate when could fix? (Should I think of a way around it somehow)","",""
+"208960037308071937","cecco_","29/03/2022 12:24 pm","That looks good and it should work. is `NFTContract` a value returned by `useContract`?","",""
+"208960037308071937","cecco_","29/03/2022 12:24 pm","Will check it over the weekend. Open to contributions for it, I can check them earlier than the weekend.","",""
+"511272055623122961","laurip","29/03/2022 12:27 pm","cool. I'll see if I have an idea - maybe even tomorrow","",""
+"208960037308071937","cecco_","29/03/2022 1:10 pm","I think it's a matter of changing the `useStarknet` hook to listen to account changed events in argent and update `account`","",""
+"511272055623122961","laurip","29/03/2022 1:12 pm","ok, thanks. I realized I can quite easily do my stuff without it (just not try to display the current account address to the user), but if I'll have time I can look into that","",""
+"619138323776012307","guthl_starkware","29/03/2022 3:47 pm","I believe it is abandonned","",""
+"619138323776012307","guthl_starkware","29/03/2022 3:47 pm","You can probably fork it","",""
+"710142435208069220","bzhbuck","29/03/2022 5:14 pm","Yes, NFTContract looks like `const { contract: NFTContract } = useNftContract()`","",""
+"710142435208069220","bzhbuck","29/03/2022 5:14 pm","which is a hook that uses useContract","",""
+"208960037308071937","cecco_","29/03/2022 9:15 pm","Do you see any network request in the inspector? If the contract, method name and args are non null it should make one.","",""
+"856676601331580938","jpick713","29/03/2022 9:18 pm","I have ran similar code and it did not kick a request for me...any idea whythat would happen?","",""
+"208960037308071937","cecco_","29/03/2022 9:23 pm","Odd because it's a very simple case. Does similar code in the same app work?","",""
+"710142435208069220","bzhbuck","29/03/2022 9:32 pm","when I changed it to `const { contract } = useNftContract()` it worked.  I have no idea why.","",""
+"856676601331580938","jpick713","29/03/2022 10:05 pm","yeah, removing the name works...but what if we have multiple contracts in one component?
+you need some type of naming for those right? I guess if custom hooks change the naming within the hook though?","",""
+"208960037308071937","cecco_","29/03/2022 10:30 pm","Yes it's odd bacause it shouldn't make a difference. Maybe the compiler does something weird since the name starts with a capital lettere like components?","",""
+"856676601331580938","jpick713","29/03/2022 10:44 pm","Ok I’ll check again this afternoon 👍","",""
+"511272055623122961","laurip","01/04/2022 12:52 pm","I start getting 429 (too many requests) from the gateway when I only have one waiting transaction. What's the logic how often the library polls the gateway - or does this come directly from starknet.js ?","",""
+"511272055623122961","laurip","01/04/2022 12:54 pm","ah, and about this, I forked and had a look but I don't think I'll be able to fix this.","",""
+"208960037308071937","cecco_","01/04/2022 3:32 pm","The polling is internal to starknet-react, but it shouldn't cause issues unless you have _a lot_ of transactions.","",""
+"511272055623122961","laurip","01/04/2022 3:33 pm","that's what I figured, maybe the gateway was just under a lot of pressure in general - impossible to say","",""
+"176406263700127745","bitter_melon","02/04/2022 4:33 am","","https://cdn.discordapp.com/attachments/950372319119937606/959588955903365120/Screen_Shot_2022-04-01_at_6.58.47_PM.png",""
+"176406263700127745","bitter_melon","02/04/2022 4:34 am","anyone know what are best practices for making contract calls in event listeners/ useEffect in react?","",""
+"176406263700127745","bitter_melon","02/04/2022 4:35 am","","https://cdn.discordapp.com/attachments/950372319119937606/959589237026603029/Screen_Shot_2022-04-01_at_7.04.26_PM.png",""
+"176406263700127745","bitter_melon","02/04/2022 4:37 am","I'm trying to experiment with calling a contract on an OnClick listener and then using that to edit state within a class component, but since i'm new to react it's hard to wrap my head around it","",""
+"456226577798135808","Deleted User","02/04/2022 12:05 pm","I've pushed this issue to starkware team already, Cleary there are a lot of transactions, the gateway cannot process all of it lol.","","👍 (1)"
+"456226577798135808","Deleted User","02/04/2022 12:06 pm","But I have some workaround, by using block change rather than interval polling","",""
+"456226577798135808","Deleted User","02/04/2022 12:07 pm","Doesn't help much if that day has a lot of txs going on, but it's the way to prevent 429 err.","",""
+"619138323776012307","guthl_starkware","02/04/2022 12:12 pm","Can you accept me as friend?","",""
+"511272055623122961","laurip","02/04/2022 1:06 pm","Here's an example where 1) in useEffect 2) use async function to get data 3) update a reference for `useContractFactory` 4) later use the contract returned by the factory. https://github.com/eqlabs/starknet-multisig/blob/2600066392a46307af62af2de1babbe8b428c2ca/frontend/src/components/MultisigSettings.tsx#L95","",""
+"511272055623122961","laurip","02/04/2022 1:07 pm","So, you should use the contract directly outside useEffect, but just update its reference in useEffect","",""
+"176406263700127745","bitter_melon","02/04/2022 6:16 pm","Accepted!","",""
+"176406263700127745","bitter_melon","02/04/2022 6:16 pm","Thanks so much!","",""
+"938795408560386109","ffantta","02/04/2022 11:26 pm","I have tested StarkNet and I really like it. But I have a bug with endless mint on chain my NFT. However after refreshing a website it was done.","","👍🏻 (3)"
+"423156850930876427","lisisichkaa","04/04/2022 10:49 pm","Hi guys)
+There were rumors that you need to put a node not in Eth, but in goerli
+
+is there any official information about this?","",""
+"959966998794752070","0xpretzel#0480","05/04/2022 3:32 am","Hey all, I posted this in the Argent channel but thought it'd be useful to post it here too:
+
+I am having an issue with nonces not increasing in the wallet. It seems that it was fixed a few updates ago (of Argent X) however I'm still experiencing it even though I'm up to date. Any ideas on what's going on?","",""
+"907981161534468146","wind.rider","05/04/2022 7:40 am","Hi Лисичка
+Sorry, if you mean running nodes, I personally think goerli and mainnet are equally important for starknet, plus there is no official information about this
+Thanks","","👍 (2)"
+"208960037308071937","cecco_","05/04/2022 3:01 pm","It should be an argent x issue, the library doesn't manipulate nonces.","","👍 (2)"
+"842523406041481226","vage6751","05/04/2022 3:37 pm","Hello ! I want to leave a review after testing all the Starknet functions, in general, everything works well and is very convenient, the only thing is that the transactions take a long time and the wallet connects slowly, but I'm sure the team will fix everything!","",""
+"744926093760528505","pwnhst88","06/04/2022 1:35 am","Yes alpha version for the transaction si im sure it will be better then 😉 im agree with you","",""
+"954347753918586922","serjik#8449","07/04/2022 2:08 am","guys, i maked just know the testnet. after that i must to write somewhere in discord about this test, or no?","",""
+"907981161534468146","wind.rider","07/04/2022 8:07 am","hi, sir
+If you find a bug related to starknet, you can use this channel #🐞｜starknet-bug-report 
+If it's starkgate related, you can use this channel #🌉｜starkgate and fill  this form https://forms.reform.app/starkware/StarkGate_Feedback/yhyalh
+of course, you are also welcome to discuss starknet on this channel #✨｜starknet 
+
+thank you😀","",""
+"456226577798135808","Deleted User","10/04/2022 2:29 pm","Hey there,
+
+How could I make several calls on my contract asynchronously in a useEffect?
+I have an array of ids and I want to call a function from my contract to get data associated to these ids (colony name, etc), I don't want to redo those calls every time my component is refreshed","",""
+"456226577798135808","Deleted User","10/04/2022 2:30 pm","Something like that:
+```js
+export default function Colonies({ setPage, colonyIds }) {
+
+    const [colonies, setColonies] = useState([]);
+    const { contract } = useEykarContract()
+    useEffect(() => {
+        for (const colonyId of colonyIds) {
+        const { data } = useStarknetCall({ contract: contract, method: 'get_colony', args: colonyId })
+        setColonies(prev => [...prev, data])
+        }
+    }, [colonyIds])
+
+    return (
+        <div className={styles.box}>
+
+            <h1 className={styles.title}>Your colonies</h1>
+
+            {colonies.map(colony => (
+                <li>
+                    { colony.name }
+                </li>
+            ))}
+
+        </div>
+    );
+}
+```","",""
+"456226577798135808","Deleted User","10/04/2022 2:31 pm","The problem is that I can't call a hook here. What would you recommend?","",""
+"511272055623122961","laurip","11/04/2022 11:18 am","If I understood right, I had the same issue a few weeks ago. I was instructed to do it like this (works): https://github.com/eqlabs/starknet-multisig/blob/952ee347f58d3ca6d4126b2e7222b5279521960c/frontend/src/components/MultisigSettings.tsx#L95","",""
+"456226577798135808","Deleted User","11/04/2022 1:16 pm","Thank you, I'm looking into it. So the idea is to call a function created outside the useEffect?","",""
+"511272055623122961","laurip","11/04/2022 1:20 pm","well that's not the main thing, the point is the structure how a state reference is updated due to actions in the useEffect","",""
+"511272055623122961","laurip","11/04/2022 1:21 pm","I needed to call a starknet-react hook after doing an async call (the hook needed input data from the async call). if I understood right, your problem is similar","",""
+"456226577798135808","Deleted User","11/04/2022 1:23 pm","Yeah exactly. What is this hook name ? @LauriP","",""
+"511272055623122961","laurip","11/04/2022 3:24 pm","check usage of `compiledMultisig`. the used hook is `useContractFactory`","",""
+"456226577798135808","Deleted User","11/04/2022 3:35 pm","Alright thank you","",""
+"208960037308071937","cecco_","11/04/2022 3:56 pm","Another option is to create a sub-component for each `colony` where you make the call for that colony. Or contribute a multicall hook to the library 🙂","",""
+"456226577798135808","Deleted User","11/04/2022 10:44 pm","ooh the sub-component is a great idea","",""
+"456226577798135808","Deleted User","16/04/2022 2:55 am","Hey, I am working on a function to send funds to the contract. In order to use it you must first allow the contract to spend an ERC20 amount. Would it be possible to ask the user to sign only one transaction to make a kind of multi invoke?","",""
+"208960037308071937","cecco_","16/04/2022 3:01 am","Yes I belevie argent has an api for it, but I haven't looked into it.","",""
+"208960037308071937","cecco_","16/04/2022 3:02 am","Happy to help work on a pr for it","",""
+"856676601331580938","jpick713","16/04/2022 3:03 am","last i saw argent has transactions could receive Call | Call[] | InvokeTransaction...but I never saw invoke array?","",""
+"456226577798135808","Deleted User","16/04/2022 3:03 am","great, i will ask them more informations about that 🙂","",""
+"208960037308071937","cecco_","16/04/2022 3:07 am","I thought the `execute` call was meant for that, but typing suggests it's only for call like you said.","","👍 (2)"
+"856676601331580938","jpick713","16/04/2022 3:08 am","oh, I could very well have missed it 😂","",""
+"456226577798135808","Deleted User","16/04/2022 11:35 pm","Hey @cecco_ , I asked Julien from argentx about multi invoke and he told me they worked on this feature with starknet and it should already be available on any account and starknet.js should already support it. Do you know where I could get more informations about that?","",""
+"208960037308071937","cecco_","16/04/2022 11:36 pm","I think this is a good starting point https://github.com/0xs34n/starknet.js/blob/develop/src/account/default.ts#L91","",""
+"456226577798135808","Deleted User","17/04/2022 12:01 am","Thank you","",""
+"312157593843924992","chance2dance","17/04/2022 1:15 am","good job","",""
+"456226577798135808","Deleted User","21/04/2022 8:29 pm","Hey, I think starknet-react needs an update for react 18.0.0","",""
+"456226577798135808","Deleted User","21/04/2022 8:51 pm","I am trying to update to starknet-react 0.7.1 but I have one issue: how can I detect if argentx is available?","",""
+"456226577798135808","Deleted User","21/04/2022 8:52 pm","I used to do something like that to toggle a menu which told the user to install argentx:","",""
+"456226577798135808","Deleted User","21/04/2022 8:52 pm","```js
+            if (InjectedConnector.ready()) {
+              connect(new InjectedConnector())
+              router.push('/game');
+            } else {
+              setConnectMenuToggled(true)
+            }
+```","",""
+"456226577798135808","Deleted User","21/04/2022 8:52 pm","Now I tried this:","",""
+"456226577798135808","Deleted User","21/04/2022 8:53 pm","```js
+              if (connectors.length === 1) {
+                const connector = connectors[0];
+                if (connector.available()) {
+                  connect(connector)
+                  router.push('/account');
+                } else {
+                  setConnectMenuToggled(true)
+                }
+              } else // todo: allow the user to chose in a menu
+```","",""
+"456226577798135808","Deleted User","21/04/2022 8:54 pm","But the connector seems to be available even when the extension argentx is disabled, so I looked at the function prototype and found ready, an async function","",""
+"456226577798135808","Deleted User","21/04/2022 8:54 pm","```js
+(async () => {
+              if (connectors.length === 1) {
+                const connector = connectors[0];
+                if (connector.ready()) {
+                  connect(connector)
+                  router.push('/account');
+                } else {
+                  setConnectMenuToggled(true)
+                }
+              }
+            })
+```","",""
+"456226577798135808","Deleted User","21/04/2022 8:55 pm","Unfortunately, ready seems to produce an error:","",""
+"456226577798135808","Deleted User","21/04/2022 8:55 pm","","https://cdn.discordapp.com/attachments/950372319119937606/966721266088304680/unknown.png",""
+"456226577798135808","Deleted User","21/04/2022 8:55 pm","Should I catch it or is there a more elegant way to do that? @cecco_","",""
+"176406263700127745","bitter_melon","22/04/2022 1:27 am","@cecco_ i think the demo is down since your entity changed from auclantis to apibara: https://auclantis.github.io/starknet-react/","",""
+"208960037308071937","cecco_","22/04/2022 1:31 am","Good catch will fix it.","",""
+"452825928096153610","just_passingby","22/04/2022 9:25 pm","Just launch the token and there will no more spammers 😂","",""
+"208960037308071937","cecco_","22/04/2022 9:51 pm","I'm at the conference. Will check this weekend 👍","","❤️ (3)"
+"826831508407975947","rootulp","24/04/2022 3:42 am","any suggestions on how to disconnect an argent connected wallet?","",""
+"208960037308071937","cecco_","24/04/2022 7:25 pm","As I mentioned on gh happy to review a pr for it 🙂","","👍 (2)"
+"456226577798135808","Deleted User","25/04/2022 10:39 am","@cecco_ Hi ser, just saw the 0.7.* changes are about `autoconnect` , is there anything i need to change from 0.6.3","",""
+"208960037308071937","cecco_","25/04/2022 1:36 pm","I don't think so, it was a minor bump because of new features.","",""
+"456226577798135808","Deleted User","26/04/2022 12:39 pm","that's great.","",""
+"456226577798135808","Deleted User","29/04/2022 9:54 am","We are happy to announce that Argent and Braavos have issued together a new get-starknet library that will enable dApps to support multiple wallets on StarkNet, while preserving the same getStarknet APIs, allowing for a seamless transition to the new library.
+
+All, please upgrade to the new get-starknet lib -
+https://www.npmjs.com/package/get-starknet
+
+Thanks to the Braavos team ( @avimak | Braavos | Braavos | Braavos @Motty | Braavos  ) for coming up with the library and proposal, and the great collaboration 🙂
+---
+so, anything needs to be changed from ur side ser @cecco_","",""
+"208960037308071937","cecco_","29/04/2022 12:02 pm","Yep, we can now update the get-starknet library to this version.","","👍 (8)"
+"456226577798135808","Deleted User","30/04/2022 11:19 pm","Nice, thanks ser","",""
+"817346852596875296","cabel1118#6519","07/05/2022 3:01 pm","Hello, could you please tell me how to solve the problem if I cannot cross from the 1st floor to the 2nd floor?","",""
+"907981161534468146","wind.rider","07/05/2022 3:03 pm","Sir, if it‘s a starkgate issue, pls use this channel #🌉｜starkgate 
+also suggest you try again after a while, thanks👍🏻","",""
+"817346852596875296","cabel1118#6519","07/05/2022 3:06 pm","Thank you","","🤝 (2)"
+"483526944881639426","nicolss","07/05/2022 6:05 pm","Hello, I have thousands of request errors on my next.js site using starknet react. Does anyone have any idea what could be causing this? Thanks in advance 🙂","https://cdn.discordapp.com/attachments/950372319119937606/972476709691592754/unknown.png",""
+"483526944881639426","nicolss","07/05/2022 7:33 pm","It seems that the problem is solved (I didn't change anything)","",""
+"208960037308071937","cecco_","07/05/2022 9:35 pm","Looks like a component was making way too many requests and got blocked by the gateway.","",""
+"483526944881639426","nicolss","07/05/2022 9:35 pm","Oh, okay, thanks","",""
+"830988261509824532","hack1t","11/05/2022 8:37 am","yep blocked by the gateway  maybe","",""
+"524187438508146699","clacladev","12/05/2022 8:33 pm","Hello peeps! In my app, when I tap on SignIn button (last img) the modal ""Connect a wallet"" is triggered. But when I tap ""ArgentX"" nothing happens. If I close the modal with the ""X"" then the state updates and the wallet is connected. What it could be?","https://cdn.discordapp.com/attachments/950372319119937606/974325889477279855/Screenshot_2022-05-12_at_16.00.58.png,https://cdn.discordapp.com/attachments/950372319119937606/974325889737310298/Screenshot_2022-05-12_at_16.01.20.png,https://cdn.discordapp.com/attachments/950372319119937606/974325890051895336/Screenshot_2022-05-12_at_16.01.58.png",""
+"832909617742479362","rainmaker668899","12/05/2022 8:59 pm","uggestion:to  make a cross chain video  on  starknet  ,because   we  have  to   set   the   argent x  wallet ,and   many   people  do   not   under   how  to   set","",""
+"208960037308071937","cecco_","13/05/2022 5:42 pm","Can you try log the value of account to see if its updated after you click on the wallet?","",""
+"524187438508146699","clacladev","13/05/2022 5:51 pm","before the account is undefined. then when I tap the ArgentX button nothing happens. no callback, no rerendering. when I tap X, then it rerenders and the account has the wallet address","",""
+"524187438508146699","clacladev","13/05/2022 5:51 pm","I tried to reset all the cache and data, but the behaviour is the same","",""
+"208960037308071937","cecco_","13/05/2022 5:54 pm","Mhm I think the issue is that the library was not updated to the new get starknet library because of a js exception in that library","",""
+"524187438508146699","clacladev","13/05/2022 7:29 pm","I don't know if you mean inside react-starknet library, but in case in my project all deps are up to date (I use ncu to make sure everything is update).
+Here you can see my package dependencies:
+```
+""dependencies"": {
+    ""@argent/get-starknet"": ""^3.4.3"",
+    ""@starknet-react/core"": ""^0.9.0"",
+    ""starknet"": ""^3.9.0"",
+    ...
+  },
+```","",""
+"208960037308071937","cecco_","13/05/2022 8:18 pm","There's a new library from starknet Community libs that replaces argent library","","👌 (6)"
+"524187438508146699","clacladev","16/05/2022 9:51 pm","I am using the `useStarknetTransactionManager()` hook and logging to console the transactions received. When pointing to devnet, I stopped receiving the transaction for the ACCEPTED_ON_L2. I am just receiving the TRANSACTION_RECEIVED transaction. When pointing to alpha, instead I receive the ACCEPTED_ON_L2 transaction.
+Is this normal or is this a bug?","",""
+"403514115181772801","dbao.stark","24/05/2022 10:39 pm","is there any example of created a button to connect to the argentx wallet from react","",""
+"208960037308071937","cecco_","25/05/2022 2:07 am","Sounds like something is different on starknet-devnet","",""
+"208960037308071937","cecco_","25/05/2022 2:07 am","Yep, the example in the repository has exactly that.","",""
+"403514115181772801","dbao.stark","25/05/2022 2:45 am","Must you use Next.js to interact with argent wallet","",""
+"456226577798135808","Deleted User","25/05/2022 1:27 pm","hi @cecco_ is your current starknet-react/core already integrated with get-starknet from community lib?","",""
+"456226577798135808","Deleted User","25/05/2022 1:27 pm","seems like it's still an argent","",""
+"456226577798135808","Deleted User","25/05/2022 1:28 pm","as I remove argent/get-starknet and use get-starknet along with your starknet-react/core, it failed","",""
+"208960037308071937","cecco_","25/05/2022 2:43 pm","Yep still using the old one. Will update this week, they had some issue with react but now they should be fixed.","",""
+"456226577798135808","Deleted User","25/05/2022 5:12 pm","I see, thanks a lot","",""
+"500399309263732760","tonero1710","25/05/2022 10:40 pm","Please when will bridging be open again","",""
+"403514115181772801","dbao.stark","26/05/2022 2:43 pm","where is the new library","",""
+"208960037308071937","cecco_","26/05/2022 2:43 pm","https://github.com/starknet-community-libs","","❤️ (2),✅ (1),🚀 (1)"
+"403514115181772801","dbao.stark","26/05/2022 8:40 pm","is there any documentation for this? Can't find the function to connect wallet","",""
+"820612563553091584","facpr","26/05/2022 8:42 pm","Hello 👋 can’t find early-adopters thread , could someone please help me ?","",""
+"690115504404299928","avimak","29/05/2022 1:26 am","https://github.com/starknet-community-libs/get-starknet#flow","",""
+"690115504404299928","avimak","29/05/2022 1:27 am","use `connect` to connect with a wallet, you could also use the legacy `getStarknet` API -> then call `enable` on the returned object","",""
+"330737541257101312","gaetbout","02/06/2022 12:28 am","Hi,
+I'm  quite a newbie with front end dev and I was wondering what  is the use of the ""refresh"" function in the useStarknetCall:
+https://apibara.github.io/starknet-react/hooks/call
+And how to use it 😦","",""
+"208960037308071937","cecco_","02/06/2022 7:08 pm","It's used to manually have the hook refresh the data from the chain (making a call).","","👏 (1)"
+"456226577798135808","Deleted User","02/06/2022 7:17 pm","Hey, I too am still new to frontend programming and would like to have your advice on how to proceed correctly with react. I want to add a menu that allows users to track the status of their transactions and especially to know what they correspond to.","",""
+"456226577798135808","Deleted User","02/06/2022 7:17 pm","this would look like that","https://cdn.discordapp.com/attachments/950372319119937606/981917097808506940/unknown.png",""
+"456226577798135808","Deleted User","02/06/2022 7:18 pm","For this I need to associate each transaction with some corresponding data","",""
+"456226577798135808","Deleted User","02/06/2022 7:20 pm","I suppose the cleanest way to do this is to rewrite an invokeMeta hook that will itself call the invoke hook and then associate the metadata with the transaction hash in a map","",""
+"456226577798135808","Deleted User","02/06/2022 7:21 pm","Then I could rewrite a TransactionManagerWithMeta hook that will use the TransactionManager hook and look in this map to get the corresponding metadata.","",""
+"456226577798135808","Deleted User","02/06/2022 7:22 pm","I'm not sure if this is the best way to manage the data state with react and I'm interested in your opinion.","",""
+"208960037308071937","cecco_","02/06/2022 8:10 pm","Hey, the `useStarknetInvoke` hook already supports attaching metadata to each invocation. So you can call the `invoke` method as follows: `invoke({args: [1, 2, 3], metadata: {move: 'Moving convoy', expectedArrival: 3885}})`","",""
+"456226577798135808","Deleted User","02/06/2022 8:21 pm","woaw that's awesome, thank you very much @cecco_","",""
+"330737541257101312","gaetbout","02/06/2022 9:52 pm","Is it normal that when trying to connect with ArgentX for some reason it takes a LOT of time? '-'","",""
+"208960037308071937","cecco_","03/06/2022 12:12 am","Sometimes it takes a few seconds for me as well.","","❤️ (1)"
+"330737541257101312","gaetbout","03/06/2022 11:10 pm","I have the same issue as here:
+https://discordapp.com/channels/793094838509764618/950372319119937606/974325891893186600
+And also when trying to disconnect I have an error telling me that no account is connected '-'","",""
+"330737541257101312","gaetbout","03/06/2022 11:11 pm","I tried installing get-starknet not from argent, but it still isn't working 😦","",""
+"456226577798135808","Deleted User","04/06/2022 3:24 pm","Hey, how do you access those metadata from a transaction par of useStarknetTransactionManager transactions?","",""
+"208960037308071937","cecco_","04/06/2022 4:20 pm","I have a PR open to fix that. Will push it over the weekend and it will fix the issue.","","❤️ (1)"
+"208960037308071937","cecco_","04/06/2022 4:21 pm","What do you mean? I think that's the only way to access them.","",""
+"456226577798135808","Deleted User","04/06/2022 4:23 pm","So I added some metadata in the invoke, but when I list my transactions using useStarknetTransactionManager I don't know how to access this metadata again","",""
+"208960037308071937","cecco_","04/06/2022 4:24 pm","Each transaction in `transactions` should have a `metadata` property","",""
+"456226577798135808","Deleted User","04/06/2022 4:24 pm","Is this a recent feature? I might be using an outdated version of starknet-react","",""
+"208960037308071937","cecco_","04/06/2022 4:25 pm","mhm yeah I think it was the latest release","",""
+"456226577798135808","Deleted User","04/06/2022 4:25 pm","ah that's why","https://cdn.discordapp.com/attachments/950372319119937606/982598434190159953/unknown.png","👍 (1)"
+"456226577798135808","Deleted User","04/06/2022 4:25 pm","let's update then 😛","",""
+"456226577798135808","Deleted User","04/06/2022 4:40 pm","I think I have a bug. I disabled argentX from my browser but I can still see it as available in the connectors array","",""
+"208960037308071937","cecco_","04/06/2022 4:48 pm","Yep, but if you call `connector.available()` it will return false, so you can warn the user and point them to the chrome store.","",""
+"456226577798135808","Deleted User","04/06/2022 5:06 pm","The bug is that it returns true","",""
+"208960037308071937","cecco_","04/06/2022 5:07 pm","Ok I'll check it out today. Working on updating to get-starknet","",""
+"456226577798135808","Deleted User","04/06/2022 5:07 pm","awesome, thank you","",""
+"208960037308071937","cecco_","05/06/2022 2:49 pm","I released a new version of starknet-react with support for get-starknet. Let me know if it works for you!","","🔥 (2)"
+"456226577798135808","Deleted User","06/06/2022 3:00 pm","yes it looks like it is working","",""
+"456226577798135808","Deleted User","06/06/2022 3:05 pm","I have a few questions:
+- How can we change how the ""chose wallet menu"" looks like?
+- I only saw this menu one time, how can I ""reopen"" it for testing?
+- How can we detect that an option was selected (I'ld like to open the menu when the user clicks on my play button and move him to the /game page only when he selected an option)","",""
+"208960037308071937","cecco_","06/06/2022 4:42 pm","Short answer: at the moment you can't change that window. Long answer: I believe the best way forward is to have one `InjectedConnector` for each installed wallet so that you can create a custom ""connect wallet"" dialog (like it happens on L1).  The issue to track that is this one https://github.com/apibara/starknet-react/issues/81","",""
+"208960037308071937","cecco_","06/06/2022 4:43 pm","To re-test that modal you need to tell the wallet to forget about your website. In both Argent and Bravoos that's in the options.","",""
+"208960037308071937","cecco_","06/06/2022 4:44 pm","The best way to detect when a user connects a wallet is to add something like:
+
+```ts
+useEffect(() => {
+  if (account) {
+    router.navigateTo('/game')
+  }
+}, [account, router])
+```","",""
+"456226577798135808","Deleted User","06/06/2022 5:01 pm","Great thank you Francesco","",""
+"482234732768133120","Dave_#2123","09/06/2022 6:54 pm","hey guys i'm learning starknetJS by deploying an argent account, but i get this error when initializing an account.","https://cdn.discordapp.com/attachments/950372319119937606/984447953940926514/Screen_Shot_2022-06-09_at_9.21.13_AM.png",""
+"482234732768133120","Dave_#2123","09/06/2022 6:55 pm","OUT_OF_RANGE_FEE: max_fee must be greater than 0","",""
+"208960037308071937","cecco_","09/06/2022 7:12 pm","Looks like an issue with starknet.js, probably easier to ask in #🔌｜starknet-js","",""
+"482234732768133120","Dave_#2123","09/06/2022 7:23 pm","ops","",""
+"482234732768133120","Dave_#2123","09/06/2022 7:23 pm","wrong channel tu","",""
+"482234732768133120","Dave_#2123","09/06/2022 7:23 pm","ty","",""
+"854319056467263489","shashankmestry","10/06/2022 5:46 pm","I was calling an external function using invoke function as follows. 
+```
+invoke({
+   args: [name, symbol, ""100000""],
+   metadata: { method: 'createToken', message: 'create new Token' },
+})
+```
+
+But I am getting error as 
+`Error: Invalid character`","",""
+"854319056467263489","shashankmestry","10/06/2022 5:53 pm","Do I need to format String and Number arguments differently while passing into args?","",""
+"208960037308071937","cecco_","11/06/2022 9:58 pm","Are name and symbol strings? I haven't used string arguments in starknet.js, the react library is a thin wrapper over starknet.js","",""
+"854319056467263489","shashankmestry","11/06/2022 10:46 pm","Yes. Name and symbol are strings.","",""
+"208960037308071937","cecco_","11/06/2022 11:41 pm","You should check how to convert from string to felt in starknet.js","",""
+"854319056467263489","shashankmestry","12/06/2022 7:01 am","Ok. Thanks. I will check.","",""
+"456226577798135808","Deleted User","13/06/2022 4:44 pm","hi @cecco_ I think there is a bug during the time the injected connect trying to connect (but no network approval before)","",""
+"456226577798135808","Deleted User","13/06/2022 4:46 pm","connect(injectedConnector) cause an error like this
+next-dev.js?3515:32 UserRejectedRequestError: User rejected request
+    at InjectedConnector.connect
+
+but when switched to use 
+starknet = getStarknet()
+await starknet.enable()
+
+it worked properly","",""
+"208960037308071937","cecco_","13/06/2022 4:47 pm","Can you open an issue on github?","",""
+"456226577798135808","Deleted User","13/06/2022 4:52 pm","yeah sure","",""
+"456226577798135808","Deleted User","13/06/2022 5:15 pm","Hey prolly my misunderstanding on showModal flag","",""
+"456226577798135808","Deleted User","13/06/2022 5:15 pm","sry for that","",""
+"208960037308071937","cecco_","13/06/2022 5:16 pm","No worries, I also don't like the current API too much to be honest. I don't have clear how to improve it tho","",""
+"456226577798135808","Deleted User","13/06/2022 5:19 pm","so is the wallet select modal is kinda enforced?","",""
+"456226577798135808","Deleted User","13/06/2022 5:19 pm","i mean if I specify showModal = false because I don't want the modal to pop up, it seems like network approval won't be shown","",""
+"456226577798135808","Deleted User","13/06/2022 5:19 pm","really confused now haha.","",""
+"208960037308071937","cecco_","13/06/2022 5:20 pm","So the alternative is to instantiate one `InjectedConnector` for each installed wallet. Then you (as dev) need to create your own modal","",""
+"208960037308071937","cecco_","13/06/2022 5:20 pm","The advantage of that is that the style of the modal fits your application design.","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:21 pm","can't we do something with the new `getInstalledWallet()` provided by `get-starknet`?","",""
+"456226577798135808","Deleted User","13/06/2022 5:21 pm","that's what I want it to be","",""
+"456226577798135808","Deleted User","13/06/2022 5:21 pm","that's why I set showModal to be false, but then, network approval won't show","",""
+"208960037308071937","cecco_","13/06/2022 5:22 pm","Yes, they added it because I asked it for this.","",""
+"208960037308071937","cecco_","13/06/2022 5:22 pm","The idea is to have `@starknet-react/core` only provide the connectors, then `@starknet-react/wallet-modal` provide a basic (styleable) ui for the modal","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:23 pm","ok","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:25 pm","for `get-starknet` I proposed some changes for the `connect` method
+- first split UI and logic (which will be available on `get-starknet/core` without any UI
+- then  add a parameter like `connect(""braavos"")` or `connect(""argentx"")` to be able to force `get-starknet` to use the good provider","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:25 pm","do you think it could help you on `starknet-react`?","",""
+"208960037308071937","cecco_","13/06/2022 5:26 pm","Yep that would work great actually","",""
+"208960037308071937","cecco_","13/06/2022 5:26 pm","Basically have two methods: 1) get installed wallets with their id + info (name, logo, link) 2) connect wallet by id","",""
+"208960037308071937","cecco_","13/06/2022 5:27 pm","Also it would be extra nice to have a `disconnect()` that automatically disconnects the connected wallet.","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:28 pm","did they not already provide such a method?","",""
+"689026847903580324","Laurent#2508","13/06/2022 5:29 pm","if you call `disconnect({clearLastWallet: true})` it should work and forgot the last used wallet.","",""
+"208960037308071937","cecco_","13/06/2022 5:29 pm","Oh I didn't realize they had that","","👍 (1)"
+"912862480743673907","Numbers#4639","13/06/2022 5:32 pm","hello, are there any examples of how to call a function using the account contract so that the get_caller_address() doesn't return 0?","",""
+"208960037308071937","cecco_","13/06/2022 5:33 pm","Hi, what do you mean?","",""
+"208960037308071937","cecco_","13/06/2022 5:34 pm","That's the normal case if you first connect the wallet","",""
+"912862480743673907","Numbers#4639","13/06/2022 5:35 pm","Hi @cecco_  I am using the template that project that calls the counter using ""useStarknetCall""","",""
+"912862480743673907","Numbers#4639","13/06/2022 5:35 pm","if I change the counter functionality to return the caller address ""get_caller_address()"" it returns 0 always","",""
+"912862480743673907","Numbers#4639","13/06/2022 5:35 pm","but the sample works with tests using the hardhag plugin","",""
+"912862480743673907","Numbers#4639","13/06/2022 5:36 pm","for example using ""await account0.invoke(...)""","",""
+"208960037308071937","cecco_","13/06/2022 5:36 pm","That's odd, I'll investigate and let you know.","",""
+"912862480743673907","Numbers#4639","13/06/2022 5:37 pm","thank you!","",""
+"456226577798135808","Deleted User","13/06/2022 5:39 pm","@cecco_ so basically, if I wish to bypass the modal thing, I do need to specify my own injected with one of wallet ready right?","",""
+"456226577798135808","Deleted User","13/06/2022 5:40 pm","says I want to have only 1 wallet operated in the app for now","",""
+"456226577798135808","Deleted User","13/06/2022 5:43 pm","but I still doubt during the network approval, If i wish to bypass showModal, how can I do that having network approval popup","",""
+"208960037308071937","cecco_","13/06/2022 5:57 pm","Short version is that now it's not possible 😦","",""
+"208960037308071937","cecco_","13/06/2022 5:58 pm","I'll add it this week because now `get-starknet` should support everything needed to achieve that","",""
+"912862480743673907","Numbers#4639","13/06/2022 6:02 pm","perhaps I am using the wrong syntax. Should I use ""useStarknetCall(contract: TARGET_CONTRACT..."" or useStarnetCall(contract: ACCOUNT_CONTRACT...) and if the latter, how do I get the ACCOUNT_CONTRACT?","",""
+"208960037308071937","cecco_","13/06/2022 6:02 pm","Nope the first version is the correct one","",""
+"912862480743673907","Numbers#4639","13/06/2022 6:03 pm","ok thx, not working for me, would be great to have an example in GitHub","",""
+"689026847903580324","Laurent#2508","13/06/2022 6:07 pm","Started a thread.","",""
+"912862480743673907","Numbers#4639","13/06/2022 6:13 pm","btw, I am using Argent-X in localhost devnet. My contracts work with hardhat plugin","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:25 pm","Hey guys how do you receive and convert strings like name, symbol, etc. using `useStarknetCall()`?","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:27 pm","```javascript
+import { decodeShortString } from ""starknet/dist/utils/shortString"";
+
+const { data } = useStarknetCall({ contract, method: ""name"", args: [] });
+console.log(""data"", data && decodeShortString(data[0].toString(16)));
+```","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:28 pm","This is how I ended up converting strings and this for sure doesn't look very comfy","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:29 pm","Are there any conventional ways of doing such things?","",""
+"208960037308071937","cecco_","13/06/2022 6:29 pm","You can use the functions in starknet.js https://github.com/0xs34n/starknet.js/blob/develop/src/utils/shortString.ts","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:48 pm","@cecco_ Yeah thanks, it requires string as arg, so I need to convert it to hex and only then decode","",""
+"465738994584649728","sa.bur.o","13/06/2022 6:48 pm","Thought there might be more straightforward ways of doing such things","",""
+"208960037308071937","cecco_","13/06/2022 6:49 pm","Nope, strings are still not fully backed into the language so it's awkward sometimes.","",""
+"208960037308071937","cecco_","13/06/2022 9:07 pm","I made a PR with the proposed changes to the connector interface https://github.com/apibara/starknet-react/pull/127","","🔥 (1)"
+"208960037308071937","cecco_","13/06/2022 9:07 pm","Now it's a good time to give feedback 🙂","",""
+"689026847903580324","Laurent#2508","13/06/2022 9:27 pm","I will look at it tonight 😉","",""
+"330737541257101312","gaetbout","13/06/2022 10:16 pm","Worked perfectly, thx!","",""
+"690115504404299928","avimak","14/06/2022 12:24 am","tnx, commented on github's","",""
+"465738994584649728","sa.bur.o","14/06/2022 12:57 pm","Trying to pass some complex args and can't figure out how to do it properly","",""
+"465738994584649728","sa.bur.o","14/06/2022 1:00 pm","```c
+struct erc20:
+    member erc_address: felt
+    member low_num: felt
+    member high_num: felt
+    member low_den: felt
+    member high_den: felt
+end
+
+struct num_dem:
+    member n: Uint256
+    member d: Uint256
+end
+```","",""
+"465738994584649728","sa.bur.o","14/06/2022 1:06 pm","Would be great to have some example on passing complex args (aside from incrementing just a number)","",""
+"950258962048118795","mn_ali","14/06/2022 6:06 pm","Super good speed I really enjoyed the ease of use of this platform, I look forward to starting transactions in Dapps .❤️","https://cdn.discordapp.com/attachments/950372319119937606/986247788763439144/stark.jpg",""
+"907981161534468146","wind.rider","14/06/2022 6:09 pm","thanks for your support🤝 sir, but for starkgate related content, pls use this channel #🌉｜starkgate , thanks","",""
+"950258962048118795","mn_ali","14/06/2022 6:22 pm","Excuse me boss , thank you for your help🫡🙏🏻","","🤝 (1)"
+"208960037308071937","cecco_","14/06/2022 6:58 pm","Yep good point. The library uses starknet js so it's the same as there. In this case structs are encoded as js objects.","",""
+"887999107715715083","trejowsk","14/06/2022 8:53 pm","Hello! I am having some issues with the TX manager - it does not seem to update the transactions even though the network tab & voyager shows that it's accepted on L2 (and tx manager is showing stale data)
+Here's the link to the repro:
+https://codesandbox.io/s/tx-manager-bug-repro-69omrc","",""
+"887999107715715083","trejowsk","14/06/2022 9:08 pm","It does not also seem to help when i try to manually refresh that tx hash","",""
+"524728144674947082","redbeard2","15/06/2022 5:08 am","It looks like the transaction response is different to expected at https://github.com/apibara/starknet-react/blob/main/packages/core/src/providers/transaction/reducer.ts#L48 (transaction hash is within the transaction in alpha-goerli response)","https://cdn.discordapp.com/attachments/950372319119937606/986414253609201675/unknown.png",""
+"208960037308071937","cecco_","15/06/2022 1:48 pm","You should be able to see the fee set by the wallet before sending the tx.","",""
+"887999107715715083","trejowsk","15/06/2022 1:58 pm","transaction hashes in the manager seem to be okay, did something change in the response format that's causing the issue? TBH not sure i follow","",""
+"208960037308071937","cecco_","15/06/2022 2:07 pm","Try seeing max fee as number not bn","",""
+"524728144674947082","redbeard2","15/06/2022 3:23 pm","I think the response format is different between Goerli network and mainnet (and this package works for the mainnet response)","",""
+"208960037308071937","cecco_","15/06/2022 5:09 pm","Have you tried updating starknet js?","",""
+"208960037308071937","cecco_","15/06/2022 6:56 pm","Interesting, can you open an issue on github?","",""
+"208960037308071937","cecco_","15/06/2022 7:48 pm","Looks like the error is not with the tx fee but that the transaction will fail. Can you post the function signature and the parameters you're passing?","",""
+"887999107715715083","trejowsk","15/06/2022 8:48 pm","JFYI i opened an issue on github for this (starknet.js):
+https://github.com/0xs34n/starknet.js/issues/218
+It should be fixed first there i suppose, since 0.9.0 is on mainnet now as well","","👍 (2)"
+"465738994584649728","sa.bur.o","15/06/2022 9:36 pm","Started a thread.","",""
+"912862480743673907","Numbers#4639","16/06/2022 6:44 pm","Hey mate, any luck on this?","",""
+"208960037308071937","cecco_","16/06/2022 6:45 pm","I can't reproduce it. All calls go trough argent wallet for me.","",""
+"912862480743673907","Numbers#4639","16/06/2022 6:46 pm","Both on devnet and testnet?","",""
+"887999107715715083","trejowsk","16/06/2022 6:57 pm","https://github.com/apibara/starknet-react/issues/128
+Is this issue going to get addressed? Don't know whether i should implement my own tx tracker/make a PR or wait for the bugfix","",""
+"887999107715715083","trejowsk","16/06/2022 6:59 pm","Seems like an easy one but i had some trouble setting up dev environment tbh","",""
+"912862480743673907","Numbers#4639","16/06/2022 7:04 pm","Are able to share your test please?","",""
+"208960037308071937","cecco_","16/06/2022 7:11 pm","I'm using the example application.","",""
+"912862480743673907","Numbers#4639","18/06/2022 1:56 pm","should the get_caller_address() work when the function is ""Called"" not ""Invoked""?","",""
+"887999107715715083","trejowsk","18/06/2022 4:05 pm","I think you should refer to this point in documentation
+https://www.cairo-lang.org/docs/hello_starknet/user_auth.html?highlight=get_caller_address#getting-the-caller-address
+This syscall will return 0 when you call the contract directly, rather than through account contract proxy (like you showed in earlier messages - `await account.invoke....`).","",""
+"912862480743673907","Numbers#4639","18/06/2022 4:20 pm","thank you","",""
+"912862480743673907","Numbers#4639","19/06/2022 4:39 pm","hey mate, FYI on the one hand it seems to me like the useStarknetInvoke does call through the contract and the get_caller_address does return an actual address, on the other hand,  useStarknetCall interacts with StarkNet as an anonymous user and get_caller_address returns 0","",""
+"912862480743673907","Numbers#4639","19/06/2022 4:43 pm","this behaviour is different to how it works when running tests with hardhat-starknet plugin.","",""
+"208960037308071937","cecco_","19/06/2022 5:09 pm","IIRC that's the expected behaviour.","",""
+"966543947855986729","bi#2279","19/06/2022 8:30 pm","Hey everyone, can I ask where the profit when running the button will be sent because I'm a newbie","",""
+"912862480743673907","Numbers#4639","20/06/2022 4:31 am","Ok good to know. Thank you!","",""
+"483526944881639426","nicolss","21/06/2022 10:26 pm","Hello ! I am trying to use the ethereum contract on goerli, however I can't use the hooks, although they work perfectly with a contract I created myself. But I can use the contract with the second syntax, for example ethContract.approve. This shows that the contract works perfectly, but not the hooks. When I use them, nothing happens (no error, nothing is displayed). Do you have any idea what the problem is? Thanks in advance
+
+```js
+  const { data:approveData, approveLoading, error:approveError, reset:approveReset, invoke:approve } = useStarknetInvoke({ ethContract, method: 'approve'})
+
+  // It doesn't work
+  useEffect(() => {
+    ethContract && approve({ args: ['0x6806c42960e739918af543b733e76eb4f52a99402ec00e57794cb26cb3a6723', [100000000, 0]] })
+  }, [ethContract, approve])
+  // It doesn't work
+  ethContract && approve({ args: ['0x6806c42960e739918af543b733e76eb4f52a99402ec00e57794cb26cb3a6723', [100000000, 0]] })
+  
+  // It works
+  ethContract && ethContract.approve('0x6806c42960e739918af543b733e76eb4f52a99402ec00e57794cb26cb3a6723', [100000000, 0])
+```","",""
+"483526944881639426","nicolss","21/06/2022 10:28 pm","Here is the eth contract : https://goerli.voyager.online/contract/0x4bb0f7af15a5469be4a571c8660d9aaf39e7e67f27f774702d75e77141ef90#writeContract","https://cdn.discordapp.com/attachments/950372319119937606/988850307964473344/unknown.png",""
+"208960037308071937","cecco_","22/06/2022 8:27 pm","It looks like `approve` arguments are: `spender: felt` and `amount: felt`, so `args` should be a two element array. The first argument is an hex encoded felt (like in your case), the second argument should also be either a number or hex encoded felt","",""
+"483526944881639426","nicolss","22/06/2022 8:33 pm","Thank you cecco, I tried that way but this didn't work:
+```js
+  useEffect(() => {
+    approve({ args: ['0x6806c42960e739918af543b733e76eb4f52a99402ec00e57794cb26cb3a6723', '0x5F5E100'] })
+  }, [ethContract, approve])
+```","",""
+"483526944881639426","nicolss","22/06/2022 8:34 pm","Hmm amount should be an uint actually","",""
+"208960037308071937","cecco_","22/06/2022 8:34 pm","Odd, and calling the contract's function with the same arguments work?","",""
+"483526944881639426","nicolss","22/06/2022 8:35 pm","This way it works:","",""
+"483526944881639426","nicolss","22/06/2022 8:35 pm","```
+ethContract.approve('0x6806c42960e739918af543b733e76eb4f52a99402ec00e57794cb26cb3a6723', [100000000, 0])```","",""
+"483526944881639426","nicolss","22/06/2022 8:36 pm","But not when trying to pass it as a felt:","",""
+"483526944881639426","nicolss","22/06/2022 8:36 pm","","https://cdn.discordapp.com/attachments/950372319119937606/989184566814212107/unknown.png",""
+"208960037308071937","cecco_","22/06/2022 8:36 pm","what's the `approve` signature?","",""
+"483526944881639426","nicolss","22/06/2022 8:38 pm","I think it's the ERC20 approve function","",""
+"483526944881639426","nicolss","22/06/2022 8:38 pm","I downloaded the ETH token ABI","",""
+"208960037308071937","cecco_","22/06/2022 8:39 pm","If it's the OZ contract then it should be an uint256","",""
+"483526944881639426","nicolss","22/06/2022 8:39 pm","yes","",""
+"483526944881639426","nicolss","22/06/2022 8:39 pm","That's why I use an array","",""
+"208960037308071937","cecco_","22/06/2022 8:39 pm","try `args: ['0x...', {high: 0, low: 123}]`","",""
+"208960037308071937","cecco_","22/06/2022 8:40 pm","but it's strange because the hook passes args to the contract as is","",""
+"208960037308071937","cecco_","22/06/2022 8:40 pm","mhm can you change the call to be in response to a click event?","",""
+"208960037308071937","cecco_","22/06/2022 8:43 pm","bad bot 🙂","","😭 (1)"
+"483526944881639426","nicolss","22/06/2022 8:44 pm","","https://cdn.discordapp.com/attachments/950372319119937606/989186670257655878/unknown.png",""
+"208960037308071937","cecco_","22/06/2022 8:46 pm","that's very weird because it looks 100% correct. Can you open  a bug on github attaching the abi file?","",""
+"483526944881639426","nicolss","22/06/2022 8:46 pm","Ok, thanks for your help","",""
+"936111918379323443","Victor-#8350","26/06/2022 9:24 pm","Hmm which util function converts string to felt? Not seeing it 😮","",""
+"208960037308071937","cecco_","26/06/2022 9:47 pm","This one https://github.com/0xs34n/starknet.js/blob/develop/src/utils/shortString.ts#L13","",""
+"936111918379323443","Victor-#8350","26/06/2022 10:06 pm","Ty 🙂","",""
+"511272055623122961","laurip","27/06/2022 11:58 am","Is the Starknet 0.9 way of deploying contracts supported in some way?","",""
+"456226577798135808","Deleted User","28/06/2022 10:36 am","Hi mate, is there anyway I can switch baseUrl (feeder + gateway) from the default one to the one from Pathfinder/ Chainstack fullnodes api?","",""
+"208960037308071937","cecco_","01/07/2022 6:53 pm","In general deploying is still not well supported. You can use the starknet.js api directly tho","",""
+"511272055623122961","laurip","01/07/2022 6:54 pm","thanks. will wait for starknetjs to get it published 🙂","",""
+"208960037308071937","cecco_","01/07/2022 6:54 pm","When starknet.js merges the pr we can start thinking how to expose it.","",""
+"208960037308071937","cecco_","01/07/2022 6:56 pm","The main issue is that it looks like the response object is different? Have to look into it","",""
+"511272055623122961","laurip","01/07/2022 6:57 pm","well everything is different, since deployment got split into two phases","",""
+"662387807901188096","fricoben","01/07/2022 7:55 pm","Hi !","",""
+"662387807901188096","fricoben","01/07/2022 7:56 pm","I'm trying starknet-react for the first time","",""
+"662387807901188096","fricoben","01/07/2022 7:56 pm","","https://cdn.discordapp.com/attachments/950372319119937606/992436092747919460/Capture_decran_2022-07-01_a_16.17.47.png",""
+"662387807901188096","fricoben","01/07/2022 7:58 pm","I had this error with a next.js app","",""
+"662387807901188096","fricoben","01/07/2022 7:59 pm","has it happened to someone already ?","",""
+"208960037308071937","cecco_","01/07/2022 8:46 pm","My fault, I didn't release a new version yet but the template expects it. I'm going to fix this shortly","",""
+"662387807901188096","fricoben","01/07/2022 8:52 pm","No problem ! Will it be ok next week ?","",""
+"208960037308071937","cecco_","01/07/2022 9:00 pm","I'm updating it now 🙂","",""
+"662387807901188096","fricoben","01/07/2022 9:02 pm","what a chad","",""
+"208960037308071937","cecco_","01/07/2022 9:08 pm","If you create a new project from scratch it should work. Alternatively, change the `@starknet-react/core` version to `0.12.0`","",""
+"662387807901188096","fricoben","01/07/2022 9:11 pm","thanks","",""
+"755138851395338420","aalimsahin","02/07/2022 2:00 am","","https://cdn.discordapp.com/attachments/950372319119937606/992527536884031699/unknown.png",""
+"953547276125622302","JamesLopez#1590","02/07/2022 5:07 pm","I did everything, but I don't get any money, maybe someone can help me?","https://cdn.discordapp.com/attachments/950372319119937606/992755827003895908/unknown.png",""
+"907981161534468146","wind.rider","02/07/2022 5:12 pm","hi,for starkgate related issues,pls use #🌉｜starkgate , i've answered you in there, pls check it, thank you😀","",""
+"208960037308071937","cecco_","03/07/2022 5:08 pm","Looks like you're using a call to starknet.js. You should look into the `useStarknetInvoke` hook.","",""
+"755138851395338420","aalimsahin","03/07/2022 6:15 pm","Thank you ✋","",""
+"662387807901188096","fricoben","04/07/2022 8:21 pm","Hey !","",""
+"662387807901188096","fricoben","04/07/2022 8:22 pm","```  const { data: nftsOwnedData } = useStarknetCall({
+    contract: contract,
+    method: ""balance_of"",
+    args: [account],
+  });```","",""
+"662387807901188096","fricoben","04/07/2022 8:22 pm","I use this to check balanceOf NFTs depending on owner but I always have undefined","",""
+"662387807901188096","fricoben","04/07/2022 8:23 pm","I verified several times my contract abi and address are good, the function is balance_of and account is not undefined","",""
+"662387807901188096","fricoben","04/07/2022 8:24 pm","So tbh idk what to do lol, can it be a problem from starknet-react ?","",""
+"662387807901188096","fricoben","04/07/2022 9:27 pm","also in next.js this piece of code create this error","",""
+"662387807901188096","fricoben","04/07/2022 9:27 pm","code ```              {connectors.map((connector) =>
+                connector.available() ? (
+                  <Button
+                    key={connector.id()}
+                    onClick={() => connect(connector)}
+                  >
+                    Claim your Starknet.id
+                  </Button>
+                ) : (
+                  <div></div>
+                )
+              )}````","",""
+"662387807901188096","fricoben","04/07/2022 9:27 pm","error","",""
+"662387807901188096","fricoben","04/07/2022 9:27 pm","","https://cdn.discordapp.com/attachments/950372319119937606/993546198524891144/Capture_decran_2022-07-04_a_17.56.27.png",""
+"208960037308071937","cecco_","04/07/2022 9:38 pm","Yes that issues happens because connectors are injected in the browser, so the server side has no connectors in it. In the newest example I fixed it with dynamic components https://github.com/apibara/starknet-react/blob/main/examples/starknet-react-next/src/components/ConnectWallet/index.ts","",""
+"208960037308071937","cecco_","04/07/2022 9:39 pm","Yeah it's odd because it looks correct (other than that if it's an OZ Contract it's `balanceOf`). What version of starknet-react and starknet.js are you using?","",""
+"662387807901188096","fricoben","04/07/2022 10:28 pm","version of starknet-react 0.12.0","",""
+"662387807901188096","fricoben","04/07/2022 10:28 pm","and starknet js 3.15","",""
+"208960037308071937","cecco_","04/07/2022 11:15 pm","Does the network tab show any request being made to the contract? What's the value of `error` returned by the hook?","",""
+"662387807901188096","fricoben","05/07/2022 11:46 am","yep there is a response","",""
+"662387807901188096","fricoben","05/07/2022 11:46 am","the error is ""contract call is not a function""","",""
+"662387807901188096","fricoben","05/07/2022 11:51 am","when I console.log my contract I see that contract.callStatic exist but not contract.call, can it be something in relation with that","",""
+"208960037308071937","cecco_","05/07/2022 1:18 pm","Mhm you could be. Try downgrade starknet.js?","",""
+"662387807901188096","fricoben","05/07/2022 2:19 pm","nope not that","",""
+"662387807901188096","fricoben","05/07/2022 2:19 pm","I tried to downgrade to 3.5.1","",""
+"662387807901188096","fricoben","05/07/2022 2:26 pm","I tried with other hooks like invoke and I have the same type of htings","",""
+"662387807901188096","fricoben","05/07/2022 2:26 pm","things*","",""
+"662387807901188096","fricoben","05/07/2022 2:26 pm","""contract.invoke is not a function""","",""
+"662387807901188096","fricoben","05/07/2022 2:52 pm","Found it thanks to @Deleted User, I wrote ```const contract```  instead of ```const { contract }```","",""
+"208960037308071937","cecco_","05/07/2022 3:19 pm","Glad you solved it!","",""
+"691600366260715522","0xclement","10/07/2022 7:51 pm","Hey, I am struggling using `useStarknetCall`
+I just want to call this function in my contract:
+```
+@view
+func get_proposals{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(account: felt) -> (
+        res : felt):
+    let (res) = proposals.read(account=account)
+    return (res)
+end
+```
+
+Here is what I do:
+```
+  const { data, loading, error, refresh } = useStarknetCall({ contract: rooms, method: 'get_proposals', args: [""0x47E9F6CA38cf10E85E04c5129D11aFBdE5AcC7437285E5212Fbf288bE3FEcf""] })
+```
+
+I've attached the error I get.
+I've also tried with the decimal version of the address, and it didn't work neither. Does someone know what I am doing wrong?","https://cdn.discordapp.com/attachments/950372319119937606/995696225233928202/Capture_decran_2022-07-10_a_16.20.14.png",""
+"381686849774682112","TURBO#6141","11/07/2022 11:55 am","how do you disconnect a wallet with get-starknet?","",""
+"907981161534468146","wind.rider","11/07/2022 12:41 pm","Sorry sir🙏🏻 , pls be patient with the answer on dev support channel ,and pls don't post the same content on different channels, thank you","",""
+"381686849774682112","TURBO#6141","11/07/2022 1:04 pm","Ok sorry","","🤝 (1)"
+"208960037308071937","cecco_","11/07/2022 4:22 pm","I haven't found a good way, I usually disconnect from the wallet directly.","",""
+"208960037308071937","cecco_","11/07/2022 4:24 pm","That's an odd error. There's no `flat` in starknet-react so the error must be originating somewhere else.","",""
+"208960037308071937","cecco_","11/07/2022 4:25 pm","I believe the error is originating in `starknet.js`, you should check with them.","",""
+"208960037308071937","cecco_","11/07/2022 4:25 pm","My guess is that response in `undefined` for some reason and they call `flat` on it.","",""
+"509692086556033024","distracteddev","11/07/2022 4:56 pm","Hey, I have been having problems with making a starknet call. For some reason when I am calling a contract it is using the query https://alpha4.starknet.io/feeder_gateway/call_contract?blockNumber=pending
+
+There seems to be an issue on voyager where the contract deployed is stuck in pending, so I'm wondering whether starknet react uses that to try and make a request?
+
+When making the call directly in postman it works:","",""
+"509692086556033024","distracteddev","11/07/2022 4:57 pm","`https://alpha4.starknet.io/feeder_gateway/call_contract`
+
+body:
+
+```
+{
+    ""contract_address"": ""0x03053e2e251cb67e652baf3a3ff091f807bfdc1f01ee21ef64180559bc0ee739"",
+    ""entry_point_selector"": ""0x361458367e696363fbcc70777d07ebbd2394e89fd0adcaf147faccd1d294d60"",
+    ""calldata"": [],
+    ""signature"": []
+}
+```","",""
+"509692086556033024","distracteddev","11/07/2022 5:01 pm","voyager have been notified on the stuck in pending issue (specifically for factory deployed contracts) https://goerli.voyager.online/contract/0x03053e2e251cb67e652baf3a3ff091f807bfdc1f01ee21ef64180559bc0ee739
+
+However was wondering how starknet react works rather than just making the postman request above?","",""
+"509692086556033024","distracteddev","11/07/2022 5:20 pm","just tried directly with starknetjs and the issue persists, will move conversation there","",""
+"367354037776941058","mefыch#0708","11/07/2022 7:31 pm","Hi guys! Can I please help, can I listen for events from a smart contract? using starknet-js","",""
+"208960037308071937","cecco_","11/07/2022 11:20 pm","Starknet react doesn't expose this yet, you should ask in #🔌｜starknet-js . AFAIK there is no streaming API support yet","","😆 (1)"
+"381686849774682112","TURBO#6141","12/07/2022 8:04 am","whenever i try to deploy on vercel, i get this error: 
+Module not found: Can't resolve 'starknet' in '/vercel/path0/node_modules/@starknet-react/core/dist/hooks'
+
+can someone please help?","",""
+"381686849774682112","TURBO#6141","12/07/2022 12:26 pm","nvm, for some reason it still deployed...","",""
+"208960037308071937","cecco_","12/07/2022 5:22 pm","starknet js is a peer dependency, that means you need to install it separately.","",""
+"381686849774682112","TURBO#6141","13/07/2022 9:58 am","i did","",""
+"208960037308071937","cecco_","13/07/2022 3:10 pm","That's odd. Do you have the same issue with a local build? What if you rebuild on vercel without cache?","",""
+"381686849774682112","TURBO#6141","13/07/2022 5:45 pm","no issue on local build","",""
+"208960037308071937","cecco_","13/07/2022 6:43 pm","Then I would try to trigger a new build on vercel and tick the box to not use the existing cache.","",""
+"923689386678308945","..spk#8786","13/07/2022 7:07 pm","Thats great project","",""
+"756206974731026524","bitcoearn","14/07/2022 1:32 pm","Yes off course","",""
+"483526944881639426","nicolss","15/07/2022 7:49 pm","Hello ! I don't know if it's a bug with Starknet React or with ArgentX, but when I go to a website using both (e.g. https://quests.eykar.org/; https://www.starknet.id/), everything works normally, until I reload the page. Once the page is reloaded, ArgentX is no longer detected. However, this does not happen in localhost (with exactly the same code), this may be because the site is in http and not https. I have this problem on Chrome, Firefox, Brave, Edge. I tried on two computers.","",""
+"483526944881639426","nicolss","15/07/2022 8:08 pm","Ah, I think this is the same issue https://github.com/apibara/starknet-react/issues/69","",""
+"483526944881639426","nicolss","15/07/2022 8:09 pm","I had already set a setTimeout of 50 ms, but it is apparently not enough","",""
+"483526944881639426","nicolss","15/07/2022 8:11 pm","With a delay of 150ms, this does not fix the problem","",""
+"208960037308071937","cecco_","15/07/2022 11:30 pm","Yeah it's still not clear why this happens.","",""
+"785232313998770177","thecrazysuisse","18/07/2022 12:20 am","Hey guys, could someone explain me how can I get the ethkey and OperatorSignature?","https://cdn.discordapp.com/attachments/950372319119937606/998300772787818536/unknown.png",""
+"208960037308071937","cecco_","25/07/2022 3:59 pm","What app is that?","",""
+"947350493515096104","unknown_art#6696","28/07/2022 5:09 am","hey guys, are there examples of how to set maxFee when calling invoke()?","",""
+"405618855730479125","kootszhin","28/07/2022 6:19 am","is there a way to disable wallet pop out when the page starts?","",""
+"208960037308071937","cecco_","28/07/2022 4:02 pm","Remove the `autoConnect` option in the root provider","","🔥 (1)"
+"208960037308071937","cecco_","28/07/2022 4:03 pm","There's an `overrides` argument to invoke, IIRC this works `invoke({ args, overrides: { maxFee: 12345 }})`","",""
+"947350493515096104","unknown_art#6696","28/07/2022 8:48 pm","thanks, that's what I did as well but I get back error with `TypeError: transactionsDetail.maxFee.gt is not a function`, so I convert it to BN but gives same error, very strange","",""
+"208960037308071937","cecco_","28/07/2022 8:52 pm","Did you convert using starknet.js?","",""
+"947350493515096104","unknown_art#6696","28/07/2022 9:16 pm","yeah right using ""starknet/dist/utils/number"" and have v3.15.4
+just trying to get that incrementCounter example working, invoke({ args: [""0x1""], overrides: { maxFee: toBN(5000000000} })","",""
+"208960037308071937","cecco_","28/07/2022 9:21 pm","It's odd because it looks like the error is originating in starknet.js","",""
+"947350493515096104","unknown_art#6696","28/07/2022 9:38 pm","gotcha, thanks for direction, will dig into that further","",""
+"165993969442881536","mattc_1","29/07/2022 2:41 am","Why does the `execute` function returned by `useStarknetExecute` not take any arguments? What if I don't know the calldata until I want to call execute, and not when the hook is setup?
+
+I would expect it to be like `useStarknetInvoke`, where you can call the returned `invoke` function with some args?","",""
+"405618855730479125","kootszhin","29/07/2022 5:36 am","`useStarknetExecute` is a game changer!! :HeadToTheFuckingWall:","",""
+"208960037308071937","cecco_","29/07/2022 3:53 pm","The plan (before we release v1) is to get closer and closer to wagmi in term of api. The `invoke` api will also change to be like that.","",""
+"208960037308071937","cecco_","29/07/2022 3:54 pm","Once you get used to it it's easier to use, can just pass `execute` or `invoke` to `onClick` etc.","",""
+"483526944881639426","nicolss","30/07/2022 9:06 pm","I've had a problem for a while with Starknet React. On any website using the library. Reloading the page once or twice, no more connectors are found by the hooks. How to fix the problem?
+
+```js
+  const { account, connect, connectors } = useStarknet()
+
+    useEffect(() => {
+      const connectorId = getCookie(""connector"")
+      console.log(connectors)
+      const connector = connectors.find(connector => connector.id() === connectorId)
+      if (!connector) return;
+      connector.ready().then(ready => {
+        connect(connector)
+      }) 
+    }, [connectors])
+```","",""
+"483526944881639426","nicolss","30/07/2022 9:06 pm","The weird thing is that this never happens on localhost.","",""
+"509692086556033024","distracteddev","31/07/2022 12:23 pm","might just be that your package is out of date? I normally import connectors with another hook: 
+
+`const { connect, connectors } = useConnectors()`","",""
+"483526944881639426","nicolss","31/07/2022 12:45 pm","Oh okay, thanks !","",""
+"483526944881639426","nicolss","31/07/2022 1:07 pm","I still have the same problem","",""
+"509692086556033024","distracteddev","31/07/2022 2:59 pm","This is what I use. Doesn't track  cookies, but incase multiple wallets it will open a menu of connectors and connect to what they choose.
+```
+if (connectors.length === 1) {
+    const connector = connectors[0];
+    try {
+        connect(connector);
+    } catch (err) {
+        setConnectMenuToggled(true);
+    }
+} else {
+    setConnectMenuToggled(true);
+}
+```","",""
+"483526944881639426","nicolss","31/07/2022 8:11 pm","Even with a super simple system, with only one wallet installed... Starknet react can't find any connector","",""
+"483526944881639426","nicolss","31/07/2022 8:13 pm","In fact it find all the connectors, but, when I reload the page, 0 connectors are found. I don't have this issue on localhost.","",""
+"509692086556033024","distracteddev","31/07/2022 9:28 pm","Ok that's very odd. Not sure but only thing I can think is that the useEffect might be causing you problems. I use connectors directly on render","",""
+"483526944881639426","nicolss","31/07/2022 11:07 pm","I'll try it, thanks","",""
+"456226577798135808","Deleted User","01/08/2022 3:19 am","Hey, I have the same problem than @Nico. Is there any example that works with get-StarkNet? I am unsure how to use it to connect","",""
+"483526944881639426","nicolss","01/08/2022 12:51 pm","```js
+  const { connect, connectors } = useConnectors()
+
+  console.log(connectors)
+```
+It doesn't work after reloading the page","",""
+"483526944881639426","nicolss","01/08/2022 12:51 pm","What version of Starknet React do you use ?","",""
+"509692086556033024","distracteddev","01/08/2022 2:53 pm","0.13.2","",""
+"509692086556033024","distracteddev","01/08/2022 2:53 pm","you can check my UI here in case it helps: https://github.com/Guildly/front_end","",""
+"483526944881639426","nicolss","01/08/2022 3:26 pm","Thanks","",""
+"707131341141049344","danilowhk","05/08/2022 7:22 am","Hi! Is there any easy implementation for allowing user to select between argentX and braavos wallet? Or these 2 options needs to be implemented seperately in 2 different functions?","",""
+"509692086556033024","distracteddev","05/08/2022 5:51 pm","Did you solve this issue, I just put my UI in production and now it is doing the same 😬","",""
+"483526944881639426","nicolss","05/08/2022 5:55 pm","No, I haven't found a solution yet :/","",""
+"456226577798135808","Deleted User","05/08/2022 6:58 pm","same issue for me 🥲","",""
+"208960037308071937","cecco_","05/08/2022 7:10 pm","What issue? If it's the production build failing to detect wallets I haven't been able to reproduce, but i know it sometimes happens.","",""
+"456226577798135808","Deleted User","05/08/2022 11:46 pm","if you need help to reproduce I can show you","",""
+"208960037308071937","cecco_","06/08/2022 9:06 pm","Can you also post it in this issue? I believe it's the same issue https://github.com/apibara/starknet-react/issues/69","",""
+"456226577798135808","Deleted User","07/08/2022 1:26 am","the repo I have this bug with? 🙂","",""
+"208960037308071937","cecco_","07/08/2022 4:46 am","Yep, anything that i can run to reproduce the issue.","",""
+"405618855730479125","kootszhin","08/08/2022 1:27 am","The connect wallet example in the repo should help","",""
+"707131341141049344","danilowhk","08/08/2022 3:22 am","Yes 🙂 already managed to implement it! Thank You","",""
+"208960037308071937","cecco_","09/08/2022 4:58 pm","I think the best way for now is to manually instantiate the connectors and not through `getInstalledInjectedConnetors`. Something like
+
+```ts
+const connectors = [
+  new InjectedConnector({ options: { id: 'wallet-1' } }),
+  new InjectedConnector({ options: { id: 'wallet-2' } }),
+]
+```","",""
+"208960037308071937","cecco_","09/08/2022 4:58 pm","Where `wallet-1` and `wallet-2` are the ids of the wallets you want to support","",""
+"208960037308071937","cecco_","09/08/2022 4:58 pm","Like `braavos`  or `argentx`.","",""
+"456226577798135808","Deleted User","09/08/2022 5:29 pm","Alright, I will do so","",""
+"483526944881639426","nicolss","12/08/2022 7:20 pm","This does not work for me
+```js
+  const { connect, connectors: detectedConnectors } = useConnectors()
+  const [ connectors, setConnectors ] = useState(detectedConnectors)
+  useEffect(() => {
+    setConnectors(detectedConnectors.length && false ? detectedConnectors : [
+      new InjectedConnector({ options: { id: 'argentx' } }),
+      new InjectedConnector({ options: { id: 'braavos' } }),
+    ])
+    const connector = connectors[0]
+    console.log(connector)
+    connect(connector)
+  }, [detectedConnectors])
+```","https://cdn.discordapp.com/attachments/950372319119937606/1007647317475733525/unknown.png",""
+"906356462945722370","CaseyW#3646","13/08/2022 2:16 am","Hi All, 
+
+I’m trying to pass an array to the argument ‘args’ in useStarknetCall and am looking to know the correct format.
+
+Here is the function:
+
+@view
+func argarr_test {
+        range_check_ptr
+    } (in_len: felt, in : felt*) -> (
+        out_len : felt,
+        out : felt*
+    ):
+    return (out_len=in_len, out=in)
+end
+
+Here is the attempted call:
+
+  const { data: counterResult } = useStarknetCall({
+    contract: counter,
+
+    method: ""argarr_test"",
+
+# how would I properly add an array size + array to this call?
+    args: [2, [3, 4]],
+
+    options: { watch: true },
+  })
+
+
+Any help would be appreciated.","",""
+"483526944881639426","nicolss","13/08/2022 6:47 pm","I think you can do the transaction on voyager and see how the arguments are presented","https://cdn.discordapp.com/attachments/950372319119937606/1008001451693441095/unknown.png",""
+"619138323776012307","guthl_starkware","14/08/2022 4:58 pm","Can you add me on Discord?","","👍 (2)"
+"520276777226993674","iris8600","22/08/2022 7:57 pm","Hey, I also have this error. I instantiate manually the connectors but it still doesn't work for some user. Does anyone have a solution ? Thanks.","",""
+"208960037308071937","cecco_","22/08/2022 8:00 pm","You're seeing the issue even with `InjectedConnecor({id: 'xxx'})`? Is your repo open source so that I can look into it?","",""
+"520276777226993674","iris8600","22/08/2022 8:09 pm","Thanks ! Here is my repo : https://github.com/irisdv/FrensLands-front/blob/main/src/client/components/ConnectWallet.tsx","",""
+"465738994584649728","sa.bur.o","23/08/2022 4:56 pm","Seems like the latest starknet has has no exported member named AddTransactionResponse
+https://github.com/apibara/starknet-react/blob/bf8e21cfdbd912e621fdcf165963bd384432bbaf/packages/core/src/hooks/invoke.ts#L17","",""
+"465738994584649728","sa.bur.o","23/08/2022 4:57 pm","@cecco_ could you please take a look? otherwise `execute` hook gets typing errors","",""
+"208960037308071937","cecco_","23/08/2022 5:24 pm","Ok I will look into it today","",""
+"208960037308071937","cecco_","23/08/2022 5:33 pm","I'm using v3.18 of starknet.js and AddTransactionResponse is still there. Are you using v4?","",""
+"208960037308071937","cecco_","23/08/2022 5:39 pm","Can't update to starknet.js v4 until get-starknet bumps their peer dependency to that","",""
+"293072814116831244","bouchut","23/08/2022 6:45 pm","Hello guys, 
+Is anyone already encountered the CORS policy issue using starknet-react ? And any hint how to solve that ? ```Access to XMLHttpRequest at 'https://alpha4.starknet.io/feeder_gateway/call_contract?blockNumber=pending' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.```","",""
+"403514115181772801","dbao.stark","23/08/2022 6:53 pm","is there a way to make connect(connector) async?","",""
+"662387807901188096","fricoben","23/08/2022 7:24 pm","Hey","",""
+"662387807901188096","fricoben","23/08/2022 7:24 pm","What are the version of starknet react and starknet js are compatible ?","",""
+"208960037308071937","cecco_","23/08/2022 7:42 pm","Starknet-react works with starknet.js v3. Will support v4 once get-starknet updates their peer dependency","",""
+"208960037308071937","cecco_","23/08/2022 7:42 pm","That's an issue of the starknet gateway, sometimes it happens. The issue is that the server doesn't set the CORS headers.","",""
+"208960037308071937","cecco_","23/08/2022 7:43 pm","What do you mean?","",""
+"293072814116831244","bouchut","23/08/2022 9:33 pm","ok so nothing I can do ?","",""
+"208960037308071937","cecco_","23/08/2022 9:57 pm","You can look for a browser addon that disables cors headers.","",""
+"293072814116831244","bouchut","24/08/2022 2:37 am","but that would work only for me then and not for other people accessing my dapp ?","",""
+"208960037308071937","cecco_","24/08/2022 2:38 am","Yes, but the issue should be fixed by now. When it happens it's usually for a few minutes","",""
+"208960037308071937","cecco_","24/08/2022 2:38 am","It's the gateway server missing the cors headers in the response so chrome blocks all requests","",""
+"403514115181772801","dbao.stark","24/08/2022 10:05 am","I creating a function that requires the user to login with their wallet. Only after connecting then I would perform the next functions.","",""
+"403514115181772801","dbao.stark","24/08/2022 12:14 pm","in the documentation for starknet react (https://apibara.github.io/starknet-react/hooks/connectors) it states that return value for connect is a Promise<void> . Is this no longer the case for the latest version of starknet-react?","https://cdn.discordapp.com/attachments/950372319119937606/1011888711618801664/unknown.png,https://cdn.discordapp.com/attachments/950372319119937606/1011888712021446726/unknown.png",""
+"208960037308071937","cecco_","24/08/2022 3:19 pm","You can use `useEffect(() => {}, [account])` to achieve that","",""
+"208960037308071937","cecco_","24/08/2022 3:19 pm","When users login, the value of `account` changes from `undefined` to their account","",""
+"662387807901188096","fricoben","24/08/2022 6:31 pm","Hi !","",""
+"662387807901188096","fricoben","24/08/2022 6:32 pm","Do you know where can I find some docs concerning multicall with starknet-react ? or multi call on starknet in general ?","",""
+"208960037308071937","cecco_","24/08/2022 9:38 pm","We have the execute hook https://apibara.github.io/starknet-react/hooks/execute","",""
+"662387807901188096","fricoben","25/08/2022 12:26 pm","thanks","",""
+"662387807901188096","fricoben","25/08/2022 12:27 pm","do you know a repo where I can find some utilization examples ?","",""
+"208960037308071937","cecco_","25/08/2022 2:45 pm","I haven't seen anyone use it in a open source repo. What's not clear?","",""
+"403514115181772801","dbao.stark","29/08/2022 8:40 am","Is there a function that checks what network they are connected to? for example mainnet or goerli","",""
+"662387807901188096","fricoben","29/08/2022 2:49 pm","Thanks for the help you gave to thorgal about that multicall","",""
+"208960037308071937","cecco_","29/08/2022 2:50 pm","That would be a good addition, PR welcome! 🙂","",""
+"662387807901188096","fricoben","29/08/2022 2:50 pm","We add another transaction for the multicall","",""
+"662387807901188096","fricoben","29/08/2022 2:50 pm","that pass sometimes but sometimes don't","",""
+"208960037308071937","cecco_","29/08/2022 2:50 pm","So variable number of tx?","",""
+"662387807901188096","fricoben","29/08/2022 2:51 pm","```         {
+          contractAddress:
+            ""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"",
+          entrypoint: ""approve"",
+          calldata: [
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+            price,
+            0,
+          ],
+        },
+        {
+          contractAddress:
+            ""0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b"",
+          entrypoint: ""mint"",
+          calldata: [new BN(newTokenId).toString(10), ""0""],
+        },
+        {
+          contractAddress:
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+          entrypoint: ""buy"",
+          calldata: [
+            new BN(newTokenId).toString(10),
+            ""0"",
+            encodedDomain.toString(10),
+            new BN(duration * 365).toString(10),
+            new BN((account ?? """").slice(2), 16).toString(10),
+          ],
+        }, ```","",""
+"662387807901188096","fricoben","29/08/2022 2:51 pm","Yep we do a useEffect and a useState","",""
+"662387807901188096","fricoben","29/08/2022 2:52 pm","here is the useEffect and useState code","",""
+"208960037308071937","cecco_","29/08/2022 2:53 pm","You can use `useMemo` to achieve a similar effect","",""
+"662387807901188096","fricoben","29/08/2022 2:53 pm","```  useEffect(() => {
+    if (tokenId != 0) {
+      setCallData([
+        {
+          contractAddress:
+            ""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"",
+          entrypoint: ""approve"",
+          calldata: [
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+            price,
+            0,
+          ],
+        },
+        {
+          contractAddress:
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+          entrypoint: ""buy"",
+          calldata: [
+            new BN(tokenId).toString(10),
+            ""0"",
+            encodedDomain.toString(10),
+            new BN(duration * 365).toString(10),
+            new BN((account ?? """").slice(2), 16).toString(10),
+          ],
+        },
+      ]);
+    } else {
+      setCallData([
+        {
+          contractAddress:
+            ""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"",
+          entrypoint: ""approve"",
+          calldata: [
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+            price,
+            0,
+          ],
+        },
+        {
+          contractAddress:
+            ""0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b"",
+          entrypoint: ""mint"",
+          calldata: [new BN(newTokenId).toString(10), ""0""],
+        },
+        {
+          contractAddress:
+            ""0x0449af81aa1b018adc9fc37dbceecdb8197a9c7b50e252f714a3c0d502f76435"",
+          entrypoint: ""buy"",
+          calldata: [
+            new BN(newTokenId).toString(10),
+            ""0"",
+            encodedDomain.toString(10),
+            new BN(duration * 365).toString(10),
+            new BN((account ?? """").slice(2), 16).toString(10),
+          ],
+        },
+      ]);
+    }
+  }, [tokenId]);
+```","",""
+"662387807901188096","fricoben","29/08/2022 2:53 pm","This is the whole code with the useEffect","",""
+"662387807901188096","fricoben","29/08/2022 2:53 pm","someTimes it works sometimes it does not","",""
+"208960037308071937","cecco_","29/08/2022 2:54 pm","You need to pass all values used in the calls in the dependency list","",""
+"208960037308071937","cecco_","29/08/2022 2:54 pm","Or they will have outdated values","",""
+"662387807901188096","fricoben","29/08/2022 2:56 pm","Oh yeah","",""
+"662387807901188096","fricoben","29/08/2022 2:56 pm","might be that","",""
+"662387807901188096","fricoben","29/08/2022 2:56 pm","Let me try","",""
+"662387807901188096","fricoben","29/08/2022 3:01 pm","of course it was that ^^","",""
+"662387807901188096","fricoben","29/08/2022 3:01 pm","thanks again","",""
+"696324969881403453","maksimjeet","29/08/2022 7:13 pm","Started a thread.","",""
+"979880679032619139","teddynotbear","30/08/2022 2:56 pm","Hi, does anyone know how I can add max_fee during invocation because I have a ""StarknetErrorCode.OUT_OF_RANGE_FEE"" error?","https://cdn.discordapp.com/attachments/950372319119937606/1014103850778624091/unknown.png",""
+"403514115181772801","dbao.stark","31/08/2022 4:43 pm","When i try to useStarknetCall for a view function it gives me an error saying that my contract is not deployed. But it is visible in voyager am i doing something wrong","",""
+"208960037308071937","cecco_","01/09/2022 12:46 pm","You can do `invoke({args: {...}, overrides: {max_fee: 123}})`","",""
+"208960037308071937","cecco_","01/09/2022 12:47 pm","Weird, how are you calling the hook?","",""
+"403514115181772801","dbao.stark","02/09/2022 12:08 pm","It was just a wrong contract address","",""
+"403514115181772801","dbao.stark","02/09/2022 5:59 pm","is it possible to get transaction object when the invoke function is called","",""
+"403514115181772801","dbao.stark","02/09/2022 5:59 pm","before it is sent to the transactionManager","",""
+"208960037308071937","cecco_","02/09/2022 6:56 pm","What do you mean?","",""
+"208960037308071937","cecco_","02/09/2022 11:26 pm","I released version 0.13.4 that fixes an issue with the multicall hook https://github.com/apibara/starknet-react/releases/tag/%40starknet-react%2Fcore%400.13.4","",""
+"530813107212255234","zeapherine","05/09/2022 6:13 pm","hello, trying the starknet-react to connect wallets, but am facing an issue.
+could anyone tell me what might be wrong?
+
+```
+./node_modules/@starknet-react/core/dist/providers/starknet/manager.js 26:36
+Module parse failed: Unexpected token (26:36)
+File was processed with these loaders:
+ * ./node_modules/react-scripts/node_modules/babel-loader/lib/index.js
+You may need an additional loader to handle the result of these loaders.
+|       {
+|         return { ...state,
+>           library: action.provider ?? starknet_1.defaultProvider
+|         };
+|       }
+```","",""
+"530813107212255234","zeapherine","05/09/2022 6:41 pm","this error is thrown when i import and try to use starknet-react","",""
+"208960037308071937","cecco_","05/09/2022 7:53 pm","How did you create the project?","",""
+"530813107212255234","zeapherine","06/09/2022 10:44 am","It was created using CRA.
+
+``` ""react-scripts"": ""^4.0.3"",
+ ""react"": ""^17.0.2"",
+ ""typescript"": ""^4.5.2"",
+```","",""
+"208960037308071937","cecco_","06/09/2022 6:55 pm","For some reason starknet-react (and starknet.js IIRC) don't work with CRA. My advice is to use the next.js template provided","",""
+"530813107212255234","zeapherine","06/09/2022 7:58 pm","Is there a work around to make it work with CRA?","",""
+"208960037308071937","cecco_","06/09/2022 8:00 pm","Haven't found one, probably need to configure the babel loader correctly somehow","",""
+"530813107212255234","zeapherine","06/09/2022 8:00 pm","I tried to configure Babel loader using craco, but couldn't make it work.","",""
+"208960037308071937","cecco_","06/09/2022 8:24 pm","I don't think anyone figured out how to make it work, even if you can load starknet-react then you're going to be affected by this https://github.com/0xs34n/starknet.js/issues/37","",""
+"286210715604221963","alexhalo3115","07/09/2022 3:53 am","Hello i am trying to call a view function to get the name of the ERC20 token in this example for now
+
+my calls to make transactions work as intended but when i try and call a view function i dont get the expected output instead i get this","https://cdn.discordapp.com/attachments/950372319119937606/1016836014800638042/unknown.png",""
+"286210715604221963","alexhalo3115","07/09/2022 3:53 am","is it because i am not turning the returning type from a felt to a string?","",""
+"286210715604221963","alexhalo3115","07/09/2022 3:54 am","btw i am trying to do this via the argent wallet","",""
+"509692086556033024","distracteddev","07/09/2022 4:08 am","yes you will need to convert the BN to string","",""
+"509692086556033024","distracteddev","07/09/2022 4:09 am","here's what I use 
+```
+export function feltToString(felt) {
+    const newStrB = Buffer.from(felt.toString(16), 'hex')
+    return newStrB.toString()
+}
+```","",""
+"286210715604221963","alexhalo3115","07/09/2022 4:59 am","ok will give it a try ina bit and will let you know thanks dude","",""
+"349267519040651265","dhruv_kelawala","07/09/2022 3:28 pm","This issue must have been solved by now because both the libs that were causing the issues have been removed. Ledger and Superstruct. The issue with CRA now seems like has to do with starknet-react.
+
+https://github.com/0xs34n/starknet.js/issues/131
+https://github.com/0xs34n/starknet.js/issues/172","",""
+"349267519040651265","dhruv_kelawala","07/09/2022 3:28 pm","cc: @zeapherine","","🖖 (1)"
+"208960037308071937","cecco_","07/09/2022 3:42 pm","Good to know, then I'll check what's happening","",""
+"208960037308071937","cecco_","07/09/2022 3:45 pm","Is the repository available anywhere? Is it  a ts or js project?","",""
+"530813107212255234","zeapherine","07/09/2022 5:24 pm","Its a typescript project.
+unfortunately the repo is a private repo for now. I will see what i can do and get back to you.","",""
+"286210715604221963","alexhalo3115","07/09/2022 6:08 pm","```
+export const checkName = async (
+  network: PublicNetwork,
+): Promise<any> => {
+  const starknet = getStarknet()
+  console.log(""eheheheheheh"");
+  
+  if (!starknet?.isConnected) {
+    throw Error(""starknet wallet not connected"")
+  }
+  const erc20Contract = new Contract(
+    Erc20Abi as Abi,
+    getErc20TokenAddress(network),
+    starknet.account as any,
+  )
+  // return erc20Contract.name()
+  return feltToString(erc20Contract.name())
+}
+
+
+
+export function feltToString(felt : any) {
+  console.log(felt);
+  
+  const newStrB = Buffer.from(felt.toString(16), 'hex')
+  console.log(newStrB.toString());
+  
+  return newStrB.toString()
+}
+
+```
+
+sorry for the late response but as a follow up, is this how it should be structured, because when i run it it logs an empty string","https://cdn.discordapp.com/attachments/950372319119937606/1017051348086300712/unknown.png",""
+"509692086556033024","distracteddev","07/09/2022 9:09 pm","hmm I'm not sure why it logs nothing, does `erc20Contract.name()` give you the `BN` variable you posted above?","",""
+"286210715604221963","alexhalo3115","07/09/2022 11:28 pm","``` const handleNameCheck = async () => {
+
+    setTransactionStatus(""approve"")
+
+    const result = await checkName(newNetVar)
+    
+    var word = feltToString(result)
+    console.log(""should output name"");
+    
+    console.log(word);
+    
+    setLastTransactionHash(result.transaction_hash)
+    setTransactionStatus(""pending"")
+  };  ```
+
+this is the function where everything is called from and i did now manage to make it print something","https://cdn.discordapp.com/attachments/950372319119937606/1017131735043035237/unknown.png",""
+"286210715604221963","alexhalo3115","08/09/2022 12:19 am","For anyone having a similar issue to this 
+
+use these two function 
+
+```
+export function feltToString(felt :any) {
+  const newStrB = Buffer.from(felt.toString(16), 'hex')
+  return newStrB.toString()
+}
+
+export function stringToFelt(str :any) {
+  return ""0x"" + Buffer.from(str).toString('hex')
+}
+
+```
+
+
+then import this
+
+```
+import { toBN } from ""starknet/dist/utils/number"";
+```
+
+
+and then where you call your contract from use this syntax
+```
+const handleNameCheck = async () => {
+
+    setTransactionStatus(""approve"")
+    
+
+    // THIS BIT OF CODE HERE
+    const result = await checkName(newNetVar)
+    console.log(feltToString(toBN(result.toString())))
+    // THIS BIT OF CODE HERE
+
+
+    setLastTransactionHash(result.transaction_hash)
+    setTransactionStatus(""pending"")
+  };  
+
+```
+
+
+Thank you to @distracteddev  for finding the solution, all credit goes to him","","👍 (2)"
+"730591521501347934","Jimothy#8368","08/09/2022 12:38 am","Can you show where you define the variable `Erc20Abi`  in this code?
+
+I have an import of the contract abi in my TS code but it is failing and I have to use the type unsafe `abi as Abi` which has issues downstream because when creating the contract the abi is not interpreted as an array and it fails on `.filter`
+
+My code:
+```
+import * as abi from ""../stark_contracts/l1_l2.abi.json"";
+import { L2_BRIDGE_CONTRACT_ADDRESS } from ""./constants"";
+
+const main = async () => {
+  const contract = new Contract(abi, L2_BRIDGE_CONTRACT_ADDRESS);
+  ...
+}
+```","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:38 am","The error","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:38 am","","https://cdn.discordapp.com/attachments/950372319119937606/1017149455495090316/unknown.png",""
+"286210715604221963","alexhalo3115","08/09/2022 12:39 am","give me one sec","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:39 am","","https://cdn.discordapp.com/attachments/950372319119937606/1017149694822064238/unknown.png",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:39 am","kk","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:39 am","thanks","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:42 am","i have this import 
+
+import Erc20Abi from ""../abi/ERC20.json""
+
+
+in the file where all the stuff that has to do with the ""contract"" is 
+
+i basically call this everytime i call a function to do anything ralated to the contract 
+
+  const erc20Contract = new Contract(
+    Erc20Abi as Abi,
+    getErc20TokenAddress(network),
+    starknet.account as any,
+  )
+
+
+so for example i need to get the name of the token
+
+```
+
+export const checkName = async (
+  network: PublicNetwork,
+): Promise<any> => {
+  const starknet = getStarknet()
+  
+  if (!starknet?.isConnected) {
+    throw Error(""starknet wallet not connected"")
+  }
+
+
+//here
+  const erc20Contract = new Contract(
+    Erc20Abi as Abi,
+    getErc20TokenAddress(network),
+    starknet.account as any,
+  )
+
+
+
+    
+
+
+  return erc20Contract.name()
+}
+```","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:42 am","also there is to bare in mind that i was having error and react didnt like i had the ABI folder outside of my src","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:42 am","so i put it in there","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:42 am","","https://cdn.discordapp.com/attachments/950372319119937606/1017150512136728728/unknown.png",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:43 am","this seems more like a fundamental JS error somehow not recognizing the value of the string when comparing the type definition","https://cdn.discordapp.com/attachments/950372319119937606/1017150674133332068/unknown.png",""
+"286210715604221963","alexhalo3115","08/09/2022 12:44 am","are you using TS or JS?","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:44 am","TS","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:44 am","tbh i am quite new to both the only reason i am using react is because i can use it to call argent function using the unity game engine","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:44 am","hmm]","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:45 am","but from the very limited use of this language i can tell that i HATE IT  there are always issues with types everywhere","","😂 (1)"
+"286210715604221963","alexhalo3115","08/09/2022 12:45 am","have you looked at the example argent gives you of a react application?","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:45 am","haha","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:45 am","I love it for the strong typing","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:45 am","you will too after using it enough","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:46 am","https://tenor.com/view/oh-sure-john-candy-ok-gif-15377612","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:46 am","no I haven't, I'm not using react this is just backend","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:46 am","mhmhmh might still be usefull tho would you like me to send you their github they have 4 example one of them being the react project","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:46 am","yeah sure","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:47 am","thanks","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:47 am","https://github.com/argentlabs/argent-x","",""
+"286210715604221963","alexhalo3115","08/09/2022 12:48 am","in the packages folder then the one called Dapp is the one i am using as a frame for my stuff","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:48 am","okay thanks","",""
+"730591521501347934","Jimothy#8368","08/09/2022 12:48 am","will try this","",""
+"896707292576235540","gregoryguillou","09/09/2022 5:22 pm","Hi, just saw starknet.js latest is now 4.4 and not 3.x anymore. Do you plan to move the that release at what horizon? Is there some known issues staying with 3.x and working with starknet-react?","",""
+"208960037308071937","cecco_","09/09/2022 5:29 pm","Hi, of course we will update to v4. Waiting for get-starknet v2 to be released then we can update.","",""
+"896707292576235540","gregoryguillou","09/09/2022 5:40 pm","Started a thread.","",""
+"896707292576235540","gregoryguillou","10/09/2022 8:30 am","Hello, quick update some might be interested in! Starknet-js 3.19 is not compatible with 3.18. The rule for `starknet` in your `package.json` is `^3.10` so the move to the `latest` on starknet-js tag to 4.4.2 should not have impacted your code.... except that it has.
+
+If you run `npm install`, you get the 3.19 (19 > 18 > 10) and not 3.18... if you do that, your package will be broken. My understanding is you don't bundle it in your npmjs artefact so good but still. A quick fix is to lock starknet.js to 3.18 in your package.json for now.","","🚀 (1)"
+"208960037308071937","cecco_","11/09/2022 8:05 pm","Thank you for this, I will look more into it (and maybe update to v4)","",""
+"530813107212255234","zeapherine","16/09/2022 1:12 pm","Hey, Am using starknet-react.
+and when i invoke using useStarknetInvoke, the Argent wallet doesn't pop up to sign the transaction.
+
+it just console log ` [InjectedConnector]`","https://cdn.discordapp.com/attachments/950372319119937606/1020238157859520624/Screenshot_from_2022-09-16_13-10-53.png",""
+"530813107212255234","zeapherine","16/09/2022 1:25 pm","am getting `DevTools failed to load source map: Could not load content for chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/sourcemaps/inject.js.map:`","",""
+"530813107212255234","zeapherine","16/09/2022 1:34 pm","argent inspect pop up gives this","https://cdn.discordapp.com/attachments/950372319119937606/1020243761718099988/Screenshot_from_2022-09-16_13-33-09.png",""
+"208960037308071937","cecco_","16/09/2022 6:19 pm","That means your call is not succeeding. Probably wrong arguments","",""
+"530813107212255234","zeapherine","17/09/2022 11:38 am","yes... Wrong abi plus i was using useInvoke, instead of UseExecute.","",""
+"712800065634172998","robinhood1234","21/09/2022 6:48 pm","Hello,
+I am trying to implement the connect wallet  :
+```
+import { useConnectors } from '@starknet-react/core'
+
+function YourComponent() {
+  const { connect, connectors } = useConnectors()
+  return (
+    <div>
+      {connectors.map((connector) =>
+        connector.available() ? (
+          <button key={connector.id()} onClick={() => connect(connector)}>
+            Connect {connector.name()}
+          </button>
+        ) : null
+      )}
+    </div>
+  )
+}
+```
+I feel like connectors will only give the wallet if I have it on my chrome extensions , so whats the point of connector.available() ?
+I am using :
+```
+  const connectors = getInstalledInjectedConnectors()
+```","",""
+"208960037308071937","cecco_","21/09/2022 7:07 pm","You can decide to show all available starknet wallets even if the user doesn't have them installed, and `connector.available` is a way to check if they're installed.","",""
+"712800065634172998","robinhood1234","21/09/2022 7:09 pm","I tried doing that and it showed me and empty array","",""
+"208960037308071937","cecco_","21/09/2022 8:01 pm","Connectors should have the same connectors specified in the provider.","",""
+"712800065634172998","robinhood1234","21/09/2022 8:03 pm","What do you mean?
+I am using getInstalledInjectedConnectors()","",""
+"208960037308071937","cecco_","21/09/2022 8:04 pm","You can also pass a list like `  const connectors = [
+    new InjectedConnector({ options: { id: ""argentX"" } }),
+    new InjectedConnector({ options: { id: ""braavos"" } }),
+  ];`","",""
+"712800065634172998","robinhood1234","21/09/2022 8:17 pm","Thank you but if we dont have the chrome extension we cannot access connectors.name","",""
+"208960037308071937","cecco_","21/09/2022 8:18 pm","Yeah in that case you need to manually check for the id and render the correct name based on that","",""
+"208960037308071937","cecco_","21/09/2022 8:18 pm","Unfortunately there is nothing much the library can do","",""
+"712800065634172998","robinhood1234","21/09/2022 8:22 pm","what about the other way ? 
+```
+You can decide to show all available starknet wallets even if the user doesn't have them installed, and connector.available is a way to check if they're installed.
+```
+If I console.log(connector) it doesnt show all the starknet wallets","",""
+"208960037308071937","cecco_","21/09/2022 8:30 pm","Did you specify the connectors like i pasted above or using `getInstalledInjectedConnectors`?","",""
+"712800065634172998","robinhood1234","21/09/2022 8:30 pm","I am using ```getInstalledInjectedConnectors```","",""
+"208960037308071937","cecco_","21/09/2022 8:54 pm","You're facing this issue https://github.com/apibara/starknet-react/issues/168 There's a workaround posted there, but the short version is that there is no reliable way to detect wallets because they can be injected after the page was rendered.","",""
+"286210715604221963","alexhalo3115","21/09/2022 9:00 pm","hey, i am trying to check if the account of a wallet changed, I have looked at this message here (https://discordapp.com/channels/793094838509764618/950372319119937606/958269312450326528) and i was wondering is there now a better way to do it or is this still the way to go?","",""
+"712800065634172998","robinhood1234","21/09/2022 9:40 pm","Thank you very much for helping me! I will use the 2nd option : 
+```
+const connectors = [
+    new InjectedConnector({ options: { id: ""argentX"" } }),
+    new InjectedConnector({ options: { id: ""braavos"" } }),
+  ];
+```
+What is the best way to see which wallet is connected?","",""
+"712800065634172998","robinhood1234","21/09/2022 9:59 pm","What is the difference between the ""disconnect"" of the hook : useStarknet() and useConnectors()","",""
+"712800065634172998","robinhood1234","21/09/2022 10:01 pm","And also in the documentation of starknet-react : the disconnect method requests a param but when I try use it doesnt ask for any param.","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:01 pm","you mean this   await disconnect({clearLastWallet: true})","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:01 pm","this clears the last wallet","",""
+"712800065634172998","robinhood1234","21/09/2022 10:02 pm","where did you find that?","",""
+"712800065634172998","robinhood1234","21/09/2022 10:02 pm","https://apibara.github.io/starknet-react/hooks/starknet","",""
+"712800065634172998","robinhood1234","21/09/2022 10:02 pm","I am reading that doc","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:02 pm","in this discord, just use ctrl + f and then look for keywords","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:03 pm","i feel like because this is all still not that polished its better to look at others peoples questions","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:03 pm","and if you cant find it just ask it so the next person can","",""
+"712800065634172998","robinhood1234","21/09/2022 10:12 pm","My questions : 
+1. How to know which starknet wallet is connected?
+2.When I disconnect my wallet then I refresh my page the wallet is connected without clicking the button. the method disconnect doesnt take any params. So I cannot give clearLastWallet:true","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:15 pm","unfortunately i don't have that much experience in the whole react thing too but i can try and give you a tiny bit of help
+
+1) you could have a hook       const [WalletCon, setWalletCon] = useState("""")        and then call setWalletCon("""") with either a 1 or a 2 as an arg and then you know that 1 is argent and 2 is the other wallet","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:17 pm","for 2 you should have a UseEffect function that deals with this, its called SilentConnectWallet i think, maybe looking in the and putting some console.Log() will help you find the answer","",""
+"712800065634172998","robinhood1234","21/09/2022 10:18 pm","Thank you, I will probably do that but I hope thats gonna be temp solution and for the long term maybe have something better","",""
+"712800065634172998","robinhood1234","21/09/2022 10:19 pm","Hmm I will look into that but I thought there was an easier way","",""
+"712800065634172998","robinhood1234","21/09/2022 10:20 pm","Thanks 😄","",""
+"286210715604221963","alexhalo3115","21/09/2022 10:20 pm","np happy to help","",""
+"286210715604221963","alexhalo3115","22/09/2022 3:35 pm","hey dude i had a question, i think you are trying to implement the braavos wallet right?","",""
+"712800065634172998","robinhood1234","22/09/2022 8:17 pm","Braavor and Argent both","",""
+"712800065634172998","robinhood1234","22/09/2022 8:17 pm","why?","",""
+"286210715604221963","alexhalo3115","22/09/2022 8:39 pm","because i am sort having an issue with the braavor wallet, if i were to ask for permission to connect to it and decline the wallet sort of stops talking with the whole progarm","",""
+"286210715604221963","alexhalo3115","22/09/2022 8:39 pm","was wondering if you ran into this issue","",""
+"286210715604221963","alexhalo3115","22/09/2022 8:39 pm","the argent wallet works fine that why its weird","",""
+"286210715604221963","alexhalo3115","22/09/2022 8:39 pm","i also downlaod the gitrepo here and had a look at their example and the same thing happens even if i change no code","",""
+"208960037308071937","cecco_","23/09/2022 1:57 am","Can you open an issue on github with the steps to reproduce?","",""
+"286210715604221963","alexhalo3115","23/09/2022 1:59 am","there are first a couple of other issues i need to fix and if i am still having this problem i shall do that","",""
+"421354355975913502","citronus","23/09/2022 7:29 pm","Can this lib be used in production ?","",""
+"530813107212255234","zeapherine","24/09/2022 4:17 pm","Hey guys, 
+I have a function `handleDeposit()`
+
+inside it, i have both the `approve()` and `execute()` function,
+
+can someone suggest me a way, where i wait for the `approve` transaction to finished before executing `execute()`","",""
+"456226577798135808","Deleted User","27/09/2022 3:17 pm","hi @cecco_ . saw there are 2 value that seems to be identical in useConnectors which are connectors and available, what's the difference tho.","",""
+"208960037308071937","cecco_","28/09/2022 12:27 am","Connectors are all registered connectors, available only those that the user installed. The issue is that because of how wallets are injected, available may have less wallets that are actually available.","",""
+"208960037308071937","cecco_","28/09/2022 12:27 am","The fix would be to change `available` to a function `available()` that returns the available connectors lazily, but that's not backward compatible.","",""
+"456226577798135808","Deleted User","28/09/2022 8:04 am","Which one you recommend to use rn btw","",""
+"208960037308071937","cecco_","28/09/2022 3:26 pm","USe connectors, manually check if they're available","","👍 (1)"
+"509692086556033024","distracteddev","03/10/2022 8:05 pm","I'm implementing the new version and had a couple Q's:
+
+- Is `useStarknetExecute` now the only transaction method (for multi and single calls).
+- Do we update the transaction manager on our end? I seem to remember `useStarknetInvoke` also update this automatically","",""
+"208960037308071937","cecco_","03/10/2022 9:39 pm","- Yes, that's the recommended way going forward.
+- Yes now it must be tracked manually. That way the overhead is there only if you use the feature.","","👌 (1)"
+"180828689804689408","mass_effect","06/10/2022 1:03 am","I'm having this issue with Brave, using Argent X","",""
+"180828689804689408","mass_effect","06/10/2022 1:04 am","when doing ```typescript
+new RpcProvider({ nodeUrl: ""https://alpha4.starknet.io/""})
+```","",""
+"180828689804689408","mass_effect","06/10/2022 1:04 am","I get the familiar
+```
+Access to fetch at 'https://alpha4.starknet.io/' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+```","",""
+"180828689804689408","mass_effect","06/10/2022 1:12 am","Is there any way to create a `RpcProvider`? I'm trying to use it to listen to chain events using https://github.com/0xs34n/starknet.js/blob/6df6ab5a5a8a47aa0a8c316aea026bfceb1a77da/src/provider/rpc.ts#L332.
+
+Maybe there's a better way to listen to events? 🤔","",""
+"208960037308071937","cecco_","06/10/2022 2:40 am","That doesn't look like an rpc address. Need to get one from infura","","🤝 (1)"
+"856676601331580938","jpick713","06/10/2022 2:44 am","```
+...
+const { available, connect, refresh, disconnect } = useConnectors()
+
+    const connectors = [
+      new InjectedConnector({ options: { id: ""argentX"" } })
+    ];
+
+return(
+  <button onClick={() => connect(connectors[0])}>
+    Connect {connectors[0].id()}
+  </button>
+)
+```
+any idea why this code doesnt connect to argentX in brave?","",""
+"208960037308071937","cecco_","06/10/2022 2:42 pm","`connectors` should come from `useConnectors`","",""
+"208960037308071937","cecco_","06/10/2022 2:42 pm","This example shows how to use it https://apibara.github.io/starknet-react/hooks/useConnectors","",""
+"856676601331580938","jpick713","06/10/2022 3:54 pm","Is InjectedConnector deprecated?
+Thanks 👍","",""
+"856676601331580938","jpick713","06/10/2022 6:07 pm","the example with the refresh never updates and my available is always blank?
+is there an import or something I'm missing?
+Available just stays blank and never seems to catch when the argent wallet is injected in the browser...","",""
+"208960037308071937","cecco_","06/10/2022 7:39 pm","No, you created the injected connectors and pass the list to `StarknetConfig`","",""
+"208960037308071937","cecco_","06/10/2022 7:40 pm","So the first example works but the second doesn't?","",""
+"856676601331580938","jpick713","06/10/2022 7:40 pm","neither example worked...
+did I need to have connectors passed into StarknetConfig as a prop?","",""
+"208960037308071937","cecco_","06/10/2022 7:42 pm","I noticed the getting started guide doesn't show how to do it, so let me update it now","","👍 (1)"
+"856676601331580938","jpick713","06/10/2022 7:43 pm","ok, that makes sense. I was wondering how the context was passed to the components","",""
+"856676601331580938","jpick713","06/10/2022 7:46 pm","It is working now...I for some reason thought that the connectors was able to get the injectedConnectors another way, but yeah passing connectors as a prop makes sense and I should have checked that like any other ContextProvider
+Thanks!","",""
+"208960037308071937","cecco_","06/10/2022 7:49 pm","Perfect!","",""
+"180828689804689408","mass_effect","06/10/2022 7:59 pm","I just realized that I can't actually use this to listen to events. It instead reads the currently emitted event log. Is there a way to create an event listener with starknet.js?","",""
+"208960037308071937","cecco_","06/10/2022 8:26 pm","Not an expert on that sorry. Probably better to ask in #🔌｜starknet-js","","🤝 (1)"
+"378567320253235200","0xno12","06/10/2022 9:00 pm","Hey @cecco_ , question about `useStarknetExecute` : I see that you have to give the `contractAddress` and not a `Contract` object. No way to use the ABI with `useStarknetExecute` and have automatic parameters parsing like `useStarknetCall`?","",""
+"208960037308071937","cecco_","06/10/2022 9:04 pm","Unfortunately not until starknet.js supports it 😦","",""
+"208960037308071937","cecco_","06/10/2022 9:04 pm","I think even something as simple as `myContract.doXYZ(123, '0xabcd')` returning the calldata would be good enough","",""
+"378567320253235200","0xno12","06/10/2022 9:06 pm","Oh I see the issue is on Starknet.js… So I may continue using useInvoke for single transactions, why deprecate it?","",""
+"180828689804689408","mass_effect","06/10/2022 9:39 pm","thanks ser","",""
+"208960037308071937","cecco_","06/10/2022 10:19 pm","I believe the execute interface is now the recommended way to send transactions","",""
+"378567320253235200","0xno12","07/10/2022 3:51 pm","Ok I see. And do you confirm that in the new version there is no way to check a given transaction hash state? I see there is this issue https://github.com/apibara/starknet-react/issues/174","",""
+"378567320253235200","0xno12","07/10/2022 3:52 pm","just to know if it's ACCEPTED_ON_L2 or PENDING etc","",""
+"378567320253235200","0xno12","07/10/2022 3:52 pm","`useTransactions` doesn't seem to return this status?","",""
+"208960037308071937","cecco_","07/10/2022 4:17 pm","It doesn't because the rpc has two different functions to get the transaction and the transaction status. I think someone is working on adding `useTransactionReceipt` to get the transaction receipt","","👍 (1)"
+"378567320253235200","0xno12","10/10/2022 2:54 pm","Hey @cecco_  another question: has the refresh() method been removed? https://github.com/apibara/starknet-react/blob/main/packages/core/src/hooks/call.ts#L106","",""
+"905063154399195166","sky_popular","10/10/2022 2:58 pm","When launch","",""
+"208960037308071937","cecco_","10/10/2022 3:15 pm","That's a bug 🤦","",""
+"208960037308071937","cecco_","10/10/2022 3:15 pm","Do you want send a PR to fix it 🙂","","👍 (1)"
+"848616398964260925","scarletssstarktitan","10/10/2022 3:17 pm","may i ask ser ,what is your specific question ?","",""
+"378567320253235200","0xno12","10/10/2022 5:39 pm","here you go ser https://github.com/apibara/starknet-react/pull/175","",""
+"378567320253235200","0xno12","10/10/2022 5:41 pm","I added a comment, maybe it needs an update","",""
+"208960037308071937","cecco_","10/10/2022 5:53 pm","I think for now it's fine 👍","",""
+"378567320253235200","0xno12","10/10/2022 5:54 pm","Ok so you prefer to merge like this? I can add the second boolean now if you want.","",""
+"208960037308071937","cecco_","10/10/2022 5:55 pm","Yeah sorry I was not clear. Add the second boolean now and I'll merge","",""
+"378567320253235200","0xno12","10/10/2022 5:55 pm","ok 🙂","",""
+"378567320253235200","0xno12","10/10/2022 5:57 pm","@cecco_ done","",""
+"208960037308071937","cecco_","10/10/2022 5:59 pm","Perfect, let's wait for the CI to run and I'll merge","",""
+"208960037308071937","cecco_","10/10/2022 6:02 pm","Going to make a release ASAP","",""
+"378567320253235200","0xno12","10/10/2022 6:05 pm","Amazing, as I need it in my project 😇","",""
+"208960037308071937","cecco_","10/10/2022 6:14 pm","v0.14.1 contains your fix.","","🎉 (3)"
+"378567320253235200","0xno12","10/10/2022 6:16 pm","Thanks for being so responsive!","",""
+"352595066809745408","yohan_tz","13/10/2022 5:50 pm","Hey ! I'm trying to run the documentation website locally, But I have a runtime error saying that `@starknet-react/core` can't be found. I already ran `pnpm install` at the root of the project and also in `/website` and `/packages/core`, do you guys have any idea ?","",""
+"352595066809745408","yohan_tz","13/10/2022 6:38 pm","Started a thread.","",""
+"403514115181772801","dbao.stark","18/10/2022 12:10 pm","I want to use starknet execute function and add that new transaction to the transaction manager how do i do that?","",""
+"905854378873856022","0xnoncents","18/10/2022 10:12 pm","which is future","",""
+"378567320253235200","0xno12","20/10/2022 6:49 pm","Hey @cecco_ , I'm wondering, does starknet-react use https://github.com/starknet-community-libs/get-starknet ? Like, can I open the classic popup with Argent / Braavos for my users to choose which one to use? Right now I'm just using the first available connector but some people have both and it just uses one of them without asking them. Thanks!","",""
+"208960037308071937","cecco_","20/10/2022 6:51 pm","No the library requires you to build your own popup. You can create a modal window with something like chakra ui and show the available options there.","",""
+"378567320253235200","0xno12","20/10/2022 6:51 pm","allright, is there a reason why? Since it's a community lib, could we maybe integrate both together or there's some kind of incompatibility","",""
+"208960037308071937","cecco_","20/10/2022 6:52 pm","The library is using another library to build the ui (svelte) which doesn't integrate well with react.","",""
+"208960037308071937","cecco_","20/10/2022 6:52 pm","It would be a nice community project to create a reusable modal to connect wallets, sort of like web3modal","","🔥 (1)"
+"378567320253235200","0xno12","20/10/2022 6:53 pm","I thought it was the goal of get-starknet to be honest!","",""
+"208960037308071937","cecco_","20/10/2022 6:53 pm","When we were using get-starknet people were asking to create their own modal to match their app style 🙂","","👍 (1)"
+"378567320253235200","0xno12","20/10/2022 6:54 pm","Thanks! Will think about it 🙂","",""
+"403514115181772801","dbao.stark","21/10/2022 9:14 am","how do i get the tx hash from a transaction that I just executed","",""
+"828627500770263071","mystery_men","21/10/2022 9:56 am","","https://cdn.discordapp.com/attachments/950372319119937606/1032872493515542538/unknown.png",""
+"828627500770263071","mystery_men","21/10/2022 9:57 am","https://testnet.starkscan.co/
+1. Fill in your address
+2.Your transaction tx","",""
+"208960037308071937","cecco_","21/10/2022 6:57 pm","What function did you use to submit the tx?","",""
+"403514115181772801","dbao.stark","21/10/2022 7:00 pm","useStarknetExecute()","",""
+"208960037308071937","cecco_","21/10/2022 7:02 pm","Perfect 🙂 Use starknet execute returns a promise, you can use it like this 
+
+```ts
+const handelSubmit = async () => {
+  const response = await execute()
+  console.log(response)
+  response.transaction_hash
+}
+```","",""
+"403514115181772801","dbao.stark","25/10/2022 9:45 am","thank you!","",""
+"862234432345997323","said017","27/10/2022 1:10 pm","Hi, i wonder why my contract return 'undefined' when calling it from localhost, provider in wallet already connected to localhost","https://cdn.discordapp.com/attachments/950372319119937606/1035095581439315968/unknown.png",""
+"862234432345997323","said017","27/10/2022 1:40 pm","I see the problem, silly mistake. forgot to set alias for the returned object from hooks.","https://cdn.discordapp.com/attachments/950372319119937606/1035103271355949116/unknown.png",""
+"1024658695134662726","nguyennguyen6856","03/11/2022 12:45 pm","I know you are trying to fix network problems now, rest assured and try to fix the errors. I will always be by your side and support you. I love you Starknet, Starkwap!
+0x0048364f3F3fE73FD0B4183f6876008127Ed3d40ae75C4aD723Bc78EE284f1e3","https://cdn.discordapp.com/attachments/950372319119937606/1037626177461948468/unknown.png",""
+"1024658695134662726","nguyennguyen6856","03/11/2022 12:47 pm","#🔐｜braavos-wallet","",""
+"907981161534468146","wind.rider","03/11/2022 12:52 pm","Thank you for your support of starknet ser,next time pls use #✨｜starknet  to discuss starknet,thank you🤝","",""
+"885255885121794150","tr31ze","03/11/2022 3:16 pm","Hello guys, someone looking for help with your React app?","",""
+"403514115181772801","dbao.stark","03/11/2022 4:27 pm","does anyone know what does this error mean?","https://cdn.discordapp.com/attachments/950372319119937606/1037681951722708993/unknown.png",""
+"848616398964260925","scarletssstarktitan","03/11/2022 4:32 pm","sorry ser ,i  hve answered you in #🌐｜argent-x  pls check","",""
+"837353725571104838","jai7655","08/11/2022 5:26 pm","0x01DAd2e1E086B775a85441Dec8A44AD9ec1b27b651c00dE717D7049FBa585304","https://cdn.discordapp.com/attachments/950372319119937606/1039508643550334996/Screenshot_28.png,https://cdn.discordapp.com/attachments/950372319119937606/1039508643894276136/Screenshot_29.png",""
+"837353725571104838","jai7655","08/11/2022 5:26 pm","all transacatio are failed and pending why","",""
+"826928218078052432","0xboater","08/11/2022 5:27 pm","The testnet is congested. try it later.","",""
+"447027174650675211","manocat - Deflexchange.com#0074","12/11/2022 2:47 pm","Same happened","",""
+"447027174650675211","manocat - Deflexchange.com#0074","12/11/2022 2:51 pm","","https://cdn.discordapp.com/attachments/950372319119937606/1040919302859141190/Screenshot_20221112-142125_Braavos.jpg",""
+"447027174650675211","manocat - Deflexchange.com#0074","12/11/2022 2:51 pm","","https://cdn.discordapp.com/attachments/950372319119937606/1040919366084071475/Screenshot_20221112-142040_Braavos.jpg",""
+"907981161534468146","wind.rider","12/11/2022 2:55 pm","ser,pls check my reply:https://discord.com/channels/793094838509764618/853954510515208192/1040920033263620176 thank you","",""
+"587037131101175815","papijax","12/11/2022 7:48 pm","20 minutes and nothing","https://cdn.discordapp.com/attachments/950372319119937606/1040993953467617341/image.png",""
+"907981161534468146","wind.rider","12/11/2022 7:57 pm","sorry,ser,if you have any issue about using starknet,welcome to use #✨｜starknet ,and pls check my reply:https://discord.com/channels/793094838509764618/853954510515208192/1040995816359342221 thank you😀","",""
+"925891674960445541","persoweb3","12/11/2022 8:09 pm","Hash: 0x14fd2227fa1ab3243e1e2de9ad1ab90cb78746b32c0a53a4f75fa8ad6fa86a7                                                                         Wallet: 0x054012CE61ca8DefaaD2Bb9aC5F7b1f9719045eEf4fcC9E9BC885d84617Ec32a","https://cdn.discordapp.com/attachments/950372319119937606/1040999254392586250/image.png,https://cdn.discordapp.com/attachments/950372319119937606/1040999254686191826/image.png,https://cdn.discordapp.com/attachments/950372319119937606/1040999254975578112/image.png",""
+"925891674960445541","persoweb3","12/11/2022 8:10 pm","transaction pending during 2hrs, but same prob","",""
+"925891674960445541","persoweb3","12/11/2022 8:10 pm","can you help me?","",""
+"907981161534468146","wind.rider","12/11/2022 8:12 pm","sorry,ser,pls check this reply:https://discord.com/channels/793094838509764618/950372319119937606/1040996342136328233 thank you","",""
+"409706543383314432","tomek6221","13/11/2022 12:10 am","Hello, I have problem with node. Maybye somebody now what can i do to fix this problem?","https://cdn.discordapp.com/attachments/950372319119937606/1041060001923485756/Zrzut_ekranu_2022-11-12_19.20.29.png",""
+"847391109889916949","wlhanzo","13/11/2022 12:33 am","I just suggest you can ask it on #🚑｜dev-help","","👍 (1)"
+"981356123657494548","whatthedev","13/11/2022 1:08 am","Hey there, I deployed a contract to testnet2. Now I'm not sure how to point starknet-react to the contract on testnet2. As a complete noob guess I tried these changes but it still doesn't work:
+1) In node_modules/@starknet-react/core/dist/network.js: added new `constants_1.StarknetChainId.TESTNET2` at https://goerli-2.voyager.online
+2) In node_modules/starknet/constants.js: added new `StarknetChainId[""TESTNET2""] = ""0x534e5f474f45524c4932"";`
+3) In node_modules/starknet/constants.d.ts: added new `TESTNET2 = ""0x534e5f474f45524c4932"";`
+
+Any suggestions? Thanks!","",""
+"429096494713274369","0xcoburn","13/11/2022 1:10 am","Pretty sure chain ID is still just SN_GOERLI","",""
+"981356123657494548","whatthedev","13/11/2022 1:30 am","I tried changing the chainid to 0x534e5f474f45524c49 (SN_GOERLI) but still no luck. Here's a few lines of constant.js for context (I added only the TESTNET2 line):
+```
+(function (StarknetChainId) {
+    StarknetChainId[""MAINNET""] = ""0x534e5f4d41494e"";
+    StarknetChainId[""TESTNET""] = ""0x534e5f474f45524c49"";
+    StarknetChainId[""TESTNET2""] = ""0x534e5f474f45524c4932"";
+})(StarknetChainId = exports.StarknetChainId || (exports.StarknetChainId = {}));
+```
+
+As background, after many tries to deploy an account to testnet2, I had to use  SN_GOERLI2 (534e5f474f45524c4932) which worked:
+`starknet deploy_account --gateway_url https://alpha4-2.starknet.io/ --account=acct_testnet_2 --chain_id 534e5f474f45524c4932`
+
+Then I used this account to deploy contract to testnet2:
+`starknet deploy --class_hash 0x1c58fbebfe39452aa4cfab8da48f037324e57a886f5a6cf1c470906ef6d524c --gateway_url https://alpha4-2.starknet.io/ --feeder_gateway_url https://alpha4-2.starknet.io/ --account=acct_testnet_2`
+
+Thanks for any help","",""
+"981356123657494548","whatthedev","14/11/2022 11:17 am","Any other thoughts on what I'm missing here?","",""
+"318781856155828224","togido","18/11/2022 5:57 pm","Hello guys! I work on a project and I need to migrate starknet react  v1 for the hooks working on goerli starknet v2. Do you have any documentation? Thanks!","",""
+"981356123657494548","whatthedev","21/11/2022 4:00 am","Finally got it to work for my contract. Doing pull request to add changes to starknet-react for a developer branch, but it may be a bit before ready. I think this will work if you want to try it now:
+1) Install pre-release version (develop branch) of starknet.js which includes the updates for testnet2: $ yarn install starknet@next
+2) In node_modules/@starknet-react/core/src/network.ts, inside `const KNOWN_CHAINS:` add this:
+```
+    [StarknetChainId.TESTNET2]: {
+        id: StarknetChainId.TESTNET2,
+        name: 'StarkNet Görli 2',
+        blockExplorer: {
+            name: 'Voyager',
+            url: 'https://goerli-2.voyager.online',
+        },
+    }
+```
+3)    In your _app.tsx add this line:
+```
+const provider = new SequencerProvider({ network: ""goerli-alpha-2"" })
+```
+and change `<StarknetConfig>` to `<StarknetConfig defaultProvider={provider}>`
+
+I think that's it. Hope that helps!","",""
+"318781856155828224","togido","21/11/2022 4:02 am","Thank you!!!!","","🚀 (4)"
+"318781856155828224","togido","21/11/2022 10:48 pm","hey @whatthedev I am a little stuck at the beginning do you have any idea. First i try npm install starknet@next but i got this error (first screenshot) then i try to update starknet-react(maybe that was my first issue) but nothing do you have any idea ?","https://cdn.discordapp.com/attachments/950372319119937606/1044300884382859335/image.png,https://cdn.discordapp.com/attachments/950372319119937606/1044300884785516574/Capture_decran_2022-11-21_a_18.09.39.png",""
+"318781856155828224","togido","21/11/2022 10:49 pm","Sorry btw I am still a newbie","",""
+"981356123657494548","whatthedev","22/11/2022 5:10 am","No worries, I'm not that far ahead of you. It might help to first uninstall (`npm uninstall [PACKAGE_NAME]`) starknet, get-starknet, and starknet-react. Then reinstall. If that doesn't solve it, then maybe try again but reinstall with `yarn add [PACKAGE_NAME]` instead of npm. Lmk if that helps or not.","",""
+"318781856155828224","togido","22/11/2022 12:34 pm","Thanks I will try!","","👍 (1)"
+"318781856155828224","togido","23/11/2022 1:54 pm","Hey bro still have some issue it says:` ReferenceError: StarknetChainId is not defined` but everything here looks right no ? maybe it's in my _app.tsx: `function MyApp(props: AppProps) {
+  BigNumber.config({ EXPONENTIAL_AT: 76 })
+  const provider = new SequencerProvider({ network: ""goerli-alpha-2"" })
+
+  return (
+    <StarknetConfig autoConnect defaultProvider={provider}>
+...</StarknetConfig>`","https://cdn.discordapp.com/attachments/950372319119937606/1044891163901046864/image.png",""
+"318781856155828224","togido","23/11/2022 3:39 pm","btw do not update to 4.13 I have some issue with 'starknet/constants'","",""
+"981356123657494548","whatthedev","23/11/2022 11:00 pm","Did u add this after reinstalling starknet-react?","",""
+"981356123657494548","whatthedev","23/11/2022 11:00 pm","","https://cdn.discordapp.com/attachments/950372319119937606/1045028605111058472/IMG_5520.png",""
+"981356123657494548","whatthedev","23/11/2022 11:02 pm","If you have a repo on GitHub, dm me the link and I can look thru it too","",""
+"235148962103951360","Carl-bot#1536","23/11/2022 11:02 pm","Oi frens, really nice you want to connect privately.. but juuuuust maaaake sure this is safe! don't click any links, don't send any keys, don't invite to birthday parties.","",""
+"318781856155828224","togido","24/11/2022 1:01 am","I sent you a friends request!","","👍 (6)"
+"482937437719363585","evgenisd","25/11/2022 2:40 pm","Error at pc=0:10:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:228)
+Unknown location (pc=0:214)
+
+Error in the called contract (0x3fd22c55d0e7aacd8ffda3f1d78f5ec46f6f279ac5a83187535e05c4a7509d3):
+Error at pc=0:203:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:3695)
+Unknown location (pc=0:3639)
+Unknown location (pc=0:2843)
+Unknown location (pc=0:2912)
+Unknown location (pc=0:2950)
+Unknown location (pc=0:2934)
+
+Error in the called contract (0x6fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890):
+Error at pc=0:15:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:495)
+Unknown location (pc=0:481)
+
+Error in the called contract (0x6fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890):
+Error at pc=0:99:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:2389)
+Unknown location (pc=0:2345)
+Unknown location (pc=0:2074)
+Unknown location (pc=0:1568)
+Unknown location (pc=0:1628)
+Error message: Transfer: could not transfer erc1155
+Unknown location (pc=0:1749)
+Unknown location (pc=0:1802)
+Unknown location (pc=0:1554)
+
+Error in the called contract (0x1ee17a1444aa15e619d3059980271b5c59bb4d004620aefd34a3f596e687a3f):
+Error message: CarbonableBadge: transfer is locked
+Error at pc=0:2905:
+An ASSERT_EQ instruction failed: 1 != 0.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:3477)
+Unknown location (pc=0:3442)","",""
+"403514115181772801","dbao.stark","30/11/2022 10:15 am","In starknet-react is there a way to detect wallet changes? for example if the use disconnects or changes wallet from argent or braavos","",""
+"208960037308071937","cecco_","30/11/2022 4:27 pm","Not at the moment. There is an open issue for it in case you want to implement it.","",""
+"768145949871570975",".schwepps","02/12/2022 2:59 pm","Hi! I can't make this example work with Braavos: https://apibara.github.io/starknet-react/hooks/useStarknetExecute. 
+The transaction is not submitted to the wallet. It's working fine with ArgentX.
+Any idea why?","",""
+"194913376038551552","provablemat","03/12/2022 11:11 pm","Does anyone manage to use starknet-react with devnet on localhost? Got a CORS policy error...","",""
+"688668936459649080","piedev","07/12/2022 8:37 pm","Hey,
+I have some troubles trying approving spending of 1 ETH. My app use starknet react and starknet js.
+First I try passe :
+coll_amount = Math.floor( add_collateral_amount*parseFloat(""1000000000000000000"") )
+const tx = {
+            contractAddress: eth_address,
+            entrypoint: 'approve',
+            calldata: [pool_address, coll_amount, 0]
+        }
+But Argent said there is an Assertion error.
+Then I try this:
+let billion = parseFloat(""1000000000"")
+let temp = toBN(Math.floor( add_collateral_amount*billion ))
+let coll_amount = toBN(temp) * toBN(billion)
+const tx = {
+    contractAddress: eth_address,
+    entrypoint: 'approve',
+    calldata: [pool_address, coll_amount, 0]
+}
+But it send exactly the same to Argent and then the same error occures.
+Then I try:
+let billion = parseFloat(""1000000000"")
+        let coll_amount = bnToUint256(toBN(billion) * toBN(add_collateral_amount*billion))
+        const tx = {
+            contractAddress: eth_address,
+            entrypoint: 'approve',
+            calldata: [pool_address, coll_amount]
+        }
+The app crashes and in looking in the console I saw that numbers has to be < 2^53, which my number isn't.
+Finally I try to apply bnToUint256 to both part and Argent crashes.
+
+
+
+Does someone know how to pass numer > 10^8 to argent with react js?
+Thanks in addvance!","",""
+"768145949871570975",".schwepps","12/12/2022 11:55 pm","Hey!
+I see interfaces to handle accountsChanged and networkChanged in injected.ts but I can't figure out how to listen to these events with starknet react.
+The Event handler are not available on the connectors. Does anyone manage to listen to these events?
+
+`/** Wallet event type. */
+export type EventType = 'accountsChanged' | 'networkChanged'
+
+/** Wallet event handler. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type EventHandler = (data: any) => void
+
+/** Interface implemented by all injected starknet wallets. */
+export interface IStarknetWindowObject {
+  enable: (options?: { showModal?: boolean }) => Promise<string[]>
+  isPreauthorized: () => Promise<boolean>
+  on: (event: EventType, handleEvent: EventHandler) => void
+  off: (event: EventType, handleEvent: EventHandler) => void
+
+  id: string
+  name: string
+  version: string
+  icon: string
+  provider: ProviderInterface
+  isConnected: boolean
+  account: AccountInterface
+  selectedAddress?: string
+}`","",""
+"768145949871570975",".schwepps","13/12/2022 10:12 pm","I have submitted a PR to handle the account change from the wallet: https://github.com/apibara/starknet-react/pull/200","","🔥 (7)"
+"768145949871570975",".schwepps","13/12/2022 10:13 pm","Tested on our dapp directly. Events are fired, account from useAccount is updated and it can refresh the starknet.id if you have one.","",""
+"768145949871570975",".schwepps","15/12/2022 4:09 pm","It's been merged this morning. It will be available soon 🙂","",""
+"403514115181772801","dbao.stark","20/12/2022 9:49 am","how do I ensure that the account is not disconnected after reloading the app?","",""
+"690668515946135562","0xsacha_delightfi","20/12/2022 10:54 pm","Using autoconnect proprety","https://cdn.discordapp.com/attachments/950372319119937606/1054811436330795028/image.png",""
+"403514115181772801","dbao.stark","26/12/2022 11:17 am","thank you","",""
+"403514115181772801","dbao.stark","26/12/2022 12:37 pm","Access to fetch at 'https://alpha4.starknet.io/feeder_gateway/call_contract?blockNumber=pending' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.","",""
+"403514115181772801","dbao.stark","26/12/2022 12:37 pm","experiencing this error when I use useStarknetCall","",""
+"208960037308071937","cecco_","01/01/2023 6:53 pm","This happens sometimes, it's a configuration error on the starknet gateway. usually they fix it in a few hours","",""
+"795662667012374569","ademolakelvin","05/01/2023 4:40 am","Hello everyone, Please I new to the starknet ecosystem, I am learning contract interaction with UI. Can anyone share resource on how to get started with starknet react","",""
+"795662667012374569","ademolakelvin","05/01/2023 4:41 am","I have started one on my own but I am getting some error whenever I retry to read transaction from the blockchain
+
+`Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x46358b8da612492326aaed3d4707e39c698e39dfd1c2421cf95202f6b20022a):
+Entry point 0x361458367e696363fbcc70777d07ebbd2394e89fd0adcaf147faccd1d294d60 not found in contract with class hash 0x33434ad846cdd5f23eb73ff09fe6fddd568284a0fb7d1be20ee482f044dabe2.`","",""
+"208960037308071937","cecco_","05/01/2023 10:17 pm","This means the method you're calling doesn't exist. Are you using a contract in mainnet or testnet?","",""
+"795662667012374569","ademolakelvin","06/01/2023 3:42 am","I want to interact with the contract on testnet","",""
+"795662667012374569","ademolakelvin","06/01/2023 3:43 am","The function exist on the contract.","",""
+"795662667012374569","ademolakelvin","07/01/2023 11:08 pm","Please who has a starter project to learn starknet-react?","",""
+"848616398964260925","scarletssstarktitan","08/01/2023 12:41 am","https://apibara.github.io/starknet-react/get-started  how about this ?","",""
+"795662667012374569","ademolakelvin","08/01/2023 1:53 am","@scarlet(σ, σ) | StarkTitan Thank you for this, I am currently taking a look at the documentation. I was hoping maybe I could see someone's implementation. I am a bit confused as the docs isn't that detailed.","",""
+"795662667012374569","ademolakelvin","08/01/2023 1:54 am","I will continue to test out with this. Thanks for your help","","👍 (1)"
+"795662667012374569","ademolakelvin","08/01/2023 1:56 am","@scarlet(σ, σ) | StarkTitan How can I make  contributions to the documentation?","",""
+"848616398964260925","scarletssstarktitan","08/01/2023 2:00 am","how about https://github.com/apibara/starknet-react/pulls  here ?","",""
+"636965380656594974","Florian_#6785","10/01/2023 7:32 pm","Hi 👋  I just pushed a PR to fix handle account change when autoConnect is true https://github.com/apibara/starknet-react/pull/208","",""
+"636965380656594974","Florian_#6785","27/01/2023 1:55 pm","is this project still being maintained?","",""
+"361233312746045451","okuserpro360","02/02/2023 12:32 pm","Yes","",""
+"315167102363369472","_mahlukat","03/02/2023 7:37 pm","Hey guys, I am struggling while verifying my signature.
+
+Can someone provide me the example code of signature verifying process using => useAccount, useSignTypedData (StarknetReact) and ec.verify (starknet JS)
+
+Thanks!","",""
+"790946383606841345","kongtaoxing","09/02/2023 3:03 pm","Is there any example dapps built by starknet-react?","",""
+"403514115181772801","dbao.stark","23/02/2023 10:43 am","Is it possible to change the starknetconfig to main-net? currently set to default at testnet","",""
+"1033103277665034302","devnet0x","01/03/2023 11:57 pm","i haven't tried but you have an example here: https://starknet.wtf.academy/docs/Dapp/","",""
+"790946383606841345","kongtaoxing","02/03/2023 5:44 am","Oh, thank u, sir.","",""
+"342614842248527873","0xandee","05/03/2023 8:13 pm","Hi guys, I'm having problem setup args of useStarknetCall of this view function abi: 
+```js
+{
+            ""inputs"": [
+                {
+                    ""name"": ""amountIn"",
+                    ""type"": ""Uint256""
+                },
+                {
+                    ""name"": ""path_len"",
+                    ""type"": ""felt""
+                },
+                {
+                    ""name"": ""path"",
+                    ""type"": ""felt*""
+                }
+            ],
+            ""name"": ""get_amounts_out"",
+            ""outputs"": [
+                {
+                    ""name"": ""amounts_len"",
+                    ""type"": ""felt""
+                },
+                {
+                    ""name"": ""amounts"",
+                    ""type"": ""Uint256*""
+                }
+            ],
+            ""stateMutability"": ""view"",
+            ""type"": ""function""
+        },
+```
+
+This is what I have so far: 
+
+```js
+    const { contract: routerContract } = useContract({
+        address: ROUTER_ADDRESS,
+        abi: router.abi,
+    });
+
+    const { data: token1AmountOut } = useStarknetCall({
+        contract: routerContract,
+        method: 'get_amounts_out',
+        args: [token0InputAmount, 0, 2, token0.address, token1.address],
+        options: {
+            watch: true,
+        },
+    });
+```
+
+Any help is appreciate!!! Thanks guys!!!","",""
+"342614842248527873","0xandee","05/03/2023 8:35 pm","Anyway, I figured out, the args it should be: `args: [[token0InputAmount, 0], [token0.address, token1.address]]`","",""
+"902987506000228423","miike4947","15/03/2023 2:25 am","hey, there is a hook in starknet react for change network?","",""
+"848616398964260925","scarletssstarktitan","15/03/2023 2:28 am","sorry is this what you are looking for ,hope it is helpful https://github.com/apibara/starknet-react/tree/main/packages/core/src/hooks","",""
+"636965380656594974","Florian_#6785","17/03/2023 3:23 pm","Hi 👋  new issue: https://github.com/apibara/starknet-react/issues/227 Because of this bug, the autoconnect does not work","","👍 (1)"
+"636965380656594974","Florian_#6785","17/03/2023 3:30 pm","And the PR to fix the issue https://github.com/apibara/starknet-react/pull/228","",""
+"866720012361531423","pero33","17/03/2023 8:40 pm","hi, what is the problem?restart does not help","https://cdn.discordapp.com/attachments/950372319119937606/1086305623794266152/Screenshot_98.png",""
+"532697415107608579","rachid.l","17/03/2023 11:52 pm","why the repo is under Apibara?","",""
+"839136375327555594","davelange","27/03/2023 11:22 pm","hi 👋  about this ABI TS issue https://github.com/apibara/starknet-react/issues/177, have you considered using https://github.com/keep-starknet-strange/abi-wan-kanabi ? I think it could be used to add better type support to contracts, a bit like what happens with wagmi","",""
+"727506935590551672","yusufx.stark","17/04/2023 4:26 am","DOES starknet-react supports CAIRO 1.0 ?","","👍 (7)"
+"530813107212255234","zeapherine","21/04/2023 12:46 pm","Hey guys researching on cairo 1 development, Does/will starknet-react have support for cairo 1?","","⬆️ (6)"
+"530813107212255234","zeapherine","21/04/2023 12:46 pm","+1","",""
+"403514115181772801","dbao.stark","28/04/2023 10:07 am","Does the useStarkName work? It seems to always give an error","",""
+"626349688362106880","flavinho0726","28/04/2023 1:48 pm","Hey everyone, I'm using the react-starknet library and I have a question. How can I use the ""account"" variable that I get from the ""useAccount()"" method to call the ""execute()"" function in different components? I want to interact with my contract. I attempted to store the variable in localStorage, but when I retrieve it, I can't access the ""execute()"" function.","",""
+"403514115181772801","dbao.stark","28/04/2023 3:44 pm","I am having a similar issue where I connected my wallet but on the other components it shows that I have not connected my wallet. it seems that the useAccount() is not recomputing","","👍 (4)"
+"629443319109517315","papagun","30/04/2023 10:39 am","Hey guys, when I try to install the starknet react template, it gives me a lot of these errors: https://www.starknet.io/en/developers/tools-and-resources","",""
+"629443319109517315","papagun","30/04/2023 10:39 am","```npm ERR! code ENOSPC
+npm ERR! syscall write
+npm ERR! errno -4055
+npm ERR! nospc ENOSPC: no space left on device, write
+npm ERR! nospc There appears to be insufficient space on your system to finish.
+npm ERR! nospc Clear up some disk space and try again.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shiva\AppData\Local\npm-cache\_logs\2023-04-30T03_33_29_247Z-debug-0.log
+npm ERR! code ENOSPC
+npm ERR! syscall write
+npm ERR! errno -4055
+npm ERR! nospc ENOSPC: no space left on device, write
+npm ERR! nospc There appears to be insufficient space on your system to finish.
+npm ERR! nospc Clear up some disk space and try again.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shiva\AppData\Local\npm-cache\_logs\2023-04-30T03_33_29_888Z-debug-0.log
+```","",""
+"629443319109517315","papagun","30/04/2023 10:39 am","Do you guys know how to fix this error?","",""
+"552561040165175357","weird79","30/04/2023 1:04 pm","Well Uh. ..maybe...Clear up some disk space?","",""
+"552561040165175357","weird79","30/04/2023 1:04 pm","Oh..and try again","",""
+"1078567534866993264","apoorvsadana","09/05/2023 5:47 pm","does starknet-react also have the connect wallet button out of the box? like does it have a component to show the modal to choose between argent and braavos and handle it automatically","",""
+"1031781223808368670","solarin12","14/05/2023 3:39 am","which command can i use to update","https://cdn.discordapp.com/attachments/950372319119937606/1107067146506354838/starknet_error.jpg",""
+"848616398964260925","scarletssstarktitan","14/05/2023 3:40 am","sorry ser, about pathfinder node pls get support here #🛰｜pathfinder-support-only thanks ser","",""
+"460170417819090945","vietnameserick","16/05/2023 7:36 am","Hi guys, I am facing this error, any idea why it happens ?","https://cdn.discordapp.com/attachments/950372319119937606/1107851534051590205/image.png",""
+"825277086914445334","takichi1","17/05/2023 11:02 am","How to check my bridge transaction?","",""
+"923124563901038613","MDJ#7347","24/05/2023 7:15 pm","i am getting this error can u help","https://cdn.discordapp.com/attachments/950372319119937606/1110926496039702619/image.png",""
+"856581907540869151","whiteinketh","24/05/2023 8:09 pm","I am running a node through Alchemy. Can any one explain how it is connected to my wallet/how starknet will identify connected account.","",""
+"848616398964260925","scarletssstarktitan","24/05/2023 8:11 pm","sorry ser, if you follow the pathfinder team pls get support in #🛰｜pathfinder-support-only and  btw , the node client team does not track anyone's ip or wallet address thank you","",""
+"395584097621114880",".younghero","06/06/2023 5:54 am","You can use props or make the global state management to call function from other components,to make global state u can use context or redux, but redux is third party","",""
+"395584097621114880",".younghero","06/06/2023 5:56 am","I suggest you must use the global state, so you can call it anytime you want in all of your components","",""
+"395584097621114880",".younghero","06/06/2023 5:57 am","You can use --force","",""
+"1033103277665034302","devnet0x","08/06/2023 3:04 am","Hi, after update starknet-react a im getting the same error?...dou you have any advice?...thanks","",""
+"1033103277665034302","devnet0x","13/06/2023 7:07 am","fixed with solution posted in this issue:
+https://github.com/apibara/starknet-react/issues/245","",""
+"795662667012374569","ademolakelvin","18/06/2023 3:04 am","Gm everyone, is there a way to query events from smart contract and render them on the frontend?","",""
+"949230671749079060","goofy#8453","19/06/2023 3:46 pm","does anyone know how to pass the args in useContractRead?   I keep getting this error here  : TypeError: Cannot read properties of undefined (reading 'members')
+    at calldata.ts:136:1
+    at Array.forEach (<anonymous>)
+    at calldata.ts:135:1","https://cdn.discordapp.com/attachments/950372319119937606/1120295964339605605/image.png",""
+"795662667012374569","ademolakelvin","24/06/2023 2:35 am","Quick question, is the starknet@5.14.0 version  compatible with starknet-react? I just installed it over v4, and my Dapp breaks","",""
+"795662667012374569","ademolakelvin","28/06/2023 6:33 pm","const { contractFactory } = useContractFactory({
+    compiledContract: compiledErc20,
+    providerOrAccount: account
+  })
+ I want to use this method in starknet-react, but what does the `compiledErc20` mean , it flags error whenever i pass in an `contract address` or  `abi`","",""
+"1002837891531165767","tunca9844","29/06/2023 6:05 pm","Starknet has a paid API.
+https://starkscan.co/api-info#pricing","",""
+"194913376038551552","provablemat","07/07/2023 1:11 am","Hi there, does starknet-react works with cairo2 contracts? I try to read my contract but doesn't work","",""
+"976815223812010094","karhu#2066","14/07/2023 10:47 pm","Hey, when importing starknet to my react app I get an error 
+```TypeError: can't convert BigInt to number```
+
+Any clue on what could be causing that ?","",""
+"976815223812010094","karhu#2066","14/07/2023 10:53 pm","The error is on this line of code : ```const MASK_31 = 2n ** 31n - 1n;```","",""
+"976815223812010094","karhu#2066","14/07/2023 10:54 pm","in the micro-starknet/lib/esm/index.js file","",""
+"976815223812010094","karhu#2066","14/07/2023 11:16 pm","It works in local env but not when deploying","",""
+"976815223812010094","karhu#2066","15/07/2023 1:24 am","Okay I found a workaround, package.json config in browserList wasn't the same in prod and dev, in prod. It was : ```   ""browserslist"": {
+    ""production"": [
+      "">0.2%"",
+      ""not dead"",
+      ""not op_mini all""
+    ],
+    ""development"": [
+      ""last 1 chrome version"",
+      ""last 1 firefox version"",
+      ""last 1 safari version""
+    ]
+  }
+```
+I changed it to :
+```  ""browserslist"": {
+    ""production"": [
+      ""defaults""
+    ],
+    ""development"": [
+      ""defaults""
+    ]
+  }```","",""
+"921862494480396328","degendeveloper.eth","28/07/2023 6:41 am","did you figure this out ? same issue for me right now","",""
+"727506935590551672","yusufx.stark","07/08/2023 2:04 pm","i want to use alchemy provider instead of custom provider in starknetreact how can i do this ?","",""
+"921862494480396328","degendeveloper.eth","10/08/2023 7:06 am","Any follow up ?","",""
+"921862494480396328","degendeveloper.eth","10/08/2023 7:21 pm","https://github.com/0xDegenDeveloper/RabbitHoles/blob/starknet-integration/client/src/components/cards/ProviderCard.jsx","",""
+"921862494480396328","degendeveloper.eth","10/08/2023 7:21 pm","Here’s an implementation of it if you need","",""
+"194913376038551552","provablemat","14/08/2023 10:07 pm","Yes, with these versions it's working for me
+```""@starknet-react/core"": ""^1.0.4"",
+""get-starknet-core"": ""^3.2.0"",
+""starknet"": ""^5.14.1"",```","",""
+"921862494480396328","degendeveloper.eth","14/08/2023 11:53 pm","You’re able to call read/write on 2.1.0 contracts?","",""
+"194913376038551552","provablemat","15/08/2023 2:41 pm","Didn't try the write yet but the read is working with 2.1.0 contract. Here is the my vite frontend template if you want to have a look:
+https://github.com/Matth26/starknet-frontend-template","",""
+"636249365329215489","tanjid_showkot","22/09/2023 7:47 pm","any dev here? i am facing a very simple problem . I need help.  i am building a react project that can sign a massage.  how can i read the massage from starknet blockchain.","",""

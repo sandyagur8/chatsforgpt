@@ -1,0 +1,121 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"451054666609065984","angelo.bas","02/01/2023 11:58 pm","is this empty?","",""
+"906095871316348938","closer2282","03/01/2023 4:29 am","It’s okay to post related questions here😁","",""
+"202597021209591809","iamjack.sol","13/01/2023 4:35 am","I am running a local `nile node` and seeing the following error when I make a call to `getEvents` from the `starknet-js` package:
+```
+/Users/jessupjn/Documents/Switchboard/starknet/node_modules/starknet/src/provider/rpc.ts:83
+      throw new Error(`${code}: ${message}`);
+            ^
+Error: 22: get_events() got an unexpected keyword argument 'filter'
+    at RpcProvider.errorHandler (/Users/jessupjn/Documents/Switchboard/starknet/node_modules/starknet/src/provider/rpc.ts:83:13)
+    at RpcProvider.fetchEndpoint (/Users/jessupjn/Documents/Switchboard/starknet/node_modules/starknet/src/provider/rpc.ts:94:12)
+```
+I've upgraded my `cairo-nile` to the latest version - is this functionality not yet supported?","",""
+"906095871316348938","closer2282","13/01/2023 8:39 am","https://twitter.com/OpenZeppelin/status/1613569056086589441
+And a new doc-site hosting nile documentation!
+https://docs.openzeppelin.com/nile/","","🚀 (2)"
+"430806303212961803","martriay","13/01/2023 11:25 pm","`nile node` is just a wrapper for `starknet-devnet`","",""
+"202597021209591809","iamjack.sol","14/01/2023 1:09 am","Yep - it was determined that this endpoint doesnt conform to the spec and an issue was filed:
+https://github.com/Shard-Labs/starknet-devnet/issues/382","","👍 (3)"
+"342312746227990529","bigben60","26/01/2023 1:24 am","hi 
+I'm trying to deploy a smart-contract using Nile and the OpenZeppelin tutorial, but when I try to use any command requiring the private key, I get the error ""Cannot find PKEY in env.""
+I have declared my PKEY in the .env file though, and the .env file is at the root of my project... Any idea of the issue ? 
+Thanks!","",""
+"342312746227990529","bigben60","27/01/2023 6:27 pm","anyone ?","",""
+"430806303212961803","martriay","03/02/2023 6:58 am","@BigBen60 that's weird, are you executing the command also from the root of your project? in the meantime you can try with this to force the env:
+
+```PKEY=1234... nile send PKEY ...`","",""
+"342312746227990529","bigben60","22/02/2023 4:29 am","Nevermind, I've started to use protostar instead on which I haven't had any problem 
+Thank you though mate","",""
+"836835746370945066","ddy#2433","25/02/2023 2:03 pm","hello, i use [nile node] to start a local node, and use https://docs.openzeppelin.com/nile/0.13.0/
+
+nile setup ACCOUNT_1 --salt 123 --estimate_fee
+use this command, however the terminal show: 
+HTTP error ocurred. Status: 500. Text: {""code"":""StarknetErrorCode.UNDECLARED_CLASS"",""message"":""Class with hash 0x58d97f7d76e78f44905cc30cb65b91ea49a4b908a76703c54197bca90f81773 is not declared.""}
+anyone know how to solve this problem, thanks for helping","",""
+"836835746370945066","ddy#2433","25/02/2023 2:33 pm","where can i find the introduction about what is [declare account] [setup account] ?","",""
+"907981161534468146","wind.rider","25/02/2023 2:52 pm","Hope this helps you, ser,pls check it: https://docs.openzeppelin.com/nile/0.13.0/scripts#declare_account thank you","",""
+"836835746370945066","ddy#2433","25/02/2023 2:55 pm","i read it","",""
+"836835746370945066","ddy#2433","25/02/2023 2:55 pm","i follow the docs to input the command, however it went wrong","",""
+"836835746370945066","ddy#2433","25/02/2023 2:57 pm","what's more, there is no introduction of what is [declare account] [setup account] means, just tell to do so","",""
+"836835746370945066","ddy#2433","25/02/2023 2:57 pm","i have no idea what is this mean, and when it went wrong, how to fix it","",""
+"907981161534468146","wind.rider","25/02/2023 3:07 pm","Sorry sir, since it's weekend, nile team will reply you during working hours, thank you for your patience🙏🏻 , also about declare account,i'm not sure if it could help you, but pls check those docs first:https://www.notion.so/starkware/Deploy-a-contract-and-an-account-on-StarkNet-ed2fd13301d2414e8223bb72bb90e386 https://www.starknet.io/en/posts/engineering/starknet-alpha-090 thank you🤝","",""
+"836835746370945066","ddy#2433","25/02/2023 3:18 pm","thanks a lot, i will read them : -)","","🙏🏻 (3)"
+"836835746370945066","ddy#2433","27/02/2023 8:53 pm","hello, i just follow the https://github.com/franalgaba/nile-plugin-example","",""
+"836835746370945066","ddy#2433","27/02/2023 8:53 pm","to run  [ pip install nile-greet]","",""
+"836835746370945066","ddy#2433","27/02/2023 8:53 pm","however when i run [nile greet]","",""
+"836835746370945066","ddy#2433","27/02/2023 8:54 pm","","https://cdn.discordapp.com/attachments/1054303158848995370/1079786134655205456/image.png",""
+"836835746370945066","ddy#2433","27/02/2023 8:54 pm","thanks a lot for helping me","","happy (3)"
+"836835746370945066","ddy#2433","27/02/2023 8:58 pm","what's more, how to use nile  and the private key (export from agentx or braavos) to generate the address ?","",""
+"276580170943561729","valcharriera","06/03/2023 9:08 pm","hello, im trying to follow this guide https://docs.openzeppelin.com/nile/0.13.0/#deploying_an_account but im getting KeyError on ACCOUNT_1","",""
+"430806303212961803","martriay","08/03/2023 11:40 pm","did you set up the virtualenv?","",""
+"430806303212961803","martriay","08/03/2023 11:40 pm","try with this","",""
+"693748316080570429","qube#1604","09/03/2023 3:30 pm","did anyone know why? I already add it in my .env","https://cdn.discordapp.com/attachments/1054303158848995370/1083328454994432010/gambar.png",""
+"322717380604329986","zkperma","15/04/2023 8:44 am","I am trying to install Nile via this link https://docs.openzeppelin.com/nile/0.13.0/I get an error. the error message is like this: ""Could not find a version that satisfies the requirement cairo- nile (from versions: )
+No matching distribution found for cairo-nile""
+Can anyone help me?       (my python version is 3.9 )","",""
+"322717380604329986","zkperma","15/04/2023 9:15 am","@martriay @Wind Rider | StarkTitan @Jack","",""
+"322717380604329986","zkperma","15/04/2023 9:16 am","(I write my codes in windows terminal on ubuntu)","",""
+"907981161534468146","wind.rider","15/04/2023 9:42 am","Sorry ser, as it is the weekend, pls be patient for the Nile team to check for you during working hours, thank you🙏🏻","","🙌 (8)"
+"626349688362106880","flavinho0726","17/04/2023 7:28 pm","Hello guys, just followed the set up your project part of https://github.com/OpenZeppelin/cairo-contracts. 
+But I am running into issues when I want to run: ""nile init"":
+
+  DEPRECATION: greenlet is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for greenlet ... error
+  error: subprocess-exited-with-error
+  
+  × Running setup.py install for greenlet did not run successfully.
+  │ exit code: 1
+  ╰─> [158 lines of output]
+      running install
+      /Users/flavinho/Documents/Projects/clean/starknet-quizz/contracts/env/lib/python3.11/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+        warnings.warn(
+      running build
+      running build_ext
+      building 'greenlet' extension
+      creating build
+      creating build/temp.macosx-13-arm64-cpython-311
+      clang -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -I/Users/flavinho/Documents/Projects/clean/starknet-quizz/contracts/env/include -I/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11 -c greenlet.c -o build/temp.macosx-13-arm64-cpython-311/greenlet.o","",""
+"429096494713274369","0xcoburn","18/04/2023 12:26 am","Looks like your python is 3.11 and should be set to 3.9 for cairo-lang","","👍 (2)"
+"430806303212961803","martriay","22/04/2023 6:49 pm","could you solve it? how were you trying exactly?","",""
+"322717380604329986","zkperma","25/04/2023 4:34 am","I was following the instructions in this link. I can't download Nile somehow.  https://medium.com/@martriay/starknet-tutorial-for-beginners-using-nile-6af9c2270c15","",""
+"322717380604329986","zkperma","25/04/2023 4:36 am","","https://cdn.discordapp.com/attachments/1054303158848995370/1100196081872162827/2023-04-25_02-05-12.png",""
+"791177402108739664","akirillo","26/04/2023 12:06 am","this may not be the right place to ask, but wondering what the timeline looks like on adding `call` to `nile-rs` scripting? 😁  would love to use this for testing","",""
+"430806303212961803","martriay","28/04/2023 6:18 pm","can you install other packages? i haven't seen that before but it seems it's not looking into the pypi repositories","",""
+"430806303212961803","martriay","28/04/2023 6:20 pm","according to the feature parity log (https://github.com/OpenZeppelin/nile-rs/blob/main/docs/FEATURE_PARITY.md), it should be working already. is it not working? missing any feature?","",""
+"430806303212961803","martriay","28/04/2023 6:20 pm","@ericnordelo might be able to assist you","",""
+"791177402108739664","akirillo","28/04/2023 9:08 pm","Ah, the CLI command works, yes, but there’s no way to deploy/call a contract within the scripting runtime. Am currently writing a “scripting” system myself that just executes the CLI commands 😅","",""
+"577538247270596628","ericnordelo","28/04/2023 10:13 pm","Hi @akirillo, you should be able to use all the accounts methods from scripting after calling `get_accounts`. Is true that we didn't add the `call` though, mostly because I didn't want to add the raw-call before having an ABI parser in Rust","","🔥 (4)"
+"791177402108739664","akirillo","28/04/2023 10:16 pm","Oh sick, I’ll take a look at those methods, thank you!
+
+But yes… found myself wishing deeply for an ABI parser as well 🥲","",""
+"446271219298336768","0x1379","16/05/2023 5:25 pm","How to make `cairo-test` work with project initialized with nile-rs? @martriay","",""
+"430806303212961803","martriay","17/05/2023 12:32 am","@ericnordelo is the `nile-rs` guy","",""
+"577538247270596628","ericnordelo","17/05/2023 5:52 pm","Hi @0x1379 | @ZKX . Currently there is no a test integration on nile, so you need to use the compiler crates directly. Assuming you are using this already, and you are facing an issue at compilation time, this is probably because the test-runner crate from the compiler doesn't (currently) use scarb modules resolution, and if you are using external contracts leveraging scarb (nile compile does this), the test-runner is not able to compile those, because it can't find the external artifacts. If you are not using external modules you should be fine though. We plan to integrate the test-runner on nile through a test command, and then we will work on this, but keep in mind that is a compatibility issue between scarb compilation and test-runner compilation mechanisms.","","✅ (4)"
+"446271219298336768","0x1379","18/05/2023 8:49 am","Thanks for the reply.","",""
+"752074233961512972","udayj.","24/05/2023 11:31 am","@ericnordelo when could we expect nile-rs to work with the latest version of the cairo 1.0 compiler v1.0.0-rc0 or v1.1.0-rc0","",""
+"322717380604329986","zkperma","01/06/2023 1:03 am","I added the following function to make my cairo 0 ERC721 contract upgradable and I got an error while compiling with nile, can you help?
+Function I added:
+``` @external
+func upgrade_to_cairo_one(new_class_hash: felt)
+{
+
+// Implement the flow control your app / DAO needs to migrate the contract.
+
+check_caller_is_allowed();
+
+update_class_hash(new_class_hash);
+
+// At this point, your contract will have the same address as before,
+
+// but use the new Cairo 1.0 code.
+
+} ```
+
+🔴 Error message:
+```
+contracts/ERC721.cairo:111:1: Unknown identifier 'check_caller_is_allowed'.
+check_caller_is_allowed();
+^*********************^  ``` @ericnordelo","",""
+"577538247270596628","ericnordelo","13/06/2023 4:45 pm","Hey guys, sorry for the late reply (I should be more active on discord). Nile development is currently on hold, because we are prioritizing the Cairo 1 libraries (and there are other tooling available focused on solving what Nile targets). I suggest to use one of these tools instead, and if there is enough requests or some contributors are willing to keep Nile up to date while our focus is on a different direction, we may continue supporting it in the future. Sorry for the inconveniences.","","👍 (18)"
+"907697623979393104","winless#8715","19/09/2023 12:58 am","Hi, I use nile cli to develop contract but it always shows StarknetErrorCode.INSUFFICIENT_ACCOUNT_BALANCE since my account in env has enough balance","",""

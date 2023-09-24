@@ -1,0 +1,42 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"927849119299567627","ors3051","15/02/2023 4:25 pm","🔥 Welcome to the Horus channel! 🔥
+
+We hope you find this channel useful for all things related to Horus, Nethermind's open-source formal verification tool for StarkNet smart contracts.
+
+Here are some things you can expect to find in this channel:
+
+📢 Updates on the development and progress of Horus
+
+💬 Discussions on how to use Horus and best practices for formal verification
+
+❓ Answers to any questions you may have about Horus
+
+🌈 Opportunities to give feedback and contribute to the development of Horus
+
+We encourage you to actively participate in the discussions and share your thoughts and ideas.
+
+🔥 Don't forget to check out the links: 
+GitHub repository https://github.com/NethermindEth/horus-checker
+Nethermind website https://nethermind.io/horus/ for more information about Horus and its features.
+
+Stay tuned for updates, and let's formally verify StarkNet together! 🚀","","🔥 (254),🚀 (247),🙌 (247),🥳 (33),😍 (31),👁️ (31),happy (6),StarkNet (2)"
+"927849119299567627","ors3051","23/02/2023 9:29 pm","Hey frens  😎
+
+🔥 Part 1 of Introduction to Horus blog series is now live on Medium 🔥
+ Read and learn about Horus' key features! 
+
+🌈 In part 2 and 3, we'll show you how to verify an ERC20 smart contract and a toy AMM implementation.
+
+Enjoy, and let us know your thoughts! 
+
+https://medium.com/nethermind-eth/introduction-to-horus-part-1-fbc16af3ba67","","👁️ (251),🚀 (249),🔥 (249),StarkNet (33),🥳 (30)"
+"456226577798135808","Deleted User","24/02/2023 3:43 pm","Hey, is there a version compatible with Cairo 1? 🙂","",""
+"106166834377572352","exfalsoquodlibet","01/03/2023 4:23 pm","There isn't. There are plans for one, but it's not in development yet. At the very least, it would require us to to completely rewrite the `Horus-compile` part from scratch, so it's a major undertaking we haven't been able to allocate resources to just yet. Unfortunately, there is also no specific timeline. That said, we understand that the community will shift towards Cairo 1. and Horus will need to shift with it, so it's definitely on our radars.","","❤️ (252),StarkNet (242)"
+"927849119299567627","ors3051","07/04/2023 10:02 pm","Hey anon, happy Friday! 🥳
+Fancy formally verifying a Starknet AMM this weekend? 
+
+🔥 In part 2 of Introduction to Horus, our team shows us how to use Horus, our open-source formal verification tool, to verify a simple AMM contract. 
+
+🙏 Check it out & share your thoughts! 
+https://medium.com/nethermind-eth/introduction-to-horus-part-2-3dbc77dcdb4a","","star (280),StarkNet (252)"
+"748257440406962329","y7not","10/09/2023 10:55 pm","ok","",""

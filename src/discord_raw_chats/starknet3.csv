@@ -1,0 +1,437 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"565376910347993088","popeye#3940","14/11/2022 9:04 am","hello","",""
+"565376910347993088","popeye#3940","14/11/2022 9:04 am","it support java1.8?","",""
+"565376910347993088","popeye#3940","14/11/2022 9:05 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1041556881015054428/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 9:29 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1041562967482839050/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 9:29 am","use starknet-jvm meet this error","",""
+"790696772375937024","larkozs","14/11/2022 12:05 pm","make sure the dependencies are properly installed","",""
+"565376910347993088","popeye#3940","14/11/2022 12:38 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041610633696780308/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 12:39 pm","Cannot resolve constructor 'StandardAccount(Provider, Felt, Felt)'","",""
+"565376910347993088","popeye#3940","14/11/2022 12:48 pm","i use java8. use spring framework","",""
+"790696772375937024","larkozs","14/11/2022 1:01 pm","var provider = GatewayProvider.makeTestnetClient();
+var account1 = new StandardAccount(provider, accountAddress1, privateKey1);
+var account2 = new StandardAccount(provider, accountAddress2, privateKey2);","",""
+"790696772375937024","larkozs","14/11/2022 1:02 pm","https://github.com/software-mansion/starknet-jvm","",""
+"565376910347993088","popeye#3940","14/11/2022 1:07 pm","java8 not support","https://cdn.discordapp.com/attachments/1032568795576934422/1041617889872068689/image.png",""
+"790696772375937024","larkozs","14/11/2022 1:09 pm","What is the error output","",""
+"565376910347993088","popeye#3940","14/11/2022 1:10 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041618532514938981/image.png",""
+"790696772375937024","larkozs","14/11/2022 1:10 pm","Provider provider = GatewayProvider.makeTestnetClient();","",""
+"565376910347993088","popeye#3940","14/11/2022 1:14 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041619606390976532/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 1:14 pm","how to create two params?","",""
+"565376910347993088","popeye#3940","14/11/2022 1:15 pm","can i use web3j?","",""
+"790696772375937024","larkozs","14/11/2022 1:49 pm","I'm out right now I'll help when I get home","",""
+"843754360163926056","JakubPtak#8889","14/11/2022 2:19 pm","@popeye please see our example usage in java https://github.com/software-mansion/starknet-jvm/blob/main/javademo/src/main/java/com/example/javademo/Main.java","",""
+"565376910347993088","popeye#3940","14/11/2022 2:36 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041640250235174922/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 2:36 pm","how can i get address?","",""
+"565376910347993088","popeye#3940","14/11/2022 2:37 pm","this example i read already","",""
+"565376910347993088","popeye#3940","14/11/2022 2:39 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041640978039185469/image.png",""
+"843754360163926056","JakubPtak#8889","14/11/2022 3:36 pm","You have to deploy an account. There are two easy ways of doing that:
+- use ArgentX wallet and then export details of your account, including your private key
+- use cairo-lang CLI to create an account","",""
+"565376910347993088","popeye#3940","14/11/2022 4:12 pm","can you send me some test coin","https://cdn.discordapp.com/attachments/1032568795576934422/1041664435640598568/image.png",""
+"565376910347993088","popeye#3940","14/11/2022 4:12 pm","this is my address  0x02C84E511e24B1673d71B361E21887e5C275f7647d755092adA18bc5387c201B","",""
+"843754360163926056","JakubPtak#8889","14/11/2022 4:44 pm","You can use faucet here https://faucet.goerli.starknet.io/","",""
+"843754360163926056","JakubPtak#8889","14/11/2022 4:56 pm","Oh I didn't notice the error","",""
+"843754360163926056","JakubPtak#8889","14/11/2022 5:03 pm","I've reset the wallet some time ago and didn't top it up, I'll ask if someone from the team has some","",""
+"565376910347993088","popeye#3940","15/11/2022 7:50 am","https://goerli.voyager.online/tx/0x5792b178353e10bfd7039f2a091067bfffae820d3cceeeec8e14665183ed875","",""
+"565376910347993088","popeye#3940","15/11/2022 7:51 am","https://faucet.goerli.starknet.io/ i apply some coin, but transaction fail","",""
+"565376910347993088","popeye#3940","15/11/2022 7:51 am","@JakubPtak","",""
+"848616398964260925","scarletssstarktitan","15/11/2022 7:55 am","sorry ser ,pls use the #🌉｜starkgate  for this issue ,i have answered you there pls have a check","",""
+"565376910347993088","popeye#3940","15/11/2022 11:31 am","how to search address balance use java sdk","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 12:34 pm","Account balance is just a call to ERC20 of eher on starknet. The address of this contract can be found here https://testnet.starkscan.co/address-book. It is 0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7 **on testnet**. You can then use gateway provider to call `balanceOf` of this contract.","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 12:35 pm","But if you just want to play with starknet I suggest using starknet cli, it exposes a simplified interface","",""
+"565376910347993088","popeye#3940","15/11/2022 1:17 pm","this is mycode","",""
+"565376910347993088","popeye#3940","15/11/2022 1:18 pm","java.lang.NullPointerException: Parameter specified as non-null is null: method com.swmansion.starknet.data.types.Call.<init>, parameter calldata","",""
+"565376910347993088","popeye#3940","15/11/2022 1:21 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041983806447562803/image.png",""
+"565376910347993088","popeye#3940","15/11/2022 1:24 pm","@JakubPtak","",""
+"565376910347993088","popeye#3940","15/11/2022 1:36 pm","`    BigInteger bigInteger = new BigInteger(privateString);
+        Felt address = Felt.fromHex(""0x02C84E511e24B1673d71B361E21887e5C275f7647d755092adA18bc5387c201B"");
+        Provider provider = GatewayProvider.makeTestnetClient();
+        Felt privateKey = new Felt(bigInteger);
+        Account account = new StandardAccount(address, privateKey, provider);
+
+        Felt contractAddress = Felt.fromHex(""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"");
+        Call balanceCall = new Call(contractAddress, ""balanceOf"", null);
+        InvokeFunctionResponse invokeFunctionResponse = account.execute(balanceCall).sendAsync().get();
+        System.out.println(invokeFunctionResponse);`","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 1:37 pm","It seems like it doesn't see what is the type of the calldata list","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 1:37 pm","```
+List<Felt> calldata = List.of(address);
+```
+What if you provide this calldata to it?","",""
+"565376910347993088","popeye#3940","15/11/2022 1:56 pm","if i send calldata , idea will tip me error","",""
+"565376910347993088","popeye#3940","15/11/2022 1:56 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041992516435705956/unknown.png",""
+"565376910347993088","popeye#3940","15/11/2022 1:56 pm","like this","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 2:15 pm","add `List<Felt> calldata = List.of(address);` before that line and it as calldata","",""
+"565376910347993088","popeye#3940","15/11/2022 2:15 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1041997482701369404/image.png",""
+"565376910347993088","popeye#3940","15/11/2022 2:16 pm","like this?","",""
+"945304676268658689","cptartur","15/11/2022 2:16 pm","Are you using java 8?","",""
+"565376910347993088","popeye#3940","15/11/2022 2:16 pm","yes","",""
+"945304676268658689","cptartur","15/11/2022 2:16 pm","`List.of` was added in java 9, so you cannot use it","",""
+"945304676268658689","cptartur","15/11/2022 2:17 pm","What you're trying to use here is from `io.vavr.collection` not standard library, and it seems to be returning some sort of list that is not compatible or it cannot resolve the type. But either way it wont work","",""
+"945304676268658689","cptartur","15/11/2022 2:20 pm","How have to create the List from constructor directly, you can try something like
+```java
+List<Felt> calldata = new ArrayList<>();
+calldata.add(address);
+```","",""
+"565376910347993088","popeye#3940","15/11/2022 2:28 pm","`        BigInteger bigInteger = new BigInteger(privateString);
+        Felt address = Felt.fromHex(""0x02C84E511e24B1673d71B361E21887e5C275f7647d755092adA18bc5387c201B"");
+        Provider provider = GatewayProvider.makeTestnetClient();
+        Felt privateKey = new Felt(bigInteger);
+        Account account = new StandardAccount(address, privateKey, provider);
+        List<Felt> calldata = List.of(address);
+        Felt contractAddress = Felt.fromHex(""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"");
+        Call balanceCall = new Call(contractAddress, ""balanceOf"", calldata);
+        InvokeFunctionResponse invokeFunctionResponse = account.execute(balanceCall).sendAsync().get();
+        System.out.println(invokeFunctionResponse);`","",""
+"565376910347993088","popeye#3940","15/11/2022 2:28 pm","java.util.concurrent.ExecutionException: com.swmansion.starknet.provider.exceptions.GatewayRequestFailedException: Requested contract address 0x2c84e511e24b1673d71b361e21887e5c275f7647d755092ada18bc5387c201b is not deployed.","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 3:17 pm","The contract is just not deployed","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 3:18 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042013281642102856/image.png",""
+"565376910347993088","popeye#3940","15/11/2022 4:02 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042024270940868678/image.png",""
+"565376910347993088","popeye#3940","15/11/2022 4:02 pm","@JakubPtak","",""
+"565376910347993088","popeye#3940","15/11/2022 4:02 pm","but wallet has been balance","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 4:07 pm","Maybe the address you used is not correct. Make sure you can find it in here https://testnet.starkscan.co/ first.","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 4:08 pm","I know testnet had some performance problems recently","",""
+"565376910347993088","popeye#3940","15/11/2022 4:25 pm","i want to create account , what contract template i can use?","",""
+"565376910347993088","popeye#3940","15/11/2022 4:26 pm","i just want recive token, and send token","",""
+"565376910347993088","popeye#3940","15/11/2022 4:27 pm","not need other function","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 4:37 pm","Can you copy the tx hash of your account's deployment and send it here?","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 4:37 pm","Maybe it didn't go through","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 4:38 pm","argent account is ok, it is just that the account address you provided is not deployed on testnet","",""
+"565376910347993088","popeye#3940","15/11/2022 4:46 pm","exchange need create address for user, let them depoist and withdraw coin","",""
+"565376910347993088","popeye#3940","15/11/2022 4:46 pm","so, i need create address for user","",""
+"826928218078052432","0xboater","15/11/2022 4:48 pm","Argentx is a good choice","",""
+"565376910347993088","popeye#3940","15/11/2022 4:48 pm","what is Argentx?","",""
+"565376910347993088","popeye#3940","15/11/2022 4:52 pm","it can create through privatekey, not need deploy contract?","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 6:09 pm","accounts on starknet are just contracts","",""
+"843754360163926056","JakubPtak#8889","15/11/2022 6:09 pm","you can read more about account abstraction here https://perama-v.github.io/cairo/account-abstraction/e","",""
+"565376910347993088","popeye#3940","16/11/2022 8:07 am","i want to search balance but response me InvokeFunctionResponse(transactionHash=Felt(0x6d5c5fefb884487fd8e040dc1a55ddc09436f5a1f5e5878fecf8f659bbe0bb4))","",""
+"565376910347993088","popeye#3940","16/11/2022 8:09 am","where is wrong ?","",""
+"565376910347993088","popeye#3940","16/11/2022 8:11 am","`Felt address = Felt.fromHex(""0x02C84E511e24B1673d71B361E21887e5C275f7647d755092adA18bc5387c201B"");
+        Provider provider = GatewayProvider.makeTestnetClient();
+        Felt privateKey = new Felt(bigInteger);
+        Account account = new StandardAccount(address, privateKey, provider);
+        List<Felt> calldata = List.of(address);
+        Felt contractAddress = Felt.fromHex(""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"");
+        Call balanceCall = new Call(contractAddress, ""balanceOf"", calldata);
+        InvokeFunctionResponse invokeFunctionResponse = account.execute(balanceCall).sendAsync().get();
+        System.out.println(invokeFunctionResponse);`","",""
+"565376910347993088","popeye#3940","16/11/2022 8:47 am","other question","",""
+"565376910347993088","popeye#3940","16/11/2022 8:47 am","https://github.com/OpenZeppelin/cairo-contracts/blob/main/src/openzeppelin/account/presets/Account.cairo","",""
+"565376910347993088","popeye#3940","16/11/2022 8:47 am","i use this  account.cairo to deploy","",""
+"565376910347993088","popeye#3940","16/11/2022 8:48 am","kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 4: Expected EOF after parsing, but had S instead at path: $
+JSON input: // SPDX-License-Identifier: MIT// .....","",""
+"565376910347993088","popeye#3940","16/11/2022 8:48 am","`        String path = System.getProperty(""user.dir"");
+//        // Read contract source code
+        Path contractPath = Paths.get(path + ""/src/main/resources/Account.cairo"");
+        String contract = String.join("""", Files.readAllLines(contractPath));
+////        // Deploy a contract
+        ContractDefinition contractDefinition = new ContractDefinition(contract);
+        DeployTransactionPayload payload = new DeployTransactionPayload(contractDefinition, Felt.fromHex(""0x1234""), Collections.emptyList(), Felt.ZERO);
+        Request<DeployResponse> deployRequest = provider.deployContract(payload);
+        DeployResponse deployResponse = deployRequest.send();
+        Felt newContractAddress = deployResponse.getContractAddress();
+        System.err.println(newContractAddress.decString());`","",""
+"565376910347993088","popeye#3940","16/11/2022 11:49 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1042323016941572156/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 11:49 am","i compile balance.cairo meet error? how to resolve it?","",""
+"565376910347993088","popeye#3940","16/11/2022 12:42 pm","@JakubPtak  @0xboater","",""
+"565376910347993088","popeye#3940","16/11/2022 12:42 pm","https://testnet.starkscan.co/tx/0x06d5c5fefb884487fd8e040dc1a55ddc09436f5a1f5e5878fecf8f659bbe0bb4 i want to search my token balance , why it send  one transaction?","",""
+"843754360163926056","JakubPtak#8889","16/11/2022 12:44 pm","You should use callContract to call a function (read). Execute is for executing a tx (can do writes)","",""
+"843754360163926056","JakubPtak#8889","16/11/2022 12:45 pm","You have to compile it first","",""
+"843754360163926056","JakubPtak#8889","16/11/2022 12:46 pm","You don't have balance variable defined probably. For cairo support you can use #🦅｜cairo-lang-support","",""
+"565376910347993088","popeye#3940","16/11/2022 12:53 pm","i compile it already","",""
+"565376910347993088","popeye#3940","16/11/2022 12:53 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042339122192334858/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 12:53 pm","deploy contract not need privatekey to sign？","",""
+"565376910347993088","popeye#3940","16/11/2022 1:09 pm","0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7 this is eth contract address","",""
+"565376910347993088","popeye#3940","16/11/2022 1:09 pm","0x2e4263afad30923c891518314c3c95dbe830a16874e8abc5777a9a20b54c76e this is Entry point","",""
+"565376910347993088","popeye#3940","16/11/2022 1:10 pm","`    Felt contractAddress = Felt.fromHex(""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"");
+        Call balanceCall = new Call(contractAddress, ""0x2e4263afad30923c891518314c3c95dbe830a16874e8abc5777a9a20b54c76e"");
+        InvokeFunctionResponse invokeFunctionResponse = account.execute(balanceCall).sendAsync().get();
+        System.out.println(invokeFunctionResponse);
+`","",""
+"565376910347993088","popeye#3940","16/11/2022 1:10 pm","this is my code, i want to invoke balance method","",""
+"565376910347993088","popeye#3940","16/11/2022 1:10 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042343405608501249/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 1:11 pm","code has error","https://cdn.discordapp.com/attachments/1032568795576934422/1042343520322719774/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 1:12 pm","@JakubPtak","",""
+"945304676268658689","cptartur","16/11/2022 2:19 pm","You have to do either `Call balanceCall = new Call(contractAddress, Felt.fromHex(""0x2e4263afad30923c891518314c3c95dbe830a16874e8abc5777a9a20b54c76e""));` or `Call(contractAddress, ""balanceOf"");`","",""
+"945304676268658689","cptartur","16/11/2022 2:20 pm","If you pass a selector as a string, it calculates the hex entry point selector itself using `selectorFromName` method","",""
+"945304676268658689","cptartur","16/11/2022 2:22 pm","But other than that it seems there's some error in the way you're constructing this call. From your screenshot it seems that `balanceOf` also expects address of an account to be passed so it'd have to be something like `Call(contractAddress, ""balanceOf"", accountAddress);` if you defined accountAddress correctly","",""
+"565376910347993088","popeye#3940","16/11/2022 2:27 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042362792897945631/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 2:28 pm","why response me transaction hash , instead of balance","",""
+"565376910347993088","popeye#3940","16/11/2022 2:28 pm","@cptartur | Software Mansion","",""
+"843754360163926056","JakubPtak#8889","16/11/2022 2:30 pm","You should use callContract to call a function (read). Execute is for executing a tx (can do writes)","",""
+"843754360163926056","JakubPtak#8889","16/11/2022 2:30 pm","`provider.callContract`","",""
+"565376910347993088","popeye#3940","16/11/2022 2:36 pm","nice","",""
+"565376910347993088","popeye#3940","16/11/2022 2:36 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042365028520693811/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 2:36 pm","it response me result","","👍 (1)"
+"565376910347993088","popeye#3940","16/11/2022 2:40 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042366073225359411/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 2:40 pm","why deploy contract not need privakey to sign ?","",""
+"565376910347993088","popeye#3940","16/11/2022 2:41 pm","@cptartur | Software Mansion","",""
+"945304676268658689","cptartur","16/11/2022 2:50 pm","Deploy transactions are very old now, so they are different than other txs, they will be removed soon. They will be replaced with Declare + different kind of deploy that will need signing and sending a transaction fee","",""
+"565376910347993088","popeye#3940","16/11/2022 2:51 pm","can you give me a demo about deploy contract","",""
+"565376910347993088","popeye#3940","16/11/2022 2:51 pm","because if i not deploy contract, i cant create address","",""
+"565376910347993088","popeye#3940","16/11/2022 2:57 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042370434814971904/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 2:58 pm","how to create Signature object","",""
+"945304676268658689","cptartur","16/11/2022 3:13 pm","Signed declares are not yet supported out of the box in starknet-jvm, but you could try using `StarkCurveSigner` module","",""
+"945304676268658689","cptartur","16/11/2022 3:15 pm","And you don't create a Signature object, signatures are just List<Felt>","",""
+"565376910347993088","popeye#3940","16/11/2022 3:16 pm","ok","",""
+"565376910347993088","popeye#3940","16/11/2022 3:16 pm","which Transaction object  can use","",""
+"565376910347993088","popeye#3940","16/11/2022 3:17 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042375460887203941/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 3:27 pm","@cptartur | Software Mansion","",""
+"945304676268658689","cptartur","16/11/2022 3:32 pm","I believe it should work with any Transaction type","",""
+"565376910347993088","popeye#3940","16/11/2022 3:34 pm","what is classhash?","",""
+"565376910347993088","popeye#3940","16/11/2022 3:34 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042379576187297853/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 3:35 pm","@cptartur | Software Mansion","",""
+"945304676268658689","cptartur","16/11/2022 3:59 pm","It's a hash od contract that is declared: starknet distinguishes between contract declaration and deployment. Declaring contract is kind of like writing a `class Contract` declaration in java and deployment is actually make an instance of contract like `new Contract()`","",""
+"945304676268658689","cptartur","16/11/2022 3:59 pm","I recommend you read this first https://www.cairo-lang.org/docs/hello_starknet/intro.html and perhaps other parts of the docs","",""
+"945304676268658689","cptartur","16/11/2022 4:00 pm","There's also an instruction there how to declare contracts through a CLI, starknet-jvm doesn't currently support calculating class hash, so you'd have to use some other tool to calculate it  if you want to make `Declare` or `DeployAccount` transactions in java.","",""
+"565376910347993088","popeye#3940","16/11/2022 4:42 pm","so","",""
+"565376910347993088","popeye#3940","16/11/2022 4:42 pm","cant crate account by starknet-jvm sdk now ?","",""
+"565376910347993088","popeye#3940","16/11/2022 4:44 pm","is right?","",""
+"565376910347993088","popeye#3940","16/11/2022 4:44 pm","@cptartur | Software Mansion","",""
+"945304676268658689","cptartur","16/11/2022 5:46 pm","Yes, at least not in a simple manner at this moment. I'd recommend just using a account that was already created through something like ArgentX","",""
+"565376910347993088","popeye#3940","16/11/2022 9:15 pm","but exchange need create many address for user","",""
+"565376910347993088","popeye#3940","16/11/2022 9:17 pm","argentx many be not a good choice","",""
+"565376910347993088","popeye#3940","17/11/2022 7:40 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1042622777825447967/image.png",""
+"565376910347993088","popeye#3940","17/11/2022 8:27 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1042634591804072016/image.png",""
+"565376910347993088","popeye#3940","17/11/2022 8:27 am","@JakubPtak  @cptartur | Software Mansion  this code cant use ?","",""
+"565376910347993088","popeye#3940","17/11/2022 8:55 am","`       String toAddress = ""0x01d3E80BD0f8F34F1B9B1781E42dB811Eb87dc048f858E0dDa71857601226860"";
+        List<Felt> toCallData = List.of(Felt.fromHex(toAddress),new Felt(new BigInteger(""1000000000000"")));
+        Call transfer = new Call(contractAddress,""transfer"",toCallData);
+        Request<InvokeFunctionResponse> execute = account.execute(transfer);
+        InvokeFunctionResponse invokeFunctionResponse = execute.sendAsync().get();
+        System.err.println(invokeFunctionResponse.getTransactionHash());`","",""
+"565376910347993088","popeye#3940","17/11/2022 12:28 pm","String toAddress = ""0x01d3E80BD0f8F34F1B9B1781E42dB811Eb87dc048f858E0dDa71857601226860"";
+        List<Felt> toCallData = List.of(Felt.fromHex(toAddress),new Felt(new BigInteger(""1000000000000"")));
+        Call transfer = new Call(contractAddress,""transfer"",toCallData);
+        Request<InvokeFunctionResponse> execute = account.execute(transfer);
+        InvokeFunctionResponse invokeFunctionResponse = execute.sendAsync().get();
+        System.err.println(invokeFunctionResponse.getTransactionHash());","",""
+"565376910347993088","popeye#3940","17/11/2022 12:28 pm","@cptartur | Software Mansion  @JakubPtak","",""
+"565376910347993088","popeye#3940","17/11/2022 12:29 pm","i want to invoke 'transfer' method , but has error","",""
+"565376910347993088","popeye#3940","17/11/2022 12:32 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1042696273494552606/image.png",""
+"945304676268658689","cptartur","17/11/2022 2:35 pm","For now you can, but Deploy will be removed sometime soon(ish).","",""
+"945304676268658689","cptartur","17/11/2022 2:36 pm","It seems like an error on starknet side so most likely problem with the invoke you are trying to make. Perhaps calldata you're passing is incorrect","",""
+"565376910347993088","popeye#3940","17/11/2022 4:29 pm","Which signature algorithm does starknet use","",""
+"536234853453266974","s4msepi0l#5603","17/11/2022 4:50 pm","Hi @popeye , please note this is a channel for starknet's jvm sdk, let's keep the questions strictly about it. If you are curious about various aspects of starknet and/or cairo programming please refer to the excellent starknet docs https://starknet.io/docs/index.html / https://docs.starknet.io/documentation/develop/Blocks/transactions/#signature or other, relevant channels in this chat server. Thank you for understanding.","",""
+"565376910347993088","popeye#3940","18/11/2022 7:30 am","ok","",""
+"565376910347993088","popeye#3940","18/11/2022 7:31 am","because i want to use jvm sdk to offline sign","",""
+"536234853453266974","s4msepi0l#5603","18/11/2022 12:58 pm","If you want to sign a transaction you can use https://docs.swmansion.com/starknet-jvm/com/swmansion/starknet/signer/StarkCurveSigner.html#signTransaction(Transaction)","",""
+"565376910347993088","popeye#3940","21/11/2022 9:12 am","how to create privatekey?","",""
+"565376910347993088","popeye#3940","21/11/2022 9:13 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1044095565836849152/image.png",""
+"565376910347993088","popeye#3940","21/11/2022 9:13 am","where can i find jni api document?","",""
+"843754360163926056","JakubPtak#8889","21/11/2022 1:57 pm","You need to use some cryptographically safe library/tool.","",""
+"843754360163926056","JakubPtak#8889","21/11/2022 1:57 pm","You shouldn't use native modules directly. Use modules from com.swmansion.starknet.crypto","",""
+"565376910347993088","popeye#3940","21/11/2022 2:44 pm","ok","",""
+"565376910347993088","popeye#3940","22/11/2022 12:13 pm","how to assemble the original transaction, not yet signed by sdk-jvm.","",""
+"565376910347993088","popeye#3940","22/11/2022 12:13 pm","like this , this is sdk-js code, but i want to get it in sdk-jvm","https://cdn.discordapp.com/attachments/1032568795576934422/1044503425943085056/telegram-cloud-photo-size-5-6334506029622079981-y.jpg",""
+"565376910347993088","popeye#3940","22/11/2022 12:13 pm","@JakubPtak","",""
+"843754360163926056","JakubPtak#8889","22/11/2022 3:10 pm","You can create it using `TransactionFactory` from transactions, but I think you don't really need to create a tx yourself and can just use a TransactionPayload. What is your use case?","",""
+"565376910347993088","popeye#3940","22/11/2022 3:11 pm","i need build transaction myself","",""
+"843754360163926056","JakubPtak#8889","22/11/2022 3:11 pm","Do you have a custom signer?","",""
+"565376910347993088","popeye#3940","22/11/2022 3:11 pm","eth has transaction hex, then use  ""eth_sendrawtransaction"" will send transaction","",""
+"565376910347993088","popeye#3940","22/11/2022 3:11 pm","i want to create tx hex","",""
+"843754360163926056","JakubPtak#8889","22/11/2022 3:11 pm","Ok, I see","",""
+"565376910347993088","popeye#3940","22/11/2022 4:15 pm","`        String privateString = ""xxxx"";
+        BigInteger privateKey = new BigInteger(privateString);
+        Felt address = Felt.fromHex(""0x06c8623583e9fbfc25a2057fe81cf2e894e45321be40bcb5fb9c0b73fc70162f"");
+        StarkCurveSigner starkCurveSigner = new StarkCurveSigner(new Felt(privateKey));
+        Provider provider = GatewayProvider.makeTestnetClient();
+        Account account = new StandardAccount(address, starkCurveSigner, provider);
+//        account2
+        String toAddress = ""0x01d3E80BD0f8F34F1B9B1781E42dB811Eb87dc048f858E0dDa71857601226860"";
+//      starknet main contract
+        Felt contractAddress = Felt.fromHex(""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"");
+        List<Felt> toCallData = List.of(Felt.fromHex(toAddress), new Felt(new BigDecimal(""0.001"").movePointRight(18).toBigInteger()));
+        Call transfer = new Call(contractAddress, ""transfer"", toCallData);
+        InvokeFunctionResponse invokeFunctionResponse = account.execute(transfer).sendAsync().get();
+        System.err.println(invokeFunctionResponse.getTransactionHash());`","",""
+"565376910347993088","popeye#3940","22/11/2022 4:16 pm","i meet error when i try send one transaction, can you help me ?","",""
+"565376910347993088","popeye#3940","22/11/2022 4:17 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1044564681307721788/image.png",""
+"536234853453266974","s4msepi0l#5603","22/11/2022 4:27 pm","Hi @popeye , it seems you have mismatched the types in the contract input. The `transfer` function takes an `amount` as `Uint256` and you are passing a `Felt`. Uint256 is actually constructed out of two Felts, so you might have to pass in a list of two Felts (the second one being just 0) in order to make it work.","",""
+"565376910347993088","popeye#3940","22/11/2022 5:00 pm","ok","",""
+"565376910347993088","popeye#3940","22/11/2022 5:00 pm","https://testnet.starkscan.co/tx/0x7ecd59c18e95aa89355ed89cc11574406e2c57530aae986dc56908539c95ca2","",""
+"565376910347993088","popeye#3940","22/11/2022 5:00 pm","why this transaction fail?","",""
+"536234853453266974","s4msepi0l#5603","22/11/2022 5:13 pm","I believe you should have an error message describing what went wrong in your console. You can also check the reason behind a failed transaction in starkscan. Please make sure you are providing correct values to the contract's function, as it seems to be the problem.
+
+Also, please remember this is starknet-jvm sdk channel, and the issues you're having are not directly connected to it. As much as we'd love to help you out with any issues you encounter, we would appreciate if only starknet-jvm related issues were to be discussed here. Hope you understand.","",""
+"565376910347993088","popeye#3940","22/11/2022 5:14 pm","`//        String privateString = ""xxxx"";
+        Felt address = Felt.fromHex(""0x06c8623583e9fbfc25a2057fe81cf2e894e45321be40bcb5fb9c0b73fc70162f"");
+        Provider provider = GatewayProvider.makeTestnetClient();
+//        account2
+        String toAddress = ""0x01d3E80BD0f8F34F1B9B1781E42dB811Eb87dc048f858E0dDa71857601226860"";
+//      starknet main contract
+        List<Felt> toCallData = List.of(Felt.fromHex(toAddress), new Felt(new BigDecimal(""0.001"").movePointRight(18).toBigInteger()),Felt.ZERO);
+
+        Felt maxFee = new Felt(new BigDecimal(""0.00001"").movePointRight(18).toBigInteger());
+        Felt nonce = provider.getNonce(address, BlockTag.PENDING).sendAsync().get();
+        Felt entryPointSelector = Felt.fromHex(""0x83afd3f4caedc6eebf44246fe54e38c95e3179a5ec9ea81740eca5b482d12e"");
+        Felt r = new Felt(new BigInteger(""3095628285553806687528814752048040463885126543383630837733072130838417962971""));
+        Felt s = new Felt(new BigInteger(""1268073686517887271352474412237612033615865707020731047162412681497837339400""));
+        InvokeTransaction invokeTransaction = TransactionFactory.makeInvokeTransaction(address, toCallData, entryPointSelector, provider.getChainId(), Felt.ONE, nonce, maxFee, List.of(r,s));
+        InvokeFunctionResponse invokeFunctionResponse = provider.invokeFunction(invokeTransaction.toPayload()).sendAsync().get();
+
+        System.err.println(invokeTransaction.getHash());
+        System.err.println(invokeFunctionResponse.getTransactionHash());`","",""
+"565376910347993088","popeye#3940","22/11/2022 5:14 pm","i use jvm-sdk build transaction","",""
+"536234853453266974","s4msepi0l#5603","22/11/2022 5:16 pm","May I ask if you checked what was the error in the terminal/starkscan, like I asked?","",""
+"565376910347993088","popeye#3940","22/11/2022 5:17 pm","Error at pc=0:550:
+Value 826719102970743163497617094873675630559416243498969575673414891089613187168, in range check builtin 0, is out of range [0, 340282366920938463463374607431768211456).","",""
+"536234853453266974","s4msepi0l#5603","22/11/2022 5:21 pm","Exactly. This is an error that comes directly from the contract you are calling. It means, that the values you are trying to pass to the contract are out of range. You should pick lower values, so the contract does not reject them.","",""
+"565376910347993088","popeye#3940","22/11/2022 5:25 pm","which params too large?","",""
+"536234853453266974","s4msepi0l#5603","22/11/2022 5:27 pm","not sure, my bet is either one of `r` or `s`","",""
+"565376910347993088","popeye#3940","22/11/2022 6:53 pm","Error at pc=0:104:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:1678)
+Unknown location (pc=0:1664)
+
+Error in the called contract (0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7):
+Entry point 0x162da33a4585851fe8d3af3c2a9c60b557814e221e0d4f30ff0b2189d9c7775 not found in contract with class hash 0x2760f25d5a4fb2bdde5f561fd0b44a3dee78c28903577d37d669939d97036a0.","",""
+"565376910347993088","popeye#3940","22/11/2022 6:54 pm","what is the ""transfer"" method entryPointSelector","",""
+"843754360163926056","JakubPtak#8889","22/11/2022 6:54 pm","You are calling a function that doesn't exist in a contract","",""
+"565376910347993088","popeye#3940","22/11/2022 6:55 pm","yes i know","",""
+"565376910347993088","popeye#3940","22/11/2022 6:55 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1044604483134566480/image.png",""
+"565376910347993088","popeye#3940","22/11/2022 6:55 pm","but i dont know ""transfer"" entryPointSelector","",""
+"565376910347993088","popeye#3940","22/11/2022 6:56 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1044604677418917989/image.png",""
+"565376910347993088","popeye#3940","22/11/2022 6:56 pm","i find it in js","",""
+"565376910347993088","popeye#3940","22/11/2022 6:56 pm","but i use it ,has error","",""
+"565376910347993088","popeye#3940","22/11/2022 7:03 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1044606579770671115/image.png",""
+"565376910347993088","popeye#3940","23/11/2022 8:00 am","this is my java code ,to sign transaction","https://cdn.discordapp.com/attachments/1032568795576934422/1044802018516152380/message.txt",""
+"565376910347993088","popeye#3940","23/11/2022 8:00 am","but always tip me error","",""
+"565376910347993088","popeye#3940","23/11/2022 8:00 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1044802179380281375/image.png",""
+"565376910347993088","popeye#3940","23/11/2022 8:01 am","can you help me see what is wrong","",""
+"565376910347993088","popeye#3940","23/11/2022 8:02 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1044802491709149194/image.png",""
+"565376910347993088","popeye#3940","23/11/2022 8:22 am","","https://cdn.discordapp.com/attachments/1032568795576934422/1044807543622488094/image.png",""
+"565376910347993088","popeye#3940","23/11/2022 9:08 am","this method cant set ""Entry point selector""","https://cdn.discordapp.com/attachments/1032568795576934422/1044819288260874321/image.png",""
+"843754360163926056","JakubPtak#8889","23/11/2022 1:34 pm","You create invoke tx directly. Since some time all transactions must go through an account contract. This means that the only entry point selector that makes sense is the `execute` one. I strongly suggest you to use StandardAccount that hides all those details. I see that you need a custom signature - you can create a custom `Signer ` that will return your hardcoded parameters.","",""
+"843754360163926056","JakubPtak#8889","23/11/2022 1:36 pm","So every call you make within a tx is in fact transformed into calldata array provided to execute method of an account.","",""
+"636965380656594974","Florian_#6785","21/03/2023 7:48 pm","Hi 👋 I opened an issue https://github.com/software-mansion/starknet-jvm/issues/243","","👍 (4)"
+"945304676268658689","cptartur","22/03/2023 7:38 pm","Hey, thanks for the report. Will forward this to the team. Apologies it's taking a while, it should hopefully be resolved at the end of this or beginning of the next week.","",""
+"877484360343879741","beichenutc8","05/04/2023 7:10 am","The js sdk language method ""stark.compileCalldata"" in the red box, how to implement it with java sdk? My java jdk version is 0.5.2","https://cdn.discordapp.com/attachments/1032568795576934422/1092987008617558177/STARK.PNG",""
+"945304676268658689","cptartur","06/04/2023 4:08 pm","Hey, the code you posted is javascript. This is support channel for starknet-jvm https://github.com/software-mansion/starknet-jvm, a java library.","",""
+"945304676268658689","cptartur","06/04/2023 4:12 pm","You can take a look at examples in our documentation. Flow of making transactions is different in starknet-jvm than in the js library, so there's not direct translation of the code you provided","",""
+"945304676268658689","cptartur","06/04/2023 4:12 pm","https://docs.swmansion.com/starknet-jvm/","",""
+"753519909329305611","Zz#5399","30/05/2023 12:16 pm","this is my js code ,to swap transaction
+but always tip me error
+in range check builtin 0, is out of range [0, 340282366920938463463374607431768211456)","https://cdn.discordapp.com/attachments/1032568795576934422/1112995331584577596/image.png",""
+"536234853453266974","s4msepi0l#5603","30/05/2023 12:17 pm","Hi @Zz , this is jvm channel, and we do not provide help with js code. Please use starknet-js channel for your help request, thanks.","",""
+"1021255866160259082","jeb.wang","14/06/2023 4:21 pm","Is there a pedersen hash implementation in java ?","",""
+"332538472650768386","drknzz","14/06/2023 4:46 pm","Started a thread.","",""
+"565376910347993088","popeye#3940","14/07/2023 2:16 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1129333010341314570/image.png",""
+"565376910347993088","popeye#3940","14/07/2023 2:35 pm","i search block and tx , response this error . JsonDecodingException","",""
+"565376910347993088","popeye#3940","14/07/2023 2:43 pm","i use JsonRpcProvider","",""
+"565376910347993088","popeye#3940","14/07/2023 3:26 pm","`   String url = ""https://starknet-goerli.infura.io/v3/fe287803f01d4f309a97cb6e07109039"";
+        OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
+        HttpService httpService =new OkHttpService(builder.build());
+        JsonRpcProvider jsonRpcProvider = new JsonRpcProvider(url, StarknetChainId.TESTNET, httpService);
+        Integer send = jsonRpcProvider.getBlockNumber().send();
+        System.err.println(send);
+
+        GetBlockWithTransactionsResponse send1 = jsonRpcProvider.getBlockWithTxs(BlockTag.LATEST).send();
+        System.err.println(send1);`","",""
+"565376910347993088","popeye#3940","14/07/2023 3:26 pm","this is my code","",""
+"565376910347993088","popeye#3940","14/07/2023 4:11 pm","@s4msepi0l | Software Mansion","",""
+"536234853453266974","s4msepi0l#5603","24/07/2023 12:07 pm","Started a thread.","",""
+"565376910347993088","popeye#3940","26/07/2023 8:10 am","@s4msepi0l | Software Mansion","",""
+"565376910347993088","popeye#3940","26/07/2023 8:10 am","how to get classhash?","https://cdn.discordapp.com/attachments/1032568795576934422/1133589681410420756/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 2:56 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133691796774465536/image.png",""
+"236538645086076929","delevo","26/07/2023 4:12 pm","Hi @popeye, I replied to your issue on gh. 
+As for this screenshot this is the alternative way to get classHash, but it is running the command in starknet-cli under the hood and this is probably too costly to do that each time you want to compute class hash so the python solution is preferable.","",""
+"565376910347993088","popeye#3940","26/07/2023 4:22 pm","@Delevo | SWM","",""
+"565376910347993088","popeye#3940","26/07/2023 4:22 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133713370374209606/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 4:22 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133713543129206815/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 4:24 pm","I only need to declare the contract once, can I use which classhash when creating an address in the future?","",""
+"236538645086076929","delevo","26/07/2023 4:27 pm","@popeye 
+Please check the installation guide for starknet.py:
+https://starknetpy.readthedocs.io/en/latest/installation.html
+Then you will be able to run the provided code.","",""
+"236538645086076929","delevo","26/07/2023 4:32 pm","Also, can you please clarify what is it exactly you are trying to accomplish?
+Are you trying to declare a contract or do you want to create an account?","",""
+"565376910347993088","popeye#3940","26/07/2023 4:59 pm","i want to create an account","",""
+"565376910347993088","popeye#3940","26/07/2023 5:00 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133722936323346462/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 5:00 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133722939578126377/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 5:00 pm","0x40386ac26705b3d269d1aa3cdecf5f2d8s15ea6d8a3b48c0f91e905871ee338d","",""
+"565376910347993088","popeye#3940","26/07/2023 5:00 pm","why i cant use this classhash","",""
+"236538645086076929","delevo","26/07/2023 5:06 pm","I think you inserted `s` in your hex by accident, making it invalid","",""
+"236538645086076929","delevo","26/07/2023 5:11 pm","If you want to create an openzeppelin account (using already declared openzeppelin contract), and not declare an account contract, you should use `provider.deployAccount` instead:
+https://github.com/software-mansion/starknet-jvm/blob/main/lib/src/main/kotlin/com/swmansion/starknet/provider/Provider.kt#L348
+You can get class hash for openzeppelin contract on starkscan depending on which net you want to use:
+https://testnet.starkscan.co/address-book
+https://testnet-2.starkscan.co/address-book
+https://starkscan.co/address-book","",""
+"236538645086076929","delevo","26/07/2023 5:17 pm","You can also use `starknet-cli` to create accounts: https://docs.starknet.io/documentation/tools/CLI/commands/#starknet_deploy_account","",""
+"565376910347993088","popeye#3940","26/07/2023 5:35 pm","i need use offline  sign","",""
+"565376910347993088","popeye#3940","26/07/2023 5:35 pm","cant use other tools","",""
+"236538645086076929","delevo","26/07/2023 5:47 pm","I'm sorry, I don't fully understand your question. Can you explain what exactly do you mean by ""offline sign""?","",""
+"565376910347993088","popeye#3940","26/07/2023 5:49 pm","private key save another place","",""
+"565376910347993088","popeye#3940","26/07/2023 5:49 pm","like cold wallet","",""
+"565376910347993088","popeye#3940","26/07/2023 5:50 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133735691315068948/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 5:51 pm","this param can use the same value?","",""
+"565376910347993088","popeye#3940","26/07/2023 5:52 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1133736221848387655/image.png",""
+"565376910347993088","popeye#3940","26/07/2023 5:53 pm","i delpoy this tx , but i cant search it on the explorer , what reason?","",""
+"236538645086076929","delevo","26/07/2023 6:13 pm","Can you on clarify what you mean by ""save another place""? Private key that you use to create StandartAccount shouldn't be exposed at any time, including when you do Account.signDeployAccount","",""
+"236538645086076929","delevo","26/07/2023 6:14 pm","You can put any correct Felt as salt, so i do not understand exactly ""the same"" part of your question. Same as what?","",""
+"236538645086076929","delevo","26/07/2023 6:23 pm","Do you mean ""starkscan"" when referring to explorer? 
+I'm can't really see what provider and network are you using here. If you are using Devnet, as it appears from the fact that you are running this as a test, then you won't be able to see anything on the explorer because it only supports Testnet 1/2 and Mainnet. All the transctions you make on Devnet are local and won't be available on Starkscan.","",""
+"536234853453266974","s4msepi0l#5603","26/07/2023 6:34 pm","Hi guys, let's try to get to the bottom of the issue, and continue in this thread 👍","",""
+"565376910347993088","popeye#3940","27/07/2023 7:19 am","for example , i create many address,","",""
+"565376910347993088","popeye#3940","27/07/2023 7:28 am","https://starknet-goerli.infura.io/v3/fe287803f01d4f309a97cb6e07109039 i use this rpc endpoint .what mean all in local？","",""
+"565376910347993088","popeye#3940","27/07/2023 7:29 am","how to broadcast transaction ?","",""
+"565376910347993088","popeye#3940","27/07/2023 7:29 am","i need broadcast it","",""
+"536234853453266974","s4msepi0l#5603","27/07/2023 12:51 pm","Started a thread.","",""
+"565376910347993088","popeye#3940","27/07/2023 4:11 pm","https://testnet.starkscan.co/tx/0x2bb5ba4aed168091a0c73debb7eb0778e846240dfee1f3ad07969b16267365b","",""
+"565376910347993088","popeye#3940","27/07/2023 4:13 pm","i create one deploy account tx , why expected_nonce is zero ? this nonce is my create transaction' address ?","",""
+"892555020002820096","moretoto","09/08/2023 9:59 pm","https://github.com/software-mansion/starknet-jvm","",""
+"892555020002820096","moretoto","09/08/2023 10:00 pm","This is the java sdk?","",""
+"892555020002820096","moretoto","09/08/2023 10:03 pm","<dependency>
+    <groupId>com.swmansion.starknet</groupId>
+    <artifactId>starknet</artifactId>
+    <version>0.6.2</version>
+</dependency>","",""
+"892555020002820096","moretoto","09/08/2023 10:03 pm","Just rely on this jar, right?","",""
+"892555020002820096","moretoto","09/08/2023 10:30 pm","Why can't I import the classes inside the jar","https://cdn.discordapp.com/attachments/1032568795576934422/1138879567990362253/image.png,https://cdn.discordapp.com/attachments/1032568795576934422/1138879568728555680/image.png",""
+"892555020002820096","moretoto","10/08/2023 4:48 am","help me","",""
+"892555020002820096","moretoto","10/08/2023 8:51 am","@s4msepi0l | Software Mansion@Delevo | SWM","",""
+"236538645086076929","delevo","10/08/2023 2:00 pm","Started a thread.","",""
+"862996769125826560",".jameswade","11/08/2023 8:16 am","@Delevo | SWM  could i create an account by starknet-jvm？","",""
+"862996769125826560",".jameswade","11/08/2023 8:16 am","not deploy，justcreate","",""
+"892555020002820096","moretoto","12/08/2023 7:30 pm","Caused by: com.swmansion.starknet.crypto.NativeLoader$UnsupportedPlatform: Unsupported platfrom Windows:amd64
+    at com.swmansion.starknet.crypto.NativeLoader.getLibPath(NativeLoader.kt:64)
+    at com.swmansion.starknet.crypto.NativeLoader.load(NativeLoader.kt:32)
+    at com.swmansion.starknet.crypto.NativeLoader.load(NativeLoader.kt:23)
+    at com.swmansion.starknet.crypto.StarknetCurve.<clinit>(StarknetCurve.kt:47)
+    ... 39 more","",""
+"892555020002820096","moretoto","12/08/2023 7:31 pm","@Delevo | SWMWhy not support windows","",""
+"892555020002820096","moretoto","12/08/2023 7:46 pm","The jni file failed to load","https://cdn.discordapp.com/attachments/1032568795576934422/1139925492288467045/image.png",""
+"862996769125826560",".jameswade","14/08/2023 8:34 am","i also want to know this.and i find the error with Unsupported platform linux:aarch64.help,pls","",""
+"892555020002820096","moretoto","14/08/2023 1:50 pm","@Delevo | SWM","",""
+"892555020002820096","moretoto","14/08/2023 1:50 pm","help","",""
+"862996769125826560",".jameswade","14/08/2023 3:04 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1140579139917713479/image.png",""
+"862996769125826560",".jameswade","14/08/2023 3:04 pm","i got this error,","",""
+"892555020002820096","moretoto","15/08/2023 7:18 am","@Delevo | SWM@s4msepi0l | Software Mansionhelp me","",""
+"862996769125826560",".jameswade","15/08/2023 12:27 pm","I got it, you cross the crypto library by yourself","",""
+"862996769125826560",".jameswade","15/08/2023 12:27 pm","have a try","",""
+"892555020002820096","moretoto","15/08/2023 8:28 pm","How do I add a library？","",""
+"236538645086076929","delevo","16/08/2023 4:29 pm","Started a thread.","",""
+"236538645086076929","delevo","16/08/2023 4:33 pm","Started a thread.","",""
+"792777196959694869","tothemoon8836","26/08/2023 9:10 pm","","https://cdn.discordapp.com/attachments/1032568795576934422/1145019903183700019/image.png",""
+"536234853453266974","s4msepi0l#5603","28/08/2023 11:09 am","Started a thread.","",""
+"892555020002820096","moretoto","21/09/2023 1:27 pm","How to get the wallet address according to the private key?","",""
+"892555020002820096","moretoto","21/09/2023 1:27 pm","@Delevo | SWM@s4msepi0l | Software Mansion","","👀 (1)"
+"892555020002820096","moretoto","21/09/2023 1:30 pm","// Create an account interface
+        Felt privateKey = Felt.fromHex(""0x123"");
+        Felt publicKey = StarknetCurve.getPublicKey(privateKey);
+
+        // Use the class hash of the desired account contract (i.e. the class hash of OpenZeppelin account contract)
+        Felt classHash = Felt.fromHex(""0x058d97f7d76e78f44905cc30cb65b91ea49a4b908a76703c54197bca90f81773"");
+        Felt salt = new Felt(789);
+        List<Felt> calldata = List.of(publicKey);
+        Felt address = ContractAddressCalculator.calculateAddressFromHash(
+            classHash,
+            calldata,
+            salt
+        );","",""
+"892555020002820096","moretoto","21/09/2023 1:30 pm","I used the example code above, but the wallet address is different from the address in the front of Argent","",""
+"892555020002820096","moretoto","21/09/2023 1:54 pm","Another question, how do I use StarkNet-jvm to transfer this type of data to a contract? @Delevo | SWM","https://cdn.discordapp.com/attachments/1032568795576934422/1154332214545358948/image.png",""
+"236538645086076929","delevo","21/09/2023 1:54 pm","Started a thread.","",""

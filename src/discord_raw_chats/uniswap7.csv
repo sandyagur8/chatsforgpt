@@ -1,0 +1,919 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"471357824299958273","crypto_rachel","04/11/2022 2:50 am","🤣  First comment in the #🧶│on-chain-integrations  this room will be focused on solidity and on chain V3 integrations","",""
+"713108791016554518","SergioG12#4380","07/11/2022 2:32 pm","Hi guys i'd like to know in updatePosition( and consequently in ticks.update) the liquidity is added from liquiditynet for tick lower and removed for tick upper ( for a single operation of ADD or REMOVE ), i guess if we have an ADD operation for a specific range of ticks, we added liquidity to the both liquiditynet, instaed for ticklower is added and for upper is removed... some explanations ?","https://cdn.discordapp.com/attachments/1037707770834722826/1039102606234103828/image.png",""
+"471357824299958273","crypto_rachel","08/11/2022 12:01 am","So in V3 pools have a tick range of active liquidity, this is to get the separate fee tiers. each range will have a liquidityGross, and LiquidityNet 
+
+liquidityGross is the gross amount of liquidity at a given tick. The pool keeps track of this because it needs to know if there are a non-zero amount of people in-range. 
+
+liquidityNet is the amount of liquidity kicked in or out of the current in-range at the start of that tick
+
+this allows the contract to split the active tick ranges Liquidity so that only LP providers that want that active tick range are there
+So as it says when these tick ranges are crossed it has to add or remove the LQ","https://cdn.discordapp.com/attachments/1037707770834722826/1039245849613570069/unknown.png",""
+"734802870557212763","duynguyen_2009","08/11/2022 5:21 pm","hi guys, for V2, it is possible to repay the Pair at the end of the contract with either token0 or token1.
+
+Can we do the same on V3? or we must return exactly what we flashed?","","✅ (1)"
+"713108791016554518","SergioG12#4380","09/11/2022 3:45 pm","Thanks! it's clear but liquidityNet could be negative, a negative liquidity value what does it represent ?","",""
+"713108791016554518","SergioG12#4380","09/11/2022 3:50 pm","And... i don't understand...Which is the unit of measure of liquidity?","",""
+"713108791016554518","SergioG12#4380","09/11/2022 5:07 pm","Guys, so if i am not wrong, if we have two add liquidity operations where tickUpper of the first is the same of the tickLower of the second, the first liquidityNet is removed and the second is added on the same tick, right ?","",""
+"471357824299958273","crypto_rachel","09/11/2022 10:08 pm","Liquidity is a Q128 number conversion from  `L = √xy`
+
+liquidityNet is the amount of liquidity kicked in or out of the current in-range at the start of that tick
+this is used for crossing ticks, to keep track of the active liquidity","",""
+"819477412663525387","owenCN#5828","10/11/2022 4:48 pm","how to set ""sqrtPriceLimitX96"" when ISwapRouter.ExactInputSingleParams","",""
+"819477412663525387","owenCN#5828","10/11/2022 4:50 pm","i run exactInputSingle swap usdt to weth with the sqrtPriceLimitX96 = 0,  ""SPL error""","",""
+"819477412663525387","owenCN#5828","10/11/2022 4:53 pm","but i swap eth to usdt with the sqrtPriceLimitX96 = 0, and it success","","✅ (1)"
+"173416708277534720","barry7322","13/11/2022 10:04 pm","I'm interested in having a smart contract use a range order like a limit order rather swap (market order). 
+
+I'm wondering if there is an example of submiting a range order one tick below current price in solidity?","",""
+"471357824299958273","crypto_rachel","13/11/2022 11:19 pm","I don't know of any examples of range orders.
+
+you will want to look into which token will be 100% of the LQ balance, as it doesn't normally work out how people would want. Like a USDC/ETH position as the price falls you will end up with 100% WETH, and if the price is rising you will end up with 100% USDC.
+
+but it wouldn't be hard, you would have to choose the range at which you want this to happen say 1.00 to 1.01 range, you would take the prices and convert to tick (or easier choose tick range above or below. There is tons of info in #💻│dev-chat pins, on how to get tick spacing and active tick ranges","","👍 (1)"
+"173416708277534720","barry7322","15/11/2022 5:54 pm","I found one link in the pinned messages but it looked related to using tick bitmaps on the FE. Here is my own mock up of what I'm trying to do. Wonder if this is the right approach:
+```
+        int24 tickSpacing = pool.tickSpacing();
+        int24 currentTick = pool.slot0().tick;
+        int24 tickUpper = currentTick - tickSpacing;
+        int24 tickLower = currentTick - (2 * tickSpacing);
+```","",""
+"471357824299958273","crypto_rachel","16/11/2022 11:21 am","```java
+const V3poolC = new web3.eth.Contract(V3poolabi, V3pool);
+var S0 = await V3poolC.methods.slot0().call().catch(function (err){log(err)});
+var CT = parseInt(S0.tick);
+var Tsp = parseInt(V3poolC.methods.tickSpacing().call().catch(function (err){log(err)}));
+var NLT = (math.floor(CT/Tsp))*Tsp;
+var NHT = ((math.floor(CT/Tsp))*Tsp)+Tsp;
+var TickL = NLT.toString();  //Nearest usable lower tick This would have the current ticks Liquidity  //""-887220"";  //// Min Tick full range below 
+var TickU = NHT.toString();  //Nearest usable upper tick    //""887220"";  //// Max Tick full range above current tick
+var S0 = await V3poolC.methods.ticks(TickL).call().catch(function (err){log(err)}); // current LQ
+
+```","",""
+"173416708277534720","barry7322","17/11/2022 4:32 am","I would think `tickSpacing` is the smallest tick per pool, why else would it be set upon deployment of the pool? If it's the smallest denomination in general why set it for each pool? 
+
+Is there a guide for translating ticks into prices or prices into ticks?","",""
+"173416708277534720","barry7322","17/11/2022 4:38 am","Looking at this contract: https://etherscan.io/address/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640#readContract#F14
+
+tickSpacing is `10`, there is mint that was done today `""tickLower"":""205390""` `""tickUpper"":""205400""` so it seems to hold for being one tick.","",""
+"471357824299958273","crypto_rachel","17/11/2022 4:38 am","the tick spacing is based on the basis point of the pool, which is the fee tier
+0.3% == 60 tick spacing, 0.01% == 1 tick spacing, 0.05 == 10 tick spacing, 1% == 200 
+There is a max and min tick, and there are multiple ticks within tick space (except the 0.01% pool)
+this controls the fees that are gathered
+
+tick to price
+```
+(1.0001**Math.abs(tick))/(10**Math.abs(token0Decimals-token1Decimals)) = Token0 price in relation to Token1 <-tick price
+to reverse and get value  token1 price in relation to token0
+10**token1decimals/tickPrice
+```
+price to tick, notice math.flat, this is cause the sqrtPrice is the most accurate, and ticks are only used really for liquidity tracking
+```
+const Q96 = JSBI.exponentiate(JSBI.BigInt(2), JSBI.BigInt(96));
+let tick = Math.floor(Math.log((sqrtPriceX96/Q96)**2)/Math.log(1.0001));
+```","https://cdn.discordapp.com/attachments/1037707770834722826/1042577041754705994/unknown.png",""
+"471357824299958273","crypto_rachel","17/11/2022 4:39 am","there are ten ticks within that range","",""
+"173416708277534720","barry7322","17/11/2022 4:43 am","Right, so why wouldn't `pool.slot0().tick - pool.tickSpacing()` be the nearest high tick?","",""
+"471357824299958273","crypto_rachel","17/11/2022 4:44 am","those wouldn't be usable for calls to the tick() read function, wouldn't work for LQ providing (except the 0.01% pool)","",""
+"173416708277534720","barry7322","17/11/2022 4:47 am","The pool I showed you above is a 0.05% pool, the tick seems to map to a single tick size for that pool","",""
+"471357824299958273","crypto_rachel","17/11/2022 4:48 am","0.05 == 10 tick spacing
+it has 10 ticks in which the liquidity is stored","",""
+"173416708277534720","barry7322","17/11/2022 4:50 am","Does uniswap have solidity libraries that output NLT and NHT? Rather use that than roll my own","",""
+"471357824299958273","crypto_rachel","17/11/2022 4:52 am","Not afaik, but the math is all here 👆  would be easy to replicate in sol","","👍 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 4:53 am","in sol you don't have to worry about the math.flat as sol doesn't do decimals","","👍 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 4:57 am","```java
+[,int24 S0,,,,,] = V3poolC.methods.slot0()
+int24 Tsp = V3poolC.methods.tickSpacing()
+int24 NearestLowActiveTick = (s0/Tsp)*Tsp;
+int24 NearestHighActiveTick = ((s0/Tsp))*Tsp)+Tsp;
+```","","👍 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 4:57 am","something like that","",""
+"173416708277534720","barry7322","17/11/2022 4:58 am","The other question is this nearest tick from the perspective of token0 or token1? Assuming your providing liquidity 100% from one token","",""
+"471357824299958273","crypto_rachel","17/11/2022 4:58 am","neither, token doesn't affect tick","",""
+"173416708277534720","barry7322","17/11/2022 5:00 am","If your providing liquidity, you have to specify a tick range. If it's outside the current tick then you will need to supply one token. Are you saying you just pick which token you supply 100% of?","",""
+"471357824299958273","crypto_rachel","17/11/2022 5:02 am","edited above forgot a few things
+
+if you are doing a single sided you would need to be above or below the current active tick range
+and yes for those whether you are above or below will determine token of 100%","",""
+"471357824299958273","crypto_rachel","17/11/2022 5:03 am","👆  this is for the current active tick","",""
+"173416708277534720","barry7322","17/11/2022 5:04 am","So which token corresponds to below the tick and which to above?","",""
+"173416708277534720","barry7322","17/11/2022 5:07 am","`s0` is an int24, what are you doing with `s0[1]`?","",""
+"471357824299958273","crypto_rachel","17/11/2022 5:11 am","token0 below range, and token1 above range iirc","","👍 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 5:12 am","lol yeah cut the [1] 😄  been a bit since I needed to do anything in sol","","👌 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 5:13 am","😂  haven't had the need recently 😭 been lazy and busy with other stuff 😊","",""
+"173416708277534720","barry7322","17/11/2022 8:13 pm","Thanks. Doing this conversion in solidity is a bit more involved. I imagine uniswap already has a solidity library with convenience functions to help here?","",""
+"173416708277534720","barry7322","17/11/2022 11:34 pm","I implemented this function based on your code. It seems to work on .30BPS pools, but I tested it on a 0.05% pool and it returns 12.09 when the price is $1,209. Seems like the fee needs to be factored in for it to work based on pool type?
+
+```
+function tickToPrice(
+    tick: number,
+    token0Decimals: number,
+    token1Decimals: number,
+    inverse: boolean = true
+) {
+    const numerator = 1.0001 ** Math.abs(tick)
+    const denominator = 10 ** Math.abs(token1Decimals - token0Decimals)
+    // Token0 price in relation to Token1
+    const price = numerator / denominator
+    // to reverse and get value  token1 price in relation to token0 10**token1decimals/tickPrice
+    const inversePrice = 10 ** token1Decimals / price
+    return inverse ? inversePrice : price
+}
+```","",""
+"471357824299958273","crypto_rachel","18/11/2022 10:16 am","yeah not as far as I know as I said before... They don't handle this in the contract its externally set
+https://etherscan.io/address/0xc36442b4a4522e871399cd717abdd847ab11fe88#code#F32#L4
+this is how ticks are handled
+
+which pool address","",""
+"472110641772101633","drop32table32users","18/11/2022 4:58 pm","Hi, all (in particular Crypto_Rachel 😛 ), can someone shed some light on the V3 ways to get quotes. Afaik the 3 main ways are:
+1. Call to https://api.uniswap.org/v1/
+2. Using the @uniswap/smart-order-router
+3. Using the Multicall and Quoter contracts on-chain
+I guess my question is, where to find some pro and contra regarding these options?","","😊 (1)"
+"694274491819491389","filipevenancio.eth","18/11/2022 6:11 pm","GM Guys. My question is: Can I sell or only buy using the universal-router?? if not how can I become a ""marketplace"" ??","",""
+"173416708277534720","barry7322","18/11/2022 6:13 pm","Do you have insight on where the `1.0001` in `(1.0001**Math.abs(tick))` comes from? 
+
+Do you have a link to where that image is from?","",""
+"471357824299958273","crypto_rachel","18/11/2022 8:31 pm","So don't have much time rn, but the auto-router(smart-order-router) is what the UI uses to deliver best price via known pools. It searches the pairs with input token and output token, and finds the best return for user after gas and fees
+
+the quoter is for creating your own path or for a direct pool quote of what to expect to receive or send
+
+the auto-router is nice, and easy does the hard work, but takes time to do
+the quoter is instant, but you have to do all the work of creating path or searching for best pool
+
+Auto Router code example
+https://discord.com/channels/597638925346930701/607978109089611786/966799896332107786
+
+V3 quoter
+https://discord.com/channels/597638925346930701/607978109089611786/948847107744333844","",""
+"471357824299958273","crypto_rachel","18/11/2022 8:33 pm","This isn't live yet, there is a bug bounty period before it goes live. This also give us the chance to learn it, as the coders are busy and this is new to everyone.","",""
+"471357824299958273","crypto_rachel","18/11/2022 8:33 pm","It's just the math used
+
+The image is mine","",""
+"694274491819491389","filipevenancio.eth","18/11/2022 8:35 pm","Ok thx. We @ unlockd will have an internal marketplace, just wanted to know if we will be able to integrate 🙂","",""
+"472110641772101633","drop32table32users","18/11/2022 8:37 pm","Yeah, I got those right, but are there any advantages of using the router-api (given I set up my own instance in AWS like you, guys, do it) over using it directly with smart-order-router library? Also in the docs it is mentioned that you have limited the usage of https://api.uniswap.org/v1/ to, and I quote: ""a modest amount of requests"", do you happen to know how many are those aforementioned?","",""
+"471357824299958273","crypto_rachel","18/11/2022 8:41 pm","best to check back in a week or two, we'll have more info","",""
+"471357824299958273","crypto_rachel","18/11/2022 8:44 pm","if you do a lot of requests setting up your own AWS would be best as this would Likely be a bit faster. I can't really help there much, as I've never done, but would love to know if you do it.
+no I do not know the limits, I think there is still a way to get a key ( #💻│dev-chat pins).  But can't say much more since I've never done 😦","",""
+"472110641772101633","drop32table32users","18/11/2022 9:06 pm","Okay, thank you, will let you know, if I succeed.","","np (1),🙏 (1)"
+"173416708277534720","barry7322","20/11/2022 8:13 pm","I'm getting a rounding error. I'm depositing `1000000` USDC (in test env) and returning `999999` when checking using this code. Any ideas on how to deal with this?
+
+```
+        (uint160 sqrtRatioX96, int24 tick, , , , , ) = pool.slot0();
+        (
+            uint128 liquidity,
+            uint256 feeGrowthInside0Last,
+            uint256 feeGrowthInside1Last,
+            uint128 tokensOwed0,
+            uint128 tokensOwed1
+        ) = pool.positions(_getPositionID());
+
+        // compute current holdings from liquidity
+        (amount0Current, amount1Current) = LiquidityAmounts
+            .getAmountsForLiquidity(
+            sqrtRatioX96,
+            activeLowerTick.getSqrtRatioAtTick(),
+            activeUpperTick.getSqrtRatioAtTick(),
+            liquidity
+        );
+```","",""
+"173416708277534720","barry7322","21/11/2022 7:46 pm","Is there an example contract that compares the chainlink price to the current price in a uniswap pool?","","🤷‍♀️ (1)"
+"173416708277534720","barry7322","21/11/2022 10:54 pm","Use case is to check if a uniswap pool is not aligned with a chainlink price, then one can take the chainlink price and convert it to the the nearest usable tick price in order to set a range order","",""
+"471357824299958273","crypto_rachel","21/11/2022 10:55 pm","Sorry I missed this yesterday. the ratio will often change slightly to accommodate for the pool needs, as the amount of x and y is dependent on price range and where the current sqrtPriceX96 is within that range","","👍 (1)"
+"980337377161642005","Happy Birthday Baby emilyy#8740","22/11/2022 7:36 pm","Hii8","",""
+"989275482488983663","AnthonyNicholas#4331","26/11/2022 3:27 am","Hey Emily, do you need help with anything?","",""
+"698489167281127474","swiftyos","26/11/2022 3:34 pm","Hi, I'm trying to understand the liquidity value as read from onchain contracts.","",""
+"698489167281127474","swiftyos","26/11/2022 3:34 pm","How do I work out the units liquidity is so I can compare pool liquidity?","",""
+"989275482488983663","AnthonyNicholas#4331","26/11/2022 7:47 pm","Liquidity is a uint254 value. I think the easiest way to compare pool liquidity is using our analytics page -  info.Uniswap.org","",""
+"757223051988303952","itay116#7848","26/11/2022 8:12 pm","hi guys, im new in using uniswap . and trying to implement uniswap in my python project. i read the documentation but couldnt figure out how to. how to get the chainId and the label of an address","","✅ (1)"
+"1047768832510537730","Bari#5036","01/12/2022 5:59 pm","Hi Guys, I'm working on the math about Uniswap V3 swap functionality.
+This question relates to whitepaper(link: https://uniswap.org/whitepaper-v3.pdf) formula 6.13 to 6.16
+---
+Taking an real example 1INCH<>DAI Uniswap V3 pair (1% fee)
+https://etherscan.io/address/0xd921a81445ff6a9114deb7db011f5ef8353f0bbc#readContract
+
+Current liquidity(L)=6739538250837185942333656
+Current Tick=-6801
+This is 1% fee pool so the tick spacing is 200
+Tick_bottom=-7000
+Tick_top=-6800
+
+Let's say I'm swaping in DAI and swaping out 1INCH
+To keep liquidity constant, the swap is within the current tick ranage
+And assuming tick moves to the tick_top
+
+Taking formula 6.14
+delta_Y = (1.0001 ** (-6800 / 2) - 1.0001 ** (-6801 / 2)) * L
+=239836255476512214977 (approx. to 239 DAI)
+
+Taking formula 6.16
+delta_X = (1 / 1.0001 ** (-6800 / 2) - 1 / 1.0001 ** (-6801 / 2)) * L
+=-473415018849532198820 (approx. to 473 1INCH)
+
+It's telling that swapping in 239 DAI can swap out 473 1INCH.
+---
+The reality is not true.
+Using Uniswap V3 app, if swapping in 25 DAI, there's about 1.65% price impact.
+If swapping in 50 DAI, it uses another route instead of 1INCH<>DAI (1% fee)
+---
+The question is, it seems to me that the actual swap is contradicting behind the math.
+Any idea of which step having problem?","https://cdn.discordapp.com/attachments/1037707770834722826/1047851922167697558/Screenshot_2022-12-01_at_20.19.09.png,https://cdn.discordapp.com/attachments/1037707770834722826/1047851922511634502/Screenshot_2022-12-01_at_20.21.17.png",""
+"471357824299958273","crypto_rachel","02/12/2022 3:58 am","I can't speak to well for the swap math, but the UI will use the Auto Router codes which searches for the best swap result based on trade.
+you would want to use the quoter to get an output on single pool to compare math
+V3 quoter
+https://discord.com/channels/597638925346930701/607978109089611786/948847107744333844","","👍 (1)"
+"173416708277534720","barry7322","03/12/2022 12:49 am","How can I work backwards from a range to determine how much of token A I need to get exactly an amount token B once the price crosses the range.
+
+Example I want to have 1 ETH in the ETH/USDC pool. I'm putting a range order below the current price, so I will be putting in 100% USDC. How can I calculate how much USDC I need to put in to have exactly 1 ETH (excluding fees) once the price crosses the range?","",""
+"173416708277534720","barry7322","11/12/2022 9:46 pm","In the price to tick example, what is `sqrtPrice` is it basically `Math.sqrt(price) * 96?","",""
+"471357824299958273","crypto_rachel","12/12/2022 12:09 am","Which example?  for start, Price to tick isn't easy as you need more places otherwise math will be off. that looks like price to sqrtPriceX96. A Q number is used for the X96 so it's (2**96)","",""
+"173416708277534720","barry7322","12/12/2022 7:44 pm","The second example you have here, it's not clear how `sqrtPriceX96` is derived. To reduce error, does the SDK allow a standard BigNumber price to be taken and converted to tick?","",""
+"471357824299958273","crypto_rachel","12/12/2022 9:39 pm","this is how sqrtPriceX96 is created
+```
+{ BigNumber } from 'ethers';
+import bn from 'bignumber.js'
+
+bn.config({ EXPONENTIAL_AT: 999999, DECIMAL_PLACES: 40 })
+function encodePriceSqrt(reserve1, reserve0){
+  return BigNumber.from(
+    new bn(reserve1.toString()).div(reserve0.toString()).sqrt()
+      .multipliedBy(new bn(2).pow(96))
+      .integerValue(3)
+      .toString()
+  )
+}
+
+encodePriceSqrt(1000000000000000000, 1539296453)
+```","","👌 (1)"
+"173416708277534720","barry7322","21/12/2022 12:24 am","if one is trying to convert from the sqrtPrice to a standard price, what decimal format will the result be in?
+
+```
+        (uint160 sqrtPriceX96, , , , , , ) = pool.slot0();
+        uint256 p = sqrtPriceX96 / (2 ** 96);
+        price = p ** 2;
+```","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:26 am","this takes into account decimals
+```
+const buyOneOfToken0 = (sqrtPriceX96 * sqrtPriceX96 * (10**Decimal0) / (10**Decimal1) / JSBI.BigInt(2) ** (JSBI.BigInt(192))).toFixed(Decimal1);
+const buyOneOfToken1 = (1 / buyOneOfToken0).toFixed(Decimal0);
+````","",""
+"173416708277534720","barry7322","21/12/2022 12:29 am","I take this is to get the decimal form in JS. I'm trying to understand what format is being given in solidity (no decimals)? So it can be converted to 1e18 format if not already","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:34 am","in solidity everything is done in wei, so `p` in your example would be the sqrtPrice, not sure why the power of two you have
+but this isn't going to be in a decimal format as its the math behind the sqrt of the price  √x/y","",""
+"173416708277534720","barry7322","21/12/2022 12:39 am","if p is `sqrtPrice` then shouldn't price be sqrtPrice ** 2? When you say wei, meaning the price is 1e18 format?
+
+In solidity how does one go from sqrtPriceX96 (or tick if easier) to price represented in 1e18 format?
+
+That price would be token0/token1 format, but to get token1/token0 format from there would be 1e18 / price.","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:40 am","so  I see what you're doing now, sorry early 😄 
+so first can I ask what you are doing with price on chain, is this related to an oracle","",""
+"173416708277534720","barry7322","21/12/2022 12:42 am","No, it's for setting range orders, in order to set above or below the current price.","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:45 am","you would want to use tickSpacing and the current tick for that
+
+Get tick and math for spacing
+https://discord.com/channels/597638925346930701/607978109089611786/973481902319218709
+This will give current active tick range, then you would just add or subtract x ticks above/below
+
+since tick ranges are what is used for the ranges, you would choose x range above or below the current tick range","",""
+"173416708277534720","barry7322","21/12/2022 12:50 am","Ultimately we use ticks. More context, we get the price and compare with chainlink price. If the pool price is better than chainlink price we convert that to tick and set the range based on that, if the chainlink price is better we convert that to tick and go off that","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:53 am","well if it's a human readable price from chainlink, then you would still likely have to do the math for decimals 🤷‍♀️","",""
+"173416708277534720","barry7322","21/12/2022 12:53 am","but the price needs to be in the same format as the chainlink price in order to compare the two","",""
+"173416708277534720","barry7322","21/12/2022 12:54 am","yes, that is why we want to get the uniswap pool prices in a way they can be compared chainlink prices. If we internally say we will quote all uniswap prices in 1e18 format then it's simple to convert chainlink prices to that as well","",""
+"173416708277534720","barry7322","21/12/2022 12:55 am","Maybe there is a simpler way to get this than what we are doing?","",""
+"471357824299958273","crypto_rachel","21/12/2022 12:57 am","price will still come out in various lengths due to the token decimals,
+How does the chainlink come, everything should be in a lowest decimal format","",""
+"173416708277534720","barry7322","21/12/2022 1:01 am","Chainlink comes in 1e8 format, but that is not an issue, we convert simply by taking `chainlinkPrice * 10**10` and we have it in 1e18 format.
+
+Question is how do we get the uniswap pool price in the same format? 
+
+This also mean we likely need to get it properly inversed, because the uniswap pool is USDC/WETH as the quote.","https://cdn.discordapp.com/attachments/1037707770834722826/1054843630751322142/Screen_Shot_2022-12-20_at_2.30.00_PM.png","🤔 (1)"
+"471357824299958273","crypto_rachel","21/12/2022 1:08 am","I'll have to think about this, I have to run as well, so let me get back to you later","","👌 (1)"
+"173416708277534720","barry7322","21/12/2022 1:10 am","I didn't think get the price in human readible format would be so complicated. If you could tell me what decimal format the convertion from p**2 comes to, thats a big help already","",""
+"471357824299958273","crypto_rachel","21/12/2022 1:16 am","as I stated there is no standard as what it comes out as, as each different decimal pair will change the length","",""
+"173416708277534720","barry7322","21/12/2022 1:20 am","Well we know the decimals of each token in the pool, so does the price come out as token0/token1 in token0 decimals?","",""
+"173416708277534720","barry7322","21/12/2022 2:44 am","Here is where I ended up. Your thoughts on the validity of this approach is appreciated.
+
+```
+// token0/token1 in 1e18 format
+uint256 p2 = uint256(sqrtPriceX96) * uint256(sqrtPriceX96) * (10 ** token0.decimals());
+uint256 pr = p2 / (2 ** 192);
+// token1/token0 in 1e18 format
+uint256 inversed = 1e36 / (pr);
+```","",""
+"471357824299958273","crypto_rachel","21/12/2022 11:39 am","is this for a particular set of tokens or does this need to work for any tokens?
+
+Also not sure if this is just a bad idea, handling prices on chain is risky if you don't do things correctly.
+But if this isn't for a very specific set of tokens, I don't think that you will be able to make this work in solidity. Once you do the division by Q192 it goes to decimal place math, which solidity can't do. you Would have to do the regular math, then multiply times 10**18 and then divide by Q192 , and I'm sure you wouldn't be able to do this for more than a single pair, as each pool will come out with different lengths","",""
+"173416708277534720","barry7322","21/12/2022 5:45 pm","Ideally it would work for any pair. There are floating point libraries now in solidity so it's possible to do that. I just need to understand what the decimals are at each step. 
+
+If you look in my example, `uint256 p2`  needed to be shifted by token0 decimals in order for there not to be a loss of precision. I'm trying to figure out why and if this is the case for all token pairs?","",""
+"173416708277534720","barry7322","21/12/2022 5:47 pm","""Once you do the division by Q192 it goes to decimal place math""
+
+How many decimals?","",""
+"401842633464610837","_kfx","21/12/2022 7:44 pm","hmm, I'm thinking you're both over-complicating it?
+
+the way I see this, chainlink price has 8 decimals, so it's multiplied by 10^8 (square root of which is 10^4)
+uniswap price does not have any decimals, but it's a square root of price multiplied by 2^96
+to convert direct price from chainlink to uniswap, compute sqrt(P), multiply by 2^96, and divide by 10^4
+to convert inverse price start with 2^92 multiplied with 10^4 and divide that by sqrt(P)","","👆 (1)"
+"401842633464610837","_kfx","21/12/2022 7:45 pm","can you check if this idea works?","",""
+"401842633464610837","_kfx","21/12/2022 7:47 pm","to get from uniswap to chainlink - similar approach, but different direction","",""
+"471357824299958273","crypto_rachel","22/12/2022 1:28 am","@Barry try this out, it's the only thing that would probably work. can't guarantee so check the math as you test
+Thanks @kfx , 😄  yeah going that way didn't even cross my mind 😂  🙏","",""
+"570191365166858240","Vitek#1098","15/01/2023 6:56 am","Hi. What is the most gas efficient way of getting the `liquidityNet` variable of a tick in pool? The information is stored in `mapping(int24 => Tick.Info) public override ticks;`
+
+Is there a more gas efficient way of reading the data than` (,liquidityNet,,,,,,) = pool.ticks(step.tickNext);`? According to Foundry this method takes approximately 9000 gas!! I believe it is so expensive because `Tick.Info` is a very large struct... I may be wrong though...
+
+Maybe I can somehow get direct access to the storage variable from an external contract? Just for reading it **without **copying it to memory? If this is the issue at all...
+
+Is there some inline assembly I can use to achieve this?","",""
+"345692506471661588","iluxa.","17/01/2023 5:54 pm","Hello.
+
+I'm trying to load all ticks info from one Uniswap v3 pool.
+I start with getting words from `tickBitmap`.
+But, `tickBitmap` indices are nearly infinite and I don't understand, up to which tick I need to load the words, to make sure that all words/ticks from pool are loaded.
+
+Is there any way to get min/max indices of words?
+Or any other way to make sure I didn't miss any tick?
+
+Thanks!","",""
+"471357824299958273","crypto_rachel","18/01/2023 12:04 pm","So I don't have anything for this yet, but this looks like a good guide
+https://uniswapv3book.com/docs/milestone_2/tick-bitmap-index/","",""
+"345692506471661588","iluxa.","18/01/2023 1:12 pm","Yes, I already read it. Unfortunately, there is no answer to my question, but thanks anyway 🙂","",""
+"570191365166858240","Vitek#1098","27/01/2023 2:54 am","Any info on this? This is the biggest problem with making on-chain calculations. It makes everything extremely expensive.","",""
+"688447309952057345","cervohs","02/02/2023 2:58 pm","somebody does have a exemple code smart contract solidity  to purchase nft on opensea using universal router ?","",""
+"809984252379922434","budi7344","16/02/2023 3:26 am","Question guys
+I want to make a swap through a contract I wrote that use UniswapV2Router02.
+the token I want to swap to is in a v3 pool. I'm getting an error. 
+is it impossible to buy a token that is in a v3 pool with a v2 router?","",""
+"471357824299958273","crypto_rachel","16/02/2023 3:29 am","Don't need to post in multiple rooms","","💯 (1)"
+"471357824299958273","crypto_rachel","16/02/2023 3:30 am","you can use both the v2 and v3 pools only in the newer contracts, not the v2 router
+Universal router (UR)
+https://etherscan.io/address/0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b#code
+v3router02 (easier than 👆 )
+https://etherscan.io/address/0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45#code","",""
+"809984252379922434","budi7344","16/02/2023 3:31 am","thanks alot","","YW (1)"
+"809984252379922434","budi7344","23/02/2023 9:34 pm","I want to make a swap through a contract using the SwapRouter02 contract.
+how can I get the `getAmountsOut` like I have on UniswapV2Router02 ? 
+I mean how can I calculate the expected amount of the swap?
+maybe you can answer @Crypto_Rachel  ?","",""
+"695411493088395287","notthatintomusic#5359","24/02/2023 3:16 am","*(I asked this in #dev-chat and was told that here might be a better place)* In V3: is there a way to create a pool liquidity histogram like https://dune.com/queries/64519 without recreating the state of the pool using mints and burns? I've tried using the ticks function in the contracts but I get things that I cannot make sense of in that I have a bunch of unequally spaced ""holes"" (tick ranges with 0 liquidity) where I would expect there to be liquidity according to the mints and burns.","",""
+"471357824299958273","crypto_rachel","24/02/2023 11:23 pm","you would need the v3 quoter
+v3 quoter
+https://discord.com/channels/597638925346930701/607978109089611786/948847107744333844","",""
+"471357824299958273","crypto_rachel","24/02/2023 11:26 pm","so this may not help a lot, as the tick bitmap is difficult to deal with. But outside of watching the whole pool it's the only way
+v3  TVL
+Getting the TVL is a huge challenge. unfortunately you need a lot of pool data.
+you need to get the virtual liquidity of each tick range that is active, and then do the math on that
+
+great detail here
+https://stackoverflow.com/a/71815432/14138101
+
+To get the liquidity at each tick, you can get liquidityNet for all initialized ticks from -887272 to 887272 and cumulatively sum them in increasing order.
+using the tick bitmap is really needed to do this
+https://uniswapv3book.com/docs/milestone_2/tick-bitmap-index/
+
+once you have all the LQ added up you could use the main math within this
+Get LQ token balance
+https://discord.com/channels/597638925346930701/607978109089611786/1037050094404501595","","🙏 (5)"
+"372021604021960714","0xchefmike","07/03/2023 9:39 pm","Hey guys, I've got a contract that increases liquidity of a position based on the amount of tokenA provided. Assuming it has *unlimited* tokenB supply. Is there a way or formula to calculate the right amount of tokenB or should I just guess some value that's in the price range of the position?","","✅ (1)"
+"345692506471661588","iluxa.","15/03/2023 5:44 am","Hello
+I'm trying to read UniswapV3's `Swap` events
+
+Is there any way to find out, was `Swap()` function called with negative or positive `amountSpecified` parameter (and amount of which token was given)? 
+
+It's positive and equals `amountIn` when it's called from `exactInputSingle()`  `SwapRouter`'s function and negative and equals `-amountOut`, when it's called from `exactOutputSingle()`
+
+Thanks","",""
+"471357824299958273","crypto_rachel","15/03/2023 10:52 pm","here is the event breakdown
+https://docs.uniswap.org/contracts/v3/reference/core/interfaces/pool/IUniswapV3PoolEvents#swap","",""
+"514243605884567552","sunosuporno","18/03/2023 7:54 pm","Hello, as in Uniswap v3 people can specify ranges to deploy their capital in Uniswap pool and don't earn any profit when the token price goes beyond the range, I am trying to build a bot which helps people to know when their capital is sitting idle. 
+So, basically I am trying to fetch the upper and lower limits from the NFT one gets after contributing to a pool. But, I cannot understand how to decipher the `tickUpper` and `tickLower` values which I am getting from the `positions` method on the NFT contract.  I would like to get it in terms of `token0` or `token1`.
+I have included an example query. The pair is DAI/WBTC. Any help is appreciated 😊","https://cdn.discordapp.com/attachments/1037707770834722826/1086656386848534638/Screenshot_2023-03-18_at_7.52.22_PM.png",""
+"471357824299958273","crypto_rachel","20/03/2023 11:00 pm","tickLower/Upper are the encoded price
+check here for info
+v3 Tick  info & links      - https://discord.com/channels/597638925346930701/1062975671128838204/1063199654407319562","",""
+"514243605884567552","sunosuporno","21/03/2023 10:51 pm","Hey @Crypto_Rachel thanks a lot for this! So, as I understand, in the function `TickToPrice` which was there in the link you provided, I can put `tickLower` as a parameter and the respective decimal value of the tokens and I would get the lower tick price in terms of both `token0` and `token1`?","",""
+"471357824299958273","crypto_rachel","21/03/2023 11:41 pm","yes it will give you the price in both tokens amount of x per y, and amount y per x","",""
+"514243605884567552","sunosuporno","22/03/2023 3:34 am","Thanks a lot!","","YW (1)"
+"244323404558237706","0xpato","23/03/2023 8:29 am","Hi! I have a question. How can I use AlphaRouter route object (results from .route(...)) to execute the swap from a smart contract?","",""
+"471357824299958273","crypto_rachel","23/03/2023 8:34 am","I have a auto router code example here
+Auto Router code example
+https://discord.com/channels/597638925346930701/607978109089611786/1066803131956076624
+and more info in #💡│developer-resources-and-info","",""
+"244323404558237706","0xpato","23/03/2023 8:59 am","Thank you! The thing is my contract is who needs to execute that route. Should I build each swap and encode them, so I can pass them all to my contract swap function and execute a multicall?","",""
+"471357824299958273","crypto_rachel","23/03/2023 9:00 am","not sure the best way","",""
+"244323404558237706","0xpato","23/03/2023 9:07 am","Thank you Rachel","","YW (1)"
+"244323404558237706","0xpato","03/04/2023 11:32 pm","Hi! Can someone help me debug this swap? I call my contract swap function and transaction succeed, but there was no change in my contract balances (WBTC still 0.0001... and USDC still 0). I also don't see my transaction nor my contract as ""from"" in the SwapRouter contract in explorer. So why my transaction succeeded?  
+
+- Token input WBTC: 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6
+- Token output USDC: 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
+- Network: Polygon
+- Contract: 0x9BC311AdF147c1AF1107Ca8682D3BAA9EbA007F9
+- Transaction: 0x9080e49e7161ab07b660976f3d37e6e66067f50aada595b60f2c7d65b36de0be
+- My contract data: 
+  - ISwapRouter instance: v3 (0xE592427A0AEce92De3Edee1F18E0157C05861564)
+  - Function input: {
+      path: ""0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd60001f42791bca1f2de4661ed88a30c99a7a9449aa84174"", // WBTC => USDC, 500 fee
+      recipient: ""0x9BC311AdF147c1AF1107Ca8682D3BAA9EbA007F9"", // my contract
+      deadline: 1680545174, // Math.floor(Date.now() / 1000 + 60 * 10),
+      amountIn: { // 1000, being 0.0001 WBTC
+        _hex: ""0x03e8"",
+        _isBigNumber: true,
+      },
+      amountOutMinimum: { // 274525, which is 280128 (from quoterv2) - 2% slippage
+        _hex: ""0x04305d"",
+        _isBigNumber: true,
+      },
+    }
+- My contract swap function:
+  function swapTest2(ISwapRouter.ExactInputParams calldata swapsParam, address tokenAddress) public onlyOwner returns (SwapResult memory) {
+    // Get token
+    IERC20 token = IERC20(address(tokenAddress));
+    emit DebugLog(""Crea el IERC20 token"");
+
+    // Approve token address.
+    token.approve(address(swapRouter), swapsParam.amountIn);
+    emit DebugLog(""4e Pasa require de approve"");
+
+    // Execute swap
+    uint256 amountOut = swapRouter.exactInput(swapsParam);
+    emit DebugLog(""4f Ejecuta el swap"");
+
+    SwapResult memory result = SwapResult({
+      tokenAddress: tokenAddress,
+      amountIn: swapsParam.amountIn,
+      amountOut: amountOut
+    });
+
+    return result;
+  }","",""
+"244323404558237706","0xpato","03/04/2023 11:38 pm","In this case it should be https://polygonscan.com/","",""
+"471357824299958273","crypto_rachel","03/04/2023 11:48 pm","verify the token addresses for that chain, those are just wallets on polygon","",""
+"244323404558237706","0xpato","03/04/2023 11:55 pm","Sorry, was a bad copy paste, they are fixed now. 
+But anyway, why transaction succeeded? Can the .exactInput succeeded in its execution but don't actually do the swap or should throw an error? Should I check the returned amountOut value?","",""
+"471357824299958273","crypto_rachel","03/04/2023 11:57 pm","not 100% why it succeeded","",""
+"471357824299958273","crypto_rachel","03/04/2023 11:59 pm","yeah, doesn't verify if it's a pool. wouldn't be a risk since all transfers are done with the call back from a pool contract","",""
+"244323404558237706","0xpato","04/04/2023 1:02 am","Ok now the tx is failing because of the .exactInput line (0x5f63fbf10fa26b1f086fc809b8f76728a0deb23dc4dd1628f2ae3f612c2d5e00). How should I debug this?","",""
+"244323404558237706","0xpato","04/04/2023 1:03 am","Although transaction does not appear in tx history of router 0xE592427A0AEce92De3Edee1F18E0157C05861564","",""
+"471357824299958273","crypto_rachel","04/04/2023 1:04 am","both said that they ran out of gas
+https://dashboard.tenderly.co/explorer","","☀️ (1)"
+"244323404558237706","0xpato","04/04/2023 1:04 am","My contract should have matic for the .exactInput? Or the wallet who's calling my contract should pay more?","",""
+"471357824299958273","crypto_rachel","04/04/2023 1:06 am","wallet calling pays gas, how are you estimating gas? I normally add a nominal amount of gas to the limit","",""
+"244323404558237706","0xpato","04/04/2023 1:07 am","In the real proyect I'm using a gas station, here its hardcoded","",""
+"244323404558237706","0xpato","04/04/2023 1:08 am","I'm using gasLimit: Math.ceil(gasEstimate * 1.5), where gasEstimate comes from Quoter2","",""
+"471357824299958273","crypto_rachel","04/04/2023 1:09 am","I would use gas estimation from the scripting that you use either ethersjs or web3","",""
+"244323404558237706","0xpato","04/04/2023 1:10 am","I'm using ethersjs, what are you refering to? I'm sorry","",""
+"471357824299958273","crypto_rachel","04/04/2023 1:12 am","https://docs.ethers.org/v5/api/contract/contract/#contract-estimateGas
+ethers can do that","",""
+"244323404558237706","0xpato","04/04/2023 1:14 am","Rachel, thank you so much for all your help, you're gorgeous dev! 🙂","","🙏 (1),YW (1)"
+"329839691195219969","kbanta11","04/04/2023 6:04 am","Is there any way to get auto-routing between two tokens that don't have a direct pool within a contract? Is the only way to use the TS auto-router to build a list of the route to pass to `path` in `ISwapRouter.exactInput` ?","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:07 am","They need a pool in common with a whitelisted token like weth, usdc, tether, dai, etc...","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:10 am","https://discord.com/channels/597638925346930701/1090351730056769596/1090433711784329256","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:10 am","whitelist eth 👆","",""
+"329839691195219969","kbanta11","04/04/2023 6:12 am","and it should be able to auto handle it (using `exactInputSingle`)? Just trying stuff playing around with a mainnet fork, trying to swap DAI to YFI (after it successfully swaps WETH for DAI), but this transaction from DAI > YFI fails (however I can go WETH > YFI, and WETH > DAI and DAI > WETH). Do I have to manually step thru the two steps or how can I dynamically determine which route is needed to complete the swap?
+`     Error: Transaction reverted without a reason string`","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:13 am","it would need a dai/yfi pool","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:15 am","like you could do a route that went dai -> weth -> yfi , since the YFI has weth pool","",""
+"329839691195219969","kbanta11","04/04/2023 6:16 am","right, but do I have to manually know what that best path is? or is there a way like the uni UI does to figure out what the best (or at least possible) paths are dynamically?","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:17 am","the auto router code will give the best route, it is what the UI uses
+https://discord.com/channels/597638925346930701/607978109089611786/1066803131956076624","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:17 am","example code here 👆","",""
+"329839691195219969","kbanta11","04/04/2023 6:19 am","ok cool, since that would be done off-chain/outside the scope of the contract, is this path expected to be what is passed into `path` in `exactInput`? or would you just call `exactInputSingle` multiple times for each step in the path?","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:20 am","it gives all the data based on the router chosen , so you don't create the path, you just execute the tx with the data","",""
+"329839691195219969","kbanta11","04/04/2023 6:24 am","I need this to come thru a smart contract, not just always a UI via js/ts, so I'm not sure if it doesn't give the path it uses if that will actually be useful","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:24 am","well you can get the path out of it","",""
+"329839691195219969","kbanta11","04/04/2023 6:24 am","or do you mean the output is just the `byte` data needed for that param?","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:25 am","but price calcs should always be done offchain or with an oracle","","💯 (1)"
+"471357824299958273","crypto_rachel","04/04/2023 6:25 am","yeah its in hex format, and other formats. It's not hard to grab from the return","",""
+"329839691195219969","kbanta11","04/04/2023 6:26 am","ok awesome, I can work with that. thank you!","",""
+"471357824299958273","crypto_rachel","04/04/2023 6:27 am",":YW:","",""
+"329839691195219969","kbanta11","05/04/2023 1:28 am","hitting some errors with `safeTransferFrom` seemingly only when I have to first convert ETH to WETH within the same transaction (such as if a user just sends ETH to swap to token). I've checked that the balance is greater than the amount, and have granted approval to move WETH9. error i get is: `VM Exception while processing transaction: reverted with reason string 'STF'`. Any ideas what else might be causing this?","",""
+"471357824299958273","crypto_rachel","05/04/2023 1:36 am","so the stf error is usually due to approvals not set properly, but can also be slippage, asking for more than you get","",""
+"329839691195219969","kbanta11","05/04/2023 1:39 am","🤦‍♂️ thank you! you're mention of slippage caused me to go see what value I was trying to swap and I was missing the decimal... was like fixated on the contract being wrong and didn't even check that","",""
+"471357824299958273","crypto_rachel","05/04/2023 1:40 am","the little details 😊  :YW:","",""
+"244323404558237706","0xpato","05/04/2023 1:50 am","Hi! I also had the STF error today, but I'm calling the IERC20.approval. Although transaction succeeded and the swap was done, was kind of strange.","",""
+"244323404558237706","0xpato","05/04/2023 1:50 am","Now my transactions are failing with ""Too Little Received"" string. 
+
+First I was having that issue when calling .callStatic.estimateGas.myMehtod(params) with the following error, but now the transaction itself fails with exception call but in the explorer says ""Too Little Received"". I tried using 10% slippage and still fails. 
+
+What is this about? is regarding the input amount? The UI let me do the swap with this amount, with 2% slippage.
+
+""Error: cannot estimate gas; transaction may fail or may require manual gas limit [ See: https://links.ethers.org/v5-errors-UNPREDICTABLE_GAS_LIMIT ] (reason=""execution reverted: Too little received"", method=""estimateGas"",","",""
+"471357824299958273","crypto_rachel","05/04/2023 1:56 am","if the correct contract/contracts are approved correctly, then its a slippage error or token error","","👍🏽 (1)"
+"244323404558237706","0xpato","05/04/2023 1:59 am","Thank you!","","YW (1)"
+"1084708526292750356","umersaeed#7264","05/04/2023 1:59 am","Hi","","👋 (3)"
+"796388330224222228","apetogether","06/04/2023 12:18 am","hi! i have a trade blotter that currently connects with cexes to keep a ledger of all of my transactions and i am trying to include uniswap and other dexes in here. I was able to subscribe to the logs of the usdc/eth pool but i am having trouble decoding the data. i would also like to include other pools into this and wondering if i can subscribe to the uni v3 router contract instead. could i get some help? my code looks like this ```const web3 = new Web3(providerUrl);
+
+var options = {
+    reconnect: {
+      auto: true,
+      delay: 2000, // ms
+      maxAttempts: 5,
+      onTimeout: false
+    },
+    address: walletAddress
+};
+
+var subscription = web3.eth.subscribe('logs', options, function(error, result){
+    if (!error) console.log('got result');
+    else console.log(error);
+}).on(""data"", function(log){
+    console.log('got data', log);
+}).on(""changed"", function(log){
+    console.log('changed');
+});```","",""
+"796388330224222228","apetogether","06/04/2023 12:19 am","and the logs look like this (need to also filter out transactions that do not belong to my wallet): ```got data {
+  removed: false,
+  logIndex: 164,
+  transactionIndex: 96,
+  transactionHash: '0x496c93f4fcb3fa4d278d9d029d039386162cf2d3974baa01f4e1a750ae1cc4ed',
+  blockHash: '0x9a60a3934babe302245d8972c4b511c6f6997ae2b75135f2612254d40e5e7110',
+  blockNumber: 16984436,
+  address: '0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640',
+  data: '0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe880000000000000000000000000000000000000000000000000000000001c8330d000000000000000000000000000000000000000000000000003adb5b2d383558',
+  topics: [
+    '0x70935338e69775456a85ddef226c395fb668b63fa0115f5f20610b388e6ca9c0',
+    '0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88',
+    '0x0000000000000000000000000000000000000000000000000000000000030e12',
+    '0x00000000000000000000000000000000000000000000000000000000000316b4'
+  ],
+  id: 'log_daabe24d'
+}```","",""
+"471357824299958273","crypto_rachel","06/04/2023 12:42 am","So decoding the logs is quite intensive, and not easy to get into, here is a decoding example of a multi-call which seems to be the hardest for users
+https://discord.com/channels/597638925346930701/1090099751267074048/1090123850144043068","",""
+"796388330224222228","apetogether","06/04/2023 12:43 am","hmm got it - and if i stick to swaps that happen in single pools?","",""
+"796388330224222228","apetogether","06/04/2023 1:25 am","i found a solution and figured it would be helpful for others to have it here: ```const swapAbi = [{
+    type: 'address',
+    name: 'sender',
+    indexed: true
+  },{
+    type: 'address',
+    name: 'recipient',
+    indexed: true
+  },{
+    type: 'int256',
+    name: 'amount0'
+  },{
+    type: 'int256',
+    name: 'amount1'
+  },{
+    type: 'uint160',
+    name: 'sqrtPriceX96'
+  },{
+    type: 'uint128',
+    name: 'liquidity'
+  },{
+    type: 'int24',
+    name: 'tick'
+  }];
+
+const web3 = new Web3(providerUrl);
+
+var options = {
+    reconnect: {
+      auto: true,
+      delay: 2000, // ms
+      maxAttempts: 5,
+      onTimeout: false
+    },
+    address: walletAddress, // this is the pool address for usdc/eth
+    topics: ['0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67'] // swap topic
+};
+
+var subscription = web3.eth.subscribe('logs', options, function(error, result){
+    if (!error) console.log('got result');
+    else console.log(error);
+}).on(""data"", function(log){
+    //console.log('got data', log);
+    const decodedLogs = web3.eth.abi.decodeLog(swapAbi,log.data,log.topics.slice(1));
+    console.log(decodedLogs);
+}).on(""changed"", function(log){
+    console.log('changed');
+});``` note that the connection is via wss and not http.","","❤️‍🔥 (1)"
+"471357824299958273","crypto_rachel","06/04/2023 1:30 am","thanks for sharing","","🥂 (2)"
+"471357824299958273","crypto_rachel","06/04/2023 1:30 am","Pinned a message.","",""
+"514243605884567552","sunosuporno","15/04/2023 12:58 pm","Hello, I am trying to understand the NFTs which are allotted for contributing to Pools. I wanted to know:
+1. If someone takes back all their invested tokens from the position, will the allotted NFT be burned?
+2. If the position is altered, let's say by changing the ticks or by any other means, will the NFT metadata get changed? Or a new NFT be allotted?","",""
+"471357824299958273","crypto_rachel","15/04/2023 11:18 pm","1. With the normal setup (via the UI) the NFT isn't burned, it's left in wallet for future re-add lq to same range
+2. Once a position is created only Liquidity can be increased or decreased. To change the ticks you have to mint a new position","",""
+"514243605884567552","sunosuporno","16/04/2023 3:57 am","Thanks a lot for the answer. Following up on your answers, is there any way I can see whether the position has any liquidity or not? I checked a method on the v3 position NFT contract called 'position', but for the few tokens I checked all had their liquidity values as 0","",""
+"858482285849477130","bruhed_","17/04/2023 1:10 am","Liquidity of zero means the position doesn’t have liquidity, so it’s right","","👆 (1)"
+"471357824299958273","crypto_rachel","17/04/2023 10:32 am","since most positions aren't burned there will be a lot of NFTs with 0 LQ","",""
+"514243605884567552","sunosuporno","17/04/2023 12:00 pm","Thanks a lot! @Crypto_Rachel @bruhed | compounder.fi","","YW (1)"
+"550767394772090900","sunnyrk","17/04/2023 12:13 pm","Hey, any one knows how to find some big trades or whale tx of uniswap?
+like any public apis or any ways to find unique or big tx of uniswap?","",""
+"471357824299958273","crypto_rachel","17/04/2023 9:27 pm","Your best bet would be to look through the graph, you can search txs that are above x amount, specific pools and such.. Now I don't use the graph much so I don't know the calls, but the schema is on the right hand side of page
+
+all the graph links and info are here #deleted-channel","",""
+"329839691195219969","kbanta11","18/04/2023 10:53 pm","is there a good example of calling `permit` on `nonfungiblePositionManager` in a contract with a signature (and how to generate that signature), specifically for uniswap position nfts? I've tried a few different ways to generate a signature and triple checked that I think all of what I'm passing in is correct, but still get ""Unauthorized""","",""
+"329839691195219969","kbanta11","18/04/2023 11:51 pm","copying the permit functionality to see what my `recoveredAddress` from my input is and it does not match the owner, so something I'm passing in is wrong, but have no idea what. I'm setting up the signature and getting v, r, s like this:
+```
+const createPermitSignature = async (
+    signer: Wallet,
+    spender: string,
+    tokenId: BigNumber,
+    deadline: Number,
+    nonce: BigNumber
+    ) => {
+    const domain = {
+        name: 'Uniswap V3 Positions NFT-V1',
+        version: '1',
+        chainId: 1,
+        verifyingContract: ""0xC36442b4a4522E871399CD717aBDD847Ab11FE88""
+    };
+
+    const permitType = {
+        Permit: [
+        { name: 'spender', type: 'address' },
+        { name: 'tokenId', type: 'uint256' },
+        { name: 'deadline', type: 'uint256' },
+        { name: 'nonce', type: 'uint256' }
+    ]};
+
+    const msgValue = {
+        spender: spender,
+        tokenId: tokenId,
+        deadline: deadline,
+        nonce: nonce,
+    };
+
+    console.log(`msg value: ${JSON.stringify(msgValue)}`);
+    return signer._signTypedData(domain, permitType, msgValue);
+}
+
+const signature = await createPermitSignature(
+            owner, 
+            liquidityUni.address, 
+            tokenId, 
+            Math.floor(Date.now() / 1000) + 60 * 20, 
+            position.nonce
+          );
+const sig = utils.splitSignature(signature);
+console.log(""v: "", sig.v);
+console.log(""r: "", sig.r);
+console.log(""s: "", sig.s);
+```","",""
+"471357824299958273","crypto_rachel","19/04/2023 12:31 am","I have some links to good stuff in #🌌│universal-router-permit2","",""
+"329839691195219969","kbanta11","19/04/2023 6:53 am","I'll take a look. from what it seems like I'm seeing, is that ethers `_signTypedData` prefixes domains with `\x19Ethereum Signed Message:\n` automatically (with no way to change it), but the domain prefix is `\x19\x01` for these contracts.","",""
+"471357824299958273","crypto_rachel","19/04/2023 7:03 am","yeah that method is for signing a message
+I have used this in the past
+```
+const ethSigUtil = require('eth-sig-util');
+ethSigUtil.signTypedData_v4(Buffer.from(privateKeyFrom.substr(2), 'hex'), { data });
+```
+data being a dictionary object of all being signed","",""
+"329839691195219969","kbanta11","19/04/2023 9:29 am","ok so it looks like the package has been updated a bit, but I've got a basic thing able to sign with `signTypedData` from `@metamask/eth-sig-util` (since the original is no longer maintained). But I'm still getting ""Unauthorized"", and in setting it up, there was never a place to add the prefix (tho it sounds like the package should add the `\x19\x01` itself). super at a loss on this haha third days a charm in the morning lets hope","",""
+"329839691195219969","kbanta11","19/04/2023 8:31 pm","legit kicking my a**. Tried to see if I set up the entire recovery on the frontend to see if I was getting the same `digest` that the contract was getting, and the address I recover from the frontend signature is different than the signing address and also different than the address recovered in the contract. the hole keeps getting bigger haha","",""
+"471357824299958273","crypto_rachel","19/04/2023 9:34 pm","Best I can say is go through everything in the #deleted-channel  <-- actually meant to share this one, but the room has good stuff too","",""
+"329839691195219969","kbanta11","20/04/2023 12:57 am","yeah been thru those, but it seems like there's something weird with the domain or something with the nft contract. I figured out how to build the digest in typescript and try and recover the address from the typescript digest with the signature result, and I'm able to get the right address back. I also tried passing in my typescript digest to my contract to check it against the digest from the uniswap ERC721Permit and they're different so it seems like something unrelated to the actual signing is different between typescript and the contract. still not sure what tho yet, still digging and button mashing","",""
+"329839691195219969","kbanta11","20/04/2023 1:21 am","it seems like my domain separator is different (I think, as I'm only able to get the domain_separator in TS from `TypedDataUtils.hashStruct(""EIP712Domain"", typedData.domain, { EIP712Domain: typedData.types.EIP712Domain }, SignTypedDataVersion.V4);` and I think thats what will get used by `signTypedData`, but that doesn't match the `nonfungiblePositionManager.DOMAIN_SEPARATOR()`","",""
+"329839691195219969","kbanta11","20/04/2023 2:22 am","it seems like something is different between `abi.encode` in solidity and `ethers.utils.defaultAbiCoder.encode()` in typescript (I can verify that the inputs are the same values for both, but the results are not the same)","",""
+"471357824299958273","crypto_rachel","20/04/2023 10:38 am","yeah signatures can be difficult especially not using a SDK setup. Abi encoding will be tough to match with solidity, it can, but Highly version dependent for both Solidity and ethers","",""
+"329839691195219969","kbanta11","20/04/2023 7:21 pm","what do you mean by sdk setup? I'm mostly just trying to break down `@metamask/eth-sig-util` now to see if it uses ethers for abi encoding or something and if thats what causes the difference. but my signature is being signed with `@metamask/eth-sig-util`","",""
+"329839691195219969","kbanta11","20/04/2023 8:33 pm","https://giphy.com/gifs/d3YHKs8wwYfce0PS","",""
+"329839691195219969","kbanta11","20/04/2023 8:34 pm","soo.... turns out that hardhat config wasn't set to explicitly use chain id `1` even when using a fork of mainnet, so it was set to a chain id of 31337, and thus the Uniswap contract running on my fork was using chain id 31337 in its hashing of the domain separator instead of chain id 1.","","🤦‍♀️ (1)"
+"329839691195219969","kbanta11","20/04/2023 8:34 pm","its always something dumb, small and simple when its this frustrating haha","","😄 (1),💯 (1)"
+"412782077998792704","mr.hello.1776","03/05/2023 2:55 pm","What is the best documentation resource to learn the Solidity API for Uniswap?","",""
+"412782077998792704","mr.hello.1776","03/05/2023 2:59 pm","just read through these? https://github.com/Uniswap/v3-periphery/tree/main/contracts","",""
+"471357824299958273","crypto_rachel","03/05/2023 11:58 pm","I always like learning while doing, this is a great learning game by openzeppelin 
+https://ethernaut.openzeppelin.com/","",""
+"412782077998792704","mr.hello.1776","04/05/2023 6:47 am","Thanks. Is there a challenge related to uniswap?","",""
+"471357824299958273","crypto_rachel","04/05/2023 6:48 am","no there isn't anything specifically uniswap","",""
+"471357824299958273","crypto_rachel","04/05/2023 6:50 am","Sorry I read solidity. it's more solidity programming learning tool. check out #💡︱developer-faq  tons there and info on the SDK that interacts with uniswap #deleted-channel","",""
+"405211911328890885","aaron7674","04/05/2023 9:52 am","Where can deployment addresses be found for peripheral libraries like PositionValue? Want to delegate call directly to one already deployed by uniswap to avoid audit on that part","",""
+"471357824299958273","crypto_rachel","04/05/2023 9:55 am","Don't need to post in multiple rooms.
+
+not all libraries have own contract. check here
+https://docs.uniswap.org/contracts/v3/reference/deployments
+https://github.com/Uniswap/v3-periphery/blob/main/deploys.m","",""
+"471357824299958273","crypto_rachel","04/05/2023 10:02 am","also #deleted-channel","",""
+"405211911328890885","aaron7674","04/05/2023 12:27 pm","Thanks, so has the library PositionValue likely never been deployed?","",""
+"471357824299958273","crypto_rachel","07/05/2023 1:33 am","not afaik","",""
+"298208414528569365","szubrawca","22/06/2023 4:06 pm","hi devs","",""
+"298208414528569365","szubrawca","22/06/2023 4:07 pm","https://github.com/Uniswap/v3-periphery/blob/main/contracts/lens/Quoter.sol","",""
+"298208414528569365","szubrawca","22/06/2023 4:07 pm","https://github.com/Uniswap/v3-periphery/blob/main/contracts/lens/QuoterV2.sol","",""
+"298208414528569365","szubrawca","22/06/2023 4:07 pm","which one of these should I use?","",""
+"471357824299958273","crypto_rachel","22/06/2023 11:36 pm","either work for quote... The version 2 has extra return data like ticks crossed, gas used (swap only no token transfers)","",""
+"298208414528569365","szubrawca","23/06/2023 2:06 am","Thx Rachel 🙂","","YW (1)"
+"298208414528569365","szubrawca","23/06/2023 2:08 am","One more question - I found info in the docs that these are not designed to get quote on chain. However - this is exactly what I want to do. Is there a better method?","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:10 am","getting a quote on chain is likely to cause loss, unless you use an oracle","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:12 am","there is a onchain setup here https://discord.com/channels/597638925346930701/1090100195255140452/1090123291139784725, not sure if they integrated the oracle yet, and as stated this isn't safe if not using an oracle, as a bot can manipulate the quoter price if done on chain","",""
+"298208414528569365","szubrawca","23/06/2023 2:16 am","What do you mean by loss? Loss of funds or an imprecise estimate?","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:19 am","loss of funds.
+so like if you get your price in a transaction, A bot can make huge buy/sell before your tx changing this price, then buy/sell back after your tx taking your money causing you to get a bad deal but still pay the same","",""
+"298208414528569365","szubrawca","23/06/2023 2:33 am","Oh I see - so just your classic price slippage. Isn't sqrtPriceLimitX96 param protecting from this?","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:39 am","so sqrtPriceLimit  isn't always set.. slippage wouldn't work cause you would be building slippage from quote...
+Not 100% on this but sqrtPriceLimit would probably help to minimize loss so that would help stop the bots since your limit should stop your trade at that price ruining the price shift gain on second bot tx
+**note** Getting a exact v3 sqrtPrice is difficult","",""
+"298208414528569365","szubrawca","23/06/2023 2:40 am","Yeah I get that. Thanks.","","YW (1)"
+"915431564031168543","aduttya","07/07/2023 8:03 pm","I am building a smart contract and there I need to swap tokens but before swapping I need to check the token prices How to use Uniswap to get the token prices inside my smart contract?
+Is it wise to use or should I go off-chain to get the prices?","",""
+"994638742998487090","tshong","08/07/2023 12:41 am","Get the reserves from  V2 pool and calculate the price","",""
+"471357824299958273","crypto_rachel","12/07/2023 3:23 am","you shouldn't call for price in contract as this can be manipulated. It's best to pass the amounts to your contract. If you must use an onchain quote/price use an oracle","",""
+"915431564031168543","aduttya","12/07/2023 1:31 pm","Thanks","",""
+"154213141016739840","sj31","12/07/2023 5:24 pm","Hello! I need juste a confirmation. Uniswap v4 is under license but I Can use call the swap functionality in my own smart contract?","",""
+"154213141016739840","sj31","12/07/2023 5:32 pm","I have a big doubt. In the documentation only V3 is given","",""
+"471357824299958273","crypto_rachel","13/07/2023 4:16 am","Uniswap v4 is partly under license, i'm no lawyer as to which have licenses, but the license refers to the use of the code in the contract meaning you can't take the code and deploy it elsewhere without permission. This was the same for v3 calling the contract from your own contract is ok as you are just using the contracts for their purpose of swapping / LPing","",""
+"418000431814279181","wjmelements","17/07/2023 9:20 pm","How to become a UniswapX Solver?","",""
+"418000431814279181","wjmelements","17/07/2023 9:21 pm","HTTP 404 error https://docs.uniswap.org/contracts/uniswapx/overview","",""
+"418000431814279181","wjmelements","17/07/2023 10:25 pm","fixed","",""
+"989275482488983663","AnthonyNicholas#4331","17/07/2023 10:32 pm","Was just about to send it you","",""
+"989275482488983663","AnthonyNicholas#4331","17/07/2023 10:32 pm","You owe me a soda","",""
+"418000431814279181","wjmelements","17/07/2023 10:54 pm","Why does https://github.com/Uniswap/UniswapX/blob/main/src/reactors/DutchOrderReactor.sol IReactorCallback pass:
+* order nonce
+* signature
+* hash
+* additionalValidationData
+It seems so excessive when the callback only needs to know how much of which tokens to send plus the fillData to inform how.","",""
+"418000431814279181","wjmelements","18/07/2023 12:28 am","Created issue: https://github.com/Uniswap/UniswapX/issues/174","",""
+"971841736307535952","_vivekpandey","19/07/2023 11:27 am","Hey Guys
+function addLiquidity(
+        address token0,
+        address token1,
+        uint256 amount0Desired,
+        uint256 amount1Desired
+    ) external {
+        require(amount0Desired > 0 && amount1Desired > 0, ""Both amounts must be greater than zero"");
+
+        // Transfer tokens from the sender to this contract
+        IERC20(token0).transferFrom(msg.sender, address(this), amount0Desired);
+        IERC20(token1).transferFrom(msg.sender, address(this), amount1Desired);
+
+        // Approve the Nonfungible Position Manager to use the transferred tokens
+        IERC20(token0).approve(nonfungiblePositionManager, amount0Desired);
+        IERC20(token1).approve(nonfungiblePositionManager, amount1Desired);
+        // Create a new pool
+        IUniswapV3Factory(factory).createPool(token0, token1, 3000);
+
+        // Add liquidity to the pool
+        INonfungiblePositionManager(nonfungiblePositionManager).mint(
+            INonfungiblePositionManager.MintParams({
+                token0: token0,
+                token1: token1,
+                fee: 3000,
+                tickLower: TickMath.MIN_TICK,
+                tickUpper: TickMath.MAX_TICK,
+                amount0Desired: amount0Desired,
+                amount1Desired: amount1Desired,
+                amount0Min: 0,
+                amount1Min: 0,
+                recipient: address(this),
+                deadline: block.timestamp
+
+            })
+        );
+    }
+Is this method correct to add liquidity in uniswapV3 in solidity?","",""
+"471357824299958273","crypto_rachel","19/07/2023 11:31 am","perhaps you didn't see, that room is very active
+but I answered you here https://discord.com/channels/597638925346930701/607978109089611786/1130939919636889603","",""
+"971841736307535952","_vivekpandey","19/07/2023 11:33 am","@Crypto_Rachel I tried this function by executing it...But I am encountering an error of transaction revert","",""
+"971841736307535952","_vivekpandey","19/07/2023 11:33 am","https://mumbai.polygonscan.com/tx/0x80a50d05f93988e3cb81b844ac82b80bce342dc2a2297674470ec8709a937704","",""
+"471357824299958273","crypto_rachel","19/07/2023 11:34 am","so I have info here for minting ⁠https://discord.com/channels/597638925346930701/1090098640040775802
+
+the tick Lower and Tick Upper need to be evenly divisible by the tick spacing
+0.3% == 60 tick spacing, 0.01% == 1 tick spacing, 0.05 == 10 tick spacing, 1% == 200 tick spacing
+Also when on testnet testing using 0 as the amount min is not safe as you could be frontrun and lose the funds","",""
+"971841736307535952","_vivekpandey","19/07/2023 11:35 am","Okay lemme try it once again by changing the parameters","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:01 pm","@Crypto_Rachel Still I am getting an error of transaction revert","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:01 pm","@Crypto_Rachel Please help me","",""
+"471357824299958273","crypto_rachel","19/07/2023 12:03 pm","I am about to log off, share your code again, as well as tx or error you see. Not sure I'll be able to answer tonight, tired reading code is hard when tired","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:04 pm","function addLiquidity(
+        address token0,
+        address token1,
+        uint256 amount0Desired,
+        uint256 amount1Desired
+    ) external {
+        require(amount0Desired > 0 && amount1Desired > 0, ""Both amounts must be greater than zero"");
+
+        // Transfer tokens from the sender to this contract
+        IERC20(token0).transferFrom(msg.sender, address(this), amount0Desired);
+        IERC20(token1).transferFrom(msg.sender, address(this), amount1Desired);
+
+        // Approve the Nonfungible Position Manager to use the transferred tokens
+        IERC20(token0).approve(nonfungiblePositionManager, amount0Desired);
+        IERC20(token1).approve(nonfungiblePositionManager, amount1Desired);
+
+        // Create a new pool
+        // IUniswapV3Factory(factory).createPool(token0, token1, 3000);
+
+        // Add liquidity to the pool
+        INonfungiblePositionManager(nonfungiblePositionManager).mint(
+            INonfungiblePositionManager.MintParams({
+                token0: token0,
+                token1: token1,
+                fee: 3000,
+                tickLower: TickMath.MIN_TICK,
+                tickUpper: TickMath.MAX_TICK,
+                amount0Desired: amount0Desired,
+                amount1Desired: amount1Desired,
+                amount0Min: 1,
+                amount1Min: 1,
+                recipient: address(this),
+                deadline: block.timestamp
+
+            })
+        );
+    }","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:04 pm","https://mumbai.polygonscan.com/tx/0x80a50d05f93988e3cb81b844ac82b80bce342dc2a2297674470ec8709a937704","",""
+"471357824299958273","crypto_rachel","19/07/2023 12:11 pm","the statement about the amount)/1Min is a safety statement for main net, and that 1 really does no more than the 0....
+
+Anyways that's not the cause. As stated in previous Msgs. 
+
+**__The tick Lower and Tick Upper need to be evenly divisible by the tick spacing__**
+
+0.3% == 60 tick spacing, 0.01% == 1 tick spacing, 0.05 == 10 tick spacing, 1% == 200 tick spacing
+
+your amounts Desired also have to be calculated based on the tick range chosen
+
+Read through my section here https://discord.com/channels/597638925346930701/1090098640040775802
+it has the info for the math and spacing
+best of luck with it.","",""
+"471357824299958273","crypto_rachel","19/07/2023 12:12 pm","Also you can use https://dashboard.tenderly.co/explorer  it will help decode errors better","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:33 pm","","https://cdn.discordapp.com/attachments/1037707770834722826/1131119089738330142/message.txt",""
+"971841736307535952","_vivekpandey","19/07/2023 12:34 pm","@Crypto_Rachel Still getting an error by changing the smart contract to add liquidity in uniswapV3","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:35 pm","https://mumbai.polygonscan.com/tx/0xeb4894c1937d619e0d042dc2a340a72b540c96b607f5c9d3933280fd888bae06","",""
+"971841736307535952","_vivekpandey","19/07/2023 12:35 pm","@Crypto_Rachel Please help me","",""
+"971841736307535952","_vivekpandey","19/07/2023 6:57 pm","Can anyone help me with this?","",""
+"971841736307535952","_vivekpandey","19/07/2023 7:30 pm","Hey guys, I am getting an error of LOK: The reentrancy guard. A transaction cannot re-enter the pool mid-swap...How to get rid of this error while adding liquidity in uniswapV3","",""
+"471357824299958273","crypto_rachel","20/07/2023 1:28 am","The LOK error, means that you are re-entering the contract by calling swap before swap is done","",""
+"971841736307535952","_vivekpandey","21/07/2023 2:17 pm","HI @Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","21/07/2023 2:26 pm","👋 
+Terribly sorry I will be going to bed, already falling asleep
+Please feel free to ask anything to the room, others may see or I will answer when I get back on","",""
+"445019022338031618","aaran5789","26/07/2023 4:47 am","Question :Has anyone who deployed routing api to his own aws, experienced a reduction  load time for the quote data ? if not what else did u do to further bring it down ? is it going to be slow initially and over time the caches being used going to do its magic ?
+Context : we are running our own graph node for a new chain
+tokens and pools data is not cached on a static link, i did see caching components in the routing api aws stacks though.","",""
+"445019022338031618","aaran5789","26/07/2023 5:21 am","Its taking me 6 seconds on average even if i  send the same data which seems awfully slow, so kinda confused why isnt it caching, 
+one change i made was i had commented out the us east and the beta builds and am running the local build stack, is that wrong ? wrong to the point it skips on somethings  like caches ?","",""
+"445019022338031618","aaran5789","27/07/2023 6:07 pm","has anyone who deployed there own routing api server for uniswap faced issues of resource creation ? 
+```
+RoutingAPIStacks | 36/49 | 5:35:42 PM | CREATE_FAILED        | AWS::CloudFormation::Stack    | RoutingDatabaseStack.NestedStack/RoutingDatabaseStack.NestedStackResource (RoutingDatabaseStackNestedStackRoutingDatabaseStackNestedStackResource6A37F2CD) Embedded stack arn:aws:cloudformation:us-west-2:119433917867:stack/RoutingAPIStacks-RoutingDatabaseStackNestedStackRoutingDatabaseStackNestedStackResourc-FV9JIUMAVURR/13a77d40-2c7a-11ee-818e-06d8a8fcc417 was not successfully created: The following resource(s) failed to create: [RouteCachingDB1361CA88, V3PoolsCachingDB667282EE]. 
+RoutingAPIStacks | 36/49 | 5:35:43 PM | CREATE_FAILED        | AWS::IAM::Role                | routing-api/CloudWatchRole (routingapiCloudWatchRole760E6BC5) Resource creation cancelled
+RoutingAPIStacks | 36/49 | 5:35:43 PM | CREATE_FAILED        | AWS::CloudFormation::Stack    | RoutingCachingStack.NestedStack/RoutingCachingStack.NestedStackResource (RoutingCachingStackNestedStackRoutingCachingStackNestedStackResource5CAB1140) Resource creation cancelled
+```","",""
+"608326030066843719","theodale#5123","31/08/2023 2:11 pm","How can equations 6.14 and 6.16 (in the whitepaper) be used to derive equations 6.29 and 6.30? Below the first set of equations, it says that ""These formulas will work for any swap that does not push sqrt_P past the price of the next initialized tick"". As such, how can 6.29 and 6.30 be used to calculate the amounts required for a liquidity provision if there are initialized ticks within the target positions range? I understand that LPs must provide tokens to satisfy swaps to either end of their range (from the current price), but I do not clearly see how 6.29 and 6.30 can be used to calculate this.","",""
+"608326030066843719","theodale#5123","31/08/2023 2:14 pm","In general, I do not understand how equations 6.29 and 6.30 give the amount of tokens required to deposit an amount of liquidity. I would understand if the liquidity was provide within two adjacent ticks, as then equations 6.14 and 6.16 would apply,  however I do not grasp how it works for positions spanning multiple ticks with non-zero liquidity deltas","",""
+"487906671784361995","0xnirlin","03/09/2023 12:51 am","hey building something that integrates with both uniswap v2 and v3.
+
+So in v2 can the remove liquidity assure that 100% of the liquidity is removed.
+Ans same for v3, does in v3 can decreaseLiquidity() function ensures that all liquidity is removed and position nft can be burnt after calling this in same transaction?","",""
+"471357824299958273","crypto_rachel","03/09/2023 8:36 am","answered in #🤝│liquidity-providers","",""
+"487906671784361995","0xnirlin","03/09/2023 9:51 am","what happens when a uniswap pool is exhausted for one of asset? Does it effect the integrations in any way?","",""
+"471357824299958273","crypto_rachel","03/09/2023 9:55 am","In v3 speaking if there is only one position with a restricted range
+Once a trade exhausts one of the assets the position goes out of range and the pools tick jumps to the last tick in the swap direction
+This throws off the price, and the pool has to be traded back into range before being able adding more liquidity to a new range","",""
+"487906671784361995","0xnirlin","03/09/2023 9:59 am","And what happens for v2?","",""
+"487906671784361995","0xnirlin","03/09/2023 10:01 am","also lets say I have following code in a function:
+```
+   univ3_positions.decreaseLiquidity(decreaseLiquidityParams);
+
+    univ3_positions.collect(collect_params);
+
+    univ3_positions.burn(pos.token_id);
+```
+
+can decrease liquidity gurantee that whole liquidity is removed for specific position and i can burn after in same function? Is it possible or it can revert too?","",""
+"471357824299958273","crypto_rachel","03/09/2023 10:16 am","v2 you can't really use all the tokens. But someone with enough supply of a token (much more than pools supply) can wipe out the most of it with high impact on the trade..
+
+if you didn't input the total amount of liquidity in the decrease call the burn would fail","",""
+"608326030066843719","theodale#5123","03/09/2023 7:12 pm","Any chance of a response to this?","",""
+"471357824299958273","crypto_rachel","06/09/2023 11:39 pm","So sorry, I had needed to look up the whitepaper to see the notations, and between busy and holiday, kinda spaced this. My appologies.
+
+So this does get difficult to explain. Have you read our v3 Math primers
+https://discord.com/channels/597638925346930701/1090108302479863848
+
+I also have the code showing the math here https://discord.com/channels/597638925346930701/607978109089611786/1037050094404501595","",""
+"491985911207428146","tomascimach","13/09/2023 7:16 pm","Hi! I have an issue with on-chain price prediction.
+
+What I want to achieve is:
+- first borrow `amountIn` of `token1` from a lender protocol.
+- second use `swapExactOutputSingle` to get `amountOut` of `token2` with `amountIn` of `token1` 
+
+It sounds a bit imposible, because I need the output of `swapExactOutputSingle` to know how much I need to borrow on the first Tx.
+
+Is there a way to quote the `swapExactOutputSingle` on the same tx? I found the Quoter Periphery contracts, but both v1 and v2 say `should not be called on-chain`","",""
+"471357824299958273","crypto_rachel","14/09/2023 6:32 am","you would need to use an oracle or twap to get any safe amount for in tx quotes.
+if you are borrowing though you should know the amount?","",""
+"491985911207428146","tomascimach","14/09/2023 6:51 am","I know the amountOut that I need of token2, but Idk how much of token1 I need to borrow exactly to do the swap.
+
+Please notice that all this is made on the same tx through a smart contract call","",""
+"471357824299958273","crypto_rachel","14/09/2023 6:56 am","Ok so your goal it getting the exact out of token2 so you know how much to borrow for the swap.
+How are you paying back the token1? 
+How is the transaction being sent?","",""
+"491985911207428146","tomascimach","14/09/2023 7:02 am","This is a part of a Trading protocol, users long or short on a market and the protocol balances the protocol's pool by making this trades.
+
+Imagine we have infinit ETH supplied to a lenders protocol like aave as collateral.
+
+A user makes a trade, and to hedge it I need to borrow USDC from aave and swap it to get exact amount of WBTC with uniswap V3.
+
+All this is made within the tx the user submitted to open his trade. And I want to end up with  exact amount of WBTC and no dust (or the smallest as possible) of USDC","",""
+"471357824299958273","crypto_rachel","14/09/2023 7:12 am","So I assume since long/shorts are being triggered in some way in the contract?
+user putting in transactions at arbitrary times.
+
+This sounds like you will have to use an oracle or TWAMM
+I really have never used oracles, so I don't know a lot of the ways best to use them.
+
+I don't have much for oracles here https://discord.com/channels/597638925346930701/1090083334908026961
+
+we have the #🔮│uniswap-oracles room where users can seek help from other devs","",""

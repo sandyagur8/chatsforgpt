@@ -1,0 +1,106 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"790946383606841345","kongtaoxing","16/02/2023 2:12 pm","Hello admin, how many times does it usually take for developers to receive their token reward from onlyDust?","",""
+"906095871316348938","closer2282","16/02/2023 2:29 pm","Hi you can also ask in Onlydust community, where you'll get help sooner i suppose
+https://discord.com/invite/TXBr4pbmCJ","",""
+"790946383606841345","kongtaoxing","16/02/2023 2:33 pm","But I can't send message in onlyDust channel, sir","",""
+"849908531020562462","fancyfan","16/02/2023 2:52 pm","maybe you can send dm to https://twitter.com/OnlyDust_xyz to get support,ser","",""
+"790946383606841345","kongtaoxing","16/02/2023 2:53 pm","thank you, sir","",""
+"849908531020562462","fancyfan","16/02/2023 2:55 pm","glad to help:star:","",""
+"914851127818862592","pagecountrycousin","11/03/2023 4:12 am","Hello frens, I have installed rust a few days back, am I  still required to run these commands before I can engage `starklings-cairo1` 
+
+I want to be informed so as to avoid unnecessary hiccups","https://cdn.discordapp.com/attachments/1073153405255696394/1083882579612143706/do_i.png",""
+"914851127818862592","pagecountrycousin","11/03/2023 4:15 am","command used for installing rust here is quite different from the one one I saw on cario 1 repo","",""
+"754641878934225008","odinfree","11/03/2023 5:42 am","sers,  you maybe? @Gleb @tdelabro @tekkac","",""
+"895328389299318866","eni7912","12/03/2023 3:53 am","if you have rust already installed then its fine","",""
+"914851127818862592","pagecountrycousin","12/03/2023 8:39 am","what about the `nightly` part of it??","",""
+"914851127818862592","pagecountrycousin","12/03/2023 6:58 pm","Practically takes weeks to get help here, not so encouraging","",""
+"895328389299318866","eni7912","13/03/2023 1:01 pm","I mean have you at least tried it to see if it works? Or searched how to switch to nightly instead of stable?","",""
+"895328389299318866","eni7912","13/03/2023 1:01 pm","https://www.oreilly.com/library/view/rust-programming-by/9781788390637/e07dc768-de29-482e-804b-0274b4bef418.xhtml","",""
+"914851127818862592","pagecountrycousin","13/03/2023 2:03 pm","I'm on it , thank you @eni","",""
+"268836818563104771","xflpt","14/03/2023 6:53 pm","Hey guys, I am Florian Dev Rel at Only Dust","",""
+"268836818563104771","xflpt","14/03/2023 6:53 pm","Happy to help on anything related to Only Dust 🙂","","🙌🏻 (4)"
+"914851127818862592","pagecountrycousin","18/03/2023 5:44 pm","@eni  why are these links from starklings not working    https://link.medium.com/c8TqX7R3qxb#6d64","",""
+"895328389299318866","eni7912","18/03/2023 5:45 pm","they do work","",""
+"914851127818862592","pagecountrycousin","18/03/2023 5:46 pm","okay","",""
+"914851127818862592","pagecountrycousin","19/03/2023 6:17 pm","@eni , I noticed you updated the starkling repo, are we required to re-clone before we can proceed with the exercises??","",""
+"895328389299318866","eni7912","19/03/2023 6:23 pm","if you want the last version, yes","",""
+"828441933788610600","teeps123#0742","20/03/2023 1:36 am","Hi, I'm doing the cairo1 starklings exercises. How do I view the solutions? on the cairo0 starklings I could run ""starklings --solution relative_path_to_the_exercise_file"" but on the cairo1 repo this command doesnt seem to exist. Where in the repo are the solutions kept?","",""
+"848616398964260925","scarletssstarktitan","20/03/2023 1:38 am","pls post the question in #🦀｜cairo-1 to get support ,thanks ser","","👍 (3)"
+"914851127818862592","pagecountrycousin","21/03/2023 11:43 am","@eni  is there a way to get the solution of the starkling excercises, I need it to fast track my progress pls","",""
+"895328389299318866","eni7912","21/03/2023 1:36 pm","No, solutions are not disclosed on purpose","",""
+"914851127818862592","pagecountrycousin","21/03/2023 7:24 pm","the link provided on the `hints` of  `Primitive_types exercise`  didn't deal with how  `to prevent an overflow when summing big values`, ` convert_felt_to_u8`  extensively... is there any resource you could recommend since cairo 1 official docs is not ready???","",""
+"895328389299318866","eni7912","21/03/2023 7:26 pm","> to prevent an overflow when summing big values
+Upgrade to a bigger uint type
+
+> convert_felt_to_u8
+This is covered by the hint, using the TryInto trait
+
+
+I can't think of any other resource that might help besides the one provided","",""
+"914851127818862592","pagecountrycousin","21/03/2023 7:55 pm","sure thing bro, I just unwrapped it and it works....Thanks","",""
+"914851127818862592","pagecountrycousin","21/03/2023 8:21 pm","@eni ,I currently have the solutions of the ones I solved public on my repo, should privatized it??","",""
+"895328389299318866","eni7912","21/03/2023 8:22 pm","As you wish. We just don't want to provide solutions ourselves so that people can search and understand how it works","",""
+"914851127818862592","pagecountrycousin","21/03/2023 8:24 pm","Thanks","",""
+"725041873030479873","phil26","30/03/2023 12:00 am","Can we post here some feedback about Starklings-cairo1?","",""
+"895328389299318866","eni7912","30/03/2023 2:57 pm","sure","",""
+"725041873030479873","phil26","30/03/2023 3:08 pm","So, let's go :","",""
+"725041873030479873","phil26","30/03/2023 3:11 pm","Nice job!
+I have learned many things.
+My initial knowledge : Typescript, Cairo0, basics of rust. I performed Starklings-cairo 0 a while ago.
+Some constructive feedbacks :
+- Many links are dead (commit 7df0a9d839da023e0a59937824a27842cea8f925).
+- enums exercises should be after structs exercises.
+- I didn't succeed arrays3 (it's the only one). I tried with .get, but didn't succeed. Should be added some hints. (I didn't read the result branch).
+- move_semantics was very problematic, due to lack of documentation. I do not see guys with 0 knowledge of rust to succeed. To create a doc on this subject should be a priority. Hint of move_semantics2 was impossible to understand.
+- * and & usage should be included in exercises.","",""
+"725041873030479873","phil26","30/03/2023 3:11 pm","My feeling after these exercises :
+With Cairo 1, ""bye `revoked variable`"" .... but unfortunately ""welcome `variable not dropped` and `variable was previously moved`""","",""
+"725041873030479873","phil26","30/03/2023 3:11 pm","😭","",""
+"725041873030479873","phil26","30/03/2023 3:12 pm","and still waiting `loops` and `for` ... 😴","",""
+"340951774263246851","jackpison","30/03/2023 7:53 pm","hmm","",""
+"895328389299318866","eni7912","31/03/2023 3:53 pm","Thanks for the very valuable feedback!
+
+We're currently working on a proper documentation for Cairo 1. Without Rust experience it's alittle hard around the edges, that's why I often advise to start with Rustlings and a bit of Rust to get the concepts, and then translate them to cairo.
+
+Links were fixed in a recent commit
+Why do you think enums should be after structs? Is there anything that requires struct knowledge?
+Once proper documentation is there it should be easier. We will work on improving the exercies","",""
+"725041873030479873","phil26","31/03/2023 8:30 pm","I think that `struct `is easier to learn than `enum`, so in the process to learn the complex objects,  struct is a good first step, then the `enum` step seems smaller.
+My feeling is that you should have 3 Starklings :
+- one for ""Cairo 1 basics"" (the current one), without move_semantics. 40 exercises is enough.","",""
+"725041873030479873","phil26","31/03/2023 8:31 pm","- one for ""Cairo 1 expert"", with move_semantics, and all the variables management (copy, clone, snapshot, ref, borrowing, ....)","",""
+"725041873030479873","phil26","31/03/2023 8:32 pm","- one for ""Cairo 1 for Starknet"", with the  code dedicated for Starknet.","",""
+"895328389299318866","eni7912","01/04/2023 8:35 pm","cairo1 for starknet -> planned, there will just be a starknet subfolder with related exercises","","👌 (4)"
+"914851127818862592","pagecountrycousin","06/04/2023 4:06 pm","dope observations man, someone like me with 0 knowledge of rust have been on this like forever, since no documentation is available, (it makes it even better)*, buh this is something i really need, so I'm stuck with it","",""
+"914851127818862592","pagecountrycousin","06/04/2023 4:39 pm","is there  away to make line 24 work??","https://cdn.discordapp.com/attachments/1073153405255696394/1093492652068061195/isthere.png",""
+"914851127818862592","pagecountrycousin","06/04/2023 4:41 pm","@eni  I was able to get this to pass by twicking line 13 and then 23","https://cdn.discordapp.com/attachments/1073153405255696394/1093493131829329950/assed.png",""
+"895328389299318866","eni7912","06/04/2023 4:58 pm","which version is this","",""
+"895328389299318866","eni7912","06/04/2023 4:59 pm","there should not be an assertion in the test","",""
+"914851127818862592","pagecountrycousin","06/04/2023 11:29 pm","how do I see the version, but I cloned this before you made the last batch of commits","",""
+"914851127818862592","pagecountrycousin","06/04/2023 11:30 pm","I thought we test with assertion>???
+
+what is meant to be there then??","",""
+"895328389299318866","eni7912","06/04/2023 11:31 pm","you can just call `a.something`","",""
+"895328389299318866","eni7912","06/04/2023 11:31 pm","no assertion required. actually this could be a main function","",""
+"914851127818862592","pagecountrycousin","26/06/2023 4:19 am","is there any particular reason you removed the type literals from starklings??","https://cdn.discordapp.com/attachments/1073153405255696394/1122659986779152495/wh.png",""
+"914851127818862592","pagecountrycousin","26/06/2023 4:25 am","without the `type literals`, using felt252 as the type which the circled numbers are throws error @eni","https://cdn.discordapp.com/attachments/1073153405255696394/1122661422254526494/felt.png",""
+"914851127818862592","pagecountrycousin","26/06/2023 4:37 am","when I changed the type to `usize` it works, my question is, how come `35` which is a `felt252` does not work but `usize` that is supposed to take in `u32` values works for  numbers like `35`  ? @eni","https://cdn.discordapp.com/attachments/1073153405255696394/1122664405910425670/Screenshot_from_2023-06-26_00-06-49.png",""
+"895328389299318866","eni7912","26/06/2023 12:52 pm","`usize` is an alias for `u32`","",""
+"895328389299318866","eni7912","26/06/2023 12:53 pm","the behavior you see is normal","",""
+"914851127818862592","pagecountrycousin","26/06/2023 2:35 pm","I need you to confirm something for me:  from my observation it seems we don't have to strictly write  integers  like `u8` as `3_u8, 45_u8` anymore?
+is this due to `type inference`??","",""
+"895328389299318866","eni7912","26/06/2023 2:52 pm","yes exactly","",""
+"895328389299318866","eni7912","26/06/2023 2:52 pm","it has been like that for a while already","",""
+"895328389299318866","eni7912","26/06/2023 2:52 pm","if `foo` expects a `u32` and you call it like this `foo(10)` then 10 is inferred as `u32`","","❤️ (2)"
+"914851127818862592","pagecountrycousin","26/06/2023 3:19 pm","awesome, Thanks","",""
+"224421573036081152","teddav","02/08/2023 1:55 pm","im trying to solve starknet1 on starklings.
+im confused by a few things:
+-  i dont understand where TEST_CLASS_HASH is coming from
+- how can we anotate with the #[contract] macro if it's not imported anywhere? shouldn't it be `#[starknet::contract]`?
+- what is #[abi] ? i dont see it in the docs. shouldn't is be `#[starknet::interface]` instead?
+- why is it always written #[external(v0)] in the docs? what's the difference with #[external] ?
+- regarding storage: is #[storage] useful? it seems like it works if i remove it. And does the storage struct always has to be named `Storage`?
+
+sorry for all the questions, im just trying to understand cairo1 better 😄","",""
+"817142472421408848","onchez","26/08/2023 2:20 am","Can you return a custom made struct in an array in a function in cairo like
+ fn get_users() ->Array<User>{}","",""

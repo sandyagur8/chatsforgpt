@@ -1,0 +1,1414 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"951518572272812074","purplebishop","13/06/2022 7:12 pm","prime","","🔥 (7)"
+"890935976925462550","hos5ein","13/06/2022 11:12 pm","LFG","",""
+"951518572272812074","purplebishop","14/06/2022 12:43 pm","@Fabijan | Space Shard important, https://github.com/Shard-Labs/starknet-devnet/issues/127","","👀 (1)"
+"951518572272812074","purplebishop","14/06/2022 12:44 pm","FYI:","https://cdn.discordapp.com/attachments/985824027950055434/986166753786724362/unknown_1.png","👍 (1)"
+"951518572272812074","purplebishop","14/06/2022 1:47 pm","@Fabijan | Space Shard if you need more info @0xCa11ab1e can assist you, he came across the issue","",""
+"767746468542283827","fabijanspaceshard","14/06/2022 1:48 pm","I responded on GitHub, we can keep the discussion there","",""
+"951518572272812074","purplebishop","14/06/2022 8:14 pm","I updated the thread with the rationale from Starkware for the breaking change in 0.9, if it's any help","","👍 (1)"
+"951518572272812074","purplebishop","14/06/2022 8:14 pm","it doesnt change the findings of @antazoey tho","",""
+"940166658591424512","Antun | ShardLabs#0568","14/06/2022 11:09 pm","Can we rebrand the Devnet? It's such a dull name when compared to Ganache ✨","","👀 (2)"
+"843117425582538773","0xLaplace#2194","15/06/2022 12:11 am","agreed, but we should also make clarity around the 0.9 return values, its an issue that impacts everyone. having said that I propose:
+
+Scifi:
+- Egma
+- Echelon
+- G-ARK or J-ARK
+- ATUM-1 or ATUM-2
+- Castor
+- Polaris
+- Denebola
+- Eopi
+- Alioth
+
+Egypt:
+- Baba or Babi
+- Babylon
+- Sekhmet
+- Pyramid","","✨ (2),👀 (2)"
+"924904784891347055","happysuisuia","15/06/2022 2:30 pm","https://github.com/Shard-Labs/starknet-devnet/issues/129 can anybody help? i can not nile init","","✅ (3)"
+"348800330349281282","sinetek","17/06/2022 10:53 pm","","https://cdn.discordapp.com/attachments/985824027950055434/987407071479758878/unknown.png,https://cdn.discordapp.com/attachments/985824027950055434/987407071790133278/unknown.png",""
+"348800330349281282","sinetek","17/06/2022 10:53 pm","I'm working on something with starknet-devnet and it's failing to connect with this error, does anyone have any idea?","",""
+"767746468542283827","fabijanspaceshard","22/06/2022 2:13 pm","New version of `starknet-devnet` (v0.2.4) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.4
+- Fixed deployment done with the `deploy` syscall.
+- Added an endpoint for loading dumped Devnet instances: `/load`: https://github.com/Shard-Labs/starknet-devnet#dumping.
+- Updated the OpenZeppelin implementation used by predeployed accounts.
+- Added support for JSON-RPC calls: https://github.com/Shard-Labs/starknet-devnet#json-rpc-api.
+- Redeploying the same contract with the same salt is reintroduced (it was removed, but shouldn't have been as this is a feature of alpha-goerli).
+- The `crypto-cpp-py` dependency was updated to have wheels for more macos versions.","","🔥 (4)"
+"472419717970133002","cheechyuan.eth","22/06/2022 4:34 pm","sorry i have yet to test but can we now sign transaction using starknet.py or starknet.js using the predeployed accounts?","",""
+"767746468542283827","fabijanspaceshard","22/06/2022 4:53 pm","Started a thread.","",""
+"890435533132681228","charlietilt","23/06/2022 9:35 pm","Quick question, has anyone noticed when bridging from l1 -> 12 that the transactions are not getting recorded. In other words, after I flush devent, the l1_handler is picking up the message and processed correctly but when I query the block number and review the transactions, it is not in there. (note, using shardlabs/starknet-devnet:0.2.3, going to try with shardlabs/starknet-devnet:0.2.4)","",""
+"890435533132681228","charlietilt","23/06/2022 10:07 pm","Also, while using the latest devnet (0.2.4), I tried the `starknet_getBlockByNumber` on a block that included a `declare` transaction and I am getting the following error: `KeyError: <TransactionType.DECLARE: 0>`","",""
+"767746468542283827","fabijanspaceshard","24/06/2022 12:45 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","24/06/2022 12:53 pm","Started a thread.","",""
+"886956177756405800","cryptohedonism","24/06/2022 6:39 pm","hello everyone , tell me how it should be , the resource is almost never used ?","https://cdn.discordapp.com/attachments/985824027950055434/989879836677906462/41234123412341234.jpg",""
+"752074233961512972","udayj.","26/06/2022 2:47 pm","@Fabijan | Space Shard i get the following error whenever i send many transactions quickly to the devnet","https://cdn.discordapp.com/attachments/985824027950055434/990546214946746378/unknown.png",""
+"752074233961512972","udayj.","26/06/2022 2:47 pm","is this expected","",""
+"752074233961512972","udayj.","26/06/2022 2:48 pm","the transactions are all contract deploys","",""
+"767746468542283827","fabijanspaceshard","27/06/2022 12:52 pm","Started a thread.","",""
+"342538171189428234","sahinkurt","27/06/2022 4:41 pm","I build the node till the end without facing any problem but at the final when i started the node i caused this page. What might be the problem sirs?","https://cdn.discordapp.com/attachments/985824027950055434/990937458172633129/camphoto_342241519.jpg",""
+"890435533132681228","charlietilt","27/06/2022 7:03 pm","Does anyone know if there is a way to fund your local ArgentX wallet with funds when using devnet? Not sure if this is even supported yet.","",""
+"767746468542283827","fabijanspaceshard","27/06/2022 7:32 pm","Started a thread.","",""
+"860606288907730995","damien7651","29/06/2022 11:02 pm","hello everyone : first time i have this error.","https://cdn.discordapp.com/attachments/985824027950055434/991758044499288156/Capture_decran_2022-06-29_a_19.32.17.png",""
+"860606288907730995","damien7651","29/06/2022 11:03 pm","First i had some error about python. I upgrade the system and now i have this error.","",""
+"860606288907730995","damien7651","29/06/2022 11:04 pm","Do you have some research clue please?","",""
+"511272055623122961","laurip","30/06/2022 11:43 am","please ask in #🛰｜pathfinder-support-only","",""
+"511272055623122961","laurip","30/06/2022 3:43 pm","I was wondering about the dumping feature. Could this be used effectively to create fixtures? That would speed up tests enormously","",""
+"767746468542283827","fabijanspaceshard","30/06/2022 4:18 pm","Started a thread.","",""
+"951518572272812074","purplebishop","01/07/2022 8:30 pm","@Fabijan | Space Shard i forgot if gas estimates work correctly with devnet these days","","💯 (1)"
+"267300878736818176","_dsi","02/07/2022 2:35 am","I'm getting `Error: Cannot find module '/Users/dsi/Documents/Workspace/my-projects/testProject/test'` when running tests in a hardhat devnet test path","",""
+"267300878736818176","_dsi","02/07/2022 2:35 am","While idk, it is there for sure, I wrote my tests in it","",""
+"267300878736818176","_dsi","02/07/2022 3:50 am","Ah no my bad, I was running `hh run test` instead of `hh test` ...","","👍 (1)"
+"951518572272812074","purplebishop","02/07/2022 6:51 pm","@Pave | SpaceShard hey, can you address this?","",""
+"366895980764725250","pave_spaceshard","02/07/2022 7:09 pm","Started a thread.","",""
+"595347256899796993","umbro.eth#1630","03/07/2022 6:10 am","qq, what is this? alchemy
+Recent Invalid Requests","https://cdn.discordapp.com/attachments/985824027950055434/992952892937998356/2022-07-03_3.38.53.png",""
+"951518572272812074","purplebishop","04/07/2022 7:01 pm","@Fabijan | Space Shard @Pave | SpaceShard @Quentin | SpaceShard @Antun | ShardLabs 
+
+any plans to base devnet off https://github.com/lambdaclass/cleopatra_cairo ? it's not that far from prod readiness now","",""
+"951518572272812074","purplebishop","04/07/2022 7:01 pm","rust devnet + protostar can deliver an acceptable DevEx, despite the performance shortcomings of alpha starknet","",""
+"366895980764725250","pave_spaceshard","04/07/2022 8:05 pm","Started a thread.","",""
+"907981161534468146","wind.rider","05/07/2022 8:03 am","Sorry sir🙏🏻 , this‘s the devnet channel, for info about jobs,pls use this channel #🏭｜job-board ,thank you👍🏻","","🙏 (1)"
+"767746468542283827","fabijanspaceshard","05/07/2022 7:40 pm","New version of `starknet-devnet` (v0.2.5) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.5
+- Introduced an endpoint for fetching predeployed account information: [docs](https://github.com/Shard-Labs/starknet-devnet/tree/v0.2.5#fetch-predeployed-accounts)
+- Introduced local faucet for adding funds (minting tokens) to accounts: [docs](https://github.com/Shard-Labs/starknet-devnet/tree/v0.2.5#mint-token---local-faucet)
+- Partial update to JSON RPC API v0.15.0","","🚀 (2),🔥 (1)"
+"590055958357606410","bitcoln","06/07/2022 1:19 am","please help, I can't get into this directory, what could be the reason?","https://cdn.discordapp.com/attachments/985824027950055434/993966805594935418/unknown.png,https://cdn.discordapp.com/attachments/985824027950055434/993966805951459328/unknown.png",""
+"456226577798135808","Deleted User","06/07/2022 1:20 am","Hello @bitcoln 
+Would you mind trying the following 
+troubleshooting steps: 
+1. Disconnect Wallet 
+2. Clear browser cache and cookies 
+3. Restart computer 
+4. Reconnect Wallet 
+If those steps don't help, can you try using a different browser","",""
+"590055958357606410","bitcoln","06/07/2022 1:26 am","I have not yet connected the wallet to disconnect it. How can I do that?","",""
+"767746468542283827","fabijanspaceshard","06/07/2022 1:05 pm","This is most likely not a devnet related problem, let's keep this channel for devnet related problems only. It looks like you are following a tutorial and didn't follow all the steps properly.","","👍 (1)"
+"117430577891639300","darkosnightmare","07/07/2022 9:02 pm","@Fabijan | Space Shard how is the ETH contract address on devnet determined? I notice that ArgentX ships with a default address: https://github.com/argentlabs/argent-x/blob/4fc9fc51f87af4486483d9bdc593567283b73e90/packages/extension/src/assets/default-tokens.json#L30 which doesn't match the one that seems to be deployed by devnet","",""
+"541203440286826507","Dikci#7777","08/07/2022 5:54 pm","Hello everyone help me pls 😦","https://cdn.discordapp.com/attachments/985824027950055434/994942099227164732/unknown.png",""
+"767746468542283827","fabijanspaceshard","08/07/2022 7:38 pm","Started a thread.","",""
+"267300878736818176","_dsi","11/07/2022 7:00 pm","","https://cdn.discordapp.com/attachments/985824027950055434/996045918967173130/message.txt",""
+"267300878736818176","_dsi","11/07/2022 7:01 pm","It seems like it comes from docker itself, here is the full error: 
+```
+    TypeError: Do not know how to serialize a BigInt
+      at JSON.stringify (<anonymous>)
+      at /Users/dsi/Documents/Workspace/my-projects/realms-manager-protocol/node_modules/docker-modem/lib/modem.js:355:12
+      at Array.map (<anonymous>)
+      at Modem.buildQuerystring (node_modules/docker-modem/lib/modem.js:353:21)
+      at Modem.dial (node_modules/docker-modem/lib/modem.js:117:23)
+      at /Users/dsi/Documents/Workspace/my-projects/realms-manager-protocol/node_modules/dockerode/lib/docker.js:64:18
+      at new Promise (<anonymous>)
+      at Docker.createContainer (node_modules/dockerode/lib/docker.js:63:12)
+      at /Users/dsi/Documents/Workspace/my-projects/realms-manager-protocol/node_modules/dockerode/lib/docker.js:1505:10
+      at new Promise (<anonymous>)
+```","",""
+"366895980764725250","pave_spaceshard","11/07/2022 7:33 pm","@here 👋 
+Hi all! One thing which you may find interesting is that we opened a Github board to track issues / features for devnet:
+https://github.com/orgs/Shard-Labs/projects/1/views/1
+
+The whole community can now transparently track what is in progress and which features / issues are in the backlog to pick up and help.
+
+Feel free to do so - we eagerly await your contributions! 🚀","","👌 (1),🔥 (1)"
+"366895980764725250","pave_spaceshard","11/07/2022 7:48 pm","Pinned a message.","",""
+"767746468542283827","fabijanspaceshard","11/07/2022 9:09 pm","Started a thread.","",""
+"267300878736818176","_dsi","12/07/2022 7:07 am","Hey guys, I am throwing an idea out there. I think it would be interesting to allow someone to predefine some code or some class_hash in the parameters. It would then allow to deploy instances really quickly instead of waiting for all contract to be declared on every tests","",""
+"767746468542283827","fabijanspaceshard","12/07/2022 1:44 pm","Started a thread.","",""
+"641937777482792991","amanusk","13/07/2022 3:50 pm","Quick question about the fee token on the devnet.
+Is it just like any other ERC20?
+What is the default address of the fee token?","",""
+"248159775085428737","tonitabak","13/07/2022 4:35 pm","Started a thread.","",""
+"511272055623122961","laurip","15/07/2022 11:48 am","will the devnet enforce explicitly specifying the fee, at some point? I mean, does it make sense to start changing my tests to explicitly state the fee at time point?","",""
+"767746468542283827","fabijanspaceshard","15/07/2022 12:43 pm","Started a thread.","",""
+"204922278075564033","parkyeung.eth","18/07/2022 12:45 pm","Trying to deploy a contract containing constructor args using `starknet-deploy`  in the CLI (I'm running `hardhat-plugin` as a wrapper on `starknet-devnet`. What's the recommended way of formatting constructor arguments and passing them properly (e.g. string -> felt, number to BigInt?)
+
+Getting a bunch of errors when testing with OpenZeppelin's `ERC20.cairo` contract, halp!","",""
+"117430577891639300","darkosnightmare","19/07/2022 8:27 pm","@Fabijan | Space Shard could we get a new point release to incorporate the fixed OZ account implementation? v0.6.1 fails all deploys to testnet due to that issue. @Charlie Tilt and I would be most appreciative 🙂","",""
+"767746468542283827","fabijanspaceshard","19/07/2022 8:29 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","20/07/2022 5:05 pm","New version of `starknet-devnet` (v0.2.6) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.6
+- Adapted to cairo-lang and Starknet 0.9.1
+- Added path check on dumping
+- Using OpenZeppelin 0.2.1 for predeployed accounts
+- Accounts predeployed with `--seed` now set not to change with new Devnet releases
+- Token contract:
+  - Address set not to change with new Devnet releases
+  - Token symbol changed to ETH
+- Supported non-decimal float as `amount` of minting (e.g. `1e21` or `1000.0`)
+- Added support for `geth --dev` being used as the L1 of L1<>L2 Postman communication
+- Introduced the `/api` endpoint which returns a map of all URL endpoints provided by Devnet
+- Introduced Docker image tag `shardlabs/starknet-devnet:<VERSION>-seed0` which predeploys accounts with `--seed 0`","","👍🏻 (7),💪 (1),🏗️ (1)"
+"876072467599347712","0xca11ab1e","26/07/2022 6:36 pm","Hello, team!
+Do you have an idea about https://github.com/Shard-Labs/starknet-devnet/issues/194 ? Is it a legit bug?","",""
+"876072467599347712","0xca11ab1e","26/07/2022 8:08 pm","Actually, same questions for https://github.com/Shard-Labs/starknet-devnet/issues/195","","👀 (1),✅ (1)"
+"366895980764725250","pave_spaceshard","26/07/2022 11:28 pm","Yeah, it's a bug, @Toni | SpaceShard✨ is on it","","👌 (1)"
+"892023496220225536","prtk418","28/07/2022 1:45 pm","Using devnet to run my unit tests which are  huge, its taking ~15 mins to run couple of tests. Wanted to check if anyone else also facing the runtime issue. I am using hardhat-plugin for the project","",""
+"784321568279887902","wraitii","28/07/2022 6:51 pm","I'm getting an error trying to use the /mint endpoint","",""
+"784321568279887902","wraitii","28/07/2022 6:51 pm","Error is `starknet_devnet/fee_token.py"", line 86, in mint_lite: assert cls.contract`","",""
+"784321568279887902","wraitii","28/07/2022 6:51 pm","I'm calling `curl -H ""Content-Type: application/json""  -d '{ ""address"": ""0x023c399ebaface5a979c6376797d0f26517ee0992c45cb92dc783186d457c457"", ""amount"": 500000, ""lite"": 1 }' -X POST localhost:5050/mint` which otherwise seems to work","",""
+"784321568279887902","wraitii","28/07/2022 7:08 pm","mmh, actually, I've restarted the node and it seemed to work now. Maybe I needed to run with --accounts set to something non-0, or maybe lite-mode is interacting badly","",""
+"784321568279887902","wraitii","28/07/2022 7:08 pm","(this was with dumping/loading","",""
+"248159775085428737","tonitabak","29/07/2022 1:29 pm","Yes there are open issue in case of loading devnet and minting after, we will resolve it soon","",""
+"248159775085428737","tonitabak","29/07/2022 3:24 pm","Started a thread.","",""
+"366895980764725250","pave_spaceshard","02/08/2022 2:55 pm","If you find someone struggling on how to run devnet on Windows, send them this link:
+https://medium.com/spaceshard/how-to-run-starknet-devnet-on-windows-tech-tutorial-f8447c131193","","👍 (2),💯 (1)"
+"767746468542283827","fabijanspaceshard","02/08/2022 7:19 pm","New version of `starknet-devnet` (v0.2.7) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.7
+- Flushing stdout
+- Introduced endpoint for fetching fee token info (`GET /fee_token`)
+- Fixed balance checking and minting after loading dumped Devnet
+- RPC updates:
+  - Fixed declare and deploy parameters (hexing ints)
+  - Supported RPC write API (invoke, deploy, declare)","","👍 (3)"
+"767746468542283827","fabijanspaceshard","04/08/2022 6:48 pm","New version of `starknet-devnet` (v0.2.8) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.8
+- Fixed fee estimation weights - should result in estimations more similar to those on alpha-goerli
+- Fixed `block_hash` property of `get_transaction_status` response to be hex string
+- Fixed `get_transaction_trace` for declare transactions
+- Block improvements:
+  - Fixed response of `get_block_number` cairo syscall
+  - Now shipping with a genesis block (block number 0)
+  - Introduced an endpoint for generating an empty block: `POST /create_block`
+- Slightly improved performance (replaced unnecessary async with sync methods)","","👍 (2)"
+"903203088045838346","rarub","05/08/2022 7:46 am","Hi everybody,
+Could someone give me an example of how to use one of the predeployed accounts with the StarkNet CLI? 
+I'm currently trying
+`starknet invoke --address 0x... --abi contract_abi.json --function initializer --inputs 0x... --gateway_url http://127.0.0.1:5000/ --account ???`. I've tried address, public key, and private key of one of the predeployed accounts for the account flag. But, I always get the error `Account '...' for network 'alpha-goerli' was not found`.
+Thank you so much.","",""
+"652843806504386580","nathan_getachew","05/08/2022 10:13 am","Started a thread.","",""
+"823434814119870474","Ronik#0600","08/08/2022 12:49 pm","requirement for Starknet network node","",""
+"823434814119870474","Ronik#0600","08/08/2022 12:50 pm","can you please tell me the minimum requirements for Starknet network node setup","",""
+"767746468542283827","fabijanspaceshard","08/08/2022 10:08 pm","New version of `starknet-devnet` (v0.2.9) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.9
+- Fixed handling of running requests exchanging big payloads, e.g. get_code
+- Fixed off-by-one offset in `get_block_number` syscall response","",""
+"784321568279887902","wraitii","09/08/2022 8:30 pm","Not entirely sure yet but 0.2.9 seems to have a broken dump-load system. I can dump, but reloading seems to restart from scratch?","",""
+"548410451818708993","Wick#4943","10/08/2022 6:55 pm","","",""
+"366895980764725250","pave_spaceshard","11/08/2022 3:03 pm","Want to become a Core Contributor at one of the most used StarkNet projects? @here 
+
+Tune into Only Dust Community Call with StarkNet Devnet on August 11 at 4 PM CET to get started asap!
+
+https://discord.gg/5xJ6JkZR?event=1004744814174154882","","🏗️ (2)"
+"767746468542283827","fabijanspaceshard","16/08/2022 5:06 pm","New version of `starknet-devnet` (v0.2.10) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.10
+- Fixed dump/load and restart functionalities.
+- Now waiting for dump to finish (letting it run in parallel was causing potential read-write race conditions)
+- Improved CLI parameter handling","",""
+"326836194925215745","maaxtro","21/08/2022 3:41 am","Hello, I ran node recently and should I do anything else to be eligible or not? Mb to fill form?","",""
+"429096494713274369","0xcoburn","21/08/2022 4:51 am","replied in #🐼｜general-chat","",""
+"752074233961512972","udayj.","22/08/2022 11:54 am","i am trying to test L1-L2 interaction using the devnet.....and not able to understand how the l1_handler function call is triggered - the postman_wrapper.py has code that gets the L1->L2 messages but where is the L1_handler being triggered ? @Fabijan | Space Shard thoughts ?","",""
+"908561812163809340","jedi42","22/08/2022 1:54 pm","guys, i have a question
+
+so I found out that for `get_class_hash_at`, `contract_address` for `DEPLOY` and INVOKE are using `fixed_length_hex` instead of hex so the result would have extra 0s after 0x to have length of 66. 
+
+but i think it should use hex instead because when i checked the rpc endpoint, hexadecimal of length 65 is returned.
+
+am i missing something? 
+
+thank you","",""
+"767746468542283827","fabijanspaceshard","22/08/2022 2:07 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","22/08/2022 2:08 pm","Started a thread.","",""
+"951518572272812074","purplebishop","22/08/2022 9:33 pm","hello @Fabijan | Space Shard, we started getting `aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected` (we use starknet.py with devnet) when trying to declare contracts of a larger bytecode size (yes, we could reproduce this), we are using latest devnet (0.2.10) and starknet.py (0.4.6a0).
+
+Do you think the devnet is a fault here? we tried increasing timeouts already to no avail","",""
+"767746468542283827","fabijanspaceshard","23/08/2022 12:47 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","26/08/2022 10:07 pm","New version of `starknet-devnet` (v0.2.11) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.2.11
+- Now supporting JSON-RPC API v0.1.0 - https://github.com/starkware-libs/starknet-specs/blob/v0.1.0/api/starknet_api_openrpc.json
+    - except methods `starknet_protocolVersion`, `starknet_getEvents` and `starknet_getNonce`
+- Updated predeployed accounts implementation to OpenZeppelin v0.3.1 (previously was OpenZeppelin v0.2.1)
+- Now every commit to master is available as a Docker image:
+  - `shardlabs/starknet-devnet:<COMMIT_HASH>`
+  - last commit also available as `shardlabs/starknet-devnet:next`","",""
+"907539898335133778","hamsehaduri","27/08/2022 10:57 am","the testnet is open right now","",""
+"641937777482792991","amanusk","30/08/2022 12:44 pm","Is it possible to access the devent with JSON RPC (like pathfinder) following this new release?","",""
+"117430577891639300","darkosnightmare","06/09/2022 2:31 am","wen devnet 0.10 @Fabijan | Space Shard (and do you want any help?)","",""
+"767746468542283827","fabijanspaceshard","06/09/2022 12:31 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","08/09/2022 2:33 am","**New version** of `starknet-devnet` (**v0.3.0**) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.0
+- Partially adapted to Starknet / cairo-lang 0.10.0:
+  - Dropped support for Python 3.7
+  - Tested with [Starknet CLI account](https://starknet.io/docs/hello_starknet/account_setup.html):
+    - Predeployed OZ accounts not guaranteed to work
+  - Block state root not calculated
+  - Transactions with version 1 not guaranteed to work
+  - API changes:
+    - Supported: `get_nonce` and `simulate_transaction`
+    - Not yet supported: `estimate_message_fee`
+  - RPC method `starknet_getStateUpdate` not guaranteed to work
+- `--lite-mode` only affects block hash calculation (uses numbering instead of actual hash)
+- Removed `result` from `invoke` response.
+- Introduced modifying server timeout with `--timeout` parameter (can help with big contracts or slower machines)","","👌 (1),🔥 (2)"
+"117430577891639300","darkosnightmare","09/09/2022 1:00 am","Giving this a shot with hardhat plugin 0.6.5 and running tests via the integrated devnet 0.3.0 docker I am getting:
+```
+StarknetPluginError: Could not perform call on hyp64x61_sinh_test:
+usage: starknet_cli_wrapper.py [-h] --address ADDRESS --abi ABI --function
+                               FUNCTION [--inputs [INPUTS ...]]
+                               [--block_hash BLOCK_HASH | --block_number BLOCK_NUMBER]
+starknet_cli_wrapper.py: error: unrecognized arguments: --max_fee 0
+```
+I'm guessing related to ""Predeployed OZ accounts not guaranteed to work"", but just wanted to get you the feedback","",""
+"767746468542283827","fabijanspaceshard","09/09/2022 12:38 pm","Started a thread.","",""
+"685950344848736285","olanetsoft","10/09/2022 3:21 am","I am having issue, anyone here knows Starknet-Goerli chain Id?","",""
+"790748738259779604","crypto_hamster","11/09/2022 5:09 pm","Hello! Tell me, the entire hard disk space is clogged, even if 400 GB is allocated for the node!","",""
+"767746468542283827","fabijanspaceshard","12/09/2022 1:12 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","12/09/2022 1:13 pm","Started a thread.","",""
+"887999107715715083","trejowsk","13/09/2022 7:38 pm","Hey guys, is signing Declare tx's supported right now? I am getting this error:
+`The signature field in Declare transactions must be an empty list`","",""
+"951518572272812074","purplebishop","14/09/2022 9:11 pm","hi @Fabijan | Space Shard, do you need any help with this PR? https://github.com/Shard-Labs/starknet-devnet/pull/272","",""
+"767746468542283827","fabijanspaceshard","15/09/2022 4:38 pm","New version of `starknet-devnet` (v0.3.1) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.1
+- The predeployed/prefunded accounts adapted to the new tx version 1:
+    - Using OZ 0.4.0b with a minor modification to allow tx simulation
+- Logging from dockerized Devnet enabled by default
+    - By using `PYTHONUNBUFFERED=1` as the default, no need to provide it manually
+- Fixed account replication seed being displayed as None
+- Allowing fee estimation for tx versions 0 and 1
+- Fixed state root being empty
+- JSON-RPC fixes:
+    - Fixed call return value
+    - Allowing requests without `params` where possible
+    - Improved error handling; error codes more in line with specification","","🔥 (1)"
+"896707292576235540","gregoryguillou","24/09/2022 12:31 am","Hello,
+I am facing an issue with `starknet-devnet (v0.3.1)` . I do not manage to run RPC `starknet_addInvokeTransaction` with positional parameters; yet it works with pathfinder and other vers like `starknet_estimateFee`. It returns `int() can't convert non-string with explicit base`. It is working fine on GOERLI. I have document the case on the repo https://github.com/Shard-Labs/starknet-devnet/issues/282. Does anyone have an example of a positional request to `starknet_addInvokeTransaction`  on devnet that is working? The test inside the testsuite is also using named parameters. Thank you for your help","",""
+"896707292576235540","gregoryguillou","24/09/2022 1:52 am","That is a bug... I've proposed a fix https://github.com/Shard-Labs/starknet-devnet/pull/283 even if I assume you did what you did for a good reason. I will argue that the `starknet_addInvokeTransaction` is not compliant with the v0,1 rpc spec the way it is coded right now. Also, sorry to not provide a set of tests but I do not write Python code at all!","",""
+"267300878736818176","_dsi","26/09/2022 12:30 am","Hey guys, has anyone had `get_caller_address` problems in devnet ? I feel like it's returning address 0 when it shouldn't so I made this small contract to test it
+
+```%lang starknet
+
+from starkware.cairo.common.cairo_builtins import HashBuiltin
+
+from starkware.starknet.common.syscalls import (get_caller_address)
+
+@storage_var
+func caller_addr() -> (res: felt) {
+}
+
+
+@external
+func fn_to_be_called{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr: felt}() {
+    let (caller) = get_caller_address();
+    caller_addr.write(caller);    
+
+    return ();
+}
+
+@view
+func get_caller_addr{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr: felt}() -> (caller_addr: felt) {
+    let (caller) = caller_addr.read();
+
+    return (caller_addr=caller);
+}```
+
+and indeed `get_caller_addr` return address 0 after I called `fn_to_be_called` in the devnet. This is causing some problems in more complex contracts of course. Is it just me ?","",""
+"767746468542283827","fabijanspaceshard","28/09/2022 8:13 pm","Started a thread.","",""
+"212146572736200704","pscott1337","29/09/2022 3:43 pm","Anyone have tried / managed to get `starknet-devnet` working with python 3.10? 🙂","",""
+"946809148991995935","mikolajspaceshard","29/09/2022 4:59 pm","New version of starknet-devnet (v0.3.2) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.2
+- Lite mode fix for transaction hashes
+- Support estimate_message_fee
+- Fix positional args for addInvokeTransaction (JSON-RPC)","","🚀 (6)"
+"260514830006485002","milan3774","01/10/2022 9:48 pm","how do I use the predeployed accounts with the starknet CLI?","",""
+"945246954227642388","0xgai_","04/10/2022 2:46 am","Hi there,
+
+Has anyone managed to deploy a contract from an account contract on the devnet, like you can with the CLI?
+From inspection, the pre-deployed contracts on the devnet do not have the `deploy_contract` function, so they cannot be used in the same way.
+
+For context:
+We have some tests that depend on the owner being set in the contract's constructor that we would like to set using the get_caller_address function.","",""
+"946809148991995935","mikolajspaceshard","04/10/2022 12:48 pm","Hi guys, 
+
+@milan you have `Address, Public key, Private key` for 10 accounts when you lunch starknet-devnet locally
+
+I use something like this for example to deploy: 
+
+terminal 1 - starknet-devnet
+```
+poetry run starknet-devnet
+```
+terminal 2 - deploy
+```
+starknet deploy --contract ""test/artifacts/contracts/cairo/contract.cairo/contract.json"" --inputs ""0"" --no_wallet --gateway_url http://127.0.0.1:5050/ --feeder_gateway_url http://127.0.0.1:5050/
+```","",""
+"946809148991995935","mikolajspaceshard","04/10/2022 12:50 pm","I'll check `deploy_contract`","",""
+"946809148991995935","mikolajspaceshard","04/10/2022 1:16 pm","@0xGai_ ""From inspection, the pre-deployed contracts on the devnet do not have the deploy_contract function, so they cannot be used in the same way.""  so the possibility of using another account contract than OpenZeppelin 0.4.0b-fork would solve your issiue?
+
+I'm not sure If I understand your problem. Can you share some examples, maybe a code snippet?","",""
+"366895980764725250","pave_spaceshard","04/10/2022 1:50 pm","Started a thread.","",""
+"820328440648433665","lazarmitic","05/10/2022 12:08 pm","Did anyone else notice major slowdown in devnet since version 0.3.0? It's completely unusable. I have to use 0.2.11 because it's much more responsive and faster (for example reading data like token balance is so much faster in 0.2.x versions).","",""
+"820328440648433665","lazarmitic","05/10/2022 12:40 pm","https://github.com/Shard-Labs/starknet-devnet/pull/293","",""
+"820328440648433665","lazarmitic","05/10/2022 12:41 pm","Maybe this PR can help with speeding up the devnet","",""
+"946809148991995935","mikolajspaceshard","05/10/2022 12:51 pm","I wanna review it but is still a draft","","👍 (1)"
+"366895980764725250","pave_spaceshard","05/10/2022 1:13 pm","Started a thread.","",""
+"429096494713274369","0xcoburn","06/10/2022 4:48 am","Started a thread.","",""
+"946809148991995935","mikolajspaceshard","06/10/2022 6:30 pm","New version of starknet-devnet (v0.3.3) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.3
+- Increase of performance
+   - improved deploy (~150% gain)
+   - change of deepcopy in ContractClass (~300% gain)
+- New flag --hide-predeployed-accounts added","","🔥 (6),🚀 (3),🏎️ (2)"
+"260514830006485002","milan3774","07/10/2022 1:07 am","oh, I completely missed this message; thank you, will try","",""
+"768676065635598347","bibbes21mooninglabs","08/10/2022 6:30 pm","Hello, i try to run a node but she don´t want to start? Any ideas why?","https://cdn.discordapp.com/attachments/985824027950055434/1028290677248901160/unknown.png",""
+"907981161534468146","wind.rider","08/10/2022 6:34 pm","Ser,i see you have already posted the same question in #🛰｜pathfinder-support-only , sorry,as it's the weekend, pls be patient for the reply from pathfinder team,thank you😀 🤝","",""
+"768676065635598347","bibbes21mooninglabs","08/10/2022 6:48 pm","Sorry dont knew where to post. Here are a lot of channels🤪","",""
+"907981161534468146","wind.rider","08/10/2022 6:51 pm","It's okay ser:happy: ,next time if you have other questions and don't know where to ask, you can also@ starknet senpai first,thank you😀","",""
+"619615586279882813","aurelou","10/10/2022 7:01 pm","Did someone have already tried to get_full_contract from devnet ?
+I deployed a contract but get_full_contract command didn't work ☹️","",""
+"619615586279882813","aurelou","10/10/2022 7:01 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1029023464167850034/unknown.png",""
+"705769314858565753","alex.sumner","13/10/2022 5:31 pm","Hi, I'd be grateful if anyone could please tell me, what is the starknet-devnet chain id?","",""
+"267300878736818176","_dsi","16/10/2022 10:04 pm","Hey guys, I'm getting `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory` everytime I run a test on devnet, and when I try to run it again I get `Error in plugin Starknet: Cannot spawn integrated-devnet-45013590708124984: http://127.0.0.1:5050 already occupied.`, it seem like the devnet is not stopping properly","",""
+"267300878736818176","_dsi","16/10/2022 10:17 pm","I also get ` Could not declare class: Got ClientConnectorError while trying to access http://127.0.0.1:5050/feeder_gateway/get_nonce?contractAddress=0x8fb75fa634e2ec23de4714c0eb5d85e82fde3cf77263ca9228ef8a4f5e3088&blockNumber=pending.` when trying to declare a contract from a predeployed account on a local starknet-devnet","",""
+"267300878736818176","_dsi","16/10/2022 10:25 pm","Not 100% sur it's linked to devnet, maybe it's linked to hardhat tests","",""
+"267300878736818176","_dsi","16/10/2022 10:25 pm","```<--- Last few GCs --->
+
+[2347:0x7fb61ff00000]    19592 ms: Scavenge 2040.1 (2076.3) -> 2040.1 (2077.8) MB, 3.2 / 0.0 ms  (average mu = 0.118, current mu = 0.024) allocation failure 
+[2347:0x7fb61ff00000]    19595 ms: Scavenge 2041.1 (2077.8) -> 2041.2 (2082.6) MB, 2.6 / 0.0 ms  (average mu = 0.118, current mu = 0.024) allocation failure 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0x102ad3a85 node::Abort() [/usr/local/bin/node]
+ 2: 0x102ad3c08 node::OnFatalError(char const*, char const*) [/usr/local/bin/node]
+ 3: 0x102c4ca67 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+ 4: 0x102c4ca03 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+ 5: 0x102deb445 v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]
+ 6: 0x102def47b v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/local/bin/node]
+ 7: 0x102debd4c v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]
+ 8: 0x102de91fa v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]
+ 9: 0x102de7f78 v8::internal::Heap::HandleGCRequest() [/usr/local/bin/node]
+10: 0x102d947c1 v8::internal::StackGuard::HandleInterrupts() [/usr/local/bin/node]
+11: 0x103170e13 v8::internal::Runtime_StackGuard(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+12: 0x1035136b9 Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]```","",""
+"767746468542283827","fabijanspaceshard","17/10/2022 12:53 pm","Started a thread.","",""
+"895328389299318866","eni7912","17/10/2022 8:56 pm","Hi, I think a recent update of starknet-devnet broke compatibility for M1 chips. A while ago I posted this message https://discord.com/channels/793094838509764618/912735106899275856/989225756318134353 and the problem came from a faulty `@l1_handler`
+
+However, now when running the same example, it doesn't work anymore, and throws `Request failed. Make sure your network has the /postman endpoint` once again. The https://github.com/Shard-Labs/starknet-hardhat-example `postman.test.ts` fails too with the same error on an M1 chip, although I tried it in a cloud ubuntu VM and it works fine.","",""
+"767746468542283827","fabijanspaceshard","18/10/2022 12:53 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","18/10/2022 5:35 pm","**NEW VERSION NOTICE**
+The release of a new `starknet-devnet` version adapted to cairo-lang 0.10.1 is postponed (probably until tomorow). If you need it sooner and can afford to install from GitHub, you can use the branch `adapt-0.10.1` of https://github.com/Shard-Labs/starknet-devnet/","","👍 (3)"
+"969319036548702299","cryptolover1822","19/10/2022 1:26 am","hey all","",""
+"848616398964260925","scarletssstarktitan","19/10/2022 1:43 am","welcome to starknet community ,for greeting please use #🕗｜gm-gn  thanks ser","",""
+"767746468542283827","fabijanspaceshard","19/10/2022 2:01 pm","**NEW VERSION** of `starknet-devnet` (v0.3.4) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.4
+- Support for Starknet 0.10.1
+- Predeployed accounts can now use a custom implementation; specified via `--account-class`
+- Docs now available at https://shard-labs.github.io/starknet-devnet/
+- RPC updates:
+    - Support for `starknet_getEvents`
+    - Updated `starknet_getNonce` and `starknet_addInvokeTransaction` RPC methods","","🚀 (2)"
+"850478993463443487","solimander","20/10/2022 10:33 pm","any luck solving this? hitting the same thing on an M1 mac when running the postman test in the example","",""
+"850478993463443487","solimander","20/10/2022 11:18 pm","as a temporary workaround, I'm running against the `shardlabs/starknet-devnet` linux docker image","",""
+"850478993463443487","solimander","21/10/2022 12:21 am","https://github.com/Shard-Labs/starknet-devnet/issues/315","",""
+"399152170622124032","zeybek.eth","21/10/2022 2:22 am","how can i solve this problem","https://cdn.discordapp.com/attachments/985824027950055434/1032758204364497067/Ekran_Resmi_2022-10-20_23.50.16.png",""
+"850478993463443487","solimander","21/10/2022 10:32 am",">  Support for `starknet_getEvents`
+
+ is there any way to lookup events that occur inside a `l1_handler`? they don't seem to be available in either the `FlushResponse` or via `starknet_getEvents`. thanks!","",""
+"767746468542283827","fabijanspaceshard","21/10/2022 12:43 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","21/10/2022 12:44 pm","Started a thread.","",""
+"348962883478093835","atobaba44","21/10/2022 3:04 pm","Hello, I have set up a node for Starknet, but the last time I wrote a wrong URL. Does anyone know what is the uninstall code for contabo?","",""
+"348962883478093835","atobaba44","21/10/2022 3:05 pm","thanks","",""
+"998193423385378816","bo3o_","22/10/2022 4:59 am","Network ?","",""
+"705769314858565753","alex.sumner","24/10/2022 8:44 pm","HI, please can anyone tell me the correct way to declare a contract on devnet?
+
+I managed to deploy an account with this:
+
+`starknet deploy_account --gateway_url http://localhost:5050 --feeder_gateway_url http://localhost:5050 --chain_id ""1536727068981429685321"" --network_id ""devnet""`
+
+but when I then try to declare a contract with the same chain information:
+
+`starknet declare --contract build/main.json --gateway_url http://localhost:5050 --feeder_gateway_url http://localhost:5050 --chain_id ""1536727068981429685321"" --network_id ""devnet""`","",""
+"705769314858565753","alex.sumner","24/10/2022 8:44 pm","I get `Error: AssertionError: Unsupported chain ID: 1536727068981429685321.`","",""
+"705769314858565753","alex.sumner","24/10/2022 8:45 pm","If I don't include the chain ID I get `Error: Exception: chain_id must be specified with the ""declare"" subcommand.`","",""
+"767746468542283827","fabijanspaceshard","24/10/2022 9:13 pm","Started a thread.","",""
+"208962157520486400","squigge","26/10/2022 2:10 am","Would anyone be able to send me some testnet eth? The faucet doesn't seem to be working. https://faucet.goerli.starknet.io/","",""
+"907981161534468146","wind.rider","26/10/2022 8:01 am","sorry,ser,pls check this reply:https://discord.com/channels/793094838509764618/853954510515208192/1034052090957410315 ,and if next time you have any issue about use starknet,welcome to use #✨｜starknet ,thank you🤝","",""
+"616083918839480410","Hieuit#6330","26/10/2022 6:19 pm","how to ""Verify Cairo contracts on Starkscan "" ? Can anyone help me? pls","",""
+"767746468542283827","fabijanspaceshard","27/10/2022 6:15 pm","**NEW VERSION** of `starknet-devnet` (v0.3.5) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.3.5
+- Predeploy universal deployer contract (UDC): [docs](https://shard-labs.github.io/starknet-devnet/docs/guide/udc)
+- Update predeployed account default implementation (OZ 0.5.0)
+- Fix error format:
+  - Use the same scheme as alpha network (status_code -> code)
+  - Fix `get_transaction_trace` response for rejected txs
+- Correctly store accounts deployed with DeployAccount tx
+- L1_HANDLER txs stored correctly
+- RPC improvements:
+  - Adapt to JSON-RPC v0.2.0
+  - Adapt to tx v1
+  - Allow block ID to be `pending` (same behavior as `latest`)","","👍 (2),🙏 (1)"
+"367380109784776704","rainbloodz","28/10/2022 7:07 pm","Is there a node application?","",""
+"862234432345997323","said017","28/10/2022 7:09 pm","Hi, does anyone know how to properly add fund in braavos / argent X to properly interact with devnet?","",""
+"907981161534468146","wind.rider","28/10/2022 7:12 pm","sorry,ser,pls check my reply:https://discord.com/channels/793094838509764618/853954510515208192/1035549146427445248 thank you","",""
+"767746468542283827","fabijanspaceshard","28/10/2022 7:19 pm","Started a thread.","",""
+"862234432345997323","said017","28/10/2022 8:52 pm","Hi, I have a question again, every time I try to invoke transaction from Argent X. my contract become unavailable, I wonder why that happened.","https://cdn.discordapp.com/attachments/985824027950055434/1035574349618495601/unknown.png,https://cdn.discordapp.com/attachments/985824027950055434/1035574350230859796/unknown.png",""
+"862234432345997323","said017","28/10/2022 9:41 pm","the same invoke tried on goerli is working btw","",""
+"276580170943561729","valcharriera","29/10/2022 12:37 am","Hello, i need some help importing an account into the cli and changing it into mainnet","",""
+"276580170943561729","valcharriera","29/10/2022 12:46 am","my account was setted up on argent x","",""
+"861111695824125962","absurt","29/10/2022 11:07 pm","Will you prepare a guild for accreditation like in arbitrum?","",""
+"848616398964260925","scarletssstarktitan","29/10/2022 11:34 pm","sorry ser ,here is the dev only channel if you have any suggestion about starknet pls head to #✨｜starknet","",""
+"900562641775362128","andyshih.","30/10/2022 5:58 pm","Can anyone help me to solve the rejected transaction? Why did it happen?","https://cdn.discordapp.com/attachments/985824027950055434/1036255311075491951/2022-10-30_8.27.55.png",""
+"900562641775362128","andyshih.","30/10/2022 5:59 pm","Hash : 0x6ae04be47b4b22f0b073490175b2b6b7d794f00a75a92e5046bba4529435bfd","",""
+"429096494713274369","0xcoburn","30/10/2022 6:03 pm","looks like a starkgate tx? you can find support in #🌉｜starkgate","",""
+"900562641775362128","andyshih.","30/10/2022 6:08 pm","No , I was using the swap function on starknet test net","",""
+"768676065635598347","bibbes21mooninglabs","30/10/2022 11:57 pm","I made a New node? Do i habe to register the node somewhere?","",""
+"1010039320830296167","thesoulking.eth","31/10/2022 12:23 am","faucet error. 0x009207308deD1A360b5c7c549B85a28AACfeeaE7c7d74d086baa94c22eB0ed8C","https://cdn.discordapp.com/attachments/985824027950055434/1036352262517305447/Web_capture_30-10-2022_115113_faucet.goerli.starknet.io.jpeg",""
+"848616398964260925","scarletssstarktitan","31/10/2022 12:27 am","i have answered you in #✨｜starknet  channel pls check","",""
+"967305946609111040","akbarbomba","31/10/2022 2:05 am","what are the new updates on the node? I put the latest update in another branch","",""
+"767746468542283827","fabijanspaceshard","31/10/2022 1:59 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","31/10/2022 2:04 pm","Started a thread.","",""
+"824603697841045544","charlez11#9533","31/10/2022 3:02 pm","0x062608707855b0565586de0c2f48bdaa1d42ae61d5945ab1c03287aee5ab2234
+Slow transactions up to 30mins and transaction Errors.","https://cdn.discordapp.com/attachments/985824027950055434/1036573309569085480/Screenshot_20221031-102333.png",""
+"907981161534468146","wind.rider","31/10/2022 3:10 pm","Sorry ser, we usually use #✨｜starknet to discuss starknet, pls check my reply over there:https://discord.com/channels/793094838509764618/853954510515208192/1036575205222522930 ,thank you🙏🏻","",""
+"907981161534468146","wind.rider","31/10/2022 3:54 pm","ser,for starkgate issue pls use #🌉｜starkgate ,i've already answered you over there,pls check it,thank you😀","",""
+"907981161534468146","wind.rider","01/11/2022 12:34 pm","i'm sorry,ser,if you have any issues with starkgate, welcome to use #🌉｜starkgate , if it's some issues with 3rd party dapps, pls consult with their community #🔗｜3rd-party-dapps-links , thank you🤝","","👍 (1)"
+"899715005501542410","Natoro |#3278","01/11/2022 1:01 pm","Oh sorry thank!","","🙏🏻 (1)"
+"883111265168392262","hoa1122#1649","01/11/2022 2:16 pm","how to run a node?","",""
+"907981161534468146","wind.rider","01/11/2022 2:17 pm","pls check this answer part 2:https://discord.com/channels/793094838509764618/853954510515208192/975285496349605898  ser,and for node issue,pls use the corresponding channels,thank you","","👍 (2)"
+"969243196158799872","davevodrazka","02/11/2022 1:09 am","Hey guys, quick question, I'm running devnet locally via `shardlabs/starknet-devnet` docker image and so I have to add `--gateway_url http://xxx` and `--feeder_gateway_url http://xxx`.
+Is there a way to set env variable once - something like `export GATEWAY=""http://xxx""` - so that I don't have to repeat it for every command? And I guess the same question for `chain_id` and `network_id` 😁","",""
+"767746468542283827","fabijanspaceshard","02/11/2022 1:43 pm","Started a thread.","",""
+"959385099063939122","Mtensus#1438","03/11/2022 8:12 am","Where will I get starknet faucet","",""
+"907981161534468146","wind.rider","03/11/2022 8:16 am","ser,pls check this reply:https://discord.com/channels/793094838509764618/853954510515208192/1037558295059243048 thank you","",""
+"895125466988556329","ronak2585","03/11/2022 4:13 pm","Hello sir, sir i need your help please sir my funds is missing in my 2 starknet account I don't see my funds on starknet platform please sir help me out what can i send you? Meta mask account or ARGENt wallet acc sir please tell? @Wind Rider | StarkTitan","",""
+"907981161534468146","wind.rider","03/11/2022 4:15 pm","sorry,ser,for starkgate issue pls use #🌉｜starkgate ,i've already answered you there,pls check it:https://discord.com/channels/793094838509764618/957558236662366219/1037678822474121307 thank you","",""
+"541712773181210625","clemlaflemme","04/11/2022 6:23 pm","hey, I don't manage to store the devnet state I need to redeploy every time, I don't understand why because I'm using 
+
+```
+starknet-devnet --lite-mode --load-path devnet --dump-on exit --dump-path devnet --seed 0
+```
+
+and I actually see that the `devnet` file is updated locally","",""
+"541712773181210625","clemlaflemme","04/11/2022 6:28 pm","also I see in the dock that when using docker, you're not using `docker volume` and it's like there's no state db path
+
+```
+docker run \
+  -p 127.0.0.1:5050:5050 \
+  --mount type=bind,source=/actual/dumpdir,target=/dumpdir \
+  shardlabs/starknet-devnet \
+  --load-path /dumpdir/dump.pkl
+```
+
+or should I just use a `volume` pointing to `/dumpdir` ?","",""
+"767746468542283827","fabijanspaceshard","04/11/2022 7:01 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","04/11/2022 7:04 pm","Started a thread.","",""
+"707131341141049344","danilowhk","06/11/2022 8:27 am","Hi, I am trying to send txs from ArgentX using devnet, but am getting ""contract not deployed""","",""
+"707131341141049344","danilowhk","06/11/2022 8:27 am","Even though it seem to have been deployed when first created?","",""
+"818465687998562325","Mymy84#1277","06/11/2022 7:45 pm","hi i have a problem- impossible to connect my wallet argent X with starknet. why? no eth goerli in the wallet argent X because they are in the wallet metamask. ??  or other? What is the process? Thx for your help","",""
+"848616398964260925","scarletssstarktitan","06/11/2022 7:52 pm","sorry ser  i dont know if it is helpful ,,check #🗿｜faq  Q6  , how to get the  test eth to your starknet wallet , cause this is the dev channel , if you have question about starknet ,ps feel free to ask in #✨｜starknet  thanks ser","",""
+"767746468542283827","fabijanspaceshard","07/11/2022 1:40 pm","Started a thread.","",""
+"427861921723842560","KUZMA88#8544","07/11/2022 9:35 pm","Hello !) I completed the Odyssey Starnet quest, got level 8, how do I get a role in Discord?","",""
+"848616398964260925","scarletssstarktitan","07/11/2022 9:51 pm","sorry ser ,i have answered you in #🐼｜general-chat  thanks for your supporting and next time let's post the question in one channel ,","",""
+"932257837164400650","samcryp.soul","07/11/2022 9:54 pm","starkenet facuet is not working","",""
+"932257837164400650","samcryp.soul","07/11/2022 9:54 pm","need some eth on starknet goerli testnet network","",""
+"767746468542283827","fabijanspaceshard","07/11/2022 9:56 pm","**PLEASE** Let's keep this channel about issues related to starknet-devnet: https://github.com/Shard-Labs/starknet-devnet/","","👍 (1)"
+"848616398964260925","scarletssstarktitan","07/11/2022 10:02 pm","sorry ser ,i have answer you in #🔐｜braavos-wallet  next time pls ask question in one channel only most in #✨｜starknet  thanks","",""
+"900451030666453065","barakka.","08/11/2022 10:56 pm","is the testnet working?","",""
+"900451030666453065","barakka.","08/11/2022 10:56 pm","my transactions doesnt come through","",""
+"848616398964260925","scarletssstarktitan","08/11/2022 11:12 pm","sorry would you be more specific in #✨｜starknet  channel ,here is channel only for dev thanks ser","",""
+"722352770379939932","thanhtx","09/11/2022 6:01 pm","How can I view output of a function on shard-labs devnet mates?","",""
+"971738421599027261","0xrya","10/11/2022 12:49 am","anyone got a faucet","",""
+"848616398964260925","scarletssstarktitan","10/11/2022 12:53 am","sorry ser ,i have answered you in #✨｜starknet  ,here is the channel for dev question ,thanks for your supporting","",""
+"767746468542283827","fabijanspaceshard","10/11/2022 5:49 pm","**PLEASE** Let's keep this channel about issues related to starknet-devnet: https://github.com/Shard-Labs/starknet-devnet/","",""
+"925379126636994592","Urijrostov#9494","10/11/2022 7:07 pm","so that was a question about your devnet node... Where should I write then?","",""
+"291328712207761410","deymos2007","10/11/2022 7:41 pm","hosting bunned my two servers with starknet nodes because ""Your server was creating abnormal load on the physical server. During the check, prohibited software was found on your server by hosting rules. As a result, your server is blocked"".","https://cdn.discordapp.com/attachments/985824027950055434/1040267429424668682/image.png,https://cdn.discordapp.com/attachments/985824027950055434/1040267429886046299/image.png",""
+"291328712207761410","deymos2007","10/11/2022 7:41 pm","Is this normal and expected behavior for a node?","",""
+"767746468542283827","fabijanspaceshard","10/11/2022 7:42 pm","node questions -> #🛰｜pathfinder-support-only","","🙌 (3)"
+"793937378196455444","__afro","11/11/2022 2:35 pm","Hi all, could anyone answer me when the end of the devnet/testnet?","",""
+"956918531721691216","Dimas2000835#0977","11/11/2022 11:06 pm","please tell me, I did it a long time ago, a long time ago, I had to create nft in the Argent X wallet, swap dokens in the Testnet network.
+And he writes to me that soon my account will disappear due to old age. How can I keep this active?","",""
+"848616398964260925","scarletssstarktitan","11/11/2022 11:14 pm","Ser argent x is the 3rd dapp which support starknet wallet pls consult in argent discord link here #🔗｜3rd-party-dapps-links  here is channel for dev pls ask question in #✨｜starknet   Thanks for your support","",""
+"954737950925672478","trongduy_","13/11/2022 7:56 pm","moved a long time ago, 0x6DA62A3E9cC63aeC3F471D67aEc71F5d78b7f3ba","https://cdn.discordapp.com/attachments/985824027950055434/1041358300119318568/image.png,https://cdn.discordapp.com/attachments/985824027950055434/1041358300463243334/image.png",""
+"954737950925672478","trongduy_","13/11/2022 7:57 pm","swap tokens also take quite a while. Hope the product team will improve to speed up the swap time, 0x6DA62A3E9cC63aeC3F471D67aEc71F5d78b7f3ba","https://cdn.discordapp.com/attachments/985824027950055434/1041358697621897246/image.png",""
+"907981161534468146","wind.rider","13/11/2022 7:59 pm","ser,here's the devnet channel,pls use #✨｜starknet for general issue about starknet or #↔｜myswap-amm  for myswap issue,and pls check this reply about slow:https://discord.com/channels/793094838509764618/853954510515208192/1041336009767522387 thank you","",""
+"211351134080729088","vku","15/11/2022 2:22 am","I'm having trouble upgrade my wallet, what should I do? I uninstalled and reinstalled, same result.","https://cdn.discordapp.com/attachments/985824027950055434/1041817916615700500/image.png",""
+"211351134080729088","vku","15/11/2022 2:22 am","0x03C52c883ed9F67106C019e2D5fA06ae60868d2086A247F524B5744510663410","",""
+"848616398964260925","scarletssstarktitan","15/11/2022 2:27 am","ser ,if you try to update the argent x wallet ,pls consult in argent discord ,the link here #🔗｜3rd-party-dapps-links   thanks for you support ,and pls not post here ,this channel for dev only","",""
+"211351134080729088","vku","15/11/2022 2:29 am","They did not help, they wrote me as follows.   ""If you add ArgentX seed phrase into Braavos, you won't be able to sign transactions with ArgentX anymore. You cannot recover it in ArgentX either. Please don't add your seed phrases in Braavos.""    Isn't that so silly?
+""","",""
+"848616398964260925","scarletssstarktitan","15/11/2022 2:30 am","sorry to hear about that ser , either argent x or braavos wallet are 3rd party wallet , if you like you can try braavos wallet discord thanks ser","",""
+"211351134080729088","vku","15/11/2022 2:32 am","bravos wrote:  I think you might need to reach out to starknet server for help.","",""
+"767746468542283827","fabijanspaceshard","15/11/2022 3:10 pm","node questions -> #🛰｜pathfinder-support-only","",""
+"871795306990276629","nandinidevi","16/11/2022 9:27 am","same issue for me. Starknet facuet not working. Please advice how to get eth for gas fee","",""
+"907981161534468146","wind.rider","16/11/2022 9:31 am","Sorry ser, if you have general questions about starknet, feel free to use #✨｜starknet , I've answered you over there, pls check it :https://discord.com/channels/793094838509764618/853954510515208192/1042287945463365713, thank you🙏🏻","",""
+"871795306990276629","nandinidevi","16/11/2022 10:03 am","thank you","","🙏🏻 (1)"
+"565376910347993088","popeye#3940","16/11/2022 12:02 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1042326284014989332/image.png",""
+"924456719541751818","chrisjay.","16/11/2022 12:19 pm","How can I get Eth faucet on staknet pls?","",""
+"907981161534468146","wind.rider","16/11/2022 12:21 pm","pls check this reply,ser :https://discord.com/channels/793094838509764618/853954510515208192/1042287945463365713, thank you🙏🏻","",""
+"767746468542283827","fabijanspaceshard","16/11/2022 1:29 pm","Started a thread.","",""
+"117430577891639300","darkosnightmare","17/11/2022 9:39 pm","Anyone having issues using argentx with devnet after their recent update? Seeing `Class with hash 0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918 is not declared.` when trying to activate","","👀 (2)"
+"767746468542283827","fabijanspaceshard","17/11/2022 10:52 pm","New breaking version of `starknet-devnet` (v0.4.0) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.0
+- Introduce forking ([docs](https://shard-labs.github.io/starknet-devnet/docs/guide/fork )):
+  - `starknet-devnet --fork-network <NAME|URL> --fork-block <NUMBER>`
+  - The fork uses testnet ID for all networks (should be configurable in the future)
+- Internal contracts now at the same addresses as on mainnet/testnet:
+  - UDC: `0x41a78e741e5af2fec34b695679bc6891742439f7afb8484ecd7766661ad02bf`
+  - Fee token contract: `0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7`
+  -  **Breaking change**
+- Lite mode no longer uses sequential deployment tx hashing
+  - Performed slower deployment than regular mode
+  - Suggestion: reconsider if your use-case benefits from lite mode
+- Fix missing L2 to L1 messages
+- Fix state dumping on exit
+- JSON-RPC:
+  - Support v0.2.1
+  - Fee estimation for declare txs
+  - `getEvents`: fix continuation token when no events","","👀 (3),👏 (2),🎆 (2)"
+"237333593532137474","jhnn#7521","17/11/2022 11:32 pm","howdy! i was curious if it was possible to use cairo 1.0 with the devnet and if anyone was kind enough to have a guide to set that up","",""
+"237333593532137474","jhnn#7521","17/11/2022 11:57 pm","my naive hopium would be that you could just drop it in here https://github.com/Shard-Labs/starknet-devnet/commit/a8b8f7c0a3133f07f33c7e6fd304274028a6e240#diff-dfc80b44ab89c1aee48649de62d99efb965a9f9a0ec64017d4158a11ac49eff4R61 suppose ill do a tinker when i have a moment","",""
+"429096494713274369","0xcoburn","20/11/2022 3:44 am","cairo1.0 has not been released yet, we are on v0.10.2","","🤝 (2)"
+"655822224929980426","haypero","20/11/2022 11:04 pm","I do not understand what is the error? help me","https://cdn.discordapp.com/attachments/985824027950055434/1043942325598031932/128.png",""
+"767746468542283827","fabijanspaceshard","21/11/2022 1:35 pm","Started a thread.","",""
+"922409308610781215","larionovj#4261","21/11/2022 2:50 pm","Where do I write with this problem? I just can't see the logs.","https://cdn.discordapp.com/attachments/985824027950055434/1044180521149796372/image.png",""
+"767746468542283827","fabijanspaceshard","21/11/2022 3:00 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","21/11/2022 3:02 pm","Started a thread.","",""
+"585509977079283744","aundumla","21/11/2022 8:23 pm","Hey, for forked mode tests it would be useful to be able to mock l1<>l2 messages without having to go through postman, i.e. to have methods:
+* `consume_message_from_l2` - https://github.com/starkware-libs/cairo-lang/blob/9889fbd522edc5eff603356e1912e20642ae20af/src/starkware/starknet/testing/starknet.py#L94
+* `send_message_to_2` - https://github.com/starkware-libs/cairo-lang/blob/9889fbd522edc5eff603356e1912e20642ae20af/src/starkware/starknet/testing/starknet.py#L105
+available through the REST API.","",""
+"245229594796490762","joygster","21/11/2022 8:52 pm","what i need to do?","https://cdn.discordapp.com/attachments/985824027950055434/1044271703188058152/image.png",""
+"767746468542283827","fabijanspaceshard","21/11/2022 10:09 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","21/11/2022 10:10 pm","Started a thread.","",""
+"441233808700866560","raychoi","22/11/2022 8:39 am","Hi, I have tried to use the StarkEx Playground... But something stuck, what cause this happen?","",""
+"441233808700866560","raychoi","22/11/2022 8:39 am","","https://cdn.discordapp.com/attachments/985824027950055434/1044449547314811001/unknown.png",""
+"429096494713274369","0xcoburn","23/11/2022 12:15 pm","Pinned a message.","",""
+"565376910347993088","popeye#3940","23/11/2022 1:28 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1044884672452243486/image.png",""
+"565376910347993088","popeye#3940","23/11/2022 1:29 pm","how to assembly transaction","",""
+"767746468542283827","fabijanspaceshard","23/11/2022 1:58 pm","Started a thread.","",""
+"861875214468382730","cchome_","24/11/2022 8:54 am","Is there a python SDK?","",""
+"861875214468382730","cchome_","24/11/2022 9:06 am","pip3 install cairo-lang  Unable to install on windows10?","",""
+"906095871316348938","closer2282","24/11/2022 9:46 am","Replied here
+https://discord.com/channels/793094838509764618/894580545311359026/1045191174450851921","",""
+"906095871316348938","closer2282","24/11/2022 9:47 am","You can ask in #🦅｜cairo-lang-support","",""
+"767746468542283827","fabijanspaceshard","24/11/2022 9:25 pm","New version of `starknet-devnet` (v0.4.1) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.1
+- Adapt to StarkNet / cairo-lang 0.10.2:
+  - Add `/estimate_fee_bulk` support
+- JSON-RPC: fix pending block behavior","","happy (1),👀 (1)"
+"194913376038551552","provablemat","24/11/2022 9:47 pm","How can I deploy the ETH token on my local env? 
+I got the ""Requested contract address 0x62230ea046a9a5fbc261ac77d03c8d41e5d442db2284587570ab46455fd2488 is not deployed."" error message","",""
+"237333593532137474","jhnn#7521","24/11/2022 10:20 pm","now that this https://github.com/starkware-libs/cairo was open source i am curious on what the timeline would be to be able to deploy cairo 1.0 compiled contracts to devnet","",""
+"767746468542283827","fabijanspaceshard","25/11/2022 1:43 pm","Started a thread.","",""
+"859036756422033409","nop99","26/11/2022 1:07 pm","longtime Transaction","https://cdn.discordapp.com/attachments/985824027950055434/1045966510696435742/Screenshot_20221126_023644.png",""
+"907981161534468146","wind.rider","26/11/2022 1:11 pm","ser,pls use #✨｜starknet to discuss the general issues of starknet,thank you","",""
+"877055153075789845","bodyanskyi","29/11/2022 4:02 am","According my experience transaction not more than 15-20 minutes","",""
+"283975505902960640","k0b3rr.","29/11/2022 2:00 pm","hey
+I can't connect my wallets to the site","https://cdn.discordapp.com/attachments/985824027950055434/1047066958337687623/image.png",""
+"907981161534468146","wind.rider","29/11/2022 2:27 pm","Ser, it looks like you don't installed the argent x extension, or pls pin it in your browser toolbar, thank you","https://cdn.discordapp.com/attachments/985824027950055434/1047073723125084210/image_5.png",""
+"696770197163344003","bodi6266","05/12/2022 4:00 am","hi ! how to solve this problem?","",""
+"696770197163344003","bodi6266","05/12/2022 4:00 am","","https://cdn.discordapp.com/attachments/985824027950055434/1049090350083473459/image.png",""
+"848616398964260925","scarletssstarktitan","05/12/2022 4:14 am","#🛰｜pathfinder-support-only  here ser","",""
+"848616398964260925","scarletssstarktitan","06/12/2022 1:40 am","here is dev channel ser ,pls be more specific in #✨｜starknet  channel ,(screenshot )","",""
+"767746468542283827","fabijanspaceshard","06/12/2022 3:15 pm","**New version** of `starknet-devnet` (v0.4.2) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.2
+- Adapt to cairo-lang/StarkNet 0.10.3
+    - Keep support for deploy txs - will remove in the next breaking version
+- Update predeployed account version to OZ 0.5.1
+- Support specifying chain ID (defaults to `TESTNET`):
+    - `starknet-devnet --chain-id [MAINNET | TESTNET | TESTNET2]`
+- Add endpoint for forking info:
+    - `GET /fork_status`
+    - Returns `{""url"": ..., ""block"": ...}` if forking
+    - Returns `{}` if not forking","","👌 (3),👍 (6)"
+"585509977079283744","aundumla","07/12/2022 10:42 pm","Hey! With starknetjs(4.15.1) I am trying to declare a contract on devnet(0.4.2) using one of  predeployed accounts:
+```
+const account = new Account(
+  provider,    '0x33507ff2edf12c12c73d0b6d1d90de9fac12a355de1097ab305249612451919',
+  ec.getKeyPair('0x1de9ea6670d3da1fc735df5ef7697fb9')
+);
+﻿
+...
+const response = await account.declare({contract, classHash})
+```
+In return I get:
+```
+     GatewayError: Error at pc=0:124:
+Signature (190318159909676960154007463740407923762489366165178197276822367516441018681, 1481560316189074241501727945883196969140908548840364106059171525936237675551), is invalid, with respect to the public key 1739835831186746845112715264902076958080619051586179661985458614041125785393, and the message hash 1015445806423683747697120201561835375586563571781789449937604429244570518935.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:615)
+Unknown location (pc=0:600)
+Unknown location (pc=0:245)
+```
+any ideas?","",""
+"725041873030479873","phil26","08/12/2022 12:01 am","Are you sure of your classHash?","",""
+"889574083350646896","firebird#0783","08/12/2022 12:35 am","good evening, is there a less technically difficult implementation of the contract rollout after the last update?","",""
+"767746468542283827","fabijanspaceshard","08/12/2022 3:02 pm","Started a thread.","",""
+"194736238224211969","xswagglerx","12/12/2022 2:06 am","Hi everyone. What are the values i need to specify for `--wallet`, `--chain_id` and `--network_id` when using `starknet invoke` on devnet? Does anyone have an example of such an invoke command? I can successfully call my contracts functions but am struggling with invoking them.","",""
+"767746468542283827","fabijanspaceshard","12/12/2022 1:24 pm","Started a thread.","",""
+"733300447095554098",".smchala","12/12/2022 7:11 pm","Hello, is starknet-devnet down? can't seem to be able to connect through a terminal nor postman?","",""
+"907981161534468146","wind.rider","12/12/2022 7:36 pm","Question from @war-in | Software Mansion :
+Hey, I would like to set up l1<>l2 messaging tests for StarkNet.py. I'm probably missing something. 
+I have hardhat node and starknet-devnet running on my localhost. After using /postman/load_l1_messaging_contract  I am declaring and deploying .cairo contract which sends l1 messages. Next step is to perform /postman/flush. Then I am fetching number of queued messages (from MockStarknetMessaging.sol contract) and it ends with 0, but should with 1. Do you have any idea what is wrong?","",""
+"767746468542283827","fabijanspaceshard","12/12/2022 7:53 pm","Started a thread.","",""
+"585509977079283744","aundumla","13/12/2022 4:25 pm","If I start devnet in forked mode without specifying a block to fork from, from which block the storage will be fetched? From the block that was current when first fetch happened? It would be helpful to put it in the logs...","",""
+"585509977079283744","aundumla","13/12/2022 10:21 pm","Will forked devnet return full events history? I mean both before and post forking block.","",""
+"766937161613574155","miraitowa#0695","14/12/2022 12:46 pm","Hi guys, I updated the starknet version to use starknet: ""4.17.0"" 
+Now the deployment account will report this error, have you ever encountered this error?","https://cdn.discordapp.com/attachments/985824027950055434/1052484295714947123/image.png",""
+"767746468542283827","fabijanspaceshard","14/12/2022 1:53 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","14/12/2022 2:08 pm","Started a thread.","",""
+"897333980347641857","blvcksun","14/12/2022 9:40 pm","Where my mistake","https://cdn.discordapp.com/attachments/985824027950055434/1052618476163960932/IMG_9842.png",""
+"848616398964260925","scarletssstarktitan","14/12/2022 9:40 pm","pls ask in #🛰｜pathfinder-support-only  get pro suppor ser thanks","","🔥 (1)"
+"1011873294212939837","cockycoin","15/12/2022 3:06 pm","Can i start running a node still?","",""
+"907981161534468146","wind.rider","15/12/2022 3:14 pm","ser,pls check my reply  from #✨｜starknet :https://discord.com/channels/793094838509764618/853954510515208192/1052883679904538644 thank you","",""
+"725041873030479873","phil26","19/12/2022 3:35 pm","Hello,
+As you probably know, Starkscan has deployed https://devnet.starkscan.co/ to explorer the devnet (great great tool 😊 ).
+Just for information, you can neither scan ETH ERC20 contract, nor scan the 10 pre-deployed  accounts.
+It could be useful if they are recorded in the first block, at launch.","","👀 (1)"
+"841977528813092884","DacLocChiDuong#9971","21/12/2022 10:11 pm","help me","https://cdn.discordapp.com/attachments/985824027950055434/1055162998609686598/image.png",""
+"890435533132681228","charlietilt","21/12/2022 11:07 pm","Has anyone ever seen this error when having dumping enabled on transaction or exit
+`The function '__getstate__' was not found in this contract's abi`","",""
+"767746468542283827","fabijanspaceshard","22/12/2022 1:57 pm","Started a thread.","",""
+"655822224929980426","haypero","22/12/2022 11:25 pm","What commands should I use to update a node through docker?","",""
+"848616398964260925","scarletssstarktitan","22/12/2022 11:30 pm","sorry ser ,pls check pin message in #🛰｜pathfinder-support-only  thanks ser","",""
+"277701353915154435","volthai7us","22/12/2022 11:50 pm","Hi. I started server with ```starknet-devnet --seed 374372302 &```
+But when I try the code below
+ ```starknet get_code --contract_address 0xACCOUNT_ADDRESS```
+I get 
+```
+{
+    ""abi"": {},
+    ""bytecode"": []
+}
+```
+Is it a problem?","",""
+"277701353915154435","volthai7us","22/12/2022 11:52 pm","oh. Sorry I forgot to add $GATEWAY and $FGATEWAY to end.
+```starknet get_code --contract_address 0x4b696c201579da0eb089f766a27388032393856311d6e14bd1fcd0dfa0ba6ce $GATEWAY $FGATEWAY```
+Worked.","","👍 (2)"
+"767746468542283827","fabijanspaceshard","23/12/2022 9:07 pm","New version of `starknet-devnet` (v0.4.3) is out:
+- Release notes: https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.3
+
+- Introduce the option to run with the **Rust implementation** of Cairo VM
+    - https://shard-labs.github.io/starknet-devnet/docs/guide/run#run-with-the-rust-implementation-of-cairo-vm
+
+- Mock **L1-L2 communication without running an L1** instance:
+  - `POST /postman/send_message_to_l2` - https://shard-labs.github.io/starknet-devnet/docs/guide/postman#postman---l1-to-l2-mock-endpoint
+  - `POST /postman/consume_message_from_l2` - https://shard-labs.github.io/starknet-devnet/docs/guide/postman#postman---l2-to-l1-mock-endpoint","","👀 (2),🚀 (4)"
+"710005389521059880","Icz#4693","24/12/2022 5:33 pm","how to update node v.0.4.5","",""
+"848616398964260925","scarletssstarktitan","24/12/2022 5:34 pm","pin message in #🛰｜pathfinder-support-only ser thanks","",""
+"371655614016782336","0xgiwook","28/12/2022 4:58 pm","hello team! :))
+
+I think you guys `POST /mint` using transaction version 0. every time that I send POST, it gives me an same tx hash as a response (with different amout of new_balance)
+
+and this can make `devnet.starkscan.io` not working
+(https://discord.com/channels/793094838509764618/1027139462242783232/1056806339248132096)
+
+plz check 
+thanks!","",""
+"946809148991995935","mikolajspaceshard","29/12/2022 1:45 pm","@Giwook thanks, we will check that!","","🙏 (1)"
+"946809148991995935","mikolajspaceshard","02/01/2023 6:35 pm","@Giwook thats, true I can confirm that. I create a task to handle that issue.","","🙏 (1)"
+"585509977079283744","aundumla","04/01/2023 4:58 pm","POST /postman/send_message_to_l2 returns transaction_hash as float:
+```
+data: { transaction_hash: 2.939693640971957e+75 }
+```
+which makes it unusable.
+@Mikolaj | SpaceShard","",""
+"946809148991995935","mikolajspaceshard","04/01/2023 4:59 pm","Thanks, for noticing, I'll take a look","",""
+"946809148991995935","mikolajspaceshard","04/01/2023 6:51 pm","Fix for this is merged to master","",""
+"821390660513955870","AkashMVerma#1438","12/01/2023 12:37 pm","Hi, I have been getting the following error while installing the devnet - ""I always get this error ""ERROR: Could not build wheels for greenlet, which is required to install pyproject.toml-based projects""","",""
+"821390660513955870","AkashMVerma#1438","12/01/2023 12:38 pm","I'm using python 3.11.1","",""
+"821390660513955870","AkashMVerma#1438","12/01/2023 12:38 pm","Did anyone else have a similar issue?","",""
+"767746468542283827","fabijanspaceshard","12/01/2023 1:30 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","12/01/2023 3:00 pm","**NEW PATCH VERSION** of `starknet-devnet` (v0.4.4) has been released:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.4
+- Removed the slowdown introduced with v0.4.3
+    - Fixed the monkeypatch of pedersen C++ implementation
+    - Not related to Cairo VM selected (Python / Rust)
+- Fixed the response of `/postman/send_message_to_l2 ` to represent tx hash as hex string","","🙌 (2)"
+"907688946740371516","ulvi7799","15/01/2023 3:05 am","#feedback","",""
+"848616398964260925","scarletssstarktitan","15/01/2023 3:05 am","not such command ,if you have question relate to devnet pls share here thanks ser","",""
+"358879913736142849","jiraiya5571","17/01/2023 2:36 pm","Hi guys unable to install starknet-devnet using 
+```pip install starknet-devnet```
+ on Linux. Getting errors while trying to install ```greenlet``` and ```  × python setup.py bdist_wheel did not run successfully.```","",""
+"848486145562247189","devendrahero","18/01/2023 1:26 am","H","",""
+"848616398964260925","scarletssstarktitan","18/01/2023 1:30 am","sorry ser here is channel only for discussions and support for Shard-Lab's StarkNet-devnet  for chatting pls here #🐼｜general-chat greeting here #🕗｜gm-gn  thanks","",""
+"436540629049147392","n3cron87","18/01/2023 3:02 am","Hello guys. I have question about starknet devnet. Help please. I install my node maybe 10 months ago, now I see when I created App on alchemy I choose network Mainnet (not Goerli) , this is bad? what to do? delete old api key and create new with goerli? Or don't make changes? In general, the node has been working well for 10 months)","",""
+"767746468542283827","fabijanspaceshard","18/01/2023 2:12 pm","`starknet devnet != starknet node`
+
+This is devnet: https://github.com/Shard-Labs/starknet-devnet/
+It doesn't have anything to do with Alchemy or API keys
+
+Your node is probably a Path finder node (https://github.com/eqlabs/pathfinder) that can be discussed here: #🛰｜pathfinder-support-only","",""
+"803110642944180234","forster8872","20/01/2023 9:31 pm","can we run a node","",""
+"803110642944180234","forster8872","20/01/2023 9:31 pm","now","",""
+"767746468542283827","fabijanspaceshard","20/01/2023 9:32 pm","no nodes pls,","",""
+"767746468542283827","fabijanspaceshard","20/01/2023 9:32 pm","ask in #🛰｜pathfinder-support-only","","🤣 (1)"
+"725041873030479873","phil26","20/01/2023 9:46 pm","Your patience is infinite 😇","","👍 (2)"
+"585509977079283744","aundumla","27/01/2023 3:38 pm","if I restart(POST /restart) devnet in a forked mode will it restart in forked mode?","",""
+"767746468542283827","fabijanspaceshard","27/01/2023 3:50 pm","Started a thread.","",""
+"1012568282391392317","Tajm#8923","31/01/2023 10:40 am","HI, i have depoly a startnet-devnet node according the link https://medium.com/starknet-edu/the-ultimate-starknet-dev-environment-716724aef4a7. but the response is empty when i run the command ```curl http://127.0.0.1:5050/feeder_gateway/get_block_traces?blockNumber=0 | jq```.   anybody would help me?","",""
+"1012568282391392317","Tajm#8923","31/01/2023 11:57 am","@Manor | StarkWare Can you help me  with his problem?","",""
+"767746468542283827","fabijanspaceshard","31/01/2023 1:44 pm","Started a thread.","",""
+"720973519793553441","kunal.jain","04/02/2023 9:20 am","Hi, I am receiving `0` address as a response to `deploy` call on devnet while testing using the hardhat plugin. The deploy call seems to finish successfully. Why would `deploy` return 0 address?","",""
+"891273607714590720","greatduality","05/02/2023 11:43 pm","hi where can i find URL of Starknet","",""
+"907981161534468146","wind.rider","06/02/2023 7:02 am","sorry,ser,already replied to you in #🚑｜dev-help , pls check, thank you","",""
+"767746468542283827","fabijanspaceshard","06/02/2023 1:40 pm","Started a thread.","",""
+"891273607714590720","greatduality","07/02/2023 3:03 pm","thank you","","🙏🏻 (1)"
+"767746468542283827","fabijanspaceshard","09/02/2023 6:10 pm","**NEW VERSION** of `starknet-devnet` (v0.4.5) is out:
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.5
+- Introduced `blocks-on-demand`
+    - https://shard-labs.github.io/starknet-devnet/docs/guide/blocks#create-a-block-on-demand
+    - If you start Devnet with `--blocks-on-demand`, new txs are stored in a pending block
+    - `POST /create_block_on_demand`
+        - Turns pending block to latest
+        - Starts a new pending block
+        - Latest block contains all transactions since last block creation
+    - Target block can be selected via block IDs `pending` and `latest`
+        - Old blocks not queryable, but should be in the future
+    - Old behavior (new block on each tx) unchanged and still default
+- JSON-RPC request and response validation
+    - Togglable with `--disable-rpc-request-validation` and `--disable-rpc-response-validation`
+- JSON-RPC `starknet_getEvents` partially fixed
+- Minting now uses tx v1 (when `lite: true` not specified)
+- Updated L1-L2 messaging contracts
+    - Compatible with the current StarkNet version (fee added)","","🔥 (7),🎉 (3),🙌 (2),👀 (2)"
+"585509977079283744","aundumla","13/02/2023 5:29 pm","Hey, would it be possible to retry requests on errors like this one below:
+```
+  File ""/home/maciejka/.cache/pypoetry/virtualenvs/starknet-dss-bridge-tests-WGIvFkc--py3.8/lib/python3.8/site-packages/starknet_devnet/forked_state.py"", line 84, in get_storage_at
+...
+  File ""/home/maciejka/.cache/pypoetry/virtualenvs/starknet-dss-bridge-tests-WGIvFkc--py3.8/lib/python3.8/site-packages/aiohttp/connector.py"", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host alpha-mainnet.starknet.io:443 ssl:default [Temporary failure in name resolution]
+```
+?","",""
+"767746468542283827","fabijanspaceshard","13/02/2023 5:40 pm","Started a thread.","",""
+"900734472511713341","nikitta#4576","14/02/2023 4:36 pm","Good afternoon, tell me please, what could be the problem?:StarkNet:","https://cdn.discordapp.com/attachments/985824027950055434/1075010186818879498/image.png",""
+"390765622625173506","9atetris","14/02/2023 4:42 pm","for pathfinder questions, pls use #🛰｜pathfinder-support-only","","👌 (2)"
+"212146572736200704","pscott1337","14/02/2023 6:42 pm","Hey!
+I'm updating my test suite to the recent devnet, but I'm getting some errors when doing 
+```ts
+let promises = [accouht.deploy(factory1, args), account.deploy(factory2, args), account.deploy(factory3, args)];
+
+Promise.all(arr);
+```
+
+This piece of code used to work perfectly but it looks like something changed in the last months on the devnet side of things. Any idea how I could fix it? 🙂","",""
+"585509977079283744","aundumla","15/02/2023 9:12 pm","How far we are from  fast(rust based) devnet?","","😯 (2)"
+"530813107212255234","zeapherine","17/02/2023 4:28 pm","hey, I have installed starknet-devnet. 
+it is already installed, but if i try to start it in new terminal session, it always says command not found.
+Do i need to activate any enviroment? I am using Ubuntu","",""
+"530813107212255234","zeapherine","17/02/2023 4:30 pm","okie, got it. i needed to activate the source .bashrc","","💯 (7),👍 (6)"
+"226654009841287169","kwiss","20/02/2023 6:11 pm","Hey do anyone known why when i use Starkscan with devnet at some point it seems stuck on a block and doesn't index anymore ?","",""
+"713087905224196116","tobe#5687","21/02/2023 11:20 pm","Hey has anyone had this experience where loading in data to call a func in a contract on dev net takes much longer than the actual computation inside the contract? Ie loading in 1000 Len array into a func that just returns nothing takes 10.8s while loading the same array and then recursively adding 1 to each element takes 11s","",""
+"767746468542283827","fabijanspaceshard","22/02/2023 6:39 pm","**NEW** `starknet-devnet` is out (v0.4.6):
+https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.4.6
+- Support querying states at old blocks
+  - Call a contract at an old block by specifying the block number/hash
+- Fix Starkscan compatibility
+  - Predeployed contracts are included in the genesis block
+  - Predeclaration and predeployment of contracts is assigned tx hashes (successive numbers)
+- Fix `getEvents` of JSON-RPC API","","🎉 (3)"
+"767746468542283827","fabijanspaceshard","22/02/2023 7:43 pm","Started a thread.","",""
+"720973519793553441","kunal.jain","28/02/2023 2:31 pm","Hi, I am running a devnet with forked network `alpha-goerli` and I am hitting 429 Too many requests error.
+I even tried using Infura and Chainstack node to get around the 429 error but those node url doesn't seem to work.
+
+What would be the easiest way overcome the 429 too many requests error?","",""
+"767746468542283827","fabijanspaceshard","28/02/2023 2:42 pm","Started a thread.","",""
+"792447327901319172","bhop#2710","07/03/2023 3:39 pm","Sup","",""
+"792447327901319172","bhop#2710","07/03/2023 3:40 pm","What are specs of server to set up a node","",""
+"907981161534468146","wind.rider","07/03/2023 3:49 pm","sorry,ser,this channel is for devnet,about your question pls check this reply: https://discord.com/channels/793094838509764618/948559061685796894/1040218151620706434  thank you","","🙏 (3)"
+"693748316080570429","qube#1604","08/03/2023 4:37 pm","can anyone give me an example how to use this method https://shard-labs.github.io/starknet-devnet/docs/guide/Interaction because there is no example. and I want to ask, can we use protostar in devnet? thank you","",""
+"767746468542283827","fabijanspaceshard","08/03/2023 8:22 pm","Started a thread.","",""
+"415232973768622086","mandarkest","21/03/2023 3:17 pm","Hi, I am getting this error when trying to fork. Normal devnet is running fine.
+
+```
+AttributeError: type object 'Web3' has no attribute 'isChecksumAddress'
+```
+
+```
+cairo version 0.10.3
+devnet version 0.4.6
+python verion 3.9.11
+Apple M1
+```","",""
+"720973519793553441","kunal.jain","21/03/2023 7:22 pm","Hi, when trying to fork devnet, I get
+
+`marshmallow.exceptions.ValidationError: {'transactions': {0: {'contract_address': ['Missing data for required field.'], 'sender_address': ['Unknown field.']}, 1: {'contract_address': ['Missing data for required field.'], 'sender_address': ['Unknown field.']}`
+
+Normal devnet is running fine.
+
+```
+cairo version 0.10.3
+devnet version 0.4.6
+python verion 3.9.16
+```","",""
+"846628720353738803","easthope.eth#4970","23/03/2023 7:54 am","Hello, do you have any information about the Python version of SDK for Windows?","",""
+"767746468542283827","fabijanspaceshard","23/03/2023 1:32 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","24/03/2023 12:29 am","**NEW** pre-release of `starknet-devnet` is out (v0.5.0a0):
+- Adapted to Starknet 0.11 (cairo-lang 0.11.0.1):
+- Read more in https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.5.0a0","","👀 (3)"
+"530813107212255234","zeapherine","24/03/2023 3:22 pm","Hey, I am not able to fork testnet1 and testnet2, am able to fork mainnet though.
+am using starknet-devnet v0.4.5","",""
+"901764293391949884","zenohabib","25/03/2023 6:08 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1089166469968969758/Screenshot_2023-03-25_at_12.36.15.png",""
+"901764293391949884","zenohabib","25/03/2023 6:09 pm","rout not available ""0x04b3880b0a3d7cb970877028a97ac2f82dce12f01e336de30231267d7023964f""","",""
+"907981161534468146","wind.rider","25/03/2023 6:16 pm","sorry,ser,could you pls feedback to starkswap team? https://discord.com/invite/RnTamkp7Ra ,and this channel is for devnet,next time if you have any problems with starknet, pls use this channel #✨｜starknet ,thank you","","✅ (8)"
+"165993969442881536","mattc_1","27/03/2023 3:07 am","is `get_nonce` not implemented for the default predeployed accounts? I started devnet (v0.4.6) with `starknet-devnet --seed 0` and I'm using starknetjs to try to see what the nonce is for the first account (0x7e00d496e324876bbc8531f2d9a82bf154d1a04a50218ee74cdd372f75a551a), but its giving me `StarknetErrorCode.ENTRY_POINT_NOT_FOUND_IN_CONTRACT`:
+
+```
+await account.callContract(
+    {
+        contractAddress: ""0x7e00d496e324876bbc8531f2d9a82bf154d1a04a50218ee74cdd372f75a551a"",
+        entrypoint: ""get_nonce"",
+    },
+    { blockIdentifier: ""latest"" }
+);
+```","",""
+"165993969442881536","mattc_1","27/03/2023 5:41 am","Started a thread.","",""
+"564322347104993290","bogach91","27/03/2023 11:58 am","After the last update this error. Can you tell me what's wrong?","https://cdn.discordapp.com/attachments/985824027950055434/1089798186253701120/image.png",""
+"767746468542283827","fabijanspaceshard","27/03/2023 12:44 pm","Started a thread.","",""
+"790804607973457940","scriptmoney","27/03/2023 6:50 pm","How can I import initial accounts generate by devnet when use starknet-cli?","",""
+"894958163089055746","Nikolay#0325","28/03/2023 11:00 am","Нй.","",""
+"910599709612191774","0xwebster","28/03/2023 10:45 pm","Hey, I was trying to deposit fund to L2 through smart contract and I saw there are 2 deposit functions that dont need me to pay 'fee' but the transactions still went through","",""
+"910599709612191774","0xwebster","28/03/2023 10:45 pm","whats the point of paying fees","",""
+"910599709612191774","0xwebster","28/03/2023 10:46 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1090323449190289518/image.png",""
+"767746468542283827","fabijanspaceshard","29/03/2023 1:17 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","29/03/2023 2:27 pm","New starknet-devnet pre-release is out (v0.5.0a1) with bugfixes and support for custom recompilation of cairo 1.0 contracts. Read more in https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.5.0a1","","❤️‍🔥 (6),👍 (1)"
+"910599709612191774","0xwebster","30/03/2023 9:03 pm","Does this command ever work for you?","https://cdn.discordapp.com/attachments/985824027950055434/1091022355918233720/image.png",""
+"910599709612191774","0xwebster","30/03/2023 9:05 pm","Always got this error","https://cdn.discordapp.com/attachments/985824027950055434/1091022873478578326/image.png",""
+"612628317610180618","caoima","04/04/2023 3:32 pm","anybody here?","","👀 (1)"
+"612628317610180618","caoima","04/04/2023 3:32 pm","i want to swap eth for usdc by my code","",""
+"612628317610180618","caoima","04/04/2023 3:33 pm","but i cant success , the returns  An ASSERT_EQ instruction failed: 11:8 != 11:11.","",""
+"612628317610180618","caoima","04/04/2023 3:33 pm","what means?","",""
+"767746468542283827","fabijanspaceshard","05/04/2023 5:12 pm","New starknet-devnet pre-release (v0.5.0a2) with cairo-lang 0.11.0.2 and web3 0.6.0 is out. Release notes: https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.5.0a2","",""
+"420477687409278986","tarrence#4186","05/04/2023 8:47 pm","Hm I'm running into an issue when using devnet + starknet-rs. It gives me an account at: `0x5f6fd2a43f4bce1bdfb2d0e9212d910227d9f67cf1425f2a9ceae231572c643` then when trying to declare, i get the following error:
+
+```
+JsonRpcError { code: -32602, message: ""Got invalid value for parameter: \""'0x5f6fd2a43f4bce1bdfb2d0e9212d910227d9f67cf1425f2a9ceae231572c643' does not match '^0x0[a-fA-F0-9]{1,63}$'\"""" })))
+```","",""
+"420477687409278986","tarrence#4186","05/04/2023 8:48 pm","@Fabijan | Space Shard any chance you know what might be causing this? The account address doesnt match the regex 🤔","",""
+"420477687409278986","tarrence#4186","05/04/2023 8:49 pm","Maybe since starknet-rs is serializing it without the additional 0 pad infront?","",""
+"420477687409278986","tarrence#4186","05/04/2023 8:59 pm","Hm now getting:
+
+```
+  File ""/Users/tarrence/cairo_venv/lib/python3.9/site-packages/starknet_devnet/blueprints/rpc/structures/payloads.py"", line 443, in make_declare
+    contract_class[""program""] = decompress_program(contract_class[""program""])
+KeyError: 'program'
+```
+
+Do I need to do something to deploy sierra?","",""
+"725041873030479873","phil26","10/04/2023 3:21 pm","Hello,
+Not sure to post at the right place. Let's try :
+I am trying to write Cairo 1 smartcontracts, using devnet 0.5.0a1.
+I can deploy in devnet the contracts with Starknet.js v5.4.2
+- We can't today exchange data with a Cairo 1 smart-contract using starknet.js.
+- It's also not possible with https://devnet.starkscan.co/ to interact with Cairo 1 smart-contracts (https://discord.com/channels/793094838509764618/1027139462242783232/1094249389666607114).
+- I didn't succeed to use debug::PrintTrait lib in a Starknet smart-contract (`Libfunc print is not allowed`).
+Is it a way today to interact read/write with  cairo1 contracts in devnet?","",""
+"946809148991995935","mikolajspaceshard","11/04/2023 2:05 pm","Started a thread.","",""
+"509692086556033024","distracteddev","11/04/2023 5:08 pm","I have been running devnet from the latest docker image successfully for about 3 days until I received ` [CRITICAL] WORKER TIMEOUT` randomly.
+
+Even after doing `POST /restart`I still get the error after a while and it seems to not produce new blocks.","",""
+"585509977079283744","aundumla","12/04/2023 8:59 pm","Hi, is `hre.starknet.devnet.sendMessageToL2` from ` ""@shardlabs/starknet-hardhat-plugin"": ""^0.7.3""` expected to work with `shardlabs/starknet-devnet:0.5.0a2`?
+I am getting:
+```
+[2023-04-12 15:20:27 +0000] [12] [INFO] 172.17.0.1 - - [12/Apr/2023:15:20:27 +0000] ""POST /postman/send_message_to_l2 HTTP/1.1"" 400 105 ""-"" ""axios/0.24.0""
+```
+I am running devnet forked from alpha-goerli.","","❤️ (2)"
+"767746468542283827","fabijanspaceshard","13/04/2023 1:06 pm","Started a thread.","",""
+"815572398610317342","rin1995","13/04/2023 9:33 pm","Hello! I set up the node today and it started the sync, after a while i closed the terminal, and now that i want to see how the sync is going i tried the command ""screen -r node"", but doesn't find anything. Do you know what command to use to see it? (On alchemy it says it is running)","",""
+"848616398964260925","scarletssstarktitan","13/04/2023 9:33 pm","pls get help here #🛰｜pathfinder-support-only  thanks","",""
+"815572398610317342","rin1995","13/04/2023 9:36 pm","Ok, thanks","","🤝 (6),🇹🇷 (1)"
+"767746468542283827","fabijanspaceshard","14/04/2023 8:02 pm","**NEW STABLE RELEASE** of starknet-devnet (v0.5.0) is out:
+- Since the last pre-release:
+    - Rust VM is supported again: https://0xspaceshard.github.io/starknet-devnet/docs/guide/run#run-with-the-rust-implementation-of-cairo-vm
+    - Fixed `starknet_getEvents` JSON-RPC API
+    - Fixed `get_full_contract` of gateway API
+- More info and full changelog since the last stable release in the release notes: https://github.com/Shard-Labs/starknet-devnet/releases/tag/v0.5.0","","🔥 (16),👀 (8),🇹🇷 (2),happy (1)"
+"910990302993588274","money_singh#6494","18/04/2023 10:15 pm","Hey @Fabijan | Space Shard - is this supposed to work w/ Cairo 1.0 // Starknet 0.11 ?","",""
+"910990302993588274","money_singh#6494","18/04/2023 10:30 pm","facing this problem where I can see the balance in my predeployed accounts but am not being able to see them in devnet.starknet OR being able to use them in transactions","",""
+"767746468542283827","fabijanspaceshard","19/04/2023 12:43 pm","Started a thread.","",""
+"283862302401495041","grest_","19/04/2023 2:06 pm","how do you reference a predeployed account for declaring a contract on local devnet? not sure what argument should be passed to `--account` here: `starknet declare --contract dummy.json --gateway_url http://localhost:5050 --feeder_gateway_url http://localhost:5050 --network alpha-goerli`","",""
+"767746468542283827","fabijanspaceshard","19/04/2023 3:01 pm","Started a thread.","",""
+"725041873030479873","phil26","20/04/2023 12:14 am","Hello,
+I have deployed with success a Cairo 1 smart-contract in Testnet2 at address 0x771bbe2ba64fa5ab52f0c142b4296fc67460a3a2372b4cdce752c620e3e8194
+When I try to declare/deploy this contract in devnet 0.5.0, after a long wait, my starknet.js script fail with this message : 
+```
+Error: Could not POST from endpoint `http://127.0.0.1:5050/gateway/add_transaction`: request to http://127.0.0.1:5050/gateway/add_transaction failed, reason: socket hang up
+```
+and  I have this message in the devnet console : 
+```
+[2023-04-19 20:17:12 +0200] [267665] [CRITICAL] WORKER TIMEOUT (pid:267677)
+[2023-04-19 20:17:13 +0200] [267665] [WARNING] Worker with pid 267677 was terminated due to signal 9
+```
+Not a good sign this type of message 🧐","","🧐 (3)"
+"248159775085428737","tonitabak","20/04/2023 1:34 am","Use flag --timeout 5000, that's what I use at the moment.
+The devnet team is aware of the problem in slow hashing and working on resolving the issue","","👍 (4)"
+"1082157696456851609","Ayvlrcs8v6lr5o3#4092","20/04/2023 3:58 am","how to update node v.0.4.5 any one? cant understand in pin> have a video guide?","",""
+"848616398964260925","scarletssstarktitan","20/04/2023 4:02 am","Sorry ser pls get support in the #🛰｜pathfinder-support-only  for running node 🙏🏻","",""
+"725041873030479873","phil26","20/04/2023 12:51 pm","Nice, this workaround works fine!","","🚀 (3)"
+"890435533132681228","charlietilt","20/04/2023 9:23 pm","qq, when devnet is running, what storage is being use? Disk or Mem?","",""
+"767746468542283827","fabijanspaceshard","21/04/2023 12:40 pm","Started a thread.","",""
+"509692086556033024","distracteddev","27/04/2023 2:41 pm","Any way I can set up the devnet server for https? I'm running container `shardlabs/starknet-devnet:latest` on a public server.","",""
+"767746468542283827","fabijanspaceshard","27/04/2023 3:12 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","27/04/2023 3:16 pm","**NEW VERSION** of `starknet-devnet` is out (v0.5.1):
+- New block abortion feature
+- Performance improvement
+- Dropped deploy tx support
+Read more in https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.1","","🔥 (7)"
+"509692086556033024","distracteddev","01/05/2023 11:26 pm","On devnet, is `block_timestamp` denoted as the time the block was created or finalised? Saw an issue where the timestamp was out from when a transaction occurred and wondering whether it's caused by 1 tx = 1 block","",""
+"767746468542283827","fabijanspaceshard","02/05/2023 12:48 pm","Started a thread.","",""
+"791177402108739664","akirillo","04/05/2023 5:33 am","When I `POST` to the `/restart` endpoint, does that mean I need to redeclare / redeploy all of my contracts? Or is their storage just wiped to the default values?","",""
+"791177402108739664","akirillo","04/05/2023 6:37 am","nvm, worked around it!","","🎉 (1)"
+"283862302401495041","grest_","04/05/2023 9:59 am","Is anyone getting an Invalid Sierra program error when declaring a Cairo 1 contract? This is the same result as if I declare it with the Starknet CLI without the Cairo 1 compiler path. However, if I provide the Cairo 1 compiler path to the Starknet CLI, the error message becomes 
+```
+Error: StarkException: (500, {'code': <StarknetErrorCode.COMPILATION_FAILED: 2>, 'message': ""Compilation failed. Error: Libfunc upcast is not allowed in the libfuncs list 'Default libfunc list'.\n Run with '--allowed-libfuncs-list-name experimental_v0.1.0' to allow all libfuncs.\n""})
+```","",""
+"767746468542283827","fabijanspaceshard","04/05/2023 12:53 pm","Started a thread.","",""
+"815527643775762472","zvl_","05/05/2023 11:43 am","I wonder why the number of parameters is inconsistent","https://cdn.discordapp.com/attachments/985824027950055434/1103927318667329586/2023-05-05_08.png,https://cdn.discordapp.com/attachments/985824027950055434/1103927318969339914/2023-05-05_08.png",""
+"767746468542283827","fabijanspaceshard","05/05/2023 12:38 pm","Started a thread.","",""
+"694074729312550923","Joshio#4588","08/05/2023 11:04 am","Anyone know why when I press CTRL  +A + D after setting up a node in putty on windows it wont detach?","",""
+"767746468542283827","fabijanspaceshard","08/05/2023 12:57 pm","Started a thread.","",""
+"907154697863974954","freedom0748","09/05/2023 1:54 pm","Is there an sdk for golang?","",""
+"767746468542283827","fabijanspaceshard","09/05/2023 2:55 pm","Started a thread.","",""
+"585509977079283744","aundumla","10/05/2023 4:27 pm","Hi, While trying to deploy Cairo 1 contract with local installation:
+```
+cairo-lang = ""0.11.0.2""
+starknet-devnet = ""0.5.1""
+```
+ I get:
+```
+StarknetPluginError: Declaring contract failed: [Errno 13] Permission denied: '/home/maciejka/.cache/pypoetry/virtualenvs/starknet-dai-bridge-e9QJjikr-py3.9/lib/python3.9/site-packages/starkware/starknet/compiler/v1/bin/starknet-sierra-compile'
+```","","👍 (1)"
+"458376076469731329","tarun5349","11/05/2023 3:21 pm","what should i do now ?","https://cdn.discordapp.com/attachments/985824027950055434/1106156674135371886/Screenshot_582.png",""
+"907981161534468146","wind.rider","11/05/2023 3:23 pm","sorry,ser,would you mind use #🛰｜pathfinder-support-only for pathfinder issue?thank you","","👍 (1)"
+"585509977079283744","aundumla","11/05/2023 8:06 pm","Is Postman expected to work in 0.5.1? With Cairo1 contracts?","",""
+"907154697863974954","freedom0748","12/05/2023 8:17 am","The deployment contract method in the golang sdk is an old version. Can you release a new version?","",""
+"907154697863974954","freedom0748","12/05/2023 8:22 am","@Wind Rider | StarkTitan","",""
+"907981161534468146","wind.rider","12/05/2023 8:37 am","Sorry ser, pls wait for shard labs team to check for you when they online, thank you😀","",""
+"392142386681217024","aryan8674","14/05/2023 12:44 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1107204242596434000/image.png",""
+"392142386681217024","aryan8674","14/05/2023 12:44 pm","I am getting above error while node setup ,can someone guide","",""
+"848616398964260925","scarletssstarktitan","14/05/2023 9:07 pm","sorry ser pls get support in #🛰｜pathfinder-support-only thanks ser","","💙 (1),🙏 (1)"
+"983660874055176193","pilou_sekai","14/05/2023 9:08 pm","Hi, I am facing an issue where I successfully declared a class on devnet (1st screenshot) but when checking the class hash endpoint, I am getting an error saying the class is not declared (2nd screenshot). I am getting the same error when trying to deploy an instance of this class : ""Class with hash 0x6794564220dac20f53b8141b5e05f4d694bc366b60e683d5e866c2324670879 is not declared."". It's a Cairo 0 contract.
+Is there smthg I am missing ?","https://cdn.discordapp.com/attachments/985824027950055434/1107331224277627001/Screenshot_2023-05-14_at_17.31.33.png,https://cdn.discordapp.com/attachments/985824027950055434/1107331224676073492/Screenshot_2023-05-14_at_17.32.10.png",""
+"848616398964260925","scarletssstarktitan","15/05/2023 2:19 am","pls get support in the #🔌｜starknet-js  thanks ser","","🙏 (1)"
+"403509600629817344","cjski","15/05/2023 2:20 am","thanks, removing now","","🙏🏻 (2)"
+"767746468542283827","fabijanspaceshard","15/05/2023 12:46 pm","Started a thread.","",""
+"442021605787435008","0x2040","16/05/2023 4:53 am","can I build a node on raspberry pi 4?","",""
+"848616398964260925","scarletssstarktitan","16/05/2023 5:10 am","pls check this message https://discord.com/channels/793094838509764618/948559061685796894/992343803660873748 and get support there thanks ser","",""
+"442021605787435008","0x2040","16/05/2023 12:59 pm","Thank you 🫡","",""
+"975648207835127858","jianguo | Hamster#2854","17/05/2023 9:07 am","May I ask what is the initial account address of devnet for starknet","",""
+"767746468542283827","fabijanspaceshard","17/05/2023 12:45 pm","Started a thread.","",""
+"345277740162744320","jamaicanoloko","20/05/2023 7:41 pm","how to uninstall the node?","",""
+"848616398964260925","scarletssstarktitan","20/05/2023 7:43 pm","pls check here part 2 https://discord.com/channels/793094838509764618/853954510515208192/975285496349605898 and pls get support in the corresponding channel thanks ser","",""
+"767746468542283827","fabijanspaceshard","20/05/2023 9:43 pm","**NEW VERSION** of starknet-devnet (v0.5.2) is out:
+- Adapted to Starknet 0.11.1.1
+- Updated JSON-RPC API (v0.3.0-rc1)
+- Improved Cairo 1 support (new CLI option `--sierra-compiler-path`)
+- Read about more fixes and improvements in https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.2","","🔥 (3)"
+"854602430813831188","yakexi","23/05/2023 6:39 pm","is this L2 speed >?","https://cdn.discordapp.com/attachments/985824027950055434/1110555017473183905/image.png",""
+"848616398964260925","scarletssstarktitan","23/05/2023 6:40 pm","the alpha phase means the performance is not open totally , that is the backlogs ' number , yes it is true thank you","",""
+"957309565488222271","liquidity.btc","23/05/2023 7:06 pm","hi dev , i ran the nodes .. it showed me my my starknet node was succefful,, so when i ran the next nodes to check th statuso  my nodes .. its showing me this screen shots below ... please are my nodes running fine ??","https://cdn.discordapp.com/attachments/985824027950055434/1110562022761967626/WhatsApp_Image_2023-05-23_at_10.35.23_AM.jpeg",""
+"848616398964260925","scarletssstarktitan","23/05/2023 7:08 pm","thanks for your support ,pls get support in #🛰｜pathfinder-support-only thank you","",""
+"725041873030479873","phil26","23/05/2023 7:55 pm","Hello,
+I have forked testnet (with starknet-devnet 0.5.2) :
+`starknet-devnet --seed 0 --fork-network alpha-goerli`
+Then I try to interact with  contracts previously created in Testnet .
+If it's a Cairo 0 smart-contract, it's OK. (ex : 0x05f7cd1fd465baff2ba9d2d1501ad0a2eb5337d9a885be319366b5205a414fdd)
+If it's a Cairo 1 smart-contract, it fails (ex : 0x697d3bc2e38d57752c28be0432771f4312d070174ae54eef67dd29e4afb174)
+Starknet.js error : `GatewayError: Class with hash 0x1dd2c8b1422132b9fed720b5a0199529fea053f0d4405774a7df256aaa981e is not declared.`
+The classHash of this contract is 0x0797250693291fd38c41052d9085eee844266f22bf7e4d94523e3462737dbe62 in Testnet.
+It seems that classHash is a problem.
+Have you encountered this problem?","",""
+"890435533132681228","charlietilt","23/05/2023 9:53 pm","When calling this endpoint (http://127.0.0.1:5050/postman/flush) I am getting the error `ValueError: not enough values to unpack (expected 2, got 0)` Note, I have not sent any l1 -> l2 messages, but I think this endpoint used to not fail like this even if there were no messages that had been sent. Is this a known issue?","",""
+"890435533132681228","charlietilt","23/05/2023 11:09 pm","It appears this happens when you have not previously loaded a l1 messaging contract","",""
+"767746468542283827","fabijanspaceshard","24/05/2023 1:07 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","24/05/2023 1:11 pm","Started a thread.","",""
+"1078567534866993264","apoorvsadana","24/05/2023 3:05 pm","hey, does the devnet support cairo 1.0.0? i saw the docs say 1.0.0-rc0 but I thought I would confirm in case the docs weren't updated","",""
+"767746468542283827","fabijanspaceshard","24/05/2023 3:16 pm","Started a thread.","",""
+"117430577891639300","darkosnightmare","25/05/2023 4:40 am","I'm noticing some serious slowness with starknet-devnet 0.5.2. *Very* simple tests, like storing a single felt and reading it take > 1 sec, and 10 sec+ for a test with pretty minimal complexity. I've tried with integrated devnet, local, rust VM, and python VM, all combinations seem to perform similarly.","",""
+"117430577891639300","darkosnightmare","25/05/2023 6:17 am","It seems to throw `StarknetErrorCode.OUT_OF_RESOURCES` errors","",""
+"767746468542283827","fabijanspaceshard","26/05/2023 1:27 pm","thanks for the feedback, is anybody else experiencing this?","",""
+"767746468542283827","fabijanspaceshard","26/05/2023 2:47 pm","Started a thread.","",""
+"1032135221816086538","kamisasori","26/05/2023 3:04 pm","why starknet mainnet still slowly and always failed? can developers fix it or optimise it ?","",""
+"767746468542283827","fabijanspaceshard","26/05/2023 3:07 pm","Everyone, let's ask about **starknet-devnet** here. So, **NOT general network** questions, but only matter related to this project here: https://github.com/0xSpaceShard/starknet-devnet","","👍 (1)"
+"803306957393756171","mehul0011","26/05/2023 4:09 pm","Hey I am facing this issue while declaring the contract. What could be done here.","https://cdn.discordapp.com/attachments/985824027950055434/1111604557575884821/image.png",""
+"753519909329305611","Zz#5399","30/05/2023 8:41 am","May I ask if there is a swap_ Exact_ Tokens_ For_ Tokens or swap_ Tokens_ For_ Exact_ Is there a JavaScript demo for tokens?","","✅ (2)"
+"975648207835127858","jianguo | Hamster#2854","31/05/2023 1:27 pm","Excuse me, what is the likely reason for this error on the blockchain","https://cdn.discordapp.com/attachments/985824027950055434/1113375659889266758/1871685519762_.pic.jpg",""
+"767746468542283827","fabijanspaceshard","01/06/2023 8:46 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","01/06/2023 8:47 pm","**NEW VERSION** of starknet-devnet (v0.5.3) is out:
+- Adapted to cairo-lang/Starknet v0.11.2
+- Improved Cairo 1 support
+- Updated JSON-RPC API
+- Bugfixes
+- Improved documentation
+Read more in https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.3","","🔥 (5),👍 (3),happy (3)"
+"907214386794483744","zkcarter","05/06/2023 10:22 am","Hi guys. I want test my contract written in cairo1 on devnet. I can declare my contract but deploy will got error. And when I declare and deploy, I use the account generated by `starknet-devnet`. I got error like this:
+```
+services.external_api.client.BadRequest: HTTP error ocurred. Status: 500. Text: {""code"":""StarknetErrorCode.ENTRY_POINT_NOT_FOUND_IN_CONTRACT"",""message"":""Error at pc=0:81:\nGot an exception while executing a hint.\nCairo traceback (most recent call last):\nUnknown location (pc=0:731)\nUnknown location (pc=0:677)\nUnknown location (pc=0:291)\nUnknown location (pc=0:314)\n\nError in the called contract (0x7e00d496e324876bbc8531f2d9a82bf154d1a04a50218ee74cdd372f75a551a):\nEntry point 0x2730079d734ee55315f4f141eaed376bddd8c2133523d223a344c5604e0f7f8 not found in contract with class hash 0x4d07e40e93398ed3c76981e72dd1fd22557a78ce36c0515f679e27f0bb5bc5f.""}
+```
+It seems the account `0x7e00d496e324876bbc8531f2d9a82bf154d1a04a50218ee74cdd372f75a551a` do not have the Entry point required.
+What should I do?","",""
+"767746468542283827","fabijanspaceshard","05/06/2023 3:47 pm","Started a thread.","",""
+"791177402108739664","akirillo","06/06/2023 4:20 am","heyo, just wanted to confirm - does the devnet node increment nonces for the predeployed accounts, when they're used to invoke transactions?","",""
+"767746468542283827","fabijanspaceshard","06/06/2023 12:54 pm","Started a thread.","",""
+"1033103277665034302","devnet0x","14/06/2023 10:41 pm","gm..please your help. When i call a function in forked mode, devnet send a lot of get_storage_at messages to goerli. is this a normal feature or an issue?....you can check with this:
+Direct call to goerli:
+starknet --account __default__ call --address 0x0667b3f486c25a9afc38626706fb83eabf0f8a6c8a9b7393111f63e51a6dd5dd --function get_ranking
+
+Forked devnet call:
+starknet --gateway_url http://127.0.0.1:5050 --feeder_gateway_url http://127.0.0.1:5050 --account __default__ call --address 0x0667b3f486c25a9afc38626706fb83eabf0f8a6c8a9b7393111f63e51a6dd5dd --function get_ranking","",""
+"1033103277665034302","devnet0x","14/06/2023 10:44 pm","a lot of get_storage_at messages to goerli were traced with wireshark:","https://cdn.discordapp.com/attachments/985824027950055434/1118589387068940339/image.png",""
+"791177402108739664","akirillo","15/06/2023 5:40 am","i just want to confirm - the devnet can still output debug print statements for cairo 1 contracts that make use of `debug::PrintTrait`, right? it's the same hint under the hood as in cairo 0?","",""
+"767746468542283827","fabijanspaceshard","15/06/2023 1:32 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","15/06/2023 1:33 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","16/06/2023 6:25 pm","**NEW VERSION** of `starknet-devnet` (v0.5.4) is out:
+- JSON-RPC updates (bugfixes + supported simulateTransaction)
+- Improved logging (`--verbose` flag)
+- Customizable compiler args (`--compiler-args`)
+Read more in https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.4","","🔥 (1)"
+"899686489414336542","croat#2271","17/06/2023 4:09 pm","Hi, my VPS is running over bill.pq.hosting (Palladium with 80GB). Now it has come to 99% and i need to ugrade the storage. Does anyone now how to ugrade it? Did i have to buy a new VPS or is it possible only to upgrade the storage?","",""
+"702618792995586078","joys8735","19/06/2023 2:51 pm","Did you install the node?","",""
+"767746468542283827","fabijanspaceshard","19/06/2023 2:57 pm","@croat @joyscrypto Please let's keep this channel dedicated to starknet-devnet discussions, maybe your topic is meant for #🛰｜pathfinder-support-only","",""
+"114817122101755911","ulydev","23/06/2023 5:37 pm","Hello 🙂 trying to get a contract to deploy on devnet with Cairo v2.0.0-rc4, I've provided a custom Cargo.toml and started the devnet with `starknet-devnet --cairo-compiler-manifest ~/Desktop/cairo/Cargo.toml` but upon deploying I get an error `Error: No libfunc list named 'experimental_v0.1.0' is known`. Why isn't this file found and should I use a different libfuncs file instead? Thank you!","",""
+"114817122101755911","ulydev","23/06/2023 5:54 pm","^ above is good, now trying to deploy the contract and getting `Compiled class hash not matching`, can someone confirm that Cairo `v2.0.0-rc4` is supported by StarkNet `0.11.2` on devnet?","",""
+"901753765571485766","termius.","26/06/2023 10:22 pm","Problem with Starknet node.. its not working any solution to this??","https://cdn.discordapp.com/attachments/985824027950055434/1122932484934475817/C89C9407-B31D-4B42-B617-9904B977D991.jpg",""
+"848616398964260925","scarletssstarktitan","26/06/2023 10:24 pm","sorry about it ser, pls get support in #🛰｜pathfinder-support-only thank you","",""
+"901753765571485766","termius.","26/06/2023 10:24 pm","Okay!","","🙏🏻 (1)"
+"767746468542283827","fabijanspaceshard","27/06/2023 10:04 pm","Started a thread.","",""
+"410665116120514562","shadow69zkharvest","28/06/2023 2:32 am","Docs to Running Starknode ?","",""
+"848616398964260925","scarletssstarktitan","28/06/2023 2:36 am","pls check part 2 of this msghttps://discord.com/channels/793094838509764618/853954510515208192/975285496349605898 and get support in corresponding channel thank you ser","",""
+"767746468542283827","fabijanspaceshard","28/06/2023 9:39 pm","## Info regarding Devnet dumping and loading:
+
+It is **NOT guaranteed** to work if you dump one version of Devnet (e.g. 0.5.0) and you are loading it with a different one (0.5.4)","",""
+"415929366871146497","alexedo#7692","29/06/2023 3:31 pm","help","https://cdn.discordapp.com/attachments/985824027950055434/1123916221742587966/image.png",""
+"930628046095024188","misterzire","02/07/2023 9:29 am","Is it possible to run a node into my own computer ? is it a bad idea ?","",""
+"907981161534468146","wind.rider","02/07/2023 9:33 am","pls check my reply from: https://discord.com/channels/793094838509764618/853954510515208192/1124913211368538142 thank you,ser","",""
+"597043563808948234","darksider090","03/07/2023 12:38 am","get a VPS server and run there","",""
+"767746468542283827","fabijanspaceshard","03/07/2023 5:43 pm","## New starknet-devnet pre-release is out (**v0.5.5a0**):
+- Adapted to Starknet 0.12.0a0
+- Changed the default compiler args used in Cairo 1 (and Cairo 2) declaration
+- Bugfix in JSON-RPC API
+- Read more in https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.5a0","","🔥 (4)"
+"767746468542283827","fabijanspaceshard","04/07/2023 8:20 pm","## New starknet-devnet stable release is out (v0.5.5):
+- Adapted to Starknet 0.12.0
+- Release notes: https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.5.5","",""
+"810604802181562388","aniruddh1","06/07/2023 12:51 am","good","",""
+"330731763498483725","cannobazgi","07/07/2023 9:23 pm","Hİ! When I write the command 'pip install starknet-devnet' into the terminal, I get the error above: 'ERROR: Failed building wheel for crypto-cpp-py. Running setup.py clean for crypto-cpp-py. Building wheel for poseidon-py (pyproject.toml) ... done. Created wheel for poseidon-py: filename=poseidon_py-0.1.3-cp39-cp39-macosx_11_0_x86_64.whl size=48842 sha256=e72ac81dae3bb1278cb470cb4ad7942b4646c07dd16120a3b2f8f3cd06817ffc. Stored in directory: /Users/cemalcannumanoglu/Library/Caches/pip/wheels/f7/72/7e/9834f7e416bdf697eaf299d6e2b0ad7ffebb49ea16b0cc3e44. Successfully built poseidon-py. Failed to build crypto-cpp-py. ERROR: Could not build wheels for crypto-cpp-py, which is required to install pyproject.toml-based projects'. How can I solve it?""","https://cdn.discordapp.com/attachments/985824027950055434/1126903904681074688/Ekran_Resmi_2023-07-07_18.53.38.png",""
+"673864970714349599","mridul_singh","08/07/2023 12:28 am","Hey guys, 
+Was talking in Bravos chat and casual mention of a NFT marketplace being shut down 30th june came up.
+
+Just wanted to ask, if there some kind of program for building on starknet? I am a dev and could build a marketplace 👀","",""
+"848616398964260925","scarletssstarktitan","08/07/2023 12:34 am","welcome onboard ser,  afaik, there are some teams are working on it https://twitter.com/Starknet_OG/status/167155054110376755 fyi","",""
+"673864970714349599","mridul_singh","08/07/2023 12:37 am","Says the tweet has been deleted? 😅","",""
+"848616398964260925","scarletssstarktitan","08/07/2023 12:46 am","https://twitter.com/Starknet_OG/status/1671550541103767552  i can open ,would you like to try again","","💯 (1)"
+"820997135281160196","0xhighskore","08/07/2023 5:04 am","i'm trying to install devnet with:
+
+```
+pip install starknet-devnet
+```
+
+but i get 
+```
+ Building wheel for greenlet (setup.py) ... error
+  error: subprocess-exited-with-error
+
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [147 lines of output]
+      running bdist_wheel
+      running build
+      running build_ext
+      building 'greenlet' extension
+      creating build
+      creating build/temp.macosx-12-x86_64-cpython-311
+      clang -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -I/usr/local/opt/gmp/include -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11 -c greenlet.c -o build/temp.macosx-12-x86_64-cpython-311/greenlet.o
+      greenlet.c:176:15: error: no member named 'exc_type' in 'struct _err_stackitem'
+                             ^~~~~~~~~~~~~~~
+...
+ note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for greenlet
+  Running setup.py clean for greenlet
+Failed to build greenlet
+ERROR: Could not build wheels for greenlet, which is required to install pyproject.toml-based projects
+```","https://cdn.discordapp.com/attachments/985824027950055434/1127019935491698758/message.txt",""
+"820997135281160196","0xhighskore","08/07/2023 5:05 am","```
+pip --version
+pip 23.1.2 from /usr/local/lib/python3.11/site-packages/pip (python 3.11)
+```
+
+```      
+System Version: macOS 12.5.1 (21G83)
+Kernel Version: Darwin 21.6.0
+Model Name: MacBook Pro
+Chip: Apple M1 Pro```
+```","",""
+"848616398964260925","scarletssstarktitan","08/07/2023 5:11 am","sorry ser this message may help you https://discord.com/channels/793094838509764618/1062991290272333954/1063004486211219486","","👍 (2)"
+"820997135281160196","0xhighskore","08/07/2023 5:50 am","tried forking mainnet now 🥲","https://cdn.discordapp.com/attachments/985824027950055434/1127031419575742554/message.txt",""
+"848616398964260925","scarletssstarktitan","08/07/2023 7:16 am","will you check this https://github.com/0xSpaceShard/starknet-devnet/pull/328  or wait for the team on line to help ser thank you","",""
+"330731763498483725","cannobazgi","08/07/2023 3:46 pm","can anyone help me ?","","👀 (1)"
+"820997135281160196","0xhighskore","08/07/2023 6:08 pm","everything worked for me when i used python3.9","","👍 (2)"
+"330731763498483725","cannobazgi","08/07/2023 6:22 pm","i tried 3.7 - 3.8 and 3.9","","👀 (3)"
+"767746468542283827","fabijanspaceshard","10/07/2023 1:34 pm","Started a thread.","",""
+"1026749461088718938","wendocozie","11/07/2023 1:43 pm","Hi, how do i know my node is working?","",""
+"1026749461088718938","wendocozie","11/07/2023 1:43 pm","Is this ok?","https://cdn.discordapp.com/attachments/985824027950055434/1128237577795801148/image.png",""
+"767746468542283827","fabijanspaceshard","11/07/2023 1:47 pm","please ask in #🛰｜pathfinder-support-only, this channel is only for questions about the tool called **starknet-devnet**","",""
+"1026749461088718938","wendocozie","11/07/2023 1:53 pm","yep, but no one reply me on this chanel","",""
+"455393272873877515","romanb47","11/07/2023 4:23 pm","Might want to rename that channel to node support","","👀 (3),🥴 (3)"
+"862996769125826560",".jameswade","14/07/2023 9:13 am","hello i want know how to generate an account on starknet","",""
+"862996769125826560",".jameswade","14/07/2023 9:15 am","How the private key generates the public key The relationship between the public key and the address","",""
+"862996769125826560",".jameswade","14/07/2023 9:17 am","please help","",""
+"767746468542283827","fabijanspaceshard","14/07/2023 12:39 pm","Started a thread.","",""
+"376459371309170688","0xtango","18/07/2023 10:09 pm","isit better to run devnet node or mainnet node?","",""
+"848616398964260925","scarletssstarktitan","18/07/2023 10:10 pm","if you are interested in starknet full node pls check part2 of https://discord.com/channels/793094838509764618/853954510515208192/975285496349605898 and get support in corresponding node channel thank you this channel is only for questions about the tool called **starknet-devnet **","",""
+"694604578041102446","ethersdev","19/07/2023 4:17 pm","Yo, I tried to run a node, but keep getting the same error, saw it on twitter as well. - Any issues known by the team ?","",""
+"907981161534468146","wind.rider","19/07/2023 4:28 pm","Ser, may I ask if you are running pathfinder? if so, pls post your error on this channel #🛰｜pathfinder-support-only , thank you","",""
+"692339689859973120","xiaolong#0746","20/07/2023 7:50 pm","hi there, where to add `--allowed-libfuncs-list-name all`? it seems that `starkli declare` doesn't have this option","https://cdn.discordapp.com/attachments/985824027950055434/1131591344637362176/image.png",""
+"520276777226993674","iris8600","25/07/2023 7:18 pm","Hey, I'm trying to declare a contract on v0.5.4 of the devnet. 
+
+The contract is compiled with scarb version 0.5.1 (so cairo 2.0.1). I've added `casm-add-pythonic-hints = true` and `allowed-libfuncs-list.name = ""all""` to my Scarb.toml file. 
+
+I run my devnet with the flags `--compiler-args ""--add-pythonic-hints --allowed-libfuncs-list-name all""` but when declaring my contract I have the error : `Transaction was rejected with following Starknet error: Compilation failed. Error: No libfunc list named 'all' is known.`
+I've also tried using `allowed-libfuncs-list.name = ""experimental_v0.1.0""`without success. 
+
+Any idea, how to make it work ?","",""
+"520276777226993674","iris8600","25/07/2023 7:29 pm","Actually you can ignore my previous message, it worked with version 0.5.5 of the devnet without specifying any allowed-libfuncs!","","🎉 (1)"
+"791177402108739664","akirillo","26/07/2023 5:59 am","what are you using to send the declare transaction? I'm using `starknet-rs` and I'm getting an exception thrown in the devnet to the tune of `starkware.cairo.lang.vm.vm_exceptions.VmException: Error at pc=0:98:`, but it seems to be in the `/feeder_gateway/estimate_fee_bulk [POST]` endpoint of the devnet, which I assume gets called before the actual declare transaction when using `account.declare` in `starknet-declare`.
+
+Did you have to deal with anything like this? I'm using `v0.5.5` of the devnet with `v2.0.2` of the compiler, and I'm compiling the contracts locally using Scarb `v0.5.2`","",""
+"791177402108739664","akirillo","26/07/2023 6:47 am","^ I'm getting this same error (this time on the `/rpc [POST]` endpoint) even when declaring using `starkli` (both using the scarb-compiled casm class hash, and when letting `starkli` compile the sierra on its own). to be fair, `starkli` uses `starknet-rs` under the hood... how else would one go about declaring? `sncast`?","",""
+"565376910347993088","popeye#3940","26/07/2023 8:36 am","Deploy account need class hash, how can I get class hash?","",""
+"767746468542283827","fabijanspaceshard","26/07/2023 12:51 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","26/07/2023 12:54 pm","Started a thread.","",""
+"520276777226993674","iris8600","26/07/2023 3:59 pm","I'm using starknet.py but I'm using v2.0.1 of the compiler, with scarb as well","","👍 (1)"
+"1011927356228763740","asapov_","26/07/2023 4:36 pm","Should a Starknet node be kept on Goerli or Mainnet for now?","",""
+"791177402108739664","akirillo","27/07/2023 12:47 am","ok.... idk what's wrong in my setup, but devnet (`0.5.5`) keeps throwing the same exception (`starkware.cairo.lang.vm.vm_exceptions.VmException: Error at pc=0:98`) when I try to declare.
+
+this time, I started a fresh project using starknet-foundry and the starknet-forge template (https://github.com/foundry-rs/starknet_forge_template), funded a fresh account, and used `sncast declare`...
+
+so just trying to declare the sn-foundry example code is not working.
+
+might try the old ""delete and reinstall"" on starknet-devnet to see if that clears anything up, idek...","",""
+"848616398964260925","scarletssstarktitan","27/07/2023 12:51 am","Starknet Foundry version 0.2.0 was just released with fixes for using imports within the test fileshttps://github.com/foundry-rs/starknet-foundry/releases/tag/v0.2.0 would you like to have a try again ? thank you","",""
+"791177402108739664","akirillo","27/07/2023 12:52 am","i'm using the most recent version already ://","",""
+"848616398964260925","scarletssstarktitan","27/07/2023 1:00 am","would you like to post the issue relate to starknet Foundry in #🌟｜protostar wait for SWM team to help you ? thank you ser","",""
+"791177402108739664","akirillo","27/07/2023 2:09 am","following up on this - I think the issue is with `starknet-devnet` and not `starknet-rs`, as I'm able to use `starkli` (which uses `starknet-rs`) to declare my contract using the `katana` devnet node.
+
+will try reinstalling starknet-devnet just to be sure, and then will try to open an issue","","👍 (1),👀 (1)"
+"899397804403875931","galleryabdi","27/07/2023 2:45 am",":StarkNet:","",""
+"475777437163192346","orland0x","27/07/2023 4:22 pm","Hi. Im getting this error `GatewayError: Cairo resource names must be contained in fee weights dict.` when attempting to call a contract which calls the keccak builtin (via `keccak::keccak_u256s_le_inputs()`) on the devnet with starknet sierra compiler version 2.1.0-rc0.
+ Not sure whether i need to specify some more things or does the devnet not support keccak yet?","",""
+"767746468542283827","fabijanspaceshard","27/07/2023 4:34 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","27/07/2023 5:01 pm","## INFO
+- The development team's focus has mostly been on rewriting Devnet in Rust (new repo: https://github.com/0xSpaceShard/starknet-devnet-rs)
+- The Pythonic Devnet will receive at least one more stable version (adapted to Starknet 0.12.1 and compiler 2.2.0):
+  - a potential pre-release adapted to Starknet 0.12.1a0 - maybe next week
+  - a stable release - shortly after testnet (alpha-goerli) is updated to Starknet 0.12.1","","❤️ (4),👀 (2),🇮🇪 (1)"
+"393471713561542658","ytiantwopieces","31/07/2023 6:04 pm","hi there it is useless to run a node on testnet right now ? better to run node on mainnet ?","",""
+"821255088517545995","akashneelesh","31/07/2023 7:26 pm","GatewayError: [Errno 8] Exec format error: Been getting this error while trying to declare and deploy contract through the devnet","",""
+"585509977079283744","aundumla","01/08/2023 12:59 pm","Hey, you mean compiler 2.1.0 or 2.2.0? Will you do a pre-release this week?","",""
+"585509977079283744","aundumla","01/08/2023 1:01 pm","Another question: Do you know what the status of Katana is? Is it supposed to be a full featured devnet?","",""
+"753519909329305611","Zz#5399","01/08/2023 1:13 pm","GatewayError: Error at pc=0:12:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x4ed5b273f2bd9078e6d38dd81f96b2431a01b131730382882a1f731bb341ca2):
+Error at pc=0:39:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:1398)
+Unknown location (pc=0:1351)
+Unknown location (pc=0:569)
+Unknown location (pc=0:604)
+Error message: argent: multicall 1 failed
+Unknown location (pc=0:586)
+
+Error in the called contract (0x28c858a586fa12123a1ccb337a0a3b369281f91ea00544d0c086524b759f627):
+Error at pc=0:3682:
+An ASSERT_EQ instruction failed: 11:10 != 11:8.","",""
+"848616398964260925","scarletssstarktitan","01/08/2023 1:30 pm","hi your error code is about call the sithswap error , pls reach out to the sithswap discord  to get support pls do not post the same question in many channel ,here is channel about starknet-devnet issue thank you","",""
+"767746468542283827","fabijanspaceshard","01/08/2023 1:32 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","01/08/2023 1:33 pm","Started a thread.","",""
+"753519909329305611","Zz#5399","01/08/2023 2:14 pm","ok thanks","",""
+"585509977079283744","aundumla","01/08/2023 5:10 pm","When devnet-rs is expected to be usable?","",""
+"753519909329305611","Zz#5399","03/08/2023 12:05 pm","Why often return HttpError: Bad Gateway","",""
+"753519909329305611","Zz#5399","03/08/2023 12:05 pm","hi","",""
+"767746468542283827","fabijanspaceshard","04/08/2023 1:25 pm","## NEW DEVNET (PRE)RELEASE
+As announced, a new Devnet pre-relase is out (**breaking** - 0.6.0a0):
+- Adapted to Starknet 0.12.1a0
+- Defaulting to Cairo v2.1.0-rc0 when recompiling in your declare v2 transactions
+- Failed transactions now marked as `REVERTED` (simplification of what is soon to be implemented on the official testnet)
+- More info in the release notes: https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.6.0a0","","👀 (1)"
+"383836935480803339","sendmoodz","04/08/2023 9:09 pm","i'd like to use this, but why rc0?","",""
+"585509977079283744","aundumla","07/08/2023 5:42 pm","I get: ```""GatewayError: Invalid InvokeFunction: {'type': ['Unknown field.'], 'contract_class': ['Unknown field.'], 'compiled_class_hash': ['Unknown field.']}""``` while trying to declare a class with starknetjs(5.18.0) on  devnet(0.6.0a0). Any hints?","",""
+"994161412895162419","carl4642","07/08/2023 7:56 pm","great info","",""
+"875394938056110140",".luiszheng","08/08/2023 6:15 pm","https://discord.com/channels/793094838509764618/927918707613786162/1138451875549683773
+Hi, I am getting error while estimating fee.
+Here is devnet logs.
+Anybody could help me ?","https://cdn.discordapp.com/attachments/985824027950055434/1138452826180300895/message.txt",""
+"710417480434319403","shandy3773","11/08/2023 3:34 pm","hi i am getting the error","",""
+"710417480434319403","shandy3773","11/08/2023 3:34 pm","ClientError: Client failed with code -32603: Sending V1 invoke transaction to gateway.","",""
+"710417480434319403","shandy3773","11/08/2023 3:34 pm","while contacting the contract","",""
+"767746468542283827","fabijanspaceshard","11/08/2023 4:52 pm","## New release of starknet-devnet (v0.6.0) is out
+- Adapted to Starknet 0.12.1
+  - Defaulting to Cairo compiler v0.2.1 in Declare v2 transactions
+- Properly bouncing back invalid transactions instead of reverting (invalid nonce / invalid max_fee / failed validation)
+- Release notes: https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.6.0","","👀 (1)"
+"791177402108739664","akirillo","11/08/2023 10:35 pm","is it possible to increase the gas limit on the devnet? is this the same as setting `--max-fee 0`?","",""
+"383836935480803339","sendmoodz","12/08/2023 3:38 am","@Fabijan | Space Shard i am on mac os with m1 processor and running into this issue
+```
+    GatewayError: [Errno 8] Exec format error: '/Users/moody/Library/Python/3.9/lib/python/site-packages/starkware/starknet/compiler/v1/sierra-compiler-major-1/bin/starknet-sierra-compile'
+```
+i think the sierra compiler executable i have installed is not executable on my machine, is that possible?","",""
+"212146572736200704","pscott1337","14/08/2023 8:54 pm","Yo I just ran into this issue. You can solve it by passing `--sierra-compiler-path` and linking to your own path (for me, I use `--sierra-compiler-path $(which starknet-sierra-compile`)","",""
+"383836935480803339","sendmoodz","14/08/2023 8:58 pm","true true thanks","",""
+"212146572736200704","pscott1337","14/08/2023 9:01 pm","But my tx are getting silently reverted (found out by using `--verbose`) now, and I can't pass `--cairo-compiler-manifest` because when I do so, the build fails (in crate `proc_macro`)... any idea @Fabijan | Space Shard ?","",""
+"212146572736200704","pscott1337","14/08/2023 9:01 pm","why am I required to pass a path to a cargo.toml and not just a binary?","",""
+"475777437163192346","orland0x","16/08/2023 2:21 pm","is the devnet compatible with 2.1.1 yet via setting a custom compiler?","",""
+"946809148991995935","mikolajspaceshard","16/08/2023 2:25 pm","there is a --sierra-compiler-path arg ""Specify the path to the binary executable of starknet-sierra-compile""","",""
+"946809148991995935","mikolajspaceshard","16/08/2023 2:26 pm","2.1.1 should work but it's not tested","",""
+"212146572736200704","pscott1337","16/08/2023 2:39 pm","this is for the `starknet-sierra-compile` but there's also the `--cairo-compiler-manifest` that expects a Cargo.toml path","",""
+"212146572736200704","pscott1337","16/08/2023 2:39 pm","I submitted a PR on the documentation regarding that","",""
+"475777437163192346","orland0x","16/08/2023 2:59 pm","thanks, will test and report back","",""
+"475777437163192346","orland0x","16/08/2023 4:22 pm","can confirm it works","","👍 (1)"
+"383836935480803339","sendmoodz","17/08/2023 1:27 am","rust devnet can't come soon enough. my tests run like molasses","",""
+"383836935480803339","sendmoodz","17/08/2023 3:40 am","i'm also struggling to simply detect that it started from the stdout. i don't see any listening on x messages in stdout from node for some reason","",""
+"791177402108739664","akirillo","18/08/2023 8:22 am","I’m using katana devnet rn from the dojo folks, it’s pretty bussin","",""
+"383836935480803339","sendmoodz","18/08/2023 2:48 pm","i'm trying but the starknet js signature does not work for me","",""
+"791177402108739664","akirillo","18/08/2023 8:54 pm","Oh interesting… I’ve just been using Starknet-rs to sign & send transactions w no issues","",""
+"383836935480803339","sendmoodz","19/08/2023 3:27 am","🥲","",""
+"725041873030479873","phil26","20/08/2023 2:21 am","In opposition to Starknet.js and startknet-devnet, Katana is not compliant with Cairo-lang about versions for `estimateFee`.
+In your invokes, add manually the maxFee. Ex :
+```typescript
+const declareResponse = await account0.declare({ contract: compiledSierra, casm: compiledCasm }, { maxFee: 9_000_000_000_000_000 });
+```
+By this way, Starknet.js will not try to estimate the fee... and will not fail Katana.
+Come in the Starknet.js thread if you need more information : https://discord.com/channels/793094838509764618/927918707613786162","",""
+"530813107212255234","zeapherine","22/08/2023 6:19 pm","hey, i am not able to fork alpha-goerli. 
+
+gettting an error:
+```
+'Expected all-lowercase hex string, got: ""0x182b5d3b3c15ff013815914144c4e77ea3c60901a11c1681d6b34f2ea58fac1"".'
+
+```","",""
+"946809148991995935","mikolajspaceshard","23/08/2023 1:19 pm","it's because testnet is 0.12.2 now and devnet is still not adapted to that","",""
+"815511012077207572","mason_john","25/08/2023 3:44 pm","@Marek | Software Mansion hi ,what the different of starklings and protostar","",""
+"907981161534468146","wind.rider","29/08/2023 3:45 pm","@Phil26 Apologize for our bot,ser🙏🏻 ,here's you post
+
+> Hello,
+> It's problematic to have no more solution to fork Mainnet or Testnet.
+> I would like to work on Braavos accounts without impacting the official network, but I am currently blocked.
+> Will you upgrade the pythonic starknet-devnet, or will you only develop  the functionality on the new RS starknet-devnet?
+> What's your expected date of release of an operational solution to fork current networks?","","🫡 (1)"
+"767746468542283827","fabijanspaceshard","29/08/2023 4:20 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","29/08/2023 4:23 pm","## NEW RELEASE of Pythonic Devnet is out (v0.6.1):
+* Adapted to Starknet 0.12.2
+* Release notes: https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.6.1","",""
+"725041873030479873","phil26","29/08/2023 5:35 pm","And forks of official networks are back.
+🥳","","🎉 (1)"
+"647883260617293844","de_vazi","31/08/2023 8:27 pm","gm","",""
+"647883260617293844","de_vazi","31/08/2023 8:28 pm","is there a way to link between a starknet address to the evm address that created it?","","✅ (1)"
+"855438772404486165","ivory11","31/08/2023 10:06 pm","@maciektr | Software Mansion Hi  can you tell me how to"" initiate withdraw"" I had bridged some eth from Starknet to Ethereum. I haven't received the funds yet","",""
+"848616398964260925","scarletssstarktitan","31/08/2023 10:08 pm","sorry ser, pls share your withdrawing tx in #🌉｜starkgate we will help you there thank you","",""
+"855438772404486165","ivory11","31/08/2023 10:09 pm","ahh oki. Thnaks","",""
+"855438772404486165","ivory11","31/08/2023 10:10 pm","can you tell me where do I find that, I am new to Starknet and Bravos","",""
+"848616398964260925","scarletssstarktitan","31/08/2023 10:10 pm","withdrawing via the starkgate ? or other bridge","",""
+"855438772404486165","ivory11","31/08/2023 10:12 pm","","https://cdn.discordapp.com/attachments/985824027950055434/1146847572003127478/00.jpg",""
+"855438772404486165","ivory11","31/08/2023 10:13 pm","Starkgate","",""
+"855438772404486165","ivory11","31/08/2023 10:13 pm","Do u need the transaction Id?","",""
+"848616398964260925","scarletssstarktitan","31/08/2023 10:14 pm","yes, but share here #🌉｜starkgate this is channel only for starknet devnet support thank you","",""
+"855438772404486165","ivory11","31/08/2023 10:14 pm","ok. Will do so right away.","","🙏🏻 (1)"
+"846328676866064425","aaron_tea","01/09/2023 12:50 pm","Is there any documentation for jsonrpc? I only found this https://github.com/NethermindEth/juno/tree/main, I want detailed parameter explanation","",""
+"923994260234190858","bonifaceebuka","01/09/2023 3:29 pm","Hello I keep the error message below whenever I run `starknet-dev --version`
+
+`C:\Users\Admin>starknet-devnet --version
+Traceback (most recent call last):
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\runpy.py"", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\runpy.py"", line 87, in _run_code
+    exec(code, run_globals)
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\Scripts\starknet-devnet.exe\__main__.py"", line 4, in <module>
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\starknet_devnet\__init__.py"", line 31, in <module>
+    _patch_pedersen_hash()
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\starknet_devnet\__init__.py"", line 26, in _patch_pedersen_hash
+    from crypto_cpp_py.cpp_bindings import cpp_hash as patched_pedersen_hash
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\crypto_cpp_py\cpp_bindings.py"", line 96, in <module>
+    def cpp_hash(left: int, right: int) -> int:
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\crypto_cpp_py\cpp_bindings.py"", line 48, in load_cpp_lib
+    CPP_LIB_BINDING = load_cpp_lib_windows(cpp_lib_file)
+  File ""C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\crypto_cpp_py\cpp_bindings.py"", line 58, in load_cpp_lib_windows
+    dll_handle = win32api.LoadLibraryEx(dll_name, 0, handle1)
+pywintypes.error: (126, 'LoadLibraryEx', 'The specified module could not be found.')`
+
+Please I need assistance on I can fix this.","",""
+"767746468542283827","fabijanspaceshard","01/09/2023 9:41 pm","## New pythonic starknet-devnet (v0.6.2) is out:
+- JSON-RPC: Now supporting both starknet_simulateTransaction and starknet_simulateTransaction**s** (same functionality)
+- Release notes: https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.6.2","","👀 (1)"
+"1050629845463343134","0xkr4ken","04/09/2023 1:17 pm","is that any way to build my own full node?","",""
+"830547801032884319","beatroot#6098","04/09/2023 4:16 pm","Hey,
+I've encountered an issue with `feeder_gateway/get_state_update`. Here are the details:
+## Environment:
+```
+docker run --name starknet_devnet -p 5050:5050 shardlabs/starknet-devnet:0.6.2 --fork-network alpha-goerli
+```
+## Request Attempted:
+```
+GET http://127.0.0.1:5050/feeder_gateway/get_state_update?blockNumber=0
+```
+## Error Response:
+```
+500 Internal Server Error
+Internal Server Error
+The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+```
+## Logs and Traceback:
+```
+[2023-09-04 10:29:32 +0000] [12] [ERROR] Exception on /feeder_gateway/get_state_update [GET]
+Traceback (most recent call last):
+...
+File ""/usr/local/lib/python3.9/site-packages/starknet_devnet/blocks.py"", line 174, in get_state_update
+numeric_hash = self.__num2hash[block_number]
+KeyError: 0
+```
+It's worth noting that all other `feeder_gateway` endpoints are working for me. Would appreciate any help on this. Thanks! 🙂","",""
+"767746468542283827","fabijanspaceshard","06/09/2023 8:46 pm","## Devnet in Rust update
+- Available as a Docker image; more info in the [docs](https://github.com/0xSpaceShard/starknet-devnet-rs#run-with-docker)
+- JSON-RPC API updated to v0.4.0","",""
+"689169902250229885",".kmarklor","12/09/2023 11:38 am","Good evening, here is an error I get with `starknet-devnet-rs` and also with `katana` when I try to interact with the node locally.
+I don't know why I'm getting this error, I'd love to know.","",""
+"689169902250229885",".kmarklor","12/09/2023 11:38 am","","https://cdn.discordapp.com/attachments/985824027950055434/1151036712458399744/Capture_decran_2023-09-11_222838.png",""
+"767746468542283827","fabijanspaceshard","12/09/2023 12:48 pm","Started a thread.","",""
+"846328676866064425","aaron_tea","12/09/2023 3:22 pm","What encryption curve does stark use? secp256k1 or something else?","",""
+"808699778254635018","lcukycat","14/09/2023 7:33 pm","when I install stark.js, something wrong like this, Anyone know how to solve this?","https://cdn.discordapp.com/attachments/985824027950055434/1151881015502065664/image.png",""
+"907697623979393104","winless#8715","16/09/2023 3:55 pm","do we support deposit custom erc20 to l2?","",""
+"640298805367013389","wotis1996","18/09/2023 1:56 am","someone had a similar problem 
+after the update, the node crashed and does not want to work","https://cdn.discordapp.com/attachments/985824027950055434/1153064355684958341/image.png",""
+"848616398964260925","scarletssstarktitan","18/09/2023 2:00 am","get support in #🛰｜pathfinder-support-only thank you ser","",""
+"662542248810119219","robertjohnson.","18/09/2023 4:06 pm","```GatewayError: Error at pc=0:12:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x36d3567700d50d90eb20140c9d7926b3ab83cc688184d778947857f31be3e42):
+Error at pc=0:39:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:1398)
+Unknown location (pc=0:1351)
+Unknown location (pc=0:569)
+Error message: argent: multicall 0 failed
+Unknown location (pc=0:586)
+
+Error in the called contract (0x6ab000704de0b13fbeaea41527b72c2f2e7c55a26e9319923c50fca09a001b7):
+Execution was reverted; failure reason: [0x43616c6c6572206973206e6f7420746865206f776e6572].
+    at SequencerProvider.fetch (/home/nvt/Documents/stark/Tool/node_modules/starknet/src/provider/sequencer.ts:240:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Account.estimateInvokeFee (/home/nvt/Documents/stark/Tool/node_modules/starknet/src/account/default.ts:125:22)
+    at async Account.getSuggestedMaxFee (/home/nvt/Documents/stark/Tool/node_modules/starknet/src/account/default.ts:516:23)
+    at async Account.execute (/home/nvt/Documents/stark/Tool/node_modules/starknet/src/account/default.ts:268:8)
+    at async mint (/home/nvt/Documents/stark/Tool/INO/mint.ts:38:46) {
+  errorCode: 'StarknetErrorCode.TRANSACTION_FAILED'
+}
+```","",""
+"767746468542283827","fabijanspaceshard","18/09/2023 5:34 pm","Started a thread.","",""
+"907697623979393104","winless#8715","19/09/2023 12:55 am","Hi, I use nile cli to develop contract but it always shows StarknetErrorCode.INSUFFICIENT_ACCOUNT_BALANCE since my account in env has enough balance","",""
+"767746468542283827","fabijanspaceshard","19/09/2023 12:58 pm","Started a thread.","",""
+"767746468542283827","fabijanspaceshard","19/09/2023 8:15 pm","## New patch version of Pythonic starknet-devnet (0.6.3)
+- Fixed `get_state_update` when forking
+- [Release notes](https://github.com/0xSpaceShard/starknet-devnet/releases/tag/v0.6.3)","",""
+"475777437163192346","orland0x","21/09/2023 8:48 pm","hi guys , trying to predeploy a custom cairo 1 account with the devnet. would it work to pass the sierra json artifact for the account to the `account-class` field?","",""
+"730389465243320360","kenny.dev","24/09/2023 12:13 am","Hi, I use devnet from a docker compose file, is there a way to pass forking instruction from the docker compose file ?","",""

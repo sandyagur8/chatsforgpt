@@ -75,6 +75,62 @@ client.on('messageCreate', async (message)=>{
             protocol='uma'
         }
 
+        if (message.content.includes('#near')){
+            protocol='near'
+        }
+
+        if (message.content.includes('#tba')){
+            protocol='tba'
+        }
+
+        if (message.content.includes('#hyperlane')){
+            protocol='hyperlane'
+        }
+
+        if (message.content.includes('#graph')){
+            protocol='graph'
+        }
+
+        if (message.content.includes('#neon')){
+            protocol='neon'
+        }
+
+        if (message.content.includes('#base')){
+            protocol='base'
+        }
+
+        if (message.content.includes('#celo')){
+            protocol='celo'
+        }
+
+        if (message.content.includes('#axelar')){
+            protocol='axelar'
+        }
+
+        if (message.content.includes('#arbitrum')){
+            protocol='arbitrum'
+        }
+
+        if (message.content.includes('#cartesi')){
+            protocol='cartesi'
+        }
+
+        if (message.content.includes('#safe')){
+            protocol='safe'
+        }
+
+        if (message.content.includes('#biconomy')){
+            protocol='biconomy'
+        }
+
+        if (message.content.includes('#starknet')){
+            protocol='starknet'
+        }
+
+        if (message.content.includes('#uniswap')){
+            protocol='uniswap'
+        }
+
 
         console.log(message.content)
         console.log()

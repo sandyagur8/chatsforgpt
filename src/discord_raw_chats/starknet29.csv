@@ -1,0 +1,694 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"775783595625152554","drspacemn#9574","22/06/2022 2:44 am","First and most important order of business: 
+what emoji should we have https://www.prosettings.com/emoji-list","",""
+"896707292576235540","gregoryguillou","22/06/2022 3:49 am","🖖","",""
+"896707292576235540","gregoryguillou","22/06/2022 3:50 am","🦦","",""
+"896707292576235540","gregoryguillou","22/06/2022 3:51 am","🦤","",""
+"775783595625152554","drspacemn#9574","22/06/2022 4:48 am","Otters are kinda like gophers, right?","","haha (1)"
+"896707292576235540","gregoryguillou","22/06/2022 10:21 am","I assume it is the closest we can get so far. We could request something better for Unicode 17 but I do not have any friend in the committee. Maybe you do? 🤣","",""
+"896707292576235540","gregoryguillou","22/06/2022 10:53 am","More seriously: I have my ""personal"" 🍻 indexer relying on pathfinder to collect data from starknet and I would prefer to have that code in caigo... From what I understand the way to go would be to implement the Provider interface in a `pathfinder` directory aside the `gateway` directory. Correct? Long story short I did not manage to make it work with go-ethereum because the jsonrpc example in pathfinder is using named argument and I do not think go-ethereum does that. I cannot believe I am right on that one. Do you know if we can use named argument with the jsonrpc implementation of go-ethereum?","",""
+"896707292576235540","gregoryguillou","22/06/2022 12:12 pm","I got an answer from the question in the pathfinder channel. I should be able to rely on positional argument with pathfinder and as a result rely on go-ethereum json-rpc even if it does not support named arguments.","",""
+"754641878934225008","odinfree","22/06/2022 5:25 pm","You can copypasta from here https://www.copyandpasteemoji.com/","",""
+"609654755786096652","koivunej","22/06/2022 6:56 pm","we currently have tests for both forms of the parsing, but it's something the `serde` rust framework/library does automatically, at least in json. will be interested to hear if you do find any issues with that. probably a better idea to ping us on this channel as the support tends to be overwhelmingly linux basics support.","",""
+"896707292576235540","gregoryguillou","22/06/2022 7:05 pm","by `ping-us` , do you mean we should just quote your personal discord handle on the #🦦｜starknet-go channel?","",""
+"609654755786096652","koivunej","22/06/2022 7:09 pm","yes","","👍 (2)"
+"775783595625152554","drspacemn#9574","22/06/2022 8:38 pm","yeah looks like the go-ethereum implementation expects a failure with named params:
+https://github.com/ethereum/go-ethereum/blob/master/rpc/testdata/reqresp-namedparam.js","",""
+"775783595625152554","drspacemn#9574","22/06/2022 8:40 pm","I would prefer if we had a unified implementation that implemented this spec under the `jsonrpc` package:
+https://github.com/starkware-libs/starknet-specs/blob/master/starknet_vs_ethereum_node_apis.md
+
+And maybe add a 'WithNamedParams' option","",""
+"775783595625152554","drspacemn#9574","22/06/2022 8:41 pm","---------------------------------------------------------------------------
+Also any objections to renaming `jsonrpc` -> `rpc`?","",""
+"896707292576235540","gregoryguillou","23/06/2022 4:31 am","Lgtm. I won’t push anything with you agreeing anyway.","",""
+"775783595625152554","drspacemn#9574","23/06/2022 4:49 am","Just pushed some jsonrpc updates, let me know if that helps with your indexer implementation.
+
+Any specific reason for not wanting to use purely positional arguments?","",""
+"896707292576235540","gregoryguillou","23/06/2022 11:33 am","I’ll do. I’m fine with positional arguments. Just Because the examples in pathfinder were named I was thinking it has to be  named.. I’ll push it on the weekend except I do not manage to do the change in which case I will ask for help.","",""
+"775783595625152554","drspacemn#9574","23/06/2022 9:02 pm","I see what you mean with the Pathfinder named arguments. I was able to implement the named 'EventFilter' in the Pathfinder example for `starknet_getEvents` in the most recent PR:
+https://github.com/eqlabs/pathfinder/blob/0313b14ea1fad8f73635a3002d106908813e57f1/crates/pathfinder/rpc_examples.sh#L91","","👍 (1)"
+"896707292576235540","gregoryguillou","24/06/2022 1:33 pm","I have reviewed your PR and I do not have much to say. It just LGTM. I feel I am missing a short term roadmap that could be like
+1. having the right coverage
+2. making sure people can onboard easily
+3. making sure it is stable, battle-tested and it follows the starknet updates 
+4. provide higher level tools like abigen and a subscription framework","",""
+"896707292576235540","gregoryguillou","24/06/2022 2:14 pm","Maybe you could also merge your `feat/felt` branch to `main` so that we have the tools to move from `*big.Int` to `*Felt` ?","",""
+"896707292576235540","gregoryguillou","24/06/2022 6:34 pm","@drspacemn | StarkWare Sorry to bother you: why do you have a `GatewayProvider` that basically ""extend"" a `Gateway` rather than add the methods directly to it?","",""
+"775783595625152554","drspacemn#9574","24/06/2022 8:27 pm","These are great questions. Can you accept my friend request so we can DM as well.
+
+Short term I'd like to cut a release(v0.3.0) that would include:
+- v0.9.0 support
+- GW pkg
+- RPC pkg
+- Accounts
+
+Long term everything you mentioned. Better docs. Better coverage. Abigen is VERY high on my list.","","PU_PepeNarutoRun (2)"
+"775783595625152554","drspacemn#9574","24/06/2022 8:28 pm","The cutover from `*big.Int` -> `*Felt` feels like it will take some time. So maybe I can submit that PR and we can cut the release for v0.3.0 from there w/o actually changing any of the implementations for v0.3.0. Thoughts?","",""
+"775783595625152554","drspacemn#9574","24/06/2022 8:30 pm","@tarrence I won't merge this until you've had a chance to look at it. I think this is breaking for `cartrige-gg` 
+
+https://github.com/dontpanicdao/caigo/pull/36
+https://github.com/dontpanicdao/caigo/pull/38 (same here)","",""
+"896707292576235540","gregoryguillou","24/06/2022 8:54 pm","Yes. My suggestion was just: push all the utilities that you have built within the repo. It won't hurt.","","👍 (1)"
+"775783595625152554","drspacemn#9574","24/06/2022 9:18 pm","https://github.com/dontpanicdao/caigo/pull/38","",""
+"896707292576235540","gregoryguillou","25/06/2022 4:05 pm","Hello @koivunej  Is there a way to run pathfinder without connecting it to the mainnet/testnet? I'm asking for 2 reasons: 
+- 1st, I would like to test caigo with pathfinder on-demand in the CI with the pathfinder updates
+- 2nd is more theorical. How far are we to be able to run a fork of the mainnet on a local node with pathfinder?","",""
+"420477687409278986","tarrence#4186","25/06/2022 9:25 pm","hey guys! thanks for putting the channel together and sorry for the delay in checking it out","",""
+"420477687409278986","tarrence#4186","25/06/2022 9:27 pm","not sure if you have seen this but we have an opensource golang indexer here: https://github.com/cartridge-gg/starknet-indexer would be great to collaborate on it if it makes sense for your project too!","",""
+"896707292576235540","gregoryguillou","25/06/2022 9:36 pm","Yes I saw it and there is a reason I did not use it but I do not remember. I will get back to you with an answer later today. Btw, I saw your presentation in starkhouse too. I am 🚀🚀🚀","",""
+"896707292576235540","gregoryguillou","26/06/2022 12:36 am","Started a thread.","",""
+"775783595625152554","drspacemn#9574","27/06/2022 11:38 pm","@gregoryguillou great work on the RPC PRs. Once those are merged I'd like to cut a release.","",""
+"896707292576235540","gregoryguillou","27/06/2022 11:41 pm","I am missing (1) estimateFee and (e) addInvokeTransaction. The other one are not available with Pathfinder.","","👍 (1)"
+"896707292576235540","gregoryguillou","28/06/2022 1:17 am","@drspacemn | StarkWare @tarrence Do you mind if I create issues on the project issue board? To help with onboarding people and provide some sort of roadmap. This way you can also add your thoughts. I would work on the 3 first items this week:
+
+1. Add test and support for devnet on RPC
+2. Rely on reflect.DeepCompare to ""snapshot"" output and track changes
+3. Find whitelisted contract to test Deploy and Declare on mainnet
+4. Build tests for estimateFee and Invoke on testnet
+5. Implement and tests the API with the Gateway
+6. Run a nightly test to detect changes in the api
+7. Create `docs` to better document the project
+8.  provide `abigen` to create a higher level API from the ABI file (already created)
+9. Provide a release note and plan the version to come","",""
+"896707292576235540","gregoryguillou","28/06/2022 4:30 am","Hi, I have created my 3 last PR: 1 for starknet_estimateFee, 1 for starknet_addInvokeTransaction and 1 to add Github Actions to the repository. I'm done for the week I think. Do not hesitate to comment. 🙏","",""
+"775783595625152554","drspacemn#9574","28/06/2022 11:03 pm","FYI, `github action` on that CI PR: https://github.com/dontpanicdao/caigo/actions/runs/2578044287","","❤️ (1)"
+"775783595625152554","drspacemn#9574","28/06/2022 11:05 pm","Yes this sounds like a great idea. If you want to start the issue board and point me to it I'll help in populating it.","",""
+"896707292576235540","gregoryguillou","29/06/2022 2:15 am","@drspacemn | StarkWare @tarrence  I have populated issues in https://github.com/dontpanicdao/caigo/issues . Except for abigen, it is ""just"" tests, tests, test and docs and tests. I am not the product guy as you can guess 🖖 . I am not sure that makes sense to create a project with milestones and sort/rank. Up to you! If you have ideas for more tests, do not hesitate to document 🤣🤣🤣🤣🤣","","🔥 (1)"
+"775783595625152554","drspacemn#9574","29/06/2022 3:13 am","lol `tests testes test docs tests` is exactly what we need","",""
+"775783595625152554","drspacemn#9574","29/06/2022 3:13 am","#🦦｜starknet-go https://github.com/dontpanicdao/caigo/releases/tag/v0.3.0
+
+@gregoryguillou @tarrence 
+Thanks for some awesome work","","🚀 (4)"
+"896707292576235540","gregoryguillou","29/06/2022 3:26 am","@koivunej  Thank you for your help on this release ! We've managed to implement all the RPC methods available in Pathfinder with go-ethereum (i.e. with positional parameters).  Now we are waiting for the missing ones 🍻","",""
+"896707292576235540","gregoryguillou","29/06/2022 3:32 am","Pinned a message.","",""
+"896707292576235540","gregoryguillou","03/07/2022 8:06 pm","Hello @drspacemn | StarkWare and @tarrence ; I have added devnet to the CI and make it work with `starknet_chainId` and `starknet_protocolVersion` . Can you check https://github.com/dontpanicdao/caigo/pull/65 ?","",""
+"775783595625152554","drspacemn#9574","05/07/2022 11:32 pm","@tarrence are you free for a call next monday to discuss `abigen`?","",""
+"420477687409278986","tarrence#4186","05/07/2022 11:33 pm","sure!","",""
+"775783595625152554","drspacemn#9574","05/07/2022 11:41 pm","@gregoryguillou @tarrence how does 11:45 AM EST July 11th work?","","👍 (2)"
+"894836381896019979","tomorrowforsure.eth","07/07/2022 3:13 pm","Hey @drspacemn | StarkWare, I have worked on a (very) basic implementation of the abigen to have it work for erc20 and erc721 contracts from openzeppelin, would be interested to join the call as well if possible","","🚀 (1)"
+"775783595625152554","drspacemn#9574","08/07/2022 1:38 am","Awesome! I'll send the invite out tomorrow","","👍 (1)"
+"775783595625152554","drspacemn#9574","11/07/2022 6:43 pm","Invite for Abigen sync: 
+
+Topic: Caigo: abigen sync
+Time: Jul 11, 2022 09:45 AM Mountain Time (US and Canada)
+
+Join Zoom Meeting
+https://us02web.zoom.us/j/82704512656
+
+Meeting ID: 827 0451 2656","","👍 (1)"
+"775783595625152554","drspacemn#9574","11/07/2022 9:05 pm","@tomorrowforsure.eth are you able to make this in ~10min?","",""
+"894836381896019979","tomorrowforsure.eth","11/07/2022 9:07 pm","@drspacemn | StarkWare I'll be there :)","","👍 (1)"
+"775783595625152554","drspacemn#9574","12/07/2022 1:44 am","@tomorrowforsure.eth if you'd prefer to submit a PR to this branch that works too:
+https://github.com/dontpanicdao/caigo/tree/feature/abigen
+
+Whatever is convenient","",""
+"894836381896019979","tomorrowforsure.eth","12/07/2022 1:53 am","Good for me too, will do tmr :)","",""
+"775783595625152554","drspacemn#9574","21/07/2022 8:47 pm","Presenting some of Caigo tomorrow at StarkNet CC:","",""
+"775783595625152554","drspacemn#9574","21/07/2022 8:47 pm","","https://cdn.discordapp.com/attachments/988913308918743070/999696702992810085/caigo.png","🔥 (2)"
+"420477687409278986","tarrence#4186","22/07/2022 2:17 am","@drspacemn | StarkWare @gregoryguillou i think we should consider migrating to juno's felt type https://github.com/NethermindEth/juno/tree/main/pkg/felt","",""
+"420477687409278986","tarrence#4186","22/07/2022 2:18 am","would improve interop and seems like a more robust implementation","",""
+"896707292576235540","gregoryguillou","22/07/2022 2:28 am","It says `// Code generated by consensys/gnark-crypto` I will have a deeper look. perfect timing","",""
+"896707292576235540","gregoryguillou","22/07/2022 9:08 am","@tarrence  regarding your idea, The change on the caigo side sofar is not that big and we need to review the way Felt is used... We were talking about it with @drspacemn | StarkWare earlier this week in Paris.
+
+I personally, do not see the case for doing it:
+- why use Juno upstream of Caigo when their code is actually generated from another lib (Go proverb: A little copying is better than a little dependency)?
+- I reproduced the `go generate` and the code is huge including several implementations of felt in assembly for various arch (Go proverb: ""Cgo is not Go"")
+- And also Go Proverb ""Clear is better than clever"", the implementation we have is just a wrapper on the stdlib. Their is a full reimplementation of Felt with 4 uint64.
+
+Maybe we should open an issue to track this decision. From what I see they are actively developing Juno, their code is good and they are a company. What worries me is that they are not afraid of huge dependencies. As an illustration, I would advocate that a project with a Makefile is too big for me.
+
+A compromise could be to move Felt in a separate package from away from `types` and make sure we share an Interface but yet rely on a current implementation that is a stdlib wrap and allow to change it. I would argue that I need to better understand the benefit and even if they'd be 10x faster, I might not be convinced over the additional complexity. But again, it is doable and not my choice. Lets just make sure Caigo remains simple.","",""
+"420477687409278986","tarrence#4186","22/07/2022 8:45 pm","Generally agree with you that their implementation is quite heavy handed. I wonder why they decided to go that route. I think a `[]byte` representation makes more sense than `big.Int` since it is more approachable from a devex perspective. The reason to use it would be to maintain compatibility. Eventually I think Juno will gain traction, since as a node implementation it has/will have a lot more activity and legitimacy. Making them compatible would allow us to avoid things like this: https://github.com/smartcontractkit/chainlink-starknet/blob/0bdad78661dc27028546180ca5bcead1c9b69076/relayer/pkg/chainlink/ocr2/utils.go#L67","",""
+"896707292576235540","gregoryguillou","23/07/2022 2:36 am","They did not implement anything actually the whole thing is 100% generated from the consensys library. I met with the Juno PM (or I think he is) today. Very good conversation. 
+
+You read a lot of code... and that is very very interesting ! I am learning. Is it just you digging or do you use some sort of tool?
+
+I am wondering if we could not simply rely on an interface. Let me check that this WE.","",""
+"429096494713274369","0xcoburn","24/07/2022 1:55 am","Did this get recorded?","",""
+"896707292576235540","gregoryguillou","26/07/2022 5:51 pm","https://www.twitch.tv/videos/1539224716?t=02h53m28s","","🔥 (1)"
+"896707292576235540","gregoryguillou","26/07/2022 5:53 pm","@tarrence @drspacemn | StarkWare I've slightly changed the issue on the project to see if we can create incentives for PR the project. Do not hesitate to comment","",""
+"420477687409278986","tarrence#4186","02/08/2022 1:04 am","@gregoryguillou @drspacemn | StarkWare one challenge i've run into with caigos unified interface is that gateway expects decimal inputs and rpc expects hex encoded","",""
+"420477687409278986","tarrence#4186","02/08/2022 1:04 am","i started looking at addressing it here: https://github.com/dontpanicdao/caigo/pull/72","",""
+"420477687409278986","tarrence#4186","02/08/2022 1:04 am","not sure what the best approach is though","",""
+"896707292576235540","gregoryguillou","02/08/2022 1:32 am","@tarrence the plan we talked about with @drspacemn | StarkWare  would be to pass all the parameters to Felt as described in https://github.com/dontpanicdao/caigo/issues/75 . That would fix it. What do you think?","",""
+"420477687409278986","tarrence#4186","02/08/2022 1:36 am","We should def move to felts but that wont solve the problem since it has to do with how the values are marshalled","",""
+"420477687409278986","tarrence#4186","02/08/2022 1:36 am","We need to marshal to decimal strings for gateway and hex for rpc","",""
+"896707292576235540","gregoryguillou","02/08/2022 2:25 am","Interesting question... Could this help https://go.dev/play/p/4O4FfnF6z0d ? We can cast 1 struct type into another if the members match","",""
+"896707292576235540","gregoryguillou","02/08/2022 3:08 am","or closer to our need? https://go.dev/play/p/dlmU5BjbQ_R","",""
+"420477687409278986","tarrence#4186","02/08/2022 5:33 am","Hm thats one solution but would break the uniform interface right?","",""
+"420477687409278986","tarrence#4186","02/08/2022 5:34 am","Oh are you thinking one of the implementations would wrap the felt and define a custom marshaller?","",""
+"420477687409278986","tarrence#4186","02/08/2022 5:34 am","I think that would work well","",""
+"896707292576235540","gregoryguillou","02/08/2022 9:32 am","I was throwing ideas in the wall and yes, that is an idea.","",""
+"896707292576235540","gregoryguillou","09/08/2022 3:15 pm","@Lime has found a bug when adding some tests on the Gateway. https://github.com/dontpanicdao/caigo/issues/81 . Should we simply turn the key as a string for an int in base10 or should we provide an abstraction? 
+
+There will be a PR about the ""Felt move"" to come but I would like to fix it right away to make the test pass/fail. What do you think @drspacemn | StarkWare and @tarrence  ?","",""
+"775783595625152554","drspacemn#9574","10/08/2022 10:20 pm","Hey sorry for my absence, just got back from ETH Seoul. Looking to make a push on caigo this week.","",""
+"775783595625152554","drspacemn#9574","10/08/2022 10:28 pm","Seems like everyone agreed here so I have merged, and the implementation looks very nice (https://github.com/dontpanicdao/caigo/blob/06e091c57d1c05c9451c57f67a5330880b955e37/gateway/storage.go#L27)","",""
+"775783595625152554","drspacemn#9574","10/08/2022 10:55 pm","I want to benchmark consensys/juno Felt to ours to see how much more performant it is. @gregoryguillou @tarrence I'm a bit confused on the consensys field generator that Juno is using...did they change the generator to be an internal pkg? Greg how did you replicate the code generation?","",""
+"775783595625152554","drspacemn#9574","10/08/2022 11:09 pm","Just asked internally if we have any plans for the `gateway` to accept both int and hex representations. Would be nice to not have to handle this on the client side","",""
+"896707292576235540","gregoryguillou","10/08/2022 11:17 pm","@internos is working on the Felt PR. We will find something anyway 🖖","",""
+"892749691362635816","w39200#2638","11/08/2022 9:38 am","What is caigo?","",""
+"896707292576235540","gregoryguillou","11/08/2022 5:50 pm","a lib in Go to interact with Cairo/Starknet","",""
+"896707292576235540","gregoryguillou","13/08/2022 5:59 pm","Easy:
+
+```
+mkdir -p felt/internal/cmd/generator
+curl -L -o felt/internal/cmd/generator/main.go https://raw.githubusercontent.com/NethermindEth/juno/main/pkg/felt/internal/cmd/generator/main.go
+go mod tidy
+cd felt/internal/cmd/generator
+go generate
+```
+
+Now you can learn arm64 assembly to write the MacOS version of it!🤣","",""
+"896707292576235540","gregoryguillou","17/08/2022 7:23 pm","@drspacemn | StarkWare @tarrence It looks like there is a bug with the `deploy` on the gateway https://github.com/dontpanicdao/caigo/issues/95","",""
+"896707292576235540","gregoryguillou","24/08/2022 7:30 pm","Hi @drspacemn | StarkWare , you can review https://github.com/dontpanicdao/caigo/pull/96 . The test will need a pathfinder 0.3.1 to pass anyway","",""
+"896707292576235540","gregoryguillou","24/08/2022 7:33 pm","yet... I still need to work on the tests. But is it readable","",""
+"775783595625152554","drspacemn#9574","25/08/2022 2:04 am","Looks awesome. Will continue reviewing before our sync on friday","",""
+"896707292576235540","gregoryguillou","25/08/2022 2:05 am","It does not pas everything yet but I only need a few verbs for the indexer so I am focusing on it. No rush!","",""
+"896707292576235540","gregoryguillou","26/08/2022 3:21 am","I did 2 things I like a lot to detect changes in the protocol and structures:
+- I added a spy that collect the payload as []byte when running the rpc call and then help to fully compare it to the mapped struct we are using to store the data https://github.com/dontpanicdao/caigo/blob/9395e62f777e28fbc875305608d7add8dc7e1746/rpc/spy_test.go#L37 . If something change we will detect it !
+- I added a ""deep"" equal between what we expect and what we get https://github.com/dontpanicdao/caigo/blob/9395e62f777e28fbc875305608d7add8dc7e1746/rpc/api_block_test.go#L153 with google go-cmp package
+Those 2 dependencies are only in the test, not the code!","",""
+"896707292576235540","gregoryguillou","26/08/2022 9:26 pm","Hello, @koivunej we are moving caigo to pathfinder 0.3.1 and I have a quick question: It seems to me you don't return the TXN_TYPE as part of the COMMON_RECEIPT_PROPERTIES for Declare/Deploy Receipt right now. Am I correct?  see example to come...","",""
+"896707292576235540","gregoryguillou","26/08/2022 9:51 pm","@drspacemn | StarkWare @tarrence I am at a stage where https://github.com/dontpanicdao/caigo/pull/96 is good for me and yet I am very sure there are bugs (like there was before btw)! I have been working on this PR for 10 days now and I think most challenges have been tackled. Do you think I should target to apply the PR to `main` or would you consider leaving it on a separate branch for now? My point is that if we do not apply it will leave many opportunities for anyone to generate conflicts for something that is already deprecated somehow...","",""
+"896707292576235540","gregoryguillou","26/08/2022 9:54 pm","And btw @drspacemn | StarkWare I will need you spend some time on it . I know we can make it way simpler","",""
+"896707292576235540","gregoryguillou","28/08/2022 12:52 pm","Hello @koivunej , it is me again... sorry! When I call `starknet_getNonce` with latest or pending and a test account with Pathfinder 0.3.1 on goerli it does not work (see curl below). Is it we need the 0.10.0 protocol ? 
+
+```
+curl -s -X POST -H 'Content-Type: application/json' -d '{""jsonrpc"":""2.0"",""id"":""0"",""method"":""starknet_getNonce"",""params"":[""latest"", ""0x0207aCC15dc241e7d167E67e30E769719A727d3E0fa47f9E187707289885Dfde""]}' https://localhost:9545 | jq
+
+
+{
+  ""jsonrpc"": ""2.0"",
+  ""error"": {
+    ""code"": -32602,
+    ""message"": ""Invalid nibble found: 0x70 at line 1 column 10""
+  },
+  ""id"": ""0""
+}","",""
+"896707292576235540","gregoryguillou","05/09/2022 2:08 pm","Hi @koivunej, just in case you did not pin-point it yet, it looks like `starknet_Call `should not be impacted with the 0.10.0 upgrade opposite to what the Pathfinder 0.3.2 release note says. See answer from @Lucas | StarkWare . Thank everyone for the precious help! https://discord.com/channels/793094838509764618/793094838987128843/1016257639455399988","",""
+"775783595625152554","drspacemn#9574","09/09/2022 2:09 am","The folks from paradigmOTC have brought up a few issues while using v0.3.0:
+- EventParams now need the BlockID as @gregoryguillou has incorporated in https://github.com/dontpanicdao/caigo/pull/96
+- Basic block querying with the new methods from RPC spec v0.2.0 (also included in https://github.com/dontpanicdao/caigo/pull/96) 
+
+In order to unblock everyone using v0.3.0 w/o introducing the rest of the Type structures and breaking changes I've made a minor release of v0.3.1 here: https://github.com/dontpanicdao/caigo/releases/tag/v0.3.1
+
+Also @gregoryguillou it looks like there is an issue when attempting to include just the a block tag, I'll submit a fix soon:
+```
+block, err := client.BlockWithTxs(context.Background(),  rpc.WithBlockTag(""latest""))
+log.Printf(""block %v, err %v"", block, err)
+
+// returns: 2022/09/08 14:38:44 block <nil>, err unknown variant `block_tag`, expected one of `block_number`, `block_hash`, `latest`, `pending` at line 1 column 13
+```","",""
+"896707292576235540","gregoryguillou","09/09/2022 2:10 am","This has been changed!","",""
+"896707292576235540","gregoryguillou","09/09/2022 2:10 am","last PR","",""
+"896707292576235540","gregoryguillou","09/09/2022 2:10 am","and yes it is failing","",""
+"896707292576235540","gregoryguillou","09/09/2022 2:11 am","@tarrence knows how to fix it","","👍 (1)"
+"896707292576235540","gregoryguillou","09/09/2022 2:49 am","Thank  @drspacemn | StarkWare  for this explaination and change. Not everything is in our hands and be aware that it might take time. This is why:
+
+- Pathfinder is moving toward Starknet v0.2.0 JSON-RPC API. Because we are moving fast, the way they provide compatibility is by having the ability to run a node in the previous version. Unfortunately, on Goerli, right now, we cannot use a node that is earlier than v0.3.3 due to some changes on the network and there is at least 1 one blocking issue for `starknet_call` that should be fix with 0.4.x to come
+
+- Starknet JSON-RPC v0.2.0 is not yet fully implemented and we were considering moving forward to implement the API only with the new release. I least I was. That release is from Tuesday.
+
+- Most project are using Goerli as their ""current demonstration"", i.e. is like production. As a result, it is hard for us to have say: (1) 0.3.0 of Caigo that would be ""prod-like"" for mainnet and (2) main of Caigo that would be ""possibly broken on Goerli. Reminder, we can only start our devs when it reaches Goerli right now.
+
+If you need to access Starknet with Go ❤️ . This are a few hints you might want to consider:
+- What has been done, is.a good way to start. Get in touch with the people using Caigo in that channel
+- For now and because it is more unlikely to change, rely on the gateway that is also part of Caigo. At least for calling contracts
+- If you have an issue, you can very easily bypass our type system by running the query through the json-rpc client we use that is the one from go-eth directly on your node. You will love playing with `map[string]interface{}` and `[]interfaces` ... it will feel like javascript and yes, it will break the same way 🤣 
+- Do not hesitate to open a PR, even to write a failing test!","",""
+"775783595625152554","drspacemn#9574","09/09/2022 2:55 am","Totally understand. Client libraries and SDKs are definitely between a rock and a hard place for the time being..","",""
+"896707292576235540","gregoryguillou","09/09/2022 2:58 am","I am not complaining. Just trying to explain. Starknet is fun. Go is fun and way easier to read than most languages. It was more like a call for people to come and provide ideas/feedbacks. We are happy to help!","",""
+"775783595625152554","drspacemn#9574","09/09/2022 2:58 am","💯 agree","",""
+"429096494713274369","0xcoburn","09/09/2022 6:56 am","Hey @gregoryguillou @drspacemn | StarkWare 👋🏼 been watching the channel and following the repo since summer started. I’m interested in helping out with this project and improving my go and overall dev skills. I’m not super experienced with go and definitely consider myself a jr dev overall, just wanted to say hi and maybe see what you guys suggest as a good place to start appreciate any feedback 😃","","bullish (6)"
+"429096494713274369","0xcoburn","09/09/2022 10:59 pm","@drspacemn | StarkWare
+just tried to ping you","",""
+"775783595625152554","drspacemn#9574","09/09/2022 11:17 pm","Hey @Coburn | StarkTitan we would be happy to have you!
+Best place to chat for me is probably Telegram w/ the same handle `drspacemn`","","👍 (1)"
+"896707292576235540","gregoryguillou","12/09/2022 10:05 pm","Hi @koivunej ... we all have seen your PR to support v0.10 ! 🚀🚀 🚀   There are a few things we did not understand though:
+1. Do you want/plan to make the tx turn into v1 (i.e remove the entry_point_selector) without users knowing? Or is it just me being paranoid?
+2. I do not get the need to for everybody to implement v0.2.0 of the JSON RPC protocol before you have it fully done. Is there a bigger plan I should know (like unprovisioning the gateways for instance?)","",""
+"609654755786096652","koivunej","12/09/2022 10:26 pm","Started a thread.","",""
+"896707292576235540","gregoryguillou","14/09/2022 7:24 pm","Hi @koivunej quick feedback you might be interested in with pathfinder v0.3.4.","",""
+"940510380332040193","zorozor1","23/09/2022 11:01 am","Hi team, looking to push this PR through review https://github.com/dontpanicdao/caigo/pull/124","","🖖 (1)"
+"896707292576235540","gregoryguillou","23/09/2022 11:34 am","Started a thread.","",""
+"940510380332040193","zorozor1","27/09/2022 6:20 am","Hey team, doesn't seem like there are any examples for the RPC when it comes to write operations. Having trouble doing things like invoking transactions using the RPC as there isn't any examples. Examples in test cases use private functions like `fmtV0CalldataStrings` to create calldata.
+
+Is there something we can do (i.e. make public) to make formatting Calldata easier as I don't want to copy paste logic","",""
+"940510380332040193","zorozor1","27/09/2022 7:22 am","Started a thread.","",""
+"896707292576235540","gregoryguillou","07/10/2022 9:32 am","@Rez | Immutable X Sorry. I did not see your issue. This is the answer https://github.com/dontpanicdao/caigo/issues/135#issuecomment-1271081932 (Actually more like a question) ! I am considering having 30min calls to address these kind of issues. Would Monday 5pm AEDT make it for you?","",""
+"896707292576235540","gregoryguillou","09/10/2022 8:32 pm","@here, we are planning an ""official"" release of Caigo in the coming days/weeks, depending on the availability of Tx V1 on the RPC v0.1. We have been successfully testing patched version of Pathfinder and Devnet.
+
+Want to help? this is what you should do
+- check `main` and do not hesitate to ask questions come with ideas
+- Join the Caigo community calls that will be schedule on Monday, the 17th by @Lucas | StarkWare .
+
+The release will contain:
+- A shared implementation of an  `Account` that supports TxV0, TxV1 and plugins. It works both with the Gateway and RPC v0.1
+- A battle tested Tx v1 implementation for
+   - the Gateway
+   - RPC v0.1. We have discussed changes with #💻｜devnet  and #🛰｜pathfinder-support-only. People are working/fixing them, see  https://github.com/Shard-Labs/starknet-devnet/pull/303 and https://github.com/eqlabs/pathfinder/issues/632 for details.
+- A new and cleaned up type systems: 
+  - That would allow to implement v0.2 in parallel of v0.1
+  - That are protocol specific beyond the `Account`. You can choose your preferred protocol and develop on it. Note that RPC is at the corner and we can almost do as much as with it than with the Gateway... plus it is yours!
+-  Tools to help with #💻｜devnet , thank to the feedback from @Rez | Immutable X 
+- 3 experimental account contracts based on OZ with deployment scripts
+  - A V0 account that works with and without a Proxy
+  - A V1 account that works with and without a Proxy
+  - A V0 account with support for plugins that works with and without a Proxy
+- A merkle tree algorithm that matches the starknet.js implementation with a proof that is fixed in size
+- An implementation of a template plugin (caigo library)
+- A Go plugin tested with the template plugin and the Argent-X plugin.","","🔥 (5),🚀 (3),❤️ (2),👿 (2),PU_PepeNarutoRun (2),PU_PeepoStrong (2),PU_pepeBreakShirtStrong (2)"
+"896707292576235540","gregoryguillou","17/10/2022 2:03 pm","We will attempt to have a first 30 min Caigo-weekly-call (That is the name of the voice channel) later today. I will send a message 5' before the call. The planned slot is:
+- 5pm UTC
+- 6pm CET
+- 1pm EDT
+- 10am PDT
+If you want to have a cc at another hour next week, let me know we might organize a 2nd one. Ttul","",""
+"896707292576235540","gregoryguillou","17/10/2022 10:18 pm","caigo community call in 10 min","",""
+"896707292576235540","gregoryguillou","17/10/2022 10:21 pm","https://discord.gg/XtyeVbf3","",""
+"896707292576235540","gregoryguillou","17/10/2022 10:24 pm","The presentation associated with the cc is here https://docs.google.com/presentation/d/1VPsujSfjNnVsAE5NRpECef3DR3X6BUuMQKw5Tx4wVk0/edit?usp=sharing","",""
+"940510380332040193","zorozor1","20/10/2022 12:32 pm","I'm having an issue with Caigo where calling on-chain ERC20 balance works fine if I use blockID.Tag = latest, but if I want to use block.Number, I get the error: ""Internal error"". Will continue debugging tomorrow but bringing visibility incase you know of the issue","",""
+"896707292576235540","gregoryguillou","20/10/2022 12:36 pm","mmm. 1) What version and 2) what call? gw or rpc?","",""
+"940510380332040193","zorozor1","20/10/2022 12:56 pm","rpc call. Version is `github.com/dontpanicdao/caigo v0.3.1-0.20220927182323-6b4f3cf25733`","",""
+"642409896800944169","denfav","21/10/2022 3:19 am","Hi all, I see the next error after clean installation and update to 0.3.6. Also on pip install I can see the error on 2nd screen
+What is wrong? Will be glad for any help","https://cdn.discordapp.com/attachments/988913308918743070/1032772661971009536/unknown.png,https://cdn.discordapp.com/attachments/988913308918743070/1032772662314938418/unknown.png",""
+"429096494713274369","0xcoburn","21/10/2022 5:08 am","I think this is regarding pathfinder node? They can better assist you over in #🛰｜pathfinder-support-only","","StarkNet (3),👍 (2)"
+"896707292576235540","gregoryguillou","24/10/2022 2:04 am","caigo v0.4.0 is out! It includes the following:
+
+- support for Starknet v0.10.1 protocol on the gateway
+- support for Starknet v0.10.0 protocol on the rpc v0.1 because it is not compatible with the latest release
+- support for both V0 and V1 accounts for invoke transaction
+- an account manager to install many account versions, including the plugin account and the openzeppelin accounts
+- an account interface and the associated implementation for both the gateway and rpc v0.1
+- support for plugin extensions in the account and an implementation of the session key.
+- some tools to work with devnet and transform help with converting data
+- an implementation of a fixed-size merkle tree algorithm","","🔥 (3)"
+"896707292576235540","gregoryguillou","24/10/2022 2:04 am","https://github.com/dontpanicdao/caigo/releases/tag/v0.4.0","",""
+"906531618305495060","main9621","06/11/2022 7:28 pm","excuse me, I meet a error when I try to deploy on the mainnet, it returns the error: 500: StarknetErrorCode.NON_PERMITTED_CONTRACT The contract class attempted to be deployed is not permitted.","",""
+"906531618305495060","main9621","06/11/2022 7:29 pm","with all of the code, deploy on the testnet is OK, while when I change the env from ""testnet"" to ""mainnet"", it returns the error: 500: StarknetErrorCode.NON_PERMITTED_CONTRACT The contract class attempted to be deployed is not permitted.","",""
+"906531618305495060","main9621","06/11/2022 7:29 pm","anyone could help me?","",""
+"906531618305495060","main9621","06/11/2022 7:29 pm","thanks","",""
+"906531618305495060","main9621","06/11/2022 7:34 pm","this code works well under testnet:","https://cdn.discordapp.com/attachments/988913308918743070/1038816267357929522/image.png",""
+"429096494713274369","0xcoburn","06/11/2022 9:56 pm","thanks for the feedback !
+@gregoryguillou any clue?","",""
+"896707292576235540","gregoryguillou","06/11/2022 10:31 pm","Hi @MAIN , currently you need to whitelist your class to go for mainnet! Message with the #🚑｜dev-help to get some help. cc @Coburn | StarkTitan . Your command might be correct, just need a greenlight from the starknet team for now...","",""
+"429096494713274369","0xcoburn","06/11/2022 10:33 pm","AFAIK you need to apply here https://forms.reform.app/starkware/SN-Alpha-Contract-Deployment/l894lu
+for mainnet before you deploy","",""
+"429096494713274369","0xcoburn","06/11/2022 10:34 pm","Mainnet is not exactly permissionless at the moment, I’m sure they willl give you a whitelist address once its approved","",""
+"906531618305495060","main9621","07/11/2022 4:39 am","OK, thank you all, thank you so much","",""
+"565376910347993088","popeye#3940","16/11/2022 9:37 am","","https://cdn.discordapp.com/attachments/988913308918743070/1042289740877135922/image.png",""
+"565376910347993088","popeye#3940","16/11/2022 9:37 am","how to install this lib","",""
+"278620385413431297","robodehri","02/12/2022 4:37 am","anyone actively developing? I started getting entrypoint not found errors after upgrading my wallets. Does anyone have any suggestions?","",""
+"278620385413431297","robodehri","02/12/2022 1:59 pm","non-upgraded wallets stop working also. I was able to send txs a week ago with those wallets.","",""
+"705769314858565753","alex.sumner","02/12/2022 6:01 pm","Hi, does anyone know what I should pass as networkName here to get Goerli2?
+
+    gw := gateway.NewProvider(gateway.WithChain(networkName))
+
+I've tried ""goerli2"", ""alpha-goerli2"", ""testnet2"" and ""SN_GOERLI2"" but I always get gw returned is
+
+{https://alpha4.starknet.io https://alpha4.starknet.io/feeder_gateway https://alpha4.starknet.io/gateway SN_GOERLI 0x103790700 <nil>}
+
+Which I think is Goerli, not Goerli2?","",""
+"705769314858565753","alex.sumner","02/12/2022 7:22 pm","Answering my own question in case anyone else has the same problem...
+
+Don't use gateway.WithChain, use gateway.WithBaseURL:
+
+    `gw := gateway.NewProvider(gateway.WithBaseURL(""https://alpha4-2.starknet.io""))`","",""
+"278620385413431297","robodehri","02/12/2022 8:43 pm","There are constants defined in the library for both base url and id, you  could also use them","",""
+"705769314858565753","alex.sumner","02/12/2022 11:03 pm","Thanks, I saw these in gateway/gateway.go
+```const (
+    INVOKE         string = ""INVOKE_FUNCTION""
+    DEPLOY         string = ""DEPLOY""
+    DEPLOY_ACCOUNT string = ""DEPLOY_ACCOUNT""
+    DECLARE        string = ""DECLARE""
+    GOERLI_ID      string = ""SN_GOERLI""
+    MAINNET_ID     string = ""SN_MAIN""
+    LOCAL_BASE     string = ""http://localhost:5050""
+    GOERLI_BASE    string = ""https://alpha4.starknet.io""
+    MAINNET_BASE   string = ""https://alpha-mainnet.starknet.io""
+)
+```
+I haven't found anything for Goerli2, maybe I'm not looking in the right place though?","",""
+"278620385413431297","robodehri","02/12/2022 11:08 pm","Ah sorry i just saw that you were looking for goerli2","",""
+"278620385413431297","robodehri","02/12/2022 11:11 pm","Sdk needs a new version for sure","",""
+"705769314858565753","alex.sumner","02/12/2022 11:22 pm","Thanks! Different challenge for me now... I have deployed a contract on Goerli2, it's at address 
+
+0x000482a9a9b7412cdfcc3a7c0ff119dfc7dc9e29b03cbac6296fba4a76abfaa8 
+
+and it has a function process_pending_deposits which has no parameters and shows up in Goerli2 Voyager. According to Voyager the contract class hash is
+
+0x0500f204f5395114e002847872e1e03bdd68d639a493429c9b9f8024f17fc536
+
+But when I call the following (which is based on examples/account/main.go)
+
+```    txInfo := []types.FunctionCall{
+        {
+            ContractAddress:    types.HexToHash(""0x000482a9a9b7412cdfcc3a7c0ff119dfc7dc9e29b03cbac6296fba4a76abfaa8""),
+            EntryPointSelector: ""process_pending_deposits"",
+        },
+    }
+    fee, err := ch.account.EstimateFee(ctx, txInfo, types.ExecuteDetails{})
+```
+I get the error 
+
+```Error estimating fee for StarkNet transaction 500: StarknetErrorCode.ENTRY_POINT_NOT_FOUND_IN_CONTRACT Entry point 0x1ac47721ee58ba2813c2a816bca188512839a00d3970f67c05eab986b14006d not found in contract with class hash 0x8d8726481b7b8a4a8f95aa2ce6a18932c33148600c75b1b4fe40c5987c6c9a```
+
+Which I don't understand because that's a different class hash to the one reported by Voyager.
+
+Do you have any insight on where this contract class hash might be coming from?","",""
+"705769314858565753","alex.sumner","02/12/2022 11:35 pm","@robodehri is this the same problem you are seeing?","",""
+"278620385413431297","robodehri","02/12/2022 11:37 pm","Yes","",""
+"278620385413431297","robodehri","02/12/2022 11:38 pm","I get this when i try to execute a function with upgraded wallets","","👍 (1)"
+"705769314858565753","alex.sumner","02/12/2022 11:45 pm","I'm using an account I created a few weeks ago using the HardHat plugin:
+```starknet.deployAccount(""OpenZeppelin"")```
+I'm not sure how to upgrade that?","",""
+"896707292576235540","gregoryguillou","02/12/2022 11:54 pm","0x1ac47721ee58ba2813c2a816bca188512839a00d3970f67c05eab986b14006d stands for get_nonce. The problem is not your contract needed to be upgraded but your tx using the v0 version of the protocol","",""
+"278620385413431297","robodehri","03/12/2022 12:19 am","I assume this is also the case with me because i also get entrypoint not found","",""
+"896707292576235540","gregoryguillou","03/12/2022 12:30 am","You need to check the entry point felt. Is it the same?","",""
+"896707292576235540","gregoryguillou","03/12/2022 7:26 pm","You are not using #🦦｜starknet-go or are you?","",""
+"705769314858565753","alex.sumner","05/12/2022 10:50 pm","Following today's upgrade of the StarkNet testnets the Goerli2 network has a new chain ID SN_GOERLI2.
+
+Prior to the StarkNet upgrade a caigo client could connect to Goerli2 as follows:
+```
+ gw := gateway.NewProvider(gateway.WithBaseURL(""https://alpha4-2.starknet.io""))
+account, err := caigo.NewGatewayAccount(<account private key>, <account address>, gw, caigo.AccountVersion1)
+```
+But since the upgrade the returned account has all transactions rejected with the message “Signature (…, …), is invalid, with respect to the public key …, and the message hash …”.
+
+I have submitted a pull request https://github.com/dontpanicdao/caigo/pull/186 with a fix for this. With this pull request clients can successfully connect as follows:
+```
+ gw := gateway.NewProvider(gateway.WithChain(""SN_GOERLI2""))
+ account, err := caigo.NewGatewayAccount(<account private key>, <account address>, gw, caigo.AccountVersion1)
+```
+Passing any string which contains ""goerli2"" in either upper or lower case as the chain ID will work.
+
+Please could one of the maintainers have a look at this and let me know if the fix seems reasonable, and if there is anything else I should do to get it merged?","",""
+"691283857206542386","ulerdogan","08/12/2022 12:56 am","Is there an example of custom RPC integration for caigo calls?","",""
+"619138323776012307","guthl_starkware","09/12/2022 12:49 am","Can you add me as friend and DM me? Trying to reach out","","👍🏼 (1)"
+"235148962103951360","Carl-bot#1536","09/12/2022 12:49 am","Oi frens, really nice you want to connect privately.. but juuuuust maaaake sure this is safe! don't click any links, don't send any keys, don't invite to birthday parties.","",""
+"896707292576235540","gregoryguillou","09/12/2022 3:37 am","Check the tests and do not hesitate to ask or cc me for more questions. I am interested to improve the doc...","",""
+"896707292576235540","gregoryguillou","09/12/2022 3:37 am","Started a thread.","",""
+"429096494713274369","0xcoburn","10/12/2022 7:54 am","I'm trying to run the contract example from https://pkg.go.dev/github.com/dontpanicdao/caigo#section-readme
+```cd examples/contract
+go mod tidy
+go run main.go```
+and i get 
+``./main.go:28:34: undefined: contracts.CounterCompiled``
+
+So i tried to compile the counter.cairo file and got
+```counter.cairo:17:5: Unknown identifier '__main__.counter.write'.
+    counter.write(0);
+    ^***********^```
+the code looks fine https://github.com/coburn24/caigo/blob/main/contracts/src/counter.cairo
+not sure why im getting this error
+``cairo-compile v0.10.3``","",""
+"429096494713274369","0xcoburn","10/12/2022 8:00 am","nvm just had to use starknet-compile instead of cairo-compile","",""
+"429096494713274369","0xcoburn","11/12/2022 4:18 am","so i was able to compile it but i still get 
+``./main.go:28:34: undefined: contracts.CounterCompiled``
+which makes sense but i'm not sure what to do next to resolve that","",""
+"492775270944604180","vargastartup#1355","16/12/2022 8:58 pm","posted your question on newton: https://www.newton.so/view/639c8d95ecad2b38c0da3311","",""
+"705769314858565753","alex.sumner","22/12/2022 4:52 pm","Hi, I'm looking for a way to avoid having an account private key in memory. Currently I pass the private key to the `NewGatewayAccount` function and then use the returned account object to execute transactions. What I would like is to not provide a private key but instead send either pre-signed transactions or an end point that can be called to sign them. Is this possible with caigo now? If it isn't would it be something of interest for inclusion in a future release if I built it?","",""
+"278620385413431297","robodehri","16/01/2023 12:43 am","will there be websocket support?","",""
+"756445269406777354","garuda_16","23/01/2023 7:16 pm","hello everyone","",""
+"756445269406777354","garuda_16","23/01/2023 7:17 pm","I was integrating starknet chain in our product(frontier.xyz) and i'm kinda stuck at a point where i need to make a transaction (transfer tokens) and i couldn't get much info for the same can anyone help me with it?
+btw i'm using Caigo library of GoLang","",""
+"781408015416950795","KillerJay#8599","29/03/2023 11:06 am","hey guys I got an issure","",""
+"781408015416950795","KillerJay#8599","29/03/2023 11:06 am","When I ran the go sdk example,I got this error which said no entrypoint","",""
+"781408015416950795","KillerJay#8599","29/03/2023 11:07 am","","https://cdn.discordapp.com/attachments/988913308918743070/1090509989350756352/image.png",""
+"781408015416950795","KillerJay#8599","29/03/2023 11:07 am","Anyone know about this?","",""
+"781408015416950795","KillerJay#8599","29/03/2023 11:29 am","I'm using NewGatewayAccount and adding caigo.AccountVersion1 fixed the problem. Thanks!","","dope (5)"
+"691283857206542386","ulerdogan","01/04/2023 7:09 am","Hi! Can anyone could implement Event getter function share the repo? I am having problems and the tests in the repo is missing.","",""
+"691283857206542386","ulerdogan","01/04/2023 7:10 am","Error is:
+`Error:          Expected nil, but got: &rpc.jsonError{Code:-32602, Message:""unknown field `page_number`, expected one of `from_block`, `to_block`, `address`, `keys`, `chunk_size`, `continuation_token` at line 1 column 206"", Data:interface {}(nil)}`","",""
+"941230413538549790","ccsol","11/04/2023 2:05 pm","hi guys, are there any tools that can convert a public key to address?","",""
+"691283857206542386","ulerdogan","12/04/2023 6:51 am","I see that current Starknet nodes don't support rpcv01 more and caigo's rpcv02 package is not ready to use.
+
+I've modified the parts I need and prepeared to use. If anyone needs or wants to check&contribute: https://github.com/ulerdogan/caigo-rpcv02","","👏 (4)"
+"881790382067838996","alex_kakaxi#6797","18/04/2023 2:28 pm","hello, I am learning cairo , find some description for cairo-sharp to communicate with sharp, but can't find more about cairo-sharp, escpecilly confuse about how cairo-sharp action with eth mainnet, [the demo is with test-net], any one can give some information for help ?","",""
+"941230413538549790","ccsol","23/04/2023 1:35 pm","Great work!","","❤️ (7)"
+"691283857206542386","ulerdogan","23/04/2023 3:25 pm","Thanks!","",""
+"907154697863974954","freedom0748","15/05/2023 8:28 am","The deployment contract method in the golang sdk is an old version. who can release a new version?","",""
+"907154697863974954","freedom0748","15/05/2023 8:34 am","ABl:0xc0000c63a81Deploying account to testnet. lt may take a whilecan't deplov account: 500.
+StarknetErrorCode.DEPRECATED TRANSACTION Deploy transaction
+is no longer supported.
+exit status 1","",""
+"941230413538549790","ccsol","15/05/2023 9:37 am","I guess caigo is no longer under maintenance","",""
+"975648207835127858","jianguo | Hamster#2854","15/05/2023 2:52 pm","Hello, I encountered an error 'missing program in JSON object' when using github.com/dontpanicDao/caigo for Declaration. The JSON format compiled by cairo1 is different from before. Is there a toolkit that supports cairo1, or when can it be supported","",""
+"688393203644366855","GuillaumeSenderens#3409","16/05/2023 4:45 am","Did you ask to chat gpt your error?","",""
+"429096494713274369","0xcoburn","16/05/2023 5:33 am","Caigo is @drspacemn | StarkWare baby, Not sure which files need to be updated but I’d like to try to update caigo to be compatible with Starknet v0.11 so we can deploy cairo1 contracts","",""
+"975648207835127858","jianguo | Hamster#2854","16/05/2023 7:55 am","For example, in the process I am currently using, the JSON file fields generated by the compilation of cairo1 contracts are different from the previous version, resulting in contract declaration failure. There may be other changes that I have not noticed, and I am not aware that the RPC interface ""/add_transaction"" of contract declaration also supports cairo1's contract declaration","",""
+"975648207835127858","jianguo | Hamster#2854","16/05/2023 8:32 am","Where can I find the latest RPC link for starknit, regarding deployment, declaring contract classes, etc","",""
+"975648207835127858","jianguo | Hamster#2854","16/05/2023 3:34 pm","Excuse me, what has the address of the alpha goerli network changed now? The contract was rejected because it was declared using the previous' 0x1 ',Transaction hash is：0x7a2d2c1e3d35c6fd742a7be205234fa0797316b2198f75bbf5fc3be19f67465","https://cdn.discordapp.com/attachments/988913308918743070/1107971876120174703/1381684231220_.pic.jpg,https://cdn.discordapp.com/attachments/988913308918743070/1107971876623495248/1391684231409_.pic.jpg",""
+"429096494713274369","0xcoburn","17/05/2023 5:03 am","we are deprecating the public api in the coming weeks so an RPC URL from infura or alchemy unless u want to run your own full node","",""
+"429096494713274369","0xcoburn","17/05/2023 5:07 am","@drspacemn | StarkWare @tarrence any idea what might need to be updated to make declare work with v0.11.0+","",""
+"639176204246712358","karim_3h","28/05/2023 2:04 am","Are trying to smart contact for nft collection on Starknet","",""
+"1095689434818695248","exeg.tx40reskt#3039","12/06/2023 9:19 am","Hello 
+How i can test cairo network?","",""
+"907981161534468146","wind.rider","12/06/2023 9:37 am","may I ask if you are referring to the test function of caigo?pls check:https://github.com/dontpanicdao/caigo#run-tests thank you","",""
+"421751555344302081","brudnevskij","03/07/2023 1:02 am","Hello, I am currently learning/working with caigo and I have a question about function calls. For example, in ```/examples/deploy/main.go:224``` 
+```go
+func balanceOf(gw *gateway.Gateway, erc20address, accountAddress string) (string, error) {
+    res, err := gw.Call(context.Background(), types.FunctionCall{
+        ContractAddress:    types.HexToHash(erc20address),
+        EntryPointSelector: ""balanceOf"",
+        Calldata: []string{
+            types.HexToBN(accountAddress).String(),
+        },
+    }, """")
+    if err != nil {
+        return """", fmt.Errorf(""can't call erc20: %s. Error: %w"", accountAddress, err)
+    }
+    low := types.StrToFelt(res[0])
+    hi := types.StrToFelt(res[1])
+
+    balance, err := types.NewUint256(low, hi)
+    if err != nil {
+        return """", nil
+    }
+    return balance.String(), nil
+}
+```
+accountAddress passed to Calldata with conversion to BigInt why?","",""
+"797735731505266710","jonfinch","11/07/2023 11:56 pm","what is caigo ?","",""
+"429096494713274369","0xcoburn","14/07/2023 4:44 am","now called starknet-go  🙂
+its a go-lang sdk for interacting with the starknet protocol","","👍 (1),bullish (1),🔥 (1)"
+"797735731505266710","jonfinch","14/07/2023 7:44 am","okay i ll check this out 
+does it need more developer","",""
+"429096494713274369","0xcoburn","14/07/2023 7:48 am","ya, the more the merrier, it was recently taken over by the nethermind team, but they are happy to have community contributions","",""
+"797735731505266710","jonfinch","14/07/2023 8:04 am","Well I would like to 
+Do they need anything done 
+Nethermind has good team though","",""
+"429096494713274369","0xcoburn","14/07/2023 8:40 pm","you can checkout the repo and issues here 🙂
+https://github.com/NethermindEth/starknet.go","",""
+"429096494713274369","0xcoburn","14/07/2023 8:40 pm","Pinned a message.","",""
+"797735731505266710","jonfinch","15/07/2023 9:32 pm","on it","",""
+"972062061175635998","lxh#9329","19/07/2023 3:47 pm","hello. I have some  questions ,pls help me :
+what is the transaction signature algorithm?
+how to generate contract address from public key?
+how to use starknet_addInvokeTransaction transaction?
+How do I call DEPLOY_ACCOUNT to create a contract address and what parameters are required?
+
+Is there any golang code for the above questions?","",""
+"429096494713274369","0xcoburn","19/07/2023 10:17 pm","signiture algorithm uses the Starkcurve, have you checked out the examples?https://github.com/NethermindEth/starknet.go/blob/main/examples/curve
+starknet-go is under active development, some things might be broken right now tbh. feel free to open an issue 🙂","",""
+"972062061175635998","lxh#9329","20/07/2023 7:44 am","1. I'm not clear on the signature algorithm. Do we have a detailed description?
+2. Regarding your comment about the damage, when will it be fixed?","",""
+"848616398964260925","scarletssstarktitan","20/07/2023 8:02 am","afaik,the signature algorithm starknet use is  ECDSA with the StarkCurve, But now we have a new built in called EC OP so you can implement Shnorr for instance and i happen to find one dev now doing Schnorr Signatures.but seems not open the source ? if i am wrong pls correct me @Coburn | StarkTitan","",""
+"429096494713274369","0xcoburn","20/07/2023 8:09 am","Nethermind is helping give starknet-go a makeover, we’re working on getting v0.2.0 of the RPC stable but also v0.3.0 which is more of a priority because v0.2.0 will be deprecated soon","",""
+"972062061175635998","lxh#9329","20/07/2023 8:13 am","1. I need to know urgently how to create a contract address and send a transfer transaction using golang language and what signature algorithm to use in this process and which contract address to call?
+2. When will our latest library be released? Will it be compatible with existing algorithms?","",""
+"429096494713274369","0xcoburn","20/07/2023 8:15 am","Once released it will be good with existing algorithms. You can track the project and PR’s in the public repo pinned.
+Curious what you’re working on","",""
+"972062061175635998","lxh#9329","20/07/2023 8:20 am","As an exchange wanting to support this starknet,Can you answer the first question above?","",""
+"429096494713274369","0xcoburn","20/07/2023 9:33 am","I can but it’ll probably be answered tomorrow","",""
+"972062061175635998","lxh#9329","20/07/2023 9:37 am","oh, I'm in a bit of a hurry. Why tomorrow? Are you getting off work?It feels like we have a time difference. What are your office hours?
+Have you got any detailed instructions or information for me to look at?","",""
+"429096494713274369","0xcoburn","20/07/2023 10:00 am","I need to speak with the nethermind team and its 12:30am my time,
+if its urgent i can add you to the starknet-go TG but i’d like to know more about what you’re working on and why its so urgent","",""
+"972062061175635998","lxh#9329","20/07/2023 10:05 am","Then we work the same hours; I'm in such a hurry because it's my job, ah, to finish my tasks on time;","","dope (1)"
+"429096494713274369","0xcoburn","20/07/2023 10:19 am","fair enough, lets get you in the TG, can you send me a DM","",""
+"429096494713274369","0xcoburn","20/07/2023 10:29 am","lmk here","",""
+"972062061175635998","lxh#9329","20/07/2023 10:46 am","my Tg username is @LiuXiaoXiaoXiaoHua , you can add me","",""
+"972062061175635998","lxh#9329","20/07/2023 1:01 pm","??","",""
+"972062061175635998","lxh#9329","20/07/2023 1:45 pm","https://github.com/NethermindEth/starknet.go/blob/main/examples/contract/main.go  ，what is the ""contracts.CounterCompiled"" meaning ? I can not get it","https://cdn.discordapp.com/attachments/988913308918743070/1131499682577780736/image.png",""
+"429096494713274369","0xcoburn","21/07/2023 2:41 am","counter compiled is a compiled contract written in cairo that we use for some tests","",""
+"429096494713274369","0xcoburn","21/07/2023 2:42 am","let me just check with admin first","",""
+"972062061175635998","lxh#9329","21/07/2023 7:51 am","There are a few questions about creating contract addresses:
+1. Do I need to have an external account to participate in creating a contract address for the first time? How do I pay the fee?
+2. Can I create a contract address using go-sdk without CLI? How to create it?","",""
+"972062061175635998","lxh#9329","21/07/2023 12:07 pm","please help","",""
+"972062061175635998","lxh#9329","21/07/2023 1:20 pm","I want to implement a function like this command ""starknet new_account"", how should I do it with golang code?","",""
+"429096494713274369","0xcoburn","21/07/2023 1:53 pm","adding you now","",""
+"429096494713274369","0xcoburn","21/07/2023 8:31 pm","also starknet-go is more of a library/SDK like starknet.js. We won't have a cli and will leave that role to Starkli 
+https://discord.com/channels/793094838509764618/977518918111465484/1130203723868672120","",""
+"429096494713274369","0xcoburn","21/07/2023 9:43 pm","maybe in the future but not a priority at the moment.","",""
+"972062061175635998","lxh#9329","22/07/2023 5:07 pm","I am trying to use go-sdk to create user addresses and implement address transfers；But I don't know how to implement this function, I need your help!","",""
+"972062061175635998","lxh#9329","22/07/2023 6:13 pm","Do you have to deploy your own contract to generate a Class Hash before creating a contract address?","",""
+"429096494713274369","0xcoburn","23/07/2023 12:27 am","have you tried following the deploy example?","",""
+"429096494713274369","0xcoburn","23/07/2023 12:31 am","class hash is generated from compiling a cairo program, in this case we're compiling an OZ account contract, 
+
+2 cairo programs that have the same code will compile down to the same ABI and will have the same class hash","","👍 (1)"
+"972062061175635998","lxh#9329","23/07/2023 2:44 pm","I try this example code,but I get the err:   ""can't deploy account: 400: StarknetErrorCode.DEPRECATED_TRANSACTION Deploy transaction is no longer supported.""
+https://github.com/NethermindEth/starknet.go/blob/main/examples/deploy/main.go","",""
+"972062061175635998","lxh#9329","23/07/2023 2:53 pm","1. why the same class_hash call will generate different contract address, is it determined by contract_address_salt?
+
+2. contract_address_salt means public key?
+
+3. signature: means who to sign with the public key?","https://cdn.discordapp.com/attachments/988913308918743070/1132603874272870480/image.png",""
+"429096494713274369","0xcoburn","23/07/2023 11:16 pm","1. yes thats just for deploying, in this case each account contract deployed is unique","",""
+"429096494713274369","0xcoburn","23/07/2023 11:18 pm","3. signature is used by your account contract to pass the validate check used by starknet
+account abstraction 🪄","",""
+"429096494713274369","0xcoburn","23/07/2023 11:20 pm","2. I don't think so, i believe its just a random number","",""
+"972062061175635998","lxh#9329","24/07/2023 7:47 am","2.  if contract_address_salt is a random number? Then it's possible for two users to use the same random number, which would mean that both users would generate the same address, right?","",""
+"972062061175635998","lxh#9329","24/07/2023 7:57 am","3. Can you elaborate on how the signature proves account abstraction?
+Is it that there is a corresponding public key inside the account contract, and then the signature is signed with the private key, verifying that the public and private keys are a pair?","",""
+"429096494713274369","0xcoburn","24/07/2023 8:59 am","Tbh i’m not 100% sure where the salt comes from but i can find out, I believe it is some type of large random generated, to avoid hash collisions of generated account contracts,","",""
+"429096494713274369","0xcoburn","24/07/2023 9:01 am","StarknetOS just needs to verify that the _validate_ method of your smart contract (the signature scheme) was valid. This is inherently different from the way EOA’s work on L1 ethereum. and this is what account abstraction is all about, i can give you some readings on account abstraction on starknet if you’re interested in diving deeper","",""
+"972062061175635998","lxh#9329","24/07/2023 9:07 am","Can I understand it this way: this verification method (signature scheme) is specified in the smart contract that generates the class_hash mentioned before;
+The exact implementation depends on how the person writing the contract implements him;","",""
+"972062061175635998","lxh#9329","24/07/2023 9:15 am","yeah, you can give me the  readings","",""
+"429096494713274369","0xcoburn","24/07/2023 9:56 am","Its 3 part series, you should find the links to 2 and 3 at the bottom of the first
+https://www.argent.xyz/blog/wtf-is-account-abstraction/","",""
+"429096494713274369","0xcoburn","24/07/2023 9:57 am","every account on starknet has to have a validate method, so its a function of the deployed contract thats derived from the class_hash of the declared contract (account contract)","",""
+"972062061175635998","lxh#9329","24/07/2023 10:48 am","1. If my verification method is private key signing and public key verifying the signature, what signing algorithm should I use? Is it ok to use the same algorithm as eth?
+
+2. Can I use a class_hash generated by someone else when I generate my account address? Is there any risk with this?
+
+3. How to deploy an account contract to generate class_hash? what are all the tools available?","",""
+"429096494713274369","0xcoburn","24/07/2023 12:52 pm","we use the Stark curve which is very similar to the eth curve but adjusted to fit within 252 bits which is our standard felt size","",""
+"972062061175635998","lxh#9329","24/07/2023 1:23 pm","OK，other question :
+1. Do we have a public class_hash when generating account addresses?
+
+2. What are the available tools if I want to deploy my own account contract to generate class_hash?
+
+3. Do we have a curl for generating contract addresses from class_hash?","",""
+"972062061175635998","lxh#9329","24/07/2023 3:14 pm","How to deal with the err?","",""
+"972062061175635998","lxh#9329","24/07/2023 7:15 pm","","https://cdn.discordapp.com/attachments/988913308918743070/1133032297608794224/image.png",""
+"429096494713274369","0xcoburn","25/07/2023 12:13 am","1. As rian shared on TG starknet.js has a public class hash they use for all their account deployments
+
+2. If you just wanted to declare your own, you should be able to by compiling the latest Cairo1 OZ account contract and declaring it.","",""
+"429096494713274369","0xcoburn","25/07/2023 12:14 am","I think rian answered 3 for you on TG","",""
+"972062061175635998","lxh#9329","25/07/2023 7:30 am","1. I'm not familiar with the js code, I'm working on it, but even if I replace the class_hash , I still get this error;
+
+2. If I want to deploy a generic contract myself, what tool should I use to do so? Can you post the tool and contract code?","",""
+"821255088517545995","akashneelesh","25/07/2023 5:44 pm","Hey I wanted to know if we could deploy and invoke functions using the starknet-go library on go lang, or is it yet to be updated.
+Thanks","",""
+"848616398964260925","scarletssstarktitan","25/07/2023 5:58 pm","starknet.go is currently under active development and is experiencing a re-architecture. It will undergo breaking changes.starknet.go will get your golang backends and WASM frontends to Starknet easily details here https://github.com/NethermindEth/starknet.go  hope it is helpful thank you ser","","👍 (4)"
+"429096494713274369","0xcoburn","25/07/2023 10:12 pm","The current release available is almost 8months old and broken in a bunch of places, we’re working on a new release that should be available soon.","","👍 (2)"
+"821255088517545995","akashneelesh","27/07/2023 4:32 pm","Hey @Coburn | StarkTitan !! It would be nice if you could give me a timeline so that I could plan and work accordingly.
+Thanks !!","","👍 (1)"
+"429096494713274369","0xcoburn","27/07/2023 11:45 pm","you can join the starknet.go dev channel on TG here
+https://t.me/StarknetGo 
+we have a CC tomorrow at 1500 UTC, link is pinned if you'd like to join.","","👍 (1)"
+"821255088517545995","akashneelesh","27/07/2023 11:46 pm","Thanks","",""
+"429096494713274369","0xcoburn","29/07/2023 8:29 am","The AddDeployTransaction type we were using from the RPC specs for account deployments was deprecated when RPC's upgraded from 2.0 to 2.1 so we need to get AddDeployAccountTransaction added to the RPC calls in Starknet.go
+
+If you just want to deploy a contract checkout the tools scarb and protostar or Starkli. You compile one of the OZ cairo contracts","",""
+"972062061175635998","lxh#9329","31/07/2023 2:04 pm","yeah","",""
+"972062061175635998","lxh#9329","31/07/2023 2:07 pm","About the method ""starknet_getTransactionReceipt':
+What does this field “keys” mean? and How to distinguish the meaning of each data return value?","https://cdn.discordapp.com/attachments/988913308918743070/1135491360875614318/image.png",""
+"429096494713274369","0xcoburn","01/08/2023 6:19 am","Keys are felts used for indexing,  pretty sure its just a hexadecimal representation of a short string felt https://docs.starknet.io/documentation/architecture_and_concepts/Events/starknet-events/","",""
+"1003540279749521469","billlee","04/08/2023 11:26 am","Is there some documents about starknet-go?","",""
+"907981161534468146","wind.rider","04/08/2023 11:50 am","pls check this doc,ser: https://pkg.go.dev/github.com/NethermindEth/starknet.go thank you","",""
+"1003540279749521469","billlee","04/08/2023 11:54 am","Thank you.","","🙏🏻 (2)"
+"1003540279749521469","billlee","04/08/2023 2:41 pm","use the version 4.2.0?","",""
+"1003540279749521469","billlee","04/08/2023 2:44 pm","It seems that the version name is wrong","",""
+"429096494713274369","0xcoburn","06/08/2023 10:07 pm","0.4.1 was released last November and is deprecated, should be publishing a new working release soon. the pkg.go version 4.2 is tied to main branch","",""
+"278620385413431297","robodehri","07/08/2023 12:09 pm","Hi Folks,
+Everytime I try to send tx, i get signature error. I am %100 sure that I use matching pk-address pair. I tried with both braavos and argent. It doesnt matter if it is an old wallet or new wallet. Do you have any recommendation?","",""
+"1003540279749521469","billlee","07/08/2023 1:18 pm","https://pkg.go.dev/github.com/NethermindEth/starknet.go#StarkCurve.PedersenHash     What method in Cairo corresponds to PedersenHash in Go?","",""
+"821255088517545995","akashneelesh","08/08/2023 11:43 am","How can I pass in a struct as a []*felt.Felt for the Function Calldata","",""
+"821255088517545995","akashneelesh","08/08/2023 11:50 am","Should i convert each element to felt and then append it to an []*felt.Felt","",""
+"1003540279749521469","billlee","16/08/2023 8:47 am","```
+go: github.com/NethermindEth/starknet.go@v0.4.1: parsing go.mod:
+    module declares its path as: github.com/dontpanicdao/caigo
+            but was required as: github.com/NethermindEth/starknet.go
+```","",""
+"1003540279749521469","billlee","16/08/2023 8:47 am","Has anyone experienced this situation","",""
+"429096494713274369","0xcoburn","21/08/2023 1:45 am","it will be resolved on the next release but for now a work around is to add the following line to your go.mod file
+'replace github.com/dontpanicdao/caigo => */your/local/path/starknet.go* '","",""
+"1003540279749521469","billlee","21/08/2023 8:32 am","https://github.com/NethermindEth/starknet.go/blob/v0.4.1/examples/account/main.go   this not work ?","",""
+"1003540279749521469","billlee","21/08/2023 8:33 am","```
+--- FAIL: TestService_InteractContract1 (2.36s)
+panic: 400: StarknetErrorCode.ENTRY_POINT_NOT_FOUND_IN_CONTRACT Error at pc=0:12:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x126dd900b82c7fc95e8851f9c64d0600992e82657388a48d3c466553d4d9246):
+Entry point 0x1ac47721ee58ba2813c2a816bca188512839a00d3970f67c05eab986b14006d not found in contract with class hash 0x33434ad846cdd5f23eb73ff09fe6fddd568284a0fb7d1be20ee482f044dabe2. [recovered]
+    panic: 400: StarknetErrorCode.ENTRY_POINT_NOT_FOUND_IN_CONTRACT Error at pc=0:12:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x126dd900b82c7fc95e8851f9c64d0600992e82657388a48d3c466553d4d9246):
+Entry point 0x1ac47721ee58ba2813c2a816bca188512839a00d3970f67c05eab986b14006d not found in contract with class hash 0x33434ad846cdd5f23eb73ff09fe6fddd568284a0fb7d1be20ee482f044dabe2.
+
+goroutine 8 [running]:
+testing.tRunner.func1.2({0x10056c600, 0xc00041a040})
+    /usr/local/Cellar/go/1.20.5/libexec/src/testing/testing.go:1526 +0x24e
+testing.tRunner.func1()
+    /usr/local/Cellar/go/1.20.5/libexec/src/testing/testing.go:1529 +0x39f
+panic({0x10056c600, 0xc00041a040})
+    /usr/local/Cellar/go/1.20.5/libexec/src/runtime/panic.go:884 +0x213
+dwbackend/contract.InteractContract1()
+    /Users/daoyin/go/src/dwbackend/contract/starknet.go:147 +0xa74
+dwbackend/contract.TestService_InteractContract1(0x0?)
+    /Users/daoyin/go/src/dwbackend/contract/contact_test.go:33 +0x17
+testing.tRunner(0xc0001471e0, 0x100668a78)
+    /usr/local/Cellar/go/1.20.5/libexec/src/testing/testing.go:1576 +0x10b
+created by testing.(*T).Run
+    /usr/local/Cellar/go/1.20.5/libexec/src/testing/testing.go:1629 +0x3ea
+exit status 2
+FAIL    dwbackend/contract    4.058s
+```","",""
+"1003540279749521469","billlee","21/08/2023 8:36 am","Anybody know how to invoke contract with go ?","",""
+"1003540279749521469","billlee","21/08/2023 12:13 pm","Can we use go to declare and deploy a starknet account?","",""
+"1003540279749521469","billlee","21/08/2023 1:37 pm","https://github.com/NethermindEth/starknet.go/blob/v4.2.0/examples/deploy/main.go  when I deploy account it returns error
+```
+can't deploy account: 400: StarknetErrorCode.DEPRECATED_TRANSACTION Deploy transaction is no longer supported.
+exit status 1
+
+```","",""
+"1003540279749521469","billlee","21/08/2023 3:12 pm","@lxh Have you solved this problem?","",""
+"429096494713274369","0xcoburn","22/08/2023 8:27 am","are you running the example with the gateway url or an rpc url?","",""
+"1003540279749521469","billlee","22/08/2023 10:57 am","the gateway url","",""
+"1003540279749521469","billlee","22/08/2023 10:58 am","I want to declare and deploy an account with starknet-go","",""
+"1003540279749521469","billlee","22/08/2023 10:59 am","https://github.com/NethermindEth/starknet.go/blob/v0.4.1/examples/deploy/main.go  the example execution failed","",""
+"1003540279749521469","billlee","22/08/2023 11:01 am","https://github.com/NethermindEth/starknet.go/blob/main/gateway/starknet_test.go#L89   and this is also not useful","",""
+"548410451818708993","Wick#4943","22/08/2023 11:13 am","@billli","",""
+"548410451818708993","Wick#4943","22/08/2023 11:14 am","@billli","",""
+"548410451818708993","Wick#4943","22/08/2023 11:16 am","@billli","",""
+"1003540279749521469","billlee","22/08/2023 11:17 am","I would like to  use the gateway url to declare and deploy an account contract","",""
+"548410451818708993","Wick#4943","22/08/2023 11:17 am","@billli","",""
+"548410451818708993","Wick#4943","22/08/2023 11:18 am","@billli","",""
+"1003540279749521469","billlee","22/08/2023 11:18 am","there is no document for the gateway, I would like to use go pkg to get  the url and parameters","",""
+"907981161534468146","wind.rider","22/08/2023 11:19 am","@billli sorry, ser,this is what you just posted:
+*""I would like to use the gateway url to declare and deploy an account contract, but since there is no document for the gateway, I would like to use starknet-go to analyze the url and parameters.""*","",""
+"1003540279749521469","billlee","22/08/2023 11:23 am","yes. I don't know which word is in the blacklist","",""
+"907981161534468146","wind.rider","22/08/2023 11:23 am","sorry about that,ser","",""
+"1003540279749521469","billlee","22/08/2023 11:24 am","That's OK.I just want to solve the technical problem I encountered","","🙏🏻 (1)"
+"429096494713274369","0xcoburn","22/08/2023 12:14 pm","we're trying to make it work with the rpc as thats the direction starknet is going, i'm not sure where the specs are for the gateway, would help if i knew","",""
+"1003540279749521469","billlee","22/08/2023 12:28 pm","Is there methods to use rpc to declare and deploy account?","",""
+"881713464475795536","ntfdance","02/09/2023 11:17 am","build error when use main branch
+github.com/!nethermind!eth/starknet.go@v0.4.2-0.20230901135146-80a6f9886740/gateway/starknet.go:145:61: undefined: rpc.DepcreatedContractClass","",""
+"394857364320288778","zarok2925","02/09/2023 9:30 pm","Hi . before 18 hours l bridged eth from argent wallet to metamask using starkgate bridge. the transaction is completed , but I did not recieved  eth to my metamask wallet yet.  pls help ?","",""
+"848616398964260925","scarletssstarktitan","02/09/2023 9:31 pm","sorry ser, pls share your withdrawing tx in #🌉｜starkgate help you to check ,here is channel only for starknet-go support thank you","",""
+"1003540279749521469","billlee","14/09/2023 9:33 am","I used to be able to call the contract code normally, but now it returns an error. May I know how to resolve it. My error: 0x496e70757420746f6f206c6f6e6720666f7220617267756d656e7473","",""
+"1003540279749521469","billlee","14/09/2023 9:33 am","Input too long for arguments","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 3:07 pm","Do you have a screenshot to clearly explain the error you’re encountering 
+
++ what did you do differently lately","",""
+"1003540279749521469","billlee","14/09/2023 3:34 pm","","https://cdn.discordapp.com/attachments/988913308918743070/1151820681894445106/image.png",""
+"1003540279749521469","billlee","14/09/2023 3:34 pm","this is my code","",""
+"1003540279749521469","billlee","14/09/2023 3:35 pm","I got the error :```2023/09/14 17:59:07 account.Execute 400: StarknetErrorCode.TRANSACTION_FAILED Execution was reverted; failure reason: [0x496e70757420746f6f206c6f6e6720666f7220617267756d656e7473]```","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 4:18 pm","The error message you received indicates that the execution of the transaction in the Starknet network failed and was reverted.","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 4:20 pm","Based on the decoded failure reason, give me some time to identify the specific issue that caused the transaction failure. It could be related to insufficient funds, incorrect parameters, or any other validation or execution error. 
+ I would let you know shortly","",""
+"429096494713274369","0xcoburn","16/09/2023 3:04 am","account.go is moving towards the account pkg in ~/account/account.go and gw is soon to be deprecated in favor of the rpc 
+checkout this branch https://github.com/NethermindEth/starknet.go/tree/new-account","",""
+"1003540279749521469","billlee","18/09/2023 7:42 am","Got it.","",""

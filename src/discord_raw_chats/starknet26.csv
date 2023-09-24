@@ -1,0 +1,241 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"754641878934225008","odinfree","14/07/2022 9:16 pm","@guthl | StarkWare","","🦀 (37),StarkNet (7)"
+"951518572272812074","purplebishop","23/08/2022 3:14 pm",":pyramid:","","🦀 (6)"
+"878144534943531068","sinjamonporfavor","25/08/2022 2:43 pm","","https://cdn.discordapp.com/attachments/997165757853085746/1012288584415449128/image0.gif",""
+"619615586279882813","aurelou","26/08/2022 5:32 pm","https://tenor.com/view/dancing-ferris-rust-programming-gif-22216348","",""
+"947456009100750938","exomonk","28/08/2022 4:30 pm","🦀","",""
+"474767737261129728","xjonathanlei","30/08/2022 11:03 pm","🦀 JSON-RPC FTW https://twitter.com/xJonathanLEI/status/1564665403338813440","","🦀 (3),✅ (1)"
+"951518572272812074","purplebishop","15/09/2022 10:24 pm","anybody using a different local network with `starknet-rs` than Python `starknet-devnet`?","",""
+"474767737261129728","xjonathanlei","21/09/2022 8:12 pm","I don't use a local network myself. Have you encountered any issue with it?","",""
+"474767737261129728","xjonathanlei","21/09/2022 8:22 pm","btw `starknet-rs` now (only) supports v1 `invoke` and `declare` transactions. v0 of these transaction types have been removed: https://github.com/xJonathanLEI/starknet-rs/issues/207","","👍 (9)"
+"474767737261129728","xjonathanlei","01/11/2022 10:04 pm","On the plan to revamp contract deployment in `starknet-rs`:
+
+https://github.com/xJonathanLEI/starknet-rs/issues/232
+
+Also serves as a brief explainer on how contract deployment works on StarkNet going forward.","",""
+"474767737261129728","xjonathanlei","12/12/2022 12:53 am","`starknet-rs` now supports the latest JSON-RPC specs version `v0.2.1`:
+https://github.com/xJonathanLEI/starknet-rs/pull/255","","🎉 (6)"
+"841660058550140928","ox9bb1","26/12/2022 4:10 pm","Hi~ I am trying the starknet-rs example, please, where can I get the starknet mainnet rpc url information ?","",""
+"841660058550140928","ox9bb1","26/12/2022 4:35 pm","I found the information I needed at infura.io, Merry Christmas!","",""
+"685516513759068166","england_","11/01/2023 7:14 am","Okay you got it now right mate?","","happy (6)"
+"619138323776012307","guthl_starkware","07/03/2023 5:34 pm","Can you add me as friend and DM me? Trying to reach out","",""
+"235148962103951360","Carl-bot#1536","07/03/2023 5:34 pm","Oi frens, really nice you want to connect privately.. but juuuuust maaaake sure this is safe! don't click any links, don't send any keys, don't invite to birthday parties.","",""
+"565102001231495180","sharplee","24/03/2023 12:15 pm","Can someone please help me solve this problem?","https://cdn.discordapp.com/attachments/997165757853085746/1088715242533556294/image.png",""
+"565102001231495180","sharplee","24/03/2023 12:50 pm","It has already been resolved.","","✅ (21)"
+"791177402108739664","akirillo","27/04/2023 5:20 am","heyo - wondering if there are tools in starknet-rs for serializing/deserialzing calldata & contract responses to/from cairo 1 types like `u256`, or custom `struct`s, etc","",""
+"791177402108739664","akirillo","27/04/2023 5:21 am","seems like atm it's all just `Vec<FieldElement>`?","",""
+"474767737261129728","xjonathanlei","01/05/2023 3:52 pm","it is the case at the moment yes. abi based decoding in being worked on","","🙏 (12)"
+"619138323776012307","guthl_starkware","04/06/2023 4:13 pm","Can you add me as friend and DM me? Trying to reach out","",""
+"456226577798135808","Deleted User","08/06/2023 8:09 pm","Hey, did anyone find a way to use starknet_ff in a no std environment? I opened an issue but it was closed: https://github.com/xJonathanLEI/starknet-rs/issues/391","",""
+"474767737261129728","xjonathanlei","11/06/2023 9:23 am","Can you provide a minimal clone-able example to reproduce the issue you're facing?","",""
+"474767737261129728","xjonathanlei","11/06/2023 9:24 am","`starknet-rs` has CI to ensure the `no_std` crates stay `no_std`-compatible over time","",""
+"641937777482792991","amanusk","12/06/2023 6:24 pm","Is there a good example of how to invoke a contract that expects an array as input (Cairo 1 contract)","",""
+"456226577798135808","Deleted User","14/06/2023 8:14 pm","Hello, yes any ledger app would do the job. I am using https://github.com/yogh333/ledger-nanos-sdk with branch ``feat/libcall_support``","",""
+"456226577798135808","Deleted User","14/06/2023 8:15 pm","You will need to build the image from https://github.com/yogh333/ledger-app-builder/tree/ledger-starknet-app-builder","",""
+"520276777226993674","iris8600","19/06/2023 2:24 pm","Hello, what's the best way to convert a `FieldElement` from starknet-rs to an hexadecimal string ?","","star (1)"
+"474767737261129728","xjonathanlei","19/06/2023 3:28 pm","`format!(""{:x}"", felt);`","",""
+"474767737261129728","xjonathanlei","19/06/2023 3:29 pm","or `format!(""{:064x}"")` if you want 64 chars","",""
+"474767737261129728","xjonathanlei","19/06/2023 3:29 pm","or `format!(""{:#x}"")` to get the `0x` prefix","","👀 (3)"
+"520276777226993674","iris8600","19/06/2023 4:37 pm","thanks !","",""
+"536234853453266974","s4msepi0l#5603","21/06/2023 4:12 pm","edit: I just noticed there were some changes added to master, so I updated starknet-rs and it seems to be working now 🙂  Leaving this here, just in case.
+
+Hello 👋 I was wondering, is it possible to declare a cairo1 contract using json rpc provider? I am using starknet-rs from git, and can see there is an example with cairo1 contract declaration, but it is using gateway. 
+
+I tried to do something similar using rpc, but keep getting `Error: Invalid call data` , my guess is that nonce is not being read correctly (but I'm not sure yet). Has anyone tried it and succeded?
+
+I am using devnet to test this, and compiled my contract using compiler version 1.1.0. The same contract can be successfully declared using other sdk (jvm). Here's the relevant code snippet:
+
+```
+    let contract_definition: SierraClass = serde_json::from_reader(std::fs::File::open(sierra_contract_path).unwrap()).unwrap();
+    let casm_contract_definition: CompiledClass =  serde_json::from_reader(std::fs::File::open(casm_contract_path).unwrap()).unwrap();
+
+    let casm_class_hash = casm_contract_definition.class_hash()?;
+
+    let declaration = account.declare(Arc::new(contract_definition.flatten()?), casm_class_hash).fee_estimate_multiplier(1.5f64);
+    let declared = declaration.send().await?;
+```","",""
+"267300878736818176","_dsi","27/06/2023 3:19 am","Hey guys, am I the only one having this error ? 
+
+```
+the method `get_block_number` exists for reference `&SequencerGatewayProvider`, but its trait bounds were not satisfied
+the following trait bounds were not satisfied:
+`SequencerGatewayProvider: Middleware`
+which is required by `&SequencerGatewayProvider: Middleware`
+```
+
+I'm just trying to get the latest `block_number` from the sequencer","",""
+"267300878736818176","_dsi","27/06/2023 3:21 am","Might be because I'm mixing Ethereum and StarkNet providers in my script but the StarkNet provider doesn't seem to have any Middleware implementation, only Ethereum providers","",""
+"754635464111030432","supernovahs","27/06/2023 11:39 am","Need some help 
+THx
+https://discord.com/channels/793094838509764618/853954510515208192/1123131634338779206","",""
+"754635464111030432","supernovahs","27/06/2023 12:33 pm","View tx worked","",""
+"754635464111030432","supernovahs","27/06/2023 12:33 pm","correctly","",""
+"474767737261129728","xjonathanlei","29/06/2023 8:37 am","Did you import the ethers-rs `Provider` trait by mistake (maybe via the prelude)?","",""
+"474767737261129728","xjonathanlei","29/06/2023 8:37 am","if you don't need the ether-rs `Provider` trait, just import the `starknet-rs` trait instead.","",""
+"474767737261129728","xjonathanlei","29/06/2023 8:38 am","if you _do_ need to use the 2 different provider traits at the same time, you need to use a more verbose syntax","",""
+"267300878736818176","_dsi","29/06/2023 8:38 am","Yeah I need both, what do you mean by a more ""verbose"" syntax ?","",""
+"267300878736818176","_dsi","29/06/2023 8:38 am","Changing the name ?","",""
+"474767737261129728","xjonathanlei","29/06/2023 8:59 am","Nah you need to explicitly use the trait function. Changing name won't help. But this is only needed when the function name clashes, and this doesn't seem to be the case here.","",""
+"474767737261129728","xjonathanlei","29/06/2023 9:00 am","that same function is named `block_number` in starknet-rs","",""
+"474767737261129728","xjonathanlei","29/06/2023 9:00 am","not `get_block_number` so you don't have clash here","",""
+"474767737261129728","xjonathanlei","29/06/2023 9:00 am","but generally speaking, when you _do_ get a clash between traits, just do something like this:","",""
+"474767737261129728","xjonathanlei","29/06/2023 9:01 am","https://github.com/xJonathanLEI/starknet-rs/blob/655af56a585d892b08a44f3d91f802ea489b28b8/starknet-providers/src/any.rs#L69_L72","",""
+"267300878736818176","_dsi","29/06/2023 6:18 pm","Yeah it's basically what I was doing","",""
+"267300878736818176","_dsi","29/06/2023 6:18 pm","But with the `block_number` method I get 
+```
+no method named `block_number` found for reference `&starknet::providers::SequencerGatewayProvider` in the current scope
+items from traits can only be used if the trait is in scope
+```","",""
+"267300878736818176","_dsi","09/07/2023 1:11 am","hey guys, any reason why you didn't do this for `FieldElement`s ?
+
+```rust
+impl Div for FieldElement {
+
+    type Output = FieldElement;
+
+    fn div(self, rhs: Self) -> Self::Output {
+        FieldElement(self.floor_div(rhs))
+    }
+}
+```","",""
+"267300878736818176","_dsi","09/07/2023 1:12 am","Just trying to learn from other rust repos","",""
+"862996769125826560",".jameswade","11/07/2023 8:46 am","i want to know the mongomery params in starknet-rs,who can help me pkease","",""
+"786180068665720833","zilizili","14/07/2023 4:10 pm","I have the same problem, how did you solve it","",""
+"795662667012374569","ademolakelvin","16/07/2023 6:03 pm","Hello  everyone! I'm Ademola Kelvin, a smart contract developer. Recently, I've been working with the new Cairo syntax and have also started learning Rust. My goal is to work on protocols in the StarkNet ecosystem. If anyone could kindly share a roadmap or any useful resources to help me learn about protocols on StarkNet, I would greatly appreciate it. Thank you!","",""
+"474767737261129728","xjonathanlei","18/07/2023 11:17 pm","Because `div` can be ambiguous. Does it mean integer division or finite field division?","",""
+"474767737261129728","xjonathanlei","18/07/2023 11:17 pm","So there's `floor_div()` instead.","",""
+"474767737261129728","xjonathanlei","19/07/2023 1:49 pm","If you're using the `starknet` crate, you can use the `felt!()` macro to initialize `FieldElement` at compile time.","",""
+"474767737261129728","xjonathanlei","19/07/2023 1:49 pm","It takes both decimal and hexadecimal representations and computes mont input for you so you don't have to.","",""
+"862996769125826560",".jameswade","20/07/2023 6:45 pm","thank u","",""
+"337672233881174016","cryptskii","21/07/2023 11:40 am","hi Jonathan,
+
+ just wanted to say hello from zkBTC we are implementing the 1st Witness Encryption bridge using starks libraries and cairo with rust.","",""
+"337672233881174016","cryptskii","21/07/2023 11:44 am","maybe we can discuss sometime ? If you are at all intrigued and find the time, feel free to  connect with me ! would greatly appreciate your input. thanks","",""
+"337672233881174016","cryptskii","21/07/2023 11:53 am",":bitcoin: :star: 
+**Anyone interest in working on a bitcoin implementation of stark tech feel free to reach. Out we looking expand the team. thanks**
+Currently getting great exposure through BTC Start Up Lab accelerator program,  
+
+thanks guys! 👉👈","",""
+"786180068665720833","zilizili","21/07/2023 12:32 pm","Hi. I called the ```account.execute(xxx).send().wait.unwrap()``` method and got a txHash. Is my tx 100% put on chain at this time? If not, how can we wait for it to go up the chain? How else can we determine if it has a reverse?","",""
+"946809148991995935","mikolajspaceshard","21/07/2023 5:00 pm","Hi, is there a way to calculate `compiled_class_hash` based of `SierraClass` in starknet-rs? I also have casem bytecode.","",""
+"946809148991995935","mikolajspaceshard","21/07/2023 5:18 pm","is it right way to do it?
+```
+let casm_contract_definition: CompiledClass =  serde_json::from_reader(std::fs::File::open(path_to_casm).unwrap()).unwrap();
+
+let compiled_class_hash = casm_contract_definition.class_hash();
+```","",""
+"474767737261129728","xjonathanlei","22/07/2023 2:40 am","This is correct. `starknet-rs` does not (and should not) ship a Sierra compiler built in so you have to supply the casm code yourself","","👍 (1)"
+"474767737261129728","xjonathanlei","22/07/2023 2:41 am","No it just means that your tx has been submitted. A way to wait for the tx to confirm is not implemented yet but tracked here:
+
+https://github.com/xJonathanLEI/starknet-rs/issues/389","",""
+"474767737261129728","xjonathanlei","22/07/2023 2:42 am","Hey thanks for reaching out. Not sure how I can help though","",""
+"295262699837718530","0xuser","07/08/2023 8:34 pm","Are you planning to add native bridge support to the SDK?","",""
+"1003540279749521469","billlee","09/08/2023 9:22 am","Is there some docs about starknet-rs?","",""
+"1033802876587352104","bodik4612","09/08/2023 11:33 pm","https://github.com/foundry-rs/starknet-foundry","",""
+"848616398964260925","scarletssstarktitan","09/08/2023 11:40 pm","hope this docs helpful ? https://github.com/xJonathanLEI/starknet-rs  thank you","",""
+"1003540279749521469","billlee","10/08/2023 8:31 am","got it.","",""
+"330737541257101312","gaetbout","31/08/2023 12:15 am","How should one handle u256 {low,high} in starknet-rs?","","🧐 (2)"
+"330737541257101312","gaetbout","31/08/2023 12:22 am","Doing stuff like comparison, and so on?","",""
+"330737541257101312","gaetbout","31/08/2023 12:23 am","Basically I have an api giving me back the response back low, high and I'd like to parse it to do some stuff","",""
+"969243196158799872","davevodrazka","07/09/2023 12:21 pm","Does anybody has experience with fetching specific data from every block and storing it in a database? Since starknet blocks are being created faster and faster I ran into a problem where I am not fetching fast enough 🤔","",""
+"950845066086350939","glihm","13/09/2023 11:12 am","Are you using a RPC node ? Which one?","",""
+"969243196158799872","davevodrazka","13/09/2023 3:12 pm","I have switched to our RPC node and now it's waaay faster 💪 Before that I was using public sequencer gateway which was either slow or when it was fast I was getting `Rate limited` error - so using RPC node fixed the problem 🙂
+
+For anyone doing the same thing, emitting events and using Apibara to collect them might be a better solution.","",""
+"612511916505432134","augustbleeds","14/09/2023 12:46 am","@DaveVodrazka which RPC solution are you using? To my knowledge, in some cases Juno is still querying the feeder client https://github.com/NethermindEth/juno/blob/main/rpc/handlers.go#L1047","",""
+"969243196158799872","davevodrazka","14/09/2023 1:25 am","We are using Juno and so far it has been smooth sailing 🚀","","🔥 (1)"
+"1003540279749521469","billlee","14/09/2023 11:44 am","I can't interact with the contract anymore.Is there any updates? What do I need to do?","",""
+"474767737261129728","xjonathanlei","14/09/2023 11:03 pm","What do you mean by interact? Sending a transaction? What error are you getting?","",""
+"1003540279749521469","billlee","15/09/2023 7:25 am","I have found the solution.","",""
+"689169902250229885",".kmarklor","15/09/2023 3:34 pm","Hello,
+how do I declare and deploy a contract on a local devtest?","",""
+"689169902250229885",".kmarklor","17/09/2023 1:10 am","I cannot declare the contract on the local node because it requires a descriptor account file which cannot be created by `starkli account <Var> init ./path/` i guess because `starkli account fetch` returns ""account is not deployed"" because this command only looks at chain-deployed accounts.
+The problem with `starkli account <Var> init ./path/` is the error which says that ""the account is not deployed"" while the local node considers it as de facto deployed.","",""
+"950845066086350939","glihm","21/09/2023 7:58 am","You're talking about katana devnode or the testnet? Check first running `starkliup` to ensure you have the latest version of the tool. Same for the devnet/katana. (For katana, you must use the nightly version for now as some fixed has been pushed to it: `dojoup -v nightly`).","",""
+"717768946954141697","anoushk","21/09/2023 3:18 pm","is there any way to generate an sdk from a starknet contract","",""
+"717768946954141697","anoushk","21/09/2023 3:20 pm","similar to this https://github.com/gakonst/ethers-rs/tree/master/examples/contracts#generating-rust-bindings-with-abigen","",""
+"717768946954141697","anoushk","21/09/2023 3:22 pm","@Jonathan LEI","",""
+"717768946954141697","anoushk","21/09/2023 4:00 pm","also when i fetch some data from starknet provider i get something like this, how do i parse this?","https://cdn.discordapp.com/attachments/997165757853085746/1154364014483214437/Screenshot_2023-09-21_at_3.59.58_PM.png",""
+"717768946954141697","anoushk","21/09/2023 4:01 pm","```rs
+ let contract = FieldElement::from_hex_be(
+        ""0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"",
+    )
+    .unwrap();
+    let provider = SequencerGatewayProvider::starknet_alpha_mainnet();
+    let verifier_id = FieldElement::from_hex_be(
+        ""0x4e521104197a8a8951ac5ab4a7fa8b4739665c68face7ed7317959b3c8d247b"",
+    )
+    .unwrap();
+    let verifier_data = provider
+        .call(
+            FunctionCall {
+                contract_address: contract.clone(),
+                entry_point_selector: selector!(""balanceOf""),
+                calldata: vec![verifier_id],
+            },
+            BlockId::Tag(BlockTag::Latest),
+        )
+        .await;
+    println!(""output! {:?}"", verifier_data);
+```","",""
+"950845066086350939","glihm","21/09/2023 9:17 pm","Yep there is some work on-going to explore this taking in account the cairo generic types. 👍 Not directly in starknet-rs for now, but we'll see how it evolves!","",""
+"950845066086350939","glihm","21/09/2023 9:18 pm","For now doing a raw call like this, you'll have to parse the felts based on the contract code. So you can take it's ABI to know what's supposed to be returned, or directly from the contract cairo code if it's your code.","",""
+"950845066086350939","glihm","21/09/2023 9:19 pm","With the ABI parser that will write some rust code to handle your cairo structs, it will be easier to parse them. 👍  But for now it's manual.","",""
+"717768946954141697","anoushk","22/09/2023 3:13 pm","is there any example code for this @glihm","",""
+"950845066086350939","glihm","23/09/2023 1:07 pm","Hum well it very depends on your contract and your functions.
+
+But we just release a more advanced version of the abi gen: https://github.com/glihm/starknet-abigen-rs
+
+We will do the events this weekend or next week. But now you can:
+
+1. Generate the bindings from your ABI.
+2. Serialize/Deserialize any cairo type including your own structs/enums (they can be generic too).
+3. You can do calls/invoke directly from the generated code.
+
+Examples here in the repo: https://github.com/glihm/starknet-abigen-rs/blob/main/src/main.rs","",""
+"717768946954141697","anoushk","23/09/2023 4:31 pm","@glihm lets say that my contract returns a struct Verifier that has some u64 fields in it. now this code returns a Vec<FieldElement>
+```
+ let verifier_data = provider
+        .call(
+            FunctionCall {
+                contract_address: contract.clone(),
+                entry_point_selector: selector!(""getVerifier""),
+                calldata: vec![verifier_id],
+            },
+            BlockId::Tag(BlockTag::Latest),
+        )
+        .await;
+```
+
+is there any parser like serde that I can use to deser FieldElements to the Verifier struct , I can create the verifier struct in rust easily","",""
+"950845066086350939","glihm","23/09/2023 7:22 pm","This is what we try to build with abigen and hopefully it will become part of `starknet-rs` itself.
+
+If you want to do the deserialization yourself, you'll have to parse the `verifier_data` and verify you have the correct values to then create your struct.
+
+Or using abi generation you can directly do like this:
+```rust
+let verifier_data: VerifierData = your_contract.getVerifier();
+``` 
+You first need to generate the binding from your ABI. For this you can check the README here https://github.com/glihm/starknet-abigen-rs. 👍","",""
+"717768946954141697","anoushk","23/09/2023 7:23 pm","So to do this manually(without abigen) there’s no example for this?","",""
+"717768946954141697","anoushk","23/09/2023 7:24 pm","Been trying to find other projects on GitHub that do this but haven’t found anything","",""
+"950845066086350939","glihm","23/09/2023 7:28 pm","I think you could find some examples depending on the projects. But basically you'll endup writing a something like:
+(it's pseudo code, not tested for sure but that's the idea)
+```rust
+let VerifierData {
+  v1: u64,
+  v2: u64,
+}
+
+fn parse_verifier_data(felts: &[FieldElement]) -> Result<VerifierData> {
+  if felts.len() < 2 {
+    return Err(anyhow!(""Buffer too short for VerifierData"");
+  }
+
+  Ok(VerifierData {
+    v1: felts[0].try_into().expect(""felt too large for u64"");
+    v2: ...
+  })
+}
+```","",""
+"950845066086350939","glihm","23/09/2023 7:29 pm","This is what abigen does for you, with type checking + serialization/deserialization when the call it's done.","",""

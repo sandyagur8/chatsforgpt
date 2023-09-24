@@ -1,0 +1,219 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"744819490881142876","nitzangrossman","14/03/2022 3:45 pm","<https://starktx.info/> - is operated by <https://tokenflow.live/>","",""
+"744819490881142876","nitzangrossman","14/03/2022 3:46 pm","Pinned a message.","",""
+"794486053955960863","layerzero_labs","14/03/2022 6:25 pm","Hi","",""
+"510899036140732417","tmierzwa","14/03/2022 6:26 pm","hi","",""
+"932715844188921957","Evgeniy S#4606","14/03/2022 8:10 pm","Hi!","",""
+"510899036140732417","tmierzwa","14/03/2022 8:38 pm","just deployed new version with traces support
+https://starktx.info/goerli/0x451124fd844d7f7ccc2679a8113d2df8e80e222e238f62786d20541f0ef607b/","",""
+"510899036140732417","tmierzwa","14/03/2022 8:39 pm","not well tested yet, but seems to be working","",""
+"368420164540170241","janek26","14/03/2022 9:41 pm","hey! do you see a usecase in us (argent x) using your services to decode the transactions to our users in user friendly messages?","",""
+"510899036140732417","tmierzwa","14/03/2022 10:17 pm","hey, yes sure!
+please note that the same data will be available from our StarkNet Data Warehouse so your app can query whatever is needed using db connection or dedicated API... can we setup a meeting to discuss any details?","",""
+"368420164540170241","janek26","14/03/2022 11:10 pm","hmu and lets do a first meeting!","",""
+"866704318060560404","FeedTheFed | StarkWare#8826","16/03/2022 7:06 pm","hey @s0lness, please meet Tomek @mierzwik , the guy behind the snowflake data warehouse (s0lness is working on the briq nft project https://briq.construction/builder)","","👋 (3)"
+"345616092145647616","s0lness","16/03/2022 7:11 pm","Hi @mierzwik , nice meeting you! 
+Could we also include wraitii#8427? He's briq CTO and much versed in data management than me","",""
+"510899036140732417","tmierzwa","16/03/2022 7:25 pm","hi guys, how can I help you?","",""
+"866704318060560404","FeedTheFed | StarkWare#8826","16/03/2022 7:26 pm","this channel shouldn't be private so he can just join 🙂 @wraitii","","👌 (3)"
+"784321568279887902","wraitii","16/03/2022 7:27 pm","yup","","👋 (4)"
+"866704318060560404","FeedTheFed | StarkWare#8826","20/03/2022 11:34 am","is the endpoint for getting events in testnet in sync? if so, what's the correct url?","",""
+"827121023014010900","kchojn","20/03/2022 5:03 pm","Yes, it is: http://starknet.events/redoc
+
+There is a dedicated service. Soon it will be ported to the prod mode","","💯 (2)"
+"866704318060560404","FeedTheFed | StarkWare#8826","20/03/2022 5:12 pm","seem to be no events in the last 4k blocks or so http://starknet.events/api/v1/get_events?from_block=123000","",""
+"827121023014010900","kchojn","20/03/2022 5:36 pm","Thanks, will check it out!","",""
+"435094862832861184","tenox0274","20/03/2022 11:59 pm","Would like to be updated as well when this is resolved. Thanks!","",""
+"435094862832861184","tenox0274","21/03/2022 5:26 am","http://starknet.events/api/v1/get_events would you be able to add the eventId to the response?","",""
+"827121023014010900","kchojn","23/03/2022 6:03 pm","Hey, @FeedTheFed | StarkWare , @tenox , the api synchronization issue should be resolved by now.
+@tenox, we dont have the eventId in the api, because we dont get it from starknet. If you meant  something like voyager and eventid, its probably created artificially and is not in the raw layer","","💯 (6)"
+"866704318060560404","FeedTheFed | StarkWare#8826","23/03/2022 6:37 pm","yes voyager create it on their end","","😎 (9)"
+"871473704998154300","rogeshb#5798","12/04/2022 1:43 am","gm","",""
+"390765622625173506","9atetris","12/04/2022 2:04 am","#🕗｜gm-gn pls use for daily greetings","",""
+"843754360163926056","JakubPtak#8889","20/04/2022 5:30 pm","👋 what is the status of http://starknet.events/? Can it be used for some projects already?","",""
+"827121023014010900","kchojn","21/04/2022 12:23 pm","It’s usable, but It will be soon ported to production version and standardized to starknet schemes, so the api response will be slightly different","",""
+"843754360163926056","JakubPtak#8889","21/04/2022 12:28 pm","Cool, good to know 🙂 Will the API be free for reasonable use? The response time for requests like http://starknet.events/api/v1/get_events?from_block=123000 is quite long, will this be addressed in production version?","",""
+"827121023014010900","kchojn","21/04/2022 12:57 pm","I’m not sure about the pricing, but you can find our discord on tokenflow.live and ask there. 
+And yea, prod version is based on faster infrastructure, but it will be deployed, once the schemas are standardized","","👍 (2)"
+"964869385946796102","a1618xyz","24/04/2022 9:07 pm","how to see your level? otherwise I checked all the eyelids and didn’t find anything, maybe it’s not here ??","",""
+"453284380975300631","Daniel_#6773","15/05/2022 12:48 am","hi guys, just send the tx through starkgate - got no money on Argentx - https://etherscan.io/tx/0x9c85991b37f7d67275e1d6dd3ee9d9b0d86405f090b586a6107027fbd0614d15","",""
+"453284380975300631","Daniel_#6773","15/05/2022 12:48 am","@Liron @guthl | StarkWare","",""
+"619138323776012307","guthl_starkware","15/05/2022 1:33 am","Did you add the Eth token?","",""
+"619138323776012307","guthl_starkware","15/05/2022 1:33 am","Also you should ask on the Argent channel","",""
+"883222809134907422","Hulk#7842","16/05/2022 12:31 pm","https://twitter.com/HakAnalytics/status/1526045527225544704?s=20","",""
+"320544262234177536","marin6740","02/06/2022 8:39 pm","tranzaction in bridge starkgate is failed","https://cdn.discordapp.com/attachments/952853207636398100/981937529173442620/th.png",""
+"885461149217341493","cerulean1231","02/06/2022 10:14 pm","you try 0.025e","",""
+"320544262234177536","marin6740","02/06/2022 10:43 pm","not work","",""
+"885461149217341493","cerulean1231","02/06/2022 10:58 pm","I just went from L2 to L1 and it works fine. Is your gas enough?","",""
+"320544262234177536","marin6740","03/06/2022 1:00 pm","I have enough, transfers to starknet arrive successfully, but vice versa from starknet to goerli fails","https://cdn.discordapp.com/attachments/952853207636398100/982184608240140328/55rt.png",""
+"907981161534468146","wind.rider","03/06/2022 1:04 pm","Sir, as this’s a starkgate related issue, I have answered you on that channel, pls check it,thx👍🏻","",""
+"975690075541213194","Dip852#5677","08/06/2022 1:36 pm","Yes","",""
+"822508092264284270","salim1991","09/06/2022 3:12 am","Hi. I had a question about the transaction.  Who should I ask my questions to?","",""
+"888095660623147068","Darkside#5839","09/06/2022 3:19 am","Ask a question here. If I can't answer, then someone will definitely answer later","",""
+"822508092264284270","salim1991","09/06/2022 3:23 am","about 15 days ago I had a successful bridge from L1 to StarkNet.  Then I bridged again to L1 and the transaction was successful but did not return to my wallet.  Does anyone know why ??","",""
+"888095660623147068","Darkside#5839","09/06/2022 3:25 am","Mainnet? how long ago was the transfer from L2? Check this plz https://discord.com/channels/793094838509764618/957558236662366219/978172477777797171","",""
+"822508092264284270","salim1991","09/06/2022 3:33 am","","https://cdn.discordapp.com/attachments/952853207636398100/984216248223141908/IMG_20220609_023301.jpg,https://cdn.discordapp.com/attachments/952853207636398100/984216248458043424/IMG_20220609_023334.jpg",""
+"888095660623147068","Darkside#5839","09/06/2022 3:57 am","After sending from L2, such a window should have appeared to confirm the second transaction.  But it appears after a while.  Did you have it?  This is an important step.  The link above says it","https://cdn.discordapp.com/attachments/952853207636398100/984222252067352586/test1.png",""
+"822508092264284270","salim1991","09/06/2022 4:07 am","Oh i had not done this.  I did it now and the transaction was successful. Thanks buddy 👍","","👍 (6)"
+"798276348635906058","filiplaurentiu","16/06/2022 3:47 pm","Trying to decode this transaction https://beta-goerli.voyager.online/tx/0x232d274b83d8373a87ee0dbabbe4e3c6a2f5ca248039094e04571e383f2dd3b#overview and I am getting 500 error, why ?","",""
+"798276348635906058","filiplaurentiu","16/06/2022 3:47 pm","https://starktx.info/testnet/0x0232d274b83d8373a87ee0dbabbe4e3c6a2f5ca248039094e04571e383f2dd3b/","",""
+"827121023014010900","kchojn","17/06/2022 1:11 am","Hey, thanks for reporting that, actually something changed in the transaction trace, we will fix it soon 🙌","",""
+"827121023014010900","kchojn","17/06/2022 1:22 am","It has just been fixed 👀","","🚀 (2)"
+"798276348635906058","filiplaurentiu","17/06/2022 1:50 am","I will check. Thanks 🙏","","🤝 (2)"
+"916307639737147403",".jnixable2","27/06/2022 5:18 pm","I have a question about a few my txs - https://goerli.etherscan.io/address/0x00D69EAf25a939a2E8db6238C9ea055ca9633571
+I sent 0.2 eth from metamask but didn't get it in StarkNet","",""
+"916307639737147403",".jnixable2","27/06/2022 5:18 pm","who can help me with it ?","",""
+"907981161534468146","wind.rider","27/06/2022 5:25 pm","ser,for starkgate issue,pls use #🌉｜starkgate ,and i answered you in their,pls check it,thank you🤝","",""
+"502106769997168693",".lukman","12/07/2022 3:22 pm","anyone know why i didnt receive my dai after bridge ?
+
+this my tx 
+https://voyager.online/tx/0x450d560190348c0d7a44328410eca59d6a2889da012e6bb2f45978edf5541d4","",""
+"390765622625173506","9atetris","18/07/2022 6:12 pm","sry for my delaying your replay. for StarkGate questions pls use #🌉｜starkgate","",""
+"895578323915255818","ali.k.taleghani#3275","19/07/2022 4:40 pm","Hello, I transferred some Ether, it was reduced from my Metamask wallet, but it did not go to my Argent wallet. Thank you for solving this problem . wind rider#4016","",""
+"390765622625173506","9atetris","19/07/2022 5:57 pm","you used StarkGate? if so pls use #🌉｜starkgate for supports thx!","",""
+"619138323776012307","guthl_starkware","09/08/2022 5:51 pm","Can you add me as friend?","",""
+"900065561214595073","kurbaga_1517","05/09/2022 3:11 am","I have purchased two domains 😉 too excited for that.
+0x0333455C098FdE55FB69640AA96E29CDC6C2473898EdCaEFa024eE90cBd707e0","",""
+"297500989869654028","daharius","06/09/2022 12:49 am","Where can I find .env_sample? Am I missing it somewhere?","",""
+"828230047630491660","resurrection0342","28/10/2022 7:33 am","","https://cdn.discordapp.com/attachments/952853207636398100/1035373108686770246/unknown.png",""
+"858520845663207425","Kakulsingh#8945","06/11/2022 8:08 am","So do I need to SS paste here my all transactions ??","",""
+"907981161534468146","wind.rider","06/11/2022 8:11 am","Sorry ser, if you have any issue with starktx, feel free to use this channel, if it's other issue with using starknet, pls use #✨｜starknet , there's no need to paste all your tx if no issue with your transaction, thanks","",""
+"938850287953801296","juggernaut322","06/11/2022 9:49 pm","","https://cdn.discordapp.com/attachments/952853207636398100/1038850220341080235/image.png",""
+"848616398964260925","scarletssstarktitan","06/11/2022 9:50 pm","this is starkgate question  ,pls post  here #🌉｜starkgate","",""
+"939242284598308924","fsen30","14/11/2022 8:41 pm","hi","",""
+"906095871316348938","closer2282","14/11/2022 10:16 pm","We use #🕗｜gm-gn or #🐼｜general-chat for greeting , thanks!","",""
+"939242284598308924","fsen30","18/11/2022 6:03 pm","Okey thanks","",""
+"514762062954496035","turist_rk","19/11/2022 9:06 pm","transaction failed by 10kswap","https://cdn.discordapp.com/attachments/952853207636398100/1043550428484345897/stark.png",""
+"848616398964260925","scarletssstarktitan","19/11/2022 9:16 pm","sorry ser here is channel for builder pls i will answer you in #✨｜starknet thanks for your support","",""
+"503074950001721356","khuong#2308","04/12/2022 6:08 pm","I bridged eth from agenx to metamask on https://starkgate.starknet.io/ 30 minutes still haven't received eth","",""
+"848616398964260925","scarletssstarktitan","04/12/2022 6:09 pm","pls we use #🌉｜starkgate  for this question","",""
+"919872559544164352","niki16","14/12/2022 6:24 pm","Hello, I transferred some Ether, it was reduced from my Metamask wallet, but it did not go to my Argent wallet","",""
+"907981161534468146","wind.rider","14/12/2022 6:28 pm","sorry,ser,pls check my reply from #🌉｜starkgate : https://discord.com/channels/793094838509764618/957558236662366219/1052570065817587712 thank you","",""
+"912923321065160744","rochoa","07/01/2023 8:50 am","hi","",""
+"912923321065160744","rochoa","07/01/2023 8:50 am","How I can reach every level?","",""
+"907981161534468146","wind.rider","07/01/2023 8:53 am","ser,this channel is for stark tx,if you just wanna chat pls use #🐼｜general-chat ,thank you","",""
+"691131134683119637","hayzum","26/01/2023 2:43 am","https://starkscan.co/contract/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7","",""
+"848616398964260925","scarletssstarktitan","26/01/2023 2:44 am","anything you need help with ser","",""
+"691131134683119637","hayzum","26/01/2023 2:45 am","How to get stark token sir?","",""
+"848616398964260925","scarletssstarktitan","26/01/2023 2:49 am","reply you here ,pls have a check ,pls here is channel for stark tx ,if you have question relate to the token pls use #🐺｜token-discussion  thanks ser","",""
+"815074269931110430","voronxr","13/02/2023 8:09 pm","Hello, I did not receive funds during the swap from the Starknet (Argent) network to the ETH mainnet (Metamask) network, I use a VPN on my work computer. How can I fix the situation? Through etherscan with the setting 267000000000000000, it shows me a commission of 2ETH, which is $ 3,000, what should I do in this situation? Please help me)","",""
+"848616398964260925","scarletssstarktitan","13/02/2023 8:14 pm","sorry ser ,may i ask if you withdrawing via the starkgate bridge to send the funds from starknet to the L1 mainnet ? and why are you setting  267000000000000000 , pls  share your L2 tx in #🌉｜starkgate , we will help you thanks","",""
+"815074269931110430","voronxr","13/02/2023 8:23 pm","I got it, thanks!))","",""
+"1032666781258612757","ahmed008.bnb","20/03/2023 12:57 pm","Transaction kinda taking time to swap","",""
+"907981161534468146","wind.rider","20/03/2023 12:58 pm","Sorry ser, if you have any issue with starknet, pls use this channel #✨｜starknet , about  Transaction speed pls check #🗿｜faq Q2, thanks🙏🏻","",""
+"395519999512412161","buruko391","31/03/2023 1:47 am","hi ı bridged stark net to eth 24 hour passed but  i didn't receive any of my fund here is tx: 0xc52d991ab3ba45c61cb6824bcc6ecef1bec102feb2bb22ce1143bd5c53663f","",""
+"848616398964260925","scarletssstarktitan","31/03/2023 1:49 am","pls check reply here ,and for bridge question pls feel free to ask here #🌉｜starkgate thanks https://discord.com/channels/793094838509764618/957558236662366219/1091043163520630824","",""
+"863264238839922698","Saravanakumar#2041","15/04/2023 7:42 pm","Sir 2 day ago I'm transfer eth but not received my wallet please help.","",""
+"907981161534468146","wind.rider","15/04/2023 7:44 pm","ser,may I ask if you are using starkgate?if so,pls check this reply: https://discord.com/channels/793094838509764618/957558236662366219/1096741141564641340 ,it will help you,next time if you have any questions about starkgate,pls use this channel #🌉｜starkgate ,thank you","","🇨🇳 (2)"
+"856120680663220255","ramci37","06/05/2023 11:46 am","Process takes a little longer","",""
+"856120680663220255","ramci37","06/05/2023 11:47 am","may be a result of overloading the system","",""
+"907981161534468146","wind.rider","06/05/2023 11:48 am","Ser, this channel is for stark tx, if you need starknet support, pls use #✨｜starknet ，thank you","",""
+"1061291360679890955","rianovtestnt| LOE#4344","07/05/2023 8:16 am","Hello sir,
+I bridge starknet to eth 24 hours passed but i did not receive my funds here is
+
+tx: 0x041f60971e7e939af47f552767243c224c4af0bf3fa19010412321b72044dff6","",""
+"848616398964260925","scarletssstarktitan","07/05/2023 8:24 am","replied here,pls have a check https://discord.com/channels/793094838509764618/957558236662366219/1104601730123042856","",""
+"391327633998086144","dimst","07/05/2023 11:40 pm","Hello! Could you help me? My transaction is stuck: 0x071195eeb49f85f513c2ee1c666793a17a5a04c3e2cb6bce94f7ef328f785715","",""
+"907981161534468146","wind.rider","08/05/2023 8:11 am","ser,pls check my reply from: https://discord.com/channels/793094838509764618/853954510515208192/1104961154398310501 sorry,this channel is for stark-tx","",""
+"909480612736430182","paf7612","13/05/2023 3:39 am","3 day for bridge and i receive nothing: my ETH metamask : 0x5aB1317a541427C4D960C1a3565b0638d17845f4","",""
+"848616398964260925","scarletssstarktitan","13/05/2023 3:45 am","https://discord.com/channels/793094838509764618/957558236662366219/1106705953744748564 sorry ser, replied you here ,pls check thanks","",""
+"408280481117765635","FlyBtc│笑傲江湖#9695","15/05/2023 2:08 pm","@Wind Rider | StarkTitanhttps://starkscan.co/eth-tx/0xff7735c0a7952b33d166d7a98df1cc610c91ee5dd32d3fca003f7f2534b2df74","",""
+"408280481117765635","FlyBtc│笑傲江湖#9695","15/05/2023 2:10 pm","i have  60 hours  not received my  1.18eth","",""
+"408280481117765635","FlyBtc│笑傲江湖#9695","15/05/2023 2:10 pm","30hours","",""
+"408280481117765635","FlyBtc│笑傲江湖#9695","15/05/2023 2:11 pm","@scarlet(σ, σ) | StarkTitan","","✅ (3)"
+"825277086914445334","takichi1","16/05/2023 7:35 pm","Sending transaction failed: Ta: Error at pc=0:12:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:161)
+Unknown location (pc=0:147)
+
+Error in the called contract (0x261a1ad33be98aa25dc7775ea08fcc8abaf9eec81d08bb0eff7490b47fe092):
+Error at pc=0:39:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:1398)
+Unknown location (pc=0:1351)
+Unknown location (pc=0:569)
+Error message: argent: multicall 0 failed
+Unknown location (pc=0:586)
+
+Error in the called contract (0x4942ebdc9fc996a42adb4a825e9070737fe68cef32a64a616ba5528d457812e):
+Error at pc=0:10:
+Got an exception while executing a hint.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:214)
+Unknown location (pc=0:200)
+
+Error in the called contract (0x4942ebdc9fc996a42adb4a825e9070737fe68cef32a64a616ba5528d457812e):
+Error message: You already registered a name.
+Error at pc=0:974:
+An ASSERT_EQ instruction failed: 1 != 0.
+Cairo traceback (most recent call last):
+Unknown location (pc=0:1009)","",""
+"825277086914445334","takichi1","16/05/2023 7:35 pm","I cant transaksi domain errr message","",""
+"907981161534468146","wind.rider","16/05/2023 7:42 pm","ser,this channel is for stark-tx,if you have any general question about using starknet,pls use #🐼｜general-chat or #✨｜starknet ,and pls check my reply from: https://discord.com/channels/793094838509764618/893514287887294526/1108034123748098168 thank you","",""
+"1021074314201682010","btc_2009","18/05/2023 6:13 am","I use starknet bridge yesterday after 12 hour after transaction succeed I do not get the eth. I complaint and I knew to I've to complete a transaction in Metamask. When I try It's showing not enough fees. Gas fees is only 8 to 9 dollar and My wallet balance is aprrox 11 dollar.  Please help","https://cdn.discordapp.com/attachments/952853207636398100/1108555493900824617/Screenshot_733.png,https://cdn.discordapp.com/attachments/952853207636398100/1108555494232178708/Screenshot_734.png,https://cdn.discordapp.com/attachments/952853207636398100/1108555494626439269/Screenshot_735.png",""
+"848616398964260925","scarletssstarktitan","18/05/2023 6:17 am","sorry ser, help you here https://discord.com/channels/793094838509764618/957558236662366219/1108557523490979871 thank you","",""
+"848616398964260925","scarletssstarktitan","19/05/2023 7:59 pm","pls   join in layerswap discord to get  professional help https://discord.com/invite/layerswap  thanks ser","",""
+"927190909244813332","sumit0089","19/05/2023 8:00 pm","HI I Transfer fund from from binance to starknet via layerswap but fund not received. Success from binance but Not Receive funds on Starknet","https://cdn.discordapp.com/attachments/952853207636398100/1109126008730296432/PS_01_Issue_01.jpg,https://cdn.discordapp.com/attachments/952853207636398100/1109126009061658798/PS_01_Issue_on_Transfer.jpg",""
+"848616398964260925","scarletssstarktitan","19/05/2023 8:01 pm","@Sumit Jain👆","",""
+"999028729445613709","atmaca1048","24/05/2023 6:21 pm","I have taken eth to my metamask wallet using starknet bridge, it has not been transferred to my metamask address for 3 days https://starkscan.co/tx/0x2b03d10a013e2f249d86e572e1cde9f2b76cfcb550204d390d404990d23933d","",""
+"999028729445613709","atmaca1048","24/05/2023 6:21 pm","0x0c6476B4519AEdbcC72AaB7760260cf33f7b4a6B","","✅ (5)"
+"1085153649627500544","nordau","29/05/2023 7:46 pm","can you check this tx pls? I sent it from Argent wallet to ETH metamaskhttps://starkscan.co/tx/0x0583130c539b74b238a1a9dfa74a3c213a5d1ee6db565477e049992866bee038","","✅ (4)"
+"848616398964260925","scarletssstarktitan","29/05/2023 7:50 pm","replied you here pls check https://discord.com/channels/793094838509764618/957558236662366219/1112747211953029151 thank you","",""
+"825326026945986580","kenije","23/06/2023 4:40 pm","Pls kindly check tx. Sent from Argent wt to Eth mainnet MM. Thanks.
+https://starkscan.co/tx/0x396d8c331460d45dd95e0149329c1005a62e1c524e6712e183a77e3b5b98fbf","",""
+"907981161534468146","wind.rider","23/06/2023 4:55 pm","sorry,ser,could you pls check this answer: https://discord.com/channels/793094838509764618/957558236662366219/1120305231373275169 it can help you with this,and sorry,next time pls use this channel for starkgate issue #🌉｜starkgate ,thank you","",""
+"1072901264612008026","gayashan091","13/07/2023 7:31 am","Dear Sir ,Good day It takes too much of time to log in .but still pending.","https://cdn.discordapp.com/attachments/952853207636398100/1128868654826655824/image.png",""
+"907981161534468146","wind.rider","13/07/2023 8:11 am","sorry,ser,pls check my reply from: https://discord.com/channels/793094838509764618/957558236662366219/1128878800315363450 as we use that channel for starkgate issue,thank you","",""
+"1072901264612008026","gayashan091","13/07/2023 9:17 am","yes noted. have a great day","","🙏🏻 (3)"
+"770337482621321257","aizensama6090","16/07/2023 5:28 am","i cannot do any tx since yesterday. i wonder why. this is my wallet
+
+https://starkscan.co/contract/0x04dedb8332536778d937f5d68352a6dbfa68af5860718ba7d97eedc5231d7ed4#transactions
+
+when i try to use the same recovery phrase of that wallet on another browser, It's showing another address!! (0x03Ff1f6CF0cbC55b6A6767638F202Be44bfd5F90f8feCEDA729FfDfb3361d8D7) . please how to fix? is there any bug on this wallet ? https://starkscan.co/contract/0x04dedb8332536778d937f5d68352a6dbfa68af5860718ba7d97eedc5231d7ed4#transactions","",""
+"770337482621321257","aizensama6090","16/07/2023 5:28 am","","https://cdn.discordapp.com/attachments/952853207636398100/1129925036183126147/IMG_20230716_065219_101.jpg",""
+"887097270154199061","mandip_","16/07/2023 5:30 am","Kindly, check out the alerts from argent team here https://discord.com/channels/598897994477207572/890232320232161320/1128701617705844838 and they are working for possible solution. For technical support, get help on argent discord","https://cdn.discordapp.com/attachments/952853207636398100/1129925533245915206/image.png",""
+"770337482621321257","aizensama6090","16/07/2023 5:33 am","ok, thanks","","❤️ (2)"
+"347789271392059404","vladian_","16/07/2023 6:57 pm","hello, I did the swap eth>usdt and as a result there is no usdt on the wallet, who can help figure it out, here is the hash https://starkscan.co/tx/0x02eaa7ce7d07bed5dd6691cc8c3d9e204382b7ccae8ee99c3a8b6b5b057523da","",""
+"907981161534468146","wind.rider","16/07/2023 7:00 pm","ser,pls check this reply: ⁠https://discord.com/channels/793094838509764618/893514287887294526/1130129059012169728 and sorry,this channel is for stark-tx,for general questions about starknet,pls use #✨｜starknet  or #🐼｜general-chat  ,thank you","",""
+"397046285770686503","elanarcy","17/07/2023 10:52 pm","please help 
+
+i withdraw eth starknet l2 to eth mainnet l1 . and the contract adress is 0x0000 is that normal ?? im using automatic withdraw from starkgate
+
+https://starkscan.co/tx/0x0539866fc330257043aaa8acecce402ae25c8abf56faa0caa0444a1a5c162241","",""
+"848616398964260925","scarletssstarktitan","17/07/2023 11:00 pm","no worry ser you withdraw via the starkgate and use 1-click withdrawing , pls wait for more time ( totally around 12+) , then the funds will arrive your mm wallet ( end with (570) thank you","https://cdn.discordapp.com/attachments/952853207636398100/1130552174875779093/image.png",""
+"397046285770686503","elanarcy","17/07/2023 11:02 pm","thank you","","🙏🏻 (1)"
+"978666623093313566","andreysivak","26/07/2023 2:41 am","can you help me?
+
+i made a transaction
+https://starkscan.co/tx/0x0214fb1223db067b659155de4f46ac690ec99707172d38e8b9af2deee95fb3ea
+
+I made it July 23. but eth still haven't received my eth. I use Argent X wallet. what's wrong?","","✅ (1)"
+"978666623093313566","andreysivak","26/07/2023 2:44 am","If I need to provide more information for you, ask me anything","",""
+"848616398964260925","scarletssstarktitan","26/07/2023 2:56 am","sorry ser, pls share me the correct tx or your account , this is not the tx from  your account i guess ? thank you","",""
+"848616398964260925","scarletssstarktitan","26/07/2023 2:57 am","","https://cdn.discordapp.com/attachments/952853207636398100/1133510931494748170/image.png",""
+"848616398964260925","scarletssstarktitan","26/07/2023 3:01 am","https://starkscan.co/contract/0x0089cc9297ad86d767f2433e2926b6bbbc3dae09a37b44f6bfd00528f47e36a7#portfolio the eth has arrived thank you","https://cdn.discordapp.com/attachments/952853207636398100/1133511934789042296/image.png",""
+"978666623093313566","andreysivak","26/07/2023 3:16 am","ok. maybe it's Argent issue ?","https://cdn.discordapp.com/attachments/952853207636398100/1133515771516039269/image.png",""
+"978666623093313566","andreysivak","26/07/2023 3:17 am","i test it on dex such as mySwap to check balance by max button. but it still 0","",""
+"848616398964260925","scarletssstarktitan","26/07/2023 3:18 am","should be internet connection issue ser, if you use vpn ,pls switch to other ip and try again","",""
+"978666623093313566","andreysivak","26/07/2023 3:33 am","thanks a lot! now it works fine! I didn't even think that this could be a problem..","","🙏🏻 (4)"
+"1026366131113574470","imamk.","19/08/2023 11:14 am","Please check my tx:
+0x06529c77bc172c0201ddf5f656c8bdd9c86d32dda1fc6f2050bd437c7c600c1b
+Since 6 August 2023 did not arrive to my L1 eth.","https://cdn.discordapp.com/attachments/952853207636398100/1142333254884671508/Screenshot_2023-08-19-12-42-35-679_com.kiwibrowser.browser.jpg",""
+"887097270154199061","mandip_","19/08/2023 11:17 am","Now, one more step is required friend. 
+Reopen starkgate bridge https://starkgate.starknet.io/ and connect the wallet accounts that was previously used in withdraw. A dialogue box appears in the top right corner. Click on complete transfer as provided on screenshot below and pay gas fee in L1 ethereum after which funds will arrive shortly. In future, you can try 1-click withdraw, which does not require secondary confirmation transaction of compete transfer https://medium.com/spaceshard/starkgate-1-click-withdrawal-5e96e5dc152c","https://cdn.discordapp.com/attachments/952853207636398100/1142334113295126639/Screenshot_2023-07-21_090804.png",""
+"1026366131113574470","imamk.","19/08/2023 11:18 am","Oke,thanks bro.","",""
+"1089868426492780605","kokojamba_is_real","21/08/2023 6:48 pm","More than 9 hours have passed, there is still no stamp button   tx 0x0308d3055aa9105fe4395157a65c6fa46554bbd0d9cae3d44effdf7dff973fa5","https://cdn.discordapp.com/attachments/952853207636398100/1143172215140003971/image.png",""
+"907981161534468146","wind.rider","21/08/2023 6:50 pm","ser,pls check my reply from: https://discord.com/channels/793094838509764618/957558236662366219/1143172602702090342 as we use that channel for starkgate issue,thank you","",""
+"959513206253051984","rudi_rudi","23/08/2023 4:03 pm","Hey, have problem with TX
+
+0x07ccb3517669fce948e4694c0dd92c31a8b666a8dae483cdf2b4b3e089ff21cb","https://cdn.discordapp.com/attachments/952853207636398100/1143855543237234728/image.png",""
+"959513206253051984","rudi_rudi","23/08/2023 4:21 pm","@Wind Rider | StarkTitan hello, could you help me pls with this TX
+
+0x07ccb3517669fce948e4694c0dd92c31a8b666a8dae483cdf2b4b3e089ff21cb","","dope (1),StarkNet (1)"
+"907981161534468146","wind.rider","23/08/2023 4:27 pm","Sorry for the delay,let's move to: https://discord.com/channels/793094838509764618/853954510515208192/1143861174270701639 ser,usually we use that channel for starknet general issue,thank you","","StarkNet (3)"
+"659102258646220823",".jonyhex","13/09/2023 4:07 am","hi, such a problem, I didn’t update the ArgentX, and made a transaction to withdraw liquidity from Zklend, it seems to have gone through ( i have succes transfer tx from zklend to my wallet, but don't see money on wallet, but there’s been no money for an hour, what should I do?","",""
+"848616398964260925","scarletssstarktitan","13/09/2023 4:10 am","sorry  replied here https://discordapp.com/channels/793094838509764618/908663762150645770/1151285049291968614","",""
+"1075537688477835304","poikab","23/09/2023 9:14 pm","Crazy story line... this updates stuff is annoying a bit","",""
+"848616398964260925","scarletssstarktitan","23/09/2023 9:19 pm","sorry, anything you need help with , pls elaborate on your issue and we try our best to help you thank you for your support","",""

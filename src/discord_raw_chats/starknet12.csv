@@ -1,0 +1,1037 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"895328389299318866","eni7912","10/02/2023 12:33 am","hey hey! what's the correct way of accessing the core library in files? for example, importing with `use array::ArrayTrait` doesn't work","","❤️ (2)"
+"689466865415880710","jajakobyly","10/02/2023 12:40 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","22/02/2023 9:15 pm","The hopefully final alpha of Scarb is live!
+
+🔥 Git dependencies support
+📝 scarb add
+
++ more!
+
+https://github.com/software-mansion/scarb/releases/tag/v0.1.0-alpha.2","","👍 (2),❤️ (3)"
+"786227045604130846","raphael_doukhan","22/02/2023 9:38 pm","Hi, how to use the vsc cairo-1 extension in a scarb project? I was able to run cairo-language-server in non-scarb projects, however, it doesn't seem to work when I create a scarb project","",""
+"1034194971441504326","punk5736","22/02/2023 10:04 pm","Hello! I'm running `scarb build` on my Cairo 1.0 contract and the storage variable identifiers are not resolving. Have I misconfigured my project? How can I resolve this?","",""
+"1034194971441504326","punk5736","22/02/2023 10:31 pm","Started a thread.","",""
+"895328389299318866","eni7912","27/02/2023 2:27 pm","good morning scarb team,
+i was reading https://github.com/software-mansion/scarb/blob/main/ARCHITECTURE.md#cairo-core and I didn't understand if it was possible to overwrite scarb's corelib with a custom one?","",""
+"689466865415880710","jajakobyly","01/03/2023 5:36 pm","https://twitter.com/jajakobyly/status/1630901727229628416","",""
+"265974904749424651","robertkodra","02/03/2023 8:23 pm","I'm receiving this error when trying to build my project. I've updated to the latest version, any ideas? 
+
+```
+    Updating git repository https://github.com/starkware-libs/cairo/tree/main/corelib
+error: failed to fetch into: /home/dash/.cache/scarb/registry/git/db/corelib-7RTKR3DHFPACM.git
+
+Caused by:
+    process did not exit successfully: exit status: 128
+```","",""
+"265974904749424651","robertkodra","02/03/2023 8:35 pm","Started a thread.","",""
+"586676290250211333","chqrles","09/03/2023 4:31 pm","Hi guys ! Do you plan allowing custom source dir?","",""
+"586676290250211333","chqrles","09/03/2023 4:58 pm","nvm I'll make a PR :x_PepeOK:","",""
+"586676290250211333","chqrles","09/03/2023 10:21 pm","Ideally we should be able to specify the lib path like in rust with:
+
+```toml
+[lib]
+path = ""src/starknet/main.cairo""
+```
+
+But `lib.cairo` is hardcoded in the cairo compiler right ?","",""
+"689466865415880710","jajakobyly","14/03/2023 1:50 pm","Started a thread.","",""
+"585509977079283744","aundumla","20/03/2023 8:08 pm","Is there a way to check which version of cairo compiler scarb uses?","",""
+"261535993515999233","maciektr","20/03/2023 8:09 pm","@maciejka Just use `scarb --version`, which will show you both scarb and cairo version","",""
+"585509977079283744","aundumla","20/03/2023 8:10 pm","I get: `scarb 0.1.0-rc.0 (a04464bc2 2023-03-01)`","",""
+"689466865415880710","jajakobyly","20/03/2023 8:10 pm","make sure you pass `--version`, not `-V`, `-V` means short output and it omits cairo version","",""
+"689466865415880710","jajakobyly","20/03/2023 8:11 pm","that's how Clap works, we tried to be good citizens 🤷‍♂️","",""
+"585509977079283744","aundumla","20/03/2023 8:12 pm","Very surprising. Is there a way to make it work with locally installed cairo?","",""
+"689466865415880710","jajakobyly","20/03/2023 8:13 pm","the only thing you can do is to fork scarb and set language version in Cargo.toml","",""
+"689466865415880710","jajakobyly","20/03/2023 8:13 pm","btw, Scarb 0.1.0-rc.2 is ready, I'm writing release notes currently","","🔥 (3)"
+"585509977079283744","aundumla","20/03/2023 8:14 pm","I will wait few hours then.","",""
+"689466865415880710","jajakobyly","20/03/2023 8:15 pm","I'm almost done, should be online in 30 minutes","","👌 (3)"
+"689466865415880710","jajakobyly","20/03/2023 8:33 pm","Scarb 0.1.0-rc.2 has been released!
+
+⬆️ Cairo 1.0 Alpha 6
+🛠️ [tool.*] section in Scarb.toml
+✨ Improvements to scarb add!
+🐛 Added a possibility to output human-readable names compiled Sierra code
+
+Check it out: https://github.com/software-mansion/scarb/releases/tag/v0.1.0-rc.2","","🔥 (7)"
+"938703797239287879","0xdarlington","21/03/2023 5:30 am","How do you run your cairo tests with scarb? Is that possible?","",""
+"689466865415880710","jajakobyly","21/03/2023 6:32 pm","Started a thread.","",""
+"895328389299318866","eni7912","21/03/2023 8:12 pm","Hey guys 🙂 A cool feature I would like to see implemented eventually is a detailed summary of all the files a given file imports
+perhaps with scarb-metadata? I don't know how it works exactly but I guess at some point in the compilation process it must be known?","",""
+"895328389299318866","eni7912","22/03/2023 8:22 pm","Hey, I pulled the last version of Cairo and can't get the LSP to work anymore. I see that it now reads from Scarb metadata. How do I adapt my repositories?","",""
+"689466865415880710","jajakobyly","28/03/2023 5:07 pm","Scarb 0.1 goes mainnet! We are happy to finally ditch the prerelease tag. As promised, this release brings scripts. No more Makefiles, yay!
+
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.1.0
+Get it here: https://docs.swmansion.com/scarb/download
+Tweeeet: https://twitter.com/jajakobyly/status/1640679131720429568","",""
+"977831694465896468","rajeebkm","01/04/2023 1:50 am","After downloading scarb new release version, how to set path, as there is no scarb/bin directory ?","","🫡 (3)"
+"689466865415880710","jajakobyly","03/04/2023 12:22 pm","Started a thread.","",""
+"977831694465896468","rajeebkm","03/04/2023 7:35 pm","It's fixed.","",""
+"895328389299318866","eni7912","03/04/2023 9:35 pm","feature request: scarb run as a default command, which runs the CairoRunner on the Scarb project","",""
+"689466865415880710","jajakobyly","04/04/2023 3:13 pm","Started a thread.","",""
+"935894740744933386","codemedian","05/04/2023 6:31 pm","Hey folks. I'm compiling a contract with a `#[view]` function that returns a `struct`. I've made it implement the `Serde` trait and it compiles fine with starknet-compile. When i run `scarb build` however I get 
+
+```
+error: Trait has no implementation in context: core::serde::Serde::<cairo_token_faucet::faucet::StarkswapTokenFaucet::FaucetConfig>
+ --> contract:590:43
+            serde::Serde::<FaucetConfig>::serialize(ref arr, res);
+                                          ^*******^
+```
+
+Does anyone have an idea what might be the issue?","",""
+"895328389299318866","eni7912","06/04/2023 11:31 pm","hey I want to create a scarb subcommand but I didn't really understand how it works
+https://docs.swmansion.com/scarb/docs/extensions/subcommands
+
+Once I have, for example a CLI tool - how do i make it available with `scarb-{my_cli_tool}`?","",""
+"425003502767570944","kermonat","11/04/2023 7:07 am","you have to implement FaucetConfig with serde","",""
+"261535993515999233","maciektr","11/04/2023 1:00 pm","Hi @eni! 
+
+You need to add path of the directory containing your subcommand binary (named `scarb-{my_cli_tool}` on unix based systems and `scarb-{my_cli_tool}.exe` on windows) to the PATH environmental variable. 
+
+You can read a quick introduction to PATH variable here: https://www.cs.purdue.edu/homes/bb/cs348/www-S08/unix_path.html 
+
+To manage the PATH variable on windows, please follow this tutorial: https://www.computerhope.com/issues/ch000549.htm
+
+Alternatively, you can put the binary file in `bin` folder inside scarb's local data directory, as pointed in the docs here: https://docs.swmansion.com/scarb/docs/reference/global-directories#local-data-directory
+(So it would be e.g.  `$HOME/.local/share/scarb/bin/scarb-{my_cli_tool}` on Linux)
+
+Please make sure your binary is executable, i.e. has execution permissions set on unix based systems (`chmod +x scarb-{my_cli_tool}`) .
+
+Let me know if this helps!","",""
+"786227045604130846","raphael_doukhan","12/04/2023 11:56 am","Hi @chloe.t let’s answer your question on this channel. 
+
+https://discord.com/channels/793094838509764618/1065544063245365288/1095589232283746314
+
+The easiest way is two open it manually. Right click on the package and open it. Once it has been opened once, it is recorded as an exception by your Mac","","❤️ (2)"
+"403969724188327937","thryec","12/04/2023 1:49 pm","ahh that works. thanks so much!! 😊","",""
+"1062103480006873239","imv4l","12/04/2023 5:46 pm","i created a simple scarb package named package,
+i only contains a lib.cairo ( with mod math; ) & a math.cairo file ( contains a pow function )
+i want to use cairo-run a file, lets say main.cairo & use package::math:pow
+i can't find the way to do it,
+is it even possible ? (im using alpha6)","",""
+"261535993515999233","maciektr","12/04/2023 5:47 pm","@imV4l We do not have a command for cairo-run bundled yet. You can track work on this via issue on our roadmap. https://github.com/software-mansion/scarb/issues/242","",""
+"1062103480006873239","imv4l","12/04/2023 5:54 pm","mm so i can write scarb package, but can't use it 🤨","",""
+"1062103480006873239","imv4l","12/04/2023 5:54 pm","is this scarb related or cairo compiler related","",""
+"416298073069715456","t.aksoy","12/04/2023 6:08 pm","hello,  I am trying to add a dependecy as shown in the document but build  fails. I also tried with same dependency in the doc. What could be the reason?
+`[dependencies]
+quaireaux = { git = ""https://github.com/keep-starknet-strange/quaireaux.git"" }`
+
+`    Updating git repository https://github.com/keep-starknet-strange/quaireaux
+error: cannot find package quaireaux`
+
+versions :`scarb 0.1.0 (289137c24 2023-03-28) `  `cairo: 1.0.0-alpha.6`","",""
+"689466865415880710","jajakobyly","13/04/2023 3:41 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","13/04/2023 3:42 pm","Started a thread.","",""
+"509692086556033024","distracteddev","13/04/2023 9:29 pm","I'm trying to add openzeppelin as a dependency in scarb:
+
+```
+scarb add openzeppelin --git https://github.com/OpenZeppelin/cairo-contracts.git --branch cairo-1
+```
+
+but get `error: cannot find package openzeppelin`. Does the openzeppelin repo require a built `Scarb.toml` in order for it to be a package?","",""
+"689466865415880710","jajakobyly","14/04/2023 12:48 am","Started a thread.","",""
+"689466865415880710","jajakobyly","14/04/2023 11:31 am","Announcing the first preview of Scarb v0.2 🥳
+
+🚀 Cairo Alpha 7 - note that it's not yet supported by Starknet!
+📝 Profiles
+🏦 Starknet DX improvements
+
+Changelog: https://github.com/software-mansion/scarb/releases/tag/v0.2.0-alpha.0
+Download it here: https://docs.swmansion.com/scarb/download
+Tweet: https://twitter.com/jajakobyly/status/1646755296264572929","",""
+"511272055623122961","laurip","14/04/2023 1:03 pm","Hi. First time using Scarb. Took the new 0.2.0 version. How can I run unit tests for my contracts? `scarb build` works but `scarb run test` gives all sorts of weird compilation errors.","",""
+"727506935590551672","yusufx.stark","15/04/2023 7:43 am","where to install it ? just want to test","https://cdn.discordapp.com/attachments/1073222817195233412/1096619159074373712/image.png",""
+"895328389299318866","eni7912","17/04/2023 10:17 pm","Hey guys, we wrote a chapter about Scarb in the Cairo book. https://cairo-book.github.io/ch01-03-hello-scarb.html
+I would appreciate if you could read it and, if you believe something needs to be added, open an issue/PR 😄","","❤️ (4)"
+"261535993515999233","maciektr","18/04/2023 1:07 pm","Great to hear that! 
+It might be cool to suggest using `scarb fmt` to format projects as well, as I have seen you mention usage of the `cairo-format` (https://cairo-book.github.io/appendix-04-useful-development-tools.html#automatic-formatting-with-cairo-format).
+The docs: https://docs.swmansion.com/scarb/docs/guides/formatting
+WDYT?","",""
+"689466865415880710","jajakobyly","18/04/2023 1:35 pm","Yes I just read it and it's so awesome I cannot pinpoint anything about it! Super well written and well thought","",""
+"689466865415880710","jajakobyly","18/04/2023 1:36 pm","In the future, it should more emphasize that using Scarb won't require you the hassle of installing cairo compiler on its own, but because we don't bundle LS and Protostar, it's totally OK what it says currently","","👍 (1)"
+"283862302401495041","grest_","18/04/2023 1:51 pm","hi, I currently have a folder with Cairo 0.x contracts in a `contracts` directory, and Cairo 1.x contracts in a `src` directory. If I run `scarb fmt --package src`, it ends up going through the Cairo 0.x contracts too. did I miss something?","",""
+"689466865415880710","jajakobyly","18/04/2023 2:31 pm","Started a thread.","",""
+"895328389299318866","eni7912","18/04/2023 2:53 pm","yes, great idea!","",""
+"283862302401495041","grest_","19/04/2023 7:17 am","how can I check the version of Cairo that Scarb is using? the `main` branch pins `cairo` to a specific commit now, but running `scarb --version`  only gives `cairo: 1.0.0-alpha.7`. Also, is it possible to run Scarb with a custom Cairo path (e.g. building the latest `cairo` `main` branch from source locally)?","",""
+"689466865415880710","jajakobyly","19/04/2023 10:06 am","Started a thread.","",""
+"265974904749424651","robertkodra","19/04/2023 10:48 pm","question regarding scripts - can I add a dynamic variable that is given in the input? For example running `scarb run declare file=src/main.cairo `
+
+```Makefile
+[scripts]
+declare = ""starknet declare --contract ${FILE} --account version_2 --show_trace""
+```","",""
+"689466865415880710","jajakobyly","20/04/2023 1:57 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","20/04/2023 3:15 pm","https://twitter.com/jajakobyly/status/1648985654867501058","",""
+"609492693244182538","0xhelium","20/04/2023 9:32 pm","hello iam going through the cairo-book and i installed cairo and run my first cairo-run command which worked perfectly","",""
+"609492693244182538","0xhelium","20/04/2023 9:34 pm","then i installed scarb and everything changed","",""
+"609492693244182538","0xhelium","20/04/2023 9:34 pm","when i try to run cairo-run command this is what i get as output","",""
+"609492693244182538","0xhelium","20/04/2023 9:34 pm","``` cairo-run main.cairo
+usage: cairo-run [-h] [-v] [--program PROGRAM] [--program_input PROGRAM_INPUT] [--steps STEPS]
+                 [--min_steps MIN_STEPS] [--debug_error] [--no_end] [--print_memory] [--relocate_prints]
+                 [--secure_run] [--no_secure_run] [--print_info] [--print_segments] [--print_output]
+                 [--memory_file MEMORY_FILE] [--trace_file TRACE_FILE]
+                 [--run_from_cairo_pie RUN_FROM_CAIRO_PIE] [--cairo_pie_output CAIRO_PIE_OUTPUT]
+                 [--debug_info_file DEBUG_INFO_FILE] [--air_public_input AIR_PUBLIC_INPUT]
+                 [--air_private_input AIR_PRIVATE_INPUT]
+                 [--layout {plain,small,dex,recursive,starknet,recursive_large_output,all_solidity,starknet_with_keccak,dynamic}]
+                 [--tracer] [--profile_output PROFILE_OUTPUT] [--proof_mode] [--show_trace]
+                 [--flavor {Debug,Release,RelWithDebInfo}] [--python_dependencies PYTHON_DEPENDENCIES]
+cairo-run: error: unrecognized arguments: main.cairo```","",""
+"609492693244182538","0xhelium","20/04/2023 9:35 pm","iam using wsl ubuntu distro","",""
+"689466865415880710","jajakobyly","20/04/2023 9:35 pm","hmm Scarb doesn't touch cairo-run. are you sure you didn't change something extra along the line?","",""
+"609492693244182538","0xhelium","20/04/2023 9:35 pm","someone can help ? The cairo-book writers are not friendly when it comes to answering questions","",""
+"219472844009111552","cestvianney","21/04/2023 1:43 am","Try to write ""cairo-run **-p** main.cairo""","",""
+"219472844009111552","cestvianney","21/04/2023 1:44 am","I didn't have the same error than you, but the reason the cairo-run didnt succeeded was because of this missing parameter","",""
+"609492693244182538","0xhelium","21/04/2023 4:39 pm","i deleted evrything and started over ... do you have any resource someone made to in stall scarb properly ?","",""
+"609492693244182538","0xhelium","21/04/2023 4:40 pm","there is one i made per my understanding","",""
+"609492693244182538","0xhelium","21/04/2023 4:40 pm","https://github.com/quentin-abei/cairo-lang-starknet/blob/master/README.md","",""
+"609492693244182538","0xhelium","21/04/2023 4:40 pm","but i get these problems , so before re installing i need someone to check my ressource if it's ok","",""
+"261535993515999233","maciektr","21/04/2023 4:41 pm","Scarb does not affect how cairo-run works in any way.","",""
+"261535993515999233","maciektr","21/04/2023 4:42 pm","The proper way to install scarb is to download the archive from release, unpack, and add the directory with scarb binary to PATH variable.","",""
+"609492693244182538","0xhelium","21/04/2023 4:43 pm","please check if one step is not missing because this is how i made it","",""
+"689466865415880710","jajakobyly","21/04/2023 4:46 pm","it's ok","",""
+"609492693244182538","0xhelium","21/04/2023 4:48 pm","ok i will try again","",""
+"689466865415880710","jajakobyly","21/04/2023 4:50 pm","but again, Scarb is not related to cairo-run","",""
+"689466865415880710","jajakobyly","21/04/2023 4:50 pm","by installing Scarb you do not install cairo-run","",""
+"609492693244182538","0xhelium","21/04/2023 4:58 pm","i know this , but my cairo command messed up just after installing scarb","",""
+"689466865415880710","jajakobyly","21/04/2023 5:00 pm","maybe you messed up `PATH` value? see what `echo $PATH` says, maybe this will help you","",""
+"609492693244182538","0xhelium","21/04/2023 5:06 pm","Voila , it's working now","https://cdn.discordapp.com/attachments/1073222817195233412/1098935243806883870/image.png","peepoParty (2),nice (1)"
+"895328389299318866","eni7912","24/04/2023 1:36 pm","hey, I'm trying to build a compiler plugin on top of Scarb, I updated to the last version and it no longer works and throws this error:
+
+```
+thread 'main' panicked at 'Cannot start a runtime from within a runtime. This happens because a function (like `block_on`) attempted to block the current thread while the thread is being used to drive asynchronous tasks.', /Users/msaug/.cargo/git/checkouts/scarb-831c32bf23da0a7c/d98ccc5/scarb/src/ops/resolve.rs:42:32
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
+
+any idea why?","",""
+"261535993515999233","maciektr","24/04/2023 10:21 pm","Hi! This error would come from the Tokio framework. Are you using scarb as a library?","",""
+"895328389299318866","eni7912","24/04/2023 10:21 pm","yes!","",""
+"895328389299318866","eni7912","24/04/2023 10:21 pm","i'm trying to call `ops::compile(ws)`","",""
+"612511916505432134","augustbleeds","24/04/2023 11:09 pm","when I execute `scarb build` it's going to use its own version of cairo right? It's not going to look for cairo installed on my system","",""
+"791177402108739664","akirillo","25/04/2023 11:47 am","hiya scarb folks!
+i know scarb doesn't yet have a cairo test runner, but I was wondering if there's any workaround for running `cairo-test` in a project that contains scarb dependencies?
+it seems `cairo-test` tries to recompile the project and fails to do so because it doesn't pull in the deps...
+not being able to run tests is kind of a blocker for using scarb dependencies 😅","",""
+"914851127818862592","pagecountrycousin","25/04/2023 1:20 pm","I followed this but it couldn't work, any tips on how to make it work??","",""
+"895328389299318866","eni7912","25/04/2023 1:21 pm","What didn't work?","",""
+"914851127818862592","pagecountrycousin","25/04/2023 1:29 pm","scarb","https://cdn.discordapp.com/attachments/1073222817195233412/1100330122432761878/extracted_to_home_folder.png,https://cdn.discordapp.com/attachments/1073222817195233412/1100330122625687562/not_found.png",""
+"914851127818862592","pagecountrycousin","25/04/2023 1:35 pm","I extracted it to my home directory","",""
+"914851127818862592","pagecountrycousin","25/04/2023 1:35 pm","here I tried adding it to my path but its not working...","",""
+"895328389299318866","eni7912","25/04/2023 1:42 pm","idk, retry all instructions carefully","",""
+"914851127818862592","pagecountrycousin","25/04/2023 2:21 pm","thanks","",""
+"261535993515999233","maciektr","25/04/2023 2:57 pm","Started a thread.","",""
+"261535993515999233","maciektr","25/04/2023 3:00 pm","Started a thread.","",""
+"261535993515999233","maciektr","25/04/2023 3:02 pm","Started a thread.","",""
+"609492693244182538","0xhelium","26/04/2023 3:44 pm","https://github.com/quentin-abei/cairo-book-learn/blob/master/README.md","",""
+"914851127818862592","pagecountrycousin","26/04/2023 5:46 pm","this really helps  man, Thank you","",""
+"609492693244182538","0xhelium","26/04/2023 6:11 pm","Did you star it ? ✨😄","",""
+"914851127818862592","pagecountrycousin","27/04/2023 7:03 pm","even followed you sir","",""
+"612511916505432134","augustbleeds","29/04/2023 2:28 am","Are parent directories legal for dependencies?
+```[package]
+name = ""examples""
+version = ""0.1.0""
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
+
+[dependencies]
+math = { path = ""../../math"" }```","",""
+"202597021209591809","iamjack.sol","01/05/2023 3:39 am","What is the accepted way to run tests for scarb projects right now?","",""
+"202597021209591809","iamjack.sol","01/05/2023 10:56 pm","Started a thread.","",""
+"283862302401495041","grest_","02/05/2023 12:38 pm","is it possible to bump `cairo` to the latest commit?","",""
+"689466865415880710","jajakobyly","02/05/2023 12:52 pm","Started a thread.","",""
+"283862302401495041","grest_","04/05/2023 3:05 pm","I am facing a weird issue, which I am debugging with the Cairo's repo ERC20 example.
+
+If I modify the ERC20 example by adding a line using the `upcast` function, and then place it in my project directory, I get the SIerra file by running `scarb build`. However, declaring the JSON file on starknet-devnet locally fails. The error message is the same as when I run `starknet-compile` on the ERC20 and there is no JSON output.
+
+However, if I run `starknet-compile --allowed-libfuncs-list-name experimental_v0.1.0` on the ERC20, I can successfully declare the JSON file on starknet-devnet locally. 
+
+Does that mean that `scarb build` does not set the` --allowed-libfuncs-list-name` flag? I am also confused why compilation via Scarb successfully generates a Sierra JSON file when it would otherwise fail via `starknet-compile`.","",""
+"689466865415880710","jajakobyly","04/05/2023 4:12 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","04/05/2023 7:33 pm","Happy to announce that Scarb v.0.2.0-alpha.1 is live!
+
+👀 Cairo 1.0.0-rc0
+🔥 Bundled CairoLS
+❓ #[cfg(target: 'starknet-contract')]
+
+Go check it out: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.2.0-alpha.1 
+Tweet: https://twitter.com/jajakobyly/status/1654124185432768519","","🔥 (7)"
+"689466865415880710","jajakobyly","05/05/2023 5:38 pm","Ooopsie, we catched a bug in our build scripts and actually forgot to include Scarb's CairoLS distribution in release archive!
+
+Quickly released Scarb 0.2.0-alpha.2, it includes LS binary now: https://github.com/software-mansion/scarb/releases/tag/v0.2.0-alpha.2","",""
+"895328389299318866","eni7912","09/05/2023 4:41 pm","any integration planned with `cairo-test` runner? That'd be awesome. 
+I created a little script that generates the required `cairo_project.toml`file from the scarb config, but natively would be even better 🙂","",""
+"261535993515999233","maciektr","09/05/2023 5:13 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","15/05/2023 1:57 pm","https://twitter.com/jajakobyly/status/1658026200139288577","","🔥 (3)"
+"1062103480006873239","imv4l","16/05/2023 6:50 pm","i updated scarb & cairo to latest version, when i run scarb --version it still show my old cairo version
+
+➜  scarb --version
+scarb 0.2.0-alpha.0 (05352f327 2023-04-13)
+cairo: 1.0.0-alpha.7
+➜   cairo-run -V
+cairo-lang-runner 1.1.0-alpha0","",""
+"689466865415880710","jajakobyly","17/05/2023 3:32 pm","Happy to tell that Scarb 0.2.0 is out 🚀
+
+✨ Cairo 1.0.0
+💿 macOS and Linux installer
+🔒 cairo-version field in Scarb.toml
+and more!
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.2.0
+Tweet: https://twitter.com/jajakobyly/status/1658774948419100673","","👍 (1),🔥 (1)"
+"284358909655777280","kahi.stark","17/05/2023 7:35 pm","WARN   /Users/runner/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-language-server-1.0.0/src/lib.rs:256 13:53:26 Failed to obtain scarb corelib path from manifest file.
+
+does anyone know whats up with this error im getting from the cairo language server
+
+this happend when i installed scarb v2","",""
+"261535993515999233","maciektr","17/05/2023 10:19 pm","Started a thread.","",""
+"260514830006485002","milan3774","18/05/2023 2:24 pm","gm, I've noticed there's been a bunch of commits around compiler plugins lately which piqued my interest - is that feature so high on the roadmap? when do you think we'll be able to write our own plugins and have them integrated?","",""
+"261535993515999233","maciektr","18/05/2023 7:29 pm","Ooopsie, we catched a bug in `scarb-metadata` crate version used by the Cairo Language Server. This made the Language Server unable to communicate with Scarb 😱!
+
+Quickly released Scarb 0.2.1, which includes a fix:
+https://github.com/software-mansion/scarb/releases/tag/v0.2.1","","👍 (3)"
+"895328389299318866","eni7912","23/05/2023 3:24 pm","hi there, could you please send me Scarb's logo?","",""
+"689466865415880710","jajakobyly","23/05/2023 4:53 pm","Started a thread.","",""
+"1078567534866993264","apoorvsadana","24/05/2023 9:56 am","how do I know which version of starknet is being used by scarb?","",""
+"689466865415880710","jajakobyly","24/05/2023 6:23 pm","Started a thread.","",""
+"511272055623122961","laurip","25/05/2023 12:02 pm","hi. is it possible to use dependencies which don't use scarb? for example openzeppelin. I tried with just `scarb add openzeppelin --git https://github.com/OpenZeppelin/cairo-contracts/tree/cairo-1` but this gives error `process did not exit successfully: exit status: 128`","",""
+"689466865415880710","jajakobyly","25/05/2023 12:29 pm","Started a thread.","",""
+"1062103480006873239","imv4l","27/05/2023 8:20 pm","is compiler built in scarb or is there binaries (starknet-compile, starknet-sierra-compile) available in some path ?","",""
+"791177402108739664","akirillo","28/05/2023 1:02 am","i saw y'all mention that scarb now packages in the cairo language server - how do i indicate to the cairo vscode extension to use scarb's cairoLS?","",""
+"791177402108739664","akirillo","28/05/2023 1:08 am","ah, got it working - for those curious i had to supply `/Users/akirillo/.local/share/scarb-install/latest/bin/scarb-cairo-language-server` as the `cairo1.languageServerPath` in the extension settings","","🙏 (1)"
+"689466865415880710","jajakobyly","28/05/2023 2:14 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","28/05/2023 2:15 pm","Started a thread.","",""
+"395678736462249985","WinnieThePooh#1673","28/05/2023 2:32 pm","Hi, I try to follow : https://book.starknet.io/chapter_2/scarb.html
+But it fails on hello_scarb  stage. (during scarb build).....
+This is my setup:
+(cairo_venv) ➜  hello_world git:(main) ✗ scarb --version
+scarb 0.2.1 (0bccfe675 2023-05-18)
+cairo: 1.0.0 (https://crates.io/crates/cairo-lang-compiler/1.0.0)
+
+$ scarb new hello_scarb
+changed lib.cairo content to:
+// src/lib.cairo
+mod hello_scarb;
+added the file hello_scarb.cairo in src/
+with this content: 
+// src/hello_scarb.cairo
+use debug::PrintTrait;
+fn main() {
+    ""Hello, Scarb!"".print();
+}
+$ scarb build
+
+Error:
+(cairo_venv) ➜  hello_world git:(main) ✗ scarb build
+   Compiling hello_world v0.1.0 (/Users/pooh/protofire/projects/starkMultisig/cairo_practice/try_scarb/hello_world/Scarb.toml)
+thread 'main' panicked at 'assertion failed: (left == right)
+  left: TerminalBadCharacters,
+ right: TerminalLParen', /Users/runner/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-parser-1.0.0/src/parser.rs:1825:9
+note: run with RUST_BACKTRACE=1 environment variable to display a backtrace","",""
+"956930005030547476","GUA#4078","29/05/2023 1:07 am","Hi everyone! I'm having some trouble with starknet-compile
+1. I was following ERC721 tutorial (https://github.com/starknet-edu/starknet-erc721)
+2. I just cloned the repo, and setup the environment (I tried both local python environment and docker, at least Cairo compile is working) 
+3. Then I tried to compile ""starknet-compile contracts/Evaluator.cairo"" and it says ""Error: Contract not found."" That's it. My code is still the original version from the repo, I'm mac M1. 
+Could anyone help with that, big appreciation 🙂","",""
+"689466865415880710","jajakobyly","29/05/2023 12:34 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","29/05/2023 4:23 pm","Scarb 0.3 is live 🔥
+
+⬆️ Cairo 1.1.0
+🌟 The starknet package. This is a breaking change for contract packages!
+➕ more documentation and extension authoring improvements
+
+Download it now! https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.3.0
+Tweet: https://twitter.com/jajakobyly/status/1663136481383178243","","🔥 (3)"
+"842088132399988746","yuvalnoharari","31/05/2023 8:14 pm","gm. Is it possible to somehow use Scarb with the latest cairo main branch (https://github.com/starkware-libs/cairo) instead of v1.1.0?","",""
+"690931332947378219","underco","02/06/2023 3:30 pm","I'm wondering why I'm not able to access my package ""diode_new"" here (using latest Scarb release):
+`error: Identifier not found.
+ --> test_erc721base.cairo:14:5
+use diode_new::erc721Base::ERC721Base;
+    ^*******^`
+
+Here's what I have in my Scarb.toml file:
+[package]
+name = ""diode_new""
+version = ""0.1.0""
+
+link to my repo: https://github.com/acollette/diode_starknet
+
+Thanks for your help","",""
+"689466865415880710","jajakobyly","02/06/2023 4:39 pm","Started a thread.","",""
+"586676290250211333","chqrles","04/06/2023 1:39 am","Hi ! `scarb test` is a great feature, thank you for that :prayge:  But compilation errors are not very helpful, I'm always getting this message:
+
+```
+testing rules_erc1155 ...
+Error: Compilation failed without any diagnostics.
+error: process did not exit successfully: exit status: 1
+```
+
+To debug the error in my code I have to remove the `#[cfg(test)]` attribute and run `scarb build`. Maybe you're already aware of it, and it's just a WIP so I'm not opening an issue on the repo ^^","",""
+"689466865415880710","jajakobyly","05/06/2023 12:37 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","06/06/2023 5:58 pm","Scarb 0.4 is out. This release is MASSIVE 🔥
+
+🧪 scarb cairo-test & scarb test
+👨🏻‍⚕️ Libfuncs validation
+
+Get it now! https://docs.swmansion.com/scarb/download
+Changelog: https://github.com/software-mansion/scarb/releases/tag/v0.4.0
+Tweet: https://twitter.com/jajakobyly/status/1666059497968640001","","🔥 (6)"
+"791177402108739664","akirillo","07/06/2023 12:00 am","scarb test lfggg","",""
+"771092645900320830","rodro_p","07/06/2023 7:33 am","Hi Guys, is there any guide for setting up Cairo plugins with Scarb? Or someone who can lend me a hand.  I am mantaining a plugin, so I'll give it a new update each time there is a new Cairo compiler version.
+
+After updating to Scarb 0.3 with Cairo 1.1, the plugin stop working (like it was being ignored), after updating to  Scarb 0.4, the issue persisted. I've been trying to find a solution to the problem but to no avail","",""
+"261535993515999233","maciektr","07/06/2023 12:16 pm","Started a thread.","",""
+"641937777482792991","amanusk","07/06/2023 2:22 pm","What's the best way to run the language server that comes with scarb, and to link it to VsCode (Or Vim 🤓  )","",""
+"689466865415880710","jajakobyly","07/06/2023 3:22 pm","Started a thread.","",""
+"981356123657494548","whatthedev","08/06/2023 2:59 am","Updated to scarb 0.4 and using `allowed-libfuncs-list.name = ""experimental_v0.1.0""` in scarb.toml as described here https://docs.swmansion.com/scarb/docs/starknet/contract-target#allowed-libfuncs-validation but get error message in ""Problems"" in vs code:
+`Expected ""="", [ \t] or [A-Za-z0-9_\-] but ""."" found.`
+It doesn't like the `.` before `name`.
+
+Even with this `scarb build` seems to run ok. But then when I try 
+`starknet declare --contract target/dev/contract_Contract.sierra.json --account default_account --compiler_args=""--allowed-libfuncs-list-name experimental_v0.1.0 --add-pythonic-hints""` 
+this fails with
+```
+Sending the transaction with max_fee: 0.000001 ETH (1378300013783 WEI).
+Got BadRequest while trying to access https://alpha4.starknet.io/gateway/add_transaction. Status code: 500; text: {""code"": ""StarknetErrorCode.COMPILATION_FAILED"", ""message"": ""Compilation failed. Error: Libfunc bool_eq is not allowed in the libfuncs list '/app/src/starkware/starknet/services/gateway/starknet_gateway_exe.runfiles/__main__/src/starkware/starknet/compiler/v1/testnet_libfuncs.json'.\n Run with '--allowed-libfuncs-list-name experimental_v0.1.0' to allow all libfuncs.\n""}.
+```
+Would appreciate any help. Thx.","",""
+"261535993515999233","maciektr","10/06/2023 2:29 am","Started a thread.","",""
+"355719507601260544","franalgaba.eth","12/06/2023 3:57 pm","gm! Any update on when this PR is planned to be merged? We find it quite useful for our project 🙂 https://github.com/software-mansion/scarb/pull/383","",""
+"913384201712177163","yaometaforo","13/06/2023 8:02 am","Hey, is scarb has any plan to support cario1 v2.0.0?","",""
+"910990302993588274","money_singh#6494","13/06/2023 11:38 am","Hey folks .... just working on a scarb project and could not find the right way to do this on the docs. How exactly can I run a .cairo file (say that prints something) from the cmnd line ... `cairo-run` is giving me trouble","",""
+"910990302993588274","money_singh#6494","13/06/2023 11:47 am","My error - 
+
+```
+➜  algorithms git:(main) ✗ cairo-run src/main.cairo
+usage: cairo-run [-h] [-v] [--program PROGRAM] [--program_input PROGRAM_INPUT]
+                 [--steps STEPS] [--min_steps MIN_STEPS] [--debug_error]
+                 [--no_end] [--print_memory] [--relocate_prints]
+                 [--secure_run] [--no_secure_run] [--print_info]
+                 [--print_segments] [--print_output]
+                 [--memory_file MEMORY_FILE] [--trace_file TRACE_FILE]
+                 [--run_from_cairo_pie RUN_FROM_CAIRO_PIE]
+                 [--cairo_pie_output CAIRO_PIE_OUTPUT]
+                 [--debug_info_file DEBUG_INFO_FILE]
+                 [--air_public_input AIR_PUBLIC_INPUT]
+                 [--air_private_input AIR_PRIVATE_INPUT]
+                 [--layout {plain,small,dex,recursive,starknet,recursive_large_output,all_solidity,starknet_with_keccak,dynamic}]
+                 [--tracer] [--profile_output PROFILE_OUTPUT] [--proof_mode]
+                 [--show_trace] [--flavor {Debug,Release,RelWithDebInfo}]
+                 [--python_dependencies PYTHON_DEPENDENCIES]
+cairo-run: error: unrecognized arguments: src/main.cairo
+```","",""
+"261535993515999233","maciektr","13/06/2023 7:46 pm","Started a thread.","",""
+"890435533132681228","charlietilt","14/06/2023 7:29 pm","Good morning, I was wondering if anyone had some instructions on how to build/compile scarb with the latest cario-1. It looks it is currently configured to use 43b83560 but this rev/commit does not include some of the latest syntax which uses `Default::default` for creating a new array.","",""
+"890435533132681228","charlietilt","14/06/2023 8:04 pm","Or, is there a version of scarb that includes a cairo-1 compilier that includes the latest new Array syntax","",""
+"261535993515999233","maciektr","14/06/2023 10:30 pm","Started a thread.","",""
+"261535993515999233","maciektr","14/06/2023 10:31 pm","Started a thread.","",""
+"261535993515999233","maciektr","15/06/2023 12:52 am","Scarb 0.5.0-alpha.0 is live 🔥
+
+⬆️ Comes with Cairo 2.0.0-rc2
+
+Download it now! https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.0-alpha.0
+Tweet: https://twitter.com/maciektr/status/1669062484274061317","","🔥 (4)"
+"890435533132681228","charlietilt","15/06/2023 10:20 pm","curious, if you wanted to add a dependency with a `path` (not github repo), does the dependency need to have a Scarb.toml in the destination path. I am asking because the OpenZeppelin lib does not have one and when I try to run scarb build, it will fail with the following error:
+```
+error: failed to read manifest at `/vendor/openzeppelin-cairo-contracts/Scarb.toml`
+
+Caused by:
+    No such file or directory (os error 2)
+```","",""
+"261535993515999233","maciektr","16/06/2023 3:25 am","Started a thread.","",""
+"950845066086350939","glihm","17/06/2023 3:58 am","Hello there, how can I run integration testing with Scarb (not using protostar).
+
+Before when cairo_project.toml file was here, we were able to run tests, but the file is now removed as Scarb manages all.
+
+I have testes to add a dependency on a local path, but without success.
+
+For now I am running cairo-test out of scarb with a cairo_project file, but if I am missing something and it's possible to run all of this in scarb without protostar, could be awesome.","",""
+"261535993515999233","maciektr","17/06/2023 6:21 pm","Started a thread.","",""
+"688795715442704407","Bwee#1503","18/06/2023 1:37 am","Hey guys 🙂 It seems like `scarb test`  (default runner, not protostar) only looks for tests in my `src` folder. Is there any way for me to have it search in my `test` folder as well?
+
+Something like what `cairo-test .` does right now. (But I want to depend on Scarb's bundled Cairo).
+
+```
+my_scarb_package
+  ├ src/
+  └ test/
+```","",""
+"950845066086350939","glihm","18/06/2023 2:07 am","Started a thread.","",""
+"261535993515999233","maciektr","20/06/2023 2:50 am","Scarb 0.5.0-alpha.1 is live 🔥
+
+⬆️ Quick release that comes with Cairo 2.0.0-rc3
+
+Download it now! https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.0-alpha.1
+Tweet: https://twitter.com/maciektr/status/1670904101658394628","","👍 (4),🔥 (1)"
+"516452287862800398","bemTG#4074","20/06/2023 3:32 am","Im working with scarb 0.4.0 , cairo: 1.1.0.
+But for all instances when i run :
+`scarb build` or
+`scarb test `
+
+I am getting :
+   Compiling mnist_nn v0.1.0 (C:\Users\User1\Downloads\testing\Scarb.toml)
+
+`thread 'main' has overflowed its stack `
+any help would be appreciated","",""
+"261535993515999233","maciektr","21/06/2023 2:24 am","Started a thread.","",""
+"261535993515999233","maciektr","22/06/2023 6:37 pm","Started a thread.","",""
+"261535993515999233","maciektr","22/06/2023 7:28 pm","Scarb 0.5.0-alpha.2 is live 🔥
+
+This prerelease:
+⬆️ Comes with Cairo 2.0.0-rc4
+🧪 Includes `cairo-run`
+
+Download it now! https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.0-alpha.2
+Tweet: https://twitter.com/maciektr/status/1670904101658394628","","🔥 (3)"
+"860844569813712897","nambi_","23/06/2023 1:27 pm","When trying *scarb build*, the file generated in target/dev is a json instead of a sienna (I've target.starknet-contract in my Scarb.toml)
+I'm not really sure what to do with this json file because it's not working when I use the starknet -declare command with it","",""
+"786227045604130846","raphael_doukhan","27/06/2023 5:51 pm","Hi, When I run `scarb cairo-run` from the cairo-runner example here: 
+https://github.com/software-mansion/scarb/tree/main/examples/cairo_run_example
+
+I get that error: 
+```
+running cairo_runner ...
+Error: #28: Expected variable data for statement not found.
+error: process did not exit successfully: exit status: 1
+```
+
+Any idea why? 
+
+`scarb 0.5.0-alpha.2 `","",""
+"786227045604130846","raphael_doukhan","27/06/2023 6:27 pm","When I run `scarb cairo-run --available-gas 99999999999999999` on my project I get this error: 
+```
+Error: failed to parse sierra program: /mnist_nn/target/dev/mnist_nn.sierra
+```
+
+I ran `scarb build` berfore. 
+
+Here is the repo, the `main` function is in inference.cairo: 
+https://github.com/gizatechxyz/orion_tutorials/blob/develop/mnist_nn/src/inference.cairo","",""
+"689466865415880710","jajakobyly","27/06/2023 7:29 pm","Started a thread.","",""
+"458769147330035714","frutian#0392","28/06/2023 3:47 pm","Hello, how to update dependency to starknet >=2.0.0-rc0. i have an error -  cannot use starknet v1.1.0 (std), because hello_world requires starknet >=2.0.0-rc0","",""
+"261535993515999233","maciektr","28/06/2023 4:01 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","28/06/2023 5:57 pm","Two new Scarb releases have been freshly crafted 🚀
+
+v0.4.1
+⬆️ Cairo 1.1.1
+🚙 scarb cairo-run
+
+v0.5.0-alpha.3
+⬆️ Cairo 2.0.0-rc5
+
+& bugfixes in both
+
+Download here: https://docs.swmansion.com/scarb/download
+Changelogs: https://github.com/software-mansion/scarb/releases
+Tweet: https://twitter.com/jajakobyly/status/1674031763830472708","","🔥 (4)"
+"355719507601260544","franalgaba.eth","28/06/2023 8:50 pm","is stack size solved in this new version @Marek | Software Mansion ? I see it in the changelog but not sure if it's only for the Windows thing","",""
+"202597021209591809","iamjack.sol","28/06/2023 10:11 pm","Is there any guides to re-working my existing unit tests to work for `v2.0.0-rc*`?
+
+Currently I can call the following function signature in a unit test like this
+```
+// The signature 
+#[external]
+fn set_number(number: felt252);
+
+// In my test
+MyContract::set_number(0);
+```
+But in Cairo 1 v2 the function signature is updated to include `ref self: ContractState` to update the storage var
+```
+// The updated (v2) signature 
+#[external]
+fn set_number(ref self: ContractState, number: felt252);
+```
+And in my test I get the following error message:
+> *Wrong number of arguments. Expected 2, found: 1*","",""
+"950845066086350939","glihm","28/06/2023 11:31 pm","You should have a look to protostar (https://github.com/software-mansion/protostar) or `deploy_syscall`, and use the contract as you normally do using a dispatcher / `call_contract_syscall` as the `self` can't be given explicitely AFAIK.
+
+Here is the native way doing it with built-ins from cairo compiler (running `scarb test`):
+
+```rust
+use core::traits::Into;
+use core::result::ResultTrait;
+use array::ArrayTrait;
+use option::OptionTrait;
+use traits::TryInto;
+
+use super::IYourContractDispatcher;
+use super::IYourContractDispatcherTrait;
+
+#[test]
+#[available_gas(40000000)]
+fn test_contract() {
+    let constructor_calldata = array::ArrayTrait::new();
+
+    let (deployed_address, _) = starknet::deploy_syscall(
+        YourContract::TEST_CLASS_HASH.try_into().unwrap(),
+        0,
+        constructor_calldata.span(),
+        false
+    ).unwrap();
+
+    let c = IYourContractDispatcher { contract_address: depoyed_address };
+
+    c.set_number(0);
+}
+```
+
+You can definitly refacto this in your test module in a `set_up` function or something like this for a better experience writting your tests.","",""
+"395901194951983106","bal7hazar","29/06/2023 1:45 pm","Hello,
+
+I am facing an issue with scarb 0.5.0-alpha.3.
+When I run scarb cairo-test I have the following issue:
+
+```rust
+thread 'main' panicked at 'Variant extract failed: `Var(TypeVar { id: 0, stable_ptr: SyntaxStablePtrId(184978) })` is not of variant `TypeLongId::Concrete`', /cargo/git/checkouts/cairo-f086c7e6d4098a68/43b8356/crates/cairo-lang-lowering/src/lower/mod.rs:1023:23
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/90c541806f23a127002de5b4038be731ba1458ca/library/std/src/panicking.rs:578:5
+   1: core::panicking::panic_fmt
+             at /rustc/90c541806f23a127002de5b4038be731ba1458ca/library/core/src/panicking.rs:67:14
+   2: cairo_lang_lowering::lower::lower_expr_match
+   3: cairo_lang_lowering::lower::lower_expr
+   4: cairo_lang_lowering::lower::lower_expr_block
+   5: salsa::derived::slot::Slot<Q,MP>::read_upgrade
+   6: <DB as cairo_lang_lowering::db::LoweringGroup>::priv_function_with_body_multi_lowering::__shim
+   7: salsa::derived::slot::Slot<Q,MP>::read_upgrade
+   8: <DB as cairo_lang_lowering::db::LoweringGroup>::semantic_function_with_body_lowering_diagnostics::__shim
+   9: salsa::derived::slot::Slot<Q,MP>::read_upgrade
+  10: <DB as cairo_lang_lowering::db::LoweringGroup>::module_lowering_diagnostics::__shim
+  11: scarb_cairo_test::main
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+error: process did not exit successfully: exit status: 101
+```
+
+Note that `cairo-test`  works correctly (version cairo-test 2.0.0-rc5)
+I may have messed up with my installation, but cannot figure out what is wrong. Any help is very welcome 🙏","",""
+"689466865415880710","jajakobyly","29/06/2023 2:20 pm","Huh, that was fast. One more Scarb release: 0.5.0-alpha.4
+
+⬆️ with even never Cairo 2.0.0-rc6
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.0-alpha.4
+Tweet: https://twitter.com/jajakobyly/status/1674339525349220352","","🔥 (5)"
+"498168721894932505","kayayusuf","29/06/2023 6:06 pm","how to add a scarb project into another scarb project","",""
+"921862494480396328","degendeveloper.eth","30/06/2023 6:28 am","im using scarb 5.0 w/ compiler 2.0.0, and when copy/pasting the ex new syntax contract into a new scarb project, the compiler is not recognizing this new syntax ? (here is the code i am trying to use: https://community.starknet.io/t/cairo-1-contract-syntax-is-evolving/94794/7)","",""
+"950845066086350939","glihm","30/06/2023 9:40 am","do you have also the correct reference into your `Scarb.toml` file?","",""
+"950845066086350939","glihm","30/06/2023 9:41 am","`starknet = ""2.0.0-rc6""` for instance, depending on your compiler/scarb version.","",""
+"261535993515999233","maciektr","30/06/2023 1:02 pm","Started a thread.","",""
+"204922278075564033","parkyeung.eth","30/06/2023 2:41 pm","Did you get this to work with scarb cairo-test? I got an ENTRYPOINT_NOT_FOUND error when calling a function in the deployed contract","",""
+"921862494480396328","degendeveloper.eth","30/06/2023 3:04 pm","thank you this works, it needs to be added under `[dependencies]`","","👍🏻 (1)"
+"950845066086350939","glihm","01/07/2023 2:33 am","Do you have code to share?","",""
+"689466865415880710","jajakobyly","03/07/2023 5:37 pm","Scarb 0.5.0 is here 🚀
+
+🔥 Cairo 2.0.0 stable
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.0
+Tweet: https://twitter.com/jajakobyly/status/1675838104102379520","","🔥 (5)"
+"202597021209591809","iamjack.sol","04/07/2023 5:31 am","I was having trouble getting the VSCode Cairo extension to automatically pick up `scarb` from my `PATH` to run the cairo-language-server
+
+a bit of research suggests that mac doesn't always give the app access to user's `PATH` var. I wrote up a lil fix to support the `${userHome}` variable expansion:
+https://github.com/starkware-libs/cairo/pull/3580
+
+This way you can do something like this in your workspace settings and it'll always be picked up: 
+`""cairo1.scarbPath"": ""${userHome}/.local/bin/scarb""`","",""
+"689466865415880710","jajakobyly","04/07/2023 1:03 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","05/07/2023 4:42 pm","Scarb v0.5.1 is out!
+
+🆙 Cairo 2.0.1
+🐞 Bugfixes
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.5.1
+Tweet: https://twitter.com/jajakobyly/status/1676549511999627267","","🔥 (2)"
+"682574683048378371","_bluejohn","06/07/2023 12:09 am","getting ""Could not create ABI from contract submodule"" when I run scarb compile... anyone else with this error?","",""
+"682574683048378371","_bluejohn","06/07/2023 12:09 am","Caused by:
+    Got unexpected type.","",""
+"689466865415880710","jajakobyly","06/07/2023 1:54 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","06/07/2023 2:35 pm","Any plans for next Thursday? Cause we're organizing our first #Web3 meet-up in Kraków!  
+If you're around, come over to Software Mansion's office and have a🍺 with us, if not - we'll post a link to the live stream soon! 
+Register and read more here: https://meetup.com/pl-PL/web3-krk/events/294470994/
+And obligatory Tweeet: https://twitter.com/swmansionxyz/status/1676872840400838663","","🍺 (2)"
+"689466865415880710","jajakobyly","06/07/2023 4:26 pm","https://twitter.com/jajakobyly/status/1676907580742877184 as promised, we're happy to announce:
+
+1. `asdf-scarb`, the version management solution for Scarb
+2. `setup-scarb` GitHub action
+
+see Twitter thread for more info 😉","","🔥 (3)"
+"202597021209591809","iamjack.sol","07/07/2023 12:16 am","I currently use Scarb 0.4.1 because it comes with Cairo 1.1.1. I'd like to update my contracts to Cairo 2 before they progress too much further. Is there any up-to-date documentation for testing with **_Cairo 2.0.x_**?
+
+More specifically - I am currently able to unit test my `#[external]` functions easily doing something like this:
+```
+#[test]
+#[available_gas(9999999)]
+#[should_panic(expected: ('AuthorityMismatchError', ))]
+fn bad_set_authority() {
+    // Initialize the contract with an authority.
+    MyContract::constructor(util::toContractAddress('Jack'));
+
+    // Try to set a new authority (from a caller address who is not the authority).
+    let bad_authority = util::toContractAddress('NotJack');
+    testing::set_caller_address(bad_authority);
+    MyContract::set_authority(bad_authority);
+}
+```
+
+With the updated Cairo 2.0.x syntax - my `set_authority` function stub would look something like this:
+```
+fn set_authority(ref self: ContractState, authority: ContractAddress);
+```
+So my current test suite breaks because I cant pass in `ContractState`. I've read a couple resources referencing Protostar integration testing - but it sounds like support for Cairo 2.0.x wont be launched there
+- https://docs.swmansion.com/protostar/docs/cairo-1/testing/integration-testing
+- https://medium.com/starknet-edu/testing-a-cairo-1-smart-contract-with-protostar-c2ea095037fc
+
+Hoping to find consensus around the best path to move forward in a way that wont break me in a few weeks 🙈
+
+✏️*Edit*: I haven't missed the announcements from the swmansion team about a new test runner launching in the near future. If you think that this new test runner will handle this case more easily, I am happy to continue with cairo 1.1.1 until then as well!","",""
+"689466865415880710","jajakobyly","07/07/2023 12:43 pm","Started a thread.","",""
+"194736238224211969","xswagglerx","10/07/2023 1:32 pm","Hi Scarb Team
+
+First of all, thank you for providing such an amazing application to Cairo developers!
+
+Now to my question / problem. I have a huge smart contract. It's file size is about 6.8 MB and contains +62k lines of code. It basically contains an image converted to a felt252 array.
+
+When I try to compile it using `scarb build` the process runs for some minutes and uses about 1GB of RAM on my MacBook. However, at a certain point of time the scarb process starts to consume ridiculous amounts of RAM and swap. It seems to increase gradually until the process is being killed by the operation system. At that point it uses nearly 200GB of memory. I found the following log message in system logs:
+
+```
+low swap: killing largest compressed process with pid 2445 (scarb) and size 194568 MB
+```
+
+I guess it is happening as soon as compilation is done and the sierra code is written to the disk. Any idea why that is?
+
+```
+scarb 0.5.1 (798acce7f 2023-07-05)
+cairo: 2.0.1 (https://crates.io/crates/cairo-lang-compiler/2.0.1)
+```
+
+I know this is an extreme edge case since cairo files are much smaller in general.
+
+PS: Building the contract works when I decrease its size to about 50k Lines of code. With such a file scarb uses about 120GB of memory.","",""
+"689466865415880710","jajakobyly","10/07/2023 1:47 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","10/07/2023 7:41 pm","https://twitter.com/jajakobyly/status/1678406204211470339","","🔥 (2)"
+"330737541257101312","gaetbout","11/07/2023 12:58 am","GM, 
+I'm running `scarb build` but it tells me
+```
+error: Identifier not found
+ --> some_file.cairo:171:41
+  let ch = MyMod::TEST_CLASS_HASH.try_into().unwrap();
+                  ^**************^
+```
+Related to `TEST_CLASS_HASH` 
+Do I have to do anything to tell him to ignore the tests files when building?
+Ran with scarb v 0.5.0","",""
+"689466865415880710","jajakobyly","11/07/2023 12:54 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","11/07/2023 5:00 pm","https://twitter.com/jajakobyly/status/1678728408480481281","","🔥 (2)"
+"938703797239287879","0xdarlington","12/07/2023 6:23 am","Hey guys, is the bundled Cairo LS that comes with Scarb compatible with the new syntax? if yes, how can I update mine?","",""
+"689466865415880710","jajakobyly","12/07/2023 1:34 pm","Started a thread.","",""
+"941539092762624020","0x6363","13/07/2023 3:59 pm","Hello, is there any way to make cairo-run support running code with dependencies?","",""
+"689466865415880710","jajakobyly","13/07/2023 5:14 pm","Started a thread.","",""
+"941539092762624020","0x6363","14/07/2023 7:45 am","I used scarb cairo-run, but got Error: #57: Expected variable data for statement not found. It seems like it's caused by not being able to find the dependency. I just try the alexandria_math demo in scarb docs.","",""
+"689466865415880710","jajakobyly","14/07/2023 1:46 pm","Started a thread.","",""
+"938703797239287879","0xdarlington","14/07/2023 3:25 pm","dumb question, but how do you convert .sierra.json from builds into .json which you could deploy?","",""
+"356078881385742336","mradolux","14/07/2023 8:45 pm","Hi guys ! How can I add two dependencies from the same repository on scarb ?","",""
+"689466865415880710","jajakobyly","17/07/2023 2:52 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","17/07/2023 2:54 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","17/07/2023 5:43 pm","Scarb 0.6.0-alpha.0 with Cairo 2.1.0-rc0 is here!
+
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.0-alpha.0
+Download it here: https://docs.swmansion.com/scarb/download
+Tweet: https://twitter.com/jajakobyly/status/1680913609881255941","","🔥 (4)"
+"862996769125826560",".jameswade","17/07/2023 9:08 pm","","https://cdn.discordapp.com/attachments/1073222817195233412/1130523833149956187/mmexport1689608252164.png",""
+"862996769125826560",".jameswade","17/07/2023 9:08 pm","please help me","",""
+"950845066086350939","glihm","18/07/2023 11:52 am","Hello! Are you using scarb to compile your code? If yes, don’t hesitate to install a newer version. There is a tool available to easily choose versions and install them: https://docs.swmansion.com/scarb/download#install-via-asdf","",""
+"862996769125826560",".jameswade","18/07/2023 12:00 pm","sure ,and install the newer version .I do all operation in starknet book","",""
+"950845066086350939","glihm","18/07/2023 4:17 pm","Started a thread.","",""
+"689058583509467172","el_robin","18/07/2023 8:20 pm","Hi, before filling a bug, I would like to clarify usage of the `--manifest-path` , according to current implementation argument must be a file but `--help` say directory:
+```
+Options:
+      --manifest-path <MANIFEST_PATH>
+          Override path to a directory containing a Scarb.toml file
+          
+          [env: SCARB_MANIFEST_PATH=]
+```
+
+```
+robin@razer:~[1]$ scarb --manifest-path /tmp/contract build 
+error: failed to read manifest at `/tmp/contract`
+
+Caused by:
+    Is a directory (os error 21)
+robin@razer:~[1]$ scarb --manifest-path /tmp/contract/Scarb.toml build 
+   Compiling counter_target v0.1.0 (/tmp/contract/Scarb.toml)
+    Finished release target(s) in 1 second
+robin@razer:~$ 
+```
+```
+$ scarb --version
+scarb 0.5.2 (f4b62adfb 2023-07-11)
+cairo: 2.0.2 (https://crates.io/crates/cairo-lang-compiler/2.0.2)
+```","",""
+"689466865415880710","jajakobyly","19/07/2023 12:20 am","Started a thread.","",""
+"204922278075564033","parkyeung.eth","20/07/2023 3:20 am","Does anyone else get Scarb language server issues with resolving projects / multiple instances burning up their computer?","https://cdn.discordapp.com/attachments/1073222817195233412/1131342285670457395/image.png",""
+"689466865415880710","jajakobyly","20/07/2023 1:13 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","21/07/2023 3:10 pm","Small Scarb release it out with Cairo 2.1.0-rc1!
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.0-alpha.1
+Tweet: https://twitter.com/jajakobyly/status/1682324392456466432","","🔥 (1)"
+"773943388030369844",".m0v_","25/07/2023 2:03 am","Hi all, I'm trying to see what would be the best way to integrate with openzepplin's cairo-2 contracts using scarb, has anyone gave it a go?","",""
+"261535993515999233","maciektr","25/07/2023 1:38 pm","Started a thread.","",""
+"231445939980599296","julio4","25/07/2023 4:22 pm","Hey, I'm trying to tests some contracts with scarb and I have some weird gas issues.
+The `get_available_gas` is not found. (Tested with both scarb 0.5.2 and 0.6.0-alpha.1).
+Someone know what is the problem ?
+```rust
+error: Function not found.
+ --> testing_test.cairo:23:25
+    assert_eq(@testing::get_available_gas(), @0, 'expected no_gas_supply')
+                        ^***************^
+
+error: Cannot infer trait core::traits::PartialEq::<?0>. First generic argument must be known.
+ --> testing_test.cairo:23:5
+    assert_eq(@testing::get_available_gas(), @0, 'expected no_gas_supply')
+    ^*******^
+
+error: Function not found.
+ --> testing_test.cairo:29:24
+    assert_gt(testing::get_available_gas(), 5000, 'high amount of gas used')
+                       ^***************^
+
+error: Trait has no implementation in context: core::traits::PartialOrd::<core::felt252>
+ --> testing_test.cairo:29:5
+    assert_gt(testing::get_available_gas(), 5000, 'high amount of gas used')
+    ^*******^
+```","",""
+"261535993515999233","maciektr","25/07/2023 4:53 pm","Started a thread.","",""
+"261535993515999233","maciektr","25/07/2023 8:48 pm","Scarb 0.6.0-alpha.2 is here 🚀
+
+🔥 Cairo 2.1.0-rc2
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.0-alpha.2
+Tweet: https://twitter.com/maciektr/status/1683858642569768960","",""
+"914851127818862592","pagecountrycousin","30/07/2023 11:14 pm","Hello, I tried to compile a basic contract, Got this error, what could be the problem?? @maciektr | Software Mansion","https://cdn.discordapp.com/attachments/1073222817195233412/1135266685096566835/Screenshot_from_2023-07-30_18-40-40.png",""
+"914851127818862592","pagecountrycousin","31/07/2023 1:17 am","This refuses to work...","",""
+"261535993515999233","maciektr","31/07/2023 1:32 am","Started a thread.","",""
+"422807049555148800","nirnaeth.","01/08/2023 6:07 pm","guys vscode extension returns this error any idea? it is not auto complete the commands also.
+```thread 'main' panicked at 'called `Option::unwrap()` on a `None` value', /cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-parser-2.0.2/src/parser.rs:1862:47
+Caught panic in LSP worker thread.
+thread 'main' panicked at 'called `Option::unwrap()` on a `None` value', /cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-parser-2.0.2/src/parser.rs:1862:47
+Caught panic in LSP worker thread.
+[Error - 12:21:47 PM] Request textDocument/semanticTokens/full failed.
+  Message: Internal error
+  Code: -32603 
+thread 'main' panicked at 'called `Option::unwrap()` on a `None` value', /cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-parser-2.0.2/src/parser.rs:1862:47
+Caught panic in LSP worker thread.
+[Error - 12:21:47 PM] Request textDocument/semanticTokens/full failed.
+  Message: Internal error
+  Code: -32603 ```","",""
+"261535993515999233","maciektr","02/08/2023 1:06 am","Started a thread.","",""
+"449457512912125952","wswxy598","02/08/2023 4:20 pm","lib.cairo not found","","🤔 (1)"
+"261535993515999233","maciektr","02/08/2023 4:37 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","02/08/2023 7:44 pm","The setup-scarb action v1.1.0 has been released:
+⬇️ ASDF's .tool-versions parsing
+📁 Caching Scarb's downloads
+
+Release notes: https://github.com/software-mansion/setup-scarb/releases/tag/v1.1.0
+Tweet: https://twitter.com/jajakobyly/status/1686741312312160264
+
+This action is now basically complete (unless somebody has ideas what could we add or improve) 😁
+
+We plan several patch releases in the future, bringing support for stuff we work on in Scarb (such as nightlies and Scarb.lock), but there are no action-specific features to do.","",""
+"792777196959694869","tothemoon8836","03/08/2023 8:20 am","","https://cdn.discordapp.com/attachments/1073222817195233412/1136491158944620636/image.png",""
+"792777196959694869","tothemoon8836","03/08/2023 8:20 am","how I can get this path","",""
+"878932660213399593","ioanspaceshard","03/08/2023 1:25 pm","Hello! I'm trying to use OZ lib but when I compile my contract or run tests I get this error
+
+```
+testing openzeppelin ...
+thread 'main' panicked at 'assertion failed: `(left == right)`
+  left: `TerminalLBrack`,
+ right: `TerminalLParen`', /cargo/registry/src/index.crates.io-6f17d22bba15001f/cairo-lang-parser-2.0.2/src/parser.rs:1946:9
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+error: process did not exit successfully: exit status: 101
+```
+Any clue?","",""
+"689466865415880710","jajakobyly","03/08/2023 1:27 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","03/08/2023 3:18 pm","Scarb v0.6.0-alpha.4 is out!
+
+⬆️ Cairo 2.1.0-rc4
+🫳🏻 scarb fetch
+🐛 Bugfixes!
+
+Download: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.0-alpha.4
+Tweet: https://twitter.com/jajakobyly/status/1687037626858024960","","🔥 (1)"
+"689466865415880710","jajakobyly","03/08/2023 6:09 pm","https://twitter.com/jajakobyly/status/1687080605278699521","","🚀 (2)"
+"689466865415880710","jajakobyly","07/08/2023 3:31 pm","Scarb v0.6.0 is out!
+
+🗄️ Workspaces
+⬆️ Cairo 2.1.0
+...and more
+
+Download it here: https://docs.swmansion.com/scarb/download
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.0
+Tweet: https://twitter.com/jajakobyly/status/1688490341790253056","",""
+"456226577798135808","Deleted User","07/08/2023 9:37 pm","Hello, I would like to use OZ deps but I can't specify the commit:
+
+[dependencies]
+starknet = ""2.1.0""
+openzeppelin = { git = ""https://github.com/OpenZeppelin/cairo-contracts.git"", branch = ""cairo-2"", rev = ""495ed8a"" }","",""
+"456226577798135808","Deleted User","07/08/2023 9:37 pm","```
+❯ scarb test
+error: failed to parse manifest at `/Users/thomas/starknetid/naming/Scarb.toml`
+
+Caused by:
+    dependency (openzeppelin) specification is ambiguous, only one of `branch`, `tag` or `rev` is allowed
+```","",""
+"456226577798135808","Deleted User","07/08/2023 9:39 pm","The thing is they might update their code so I would like to be able to specify a commit","",""
+"456226577798135808","Deleted User","07/08/2023 9:39 pm","but this is a cairo-2 commit, not something from master","",""
+"261535993515999233","maciektr","07/08/2023 11:20 pm","Started a thread.","",""
+"795662667012374569","ademolakelvin","09/08/2023 12:20 pm","error: Identifier not found.
+ --> keccak_test.cairo:4:11
+use test::test_utils::{assert_eq, assert_ne};
+          ^********^
+
+error: Identifier not found.
+ --> plugins_test.cairo:5:11
+use test::test_utils::{assert_eq, assert_ne};
+          ^********^
+
+error: Identifier not found.
+ --> plugins_test.cairo:5:11
+use test::test_utils::{assert_eq, assert_ne};
+          ^********^
+
+error: Identifier not found.
+ --> testing_test.cairo:1:11
+use test::test_utils::{assert_eq, assert_ne, assert_gt};
+          ^********^
+
+error: Identifier not found.
+ --> testing_test.cairo:1:11
+use test::test_utils::{assert_eq, assert_ne, assert_gt};
+          ^********^
+
+error: Identifier not found.
+ --> testing_test.cairo:1:11
+use test::test_utils::{assert_eq, assert_ne, assert_gt};","",""
+"878932660213399593","ioanspaceshard","10/08/2023 2:57 pm","Hello! We suddenly got this error while importing Alexandria
+
+```
+Updating git repository https://github.com/keep-starknet-strange/alexandria
+error: cannot find package alexandria
+```
+Any clue why is this happening?","",""
+"395359066169278464","marciob","11/08/2023 6:32 am","Hello, I started a project with Scarb, how I can install openzeppelin library there?
+I tried the command `pip install openzeppelin-cairo-contracts` but it doesn't seem to have installed there","",""
+"689466865415880710","jajakobyly","11/08/2023 2:31 pm","Started a thread.","",""
+"821365079500521504","rmzlb","11/08/2023 3:23 pm","hello all, 
+facing an issue with vs code extension i did reinstall from scratch 
+````
+Cairo language server was not found. Make sure cairo-lang-server is installed and that the configuration 'cairo1.languageServerPath' is correct.
+```
+
+````
+% scarb --version
+scarb 0.6.0 (532d8e349 2023-08-07)
+cairo: 2.1.0 (https://crates.io/crates/cairo-lang-compiler/2.1.0)
+```
+
+any idea how to configure the path to scarb from the extension ?","",""
+"689466865415880710","jajakobyly","11/08/2023 8:18 pm","Scarb 0.6.1 is out with many QoL improvements 
+
+🏗️ scarb cairo-run calls scarb build internally
+🗑️ scarb cache clean
+🧑‍💻 ScarbCommand API in scarb-metadata v1.6.0
+
+Download it here: https://docs.swmansion.com/scarb/download.html
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.6.1
+Tweet: https://twitter.com/jajakobyly/status/1690012069179908098","",""
+"689466865415880710","jajakobyly","11/08/2023 8:44 pm","https://twitter.com/jajakobyly/status/1690018397738733568","","StarkNet (4)"
+"689466865415880710","jajakobyly","16/08/2023 1:19 pm","https://twitter.com/jajakobyly/status/1691718408180535396","","🔥 (2)"
+"622383155613138944","m4d_m4n","17/08/2023 12:05 am","Hi! I was wondering if anybody here dealt with a problem where vscode language server(the one provided with scarb) works completely fine, but when trying to run scarb build/test, it fails to find any contract dispatchers and dispatcher traits(and obv methods defined on them), it also can't find ContractState, LegacyMap and basically anything that isn't explicitely written out(so I tried just writing those things directly to the files and then those errors go away, but there's still plenty of them). As I've said, works just fine with LSP, but building/testing throws a lot of errors.","",""
+"689466865415880710","jajakobyly","17/08/2023 1:00 pm","Started a thread.","",""
+"622383155613138944","m4d_m4n","21/08/2023 6:21 pm","Hi! My project builds just fine, but when running tests, I encounter following bug: ```Running tests for package: carmine_protocol
+testing carmine_protocol ...
+Error: Failed setting up runner.
+
+Caused by:
+    #22265->#22266: Got 'Unknown ap change' error while moving [28].
+error: process did not exit successfully: exit status: 1
+``` Any idea on what's causing that?","",""
+"228883412356825088","mrdenkov","21/08/2023 8:17 pm","Started a thread.","",""
+"1138759348147990529","th0rgal.","22/08/2023 2:09 pm","Hey, how to build my contracts in release mode? It seems they are generated in target/dev instead of target/release","",""
+"1138759348147990529","th0rgal.","23/08/2023 3:24 pm","Hey, I have an error when I try to fetch:
+```
+❯ scarb fetch
+    Updating git repository https://github.com/starknet-id/identity
+    Updating git repository https://github.com/openzeppelin/cairo-contracts
+error: cannot find package openzeppelin
+```
+
+I don't understand because it worked yesterday","",""
+"1138759348147990529","th0rgal.","23/08/2023 3:24 pm","I have the same when I do ``scarb build``.","",""
+"689466865415880710","jajakobyly","23/08/2023 10:06 pm","Scarb 0.7.0 is out 🚀
+
+🆙 Massive Cairo 2.2.0 release
+➕ Even more QoL improvements
+
+Download it here: https://docs.swmansion.com/scarb/download.html
+Release notes: https://github.com/software-mansion/scarb/releases/tag/v0.7.0
+Tweet: https://twitter.com/jajakobyly/status/1694387974027227189","","🚀 (2)"
+"792777196959694869","tothemoon8836","23/08/2023 10:47 pm","","https://cdn.discordapp.com/attachments/1073222817195233412/1143957309010214992/image.png",""
+"792777196959694869","tothemoon8836","23/08/2023 10:48 pm","","https://cdn.discordapp.com/attachments/1073222817195233412/1143957411170898081/image.png",""
+"792777196959694869","tothemoon8836","23/08/2023 10:48 pm","newest","",""
+"1088281793465163776","selfSelect#2631","25/08/2023 7:47 pm","Hi, I get a problem. 
+I've pointed the path to the local openzeppelin package ( cause I have to change the source code ), but the `scarb build` command in the cc_map goes wrong","https://cdn.discordapp.com/attachments/1073222817195233412/1144636649427439726/image.png",""
+"1088281793465163776","selfSelect#2631","25/08/2023 7:49 pm","the cc_map and openzeppelin are all in the same folder","",""
+"1088281793465163776","selfSelect#2631","25/08/2023 7:49 pm","oh, I forget this 
+`scarb 0.6.2 (c07fa6155 2023-08-15)
+cairo: 2.1.1 (https://crates.io/crates/cairo-lang-compiler/2.1.1)","",""
+"724549490920390736","veoquynhs","29/08/2023 8:04 am","I've uninstalled scarb and then installed it following the steps described in the docs, but after running the installation script, restart the terminal, and then run `scarb --version`, I still got the error `scarb: command not found` . Can anyone help me with this problem","",""
+"724549490920390736","veoquynhs","29/08/2023 8:20 am","Started a thread.","",""
+"724549490920390736","veoquynhs","29/08/2023 9:34 am","Can anyone help me with this problem ...","",""
+"1138759348147990529","th0rgal.","29/08/2023 4:37 pm","Hey there, is it possible to run a specific test with scarb?","",""
+"689466865415880710","jajakobyly","29/08/2023 5:03 pm","Started a thread.","",""
+"927832026659303444","mariz_ov","01/09/2023 11:36 am","I tried to follow the hello world tutorial that's found here: https://book.cairo-lang.org/ch01-02-hello-world.html. When I do ""scarb build && scarb cairo-run"", I get:
+
+    Finished release target(s) in 1 second
+running hello_world ...
+Error: #3: Expected variable data for statement not found.
+error: process did not exit successfully: exit status: 1
+
+This is my scarb version:
+scarb 0.6.0 (532d8e349 2023-08-07)
+cairo: 2.1.0 (https://crates.io/crates/cairo-lang-compiler/2.1.0)","",""
+"336969869394313217","khaeljy","01/09/2023 5:43 pm","Hi all, is it possible to use `#[test_case()]` with scrab like this https://github.com/starkware-libs/cairo/blob/1cd1d242883787392f38f5a775ab045b5e2201f3/crates/cairo-lang-utils/src/bigint_test.rs#L11 ?","",""
+"689466865415880710","jajakobyly","01/09/2023 6:04 pm","Started a thread.","",""
+"689466865415880710","jajakobyly","01/09/2023 6:04 pm","Started a thread.","",""
+"860844569813712897","nambi_","06/09/2023 12:31 pm","Hi. Is there documentation on updating scarb? Like if scarb is already present but outdated","",""
+"520276777226993674","iris8600","06/09/2023 1:33 pm","Hey, I'm trying to build external contracts with `build-external-contracts = []`  but I get a lot of errors like this : 
+`error: Module file not found. Expected path: /Users/iris/Library/Caches/com.swmansion.scarb/registry/git/checkouts/cairo-contracts-9cboa8jg3jldq/05429e4/src/token/erc20/dual20.cairo
+ --> erc20.cairo:1:1
+mod dual20;`
+Any idea how to solve this ?","",""
+"261535993515999233","maciektr","06/09/2023 1:57 pm","Started a thread.","",""
+"795662667012374569","ademolakelvin","06/09/2023 3:58 pm","Gm everyone, how do I setup scarb on windows? is it supported?","",""
+"795662667012374569","ademolakelvin","06/09/2023 4:00 pm","@maciektr | Software Mansion Thank you","",""
+"724549490920390736","veoquynhs","07/09/2023 4:10 pm","Hi. Should I do my unit test on using `scarb` or `protostar` ?. What are the differences between them in testings? Thank you in advance!","",""
+"808699778254635018","lcukycat","17/09/2023 8:26 am","Anyone could help me ？ What are the problems with directory hierarchy? There doesn't seem to be any issues with the syntax, but there are always compilation errors.","https://cdn.discordapp.com/attachments/1073222817195233412/1152800269755764836/85839c70bc137365a1a3470f471edee.png",""
+"261535993515999233","maciektr","17/09/2023 3:18 pm","Started a thread.","",""
+"795662667012374569","ademolakelvin","23/09/2023 12:29 am","Hello, I have a question. Say I have two test files A.cairo and B.cairo. whenever I run scarb test, it runs all the test cases. Is there a way I can run tests present only in one file? maybe run test for mod A only. e.g `scarb test tests/A.cairo` . Is this possible with scarb?","",""
+"261535993515999233","maciektr","23/09/2023 4:51 am","You can only filter by test name with -f flag as of now","",""
+"792777196959694869","tothemoon8836","23/09/2023 7:38 pm","图片
+I use this to init erc20 token by  openziplin  ,but why my contract just only have name() function
+https://testnet.starkscan.co/contract/0x00d2ef6383092eab96a572826831193a01002a63e71479f40843f7784a1b4c3c#read-write-contract-sub-read
+Contract  - Starkscan
+did I need to setting someting ?
+some one help","",""
+"792777196959694869","tothemoon8836","23/09/2023 7:39 pm","","https://cdn.discordapp.com/attachments/1073222817195233412/1155143856988373002/image.png",""
+"795662667012374569","ademolakelvin","23/09/2023 8:22 pm","Okay, thanks I will give it a try","",""
+"795662667012374569","ademolakelvin","24/09/2023 12:42 pm","I am testing for the Ownerchanged event, when I execute the test without adding the #[key] to the events, the test passes and that's out in the terminal. But when I add the #[key] attributes it fails and logs out an entirely different output in the console.","https://cdn.discordapp.com/attachments/1073222817195233412/1155401481483210752/event.png,https://cdn.discordapp.com/attachments/1073222817195233412/1155401481751638057/Screenshot_20230923_215208.png,https://cdn.discordapp.com/attachments/1073222817195233412/1155401482049441792/Screenshot_20230923_215318.png",""

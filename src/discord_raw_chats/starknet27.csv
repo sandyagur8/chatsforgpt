@@ -1,0 +1,397 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"511272055623122961","laurip","02/05/2022 6:54 pm","https://tenor.com/view/gorilla-ape-dancing-dance-moves-gif-16940613","","🚀 (5)"
+"843117425582538773","0xLaplace#2194","02/05/2022 8:44 pm","can we focus on 1 good community-led python framework instead?","",""
+"511272055623122961","laurip","02/05/2022 9:11 pm","This is a python framework? Sounds good. There is just zero description here.","",""
+"659892951006183425","fubuloubu","02/05/2022 9:21 pm","@antazoey will add more of a description, but ape is the successor to brownie, and works for both Ethereum and StarkNet at the same time","",""
+"659892951006183425","fubuloubu","02/05/2022 9:22 pm","think of it like Hardhat but Python-based (and a lot more features around multi-chain interactions)","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:31 pm","so like Nile and Protostar?","",""
+"659892951006183425","fubuloubu","02/05/2022 10:32 pm","Nile and protostar only work for StarkNet","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:33 pm","oh, it's both EVM + StarkNet","",""
+"659892951006183425","fubuloubu","02/05/2022 10:34 pm","Yes, it will work for both types of networks","",""
+"659892951006183425","fubuloubu","02/05/2022 10:34 pm","So you can build multichain projects easily","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:34 pm","maybe it could support both Python and TS at the same time","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:34 pm","then every1 can coalesce around it","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:35 pm","truly the hardhat of starknet at that point","",""
+"659892951006183425","fubuloubu","02/05/2022 10:35 pm","No TS support, although PyScript just launched","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:35 pm","that's right","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:35 pm","i wanna see both supported","",""
+"659892951006183425","fubuloubu","02/05/2022 10:35 pm","https://pyscript.net","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:39 pm","seriously though there is nothing but work preventing it from having both Python and native TS APIs, just double the work.
+
+i know it wont happen because you despise JS for web3","",""
+"406620839673331712","antazoey","02/05/2022 10:40 pm","We built the Starknet plugin so that users of Ape can use the same framework for deploying to Starknet chains as well as their EVM chains, much in the same spirit as Hardhat making their plugin. If you are looking to use Python, Ape is the way to go, as Brownie is our inspiration and we have a dev dedicated developer team. If you are using more of a Javascript stack, you can use the Hardhat plugin or an alternative! If you just want to play with Starknet, both Nile and Protostar are great resources and we have collaborated / have had great discussions with both of the teams (or person) responsible.","","🔥 (1)"
+"843117425582538773","0xLaplace#2194","02/05/2022 10:40 pm","so ape its already leading every1","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:40 pm","turns out","",""
+"406620839673331712","antazoey","02/05/2022 10:42 pm","It is more of using the right tool for the right job and having options! Hardhat is great for Javascript projects. However - there are many projects where Python makes more sense, in which case... 🦍 !","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:42 pm","does it support whitelisted --token deployments for alpha mainnet?","",""
+"406620839673331712","antazoey","02/05/2022 10:43 pm","We are having an issue with the token contracts that are proxies, but in theory, yes","",""
+"406620839673331712","antazoey","02/05/2022 10:43 pm","We are working out the proxies too.","",""
+"406620839673331712","antazoey","02/05/2022 10:44 pm","Here is a tutorial on the plugin: https://www.youtube.com/watch?v=6nfUpYKLe6Q","","❤️ (2)"
+"843117425582538773","0xLaplace#2194","02/05/2022 10:44 pm",":PepeTheHutt::PepeTheHutt:","",""
+"843117425582538773","0xLaplace#2194","02/05/2022 10:44 pm","does it rely on starknet-devnet?","",""
+"406620839673331712","antazoey","02/05/2022 10:45 pm","when using the local network, it does","",""
+"406620839673331712","antazoey","02/05/2022 10:52 pm","Pinned a message.","",""
+"843117425582538773","0xLaplace#2194","03/05/2022 7:52 pm","@antazoey I read through the docs, quite impressive and complete framework, it possesses most of the capabilities we need already, but im not off to a good start though
+
+Ubuntu 22.04, Python 3.10.4, venv, `ape init` run fine
+
+- is Ape limited to python 3.9.10 atm?
+- does it support time/block manipulation with devnet?","https://cdn.discordapp.com/attachments/970647560287047732/971054051640885279/unknown.png",""
+"843117425582538773","0xLaplace#2194","03/05/2022 8:47 pm","update: only works with up to 3.9.10 as all the other tools, track: https://github.com/starkware-libs/cairo-lang/pull/43","",""
+"406620839673331712","antazoey","03/05/2022 8:56 pm","(we are talking in DMs - will post updates later)","",""
+"509692086556033024","distracteddev","06/05/2022 6:13 pm","Coming from Brownie for Solidity development, this is exactly what I was looking for on Starknet 🔥","",""
+"509692086556033024","distracteddev","06/05/2022 6:34 pm","Do dependencies work for OpenZeppelin/cairo-contracts?","",""
+"509692086556033024","distracteddev","06/05/2022 7:56 pm","I'm also trying to run a sample test and it's stuck on `collected 1 item` without test  progress","",""
+"659892951006183425","fubuloubu","06/05/2022 10:59 pm","I believe so!","",""
+"659892951006183425","fubuloubu","06/05/2022 11:00 pm","do you have a repo I can see how you set it up?","",""
+"659892951006183425","fubuloubu","06/05/2022 11:00 pm","sometimes it just takes a while, the local plugin is quite slow","",""
+"509692086556033024","distracteddev","06/05/2022 11:05 pm","as if by magic it's now working! I think it took a while before it recognised I had started the devnet?","",""
+"659892951006183425","fubuloubu","06/05/2022 11:07 pm","yeah, that could be the case","",""
+"659892951006183425","fubuloubu","06/05/2022 11:08 pm","devnet is so slow","",""
+"509692086556033024","distracteddev","06/05/2022 11:19 pm","```
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/cairo-contracts
+    version: 0.1.0
+```
+gives:
+```
+WARNING: 'OpenZeppelin' is not an 'ApeProject', but attempting to process as one.
+ERROR: Unable to load project. Reason: No contract types found in dependency 'OpenZeppelin'. Do you have the correct compilers installed?
+```","",""
+"659892951006183425","fubuloubu","06/05/2022 11:27 pm","Oh did you install `ape-cairo`?","",""
+"659892951006183425","fubuloubu","06/05/2022 11:27 pm","`ape plugins install cairo`","",""
+"509692086556033024","distracteddev","06/05/2022 11:27 pm","Yes","",""
+"659892951006183425","fubuloubu","07/05/2022 12:57 am","ahhh, found it","",""
+"659892951006183425","fubuloubu","07/05/2022 12:58 am","change `ape-config.yaml` to this:
+
+```yaml
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/cairo-contracts
+    version: 0.1.0
+    contracts_folder: src
+```","",""
+"406620839673331712","antazoey","07/05/2022 11:06 pm","I am not 100% sure this will work actually, but we can make it work by adding some stuff to the ape-cairo plugin.","",""
+"406620839673331712","antazoey","07/05/2022 11:09 pm","You should, today, be able to download and use dependencies in your project... But the functionality that won't work is importing libraries that you configure as dependencies in your project's source cairo contracts","",""
+"406620839673331712","antazoey","07/05/2022 11:32 pm","I will get this working!","",""
+"406620839673331712","antazoey","08/05/2022 12:25 am","Step 1 to getting this working: https://github.com/ApeWorX/ape-cairo/pull/6
+I found this issue by just trying to compile the OpenZeppelin Cairo contracts project alone.
+Next step is going to be getting the remapping to work, but it will be a little manual since that feature is not part of the compiler","",""
+"509692086556033024","distracteddev","09/05/2022 3:05 pm","Awesome, thank you both!","",""
+"838342655153799199","lucasstarkware","16/05/2022 10:05 pm","Hi, is there a way to pass an array to a function in the tests ? 
+```py
+@external
+func foo{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
+    params_len : felt, params : felt*
+):
+    return ()
+end
+```","",""
+"406620839673331712","antazoey","17/05/2022 8:55 pm","I created a ticket to add tests and docs and to check to see how to make this work (if it doesn't): https://github.com/ApeWorX/ape-starknet/issues/10
+
+I would think the way to do it should be to pass a python list as the argument","",""
+"843117425582538773","0xLaplace#2194","17/05/2022 10:04 pm","@antazoey does the compiler plugin have any way of specifying Cairo pragma? https://github.com/ApeWorX/ape-cairo","",""
+"406620839673331712","antazoey","17/05/2022 10:15 pm","Are you using multiple versions of Cairo? We initially were planning on only supporting the 1 version at a time (e.g. the latest) though we are behind on upgradeing.
+
+I am looking into what it will take to upgrade to 0.8.2 right now and well as fixing an issue with upgrading ape.","",""
+"843117425582538773","0xLaplace#2194","17/05/2022 10:16 pm","I am, but I can upgrade to latest indeed; was using 8.1 and 8.2 to avoid asking Starkware team to re-WL some contracts of ours","",""
+"406620839673331712","antazoey","17/05/2022 10:22 pm","It is not as easy as I had hoped to upgrade to 0.8.2 in ape-cairo 😅 
+But we will figure it out and bug who need to bug. I believe 0.9.0 is coming out soonish too.","",""
+"406620839673331712","antazoey","17/05/2022 10:22 pm","Also, I will see what others think regarding pragma specs.. Maybe we should be supporting multiple versions already.","",""
+"406620839673331712","antazoey","17/05/2022 10:24 pm","I think the issue with multiple cairo versions is that there is no version-manager. I think it is just pip install right now, so you would need different python envs per version? Or am I mistaken","",""
+"838342655153799199","lucasstarkware","17/05/2022 10:48 pm","that's what i though but it doesn't work because if i only give an array i run into this assert:
+https://github.com/ApeWorX/ape/blob/51744e26ba2d8880738966ab099973053536a168/src/ape/contracts/base.py#L138
+And i reach this one because the abi parser saves `params_len : felt`  and `params : felt*` 
+and if i add an argument to avoid the first assert then i run into `starknet.py` error because it expects only an array and no other arg","",""
+"406620839673331712","antazoey","17/05/2022 10:52 pm","OK, yeah it seem we are not parsing the array parameters correctly in `ape-starknet` `Ecosystem implementation. I will add this info to the ticket.","","PES_LoveKing (1)"
+"838342655153799199","lucasstarkware","17/05/2022 10:54 pm","and is it possible to get the value returned by a view ?","",""
+"838342655153799199","lucasstarkware","17/05/2022 10:56 pm","yes it is","",""
+"838342655153799199","lucasstarkware","17/05/2022 10:59 pm","any idea on how long it can take to be fixed ? :risiboi:","",""
+"406620839673331712","antazoey","18/05/2022 9:57 pm","I can make some time today to look into it!","",""
+"406620839673331712","antazoey","19/05/2022 3:04 am","I have a PR that fixed this: https://github.com/ApeWorX/ape-starknet/pull/11
+However - because of how Ape Core works (outside of the plugin), currently, you have to also include the array length argument.
+
+e.g.
+
+```python
+receipt = contract.store_my_list(3, [1, 2, 3])
+```
+
+where `3` is the `arr_len`","","PES_LoveKing (1)"
+"659892951006183425","fubuloubu","19/05/2022 3:19 am","wonder if you could make a struct type that acts as a list, and then you would only have to do `contract.store_my_list(*my_list)` to send it, which looks kind of reasonable","",""
+"406620839673331712","antazoey","19/05/2022 3:21 am","The client handles python lists and automatically applies the length. I think in this case, it is always ignored","",""
+"406620839673331712","antazoey","19/05/2022 3:21 am","But it is required to prevent `ArgumentLengthError`","",""
+"659892951006183425","fubuloubu","19/05/2022 3:28 am","oh, weird","",""
+"659892951006183425","fubuloubu","19/05/2022 3:28 am","yeah, will take more thought to make that seemless","",""
+"913370747924275211","akabane3147","21/05/2022 4:26 pm","https://medium.com/coinmonks/tutorial-how-to-install-a-node-on-the-starknet-network-for-beginners-4a383ee73b41","",""
+"951518572272812074","purplebishop","25/05/2022 2:38 pm","any progress on this front?","",""
+"406620839673331712","antazoey","25/05/2022 6:40 pm","Yes, `ape-starknet` now supports 0.8.2","",""
+"406620839673331712","antazoey","25/05/2022 6:40 pm","Use the version 0.2.0a1","","Darth_Pepe (2)"
+"951518572272812074","purplebishop","25/05/2022 6:48 pm","I am not sure I still got this issue right... if you use local Cairo files as deps then no issues (or do you always need to set remappings in ape-config.yaml?), but we couldn't install e.g. OZ package in Python libs and import them from there yet? 
+
+if that is the case, will you have any updates on this issue: https://github.com/ApeWorX/ape-cairo/issues/4","",""
+"406620839673331712","antazoey","27/05/2022 12:31 am","Cairo dependencies is not done yet, I thought you were asking just about the ability to upgrade to cairo-lang 0.8.2","",""
+"509692086556033024","distracteddev","28/05/2022 5:18 am","I'm running `ape test` and my cairo files keep re-compiling continuously. Using the most recent pip libraries. Repo in case of interest, test is in the ape directory: https://github.com/supsam89/game_guilds","",""
+"659892951006183425","fubuloubu","28/05/2022 6:27 am","we're adding some quality of life improvements to some of the core libraries and functionality that govern cached compiler artifacts, likely will release next week. we should see if there are improvements to be made in the compiler plugin after that release, unless anyone wants to give it a shot over the weekend","","👍 (2)"
+"856641248315834418","developermarwan","01/06/2022 12:40 am","hello, I am trying to get the Ape starknet plugin working...Below is my current setup for the plugins:
+
+ape plugins list
+Installed Plugins:
+starknet    0.1.0a2
+cairo       0.2.0a1
+
+When I try the command:
+ape console --network starknet:local
+
+I get the error:
+ERROR: (NetworkNotFoundError) No network named '--deepcopy--'.
+
+I am using python 3.9.10 in a virtual env......thanks in advance","",""
+"659892951006183425","fubuloubu","01/06/2022 1:42 am","Make sure everything is up to date, I think that issue was in a previous release of `eth-ape`","",""
+"856641248315834418","developermarwan","01/06/2022 2:01 am","ape --version
+0.2.1
+
+it looks like I have eth-ape-0.2.1 - is this the correct version? it was downgraded from eth-ape-0.2.7
+
+Attempting uninstall: eth-ape
+    Found existing installation: eth-ape 0.2.7
+    Uninstalling eth-ape-0.2.7:
+      Successfully uninstalled eth-ape-0.2.7
+
+Successfully installed Flask-2.0.3 Jinja2-3.1.2 MarkupSafe-2.1.1 Werkzeug-2.0.3 ape-cairo-0.2.0a1 ape-starknet-0.1.0a2 asgiref-3.5.2 cachetools-5.2.0 cairo-lang-0.8.1 dill-0.3.5.1 ecdsa-0.17.0 eth-ape-0.2.1......
+
+I also noticed this in the output:
+WARNING: The candidate selected for download or install is a yanked version: 'cairo-lang' candidate (version 0.8.1 at https://files.pythonhosted.org/packages/9b/9b/65a1ba73aabdae7538e178b4ea7d96ddf541afc06b7e200e7c69ca7bf0a1/cairo-lang-0.8.1.zip#sha256=e0107576f9fe9a904ea945eb04d0f5be7892b8306ae7e95a5c7cdcd4c8703b9c (from https://pypi.org/simple/cairo-lang/) (requires-python:>=3.6))
+Reason for being yanked: Bad dependency on marshmallow-dataclass","",""
+"659892951006183425","fubuloubu","01/06/2022 2:07 am","yeah, definitely need to upgrade","",""
+"659892951006183425","fubuloubu","01/06/2022 2:07 am","ugh, marshmellow dependency conflict","",""
+"856641248315834418","developermarwan","01/06/2022 2:46 am","pip install eth-ape --upgrade
+and that Successfully installed eth-ape-0.2.7 ethpm-types-0.3.1
+The console command works now 🙂 thanks for the help @fubuloubu","",""
+"659892951006183425","fubuloubu","01/06/2022 3:23 am","nice!","",""
+"659892951006183425","fubuloubu","01/06/2022 3:23 am","great to hear","",""
+"693203180405653544","albert_g","02/06/2022 7:19 pm","Hey folks, any link to read about ape and how it compares to the other frameworks? Thanks 🙂","",""
+"659892951006183425","fubuloubu","02/06/2022 10:08 pm","hmm, don't think I know any comparisons like that, would be interesting if you've found one!","",""
+"659892951006183425","fubuloubu","02/06/2022 10:08 pm","we're working on a video with Patrick Collins helping Brownie users to port over, that's about it","",""
+"856641248315834418","developermarwan","02/06/2022 11:09 pm","hello all, are there any examples of using estimate_gas_cost() with ape-starknet? or any docs?","",""
+"843117425582538773","0xLaplace#2194","03/06/2022 5:23 pm","@antazoey +1 on this, is estimate_gas API from Ape integrated by ape-starknet plugin?","",""
+"843117425582538773","0xLaplace#2194","03/06/2022 5:24 pm","also @antazoey, it would be useful if the Receipt object returned by invocations would contain an easy to extract return value, when present. An optional field in Receipt class or one of its members","","👍 (1)"
+"826802154818895892","ametel","03/06/2022 5:50 pm","This would be great","",""
+"406620839673331712","antazoey","03/06/2022 9:37 pm","Ok, so I got a PR up that will help with fees. Checkout the readme changes here: https://github.com/ApeWorX/ape-starknet/pull/17
+You can use this PR + the unreleased Ape core to have a better experience with fees.
+
+We actually call `estimate_gas_cost` for you under-the-hood when you are not using the `max_fee` kwarg in your transaction, but that was not functioning correctly before, mostly because I was blocked by work related to proxies. But good news, the proxy work is complete in Ape and I was able to plug into that and resolve my issues with fees 🙂
+
+I can take a quick peak at the return data on receipts but may have to circle back as I have other pending work elsewhere.","","🦍 (2),🚀 (2),dumpsterfire (1)"
+"406620839673331712","antazoey","05/06/2022 2:09 am","Good news! I was able to get dependencies working for the `ape-cairo` plugin. The PR is here: https://github.com/ApeWorX/ape-cairo/pull/12
+Expect this feature in a release soon!","",""
+"951518572272812074","purplebishop","05/06/2022 2:13 am","oh fantastic, you are carrying it forward by yourself","",""
+"951518572272812074","purplebishop","05/06/2022 2:14 am","nice that it's mimicking ape-solidity","",""
+"951518572272812074","purplebishop","05/06/2022 2:15 am","do you have an ETA for merging these changes as well","",""
+"951518572272812074","purplebishop","05/06/2022 2:15 am","and also if you took a look at making the receipts more dev-friendly by relaying return values easily","",""
+"406620839673331712","antazoey","05/06/2022 3:45 am","Ill do that next!","",""
+"406620839673331712","antazoey","05/06/2022 3:47 am","No ETA but won’t be long","",""
+"659892951006183425","fubuloubu","05/06/2022 6:53 am","we always accept contributions 😁","",""
+"406620839673331712","antazoey","05/06/2022 8:31 pm","Yes, but I am doing it on the weekend on my own time! We definitely welcome outside contributors.","","starknet (1)"
+"406620839673331712","antazoey","05/06/2022 8:31 pm","But anyway! I did get the return data work done as well: https://github.com/ApeWorX/ape-starknet/pull/18","","🙏 (2)"
+"951518572272812074","purplebishop","05/06/2022 11:29 pm","ah only the weekend! and during the week you work on Ape and non-starknet plugins?","",""
+"951518572272812074","purplebishop","06/06/2022 7:20 pm","@antazoey https://github.com/starkware-libs/cairo-lang/releases/tag/v0.9.0","",""
+"406620839673331712","antazoey","06/06/2022 7:29 pm","it depends on current priorities what I am to work on! I am trying to support these plugins though and am super happy to find time :). But i also really appreciate the community assistance.","",""
+"406620839673331712","antazoey","06/06/2022 7:31 pm","Yeah I saw this! We will have to bump our apes. Good first issue.","",""
+"876072467599347712","0xca11ab1e","06/06/2022 9:17 pm","I will give a hand on Cairo, and StarkNet, plugins 🙂","","💃 (1)"
+"509692086556033024","distracteddev","06/06/2022 11:33 pm","I still haven't solved this problem, any thoughts?","",""
+"951518572272812074","purplebishop","07/06/2022 1:06 am","@0xCa11ab1e can you give a look at this? could involve both plugins, it's tied to @distracteddev issue","",""
+"876072467599347712","0xca11ab1e","07/06/2022 12:55 pm","Yup","",""
+"951518572272812074","purplebishop","07/06/2022 6:01 pm","sorry @antazoey , were this QoF improvements released to ape already","",""
+"406620839673331712","antazoey","07/06/2022 6:13 pm","I will take a look. Sorry for missing this before!","",""
+"406620839673331712","antazoey","07/06/2022 6:13 pm","We are probably doing a release today","",""
+"406620839673331712","antazoey","07/06/2022 6:27 pm","I am having trouble compiling your project. I was able to fix some of the issues (e.g. missing imports, missing `end` symbol in spots), but there are some I don't know how to fix. For example `session_key` is not defined anywhere but used in a few places.","",""
+"509692086556033024","distracteddev","07/06/2022 6:28 pm","Sorry I've been experimenting since I commented the repo. Give me 2 secs","",""
+"406620839673331712","antazoey","07/06/2022 6:30 pm","I added a small contrib that fixed some of them: https://github.com/supsam89/game_guilds/pull/1","",""
+"509692086556033024","distracteddev","07/06/2022 6:33 pm","Ahh thanks should be good to clone/pull now. Run `ape test ape/tests/test_guild.py` for a simple test check","",""
+"509692086556033024","distracteddev","07/06/2022 6:36 pm","This is where before running the test it will just recompile my cairo files","",""
+"406620839673331712","antazoey","07/06/2022 6:38 pm","OK yeah","",""
+"406620839673331712","antazoey","07/06/2022 6:50 pm","I was able to repro and am digging. Follow this ticket: https://github.com/ApeWorX/ape-cairo/issues/14","","💪 (1)"
+"509692086556033024","distracteddev","07/06/2022 6:51 pm","Many thanks! 😃","",""
+"406620839673331712","antazoey","07/06/2022 7:58 pm","good news! I was able to get this to work using this core Ape PR: https://github.com/ApeWorX/ape/pull/783
+I also had to fix your tests a little (I pushed to the PR I have there).
+
+One thing I notice though (seeing a real project) is how slow it is when you have to deploy so many contracts in your fixtures. We should make an easier way to do async until `starknet.rs` is ready","",""
+"509692086556033024","distracteddev","07/06/2022 8:07 pm","Awesome, thanks so much. Yeah can't wait for that to go through and try out running full unit/integration tests. Can then get a sense of the speed of compilation vs tests performance","",""
+"951518572272812074","purplebishop","10/06/2022 8:59 pm","@antazoey where can @0xCa11ab1e help the most w.r.t. to upgrading plugins to support Cairo 0.9?","","💯 (1)"
+"951518572272812074","purplebishop","10/06/2022 8:59 pm","Protostar and Hardhat plugin have already kind of upgraded","",""
+"406620839673331712","antazoey","11/06/2022 12:38 am","Now that `starknet-devnet` is released, we can bump the versions.
+Expected breaking changes. There is likely failing imports and other issues. Step 2 is get passing tests.
+
+In the case if `starknet` 0.9, fees are not required so we have tests that did not include fees.","",""
+"951518572272812074","purplebishop","11/06/2022 12:40 am","Ok, starting tomorrow @0xCa11ab1e will work full time on this until breaking changes are fixed and the deploy feature is working, with class declaration txs support.
+
+did you mean to say that fees are required, so tests need to include them?","",""
+"406620839673331712","antazoey","11/06/2022 12:40 am","I am assisting on the PRs now","",""
+"406620839673331712","antazoey","11/06/2022 12:41 am","I think we have tests that include them, but we might also have tests that don't and they would now be failing tests so theyd need to get updated... not 100% sure of all changes needed though","",""
+"951518572272812074","purplebishop","11/06/2022 12:42 am","Another handy change related to fees would be having a list of pre-funded accounts for devnet, a-la Ganache","",""
+"951518572272812074","purplebishop","11/06/2022 12:42 am","Ok, we will see how other frameworks are handling the new features as well","",""
+"406620839673331712","antazoey","11/06/2022 12:43 am","I created an issue for this in `starknet-devnet` and they said they were going to do it","",""
+"951518572272812074","purplebishop","11/06/2022 12:43 am","i think they did it with 0.2.3?","",""
+"951518572272812074","purplebishop","11/06/2022 12:43 am","hardhat plugin supports it","",""
+"951518572272812074","purplebishop","11/06/2022 12:43 am","(its the same author)","",""
+"406620839673331712","antazoey","11/06/2022 12:44 am","Oh nice, yes we need to wire that up now","",""
+"406620839673331712","antazoey","11/06/2022 1:00 am","It seems pretty straightforward to update. Early next week we can be on 0.9","",""
+"416298073069715456","t.aksoy","12/06/2022 4:13 pm","hello guys
+ I cant use local for console or test. When I try to start console with starknet:local, console not opens. Is there anything I should do for this problem?","",""
+"406620839673331712","antazoey","16/06/2022 7:16 am","Try ape-starknet 0.2.0a2! It was just released.
+Let me know if your problem persists.","",""
+"876072467599347712","0xca11ab1e","16/06/2022 1:09 pm","FTR the latest `ape-starknet` release fixed all our issues, thanks a lot @antazoey 🥂","",""
+"955168347815833600","0xbankroll","16/06/2022 4:21 pm","Hi every body) Please advise me how to get experience in this channel to unlock some role?","",""
+"659892951006183425","fubuloubu","16/06/2022 6:19 pm","I don't know if we have roles on this Discord","",""
+"897040200075726868","sissi#5404","16/06/2022 6:31 pm","if you keep active in DC, then you may get stark star role:happy:","",""
+"697542567050608645","kellan666","17/06/2022 4:44 am","wanna more roles","",""
+"659892951006183425","fubuloubu","18/06/2022 12:51 am","the role collectooooor","",""
+"707426058017701929","monte2615","18/06/2022 2:27 am","hi im new to discord.  how do roles work?","",""
+"888103650780672040","airmap","18/06/2022 11:46 am","My friend, rest assured that this project will not forget the people who are trying   we'll take the initiative if we find someone good in the community.
+If you wanna be part of the fam, show knowledge, kindness, and perseverance.","",""
+"876072467599347712","0xca11ab1e","20/06/2022 9:32 pm","Is there a way to bypass contracts automatic compilation before `ape test`?","",""
+"877351224725372998","violetsummerzine","22/06/2022 9:05 pm","Calling all NY Hackers! 📡💁🏽‍♀️ We are official sponsors of ETH New York. Come for the dope swag, stay for the hacking! Explore the banana jam, bounties, guide to nyc and our workshop! https://banana-jam.apeworx.io/ - Your Fav Community Ape!","","StarkNet (1)"
+"877351224725372998","violetsummerzine","22/06/2022 9:05 pm","","https://cdn.discordapp.com/attachments/970647560287047732/989191827917766706/1_APE_NY_STICKER_3x2_Aa.png",""
+"876072467599347712","0xca11ab1e","23/06/2022 2:59 pm","Using `ape-starknet`, and `ape.accounts.test_accounts[0]`, I cannot make a simple test pass, its always ends on `ape.exceptions.ProviderError: Account contract '0x318b469BBa396AEc2C60342F9441be36A1945174' not found.`. Does it ring a bell to someone?","","✅ (1)"
+"876072467599347712","0xca11ab1e","23/06/2022 3:12 pm","Started a thread.","",""
+"406620839673331712","antazoey","23/06/2022 4:06 pm","We dont have to auto-test accounts yet for starknet","","👍 (1)"
+"406620839673331712","antazoey","23/06/2022 4:06 pm","You can deploy accounts in fixtures though","","👍 (1)"
+"884122822283259905","saeid0921","24/06/2022 1:25 pm","👍","",""
+"876072467599347712","0xca11ab1e","24/06/2022 8:56 pm","Would you mind giving a concrete example? I copy-pasted some code from ape-starknet `conftest.py` but that does not seem to work as expected. A clean example would be very welcome 🙂","","✅ (2)"
+"877975303060877325","Y.G#3166","28/06/2022 1:36 am","#🧹｜scam-report","",""
+"348946057637658625",".sanchopansa","29/06/2022 8:54 pm","Inside the ape console, I'm deploying an account like this:
+```
+In [4]: account = accounts.containers['starknet'].deploy_account(""demo0"")
+INFO: Deploying an account to 'local' network ...
+
+In [5]: account
+Out[5]: '0xE1f8B1344b116D3e4f12564a2b1c44B76782a012651cd907673363d115F91e'
+```","",""
+"348946057637658625",".sanchopansa","29/06/2022 8:55 pm","I'm deploying a smart contract like this:
+```
+In [10]: bank = project.Bank.deploy()
+SUCCESS: Contract 'Bank' deployed to: 0x29689735B755019cE7c433644884Ac3182A4dB429b0Bf1d8b1eB94C7E278718
+```","",""
+"348946057637658625",".sanchopansa","29/06/2022 8:56 pm","When I try to invoke a tx with a specific sender using `In [15]: bank.increase_balance(10, sender=account)` I get the following error:
+`ConversionError: No conversion registered to handle '0xE1f8B1344b116D3e4f12564a2b1c44B76782a012651cd907673363d115F91e'.`","",""
+"348946057637658625",".sanchopansa","29/06/2022 8:56 pm","What is the issue with the above?","",""
+"348946057637658625",".sanchopansa","29/06/2022 8:57 pm","Calling the function without specifying the sender works just fine (I'm also wondering who is the signer in this case?)","",""
+"348946057637658625",".sanchopansa","29/06/2022 9:14 pm","So, it looks like the return value of `deploy_account` is `str`, if I use `account = accounts.load(""demo0"")` and set this as the sender, it works fine.","","👍 (2)"
+"406620839673331712","antazoey","29/06/2022 11:13 pm","the next release will have the devnet accounts, that may be more helpful so you dont have to deploy in python.","",""
+"406620839673331712","antazoey","29/06/2022 11:14 pm","@SharkCoochieBoard are the others also in this chat? Let's get more Apes in here!  Also - meet @sidius , he is the like Sith Overlord I believe.","",""
+"951518572272812074","purplebishop","29/06/2022 11:51 pm",":sidious_wink:","",""
+"951518572272812074","purplebishop","29/06/2022 11:51 pm","nice to meet you","",""
+"262695430024986624","sharkcoochieboard","30/06/2022 1:39 am","Hi nice to meet you","",""
+"406620839673331712","antazoey","30/06/2022 3:25 am","Updates:
+
+1.) This PR https://github.com/ApeWorX/ape/pull/841 allows us to see the logs from subprocess provider when using `-v debug` flag.
+2.) This PR adds the set_timestamp method https://github.com/ApeWorX/ape-starknet/pull/46 however, we need to check with Starknet about something, as the pending timestamp seems unaffected even though we get a nice response.
+
+Next stop is diving into the performance issues more.","","🔥 (3),💪 (1)"
+"876072467599347712","0xca11ab1e","30/06/2022 7:49 pm","Is there a way to import an account from an Argent X private key? If using the raw value (integer), it says ""The private key must be exactly 32 bytes long, instead of 37 bytes"", if converting to hexstr (using `hex(raw_private_key)`) it says ""The private key must be exactly 32 bytes long, instead of 31 bytes"".","",""
+"406620839673331712","antazoey","04/07/2022 8:46 pm","there is a CLI command that imports the argentx keyfile directly","",""
+"348946057637658625",".sanchopansa","11/07/2022 7:28 pm","I've added a bunch of openzeppelin dependencies to my project and I get the following error when trying to compile using `ape compile`:
+```
+starkware.cairo.lang.compiler.preprocessor.preprocessor_error.PreprocessorError: Only account contracts may have a function named ""__execute__"". Use --account_contract flag.
+```","",""
+"348946057637658625",".sanchopansa","11/07/2022 7:29 pm","Afaict, this is because Account.cairo is being compiled as part of the dependencies, but I'm unable to get around this error. Using `--account_contract` or `--account-contract` doesn't help, as the command fails with `No such option`","",""
+"348946057637658625",".sanchopansa","11/07/2022 7:29 pm","What do I need to do to resolve this?","",""
+"348946057637658625",".sanchopansa","11/07/2022 8:11 pm","starknet-compile is working fine","",""
+"509692086556033024","distracteddev","11/07/2022 9:49 pm","What's the current way of passing structs as calldata? Separated gives too many arguments and as a dictionary gives conversion error","",""
+"509692086556033024","distracteddev","11/07/2022 9:57 pm","also tried tuple:
+
+```   def test_guild(account, guild_certificate, guild_contract):
+>       guild_contract.whitelist_members(
+            1,
+            (account, 3),
+            sender=account
+        )
+E       ape.exceptions.ConversionError: No conversion registered to handle '0x05D6196555cB84ED7b6470bb55AC73f80F8bC6CDc7C018BA698F7f9d653aF684'.```","",""
+"406620839673331712","antazoey","12/07/2022 1:57 am","What version of ape cairo are you using? Im pretty sure we fixed this in the latest release. Checking now","",""
+"406620839673331712","antazoey","12/07/2022 1:59 am","This also sounds like an older version of `ape-starknet`","",""
+"406620839673331712","antazoey","12/07/2022 2:00 am","Tell us your versions 🙂","",""
+"509692086556033024","distracteddev","12/07/2022 2:02 am","```ape-cairo==0.3.0a1
+ape-starknet==0.3.0a2
+eth-ape==0.3.5```","",""
+"406620839673331712","antazoey","12/07/2022 2:02 am","Okay, structs might not be supported yet but we welcome PRs","",""
+"406620839673331712","antazoey","12/07/2022 2:03 am","Else, it is on the roadmap and we should get it to soon","",""
+"509692086556033024","distracteddev","12/07/2022 2:03 am","Ok cool, I'll look into contributing","",""
+"406620839673331712","antazoey","12/07/2022 2:03 am","https://github.com/ApeWorX/ape-starknet/issues/14","",""
+"406620839673331712","antazoey","12/07/2022 2:03 am","I had thought it was working because Uint256 works but sounds like more work is needed","",""
+"509692086556033024","distracteddev","12/07/2022 2:04 am","and Uint256 works as dict or tuple?","",""
+"406620839673331712","antazoey","12/07/2022 2:04 am","This was fixed in `Ape Cairo 0.3.0a1`","","💯 (1)"
+"406620839673331712","antazoey","12/07/2022 2:05 am","It looks like tuple","",""
+"509692086556033024","distracteddev","12/07/2022 2:06 am","Ok cool, I'll give that a test too and compare against another struct","",""
+"406620839673331712","antazoey","12/07/2022 2:07 am","I can only find examples as return data, can't find any input example so I am not sure","",""
+"876072467599347712","0xca11ab1e","14/07/2022 3:11 pm","Hello,
+In `ape-config.yaml` for a Starknet project, how do you set the local network uri? Something like that (as done for geth): ```yaml
+default_ecosystem: starknet
+
+starknet:
+  local:
+    starknet:
+      - uri: http://127.0.0.1:5050
+```
+The goal is to change the default port to connect to a running devnet instance.","",""
+"659892951006183425","fubuloubu","15/07/2022 3:42 am","I think it's:
+
+```yaml
+starknet:
+  provider:
+    local:
+      uri: http://127.0.0.1:5050
+```","","👌 (1)"
+"659892951006183425","fubuloubu","15/07/2022 3:42 am","so yeah, a little bit backwards maybe","",""
+"659892951006183425","fubuloubu","15/07/2022 3:42 am","https://github.com/ApeWorX/ape-starknet/blob/main/ape_starknet/config.py#L20","",""
+"876072467599347712","0xca11ab1e","15/07/2022 1:30 pm","Perfect, thank you!","",""
+"348946057637658625",".sanchopansa","18/07/2022 2:07 am","Apologies for cross-posting this from Telegram, but I'm hoping to get an answer soon, as we're currently being blocked by that.
+
+Does anyone know how I could manipulate the block time on the local devnet? I tried using `project.provider.set_timestamp`, but it fails with `FAILED tests/test_staking.py::test_staking - requests.exceptions.HTTPError: 400 Client Error: BAD REQUEST for url: http://127.0.0.1:8545/increase_time`. Furthermore, it looks like the method is supposed to increase the timestamp by the given amount of time, whereas I would prefer if it's possible to set the timestamp to a given value directly.","",""
+"876072467599347712","0xca11ab1e","21/07/2022 12:52 pm","Maybe would you have more luck with `chain.pending_timestamp += 60  # secs`?","",""
+"348946057637658625",".sanchopansa","22/07/2022 5:42 pm","Yes, this works and after discussing with @antazoey, I also realised setting the ts to an arbitrary number doesn’t work, it has to be a number in the future. The snippet you posted above uses `set_timestamp` internally as well, but it works because it’s setting a value in the future","","👍 (1)"
+"877351224725372998","violetsummerzine","05/08/2022 10:19 pm","Hey everyone! We're having a debugging session over on ApeWorX main server in an hour! If you have files you need debugging, send them our way! https://twitter.com/ApeFramework/status/1555276188536475653","",""
+"877351224725372998","violetsummerzine","05/08/2022 10:19 pm","See you there","",""
+"406620839673331712","antazoey","20/09/2022 1:13 am","The new `ape-starknet` release supports Cairo 0.10 and Ape 0.5! Upgrade `ape-starknet` to `0.5.0a0`","",""
+"659892951006183425","fubuloubu","20/09/2022 2:14 am","also check out our Web3 back to school challenge!
+https://twitter.com/ApeFramework/status/1571936069645660160?s=20&t=QYAWZdCXckclbVme4aVDSQ","",""
+"877351224725372998","violetsummerzine","20/10/2022 2:02 am","Hey everyone! We're hosting a data Jam Session this friday! Join us! 🙂 https://twitter.com/ApeFramework/status/1582823683902431232?s=20&t=3wHBqoUYb3Tf_x7K0OiwIQ","",""
+"877351224725372998","violetsummerzine","14/11/2022 5:47 am","Hey python frens! Join us for the first annual PyChain conference! All virtual and free... sign up here: https://www.pychain.org/","",""
+"877351224725372998","violetsummerzine","09/12/2022 10:15 pm","gm! Join ApeWorX and frens of EIP 4626 as we discuss the future of DeFi protocols and interface standards on Twitter Spaces: https://twitter.com/i/spaces/1zqKVPDawrDJB?s=20","","StarkNet (5)"
+"877351224725372998","violetsummerzine","19/12/2022 11:08 pm","Hello everyone! happy holidays!","",""
+"877351224725372998","violetsummerzine","19/12/2022 11:08 pm","https://twitter.com/ApeFramework/status/1604893627179618304","","🔥 (5)"
+"548410451818708993","Wick#4943","08/01/2023 9:36 am","","",""
+"975934354515689494","jsrcmh23","18/01/2023 12:24 pm","any new ape","",""
+"889142633451118642","0xweb3dev","18/01/2023 12:39 pm","I don't think so. All updates are available here : https://academy.apeworx.io/","",""
+"659892951006183425","fubuloubu","19/01/2023 1:06 am","v0.6.0 coming soon (hopefully this week!), working on new tutorial content and a refreshed Academy site over the next few months","",""
+"548410451818708993","Wick#4943","21/01/2023 1:03 am","","",""
+"283862302401495041","grest_","31/01/2023 7:40 am","hi, will ape support Cairo 1.0? and if yes, is there a projected timeline?","",""
+"659892951006183425","fubuloubu","31/01/2023 7:43 am","yes, we are currently upgrading our own library to v0.6.0, so will come after we are complete with that","","👍 (5)"
+"659892951006183425","fubuloubu","05/02/2023 5:41 am","for our starknet users out there, deterministic Starknet deployments (built using ape)
+https://twitter.com/franalgaba_/status/1621817933029572608?s=20&t=i_RUJSr_0RjpXyqsUXRhqw","","🔥 (10)"
+"659892951006183425","fubuloubu","28/02/2023 11:04 pm","new ape-starknet docs just dropped: https://docs.apeworx.io/ape-starknet/latest/userguides/quickstart.html","","👍 (15),🔥 (8)"
+"795012691231899659","sabiwagmi","29/03/2023 7:23 pm","That’s great","",""
+"659892951006183425","fubuloubu","31/03/2023 12:02 am","hey all! some good news from us, our comprehensive Ape Academy tutorial about Starknet just dropped!
+
+https://twitter.com/ApeFramework/status/1641506694436904974","","🇹🇷 (5),🔥 (4)"
+"283862302401495041","grest_","17/04/2023 2:06 pm","hi, what are the plans for ape's support for Cairo 1.0?","",""
+"659892951006183425","fubuloubu","18/04/2023 1:04 am","we've been investigating the updates, it's a lot of work so unfortunately might take some time","","👍 (13)"
+"818039836966649886","cg_gi","05/05/2023 2:22 pm","ape","","dumpsterfire (25),🦍 (8)"
+"591883147046813718","itsrko","29/06/2023 11:13 am","Hey","","🇷🇺 (3)"
+"960753855824556102","alphacryptostar","29/06/2023 8:30 pm","yo","",""
+"848616398964260925","scarletssstarktitan","29/06/2023 8:31 pm","@Tejas | ZetaChain ⤯  sorry ser, pls greeting here #🕗｜gm-gn and chat here #🐼｜general-chat thank you","","👍 (6)"
+"591883147046813718","itsrko","03/07/2023 6:38 pm","Okey","",""
+"985890625742311435","offendereq#8351","08/07/2023 8:37 pm","what?","",""
+"836845834225188864","rannyjaen","09/07/2023 10:04 pm","interesting","",""
+"1114597473374175303","BettyAnderson#8946","10/07/2023 9:24 pm","hellp","",""
+"848616398964260925","scarletssstarktitan","10/07/2023 9:27 pm","sorry ser, if it is relate to the Ape Framework,pls share here ,if it is normal question pls feel free to share #✨｜starknet  thank you","",""
+"1039172102877610024","gogo11.bnb#1180","21/07/2023 1:02 pm","who can help me？please","",""
+"1039172102877610024","gogo11.bnb#1180","21/07/2023 1:02 pm","i can/t find my tx","",""
+"907981161534468146","wind.rider","21/07/2023 1:06 pm","Sorry ser, this channel is for ape, if you having a problem with using starknet, pls use #✨｜starknet or #🐼｜general-chat , thank you","",""
+"827213797613240340","saniaminu01","13/08/2023 2:58 pm","Ape 🦧","",""
+"980702672636244029","sarvardis","22/08/2023 11:30 pm",":shalom:","",""
+"1076749307262271548","moneyviber","25/08/2023 1:35 pm","hi","",""
+"1076749307262271548","moneyviber","25/08/2023 1:35 pm","Why is this thread needed?","",""
+"907981161534468146","wind.rider","25/08/2023 1:37 pm","ser,ape is a smart contract framework, if you have any general questions about starknet, pls use #🐼｜general-chat , thank you","","🫡 (2)"
+"759339811130966076","partakon","22/09/2023 1:16 pm","👌🏻 thanks","",""

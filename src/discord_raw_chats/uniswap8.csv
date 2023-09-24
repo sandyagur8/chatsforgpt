@@ -1,0 +1,775 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"471357824299958273","crypto_rachel","09/06/2023 1:31 am","🤔  first 😄","","🥇 (7),😎 (2),💵 (1)"
+"989275482488983663","AnthonyNicholas#4331","13/06/2023 6:44 pm","Hey @Uniswap Community Developer  👋 
+
+Here are some resources for you to learn about Uniswap v4 👇 
+
+Core: https://github.com/Uniswap/v4-core
+Examples of hooks: https://github.com/Uniswap/v4-periphery/tree/main/contracts/hooks/examples
+Whitepaper: https://github.com/Uniswap/v4-core/blob/main/whitepaper-v4-draft.pdf","","🔥 (11),🙏 (5)"
+"769344447158419487","CasualDegen#9166","13/06/2023 6:47 pm","weeeen in prod ?","",""
+"769344447158419487","CasualDegen#9166","13/06/2023 6:47 pm","next few mnths?","",""
+"843280615754956801","thuongtc","13/06/2023 6:50 pm","","",""
+"874945032862449674","_gr_","13/06/2023 6:55 pm","eagerly awaiting sdk update to support v4 🔥 🤩","",""
+"796477174592962571","mangoeth","13/06/2023 6:59 pm","Oof that poor poor mapping holding all the shitcoin pools. :nervousintensifies:","","😆 (3)"
+"898791107566112818","namngrg","13/06/2023 7:09 pm","super excited for this 🔥","",""
+"1024969451671650355","uglybear#3956","13/06/2023 7:10 pm","?/<>","",""
+"386253127936114690","rajazuberi","13/06/2023 7:14 pm","Congratulations guys!","",""
+"1040766353361076345","ritzydev","13/06/2023 7:15 pm","@Anthony 🦄 // Community Manager is there a link for contributions","",""
+"1040766353361076345","ritzydev","13/06/2023 7:17 pm","Anyone available from the core dev team I can ask technical questions to?","",""
+"401842633464610837","_kfx","13/06/2023 7:18 pm","looking forward to studying the new contracts!","","👀 (3)"
+"770549149770448897","s6187","13/06/2023 7:21 pm","Sounds interesting but any idea how it would affect LPs?","",""
+"1040766353361076345","ritzydev","13/06/2023 7:22 pm","It enables hooks so, you can hook additional ways to get revenue in.","",""
+"1024969451671650355","uglybear#3956","13/06/2023 7:31 pm","@Crypto_Rachel @Crypto_Rachel","",""
+"1111783554481913928","bravamariksarosa","13/06/2023 7:33 pm","@maristoni KSa rosa Br","",""
+"769344447158419487","CasualDegen#9166","13/06/2023 7:47 pm","is it deployed on testnet somewhere?","",""
+"769344447158419487","CasualDegen#9166","13/06/2023 7:47 pm","@Anthony 🦄 // Community Manager","",""
+"416861811330252810","hiteshagrawal","13/06/2023 8:06 pm","🫡","",""
+"149735676278079488","austino256","13/06/2023 8:10 pm","gm i will answer some questions about v4","",""
+"149735676278079488","austino256","13/06/2023 8:12 pm","what is ur question","",""
+"1040766353361076345","ritzydev","13/06/2023 8:14 pm","It looks like the hooks in the twap AMM handles orders in one of the hooks.  What prevent orders from piling up to the point where it DOS the service.  E.g too many orders to execute in a single block","",""
+"149735676278079488","austino256","13/06/2023 8:15 pm","twamm nets and then executes the remaining swap. shouldn't be a dos vector","",""
+"149735676278079488","austino256","13/06/2023 8:15 pm","more of a math issue.","",""
+"1040766353361076345","ritzydev","13/06/2023 8:16 pm","Is the swap hook handle processing the limit orders, e.g it leverages regular swaps to do it's background processing?","",""
+"149735676278079488","austino256","13/06/2023 8:18 pm","twamm hook: https://github.com/Uniswap/v4-periphery/blob/main/contracts/hooks/examples/TWAMM.sol
+the current implementation (which is not finished and more for examples) does the processing using the swap hook: https://github.com/Uniswap/v4-periphery/blob/main/contracts/hooks/examples/LimitOrder.sol","",""
+"1040766353361076345","ritzydev","13/06/2023 8:21 pm","Okay I'll poke around a bit more after work","",""
+"149735676278079488","austino256","13/06/2023 8:24 pm","all good! always apprecate the help in the devchat","","💯 (1),this (1)"
+"1040766353361076345","ritzydev","13/06/2023 8:26 pm","Yeah anytime.  I'll read up more about this.  I have an order engine in the protocol I'm building but orders are chunked.  So I'm trying to figure out how you guys circumvented that limit","",""
+"195138784730284032","goreticb","13/06/2023 8:27 pm","Is there anywhere docs for how limit order will be implemented that I can see?","",""
+"149735676278079488","austino256","13/06/2023 8:50 pm","this is the current code (which is meant to an example and not used in prod) but anyone can make edits or spin up their own version! https://github.com/Uniswap/v4-periphery/blob/main/contracts/hooks/examples/LimitOrder.sol","",""
+"195138784730284032","goreticb","13/06/2023 8:51 pm","Thanks","",""
+"817495289156993084","bellokim","13/06/2023 8:58 pm","Hi! I have a question","",""
+"817495289156993084","bellokim","13/06/2023 8:58 pm","I almost expected univ4 to do something with out of range liquidity, since it's capital used for nothing, will some feature regarding this be added?","",""
+"149735676278079488","austino256","13/06/2023 8:59 pm","hooks can modify out of range liquidity. two possible feature sets labs talked about are depositing out of range liquidity to lending protocols or shifting liquidity to neighboring liquidity regions","",""
+"817495289156993084","bellokim","13/06/2023 8:59 pm","Options can be an automatic rebalancing option or using it for single side lending","",""
+"817495289156993084","bellokim","13/06/2023 9:00 pm","That sounds great, what would this neighbouring liquidity regions though","",""
+"817495289156993084","bellokim","13/06/2023 9:00 pm","Is there a limit on this","",""
+"817495289156993084","bellokim","13/06/2023 9:01 pm","Because lps that are very tight could be out of range even at neighbouring ticks","",""
+"149735676278079488","austino256","13/06/2023 9:30 pm","there are always a few limits, but I think that something similar to what maverick amm does is possible!","",""
+"756497252691869809","cryptoma20","13/06/2023 9:30 pm","just checking guys when i create a pool and specify a hook contract, does that means no one else can build hooks for that pool?","",""
+"149735676278079488","austino256","13/06/2023 9:31 pm","a pool is created on any unique set of hooks, token0, token1, fee percent, and tick spacing, so there shouldnt be many constraints","",""
+"756497252691869809","cryptoma20","13/06/2023 9:32 pm","can you still only create one pool for one pair?","",""
+"149735676278079488","austino256","13/06/2023 9:32 pm","when i say hooks, i mean one hook address. you can also redeploy the hook contract to get a new address, which would be a different pool. since you can have as many contracts as you want for one hook, there are functionally no limits on the amount of pools for one pair.","",""
+"756497252691869809","cryptoma20","13/06/2023 9:33 pm","i see so one hook address for one pool","",""
+"149735676278079488","austino256","13/06/2023 9:33 pm","yep! no longer a 4 pool per pair limit like v3 or a 1 pool limit like v2.","",""
+"756497252691869809","cryptoma20","13/06/2023 9:34 pm","oh that's cool so you can have (for example) multiple ETH/USDC pools, as long as each pool have a specific hook address?","",""
+"149735676278079488","austino256","13/06/2023 9:37 pm","yes! or the same hook contract and pair but different tick-spacings/fees","","hyperWOW (1)"
+"769344447158419487","CasualDegen#9166","13/06/2023 9:39 pm","@Austin 🦄 is v4 deployed on Goerli or some other testnet? Or do we have to use local forks for now ?","",""
+"756497252691869809","cryptoma20","13/06/2023 9:39 pm","what will now be the unique identifier used for a pool-hook pair?","",""
+"149735676278079488","austino256","13/06/2023 9:40 pm","v4 has not gone through audit, so just be aware!","",""
+"149735676278079488","austino256","13/06/2023 9:41 pm","the hash of the poolKey (which is used to determine which pool is called!)","","👍 (1)"
+"769344447158419487","CasualDegen#9166","13/06/2023 9:41 pm","oh alright, just wanna start playin' around with it u know","",""
+"769344447158419487","CasualDegen#9166","13/06/2023 9:41 pm","many possibility, big brain devs","",""
+"149735676278079488","austino256","13/06/2023 9:41 pm","that i do understand. i know of no plans to put it on any testnet until closer to cancun.","",""
+"769344447158419487","CasualDegen#9166","13/06/2023 9:42 pm","cool, thanks for feedback","",""
+"756497252691869809","cryptoma20","13/06/2023 9:48 pm","wen audit? :pepeShy:","",""
+"756497252691869809","cryptoma20","13/06/2023 9:51 pm","does this mean you have to use a keccak to hash a (pool address + hook address), before you can access the pool contract using the pool interface?","",""
+"756497252691869809","cryptoma20","13/06/2023 9:52 pm","vs now when you only need a pool address","",""
+"756497252691869809","cryptoma20","13/06/2023 10:09 pm","does this also mean an LP will now have to chose which specific pool+hook they have to provide liquidity, in addition to choosing the pair/ranges etc..","",""
+"756497252691869809","cryptoma20","13/06/2023 10:10 pm","sorry for so many questions guys, super excited and can't wait to buidl more on Uniswap !!","",""
+"149735676278079488","austino256","13/06/2023 10:10 pm","No timeline currently!","","pepeOK (1)"
+"149735676278079488","austino256","13/06/2023 10:10 pm","There is a struct you give to access the pool you want internally","","👍 (1)"
+"149735676278079488","austino256","13/06/2023 10:11 pm","yes that’s one of the complications of v4. Providing liquidity has one more step. We envision that some hooks will be heavily audited and those will be surfaced on liquidity provision platforms.","","🤝 (1),❤️‍🔥 (1),RockStar (2)"
+"401842633464610837","_kfx","13/06/2023 10:12 pm","does the trader choose which hooks to use for a swap, too? how are trades routed?","",""
+"756497252691869809","cryptoma20","13/06/2023 10:15 pm","thanks Austin for superstar replies : )","","RockStar (1)"
+"471357824299958273","crypto_rachel","13/06/2023 10:15 pm","This is an exellent question,.
+@Austin 🦄  How will the hook addresses be handled by the Auto router, will the hook contract have to be audited to be included with the routing in UI","",""
+"471357824299958273","crypto_rachel","13/06/2023 10:18 pm","--
+This basically looks like v3 on steroids, 
+So I assume FOT, Rebase, and Reflection type tokens still don't work?
+Looks like more options for LP rewards/fees, 
+Do the withdraw fees only go to LP?
+What does the 1 million max fee represent in percentage?","",""
+"149735676278079488","austino256","13/06/2023 10:21 pm","this is a good question. It’s not set in stone yet. I would think the specific pool will have to be chosen (which requires the hook address), which means the trader/route finder would need to provide it.","","👍🏼 (1)"
+"471357824299958273","crypto_rachel","13/06/2023 10:30 pm","I was thinking more on the UI end, how labs will decide which hook contracts to use, I know this is still all in the works, just thinking of how the auto routing will work in this scenario, hoping the hook contracts have to meet some sort of eligibility for the UI to be able to use them
+
+> `trader/route finder`
+
+is this going to be a new setup? or were you speaking in general terms of scripting where user searches for best hook and chooses (like choosing pool in the past)
+
+Sorry if I get to questiony 😄  I can be a pest when it comes to wanting to know things 😂 🪳","",""
+"149735676278079488","austino256","13/06/2023 10:37 pm","yeah sorry, I wanted to clarify between the autorouter (offchain) vs the router (onchain). I’ve had issues answering the wrong question because of the distinction. I think it’ll be a similar set up to previous, but more in depth because of impact the swap address might have.
+
+I’m happy to answer questions. This one is just less clear atm","",""
+"756497252691869809","cryptoma20","13/06/2023 10:42 pm","does the lock means swapper will have to wait longer before they get their assets (because they need to be netted out first)?","",""
+"471357824299958273","crypto_rachel","13/06/2023 10:44 pm","good to clarify yes, i've been caught with the same thinking a person asking about one thing, but actually ends up being something else, nullifying my statements and confusing everyone 😄 
+
+yeah, TBH kinda figured this was up in the air still, just thinking about the people creating these hooks (haven't checked all the limits), big discussions yet to come on this I'm sure... I'll put a pin in it, I'm sure more will be discussed at a later time, well before it makes it to production.
+
+🙏  you are a :RockStar: 
+
+these would likely be big community Qs if you get a chance.... Also never a rush for me, I know you're slammed rn, I'm always here 😊 ❤️ ❤️‍🔥 
+
+> So I assume FOT, Rebase, and Reflection type tokens still don't work?
+> Looks like more options for LP rewards/fees, 
+> Do the withdraw fees only go to LP?
+> What does the 1 million max fee represent in percenta","",""
+"149735676278079488","austino256","13/06/2023 10:45 pm","nah it’s all atomic still","","👍 (1)"
+"149735676278079488","austino256","13/06/2023 10:47 pm","I think fot might work now if the hook does the fee. Rebase I don’t think will work atm, but I’ve been trying to think of some hooks for that. Withdrawal fee goes to the hook and can be distributed however. I think 1m = 1% but I may be wrong","","RockStar (1)"
+"471357824299958273","crypto_rachel","13/06/2023 10:54 pm","ahh yeah I see, it could likely work that way, interesting. Yeah, hooks deffinitely adding a lot of ability","",""
+"471357824299958273","crypto_rachel","13/06/2023 10:55 pm","probably not the best 😄 
+https://imgflip.com/i/7p839z","",""
+"149735676278079488","austino256","13/06/2023 11:14 pm","haha its a good meme nonethless","","😊 (1)"
+"471357824299958273","crypto_rachel","13/06/2023 11:15 pm","you're to nice 😊","",""
+"271136314521419781","rliriano","13/06/2023 11:24 pm","gm","","gm (1),Uni (1),🌅 (1),🌞 (1)"
+"471357824299958273","crypto_rachel","13/06/2023 11:35 pm","@Austin 🦄
+Got another one 😊 
+
+looks like it is possible to modify position range, is that true, or did I mis-read the code","",""
+"149735676278079488","austino256","13/06/2023 11:37 pm","not atm - im not sure if its in prod yet but there is a roll function which essentially modifies w/o burning","",""
+"149735676278079488","austino256","13/06/2023 11:38 pm","so not really modify? but still similar functionality","",""
+"471357824299958273","crypto_rachel","13/06/2023 11:39 pm","cool, sounds like that will work the same in essence 🙏","",""
+"975814087718084658","abhithory","13/06/2023 11:41 pm","hi guys, i am trying to contribute to v4. so, can you please provide me a good resource form where i can learn more about it/","",""
+"471357824299958273","crypto_rachel","13/06/2023 11:43 pm","https://github.com/Uniswap/v4-core/tree/main","",""
+"975814087718084658","abhithory","13/06/2023 11:44 pm","thanks for sharing.... i was asking for any detailed video or blog explaining little bit simply....","",""
+"471357824299958273","crypto_rachel","13/06/2023 11:47 pm","just came out today. There won't be much on it rn....
+I think the official announcement has everything that is available now
+https://discord.com/channels/597638925346930701/673373498290470932/1118163525521653810","",""
+"471357824299958273","crypto_rachel","13/06/2023 11:48 pm","you might need the `Announcements` role to see.
+go up to `Channels & Roles` and grab the  role, by `I want to receive Announcements`","",""
+"975814087718084658","abhithory","13/06/2023 11:49 pm","ok thanks @Crypto_Rachel","","YW (1)"
+"471357824299958273","crypto_rachel","14/06/2023 12:30 am","check here https://discord.com/channels/597638925346930701/1116186423540863036/1118225149225881672","","👍 (1)"
+"135222791673872384","daniel_dev_","14/06/2023 1:16 am","Hey ran the forge and hardhat tests, how do I run the Echidna tests?","",""
+"887402673387757599","onehundredeyez","14/06/2023 1:18 am","Hooooraaayyy!!","","PartyFrog (1),🥳 (1)"
+"471357824299958273","crypto_rachel","14/06/2023 1:39 am","https://github.com/Uniswap/v4-core/blob/main/CONTRIBUTING.md","",""
+"471357824299958273","crypto_rachel","14/06/2023 1:40 am","Pinned a message.","",""
+"471357824299958273","crypto_rachel","14/06/2023 1:40 am","Pinned a message.","",""
+"471357824299958273","crypto_rachel","14/06/2023 1:41 am","Pinned a message.","",""
+"471357824299958273","crypto_rachel","14/06/2023 1:41 am","Pinned a message.","",""
+"571786929255874641","waterfound","14/06/2023 1:48 am","mmm, I wonder what upgrades can be expected from v4","",""
+"1079497261966430298","mystic.mango","14/06/2023 2:18 am","Joining from Bankless podcast today., v4 sounds very promising. looking forward to dev","","PartyFrog (2)"
+"471357824299958273","crypto_rachel","14/06/2023 2:30 am","https://tenor.com/view/cinderella-transformation-explode-head-gif-13705162","","💜 (1),🤍 (1)"
+"471357824299958273","crypto_rachel","14/06/2023 2:30 am","me reading through all the code","",""
+"428497898846683137","lawrencegs","14/06/2023 7:25 am","Hey all, I've just finished reading the V4 whitepaper. If each pool can have a different hook, doesn't this mean we'll end up with unlimited number of pools for the same pair? 
+
+Also, who has the authority to set the hook configuration? Is it exclusively the pool creator? Or maybe that will be through Governance ?","",""
+"975814087718084658","abhithory","14/06/2023 7:43 am","hi @everyone , i am trying to solve this issue https://github.com/Uniswap/v4-core/issues/203 . but there are some things that i have not able to understand about this. i have commented all of them in this issue.","",""
+"975814087718084658","abhithory","14/06/2023 7:44 am","can anyone please help?","",""
+"1110430346295660564","0xRidwan#9295","14/06/2023 2:30 pm","hello, how do we deploy Hook such that its address will enable calls like beforeSwap","",""
+"1103271169978814545","swapeth","14/06/2023 5:15 pm","Still, factory contract for v4 is public or not?","",""
+"1103271169978814545","swapeth","14/06/2023 5:15 pm","@Abhi thory","",""
+"1103271169978814545","swapeth","14/06/2023 5:15 pm","@Crypto_Rachel","",""
+"1103271169978814545","swapeth","14/06/2023 5:15 pm","@Hayden Adams 🦄","",""
+"401842633464610837","_kfx","14/06/2023 5:29 pm","there's no factory contract anymore, I think","","this (1)"
+"401842633464610837","_kfx","14/06/2023 5:30 pm","anyway, I have a question","",""
+"401842633464610837","_kfx","14/06/2023 5:31 pm","the whitepaper says that both WETH and ETH pairs are now possible, but I expect that 99% of those will be ETH pools due to cheaper gas. Is there any good reason for someone to create WETH/asset pool at all?","",""
+"295757910691151873","youtpout","14/06/2023 5:48 pm","Hello, is uni v4 compatible with fee tokens or tokens with reflection?","",""
+"295757910691151873","youtpout","14/06/2023 5:49 pm","arbitrage between 2 dex","",""
+"149735676278079488","austino256","14/06/2023 9:25 pm","perhaps for composability w/ depositing out of range to lending protocol","",""
+"149735676278079488","austino256","14/06/2023 9:26 pm","not natively, but a hook design could allow it","","👍🏻 (1)"
+"149735676278079488","austino256","14/06/2023 9:26 pm","probably not unlimited but probably multiple pairs for some pools - yes","",""
+"149735676278079488","austino256","14/06/2023 9:27 pm","you need to mine the hook address to satisfy the beforeSwap hook mask","",""
+"149735676278079488","austino256","14/06/2023 9:27 pm","the pool creator can set the hook configuration but governance can set the gov fee config","",""
+"769344447158419487","CasualDegen#9166","14/06/2023 9:38 pm","do we need to mine for vanity hook addresses for hook flags ? if so why ? doesnt this make the process complex af ?","",""
+"769344447158419487","CasualDegen#9166","14/06/2023 9:38 pm","@Austin 🦄","",""
+"149735676278079488","austino256","14/06/2023 9:44 pm","mining like 4 bits is pretty easy tbh. hooks should not be trivial to do and the gas savings is immense","",""
+"769344447158419487","CasualDegen#9166","14/06/2023 9:45 pm","ok cool. are you going to provide tools for that (scripts) etc ?","",""
+"149735676278079488","austino256","14/06/2023 9:45 pm","I would suspect we do","","👍 (1)"
+"295757910691151873","youtpout","14/06/2023 9:46 pm","since you only have one contract, how do you know which pool owns which token and in what quantity?
+
+and do you have an example of a swap between pools?","",""
+"769344447158419487","CasualDegen#9166","14/06/2023 9:47 pm","What is the relation between hooks and pools. Can one hook be used by many pools ? Can one pool have many hooks ?","",""
+"149735676278079488","austino256","15/06/2023 12:23 am","you can have one hook be used by many pools if the hook is made with that in mind. one pool can only have one hook, but one hook can do any number of ""hook primitives"" like limit orders/oracles/lending etc.","",""
+"149735676278079488","austino256","15/06/2023 12:26 am","tokens are accounted for in the pool state via tokensOwed0, tokensOwed1, tick liquidity of the fee accounting system.","",""
+"769344447158419487","CasualDegen#9166","15/06/2023 12:51 am","ok thats based. Is there an easy getter for how much lp fees you have under your position ? I see feeGrowthInside0X128, but how do we transalte that to uint256 amount0pending ?","",""
+"149735676278079488","austino256","15/06/2023 12:52 am","there are some comments in the dev-chat that go over this. would go there instead. can do some extsload stuff to do it gas efficiently","","👍 (1)"
+"295757910691151873","youtpout","15/06/2023 1:30 am","I didn’t see tokensOwed parameters","",""
+"149735676278079488","austino256","15/06/2023 1:30 am","ah sorry that is part of the nft position manger i think - hasnt been written for v4 yet","","👍🏻 (1)"
+"548833395661209600","doanngocanhkhoa","15/06/2023 8:53 am","how does this suppose to work ?","",""
+"149735676278079488","austino256","15/06/2023 9:23 am","the factory and the pools are in one contract for gas savings","",""
+"548833395661209600","doanngocanhkhoa","15/06/2023 9:26 am","so pools won't be deployed as separated instances of contract anymore, instead their data can all be access from this contract https://github.com/Uniswap/v4-core/blob/main/contracts/PoolManager.sol
+
+will the data of all pools get stored in the same contract address as well ? if deployed on-chain","",""
+"471357824299958273","crypto_rachel","15/06/2023 10:27 am","yes all the new pools would be stored in the same contract, in this mapping I believe https://github.com/Uniswap/v4-core/blob/2c1d3923f1237355564bbea40d365dd76a45b514/contracts/PoolManager.sol#L43","","❤️ (1)"
+"548833395661209600","doanngocanhkhoa","15/06/2023 11:12 am","thanks for that ❤️ 
+
+I developed a small app so that people can track any wallet invested pools on Uniswap. Knowing this ideally should allow me to get the pool and position data out for all wallet from the PoolManager","","YW (1)"
+"952857075770327090","laubswind","15/06/2023 11:18 am","Hi, I am looking at the code and it seems that the “update” function in https://github.com/Uniswap/v4-core/blob/main/contracts/libraries/Position.sol  is not used in PoolManager. I am wondering where it is used.","",""
+"548833395661209600","doanngocanhkhoa","15/06/2023 11:25 am","in Pool.sol","",""
+"952857075770327090","laubswind","15/06/2023 11:35 am","Oh i see, in the line216, thanks","",""
+"952857075770327090","laubswind","15/06/2023 11:51 am","I see the position information links to  the address of position owner, does this mean that v4 doesn’t has LP token?","",""
+"471357824299958273","crypto_rachel","15/06/2023 11:55 am","TBH not 100% since im stil learning it. But yes I believe a ERC-1155 is associated with the position","",""
+"952857075770327090","laubswind","15/06/2023 11:59 am","It seems that ERC1155 is a kind of debt token for additional accounting purposes.","",""
+"952857075770327090","laubswind","15/06/2023 12:07 pm","I am also not sure, but from the code you can simply deposit 1ETH and get 1 ERC1155 with ETH id?","",""
+"471357824299958273","crypto_rachel","15/06/2023 12:12 pm","not sure what you mean, where?","",""
+"952857075770327090","laubswind","15/06/2023 12:23 pm","For example, when I have one ERC1155 with ETH id, it proves that the big pool owes me 1ETH.","",""
+"748215503197306994","kalinbas","15/06/2023 8:59 pm","Will there be a way to transfer liquidity from one owner to another owner? Similar to what was possible with NFTs in v3?","",""
+"748215503197306994","kalinbas","15/06/2023 9:07 pm","And how do you expect multiple hooks are going to be combined? Will there be a hook/pool which is most useful and has most liquidity. And then every time more things are added most liquidity will move to the new hook/pool or the hook is upgraded? Or will most LPs actively switch to the hook/pool they want whenever they need another one?","",""
+"989275482488983663","AnthonyNicholas#4331","15/06/2023 9:22 pm","Hey everyone, we did a YouTube live video yesterday on Uniswap V4. Check it out! 👇 
+https://www.youtube.com/watch?v=TRaP9fJuPtc","","this (2),❤️‍🔥 (2),Uni (2),🦄 (3),flyingunicorn (2)"
+"149735676278079488","austino256","15/06/2023 9:36 pm","v3 doesn't have LP tokens either. the NFT position manager gives you an LP token. There will be something similar in the v4-periphery closer to launch!","",""
+"149735676278079488","austino256","15/06/2023 9:37 pm","that will be in the v4-periphery. same functionality as the v3 nft manager, but might be a different stucture.","","👍 (3)"
+"870285263996350474","kasra1541","15/06/2023 9:50 pm",":Uni:","",""
+"997075001738018816","bitinv21","15/06/2023 9:57 pm","is there any reason that don't care about the code structure atm?
+e.g. external and internal functions are mixed in order.","",""
+"1093901356823224330","gnaveen#2846","15/06/2023 11:43 pm","@Crypto_Rachel curious question, what types of limit orders will v4 support? Will it support the RFQM style limit orders too to allow a user to set the price of a token for buying / selling?","",""
+"471357824299958273","crypto_rachel","16/06/2023 12:03 am","These limit orders will be their own hooks into pools... I see this as possible, it kinda looks possible with current example here https://github.com/Uniswap/v4-periphery/blob/main/contracts/hooks/examples/LimitOrder.sol, but I don't know a lot right now, just as new to me","","👍 (1)"
+"841003700071432224","curious_ape","16/06/2023 3:38 am","What about having something that gives value to holding the UNI token in v4 which either gives a discount to trading fees, or also allows specific skills like being able to re allocate the range automatically through pressing a button that recalibrates to what you are specifically saying to do.","",""
+"972618395554029618","0xwildebeest","16/06/2023 6:12 am","I have two questions/concerns about the security of 'uniswap-v4-core':
+
+1- Free flash loans: To me it seems like that the locker of the pool can take out any arbitrary amount of any token by running the 'take' function and then the 'settle' function. This is all for free! Am I missing anything? If not, is this a bug or a feature? In v3 there used to be fees associated with flash loans.
+
+2- Hook volnurability: Additionally, the hook contract can eliminate the fees by running 'setHookFees' prior to its own swap or any swap from privalaged accounts and then run 'setHookFees' again to turn them back on for regular traders. This means that the hook contract can perform free swaps with liquidity from other LPs. Again, am I missing anything? If not, is this a bug or a feature?","","👍 (2)"
+"149735676278079488","austino256","16/06/2023 8:02 am","1) there are free flash loans. since the launch of v3 many free flash loans providers have emerged. also charging for them would add more complexity than needed.
+2) i think that is possible but liquidity providers would need to place their liquidity in that specific pool with knowledge that is possible.","",""
+"952857075770327090","laubswind","16/06/2023 11:35 am","Hi, I am still curious about the purpose of ERC1155, I understand that it is for additional accounting purpose like transferring same ERC20 over multiple blocks, but users still need mint&burn over and over, why it’s saving gas?","",""
+"1109074920455024763","jogundas","16/06/2023 5:17 pm","Hi! 
+
+We are building a DeFi protocol and now trying to decide if to continue standalone or to launch as a uniV4 hook. 
+
+Would be great to understand how uniswap plans to work with projects like ours. Who would be the best person to talk to?
+
+Many thanks 🙏🏿","",""
+"149735676278079488","austino256","16/06/2023 9:06 pm","some erc20s have expensive transfer functions, so this removes that.","","👍 (2)"
+"972618395554029618","0xwildebeest","17/06/2023 1:53 am","beforeInitialize/afterInitialize hooks don’t make sense to me. Can someone give me some examples for those? Thanks!","",""
+"952857075770327090","laubswind","17/06/2023 2:04 am","Let’s say the case is that the pool transfers ERC20 to me and I transfer it back to pool. Using ERC1155, I can do that the pool mints ERC1155 to me, I transfer it back to pool and pool burns it. Does the second process cost less gas? What did I miss?","",""
+"952857075770327090","laubswind","17/06/2023 2:11 am","Is this design just for ERC20s that have really expensive transfer functions?","",""
+"149735676278079488","austino256","17/06/2023 2:32 am","you could initialize the hook as well for like an oracle.","",""
+"149735676278079488","austino256","17/06/2023 2:33 am","yeah some erc20s have governance snapshots which are super expensive.","",""
+"597534527799296062","iamethgar","17/06/2023 1:27 pm","hi, how do you deal with max ids of 1155?","",""
+"972618395554029618","0xwildebeest","18/06/2023 2:24 am","In “Uniswap/v4-core/contracts/libraries/CurrencyLibrary.sol”, why is “transmissions11” library needed? I.e., why is “IERC20Minimal(token).transfer()” there not able to to do the job?","",""
+"149735676278079488","austino256","18/06/2023 3:23 am","hey there, that's a good question. i believe its too expensive to deploy enough erc20s to overflow the max_int, but i could be wrong. made me think there.","","👍🏻 (1)"
+"149735676278079488","austino256","18/06/2023 3:23 am","the transmissions11 library is gas optimized and well battletested","",""
+"613749597248159745","ililic2084","18/06/2023 3:38 am","Please emit the token id in the mint event 😉","",""
+"149735676278079488","austino256","18/06/2023 3:39 am","the token id?","",""
+"149735676278079488","austino256","18/06/2023 3:40 am","they are in the modifyliquidity event","",""
+"613749597248159745","ililic2084","18/06/2023 3:40 am","Yeah, you have to infer the token id from other events in the log on mint","",""
+"149735676278079488","austino256","18/06/2023 3:41 am","like the pool mint event?","",""
+"613749597248159745","ililic2084","18/06/2023 3:41 am","Position mint","",""
+"149735676278079488","austino256","18/06/2023 3:41 am","like from the pool contract?","",""
+"613749597248159745","ililic2084","18/06/2023 3:42 am","https://etherscan.io/tx/0x37d8f4b1b371fde9e4b1942588d16a1cbf424b7c66e731ec915aca785ca2efcf#eventlog","",""
+"149735676278079488","austino256","18/06/2023 3:42 am","because the mint and burn event don't pass a tokenid because you dont need them to create a position. the nft position manager is just one way to create a position","",""
+"149735676278079488","austino256","18/06/2023 3:43 am","only like 70% of mints go through the nft position manager","",""
+"613749597248159745","ililic2084","18/06/2023 3:46 am","Maybe I'm dense, I've talked about this before in this discord, and I haven't found docs that explain the why/how the other 30% position get minted. From my noob perspective Mint is like `Create` in CRUD, right? Usually when you `C` something you get the ID of that thing back so you can reference it later.
+
+If I'm trying to track positions I have to figure out the id of a position via its increase/decrease/transfer/collect events (usually IncreaseLiquidity)","",""
+"149735676278079488","austino256","18/06/2023 3:46 am","arrakis is the biggest example of these events. the nft position manager just handles the really complex logic needed to mint and deal w/ a pool","",""
+"613749597248159745","ililic2084","18/06/2023 3:47 am","Yeah Arrakis was the answer last time I haven't had a chance to dive in to try to understand it yet","",""
+"149735676278079488","austino256","18/06/2023 3:47 am","it does all the help for you so then you don't need to worry about it. arrakis perfers to do more complicated things so they do it themselves.","",""
+"613749597248159745","ililic2084","18/06/2023 3:50 am","Shrug, I like the NFT Position Manager, it's just an ergonomics thing… when I create something using any other database I get the id to reference that thing. If the next thing I want to do is increase the balance, I use that id to increase the balance. 
+
+Parsing logs where positions are created is like, you get the Mint log, then you have to look at the IncreaseLiquidity log to figure out what the id is (ignoring the Arrakis 30%)","",""
+"613749597248159745","ililic2084","18/06/2023 3:51 am","It's minor, I just don't grok the lifecycle fully, but I'll get there eventually","",""
+"149735676278079488","austino256","18/06/2023 3:52 am","thats ok most people including me use it!","",""
+"1119063943147696128","ramTn#2456","18/06/2023 8:47 pm","Can someone hijack v4 logic with hooks? This would defeat the purpose of NoDelagateCall. Consider the following attack:
+
+1- Alice initializes a pool in v4 and mints 1 unit of liquidity. She locks '999 times of each token locked in v4' in her hook.
+
+2- Bob intends to swap his 'amountIn' via Alice's liquidity. To that end, he performs a 'amountIn/1000' swap in v4 through which v4 gives him 'amountOut/1000'.
+
+3- But now that the amounts are calculated thanks to v4 logic, the hooks can transfer the remaining  '999 * amountIn / 1000' and '999 * amountOut / 1000' which is the full transaction!
+
+This way, Alice and Bob have conspired to hijack v4's logic and avoid protocol fees. The hook can constantly mirror the behavior of the v4 look this way.","",""
+"149735676278079488","austino256","18/06/2023 9:55 pm","im not sure exactly what this means...","",""
+"1119063943147696128","ramTn#2456","18/06/2023 10:03 pm","Hi Austin, 
+
+Consider a pool with two 'token0' and 'token1' amounts. A swapper may request ""amountIn"" to receive ""amountOut"".
+
+If the pool had '1000*token0' and '1000*token1' amounts (with similar parameters as before, e.g., sqrtPrice and tick), the swapper may request ""1000*amountIn"" to receive ""1000*amountOut"".
+
+In other words, (amountIn, amountOut) is linear with respect to 'liquidity'.
+
+Now, with the presence of hooks, a very small pool with negligible liquidity can be used for calculation of (amountIn, amountOut). This defeats the purpose of ""NoDelegateCall"". Because v4 logic is incorporated for liquidity outside of v4!
+
+Is the question clear? I can explain further if needed.","",""
+"1119063943147696128","ramTn#2456","18/06/2023 10:11 pm","Basically 'PoolManager.sol' can be used by hooks as a library for computation, without them having to pay any protocol fee or locking liquidity in v4.","",""
+"149735676278079488","austino256","18/06/2023 10:13 pm","this would not be possible because the hook cannot enter deltas into the lock open by the swapper","",""
+"1119063943147696128","ramTn#2456","18/06/2023 10:27 pm","- Alice leaves 1 unit of liquidity in PoolManager
+- Alice leaves 1000 times of equivalent token amounts in hook.
+- Bob locks PoolManager.
+- Bob swaps ""amountIn/1000"".
+- While swapping, the hook learns 'delta' via 'hook.afterSwap'. Bob transfers ""999*amountIn/1000"" and ""999*amountOut/1000""  in 'hook.afterSwap'. (He has access to delta!)
+- Then, Bob can take/settle the negligible ""amountIn/1000"" and ""amountOut/1000"".
+-Then Bob can unlock.
+
+This way, they have cooperatively bypassed protocol fee without having to trust each other.","",""
+"149735676278079488","austino256","18/06/2023 10:49 pm","if a user wants to trust a hook to do that then they can?","",""
+"149735676278079488","austino256","18/06/2023 10:52 pm","there is no difference from v3 where this can be done via a callback","",""
+"1119063943147696128","ramTn#2456","18/06/2023 10:58 pm","In v4 it doesn't require much trust. A few lines of code would do! It can even pass an audit ensuring that both are safe.
+
+In v3, Alice would have to trust ""IUniswapV3SwapCallback(bob)"" and lock her liquidity there! This is not practical.
+
+But with v4, they don't need to trust each other.","",""
+"149735676278079488","austino256","19/06/2023 12:38 am","you would need to approve the hook tho (trusting the code)","",""
+"1119063943147696128","ramTn#2456","19/06/2023 1:05 am","Yes.","",""
+"1119063943147696128","ramTn#2456","19/06/2023 5:49 am","Just to confirm, so Uniswap is comfortable with the fact that potential traders & LPs can agree on the kind of hooks that would allow them to bypass Uniswap's protocol fee (only in v4, but not in v3)?","",""
+"149735676278079488","austino256","19/06/2023 5:50 am","yeah i dont think this is a good idea and would probably end up in major loss of funds tho","",""
+"149735676278079488","austino256","19/06/2023 5:50 am","so do what you will at your own risk","",""
+"149735676278079488","austino256","19/06/2023 5:50 am","you can do this in any market including v3 so idk why you think this is a gotcha","",""
+"1119063943147696128","ramTn#2456","19/06/2023 5:58 am","I disagree with the last sentence. And that's my whole point. It's impossible with v3! Because to do that in v3 callback, the LP would need to trust the actions of swapper. But in v4 they can both agree on literally 10 lines of immutable solidity code which would make it bulletproof for both of them. I think it is fundamentally different from v3 in that sense.","",""
+"149735676278079488","austino256","19/06/2023 6:00 am","i dont think you can write this","",""
+"149735676278079488","austino256","19/06/2023 6:00 am","and if you do all you are doing is going to get the pool manipulated","",""
+"149735676278079488","austino256","19/06/2023 6:00 am","because you are trusting a spot oracle to get your pirces","",""
+"997075001738018816","bitinv21","19/06/2023 6:38 am","no answer?","",""
+"149735676278079488","austino256","19/06/2023 6:52 am","doesnt really seem like a priority atm","","RockStar (1)"
+"997075001738018816","bitinv21","19/06/2023 7:03 am","but will make all progress faster","",""
+"825473312230080513","cryptolead","21/06/2023 12:01 am","Will liquidity be more fragmented in v4 if there are so many possibility of diff versions of the same token pairs LP pool","",""
+"471357824299958273","crypto_rachel","21/06/2023 12:32 am","I'm sure the most of it will go to standard pools with competitive fee, and audited hooks","","👍 (1)"
+"936203283603796028","an_emptymind","21/06/2023 12:53 pm","@Crypto_Rachel  can I deploy V4 to testnet?","",""
+"381195435966201858","avaratar","21/06/2023 1:15 pm","Hey, few questions regarding V4:
+1. when creating a new pool/providing liq, will I still be getting an NFT for my position, similar to v3?
+2. With signleton/accounting, do multi-hop txs still take pool fee for every hop you visit?
+3. what does it mean ""to internalize MEV for LPs""?","",""
+"149735676278079488","austino256","21/06/2023 8:48 pm","1) the nft is provided by the nft position manager and not the pool itself. there will be a similar functionality in v4, but the integration has not been written yet
+2) they take a pool fee yes
+3) it just means to give LPs some of the extra value they create back to themselves instead of to arbitragers","",""
+"471357824299958273","crypto_rachel","21/06/2023 11:37 pm","I can't speak for this, I don't know the full extent of the contracts that have business license on","",""
+"381195435966201858","avaratar","22/06/2023 12:31 am","Thanks!
+Can you please describe the TWAMM flow in high level? not sure I understand the sol example.
+Do users need to lock the funds they want to TWAP with? who's in charge of actually executing the swap?
+The way I understand it, the conditions are checked before every swap, so does it mean that if I'm making a swap, my tx could also trigger someone elses TWAMM order if the conditions are met? does it mean I pay extra gas for that?","",""
+"149735676278079488","austino256","22/06/2023 1:31 am","https://www.paradigm.xyz/2021/07/twamm
+2) the first transaction is generally an arbitrage, so the arbitrager pays the extra cost.","",""
+"1119063943147696128","ramTn#2456","22/06/2023 6:22 am","Does the locking mechanism cause a lot of congestion? Could you please also explain what happens if there are more than one locker? Many thanks.","",""
+"936203283603796028","an_emptymind","22/06/2023 11:58 am","anyone we can connect to ask?","",""
+"471357824299958273","crypto_rachel","22/06/2023 11:59 am","I'll find out","",""
+"936203283603796028","an_emptymind","22/06/2023 12:00 pm","ok, please do let me know","","👍 (1)"
+"381195435966201858","avaratar","22/06/2023 12:28 pm","Thanks.
+I've read this article, and I'm familiar with the concept, was just wondering how it's going to work in the context of v4 and hooks. 
+Is this correct:
+```The way I understand it, the conditions are checked before every swap, so does it mean that if I'm making a swap, my tx could also trigger someone elses TWAMM order if the conditions are met? ```","",""
+"149735676278079488","austino256","22/06/2023 8:08 pm","i probably wouldn't deploy v4 to a testnet. without eip1159 the costs of flash accounting are quite high. much better to use anvil through forge to make a local testnet to work off of.","","👍 (3),🙏 (1),RockStar (1)"
+"724428675348430928","gerry0070","23/06/2023 2:03 am","Excellent","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:03 am","***Hook Idea***
+maybe I'll do, but with the proper tracking/setup in a hook contract, we could have uni pools that still allow voting while LQ is supplied","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:04 am","🤔  hmm","",""
+"471357824299958273","crypto_rachel","23/06/2023 2:04 am","maybe not, gotta think this one through 😄
+yeah starting to think no 😭 as there would likely have to be a function on the pool level to pass the votes, then trouble with separation of votes :pepePains:","",""
+"724428675348430928","gerry0070","23/06/2023 2:05 am","I'll be checking in hourly.  It would be incredible for so many communities","","😊 (1)"
+"724428675348430928","gerry0070","23/06/2023 2:06 am","Thank you Rachel.","","🙏 (1),YW (1)"
+"936203283603796028","an_emptymind","23/06/2023 5:47 pm","[""0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"",""0x6B175474E89094C44Da98b954EedeAC495271d0F"",3000,60,],0
+
+unable to figure out correct argument for initialize function
+I want to create pool with no hook address.
+@Austin 🦄 @Crypto_Rachel","",""
+"149735676278079488","austino256","23/06/2023 5:53 pm","Probably more conversation for the dev-chat, but you have to pass a hook interface with address(0)","",""
+"936203283603796028","an_emptymind","23/06/2023 5:55 pm","ok","",""
+"154453240535056384","hiturunk","24/06/2023 5:58 pm","The solution to voting with lp'd tokens is wrapping them and delegating the base token w/ the wrapping contract, then lp'ing the wrapped token, or counting the pool shares in the governance contract/snapshot.","",""
+"154453240535056384","hiturunk","24/06/2023 5:59 pm","I don't think hooks can be used for this purpose, but I'll consider it further and see if I come up with any ideas. The hook can't call delegate() otherwise it would delegate all the tokens held in all of UniswapV4, right? Besides I don't think msg.sender would be the contract, so that's out. (Would it be? The hook for onSwap or onWithdrawal would potentially call from the swapper or LP'ers address, right?)
+
+This is an edge case for hooks to consider.","",""
+"149735676278079488","austino256","24/06/2023 10:37 pm","yeah I think it’s not possible w/o a ton of coordination or a UNI token code change.","","pepesalute (1)"
+"471357824299958273","crypto_rachel","24/06/2023 11:19 pm","@🐧Hiturunk🐧- Penguin Party   @Austin 🦄
+yeah I had come to the thought that it wasn't possible... The wrapping idea isn't bad though wrap in the hook... but you would need two contracts outside to hold the uni as people vote sending to the yes or no contract. But then there are issues with the delegation of tokens still due to msg.sender","","pepesalute (1)"
+"471357824299958273","crypto_rachel","24/06/2023 11:19 pm","If even possible it would get extremely challenging 😄","",""
+"154453240535056384","hiturunk","25/06/2023 5:54 pm","Yeah I think that's mostly my conclusion.","",""
+"1090673316626448454","usaa58358","26/06/2023 6:25 pm","@Crypto_Rachel","",""
+"471357824299958273","crypto_rachel","27/06/2023 7:21 am","Please don't randomly ping with nothing","",""
+"256317696587726848","crustyapples","27/06/2023 2:12 pm","Was wondering, can Hooks allow for JIT liquidity?","",""
+"952857075770327090","laubswind","27/06/2023 4:32 pm","I think yes","",""
+"952857075770327090","laubswind","27/06/2023 4:35 pm","dev questions : What is the point of wrapping address of tokens to the type ""Currency""?","",""
+"877272915685572658","icyicy#4630","27/06/2023 5:57 pm","Hello, If I understand correctly, there will be WETH and ETH pairs ?","",""
+"877272915685572658","icyicy#4630","27/06/2023 5:57 pm","Won't that split liquidity ?","",""
+"877272915685572658","icyicy#4630","27/06/2023 5:58 pm","Or will you implement something similar to curve, where it wraps/unwraps ETH if needed but only use ETH internally","",""
+"953003609174462584","0xhappy","27/06/2023 9:58 pm","I guess so, perhaps this could be a great feature to prevent frontrunning.","",""
+"471357824299958273","crypto_rachel","27/06/2023 10:18 pm","I don't believe they could. The contract locks and requires the transaciton be done before moving to next transaction. They will still need to wrap the transaction, this may make it more difficult but they will likely figure it out","",""
+"471357824299958273","crypto_rachel","27/06/2023 11:08 pm","only their swap , you start by locking the call, ends there if all balances are where they should be after actions, or reverts (note i'm still learning / reading it 😄 )","",""
+"256317696587726848","crustyapples","27/06/2023 11:10 pm","So the hook logic doesn't get executed?","",""
+"471357824299958273","crypto_rachel","27/06/2023 11:13 pm","iirc you lock the call when you call the pool hook, this would only be your transaction running through the hooks and the lock closes the transaction once your calls are done and token balances are what they should be after the actions in tx.
+this happens for every transaction. ~~Though this may be some concern for TWAMM swaps~~","",""
+"256317696587726848","crustyapples","27/06/2023 11:20 pm","Got it","",""
+"256317696587726848","crustyapples","28/06/2023 11:46 am","So i'm curious. If I wanted to route trades across multiple pools, how am I supposed to verify the authenticity of the hooks on those pools?","",""
+"471357824299958273","crypto_rachel","28/06/2023 11:50 am","this will be a risk, reading the code, or just using trusted / audited hooks. There is a possibility of pools without hooks as well","",""
+"256317696587726848","crustyapples","28/06/2023 1:20 pm","That doesn't sound great for UX","",""
+"256317696587726848","crustyapples","28/06/2023 1:21 pm","I suppose there will need to be a new auto-router for Uniswap to even offer their own swap widget?","",""
+"1067343800223137842","sino1729","28/06/2023 2:33 pm","I'm going through the whitepaper and have two questions.
+
+1. How is swap routed among pools with different hooks?  (Does V4 have a router?)
+It is not feasible to dry-run the swap() across all pools and find the best pools when there are hundreds of ETH-USDC pools. 
+
+
+2. Is it possible to borrow the asset first?  (Flash Accounting)
+I guess it can be used as flashloan since it should be no problem since v4 tracks the delta and ensures it's all good at the end.","",""
+"1067343800223137842","sino1729","28/06/2023 2:41 pm","I just read this:516395crythumbsup: 
+Will there be a router with whitelisted pools with and without hooks managed by the uniswap team?","",""
+"952857075770327090","laubswind","28/06/2023 2:56 pm","for 1, I think there will be;  for 2,  absolutely yes","","4936peepolove (1),this (1)"
+"1067343800223137842","sino1729","28/06/2023 4:06 pm","thanks!","",""
+"1054632269685465178","rainbowbeast5","28/06/2023 7:02 pm","Well loans is usually the ways for devs but not for this version. no router needed as there is an M2 chip inter grated in the servers","",""
+"1054632269685465178","rainbowbeast5","28/06/2023 7:02 pm","There is a percentage of Eth I’ve put aside for the devs no payback needed.","",""
+"1054632269685465178","rainbowbeast5","28/06/2023 7:04 pm","I just need to figure out a way to withdraw still haven’t mastered that and really need it today","",""
+"1062800470076301423","Andy_4_chains#3432","29/06/2023 2:54 am","Given number 2, do you expect most liquidity to flash in, as opposed to sit idle in the amm?","",""
+"756140145719377929","andoan.eth","29/06/2023 7:58 am","hey fam, did you deploy the PoolManager contract to Goerli?","",""
+"471357824299958273","crypto_rachel","29/06/2023 8:02 am","v4 is not deployed","",""
+"756140145719377929","andoan.eth","29/06/2023 8:21 am","So how can we deploy hooks example to test (TWAMM example)?","",""
+"471357824299958273","crypto_rachel","29/06/2023 8:27 am","well you could probably launch on testnet but read this https://discord.com/channels/597638925346930701/1116186423540863036/1121449049061605436","","❤️ (1)"
+"952857075770327090","laubswind","29/06/2023 10:57 am","I don’t get what you mean, if you are saying that liquidity can flash in b4 user swaps, I think it’s possible by setting the  hook, but it’s very inefficient.","",""
+"473500615666958336","popfendi","29/06/2023 3:28 pm","Are v4 hooks going to be implemented by the liquidity provider? if multiple providers on the same pool have different hooks, how will the person trading the pair know what behavior to expect? or should I assume the hooks wont affect the trader and more the LP provider?","",""
+"1062800470076301423","Andy_4_chains#3432","29/06/2023 4:43 pm","Not sure how it would be inefficient gas-wise. But it does seem like the router would fail to identify that 'hidden' liquidity","",""
+"633272973280804866","_nick_1337","29/06/2023 7:17 pm","will there be such a thing as ""approved"" hooks and ""unapproved"" hooks? I heard about it but could not find anything in the contracts. Will this be an UI thing?","",""
+"471357824299958273","crypto_rachel","30/06/2023 1:08 am","The UI hooks will likely be Uniswap labs created and Audited contract hooks that get approved","","🙏 (2),V3 (1),Unisocks (1),Uni (2),gm (1),🧐 (1)"
+"995620796661764116","0xsigma","30/06/2023 7:10 am","To avoid feelings and biases, I think we need to have a guideline to developer submit the hook to review. Like the way Apple do when approved a app to store.
+Or the review progress that doesn't come from a group/organization/... but from the community is a huge leap","",""
+"352206943689113611","ibuidl","30/06/2023 11:22 pm","Hello everyone!! Pretty exited about the v4.. And have a couple of questions!","",""
+"352206943689113611","ibuidl","30/06/2023 11:28 pm","1 - Are the normal fees in a Hook too? 
+2 - When we instantiate the pool do we provide one hook or multiple hooks (with their entry points)?
+2' - Like do we have one hook with 2 smart contracts (for 2 features) ?
+3 - To get the price average do you call the hook or the pool to get it? 
+4 - It was mentioned that in some cases oracles are needed, when is that?
+5 - How would dynamic fees work? Don't we need an entry point to when a tick is crossed? (it was said that we only have a hook before and after the swap) 
+5' - Do we outsource the calculation of dynamic fees in the hook or?","",""
+"352206943689113611","ibuidl","30/06/2023 11:28 pm","Well that more than a couple but yeah! 🙂","",""
+"352206943689113611","ibuidl","30/06/2023 11:33 pm","so I guess fee percent and tick spacing are in the core not in the hooks!","",""
+"352206943689113611","ibuidl","30/06/2023 11:41 pm","(you must be Austin Adams, I swa you in the Uniswap v4 introduction 😄 )","",""
+"352206943689113611","ibuidl","30/06/2023 11:44 pm","ok so one pool can have only one hook! (so the hook can have for example an oracle and limit orders in one contract)","",""
+"352206943689113611","ibuidl","30/06/2023 11:54 pm","I see!","",""
+"352206943689113611","ibuidl","01/07/2023 12:08 am","one pool one hook, but then you kind of lose the composability of multiple hooks (which would be quite nice imo)!","",""
+"836700726817980427","cryptoog","01/07/2023 12:18 am","I need help can't swap","",""
+"836700726817980427","cryptoog","01/07/2023 12:18 am","Can someone help me please","",""
+"471357824299958273","crypto_rachel","01/07/2023 3:26 am","Hooks will be able to set whatever fee they want (as long as it's less than the max)... Dynamic fee hooks it will depend on how they are coded, they could likely be coded to change the fee during high tx volume. Yes only one hook for the pool, but can also be standard pools without hook..","",""
+"471357824299958273","crypto_rachel","01/07/2023 3:27 am","this area is for v4 chat....  In #💻│dev-chat  ping me with the token address of the token you are having issues with","",""
+"352206943689113611","ibuidl","01/07/2023 2:32 pm","Thanks for the reply! But the normal fees are defined when we create the pool and not in the hook right?","",""
+"352206943689113611","ibuidl","01/07/2023 2:34 pm","Because you would need to know when the ticks that are crossed in the Swap and determinate the amount.","",""
+"352206943689113611","ibuidl","01/07/2023 2:41 pm","also can someone answer the other questions?","",""
+"149735676278079488","austino256","01/07/2023 9:05 pm","seems like you’ve answered some of them already so it’s a bit unclear what you want to know still","",""
+"352206943689113611","ibuidl","01/07/2023 11:01 pm","Yeah went to read the history! 🙂
+1 , 3 , 4, 5 and 5' didn't find answers for those. ☝🏻","",""
+"471357824299958273","crypto_rachel","02/07/2023 3:58 am","ok well I could have been more specific about the fees,
+
+1  Hooks will handle the Dynamic fees, pools will have the set fees
+
+you answered #3 from reading... and I did stat one hook per pool 
+
+4 oracles would probably be most on TWAMM hooks. But you could possibly add one to a hook.
+
+5 is the same as 1","",""
+"149735676278079488","austino256","02/07/2023 5:15 am","ye that seems right","","🙏 (1),😊 (2)"
+"352206943689113611","ibuidl","02/07/2023 1:22 pm","so we'll still have in the pool the fee tiers! 
+for 3 my question was to have price average, with v4 you'll call a function in the hook and no in the pool anymore right?
+for 4 so my question is when you don't need oracles? (since this was mentionned in the introduction video)
+what do you mean by ""the set fees""?","",""
+"149735676278079488","austino256","02/07/2023 6:08 pm","Need a bit more clarification. v4 has many different times of fees. A pool either has a set fee or it has a dynamic fee. I’m not really sure what the price average question is. Pools have no enshrined oracle anymore, but oracle pools could now exist","",""
+"352206943689113611","ibuidl","02/07/2023 8:53 pm","you're talking about the protocol fees, so they are included in the pool but when we have dynamic fees it's calculated in the hook right (checking volatility from the price)?","",""
+"149735676278079488","austino256","02/07/2023 8:56 pm","uhhh the protocol fee is a function of the pool lp fee, so they are somwhat related. the fee taken on each swap is either dynamic and returned from the hook before each swap (however that will probably change) or its set at the start of the pool lifetime.","","🙏 (1),RockStar (1)"
+"862680737571274763","beihai1337","03/07/2023 2:27 pm","Are there any UniswapV4 addresses here that have been deployed on testnet or can we deploy one ourselves?","",""
+"149735676278079488","austino256","03/07/2023 7:37 pm","would not reccomend deploying the protocol to a testnet. would use a local testnet (anvil) for testing purposes","",""
+"1062800470076301423","Andy_4_chains#3432","03/07/2023 9:42 pm","I'd be interested to look into this. Any tips on how to model this in his request? https://twitter.com/0x94305/status/1675704495890923521?s=20","",""
+"1062800470076301423","Andy_4_chains#3432","03/07/2023 9:42 pm","Does it make more sense to do it in python?","",""
+"149735676278079488","austino256","04/07/2023 2:55 am","i think the original request was done in dune","",""
+"697900134289113140","markuswaas","06/07/2023 12:36 am","https://soliditydeveloper.com/uniswap4 if there are ever any updates required (which I assume there will be), feel free to comment in the post or send me a message directly","","👍 (4)"
+"1072605001937072219","mrwojack","08/07/2023 12:03 am","Hey Markus, great post","",""
+"1072605001937072219","mrwojack","08/07/2023 12:04 am","You did a very mistake, hope it doent bother you 🙂","",""
+"1072605001937072219","mrwojack","08/07/2023 12:04 am","if (msg.sender == address(poolManager)) {
+            revert OnlyPoolManager();
+        }","",""
+"1072605001937072219","mrwojack","08/07/2023 12:04 am","should be  :  if (msg.sender != address(poolManager)) {
+            revert OnlyPoolManager();
+        }","",""
+"1040766353361076345","ritzydev","08/07/2023 1:12 am","@Austin 🦄 what is the process for proposing interface changes in V4?
+
+Should I just open an issue in git?","",""
+"149735676278079488","austino256","08/07/2023 1:35 am","ye","",""
+"1040766353361076345","ritzydev","08/07/2023 1:36 am","You free to chat it over at all right now?","",""
+"149735676278079488","austino256","08/07/2023 1:37 am","i can look at it rn if you want","",""
+"1040766353361076345","ritzydev","08/07/2023 1:37 am","Was thinking 2 things","",""
+"1040766353361076345","ritzydev","08/07/2023 1:38 am","1. The hooks should all take in an optional bytes[] which can enable passing information from the original  operation
+
+2.  Maybe adding an interface which exposes quote Information","",""
+"149735676278079488","austino256","08/07/2023 1:39 am","1) is currently being talked about rn. im not personally a fan of it, because i think you can just tstore info into the hook if you want optional bytes. however some of the other sc devs are into it.
+
+ 2) the hooks get access to the swap/mint/burn params. is that what you mean","",""
+"1040766353361076345","ritzydev","08/07/2023 1:40 am","Hmm, the main reason I would be in for of point one is mostly, this will enable the user to provide additional data to the hook about how or what they want to perform","",""
+"1040766353361076345","ritzydev","08/07/2023 1:43 am","Let's say I were to be a DAO with pool, I need info additionaI from the user with the swap.  Like real time data about some events.  How can I do this currently?","",""
+"1040766353361076345","ritzydev","08/07/2023 1:43 am","Other than an external oracle since that would incur a fee","",""
+"149735676278079488","austino256","08/07/2023 1:45 am","well you have to call v4 with an integration contract anyways. i think that contract should just tstore whatever you want inside of the hook before it happens - if it doesn't you just revert. something has to have an opinion on what is going into the hook.
+
+either the contract that is integrating w/ the hook or the person who is calling the contract that is integrating with the hook has to have an opinion and knowledge what these arbitrary bytes are","",""
+"149735676278079488","austino256","08/07/2023 1:45 am","the contract that integrates w/ v4 could tstore the info into the hook before the swap happens i guess","",""
+"1040766353361076345","ritzydev","08/07/2023 1:47 am","Do you mean there isn't going to be a common router in the uniswap V4 and my internal users will be required to call a swap from my integration contract?","",""
+"149735676278079488","austino256","08/07/2023 1:49 am","do you mean like a universal router?","",""
+"1040766353361076345","ritzydev","08/07/2023 1:49 am","Yeah","",""
+"149735676278079488","austino256","08/07/2023 1:49 am","no there will be!","",""
+"149735676278079488","austino256","08/07/2023 1:49 am","same as v3","",""
+"1040766353361076345","ritzydev","08/07/2023 1:50 am","Okay, but then if that's the case I would just want to interact with that router and pass data, otherwise I would have to call the other contract first, and if I needed operations to occur in the same block I probably would need an multicall to both contracts","",""
+"1040766353361076345","ritzydev","08/07/2023 1:51 am","I guess the real question is whether the universal router would integrate with custom hooks in the first place","",""
+"1040766353361076345","ritzydev","08/07/2023 1:52 am","Cuz if not then yeah the work can be offload into the integration side for sure","",""
+"149735676278079488","austino256","08/07/2023 1:53 am","yeah that’s a good question. it may just be easier to pass arbitrary bytes to the universal router which then just passes it to the hook instead or dealing with this early tstore workflow","",""
+"149735676278079488","austino256","08/07/2023 1:54 am","Idk but you aren’t the first person to ask for this so it’ll probably make it in. We are changing 2 other things rn so it’ll probably be debated in 2 weeks after ethcc","",""
+"1040766353361076345","ritzydev","08/07/2023 1:54 am","The benefit of the tstore workflow is you wouldn't run into the limitations of deserializing bytes","",""
+"1040766353361076345","ritzydev","08/07/2023 1:55 am","IMO  ETHs  current standard for deserialization has extreme limitations especially when it comes to nested dynamic arrays","",""
+"1040766353361076345","ritzydev","08/07/2023 1:56 am","I guess hypothetically having both would create the most versatility too","",""
+"1040766353361076345","ritzydev","08/07/2023 1:57 am","The other point I was bringing up was just an optional built in way to quote a pool, because internally they may have some more gas efficient route than just calling a fake swap and reverting it","",""
+"149735676278079488","austino256","08/07/2023 2:19 am","we have code that simulates a swap in like 35k gas, which is probably the best we can get to. i think itll get cheaper w/ v4 extsload","",""
+"1040766353361076345","ritzydev","08/07/2023 2:20 am","Good point I forgot to take into account that univ4 is more gas efficient","",""
+"149735676278079488","austino256","08/07/2023 2:21 am","i dont think v4 purely will make it cheaper other than the native extsload","",""
+"401842633464610837","_kfx","08/07/2023 2:55 am","has anyone made some proposals how to deal with rebasing tokens via hooks, for example stETH/ETH?","",""
+"1040766353361076345","ritzydev","08/07/2023 2:58 am","@kfx I assumed the hooks would remove the adjust the locking mechanism but I haven't deep dived into the source","",""
+"1040766353361076345","ritzydev","08/07/2023 2:59 am","If the lock is adjusted to support reentry for swaps, wouldn't rebase tokens work out of the box again","",""
+"401842633464610837","_kfx","08/07/2023 3:02 am","actually I'm not familiar with the technical reasons why they don't work in v3 (but kinda work in v2).
+I'm just thinking in v4 the rebase yield can be distributed to the LPs somehow rather than simply to the pool","",""
+"1040766353361076345","ritzydev","08/07/2023 3:02 am","Not sure of the implication but the locking mechanism can be offloaded to the implantation instead.","",""
+"1040766353361076345","ritzydev","08/07/2023 3:02 am","yeah the reason they stopped working was error code LOK","",""
+"1040766353361076345","ritzydev","08/07/2023 3:02 am","which is that the pool is locked against re-entry","",""
+"1040766353361076345","ritzydev","08/07/2023 3:03 am","my suggested work around for v3 is just to offload fees into a seperate contract that is rebased seperate from the work the user does","",""
+"401842633464610837","_kfx","08/07/2023 3:06 am","hmm, someone should give a shot and develop proof of concept. allowing swap reentry probably has security implications, not sure if that's a good idea","",""
+"149735676278079488","austino256","08/07/2023 3:45 am","its also that rebasing tokens that rebase down nuke the pool, because v3 doesn't calculate reserves, so changing reserves breaks the entire pool because the accounting no longer works. i believe rebasing up will never get the amount rebased withdrawn.
+
+we have a few ways to do it in v4, but it's unclear if they work atm.","",""
+"149735676278079488","austino256","08/07/2023 3:48 am","ooo i just thought of a cool one! if you give the hook the availability to rebase your token, then you could rebase everything to a set number right before the swap/mint/burn/donate!
+
+** the problem w/ this idea is that collects wouldnt rebase","",""
+"1040766353361076345","ritzydev","08/07/2023 4:33 am","Is there any testnet deployments. I'd like to start writing hooks but also verify and test their impact?","",""
+"149735676278079488","austino256","08/07/2023 5:01 am","i run them locally in foundry","",""
+"1119063943147696128","ramTn#2456","08/07/2023 5:13 am","It violates ""EIP-170: Contract code size limit"" right now. Am I right? Do you comment any parts to bypass EIP-170 or the entire core can be deployed without removing features?","",""
+"149735676278079488","austino256","08/07/2023 5:29 am","It works locally on anvil for me so I’m not sure.","",""
+"401842633464610837","_kfx","09/07/2023 4:08 pm","why is that a problem that a collect does not rebase?
+if the users removes liquidity burn will be called before collect, so the hook will be called anyway
+if they just collect the fees then ok, they may get slightly less (depending on when the hook was called last) but the difference is going to be tiny.
+did I understand the idea correctly?","",""
+"149735676278079488","austino256","09/07/2023 9:41 pm","I was thinking that beforeAction set the rebase value to a set value and then afterAction reset it.","",""
+"1045308963392061500","dragode","10/07/2023 3:04 pm","Hi there, I noticed in the univ4 hook example that the limit order contract only records liquidity during the place operation, without actually transferring any funds. So, how can users provide this liquidity to the LimitOrder contract?","",""
+"980296324324950037",".investorx","12/07/2023 6:51 am","Hey Austin, is there someone I can talk to about V4 design, customised swap fees, and MEV return? I am co-founding an MEV protection protocol and we started work about 6-9 months ago on mechanisms to return MEV to LPs, nice to see that Uniswap has some plans for that in V4!","",""
+"1062800470076301423","Andy_4_chains#3432","12/07/2023 11:17 pm","is there a certain style of MEV transactions you're targeting for protection?","",""
+"980296324324950037",".investorx","13/07/2023 6:43 am","All CEX-DEX arbs / LVR. There needs to be a prioritisation capability to give our protection engine an edge, then when the MEV protection engine extracts the LVR instead of external arbitrageurs, we return it to the LPs.","",""
+"980296324324950037",".investorx","13/07/2023 6:44 am","Current testnet results indicate a ~20% improvement in LP yield for ETH/USDC","",""
+"1097428764201328680",".nikitaivanov","13/07/2023 2:21 pm","Hey guys!
+
+I understand that this question already asked several times, but is there any information for v4 release date?","",""
+"1010375191672651836","va888888","14/07/2023 1:52 am","i'm junior developer","",""
+"989275482488983663","AnthonyNicholas#4331","14/07/2023 3:00 am","Please don't ping people directly. We do have summer internships. Send me a dm and I can share our hiring team's email address","",""
+"989275482488983663","AnthonyNicholas#4331","14/07/2023 3:00 am","We did hire interns for this summer but we'll have an internship program available next summer","",""
+"1010375191672651836","va888888","14/07/2023 3:45 am","Okay thank you a lot!","",""
+"471357824299958273","crypto_rachel","14/07/2023 4:04 am","No current release date","","♥️ (1)"
+"980296324324950037",".investorx","14/07/2023 10:23 am","Who can I reach out to in uniswap regarding payment for orderflow?","",""
+"471357824299958273","crypto_rachel","14/07/2023 11:06 am","what do you speak of `payment for orderflow`","",""
+"980296324324950037",".investorx","14/07/2023 11:28 am","It's where we pay for the right to transact higher volumes at lower rates. Overall we will provide tighter spreads between Uniswap and CEXes but more importantly we will reduce arbitrage losses. Would like to find the appropriate team members to discuss this MEV protection idea","",""
+"471357824299958273","crypto_rachel","14/07/2023 11:40 am","Reach out to support@uniswap.org","","❤️ (1)"
+"980296324324950037",".investorx","14/07/2023 12:15 pm","Thank you","",""
+"777808325751996426","daniel.burlacu","14/07/2023 2:04 pm","Hi guys, I have a question related to Uniswap V4. So, Uniswap V2 allows us to list RiskOn and RiskOff pair. V3 version  does not allow us to list RiskOn and RiskOff ( no sync() function in v2 that we could  call on the rebase event ) . My question does Uniswap V4  comes with this sync() function that we could call on the rebase event like in V2 ? Or if someone could point me to an article or anything where it is explaining how it is done ? Much apreciate it ! Than you.","",""
+"1075020088949874770","jacksonxdefi","14/07/2023 5:51 pm","Hey all! Us at xdefi wallet are looking to integrate our wallet option onto the uniswap wallet list. Just wondering what's the best way to go about it?","",""
+"471357824299958273","crypto_rachel","15/07/2023 2:24 am","So with the hooks it may be possible for rebase to work, but it would have to be setup in the hook, kinda like a wrapped version of it, as the background swap and everything is still v3 coding for the ranges","","❤️ (1)"
+"471357824299958273","crypto_rachel","15/07/2023 2:24 am","Please reach out to support@uniswap.org","",""
+"409540037949128704","tapintoyournature","16/07/2023 6:53 am","there's a 4? pog","","❔ (1)"
+"586169115962769409","marto.eth","17/07/2023 8:38 pm","Hi, Is there any estimation on when we could take a look at the new Router contract code? Or is it gonna be expected that all V4 integrations interact directly with the new PoolManager?","",""
+"471357824299958273","crypto_rachel","17/07/2023 11:53 pm","No ETA for v4, I do believe that it will be via the PoolManager","",""
+"586169115962769409","marto.eth","18/07/2023 12:59 am","Do you mean that it is gonna be integrated (throw heritage, for example) into the PoolManager? So the poolManager code that is currently on the repo isn't final?","",""
+"471357824299958273","crypto_rachel","18/07/2023 1:04 am","TBH not 100% sure, but last I knew it's still being worked on, But it did look like the pool manager is the main contract... OFC the actual routing (like to which pool/hook) is bound to be crazy. But since it's all singleton I believe the pool manager handle it all... OFC don't quote me 😊  still learning it","",""
+"586169115962769409","marto.eth","18/07/2023 1:22 am","ok, 🙂 I believe that the PoolManager could also be the ""router"" contract.
+
+But usually, the team develops a separate official (periphery) router contract that uses the pools, in this case the PoolManager, to improve UX and also to give some retro-compatibility features.
+
+I was wondering if that contract is being developed and if it's gonna be published on the  official v4-periphery repo.","",""
+"471357824299958273","crypto_rachel","18/07/2023 2:44 am","Ahh yeah like for further compatability with other protocols, not one yet, possibly with release of v4 on chain","",""
+"957215090061484033","usgee","18/07/2023 2:27 pm","In V3, it was easy to create a pool, just set the token pair and price. In V4, will it be harder for a normal user to create a pool? There are a lot of hooks and hyper customizability, so will only developers or experienced users going to create pools?","",""
+"471357824299958273","crypto_rachel","19/07/2023 12:27 am","It should still be pretty easy to launch a plain pool","",""
+"1067343800223137842","sino1729","19/07/2023 12:41 pm","Can hooks initiate a swap on itself?
+
+User deposit USDC into the ETH-USDC hooked pool.
+The hook swaps half of the USDC into ETH by itself to mint liquidity.
+
+Is the above possible?","",""
+"1067343800223137842","sino1729","19/07/2023 12:42 pm","https://discord.com/channels/597638925346930701/597638926152499206/1131090643997970532","",""
+"843155325619535912","Etherscan Bot#5753","19/07/2023 12:42 pm","","",""
+"1067343800223137842","sino1729","19/07/2023 12:42 pm","what's this bot↑ ??
+I want this in my server😂","",""
+"471357824299958273","crypto_rachel","20/07/2023 1:27 am","the bot just grabs the message (truncates it if too long)... Sometimes it's nice, like here when msg fits in the truncation but long ones it cuts it off 😢","",""
+"976444161693736960","OB | Brokkr#6647","20/07/2023 7:25 pm","Hey, Uniswap team! I have a question you could help, please. Can hooks be applied to random pools or do you have to create a pool to apply hooks?","",""
+"1062800470076301423","Andy_4_chains#3432","20/07/2023 8:00 pm","Does UniX support partial fills?","","🤔 (1)"
+"471357824299958273","crypto_rachel","21/07/2023 12:19 am","create the pool for the hook","",""
+"976444161693736960","OB | Brokkr#6647","21/07/2023 1:04 am","Thanks @Crypto_Rachel 🙏","","YW (1)"
+"1067343800223137842","sino1729","21/07/2023 9:38 am","I thought about mixing hooks (Tornado on v4)
+what do you think guys?
+https://twitter.com/shinobu1729/status/1682240131082915845?s=20","",""
+"471357824299958273","crypto_rachel","21/07/2023 9:41 am","dangerous idea, considering the state of tornado being blocked","",""
+"796477174592962571","mangoeth","22/07/2023 3:53 am","Will you guys use the same EIP approval system as you did in v3? (Havent read anything yet, just curious)","",""
+"471357824299958273","crypto_rachel","22/07/2023 3:55 am","I haven't seen any permit2 stuff yet, but I bet it will be done if not there. It saves so much gas and multiple router approvals.. but TBH I don't know for sure yet","","ty (1),😊 (1),YW (1)"
+"471357824299958273","crypto_rachel","22/07/2023 3:58 am","v4 is definitely being built with the public, so improvemets will come. So much will come out of the paris convention. They had a hookathon and so much more hook gatherings","",""
+"710177461349908582","theonlyrealbitch#0172","22/07/2023 4:04 am","How does uniswapX and V4 benefit the LPs. What are some advantages LPs would have as the V4 and UniswapX roll out","",""
+"471357824299958273","crypto_rachel","22/07/2023 4:14 am","Uniswap X is like a little private pool of requests for swap, from there fillers search the networks for the best swap. The filler that gets the best price will fill the order. They can get the tokens from anywhere in the ecosystem. This comes with MEV protection.  This is really geared towards swappers. read more here https://blog.uniswap.org/uniswapx-protocol
+
+Uniswap v4 will have so many capabilities. As for LP having greater choices of pool options, LP fee options, possibly a wider array of tokens. Check out the announcement here https://discord.com/channels/597638925346930701/1116186423540863036/1118166541796659312  and the pins have links to info as well","","😁 (1)"
+"710177461349908582","theonlyrealbitch#0172","22/07/2023 10:01 am","Could you let me know how it will allow possibly a wider array of tokens?","",""
+"471357824299958273","crypto_rachel","22/07/2023 10:22 am","Hooks will allow for developers to do work in contract needed for other tokens","",""
+"149735676278079488","austino256","22/07/2023 2:59 pm","good morning - apologies I have been in Paris for ethcc. Will be checking this chat more frequently now lol","","RockStar (1),🙌 (2),💜 (1)"
+"471357824299958273","crypto_rachel","23/07/2023 12:54 am",":RockStar:","",""
+"1097569954364149841","catripilar","24/07/2023 11:04 am","Guys, I have a question. Will the hooks be scripts added to the uniswap functions, but because there is no interface, will a hook be created for each specific change? withdraw liquidity from an eth/usdc pool if eth is above 5% of the current value and another hook to the same function if it is at 6% and so on?","",""
+"471357824299958273","crypto_rachel","24/07/2023 11:07 am","The hook would be controlling a specific pool, this can be anything from the base hook to a modified hook for rebalancing or a million other possablilities","",""
+"737995498924802080","Moonnn#9099","24/07/2023 11:35 am","Thanks for guide me here! @Crypto_Rachel 
+GM, team, I have two questions of V4. Where can I learn more on the main objectives of Uniswap V4 and the main problems you hope to solve with this protocol?  I noticed that Uniswap V4 has introduced the concept of Hooks, which seems to offer great flexibility. Who are the main developer groups you anticipate? What types of Hooks do they typically develop? As I am considering developing my own Hook. Do you have any suggestions for developers creating Hooks? For example, what types of Hooks do you think would be popular or useful?
+
+Whether Uniswap V4 supports single-sided liquidity and whether it is suitable for liquidity provision in perpetual contracts? I noticed that support for single-sided liquidity was introduced in Uniswap V3, which offers greater flexibility for liquidity providers. I would like to confirm if Uniswap V4 also supports single-sided liquidity provision. If so, could you share how this is implemented?","",""
+"471357824299958273","crypto_rachel","24/07/2023 11:46 pm","So in v4 the background pools will operate similar to the v3 pools. This allows for the single-sided and range positions.. The hooks will be crazy, the teams held hook events in paris, so I'm sure many hooks will come out of that.
+here are the hook examples.
+https://github.com/Uniswap/v4-periphery/tree/main/contracts/hooks/examples
+we would love to hear your ideas","",""
+"106997387884511232","citizen_nappa","25/07/2023 7:08 am","Hey so my understanding of the hooks is that only the one who created the pool can add hooks into that pool. Is this correct?
+
+If so won't it fragment liquidity if we want to build stuff like limit orders. Let say theres a big public pool for USDC-ETH. If someone wants to build a limit order hook they have to make their own pool which would have much less liquidity than the default larger existing pool. How do we get around this, do we have to ask the owner of the big pool to add the hooks we want?","",""
+"471357824299958273","crypto_rachel","25/07/2023 7:15 am","So yes the one who creates the pool and hook would be in control of that contract... A single hook would handle all limit orders for that pool and likely would be of great interest to users so the Liquidity would likely follow quick.","",""
+"918036854924779540","dududu3559","25/07/2023 7:26 am","Hi, i want to know where the coins are stored, in my hook or poolmanager?","",""
+"471357824299958273","crypto_rachel","25/07/2023 7:28 am","Pretty sure that the pool manager is the singleton contract that will hold all pools tokens","",""
+"918036854924779540","dududu3559","25/07/2023 7:30 am","thanks","","YW (1)"
+"918036854924779540","dududu3559","25/07/2023 7:54 am","But I can't find where to make this restriction in the code, can briefly analyze it for me?","",""
+"471357824299958273","crypto_rachel","25/07/2023 7:59 am","what restriction are you talking about","",""
+"918036854924779540","dududu3559","25/07/2023 8:01 am","pool manager hold all tokens","",""
+"471357824299958273","crypto_rachel","25/07/2023 8:02 am","restriction for what?","",""
+"918036854924779540","dududu3559","25/07/2023 8:03 am","why hooks can't hold tokens","",""
+"918036854924779540","dududu3559","25/07/2023 8:04 am","The code level does not seem to prohibit this operation","",""
+"471357824299958273","crypto_rachel","25/07/2023 8:05 am","I never said they couldn't hold tokens. I stated I believe that the tokens will all be held in the pool Manager for the pooled tokens... But TBH I'm still learning it","",""
+"918036854924779540","dududu3559","25/07/2023 8:07 am","I got it wrong, thank you for your patience","",""
+"471357824299958273","crypto_rachel","25/07/2023 8:08 am","no worries, I'm still learning it all too, it's a deep setup with seemingly endless possiblilities","",""
+"106997387884511232","citizen_nappa","25/07/2023 8:58 am","Can one pool have multiple hooks? Also do hooks need to be added on pool creation or can they be added later. Also can hooks be removed and added by pool creator post creation","",""
+"149735676278079488","austino256","25/07/2023 4:30 pm","a pool can only have 1 hook but 1 hook can do many ""hook primitives"". you cannot change the hook later, but you could use a transparent upgradable proxy if you really wanted to","","👆 (2),ty (1)"
+"1029738654836457562","brett2721","26/07/2023 1:00 pm","Hello, I would like to ask the official progress of uniswapX bridge agreement?","",""
+"586169115962769409","marto.eth","26/07/2023 7:27 pm","hey, anyone have any numbers about gas use performance of the current implementation of uniV4?
+single swap (eg ETH-DAI) on pool with no-hooks = x?
+single swap (eg ETH-DAI) on pool with limit-order hook = x?
+multi swap  (eg ETH-USDC, USDC-DAI) on pools with no-hooks = x?
+
+I known that we are waiting for Cancun HF to reach the testnets for the final numbers, but maybe someone have any some approximation...","",""
+"149735676278079488","austino256","26/07/2023 9:18 pm","there is an old cancun binary done by labs - this is the closet thing that is public: https://github.com/Uniswap/v4-core/blob/eip-1153-fork/test/__snapshots__/PoolManager.spec.ts.snap","","🙌 (1),RockStar (1)"
+"677720123779317761","tyllen.uni#8894","26/07/2023 11:55 pm","Hey ya'll! Dev Rel Lead at the Uniswap Foundation here! If you're interested in learning more about V4 and Hooks and how protocols/LPs are thinking about them, please join our twitter spaces tomorrow! Should be fun and informative!
+
+https://twitter.com/0xTyllen/status/1684241960243200000?s=20","","❤️‍🔥 (2)"
+"989275482488983663","AnthonyNicholas#4331","27/07/2023 1:28 am","@Uniswap Community Developer fyi 🙂","","👆 (1),PartyFrog (1),Uni (2),🦄 (1),🙏 (1)"
+"721834621167468576","armutbey","27/07/2023 1:32 am","https://tenor.com/view/run-running-rumning-away-gif-26050934","","😄 (1),⬇️ (1)"
+"976444161693736960","OB | Brokkr#6647","27/07/2023 5:02 pm","Hey all! Anyone knows if there will be a possibility to automate LP providing with the help of hooks?","",""
+"1062800470076301423","Andy_4_chains#3432","27/07/2023 6:18 pm","Sure. What'd you have in mind?","",""
+"796836558354382890","easonwu","28/07/2023 5:58 am","Gm sers, i read the V4 whitepaper and was wondering: who pays the gas when hook callbacks are triggered? is it always the user? or is it customizable/flexible 
+
+also in the sample GeomeanOracle.sol hook is the example of it to be an explicit pool just to serve as an oracle (since it says that it will have no gas fees + liquidity is locked)?","",""
+"1062800470076301423","Andy_4_chains#3432","29/07/2023 5:44 pm","Is it more expensive gas-wise to mint liquidity across 2 ticks than 1 ticks? (assuming same amount of transfered tokens)","",""
+"149735676278079488","austino256","29/07/2023 9:13 pm","the user will pay it atm, but you could pay the base fee w/ a gas oracle","","RockStar (1)"
+"796836558354382890","easonwu","29/07/2023 9:23 pm","Thanks 🙏","",""
+"149735676278079488","austino256","29/07/2023 9:26 pm","no","","RockStar (2)"
+"1040766353361076345","ritzydev","05/08/2023 9:03 pm","I'm making a guide for the uniswap foundation for testing uniswap v4 hooks.
+
+I've created a foundry project and imported the contracts I'm also able to write unit tests no problem.
+
+But I'm more interested in the full cycle, and having more integration style testing instead of mocking the responses.
+
+Is there a deployment of uniswap v4 on a testnet I can use or should I just deploy the core contracts instead?","","💜 (3),🤔 (2)"
+"149735676278079488","austino256","07/08/2023 9:55 pm","this is the sepolia address of v4 w/o 1155 support: 0xb69e301c95d4399a5b4777a193c518f77f60b841","","RockStar (1),🙏 (1),Uni (1),RunningUnicorn (1),❤️‍🔥 (1)"
+"1040766353361076345","ritzydev","07/08/2023 9:57 pm","Thanks, I'm gonna dive a bit more into the mocks as well, Need to understand the code better.
+
+I setup a simple base project with unit tests for hooks but it's not actually plugged in to a real pool or using the pool manager","",""
+"149735676278079488","austino256","07/08/2023 10:58 pm","https://github.com/ArrakisFinance/uni-v4-playground
+https://github.com/saucepoint/v4-template
+
+these are two pretty good githubs for hooks","","🙏 (1)"
+"1062800470076301423","Andy_4_chains#3432","08/08/2023 6:10 am","Why is `tickSpacing` needed in ModifyPositionParams in Pool.sol? Wouldn't you have to call this for a given poolKey and would be able to use the tickSpacing instatiated on the pool","",""
+"1062800470076301423","Andy_4_chains#3432","08/08/2023 6:10 am","struct ModifyPositionParams {
+        // the address that owns the position
+        address owner;
+        // the lower and upper tick of the position
+        int24 tickLower;
+        int24 tickUpper;
+        // any change in liquidity
+        int128 liquidityDelta;
+        // the spacing between ticks
+        int24 tickSpacing;
+    }","",""
+"149735676278079488","austino256","08/08/2023 7:32 pm","the pool has no concept of the pool id, so it pulls all this info from calldata passed to it by the pool manager","",""
+"1062800470076301423","Andy_4_chains#3432","09/08/2023 2:31 am","Hmm ok. You pass the `modifyLP` function in PoolManager two parameters- the PoolKey and the ModifyPositionParams. The tickSpacing is in the Poolkey struct, so was wondering if duplicative in the second parameter","",""
+"756497252691869809","cryptoma20","11/08/2023 5:59 pm","am i correct to assume that there are current no way to play around with uniswap v4 contracts until 1155/cancun is finished?","",""
+"471357824299958273","crypto_rachel","12/08/2023 2:33 am","I think you can (haven't done), but you're limited without the 1153","",""
+"477388797177233409","ronald.doo","18/08/2023 7:54 am","Once v4 launched, user interface will be much more diverse. Such as, limited order vs market order, leverage trade vs swap. What will the v4 UI look like? The current toolbar is definitely unable to cover various new hook contracts. Can we expect uniswap app store? :=)","",""
+"242223030661545985","kosyamba","22/08/2023 7:30 pm","can you use memory instead calldata in beforeModifyPosition and afterModifyPosition ?","",""
+"352206943689113611","ibuidl","23/08/2023 7:34 pm","Hello! Curious to know why we would have a hook before initialize? Isn't one call after initialize enough?","",""
+"352206943689113611","ibuidl","23/08/2023 7:45 pm","And can someone explain to me the donation calls?","",""
+"352206943689113611","ibuidl","23/08/2023 7:46 pm","Where are they called and for what purpose?","",""
+"1039924064845844603","gther9","25/08/2023 6:08 pm","How will routing work for Uniswap V4?
+
+For V2 and V3, you could just have the status of the pools cached offledger, and it was very easy to route since the pools had a known model, and so it was possible to solve the routing problem analytically.
+
+But with Uniswap V4, you don't really have a model for the hooks part, since they can have any behaviour, and the only way to do routing is to sample each pool for different inputs, which is a lot more expensive and has more overhead.
+
+Can you shed some light on this?","",""
+"471357824299958273","crypto_rachel","25/08/2023 10:45 pm","This will be a good challenge, this is still being worked on and figuring out the best ways to do it.","",""
+"943208021767630988","Gabriele | Rosy  (💙,🧡) 🐋#5759","28/08/2023 2:08 am","Hi, we are looking to be early adopters of UniswapX and building on-chain copy-trading platform. We filled a grant application but did not receive any response yet. Could anyone help us with this? 🙂","",""
+"1054665361561231370","randomiserr","28/08/2023 2:05 pm","Hey guys, how the Uniswap UI will look like for V4?
+
+We're looking into a hook development and we're wondering how the UI will work with complex or custom hooks.
+
+For example:
+• **Liquidity incentives** on top of the pool - is there going to be a way to display the incentive or how much the user has generated?
+• **Liquidity management** - as we understand it, the only way to manage the liquidity outside of the range is to deposit into the hook itself and let it manage the position. But then the hook owns the position, not the user - but how it will be displayed in the UI?
+
+Many custom hooks will run into issues with the current Uniswap UI as they're introducing something new to the pool. Is the UI something we should think about if we want to apply for the hook grant?","",""
+"1054665361561231370","randomiserr","28/08/2023 2:41 pm","hi @Crypto_Rachel, I noticed that in one of your previous messages you wrote about modified hooks that can do rebalancing of the positions. Did you mean the hook would own the users' position or there is another way?","",""
+"471357824299958273","crypto_rachel","29/08/2023 2:47 am","I don't think the hook would need to own it, but TBH i've not gotten to far into it","",""
+"1054665361561231370","randomiserr","29/08/2023 3:55 am","Gotcha. Do you know maybe someone who did that I could ask some questions? (Or maybe in a different channel?)","",""
+"471357824299958273","crypto_rachel","29/08/2023 4:08 am","This is the v4 channel","",""
+"288078077471358977","basche42","29/08/2023 5:27 pm","(This is the grant I think you are referring to https://uniswap.notion.site/Proof-of-Concept-Hook-Developer-Team-8df309cced5f484f9a52921e85d86e2d and since it is early days for v4, these POC hooks don't need to have a fully realized plan to bring them to market from the grant proposers, as things like how interfaces will handle hook-enabled pools on day 1 are still WIP. The point is the development of the core hook code and educational documentation for devs as a starting point / reference implementation)","",""
+"1054665361561231370","randomiserr","29/08/2023 5:55 pm","Awesome, thanks for the clarification. Added!","",""
+"889394146513666058","marioanloru","01/09/2023 6:30 pm","where can I find contract addresses deployed on testnet?","","🤔 (2)"
+"903242781592547339","kk268","03/09/2023 11:23 am","uniswap什么时候出安卓app啊，ios都出来这么久了","",""
+"471357824299958273","crypto_rachel","06/09/2023 7:47 am","English only in the server. We do have #普通话 
+No ETA as of now","",""
+"543681021946626060","tonyyuhuai","08/09/2023 1:05 pm","Hi guys, in V4, how does the utility of UNI token  change? Thanks very much for help!","",""
+"359666105775685634","cesarhuret","09/09/2023 11:03 pm","from what i understood 1155 accounting is important for txs with multiple swaps in them right?","",""
+"359666105775685634","cesarhuret","09/09/2023 11:04 pm","but otherwise i could technically just do a regular swap with the contract deployed on sepolia without 1155 (correct me if im wrong)?","",""
+"359666105775685634","cesarhuret","09/09/2023 11:25 pm","also isn't 1155 is a standard - not a chain level change? isn't cancun for 1153?","",""
+"820181733277171773","dannydoritoeth_optix","10/09/2023 12:06 am","1155 is necessary for a singleton implementation. The single contract keeps track of all balances which 1155 does. The multi swap is supported by flash accounting. it allows you to do lots of swaps but it only checks that the expected balances are correct at the end so it doesn't have to trigger lots of gas heavy token transfers that might not be necessary.","","👍 (1),👆 (1)"
+"359666105775685634","cesarhuret","10/09/2023 2:16 am","ok but isn't 1155 from 2018? why would cancun introduce 1155","",""
+"359666105775685634","cesarhuret","10/09/2023 2:16 am","plus 1155 doesn't require an upgrade to ethereum, its just a standard","",""
+"471357824299958273","crypto_rachel","10/09/2023 2:26 am","It will be another protocol governance controls","",""
+"471357824299958273","crypto_rachel","10/09/2023 2:33 am","good catch I just parroted the number from the user, I didn't think/notice. thanks. fixed
+The transient storage isn't there yet, so I think you need to do something to make it work.","","🙏 (1)"
+"820181733277171773","dannydoritoeth_optix","10/09/2023 12:54 pm","has there been any discussion about what the timeline would be about deploying to layer 2's and other non mainnet eth chains?","",""
+"568643622921043978","clesaege#6512","10/09/2023 4:13 pm","Hey everyone.
+I'm currently doing ETHsingapore Hackathon and I'm looking to make mix AMM + auction.","",""
+"568643622921043978","clesaege#6512","10/09/2023 4:14 pm","Such that when someone makes an order to the AMM, an auction starts, potential resulting in a higher price than the AMM price.","",""
+"568643622921043978","clesaege#6512","10/09/2023 4:14 pm","The surplus would be given to the LP.","",""
+"568643622921043978","clesaege#6512","10/09/2023 4:14 pm","I'm looking at doing this with a Auction contract + UniV4.","",""
+"568643622921043978","clesaege#6512","10/09/2023 4:15 pm","The issue is with the donate function where it seems to be just donating some tokens. But is there a way to give those to LP of a specific range which where present at a time the auction started?","",""
+"820181733277171773","dannydoritoeth_optix","11/09/2023 9:53 am","are there any implementations of kyc'd trade restrictions using hooks? For example having a list of address' that you whitelisting to trade against.","",""
+"869237277094723585","pavanananth","11/09/2023 3:40 pm","@Crypto_Rachel 
+Hello Uniswap Fam...!
+Had a doubt about UniswapV4 - that is will we be able to set range (range where our capital can earn the highest interest) in Uniswap-V4 just like the way we are currently doing in Uniswap-V3, will be of Gr8 help if you someone can also tell me how TWAPAMM will be working here...
+
+Thanks a ton","",""
+"869237277094723585","pavanananth","11/09/2023 9:42 pm","@Crypto_Rachel ? Can you help me around this please","",""
+"869237277094723585","pavanananth","12/09/2023 1:42 am","Anyone please..?","",""
+"471357824299958273","crypto_rachel","12/09/2023 3:48 am","The background pools of v4 will work like v3 with the ranges.
+Can't really say how much of the time weighted code will be setup.. That one isn't in the hook demos'. Maybe someone in a hookathon made one 🤷‍♀️ . But they will all be coded into the hooks","",""
+"471357824299958273","crypto_rachel","12/09/2023 3:49 am","please have patience The team stays very busy","",""
+"869237277094723585","pavanananth","12/09/2023 7:20 am","","",""
+"869237277094723585","pavanananth","12/09/2023 7:20 am","@Crypto_Rachel thanks a ton..!","","YW (1)"
+"390242727457062912",".starit","13/09/2023 3:39 am","do we have a existing public testnet that can be used to deploy and test uniswap v4?","","✅ (2)"
+"1079279136956231761","Kolokolo#9608","16/09/2023 12:03 pm","hello","",""
+"1079279136956231761","Kolokolo#9608","16/09/2023 12:06 pm","can someone help me with uniswap lp?","",""
+"471357824299958273","crypto_rachel","17/09/2023 1:29 am","what issues are you having?","",""
+"1079279136956231761","Kolokolo#9608","17/09/2023 11:02 am","can't remove lp","","✅ (1)"
+"1079279136956231761","Kolokolo#9608","17/09/2023 11:05 am","wouldn't confirm. I have changed the % of tokens several times too","https://cdn.discordapp.com/attachments/1116186423540863036/1152840299375243294/sbf.PNG","✅ (1)"
+"1079279136956231761","Kolokolo#9608","17/09/2023 11:07 am","??","",""
+"390242727457062912",".starit","18/09/2023 2:15 am","is this uniswap v4?","",""
+"471357824299958273","crypto_rachel","19/09/2023 12:20 am","This is the chat room for it","",""
+"390242727457062912",".starit","19/09/2023 2:34 am","wow, I know. I am asking if the above ui is for v4? (in my mind, I don’t think v4 has a UI now)","",""
+"471357824299958273","crypto_rachel","19/09/2023 3:24 am","Ahh sorry 😄  Correct the v4 isn't out yet.","",""
+"712971971280896122","Nir | Sayfer.io#7917","19/09/2023 10:19 am","Hi I'm reviewing the security docs regarding uni4hooks.
+Is this the only one?
+https://app.chainaegis.com/home/news/detail?contentId=347&lang=en-US&haveCover=true&type=&chainmeetShare=eyJ0aXRsZSI6IlNoYXJrVGVhbTogQmVzdCBTZWN1cml0eSBQcmFjdGljZXMgZm9yIFVuaXN3YXBWNCBIb29rIiwiZGVzYyI6IlJlY2VudGx5LCBVbmlzd2FwIExhYiBvZmZpY2lhbGx5IGFubm91bmNlZCB0aGUgZGV2ZWxvcG1lbnQgcHJvZ3Jlc3Mgb2YgdGhlIG5leHQtZ2VuZXJhdGlvbiBBTU0sIFVuaXN3YXAgVjQuIiwiaWNvbiI6Imh0dHBzOi8vYXBwLmNoYWluYWVnaXMuY29tL2dhdGV3YXkvcmVwb3J0L2FwaS9hcHBsZXQvdjIvaG9tZVBhZ2Uvc2hhcmtUZWFtL2NvdmVyL2dldC8zNDcucG5nIn0%3D","",""
+"820181733277171773","dannydoritoeth_optix","20/09/2023 1:32 am","is there a testnet deployment anywhere yet","",""
+"471357824299958273","crypto_rachel","20/09/2023 4:09 am","Given that it's not released, and no ETA, there isn't really any. This might be the first I've seen. Perhaps check out what the grantees are doing https://www.uniswapfoundation.org/funded-grants
+lot of hook building","",""
+"471357824299958273","crypto_rachel","20/09/2023 4:09 am","not sure. Trying to find out more info.","",""
+"712971971280896122","Nir | Sayfer.io#7917","20/09/2023 1:12 pm","Yeah I saw that, cool! I think I have an innovative idea on how to improve hooks security but it might require a grant. I don't belive there will be an RFP as this is pretty niche idea.
+Who can I talk with to validate if the idea even makes sense?","",""
+"471357824299958273","crypto_rachel","21/09/2023 12:59 am","The foundation has been working highly with hooks. Try a post in #🔋│uni-grants","",""
+"819933518804942938","emmajane1313","21/09/2023 12:51 pm","@Crypto_Rachel I have a few questions about the hooks/v4 pools. Is the getter in v4 for getting reserves still  ""getReserves"" or something different?
+
+And I'm currently creating a custom hook using the template contracts suggested from uniswap but I'm running into a lot of compilation errors going off the example contracts provided from 2-3 months back, have things been updated during this time? for example does modifyPosition() take 3 params or 2? in the examples it shows 2 but it seems in the current lib modifyPosition takes 3?","",""
+"1089061349360939039","wenjun_yuan","21/09/2023 2:30 pm","I would like to ask a question, in the PoolManager contract function swap(PoolKey memory key, IPoolManager.SwapParams memory params, bytes calldata hookData) https://github.com/Uniswap/v4-core/blob/main/contracts/PoolManager.sol#L241, is the hookData passed in through the uniswap front-end page?","",""
+"471357824299958273","crypto_rachel","22/09/2023 3:38 am","TBH i'm still noob with v4. Been so busy haven't been able to do much.
+
+The getReserves was only v2. v3 didn't contain this. It does look like the pool manager has a function for this. 
+I know the foundation and the community have been working on many hooks, I would check out what they have done.
+check out this https://docs.uniswapfoundation.org/hooks/dev-resources","",""
+"1078333316605956157","beaker#7737","22/09/2023 7:10 pm","Hi, I have quesitions about uniswapv4 
+
+I want to get pools State with 
+``` function extsload(bytes32 slot) external view returns (bytes32 value)```
+
+```/// @dev The state of a pool
+    struct State {
+        Slot0 slot0;
+        uint256 feeGrowthGlobal0X128;
+        uint256 feeGrowthGlobal1X128;
+        uint128 liquidity;
+        mapping(int24 => TickInfo) ticks;
+        mapping(int16 => uint256) tickBitmap;
+        mapping(bytes32 => Position.Info) positions;
+    }```
+
+if i want tickBitmap(uint256) of pool(pool id : 12), tick(6000)Do I just call like  ` extsload(keccack256(uint256(12) . uint(6000))`  ?","",""

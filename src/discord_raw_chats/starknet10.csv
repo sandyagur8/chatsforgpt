@@ -1,0 +1,150 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"754641878934225008","odinfree","29/07/2022 10:52 pm","@gaetbout :happy:","","StarkNet (12),🔥 (8),🎉 (7),🚀 (7)"
+"907214386794483744","zkcarter","05/08/2022 2:20 pm","Hi guys, I got a problem in pytest. I have a function which want compare a storage value with current block number, like `let (block_number) = get_block_number(); assert_nn_le(value, block_number)`. But I notice that, in pytest, `get_block_number()` always return `-1`. Is there a way mock current block number?","",""
+"260514830006485002","milan3774","05/08/2022 2:55 pm","something like this should work in Cairo 0.9.1:
+
+```
+from starkware.starknet.testing.starknet import Starknet
+from starkware.starknet.business_logic.state.state import BlockInfo
+
+starknet = await Starknet.empty()
+sn = starknet.state
+sn.state.block_info = BlockInfo.create_for_testing(sn.state.block_info.block_number, desired_block_timestamp)
+```","",""
+"907214386794483744","zkcarter","05/08/2022 2:56 pm","Thank you, I will upgrade and test it.","",""
+"907214386794483744","zkcarter","05/08/2022 7:31 pm","@milan Thank you, it really works!","","😎 (1)"
+"507664106304700426","haroune_foo","08/08/2022 3:20 pm","Hello everyone, We're writing tests for our cairo contracts using Python and starknet-dev and we hit a blocked road regarding internal functions, I'm wondering how the community is testing internal functions ? Thanks in advance, @milan already answered in the #🔧｜dev-tools channel that they are using a test contract file where they proxy all internal functions with external ones.","",""
+"887999107715715083","trejowsk","09/08/2022 4:10 am","you could consider using protostar for that case, in which definition of the test cases works basically like in pytest.","",""
+"208302193311219713","Drew_#0452","10/08/2022 7:42 pm","I wrote an `@l1_handler` that takes in a payload of arbitrary size, `(a payload : felt*) `-- does anyone know how to test this in pytest? I'm trying to call `starknet.send_message_to_l2`, but the payload parameter is being treated as a memory address rather than the first element in the array. What's the way to construct the array in memory and then just pass back a pointer to `starknet.send_message_to_l2`?","",""
+"330737541257101312","gaetbout","06/09/2022 12:26 am","Just upgraded to cairo 0.10 and my pytests are now failing:
+``NotImplementedError: Invoking through an account contract is not supported yet, please use execute() instead.``
+Is there a fix available or should we just wait for an update?","",""
+"330737541257101312","gaetbout","06/09/2022 8:33 pm","if anyone has this instead of using invoke() you now have to use execute()","",""
+"330737541257101312","gaetbout","06/09/2022 10:50 pm","in 0.10 did anything changed with pytest and namespace? 
+Look like my tests aren't working anymore","",""
+"330737541257101312","gaetbout","06/09/2022 10:50 pm","but if I remove the namespace they pass","",""
+"330737541257101312","gaetbout","06/09/2022 10:51 pm","I have:
+ AttributeError: 'StarknetContract' object has no attribute 'method_name'","",""
+"330737541257101312","gaetbout","07/09/2022 12:43 am","I ended up doing a func outside of the namespace that just calls the namespace.method 
+Not a big fan of that solution so I'd like to know how to fix it nicely 🙂","",""
+"260514830006485002","milan3774","07/09/2022 12:52 am","weird, I haven't ran into this issue with 3 projects I migrated so far 🧐 you're talking about a namespace in Cairo right?","",""
+"330737541257101312","gaetbout","07/09/2022 12:52 am","yes I am","",""
+"330737541257101312","gaetbout","07/09/2022 12:53 am","so I have a method X in namespace lama 
+and on the pytest part I just do contract.X() and it doesn't work","",""
+"330737541257101312","gaetbout","07/09/2022 12:54 am","For more info, here is the contract:
+https://github.com/gaetbout/starknet-felt-packing/blob/main/contracts/lib/bits_manipulation.cairo
+And here is the test_case: 
+https://github.com/gaetbout/starknet-felt-packing/blob/main/tests/lib/test_bits_manipulation.py
+The 3 tests are failing","",""
+"260514830006485002","milan3774","07/09/2022 12:54 am","hmm, now that I think about it, I don't have a public function inside a namespace probably","",""
+"330737541257101312","gaetbout","07/09/2022 12:55 am","yeah I have 2 namespace one internal and one external in that case","",""
+"330737541257101312","gaetbout","07/09/2022 12:55 am","idk if it is good practice, maybe I should just get rid of the external one?","",""
+"260514830006485002","milan3774","07/09/2022 12:58 am","hmm, try renaming it from `external` to sth else","",""
+"330737541257101312","gaetbout","07/09/2022 1:04 am","nope still same issue :/","","😟 (2)"
+"260514830006485002","milan3774","07/09/2022 1:11 pm","hey, so what I think is happening is that in 0.10.0 only explicit top-level public functions are compiled into the ABI (which is good, before, it was a security problem), that's why those functions you have inside the namespace aren't ""available"" anymore","",""
+"330737541257101312","gaetbout","07/09/2022 2:22 pm","Guess it is best then to remove them from that namespace and only keep the ""private"" function within a namespace?
+But what if I still want to split my contract in two ""parts""?
+Should I split it in two files then?","",""
+"260514830006485002","milan3774","07/09/2022 2:24 pm","yes, splitting into multiple files is normal","",""
+"618066220939214849","l41th","20/10/2022 5:07 pm","Hello! I want to run some tests with nile and pytest and I want to call some functions with an account but I don't know if they are autogenerated for me
+
+For example when I'm calling ``address = await contract.get_my_address().call()`` where ``get_my_address()`` is just returning  ``get_caller_address()`` I get the 0 address
+
+What I mean is for exemple when using the basic hardhat test for solidity smart contracts, the contracts are automatically called with ``ethers.getSigners()[0]``  and we can use ``.connect(<account>)`` to interact with a function through another caller
+
+So my question is how to do that the correct way with pytest, do I need to use sth like starknet.py or am I missing something","",""
+"618066220939214849","l41th","21/10/2022 3:42 pm","Anyone ? 😅","",""
+"910244468597329921","srknssmn","29/10/2022 7:59 pm","I'm getting this error in pytest, how can I fix it?","https://cdn.discordapp.com/attachments/1002627079738773616/1035923250254991400/unknown.png",""
+"866258874059063296","ragnar8621","30/10/2022 1:00 am","how can i solve it?","https://cdn.discordapp.com/attachments/1002627079738773616/1035999047590359140/pytest.png",""
+"803282745685049366","oleksa1267","30/10/2022 1:22 pm","hello","",""
+"979880679032619139","teddynotbear","30/10/2022 6:43 pm","Hi guys,
+I make tests in Python with Pytest. I saw on internet that you can call a function without putting the parenthesis like in my screen in the function `proxy_init` where I make `account_cls, implementation_cls, proxy_cls = contract_classes`. 
+I understand that is to get the reference of a function without executing it directly. When I run the tests, I get this error `TypeError: cannot unpack non-iterable coroutine object`. On the web, they told me that I have to add the parenthesis but as I'm stubborn and I've seen codes that do it without the parenthesis, could someone explain me why in my case it doesn't work? 
+Example of code that works very well: https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.5.0/tests/upgrades/test_Proxy.py","https://cdn.discordapp.com/attachments/1002627079738773616/1036266595099627600/unknown.png",""
+"866258874059063296","ragnar8621","31/10/2022 9:51 pm","i solved with docker👍","",""
+"724898137877250079","themisttrading","08/11/2022 7:44 am","hey guys, how to fix?","https://cdn.discordapp.com/attachments/1002627079738773616/1039362205872836608/image.png",""
+"907981161534468146","wind.rider","08/11/2022 8:04 am","sorry,ser,for pathfinder issue pls use #🛰｜pathfinder-support-only ,thx🤝","",""
+"194736238224211969","xswagglerx","12/11/2022 2:18 pm","Hi all. Is it possible to test a StarkNet contract that has raw_input functions? I am currently trying to do the following:
+
+```
+@pytest.mark.asyncio
+async def test_initial_balance_zero():
+    """"""Initial balance should be 0""""""
+    # get an instance of the contract
+    contract = await get_contract()
+
+    # check if the balance is 0
+    # getBalance uses @raw_input
+    execution_info = await contract.getBalance().call()
+    # maybe i should expect a tuple here
+    assert execution_info.result.res == 0
+```
+
+But it fails with error ""AssertionError: Direct raw_input function calls are not supported."". Is there any solution or workaround for this?","",""
+"194736238224211969","xswagglerx","13/11/2022 2:59 pm","It took about a day but i can now answer my question myself 😅 
+So if anyone needs to ever test a raw function, this seems to be the way to do it. However, be aware that there might be a better one!
+
+There is a function called ""execute_entry_point_raw"" on the starknet.state object which can be used to test raw functions.
+
+```
+@pytest.mark.asyncio
+async def test_initial_balance_zero():
+    """"""Initial balance should be 0""""""
+    # create a new Starknet class that simulates the StarkNet system.
+    starknet = await Starknet.empty()
+    # deploy the contract.
+    contract = await starknet.deploy(source=CONTRACT_FILE,)
+
+    # execute the raw function
+    result = await starknet.state.execute_entry_point_raw(
+        contract_address=contract.contract_address,
+        selector=get_selector_from_name('getBalance'),
+        calldata=[],
+        caller_address=0
+    )
+
+    # the initial balance should be 0
+    assert result.retdata == [0]
+```","",""
+"853158129521000468","kartal2147","01/12/2022 3:44 pm","i got same error could you explain how to solve it. İ am not a software engneer please make it easy as much as possible. Thank you","https://cdn.discordapp.com/attachments/1002627079738773616/1047817872447127602/Ekran_goruntusu_20221201_131241.png",""
+"685516513759068166","england_","10/01/2023 8:15 pm","Please follow the install/upgrade instructions -- looks like you haven't run the correct pip install -e command line (see https://github.com/eqlabs/pathfinder/blob/main/doc/install-from-source.md#python-setup for details) and this causes issues when trying to run pytest.","",""
+"964219269502075000","srkchanu","13/02/2023 9:39 pm","Thank you","","🤝 (7)"
+"354630252049334273","eselllei","15/03/2023 5:40 pm","help fix that","",""
+"354630252049334273","eselllei","15/03/2023 5:41 pm","","https://cdn.discordapp.com/attachments/1002627079738773616/1085535671449563236/1.jpg",""
+"867864067301179414","tsuga42","30/03/2023 11:09 pm","","https://cdn.discordapp.com/attachments/1002627079738773616/1091054172771733544/2023-03-30_17.44.06.png",""
+"848616398964260925","scarletssstarktitan","30/03/2023 11:12 pm","sorry ser ,i have seen you post the same question in #🛰｜pathfinder-support-only pls wait for the pathfinder team on line and help you ,here is for pytest user","",""
+"867864067301179414","tsuga42","31/03/2023 12:32 am","Thanks a lot. sorry","","👍 (3)"
+"386856506928267274","jessimlr","13/04/2023 7:41 am","why please ?","https://cdn.discordapp.com/attachments/1002627079738773616/1095893962004385822/image.png",""
+"283862302401495041","grest_","13/04/2023 11:04 am","This should have been fixed in 0.11 after pinning the `typeguard` dependency.","",""
+"283862302401495041","grest_","13/04/2023 11:04 am","you can try upgrading `cairo-lang` to the latest version","",""
+"333562983563264004","zaivanza","13/04/2023 1:47 pm","how to get constructor_args in `Contract.deploy_contract` ? I try to change js code and get error `AttributeError: type object 'Contract' has no attribute 'compileCalldata'`","https://cdn.discordapp.com/attachments/1002627079738773616/1095986211794989127/Screenshot_2023-04-13_at_13.17.41.png",""
+"386856506928267274","jessimlr","13/04/2023 4:49 pm","What is the command please to update it ?","",""
+"283862302401495041","grest_","13/04/2023 7:23 pm","`python -m pip install cairo-lang` should be enough","",""
+"512636808086159370","captainbnb","13/04/2023 11:50 pm","if you find any way  to fix the pytest kindly mention me.. i'm also stuck on this","",""
+"492382834527567873","hollaattonytone","22/04/2023 1:29 am","that doesn't remedy it for me..","",""
+"283862302401495041","grest_","24/04/2023 3:57 pm","What is the output of `pip show typeguard` in your environment?","",""
+"492382834527567873","hollaattonytone","24/04/2023 4:59 pm","I went a different route and got it working. Appreciate you checking on me","",""
+"286584727110942720","antho0f","27/04/2023 3:36 am","I strangled in the installation of pathfinder at the pytest stage
+I described the issue here : https://discordapp.com/channels/793094838509764618/948559061685796894/1100902657910116382
+Could a member of the community help me to finish the installation ? 🙏","",""
+"716016122553434332","jahjah38#4474","03/05/2023 9:43 pm","hello","",""
+"716016122553434332","jahjah38#4474","03/05/2023 9:43 pm","i have problem with my node lunch","",""
+"716016122553434332","jahjah38#4474","03/05/2023 9:43 pm","i have this error text :","",""
+"716016122553434332","jahjah38#4474","03/05/2023 9:43 pm","_ ERROR collecting tests/pathfinder_worker/test_call.py _____________
+ImportError while importing test module '/root/pathfinder/py/tests/pathfinder_worker/test_call.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/pathfinder_worker/test_call.py:11: in <module>
+    import pathfinder_worker.call as call
+E   ModuleNotFoundError: No module named 'pathfinder_worker'
+=========================== short test summary info ============================
+ERROR tests/pathfinder_worker/test_call.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.14s ==========","",""
+"716016122553434332","jahjah38#4474","03/05/2023 9:43 pm","someone can help me ?","",""
+"848616398964260925","scarletssstarktitan","03/05/2023 9:44 pm","sorry ser, pls get support in #🛰｜pathfinder-support-only  thanks ser","","happy (8)"
+"716016122553434332","jahjah38#4474","03/05/2023 9:46 pm","thanks","","StarkNet (27)"
+"432230432738639882","lamych","26/07/2023 10:17 pm","Maybe we can use mojo lang for fast call any inputs?","",""
+"1131591988504957049","barjevoj","23/09/2023 10:04 pm","that might be an interesting proposition","",""

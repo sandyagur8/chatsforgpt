@@ -1,0 +1,157 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"910990302993588274","money_singh#6494","14/05/2023 11:10 pm","Hey folks - **welcome to the most fun channel ever in our entire Starknet discord**. If you're on this server, chances are you have already played around a little bit with the Starknet and Cairo ecosystem. I'm building this channel for those of us who aren't just satisfied to write Cairo code or be told our programs are being proven using ""ZK"". 
+
+**This channel is for people who actually want to dive deep into the theoretical concepts behind proof systems and enrich their understanding of what's going on under the hood.  **","","👍 (7),8f79ef1c4ae44f68bc82d6eba5137304 (1)"
+"910990302993588274","money_singh#6494","14/05/2023 11:11 pm","The channel tone will def be more community learning based, and we can operate as one or more study groups depending on how many people we get.  Hoping to get started with this - https://zk-learning.org/","","👍 (11),🔥 (8),StarkNet (7),partyWizard (3)"
+"910990302993588274","money_singh#6494","16/05/2023 8:24 am","Thanks for joining folks - just going to wait for ppl to join and then set up an agenda coming Monday","",""
+"754641878934225008","odinfree","16/05/2023 1:46 pm","Heads up Nerds!  📢
+
+🎓 We're psyched that Eli Ben-Sasson, a titan in the field and our resident STARK Maxi, will be leading a masterclass as part of Basecamp's Cohort 4 course.
+
+🧠  Warp into the core of zk-STARKs, navigating the math maze of this groundbreaking tech, under the tutelage of a true brainlord. 
+
+We're gonna tunnel deep into:
+
+📐 Finite Field Arithmetic
+🔗 Low Degree Extensions
+🔒 Cryptographic Commitments
+🔣 Polynomial Constraints
+🔭 FRI Protocol 
+
+https://twitter.com/Starknet/status/1658370954807115777?s=20","","🔥 (10),❤️ (3)"
+"511272055623122961","laurip","17/05/2023 5:52 pm","just found this channel. cool.","","star (6)"
+"511272055623122961","laurip","17/05/2023 5:54 pm","I was going through the MOOC some weeks ago, but it got really hard at weird intervals. like, it'd be aimed at mathematicians or so. and I'm not a ZK newbie.","",""
+"665269842927943694","drcapyvara","17/05/2023 10:44 pm","thanks for this excellent lecture, excited for more of these","","🔥 (4),🇦🇿 (2)"
+"511272055623122961","laurip","08/06/2023 5:58 pm","any good reading resources for arithmetization? I'm trying to go through https://medium.com/starkware/arithmetization-ii-403c3b3f4355 but unable to follow it, so looking for more angles to approach the topic","",""
+"754641878934225008","odinfree","08/06/2023 9:15 pm","this is the updated link to this session https://www.youtube.com/watch?v=jg9KSNOO2XY&t=135s","","🤯 (1)"
+"429096494713274369","0xcoburn","09/06/2023 4:12 am","You probably already know this but just incase, stark-101 is a good resource
+https://starkware.co/stark-101/
+Its in python but i heard lambda class is making a cairo-101 in rust in english soon, they’ve already done one in Spanish and its on their youtube","","👍 (2)"
+"848616398964260925","scarletssstarktitan","09/06/2023 4:24 am","https://twitter.com/EliBenSasson/status/1578380154476208131  or here ?","","👍 (4)"
+"511272055623122961","laurip","09/06/2023 10:32 am","will have a look, thanks! gone through some of those already.","",""
+"765055259227193354","0x0m#8509","14/06/2023 8:02 pm","Hi, anybody knows about the validity proof generation time now at StarkNet? I think it took around 10-20 minutes to generate a validity proof a couple months ago right?","",""
+"429096494713274369","0xcoburn","15/06/2023 5:12 am","responded here https://discord.com/channels/793094838509764618/793094838987128844/1118612399516295371","",""
+"502169624847056906","quentin_kemperino","20/06/2023 6:11 pm","Where can I find the deployed Rollup Contract (including ABI)?","","✅ (3)"
+"1004629563147571251","eli_def","22/06/2023 2:07 am","https://github.com/starknet-io/starknet-addresses also the Cairo 101 contract is deployed on testnet, so if I'm right you can't use it on testnet2,fyi,ser","","🙏 (4)"
+"511272055623122961","laurip","26/06/2023 6:28 pm","asked already elsewhere but no definitive answer, so let's try here.
+Can Cairo1 be used for privacy, in for example a L3?","",""
+"906095871316348938","closer2282","27/06/2023 5:11 am","Yes I suppose it can with groth16 SNARK verifier in Cairo, which means, a STARK proof of valid verification of a SNARK can be produced
+https://github.com/keep-starknet-strange/garaga/blob/main/tests/cairo_snark/groth16/sample_groth16.cairo","",""
+"429096494713274369","0xcoburn","27/06/2023 8:19 am","I’m just trying to wrap my head around garaga, is it a library for building snarks that can be submitted to sharp (aka a snark proved by a stark), and using garaga can you write a snark that implements privacy in the proof, i thought the verifier had to also implement privacy but idk, i might be confused.
+
+Not super familiar with snarks and i dont exactly know what groth16 is used for.","","🤔 (1)"
+"511272055623122961","laurip","27/06/2023 10:31 am","Hmm, so kinda pack a non-private proof inside another proof which does provide privacy? What's the point of using Cairo then at all, wouldn't it make more sense to drop Cairo altogether and use another ZK DSL which can be verified directly in the L3","",""
+"429096494713274369","0xcoburn","28/06/2023 2:58 am","I think cairo can be very easily adapted to enable privacy amongst L3’s and L2 starknet but i dont think its a feature at the moment, maybe
+@FeedTheFed | StarkWare @spapini can offer some clarity around cairo and privacy focused L3 implementations 🙂","",""
+"866704318060560404","FeedTheFed | StarkWare#8826","28/06/2023 9:46 am","I think it's the opposite, a proof without privacy includes a zk-proof for some L3. Re why Cairo and not some other DSL, same arguments for the L2 (efficiency due to STARK friendliness). If you don't care about general computation in your L3 then it might make sense to use something else.
+
+Also, what @Coburn | StarkTitan said, you can modify the STARK protocol a bit and obtain ZK, and do that in your L3 if you like.","","👍 (1)"
+"866704318060560404","FeedTheFed | StarkWare#8826","28/06/2023 9:47 am","The idea with Garaga is not using SHARP directly, you use another proof system for your purposes, what SHARP will eventually see is just a proof for a block containing a tx which is a SNARK verification. If the SNARK doesn't leak information, you don't care about the properties of SHARP here (even if everything is leaked, you see the entire execution trace of the verification of the SNARK proof, and you end up with no information due to the zk property of the underlying SNARK).","","dope (3)"
+"511272055623122961","laurip","28/06/2023 1:01 pm","interesting. I wonder what it would require.
+I saw there is some private input options in `cairo-run`, such as `--air_private_input` but no idea if that could already be used somehow.","",""
+"429096494713274369","0xcoburn","29/06/2023 2:02 am","I’m curious as well, unfortunately i don’t have much helpful insight on this. 
+@FeedTheFed | StarkWare said you’d have to tweak the stark protocol a bit but I’m not sure which parts exactly.","",""
+"511272055623122961","laurip","29/06/2023 12:49 pm","Someone pointed me to a SW repo, about a year ago, which hasd an unused privacy thingy, but can't remember what exactly it was and can't find it anymore.","",""
+"429096494713274369","0xcoburn","02/07/2023 3:05 am","It’d help if i better understood the moon math behind starks and how to implement it in code. 
+
+Not sure where privacy can be implemented in the existing protocol and where it isn’t","",""
+"511272055623122961","laurip","02/07/2023 11:32 am","yeah, the math behind is..something 🙂","",""
+"910990302993588274","money_singh#6494","04/07/2023 4:22 am","Hey folks ... I am really happy to hear this conversation and all the excitement over this (appropriately named) moon math.","",""
+"910990302993588274","money_singh#6494","04/07/2023 4:22 am","I think at this point we have a decent number of people in this group and I would like to propose a study group","",""
+"910990302993588274","money_singh#6494","04/07/2023 4:23 am","Basically, I think we should go over this course - https://zk-learning.org/ and then use these concepts to go over and discuss the STARK research paper by Eli et al.","","🔥 (7)"
+"910990302993588274","money_singh#6494","04/07/2023 4:23 am","Should take us about 4-6 weeks if we study together, and we should have a community call for 30 mins - 1 hour to talk over assignment questions and answer each other's questions","",""
+"910990302993588274","money_singh#6494","04/07/2023 4:23 am","We could even set up shared notes","",""
+"910990302993588274","money_singh#6494","04/07/2023 4:24 am","Throw me a 🔥 icon over here if you are interested, and we will make this happen !!","",""
+"784796047830286356","chingun.dev","04/07/2023 4:24 am","🔥","",""
+"910990302993588274","money_singh#6494","05/07/2023 9:55 pm","Show me some more love folks ... we get 5 people and we're in business !!","","PepeLove (2)"
+"910990302993588274","money_singh#6494","09/07/2023 2:22 am","Amazing !! Thanks for signing up folks ... this seems like a decently sized study group","",""
+"910990302993588274","money_singh#6494","09/07/2023 2:24 am","Can you please fill this out so we can figure out when to meet for the first time https://www.when2meet.com/?20548407-GOQx9","",""
+"910990302993588274","money_singh#6494","09/07/2023 2:24 am","And also please DM me your Telegram and name so I can make the gc","",""
+"910990302993588274","money_singh#6494","09/07/2023 2:24 am","for instance ... James Doe for ZK Group. TG = @JDoe","",""
+"511272055623122961","laurip","09/07/2023 6:47 pm","great initiative! I'm currently participating in Moonmath manual study group, for snarks, but will try if I have time for this one as well!","",""
+"429096494713274369","0xcoburn","09/07/2023 8:48 pm","matt coburn for zk group, TG @coburn24,
+and schedule filled in  👍🏼","",""
+"511272055623122961","laurip","11/07/2023 12:50 am","@money_singh is the study group public? I mean, can I advertise it?","",""
+"910990302993588274","money_singh#6494","11/07/2023 9:08 pm","Hey @LauriP - yes it is","",""
+"910990302993588274","money_singh#6494","11/07/2023 9:08 pm","Funny you bring it up ... this was going to be the first reading lol","",""
+"910990302993588274","money_singh#6494","11/07/2023 9:09 pm","Yeah so the way I planning this is we will first spend time understanding core ZK concepts and SNARKs","","cool_doge (2)"
+"511272055623122961","laurip","11/07/2023 11:37 pm","Cool. So how can people join? Just DM you directly?","","🧐 (3)"
+"910990302993588274","money_singh#6494","12/07/2023 4:29 am","Hey @LauriP yeah just fill in the schedule thing (https://www.when2meet.com/?20548407-GOQx9) so I know when we can meet and then dm me your TG","",""
+"910990302993588274","money_singh#6494","12/07/2023 4:29 am","I would prefer to keep this ~ 5-10 people so we can actually connect and learn something together","",""
+"910990302993588274","money_singh#6494","12/07/2023 4:30 am","but I also intend for us to build towards collective notes / a notion page of what we learned (kind of like a college class requires you to submit a paper towards the end) and we can share that as much as we want","","starkchad (1)"
+"511272055623122961","laurip","12/07/2023 11:45 am","ok, it's then best if I don't advertise it.
+Sent TG already.","",""
+"511272055623122961","laurip","12/07/2023 11:46 am","sorry, what's the time zone here?","",""
+"511272055623122961","laurip","12/07/2023 11:50 am","as for the contents of the study group.. in my opinion requiring someone to read moonmath manual as 'first reading' is a bit rough. I'm spending months in the other study group to go through it.
+personally I didn't like the zk-learning resources too much - I could follow ok until at some point they suddenly went to the moon, expecting to know a lot of things in advance. it felt like the materials were for mathematicians - not for regular people","","👍 (1)"
+"910990302993588274","money_singh#6494","14/07/2023 4:21 am","Great ... that's amazing feedback @LauriP ... I agree moonmath is more of a follow along reading and not a first reading. My b. Also ... I would love to get everyone who is interested in one place and then set up a planning call before we dive in so we are all able to accomplish what we want from this group","",""
+"429096494713274369","0xcoburn","14/07/2023 4:29 am","I think it'll definitely help to have a group to touch base with and talk through concepts after a difficult reading, better than going through it alone.
+Getting stuck on a topic and not knowing where to bounce ideas and thoughts can be a huge blocker with this stuff.","","❤️ (2)"
+"820699869546676256","sha_257","15/07/2023 8:12 pm","not sure if here is the correct place to ask - is the program input of Cairo VM hidden and the polynomial representations of the execution trace unhidden to the verifier?","",""
+"820699869546676256","sha_257","15/07/2023 8:13 pm","and what is the privacy implication here?","",""
+"848616398964260925","scarletssstarktitan","16/07/2023 1:23 am","hope this docs part Security and Privacy for Crypto with Zero-Knowledge Proofs is helpful https://github.com/lambdaclass/cairo-vm#original-cairo-vm-internals thank you","",""
+"795662667012374569","ademolakelvin","16/07/2023 6:07 pm","Hello  everyone! I'm Ademola Kelvin. Recently, I've been working with the new Cairo syntax and have also started learning Rust. My goal is to work on protocols in the StarkNet ecosystem. If anyone could kindly share a roadmap or any useful resources to help me learn about protocols on StarkNet, I would greatly appreciate it. Thank you!","","✅ (11)"
+"337672233881174016","cryptskii","27/07/2023 5:58 pm","hello","",""
+"511272055623122961","laurip","30/07/2023 8:29 pm","Stark proofs don't utilize Elliptic Curve Cryptography. But do wallets on Starknet still utilize curves for their security? I guess yes.","",""
+"429096494713274369","0xcoburn","01/08/2023 2:11 am","We use the Stark Curve for signing, which I believe is just a slight modification of Ethereums EC that plays nicely with felts if im not mistaken. Pls correct me if i'm wrong @FeedTheFed | StarkWare @money_singh","","🔥 (3)"
+"511272055623122961","laurip","06/08/2023 3:09 pm","so, when everyone is talking about ""starks are quantum resistant"", it doesn't help much for starknet, since all keypairs use ECC","",""
+"511272055623122961","laurip","08/08/2023 6:54 pm","I really wish there were more people interested in these topics here. I'd love to see more discussions, but it just doesn't happen.","",""
+"927982281266724874","tekkac","09/08/2023 12:34 pm","It ""doesn't help much"" for now, but you could implement post-quantum public key crypto for accounts signers. The only ""issue"" is the size of the signatures 🙂","",""
+"511272055623122961","laurip","09/08/2023 12:35 pm","And the transitioning might be slightly problematic 🙂","",""
+"927982281266724874","tekkac","09/08/2023 12:36 pm","Not with AA I think.","",""
+"927982281266724874","tekkac","09/08/2023 12:36 pm","You'd just need to reimplement the validate logic, I thought.","","👍 (1)"
+"927982281266724874","tekkac","09/08/2023 12:36 pm","(and change wallets to generate keys)","",""
+"511272055623122961","laurip","09/08/2023 12:37 pm","Ah, sure, AA helps.","",""
+"758435814073434133","jackinabinet","17/08/2023 5:09 am","Hello and gm! Curious when users can/what upgrade will allow users to force include transactions on Polygon zkEVM in the event of a sequencer failure and withdraw in the event of a propose failure","https://cdn.discordapp.com/attachments/1107171890142920745/1141516544556421130/image.png",""
+"848616398964260925","scarletssstarktitan","17/08/2023 7:17 am","AFAIK, Arbitrum( UseOptimistic Rollup), addresses this by allowing a user to submit transactions to the Layer 1 contract’s Delayed Inbox . These transactions are not included in the current block so they cannot be used for front-running, and if they are not processed within a 24 hour time period, they can be forced( escape hatch). For a ZK-proof  like polygon zkevm or StarkNet, there are additional challenges to implementing Forced Transactions, because Unlike Optimistic Rollups(arbitrum), ZKRollups require proofs to be submitted to the validator on Ethereum.(e.g All StarkNet state transitions inherit the security of Ethereum.)  i don't know what polygon zkevm 's plan about escape hatch, but i guess starknet plan to do it base on the decentralized sequencer ( not just forced?)?if i am wrong pls correct me @Closer | StarkTitan  if you are interested in , here is introduction  about Madara  sequencer which is new Starknet sequencer, based on substrate, (talk about escape hatch) https://twitter.com/MadaraStarknet/status/1690262971388485632","","👍 (1)"
+"906095871316348938","closer2282","17/08/2023 7:31 am","Yes i suppose you're right, and there's a post in community forum exploring Starknet escape hatch. maybe we can check it, cc @Jack
+https://community.starknet.io/t/starknet-escape-hatch-research/1108","","👍 (6)"
+"758435814073434133","jackinabinet","17/08/2023 10:17 pm","Thank you both for the help in answering my question @scarlet(σ, σ) | StarkTitan and @Closer | StarkTitan !","","🙏🏻 (5)"
+"895228953743208468","ealemdar41","25/08/2023 11:10 pm","https://etherscan.io/tx/0x25f855df0ba98d0466488c91cbb174af6ac17f60f06261cf030880eef713f7ef","",""
+"895228953743208468","ealemdar41","25/08/2023 11:10 pm","I sent it but I cannot see it in zk portal!","",""
+"848616398964260925","scarletssstarktitan","25/08/2023 11:11 pm","sorry ser here is starknet community , you should consult with zksync community about it   thank you","https://cdn.discordapp.com/attachments/1107171890142920745/1144687948974010459/image.png",""
+"895228953743208468","ealemdar41","25/08/2023 11:21 pm","I think, they are hacked.... I sent my transaction from their website but somehow all my money went to different address!","",""
+"895228953743208468","ealemdar41","25/08/2023 11:21 pm","I cannot join to their discord as well..","",""
+"848616398964260925","scarletssstarktitan","25/08/2023 11:23 pm","sorry to hear it , i  can not help you ser  but thank you for your trust","",""
+"928792009446150206","c_jacksparo","28/08/2023 1:23 am","A quick thought looking for feedback
+
+Problem statement,
+A chain is only as decentralized as its validators.
+Using delegated proof of stake, employs economics to solve this.
+The problem is that open economies naturally lead to a 10%, who are really good at capitol allocation, owning over 85% of the value.
+This does not lend itself well to decentralized governance.
+
+Solution:
+Step 1 - The Chain
+Imagine a POS ZKP state machine, where the validators are blind to the state changes they are validating, and blind to who sent these transactions (using relayers).
+Essentially making all transactions indistinguishable one from the other. The state machine is either on and processing transactions or off.
+
+Step 2 - Governance
+Imagine a wallet that lets you choose the validators you trust. Enabling you to seamlessly interact with any protocol that has enough of your trusted validators.
+Going further, what if the users could select preferences for general chain governance. As to only use chains that follow from a set of preferred rule sets they are comfortable with. 
+
+Of course a wallet with good UX is crucial, providing users with a recommended trust setup which they can toggle. Perhaps big names in the space may have their trust setups copied with a one click ux while wallet prompts help with security.
+
+Protocols & liquidity are incentivized towards chains with the most users. This translates a user's trust threshold into a practical vote on governance. 
+
+Abstract summary:
+A democratic republic for the digital world, this setup lets each person have a vote in governance. As for how we know what’s human and what isn’t. The onus is on the validators, protocols, and liquidity to figure out where the users are. For it is in their best interest to do so. 
+
+Technical summary:
+Stake slashing, blind validation, reputational risk, and user side custom trust thresholds.","",""
+"848616398964260925","scarletssstarktitan","28/08/2023 1:38 am","sorry This channel is for people who actually want to dive deep into the theoretical concepts behind proof systems and enrich their understanding of what's going on under the hood.and  for those of us who aren't just satisfied to write Cairo code or be told our programs are being proven using ""ZK"".  if you are interested in starknet decentralization and governance which are under discussion welcome to discuss here https://community.starknet.io/t/tendermint-for-starknet/98248 thank you","","👍 (5)"
+"546166811658551306","jconn93","31/08/2023 3:30 am","Curious if anyone can help me understand storage proof use cases a bit better. Aside from x-chain, it seems like accessing historical chain data is a commonly touted use case. What I'm wondering is how to form a mental model for when I'd want to use storage proofs to access historical data vs when I'd want to use something more lightweight (maybe the graph as an example?)","",""
+"848616398964260925","scarletssstarktitan","31/08/2023 3:50 am","sorry ser, hope you can get more information from odin's twitter thread https://twitter.com/odin_free/status/1598602903580643329  and this docs https://starkware.medium.com/what-are-storage-proofs-and-how-can-they-improve-oracles-e0379108720a  thank you","",""
+"671682101468463125","sveamarcus","01/09/2023 11:22 am","Where can I learn more about the actual constraint and vanishing polynomials as used by Cairo AIR? I have read the whitepaper and section 9.10 list the constraints. I still would like to see how they relate to the program trace, program length (roots of unity) and how the polynomials are actually constructed. Any pointers?","",""
+"907981161534468146","wind.rider","01/09/2023 11:35 am","@money_singh sorry,ser,when you have time,could you pls check the above question?thank you🙏🏻","","🙏 (2)"
+"907981161534468146","wind.rider","01/09/2023 11:46 am","BTW,ser, i'm not sure if i can help, but Eli made a thread for the math theory behind STARK with a wealth of resources for you to check out, perhaps you could take a look at it first: https://twitter.com/EliBenSasson/status/1578380154476208131?s=20 , thank you","",""
+"671682101468463125","sveamarcus","01/09/2023 11:57 am","Yes, thanks I’ll check it out. I’ve seen the stark at home series and they are great. Read some of the papers referenced. What escapes me are the specifics of the Cairo AIR. The structure of the trace cells, their intervals and how they contribute to the composition polynomial.","",""
+"907981161534468146","wind.rider","01/09/2023 12:03 pm","i see, and sorry i know very little about the math behind it,pls wait for the reply, and thank you for your patience🤝","",""
+"875698741804417054","zhuozhuo2020","04/09/2023 2:22 pm","love stark","",""
+"906095871316348938","closer2282","04/09/2023 4:26 pm","Hi plz use #🕗｜gm-gn for random chats, thanks!","",""
+"511272055623122961","laurip","16/09/2023 3:31 am","Could ZK proofs be generated on-chain in Starknet? Does some project already do that?","",""
+"429096494713274369","0xcoburn","17/09/2023 12:37 am","I think garaga is the closest tool we have to generating actual zk proofs with snarks on starknet 
+cc @FeltroidPrime","",""
+"968060194212950056","madhav_28_","17/09/2023 12:36 pm","Hello Guys!. Can I am currently learning Rust. I am looking forward to learn ZKP. Can Anybody can share some resources  / e-books to learn it completely","","✅ (4)"
+"1080904300026404995","juttaandriana","22/09/2023 9:08 pm","the same","",""
+"968060194212950056","madhav_28_","22/09/2023 9:34 pm","We can connect then 😅","",""

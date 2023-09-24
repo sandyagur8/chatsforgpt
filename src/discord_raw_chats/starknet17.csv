@@ -1,0 +1,384 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"401041093786861578","joelzkrollupsxyz","16/01/2023 4:11 pm","Hello, so I ran the Papyrus node for fun and it's now fully synced and seems to be stable. 
+
+Some initial notes/comments: 
+
+- I compiled and ran the node but hit a papyrus_node does not exist error after boot. The node file does exist so not 100% sure whats going on may be user error.
+- The Docker method worked and was easy.
+- Sync time was varied but the full sync was somewhere in the 24-36hr range but I did need to shut down power a few times for expended periods (not node related)
+
+This is on a Lenovo M73 Tiny with i3, 8gb RAM and a 500gb SSD. Running Ubuntu 22.04 and on gigabit internet.","",""
+"906095871316348938","closer2282","16/01/2023 4:17 pm","Good job! May i ask the papyrus_node does not exist error still exist?","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 4:18 pm","I can try running the standard setup again in a while and let you know","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 4:31 pm","$ cargo run --release --package papyrus_node --bin papyrus_node
+    Finished release [optimized] target(s) in 0.88s
+     Running `target/release/papyrus_node`
+2023-01-16 10:56:33.213 INFO papyrus_node - Booting up.
+Error: No such file or directory","",""
+"906095871316348938","closer2282","16/01/2023 4:46 pm","Okay so the node is fully synced and running stably though comes to this error🤔","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 4:49 pm","Fully synced and running via docker but the ""cargo run --release --package papyrus_node --bin papyrus_node"" method has always thrown this error whether synced or not","",""
+"906095871316348938","closer2282","16/01/2023 4:58 pm","Got it! Maybe you can report the error on Github and i'll forward it to the team as well","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:01 pm","Shall do","",""
+"838342655153799199","lucasstarkware","16/01/2023 5:19 pm","How did you sync it ?","",""
+"838342655153799199","lucasstarkware","16/01/2023 5:24 pm","@joel  are you sure that you followed the steps of getting started ? (did you run  `mkdir data` in the papyrus folder)","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:30 pm","Everything was followed as written and I tried various fixes but it always brings up that error","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:30 pm","The Docker method worked just fine","",""
+"838342655153799199","lucasstarkware","16/01/2023 5:34 pm","can you run `ls` in your papyrus directory pls ?","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:37 pm","Hang on `mkdir data` in the Papyrus folder
+
+That was my error - I managed  to run `mkdir data` and then ran the code in there - I'm an idiot 🤦 
+
+Just ran `mkdir data` in the Papyrus folder and it started syncing","",""
+"838342655153799199","lucasstarkware","16/01/2023 5:38 pm","Alright cool, i'll fix the error message which is really bad","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:40 pm","Cool. I will leave the new one syncing and see how long that takes to get the full history,","",""
+"401041093786861578","joelzkrollupsxyz","16/01/2023 5:41 pm","Sorry for the fuss. Had a feeling it was user errror","",""
+"808705943595384852","pikkuherkko_","17/01/2023 6:21 pm","dumb question but how do I get the RpcProvider nodeURL for staknet.js app? I got papyrus running","",""
+"906095871316348938","closer2282","17/01/2023 8:19 pm","Hi you can check this article first
+https://medium.com/starkware/papyrus-an-open-source-starknet-full-node-396f7cd90202","",""
+"808705943595384852","pikkuherkko_","17/01/2023 8:27 pm","I can't see nodeUrl mentioned ser","",""
+"808705943595384852","pikkuherkko_","17/01/2023 8:32 pm","nevermind, I found the solution, http://localhost:8080 works","",""
+"801760034370355211","crypto_wild","18/01/2023 3:41 am","-v <local-host-data-path>:/app/data \","",""
+"801760034370355211","crypto_wild","18/01/2023 3:50 am","Okay I am done 😂","",""
+"401041093786861578","joelzkrollupsxyz","18/01/2023 3:24 pm","Update: compile and run method has fully synced and seems stable","",""
+"324496412618391552","zkpengu","05/02/2023 5:02 pm","right now i running the previous one","",""
+"324496412618391552","zkpengu","05/02/2023 5:03 pm","like that","https://cdn.discordapp.com/attachments/1064480095051448320/1071755380553687060/Ekran_Resmi_2023-02-05_14.33.08.png",""
+"324496412618391552","zkpengu","05/02/2023 5:03 pm","can i sync with papyrus","",""
+"906095871316348938","closer2282","05/02/2023 5:27 pm","From the pic, it’s undergoing","",""
+"324496412618391552","zkpengu","05/02/2023 5:45 pm","ok thanks","",""
+"414747051990188033","bombermine","17/02/2023 7:27 pm","Hi there! I made a simple guide on how to run the Papyrus node via systemd
+```
+apt update && apt -y upgrade && apt install git wget
+curl https://sh.rustup.rs -sSf | sh -s -- -y
+source ""$HOME/.cargo/env""
+
+cd $HOME
+git clone https://github.com/starkware-libs/papyrus
+
+cd papyrus
+cargo build --release --package papyrus_node --bin papyrus_node
+cp target/release/papyrus_node /usr/local/bin/
+
+mkdir -p $HOME/.papyrus/data
+
+wget -qO $HOME/.papyrus/config.yaml https://github.com/starkware-libs/papyrus/raw/main/config/config.yaml
+sed -i -e ""s%path: \./data.*%path: $HOME/.papyrus/data%"" $HOME/.papyrus/config.yaml
+
+printf ""[Unit]
+Description=StarkNet Papyrus node
+After=network.target
+
+[Service]
+User=$USER
+Type=simple
+ExecStart=$(which papyrus_node) --config_file $HOME/.papyrus/config.yaml
+Restart=on-failure
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target"" > /etc/systemd/system/papyrus-node.service
+
+systemctl daemon-reload
+systemctl enable papyrus-node
+systemctl restart papyrus-node
+
+# See logs
+journalctl -fu papyrus-node -o cat
+```","","👍 (10)"
+"765110460621127710","matrix6317","28/02/2023 6:56 am","Do we have public full node url to access the FullNodeClient debugging?","",""
+"906095871316348938","closer2282","28/02/2023 10:05 am","Hi maybe you can check the docs below, for both pathfinder and papyrus
+https://github.com/eqlabs/pathfinder
+https://github.com/starkware-libs/papyrus","",""
+"1009420164632154257","dale13#8688","02/03/2023 4:35 pm","Hey! Where I can find a tech requirements for the full node and why there is nothing about it on github tutorial?","",""
+"906095871316348938","closer2282","02/03/2023 4:43 pm","Hi you can check the messages from pathfinder team regarding hardware requirements 
+https://discord.com/channels/793094838509764618/948559061685796894/952279110795808778
+https://discord.com/channels/793094838509764618/948559061685796894/1046778826979557467
+https://discord.com/channels/793094838509764618/948559061685796894/1069877177073533038","",""
+"1009420164632154257","dale13#8688","02/03/2023 5:15 pm","Thanks!
+Where I can find info about third full node?
+I red announce of Papyrus and it sad that there are 3 full nodes for interacting with StarkNet
+I've found only two of them (Papyrus and Pathfinder)...","",""
+"1009420164632154257","dale13#8688","02/03/2023 5:15 pm",".","",""
+"907981161534468146","wind.rider","02/03/2023 5:16 pm","and Juno,ser, it's still being built:https://github.com/NethermindEth/juno pls be patient and follow the #🧭｜juno-101  channel, thank you","",""
+"1009420164632154257","dale13#8688","02/03/2023 5:21 pm","ow, ok)
+And just an propouse to your moderatos - to pin messages like github guide and announce for papyrus to this chat - it'd be helpful and people would not just scroll up all channel and would not (probably)) ask more questions!
+
+Thank you ser!","",""
+"907981161534468146","wind.rider","02/03/2023 5:24 pm","thank you for the suggestion ser🙏🏻 , actually we have pinned to the #✨｜starknet ,if you don't mind,pls check: https://discord.com/channels/793094838509764618/853954510515208192/975285496349605898 thank you😀","",""
+"1009420164632154257","dale13#8688","02/03/2023 7:05 pm","Got it!","","🙏🏻 (2)"
+"324314012735242260","caucasian","14/03/2023 3:50 am","hey, is there any tutorial regardin settin node up for noobs?","",""
+"848616398964260925","scarletssstarktitan","14/03/2023 4:13 am","check this message thanks https://discord.com/channels/793094838509764618/1064480095051448320/1076140299048472586","",""
+"636148842236084264","vebster88","19/03/2023 1:56 pm","hi frens! Fulled the node's disk. How i can clear some space safety?
+I want to get more space","",""
+"636148842236084264","vebster88","19/03/2023 1:56 pm","how much disk space starknet node needs?","",""
+"906095871316348938","closer2282","19/03/2023 2:51 pm","Hi may i ask are you using pathfinder or papyrus? You can ask in #🛰｜pathfinder-support-only if it's pathfinder","",""
+"422807049555148800","nirnaeth.","20/03/2023 2:26 am","I got stuck here while syncing for couple of hours
+```2023-03-19T20:12:56.832973Z  INFO Added block 499 with hash 0x02cff71576f656a3d3a0e42ccfa93966699be4bf7839c9a775657ed9c381be74.
+2023-03-19T20:24:21.954812Z  INFO Added block 500 with hash 0x06d741ffa6247621cb4c0bfb812506dffa921259bff27d1fce4f5a29c3d630f1.
+2023-03-19T20:34:16.861322Z  INFO Added block 501 with hash 0x000488ad3d64d8f0a677c26ad8332cea0e2de60d20b31dea9dba065f775ee207.
+2023-03-19T20:44:38.836622Z  INFO Added block 502 with hash 0x06ee30ac7b9f7d8d854263c3d1c135305639ee725023b50d33b3bae6b719f114.
+2023-03-19T20:50:14.924314Z  WARN error sending request for url (https://alpha-mainnet.starknet.io/feeder_gateway/get_class_by_hash?classHash=0x2c3348ad109f7f3967df6494b3c48741d61675d9a7915b265aa7101a631dc33): connection error: Connection reset by peer (os error 104)
+```","",""
+"636148842236084264","vebster88","20/03/2023 11:32 pm","I made with Nodes.guru guide. I don't know what type they used😅","",""
+"848616398964260925","scarletssstarktitan","20/03/2023 11:35 pm","then pls get help in #🛰｜pathfinder-support-only thanks ser","",""
+"636148842236084264","vebster88","20/03/2023 11:40 pm","ok,thx","","👍 (4)"
+"422807049555148800","nirnaeth.","21/03/2023 2:23 am","Hi. How can a full node identified by the starknet on the network. Is there any node id or something or identified by ip?","",""
+"848616398964260925","scarletssstarktitan","21/03/2023 2:28 am","sorry ser i am not team member from the pathfinder  team pls hope this docs is helpful https://mirror.xyz/dzupp.eth/8HfjYCkbid2vlayxyPtSD9_wtb9a-wHb1uOENsAOwng thanks","",""
+"422807049555148800","nirnaeth.","21/03/2023 2:29 am","my question is for all kind of full nodes","",""
+"848616398964260925","scarletssstarktitan","21/03/2023 3:26 am","https://github.com/eqlabs/pathfinder hi this docs need you to read to better understand how full node work thanks","",""
+"888280505173291019","Emmanueljr#1360","21/03/2023 11:49 am","Am new here I want to run a node how do I start ?","",""
+"907981161534468146","wind.rider","21/03/2023 12:25 pm","about pathfinder,pls check scarlet's reply above,and pls use this channel #🛰｜pathfinder-support-only ,about papyrus,pls check: https://www.starknet.io/en/posts/engineering/papyrus-an-opensource-starknet-full-node and https://github.com/starkware-libs/papyrus#running-papyrus-with-docker thank you","",""
+"422807049555148800","nirnaeth.","21/03/2023 1:26 pm","How should we update papyrus? Which branch should we checkout? I dont see any announcement about new versions anywhere?","",""
+"907981161534468146","wind.rider","21/03/2023 1:29 pm","It‘s still under development,ser, if there is a new version update, you will see it in the corresponding releases in github, in addition I suppose if there is a necessity, the papyrus team will do further updates to the doc in the future, pls wait patiently, thank you🤝","",""
+"422807049555148800","nirnaeth.","21/03/2023 1:30 pm","Thanks for your answer trying to support them by running node","","🙏🏻 (2)"
+"641028755548012555","ferreira7668","30/03/2023 2:29 am","where can i create a ticket?","",""
+"641028755548012555","ferreira7668","30/03/2023 2:29 am","I need help","",""
+"848616398964260925","scarletssstarktitan","30/03/2023 2:36 am","may i ask what is about ? thanks","",""
+"641028755548012555","ferreira7668","30/03/2023 2:37 am","I had some funds on Argent X and they are gone @scarlet(σ, σ) | StarkTitan","",""
+"848616398964260925","scarletssstarktitan","30/03/2023 2:39 am","pls join in argent discord for consulting with https://discord.gg/T4PDFHxm6T thanks","",""
+"641028755548012555","ferreira7668","30/03/2023 2:40 am","can you see my last message?","",""
+"848616398964260925","scarletssstarktitan","30/03/2023 2:41 am","what do you the funds is gone ?","",""
+"641028755548012555","ferreira7668","30/03/2023 2:41 am","nop","",""
+"641028755548012555","ferreira7668","30/03/2023 2:41 am","i sent another but has some blocked content i dont know why","",""
+"641028755548012555","ferreira7668","30/03/2023 2:42 am","admins should see it","",""
+"848616398964260925","scarletssstarktitan","30/03/2023 2:42 am","if it is about bridge pls here #🌉｜starkgate","",""
+"641028755548012555","ferreira7668","30/03/2023 2:42 am","i sent you via private message","","✅ (2)"
+"422807049555148800","nirnaeth.","31/03/2023 11:34 am","hello, I just updated papyrus node with
+```git checkout main
+git pull```
+after compilation when I start papyrus again I get:
+```Mar 31 09:01:15 nirneth-arnoediad systemd[1]: Started StarkNet Papyrus node.
+Mar 31 09:01:15 nirneth-arnoediad papyrus_node[4082]: 2023-03-31T06:01:15.860434Z  INFO Booting up.
+Mar 31 09:01:15 nirneth-arnoediad papyrus_node[4082]: 2023-03-31T06:01:15.861497Z  INFO Gateway is running. local_address=0.0.0.0:8080
+Mar 31 09:01:15 nirneth-arnoediad papyrus_node[4082]: 2023-03-31T06:01:15.861565Z  INFO Monitoring gateway is running. local_address=0.0.0.0:8081
+Mar 31 09:01:15 nirneth-arnoediad papyrus_node[4082]: 2023-03-31T06:01:15.935490Z  INFO State sync started.
+Mar 31 09:01:16 nirneth-arnoediad papyrus_node[4082]: 2023-03-31T06:01:16.255579Z  INFO Reverting block 14154532153848758271.
+Mar 31 09:01:16 nirneth-arnoediad papyrus_node[4082]: thread 'tokio-runtime-worker' panicked at 'Missing header for block {block_number}.', crates/papyrus_storage/src/header.rs:105:14
+Mar 31 09:01:16 nirneth-arnoediad papyrus_node[4082]: note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Mar 31 09:01:16 nirneth-arnoediad papyrus_node[4082]: Error: task 13 panicked
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: papyrus-node.service: Main process exited, code=exited, status=1/FAILURE
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: papyrus-node.service: Failed with result 'exit-code'.
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: papyrus-node.service: Scheduled restart job, restart counter is at 5.
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: Stopped StarkNet Papyrus node.
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: papyrus-node.service: Start request repeated too quickly.
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: papyrus-node.service: Failed with result 'exit-code'.
+Mar 31 09:01:16 nirneth-arnoediad systemd[1]: Failed to start StarkNet Papyrus node.
+```","",""
+"422807049555148800","nirnaeth.","31/03/2023 8:45 pm","Is there any papyrus developer here @scarlet(σ, σ) | StarkTitan or should I create issue on github","",""
+"848616398964260925","scarletssstarktitan","31/03/2023 8:56 pm","hmmm, i think you should follow github to check if there is new update ?thanks","",""
+"422807049555148800","nirnaeth.","31/03/2023 9:03 pm","I already did error came after update","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:04 pm","I have the same error ... I think we need to resync","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:04 pm","This commit is changing the endianness https://github.com/starkware-libs/papyrus/commit/55f7099bf792e55999d5756a51c8bc2ad8070d5c","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:27 pm","Yes ... if you convert the endianness for 14154532153848758271  you will get 28612. This is exactly the block where the node crashed","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:27 pm","for me at least","",""
+"422807049555148800","nirnaeth.","01/04/2023 3:28 pm","Same block for me too I believe. Yeap I checked in my screenshot exactly same spot
+
+https://github.com/starkware-libs/papyrus/issues/579","",""
+"422807049555148800","nirnaeth.","01/04/2023 3:30 pm","Looks like a brakechanging commit we should wipe like you said","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:30 pm","yeah I am resyncing  rn","",""
+"805143631891529729","0xmoonwalker","01/04/2023 3:31 pm","but it's slow as you know 🙂","","✅ (3)"
+"422807049555148800","nirnaeth.","07/04/2023 11:39 am","I have a recent snapshot if you need","",""
+"950845066086350939","glihm","09/04/2023 8:32 pm","Hello there, I am syncing my first papyrus node in mainnet, but unable to sync in testnet with chain Id SN_GOERLI.. I have a too many request error or a serveur error 500.
+(I also updated the starknet.io url accordingly.
+Any idea 💡? Or it’s just a temporary problem of the main server? Anyone running testnet node with papyrus?
+(Ubuntu 22.04 papyrus release compiled)","",""
+"950845066086350939","glihm","10/04/2023 6:47 am","Some feedback for the papyrus team (if any of them is present here):
+
+Papyrus release build from repo at commit: `1d791aaa`
+Mainnet sync: `24 hours` -> `4500 blocks` synced.
+
+- ubuntu 22.04
+- 4 vCPUs dedicated  AMD EPYC 7281 (2.1 GHz)
+- 8 GB RAM
+- 600 Mbps","",""
+"406096547223175181","katunari08","10/04/2023 10:18 pm","I followed the setup instructions to run node. However, even though I was able to connect locally, I can't connect with the server IP. Any probable cause?
+
+By the way, I'm using a MacBook.","",""
+"985556893311328286","amulu","12/04/2023 5:24 am","Guys somebody pls share the how to node setup article or video","",""
+"848616398964260925","scarletssstarktitan","12/04/2023 5:28 am","replied you here ser pls have a check thanks https://discord.com/channels/793094838509764618/948559061685796894/1095498075079966900","",""
+"1063955038638186527","Fil#2066","12/04/2023 11:38 pm","Hello, I'm sorry if I'm writing in the wrong place! Can you tell me when the Strk coin will be released?","",""
+"848616398964260925","scarletssstarktitan","12/04/2023 11:40 pm","pls check details here #🐺｜starknet-token and use the #🐺｜token-discussion  to discuss that thanks","",""
+"1063955038638186527","Fil#2066","12/04/2023 11:41 pm","Thanks 👍","",""
+"388642728235237386","dvlaviosin","14/04/2023 5:47 pm","when i can find info about update node v.0.5.3?","","✅ (8)"
+"907981161534468146","wind.rider","30/04/2023 8:19 am","Sorry ser🙏🏻 , didn't get the point , could you pls give more detail?","",""
+"855486862398324736","shmink.eth","02/05/2023 7:09 pm","any idea how to fix?","https://cdn.discordapp.com/attachments/1064480095051448320/1102952449104412735/image.png",""
+"907981161534468146","wind.rider","02/05/2023 7:11 pm","for pathfinder issue pls use #🛰｜pathfinder-support-only ,thank you,ser","","👍 (2)"
+"932730814121246740","Andrewke#1242","03/05/2023 10:03 pm","@Wind Rider | StarkTitanhi sir any update after 0.53v updates?","",""
+"848616398964260925","scarletssstarktitan","03/05/2023 10:13 pm","sorry you mean pathfinder or papyrus ? thanks ser","",""
+"932730814121246740","Andrewke#1242","04/05/2023 12:48 am","@scarlet(σ, σ) | StarkTitani mean about node update","",""
+"848616398964260925","scarletssstarktitan","04/05/2023 12:50 am","Yes. I know ser if you mean pathfinder pls get support in #🛰｜pathfinder-support-only  thanks ser 🙏🏻","",""
+"857181354147184652","sternpaul","16/05/2023 8:08 pm","Does anybody have a up to date papyrus snapshot?","",""
+"857181354147184652","sternpaul","16/05/2023 8:09 pm","Yes? Its papyrus related. Do you might have a snapshot for me?","",""
+"848616398964260925","scarletssstarktitan","16/05/2023 8:11 pm","sorry , correct channel ,pls wait for the papyrus team on line and help you thanks ser","",""
+"901764293391949884","zenohabib","19/05/2023 10:41 pm","I just start my node on testnet to help the validators just i want to know if the node straknet i still on the testnet or finished??","",""
+"967413281742540871","SeekerTheUnseen#6583","22/05/2023 8:05 pm","what is the latest node version right now? papyrus?","",""
+"848616398964260925","scarletssstarktitan","22/05/2023 8:06 pm","i think here ser https://github.com/starkware-libs/papyrus thank you","https://cdn.discordapp.com/attachments/1064480095051448320/1110214586222776452/image.png",""
+"967413281742540871","SeekerTheUnseen#6583","22/05/2023 8:13 pm","thank you scarlett.","","🙏🏻 (2)"
+"939073769476091934","kyra9260","23/05/2023 9:57 am","Hello, Starknet team, I have an invitation for a Twitter Space, who can I contact about this?","",""
+"907981161534468146","wind.rider","23/05/2023 10:18 am","sorry,ser,for general questions pls use #🐼｜general-chat ,if you want to contact the team, pls use the following email: info@starkware.co, thank you🤝","",""
+"939073769476091934","kyra9260","23/05/2023 11:54 am","thank you","","🙏🏻 (2)"
+"907154697863974954","freedom0748","23/05/2023 12:39 pm","https://github.com/eqlabs/pathfinder
+I set up the node in this way
+Can nodes be accessed this way:
+
+http://0.0.0.0:9545/feeder_gateway/get_block?blockNumber=latest","",""
+"907981161534468146","wind.rider","23/05/2023 12:40 pm","i'm sorry,ser,this channel is for papyrus,if you need pathfinder support,pls use #🛰｜pathfinder-support-only ,thank you","",""
+"422807049555148800","nirnaeth.","30/05/2023 5:55 pm","after updating papyrus repo, current db can not be used anymore so I had to wipe and sync from start","",""
+"1060834641390604338","anubhav004","31/05/2023 9:22 pm","help me im getting error while downloading putty software","",""
+"907981161534468146","wind.rider","01/06/2023 9:37 am","ser,for pathfinder issue pls use #🛰｜pathfinder-support-only ,thank you","",""
+"968878284177834024","PGMelor#2804","05/06/2023 1:41 pm","can i send transaction to papyrus","",""
+"968878284177834024","PGMelor#2804","05/06/2023 1:41 pm","I remember that papyrus could not process transactions","",""
+"785929845607497761","shredder656","09/06/2023 6:02 am","how can i tell which node i am running lol","",""
+"700650371344891935","syphilis6688","09/06/2023 3:46 pm","If you are running a Starknet node, you can use the command 'docker ps' in your terminal. This will provide you with the name of the Docker image corresponding to the node you are using (either Pa thfinder or Papyrus)","",""
+"785929845607497761","shredder656","10/06/2023 2:43 am","sorry if u dont mind how can i enter my terminal","",""
+"785929845607497761","shredder656","10/06/2023 2:43 am","cd starknet node? lol","",""
+"700650371344891935","syphilis6688","10/06/2023 6:52 am","In the terminal on your VPS 🙂","","✅ (1)"
+"848616398964260925","scarletssstarktitan","13/06/2023 5:12 am","it is the 2nd time you ask the same question ser, plz check this answer https://discord.com/channels/793094838509764618/932633376563802152/1116390251250851860 thank you","",""
+"968180188846370856","wraith9888","21/06/2023 2:44 am","Hello! My friend can’t join Starknet discord group. Who can help him with this? Community forum is silent","",""
+"848616398964260925","scarletssstarktitan","21/06/2023 2:47 am","replied you here https://discord.com/channels/793094838509764618/893514287887294526/1120824525349716048  thank you","",""
+"218935358878908416",".bfs","21/06/2023 9:22 pm","Hi, I'm looking for an email/contact info for vulnerability disclosure for Papyrus. The security readme seems to only point to github discussions, and I don't think papyrus is covered by Starkware's Immunefi program","",""
+"906095871316348938","closer2282","21/06/2023 9:51 pm","Hi may I ask do you want to report vulnerability disclosure of Papyrus?","",""
+"218935358878908416",".bfs","21/06/2023 10:04 pm","yes","",""
+"906095871316348938","closer2282","21/06/2023 10:13 pm","Let me check with the team and will get back to you asap","","👍 (1)"
+"906095871316348938","closer2282","21/06/2023 10:40 pm","Fyi you can reach out to haim@starkware.co, our head of security","",""
+"218935358878908416",".bfs","21/06/2023 10:42 pm","thanks","",""
+"848616398964260925","scarletssstarktitan","21/06/2023 11:51 pm","Security@starkware.co   pls email  thank you","",""
+"1036423341441028116","jackx29ava","01/07/2023 12:31 am","where node feedback?","",""
+"848616398964260925","scarletssstarktitan","01/07/2023 12:32 am","which node client you following ser","",""
+"1036423341441028116","jackx29ava","01/07/2023 12:32 am","docker","",""
+"848616398964260925","scarletssstarktitan","01/07/2023 12:33 am","hmm ,i guess #🛰｜pathfinder-support-only  pls","",""
+"1036423341441028116","jackx29ava","01/07/2023 12:33 am","let's try","",""
+"1018764048675917874","marcginale.","01/07/2023 4:00 am","How do I know if my NODE is working perfectly? some command?","",""
+"848616398964260925","scarletssstarktitan","01/07/2023 4:08 am","which node client you are following ser pathfinder or papyrus , if pathfinder pls  check this msg https://discord.com/channels/793094838509764618/948559061685796894/1117096189385515150  thank you","",""
+"1018764048675917874","marcginale.","02/07/2023 3:18 am","Should you not use any of those?","",""
+"848616398964260925","scarletssstarktitan","02/07/2023 3:22 am","sorry i did not run any of this ,thank you","",""
+"837264957757456404","igotpaidwithcrypto","04/07/2023 2:14 am","Hello . I'm having issues with my node ..","",""
+"906095871316348938","closer2282","04/07/2023 9:45 am","Hi you need to post details here, i.e. screenshot or error codes","",""
+"837264957757456404","igotpaidwithcrypto","04/07/2023 10:36 am","Here it is ... The dashboard is null .","https://cdn.discordapp.com/attachments/1064480095051448320/1125653778977275965/IMG_20230703_160620_647.jpg",""
+"906095871316348938","closer2282","04/07/2023 12:53 pm","Are you using pathfinder? If so you need to ask in #🛰｜pathfinder-support-only","",""
+"837264957757456404","igotpaidwithcrypto","04/07/2023 7:26 pm","I had to destroy my server , I was tired of trouble shooting ...I need to reinstall all over again . where can I get the guide or commands .","","✅ (1)"
+"250959674722091009","deeqoo {rex}#0275","04/07/2023 9:18 pm","hi guys, I think i saw announcment the other day about extention of week 8 but don't see it anymore, am i just imagining or there was one","",""
+"848616398964260925","scarletssstarktitan","04/07/2023 9:21 pm","sorry i guess u mean the argent week 8 activity? if so ,pls get details in argent discord  ,here is channel only for papyrus nodes runner to get support thank you","",""
+"250959674722091009","deeqoo {rex}#0275","04/07/2023 9:24 pm","probably right, must have deleted that channel cuz its not coming up wen i search","",""
+"250959674722091009","deeqoo {rex}#0275","04/07/2023 9:25 pm","is there some good tutorial on how to set up nodes by the way?","",""
+"848616398964260925","scarletssstarktitan","04/07/2023 9:26 pm","yes pls read part 2 of this details  https://discord.com/channels/793094838509764618/853954510515208192/975285496349605898 thank you","",""
+"250959674722091009","deeqoo {rex}#0275","04/07/2023 9:27 pm","Thanks","","🙏🏻 (1)"
+"1018764048675917874","marcginale.","07/07/2023 3:49 am","I ran my node with an Alchemy app, I usually have 100 requests daily, for 2 days I only have 5, it seems that my node has stopped working properly, if I reinstall my node, let's say I lose track of everything it has done all this time it was working?","",""
+"848616398964260925","scarletssstarktitan","07/07/2023 3:56 am","sorry ser, if you running papyrus node ,pls wait for the team online to help you ,if you running #🛰｜pathfinder-support-only  get support there thank you","",""
+"797531841858371594","jitendra#8443","08/07/2023 12:23 pm","How to solve this issue","https://cdn.discordapp.com/attachments/1064480095051448320/1127130421340156005/rn_image_picker_lib_temp_4cc3d047-98c3-406d-8050-38ee4bc354e5.jpg",""
+"797531841858371594","jitendra#8443","08/07/2023 12:24 pm","@scarlet(σ, σ) | StarkTitan","",""
+"907981161534468146","wind.rider","08/07/2023 12:26 pm","Ser, may I ask if you are running papyrus?","",""
+"452345105026908161","hoaibao47","11/07/2023 1:32 pm","should close node for testnet and run mainnet?","",""
+"906095871316348938","closer2282","11/07/2023 8:41 pm","Hi you can use #🛰｜pathfinder-support-only if you run nodes upon it","",""
+"105882685737590784","ninja342","14/07/2023 10:21 pm","What are the system requirements for Papyrus and what is the current size?","",""
+"105882685737590784","ninja342","14/07/2023 10:23 pm","Is there any snapshot available for fast synchronization?","",""
+"422807049555148800","nirnaeth.","16/07/2023 2:40 pm","after every update I had to wipe db because it will not compitable to new versions. how long it will take to a stable db pattern with no wipe necessary after updates?","",""
+"421048829337534476","revizo","16/07/2023 7:46 pm","Is there a command to see the papyrus logs ?","",""
+"798146024732229642","godspeedpl","16/07/2023 11:22 pm","anyone had this issue? is there a way to supply URL again now ?","https://cdn.discordapp.com/attachments/1064480095051448320/1130195362087456838/Zrzut_ekranu_2023-07-16_o_19.46.45.png",""
+"888274042837172255","skyrock4283","17/07/2023 6:25 am","is papyrus a full node with sequencer right now?","",""
+"848616398964260925","scarletssstarktitan","17/07/2023 6:29 am","Papyrus is a StarkNet full node written in Rust.ser","",""
+"835196952529731605","Marsvikings ∎#5090","17/07/2023 1:25 pm","Hello everyone, is there a guide for dummies like my self on how to run a node?","",""
+"460883620480024577","0xliberato","19/07/2023 7:23 am","is possible to run a node for mainnet or only testnet on papyrus?","","✅ (3)"
+"422807049555148800","nirnaeth.","21/07/2023 11:04 pm","You may run on any of them","",""
+"852630726805028865","chets777","26/07/2023 12:04 am","Hey guys my node stopped since evening… what to do upgrade or restart?","",""
+"852630726805028865","chets777","26/07/2023 12:04 am","","https://cdn.discordapp.com/attachments/1064480095051448320/1133467235348918402/F631B898-3AF7-4F2C-9ADB-8E6CC6493CBB.jpg",""
+"852630726805028865","chets777","26/07/2023 4:07 pm","Anyone there to help ??? Any mod e?","",""
+"1007185487536078871","MEEÊ6#0123","26/07/2023 4:09 pm","What browser interface do you use @chets777 | Full Force ?","",""
+"852630726805028865","chets777","26/07/2023 4:25 pm","Chrome","",""
+"852630726805028865","chets777","26/07/2023 4:25 pm","I just ran node before 3-4 days","",""
+"852630726805028865","chets777","26/07/2023 4:43 pm","Is there any trouble shoot ??","",""
+"1053360535309144154","ngatuyet94","26/07/2023 8:14 pm","Why be like this. when i opened it synced to 837604 block. Please help me get rid of this warning","https://cdn.discordapp.com/attachments/1064480095051448320/1133771755006206095/image.png",""
+"848616398964260925","scarletssstarktitan","26/07/2023 8:18 pm","sorry ser if you follow the pathfinder client , pls wait for the team on line and support you in #🛰｜pathfinder-support-only  thank you","",""
+"1053360535309144154","ngatuyet94","26/07/2023 8:20 pm","OK thank you very much. I will wait","","🙏🏻 (1)"
+"1053360535309144154","ngatuyet94","26/07/2023 8:25 pm","so should i continue another application or should i stop and wait for help. I tried to fix it but failed many times","",""
+"932730814121246740","Andrewke#1242","27/07/2023 12:26 am","@Wind Rider | StarkTitanHi mate, wanna ask does have a chance node runers on minnet gets some OAP or POAP NFT like reward ?","",""
+"907981161534468146","wind.rider","27/07/2023 5:59 am","Sorry ser, there are no rewards for running nodes, it's for development and educational purposes,thank you","",""
+"942489861527584770",".jhilmil","28/07/2023 1:59 pm","sir i need help","",""
+"907981161534468146","wind.rider","28/07/2023 1:59 pm","sorry,ser,what can i do for you?","",""
+"942489861527584770",".jhilmil","28/07/2023 2:01 pm","sir what is latest version","",""
+"942489861527584770",".jhilmil","28/07/2023 2:02 pm","node version","",""
+"907981161534468146","wind.rider","28/07/2023 2:04 pm","Sorry ser,but what node client are you running?","",""
+"942489861527584770",".jhilmil","28/07/2023 2:07 pm","","https://cdn.discordapp.com/attachments/1064480095051448320/1134404201024340088/Screenshot_2023-07-28_140634.png",""
+"907981161534468146","wind.rider","28/07/2023 2:10 pm","Sorry ser, you are running pathfinder and this channel is for papyrus, I have replied to you at #🛰｜pathfinder-support-only , please check it out, thx🙏🏻","",""
+"422807049555148800","nirnaeth.","10/08/2023 3:59 am","after updated to latest docker version I got this error ```2023-08-09T22:28:30.221088Z  INFO Booting up.
+2023-08-09T22:28:30.562573Z  INFO Gateway is running. local_address=0.0.0.0:8080
+Error: Base layer source creation error: No base layer node url was provided. You must override the config value ""base_layer.node_url"".
+```","",""
+"331460997086969867","warscoming","16/08/2023 4:20 pm","hey guys just wanted to leave a trace as I encountered an openssl issue building from source, make sure you have libssl-dev and pkg-config installed","",""
+"331460997086969867","warscoming","16/08/2023 4:41 pm","any snapshots fot goerli going around ?","",""
+"387262209358561280","jeromeh","17/08/2023 6:59 pm","my .sqlite is full
+how to manage that
+I put 200 go for space
+and it is full.","https://cdn.discordapp.com/attachments/1064480095051448320/1141725615297409135/Capture_decran_du_2023-08-17_15-16-40.png",""
+"871900142930886719","mabera","20/08/2023 10:41 am","How do I update my node pls","",""
+"1033802876587352104","bodik4612","25/08/2023 12:52 am","pls check the pinned message about how to update thanks ser","",""
+"184029459593166849","kenrom","07/09/2023 3:05 am","i got this mess when trying to update my node","https://cdn.discordapp.com/attachments/1064480095051448320/1149095604069339196/image.png",""
+"848616398964260925","scarletssstarktitan","07/09/2023 3:07 am","i guess you are running #🛰｜pathfinder-support-only pls get help there , and check pin message there about update thank you","",""
+"184029459593166849","kenrom","07/09/2023 3:08 am","sry","","👍 (1)"
+"968878284177834024","PGMelor#2804","11/09/2023 12:38 pm","i cannot pull","https://cdn.discordapp.com/attachments/1064480095051448320/1150689353434136586/image.png",""
+"968878284177834024","PGMelor#2804","11/09/2023 12:40 pm","unable to find  papyrus image","",""
+"871900142930886719","mabera","11/09/2023 4:09 pm","Good morning sirs. 
+
+Please my node stop working despite my VPS is still active what could be the cause please 🥺🙏🏾","https://cdn.discordapp.com/attachments/1064480095051448320/1150742421852921997/20230911_113249.jpg",""
+"865877630733123594","jacketchen","12/09/2023 9:30 am","I also encountered the same problem, can you help me solve it?","",""
+"1105394558155628605","RuthWalker | X#3769","12/09/2023 3:21 pm","Kindly send a clearer description of the issue or code error you’re having","",""
+"865877630733123594","jacketchen","13/09/2023 9:43 am","@CM Walker | 🛩 X💰","https://cdn.discordapp.com/attachments/1064480095051448320/1151370113539379260/mmexport1694490789311.png",""
+"1105394558155628605","RuthWalker | X#3769","13/09/2023 5:13 pm","I will check it out, the n get back to you","",""
+"865877630733123594","jacketchen","13/09/2023 7:49 pm","@CM Walker | 🛩 X💰ok thanks","",""
+"1105394558155628605","RuthWalker | X#3769","13/09/2023 8:15 pm","Send the rest of the code","",""
+"728163389968351242","westsina","14/09/2023 4:42 am","Hi,mate. When I run papyrus node, I got the following error:
+
+[root@localhost papyrus]# target/release/papyrus_node
+Error: missing field `node_url`
+
+The same error happened when I run it from docker. Does anyone know what's the problem?","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 3:00 pm","Ser send a full screenshot of the error code you’re getting, let’s see what we can do about it","",""
+"865877630733123594","jacketchen","14/09/2023 7:54 pm","@CM Walker | 🛩 X💰","https://cdn.discordapp.com/attachments/1064480095051448320/1151886319421751368/image.png",""
+"865877630733123594","jacketchen","14/09/2023 7:56 pm","I have sent you screenshots of all the codes. I tried to run the following command to install the node: docker run --rm --name papyrus\
+  -p 8080-8081:8080-8081 \
+  -v /app/data:/app/data \
+  ghcr.io/starkware-libs/papyrus:dev@CM Walker | 🛩 X💰","",""
+"865877630733123594","jacketchen","14/09/2023 7:57 pm","But an error message appeared: Pulling renositery gher.io/starkwareibs/papyr/usr/bin/docker-current: Error: imagestarkware-libs/papyrus:dev not found","",""
+"865877630733123594","jacketchen","14/09/2023 7:57 pm","Just like the content in the screenshot, he prompted that the file ""ghcr.io/starkware-libs/papyrus:dev"" was not found.","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 9:39 pm","There are a few issues with the provided code:
+
+1. The image name in the `docker run` command is misspelled as `ghcr.io/starkware-libs/papyrus:dev`. It should be `ghcr.io/starkware-libs/papyrus`.
+
+2. The repository URL in the error message is spelled as `ahcr.io/starkware-libs/papyrus`. It should be `ghcr.io/starkware-libs/papyrus`.
+
+3. The options `-name papyrus` and `locallv` do not have any meaning in the context of the `docker run` command and should be removed.","",""
+"1105394558155628605","RuthWalker | X#3769","14/09/2023 9:39 pm","To fix the issues, the correct command should look like:
+
+```bash
+docker run --rm ghcr.io/starkware-libs/papyrus:dev
+```
+
+This will try to pull the `ghcr.io/starkware-libs/papyrus:dev` image and run it.","","👍 (1)"
+"865877630733123594","jacketchen","15/09/2023 9:39 pm","@CM Walker | 🛩 X💰ok i will try","",""
+"1105394558155628605","RuthWalker | X#3769","16/09/2023 5:25 pm","Let’s know your result as soon as you’re done","",""
+"865877630733123594","jacketchen","16/09/2023 5:32 pm","@CM Walker | 🛩 X💰Still not working, the method you provided still reported an error, indicating that ghcr.io/starkware-libs/papyrus:de cannot be found.","",""
+"1105394558155628605","RuthWalker | X#3769","16/09/2023 5:36 pm","Send the new code error you got","",""
+"968878284177834024","PGMelor#2804","16/09/2023 6:19 pm","i run the command like 
+docker run --rm --name papyrus  -p 8080-8081:8080-8081   -v /app/papyrus:/app/data  ghcr.io/starkware-libs/papyrus:dev
+but cannot find the image","https://cdn.discordapp.com/attachments/1064480095051448320/1152587035484368956/image.png",""
+"968878284177834024","PGMelor#2804","16/09/2023 6:27 pm","@CM Walker | 🛩 X💰can you help","",""
+"1105394558155628605","RuthWalker | X#3769","16/09/2023 6:29 pm","Hold on I will get back to you shortly","",""
+"1105394558155628605","RuthWalker | X#3769","17/09/2023 10:27 am","The error is occurring because the Docker image 'ghcr.io/starkware-libs/papyrus:dev' could not be found locally. It indicates that the Docker engine is unable to pull the image from the specified repository. This could be due to various reasons such as network connectivity issues, incorrect image name or repository, or insufficient permissions.
+
+@PGMelor @看领爸","",""
+"1105394558155628605","RuthWalker | X#3769","17/09/2023 10:28 am","To fix this error, you can try the following steps:
+
+1. Check your internet connection and ensure that you have access to the repository 'ghcr.io/starkware-libs/papyrus:dev'. You can try accessing the repository in your web browser to verify if it is accessible.
+
+2. Verify the correctness of the image name and repository. Make sure you have entered the correct name and spelled it correctly.
+
+3. Ensure that you have the necessary permissions to pull the image from the specified repository. Some repositories require authentication or access tokens to pull the images. Check the documentation of the repository to see if any additional authentication is required.
+
+4. It's also possible that the image you are trying to pull does not exist in the specified repository. Double-check if the image 'ghcr.io/starkware-libs/papyrus:dev' is indeed available in the repository.","",""
+"1105394558155628605","RuthWalker | X#3769","17/09/2023 10:30 am","If you are using a private repository, make sure you have added the necessary credentials or access tokens to authenticate and pull the image. You can try logging into the repository using the Docker command `docker login ghcr.io` and providing valid credentials.
+
+6. If you are behind a proxy or firewall, ensure that Docker is configured correctly to work with the proxy. You can check Docker's documentation to see how to configure the proxy settings.
+
+7. Restart your Docker daemon. Sometimes restarting the Docker service can resolve networking or caching issues.","",""
+"865877630733123594","jacketchen","19/09/2023 2:26 pm","@CM Walker | 🛩 X💰ok  i check","",""
+"865877630733123594","jacketchen","19/09/2023 2:26 pm","thank you","",""
+"1080043546075213834","almas73","20/09/2023 8:59 am","Hello! I have installed and tested the Starknet node since March or April of this year. Now the application associated with my node has been deleted in my Alchemy account. And I can't monitor the operation of the node. The status of the node on the server is active and working. Please help me solve this problem!","",""

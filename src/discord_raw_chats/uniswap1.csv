@@ -1,0 +1,636 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"471357824299958273","crypto_rachel","27/10/2022 12:43 am","First 🥳","","❤️‍🔥 (3),🦄 (2),flyingunicorn (2),Uni (2),RunningUnicorn (2)"
+"149735676278079488","austino256","27/10/2022 12:48 am","@Crypto_Rachel, @Sara 🦄, and I are working on some secret community alpha right now!","","👀 (3),flyingunicorn (1),RunningUnicorn (1),🤫 (1)"
+"146493981377691649","ccplogibro","27/10/2022 2:06 am","I may be working on something 👀","",""
+"989275482488983663","AnthonyNicholas#4331","27/10/2022 2:10 am","👀","",""
+"989275482488983663","AnthonyNicholas#4331","27/10/2022 2:11 am","Hey @david, we created this new channel for developers to share their projects 🙂","",""
+"808440358845284422","david_23s5","27/10/2022 7:17 pm","Thanks Anthony! Will drop what we've been building 🙂","","🔥 (1)"
+"412469420909395968","snarflakes","28/10/2022 1:35 am","https://twitter.com/PunksGan/status/1585702188017364992","",""
+"412469420909395968","snarflakes","28/10/2022 1:35 am","https://github.com/snarflakes/PiEthereumWallet","",""
+"412469420909395968","snarflakes","28/10/2022 1:42 am","I've been working on blockchain devices for over a year now and wanted to do something open source that included a token swapping function.  So I came up with a  decentralized/permissionless ETH hardware wallet (Raspberry Pi inside) with uniswap v3 contract direct token Swap and physically transferrable private keys. There are two scripts, one L1, and other using uniswap v3 on polygon (an L2). For swaps, I'm using the opensource python-uniswap python module, which has an incredibly simple to customize contract direct function.  You can easily pick and change some variables to have the device work with whatever swapping pair you would like!","","💥 (5),🔥 (4)"
+"412469420909395968","snarflakes","28/10/2022 1:43 am","","https://cdn.discordapp.com/attachments/1034875476956684408/1035285244900806776/quadlite.png,https://cdn.discordapp.com/attachments/1034875476956684408/1035285245253140490/unnamed.jpg",""
+"808440358845284422","david_23s5","28/10/2022 2:06 am","Demeter gives users the power to launch incentivized liquidity pools on Uniswap v3. Future versions will support custom liquidity shapes on major DEXs such as Balancer, Saddle, Sushiswap or anything veSPA holders prefer. Demeter V1 is launched on Arbitrum and will be expanded to Optimism, Polygon and Ethereum soon. Additional blockchains will be added in future versions.
+
+Doc: https://docs.sperax.io/demeter-protocol 
+Confirmed partners: https://twitter.com/speraxusd/status/1585297941136576512?s=21&t=UeDGWSn50rsYC2HGsE11iQ
+
+Would love to hear feedbacks / questions!","",""
+"989275482488983663","AnthonyNicholas#4331","28/10/2022 2:40 am","Fire! How do you alternate between L1 and L2 with the device? Is there a button you push?","",""
+"989275482488983663","AnthonyNicholas#4331","28/10/2022 2:41 am","Awesome! Why did you decide to deploy on Arbitrum first?","",""
+"808440358845284422","david_23s5","28/10/2022 2:44 am","Yep it was because our native stablecoin USDs is on Arbitrum and we have launched a lot of Uni V3 farms on Arbitrum (https://app.sperax.io/farm). So naturally we want to start from Arbitrum. But planning to expand to more chains soon.","","👍 (1)"
+"412469420909395968","snarflakes","28/10/2022 2:56 am","I was going to code a button push to switch chains on the fly, but I had concerns about the user getting confused as to which layer they were on (even with visual cues), or more specifically for a total noob not even understanding the difference between the two chains and accidentally pressing the button.  So at this point, when selecting the device boot script, you would point the booter to either the polygon python file or the ETH file.  I'm very open to coding the button switch directly onto the device, it just depends on what participants would prefer.  It would be super cool to just switch L1/L2 layers with a button click (pretty simple too).","",""
+"412469420909395968","snarflakes","28/10/2022 2:59 am","now that i think about it, since the address is the same for L1/L2, confusing which chain the user is on is probably inconsequential. Unless the displayed differential L1/L2 gas prices ends up being a source of confusion...","",""
+"989275482488983663","AnthonyNicholas#4331","28/10/2022 3:39 am","I'd love to see a demo if you're able to film it. Maybe when a user changes chains, there's a delay on the UI and a color change (example - L1 is green, L2 is blue)","",""
+"412469420909395968","snarflakes","28/10/2022 3:56 am","yo thats a great idea! UI background color change!!! and yes I will do a demo video after I implement the UI color change!","","💯 (1)"
+"989275482488983663","AnthonyNicholas#4331","28/10/2022 4:00 am","https://tenor.com/view/space-crypto-nft-rocket-nasa-gif-26321890","","😀 (1)"
+"989275482488983663","AnthonyNicholas#4331","28/10/2022 9:18 pm","I'll see if we can do a demo video in our server","","👍🏽 (1)"
+"808440358845284422","david_23s5","30/10/2022 6:41 am","A hardware wallet with write-to-chain capability. Plus some built in security benefits. That could be a thing :pepesaber:","","💯 (2),🤝 (1)"
+"989275482488983663","AnthonyNicholas#4331","30/10/2022 8:12 pm","It definitely makes it easier to onboard more people to the space","",""
+"604822772002062336","thekoenekamp","01/11/2022 9:39 am","sick!","","❤️ (3)"
+"614941243721646091","zcf","03/11/2022 1:51 am","whoa that's cool","","🔥 (1)"
+"209242057460547584","illshin","08/11/2022 10:50 am","Hello! I'd like to discuss holding a hackathon, who should I talk to? We are the largest web3 hackathon organizer in Japan.","",""
+"527483061169029120","inahlikenoother#8934","08/11/2022 10:52 am","Hi there, Uniswap has historically never done any marketing nor engaged in any research or partnerships that we know of, but you can try sending an email to contact@uniswap.org.","",""
+"209242057460547584","illshin","08/11/2022 10:53 am","Thanks for the quick reply! We are organizing a hackathon like ETHglobal.
+
+We contacted you because we wanted you to sponsor this one, just as Uniswap sponsored ETHSanFrancisco.
+
+I will try to email.","",""
+"989275482488983663","AnthonyNicholas#4331","08/11/2022 6:03 pm","Hey @kinjo-@illshin, you should also connect with @Boris Stanic from the foundation team","",""
+"209242057460547584","illshin","08/11/2022 6:05 pm","Thank you! We are very happy to receive your referral.
+
+Hi @Boris Stanic We are planning Japan's largest Ethereum hackathon. How can I contact you?","",""
+"730463593711140956","bor444","10/11/2022 8:54 pm","@kinjo-@illshin send application via: https://airtable.com/shrWrSFRs6t1q1s9v","",""
+"209242057460547584","illshin","11/11/2022 1:23 pm","ok! thanks share form!😊","",""
+"706141817007243274","chunrapeepat","15/11/2022 5:58 am","Hi! I'm working on the Uniswap calculator that helps LP estimate earning fees with a simple UI, https://uniswap.fish. Last week, I released one little feature that I think will be helpful to the community, ""The Impermanent Loss Calculator."" Let's go check it out! Any feedback is appreciated.
+
+https://twitter.com/uniswapdotfish/status/1591118734252310529","","🔥 (3)"
+"989275482488983663","AnthonyNicholas#4331","15/11/2022 10:08 pm","Thanks for sharing!","",""
+"412469420909395968","snarflakes","16/11/2022 6:45 am","brief video update! https://twitter.com/PunksGan/status/1592545355627139073?s=20&t=hZHJjYnQgAHySDt9vJNkLQ","","❤️‍🔥 (1),Uni (1)"
+"989275482488983663","AnthonyNicholas#4331","16/11/2022 4:46 pm","Let’s gooooooo!!!!!","",""
+"989275482488983663","AnthonyNicholas#4331","16/11/2022 4:49 pm","The way to send money is to scan the QR code right?","",""
+"288456126595596291","ericfringefinance","16/11/2022 8:44 pm","Hello Uniswap Fam and Team, 
+
+We added the DeFi staple $UNI to our rock solid lending platform on Fringe Finance.
+
+If anyone is curious or would like to show support to a young and bold DeFi platform here is the announcement:
+https://fringefinance.medium.com/we-are-integrating-uniswaps-uni-this-august-29th-8163a92b3f64
+
+Platforms Docs, audits and related links can be found here: https://linktr.ee/FringeFinance
+
+DeFi protocols need to all come together and help shape the future of finance. I am super happy and excited for the bright future of the DeFi space.
+
+Much love and all the best,
+
+Fringe Finance Team","",""
+"288456126595596291","ericfringefinance","16/11/2022 8:44 pm","","https://cdn.discordapp.com/attachments/1034875476956684408/1042457631584964689/image.png",""
+"288456126595596291","ericfringefinance","16/11/2022 10:48 pm","The d app for lending can be viewed here https://app.fringe.fi","",""
+"776750923963170816","mb2069","17/11/2022 12:04 am","Hey! I like your project, and have been meaning/just started building the same thing
+
+Would love to have a chat with you about it!
+
+I sent a friend request 🙂","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 1:12 am",":unicornbarf:","",""
+"495589071976923153","0xvirtualp","17/11/2022 1:12 am","Hi, we are working on a honeypot detect tool since last a year. We are trying to make web3 a safer place. Here is the app link: https://detecthoneypot.com","","Uni (2)"
+"495589071976923153","0xvirtualp","17/11/2022 1:12 am","Here is an example scan result: https://detecthoneypot.com/scan?address=0xa01710cA98E4d66fD8D2044B3437C024e7A64D76&chain=eth","",""
+"288456126595596291","ericfringefinance","17/11/2022 1:13 am","haha it will be raining unicorns at Fringe 😛","",""
+"495589071976923153","0xvirtualp","17/11/2022 1:13 am","Right now the app supports 14 chains and more than 108 dexes.","",""
+"495589071976923153","0xvirtualp","17/11/2022 1:15 am","The app is able to jump in time if the token has trading cooldown function. The app is able to check if liquidity is locked. The app is able to scan v3 tokens. Also the app can scan different pairs like USDT/USDC etc.","",""
+"495589071976923153","0xvirtualp","17/11/2022 1:16 am","https://detecthoneypot.com/scan?address=0x251457b7c5d85251Ca1aB384361c821330bE2520&chain=eth","",""
+"495589071976923153","0xvirtualp","17/11/2022 1:17 am","Forexample this token 0x251457b7c5d85251Ca1aB384361c821330bE2520 has trading cooldown function and USDC pair.","",""
+"843155325619535912","Etherscan Bot#5753","17/11/2022 1:17 am","<https://etherscan.io/address/0x251457b7c5d85251Ca1aB384361c821330bE2520>","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 1:27 am","😂","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 1:28 am","whoa!","","Uni (1)"
+"288456126595596291","ericfringefinance","17/11/2022 1:28 am","The current state of crypto is pushing more towards DeFi","","💯 (1)"
+"288456126595596291","ericfringefinance","17/11/2022 1:28 am","Uni volume is up","",""
+"288456126595596291","ericfringefinance","17/11/2022 1:29 am","Some CeFi lending platforms seems to be in trouble- we try to offer a decentralized solution!","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 1:30 am","To me, DeFi's main value is allowing people to control not only their assets, but their future","","💯 (2)"
+"288456126595596291","ericfringefinance","17/11/2022 5:00 am","Hope everyone stays safe next few weeks , will be rough for crypto cefi , lets hope the communities come out stronger than ever","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 5:26 am","💯","",""
+"412469420909395968","snarflakes","17/11/2022 5:53 am","Yes the main info screen qrcode is for easy scanning.  The other qrcodes are for tracking transactions, with a direct link to etherscan or polyscan transaction ID. I'm still working on the private key management video!","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 5:59 am","private keys are stored on the sd cards right?","","👍🏽 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 6:00 am","😊  don't want to speak for snarlflakes but since offline, yes","",""
+"989275482488983663","AnthonyNicholas#4331","17/11/2022 6:02 am","that's insane","","😊 (1)"
+"471357824299958273","crypto_rachel","17/11/2022 6:03 am","yeah it's a pretty cool device, I worry a bit about the connection, but using on own secured network shouldn't be bad","","👍🏽 (1)"
+"381295637528051722","harley11.eth","17/11/2022 7:54 am","Hello everyone.
+I'm Edric from Buidler. 
+
+Buidler is a Web3 Messaging App for your community, teams, and supporters to connect, communicate and collaborate. By perfectly combining social messaging and crypto wallet, the mission of Buidler is to make Web3 more useful for everyone and make Web3 happen.
+
+Currently, our product is in the MVP stage, and looking for a Product-Market fit. We'd appreciate it if you could help us understand you better.
+Your opinions matter to us. Please feel free to ask any questions or give any feedback.
+
+See more about us at: https://buidler.app/. 
+Our Twitter here: https://twitter.com/buidler_app","","👏 (1)"
+"495589071976923153","0xvirtualp","17/11/2022 7:10 pm","@Crypto_Rachel could you please add https://detecthoneypot.com to #🐶│scam-token-guide section?","",""
+"471357824299958273","crypto_rachel","18/11/2022 11:32 am","I'd love to see better responses, before I do that. 
+
+You really want to make it poignant on what you are showing users, the red is nice, but should be more descriptive. Also pointing out that it's a honeypot or failed over just the uniswap error","https://cdn.discordapp.com/attachments/1034875476956684408/1043043494580719676/image.png",""
+"495589071976923153","0xvirtualp","18/11/2022 10:51 pm","@Crypto_Rachel updated please check it. Let me know if it stilll need improvement.","",""
+"471357824299958273","crypto_rachel","19/11/2022 10:38 am","will add,, What I'd love to see is all the borders on divides going red too.
+when I get my permissions back 🤣","","🥹 (1)"
+"826816100175970315","seneca4573","23/11/2022 9:57 am","the withdraw liquidity UI uniswap is broken guys, not sure who to ping about this
+
+i'm collecting web3 flows and came across this","https://cdn.discordapp.com/attachments/1034875476956684408/1044831492343345152/image.png",""
+"427327323293876224","la1210","23/11/2022 10:13 am","Please file a ticket here #🙋│help so we can troubleshoot and check further","",""
+"826816100175970315","seneca4573","23/11/2022 10:14 am","alrighty","",""
+"471357824299958273","crypto_rachel","26/11/2022 1:05 am","is this only for BSC, uniswap isn't on bsc","",""
+"709625339621408840","lc#8952","26/11/2022 1:06 am","twas","",""
+"709625339621408840","lc#8952","26/11/2022 1:06 am","sorry folks","","np (1)"
+"471357824299958273","crypto_rachel","26/11/2022 1:06 am","If you do a ETH version, hit us up","","👍 (1)"
+"709625339621408840","lc#8952","26/11/2022 1:07 am","We will, Soon^TM!","",""
+"471357824299958273","crypto_rachel","26/11/2022 1:07 am","😄 :PartyFrog:","",""
+"757223051988303952","itay116#7848","26/11/2022 8:12 pm","hi guys, im new in using uniswap . and trying to implement uniswap in my python project. i read the documentation but couldnt figure out how to. how to get the chainId and the label of an address","",""
+"989275482488983663","AnthonyNicholas#4331","26/11/2022 9:44 pm","Hey there! I am not a developer, but I think this can help:
+1. https://docs.uniswap.org/contracts/v3/reference/periphery/libraries/ChainId#functions
+2. By address label, do you mean deployment addresses? If so, here's a link to the deployment addresses for Uniswap v3: https://docs.uniswap.org/contracts/v3/reference/deployments","",""
+"757223051988303952","itay116#7848","26/11/2022 9:56 pm","hi, yea i have seen this page and read it. but this function gives me a syntax error, i do mean deployment addresses. but not a single function works for me in my python script, even after i imported uniswap","",""
+"471357824299958273","crypto_rachel","26/11/2022 10:10 pm","are you trying to write something that changes the chainID with wallet?","",""
+"757223051988303952","itay116#7848","26/11/2022 10:12 pm","no just to fetch the matching chainID  to my given address with python","",""
+"471357824299958273","crypto_rachel","26/11/2022 10:16 pm","a single wallet can be on multiple chains, the chain ID is the chain that you want to work on.
+so I'm curious what you mean by 
+>  fetch the matching chainID  to my given address","",""
+"757223051988303952","itay116#7848","26/11/2022 10:18 pm","i got an assignment that im trying to solve and this is my task:""Find the online the documentation for Uniswap deployed addresses and create a Python script that:
+Check for updates
+Collect the addresses
+Write the data to a CSV file with the following columns:
+Chain | Address | Label""","",""
+"471357824299958273","crypto_rachel","26/11/2022 10:24 pm","So getting chain ID is really for wallets to know what chain it's connected to.
+
+uniswap is currently on 5 chains, the addresses are the same for 4 out of 5 chains, (with exception to celo having different addresses)
+```
+1       ETH
+137     Polygon
+42161   Arbitrum
+10      Optimism
+
+42220   Celo 
+```
+here are the deploy docs, and my list of addresses
+https://discord.com/channels/597638925346930701/607978109089611786/970405461205585930","",""
+"592944270470676491","attikusfinch","27/11/2022 1:59 am","https://chainlist.org/
+You can use this chain ids list","",""
+"522826322683101194","ilia.eth","27/11/2022 6:22 pm","0xPlasma Labs have launched a new **Quadrat protocol** for professional work with Uniswap v3 as a liquidity provider. Quadrat is a non-custodial, permissionless active liquidity management protocol for Uniswap v3. It is designed to automatically rebalance assets in Uniswap v3 liquidity pools, enabling users to earn the highest annual percentage yield (APY) on every liquidity pool, and also help Uniswap v3 concentrate liquidity at trading price range more capital efficiently and attract more trading volume.
+
+Because of 95% of users do not manage their capital efficiently, they don't earn anything in the protocol, and only 2% of liquidity providers made $500M from Uniswap fees last year. Quadrat is a much-needed solution that will enable all users to earn an APY on their liquidity, regardless of their expertise or time commitment. With Quadrat, users can earn **up to 10x more APY** than they would without it.
+
+With Uniswap v3 being one of the most popular DeFi protocols, Quadrat is well positioned to become the leading liquidity provider and manager for Uniswap v3, and earn a significant return on provided liquidity for its users.
+
+The rebalancing feature allows rebalancing liquidity in Uniswap pools in one click. It helps liquidity providers to maximize their APY by constantly rebalancing their pools to reflect changes in market conditions. Anyone can create a strategy to manage their capital or a public strategy to manage public capital with a revenue share model.
+
+Quadrat Protocol is only available for** Quadrat NFT Pass owners**. NFT Pass is fully liquid and trading in the liquidity pool on **SudoSwap** (Uniswap NFT protocol)
+
+**For Liquidity Providers**:
+- Provide liquidity in the Quadrat Strategies for any Uniswap v3 Pool with the highest APY and endless active rebalancing strategies, decreasing your IL
+- Monitor your positions, APY, IL, volume and rebalance assets between strategies
+- Fully non-custodial and permissionless protocol, passively improving your APY from the liquidity provision
+- Current 0xPlasma Strategies APY is in the range between 50 and 500% APY for a basic assets: USDT, BTC, AAVE, ETH, UNI, Matic, etc.
+
+**For Asset (liquidity) Managers**:
+- create private strategies for personal funds or create public strategies, manage capital and earn performance fee
+- rebalance your position in one transaction, saving gas fees with an advanced quantum rebalancer and pool calculator
+- integrate your strategies in gnosis safe or investment DAO to scale the investment tools
+
+**For Token Projects**:
+- Create optimal strategies for your token liquidity pool on Uniswap v3 and let your community provide more liquidity and earn fees
+
+**For Uniswap v3 Protocol**l:
+- Quadrat protocol attracts more liquidity and optimizes Uniswap v3 Pools; as a result, pools become more capital efficient, attract more trading volume and help earn more fees for LP
+- Quadrat's simple UI allows new DeFi users to passively provide capital and learn how Uniswap v3 works.
+
+🔗 **Helpful links**
+WP: https://quadrat.plasma.finance/
+Site: https://plasma.finance/quadrat
+Twitter: https://twitter.com/0xQuadrat
+
+It would be great if we can discuss the UniGrant Program and Governance Support of the Quadrat Protocol.
+Looking forward,
+Ilia (CEO at 0xPlasma Labs)","","🔥 (1)"
+"989275482488983663","AnthonyNicholas#4331","28/11/2022 6:31 am","Hey Ilia, thanks for sharing! How often does plasma manage your position? Every time the price moves outside?","","😇 (1)"
+"522826322683101194","ilia.eth","28/11/2022 10:06 am","Hi, we have 2 types of strategies:
+- 0xPlasma Strategies (based on our algos)
+- Public Strategies from other Asset Managers
+
+Our 0xPlasma Strategies and rebalancing algorithm are based on many factors ( you can find them here: https://quadrat.plasma.finance/quadrat-strategies/rebalancing-algorithm)
+- sometimes it's rebalancing from range to a new range
+- sometimes it's squeezing or spreading the current range
+- sometimes it's 100% rebalanced in Asset A or Asset B, to decrease the IL and capture some revenue from the price movement and not from the fees.","",""
+"471357824299958273","crypto_rachel","03/12/2022 3:59 am","I have added this... Not sure your process, do you check contracts code for stuff or.. there is a new one that fails most, if you could get it, that would be awesome
+`0xc649FE1196E0c97Df0948F73d84aafd51a46Cb1e` function named approve that burns token for owner only. I catch it in my scam list now, dm me if you want to chat about it","",""
+"495589071976923153","0xvirtualp","03/12/2022 2:35 pm","@Crypto_Rachel thank you, sent friend request","",""
+"787866230848749591","jd_2020","05/12/2022 2:33 pm","https://t.co/y2FEAMKfVS","",""
+"787866230848749591","jd_2020","05/12/2022 2:35 pm","Hey everybody. We’ve been working all year on solving the rug pull problem with innovation, while maintaining core tenets of decentralization.
+
+And we have solved rug pulling. I wrote about it above","",""
+"219685354532372480","seandablimp","06/12/2022 7:58 am","Hi everyone, **Diamond Unibot** is a leveraged liquidity provision platform for Uniswap V3 where users can hedge their LP positions by borrowing and forming long/short on the volatile asset in a V3 pair. Diamond Unibot is built upon the Arbitrum network and currently supports the USDC/ETH 0.05% pool. This is an invite-only platform for now, please join our discord to learn more. Audit report by Quantstamp is due to be released by Dec 15th, 2022.
+
+Core Features:
+-💎 Users provide USDC only to open a V3 position on Unibot at either 1.5x (Net Long), 2x (Neutral), 2.5x (Net Short) or 3x leverage (Net Short). 
+-💎 The corresponding amount of ETH will be borrowed from our Diamond Pool to complete your position.
+-💎 Users are able to select their own range
+-💎 Users are able to set a stop loss to close their positions at certain ETH prices
+-💎 Net profit comes from enhanced Uniswap Fees & long/short profit 
+
+Join us to find out more. 
+
+Diamond Discord: https://discord.com/invite/PGGdPaecVt
+Unibot: https://unibot.dmo.finance/factory
+https://link3.to/diamondprotocol","",""
+"219685354532372480","seandablimp","06/12/2022 7:59 am","","https://cdn.discordapp.com/attachments/1034875476956684408/1049512766190407740/image.png",""
+"680580793168297994","0xAMA#9862","09/12/2022 7:27 am","hi guys, im Alex from DappOS. May i get connected with your team? As the first Web3 unified operating protocol, It builds a layer between users and crypto infrastructures like public blockchains and cross-chain bridges. We have a strong faith that our project will help Uni ecosystem to have a more user friendly experiences. Please feel free to contact me. thank you.","",""
+"374978543735537664","vasilepeste","13/12/2022 5:50 am","Hello everyone,
+I have created Mida, a TypeScript framework for easily algotrading in financial markets, with Mida you can buy/sell assets, get real-time prices, build trading tools, create trading systems and more, with simple code and dedicated interfaces, unified across exchanges and brokers.
+
+I'm doing a step forward so I'm motivated and I'm learning about Uniswap and DEX protocols in general, I would like to integrate Uniswap to Mida.
+
+If any of you is interested in the project you can contact me!
+
+https://www.mida.org","",""
+"346741235567951885","kedieo","14/12/2022 3:58 am","Hello everyone, 
+
+I'm Paul from KYVE Team. Nice to e-meet you all! :flyingunicorn: 
+
+**What is KYVE?**
+
+KYVE is a Web3 data lake solution and protocol enabling data providers to standardize, validate in a decentralized way, and store any data streams into decentralized storage solutions such as Arweave. 
+
+We are partners (and they are also our investors) with most of the L1s (Solana, Polkadot, Near, Avalanche, Celo, Moonbeam, Cosmos, etc.)
+
+**How it works briefly? **
+
+Basically, for each data source, you need to create a pool. For example, to connect to archive the Solana blockchain, you will create a pool and fund it with KYVE token; nodes (PoS mechanism) will join the pool and will start to archive the blockchain into the storage solution that you decided during the creation of the pool. When data are uploaded, your funding decrease to pay the nodes. When the data are uploaded, they're free to access and store forever if you use for example, Arweave.
+
+**Why am I coming on the Uniswap Discord to talk about KYVE?**
+
+Great news we just released a pool today... **This new integration archives all swaps, mints, burns & more from the USDC-ETH Uniswap smart contract**. With over 100k+ transactions occurring on Uniswap each day, it can be quite tedious to query through all this data & find exactly what you need. 
+
+Not to mention the possible need to source from multiple different providers, opening yourself up to risk. Having a trustless source that validates this data in a decentralized way is imperative in order to perform proper analyses & research or even to create trustless platforms & dashboards for users to follow their trading. 
+
+Via this integration, anyone can easily access all events that occurred on the USDC-ETH Uniswap smart contract in order to perform market analyses, user data dashboards, research, etc. 🧑‍💻
+
+& the best part you don't pay to acess the data you remember! That's cool no? 
+
+**We are still in testnet so the PoS mechanism is not implemented yet, we recommend you don't use this data for the moment in another way than testing!  **
+
+Want to learn more how KYVE work and how you can access data: https://docs.kyve.network/
+GitHub: https://github.com/KYVENetwork","",""
+"389788282256490496","destiner_","22/12/2022 12:38 am","I made a search tool to quickly find Uniswap V2/V3 contracts (including pools) across all the networks. You can type something like ""uniswap dai usdc"", and it will give you all the relevant pools. Also, it supports lots of ERC20 tokens.
+
+Let me know your thoughts!
+
+https://metablock.dev/tools/search/","",""
+"401842633464610837","_kfx","22/12/2022 2:24 pm","cool! shows the result as a block explorer link maybe","",""
+"401842633464610837","_kfx","22/12/2022 2:34 pm","hello Paul, just a suggestion, many of us here already have some graphql code for accessing the uniswap analytics via subgraph, so a tutorial or step-by-step explanation that shows how to switch that to KYVE data sources would go a long way to help you project gain traction","",""
+"787866230848749591","jd_2020","24/12/2022 4:56 pm","https://800rugs.rugradar.org
+🤚 anybody know vitalik? I think he should see this.","","❤️‍🔥 (1)"
+"787866230848749591","jd_2020","24/12/2022 4:57 pm","For the devs out there, our Live Alerts and Search API endpoints are also in beta  — 
+
+https://server.rugradar.org/api/v1/token?limit=20
+
+https://server.rugradar.org/api/v1/token/search?query=0x8f905Ee1416b12B93BA9D12574766DEBD6FC9621","",""
+"770549149770448897","s6187","26/12/2022 3:24 am","Hey guys. As you know now we are in a deep bear market and to make profit from LP we need to have a precise tool to calculate positions. Since I didn't find anything really working in the market I built my own. Check it out here https://imxflow.com/univ3lp/","",""
+"346741235567951885","kedieo","29/12/2022 7:32 pm","Hey,
+
+Thanks a lot for your feedback, we'll work on that 🙂","",""
+"928069437989457952","WoellaM#1359","01/01/2023 10:12 pm","Hi guys, check out my research paper on market depth and liquidity provision profitability: https://lnkd.in/eZCCSqgD. In it, I delve into the differences between the two versions v2/v3 of Uniswap and how they impact market depth and profitability for liquidity providers. I think this would be a great start for a UNISWAP RESEARCH channel on discord! 🦄🔬🧐","","🔬 (1)"
+"820186686859902977","EdgarAcostag320#6890","05/01/2023 12:41 am","Hey, is there anyone that could help he develop my project which would be basically a fork if unisawp in a mobile app","",""
+"788768419763060756","SarahKwon | JK_Remote#4098","05/01/2023 1:32 am","Hello everyone! I'm Sarah from Securo, leading marketing & partnership. 
+
+Securo is a DeFi Middleware offering an all-in-1 DeFi Infrastructure API that helps developers, investors, and traders to build, invest, and manage their DeFi products. We are already live at http://app.securo.dev/ supporting Uniswap for token swapping, providing liquidity, etc. 
+
+We are open for partnerships who are building on DeFi together and also would love any form of support from Uniswap team too! 
+
+Cheers, y'all!","",""
+"814520629323235378","scinftist.eth","06/01/2023 6:30 pm","I made an ERC721 that removes the minting transaction.
+( I minted 115792089237316195423570985008687907853269984665640564039457584007913129639935
+this many NFT)
+and this is the limit of NFT (2**256 -1)","https://cdn.discordapp.com/attachments/1034875476956684408/1060905587023552552/Screenshot_2023-01-06_160539.png",""
+"814520629323235378","scinftist.eth","06/01/2023 6:30 pm","https://twitter.com/sciNFTist/status/1611344268634820608","",""
+"814520629323235378","scinftist.eth","06/01/2023 6:30 pm","I really appreciate if anybody could give me a feedback","",""
+"709625339621408840","lc#8952","08/01/2023 4:01 am","Just released ETH support, can I share it now?","",""
+"471357824299958273","crypto_rachel","08/01/2023 4:04 am","been a while forgot what it was, dm it to me and I'll check","",""
+"709625339621408840","lc#8952","08/01/2023 4:57 am","https://mevlink.com
+
+For anybody here who trades on AMMs competitively and would like 10-20ms of speedup, Mevlink released ETH support today! We're a faster alternative to bloxroute that you can plug-n-play into whatever setup you have. Also feel free to contact us on the site or DMs here for a free trial if you're interested in testing out our speeds!","",""
+"898613647599882270","mcdavidmcdavid","10/01/2023 5:27 am","https://twitter.com/ApertureFinance/status/1612598470338285570?s=20&t=cAZcgrKMN_gjez2VSqf-iA","",""
+"898613647599882270","mcdavidmcdavid","10/01/2023 5:27 am","Aperture (maker of PDN vaults) is working on a UniV3 vault","",""
+"873645547548995674","hvkcs28","10/01/2023 9:27 pm","Hi Admins I am Harsh from Bitmart Exchange, may I know who should I send marketing and listing proposals to ??","",""
+"864525710194638918","joanem","11/01/2023 2:48 am","Hi there, you can send a DM to @Anthony 🦄 // Community Manager","",""
+"989275482488983663","AnthonyNicholas#4331","11/01/2023 3:25 am","https://tenor.com/view/hasbulla-hasbulla-magomedov-wave-gif-24801727","",""
+"883416043828170772","Haniya#1857","15/01/2023 1:58 am","Hi Team, this is Harvey I look after growth for @candyshopspace, we are an NFT marketplace project that specializes in helping projects create & launch their own marketplace. We are one of the winners of Serum's hackathon and selected as a CoinList Seed project. We are an SDK for projects to create their own NFT shop in minutes! Projects like Solice.io (100K+ followers) use our solution to operate their own marketplace & carry out auctions and other great community features. Some of our feature highlights include:
+
+> ◆ Ethereum / Polygon NFT shops denominated in any ERC20 token
+> ◆ Escrow-less trading - users can earn airdrops even when NFTs are up for sale 
+> ◆ Completely free set up, with lower trading fees for sellers
+> ◆ Open source and built on Seaport
+
+We’d love to help you set up your own shop free of charge - we are aiming to grow our footprint and presence on Ethereum / Polygon! Feel free to check out our site at www.candyshop.space/. Looking forward to hearing back and give us a shout if you’d like to speak and learn more.
+
+https://youtu.be/nk0ujpHTgvA","",""
+"686692072601944157","priyankc","19/01/2023 2:07 am","Hey all - We recently added Uniswap data to MakerDojo (https://makerdojo.io) - an AI-backed Web3 data platform where you can get insights by asking questions in plain English without requiring you to write SQL. We are also a data source / provider for Uniswap Community Analytics Grant program (https://unigrants.notion.site/Getting-started-with-Uniswap-Analytics-0d325ecd19ca4f9d91ee9bb4bd2e0277)
+
+With Uniswap data, you can dig into insights like TVL, fees, volume, etc., by simply asking them in English.
+
+Here are some example questions you could ask and get answers for:
+    “What is the total value locked in the WETH/DAI Uniswap pool?”
+    “What is the 7-day moving average volume for the UNI/USDC pool?”
+    “What is the 24-hour change in liquidity for the UNI/USDT pool?”
+    “What was the total fee collected by the WBTC/WETH pool last month?”
+
+Please try it out and let us know how we could improve the product for your specific use cases. I'm looking forward to your feedback.
+
+(Thanks @Anthony 🦄 // Community Manager  for recommending to post here)","https://cdn.discordapp.com/attachments/1034875476956684408/1065369421956264076/1noxy5bmvnca1.png",""
+"399593121996079115","ninja_dev","21/01/2023 8:01 am","Hello everyone, I was ted to share a project I made for the low cap space if crypto.
+
+It's a data aggregator for buy data going through routers. The tokens are than ranked based on various specs. Each token also shows safety data like if it's a honeypot, tax information, etc.
+
+Additionally it will show the contract information, functions to find hidden scammy functions, and other key information right at your fingertips.
+
+This helps traders find projects early on while also keeping them as safe possible.
+
+https://app.buildalpha.io","",""
+"1055883383416299630","theunconstrainedmind","22/01/2023 10:22 pm","Hello Uniswap community!
+
+We wanted to share with you a project that we believe aligns with the decentralized ethos that Uniswap represents - Literully.
+
+Literully is a decentralized voting platform built on the Polygon blockchain. Our goal is to empower communities to make transparent and decentralized decisions through the use of smart contracts. We believe that this is crucial for the continued growth and success of the decentralized ecosystem.
+
+We are soon to launch our governance token, Decentralight (DLT), which will be used to monetize the decentralized solutions that Literully has or will have. DLT will also be used as your voting power when it comes to decision making processes within the Literully platform.
+
+We think that Uniswap and Literully complement each other well and we would love to explore any potential opportunities for collaboration.
+
+Let us know if you have any questions or if you're interested in learning more about Literully and DLT.
+
+Website: https://literully.com/
+Twitter: https://twitter.com/literully
+Polygonscan: https://polygonscan.com/token/0x4cc2f9dc2822de042248669d1e9989a1220c3d21
+
+Best,
+Literully Team","","Uni (1),😍 (1),💚 (1),❤️ (1),⚒️ (1),🎉 (1),🚀 (1),🦄 (1)"
+"778156813270908938","oni.btc","23/01/2023 4:17 am","Hey guys! We're building a drag and drop interface that removes some of the coding constraints when working with defi primitives. Would love volunteers to setup a test group for uni integration. Just like the computer emoji to signal interest 💻","","💻 (6),Uni (1),👍 (1)"
+"471357824299958273","crypto_rachel","23/01/2023 6:10 am","@teeman
+try again now. thank you for opening that up for every one looks nice","","🙏 (2),YW (1)"
+"573207504818012160","teeman#3583","23/01/2023 6:18 am","Hey all 👋  @alphaser512 and I just released a simulation tool to help you cut down the effort of calculating the actual returns of different Uniswap pools by factoring in fees earned, IL and eventually LVR. It’s in a restricted alpha (some rate limiting) at the moment and is completely free to use. These simulations can be resource-heavy, so we’re just gating it to keep our servers under control.
+
+We designed it with you (this community) in mind and have a few exciting features planned, like active IL and portfolio mgmt tools to make investing as easy as possible. We’d love to know what you think - our DMs are open.
+
+https://alpha.cerno.xyz/","","Uni (4),🔥 (2)"
+"778156813270908938","oni.btc","26/01/2023 8:15 pm","if you're having problems signing up, you could create a new address to use and I will have the founders add you to the whitelist. We look forward to seeing what you do. Here's what a trader built","",""
+"778156813270908938","oni.btc","26/01/2023 8:15 pm","","https://cdn.discordapp.com/attachments/1034875476956684408/1068179810095988787/image.png",""
+"456170940821274634","markatwork","27/01/2023 6:14 am","Wrapped up my second presentation on Financial literacy this evening. Really excited to continue these presentations and get feedback from the community 🙏 https://youtu.be/ShufwfQrNXM","",""
+"989275482488983663","AnthonyNicholas#4331","27/01/2023 8:28 pm","Markkkk!!!!!!!!!","",""
+"456170940821274634","markatwork","27/01/2023 8:29 pm","Anthony! gmgm😁","",""
+"798893404456222740","fabcotech#6288","01/02/2023 6:29 pm","Uniswap and other DeFi projects still **work mainly with DNS and the flawed web PKI technology**, in browsers there are like 100-400 organization able to **impersonate any domain name**. We've created a privacy+security focused alternative to DNS and the web PKI, it's called dappy, domains end with .d. We've designed it mainly for web3 and high value web apps. Happy to have a chat if someone is interested. https://dappy.tech","",""
+"431961393646796811","derekbarrera","03/02/2023 10:50 pm","We've built a full development and automation platform for liquidity providers and traders at Steer Protocol. We allow liquidity providers to build CLAMM algo with multiple positions in a given strategy. This means you can place liquidity which can emulate CEX style liquidity in a single transaction. We also have a backtesting toolkit as well where developers and protocols and visualize and run against real mainnet data (with rebalances over time!) how their liquidity and apys would look. 
+
+We are the first platform that provides the ability for the general public to see APYs for liquidity positions that rebalance over time. 
+
+Here is our announcement article, we go live in 30-45 days but you can start building today. 
+
+All strategists developers get 5% of all yield that occurs through their algos.
+
+https://steer.finance/the-future-of-market-making-on-the-web3/","",""
+"431961393646796811","derekbarrera","03/02/2023 10:50 pm","We are the first full development platform ontop of uniswap which allows strategies to be built with both on-chain and off-chain data with a permissionless protocol to launch and run them.","",""
+"706141817007243274","chunrapeepat","05/02/2023 6:22 pm","https://twitter.com/uniswapdotfish/status/1622215298727411715","",""
+"989275482488983663","AnthonyNicholas#4331","06/02/2023 7:42 pm","I love fish","","🍣 (2)"
+"845118948429266955","sagheer5735","06/02/2023 8:05 pm","Hi","",""
+"706141817007243274","chunrapeepat","14/02/2023 5:35 pm","https://twitter.com/uniswapdotfish/status/1625464573452242944","",""
+"555415890678775818","dann0614","14/02/2023 8:32 pm","Hi there 🙌🏻
+While investing in DeFi assets such as Uniswap and Curve, I realized that my investments were not being managed at once.
+So I created an app to easily check the value of the DeFi assets I'm investing in.
+If you're interested, please try the app and let me know your feedback.
+(Currently, only available on Android)
+https://play.google.com/store/apps/details?id=com.everydefi.app","https://cdn.discordapp.com/attachments/1034875476956684408/1075069641610764320/dark-home.png,https://cdn.discordapp.com/attachments/1034875476956684408/1075069641904357467/dark-uniswap.png",""
+"687671896535597136","sverps","18/02/2023 4:16 am","Hello devs. I just published an npm package that lets you easily simulate Uniswap v3 pools. Practical for researching possible investment/rebalancing strategies and more. All feedback is welcome: https://www.npmjs.com/package/defi-sim","",""
+"989275482488983663","AnthonyNicholas#4331","19/02/2023 1:29 am","👀","",""
+"989275482488983663","AnthonyNicholas#4331","19/02/2023 1:30 am","Whoa this is sweet, thanks for sharing! Would it be possible to give a video introduction on how it works? 😁","",""
+"401842633464610837","_kfx","28/02/2023 12:35 am","not strictly a dev project, but I have a new twitter account where I'll tweet about Uniswap among other things: https://twitter.com/atiselsts_eth
+feel free to suggest some more technical Uniswap topics that I could cover.","","PartyFrog (10),❤️‍🔥 (6),Uni (5),🦄 (6)"
+"893879285146873857","kriptoden","04/03/2023 1:39 pm","I introduce our project https://ushi.pro
+Its AI software for researching gems. It will be impowered by GPT-3 Open AI mechanics. 
+
+You can visit also our Discord server
+
+https://discord.gg/2cxdNf6fGk","","🔥 (2),👍 (1),❤️ (1)"
+"1074258078054236180","huangshuxin","05/03/2023 6:24 pm","What is the interactive website of uniswap v2?","",""
+"508391840525975553","Tickets#6981","05/03/2023 6:25 pm","","",""
+"825562665446932500","undoubted08","05/03/2023 6:25 pm","@huangshuxin 👆","",""
+"456226577798135808","Deleted User","05/03/2023 8:13 pm","hello everyone!","",""
+"706141817007243274","chunrapeepat","06/03/2023 8:13 pm","Hey Uniswap Community! Uniswap(dot)fish new feature is now live, ""Top Positions."" I hope you all enjoy it!
+
+https://twitter.com/uniswapdotfish/status/1632749787983532034","",""
+"540242532228136960","tolgayayci","09/03/2023 4:18 pm","Hey, as ı can see all rfps closed right now, is there any upcoming rfp or another list?
+
+https://uniswap.notion.site/Uniswap-Foundation-Grants-Wish-List-3be614ba4e504b5caeee7b0159e64a42","",""
+"825562665446932500","undoubted08","09/03/2023 4:24 pm","Hi @Tolga you can check the response here: https://discord.com/channels/597638925346930701/810873747405668363/1080801426122489916","","Uni (1)"
+"843155325619535912","Etherscan Bot#5753","09/03/2023 4:24 pm","","",""
+"540242532228136960","tolgayayci","09/03/2023 4:51 pm","thanks @undoubted08  how can ı join this channel, link says ı don't have access","",""
+"825562665446932500","undoubted08","09/03/2023 4:52 pm","Seems you need Uniswap Member role on #👋│verify channel.","",""
+"703603953258070037","0xHugo#6984","09/03/2023 5:09 pm","Hi, we have built a unique DeFi portfolio tracker, Merlin. Merlin offers users innovative on-chain analytics including in-depth historical data and performance metrics. We have integrated Uniswap V2 & V3 onto Merlin and invite the community to check it out and track their positions using Merlin, view yield, P&L impermanent loss and other DeFi performance metrics. This is the site if you want to check it out: https://mymerlin.io and our Twitter is https://twitter.com/mymerlin_io","",""
+"989275482488983663","AnthonyNicholas#4331","09/03/2023 7:58 pm","Nice, thanks for sharing!","",""
+"835710704958963734","trevor_flipper","09/03/2023 8:32 pm","I share some macro economic data sets daily! 🙂 
+
+https://twitter.com/trevor_flipper/status/1633844839891730437?s=46&t=Tvr6iscHTErAW2eQ4Ff_aw","",""
+"703603953258070037","0xHugo#6984","09/03/2023 9:51 pm","Np, have dm'd :RunningUnicorn:","",""
+"471357824299958273","crypto_rachel","10/03/2023 9:43 pm","@The Unconstrained Mind uniswap related projects","",""
+"1055883383416299630","theunconstrainedmind","10/03/2023 9:43 pm","So sad 😦","",""
+"1055883383416299630","theunconstrainedmind","10/03/2023 9:43 pm","Where can I leave my partnership prosposal?","",""
+"471357824299958273","crypto_rachel","10/03/2023 9:44 pm","In what regards would this be useful for uniswap","",""
+"1055883383416299630","theunconstrainedmind","10/03/2023 9:58 pm","Stampeet can be useful for Uniswap in a number of ways. One example is that it can be used to verify important information related to token swaps or liquidity pool transactions, such as the time and date of the transaction and the parties involved. This can help to increase transparency and trust in the Uniswap ecosystem. Additionally, private messaging on Stampeet could be used by Uniswap to communicate important information securely between team members or with their community. Overall, Stampeet can provide additional security and transparency to Uniswap and help to improve the overall user experience.","",""
+"471357824299958273","crypto_rachel","10/03/2023 10:02 pm","Ok go ahead and re-post it","","❤️ (1)"
+"1055883383416299630","theunconstrainedmind","10/03/2023 10:12 pm","We are excited to announce that Stampeet is now available in beta version! We would like to invite you to try it out and share your valuable feedback with us.
+
+Stampeet is a revolutionary protocol that allows you to stamp your message and secure the authority on blockchain, forever! With Stampeet, you can also stamp private messages and ensure they remain confidential through encryption mechanisms.
+
+We would love to hear your thoughts on the features, user experience, and any improvements you would like to suggest.
+
+https://literully.com/stampeet","",""
+"797150118167314464","ajdp13","16/03/2023 2:44 am","https://discord.gg/CZzhUFwQMd
+
+META GOLD MINERS CLUB - 
+
+
+The Meta Gold Miners Club (MGMC) is a project inspired by the world we live in today, and is focused on sharing knowledge with it's members about important financial concepts, and helping increase the wealth of our community through our Gold Rewards Program (GRP). 
+
+We will provide education to our community about concepts such as Sound Money Principles, and the role that gold and bitcoin can play in preserving wealth; alongside other utilities that bring exclusive value to our NFT holders.
+
+With **GOLD-BACKED NFTS**, the MGMC presents a unique opportunity for members to diversify their holdings, reduce risk, and learn about new technologies. MGMC gold backed NFTs will be a solution to the problem of establishing and maintaining inherent value in digital assets, which are often based on hype or utility alone, with no guaranteed floor price.
+
+By backing our NFTs with gold, we aim to provide a stable store of value for our members. All tied together with a story that is relevant to the modern world in order to interact with our community in a fun and engaging way.","",""
+"702346808910938152","ortutay#3557","16/03/2023 8:25 am","We are working on Delorean.exchange, a protocol for selling (and buying) future real yield.
+
+💁 The protocol is launching with support for GLP and GMX tokens, and you can sell up to two years of projected yield on those. It is like a self repaying loan, and you can sell one week of yield or months or years.
+
+:Uni: We are using Uniswap V3 under the hood to manage liquidity. Specifically, liquidity providers mint ""npvETH-GLP"" representing future yield from GLP, and add those to a univ3 pool swapping with WETH.
+
+💧  We chose Uniswap V3 because of the concentrated liquidity feature. npvETH-GLP is expected to be priced very close to 1:1 with WETH, and liquidity providers can use CL to make efficient use of their liquidity. Additionally, the price is expected to only drift *below* 1 if the 1:1 soft-peg is broken, another great use case for CL
+
+⏭️    Learn more about us at https://delorean.exchange/ where you can sign up for early access. Join our discord for updates and info: https://discord.gg/maT3fJGaES","",""
+"702346808910938152","ortutay#3557","16/03/2023 8:27 am","Started a thread.","",""
+"354458973572956160","vengeanc3","17/03/2023 4:56 am","We're Dexani, we specialize in automated security reports. You put in the token you want to trade and you get told if it's a honeypot, the buy and sell tax, potential malicious contract functions, or potential malicious top holders. You can also see its pools, and transactions from the owner/deployer, and have slippage automatically adjust based on buy/sell tax.
+https://app.dexani.io/swap","",""
+"835710704958963734","trevor_flipper","21/03/2023 5:50 am","I share macro economic content on my twitter. Hope you find it insightful 
+
+https://twitter.com/trevor_flipper/status/1637971393898749952?s=46&t=Tvr6iscHTErAW2eQ4Ff_aw","",""
+"1039460188383617055","godfrey42#5519","21/03/2023 1:35 pm","Hello Uniswap community!
+
+I would like to introduce to you a new blockchain-based project that is completely built on Uniswap - HarbergerToken. 
+
+HarbergerToken offers a perfect decentralized tool, it is designed to fund sustainable development for open source communities, providing efficient capital utilization and long-term returns through innovative risk-free mortgage and assetization of taxing rights NFTs. 
+
+Through HarbergerToken, open source projects can issue unique HBG tokens that are completely built on Uniswap, thereby obtaining sustainable income and investment opportunities. The HBG tokens can be used to generate transaction fees, which are distributed to the NFTs token holders. In addition, the risk-free mortgage and assetization of taxing rights NFTs for HBG tokens allow members of the open source community to efficiently utilize their funds and gain long-term returns.
+
+We believe that HarbergerToken will become an important part of Uniswap and open source communities, providing reliable infrastructure for sustainable development of open source projects. 
+
+
+Website:    https://harberger.money/
+Github:     https://github.com/0xfind
+Twitter:    https://twitter.com/HarbergerToken
+Whitepaper: https://medium.com/@HarbergerToken/0xfind-whitepaper-en-8fca1e0b94a5
+
+godfrey,
+HarbergerToken Team","","🦄 (3),🍎 (1)"
+"835710704958963734","trevor_flipper","23/03/2023 5:48 am","https://twitter.com/trevor_flipper/status/1638696527827808265?s=46&t=Tvr6iscHTErAW2eQ4Ff_aw","",""
+"608676033096450279","moontography","05/04/2023 9:35 pm","Gud Guess is live on Arbitrum! It contains real yield for investors, lottery style jackpot game that includes both skill and luck to win ETH jackpot, and lots of good Uniswap V3 TWAP code and beyond in the contracts to peruse through!
+
+Would love feedback for anyone interested as well: https://twitter.com/themoontography/status/1643265972336304129","",""
+"989275482488983663","AnthonyNicholas#4331","05/04/2023 10:02 pm","Super cool, thanks for sharing!","","👍 (1)"
+"836393532348170261","maxzenith","06/04/2023 1:13 am","Hey Folks,
+
+I represent CoW Protocol, a meta dex aggregator with MEV protection. We are a collaborator in the launch of a new innovative RPC endpoint: https://mevblocker.io/
+
+It has many benefits for users including front-run and sandwich protection. Most importantly there's a new auction mechanism where searchers bid on the back-run opportunity and >90% of proceeds are shared back with the user.
+
+ We're looking for launch partners which can be any Dapp that wants to place a
+
+**""Get protection, add MEVblocker to your wallet"" button.**
+
+**Any wallet builders can offer it as a default RPC to users**
+
+I would love your feedback and thoughts about it as soon as possible since we are slowly launching this week.
+
+Cheers, 
+Max
+
+PS: We don't store or use data for profit nor intend to put ourselves on the spot. Most importantly, we are aligned with the core values of our space.","","❤️‍🔥 (2)"
+"1059571450324996298","Staüq#9063","07/04/2023 1:12 pm","Hey there, peeps! 
+I'm a freelance Solidity dev ready to bring some serious skills to your project. Check out what I can offer:
+
+  •  Blockchain & DeFi expertise
+  •  Smart contract auditing
+  •  Solidity/Vyper/Assembly dev
+  •  Front-end integration
+
+Slide in my DMs you're down to collaborate and make some magic happen! Can't wait to join the party! 😎","",""
+"940071814263078913","evie_zzz","10/04/2023 2:00 pm","How we used Uniswap V3 AMM to build a DeFi-only financial instrument.
+https://youtu.be/Mda4wk-6jzY","","💯 (1)"
+"770549149770448897","s6187","13/04/2023 8:38 pm","UniV3LP Ultimate Dashboard — Uniswap V3 APY Calculator & Pools analytic https://imxflow.com/univ3lp/","","🔥 (1)"
+"835951062250553363","archerabi","27/04/2023 4:01 pm","Hello all 👋 , i built a dashboard for uniswap V3. It's meant to be fast and accurate. And gives you the ability to quickly find  pools by tvl, volume , fees and APR. More features coming soon .
+https://ashva.finance/
+Let me know what you think and if you would like to see new features.","https://cdn.discordapp.com/attachments/1034875476956684408/1101093179803045999/Screen_Shot_2023-04-26_at_8.25.15_PM.png",""
+"836393532348170261","maxzenith","28/04/2023 3:53 am","Hey Uni Fam🌈,
+ 
+I am part of this project participating in the new Gitcoin Beta Round, and requesting your support and Feedback. 
+
+https://explorer.gitcoin.co/#/round/1/0xaa40e2e5c8df03d792a52b5458959c320f86ca18/0xaa40e2e5c8df03d792a52b5458959c320f86ca18-214
+
+We are planning to build an IRL DAO Hub with infrastructure for digital Nomads and Remote Workers with perpetual Public good initiatives,
+
+Revenue share to Gitcoin, Protocol Guild & Giveth.
+Planting Trees
+Funding Mechanisms for Artisans, Tribal Children Education (especially girls), Free Speech, etc.
+Waste Management and Charging Stations.
+Grand Hall to conduct Events, Exhibitions and Meetups.
+Talent Flow initiative.
+
+We are going the DAO route and wanted to know If the Uni community is interested in hosting Events or conducting meetups, we are open to offering our existing facility.
+https://www.instagram.com/wildsherpas/
+
+Cheers, 
+Max","",""
+"431961393646796811","derekbarrera","04/05/2023 12:24 am","https://twitter.com/steerprotocol/status/1653125807307657216?s=46&t=sPCFGjfRNGIyfhAt9vVv6A","",""
+"431961393646796811","derekbarrera","04/05/2023 12:24 am","https://twitter.com/steerprotocol/status/1653125863762976770?s=46&t=sPCFGjfRNGIyfhAt9vVv6A","",""
+"431961393646796811","derekbarrera","04/05/2023 12:26 am","https://twitter.com/steerprotocol/status/1653125889817985024?s=46&t=sPCFGjfRNGIyfhAt9vVv6A","",""
+"431961393646796811","derekbarrera","04/05/2023 12:26 am","A new automated liquidity management platform has gone live! Fully permission-less to create an automated strategy on any pair","",""
+"471357824299958273","crypto_rachel","09/05/2023 11:32 pm","if it's something built on top of Uniswap, to make LP or Swappers life easier or better you can post here","",""
+"562075069082238977","pilnystudent","12/05/2023 4:30 pm","Hello, I was dissatisfied with all uniswap simulators so I have made my own. This simulator calculates APY based on price volatility and can compare APY for different fee tiers simultaneously.
+https://poolsimulator.com/","","👍 (2)"
+"841779675893858314","JIBUM#9706","13/05/2023 2:01 am","https://jibum.xyz    Get Price Notifications for all Pools and all fee tiers on Uniswap V3 on Ethereum. Free of charge.","https://cdn.discordapp.com/attachments/1034875476956684408/1106679985307144242/Jibum.png",""
+"85785887622836224","0xcache","17/05/2023 12:09 pm","https://twitter.com/UniswapSniper UniSwap Sniper Bot for Trending Pairs","",""
+"770549149770448897","s6187","22/05/2023 5:17 pm","UniV3LP Ultimate Dashboard — Uniswap V3 APY Calculator & Pools analytic https://imxflow.com/univ3lp/","",""
+"898613647599882270","mcdavidmcdavid","06/06/2023 3:25 am","https://www.aperture.finance/","",""
+"898613647599882270","mcdavidmcdavid","06/06/2023 3:26 am","we're launching an incentivized private beta for UniV3 LPs on July 10th.. hit the ""join waitlist"" link if interested","",""
+"606012506078707724","brinc_x","06/06/2023 5:37 pm","https://brincx.io/#/","",""
+"522826322683101194","ilia.eth","08/06/2023 10:42 am","With a new Quadrat protocol extension called Booster, you can create highly customizable farming/staking campaigns with liquidity lockup for any Uniswap v3 pools 👉 https://twitter.com/0xQuadrat/status/1662076572424343554
+⭐️ More info: https://quadrat.plasma.finance/quadrat-booster/booster-overview","",""
+"316031664071639042","0xzick","09/06/2023 12:00 am","Unlock up to 10x leverage with zRex’s permissionless trading, made possible through its integration of Uniswap, 1inch, AAVE, and Compound. https://twitter.com/zRexFinance/status/1666117073649512450?s=20 More info: https://zrex.finance/","",""
+"1103271169978814545","swapeth","20/06/2023 10:29 am","Coinremitter: a trusted ally for cryptocurrency transactions, offering a seamless payment gateway and an exciting new crypto swapping feature on the horizon. In this website Uniswap intigration is in the future scope....
+https://coinremitter.com/","",""
+"1113177709523247224","0x6a636c","20/06/2023 4:07 pm","Want to interact with Uniswap V3 core and peripheral smart contracts using Java ? https://github.com/jclagache/v3-core and https://github.com/jclagache/v3-periphery Uniswap V3 core and peripheral smart contracts Java wrappers can help you thanks to https://docs.web3j.io !","",""
+"770549149770448897","s6187","21/06/2023 3:43 pm","Uniswap V3 APY Calculator & Pools analytic https://imxflow.com/univ3lp/","",""
+"471357824299958273","crypto_rachel","23/06/2023 12:49 am","This area is not for token promotion, it's for protocols building cool and useful stuff on top of Uniswap","","👍🏻 (1)"
+"833863323824160778","anadicovalent","23/06/2023 6:42 am","Hey everyone, Big fan of Uniswap!  Just saw Graph was down a lot of time so I create my own set of Univ2 (and all the clones on 100 + chains) endpoints
+An example to fetch all the pools
+https://api.covalenthq.com/v1/eth-mainnet/xy=k/uniswap_v2/pools/?key=cqt_rQCqHWfXbxjgybXMR6dD3GBhQ3jp
+You can find other endpoints here to get balances, tvl, volume , transactions etc
+https://www.covalenthq.com/docs/api/xyk/get-xyk-pools/","",""
+"833863323824160778","anadicovalent","23/06/2023 6:42 am","Just need to change chain_name and dex-name for data. on any chain and dex.
+I will deactivate my free API key tomorrow, You can sign up for the key here. I trust the community won’t abuse lol
+https://www.covalenthq.com/platform/auth/register/","",""
+"833863323824160778","anadicovalent","23/06/2023 6:42 am","You can get access to raw tables powering the data through here (our BI product called as Increment). Everything. can be used
+https://www.covalenthq.com/docs/increment/
+If you don’t know SQL, you can just Click and Pivot on whatever dimensions and measures you would like. SQL can be converted to custom endpoints too haha. So if our xyk doesn’t work for you, make your own endpoint in minutes without worrying about syncing subgraphs","",""
+"833863323824160778","anadicovalent","23/06/2023 6:43 am","I will be launching Univ3 and UniV4 endpoints soon.","",""
+"833863323824160778","anadicovalent","23/06/2023 6:44 am","Hey @Crypto_Rachel , you guys are doing great work! Are there any data issues your team is facing right now that we can assist to solve for V4 or V3?
+p.s. - I also have Univ3 endpoints that can I share  because they are in staging environment so not that performant rn. You can use them as fallback if graph fails","",""
+"415204628708196383","ducktape3088","26/06/2023 2:12 pm","Hello, not specifically building on but for the Uniswap community, hope it is ok to share!
+
+I am building a decentralized Peer-to-Peer lending protocol for web3 communities. The platform will create community pools where only eligible members of a DAO will be able to borrow from the pool. Our solution will additionally vet borrowers based on their on-chain revenues and activity, allowing web3 natives to build their off-chain credit scores.
+
+For lenders, our model aims to provide a real yield between 6-8% that is not correlated with the market, offering a sustainable and attractive return on investment.
+
+We are specifically targeting Web3 borrowers with a credit score of 600 or above offering competitive borrowing rates of 10-12% for personal loans. In case of a default, the borrowers would be reported to credit bureaus, impacting their credit scores and future loan eligibility. 
+
+Curious to become a Lender or a Borrower? I would be thrilled to discuss this in more detail and gain insights from your perspective. Please let me know if you are curious and open to exploring this further.
+
+Best","",""
+"368389733908348948","ausaf007","26/06/2023 7:28 pm","Hey guys! I have recently built a Go backend application that tracks the liquidity pools of Uniswap V3! This is my first project built on Uniswap, let me know what you all think! 🚀🚀
+
+https://github.com/ausaf007/uniswap-tracker","",""
+"154425181627088896","uo12345","30/06/2023 3:25 am","Hey all I'm UO and part of the team at DeFi Current! Shameless plug for our silky smooth, seamless crypto & DeFi tracker platform that just went live, https://twitter.com/DefiCurrent/status/1674493232728748033?s=20, come check it out!","",""
+"154425181627088896","uo12345","30/06/2023 3:26 am","Also, we're looking to partner with Uniswap to see if we can integrate you guys natively on our platform! Who could I potentially chat with about it?","",""
+"256317696587726848","crustyapples","04/07/2023 12:28 pm","is this still working?","",""
+"658938313620717588","elnaril_dev","05/07/2023 1:24 am","Hi fellow devs!
+The latest version (v0.9.0) of the Python wrapper for the Uniswap Universal Router has just been released.
+This open source lib allows you to decode and encode very easily the transaction data sent to the UR.
+Source & Usage: https://github.com/Elnaril/uniswap-universal-router-decoder
+Please let me know any feedback and what UR functions the next release should support ! 🙂","","⭐ (1),👍🏼 (1)"
+"1097619659731247164","aidenaiden_","06/07/2023 10:11 pm","Hey frens!
+I built a chatbot for Uniswap v3 to search trading pools, recent swaps, summarize trading activity, and more! It's open source and uses Oku's APIs
+https://twitter.com/aiden0x4/status/1676992842152177664","",""
+"476101671764623360","wen_xu","12/07/2023 11:13 am","Hey! It's Wen from https://narya.ai  We've built a speedy no-code tool for testing and debugging smart contracts, powered by LLM. We'd love for you to join our closed-beta testing. You'll get a 3-month free access pass to our tool after the test. 
+Here's a short intro video: https://youtu.be/R3_OSmAIIDI
+To sign up: https://forms.gle/BDSDSYR1GFQbnv5L6","","👍 (1)"
+"718946337210499204","nonseodion","16/07/2023 12:42 am","I just published the first issue of my smart contract security-focused newsletter, reHackt.
+
+It focuses on reHacking hacked protocols using Foundry. In this first issue I talked about the Cover Protocol hack. 
+
+The article goes over the vulnerability, the hackers thought process and how the attack was carried out.
+
+We also write a Solidity script to hack the protocol using Foundry. Lastly, we apply a fix to fix the vulnerability.
+
+Here's a link to the issue. If you do like it, please do subscribe and share. I'll be writing more and you'll get them directly in your inbox if u subscribe. The next issue will be on the Euler protocol hack. 
+
+Here's a link to the first issue. Enjoy 😊
+https://open.substack.com/pub/rehackt/p/cover-protocol-infinite-minting-machine?utm_source=share&utm_medium=android&r=2wnv5","",""
+"131086742135504896","tylerether","21/07/2023 2:16 am","Hey everyone, I'm here to introduce Adrastia, an oracle system that sources data and does computations entirely onchain. It aggregates prices and liquidity across a variety of DEXs such as Uniswap v2, v3, Balancer v2, Curve, and Algebra.
+
+It's different from Uniswap oracles, not only because it aggregates many pools, but also because it performs seven layers of validation. Adrastia is unmatched in terms of security mechanisms.
+
+Additionally, while Uniswap v3 oracles can only provide TWAPs up to 24 hours, Adrastia can provide TWAPs over months at a time.
+
+Not only does Adrastia provide price and liquidity feeds, but we also provide volatility and average interest rate feeds with our latest v4 update.
+
+These data feeds can even be plugged into our novel rate controller system, Adrastia Prudentia, to take DeFi risk management to the next level! Prudentia can be used to secure and improve interest rates, supply&borrow caps, collateral factors, and more!
+
+Check out our v4 tweet thread for more info: https://twitter.com/AdrastiaOracle/status/1682020932796432384","","❤️‍🔥 (1)"
+"1101159203088904274","blackjesus69","23/07/2023 3:35 pm","Hey everyone! I am a junior dev building my first project and would like some feedback on the UI.
+
+My aim for application to give the user as much useful information as possible with just glance at the page. If you have any recommendations 
+on alpha I can offer the user I will try my best to add what I can. 
+
+The application is not live yet but I am close to having an MVP for users to test out. I am the only person working on the project so delays may occur...
+
+Thanks for reading and I look forward to any feedback you may have!","","👌 (2)"
+"1101159203088904274","blackjesus69","23/07/2023 3:36 pm","","https://cdn.discordapp.com/attachments/1034875476956684408/1132614599284371537/app.png",""
+"1101159203088904274","blackjesus69","23/07/2023 3:36 pm","","https://cdn.discordapp.com/attachments/1034875476956684408/1132614622122352710/bitcoin.png",""
+"571786929255874641","waterfound","10/08/2023 4:15 am","Hey guys I'm an asset manager and provide LP services on Uni v3, have a look https://water-strategies.gitbook.io/docs/","",""
+"571786929255874641","waterfound","10/08/2023 4:15 am","","https://cdn.discordapp.com/attachments/1034875476956684408/1138966353227808768/Screenshot_2023-08-09_at_19.45.28.png",""
+"213718816947961859","jakecall","15/08/2023 8:43 am","Hey all! My team just launched a new Uniswap v3 Tool. It's relatively simple right now, but we plan on building out some cool features including pool tracking, detailed analytics, artificial intelligence, and many other undisclosed things.
+
+Feel free to check it out and play around with it. I'd love to hear some feedback and suggestions if you have any!
+
+https://buildrmetrics.com/
+
+https://twitter.com/jakeacall/status/1691277887221985280?s=20","",""
+"954419081744904222","utilitymeow","28/08/2023 6:08 pm","well done!","",""
+"456170940821274634","markatwork","22/09/2023 5:21 am","Sharing my short presentation on UniswapX. Enjoy :Uni:  https://youtu.be/lh0NjIag1HE?si=Hxztd0aPKxkcUb0n","","❤️‍🔥 (1),❤️ (1),Uni (1)"
