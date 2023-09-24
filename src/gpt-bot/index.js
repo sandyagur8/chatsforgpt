@@ -6,7 +6,7 @@ import {Client, GatewayIntentBits} from 'discord.js';
 //https://discord.com/api/oauth2/authorize?client_id=1155173679530000504&permissions=0&scope=bot%20applications.commands
 
 
-const API='ask_a06581a51c9d5941e8d437e4eb192f08'
+const API='ask_7fe16e5cf8af0c0674c65d36e2e6f157'
 // const url = `https://api.askyourpdf.com/v1/chat/${protocolMap[protocol]}?stream=false`
 
 const client = new Client({
@@ -28,10 +28,11 @@ client.on('ready', ()=>{
 
 client.on('messageCreate', async (message)=>{
     const protocolMap = {
-        'airstack':"fda31316-aec0-40d0-9ee8-3186da7d200d",
-        'aave':"a0609864-35e2-4018-913e-2c50b12bab66",
-        '1inch':"1a333551-88a8-4694-954e-e5e36174e22c",
-        'flashbots':"c03e29c0-660d-40c4-9723-21c475136599",
+        'airstack':"3664a72e-1d2e-43ef-b762-fda092942a7c",
+        'aave':"b5f56216-4b98-43bd-b5cf-02cc0b330031",
+        '1inch':"f829e92e-92de-4c1a-8f43-1f072046b86b",
+        'flashbots':"e5247c99-3f85-4336-bbf9-bc062fc3fed7",
+        'uma':"b6932206-364d-4db1-84f2-7bdb6189bc1d",
     }
 
 
@@ -56,12 +57,17 @@ client.on('messageCreate', async (message)=>{
             protocol='flashbots'
         }
 
+        if (message.content.includes('#uma')){
+            protocol='uma'
+        }
+
+
         console.log(message.content)
         console.log()
 
         const response = await fetch(`https://api.askyourpdf.com/v1/chat/${protocolMap[protocol]}?stream=false`, {method: 'POST', 
         headers:{
-            'x-api-key':'ask_8292bec378a0d56791276a35feb878b5',
+            'x-api-key':'ask_7fe16e5cf8af0c0674c65d36e2e6f157',
             'Content-Type':"application/json",
         },
         body:
@@ -78,4 +84,4 @@ client.on('messageCreate', async (message)=>{
     }
 })
 
-client.login('MTE1NTE3MzY3OTUzMDAwMDUwNA.Gu0uET.g5LofNHbDrNFXrUE_5o40fYPGHluj_QJvTLGR4')
+client.login('MTE1NTE3MzY3OTUzMDAwMDUwNA.GSGI2K.1eG0pUgxTyBWJFNQi3J3oeg0GdkVdP2heuOF0w')
