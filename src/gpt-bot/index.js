@@ -45,7 +45,8 @@ client.on('messageCreate', async (message)=>{
         'cartesi':'51c066db-7d27-4267-afc9-dfd66e18ce0b',
         'safe':'95e55ff0-f3fe-4b7c-9240-320e93ac7c3e',
         'biconomy':'70fd3b41-2938-48a9-bb19-0eda26172846',
-        'starknet':''
+        'starknet':'7c5d2ff1-7eb5-4042-8198-24ecaf9d045f',
+        'uniswap':'24aaf55f-cd80-428c-bbbc-bafd5196b8b7'
 
     }
 
