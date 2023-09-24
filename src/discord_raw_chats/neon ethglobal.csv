@@ -1,0 +1,202 @@
+Date,Username,User tag,Content,Mentions,link
+"2023-04-13,10:04:25","awliang","#0","","","https://cdn.discordapp.com/attachments/1096073293125140523/1096073412499230790/Viewable_on_TV.png"
+"2023-05-08,12:45:27","awliang","#0","Hello and welcome to the <#1096073293125140523> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Neon Labs Team at any point with your questions!
+
+👀 **ABOUT**
+The **Neon Foundation** is an organization with the mission to promote the development, growth, and adoption of Neon EVM and its ecosystem
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best use of Neon FVM**
+🥇First place - $2500
+🥈Second place - $1500
+🥉Third place - $1000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.neonfoundation.io/
+https://neonfaucet.org/
+https://neonscan.org/
+https://chainlist.org/chain/245022926","",""
+"2023-05-12,05:53:48","dandaka","#0","This URL downloads a file, looks like a malware, super suspicious → https://docs.neonfoundation.io/docs/quick_start/","",""
+"2023-05-12,19:27:32","olya3700","#0","Hi, This is strange. Try to follow this link https://docs.neonfoundation.io/","dandaka#0",""
+"2023-05-13,19:47:36","jordan.public","#0","https://ethglobal.com/showcase/guardian-oracle-keeper-protocol-rpcws","",""
+"2023-05-13,19:52:03","jordan.public","#0","Trying to deploy on the Neon Devnet. I get: 
+Error: 
+(code: -32000, message: gas limit reached: have 2415016 want 73951480, data: None)
+
+Can you help?","",""
+"2023-05-14,05:21:37","0xlucian","#0","Have you tried to increase the gas limit?","jordan.public#0",""
+"2023-05-14,05:23:05","0xlucian","#0","Gas estimations on NeonEVM are very different from Ethereum.","",""
+"2023-05-14,06:19:11","olya3700","#0","If you want to make a pitch of your project for Neon Team, we will wait for you near our table up to 13:00","","https://cdn.discordapp.com/attachments/1096073293125140523/1107250753975877652/IMG_4234.jpg"
+"2023-05-14,07:16:12","jordan.public","#0","Yes","",""
+"2023-05-14,12:30:54","0xlucian","#0","<@902911177997287454> Foundry uses contract call tracing. NeonEVM is currently not supporting that, but next week we will have all the implementation deployed. This could be 1 of the problems you were facing.. also the other one might be that Foundry has a hard cap on gasLimit that somehow has to be overridden","jordan.public#0",""
+"2023-05-14,12:47:43","jordan.public","#0","I'll try it on Tuesday...","",""
+"2023-05-14,12:47:48","jordan.public","#0","Thanks.","",""
+"2023-05-18,11:02:21","jordan.public","#0","First, thank you for the prize - I am greatly honored by the Neon prize for my project.","0xlucian#0",""
+"2023-05-18,11:45:50","0xlucian","#0","You did a great job. Keep up the good work","",""
+"2023-05-18,11:50:45","jordan.public","#0","Please let me know when the contract call tracing fix is pushed. The Foundry gas limit is not an issue, as it works elsewhere with forge switches --gas-limit and --block-gas-limit.","0xlucian#0",""
+"2023-07-10,14:50:08","awliang","#0","","","https://cdn.discordapp.com/attachments/1096073293125140523/1128035446002290808/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,10:54:09","awliang","#0","Hello and welcome to the <#1096073293125140523> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Neon Labs Team at any point with your questions!
+
+👀 **ABOUT**
+**Neon EVM** is a solution for anyone looking to scale Ethereum dApps on Solana in a developer-friendly manner and tap into Solana's vibrant ecosystem. It is a fully Ethereum-compatible environment on Solana
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best use of Neon EVM**
+🥇First place - $3000
+🥈Second place - $2000
+🥉Third place - $1000
+🌐 Special prize - $1000 for those who make the most transactions on Neon EVM.
+
+🏆Open track prize pool - $3,000. Pool prize to be evenly distributed among all hackathon projects that are willing to submit dApps on Neon EVM.
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+How Ethereum dApps can be deployed and run on Solana without any changes of the original code
+Time: 04:30 PM CEST – Jul 21, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.neonfoundation.io/
+https://neonfaucet.org/
+https://neonscan.org/
+https://chainlist.org/chain/245022926
+https://github.com/neonscan/hardhat-integrate","",""
+"2023-07-21,20:30:46","0xtekgrinder","#0","Hey, I was wondering what does it exactly means performance tests in the criteria ? Also what is exactly the special prize ?","",""
+"2023-07-21,21:31:58","0xtekgrinder","#0","We also have an issue when deploying our contracts ```
+(code: -32000, message: gas limit reached: have 3962709 want 112061600, data: None
+``` Is there any known workarounds ? ps: I am using foundry","",""
+"2023-07-21,21:32:22","0xtekgrinder","#0","like do I need to use hardhat or no ?","",""
+"2023-07-22,04:18:23","0xlucian","#0","Yeah put the gas limit >= 112061600.. Are you using a hardcoded gas limit?","0xtekgrinder#0",""
+"2023-07-22,04:18:46","0xlucian","#0","You can use foundry, there should be no problem","0xtekgrinder#0",""
+"2023-07-22,04:21:18","0xlucian","#0","By performance test it is meant to run as much as possible on-chain tests in order to test your dApp","0xtekgrinder#0",""
+"2023-07-22,04:21:53","0xlucian","#0","<@329623551399428096> Also by doing this you raise your chance to win the special prize 🙂","0xtekgrinder#0",""
+"2023-07-22,08:47:10","0xtekgrinder","#0","it doesn't works 😦","0xlucian#0",""
+"2023-07-22,08:48:01","0xtekgrinder","#0","can I get some help at your booth <@411261371829714944> ?","0xlucian#0",""
+"2023-07-22,08:56:05","0xlucian","#0","Yeah","0xtekgrinder#0",""
+"2023-07-22,11:53:22","0xyanc","#0","```ProviderError: eth_estimateGas() takes 2 positional arguments but 3 were given```","",""
+"2023-07-22,12:45:17","0xtekgrinder","#0","I've found a workaround for my problem. Basically have a really high gas multiplier. In my case it worked with -g 13000","",""
+"2023-07-22,12:45:54","0xtekgrinder","#0","For everyone using foundry out there 🙂","",""
+"2023-07-22,12:46:25","0xtekgrinder","#0","8000 works too","",""
+"2023-07-22,12:47:16","0xlucian","#0","Good job. So just setting `` --gas-limit 13000 `` works?","",""
+"2023-07-22,12:47:40","0xtekgrinder","#0","not gas limit","",""
+"2023-07-22,12:47:45","0xtekgrinder","#0","a gas multiplier","",""
+"2023-07-22,12:47:57","0xtekgrinder","#0","```forge script script/Deploy.s.sol:DeployScript -g 8000 --rpc-url $${NEON_RPC_URL} --broadcast --legacy```","",""
+"2023-07-22,12:47:59","0xtekgrinder","#0","this is my command","",""
+"2023-07-22,12:48:29","0xtekgrinder","#0","Is the doc open source ? I will create a PR for foundry after the hackaton.","",""
+"2023-07-22,12:49:31","0xlucian","#0","Which doc?","",""
+"2023-07-22,12:51:05","0xtekgrinder","#0","https://docs.neonfoundation.io/docs/quick_start","",""
+"2023-07-22,12:51:35","0xtekgrinder","#0","Like a foundry section next to hardhat, truffle ones","",""
+"2023-07-22,12:53:27","0xlucian","#0","Nope, but it should soon come out. I will let the team know about that. So in essence is that the gas multiplier should be way bigger (default one is 130). Could you please try smaller numbers to see which is the smallest round number that works 🙏🏻","",""
+"2023-07-22,13:05:14","0xtekgrinder","#0","ok so 5000 of gas multiplier for my contract deployment is about 73% of gas used which is the default value for ethereum in foundry","",""
+"2023-07-22,13:35:26","0xlucian","#0","I see thank you","",""
+"2023-07-22,13:45:37","0xtekgrinder","#0","sometime I get this error when I try to send a transaction ```code: -32000, message: replacement transaction underpriced, data: None)````","",""
+"2023-07-22,13:52:12","0xtekgrinder","#0","I try to specify nonce but it still doesn't works","",""
+"2023-07-22,14:14:57",".potiphar","#0","I am also getting this error","",""
+"2023-07-22,14:15:33",".potiphar","#0","<@329623551399428096> did you manage to find a solution? I tried increasing gas for a subsequent transaction but it still didn't work","0xtekgrinder#0",""
+"2023-07-22,14:24:37","0xtekgrinder","#0","not yet","",""
+"2023-07-22,14:34:50","0xlucian","#0","Try to submit a transaction with bigger nonce. Currently I am also having the same issue so I am trying to get some feedback from the team. I will update when/if I get any answer","",""
+"2023-07-22,14:35:53","0xtekgrinder","#0","I am trying 🙂","",""
+"2023-07-22,15:15:18",".potiphar","#0","Testnet seems to be up again now 🙂","",""
+"2023-07-22,15:16:14","0xlucian","#0","For all the guys that are spamming the network with 40k transactions. STOP 😄 you will win the Special prize for most transactions already 😄","",""
+"2023-07-22,15:16:24","0xlucian","#0","Some hackers need to use the devnet environment","",""
+"2023-07-22,15:21:42","0xlucian","#0","does it work fo you",".potiphar#0",""
+"2023-07-22,15:26:13",".potiphar","#0","I was able to process some transactions 👍","0xlucian#0",""
+"2023-07-22,15:26:43",".potiphar","#0","Not tried in the last 10 minutes though","",""
+"2023-07-22,15:28:23",".potiphar","#0","Having the same issue again now 😦","",""
+"2023-07-22,15:28:58","0xtekgrinder","#0","same","",""
+"2023-07-22,15:29:06","0xtekgrinder","#0","I still can't send my transactions 😦","",""
+"2023-07-22,15:32:19","0xlucian","#0","... okay we are trying to figure this out","",""
+"2023-07-22,15:32:39","0xlucian","#0","I let the team know and waiting for reply.. hope someone could help today","",""
+"2023-07-22,15:33:56","0xlucian","#0","I guess I know what the issue is.... Since our devnet infrascructure is not scaled as our mainnet one, the guys that spammed our network cluttered devnet 😄 ... but the team needs to verify this theory","",""
+"2023-07-22,15:35:47","0xtekgrinder","#0","In the meantime for those who wants to test as close as possible with neon is by making a fork environment using for example anvil.","",""
+"2023-07-22,15:45:33",".potiphar","#0","Don't worry, it happens! Thanks for looking into it","0xlucian#0",""
+"2023-07-22,15:46:01","0xlucian","#0","Increasing the nonce or gasPrice also doesn't seem to work as far as I tried...
+```
+ const [deploymentSigner] = await hre.ethers.getSigners();
+  const nonce = await deploymentSigner.getTransactionCount();
+  const overrides = {
+    nonce: nonce + 1
+  };
+  const ContractFactory = await hre.ethers.getContractFactory(""ExampleContract"");
+  const contract = await ETHGlobal.deploy(overrides);
+```
+You could try as well...","",""
+"2023-07-22,16:29:54","gzeon","#0","<@411261371829714944> sent u a dm","0xlucian#0",""
+"2023-07-22,16:45:20","ehsueh","#0","I am still seeing the ""transaction underpriced issue""","",""
+"2023-07-22,16:46:10","Lion5432","#8412","try increasing the gas to a crap load","",""
+"2023-07-22,16:46:40","0xlucian","#0","Can you try now?","",""
+"2023-07-22,16:47:15","Lion5432","#8412","do like 1000000000000 or at least 50% of your previous txn","",""
+"2023-07-22,16:47:34","0xlucian","#0","It should work without increasing gas price now","",""
+"2023-07-22,16:51:26","0xlucian","#0","Please report back if you try. I got my first transaction sucessfull and after that the same error... something cheesy is happening","",""
+"2023-07-22,16:56:39","ehsueh","#0","Same. I got two transactions in before. Then no more.","",""
+"2023-07-22,16:58:11","0xlucian","#0","Yeah I guess.. okay I will let you know when team responds to me... I think someone will need to prune the tx pool for devnet, but unfortunatelly I don't have access for that","",""
+"2023-07-22,16:58:15","0xlucian","#0","Will keep you updated","",""
+"2023-07-22,17:34:04","anonverse","#0","Hi everyone! I am trying to run transactions with web3.py but they are way slower than expected: 
+
+user approval to call a function: 4.83s
+calling our add_task solidity function: 6.16s
+
+that's 10 seconds. This is on mainnet. 
+
+I was told transactions would take like 1s each. Is it expected to actually take 5-10s each?","",""
+"2023-07-22,17:45:12","0xlucian","#0","Hi thanks for the valuable feedback. Could you please provide some more context like, tx ids?","anonverse#0",""
+"2023-07-22,18:25:54","anonverse","#0","user approval to call a function: 4.83s - transaction: https://neonscan.org/tx/0xa8ebc43bd4a6cb030a54e49b62b75a72521a791f2b517dae996692332a29d33f
+calling our add_task solidity function: 6.16s - transaction: https://neonscan.org/tx/0xd3786a861023ffa935e096e59f4d6db664afcd5dbb2096d58c7393d4a1fe063c","",""
+"2023-07-23,02:50:32","0xlucian","#0","Thanks alot. Could you please also shre which RPC did you use to submit those txs","anonverse#0",""
+"2023-07-23,03:36:42",".potiphar","#0","Do we go to the Neon EVM booth to show you our project?","",""
+"2023-07-23,04:36:26","0xlucian","#0","Yeah I am here",".potiphar#0",""
+"2023-07-23,07:24:18","0xlucian","#0","<@1035563085206925362> could your provide RPC for mainnet you used?","anonverse#0",""
+"2023-07-24,07:54:40","themvp07","#0","Hello.. someone of Neon still in Paris? i would like to talk and share some topics in person. Maybe sharing a coffe 🙂","",""
+"2023-07-24,09:17:56","0xlucian","#0","Unfortunatelly nope 😦 Feel free to DM me we can arrange a meeting","",""
+"2023-09-13,13:27:03","awliang","#0","","","https://cdn.discordapp.com/attachments/1096073293125140523/1151569749310972004/image.png"
+"2023-09-16,13:06:17","awliang","#0","Hello and welcome to the <#1096073293125140523> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Neon Labs Team at any point with your questions!
+
+👀 **ABOUT**
+**Neon EVM** is a solution for anyone looking to scale Ethereum dApps on Solana in a developer-friendly manner and tap into Solana's vibrant ecosystem. It is a fully Ethereum-compatible environment on Solana
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best use of Neon EVM
+🥇First place - $2 500
+🥈Second place - $1 500
+🥉Third place - $1 000
+
+🌐 Special prize - $1 000 for those who make the most transactions on Neon EVM.
+
+🏆Open track prize pool - $4 000. Pool prize to be evenly distributed among all hackathon projects that are willing to submit dApps on Neon EVM.
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🛠️ Neon EVM: Ethereum dApps deployed & run on Solana
+Time: 02:20 PM EDT – Sep 22, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.neonfoundation.io/
+https://neonfaucet.org/
+https://neonscan.org/
+https://chainlist.org/chain/245022926
+https://github.com/neonscan/hardhat-integrate","",""

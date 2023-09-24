@@ -1,0 +1,337 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-08-26,02:10:55","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1012605042227953664/unknown.png"
+"2022-08-30,13:09:03","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Quicknode Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**The best use of QuickNode's NFT API or Token API will be eligible to receive the following:**
+🥇 1st - $2,500
+🥈 2nd - $1,500
+🥉 3rd - $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/IwkgZ3Hmaxs
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://www.quicknode.com/docs
+Guides - https://www.quicknode.com/guides
+YouTube - https://www.youtube.com/c/QuickNode/","",""
+"2022-09-03,01:02:01","joelcodes","#0","Howdy everyone, is there anyone from the sponsor team that can validate if our idea is worth building? I organized the key components in a document I can share with you. Feel free to DM or reply here. Thank you!","",""
+"2022-09-04,12:44:35","ryoko849","#0","Hi QuickNode team, I have a very basic question of how QuickNode is different from other API providers like Alchemy - I mean, I read that it is fast but what is the source of speed to make it presumably faster than other alternatives...?","",""
+"2022-09-05,23:50:08","0xthresh","#0","hey all, is quicknode offering any use of Trace Mode for hackathon participants?","",""
+"2022-09-12,18:08:27","darrylyeo","#0","Hey! I'm interested in using QuickNode's endpoints across multiple chains. Is there a way I can create more than one endpoint from my account?","",""
+"2022-09-15,09:20:50","markcarey","#0","The web page for the NFT API says ""cross-chain NFT data"" but in the docs suggest ETH Mainnet only (`Currently supports ERC-721 and ERC-1155 compliant contracts (on Ethereum mainnet).`). Which is true? 😉","",""
+"2022-09-17,10:42:35","temi0x","#0","<@526532354265710602>","joelcodes#0、darrylyeo#0",""
+"2022-09-21,01:13:04","gamedev.","#0","Hello,
+polygon mumbai testnet,
+can not find to fetch NFT data API, any help ?","",""
+"2022-09-21,07:23:42","optimus1981","#0","no fetch NFT api for polygon mainnet as well","",""
+"2022-09-21,07:23:47","optimus1981","#0","I am working on the polygon mainnet","",""
+"2022-09-21,07:24:00","optimus1981","#0","Please help","",""
+"2022-09-21,16:45:01","riki6059","#0","Hello QuickNode team","",""
+"2022-09-21,16:46:27","riki6059","#0","I would like to make the following function call in React:
+
+  const approve = async () => {
+      const abi = [
+        {
+          constant: false,
+          inputs: [
+            { internalType: ""address"", name: ""spender"", type: ""address"" },
+            { internalType: ""uint256"", name: ""value"", type: ""uint256"" }
+          ],
+          name: ""approve"",
+          outputs: [{ ""internalType"": ""bool"", ""name"": """", ""type"": ""bool""  }],
+          payable: false,
+          stateMutability: ""nonpayable"",
+          type: ""function"",
+        },
+      ];
+      const provider = new ethers.providers.JsonRpcProvider(""https://damp-tiniest-night.optimism-goerli.discover.quiknode.pro/7635709edb15d49d5a4d5bdf19649792a8805f41/"");
+      const contract = new ethers.Contract(
+        ""0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"",
+        abi,
+        provider
+      );
+      const response = await contract.functions.approve(
+        adSpaceContract, 1000000000000000000000
+      );
+      console.log(response);
+  }","",""
+"2022-09-21,16:47:04","riki6059","#0","Uncaught (in promise) Error: sending a transaction requires a signer (operation=""sendTransaction"", code=UNSUPPORTED_OPERATION, version=contracts/5.7.0)","",""
+"2022-09-21,16:47:09","riki6059","#0","Do you know what I am doing wrong?","",""
+"2022-09-25,13:37:02","newway1220","#0","Futaba is using Quicknode as main provider.","","https://cdn.discordapp.com/attachments/1009775956682088528/1023649343510696006/Screenshot_2022-09-25_at_19.36.37.png"
+"2022-09-25,13:39:07","newway1220","#0","Feedback : smooth, no problem.
+Would appreciate if we had more endpoints as we need two endpoints for Polygon mumbai and Optimism.
+But we managed to have 2 , one per team mate.","",""
+"2022-09-25,13:39:50","newway1220","#0","Quicknode part : [https://github.com/Futaba-Labs/data-feed-node]","",""
+"2022-09-25,15:05:08","irwingtello","#0","Here's what we built:
+
+Name: 🌐 DAds
+Description: Decentralized advertising run by a Decentralized Autonomous Organization (DAO).
+Github: https://github.com/mektigboy/DAds
+
+Public URL: https://ethglobal.com/showcase/dads-0jocc","",""
+"2022-09-25,19:43:03","newway1220","#0","This our project : https://ethglobal.com/showcase/futaba-gruwk
+We have used Quicknode as provider for Optimism and Polygon.","",""
+"2022-09-26,11:29:09","iamminci","#0","Hey QuickNode team! Just wanted to share the project that I've built for your bounty. Thanks for your time:)
+
+**Telescope is a cross-chain EVM transaction explorer.** All token balances showcased in the app were built using the QuickNode Token API! Learn more here: https://ethglobal.com/showcase/telescope-144tq","",""
+"2022-09-27,04:53:08","darrylyeo","#0","Hey QuickNode team! Happy to share that Blockhead is integrated with QuickNode. It's a super-interface for EVM chains, DeFi apps, and web3 protocols, where YOU choose the data sources powering the portfolio tracker, block explorer and app dashboards.
+https://ethglobal.com/showcase/blockhead-ethonline-2022-awvfg","",""
+"2022-10-02,17:36:15","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1026246261457825882/unknown.png"
+"2022-10-03,09:14:39","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**The best use of QuickNode's NFT API or Token API will be eligible to receive the following:**
+🥇 1st - $2,500
+🥈 2nd - $1,500
+🥉 3rd - $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/yHxljpCNoTw
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://www.quicknode.com/docs
+Guides - https://www.quicknode.com/guides
+YouTube - https://www.youtube.com/c/QuickNode/","",""
+"2022-10-08,01:16:21","nlnw","#0","what's the easiest way to get an api key?","",""
+"2022-10-08,13:13:05","arthurmr96","#0","hello! we are having trouble using the generated api key after creating the account on quick node","",""
+"2022-10-08,13:13:33","arthurmr96","#0","the request we are doing says that the NFT api is not enabled","",""
+"2022-10-09,11:33:33","kishore2023","#0","Team QuickNode 🙌🏽 we’re ready for your review! Where can we find you? Can meet in 20mins","",""
+"2022-10-09,12:43:50","morkeeth","#0","Where are you guys? Empty station","",""
+"2022-10-09,13:07:55","pdroooooo","#0","Did u find out?","morkeeth#0",""
+"2022-10-09,13:12:38","morkeeth","#0","Nope! U there now?","",""
+"2022-10-09,13:40:24","pdroooooo","#0","Behind Mina!","",""
+"2022-10-09,13:55:43","zer0cache","#0","we're here! at the booth by the elevators","",""
+"2022-10-20,09:07:39","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1032641249242517554/unknown.png"
+"2022-11-01,05:11:02","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st - $2,500
+🥈 2nd - $1,500
+🥉 3rd - $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/yHxljpCNoTw
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://www.quicknode.com/docs
+Guides - https://www.quicknode.com/guides
+YouTube - https://www.youtube.com/c/QuickNode/","",""
+"2022-11-04,18:34:59","mckitat","#0","I was playing around with Quicknode, and I made a Ropsten endpoint. Turns out all Ropsten faucets are deprecated, and Goerli is the new primary testnet.
+
+Quicknode says I hit my 1 endpoint creation limit and I need to pay to make any new ones. I'm hoping to use Quicknode for our hackathon project...what should I do?","",""
+"2022-11-04,18:35:46","mckitat","#0","I could just make a new account....but if there are any credits etc for the hackathon, that would be great","",""
+"2022-11-04,18:38:24","mckitat","#0","Nvm I figured it out: For reference to other builders, just archive the endpoint in case you make the same mistake","",""
+"2022-11-05,05:09:37","nlnw","#0","Are you guys at the hackathon? Think I didn't see a quicknode booth","",""
+"2022-11-05,15:55:15","jacksonthedev","#0","~~Hey I'm getting this error when following the rpc connection instructions:
+
+TypeError: Cannot add property headers, object is not extensible~~
+
+SOLVED ✅","","https://cdn.discordapp.com/attachments/1009775956682088528/1038542032022540419/Screen_Shot_2022-11-05_at_12.52.10_PM.png"
+"2022-11-05,17:07:17","jacksonthedev","#0","solved the above now getting this error: 
+
+""nft fetch call support is not enabled""
+
+SOLVED ✅  ( the nft api is only available on main net....)","","https://cdn.discordapp.com/attachments/1009775956682088528/1038560157438857307/Screen_Shot_2022-11-05_at_2.07.00_PM.png"
+"2022-11-06,05:44:57","thefourthideal","#9319","hey, do you guys have a RPC URL pointing to optimism GOERLI testnet i could use?","",""
+"2022-11-21,12:52:54","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1044309444936347749/unknown.png"
+"2022-11-28,05:44:27","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 $1,000 each to the best 3 projects built using QuickNode NFT API or Token API.
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://www.quicknode.com/docs
+Guides - https://www.quicknode.com/guides
+YouTube - https://www.youtube.com/c/QuickNode/","",""
+"2022-12-02,15:15:17","lucifer0x17","#0","Hey can you guys help me set up two different RPC","",""
+"2022-12-02,15:15:27","lucifer0x17","#0","as I can only have one with the free tier","",""
+"2022-12-02,15:16:07","lucifer0x17","#0","<@720407640131240026> please tag the desired poeple","awliang#0",""
+"2022-12-03,04:54:30","sensahil","#0","Hey <@596322972659089408> can you come to our booth?","lucifer0x17#0",""
+"2022-12-03,05:03:56","lucifer0x17","#0","sure","",""
+"2022-12-03,08:34:20","shubhshd99","#0","guys where r u?","",""
+"2022-12-03,08:34:23","shubhshd99","#0","no one at the booth","",""
+"2022-12-03,08:34:49","shubhshd99","#0","we need help","",""
+"2022-12-03,08:50:12","shubhshd99","#0","mainly we need to create a new endpoint for mumbai testnet on quicknode","",""
+"2022-12-03,08:50:22","shubhshd99","#0","but it is asking to updgrade the account","",""
+"2022-12-03,08:50:58","shubhshd99","#0","so just wanted to know how do we bypass it?","",""
+"2022-12-03,08:51:28","shubhshd99","#0","anyone?","",""
+"2022-12-03,10:45:15","freedress","#1108","Does it require bank credit card to create account in quick node?","",""
+"2022-12-03,16:45:27","sensahil","#0","Hey <@943197147141136425> , are you on the free tier and already have an endpoint?","shubhshd99#0",""
+"2022-12-03,16:45:43","sensahil","#0","<@879645675552382978> you don't need a card for the free tier","freedress#1108",""
+"2022-12-03,19:55:50","shubhshd99","#0","already have a free account but do not get an option to select nft fetch tool add on","sensahil#0",""
+"2022-12-04,00:17:59","sensahil","#0","If you have an Ethereum endpoint it’s enabled by default","shubhshd99#0",""
+"2022-12-04,03:08:25","sensahil","#0","Depay team","",""
+"2022-12-04,03:08:53","sensahil","#0","Can you come to the booth?","",""
+"2023-03-14,06:49:25","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1085152701253419130/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,11:50:23","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+
+👀 **ABOUT**
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW**
+*More info soon!*
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://www.quicknode.com/docs
+Guides - https://www.quicknode.com/guides
+YouTube - https://www.youtube.com/c/QuickNode/
+Faucet - https://faucet.quicknode.com/","",""
+"2023-04-10,04:31:12","yellow","#6629","Excited to build usecrossbow.com on Quicknode!","",""
+"2023-04-14,20:36:27","darrylyeo","#0","Hey QuickNode team, looking to use multiple endpoints in my hack - would you be willing to provide complimentary credits/plan upgrades for the hackathon?","",""
+"2023-05-11,11:08:07","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1106236301050646679/Waterloo_2.png"
+"2023-06-19,14:45:49","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+👀 **ABOUT**
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW**
+
+- Best 5 projects using QuickNode RPC gets $400 each selected project = $2,000 total
+- Best use of Token API gets $1,500 
+- Best use of NFT API gets $1,500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://www.quicknode.com/docs
+https://www.quicknode.com/guides
+https://www.youtube.com/c/QuickNode/
+https://faucet.quicknode.com/","",""
+"2023-06-23,23:18:11","williamw","#0","How do I add the Token and NFT API v2 bundle to my quicknode? I tried activating but it doesn't show up","","https://cdn.discordapp.com/attachments/1009775956682088528/1122002706761003089/Screen_Shot_2023-06-23_at_11.15.11_PM.png"
+"2023-06-24,13:26:58","srao","#3755","Hey  we are trying to deploy a stackup bundler and we're wondering if quick node provides a node endpoint with debug enabled so we can do custom tracing. Which is a requirement to run it.","",""
+"2023-06-24,15:43:41","yushkevi.ch","#0","traces","",""
+"2023-06-24,15:43:43","yushkevi.ch","#0","Hey, at the moment we don’t support custom tracing on our debug trace methods","",""
+"2023-06-24,15:45:19","yushkevi.ch","#0","nft/token api","",""
+"2023-06-24,15:45:21","yushkevi.ch","#0","dm me your email address","",""
+"2023-06-24,16:04:47","yushkevi.ch","#0","Hey guys, after catching up with <@963550466258665523> we figured there’s a hacky way to give access to custom tracing during the hackathon","srao#3755",""
+"2023-06-24,16:06:11","williamw","#0","bn.william.w@gmail.com","",""
+"2023-06-24,16:06:17","yushkevi.ch","#0","we’d open up access to anyone needing tracing API for bundlers or other projects. come say hi or ping me anytime","",""
+"2023-06-24,16:06:30","williamw","#0","thank you!!","",""
+"2023-06-24,16:19:57","yushkevi.ch","#0","<@963550466258665523> check DMs","srao#3755",""
+"2023-06-24,17:59:25","yushkevi.ch","#0","hey hey how's the testing going?","",""
+"2023-06-25,10:35:43","ukitta555","#0","Hi, can someone point where the QuickNode Partner Judging booth is located?","",""
+"2023-06-25,10:38:16","arredr2","#0","Hello. It is on the back wall by the Cafe.","ukitta555#0",""
+"2023-07-10,15:03:29","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1128038806558343258/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,18:41:06","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+👀 **ABOUT**
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW**
+
+5️⃣ Top 5 - $400 each
+💸 Best use of Token API - $1,500
+🖼 Best use of NFT API $1,500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+📖 Docs - https://www.quicknode.com/docs
+📚 Guides - https://www.quicknode.com/guides
+📹 YouTube - https://www.youtube.com/c/QuickNode/
+🚰 Faucet - https://faucet.quicknode.com/","",""
+"2023-07-22,15:14:05","super.skywalker","#0","Is the quicknode team here?","",""
+"2023-07-22,16:41:17","soniasingla","#9516","yes hi!","super.skywalker#0",""
+"2023-07-22,16:49:21","elli610","#0","Hi <@1130839939945336843> !
+Are you available? 
+We need a QuickNode RPC for the Goerli testnet, but we can't find a free RPC on your website.","soniasingla#9516",""
+"2023-07-22,17:06:08","soniasingla","#9516","wait, let me send you via DM","elli610#0",""
+"2023-07-22,22:01:31","maadhavsharma","#0","<@325674633770565632> pls check dm","yushkevi.ch#0",""
+"2023-09-13,13:38:10","awliang","#0","","","https://cdn.discordapp.com/attachments/1009775956682088528/1151572548702711808/image.png"
+"2023-09-16,17:29:28","awliang","#0","Hello and welcome to the <#1009775956682088528> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the QuickNode Team at any point with your questions!
+
+👀 **ABOUT**
+**QuickNode** is the premier Web3 developer platform, helping today's most cutting-edge apps run with speed, reliability, and scale. Powering top projects & businesses, and empowering developers with instant access to 15+ chains across a global node network.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Top 5 projects using QuickNode RPC gets $400 each selected project ($2,000 total prize pool)
+
+🏆 Best use of Token API gets $1,500
+🏆 Best use of NFT API gets $1,500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+📖 Docs - https://www.quicknode.com/docs
+📚 Guides - https://www.quicknode.com/guides
+📹 YouTube - https://www.youtube.com/c/QuickNode/
+🚰 Faucet - https://faucet.quicknode.com/","",""

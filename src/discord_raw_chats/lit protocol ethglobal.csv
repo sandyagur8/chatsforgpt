@@ -1,0 +1,1146 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-07-03,00:11:05","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/993005942083964959/unknown.png"
+"2022-07-05,15:30:23","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Lit** is a decentralized compute, encryption, and access control network powered by threshold cryptography.
+
+With Lit, developers can automate signing, reading, and writing data to web3 decentralized networks like Ethereum and IPFS. Additionally, data can be private in these open web applications and only decrypted by authorized parties with Lit access control. 
+
+Lit offers two products, Prograblem Key Pairs (PKPs) and Decentralized Access Control. There is one bounty for each product!
+
+
+🏆 **PRIZE OVERVIEW **
+
+🔑 Best use of Key Pair Apps + Tools — $2500
+🥷 Private Data on the Open Web — $2500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/hackfs2022/prizes
+
+
+🚀 **WORKSHOP** 
+*Workshop link coming soon!*
+
+
+🔗 **IMPORTANT LINKS**
+https://developer.litprotocol.com/docs/litactionsandpkps/whatarelitactionsandpkps/
+https://developer.litprotocol.com/docs/toolsandexamples/sdkexamples/encryptanddecrypt/installation/","",""
+"2022-07-05,22:06:53","danilowhk","#0","Hello!","",""
+"2022-07-05,22:07:16","danilowhk","#0","We are planning on building using the Lit Protocol, but would like to validate if our idea is possible to implement","",""
+"2022-07-05,22:07:35","danilowhk","#0","Would there be any mentor that we could have a chat with?","",""
+"2022-07-07,09:19:01","lumilobo","#0","~~Hi <@720407640131240026>  🤗 which chains does lit support? I only see `ethereum` in the docs, or does that mean any EVM chain?~~
+Nvm already found the answer (:","awliang#0",""
+"2022-07-07,17:34:19","danoved","#0","Hello I’m potentially interested in using lit to token gate content for virtual worlds stored on ipfs. How much does the encryption/decryption rely on centralized servers? Ie if lit disappears one day and my content is encrypted will I be able to decrypt it if lits servers are unavailable?","",""
+"2022-07-07,18:11:15","thenoneconomist","#0","One use case I'm exploring needs to protect anyone but data owners(and people given permission to) from reading the full data but provide only insights from it. Is this sth Lit Protocol can help with?","",""
+"2022-07-08,11:46:10","0xefrain","#0","Hi we are planning to build using Lit protocol  any  Lit Protocol  member for discuss about our project","",""
+"2022-07-08,14:05:54","davidsneider","#0","yes! can you DM me?","danilowhk#0",""
+"2022-07-08,14:06:49","davidsneider","#0","Lit is a decentralized dependency. if a few of the nodes go away, you can still get the key. if all of them go away, you won't be able to.","danoved#0",""
+"2022-07-08,14:06:56","davidsneider","#0","please DM!","0xefrain#0",""
+"2022-07-08,14:07:37","davidsneider","#0","Yes! Check this out: https://developer.litprotocol.com/docs/AccessControlConditions/intro","thenoneconomist#0",""
+"2022-07-08,19:39:18","karthik_karthik","#8212","<@708879198915395645>  can you please tell me what can we do with lit-protocol in simple words like examples of previous projects that are built on lit-protocols.","davidsneider#0",""
+"2022-07-08,19:53:17","_wbt_","#0","FYI, in the prizes section, under 🥷 Private Data on the Open Web — $2500
+it says ""For this bounty, create a novel tool or application that uses Lit to store private data on the open web. Check out this guide for tips on how to implement it.""
+There's no clickable link there.","",""
+"2022-07-08,20:59:09","creedebeauvoir","#0","thanks for catching!","_wbt_#0",""
+"2022-07-08,20:59:13","creedebeauvoir","#0","here's the link: https://blog.litprotocol.com/?p=lit-x-bundlr-x-arweave-guide","",""
+"2022-07-08,20:59:25","creedebeauvoir","#0","will also update on prize site 🙂","",""
+"2022-07-09,08:36:20","harpaljadeja.eth","#0","hi <@804718381814513695> can we share the key in a secure manner with other people to decrypt the content?","creedebeauvoir#0",""
+"2022-07-09,13:55:14","danoved","#0","cool so if we have the key we can decrypt the content?","davidsneider#0",""
+"2022-07-09,15:44:57",".joshuabray","#0","**Decentralized Access Control == Gated Access**
+I like to think: Lit allows for easy ""gated access"" to things (information, events, finances)
+
+examples:
+You could store information that only those with an NFT from a particular collection can read/access/edit.
+You could allow specified users to attend an online seminar.","karthik_karthik#8212",""
+"2022-07-10,14:55:08","davidsneider","#0","Lit will provision the user a key to decrypt when their meet the conditions: https://developer.litprotocol.com/docs/AccessControlConditions/intro","harpaljadeja.eth#0",""
+"2022-07-10,14:55:49","davidsneider","#0","yes, that's correct. the content is initially encrypted client side and the key that is generated during that process can decrypt.","danoved#0",""
+"2022-07-11,10:34:23","Michael Vogt","#2729","Hello. While the tutorial are great to get something working, is there some kind of API reference available, too?
+For example, here are a bunch of functions mentioned to use, but nothing about the parameter list and return type
+https://developer.litprotocol.com/docs/ToolsAndExamples/SDKExamples/EncryptAndDecrypt/encryption#:~:text=If%20you%20are,use%20zipAndEncryptFiles()%20instead.","",""
+"2022-07-11,10:45:31","Michael Vogt","#2729","Found it: https://github.com/LIT-Protocol/lit-js-sdk/blob/main/api_docs.md","",""
+"2022-07-12,13:36:18","davidsneider","#0","awesome.","",""
+"2022-07-12,13:36:28","davidsneider","#0","ping if you've got other questions <@548176959293751338>","Michael Vogt#2729",""
+"2022-07-12,13:37:09","Michael Vogt","#2729","Thanks David 👍","",""
+"2022-07-12,14:16:47","Carl","#0186","<@708879198915395645> Question: When using the Lit Ceramic SDK, what Ceramic data model is being used here?:
+```
+const stringToEncrypt = 'This is what we want to encrypt on Lit and then store on ceramic'
+const response = litCeramicIntegration
+   .encryptAndWrite(stringToEncrypt, accessControlConditions)
+   .then((streamID) => console.log(streamID))
+```","davidsneider#0",""
+"2022-07-12,23:10:39","rwiggum","#0","it's a custom one that stores your data as an encrypted zip along with the metadata needed to decrypt it via Lit.  You can see it in the code here https://github.com/LIT-Protocol/CeramicIntegration/blob/main/src/ceramic.ts#L86","Carl#0186",""
+"2022-07-13,06:44:28","harpaljadeja.eth","#0","my string data is empty","","https://cdn.discordapp.com/attachments/993005932902613103/996728815432781904/unknown.png"
+"2022-07-13,06:44:33","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/996728837113122906/unknown.png"
+"2022-07-13,06:44:42","harpaljadeja.eth","#0","this is the data when console logged","",""
+"2022-07-13,06:45:15","harpaljadeja.eth","#0","<@399725459455213579>","rwiggum#0",""
+"2022-07-13,07:07:29","harpaljadeja.eth","#0","`checkAndSignAuthMessage` prompts for a sign every time, the docs says that it check in localStorage first doesn't seem to","",""
+"2022-07-13,07:19:57","harpaljadeja.eth","#0","this page link doesn't work","","https://cdn.discordapp.com/attachments/993005932902613103/996737745894522921/unknown.png"
+"2022-07-13,08:57:43","Carl","#0186","Thanks!","rwiggum#0",""
+"2022-07-13,11:54:46","enicibenici","#0","hey there","",""
+"2022-07-13,11:55:32","enicibenici","#0","we want to store images in decentralized network","",""
+"2022-07-13,11:55:51","enicibenici","#0","ideally from webbrowser","",""
+"2022-07-13,11:56:03","enicibenici","#0","is it possible with your product?","",""
+"2022-07-13,11:58:38","davidsneider","#0","here's an example <@436280197340463105>: https://blog.litprotocol.com/?p=lit-x-bundlr-x-arweave-guide
+
+you can use Lit with any storage network!","enicibenici#0",""
+"2022-07-13,12:01:49","enicibenici","#0","we wanna  to avoid using secret keys and backend","",""
+"2022-07-13,12:03:14","enicibenici","#0","can we safely use your api from frontend?","",""
+"2022-07-13,12:25:21","rwiggum","#0","encryptedSymmetricKey should be passed in as hex.  looks like you're passing it in as an array. you can convert it with `LitJsSdk.uint8arrayToString(yourArrayHere, 'base16')`","harpaljadeja.eth#0",""
+"2022-07-13,12:26:05","rwiggum","#0","are you using the same chain every time?  and you're sure you're not in an env where localstorage is restricted, like an iframe?","harpaljadeja.eth#0",""
+"2022-07-13,12:26:34","rwiggum","#0","those docs are here now: https://developer.litprotocol.com/docs/AccessControlConditions/EVM/customContractCalls","harpaljadeja.eth#0",""
+"2022-07-13,12:27:50","rwiggum","#0","yes you can do this, and Lit will handle key management for you, but you need to decide where you will store the images.  arweave?  ipfs?  Lit doesn't handle the storage side of this, we only encrypt and decrypt the data for you (client side)","enicibenici#0",""
+"2022-07-13,12:31:25","harpaljadeja.eth","#0","I am on localhost","rwiggum#0",""
+"2022-07-13,13:13:06","rwiggum","#0","yeah it should work fine on localhost.  are you passing the same chain everytime?","harpaljadeja.eth#0",""
+"2022-07-13,13:53:05","harpaljadeja.eth","#0","yup, I am invoking `checkAndSignAuthMessage` on button click so on every button click it pops my metamask","rwiggum#0",""
+"2022-07-13,13:53:21","harpaljadeja.eth","#0","and is it possible to get the connected address using the LitSdk object?","",""
+"2022-07-13,16:26:49","rwiggum","#0","yeah it shouldn't do that.  but it will do that if you either change your chain, or wallet address.  like if you run checkAndSignAuthMessage and then change your wallet address in metamask, and run checkAndSignAuthMessage again, it will pop metamask again for a new signature.  otherwise, it should store and retrieve it from localstorage.  are you in chrome?","harpaljadeja.eth#0",""
+"2022-07-13,20:53:14","harpaljadeja.eth","#0","Yes","rwiggum#0",""
+"2022-07-14,05:41:53","Anson","#6180","If it's `Blob` you might want to convert it to `string` to before storing it, here's a little snippet you can do that:
+```
+export const blobToDataURI = (blob) => {
+    return new Promise((resolve, reject) => {
+        var reader = new FileReader();
+
+        reader.onload = (e) => {
+        var data = e.target.result;
+        resolve(data);
+        };
+        reader.readAsDataURL(blob);
+    });
+}
+```","",""
+"2022-07-14,06:41:25","harpaljadeja.eth","#0","does this mean i don't meet the accessControl conditions or am I passing the wrong ones","","https://cdn.discordapp.com/attachments/993005932902613103/997090436315361350/unknown.png"
+"2022-07-14,06:41:50","harpaljadeja.eth","#0","<@528729934789869596>","Anson#6180",""
+"2022-07-14,07:07:12","harpaljadeja.eth","#0","2 accessControlConditions being sent during encryption and decryption don't know why is it not the same","","https://cdn.discordapp.com/attachments/993005932902613103/997096924073168936/unknown.png"
+"2022-07-14,07:24:34","harpaljadeja.eth","#0","i think it uses buffer which if not in browser then fails","rwiggum#0",""
+"2022-07-14,07:24:38","harpaljadeja.eth","#0","and prompts to sign","",""
+"2022-07-14,07:24:48","harpaljadeja.eth","#0","is Lit supposed to be used on server-side? 😅","",""
+"2022-07-14,07:40:40","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997105349595250698/unknown.png"
+"2022-07-14,08:48:15","Anson","#6180","Can you show me the code for this?","harpaljadeja.eth#0",""
+"2022-07-14,08:49:10","Anson","#6180","It can be used on both","harpaljadeja.eth#0",""
+"2022-07-14,08:52:56","Anson","#6180","This repo is an example on encrypting static content and upload to a web3 storage (arweave), then pull it back down and decrypt it
+https://github.com/LIT-Protocol/lit-bundlr-example/blob/e9ba2a46e1711389f71f435ee53c319454b61280/pages/index.js#L367","harpaljadeja.eth#0",""
+"2022-07-14,08:54:55","Anson","#6180","if you trace the function that is being used on each step, it should give you a clearer image of how lit encrypting works eg. step 1 > `onDropKey` step2 > `onDropFile` step3 > `onClickSetAccessControl` , etc.","",""
+"2022-07-14,08:57:20","Anson","#6180","This line might help: https://github.com/LIT-Protocol/lit-bundlr-example/blob/e9ba2a46e1711389f71f435ee53c319454b61280/pages/index.js#L185","harpaljadeja.eth#0",""
+"2022-07-14,09:22:03","harpaljadeja.eth","#0","","Anson#6180","https://cdn.discordapp.com/attachments/993005932902613103/997130863475183656/unknown.png"
+"2022-07-14,09:22:19","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997130927643832400/unknown.png"
+"2022-07-14,09:22:29","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997130971126177902/unknown.png"
+"2022-07-14,09:25:18","Anson","#6180","Which line of your code does this error occur?","harpaljadeja.eth#0",""
+"2022-07-14,09:27:57","harpaljadeja.eth","#0","getEncryptionKey","",""
+"2022-07-14,09:28:05","harpaljadeja.eth","#0","first image","",""
+"2022-07-14,09:28:51","harpaljadeja.eth","#0","I am not storing the packagedData anywhere just directly calling decrypt after everything to check if it works","",""
+"2022-07-14,09:29:10","harpaljadeja.eth","#0","so basically the accessControl used for encrypt is passed along to the getEncryptionKey","",""
+"2022-07-14,09:35:56","Anson","#6180","so if `getEncryptionKey` failed, have you console.log each argument to check if they are correct?","harpaljadeja.eth#0","https://cdn.discordapp.com/attachments/993005932902613103/997134353979146281/unknown.png"
+"2022-07-14,09:36:08","harpaljadeja.eth","#0","let me try that","",""
+"2022-07-14,09:36:54","Anson","#6180","and check against the types suggested in the doc:
+https://github.com/LIT-Protocol/lit-js-sdk/blob/main/api_docs.md#getencryptionkey","",""
+"2022-07-14,09:37:37","harpaljadeja.eth","#0","symmetric key is blank 😅","",""
+"2022-07-14,09:37:42","Anson","#6180","😄","",""
+"2022-07-14,09:38:18","harpaljadeja.eth","#0","these uint8arrays are frustrating","",""
+"2022-07-14,09:38:25","harpaljadeja.eth","#0","😅","",""
+"2022-07-14,09:38:40","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997135043082330202/unknown.png"
+"2022-07-14,09:38:43","harpaljadeja.eth","#0","this is how it looks like","",""
+"2022-07-14,09:39:02","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997135135172481145/unknown.png"
+"2022-07-14,09:39:07","harpaljadeja.eth","#0","this is what i am doing is this correct?","",""
+"2022-07-14,09:44:06","Anson","#6180","seems fine to me","",""
+"2022-07-14,09:44:26","harpaljadeja.eth","#0","returns empty string","",""
+"2022-07-14,09:44:34","Anson","#6180","which?","",""
+"2022-07-14,09:45:12","harpaljadeja.eth","#0","encryptedSymmetricKey after uint8arrayToString","",""
+"2022-07-14,09:45:44","Anson","#6180","is `data.encryptedSymmetricKey` empty?","",""
+"2022-07-14,09:46:01","harpaljadeja.eth","#0","no its a object","",""
+"2022-07-14,09:46:05","harpaljadeja.eth","#0","shown above","",""
+"2022-07-14,09:48:14","Anson","#6180","and what does `console.log(new Uint8Array(data.encryptedSymmetricKey))` gives you?","",""
+"2022-07-14,09:49:14","harpaljadeja.eth","#0","i guess it converts to nothing","",""
+"2022-07-14,09:49:15","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997137707753013260/unknown.png"
+"2022-07-14,09:49:35","harpaljadeja.eth","#0","this is where i am getting stuck again and again 😅","",""
+"2022-07-14,09:50:54","Anson","#6180","Have you tried removing `new Uint8Array` and just pass in `data.encryptedSymmetricKey`","",""
+"2022-07-14,09:52:10","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997138440351121608/unknown.png"
+"2022-07-14,09:53:40","harpaljadeja.eth","#0","this is what is returned from `saveEncryptionKey`","","https://cdn.discordapp.com/attachments/993005932902613103/997138820678029312/unknown.png"
+"2022-07-14,09:54:14","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997138960587423784/unknown.png"
+"2022-07-14,09:54:19","harpaljadeja.eth","#0","one of the examples has this comment","",""
+"2022-07-14,09:57:15","Anson","#6180","If you go back to your 
+```
+const encryptedSymmetricKey = await litNodeClient.saveEncryptionKey({
+      accessControlConditions,
+      symmetricKey,
+      authSig,
+      chain,
+    });
+```
+
+and check it with:
+```
+const testToDecrypt = LitJsSdk.uint8arrayToString(encryptedSymmetricKey, ""base16"");
+```
+
+what does `testToDecrypt` console log to","",""
+"2022-07-14,10:00:02","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997140420893102151/unknown.png"
+"2022-07-14,10:00:38","Anson","#6180","and if you go back to this, does it give you the same thing?","harpaljadeja.eth#0",""
+"2022-07-14,10:01:31","harpaljadeja.eth","#0","no this returns empty string","",""
+"2022-07-14,10:08:23","Anson","#6180","This should give you the result of `testToDecrypt`, there's something wrong with your `encryptedSymmetricKey` at the decrypting part, you can check what's the difference between the 2","harpaljadeja.eth#0",""
+"2022-07-14,10:09:05","Anson","#6180","If you got a repo I can clone it to take a look","",""
+"2022-07-14,10:11:11","harpaljadeja.eth","#0","i haven't do you mind coming on a call I know its too much to ask 😅","",""
+"2022-07-14,10:16:04","harpaljadeja.eth","#0","the easiest i can think of is to store the hex version on the network","",""
+"2022-07-14,10:16:07","harpaljadeja.eth","#0","then directly use that","",""
+"2022-07-14,10:30:44","Anson","#6180","yea, sorry I can't at the moment.","",""
+"2022-07-14,10:30:52","Anson","#6180","Does `console.log(data.encryptedSymmetricKey)` gives you anything?","",""
+"2022-07-14,10:31:39","Anson","#6180","`data.encryptedSymmetricKey` should be the same as this","","https://cdn.discordapp.com/attachments/993005932902613103/997148379052265483/unknown.png"
+"2022-07-14,10:38:40","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997150144640340049/unknown.png"
+"2022-07-14,10:38:44","harpaljadeja.eth","#0","it is not a uint array","",""
+"2022-07-14,10:38:49","harpaljadeja.eth","#0","just a regular object","",""
+"2022-07-14,10:39:08","harpaljadeja.eth","#0","because when I stored it on decentralized storage i do JSON.stringify()","",""
+"2022-07-14,10:39:55","harpaljadeja.eth","#0","when i convert this object to uint array it becomes 0","",""
+"2022-07-14,10:43:31","Anson","#6180","I see, seems like you just need to extract the object values as array then turn it into Unit8array","",""
+"2022-07-14,10:44:10","harpaljadeja.eth","#0","i tried doing [...encryptedSymmeticKey] but it didn't work","",""
+"2022-07-14,10:44:18","Anson","#6180","```
+const test = new Uint8Array(Object.values(data.encryptedSymmetricKey));
+```
+check what test console .log to","",""
+"2022-07-14,10:44:55","harpaljadeja.eth","#0","yessssssss!","",""
+"2022-07-14,10:45:19","Anson","#6180","I guess it works? lol","",""
+"2022-07-14,10:46:09","harpaljadeja.eth","#0","it didn't 😅 but the error is different now","",""
+"2022-07-14,10:46:21","harpaljadeja.eth","#0","progress","",""
+"2022-07-14,10:47:08","harpaljadeja.eth","#0","my encrypted data looks like this","",""
+"2022-07-14,10:47:12","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997152289397674114/unknown.png"
+"2022-07-14,10:48:15","Anson","#6180","when you encrypt it you turn blob to a string, when you decrypt it you need to turn string back to a blob","",""
+"2022-07-14,10:48:27","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997152605627220079/unknown.png"
+"2022-07-14,10:49:56","harpaljadeja.eth","#0","encryption gave me a blob","Anson#6180",""
+"2022-07-14,10:53:49","Anson","#6180","yea, you will need to turn that into a string before putting it in `packagedData`","harpaljadeja.eth#0",""
+"2022-07-14,11:05:28","harpaljadeja.eth","#0","how do i convert back to blob","",""
+"2022-07-14,11:05:33","harpaljadeja.eth","#0","I have a uint8array","",""
+"2022-07-14,11:06:09","Anson","#6180","just so happen here's a snippet for you:
+```
+const dataURItoBlob = (dataURI) => {
+
+    console.log(dataURI);
+
+    
+    var byteString = window.atob(dataURI.split(',')[1]);
+    var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0]
+    var ab = new ArrayBuffer(byteString.length);
+    var ia = new Uint8Array(ab);
+    for (var i = 0; i < byteString.length; i++) {
+        ia[i] = byteString.charCodeAt(i);
+    }
+    
+    var blob = new Blob([ab], {type: mimeString});
+
+    return blob;
+  }
+```","",""
+"2022-07-14,11:26:20","harpaljadeja.eth","#0","has anybody been able to succesfully encrypt and decrypt string 😂","",""
+"2022-07-14,11:26:50","harpaljadeja.eth","#0","i don't have a dataURI just a uint8array","Anson#6180",""
+"2022-07-14,11:27:05","harpaljadeja.eth","#0","what's the for loop for it is not even being used 😅","",""
+"2022-07-14,12:05:26","Anson","#6180","If you want just to encrypt/decrypt string, I just created an example for you: https://github.com/LIT-Protocol/lit-demo-simple-string-encrypt/blob/main/src/App.js","harpaljadeja.eth#0",""
+"2022-07-14,12:59:02","harpaljadeja.eth","#0","thanks!","Anson#6180",""
+"2022-07-14,12:59:58","Anson","#6180","Maybe visualising it helps too, created this for ya <@533355122340659200>","harpaljadeja.eth#0",""
+"2022-07-14,13:00:13","Anson","#6180","","","https://cdn.discordapp.com/attachments/993005932902613103/997185764158885928/lit_static_encryption.jpeg"
+"2022-07-14,13:31:45","Carl","#0186","<@528729934789869596> Hi! If we want to use the lit-ceramic-integration to store a JSON object, should we just stringify said JSON and just use the integration as is?","Anson#6180",""
+"2022-07-14,13:57:05","harpaljadeja.eth","#0","many thanks","Anson#6180",""
+"2022-07-14,13:57:24","harpaljadeja.eth","#0","put this in the docs 😅 really good","Anson#6180",""
+"2022-07-14,21:27:42","Carl","#0186","<@399725459455213579> Hi! If we want to use the lit-ceramic-integration to store a JSON object, should we just stringify the JSON and just use the integration as is?","rwiggum#0",""
+"2022-07-15,01:13:17","harpaljadeja.eth","#0","<@528729934789869596> I think the decryption has a mistake which is that encryptedData then needs to be converted back to Blob","Anson#6180",""
+"2022-07-15,02:12:47","harpaljadeja.eth","#0","<@528729934789869596> how can we use our own wallet of choice like Rainbowkit","Anson#6180",""
+"2022-07-15,02:19:16","harpaljadeja.eth","#0","this is the line of code where Buffer is not defined error is given and it makes the metamask pop again","",""
+"2022-07-15,02:19:21","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/997386874995884032/unknown.png"
+"2022-07-15,02:19:22","harpaljadeja.eth","#0","<@399725459455213579>","rwiggum#0",""
+"2022-07-15,02:19:29","harpaljadeja.eth","#0","https://github.com/LIT-Protocol/lit-js-sdk/blob/ed3a103290cd49add05ba1b97feed2dbdf18a179/src/utils/eth.js#L286","",""
+"2022-07-15,03:06:39","blitzordd","#0","Hey guys I just had one doubt,
+How can we update accessControlConditions while using `lit-ceramic-sdk`? The example in the docs is good but it gives no knowledge of how to do the same using `lit-ceramic-sdk`","",""
+"2022-07-15,03:12:46","harpaljadeja.eth","#0","hey have you found a way to use wallets other than metamask with Lit protocol?","blitzordd#0",""
+"2022-07-15,03:34:46","blitzordd","#0","Nah, I am currently using just metamask. Havent really tried to use other wallets but I dont think that there should be an issue coz of using other wallets as long as you can sign messages for encryption and decryption.","harpaljadeja.eth#0",""
+"2022-07-15,03:38:15","harpaljadeja.eth","#0","<@528729934789869596> this part of docs is wrong","Anson#6180","https://cdn.discordapp.com/attachments/993005932902613103/997406729488830474/unknown.png"
+"2022-07-15,03:38:16","harpaljadeja.eth","#0","signAndSaveAuthMessage returns nothing","",""
+"2022-07-15,03:38:21","harpaljadeja.eth","#0","I can confirm that","",""
+"2022-07-15,06:35:14","Anson","#6180","Yes, correct, the encryptedString will need to be converted back to blob if it was converted to string before storing it somewhere","harpaljadeja.eth#0",""
+"2022-07-15,06:38:20","Anson","#6180","I don't think we can at the moment, but you can fork our `lit-js-sdk` and integrate the Rainbowkit if you wish","harpaljadeja.eth#0",""
+"2022-07-15,07:17:43","blitzordd","#0","<@528729934789869596>","Anson#6180",""
+"2022-07-15,07:18:15","harpaljadeja.eth","#0","I am using signAndSave for now","Anson#6180",""
+"2022-07-15,07:18:31","harpaljadeja.eth","#0","i will add some check to not sign every time","",""
+"2022-07-15,08:04:48","newway1220","#0","Hey, we are working on a dApp "" StudyBuddy"" that will facilitate the ""on-boarding"" of devs into web3 by providing an exchange marketplace for ""knowledge"" between developers :
+- Hacker / developer can sell his NFT ( notes of course / hackathon etc ) to another dev and become his mentor and when this is done --> they can chat on p2p chat and help each other. 
+
+I have a question : 
+
+with Lit-Protocol is it possible to encrypt the data we will sell as NFT?","",""
+"2022-07-15,08:40:28","Anson","#6180","If you check the source code `./src/integration.ts` there's a function called `updateAccess` which accepts your `streamId` and `newAccessControlConditions` as params, I believe you can use that to update it","blitzordd#0",""
+"2022-07-16,15:21:58","juanito.sad","#0","this link is broken. Missing /docs","","https://cdn.discordapp.com/attachments/993005932902613103/997946213850697890/unknown.png"
+"2022-07-17,16:47:50","huskymania","#1751","Question around lit. We want to create tests where the results will be stored on IPFS. We obvs don't want people to be able to see the results if they share the ipfs hash. What would be the best way to encrypt the answers using Lit but where people passing the text can verify their answers?","",""
+"2022-07-17,16:47:53","huskymania","#1751","thanks!!","",""
+"2022-07-17,17:09:34","Anson","#6180","You can store your encrypted answers on IPFS along with your access control conditions, chain, and encrypted symmetric key, so that when you pull the data down from IPFS, you can retrieve the symmetric key from the ""getEncryptionKey"" from the lit nodes to decrypt your answers","",""
+"2022-07-17,17:44:48","huskymania","#1751","but how can we make sure our platform can cross check but other people can't? would we whitelist some addresses?","",""
+"2022-07-18,11:24:27","JorgeO","#1360","gm everyone!","",""
+"2022-07-18,11:27:39","JorgeO","#1360","Hi <@528729934789869596>, so it's safe to store the `encrypted symmetric key` in a place with public access? Like storing the zip file generated by `encryptFileAndZipWithMetadata`  in IPFS?","Anson#6180",""
+"2022-07-18,11:50:32","Anson","#6180","Yea, the encryptedSymmetricKey is, well, encrypted, so it can be public, check this demo out:
+https://tinyurl.com/3ty3sbzb","JorgeO#1360",""
+"2022-07-18,12:50:20","JorgeO","#1360","okay, thank you <@528729934789869596>, I thought so, but just wanted to double check!","Anson#6180",""
+"2022-07-19,06:14:03","harpaljadeja.eth","#0","<@528729934789869596> can the sign message be customized?","Anson#6180",""
+"2022-07-19,07:32:05","Anson","#6180","Here's an example of hotwallet signing: https://github.com/LIT-Protocol/hotwallet-signing-example/blob/main/sign.js","harpaljadeja.eth#0",""
+"2022-07-19,07:40:10","harpaljadeja.eth","#0","can't install siwe","Anson#6180","https://cdn.discordapp.com/attachments/993005932902613103/998917161894563911/unknown.png"
+"2022-07-19,07:40:15","harpaljadeja.eth","#0","i guess i will have downgrade ethers","",""
+"2022-07-19,15:12:58","andriy656","#0","Question. Is there a posibility to use SC and use Lit Actions and PKP’s to get authorized signature and encrypted message ? As i get it you need to implement that inside of your protocol?Tnx for answer","",""
+"2022-07-19,20:13:48","rwiggum","#0","apologies about that.  if you have a minute to drop an issue in the SIWE github repo that would be great!","harpaljadeja.eth#0",""
+"2022-07-19,20:14:29","rwiggum","#0","yes, this should be possible.  You can encrypt / decrypt with Lit Actions and PKPs, and also sign messages as well.","andriy656#0",""
+"2022-07-19,20:15:44","rwiggum","#0","Tomorrow at 4:30pm EST we're doing office hours in our Discord.  I'll be there to help and chat about anything!  You can join using this link https://discord.com/events/896185694857343026/996137634172764270 or just head to our discord at https://litgateway.com/discord and find the voice channel","",""
+"2022-07-20,14:03:35","richie5596","#0","Are there any examples using the lit-ceramic integration server side?","",""
+"2022-07-21,03:00:14","harpaljadeja.eth","#0","<@528729934789869596> has there been a recent change","Anson#6180","https://cdn.discordapp.com/attachments/993005932902613103/999571489407901716/unknown.png"
+"2022-07-21,03:00:42","harpaljadeja.eth","#0","the docs says to put functionName and functionParams where the request sent to Lit Node has method and parameters","",""
+"2022-07-21,03:04:10","harpaljadeja.eth","#0","please help 😅","",""
+"2022-07-21,03:04:11","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/999572482526814278/unknown.png"
+"2022-07-21,03:04:12","harpaljadeja.eth","#0","<@399725459455213579>","rwiggum#0",""
+"2022-07-21,12:02:45","andriy656","#0","Hi Chris we have a problem with custom contract code can you help us
+const accessControlConditions = [
+        {
+            contractAddress: ""0xEb6645593B1B6325f818ACFCA2Dc0D1f969DD54c"",
+            functionName: ""balanceOf"",
+            functionParams: ["":userAddress""],
+            functionAbi: {
+                type: ""function"",
+                stateMutability: ""view"",
+                outputs: [
+                    {
+                        type: ""uint256"",
+                        name: """",
+                        internalType: ""uint256"",
+                    },
+                ],
+                name: ""balanceOf"",
+                inputs: [
+                    {
+                        type: ""address"",
+                        name: ""account"",
+                        internalType: ""address"",
+                    },
+                ],
+            },
+            chain,
+            returnValueTest: {
+                key: """",
+                comparator: "">"",
+                value: ""0"",
+            },
+        },
+    ]
+This is the error
+Image
+We used scaffold ETH for testing and Kovan network
+const accessControlConditions = [
+        {
+            contractAddress: '0xEb6645593B1B6325f818ACFCA2Dc0D1f969DD54c',
+            standardContractType: 'ERC721',
+            chain,
+            method: 'balanceOf',
+            parameters: [
+                ':userAddress'
+            ],
+            returnValueTest: {
+                comparator: '>',
+                value: '0'
+            }
+        }
+    ]
+this file works","",""
+"2022-07-21,12:08:03","andriy656","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/999709352791375902/unknown.png"
+"2022-07-21,12:08:13","andriy656","#0","error which we get","",""
+"2022-07-21,16:03:05","mentor.eth","#0","Hello team!
+
+We're trying to figure out from the docs whether it is possible for one user to encrypt something with an access control that allows another user to decrypt.
+
+Is this possible?","",""
+"2022-07-21,18:47:03","andriy656","#0","We figured it out everything works fine now!!!","",""
+"2022-07-21,19:21:35","andriy656","#0","Try to use this method: ""eth_getBalance"",
+    parameters: ["":userAddress"", ""latest""],","harpaljadeja.eth#0",""
+"2022-07-22,09:53:19","Anson","#6180","Not sure if I understood it correctly, but that's the entire point of Lit Protocol, you can set other wallet addresses to decrypt anything","mentor.eth#0",""
+"2022-07-22,09:54:21","Anson","#6180","Great! Do you mind sharing what was the issue? I'm trying to build a better error report on such errors 🙂","andriy656#0",""
+"2022-07-22,10:02:38","richie5596","#0","What's the best way to get some help with lit-ceramic-sdk?","",""
+"2022-07-22,10:13:05","richie5596","#0","When running the CeramicIntegrationExample project, I'm consistently getting this: ```something went wrong decrypting: SyntaxError: Non-base16 character```","",""
+"2022-07-22,15:48:37","thenoneconomist","#0","Anyone know how to write access control co dictionary that checks if you've connected a wallet to your app?","",""
+"2022-07-22,15:48:59","thenoneconomist","#0","Just need to understand how that works in the backend and what I need to check","",""
+"2022-07-22,17:28:58","Carl","#0186","I've gotten back an ArrayBuffer from the decryptFile function. How do I use this to generate a file that the user can download?","",""
+"2022-07-23,12:07:17","JorgeO","#1360","gm hackers!
+Hey everyone, we have a wallet and are signing Lit sign message programmatically, so the `lit-auth-signature` and related data is in `localStorage` already.
+The SDK is opening a connection dialog which breaks our use case, 
+Is there a way to avoid the connect dialog in the SDK? 
+the `await connectWeb3`  below triggers the connect dialog and , so the dialog breaks our use case
+```export async function checkAndSignEVMAuthMessage({ chain, resources }) {
+  const selectedChain = LIT_CHAINS[chain];
+  const { web3, account } = await connectWeb3({
+    chainId: selectedChain.chainId,
+  });
+```","",""
+"2022-07-23,12:41:44","andriy656","#0","Hi Anson! The problem was that when we copied custom contract and access control JSON files and test them with Scaffold ETH did not work so we had to change parameters towards our exiting project to make it work. We thought that the only thing you have to do is just copies the custom contract and access the file and it should work. So the only problem was that everything else worked fine. integrations and connectivity and usability.","Anson#6180",""
+"2022-07-24,07:41:13","harpaljadeja.eth","#0","I am still struggling with this one 😅 <@528729934789869596>  <@399725459455213579>","rwiggum#0、Anson#6180","https://cdn.discordapp.com/attachments/993005932902613103/1000729363777597530/unknown.png"
+"2022-07-24,08:13:24","harpaljadeja.eth","#0","we can also call proxies right? I mean the LitNodes","",""
+"2022-07-24,09:00:27","harpaljadeja.eth","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1000749303633035334/unknown.png"
+"2022-07-24,10:08:50","caruso33","#0","When I try to decrypt a message I get a:
+
+```shell
+Object { message: ""There was an error getting the signing shares from the nodes"", name: ""UnknownError"", errorCode: ""unknown_error"" }
+```
+on the route `https://node2.litgateway.com:7372/web/encryption/retrieve`
+
+I passed to `LitJsSdk.decryptString` `encryptedString` as a `file object` and the `symmetricKey` as `string`
+
+Anyone know what I am doing wrong?","",""
+"2022-07-25,08:52:43","Anson","#6180","I don't think that's supported right now, but the plugin is open source, so you're welcome to add that feature yourself and submit a pull request","JorgeO#1360",""
+"2022-07-25,08:53:31","Anson","#6180","Have you made sure to pass in hex/base16 to the decrypt function?","richie5596#0",""
+"2022-07-25,08:54:54","Anson","#6180","You will probably need to convert it back to File/Blob","Carl#0186",""
+"2022-07-25,08:57:12","Anson","#6180","I suspect there's something wrong with the types being passed into the functions, here's the repo for simple encryption:
+https://github.com/LIT-Protocol/lit-demo-simple-string-encrypt/blob/main/src/App.js","caruso33#0",""
+"2022-07-25,11:45:33","JorgeO","#1360","We found a workaround to solve this for the hackathon, and yeah, that sounds like a good idea, we would love to contribute!","Anson#6180",""
+"2022-07-27,09:42:45","caruso33","#0","Thanks I got it working. 
+
+Yes indeed, there was a problem with the encryptedSymmetricKey type 🙏","Anson#6180",""
+"2022-07-29,06:46:48","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1002527611286720544/unknown.png"
+"2022-08-01,10:56:48","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Lit** is a decentralized compute, encryption, and access control network powered by threshold cryptography.
+
+With Lit, developers can automate signing, reading, and writing data to web3 decentralized networks like Ethereum and IPFS. Additionally, data can be private in these open web applications and only decrypted by authorized parties with Lit access control. 
+
+Lit offers two products, Prograblem Key Pairs (PKPs) and Decentralized Access Control. There is one bounty for each product!
+
+
+🏆 **PRIZE OVERVIEW**
+
+**For the three best uses of Lit in a creator application:**
+🥇 $2,500
+🥈 $1,500
+🥉 $1,000
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/metabolism/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://developer.litprotocol.com/docs/litactionsandpkps/whatarelitactionsandpkps/
+https://developer.litprotocol.com/docs/toolsandexamples/sdkexamples/encryptanddecrypt/installation/","",""
+"2022-08-03,10:09:26","sama4","#0","check <@829205052006203402> in the <#1001905720649855077> channel","iainnash#0、mrx1868#0",""
+"2022-08-04,14:55:13","holyaustin","#0","<@399725459455213579> , <@708879198915395645> Can i use Polygon Mumbai as my chain?  i saw chain = ""ethereum"" what verb should i use to for Mumbai testnet???","rwiggum#0、davidsneider#0",""
+"2022-08-04,15:04:03","0xjjpa","#0","<@399725459455213579> 👋🏼 is there any hello-world like example for a simple interaction w/PKP? I've noticed most of the docs (https://developer.litprotocol.com/LitActionsAndPKPs/whatAreLitActionsAndPKPs) focuses on Lit Actions, but not much on PKP directly","rwiggum#0",""
+"2022-08-04,17:18:31","davidsneider","#0","Yes! Mumbai is a supported testnet: https://developer.litprotocol.com/supportedChains","holyaustin#0",""
+"2022-08-04,17:30:31","holyaustin","#0","Thanks","davidsneider#0",""
+"2022-08-04,17:31:34","0xjjpa","#0","Additional question, I guess I can't “schedule” actions within Lit Actions right? If I need an action I need to submit it myself manually but there's no easy way to “trigger” this call automatically within the protocol network, correct?","",""
+"2022-08-04,17:52:52","rwiggum","#0","you can use ""mumbai"" for mumbai","holyaustin#0",""
+"2022-08-04,17:54:54","rwiggum","#0","the only way to interface with PKPs right now is via lit actions.  but it's really easy to create a lit action that will sign whatever you want.  here's an example: https://github.com/LIT-Protocol/js-serverless-function-test/blob/main/js-sdkTests/helloworld.js","0xjjpa#0",""
+"2022-08-04,17:55:21","rwiggum","#0","yes that's correct.  you could use Tenderly Actions to do this kind of scheduling right now.  hopefully we will offer this ourselves in the future","0xjjpa#0",""
+"2022-08-04,17:55:49","0xjjpa","#0","Gotcha, thanks! That's quite useful, I guess the `authSign` is always needed to verify ""who"" called the action, correct?","rwiggum#0",""
+"2022-08-04,17:56:32","0xjjpa","#0","FWIW I'm thinking on messing around w/the concept of deploying NFT-wallets  via Lit Protocol like the ones described in the documentation, but I guess right now since we can't generate PKPs that might be not available","",""
+"2022-08-04,17:56:55","rwiggum","#0","yup, but you can also authorize a ipfsID of some JS code (a lit action) and then the AuthSig doesn't matter","0xjjpa#0",""
+"2022-08-04,17:56:59","0xjjpa","#0","the other option was to see if there's some sort of PRG we could use within a LitAction to at least ""embed"" a wallet into the owner of a given NFT","",""
+"2022-08-04,17:57:32","0xjjpa","#0","Gotcha, was thinking in doing something with the Gelato network but Tenderly is also a good option, perhaps also Block Native","rwiggum#0",""
+"2022-08-05,16:51:54","riite.","#0","We’re trying to encode a random string (nft metadata) and decode if the user holds the token. Anything in the docs you can point to? <@399725459455213579> ?","rwiggum#0",""
+"2022-08-05,20:08:50","davidsneider","#0","here's how the access control condition should look: https://developer.litprotocol.com/AccessControlConditions/EVM/basicExamples#must-posess-a-specific-erc721-token-nft","riite.#0",""
+"2022-08-05,20:09:12","davidsneider","#0","this guide might also be helpful <@814847668706082837> - https://blog.litprotocol.com/?p=lit-x-bundlr-x-arweave-guide","riite.#0",""
+"2022-08-06,08:22:12","monoape","#0","Hi 🙂 I'm getting `The RPC call to the blockchain could not be completed. This could be because the RPC servers are down, or because the RPC call is making an incorrect smart contract call that reverts.` with this basic example: https://github.com/LIT-Protocol/lit-demo-simple-string-encrypt/blob/main/src/App.js any idea why this can happen?","",""
+"2022-08-06,08:22:30","monoape","#0","using Rinkeby network","",""
+"2022-08-06,08:23:52","monoape","#0","happening at call: https://node2.litgateway.com:7376/web/encryption/retrieve","",""
+"2022-08-06,09:03:42","monoape","#0","Turns out it depends on the `accessControlConditions` I changed it to check if a NFT is owned by user. With the simple `eth_getBalance` check no issue. So where can I find a working controlCondition for checking the balanceOf NFT token? This seems not to work:
+
+```
+{
+            ""contractAddress"": ""0x1c88a8de28b27955a4428048d9435068093e187a"",
+            ""standardContractType"": ""ERC1155"",
+            ""chain"": ""rinkeby"",
+            ""method"": ""balanceOf"",
+            ""parameters"": [ "":userAddress"", ""latest"" ],
+            ""returnValueTest"": { ""comparator"": "">"", ""value"": ""0"" }
+}
+```","",""
+"2022-08-06,10:46:10","monoape","#0","Working now like a charm with a ERC721 token created with the Zora factory.","",""
+"2022-08-06,12:25:29","newway1220","#0","I am trying to convert blob to string .. 
+any help ??","","https://cdn.discordapp.com/attachments/993005932902613103/1005511944561762474/ERRORR.png"
+"2022-08-06,12:25:45","newway1220","#0","need to to integrate it in the front end and make it clear for user","",""
+"2022-08-06,18:20:16","newway1220","#0","Any example using Any example using : checkAndSignAuthMessage(params: Object): AuthSig ?","",""
+"2022-08-06,18:33:57","nashqueue","#0","https://github.com/debbly/IPFS-lit <@708879198915395645> <@399725459455213579> is this up to date ? I cant get it to work. I changed the nft lock to have at least 0 ETH so should work. 🤷‍♂️","rwiggum#0、davidsneider#0",""
+"2022-08-06,18:52:51","nashqueue","#0","I tried using https://litgateway.com/files and gating with my nft collection on rinkeby 0x79D9B0cb692d760ADd1366d61523A0B1ADfd127C","",""
+"2022-08-06,18:53:50","nashqueue","#0","It did not work, were i dont know why . is it not compatible with the collection ?","",""
+"2022-08-07,18:29:06","monoape","#0","I struggled to retrieve the `toDecrypt` String which is needed to call `getEncryptionKey` method. Turns out if you use JSON.stringify to build a String of Uint8Array and the parse it again the Array is represented as a Object. Don't know why in the docs etc. it is working just by JSON.parse etc. on my side it is not generating a useful toDecrypt String. I ended up doing it like that which is working:
+
+```
+const keys = await response.json()
+const toDecrypt = LitJsSdk.uint8arrayToString(
+    Uint8Array.from(Object.values(keys.encryptedSymmetricKey)
+), 'base16')
+```
+
+Maybe someone of the team can explain why it is working on their side, check the example using Arweave / Bundler as key storage. I also checked there it is stored as the same JSON representation.","",""
+"2023-03-14,06:49:20","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1085152683230507018/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-04,17:35:45","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lit Protocol** lets you create and manage distributed cryptographic key-pairs for condition-based encryption and programmatic signing. A decentralized key management network, Lit can be used in place of centralized key custodians and other key management solutions.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best Use of Lit Actions and PKPs Description: 
+🥇 $3,500 1st Prize
+🥈 $1,500 2nd Prize
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://litprotocol.com/
+https://developer.litprotocol.com/","",""
+"2023-04-13,22:23:59","rwiggum","#0","Hello Hackers, Chris here from Lit Protocol.  Please drop questions in this channel 🙂","",""
+"2023-04-14,02:58:12","anson5805","#0","nft rentals with lit protocol","",""
+"2023-04-14,03:00:06","kenshirokikuchi","#0","Do you have a booth booth at ETH Tokyo?
+I could not find you.","",""
+"2023-04-14,03:03:51","anson5805","#0","We are here!","kenshirokikuchi#0","https://cdn.discordapp.com/attachments/993005932902613103/1096329961947799583/IMG_3717.jpg"
+"2023-04-14,04:27:08","cookunijs","#0","How can I get the Relay API URL, available in this example?
+https://github.com/LIT-Protocol/oauth-pkp-signup-example","",""
+"2023-04-14,05:32:20","ak213","#4296","Hi <@799911848341798912> please submit this Google form & we'll provide you the API key: https://docs.google.com/forms/d/e/1FAIpQLSeVraHsp1evK_9j-8LpUBiEJWFn4G5VKjOWBmHFjxFRJZJdrg/viewform","cookunijs#0",""
+"2023-04-14,05:32:52","ak213","#4296","This is the corresponding Relayer Server: https://relay-server-staging.herokuapp.com/","",""
+"2023-04-14,05:45:44","cookunijs","#0","thank you!
+i submitted that form!","ak213#4296",""
+"2023-04-14,06:17:23","tei7629","#0","Hi, do you have a booth in the hacker room? I can't find you now.","",""
+"2023-04-14,07:28:46","luksgrin","#0","Hey frens! Are you gonna be around tomorrow? My team wanted to ask you guys a couple of questions","",""
+"2023-04-14,07:40:56","0xdeb_","#0","We'll be around tomorrow and we're responsive through discord so please ask away here if you have any questions tonight!","luksgrin#0",""
+"2023-04-14,08:27:25","luksgrin","#0","We'd like to sit down for an informal chat if that's okay 🙂 See you tomorrow then. Thanks! 🙂","0xdeb_#0",""
+"2023-04-14,09:33:13","0xdeb_","#0","Yep! Come find the lit cube -","","https://cdn.discordapp.com/attachments/993005932902613103/1096427946400546916/lit_cubes.jpeg"
+"2023-04-14,09:45:05","0xdeb_","#0","Some resources in Japanese to understand Lit:
+https://zenn.dev/moneyforward/articles/8c666a192b88bd
+https://t.co/zWxF0XaIOV","",""
+"2023-04-14,10:12:53","0x4ka","#0","I collected and summarized some materials about Lit protocol! Hope it gonna be helpful
+https://scrapbox.io/0x4ka/Lit_Protocol","",""
+"2023-04-14,10:31:33","Kurose","#5055","Where can I find the PKP contract address on Chronicle? 
+Is it the same as the address on Mumbai?","",""
+"2023-04-14,10:37:13","Kurose","#5055","I found 
+https://developer.litprotocol.com/resources/contracts","",""
+"2023-04-14,10:41:10","rwiggum","#0","yeah those are correct","",""
+"2023-04-14,10:41:36","rwiggum","#0","they are also here, for ref https://github.com/LIT-Protocol/LitNodeContracts/blob/main/deployed_contracts_serrano.json","",""
+"2023-04-14,10:47:53","Kurose","#5055","I successfully minted PKP on Chronicle🔥","",""
+"2023-04-14,17:14:31","motxx","#0","Hello? What is the best tutorial or codes to learn about LitActions Mint/Grant/Burn pattern? I've been trying to use `getlit` cli. I could mint PKP but haven't tried mint/grant/burn yet. To do this, should I call PKP contract directly?","",""
+"2023-04-14,18:05:04","0xdeb_","#0","Hey moti, 
+
+You can read about it in our docs
+https://developer.litprotocol.com/litactions/usingpkpsandactions/#what-is-mintgrantburn
+
+ and check out the code here
+https://github.com/LIT-Protocol/LitNodeContracts/blob/main/contracts/PKPNFT.sol#L151-L157","motxx#0",""
+"2023-04-14,18:08:24","0xdeb_","#0","Not exactly a guide, but you can see this in production with the yacht labs repo: https://yachtlabs.io/blog/yacht-lit-swap","",""
+"2023-04-14,18:09:26","motxx","#0","Thank you for the resources! Could you tell me what is `keyType` in the argument of `mintGrantAndBurnNext`, if you don't mind?","",""
+"2023-04-14,18:24:03","0xdeb_","#0","<@399725459455213579> correct me if I'm wrong 
+
+Correction: 
+
+keyType should always be 2 because that's the only one we support","rwiggum#0",""
+"2023-04-14,18:24:27","0xdeb_","#0","Check out the yacht example:  #2 
+https://github.com/Yacht-Labs/yacht-lit-sdk/commit/2f6443a96e303cfbebccd66a381ac1366d4f4413","",""
+"2023-04-14,18:28:28","motxx","#0","I totally understood. Thank you very much!","",""
+"2023-04-14,21:46:49","uji_rb","#0","Hi!
+I'm developing an app using the lit-ceramic-sdk, but when I try to connect to a deamon set up with the ceramic cli, I get `net::ERR_NAME_NOT_RESOLVED` error and wss errors. (What's the domain beta.3box.io🤔)
+Is this something I'm using wrong?
+this is my code: https://github.com/0xCard/0xCard/blob/install-lit/apps/web/pages/litTest.tsx
+I will ask ceramic if there are no problems with the use of lit-seramic-sdk.","","https://cdn.discordapp.com/attachments/993005932902613103/1096612565070659636/image.png"
+"2023-04-14,21:57:59","cookunijs","#0","Hi!
+I received an Internal Server Error when authenticating the sign_session_key from the litgateway at the following URL.
+How should I handle this?
+`https://serrano.litgateway.com:7374/web/sign_session_key`","",""
+"2023-04-14,22:23:52","rwiggum","#0","keyType is the cryptographic algorithm type.  You should always set it to ""2"" because that's the only one we support right now","motxx#0",""
+"2023-04-14,22:25:04","rwiggum","#0","Hey, I am sorry, the lit-ceramic SDK is very old and may not work properly.  I recommend using the lit SDK and ceramic SDK separately.  I can help with either if you need it!","uji_rb#0",""
+"2023-04-14,22:50:21","rwiggum","#0","Hi, did you solve this?  I think in the logs it says ""Error verifying auth method""","cookunijs#0",""
+"2023-04-14,23:11:52","rwiggum","#0","more specifically, the error is ""Invalid blockhash used as challenge""","cookunijs#0",""
+"2023-04-14,23:41:44","Kurose","#5055","I tried to mint a PKP NFT with ipfscid as authMethod. 
+I got the following error.
+What's wrong with my code?
+
+``` 
+error Error: invalid arrayify value (argument=""value"", value=""QmXqnNtfcQMfTAqk8bWyR4n1Rtkkbgwg7rTPZLTKUYpd85"", code=INVALID_ARGUMENT, version=bytes/5.7.0)
+    at Logger.makeError (index.js:224:1)
+    at Logger.throwError (index.js:233:1)
+    at Logger.throwArgumentError (index.js:236:1)
+    at arrayify (index.js:90:1)
+    at BytesCoder.encode (bytes.js:12:1)
+    at eval (array.js:49:1)
+    at Array.forEach (<anonymous>)
+    at pack (array.js:43:1)
+    at ArrayCoder.encode (array.js:184:1)
+    at eval (array.js:49:1)
+```
+
+idForAuthMethod = ""QmXqnNtfcQMfTAqk8bWyR4n1Rtkkbgwg7rTPZLTKUYpd85""
+authMethodType = 2 (LitAction)
+```
+     const tx = (await pkpHelper.mintNextAndAddAuthMethods(
+      2,
+      [authMethodType],
+      [idForAuthMethod],
+      ['0x'],
+      [[ethers.BigNumber.from('0')]],
+      true,
+      true,
+      { value: mintCost },
+    )) as ContractTransaction;
+```","",""
+"2023-04-15,00:34:25","sardine_can","#0","You’ll need to base58 decode your cid before adding it as an auth method.","Kurose#5055",""
+"2023-04-15,01:21:32","Kurose","#5055","Thanks! It works now.
+transaction is super fast on new chain.","sardine_can#0",""
+"2023-04-15,02:29:36","sey323","#0","Hello
+We are working on a mechanism to distribute keys to decrypt encrypted content only to those who have purchased NFT on NFTStore.
+This material has been used to encrypt and synthesize the content.
+https://developer.litprotocol.com/SDK/Explanation/encryption
+
+Is there a best practice for distributing keys to multiple people with one encrypted target?","",""
+"2023-04-15,02:35:38","0xdeb_","#0","Can you explain more about your use case?","sey323#0",""
+"2023-04-15,02:37:57","rwiggum","#0","i think you mean base58 decode.  it's already base58 encoded 🙂","sardine_can#0",""
+"2023-04-15,02:41:42","anson5805","#0","Hey, accessControlConditions, encryptedSymmetricKey, and the encryptedString can be public (because they are encrypted) so all a user need to do is to pass in their authSig in order to decrypt the content","sey323#0",""
+"2023-04-15,02:45:05","ak213","#4296","Hi <@806453232028876811> 
+""Is there a best practice for distributing keys to multiple people with one encrypted target?""
+You can provide the user's with the encryptedSymmetricKey since only the users who satisfy the accessControlCondition (that you set) can decrypt the content","sey323#0",""
+"2023-04-15,02:46:04","ak213","#4296","<@806453232028876811> You may also use the `encryptToIpfs` function to encrypt & store the metadata on IPFS in one-go: https://developer.litprotocol.com/SDK/Explanation/encryption#encrypttoipfs","sey323#0",""
+"2023-04-15,02:47:08","ak213","#4296","<@806453232028876811> You may use this ACC for checking whether a user owns a specific NFT: https://developer.litprotocol.com/accessControl/EVM/basicExamples#must-posess-a-specific-erc721-token-nft","sey323#0",""
+"2023-04-15,02:47:55","sey323","#0","I see.
+Is there an API to perform the passing of authSig on-chain?","0xdeb_#0",""
+"2023-04-15,02:49:09","ak213","#4296","Why do you want to pass the authSig on chain?
+Though you can pass it as a param to a contract function","sey323#0",""
+"2023-04-15,02:52:12","ak213","#4296","For decryption/encrypting a content the user just has to pass the authSig to the litNodeClient Active instance. Like this: https://developer.litprotocol.com/SDK/Explanation/encryption#saving-the-encrypted-content-to-the-lit-nodes","",""
+"2023-04-15,02:54:14","sey323","#0","Sorry, I was wrong about this one....
+> Is there an API to perform the passing of authSig on-chain?
+
+This pattern is close to what I would like to do, so I will implement it here.
+> You can provide the user's with the encryptedSymmetricKey since only the users who satisfy the accessControlCondition (that you set) can decrypt the content
+
+Thanks！","ak213#4296",""
+"2023-04-15,02:55:15","ak213","#4296","Cool, please feel free to shoot here any further questions you have 🙂 
+Keep building on Lit 🚀","sey323#0",""
+"2023-04-15,03:41:01","0xdeb_","#0","Wifi is better on the 4th floor, come find the devs here","","https://cdn.discordapp.com/attachments/993005932902613103/1096701702184378478/PXL_20230415_073917700.jpg"
+"2023-04-15,04:33:21","yoshijo04","#0357","Hello guys, could you please let me know how to mint PKP NFT? pkpHelper can be used for this?","",""
+"2023-04-15,04:44:16","anson5805","#0","You can mint a PKP here https://explorer.litprotocol.com/","yoshijo04#0357",""
+"2023-04-15,04:47:47","anson5805","#0","programatically you can use this sdk to interact with lit contracts: https://demo.contracts-sdk.react.litprotocol.com/","yoshijo04#0357",""
+"2023-04-15,04:51:47","yoshijo04","#0357","ah, great. Thanks 🙂","anson5805#0",""
+"2023-04-15,07:41:00","ak213","#4296","Hi <@505322248568307725> If you want to dig deeper you may refer to our PKP NFT contract: https://github.com/LIT-Protocol/LitNodeContracts/blob/main/contracts/PKPNFT.sol","yoshijo04#0357",""
+"2023-04-15,07:41:30","ak213","#4296","And here's the test example using the above contract functions: https://github.com/LIT-Protocol/LitNodeContracts/blob/main/test/PKPNFT.js","",""
+"2023-04-15,09:00:58","yoshijo04","#0357","<@1026873251294621696> thank you for your info!","ak213#4296",""
+"2023-04-15,09:01:27","yoshijo04","#0357","I'd like to know to get the wallet address from PKP... but is there any SDK functions to achieve that?","",""
+"2023-04-15,09:06:12","luksgrin","#0","Hi! I'm trying to use the `encryptToIpfs` from the JS SDK. I keep stumbling upon a `""#<errConstructorFunc>""` error. I figure there is something I'm missing when providing the properties struct to the function","",""
+"2023-04-15,09:24:07","worrick","#6499","Thank you for letting me know in advance.
+I've implemented it while looking at the previous code, but I don't think it's possible to select a wallet when implementing it inside the Nextjs API. How should I handle this case?","",""
+"2023-04-15,09:25:09","ak213","#4296","You can use this function to get the address from tokenId: https://github.com/LIT-Protocol/LitNodeContracts/blob/main/test/PKPNFT.js#L101","yoshijo04#0357",""
+"2023-04-15,09:26:37","ak213","#4296","Hi <@397399420691415041> can you please confirm if you're passing all the required params to the function? You may check that here: https://js-sdk.litprotocol.com/interfaces/types_src.EncryptToIpfsProps.html","luksgrin#0",""
+"2023-04-15,09:27:02","ak213","#4296","Also note that you need an Infura Api Key & Project Id for `encryptToIpfs`","",""
+"2023-04-15,09:27:15","luksgrin","#0","got that","ak213#4296",""
+"2023-04-15,09:27:53","luksgrin","#0","Currently, I have:
+```
+LitJsSdk.encryptToIpfs({
+        authSig: authSig,
+        chain: chain,
+        file: file,
+        infuraId: INFURA_KEY,
+        infuraSecretKey: INFURA_SECRET,
+        litNodeClient: litNodeClient,
+        
+    })
+```","",""
+"2023-04-15,09:28:24","luksgrin","#0","For now we hardcoded `authSig` as a string for tests... Maybe that is failing?","",""
+"2023-04-15,09:28:31","luksgrin","#0","File is just a `fs` bytestream","",""
+"2023-04-15,09:28:54","ak213","#4296","You have to provide the `accessControlConditions`.
+Please take a look at this example: https://developer.litprotocol.com/sdk/explanation/encryption/#putting-it-all-together-2","luksgrin#0",""
+"2023-04-15,09:29:20","luksgrin","#0","I thought it was optional. Will check it out 😄","ak213#4296",""
+"2023-04-15,09:30:14","ak213","#4296","You have to provide a valid `authSig`. You may use `checkAndSignAuthMessage` or use Hot Wallet Signing if on backend: https://github.com/LIT-Protocol/hotwallet-signing-example/blob/main/sign.js","luksgrin#0",""
+"2023-04-15,09:30:30","ak213","#4296","<@397399420691415041>  Since the `checkAndSignAuthMessage` works only in a browser","luksgrin#0",""
+"2023-04-15,09:30:39","sardine_can","#0","<@505322248568307725> if you don’t already have some, you’ll need some test token to mint. You can use this faucet.
+
+https://chronicle-faucet-app.vercel.app/","yoshijo04#0357",""
+"2023-04-15,09:31:39","luksgrin","#0","Thank you! Will try hot wallet signing for now 🙂","ak213#4296",""
+"2023-04-15,09:32:14","ak213","#4296","<@397399420691415041>  You have to provide either of the following:  `accessControlConditions` , `evmContractConditions`, `solRpcConditions` or `unifiedAccessControlConditions`","luksgrin#0",""
+"2023-04-15,09:32:38","luksgrin","#0","Got it. So they are all optional but at least one has to be there","ak213#4296",""
+"2023-04-15,09:32:57","ak213","#4296","Also file has to of the type `File` or `Blob`: https://js-sdk.litprotocol.com/types/types_src.AcceptedFileType.html","luksgrin#0",""
+"2023-04-15,09:33:03","ak213","#4296","Exactly one","luksgrin#0",""
+"2023-04-15,09:33:30","luksgrin","#0","Got it. Seems that that I was missing many points. Thank you so much! 😄","",""
+"2023-04-15,09:34:14","ak213","#4296","No worries! Feel free to shoot any further questions here
+Always here to helps our devs!","luksgrin#0",""
+"2023-04-15,09:36:04","ak213","#4296","In a backend project for generating an AuthSig you gotta use Hot Wallet Signing: https://github.com/LIT-Protocol/hotwallet-signing-example/blob/main/sign.js
+Since the `checkAndSignAuthMessage` works only in a browser
+Is that what you're asking <@891482359818506240> ?","worrick#6499",""
+"2023-04-15,09:41:41","yoshijo04","#0357","thanks.
+I tried to call this func via NodeJs as:
+`litContracts.pkpNftContract.read.getAddressFromPkp(tokenId)`
+but it didn't work.
+
+Could you let me know how to get the address from tokenId via NodeJs?
+
+===
+(Added) Oops, sorry. I typo the function name. Now it worked fine!","ak213#4296",""
+"2023-04-15,09:58:31","worrick","#6499","I tried it, but I get an undefined error when creating the wallet object.
+Is privKey the code you sent to enter the private key of your MetaMask account?
+
+const privKeyBuffer = uint8arrayFromString(privKey, ""base16"");
+const wallet = new ethers.Wallet(privKeyBuffer);
+
+error - pages/api/slack.tsx (11:23) @ ethers
+error - Error [TypeError]: Cannot read properties of undefined (reading 'Wallet')","",""
+"2023-04-15,10:14:15","ak213","#4296","`privKey` is the Metamask account's private key","worrick#6499",""
+"2023-04-15,10:14:45","ak213","#4296","<@891482359818506240> Have you installed ethers? Please install v5","worrick#6499",""
+"2023-04-15,10:17:53","ak213","#4296","<@891482359818506240>  You don't have to hardcode it you may put that in an env var & export that then use it","worrick#6499",""
+"2023-04-15,10:24:05","yoshijo04","#0357","<@1026873251294621696> I'd like to link Oauth(Google) and PKP to allow someone who has Google Account to control PKP.
+I already succeeded to mint PKP... but there are not auth method linked to the PKP. I guess `pkpHelper.mintNextAndAddAuthMethods` helps me to achieve the authentication using Oauth, but could you guide me to deep dive for this?","ak213#4296",""
+"2023-04-15,10:24:05","cookunijs","#0","I tried to run the code for litAction and got a 400 error.
+How can I resolve this?
+
+```
+ const litActionCode = `
+            (async () => {
+                const sigShare = await LitActions.signEcdsa({ toSign, publicKey, sigName });
+            })();`;
+    const res = await litNodeClient.executeJs({
+      code: litActionCode,
+      authSig,
+      jsParams: {
+        toSign,
+        publicKey: pkpPubKey,
+        sigName,
+      },
+    });
+```","","https://cdn.discordapp.com/attachments/993005932902613103/1096803136166965258/CleanShot_2023-04-15_at_23.23.492x.png"
+"2023-04-15,10:24:45","worrick","#6499","well, I did yarn add @typechain/ethers-v5, but it also error.
+When I used this sampro code, it worked without errors, so I think it might be better to use this one, what do you think?
+https://developer.litprotocol.com/LitActions/workingWithActions/conditionalSigning","",""
+"2023-04-15,10:30:45","sardine_can","#0","You are correct. You can use the permissions contract to add your Oauth access token https://developer.litprotocol.com/pkp/authHelpers","yoshijo04#0357",""
+"2023-04-15,10:31:27","sardine_can","#0","Can you provide a bit more of the error? It might have to do with the authSig","cookunijs#0",""
+"2023-04-15,10:44:32","sardine_can","#0","How are you attempting to form the authSig? This uses a hardcoded definition which doesn’t work in all cases.","worrick#6499",""
+"2023-04-15,10:57:05","a_starburst","#0","https://envs.sh/hYY.png","",""
+"2023-04-15,10:57:10","a_starburst","#0","is this an sdk bug?","",""
+"2023-04-15,10:58:03","a_starburst","#0","<@493633371717763104> <@1096216069921853641>","sardine_can#0、anson5805#0",""
+"2023-04-15,10:58:35","a_starburst","#0","also is there a way to connect actions to access control conditions?","",""
+"2023-04-15,11:25:31","sardine_can","#0","Can you show how you’re calling ‘checkAndSignEvmAuthMessage’","a_starburst#0",""
+"2023-04-15,11:29:45","sardine_can","#0","Yea! You can see how you can check an access condition below. You pass your declared condition to the action in ‘jsParams’   https://developer.litprotocol.com/litactions/workingwithactions/conditionalsigning/","a_starburst#0",""
+"2023-04-15,11:46:25","a_starburst","#0","i just used checkAndSignAuthMessage and not checkAndSignEvmAuthMessage explicitly","sardine_can#0",""
+"2023-04-15,11:49:10","a_starburst","#0","it looks like the documentation suggests that Actions use ACC, but I'm wondering if ACCs can use Actions","sardine_can#0",""
+"2023-04-15,11:49:25","a_starburst","#0","<@493633371717763104>","sardine_can#0",""
+"2023-04-15,12:21:04","sardine_can","#0","Actions that return a Boolean can be used. You can see more here: https://developer.litprotocol.com/accessControl/conditionTypes/litActionConditions","a_starburst#0",""
+"2023-04-15,12:22:30","sardine_can","#0","Are you calling it in the browser or in a NodeJS context?","a_starburst#0",""
+"2023-04-15,12:36:23","a_starburst","#0","browser","sardine_can#0",""
+"2023-04-15,12:48:38","sardine_can","#0","Is this how you are calling it?
+```
+const authSig = await LitJsSdk.checkAndSignAuthMessage({
+  chain: 'ethereum'
+});
+```","a_starburst#0",""
+"2023-04-15,12:55:20","sardine_can","#0","Here are the full options that can be passed 
+```
+AuthCallbackParams {
+  // The chain you want to use.  Find the supported list of chains here: https://developer.litprotocol.com/docs/supportedChains
+  chain: Chain;
+
+  // Optional and only used with EVM chains.  A list of resources to be passed to Sign In with Ethereum.  These resources will be part of the Sign in with Ethereum signed message presented to the user.
+  resources?: any[];
+
+  // Optional and only used with EVM chains right now.  Set to true by default.  Whether or not to ask Metamask or the user's wallet to switch chains before signing.  This may be desired if you're going to have the user send a txn on that chain.  On the other hand, if all you care about is the user's wallet signature, then you probably don't want to make them switch chains for no reason.  Pass false here to disable this chain switching behavior.
+  switchChain?: boolean;
+
+  // --- Following for Session Auth ---
+  expiration?: string;
+
+  uri?: string;
+}
+  
+```","",""
+"2023-04-15,12:56:49","a_starburst","#0","yes
+
+```
+export const useAuthSig = () => {
+    const [sig, setSig] = useState<any>(null);
+    if (!sig) LitJsSdk.checkAndSignAuthMessage({ chain: ""ethereum"" }).then((msg) => setSig(msg));
+    return sig;
+}   
+```","sardine_can#0",""
+"2023-04-15,12:57:38","a_starburst","#0","thanks","sardine_can#0",""
+"2023-04-15,12:59:59","sardine_can","#0","Are you using the `auth-browser` package directly in your project?","a_starburst#0",""
+"2023-04-15,13:05:10","rwiggum","#0","there is an example here: https://github.com/LIT-Protocol/pkp-social-auth-example","yoshijo04#0357",""
+"2023-04-15,13:13:48","rwiggum","#0","This should be working.  Are you using metamask?  and are you importing with `import * as LitJsSdk from ""@lit-protocol/lit-node-client"";` ? 
+
+You can try running `LitJsSdk.disconnectWeb3();` to delete the AuthSig from localstorage, and then maybe it will work.","a_starburst#0",""
+"2023-04-15,13:18:44","rwiggum","#0","also, there is a new package, lit-auth-client which has functions for this: https://github.com/LIT-Protocol/js-sdk/tree/feat-pkp-client/packages/lit-auth-client
+
+you can access it with `yarn add @lit-protocol/lit-auth-client@pkp`","yoshijo04#0357",""
+"2023-04-15,19:12:22","a_starburst","#0","thanks for help folks!","",""
+"2023-04-15,19:12:31","a_starburst","#0","Here's what we built:
+
+**Name**: ⭐ Play Protect
+**Description**: Play Protect allows artists and musicians to enforce digital rights management for their music using threshold encryption.
+**Github**: https://github.com/luksgrin/ETHTokyo_Project
+
+Public URL: https://ethglobal.com/showcase/play-protect-74wvv","",""
+"2023-04-15,19:16:20","a_starburst","#0","super nice API. for the most part everything just worked as expected! great work lit team!","",""
+"2023-04-15,20:06:00","0x4ka","#0","<@819579896891703357> <@1096216069921853641> Thank you for helping our building!!
+**Name:** 
+Streaming NFT
+
+**Description: **
+A Wallet with a NFT rental function that allows you to rent when you need it and lend it when you don't need it. Rentals can be from just 1 second to indefinitely and Renter just pay for while using.
+
+**DEMO:**
+https://eth-global-tokyo.vercel.app/
+
+**Github: **
+https://github.com/synschismo/eth-global-tokyo/","anson5805#0、Sam F | Superfluid#0902",""
+"2023-04-15,20:08:51","0x4ka","#0","<@399725459455213579> <@493633371717763104> 
+Thank you for helping our building!!
+Name: 
+Streaming NFT
+
+Description: 
+A Wallet with a NFT rental function that allows you to rent when you need it and lend it when you don't need it. Rentals can be from just 1 second to indefinitely and Renter just pay for while using.
+
+DEMO:
+https://eth-global-tokyo.vercel.app/
+
+Github: 
+https://github.com/synschismo/eth-global-tokyo/
+
+public page
+https://www.ethglobal.com/showcase/streaming-nft-with-wallet-n559o","sardine_can#0、rwiggum#0",""
+"2023-04-15,20:39:12","0xdeb_","#0","Come find us in the sponsor hall and demo your project!","","https://cdn.discordapp.com/attachments/993005932902613103/1096957938112933908/PXL_20230416_003736473.MP.jpg"
+"2023-05-29,09:03:23","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1112727893882195988/HackFS_youtube_bannerHackFS.png"
+"2023-05-29,12:55:44","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lit Protocol** lets you create and manage distributed cryptographic key-pairs for condition-based encryption and programmatic signing. A decentralized key management network, Lit can be used in place of centralized key custodians and other key management solutions.
+
+
+🏆 **PRIZE OVERVIEW**
+*More to come!*
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/hackfs2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://litprotocol.com/
+https://developer.litprotocol.com/","",""
+"2023-05-31,16:41:28","0xdeb_","#0","For the Lit Prizes
+
+```
+Best use of Lit Actions and Programmable Key Pairs
+$3K USDC
+
+Improving the user experience in web3 is essential for the long-term success and adoption of decentralized technology. By making it easier and more intuitive for users to engage with the ecosystem, we can help create a more open, transparent, and user-centric internet for everyone.
+
+Use Lit to create a seamless onboarding process or abstract away signing through programmatic signing. Lit provides the underlying infrastructure for developers to set up programmable signing based on on-chain and off-chain information.
+
+Criteria for the prize: 
+Must utilize Lit Actions and Programmable Key Pairs.
+UI/UX is top priority!
+Output should include a demo and documentation of how it utilizes Lit.
+
+Best use of DataDAOs and Lit
+$1K USDC
+
+Wildcard: Best use of Lit Protocol
+$1K USDC
+```","",""
+"2023-06-03,11:59:32","ehsueh","#0","Hi, I heard about someone controlling a Tesla using a double encrypted NFT (second encryption layer was via Lit). What was the purpose of double encryption? How do we decide when we need it? Thanks.","",""
+"2023-06-03,17:47:33","bluegreen.crypto","#0","Is there an analytics dashboard or something where I can check to see how many nodes there are in the lit network? (edit) nevermind, i found that info here https://developer.litprotocol.com/support/stateofnetwork/","",""
+"2023-06-05,13:21:46","Alexey","#8940","Hi all,
+Please help! How can I extract the private key from Lit Protocol API?","",""
+"2023-06-05,13:51:42","Alexey","#8940","Or may be there is a way to create X.509 certificate based on the PKP?","",""
+"2023-06-05,15:00:40","maniveer","#0","do lit support any of present filecoin testnet","",""
+"2023-06-05,15:36:22","0xdeb_","#0","hey! you can read more about that here: https://www.notion.so/litprotocol/Cloudflare-x-Lit-post-be67613ee77548fc93bf65fe6c739e04?pvs=4
+
+TDLR: 
+In the example, a Tesla OAuth credential is encrypted twice, once by Lit Protocol and a second time through Cloudflare. Both are necessary to decrypt the credentials; neither has access without the correct passkeys and order of decryption. This pattern is an interdependent system that can not work unless all pieces are in place. Individually, Lit Protocol can not unlock the car and Cloudflare also can not unlock the car.","ehsueh#0",""
+"2023-06-05,15:37:04","0xdeb_","#0","hey Alexey, at this moment we do not have a method to extract the private key","Alexey#8940",""
+"2023-06-05,15:39:32","0xdeb_","#0","you can check out the supported chains here and submit a request for the chain that you need supported - if it's EVM based, it's relatively easy for us to add in support
+
+https://developer.litprotocol.com/resources/supportedChains","maniveer#0",""
+"2023-06-05,19:06:17","brainfried","#0","Hi, I'm looking to get a quick 5min feedback on my architecture design that utilizes Lit Protocol to make sure it makes sense","",""
+"2023-06-05,19:17:54","0xdeb_","#0","yep! feel free to DM me with any questions you have and I'll review the architecture 🙂","brainfried#0",""
+"2023-06-06,06:14:43","berkingurcan","#0","Hi <@716127683440017459> ! I would like to build Decentralized Verifiable Credentials Issuance Infrastructure in this hackathon but it is relatively different from Krebit. Also I have looked to this: https://spark.litprotocol.com/semantic/ but I think it is not related to my idea. Claim format will be similar to ERC 5851. I have a few questions:
+- Are there any PoC, demo etc. projects that similar to mine? Can you send links of them?
+- Do you know any ERC or VC Standard or DiD format for my idea which can be compatible Lit Protocol Access Control?
+- Do you have any suggestion to me 😄","0xdeb_#0",""
+"2023-06-06,15:42:11","0xdeb_","#0","<@843590451348111420>, 
+
+1. I'm not aware of additional projects outside of krebit and relation for this!
+2. Compatability with Lit Access Control is based on chains (you can check out the supported chains here: https://developer.litprotocol.com/resources/supportedChains#access-control-protocol). ERC = etherueum specific, VCs and DIDs depend on the platform they are built on
+3. Can you explain more about this platform and what use case you want to explore with it?","berkingurcan#0",""
+"2023-06-08,13:39:44","steph.lens","#0","hey <@716127683440017459> and lit team! I was doing a deep dive of Lit and was curious if you had a code example of the ""mint, grant, burn"" pattern for pkps and Lit actions. 
+
+I'm hacking on an on-chain OTP generator + verification service and wanted to use this pattern for access control","0xdeb_#0",""
+"2023-06-08,14:06:56","0xdeb_","#0","hi <@598764899862052868> ! 
+
+Yes! My initial thought around example code is from Yacht labs using mint/grant/burn to: 
+```
+mint the PKP, associating it with the Lit Action code, and burning the PKP all within an atmoic transaction, nobody can change the code that the PKP is associated with
+```
+
+https://github.com/Yacht-Labs/yacht-lit-sdk","steph.lens#0",""
+"2023-06-08,14:07:10","0xdeb_","#0","I'll do a bit more digging because I'm pretty sure we have more examples out there","",""
+"2023-06-08,14:59:15","0xdeb_","#0","For developers who have questions this weekend - I'm out for the next couple of days and the most ideal place to ask for questions until I get back is on the Lit Discord: https://litgateway.com/discord","",""
+"2023-06-11,11:13:46","0m0t","#0","Can Lit be used to encrypt and decrypt data?","",""
+"2023-06-11,11:14:33","0m0t","#0","I know that ecdsa cannot","",""
+"2023-06-11,11:37:23","0m0t","#0","If so, what encryption algorithm does it use?","",""
+"2023-06-12,11:21:40","sovereign_alchemist","#0","Hey <@716127683440017459>, could you add support for the calibration testnet?
+
+I sent a request, the only question I was unsure of is number of decimals.
+
+From looking at this page: https://docs.filecoin.io/basics/assets/the-fil-token/#denomonations
+
+I answered with  1 decimal place.","0xdeb_#0",""
+"2023-06-13,04:19:51",".mangolassi","#0","Hey guys!
+I have some problems when I bundle the Lit Action code with more libs. I'm getting this error esbuild `str.charCodeAt is not a function` 
+This issue is reported in github as well: https://github.com/LIT-Protocol/js-serverless-function-test/issues/9
+
+`Adarsh-Kumar28` wasn't able to reproduce but I did it. I'm using node 18 when running the `node src/esbuild.js`","",""
+"2023-06-13,12:47:48","carllippert","#0","lit is lit. is lit + ipfs mfs a good option for building a decentralized obsidian / roam type system or is there a different combo i should look into","",""
+"2023-06-13,12:48:15","carllippert","#0","need CRUD over files. environment is Tauri ( js, rust, python ) local application","",""
+"2023-06-14,06:13:19","jvaleska","#0","I am getting the 422 bad entity error usign evmContractConditions
+```
+[Lit-JS-SDK] formattedEVMContractConditions 
+[{""contractAddress"":""0x839AA66E6Ff206A9205278033C0E28B5731B7c7F"",""functionName"":""nonces"",""functionParams"":[""0x33be97e6e15301988e3f326bb7dac3c55c8ea472""],""functionAbi"":{""name"":""nonces"",""inputs"":[{""name"":"""",""type"":""address""}],""outputs"":[{""name"":"""",""type"":""uint256""}],""constant"":false,""stateMutability"":""view""},""chain"":""mumbai"",""returnValueTest"":{""key"":"""",""comparator"":""="",""value"":1}}]
+```
+any idea what is te problem with my conditions?","",""
+"2023-06-14,06:22:41","jvaleska","#0","solved, the problem was the integer value (1)","",""
+"2023-06-14,16:31:51","0xdeb_","#0","lit + ipfs would work for the decentralized obsidian / roam! 
+For something similiar to roam, the backend/storage would need something to support querying a graph like structure of information","carllippert#0",""
+"2023-06-15,05:55:43",".sofaman","#0","can i use decentralized access control on an erc20Votes token built on the filecoin calibration testnet? I was wondering because calibration isn't listed as a supported chain, but hyperspace is","",""
+"2023-06-15,11:15:25","mashharuki","#0","Hi, I have a question!
+
+I am currently trying to use Lit's SDK with TypeScript and have created the following file. (I'm trying to use it on the front-end side.)
+
+I am getting the following error when initializing the LitNodeClient object.
+
+lit.ts:7 Uncaught TypeError: Cannot read properties of undefined (reading 'LitNodeClient')
+
+What format should I initialize in TypeScript?
+Please let me know if you have a source code that would be helpful.","",""
+"2023-06-15,11:15:40","mashharuki","#0","```ts
+import LitJsSdk from ""@lit-protocol/lit-node-client"";
+
+const client = new LitJsSdk.LitNodeClient({
+  litNetwork: 'serrano'
+});
+const chain = ""mumbai"";
+```","",""
+"2023-06-15,11:15:54","mashharuki","#0","↑ my code is here","",""
+"2023-06-15,11:16:48","mashharuki","#0","""@lit-protocol/lit-node-client"": ""^2.2.24"",","",""
+"2023-06-15,11:17:02","mashharuki","#0","↑ dependency info is here","",""
+"2023-06-15,12:09:42","lowcodekrish","#0","Hi! Is it possible to develop access control mechanism in lit by sharing keys?","",""
+"2023-06-15,13:49:44","0xdeb_","#0","unfortunately, we do not support calibration at this time",".sofaman#0",""
+"2023-06-15,14:03:52","0xdeb_","#0","check out this example: https://github.com/LIT-Protocol/lit-demo-simple-string-encrypt-nodejs/blob/main/main.js
+
+```import LitJsSdk from '@lit-protocol/lit-node-client-nodejs';
+const litNodeClient = new LitJsSdk.LitNodeClientNodeJs();
+
+await litNodeClient.connect();
+```","mashharuki#0",""
+"2023-06-15,14:06:24","0xdeb_","#0","Hi Krish! Can you give me some use case examples of how and why you want to share keys? 
+
+Just thinking through this where a lot of power in Lit is being able to provision access based on assets someone has (like a certain NFT, x amount of coins, or timebased unlocks)","lowcodekrish#0",""
+"2023-06-15,14:21:21","lowcodekrish","#0","Hey Debie,
+
+A sample use case is; once I have encrypted the file I'd expect only a specific set of users to  decrypt it. 
+
+So, I guess the question is how could those privileged users gain access to the key?","0xdeb_#0",""
+"2023-06-15,15:06:00","0xdeb_","#0","so you set the access control conditions before you encrypt the file - something like `user must own a doodles NFT to decrypt the content`
+
+You can read more here: https://developer.litprotocol.com/accessControl/intro","lowcodekrish#0",""
+"2023-06-15,15:06:59","0xdeb_","#0","Lit is a MPC key management network, so essentially as a developer you're relying on the Lit nodes to take care of the keys for you and the access to the decryption key is based on the access control conditions you've set","",""
+"2023-06-15,15:56:46","jvaleska","#0","encryptToIpfs is not a function
+
+which package do I need to install to use this function?","",""
+"2023-06-15,16:00:37","jvaleska","#0","I've been struggling all day with downloading a file with an encrypted string and decrypting it. For whatever reason when I rebuild the blob, it is no longer the same. 
+ I got just Error, no more comments. I guess the problem is the blob. I tried many ways.. nothing. 
+
+So I choose to go with the easy solution and it fails too. It is not my day,  definitely. Tomorrow is going to be a very busy day, I guess.","",""
+"2023-06-15,17:10:28","0xdeb_","#0","on the browser, this should work
+`import * as LitJsSdk from ""@lit-protocol/lit-node-client"";`
+
+You can read more on the installation page here: https://developer.litprotocol.com/SDK/Explanation/installation
+
+For encryptToIPFS, you want to get the LitJsSDK obj loaded.","jvaleska#0",""
+"2023-06-15,18:04:17","mashharuki","#0","thank you!.","0xdeb_#0",""
+"2023-06-16,01:36:25","lowcodekrish","#0","Thank you Debie. I was looking for some sample code that demonstrates this, but couldn't find anything similar to this case.","0xdeb_#0",""
+"2023-06-16,04:49:13","hakymulla","#0","has anyone used litprotocol in docker?","",""
+"2023-06-16,05:02:32","jvaleska","#0","Perfect, thanks!
+Looks like I need to add a credit card to infura in order to get this working","0xdeb_#0",""
+"2023-06-16,09:55:15","mashharuki","#0","It worked!! Thank you!!","0xdeb_#0",""
+"2023-06-16,14:03:25","0xdeb_","#0","did the explanation earlier clarify it for you, or should I explain more on how to work with the Lit nodes?","lowcodekrish#0",""
+"2023-06-16,14:36:15","lowcodekrish","#0","The explanation was apt. I am trying to find some sample code that demonstrates the use you outlined earlier. Especially around configuring the accesscontrol object.","0xdeb_#0",""
+"2023-06-16,14:41:07","0xdeb_","#0","Cool! 
+
+After you complete the installation step: https://developer.litprotocol.com/SDK/Explanation/installation
+
+To set up the access control obj, you can read through this intro example to set up encryption based on a simple access control condition: https://developer.litprotocol.com/SDK/Explanation/encryption
+
+If you want to read more about the access control object, you can find that here: https://developer.litprotocol.com/accessControl/intro","lowcodekrish#0",""
+"2023-06-16,14:41:34","0xdeb_","#0","You'll interact with the Lit nodes through the Lit JS SDK","",""
+"2023-06-16,14:54:50","lowcodekrish","#0","Thank you Debie. I'll go through these links and revert if I have questions.","0xdeb_#0",""
+"2023-06-17,02:25:41","lowcodekrish","#0","I am running into a LitNodeClient Undefined error. How do I resilve it? Below is how it's defined:
+
+``` const litClient = new LitJsSdk.LitNodeClient();
+    await litClient.connect();```","",""
+"2023-06-17,03:23:43","lajosd","#0","Hi! Is Calibration testnet supported already?","",""
+"2023-06-17,06:25:35","hakymulla","#0","co ask","lajosd#0",""
+"2023-06-17,10:43:16","sovereign_alchemist","#0","Nope https://discord.com/channels/554623348622098432/993005932902613103/1118960549691150416","lajosd#0",""
+"2023-06-17,15:35:31","0xkamal7","#0","hey <@716127683440017459> I have been trying hard to resolve this error from an hour , can you help me with this ? cc <@737716902427885630>","0xdeb_#0、juste5426#0","https://cdn.discordapp.com/attachments/993005932902613103/1119711946216837231/image.png"
+"2023-06-17,15:50:25","0xdeb_","#0","Hey! What are you using 3id for? Looking at your error it doesn't seem to be related to the lit js sdk","0xkamal7#0",""
+"2023-06-17,15:58:39","0xkamal7","#0","using it for ceramic integration with Lit","0xdeb_#0",""
+"2023-06-17,16:00:34","0xkamal7","#0","<@716127683440017459> sent u the file link which m using on DM","0xdeb_#0",""
+"2023-06-19,09:00:18","mashharuki","#0","Here's what we built:
+
+Name: 🐶 OkozukaiWallet
+Description: OkozukaiWallet is a product that creates an opportunity for mass adoption of Web3.
+Github: https://github.com/mashharuki/HackFS-2023
+
+Public URL: https://ethglobal.com/showcase/okozukaiwallet-gwi9y","",""
+"2023-06-19,13:23:48","steph.lens","#0","Hey Lit team! Popping in to show you my HackFS project, Wallet OTP, a desktop and mobile 2FA Authenticator App. I used Lit for encryption and decryption of records (service + serviceSymmetricEncryptionKey, account + accountSymmetricEncryptionKey, secret + secretSymmetricEncryptionKey) before storage in Polybase. Lit didn't have an integration for Lit <> Polybase so I wrote that part from scratch. Check it out:
+
+https://www.ethglobal.com/showcase/wallet-otp-one-time-password-pp9gx","","https://cdn.discordapp.com/attachments/993005932902613103/1120403576141922314/projects2Fpp9gx2Fimages2FWallet20OTP20deck.png"
+"2023-06-19,13:24:27","steph.lens","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1120403737027027004/Screenshot_2023-06-19_at_10.20.56_AM.png"
+"2023-06-19,14:42:18","0xdeb_","#0","awesome - i'll be reviewing projects in the next few days and am super excited by what y'all have built","",""
+"2023-06-21,23:25:27","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1121279763152113734/Waterloo_2.png"
+"2023-06-21,23:32:15","awliang","#0","Hello and welcome to the <#953024366201958461> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lit Protocol** lets you create and manage distributed cryptographic key-pairs for condition-based encryption and programmatic signing. A decentralized key management network, Lit can be used in place of centralized key custodians and other key management solutions.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best use of Lit Actions and Programmable Key Pairs - $4,000 USDC
+Wildcard: Best use of Lit Overall - $1,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://developer.litprotocol.com/
+https://developer.litprotocol.com/pkp/intro
+https://developer.litprotocol.com/LitActions/intro
+https://spark.litprotocol.com/hackathon-resources-spring-23/","",""
+"2023-06-22,09:41:54","cesarhuret","#0","Hey, is it possible to gate a smart contract to only allow signatures that have been signed in a Lit Action ?","",""
+"2023-06-23,17:00:26","rwiggum","#0","thanks!  here to answer any questions if you have them","",""
+"2023-06-23,17:00:42","rwiggum","#0","yes, absolutely","cesarhuret#0",""
+"2023-06-23,17:01:34","rwiggum","#0","you would want to mint a PKP with the Lit Action as the only auth method for it, and then put the corresponding public key from that PKP in your smart contract.  and then the lit action will use the lit nodes to sign whatever you want, and you can check the signature against the pubkey in the contract.","cesarhuret#0",""
+"2023-06-23,17:01:52","rwiggum","#0","we are downstairs with some light up cubes that say ""Lit"" so come find us if you wanna chat in person!","cesarhuret#0",""
+"2023-06-23,17:51:58","0xdeb_","#0","Come find us in person and get some lit matches","","https://cdn.discordapp.com/attachments/993005932902613103/1121920613834047630/IMG_20230623_170136_904.webp"
+"2023-06-23,18:01:09","rwiggum","#0","Join us on telegram here: https://t.me/+d5bx2EKDKSkzZmY5","",""
+"2023-06-23,23:08:05","0xdeb_","#0","for folks who want a refresher on Lit Actions and PKPs - you can reference this resources guide: https://spark.litprotocol.com/hackathon-resources-spring-23/","",""
+"2023-06-24,10:49:18","aaron_luhning","#0","Currentl getting ```Could not connect to enough nodes after timeout of 20000ms.  Could only connect to 0 of 6 required nodes.  Please check your network connection and try again.  Note that you can control this timeout with the connectTimeout config option which takes milliseconds.```  Was working a few minutes ago - any idea what might cause this (network is fine).","",""
+"2023-06-24,10:57:22","rwiggum","#0","did you change network connection at all?  can you try running this in your terminal to see if it connects?  `telnet serrano.litgateway.com 7370`","aaron_luhning#0",""
+"2023-06-24,11:05:05","aaron_luhning","#0","it does - probably something I did.  Is it normal to have several sendCommandtoNode and handshakewithSgx  (~10) one after another appearing in the console?","rwiggum#0",""
+"2023-06-24,16:08:08","rtree","#0","Hey lit team on site, I just would like to say thank you for updating the SDK!  I am more getting into lit and continue building.
+
+Thanks,
+Rtree from JPEGated","",""
+"2023-06-24,23:40:15","0xdeb_","#0","hi hackers - if you have any questions, we're still at the venue - find the lit cube!","",""
+"2023-06-25,00:05:05","sarahlit","#7799","Hey lit team on site I just would like","",""
+"2023-06-25,03:29:17","rtree","#0","Does anybody still here? What is the network string for ""XDC Apothem""? I have found xdc (Prod.) but apotem is not in this doc: https://developer.litprotocol.com/resources/supportedchains/","",""
+"2023-06-25,12:46:33","gokutsuma3","#0","<@399725459455213579> 
+Thank you for your hard work in reviewing so many projects for so long. Unfortunately, we could not do the Demo in person, but let me at least give you an overview of our project.
+
+■Project Name
+Autonomous World ID —ZK Identity Protocol for Games—
+
+■URL
+https://ethglobal.com/showcase/autonomous-world-id-k7odb
+
+■TL;DR For Lit Protocol
+・We use Access Control in Lit Protocolto encrypt the EOA and its associated Zk Proof, signature, etc
+・ZK Identity, Sismo alone could not accomplish the switching of user profiles to Private, so Access Contorl was a must for our product.
+・As you know With ZKP alone, proof of address ownership could be achieved, but EOA could not be passed, so encryption was required","rwiggum#0",""
+"2023-06-25,13:35:23","cesarhuret","#0","Is lit team still there","",""
+"2023-07-10,15:05:39","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1128039351658496050/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,18:45:50","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lit Protocol** lets you create and manage distributed cryptographic key-pairs for condition-based encryption and programmatic signing. A decentralized key management network, Lit can be used in place of centralized key custodians and other key management solutions.
+
+
+🏆 **PRIZE OVERVIEW**
+
+$1500 Wildcard: Best use of Lit Protocol
+$3500 Best Use of Lit Actions and Programmable Key Pairs
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/TYw6d99qOPc
+
+
+🔗 **IMPORTANT LINKS**
+https://developer.litprotocol.com/
+https://developer.litprotocol.com/pkp/intro
+https://developer.litprotocol.com/LitActions/intro
+https://spark.litprotocol.com/hackathon-resources-spring-23/","",""
+"2023-07-19,02:15:44","ottodevs","#0","hi! what is the suggested path for encryption and decryption of ceramic content? I previously used `lit-ceramic-sdk` but I am not sure if it's up to date","",""
+"2023-07-21,09:42:44","0xdeb_","#0","If you have any questions about Lit, want some ideas on how to build with us... find the lit team with the cube!","","https://cdn.discordapp.com/attachments/993005932902613103/1131944352227282964/IMG_20230721_142059_080.webp"
+"2023-07-21,13:04:38","jd1001","#0","Is this downstairs?","0xdeb_#0",""
+"2023-07-21,13:48:52","0xdeb_","#0","Main floor as soon as you walk in!","",""
+"2023-07-22,06:08:26","jd1001","#0","gm <@716127683440017459> where are you sitting today?","0xdeb_#0",""
+"2023-07-22,06:16:56","rollingrelease","#7344","the same, main floor right at the entrance. Look for the lit cube 🙂","",""
+"2023-07-22,09:14:09","0xdeb_","#0","potato camera buuut find the cube for some Lit stickers","","https://cdn.discordapp.com/attachments/993005932902613103/1132299548568604813/rn_image_picker_lib_temp_9828718e-3d5b-4d60-a854-f200be41707a.jpg"
+"2023-07-22,12:59:53","0xdeb_","#0","For folks having issues with access control, here is a tool you can use to check you have the correct formatting: https://lit-accs-debugger.vercel.app/","",""
+"2023-07-22,13:18:12","0xdeb_","#0","https://developer.litprotocol.com/accessControl/EVM/customContractCalls","",""
+"2023-07-22,13:32:42","anson5805","#0","Hey Hugo, we will add `OptimismGoerli` in the next 2~3 days! we just found the instruction just need to push it node side","",""
+"2023-07-22,13:43:18","0xdeb_","#0","Want to check in with devs - if you are building with Lit, please stop by the table on the main floor by the entrance if you have any questions within the next hour~ so we can help with anything Lit related in person! 
+
+The team may not be staying as late as in past hackathons and we would love to help folks asap","",""
+"2023-07-22,17:00:51","arshaanb","#0","Hey are any of you here right now?","",""
+"2023-07-22,17:25:33","arshaanb","#0","Is there an example of this in code somewhere? https://developer.litprotocol.com/accessControl/EVM/customContractCalls
+
+Like where it works end to end?","",""
+"2023-07-22,18:07:34","0xdeb_","#0","<@229383079070924800> you can check out the example here: https://github.com/LIT-Protocol/sdk-examples/tree/main/custom-emv-acc","arshaanb#0",""
+"2023-07-22,18:23:49","arshaanb","#0","Will check it out, thanks","0xdeb_#0",""
+"2023-07-22,19:30:11","arshaanb","#0","couldn't get it working 😦 will you guys be in before the 9am submission?","",""
+"2023-07-23,07:01:13","eimi80","#0","Hi","",""
+"2023-07-23,07:01:33","eimi80","#0","Is anyone from Lit around for judging?","",""
+"2023-07-23,07:03:04","eimi80","#0","We've been looking for them forever","",""
+"2023-07-23,07:44:03","lyons800","#0","Hey Guys, have something we’ really need to show you guys !! We have been caught up all morning and can’t fin you anywhere","",""
+"2023-07-23,13:10:44","0xdeb_","#0","We closed our judging at noon, if you want to show us anything feel free to post here or Lit's Discord!  catch you in new york if you're planning on joining ✨","",""
+"2023-07-26,08:11:57","rollingrelease","#7344","Upon request, we added Optimism Goerli support to our network! 🥳","",""
+"2023-09-13,13:39:20","awliang","#0","","","https://cdn.discordapp.com/attachments/993005932902613103/1151572840273956985/image.png"
+"2023-09-15,01:17:18","awliang","#0","Hello and welcome to the <#993005932902613103> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lit Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lit Protocol** lets you create and manage distributed cryptographic key-pairs for condition-based encryption and programmatic signing. A decentralized key management network, Lit can be used in place of centralized key custodians and other key management solutions.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best use of Programmatic Signing – $3500
+Wild Card – $1500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+Developer docs: <https://developer.litprotocol.com/> 
+Programmable key pairs: <https://developer.litprotocol.com/v2/pkp/intro> 
+Lit Actions: <https://developer.litprotocol.com/v2/LitActions/intro> 
+Hackathon resources post: <https://spark.litprotocol.com/hackathon-resources-spring-23/>","",""
+"2023-09-19,19:19:56","fentalon","#0","Hi","",""
+"2023-09-19,19:20:23","fentalon","#0","I am trying to get in touch with the LIT team; can someone please get back to me. Thanks!","",""

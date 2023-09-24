@@ -1,0 +1,1631 @@
+Date,Username,User tag,Content,Mentions,link
+"2021-03-15,16:58:08","emilyhobbs","#0","Hello and welcome to the <#819516506445840395>  channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!420370295698751510>","nkennethk#0",""
+"2021-03-19,02:14:58","nkennethk","#0","👋🏼 hey yall!","",""
+"2021-03-19,08:09:28","leozeba.eth","#0","Let's hack!","",""
+"2021-03-19,08:44:37","buan_thomas","#0","Is UNIswap about to announce NFT integration with some other clever mechanics ?","",""
+"2021-03-19,08:45:04","buan_thomas","#0","<:NFTHack:819973379049127996>","",""
+"2021-03-19,10:16:39","jacobw","#0","I for one am excited about Uniswap V5","",""
+"2021-03-19,13:02:55","buan_thomas","#0","https://twitter.com/haydenzadams/status/1372951409625346055?s=21","",""
+"2021-03-19,13:03:20","buan_thomas","#0","So .. no details this weekend it seems","",""
+"2021-03-19,13:27:42","timhc22","#9337","<@!761372183246667826> check out NFTX","buan_thomas#0",""
+"2021-03-20,02:57:15","jdshutt","#0","x-post for our project, Animal Money, which is live now and mostly Uniswap: https://discord.com/channels/554623348622098432/814196294330613830/822725074339102740","",""
+"2021-03-20,03:54:21","theoephraim","#0","hello uniswap folks! Quick question - I'm trying to use your subgraph just to pull daily prices for various tokens, but it seems there are duplicate tokens with different IDs and with different date ranges available. Any advice on a simple way to just pull that data easily?","",""
+"2021-03-20,03:55:45","theoephraim","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/822740182397878323/unknown.png"
+"2021-03-20,05:13:33","secretshardul","#0","How exactly do unisocks work? Do $SOCK redeemers only get a physical sock or also get an NFT?","",""
+"2021-03-20,07:56:07","tao4869","#0","😆","",""
+"2021-03-20,11:09:09","nkennethk","#0","hmm I’m not entirely sure but have you taken a look at token lists?","theoephraim#0",""
+"2021-03-20,11:09:42","nkennethk","#0","socks are ERC20! at point of redemption it becomes 721 and a physical sock","secretshardul#0",""
+"2021-03-20,11:18:53","secretshardul","#0","Cool. Can sock ERC20 exist in fractions? Eg. Someone owning 0.1 $SOCK","nkennethk#0",""
+"2021-03-20,17:22:20","nkennethk","#0","yes they can!","secretshardul#0",""
+"2021-03-20,17:22:59","nkennethk","#0","would love to see what happens if you wrap redeemed socks to become ERC20s","",""
+"2021-03-20,17:23:00","nkennethk","#0","eg","",""
+"2021-03-20,17:23:22","nkennethk","#0","donate socks to a museum that will never be touched and wrap them back into liquid fractional shares","",""
+"2021-03-20,19:12:02","Cryptocastles","#4828","My team is building the UX as a fork of uniswap-ui. I'm doing the contracts. I love it, but I'm lost as to how to connect my work, is there any good code for interacting with erc721 from react.js out there? I'm assuming this is built on ethers.js. Asked in support chat but yeah definitely need to start hacking on integration","",""
+"2021-03-20,21:29:43","Paulisson","#3385","Hello Guys about our hackaton project, a quick question if I may, we created ERC20 shares token of our NFT platform collection (using NFTFY), then we created a pair on uniswap (all in rinkeby) we created activity on the pair but nothing is reflect in statistics which we would like to integrate in our plaform. Anything we can do to avoid integrating empty content for our submission ?  Asking just in case. Cheers ! J","",""
+"2021-03-20,23:17:58","nkennethk","#0","sure! what statistics are you talking about? is it on info.uniswap?","Paulisson#3385",""
+"2021-03-20,23:18:15","Paulisson","#3385","Hello Ken","",""
+"2021-03-20,23:18:21","Paulisson","#3385","Yes correct 🙂","",""
+"2021-03-20,23:18:50","Paulisson","#3385","(https://info.uniswap.org/token/0x0b6a13057a9466ea755e1b62599f9909c6a2a072)","",""
+"2021-03-20,23:19:45","nkennethk","#0","ethers should work but react shouldn’t be an issue","Cryptocastles#4828",""
+"2021-03-20,23:20:22","nkennethk","#0","https://etherscan.io/address/0x0b6a13057a9466ea755e1b62599f9909c6a2a072#analytics","Paulisson#3385",""
+"2021-03-20,23:20:32","nkennethk","#0","shows there’s no tx?","",""
+"2021-03-20,23:29:48","Paulisson","#3385","Yes we are working on rinkeby for the hackaton 🙂","",""
+"2021-03-20,23:31:00","Paulisson","#3385","https://rinkeby.etherscan.io/address/0x0b6a13057a9466ea755e1b62599f9909c6a2a072","",""
+"2021-03-20,23:31:07","Paulisson","#3385","<@!420370295698751510>","nkennethk#0",""
+"2021-03-21,13:35:23","nkennethk","#0","hey y’all! If anyone wants to present I’m available now","",""
+"2021-03-21,13:41:44","jdshutt","#0","We're in the green room right now! Excited to present once we're through.","",""
+"2021-03-21,13:43:18","jdshutt","#0","There are still about 50 people in the green room with us. Crazy how many teams there are!","",""
+"2021-03-21,13:48:37","nkennethk","#0","No worries - take your time!","jdshutt#0",""
+"2021-03-21,14:10:52","jdshutt","#0","still in the green room lol","",""
+"2021-03-21,14:32:40","apoorvlathey","#0","https://github.com/NFTPool-Exchange","",""
+"2021-03-21,15:02:00","nkennethk","#0","<@304086664291024898> yooo","Katz#8928",""
+"2021-03-21,15:02:05","nkennethk","#0","Can y’all hear me","",""
+"2021-03-21,15:02:08","Katz","#8928","nope","",""
+"2021-03-21,15:02:15","nkennethk","#0","Okok","",""
+"2021-03-21,15:02:38","nkennethk","#0","I can hear y’all","",""
+"2021-03-21,15:02:46","nkennethk","#0","<@295021471997100036> yoooo","evanmays#0",""
+"2021-03-21,15:03:00","nkennethk","#0","I can hear y’all perfectly fine","",""
+"2021-03-21,15:14:00","faraggi","#0","https://www.youtube.com/watch?v=SDRL909UsZQ","",""
+"2021-03-21,15:24:12","zaxarovcom","#0","Hi, here is my project: https://cult.global/
+Cult is a next-generation medium which curate best content about crypto culture and showcase emerging NFT artists around the world. 
+This is just beginning of this journey and I'm really excited to develop it further 🙂
+Peace!","",""
+"2021-03-21,15:32:20","jeremykvaughn","#0","https://www.youtube.com/watch?v=9vR8F4uUKDE","",""
+"2021-04-09,10:52:11","emilyhobbs","#0","Hello and welcome to the <#819516506445840395>  channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!420370295698751510>","nkennethk#0",""
+"2021-04-14,06:30:03","nft","#6666","may I know that how do I apply for the uniswap grants?","",""
+"2021-04-14,07:37:53","emilyhobbs","#0","Hey!
+
+We will be sharing more info on this today 🌟","nft#6666",""
+"2021-04-14,07:45:15","emilyhobbs","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for UNI Grants!
+
+👀 **About**
+If you're building something 🔥🔥🔥 on Uniswap, please let us know what you're working on and let's discuss how we might be able to help you! 
+
+**Our current focus is to support specific areas accomplishing the following:**
+Usability - improving the user experience
+Community - growing the ecosystem
+Tooling - improving the developer experience
+
+🔗 **Important Links**
+
+**Apply Here:**
+https://airtable.com/shrEXXxXB1humz7VS
+
+**RFPs & Challenges**
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2021-04-15,21:09:15","0x156","#5725","is it possible to make a solo project and qualify for both uniswap grant and hackathon?","",""
+"2021-04-15,21:11:29","jacobw","#0","Definitely","0x156#5725",""
+"2021-04-16,19:45:25","moon_reporter","#2961","Hi can I clarify is the Uniswap Grant available preprototype? As we just got started with hackathon. I am keen to work on something like Yearn.Finance for L2.","",""
+"2021-04-17,04:30:44","mindvoyage","#0","I have a question about  the Uniswap Protocol. When there's an update, how do tokens not get fractured between the old and new contract? Does liquidity stay in the old version of the contract or how does this work?","",""
+"2021-04-19,03:53:01","slimshady1994","#0","<@!627055690485071883> They probably have some migration contract/function where the tokens on old contract are burned and simultaneously same number of tokens are minted on new contract","mindvoyage#0",""
+"2021-04-19,05:20:06","mindvoyage","#0","But they can only do that for their own token","",""
+"2021-04-19,05:21:02","mindvoyage","#0","Not for Yearn or CUSD or DAI. So unless the migration functions moves all tokens to a new pool?","",""
+"2021-04-19,09:57:56","slimshady1994","#0","Oh yea. Maybe the liquidity would remain in the old contract while the LP tokens are migrated to the new contract. Any new liquidity added would go in the new contract, so slowly over time the old liquidity could be phased out...just guessing lol","",""
+"2021-04-19,11:58:40","nkennethk","#0","yes you can!","moon_reporter#2961",""
+"2021-04-19,11:59:34","nkennethk","#0","liquidity stays in the old version until it's pulled by all the LPs, it doesnt automatically get upgrades unfortunately - but it can be removed from the token list","mindvoyage#0",""
+"2021-04-19,11:59:56","nkennethk","#0","exactly!","slimshady1994#0",""
+"2021-04-19,12:00:46","mindvoyage","#0","Ahh this makes sense","",""
+"2021-04-19,12:03:00","mindvoyage","#0","But doesn't this mean the divergence in rates between the old and new contract will be too large at the start? Since there's less liquidity to prevent slippage in the new contract","",""
+"2021-04-19,12:08:41","nkennethk","#0","yeah so generally its a coordinated effort but that's also why you'll see that some old tokens will have some liquidity left for those that havent migrated","",""
+"2021-04-19,12:55:39","mindvoyage","#0","Thanks for explaining this.","",""
+"2021-04-30,10:57:27","Shelvak","#1583","Hi guys, do you have an exchange  in polygon mumbai (testenet) or planning to implement something over polygon? thanks in advance 🙂","",""
+"2021-04-30,14:11:24","kartik","#0","I dont believe uniswap has that but you might be able to find quickswap deployed on matic test net?","Shelvak#1583",""
+"2021-04-30,14:34:43","Shelvak","#1583","Thanks for the answer, I tried in their telegram and searching in explorer but  I didn'¡t find the ""official"" contracts. Do you have anyone/channel that I could ping?","",""
+"2021-05-03,14:50:34","Catherine","#6155","<@420370295698751510> any thoughts on this above?","nkennethk#0",""
+"2021-05-03,14:51:39","kartik","#0","have you tried matic and quickswap's discord group? they'd definitely be more activethere","Shelvak#1583",""
+"2021-05-03,15:29:09","Shelvak","#1583","Hi, thanks. I solved with contracts deployed by Swapmatic thanks 👍","",""
+"2021-06-04,16:32:52","Catherine","#6155","","","https://cdn.discordapp.com/attachments/819516506445840395/850472193712324638/unknown.png"
+"2021-06-11,06:09:00","emilyhobbs","#0","Hello and welcome to the <#819516506445840395>  channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!420370295698751510>","nkennethk#0",""
+"2021-06-12,21:21:10","selina0769","#0","hi","",""
+"2021-06-13,01:42:22","bighappyface","#0","Hey Team! May I have some clarity on how to pursue the Uniswap prizes? Will they be awarded through project judging, or do we have to apply for a grant?","",""
+"2021-06-13,23:53:06","Catherine","#6155","For this hackathon you can do both!  --> http://defi.ethglobal.co/prizes","bighappyface#0",""
+"2021-06-13,23:54:17","bighappyface","#0","Both is great 👍","",""
+"2021-06-14,11:07:15","nkennethk","#0","heyoooo","",""
+"2021-06-14,11:07:32","nkennethk","#0","definitely do both!","",""
+"2021-06-14,23:18:30","0x_miracle","#0","Who wants to go for the uniswap v3 derivative","",""
+"2021-06-14,23:18:41","0x_miracle","#0","please DM me","",""
+"2021-06-15,09:09:27","plinxor","#0","Hello!
+
+Is this channel appropriate place to share my project details for UniswapV3 protocol and get Uniswap team's feedback?","",""
+"2021-06-16,04:22:06","bor444","#0","<@!672036834725068810> yes please you can share all the info about your project here","plinxor#0",""
+"2021-06-16,09:52:43","plinxor","#0","I prepared thorough description of my project proposal to automatic liquidity reallocation:
+ https://showcase.ethglobal.co/hackmoney2021/uniswapv3-efficient-liquidity-reallocator
+
+Could you please confirm or point out calculation mistakes? It sounds too good to be true. Maybe I misunderstood something 😄","",""
+"2021-06-16,10:05:29","bor444","#0","<@!672036834725068810> hey are you the one who reached out to The Stable?","plinxor#0",""
+"2021-06-16,10:07:58","plinxor","#0","<@!730463593711140956> 
+Yes, it's me. Hope you didn't tired of me 😄","bor444#0",""
+"2021-06-16,10:21:24","bor444","#0","nono glad you are here 🙂 ... I think is right pace for you to be","",""
+"2021-06-16,10:22:09","nkennethk","#0","woo wooo","",""
+"2021-06-16,12:30:35","bor444","#0","<@!672036834725068810> I checked your doc and liquidity re balancing is much like trading. It all depends on what market does.","plinxor#0",""
+"2021-06-16,13:45:50","plinxor","#0","<@!730463593711140956> 
+Thank you very much, that you devote your time for this. If you allow, I try to understand you. I thought ""trading"" involved if there are some uncertainties. But in case of rebalancing we can be sure that we wont get loss (except impermanent loss, which out of scope here). What did you mean?
+
+One thing hide potential loss is burst of gas cost, like it was month ago. Then, certainly. We should use another strategy, but for now it seems valid.","bor444#0",""
+"2021-06-16,13:50:00","bor444","#0","ultimately grouping lot of smaller LPs into bigger one sure does save them gas and any strategy that involves active re balancing is definitely better than having liquidity outside the range. Over time it will show how much your strategy will outperform some other ones such as covering very big range.","",""
+"2021-06-16,20:03:48","xbalbinus","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for Uniswap!
+
+👀 About
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, UGP wants you to make sure you can build it!
+
+**Our current focus is to support specific areas accomplishing the following:**
+
+- Usability - improving the user experience
+- Community - growing the ecosystem
+- Tooling - improving the developer experience
+
+🏆 Prize Overview
+Uniswap Grant Program will be awarding **$12,000 in prizes** to the 4 most innovative and/or impactful projects for the UNI ecosystem.
+
+- **2** prizes of **$4,000** for the most outstanding projects
+- **2** prizes of **$2,000** for the runner ups
+
+🔗 Important Links
+**Apply Here:**
+
+Applications - UNI Grants Program Application (https://airtable.com/shrEXXxXB1humz7VS)
+
+**RFPs & Challenges:**
+RFPs & Challenges (https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42)","",""
+"2021-06-17,05:56:24","emilyhobbs","#0","","",""
+"2021-06-17,13:02:08","Catherine","#6155","Hey <@&839828617772007434> 👋 
+
+UniGrants 🛠 Uniswap V3 Dev Setup in ≤ 60 seconds w/ Omar Bohsali of Paradigm - **Happening now!**
+
+👀 Join us on Zoom:  https://ethglobal-co.zoom.us/j/88167989768","",""
+"2021-06-17,13:23:59","Catherine","#6155","<@!117737877722365958> 👋","omarish#2607",""
+"2021-06-17,13:25:26","omarish","#2607","👋 Hi all. Thanks for following along my presentation.
+
+* Plugin with install instructions: https://github.com/omarish/uniswap-v3-deploy-plugin
+* Screenshare recording showing what we did","","https://cdn.discordapp.com/attachments/819516506445840395/855136070881509377/Recording.mov"
+"2021-06-17,13:30:22","best_lucas_","#0","Woo! can't wait to watch, bummer I couldn't catch it live","",""
+"2021-06-17,13:36:20","nkennethk","#0","no worries - its super short & easy!","best_lucas_#0",""
+"2021-06-18,05:01:51","bor444","#0","<@!117737877722365958> is there something alike for v2?","omarish#2607",""
+"2021-06-19,07:41:54","best_lucas_","#0","Am I right in thinking this lets me run the uniswap smart contracts locally? Is there any easy way to simulate traffic?","omarish#2607",""
+"2021-06-19,07:43:54","best_lucas_","#0","Or is the standard dev flow to deploy to a test net when I get to that point?","",""
+"2021-06-19,09:15:34","mathisceozealyexcrew3","#0","We are currently looking to build a solution with Uniswap. I'm wondering if there is any way/tool to check if a wallet is associated with illegal transactions? We would like to know if a wallet have been related to hacks, terrorism, or illegal activities? Please PM me so we can discuss! Thank you so much 🙏","",""
+"2021-06-19,13:06:09","boobavelli","#0","is Uniswap v3 out on the Arbitrum Mainnet?","",""
+"2021-06-20,12:40:32","blockdev","#0","Hi, I am using this subgraph to query for uniswap governance proposals, but no matter what query I send, I am not able to retrieve this proposal https://snapshot.org/#/uniswap/proposal/QmZcfEhN6xx6mMyo6ins4pSMga7N3o14fW4VtFzYTRHuLj. Here is a sample query
+```{
+    proposals(first: 20, where: {status: ACTIVE}) {
+    id
+    proposer {
+      id
+    }
+    status
+    endBlock
+    description
+  }
+}
+```
+I have tried all the uniswap governance subgraphs from the graph explorer but no luck. Any idea what's the mistake here?","",""
+"2021-06-20,14:39:11","blockdev","#0","Also, this proposal is not listed here: https://app.uniswap.org/#/vote . Is this expected?","",""
+"2021-06-21,05:58:04","blockdev","#0","this is resolved.","",""
+"2021-06-21,09:29:02","oxmarco","#0","Hello! Does Uniswap V3 have a documented interface for contract to contract interactions?","",""
+"2021-06-21,17:58:28","blessedstaff","#0","looking for the same thing! i can't find detailed uniswap v3 docs.","oxmarco#0",""
+"2021-06-22,00:47:18","oxmarco","#0","Try here https://github.com/Uniswap/uniswap-v3-periphery/tree/main/contracts","blessedstaff#0",""
+"2021-06-22,16:29:56","Kjetil Vaagen","#4277","Hey <@!420370295698751510> , I need some expertise for uni v3 LP positions, do you know a person I can ask a couple of questions?","nkennethk#0",""
+"2021-06-22,16:55:21","pomeeeelo","#0","I'm also in need of some help, can't find good docs around the pools, would like to understand how the slippage limit works with that X96 number and also how to query the current (and twap) bid/ask prices of the pool.","",""
+"2021-06-23,11:57:04","filipevenancio.eth","#0","I want to use omnibridge or AMB to bridge NFT LP v3 NFT tokens from from ethereum to xdai or polygon if they use also v3 farms would I be able to pool them?","",""
+"2021-06-23,13:37:20","nkennethk","#0","hey hey! i can poke around what do you need?","Kjetil Vaagen#4277",""
+"2021-06-23,13:37:44","nkennethk","#0","this is a great question! lets ask someone on the uniswap labs engineering team!","pomeeeelo#0",""
+"2021-06-23,13:38:30","nkennethk","#0","great idea, not sure how you would pool the assets like that. it could be virtualized similar to how 1inch does it or have cross assets","filipevenancio.eth#0",""
+"2021-06-23,14:56:12","filipevenancio.eth","#0","Only uniswap use V3 nft pools and it's not cross chain kinda hard to test","",""
+"2021-06-24,03:02:49","Kjetil Vaagen","#4277","What is the easiest way to calculate which tick a price belongs to?","",""
+"2021-06-24,03:08:14","Kjetil Vaagen","#4277","Would it just be log(price) with base 1.0001? Any implementation of this in solidity?","",""
+"2021-06-24,03:50:41","bor444","#0","<@!138712270539718656> can this help you? https://docs.uniswap.org/SDK/functions/tickToPrice","Kjetil Vaagen#4277",""
+"2021-06-24,04:09:39","Kjetil Vaagen","#4277","Awesome, I'll check it out!","",""
+"2021-06-24,04:32:52","Kjetil Vaagen","#4277","Do you know of any solidity examples?","",""
+"2021-06-24,23:23:20","nkennethk","#0","maybe <@!117737877722365958> could be helpful here?","Kjetil Vaagen#4277、omarish#2607",""
+"2021-06-25,01:41:34","filipevenancio.eth","#0","hey <@!420370295698751510>  is it possible to grab my LP v3 NFT token and sell it as an NFT to various people creating a pool from a pool?","nkennethk#0",""
+"2021-06-25,02:08:11","nkennethk","#0","yes you can sell your NFT but not sure how you can create a pool from a pool","filipevenancio.eth#0",""
+"2021-06-25,08:28:17","filipevenancio.eth","#0","Well it's not a ""pool"" but if multiple persons can own a piece of it. I could pool ETH-HNY and since it's an NFT create a protocol to lend/sell/borrow percentages of it.","nkennethk#0",""
+"2021-06-25,22:32:36","julius__seizure11","#0","<@!420370295698751510>   Hello! My team is working on an educational Hack for HackMoney, and we plan on including information about your protocol. We will be going to your Docs and doing our own research of course, but I wanted to reach out and ask if there were any main points that you would like mentioned? If so, please DM me with any information you would like to give, so that we can get the most accurate information for future DeFi users!","nkennethk#0",""
+"2021-06-26,14:27:56","se3jay","#0","What would be the math behind calculating an APY on a LP in uniswap v3?","",""
+"2021-06-26,21:40:02","nkennethk","#0","Good question! Can you tell me more about what specifically looking for?","julius__seizure11#0",""
+"2021-06-26,21:40:35","nkennethk","#0","Try defilab.xyz or crocofinance","se3jay#0",""
+"2021-06-27,01:32:11","professor","#0397","Hello, quick question, any help is greatly appreciated 
+
+Q: we want to block anyone else from adding liquidity, is this a solved problem? is it as easy as denying transactions to a specific contract? (the position manager?)","",""
+"2021-06-27,12:58:31","se3jay","#0","Thanks, I'm attempting to calculate the daily APY for specific pools based on the information that is available in the v3 subgraph. Is there a documentation page that explains the entities in the v3 subgraph similar to the one for v2 (https://uniswap.org/docs/v2/API/entities/) ?","nkennethk#0",""
+"2021-06-27,16:50:52","julius__seizure11","#0","Yes! We’re developing an app that will have different learning “pathways” for both users and developers. For users, we hope to educate them on the benefits and how to use different defi protocols, and for developers to help them learn how to build on top of protocols!","nkennethk#0",""
+"2021-06-28,00:20:00","professor","#0397","<@!420370295698751510> <@!730463593711140956> any insights appreciated, thanks","bor444#0、nkennethk#0",""
+"2021-06-28,02:28:10","bor444","#0","<@!829822992212295711> you can't do that ... you'd have to implement that on token level","professor#0397",""
+"2021-06-28,02:29:25","bor444","#0","<@!430504266633838602> maybe this helps: https://github.com/Uniswap/uniswap-v3-subgraph/blob/main/schema.graphql","se3jay#0",""
+"2021-06-28,02:31:06","bor444","#0","<@!697174777181241416> I think Hayden explains best core values of Uniswap ... maybe listen to this podcast: https://www.youtube.com/watch?v=uQS7WuQtXWs&t=261s","julius__seizure11#0",""
+"2021-06-28,02:34:16","bor444","#0","<@!694274491819491389> I see it as depositing NFT to a contract and issuing ERC-20 back which is then proof of ownership of part of NFT .... not sure what that ownership would give to user (maybe he'd be entitled to percentage of fees earned)","filipevenancio.eth#0",""
+"2021-06-28,05:23:05","professor","#0397","I was talking about doing it at the token level for our token, we have a couple reliable methods for v2 but we didnt touch v3 till after hackathon started, been a scramble to learn everything, but its felt like a real hackathon even though remote, its all like, special feeling and stuff, happy times all around ... 
+
+can you point me to any code that does this already?  or any tips on what would be the easiest concept to build 
+
+goal... 
+- we set the contract that will control all liquidity NFTs
+- no one else will be able to add liquidity to the token","bor444#0",""
+"2021-06-28,05:54:21","bor444","#0","<@!829822992212295711> hmmm I am not expert in Solidity but for hackathon I'd probably go with some kind of whitelist on who can add liquidity + I believe adding liquidity is done through https://etherscan.io/address/0xc36442b4a4522e871399cd717abdd847ab11fe88 so you can identify such action. Correct me please if I am wrong.","professor#0397",""
+"2021-06-28,05:55:57","bor444","#0","it will be ugly because UNiswap v3 is not built with that intent but it will resolve it","",""
+"2021-06-28,06:18:37","professor","#0397","thanks i think we can just do a quick check on transfers...  im currently still blocked on a better understanding of this process... 
+
+i have a rough price i want to start the market at
+i want to initialize the pool at the exact tick boundary
+
+maybe another way to say it.... im having trouble with pool init price precision .... i want to calculate the exact tick boundary + corresponding price based on an estimate of what i want it to cost","",""
+"2021-06-28,06:58:23","bor444","#0","I don't understand what ""cost"" we are discussing","",""
+"2021-06-28,07:04:37","bor444","#0","maybe this source code can help you out https://github.com/Uniswap/uniswap-v3-core/blob/b2c5555d696428c40c4b236069b3528b2317f3c1/contracts/UniswapV3Factory.sol#L35","",""
+"2021-06-28,07:09:01","bor444","#0","and then here you can see initialization of pool and how it is done: https://github.com/Uniswap/uniswap-v3-core/blob/b2c5555d696428c40c4b236069b3528b2317f3c1/contracts/UniswapV3Pool.sol#L271","",""
+"2021-06-28,07:10:36","bor444","#0","and in this contract is all math related to ticks: https://github.com/Uniswap/uniswap-v3-core/blob/main/contracts/libraries/TickMath.sol","",""
+"2021-06-28,09:31:53","professor","#0397","my issue is calculating the parameters to properly call the initialize function, is there ever devs around this chennel?","bor444#0",""
+"2021-06-28,09:34:59","nkennethk","#0","unfortunately we're not the core maintainers of uniswap code but the easiest is actually asking directly in the uniswap discord to get the uniswap devs","professor#0397",""
+"2021-06-28,09:37:15","professor","#0397","kinda hilarious to sponsor a hackathon for your new protocol and not have dev support lol... crypto be crazy i get it more than most lol","",""
+"2021-06-28,09:38:58","nkennethk","#0","we're actually sponsoring as the uni grants program and not uniswap labs","professor#0397",""
+"2021-06-28,09:39:08","nkennethk","#0","we're two different teams, but i definitely understand your frustration!","",""
+"2021-06-28,09:39:18","nkennethk","#0","ill try to get someone from uniswap to jump in!","",""
+"2021-06-28,09:42:59","professor","#0397","nah its the opposite, this makes it better lol. not even the mighty uni is immune to the chaos of crypto","nkennethk#0",""
+"2021-06-28,09:43:41","professor","#0397","this would be super cool, ill try to watch this chat .... few things i could likely confidently resolve pretty quickly","nkennethk#0",""
+"2021-06-28,11:10:05","smsunarto","#0","heiya, jumping in here to try to help.","professor#0397",""
+"2021-06-28,11:10:12","smsunarto","#0","are you referring to this initialize function? https://github.com/Uniswap/uniswap-v3-core/blob/b2c5555d696428c40c4b236069b3528b2317f3c1/contracts/UniswapV3Pool.sol#L271","",""
+"2021-06-28,11:41:25","smsunarto","#0","If you are looking for a way to get sqrtPriceX96, there's a helper function that can help you with that: https://github.com/Uniswap/uniswap-v3-periphery/blob/main/test/shared/encodePriceSqrt.ts
+
+It takes in the token amount ratio: https://github.com/Uniswap/uniswap-v3-periphery/blob/main/test/shared/encodePriceSqrt.ts","",""
+"2021-06-28,12:04:43","professor","#0397","any sol examples?","",""
+"2021-06-28,12:05:24","professor","#0397","converting price --> x96price","",""
+"2021-06-28,12:07:28","professor","#0397","hmm maybe im stuck down the wrong rabit hole again.. lemme assess exact current blocker ... lots of stuff is coming together","",""
+"2021-06-28,12:24:57","professor","#0397","ok so im going with the ""flurry of questions while you have the chance"" method. all questions are contract / solidity focused, 
+
+multi part one to start.
+p1. if i remove all liquidity from a uni pool then put it back in a different tick, do i have to move the price to the new spot between the remove liq and add liq functions?
+p2 when i move the liq i have amountA, amountB, and a higher tick, how do it (in solidity) calculate the price point within the higher tick so all of tokenA and tokenB are in a concentrated position within that tick
+p3 this needs to happen in a zero parameter function, just conditional.... it does collect(fees)-> decreaseLiquidity-> collect(all liquidity) -> mint in higher tick - >
+
+can i control what token is token0 and token1 in the pool? i want to avoid dealing with zeroForOne stuff my liquidty contract is messy enough already
+
+i want to value 1 wbtc at 35000 usdc, how do i know what tick represents that value(or close to it) - if the answer is ""that math is crazy just use the helper function or trial and error on test net"" thats understandable honestly cuz that math is crazy","",""
+"2021-06-28,12:37:02","professor","#0397","any insights on these ones .... mostly looking to do these things within a contract","smsunarto#0",""
+"2021-06-28,12:39:57","smsunarto","#0","p1. no. the next time somebody tries to run swap, it will automatically chase the liquidity.
+p2. to clarify, i assume by higher tick you mean higher tick range? positions are defined between tickLower and tickUpper. 
+
+if you want it to be super concentrated, you can just calculate what tick approximates to a sqrtPriceX96 here https://github.com/Uniswap/uniswap-v3-core/blob/main/contracts/libraries/TickMath.sol, use that as tickLower then increment 1 from that to get the the tickUpper
+
+p3. not sure why you want to decrease liquidity before collecting all liquidity but this looks feasible.","",""
+"2021-06-28,12:41:33","smsunarto","#0","> can i control what token is token0 and token1 in the pool? i want to avoid dealing with zeroForOne stuff my liquidty contract is messy enough already
+
+no, token0 is always the ERC20 contract address that is less than token1.","",""
+"2021-06-28,12:42:40","smsunarto","#0","> 
+> i want to value 1 wbtc at 35000 usdc, how do i know what tick represents that value(or close to it) - if the answer is ""that math is crazy just use the helper function or trial and error on test net"" thats understandable honestly cuz that math is crazy
+
+You need to encode the ratio to sqrtRatioX96 first, the math for this is pretty simple and linked previously here: https://github.com/Uniswap/uniswap-v3-periphery/blob/main/test/shared/encodePriceSqrt.ts
+
+basically sqrt(reserve1/reserve0) * 2^96
+
+After that, use the TickMath.sol library to get the specific tick","",""
+"2021-06-28,12:47:17","smsunarto","#0","one of these days i should write these snippets to help out during hackathons; definitely feel the confusion too when i was just getting started 😅","",""
+"2021-06-28,12:48:28","professor","#0397","p1. when we add the liq back in it will be both sides .. does that matter that the pool still thnks price is in old place?
+
+p2. all the liquidity will go in a single tick... 1 sided liquidity on deployment... but as the token amounts in the active tick will change with market activity  ... when we put it in a higher tick range we still want all liquidity concentrated within the 1 tick. between lower and upper. 
+--- within whatever range i have my liquidity in do the amounts just work like univ2?
+
+p3. not sure why you want to decrease liquidity before collecting all liquidity but this looks feasible.
+likely doing it incorrectly ... we want to collect the fees to dev address, then remove all liquidity and add it back a few ticks higher
+--- can i just call collect() with max to get all the liquidity out, then split off the fees mysekf?","smsunarto#0",""
+"2021-06-28,12:49:27","professor","#0397","yeah but at any rate this forced me to really dig in, long over due","smsunarto#0",""
+"2021-06-28,12:52:04","professor","#0397",">if you want it to be super concentrated, you can just calculate what tick approximates to a sqrtPriceX96 here https://github.com/Uniswap/uniswap-v3-core/blob/main/contracts/libraries/TickMath.sol, use that as tickLower then increment 1 from that to get the the tickUpper
+
+using this now but i really really want the contract to take take 2 tokens and let the price determine everythign else... going from price -> tick the first time has been the hard part","",""
+"2021-06-28,12:53:41","smsunarto","#0","p1. it's fine, unless you rely on the current price data.
+p2. yes, it's like univ2
+p3. this is more of a design choice, either way should work then. what i would rather do is just withdraw liquidity in one go and split accordingly between dev and user from your contract. this way, you dont have a lot of external fn call. exactly like what you said.","professor#0397",""
+"2021-06-28,12:54:14","professor","#0397","sqrt(reserve1/reserve0) * 2^96 ---> tickmath.sol = path to a function that does prices of 2 tokens -> expected tick","smsunarto#0",""
+"2021-06-28,12:55:52","professor","#0397","so once we init the price ... as we move liquidity around to different ranges... it will always just pack itself within the range, and the price will be determined upon the next trades based on the reserves?
+this is super critical... looking for a bool","smsunarto#0",""
+"2021-06-28,12:56:06","smsunarto","#0","that's correct","professor#0397",""
+"2021-06-28,12:56:27","professor","#0397","thats a huuuuuge win","smsunarto#0",""
+"2021-06-28,12:58:42","professor","#0397","TLDR ...i want to calculate the price for various shitcoin / shitcoin pairs from within the contract","",""
+"2021-06-28,12:59:22","smsunarto","#0","yes.","",""
+"2021-06-28,12:59:27","smsunarto","#0","that flow is correct","",""
+"2021-06-28,13:00:38","smsunarto","#0","just for clarity, reserve1 = # of token1","",""
+"2021-06-28,13:00:38","professor","#0397","ok i think im actually set ... might ping you in a few hours, but i feel testing time may soon be upon us","",""
+"2021-06-28,13:01:06","professor","#0397","yeah and we need to juggle around and check 1 or 0 within the liquidity controlling contract right ?","",""
+"2021-06-28,13:01:53","professor","#0397","because its just in addresses order or something 0x0, 0x1, 0x2... correct?","",""
+"2021-06-28,13:02:51","smsunarto","#0","correct what i do usually is smth like
+
+`address token0 = tokenA < tokenB ? tokenA : tokenB`","professor#0397",""
+"2021-06-28,13:04:12","professor","#0397","were currently doing about the same,","",""
+"2021-06-28,13:04:18","smsunarto","#0","sg sg","",""
+"2021-06-28,13:04:49","professor","#0397","ok everyone i need to go now, iev got big plans .... im going to HACK MONEY!!!!!!! ... get it ? ...","",""
+"2021-06-28,13:05:16","smsunarto","#0","lfg  🚀 lol","",""
+"2021-06-28,13:05:29","smsunarto","#0","going to be afk, but just gimme a ping if u need any help","",""
+"2021-06-28,13:12:02","professor","#0397","actually last one... how can our contract check collected fees so it knows how much to split off during liquidity movements.","smsunarto#0",""
+"2021-06-28,13:14:36","smsunarto","#0","the collect fn returns amount collected (amount0, amount1)","",""
+"2021-06-28,13:14:37","smsunarto","#0","https://github.com/Uniswap/uniswap-v3-periphery/blob/main/contracts/NonfungiblePositionManager.sol#L309","",""
+"2021-06-28,13:17:12","smsunarto","#0","this might be v2? in v3, you dont actually need to burn most of the times.","",""
+"2021-06-28,13:17:16","professor","#0397","awesome thanks ... i need to reference before i go from memory","",""
+"2021-06-28,13:17:37","professor","#0397","some random other place in univ3 somewhere .. its been a long night lol","",""
+"2021-06-28,13:17:52","smsunarto","#0","ah ok, totally get it lol","professor#0397",""
+"2021-06-28,13:18:04","professor","#0397","this is the way","",""
+"2021-06-28,13:51:48","mr_rogers","#7821","Hi UNI Grants team and all! We're having a go at a new kind of AMM that tries to minimize loss from IL & slippage and also provide an accurate price oracle. It sounds like a competitor to Uniswap but in fact it needs a second DEX like Uniswap to work (for arbitraging).
+
+Just looking for feedback if there's a market for this, or any feature in Uniswap we should look at integrating with. Here's our deck: https://bit.ly/nostraswap-hm2021","",""
+"2021-06-28,15:45:20","bor444","#0","<@!539843721534111744> using several price oracles is always more secure than relying on single one. As for how IL is lower by using your product I didn't understand from the PPT","mr_rogers#7821",""
+"2021-06-29,06:21:25","Deleted User","#0000","Hello Uni peeps, we are working on redistributing liquidity from v2 lp tokens so as to give users more focused returns ala uni v3 with a MITM vault. Would it be possible to discuss with someone to cut through the fog? We already have a solution, but we are stuck on how to manitain certain requirements","",""
+"2021-06-29,07:37:55","kamilchels","#5658","Hello Uni team, In our reporting tool (ex. https://smart.snn-dev.com/#/dashboard/swap_preview?id=7d231f26-c2e0-5f16-5547-f87f28300b08) we would like to build Uniswap v3 analytics for Liquidity Providers. The idea is to estimate expected Fees based on expected volume and LP price range (the bigger the range, the smaller the fees). To do this, we need to know, how much liquidity is available on what tick to calculate the theoretical share of the given LP in the selected range. We are not able to figure out how to get data about available liquidity on particular ticks. (ex. should we use tick function? if yes, how to understand liquidityGross number - ie. how to get liquidity of token0 and token1 ?). Can you advise, where to look?","",""
+"2021-06-29,10:25:09","smsunarto","#0","If you are looking to get the # of fees collected at specifics tick, you can use the subraph: https://thegraph.com/explorer/subgraph/ianlapham/uniswap-v3-prod?selected=playground
+
+tick.collectedFeesToken0 and tick.collectedFeesToken1 is what you are looking for","",""
+"2021-06-29,10:26:11","smsunarto","#0","you can also get liquidityNet or liquidityGross here. these liquidity is tick specific.","",""
+"2021-06-29,10:28:06","smsunarto","#0","Excerpt from v3 whitepaper w/r/t liquidityNet vs liquidityGross","","https://cdn.discordapp.com/attachments/819516506445840395/859440093508141136/unknown.png"
+"2021-06-29,10:28:12","smsunarto","#0","lmk if this answers your q","",""
+"2021-06-29,11:10:18","mr_rogers","#7821","It's kind of indirect IL compensation. We're thinking it could be possible to make an arbitrage swap with another DEX in the same transaction as the original swap and use that arbitrage profit to cover the IL loss?","bor444#0",""
+"2021-06-29,12:07:36","oxmarco","#0","Is Uniswap v3 a work in progress?","",""
+"2021-06-29,13:25:51","smsunarto","#0","No, it's already launched.","oxmarco#0",""
+"2021-06-29,15:03:21","bor444","#0","<@!539843721534111744> IL happens when ratio between assets changes in comparison to when liquidity was provided. I don't think price can significantly move within same transaction for this to make sense. Or am I missing something?","mr_rogers#7821",""
+"2021-06-29,16:23:45","gripep","#0","Hello Uni peeps, we are working on redistributing liquidity from v2 lp tokens so as to give users more focused returns ala uni v3 with a MITM vault. Would it be possible to discuss with someone to cut through the fog? We already have a solution, but we are stuck on how to manitain certain requirements","",""
+"2021-06-29,18:08:14","bor444","#0","<@!380129822287986689> can you please post concrete questions here and we'll give our best to help out","gripep#0",""
+"2021-06-30,09:21:58","squanchy9073","#0","hi, i'm stuck on a certain uniswap function.","",""
+"2021-06-30,09:22:04","squanchy9073","#0","when calling","",""
+"2021-06-30,09:22:09","squanchy9073","#0","`uint[] memory amounts = IUniswapV2Router02(_uniswapRouter).swapExactTokensForTokens(
+            amount,
+            0,
+            path,
+            to,
+            deadline
+        );`","",""
+"2021-06-30,09:22:13","squanchy9073","#0","i am getting the following error","",""
+"2021-06-30,09:22:27","squanchy9073","#0","`  Error: Transaction reverted without a reason string`","",""
+"2021-06-30,09:22:31","squanchy9073","#0","this is via a smart contract","",""
+"2021-06-30,09:22:37","squanchy9073","#0","has anyone experienced anything similar?","",""
+"2021-06-30,09:22:46","squanchy9073","#0","the error is not very helpful 😅","",""
+"2021-06-30,09:36:04","bor444","#0","did you do approvals <@!570403484004909056> ?","squanchy9073#0",""
+"2021-06-30,09:36:32","squanchy9073","#0","yep prior to this is this line","",""
+"2021-06-30,09:36:36","squanchy9073","#0","`inputToken.safeIncreaseAllowance(address(_uniswapRouter), amount);`","",""
+"2021-06-30,09:36:44","squanchy9073","#0","i think this is an approval?","",""
+"2021-06-30,09:48:43","squanchy9073","#0","this may or may not be the issue but just to confirm - i am testing against the kovan network and am using` _uniswapRouter = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'`","",""
+"2021-06-30,09:48:48","squanchy9073","#0","is this correct?","",""
+"2021-06-30,10:50:10","bor444","#0","router address is same on all networks","",""
+"2021-06-30,10:50:52","bor444","#0","yep that is v2 router","",""
+"2021-06-30,11:12:38","0xgidone","#0","Hi Uniswap team! Could you explain what is the meaning of ""tickLower"" and ""tickUpper"" when minting?","",""
+"2021-06-30,12:26:57","smsunarto","#0","Uniswap V3 liquidity positions are concentrated between tickLower and tickUpper. You can learn more on Uniswap V3 concentrated positions here: https://uniswap.org/blog/uniswap-v3/","0xgidone#0",""
+"2021-06-30,22:36:36","squanchy9073","#0","okay thanks for the confirmation. do you have any idea what may be going on in the error above?","bor444#0",""
+"2021-07-01,07:44:32","Kjetil Vaagen","#4277","Hey all! So I have created a LP in the range (lowerTick=52980, higherTick=57040) with 250 token A and 250 token B, but when I fetch ticker information from the pool, I only see liquidity at the ends of the range (i.e tick 52980 and tick 57040) and not inbetween, is this how it’s supposed to be? If so, how does the curve for this LP look like?","",""
+"2021-07-01,08:47:49","luciobosquewontpmfirst","#0","Hi guys,  I am trying to run the following code on Kovan
+`        address[] memory path = new address[](2);
+        path[0] = uniswapRouter.WETH();
+        path[1] = usdcKovan;
+
+        uint[] memory amounts = uniswapRouter.swapExactETHForTokens{ value: msg.value }(0, path, address(this), block.timestamp + 10);`
+But when using the real USDC address (for the usdcKovan) on Kovan 0xe22da380ee6B445bb8273C81944ADEB6E8450422 it failed ... when I change it to Dai address 0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa it works.
+What might be the problem??","",""
+"2021-07-01,10:14:46","bor444","#0","<@!730237481051750511> do you have example of transaction that faileD?","luciobosquewontpmfirst#0",""
+"2021-07-01,10:14:59","bor444","#0","https://uniswap.org/docs/v2/smart-contracts/common-errors/","",""
+"2021-07-01,10:23:10","luciobosquewontpmfirst","#0","This one fails using the USDC address-https://kovan.etherscan.io/tx/0x6bf1ce9311e9a6419352a52def02a074a285a5defd904cf2eb3e36a13c156bed","bor444#0",""
+"2021-07-01,10:25:54","luciobosquewontpmfirst","#0","And this one succeed with the same parameters just changing the address to Dai https://kovan.etherscan.io/tx/0xd1d11870bb7e485b5523819f57a66cc7f1acf40dd888d20dbb2df3ba40c72e9b","",""
+"2021-07-01,10:35:33","bor444","#0","did you approve USDC?","",""
+"2021-07-01,10:38:52","luciobosquewontpmfirst","#0","The contract receive ETH and with it swap to USDC .. so no need to approve it ... I didn't approve Dai and it work.","bor444#0",""
+"2021-07-01,10:39:33","bor444","#0","That is true sorry. Well, this error usually means slippage is insufficient but I see you use 0 as min amount","",""
+"2021-07-01,10:40:39","luciobosquewontpmfirst","#0","Exactly .. I just wanted to try the basics here before diving deeper ..","",""
+"2021-07-01,10:44:23","luciobosquewontpmfirst","#0","BTW the doing it on Remix it can tell me the transaction will fail before I even execute","",""
+"2021-07-01,10:49:16","luciobosquewontpmfirst","#0","I have just deployed 2 contracts 0x02B8a4c0aF79FDEF007995Eac885a06B9ced4e32 (with USDC address) 
+0xF0c7f775F63a0050a9471ce9A20FA6b670B0b1eD(with Dai address)
+That's the only diffrence between them .. for the USDC address Remix knows ahead the transaction will fail ( which it will when execute ) . and for the second he knows it will pass ( which again happens ). 
+Is it related that on https://kovan-uniswap.netlify.app/swap .. the USDC should be added be user and the Dai is there by default?","",""
+"2021-07-01,13:22:16","oxmarco","#0","Hello, is there an inferior limit (minimum amount of tokens) for a swap?","",""
+"2021-07-02,04:13:11","0x_miracle","#0","嘿","",""
+"2021-07-03,11:35:41","smsunarto","#0","No minimum","oxmarco#0",""
+"2021-07-04,17:42:50","plinxor","#0","Does anybody can help on how to encode path for UniswapV3 protocol?
+I use:
+`bytes memory path = abi.encode(address(token1_), pool_.fee, address(token0_));`
+
+And it doesn't seem to work. Am I missing something?","",""
+"2021-07-04,17:43:41","kartik","#0","cc <@!479875014397657113>","smsunarto#0",""
+"2021-07-05,13:16:30","smsunarto","#0","try
+
+```
+abi.encodePacked(params.tokenIn, params.fee, params.tokenOut)
+```","plinxor#0",""
+"2021-07-05,13:16:43","smsunarto","#0","change the params accordingly to your variables","",""
+"2021-07-05,14:32:27","plinxor","#0","I tried both: `abi.encode(...)` and `abi.encodePacked(...)`
+If arguments are valid and there arrangement too, then there is something with my code.
+
+Actually, I used workaround as `ExactInputSingle`, but still curious, why it didn't work...","smsunarto#0",""
+"2021-07-05,14:53:56","smsunarto","#0","Will need some more context, do you have the code somewhere?","",""
+"2021-07-05,14:54:33","smsunarto","#0","what's the revert error?","",""
+"2021-07-05,15:02:56","smsunarto","#0","Also some swap examples here that might be useful <@!672036834725068810> https://github.com/Uniswap/uniswap-v3-periphery/pull/161/files","plinxor#0",""
+"2021-07-06,09:32:23","plinxor","#0","Thank you. I didn't see examples 🙂","smsunarto#0",""
+"2021-07-09,00:50:57","mr_rogers","#7821","Hi UGP team! We have an idea that we're working on outside this hackathon. We'll be applying for the UGP but just wondering if we can get a quick initial feedback. What's the best way to reach out after this hackathon?","",""
+"2021-07-09,12:31:34","Catherine","#6155","<@!479875014397657113>","mr_rogers#7821、smsunarto#0",""
+"2021-07-14,13:17:50","wagmiwiz","#0","Hey all! Is there a way to calculate what slippage and fees were for a transaction in the past on Uni v3? For example, could I use the Swap event that was emitted by Uni v3 and plug it into some calculator/quoter?","",""
+"2021-08-25,11:27:33","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/880111164552540220/unknown.png"
+"2021-09-08,09:44:40","emilyhobbs","#0","Hello and welcome to the <#819516506445840395> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!420370295698751510> <@!730463593711140956>","bor444#0、nkennethk#0",""
+"2021-09-09,15:11:08","escav","#0","Hi is there anyone that can help me with TWAP oracles is it only used for some specific tokens or any token of made a pair?","",""
+"2021-09-09,15:11:25","escav","#0","Like if I wanted to have fractional nft pairs then how can I get its worth","",""
+"2021-09-09,15:11:52","escav","#0","<@420370295698751510> <@730463593711140956>","bor444#0、nkennethk#0",""
+"2021-09-09,15:12:07","escav","#0","😓 if you could answer me that'll be awesome","",""
+"2021-09-09,15:45:56","bor444","#0","<@!666241992463745027> does this help: https://github.com/Uniswap/uniswap-docs/blob/3c2bb938e15fb8eecfc15482d8a5edd3608ecd40/versioned_docs/version-V3/reference/core/libraries/Oracle.md?","escav#0",""
+"2021-09-10,17:20:37","escav","#0","i would understand that ur TWAP oracles would work for ERC20 pairs right?","bor444#0",""
+"2021-09-13,02:31:57","bor444","#0","as far as docs say every pool supports it and TWAP can be initialized on a pool","",""
+"2021-09-14,10:00:42","xbalbinus","#0","Hey <@&872824077478420501>  <a:animated_waveBOYE:534848391944077333> 
+
+Uni Grants: Polywrap - a next-gen SDK for Uniswap happpening now!
+
+Join us here: https://ethglobal.zoom.us/j/82634551485","",""
+"2021-09-15,13:18:31","bor444","#0","Hey guys. Projects you can use for the ""UGP Battle Testing"" category can be found here (scroll to ETHOnline section):
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5","",""
+"2021-09-15,14:28:55","tunde.eth","#0","Hi all, please where can we find the recording of the session?... thanks for your help","",""
+"2021-09-15,14:58:25","emilyhobbs","#0","https://www.youtube.com/watch?v=uGctiCNrt0I&ab_channel=ETHGlobal","tunde.eth#0",""
+"2021-09-15,14:59:01","tunde.eth","#0","Thanks <@682637756274442245>","emilyhobbs#0",""
+"2021-09-16,09:17:34","sepyke","#0","thankyou ser","bor444#0",""
+"2021-09-17,07:12:24","Luca | 🇪🇳🇸.eth","#3285","Heyo everyone!
+
+I'm trying to reach protocols which are present in the Dapp's architecture to see what feedback different they will provide.
+
+Bob receives his salary of $10,000 in ETH every month. He believes in ETH, thinks it'll surpass $10,000 by the end of 2021, so every time he has to sell portion of his ETH, he gets sad. Introducing - Super Wallet. Super Wallet is built with Superfluid. Allowing users to manage their income in great detail. So, how can Super Wallet help Bob? Well, all Bob has to do is demand his salary to be paid in ETHx via Superfluid and set up few parameters. In this case, Bob wants to sell 30% of his income every month and HODL the rest. He simply tells Super wallet the following - Take 100% of my salary ($10,000 in ETH) and deposit it to Aave/Compound. Then, borrow $3,000 and send that to my wallet. Now, every time Bob's salary is due, he gets $3,000 (30% of his salary) in ETH (or whichever token he wishes to borrow) and rest is open as a long position on ETH. Few months pass by & ETH has appreciated in price. Bob can repay the debt to Aave/Compound via Super Wallet with his next salary & receive the rest of the ETH in his wallet.
+We can expand this functionality to various protocols. Paid in ERC20 tokens? Have Super Wallet swap X% amount of it for another token, like a stablecoin. Want to go long? Deposit your income into a lending protocol & borrow. Want to save X amount of $ from your income aka create a savings account? No problem. Super Wallet can help with that.
+
+Excited to see what will be built & looking forward to feedback👍","",""
+"2021-09-19,01:50:21","kite","#0824","Hi can I ask technical question here to uniswap mentor?","",""
+"2021-09-19,16:00:28","jacobw","#0","Yes <@!468774253290979328>!","kite#0824",""
+"2021-09-20,05:15:00","bor444","#0","<@!788330166380134410> is Uniswap used anywhere in this project?","Luca | 🇪🇳🇸.eth#3285",""
+"2021-09-20,05:47:49","sianjon","#0","Hello Uniswap Team, our team is looking at building a cross-exchange flashloan arbitrage bot. We are building it with the intention of wanting to understand how  flash loans work and potentially use it as a force of good. We are in the process of understanding how flashloans work. From my stand as the project owner, looking at potential problems to work on. I saw the collaboration that you guys are doing with flashbots and was hoping to get more info about it. Is there someone from the UGP team I could speak with? Thanks!","",""
+"2021-09-20,05:49:14","Luca | 🇪🇳🇸.eth","#3285","Yes! Users will have the ability to swap incoming streaming ETH/ERC20 tokens into something else, like a stablecoin using Uniswap.","bor444#0",""
+"2021-09-21,03:34:22","hack3r_0m","#0","hi uniswap dev team, why oracle prices are crazy on testnet? i am not able to proceed because of it https://rinkeby.etherscan.io/address/0xe456B4506d92A1EC61275bD37801150E543D2693#readContract","",""
+"2021-09-26,12:45:27","xoheb","#0","building a batching system to club multiple swaps in one
+need help with ecrecover function to execute multiple permit implementations in a loop","",""
+"2021-09-26,12:47:55","xoheb","#0","I can help you with the accounting system for that that's more efficient than using the pool dilution or (ibToken) system...
+use a custom compounding checkpoint accounting system","Luca | 🇪🇳🇸.eth#3285",""
+"2021-09-26,12:48:38","xoheb","#0","also, my contract that enables multiple swaps in a single transaction might be of great help to you in this","",""
+"2021-09-27,00:23:43","sianjon","#0","Under Open Source trading bots under bounties & prizes on your getting started guide, could you elaborate on what it means by naive v3<-> v2 arb bots? Thanks. https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5","",""
+"2021-09-27,12:34:10","marcotor","#0","Hi,
+I'm trying to create a smart contract performing a swap between to ERC20: is there a public solidity example using router v3?","",""
+"2021-09-29,12:45:18","shadowyedd","#0","Hi <@!730463593711140956> , I'm writing UniV3 oracle contract and I'm using https://github.com/Uniswap/v3-periphery/blob/main/contracts/libraries/OracleLibrary.sol library. However, I just cannot compile this properly. This contract imports other contracts that require solidity version from 0.4 to 0.7 and hardhat is not able to compile this without errors. The biggest issues I'm having with this library https://github.com/Uniswap/v3-core/blob/main/contracts/libraries/FullMath.sol I'm having all kinds of errors, depending on solidity version I'm trying. For example 0.4.24 results with this issue:
+```
+@uniswap/v3-core/contracts/libraries/FullMath.sol:120:30: ParserError: Expected primary expression.
+            require(result < type(uint256).max);
+                             ^--^
+
+Error HH600: Compilation failed
+```
+Can you tell me which version of solidity should I use or perhaps point me to some workaround?","bor444#0",""
+"2021-09-29,17:49:39","shadowyedd","#0","I solved it by forcing 0.7.6 solidity version on all uniswap contracts","",""
+"2021-09-30,12:05:09","escav","#0","sorry for the late reply thnx","bor444#0",""
+"2021-10-01,10:01:12","markcarey","#0","I am looking for a tutorial to help me, but having trouble finding one. _From a smart contact_, I am looking to take ETH and swap for DAI. In the `v2` docs, I read amount the importance of using a price oracle to set the minimum number of DAI. Chainlink would be one option here, it seems, among others. Looking for a simple example, of a solidity function swapping ETH for an ERC20 (like DAI) utilizing an oracle to ensure a fair price, etc.","",""
+"2021-10-02,09:07:47","markcarey","#0","<@!730463593711140956> any pointers / examples? 😉","bor444#0",""
+"2021-10-03,02:18:52","chimeradefi","#0","is there a list of current UGP projects? cc <@!730463593711140956>","bor444#0",""
+"2021-10-03,02:25:28","chimeradefi","#0","nvm found it here https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5","",""
+"2021-10-03,12:30:59","chimeradefi","#0","Hey, I was thinking of writing an ERC20 adapter for Uniswap v3 pools. 
+
+I.e. 
+Given an NFT, the adapter contract would mint an ERC20 token for the user. Could be based on `secondsPerLiquidityInsideX128`
+**Benefit**: This would allow protocols to continue using their ERC20 based SNX/masterchef rewards geysers while utilising uniswap v3 pools e.g. for rug protection or like-wise e.g. stables, mimicing a stabeswap for cheap. 
+As `secondsPerLiquidityInsideX128` increases over time, it would be up to the user to call `mint` on the adapter to accrue more of the ERC20 over time depending on a PnL analysis. 
+The adapter would lock up and store the NFT, and return it to the user when the minted ERC20 tokens are returned and burnt. 
+Basing most of it on the UniswapV3Staker. 
+
+Is this something that uniswap would find useful? 
+Is it UGP worthy? Or is it already a WIP somewhere? 
+<@!730463593711140956> <@!420370295698751510>","bor444#0、nkennethk#0",""
+"2021-10-04,06:12:43","bor444","#0","<@!756522093662830673> it is a solid use case ... there are some other projects working on it (eg. https://medium.com/gelato-network/introducing-g-uni-lp-like-a-pro-in-uniswap-v3-8fd6fdf9fc35) .... however it is good use case for this hackathon to do your version of it 👍","chimeradefi#0",""
+"2021-10-04,08:00:55","chimeradefi","#0","Interesting! Thank you ser!","bor444#0",""
+"2021-10-05,06:02:49","MikeBroco","#3365","Hello to the organizers! To qualify for the prize money, we need to complete some specific tasks or complete freedom is provided ?!","",""
+"2021-10-05,06:14:04","emilyhobbs","#0","Hey! Are you asking what would qualify you for a uniswap grants prize or are you asking how you indicate your project is applying for the prize?","MikeBroco#3365",""
+"2021-10-05,06:50:30","MikeBroco","#3365","Hey Emily! Thank you for your hard work! Yes, I would like to know what implementations with uniswap would be interesting to see for sponsors and organizers?","emilyhobbs#0",""
+"2021-10-05,06:55:41","emilyhobbs","#0","Okay thanks for clarification 🙂
+
+will cc <@!730463593711140956> to jump in here 🙂","bor444#0、MikeBroco#3365",""
+"2021-10-05,06:57:36","MikeBroco","#3365","🙏","emilyhobbs#0",""
+"2021-10-05,08:12:11","MikeBroco","#3365","Need a consultation - there are several questions!","",""
+"2021-10-06,04:52:11","Luca | 🇪🇳🇸.eth","#3285","I imported contract into Scaffold-eth and still confused as to how I can have the contract do a swap on Uniswap. Do I create a function with Uni SDK which takes funds from contract and swaps or do I hard-code the swap function into smart contract? I tried latter but contract becomes too big.","",""
+"2021-10-06,23:04:14","devtooligan","#0","Does anyone have any Rinkeby eth they could spare?  We've been planning on using Ropsten all week and accumulating Ropsten eth but now we have to switch to Rinkeby. 😩  We could also trade you for Ropsten eth or Kovan eth.  
+
+Our address:  0xE7aa7AF667016837733F3CA3809bdE04697730eF 🙏 🙏 🙏","",""
+"2021-10-07,02:50:40","yj_alt","#0","You mean you imported your own contract, which you want to use/get to interact with Uniswap contract to execute a swap there?","Luca | 🇪🇳🇸.eth#3285",""
+"2021-10-07,02:52:31","Luca | 🇪🇳🇸.eth","#3285","The Dapp holds user's assets and I'd like it to take the funds from the contract, not the owner of the contract or caller of the function and does the ""swap""","yj_alt#0",""
+"2021-10-07,02:57:24","yj_alt","#0","Does the docs example help?
+https://docs.uniswap.org/protocol/guides/swaps/single-swaps","Luca | 🇪🇳🇸.eth#3285",""
+"2021-10-07,04:31:33","Luca | 🇪🇳🇸.eth","#3285","Entered NFT position's ID, gives 0x00000. What uint is it expecting?","","https://cdn.discordapp.com/attachments/819516506445840395/895589153792753684/unknown.png"
+"2021-10-07,04:35:23","yj_alt","#0","https://docs.uniswap.org/protocol/reference/core/interfaces/IUniswapV3Factory#getpool","",""
+"2021-10-07,04:36:12","Luca | 🇪🇳🇸.eth","#3285","Thanks!","yj_alt#0",""
+"2021-10-07,04:38:30","yj_alt","#0","example: eth-usdc 0.3% pool","","https://cdn.discordapp.com/attachments/819516506445840395/895590902263861288/unknown.png"
+"2021-10-11,08:25:16","chimeradefi","#0","Got a PoC uniV3 NFT to ERC20 contract written. 
+The g-uni contracts use a `uniswapV3MintCallback` so it only works with g-uni wrapped pools. 
+But this should allow users to create ERC20s from non-g-uni pools. 
+And use the ERC20 for farming contracts that are already deployed/audited/capital infused. 
+https://github.com/chimera-defi/UniV3NFTERC20Mapper
+Deployed the new one on rinkeby but havent had a chance to play around with it yet
+https://rinkeby.etherscan.io/address/0x706B8856e0e081c29e3Ba5c8bAA7D72D8E1d7CcC
+Old one with some bugs and manual prodding https://rinkeby.etherscan.io/address/0x07f2a0cec0d3e15ef607cf7ac309057d38fad7a5#writeContract
+
+All under the sharedtools project for this hackathon, but hoping I can get this working and production grade after and maybe apply for a grant","bor444#0",""
+"2021-10-12,14:56:18","sepyke","#0","<@!617127949480493077> ser, is there any requirements to apply a unigrants? (e.g. do we need to hire auditor first?)
+
+Ty ser","yj_alt#0",""
+"2021-10-12,14:58:38","sepyke","#0","Btw here is the project that we have been working on the past few weeks. We utilize deep liquidity from Uniswap V3 pools to leverage any ERC20 https://github.com/risedle/etfs","",""
+"2021-10-12,16:45:07","bor444","#0","<@!336110070326886400> no requirement just fill out the form!","sepyke#0",""
+"2021-10-12,16:48:57","sepyke","#0","Okay, tysm ser 🙏","bor444#0",""
+"2021-10-15,16:37:58","alphaKΞY","#5546","Thank you for recognizing the FIN project <:prayg:827325804975095818>","",""
+"2021-10-19,06:23:15","waxii. x1","#4984","Also thank you for recognizing the Leverage project as well <:buidler4:707335147145396315>","",""
+"2021-10-21,06:48:03","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/900696929632124998/unknown.png"
+"2021-10-29,08:58:29","emilyhobbs","#0","Hello and welcome to the <#819516506445840395>  channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!730463593711140956> <@!420370295698751510> <@!706247020691718155> <@!617127949480493077> <@!479875014397657113>","thecryptocoach#0、yj_alt#0、nkennethk#0、smsunarto#0、bor444#0",""
+"2021-10-29,16:25:20","bluer","#9482","hey <#819516506445840395> team! not sure if this is the best channel to ask but keen to explore some dev tooling as part of my hack, potentially a vscode extension...any initial thoughts / ideas / prompts you might have?","",""
+"2021-10-30,11:46:28","heymarcopolo","#0","hi! I followed naoh's presentation on price oracles on uniswap and twaps looks very cool. I am wondering: 
+1. how are uni twaps more robust in comparisons to other price oracles to exploits in pool manipulation with flashloans ?
+2. why lending protocols (like cream finance) don't use uni twaps as their price oracles in the first place?","",""
+"2021-10-30,15:20:42","hairymanape","#0","Morning <#819516506445840395>  - I am trying to build a new interface to talk to the uniswap v3 contract. I was originally thinking I would need to implement v3 periphery contracts.
+
+If however I was trying to perform a swap (ETH -> DAI ) as an example, would I just need to make sure my site delivered the right information to the v3 contract without ever having to standup new contracts etc?","",""
+"2021-10-30,17:02:02","vkao","#7226","Hey hey! is anyone on the Uniswap technical side available for brainstorm?","",""
+"2021-10-30,17:02:03","vkao","#7226","Quick chat*","",""
+"2021-10-30,17:04:18","vkao","#7226","I had a quick question about price impact on Uniswap V3 and what the execution price would be if a single trade caused tick boundaries to be crossed*","",""
+"2021-10-30,18:58:21","_connormartin","#0","<@!382520120368693249> you can post your question here!","vkao#7226",""
+"2021-10-30,21:32:05","devtooligan","#0","If I wanted to create a vault that takes  UniV3 LP Nft's as collateral and gives stablecoin loans against them, what approach should I take to get the value of the UniV3 lp nft?   I'm guessing there's not some sort of existing oracle I could use...","",""
+"2021-10-31,08:25:22","yj_alt","#0","You should be able to just call the v3-periphery contract (functions) to do swaps etc, without having to standup new ones. Only need new contracts if you need to run custom code/functions.","hairymanape#0",""
+"2021-10-31,08:28:51","vkao","#7226","Thanks Connor! 
+
+If the liquidity within a single tickSpace holds an amount of both assets equaling USD $3M, (ex. $1.5M USDC & 356.29 ETH) and someone executes a trade to buy 400ETH, would the 356.29 ETH within this tickSpace be completely consumed, and the remaining 43.71 ETH, be drained from the liquidity in the following tickSpace?","",""
+"2021-10-31,08:29:02","yj_alt","#0","I guess you'll need to get the liquidity value contained in that (position) NFT -- value at current price, and the ""potential values"" at the extreme ends of the price tick range. Either call for the data on-chain or get it from the Subgraph. Then do the calcs you need, and figure out your next step (re: loaning stablecoin vs the v3 position collat)","devtooligan#0",""
+"2021-10-31,08:30:56","yj_alt","#0","Yes, per the flowchart in the v3-whitepaper, the swap is executed until the liquidity in the current tick is exhausted, and if there is still leftover amount that needs swapping, move into the next tick and continue swapping ..","vkao#7226",""
+"2021-10-31,08:31:56","vkao","#7226","Got it, when it moves to the next tick, does that technically execute at an adjusted ETH/USDC price?","",""
+"2021-10-31,08:32:43","vkao","#7226","Also, forgive me in advance for the barrage of questions coming your way..","",""
+"2021-10-31,08:34:01","yj_alt","#0","Might help for you to have a look at the uni-v3 whitepaper, and the Technical Note in https://github.com/atiselsts/uniswap-v3-liquidity-math
+
+Notebook implementations of the code above is in https://github.com/uniyj/uni-v3-peri/tree/main/atiselsts-uniswap-v3-liquidity-math","vkao#7226",""
+"2021-10-31,08:36:05","vkao","#7226","I realize that on any NFT minted through the PositionManager contract, both the NFT and the PositionManager contract have a method called Positions, which return back a bunch of parameters of which two are the tokensOwed0 and tokensOwed1. Do these two values represent uncollected fees earned in both tokens?","",""
+"2021-10-31,08:36:05","yj_alt","#0","XY = K invariant is honoured for the ""liquidity"" values at each tick range. The overall price will be some sort of ""geometric mean"", but need to consider the actual liquidities that ""kick in"" when moving across ticks","vkao#7226",""
+"2021-10-31,08:37:16","yj_alt","#0","I might not be able to answer all of them 😂 Some will need the actual pros, eg in uniswap core team","vkao#7226",""
+"2021-10-31,08:37:47","vkao","#7226","Lol - I appreciate you getting back to me regardless","",""
+"2021-10-31,08:38:31","yj_alt","#0","I think yes. See: https://docs.uniswap.org/protocol/reference/periphery/NonfungiblePositionManager","vkao#7226",""
+"2021-10-31,08:38:42","vkao","#7226","Hmm.. maybe I need to spend some more time alone the white paper to understand how to evaluate the geometric mean.","yj_alt#0",""
+"2021-10-31,08:40:33","yj_alt","#0","Sorry, don't let my vague wordings confuse you -- it's **not really** a *geometric mean*. It'll just be what the maths work out to be, when you loop through each tick range in order to have enough liquidity to complete the swap.","vkao#7226",""
+"2021-10-31,08:41:10","yj_alt","#0","It definitely won't be any sort of ""linear mean"" though!","",""
+"2021-10-31,08:41:42","vkao","#7226","Got it, and the tokensOwed, both 0 and 1, are essentially calculated by taking the difference between the fee growth params b/w the last block and the current block, multiplied by the ratio of liquidity provided by me by the total liquidity available within a tick?","yj_alt#0",""
+"2021-10-31,14:12:28","devtooligan","#0","Thanks so much for responding.  Dumb question, before talking about the ""potential  values"" at the ends of the curve, how do I just get the ""liquidity value contained in that position"" so can value at current price?  When I read ""positions"" of a token I do see this ""liquidity"" uint128 field but I'm not sure what that is exactly.","yj_alt#0",""
+"2021-10-31,14:13:49","devtooligan","#0","<@!617127949480493077> referring to the ""liquidity"" field here","yj_alt#0","https://cdn.discordapp.com/attachments/819516506445840395/904432990548021268/Screenshot_from_2021-10-31_11-12-05.png"
+"2021-10-31,15:10:31","crypto_rachel","#0","```
+Alternatively, liquidity can be thought of as the amount that
+token1 reserves (either actual or virtual) changes for a given change
+in √𝑃:
+```
+basically it represents token 1 with the price via the math img 6.7 section 6.2 page 6 of the whitepaper (I believe 😄 )","devtooligan#0",""
+"2021-10-31,16:55:19","moskalyk","#6720","Can someone from the uniswap team provide some examples of governance enhancements? I would love to shoot an idea by the team to discuss.
+
+The premise is to use on-chain verifiable tarot cards that are NFTs to represent decisional voting to swap a coin in 1 of 3 different directions. Users would create an Aztec note, so the funds would be private, all you know is the coin type. Then on an IRL card pull, there is a subjective interpretation by a DAO user to swap your token in 1 of 3 ways, each pull per different coin. 
+
+The idea is to incorporate into Gnosis Guild exit module as well, if it is a binary decision on Exit or Not. In the future, might think about optimism as scaling as well for multi-rounds, but not the focus for the hack, and even some type of Circles / UBI 'trust' to other persons in their decision.
+
+Thanks in advanced.","",""
+"2021-10-31,17:32:41","hairymanape","#0","<@!617127949480493077> can I send you a quick message as to what I am trying to achieve? I  am stuck between trying to figure out if I need to standup a new contract or not","yj_alt#0",""
+"2021-10-31,20:13:43","yj_alt","#0","It's probably best if you ask questions here, as other mentors can also pitch in. But I understand if you want to keep certain questions private.","hairymanape#0",""
+"2021-10-31,20:42:54","yj_alt","#0","Have a look at the links I posted above for vkao, re: liquidity maths. You should look at the v3-whitepaper, and the technical note linked in the github repos in my message above. Let us know here if you have further specific questions about parts that you still struggle with :)","devtooligan#0",""
+"2021-10-31,20:58:35","yj_alt","#0","<@399617942087532545> can you please help have a look at this? Looks interesting, but it's a bit over my head 😅","moskalyk#6720、_connormartin#0",""
+"2021-10-31,20:59:35","yj_alt","#0","Hopefully those questions have been answered and clarified. Looking forward to further discussions here :)","hairymanape#0",""
+"2021-10-31,21:52:40","kite","#0824","Hi I'm trying to use TWAP to get it's price within Solidity. I can get the price no problem by using the functions in Uniswap v3-periphery OracleLibrary.sol. I'm just wondering if that's the best practice and efficient way to get the uni v3 oracle price. Here my code:","",""
+"2021-10-31,21:55:14","kite","#0824","weth/usdc OraclePrice = getQuoteAtTick(consult(address(pool),twapDuration), uint128(1e18), address(weth),  address(usdc));","",""
+"2021-11-01,03:59:13","BIBI CAT🐈🚜🛸","#2605","<@!420370295698751510> Hi, we are from Universe.Finance team and we have built one backtesting tool(https://www.universe.finance/backtest?q=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8,480,180,3,2021/06/01,2021/11/01,0,10000,0,270,1) for Uni-v3 and we are building a new analysis tool for finding the best yield and best strategy among Uni-v3 pairs.","nkennethk#0",""
+"2021-11-01,04:02:23","BIBI CAT🐈🚜🛸","#2605","and we are wondering if we can get some feedback from your side?","",""
+"2021-11-01,08:48:45","heymarcopolo","#0","anyone? 😦","",""
+"2021-11-01,09:08:51","emilyhobbs","#0","Hey everyone! <:nfteth:822186186016948314> 
+
+Just wanted to give you a quick snapshot for you to keep in mind.
+
+🤑 **Check out Prizes Here**
+https://showcase.ethglobal.com/unicode/prizes
+
+🛠️ **Workshop**
+https://www.youtube.com/watch?v=eM4UidkvB-o
+
+🔥 **Important Documentation**
+https://airtable.com/shrEXXxXB1humz7VS
+
+https://unigrants.notion.site/UNICODE-Getting-Started-Guide-5f6cdf907a834f73aa28d2fde329d9c7
+
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2021-11-01,09:21:19","_connormartin","#0","Sounds fun - but i think im not following the initial incentive for a user to make a random swap. They would be doing this with their own funds?","moskalyk#6720",""
+"2021-11-01,10:59:39","emilyhobbs","#0","Hey <@&885830819267112960> <:nfteth:822186186016948314> 
+
+Uniswap 🛠 V3 Oracles Workshop ***HAPPENING NOW***
+
+ **↓ Join us ↓**
+https://ethglobal.zoom.us/j/88161793124","",""
+"2021-11-01,11:44:21","moskalyk","#6720","Hey - still working on the concept so love the battle testing! To clarify, the swaps wouldn’t be random, but more creating some subjective decision augmentation about where to map liquidity if we’re living more in metaverse worlds (gaming), or if there are local token economies in various cities. 
+
+Those that are pulling cards amongst a group of people (lets say 256 card pullers) can be viewed as oracles for where to allocate liquidity (amongst some greater set). 
+
+The single card pulls per decision might sway decision making. If we view the micro ticks of price changes on-chain, can their be macro movements traced through swapping decision making for various web3 travellers.
+
+The other option is to use cards to help dictate price risk in the 3 tiers, maybe for DAO treasury holdings, but I think I want to more focus on users that are engaged in cross DAO activities where pulls or swaps might dictate Exits on decision making.","_connormartin#0",""
+"2021-11-01,11:47:40","moskalyk","#6720","e.g. i just pulled the justice card post writing this, and maybe it might help decentralized disputes on information in macro trends for how we engage in worlds where individuals have mass leverage, information, or value accrued (some philosophical question in here for sure)","",""
+"2021-11-01,12:18:55","nkennethk","#0","very dope! where can i provide more specific feedback?","BIBI CAT🐈🚜🛸#2605",""
+"2021-11-01,13:59:21","emilyhobbs","#0","Hey <@&885830819267112960> 
+
+Uniswap 🛠 On-Chain Generative NFT's **HAPPENING NOW**
+
+**↓ Join us ↓**
+https://ethglobal.zoom.us/j/87562101486","",""
+"2021-11-01,16:07:51","ember","#8464","Are the contracts from Emily's talk on onchain-generative NFTs in the uniswap-periphery repo?","",""
+"2021-11-01,18:07:00","dougylee","#0","Is it possible to provide liquidity for ERC1155 fungible tokens on uniswap?","",""
+"2021-11-02,00:58:58","colinsteidtmann","#2522","I'm still looking for something to build. Have uniswap v3 limit orders w/chainlink keepers already been implemented?","",""
+"2021-11-02,01:04:40","yj_alt","#0","If I'm not mistaken, there are project(s) looking to do this, but none that ""hits it big"" yet..","colinsteidtmann#2522",""
+"2021-11-02,01:13:06","crypto_rachel","#0","Well the uniswap contracts Specifically and only take the ERC20, I think I've seen Contracts that include Both, but the Token for liquidity would need to be a erc20 in the contract","dougylee#0",""
+"2021-11-02,02:02:11","lyledavids","#0","Hi,
+Does this line of code found on https://docs.uniswap.org/sdk/guides/creating-a-trade#construct-a-trade do the auto-router feature automatically?
+const swapRoute = new Route([poolExample], TokenA, TokenB);","",""
+"2021-11-02,02:08:42","lyledavids","#0","Autorouter","","https://cdn.discordapp.com/attachments/819516506445840395/904975286343438346/uni.jpg"
+"2021-11-02,02:58:46","crypto_rachel","#0","Don't quote me, but I don't think that does the same thing as the auto router","lyledavids#0",""
+"2021-11-02,03:35:32","yj_alt","#0","For auto-router, see: https://uniswap.org/blog/auto-router/
+which mentions and links to:
+https://github.com/Uniswap/routing-api
+https://github.com/Uniswap/smart-order-router","lyledavids#0",""
+"2021-11-02,03:42:26","yj_alt","#0","I'll try to check and get back to you.","ember#8464",""
+"2021-11-02,03:57:33","crypto_rachel","#0","https://github.com/Uniswap/v3-periphery/blob/main/contracts/NonfungibleTokenPositionDescriptor.sol
+https://github.com/Uniswap/v3-periphery/blob/main/contracts/libraries/NFTSVG.sol","ember#8464",""
+"2021-11-02,11:05:36","emilyhobbs","#0","Hey everyone - slides form Emily's talk yesterday 🙂
+
+**Uniswap 🛠 On-Chain Generative NFT's**
+
+https://docs.google.com/presentation/d/1jPSjUAVf8augaUbXyzE3EY3XZhV1tDd4eiECinFm94I/edit?usp=sharing","",""
+"2021-11-02,18:42:37","yj_alt","#0","Also have a look at: https://github.com/Uniswap/v3-periphery/blob/main/contracts/libraries/NFTDescriptor.sol","ember#8464",""
+"2021-11-03,10:28:49","brahmapsen","#5799","To make price oracle call with V3 in Solidity, could you privide a link with some documentaion and example? Thanks.","",""
+"2021-11-03,12:59:01","emilyhobbs","#0","Hey <@&885830819267112960> 
+
+Uniswap 🛠 Flash Swaps on Uniswap v3 ***HAPPENING NOW***
+
+**↓ Join us ↓**
+https://ethglobal.zoom.us/j/86469647805","",""
+"2021-11-03,13:00:43","jacobymetatopia","#0","Hi @everyone! I’m building a platform called ColorPixels. It allows fans to mint and collect top moments of the internet — starting with Twitch, TikTok, and YouTube. We 1st place awards during the ETHOnline hackathon. Now we are working hard to find a way to implement UniSwap into our trading marketplace. How can UniSwap work with NFTs is what keep asking ourselves? Looking for developer insight.","",""
+"2021-11-03,13:14:48","crypto_rachel","#0","<https://docs.uniswap.org/protocol/concepts/V3-overview/oracle>
+<https://github.com/Uniswap/v3-periphery/blob/main/contracts/libraries/OracleLibrary.sol>","brahmapsen#5799",""
+"2021-11-03,13:15:36","crypto_rachel","#0","answered in the uni discord chat too, but uniswap only uses ERC20 tokens","jacobymetatopia#0",""
+"2021-11-03,14:50:48","jacobymetatopia","#0","Thank you for that answer","crypto_rachel#0",""
+"2021-11-03,14:54:01","crypto_rachel","#0","gladly, you might be able to set up a contract that manages and sets prices or something for the NFT, and then have an ERC20 that houses Liquidity for it somehow someway 😊","jacobymetatopia#0",""
+"2021-11-03,14:57:29","jacobymetatopia","#0","Now that sounds promising","",""
+"2021-11-04,04:21:43","hairymanape","#0","Hi guys still very stuck with the uniswap integration -  someone might be able to help me here ( as it is doing my head in). This code that I have testing within remix is taking from the sample contract in the v3 docs.
+
+I am looking to attempt a swapExactInputSingle using the example contract but if I attempt to transact any amount in the swapExactInputSingle I get a Gas Estimation Failed warning and subsequent error. Any thoughts as to what might be going on? I am very confused at this point. If you proceed anyway with it past the warning: 
+My suspicion (https://rinkeby.etherscan.io/tx/0x56d0403ae023bc7541f70f06055a88e459b743891841eb6c97c7f93e6a9a1e80) is that I am doing something very wrong and therefore missing a piece to actually pass eth to the router or I am not wrapping it? Any help would be much appreciated.","",""
+"2021-11-04,14:32:22","tshaka","#0","Can anyone please explain how pricing data is calculated on the Uniswap Subgraph API?
+
+On V3 on Ethereum the the following query
+
+```
+{
+  tokenDayDatas(
+    orderBy: totalValueLockedUSD, 
+    orderDirection: desc,
+    where: { date_gt: 1635963845 }
+) {
+    token { 
+      id
+      name
+      symbol
+    }
+    priceUSD
+    open
+}
+```
+
+Returns
+
+```
+{
+  ""data"": {
+    ""tokenDayDatas"": [
+      {
+        ""open"": ""4.28977135821895214286204807308066"",
+        ""priceUSD"": ""4.162463967000449730681084394487732"",
+        ""token"": {
+          ""id"": ""0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"",
+          ""name"": ""USD Coin"",
+          ""symbol"": ""USDC""
+        }
+      },
+      {
+        ""open"": ""270219.9915535494327875496670302526"",
+        ""priceUSD"": ""255016.0677883629758754175162101865"",
+        ""token"": {
+          ""id"": ""0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"",
+          ""name"": ""Wrapped BTC"",
+          ""symbol"": ""WBTC""
+        }
+      },
+      {
+        ""open"": ""4598.685114523061543312655333080282"",
+        ""priceUSD"": ""4462.851785475156885610569870624726"",
+        ""token"": {
+          ""id"": ""0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"",
+          ""name"": ""Wrapped Ether"",
+          ""symbol"": ""WETH""
+        }
+      },
+      {
+        ""open"": ""4.290179346338038940969752628662509"",
+        ""priceUSD"": ""4.16281223898842434551695666728759"",
+        ""token"": {
+          ""id"": ""0x6b175474e89094c44da98b954eedeac495271d0f"",
+          ""name"": ""Dai Stablecoin"",
+          ""symbol"": ""DAI""
+        }
+      },
+      {
+        ""open"": ""4.291349033231092079287059521174074"",
+        ""priceUSD"": ""4.163800332336961341213860101913663"",
+        ""token"": {
+          ""id"": ""0xdac17f958d2ee523a2206206994597c13d831ec7"",
+          ""name"": ""Tether USD"",
+          ""symbol"": ""USDT""
+        }
+      },
+...
+```
+Which seems alright for WETH but for rest it seems odd. The same query on the Uniswap API on Optimism seems okay though.
+
+Thank you.","",""
+"2021-11-04,16:59:09","markcarey","#0","Working on implementing V3 flash swaps but getting revert error `SPL`.  Note that I am calling `swap()` here. Here is the function call, with important values filled in for clarity:
+```IUniswapV3Pool(pairAddress).swap(address(this), true, 3999877929687500000, 0, data);```
+In case it helps, the addresses for `token0` and `token1` are, respectively: `0x6b175474e89094c44da98b954eedeac495271d0f` (DAI) and `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` (WETH) against a forked mainnet chain.
+I understand that `SPL` relates to a `Square root price limit` and the docs for the `swap()` function say:  `The Q64.96 sqrt price limit. If zero for one, the price cannot be less than this value after the swap. If one for zero, the price cannot be greater than this value after the swap` But I get this error whether I set this to `0` or `type(uint160).max`","",""
+"2021-11-04,17:07:51","crypto_rachel","#0","so I am by Far no expert on this (and not a Lot of time rn) but this is what I use to get the value. (I make no guarantees as to efficiency of swap price, as I don't have all the math for V3, but it seemed effective in my limited tests.
+
+```java
+const minSqrt = web3.utils.toBN('4295128740');
+const maxSqrt = web3.utils.toBN('1461446703485210103287273052203988822378723970341');
+var aMM = ZeroOrOne ? minSqrt : maxSqrt;
+```
+
+the am is what I use for the price limit, needs to be min for one direction, and max for the other (here if ZeroOrOne is true the amm == minSqrt and vice versa)","markcarey#0",""
+"2021-11-04,17:08:50","crypto_rachel","#0","and those are the 
+MIN_SQRT_RATIO +1
+&
+MAX_SQRT_RATIO -1","",""
+"2021-11-04,17:09:08","markcarey","#0","Was just looking at https://github.com/Uniswap/v3-core/blob/main/contracts/libraries/TickMath.sol#L13 so your suggestion seems to fit. I will try it...","crypto_rachel#0",""
+"2021-11-04,17:10:37","crypto_rachel","#0","👍  I'm gonna be getting ready to go out for the evening, I'll be back on for a while later tonight or tomorrow.. Feel free to drop any questions and someone will get back to you if not I","",""
+"2021-11-04,19:29:38","theeeeee_e","#0","Was this meeting recorded?","emilyhobbs#0",""
+"2021-11-04,20:23:56","newway1220","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/905975686219595776/Screenshot_2021-11-05_at_01.21.25.png"
+"2021-11-04,20:24:04","newway1220","#0","I have an error with uniswap V3","",""
+"2021-11-04,20:24:19","newway1220","#0","Can I be assigned to an instructor with uniswap to solve this issue","",""
+"2021-11-04,20:24:28","newway1220","#0","seems like this issue is redondant","",""
+"2021-11-04,20:24:59","hairymanape","#0","<@471357824299958273> would you be able to advise on this one? Getting really stuck on it and I'm sure it is only something silly I'm doing wrong","crypto_rachel#0",""
+"2021-11-04,20:31:22","newway1220","#0","<@!420370295698751510> some help ? 🙂","nkennethk#0",""
+"2021-11-04,22:13:27","markcarey","#0","Thank you for the help <@!471357824299958273>! Using those min/max values prevented the `SPL`  revert. Though my transaction succeeded, the amount swapped was too way too low.  It me a bit of debugging before I realized that I needed convert my `amountSpecified` to a negative number to get an ""exact output"" swap like I was getting using V2. Once I figured that out, it worked like a charm. 🎉","crypto_rachel#0",""
+"2021-11-05,01:26:44","crypto_rachel","#0","please provide more data , as that is your own contract and I have no idea what you tried to do.","hairymanape#0",""
+"2021-11-05,01:29:23","crypto_rachel","#0","same no Idea what error or what your are trying to do. Please just ask questions and provide the data someone who has no idea what you're doing could work with.
+afaik there are no instructors that are assigned","newway1220#0",""
+"2021-11-05,03:15:26","hairymanape","#0","Hi Rachel - I was trying to test the example contract in Remix: https://docs.uniswap.org/protocol/guides/swaps/single-swaps#a-complete-single-swap-contract","crypto_rachel#0",""
+"2021-11-05,03:56:09","crypto_rachel","#0","First your data would be in uint256 so you would need the decimals aka the whole number not the human readable (dai is 18 places so you need 18 0s if thats supposed to be 100 dai)
+second you are on test net. you need to verify addresses and contracts, as they are not all the same on testnets
+third you need to verify that there is a pool on testnet that you can use with Liquidity and good price","hairymanape#0",""
+"2021-11-05,03:56:37","hairymanape","#0","You are awesome thank you","",""
+"2021-11-05,03:56:41","hairymanape","#0","will do that","",""
+"2021-11-05,04:50:10","emilyhobbs","#0","Yes - all workshops are recorded and can be found on the ETHGlobal YouTube
+
+https://www.youtube.com/watch?v=eM4UidkvB-o&list=PLXzKMXK2aHh5AoBIsYMP0nJ2bgb-pXKDW&index=8&ab_channel=ETHGlobal","theeeeee_e#0",""
+"2021-11-05,07:32:20","udayj.","#0","i get an error when trying to import ""@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol"";
+(not found - @openzeppelin/contracts/tokens/ERC721/IERC721Enumerable.sol) - i am using compiler ^0.8.4
+
+basically i am trying to call the function (from the docs for INonfungiblePositionManager)
+  function createAndInitializePoolIfNecessary(
+    address tokenA,
+    address tokenB,
+    uint24 fee,
+    uint160 sqrtPriceX96
+  ) external returns (address pool) . This method however isnt available here 
+https://github.com/Uniswap/v3-periphery/blob/main/contracts/interfaces/INonfungiblePositionManager.sol
+
+Any help would be much appreciated","",""
+"2021-11-05,08:20:17","newway1220","#0","<@!471357824299958273>  Ok Let me explain :","crypto_rachel#0",""
+"2021-11-05,08:20:49","newway1220","#0","Here is the code","","https://cdn.discordapp.com/attachments/819516506445840395/906156099042942997/message.txt"
+"2021-11-05,08:21:59","newway1220","#0","I have this error while trying to console.log(tickLower)  : TypeError: Tick is not a constructor","",""
+"2021-11-05,08:32:19","markcarey","#0","From the Uniswap contract:
+```// SPDX-License-Identifier: GPL-2.0-or-later
+pragma solidity >=0.7.5;
+pragma abicoder v2;
+
+import '@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol';
+import '@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol';```
+....but the `0.8.0` version of these have been moved to an `extensions` subdirectory: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Enumerable.sol ... As such, I think you need to either create your own version of the `INonfungiblePositionManager.sol` interface file with the new paths, or use a different compiler and version of the OpenZeppelin contracts that is compatible. The former is probably easier.... 😉","udayj.#0",""
+"2021-11-05,09:49:15","yj_alt","#0","I don't know all these very well, but the error message seems literal enough, ie `Tick` is not a constructor and you cannot do `new Tick()`.
+
+Might be useful to look at the following re: `Tick`?
+https://github.com/Uniswap/v3-core/blob/3e88af408132fc957e3e406f65a0ce2b1ca06c3d/contracts/test/TickTest.sol","newway1220#0",""
+"2021-11-05,11:49:10","newway1220","#0","If you try to compile the code in your vscode, I think it should work , cause it worked for someone else","yj_alt#0",""
+"2021-11-05,11:49:23","newway1220","#0","But for me no , maybe it's NodeJs probleme","",""
+"2021-11-05,11:51:56","yj_alt","#0","Hmm in that case, better wait for someone else's input. Please ignore what I said 😅","newway1220#0",""
+"2021-11-05,12:31:26","udayj.","#0","got it...thank you","markcarey#0",""
+"2021-11-05,12:37:29","moskalyk","#6720","Is there already a uniswap v3 router contract for swaps deployed on Optimism Kovan Ethereum?","",""
+"2021-11-05,12:48:58","udayj.","#0","i am getting this error when trying to get the sqrtPrice at a tick using the TickMath library (compiler ^ 0.8.4)
+
+probably missing some basic understanding of solidity....any pointers would be much appreciated.","","https://cdn.discordapp.com/attachments/819516506445840395/906223576988921926/unknown.png"
+"2021-11-05,14:08:57","crypto_rachel","#0","I see something using a uint256, but the ticks are **int24**","udayj.#0",""
+"2021-11-05,14:10:48","udayj.","#0","Yes exactly, it is there inside the TickMath library","crypto_rachel#0",""
+"2021-11-05,14:18:25","crypto_rachel","#0","Hmm yeah, I don't know then. I remember seeing someone with this issue, think it was compiler related. Have you tried any lower compilers try 7.6","",""
+"2021-11-05,14:36:56","markcarey","#0","https://community.optimism.io/docs/developers/util.html#swap-router","moskalyk#6720",""
+"2021-11-05,14:46:29","markcarey","#0","This is caused by a difference in compiler versions. TickMath is `pragma solidity >=0.5.0;` and you are using `0.8.4`  In 0.5.0 an explicit conversion of int24 --> uint256 was allowed. But in 0.8.0 it is no longer allowed.  Instead of `uint256(MAX_TICK)` it would need to be `uint256(int256(MAX_TICK))` (first converting from `int24`-->`int256` then from `int256`--> `unit256`. For reference: https://docs.soliditylang.org/en/v0.8.8/080-breaking-changes.html  (I encountered this issue during ETHOnline ... it was fun) 😉","udayj.#0",""
+"2021-11-05,16:03:14","newway1220","#0","Issue resolved ! Thanks to <@!706891329891729408>  who explained me well how to do 💯","alextheentreprenerd#0",""
+"2021-11-06,02:27:31","newway1220","#0","Does anybody know how the TickListDataProvider in #Uniswap V3 works? 
+
+I keep getting a ZERO_NET invariant failed - because of an uneven tick list when I try to create a new TickListDataProvider. How do you pass ticks to this object?","",""
+"2021-11-06,06:49:23","moskalyk","#6720","Thank you","markcarey#0",""
+"2021-11-06,07:06:48","udayj.","#0","thanks man...had to go around it by just copying over the relevant bits from the library","markcarey#0",""
+"2021-11-06,07:10:56","udayj.","#0","trying to create and initialize a pool using the following code:-
+
+function createPool() public {
+        poolAddress=address(factory.createPool(address(_rToken),wEthToken,10000));
+        pool=IUniswapV3Pool(poolAddress);
+        
+    }
+
+function initializePool(uint160 sqrtPrice) public {
+       
+        pool.initialize(sqrtPrice);
+    }
+
+Creation works fine but somehow initializePool fails to execute at runtime - any ideas as to what might be going wrong","",""
+"2021-11-06,08:22:44","udayj.","#0","Realised this error might be due to the fact that the initialize function is external in v3 pool code - in which case do I need to do some kind of delegateCall to make this work","",""
+"2021-11-06,08:31:00","moskalyk","#6720","I'm attempting to implement a simple swap. Either via the contract instantiation with Ethers using (still unsure what I have to include for the `path` param in the struct) https://docs.uniswap.org/protocol/reference/periphery/interfaces/ISwapRouter#exactinputparams","",""
+"2021-11-06,12:33:40","jeremynodeguardians","#0","Hello all, I don't understand how to add call parameters in mint function in order to mint tokens on the pool I just created, can you guys pls explain me how it works ?","",""
+"2021-11-06,15:30:50","maxandrew","#0","When creating a new LP using this guide https://docs.uniswap.org/protocol/guides/providing-liquidity/setting-up would the contract address for Eth just be that of wrapped Eth?","",""
+"2021-11-06,15:34:20","crypto_rachel","#0","answered in Uniswap server","",""
+"2021-11-06,19:38:09","newway1220","#0","Hey I tried Uni V3 , still having bugs with the Tick , so I worked in V2","",""
+"2021-11-06,19:38:14","newway1220","#0","is it an issue ? :/","",""
+"2021-11-06,19:38:24","newway1220","#0","couldn't get any help here ..","",""
+"2021-11-07,03:58:56",".kfujita","#0","Hello, I have tried to call quoteExactInputSingle function in Quote.sol.
+Hoever, when I execute through nodejs script, we face following error. 
+""VM Exception while processing transaction: reverted with reason string 'AS'
+""
+
+Can you kindly tell me what is the cause of this issue? 
+FYI: I am using 0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6 as Quoter address in mainnet
+
+-----
+Quoter.quoteExactInputSingle(WETH.address, BAT.address, 3000, 0, eth_amount).","",""
+"2021-11-07,05:39:03","0xnonso","#0","Hi, how can I convert a price to it's corresponding tick in uni v3","",""
+"2021-11-07,09:04:22","BIBI CAT🐈🚜🛸","#2605","https://showcase.ethglobal.com/unicode/universe-finance-backtesting-for-uniswap-v3 here it is, we just submitted the final version!","nkennethk#0",""
+"2021-11-07,12:28:46","crypto_rachel","#0","your amount in is set to 0, that would need to be the amount of tokens that you would send in the swap",".kfujita#0",""
+"2021-11-07,13:29:33","asifkhan_defi","#0","how to access submission link?","",""
+"2021-11-07,13:29:38","asifkhan_defi","#0","can some one share that.","",""
+"2021-11-07,13:34:52","emilyhobbs","#0","Here is info of where to submit your project! 
+
+https://discord.com/channels/554623348622098432/783599808060719114/906964238868832336","asifkhan_defi#0",""
+"2021-11-07,14:51:13","jordan.public","#0","https://showcase.ethglobal.com/unicode/focus","",""
+"2021-11-07,15:04:08","frankzhu94","#0","We've just submitted our project 🙂
+
+Name: AzUniswap
+Description: Perform private and cheap swap on Uniswap through aztec bridge
+Demo:
+Play Video
+
+Check out our project submission!
+https://hack.ethglobal.com/showcase/azuniswap-recSW3IYNSa2y6EeY","",""
+"2021-11-07,23:20:47",".kfujita","#0","<@!471357824299958273> Thank you very much for replying to me. You are right. I made mistake of setting the parameters in order. Sorry about that.
+
+Now i get the response with following code. 
+----------
+eth_amount = 4200000 //this is just example
+let bat_amount = await Quoter.quoteExactInputSingle(WETH.address, BAT.address, 3000, eth_amount, 0);
+console.log('BAT V2: ' + JSON.stringify(bat_amount));
+------------
+
+however, i could not get expected response from the code. 
+According to your document, response should have been amountOut(uint)
+https://docs.uniswap.org/protocol/reference/periphery/lens/Quoter#quoteexactinputsingle
+
+But what we got is 
+following Json value. (we are using mainnet fork environment).
+Is this expected behavior or something wrong.
+Your kind attention is highly appreciated.
+ {""hash"":""0xf762921a3649712e670a6d8d7a28bec83e4475c64e8bc3af9e6e8f00f76a9ba7"",""type"":2,""accessList"":[],""blockHash"":""0x2e9d33b6afc5a6bb4dc067610e9fdbff8461f97409aa0825cbb629cabcfe6653"",""blockNumber"":13500001,""transactionIndex"":0,""confirmations"":1,""from"":""0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"",""gasPrice"":{""type"":""BigNumber"",""hex"":""0x2c759fe46b""},""maxPriorityFeePerGas"":{""type"":""BigNumber"",""hex"":""0x3b9aca00""},""maxFeePerGas"":{""type"":""BigNumber"",""hex"":""0x58afa4fed6""},""gasLimit"":{""type"":""BigNumber"",""hex"":""0x01bae218""},""to"":""0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6"",""value"":{""type"":""BigNumber"",""hex"":""0x00""},""nonce"":73,""data"":""0xf7729d43000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d8775f648430679a709e98d2b0cb6250d2887ef0000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000001312d0000000000000000000000000000000000000000000000000000000000000000000"",""r"":""0xc32663c00781688c4f4b61436be660616048438b8ebf215c995b304605f06a66"",""s"":""0x003d1045c67fef95475482d1faf2439cac1837b6e81f47fbab97d9474ef618c4"",""v"":0,""creates"":null,""chainId"":31337}","crypto_rachel#0",""
+"2021-11-07,23:45:46","crypto_rachel","#0","not sure, tbh I've never called it.  I don't know if this is a live wallet, but you should be careful about sharing the signature bits",".kfujita#0",""
+"2021-11-08,00:55:44",".kfujita","#0","Thank you for your reply. noted. 
+Btw, would you know contract address of QuoterV2? 
+I found the address list of other uniswap smart contract, but did not find V2 one. 
+https://github.com/Uniswap/v3-periphery/blob/main/deploys.md","crypto_rachel#0",""
+"2021-11-08,01:00:21","crypto_rachel","#0","I do not sorry",".kfujita#0",""
+"2021-11-08,02:18:05",".kfujita","#0","Noted. thank you. 
+Btw, i have fixed the issue. by using callStatic, the quoteExactInputSignle can work without issue finally. 
+thank you for your reply anyway. 
+
+let bat_amount = wait Quoter.callStatic.quoteExactInputSingle(WETH.address, BAT.address, 3000, eth_amount, 0).","crypto_rachel#0",""
+"2021-11-08,02:18:44","crypto_rachel","#0","oh yeah 🤦‍♀️  didn't even realize, but yeah 😄","",""
+"2021-11-08,02:21:25",".kfujita","#0","😄","crypto_rachel#0",""
+"2022-01-28,13:12:21","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/936685146906689566/road_to_web3_banner_-_blank.png"
+"2022-01-29,00:17:17","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UGP Team at any point with your questions! 
+
+Here's a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, UGP wants you to make sure you can build it! Please let us know what you're working on and let's discuss how we might be able to help you!
+
+
+🏆 **PRIZE OVERVIEW**
+**Best L2 Adoption:**
+First place: $1,500
+Runner Up: $500
+
+**Most Innovative:**
+First place: $1,500
+Runner Up: $500
+
+
+**↓ Full Prize Breakdown Here ↓ **
+https://web3.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+https://youtu.be/_07eT2H_WVE
+
+
+🔗 **IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-02-01,02:10:53","jrsim_uix","#0","<@720407640131240026> is it ok to use V2 or must we use v3 for this Hackathon - thanks","awliang#0",""
+"2022-02-01,12:34:53","awliang","#0","<@!730463593711140956> would be more equipped to answer this question! 🙂","jrsim_uix#0、bor444#0",""
+"2022-02-01,23:19:56","0xaaavy","#0","Anyone from uniswap is available to answer a few questions?","",""
+"2022-02-02,00:19:58","kartik","#0","Feel free to ask your questions here directly. Since people are in different timezones they'll address things as they see it","",""
+"2022-02-02,08:15:51","p2pdev","#0","Hi there we have include  Uniswap Router & Factory as a parameter in some of  our contracts, to  let us Swapt whatever  thing  or inject  liquidity on the game always  all in   on  transaction , there is not  to much  documentation of how to  automatically do that","",""
+"2022-02-02,08:33:06","p2pdev","#0","```    
+///Migration
+var myGameContract = artifacts.require('myGameContract');
+let DummyERC20Inscance = await DummyERC20.deployed()
+
+await deployer.deploy(
+    myGameContract,
+    DummyERC20Inscance.address,
+    ""0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"", //native Matic
+    ""0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"",//Router quickswap
+    ""0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32"" //Facory quickswap
+  )  
+
+  //DECLARATIONS
+  IRouter02 public anyRouter;
+  IFactory public anyFactory; 
+  IERC20 private dummyERC20;
+  IERC20 private nativeERC20;
+
+//Swap and add Liquidity function
+                address[] memory path = new address[](2);
+                dummyERC20.approve(address(anyRouter), balance);
+
+                path[0] = address(dummyERC20);
+                path[1] = address(nativeERC20);
+                anyRouter.swapExactTokensForTokensSupportingFeeOnTransferTokens(
+                    (balance / 2),
+                    0,
+                    path,
+                    address(this),
+                    block.timestamp + 1 hours
+                );
+
+                balance = dummyERC20.balanceOf(address(this));
+                uint256 native_balance = nativeERC20.balanceOf(address(this));
+
+                address anyPair = anyFactory.getPair(path[0], path[1]);
+
+                dummyERC20.approve(anyPair, balance);
+                nativeERC20.approve(anyPair, native_balance);
+                nativeERC20.approve(address(anyRouter), native_balance);
+                anyRouter.addLiquidity(
+                    path[0],
+                    path[1],
+
+
+                    balance,
+                    native_balance,
+                    0,
+                    0,
+                    msg.sender,            
+                    block.timestamp + 1 hours //Why this  should be to long?
+                );```","0xaaavy#0",""
+"2022-02-03,02:14:11","jrsim_uix","#0","<@730463593711140956> are we ok to use V2 - thanks","awliang#0、bor444#0",""
+"2022-02-05,03:41:40","donoso_eth","#0","Hi everyone, I am looking for some boilerplate code to include in our contract to exchange from (ETH or MATIC or BITCOIN) to MAI","",""
+"2022-02-05,03:41:50","donoso_eth","#0","with the uniswap protocol","",""
+"2022-02-05,06:46:21","alexdyn","#0","Hi 
+Is it possible to use Uniswap Subgraph API for Polygon network?","",""
+"2022-02-05,07:06:46","alexdyn","#0","Ok. Found correct links:
+  https://thegraph.com/hosted-service/subgraph/ianlapham/uniswap-v3-polygon?selected=playground
+  https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-polygon
+  
+  Might be useful for someone","",""
+"2022-02-05,08:44:33","cryptoineer","#0","Hi I need help with uniswap router to swap on ploygon network. For example swaping matic for WETH
+If anybody can help or point me to useful resources or code samples","",""
+"2022-02-05,09:16:12","cryptoineer","#0","Hi <@!699187270455918664>","yosephks#0",""
+"2022-02-05,09:16:15","cryptoineer","#0","https://discord.com/channels/554623348622098432/822657841420435486/939522407205580830","",""
+"2022-02-05,09:17:18","cryptoineer","#0","Thanks for the docs but what smart contract i need import to do this swap??","",""
+"2022-02-05,09:17:54","cryptoineer","#0","If you can point me to some code example. It will be great help.","",""
+"2022-02-05,09:21:15","yosephks","#0","here actually if you want to do the swap, Uniswap does give you a guide on how to do that https://docs.uniswap.org/protocol/guides/swaps/single-swaps","cryptoineer#0",""
+"2022-02-05,09:22:30","yosephks","#0","btw my bad while the `UniswapV3Pool` has the `swap` function, you should do the swapping through the router instead of directly from the Liquidity pool","",""
+"2022-02-05,09:33:50","cryptoineer","#0","i tried got error : https://mumbai.polygonscan.com/tx/0x937d49bd34a1e607f636d1269f94ab988374cfc015cf4833e1aac751515234e2","yosephks#0",""
+"2022-02-05,13:02:37","cryptoineer","#0","<@!699187270455918664> Hey I need a help on uniswap autorouter to Swap.
+I was following the doc : https://docs.uniswap.org/sdk/guides/auto-router#the-full-example","yosephks#0",""
+"2022-02-05,13:02:57","cryptoineer","#0","But Getting this Error :","","https://cdn.discordapp.com/attachments/819516506445840395/939581882184634458/unknown.png"
+"2022-02-05,13:03:04","cryptoineer","#0","please help","",""
+"2022-02-05,13:14:22","cryptoineer","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/939584756008497162/unknown.png"
+"2022-02-06,08:39:56","Jea9o","#3888","function subscribeAuthEvents(web3auth) {
+        web3auth.on(""connected"", (data) => {
+            console.log(""Yeah!, you are successfully logged in"", data);
+        });
+
+the problem was with getting the wallet address. I was using the metamask login
+I never checked the code in as well it didn't work 🙂
+so it's a blank slate","",""
+"2022-02-06,11:11:32","p2pdev","#0","This kind of automated functionality is what we  wanto to do  with Uniswap Protocol https://polygonscan.com/tx/0x297c36960035e038bab2a834ad163cdeda7a25a6e29d29d8ee5a98bb10bfb197","","https://cdn.discordapp.com/attachments/819516506445840395/939916233959157790/unknown.png"
+"2022-02-07,07:07:49","prattjc","#0","Hello guys,
+Do you have a simple way get the APY of a Uniswap liquidity pool? 🙂","",""
+"2022-02-07,10:38:53","Bai","#0880","I am pretty excited to share with you my project. https://showcase.ethglobal.com/roadtoweb3/teacher-bai-s-friend-metaverse-world","",""
+"2022-02-07,13:23:40","Jea9o","#3888","ohhh that is cool","",""
+"2022-02-07,15:26:34","SocialAnimalEarth","#6416","We've just submitted our project slight_smile
+
+Name: SocialAnimal.Earth
+Showcase: https://showcase.ethglobal.co/roadtoweb3/socialanimal-earth
+Description: Science & Faith Series ( Combination between technology and Ethics & Ethos ) in Educational gaming using Blockchain Technology on Matic Network.","",""
+"2022-02-07,23:56:27","fedotov_am","#0","Nope, u need math","prattjc#0",""
+"2022-02-07,23:56:51","fedotov_am","#0","Or an actual account on-chain to track","",""
+"2022-02-08,00:09:49","fedotov_am","#0","I am leaning towards math cuz it’s fun","",""
+"2022-02-08,00:20:35","fedotov_am","#0","Sqrt price is common reference in subgraph. Vitalik's initial idea https://vitalik.ca/general/2017/06/22/marketmakers.html","",""
+"2022-02-08,04:32:44","RobertMeffe","#0924","Didn't have time before submission can we use uniswap in our contract to auto convert and reload LINK to keep the contract funded for chainlink use?","",""
+"2022-02-08,04:47:52","prattjc","#0","I don't think it's the best way to go, it's reinventing the wheel each time I need an information 😅","fedotov_am#0",""
+"2022-02-08,07:32:39","fedotov_am","#0","My response to a friend in this case would be that you actually have to understand how uniswap works. And that math is a crucial part of the mechanism.","prattjc#0",""
+"2022-02-08,07:33:03","fedotov_am","#0","You can always focus on the Uniswap version as well","",""
+"2022-04-15,16:32:44","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/964624341419556924/unknown.png"
+"2022-04-15,17:21:20","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Uniswap Grants Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, **UGP** wants you to make sure you can build it! Please let us know what you're working on and let's discuss how we might be able to help you!Our current focus is to support specific areas accomplishing the following: Usability - improving the user experience Community - growing the ecosystem Tooling - improving the developer experience
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Best usage of any scaling solution with Uniswap**
+🥇 First place: $3000
+🥈 Runner Up: $1000
+
+**Most Innovative Uniswap project**
+🥇First place: $3000
+🥈 Runner Up: $1000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethamsterdam.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+*UGP will not be hosting a workshop.*
+
+
+🔗 **IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-04-24,06:24:08","mrq","#0","where are you at guys?","",""
+"2022-04-24,06:24:13","mrq","#0","@here","",""
+"2022-05-03,01:00:56","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/970912827533582347/unknown.png"
+"2022-05-04,00:23:13","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Uniswap Grants team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀** ABOUT **
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, **UGP** wants you to make sure you can build it! Please let us know what you're working on and let's discuss how we might be able to help you!Our current focus is to support specific areas accomplishing the following: Usability - improving the user experience Community - growing the ecosystem Tooling - improving the developer experience
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Uniswap Tooling**
+🥇 $4,000
+🥈 $3,000
+🥉 $1,000
+
+**Most Innovative Uniswap project**
+🥇 $4,000
+🥈 $3,000
+🥉 $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://defi.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP **
+https://youtu.be/3HXK8Cab2iY
+
+
+**🔗 IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-05-06,05:07:41","romuald_hog","#0","Hi team, thanks for joining HackMoney as a sponsor!
+Is it possible to use UniswapV3 contracts with `solc > 0.8`? We couldn't import the UniswapV3 interfaces and libraries on our contracts because some dependencies aren't compatible.","",""
+"2022-05-06,14:31:11","romuald_hog","#0","Do we need to request an ""Additional Use Grant"" from the Uniswap Governance in order to use the Uniswap V3 live contracts on our dApp's smart contract?","",""
+"2022-05-11,03:38:18","captainwoof.official","#0","Hey everyone!
+
+Can anyone tell me, to add/remove liquidity on a position in a pool, does the caller need to be the owner of the position nft?","",""
+"2022-05-12,08:34:45","sun_2417","#0","Hi, so I saw a lot of ways to provide liquidity from an account. Is there a way to provide liquidity from a smart contract. What I mean to say is that the smart contract has some funds, and can that be deposited in the pool?","",""
+"2022-05-12,10:32:01","willdera","#0","Hello @here We're building a swap and would like to do so on uniswap, I'd like to be pointed to a doc or some info to guide me on how to integrate with uniswap's swap extensions.","",""
+"2022-05-12,12:45:41",".stack5","#0","<@836859213895696404> Peep the steez! Largely modeled after your repo!","friendem#0",""
+"2022-05-12,12:45:44",".stack5","#0","https://github.com/blocksurance-dao/blocksurance","",""
+"2022-05-12,12:45:58",".stack5","#0","Would love to get some feedback!","",""
+"2022-05-12,12:46:28",".stack5","#0","ropsten version is here","",""
+"2022-05-12,12:46:30",".stack5","#0","https://ropsten-blocksurance.netlify.app/","",""
+"2022-05-12,14:29:08","awliang","#0","Hey <@&963056755703693332> 👋 
+
+The **Uniswap 🛠 A fast, efficient method for backtesting uniswap LP strategies** workshop is starting now!
+
+Join on Zoom: https://ethglobal.zoom.us/j/89248483170
+Watch on YouTube: https://youtu.be/3HXK8Cab2iY","",""
+"2022-05-12,18:53:29","lumilobo","#0","Hi <@720407640131240026> , Thx for the great presentation from Federico! Could you ask him to share the links from his `references` slide? 🙂","awliang#0",""
+"2022-05-13,09:52:23","lumilobo","#0","I reached out to Federico on the uniswap server. Here are the links:
+
+Historical performances of Uniswap L3 pools - https://defi-lab.medium.com/historical-performances-of-uniswap-l3-pools-2de713f7c70f
+Defi-lab.xyz Github - https://github.com/DefiLab-xyz/uniswap-v3-simulator
+Uniswap V3 Whitepaper - https://uniswap.org/whitepaper-v3.pdf
+Uniswap V3 Introduction Blog post - https://uniswap.org/blog/uniswap-v3
+Python liquidity calculation library by JNP - https://github.com/JNP777/UNI_V3-Liquitidy-amounts-calcs/blob/dfc8a819741ac35d134df0854f62500102bc7727/UNI_v3_funcs.py#L90","",""
+"2022-05-15,17:24:19","samgarcia","#0","Hi all! I'm writing my first smart contract to use Uniswap to swap some tokens and using Mumbai Testnet w/ Hardhat. But I'm getting my transactions failing because of the approval not being correct <:samshock:973004148129796106> 
+
+```
+function swapExactInputSingle(address tokenAddressIn, uint256 amountIn, address tokenAddressOut) external returns (uint256 amountOut) {
+
+    IERC20(tokenAddressIn).approve(address(swapRouter), amountIn);
+    
+    TransferHelper.safeTransferFrom(
+            tokenAddressIn,
+            msg.sender,
+            address(this),
+            amountIn
+    );
+
+   TransferHelper.safeApprove(tokenAddressIn, address(swapRouter), amountIn);
+
+    ISwapRouter.ExactInputSingleParams memory params =
+            ISwapRouter.ExactInputSingleParams({
+                tokenIn: tokenAddressIn,
+                tokenOut: tokenAddressOut,
+                fee: poolFee,
+                recipient: msg.sender,
+                deadline: block.timestamp,
+                amountIn: amountIn,
+                amountOutMinimum: 0,
+                sqrtPriceLimitX96: 0
+            });
+
+    amountOut = swapRouter.exactInputSingle(params);
+}
+```
+https://mumbai.polygonscan.com/tx/0x4a1be5f543693811f49b895ee831e616a05e2f33a6be0c002f99e9e97f4519e1
+I think it's the `IERC20(tokenAddressIn).approve(address(swapRouter), amountIn);` line but I'm not sure. Any ideas? Thanks!","",""
+"2022-05-16,01:49:47","romuald_hog","#0","Hi Sam,
+Look at the `approve` function within your ERC20 contract, as if it's from OpenZeppelin you couldn't reset the allowance to something different than 0 if there was already an allowance. You probably need to check if the allowance is 0 to execute the `approve`. Otherwise use the `increaseAllowance` if present in the ERC20 contract.","samgarcia#0",""
+"2022-05-16,18:50:42","samgarcia","#0","Ah I see, I'll look into that thank you!","romuald_hog#0",""
+"2022-05-17,02:36:31","0xmane","#0","Hi, is there a design standard in solidity for setting up contracts where some of the dependencies are conflicting? Initially thinking to have a separate contract that would contain any UniSwap-related code and have the other dependencies in a separate contract. From my understanding Uniswap v3 requires Solidity = 7.6.0 and another of our protocols in use is Solidity > 8.0.0. Thanks in advance!","",""
+"2022-05-17,04:28:46","Zeroknight | Radius.xyz","#8302","Hi, team ! What are Uniswap's thoughts on MEV?  Not necessarily MEVs from liquidation or arbitrages, which I believe is an essential part of DeFi, but specifically the bad MEVs from sandwiching and arbitrage steals!
+Our team is building an MEV-resistant AMM (modified Uniswap) using timelock puzzle and zkp. I’m wondering if there’s any group in Uniswap to deep dive into this MEV issue.","",""
+"2022-05-17,06:38:14","povrakjanica","#0","Hi! I'm trying to get prices of token pairs of a Uniswap V3 pool on chain(i.e. 1.0008 DAI per USDC = 0.999924 USDC per DAI), and I'm struggling to find information on this. Any help/hints are appreciated. Thanks!","",""
+"2022-05-17,07:35:08","apetimus_prime","#0","Hello Uniswap team. I was thinking of building ccxt integration for Uniswap. Almost all crypto trading bots use ccxt under the hood to interface with exchanges but none of them support DEXes yet. This integration will bring in more algorithmic traders to Uniswap as they can easily get started on their favourite trading bot. 
+Wanted to know your thoughts on whether this is a good idea by itself and whether I can submit this as a tooling project for this hackathon or separately apply for Unsiwap grants. Thanks!","",""
+"2022-05-18,00:36:44","billyjitsu","#0","Hi Uniswap team - in a bit of a head scratcher.  Trying to do a flashloan swap using uniswap as my dex to do a swap:
+Using the example:
+` function swapExactInputSingle(uint256 amountIn)
+      public                  //used to be external
+      returns (uint256 amountOut)
+  {
+      safeTransferWithApprove(amountIn, address(swapRouter));
+      ISwapRouter.ExactInputSingleParams memory params = ISwapRouter
+          .ExactInputSingleParams({
+              tokenIn: DAI,
+              tokenOut: WETH,
+              fee: 3000,
+              recipient: msg.sender,
+              deadline: block.timestamp,
+              amountIn: amountIn,
+              amountOutMinimum: 0,
+              sqrtPriceLimitX96: 0
+          });
+      amountOut = swapRouter.exactInputSingle(params);
+      swappedAmount = amountOut;
+  }`
+
+I created two version with the reverse hard coded (swap dai to weth, and then another function weth to dai)
+
+In the flashloan portions (executeOperation)
+I put this in that function:
+`
+ //swap Dai to usdc
+    swapExactInputSingle(amounts[0]);
+    //Swap USDC to Dai
+    swapExactInputSingleOut(swappedAmount);  // current error
+`
+
+The first swap works as intended, when I'm trying to swap back using my reverse function. I get error like Fail with error 'STF' and Fail with AS (when I put a lower amount).   Now quite sure why I'm erroring.   I even put extra funds in the contract for the slippage to pay back the flashloan.    Any ideas would be appreciated","",""
+"2022-05-18,06:40:02","omnifient","#0","not experienced, but AS is an error code defined here https://docs.uniswap.org/protocol/reference/error-codes","",""
+"2022-05-18,10:16:08","billyjitsu","#0","ty!","omnifient#0",""
+"2022-05-19,21:17:18","franz101","#0","<@716286054508003399> any best practices to fetch current price live from uniswap for the current block?","omnifient#0",""
+"2022-05-20,07:01:44","omnifient","#0","I'm not from the uniswap team nor experienced enough with their api.  
+#dev-chat in their discord seems to be a better place for questions","franz101#0",""
+"2022-05-20,14:55:41","kmadorin","#0","Hi, is it possible to get calldata to swap tokens inside a contract with an optimal route? Can I use auto router from sdk for it?","",""
+"2022-05-21,06:15:21","ThemApples","#6925","Hi Uniswap team, we want your help in incorporating your yield generation into our game. What's the best way for us to feature all that Uniswap offers into our game?
+
+We have created a space adventure game to take DeFi product discovery to a whole new level of fun. Players discover new DeFi products and get yield bounties, as they travel around the galaxy in a spaceship that’s powered through their steps! Each planet type represents a different product for players to learn about and get a taste of the product. It's sample testing for web3 defi products, solutions, and protocols. We have combined DeFi x GameFi x HealthFi. 
+
+
+Name: Hash Space - “What’s out there?” 
+
+Github: https://github.com/hash-space/hash-space","","https://cdn.discordapp.com/attachments/819516506445840395/977514934801952808/HashSpace_HackMoney.png"
+"2022-05-22,02:16:46","jordan.public","#0","https://showcase.ethglobal.com/hackmoney2022/ipdex-interplanetary-decentralized-exchange-498o0","",""
+"2022-05-22,09:59:36","mauricewbr","#0","Hey guys, anybody able to send some last minute help on how to create the nonfungiblepositionmanager which is needed to make the LP full contract example run? Id really appreciate any help!
+https://docs.uniswap.org/protocol/guides/providing-liquidity/the-full-contract","",""
+"2022-05-22,15:15:41","samgarcia","#0","Hey Uniswap! I used Uniswap v3 API to initiate swaps in my project and learnt a ton. Really awesome work y'all do and love your Uniswap interface ease of use. Thanks for your hard work on all the awesome tools and APIs <a:ty:824394592740573215> 
+Here's my project <:samthumbsup:973004110435594342> 
+*Supervest limits risk on crypto investments by setting up streams to slowly invest in a token over time and earn yields.*
+https://showcase.ethglobal.com/hackmoney2022/supervest-oxgoi","",""
+"2022-05-23,14:40:02","tanawat3583","#0","Socotra is building tools to spawn a powerful subDAOs out of any DAO, 
+would love to connect if any DAOs would love to explore with us 🙂
+
+Showcase: https://showcase.ethglobal.com/hackmoney2022/socotra-68pyr
+Twitter: https://twitter.com/socotraprotocol","",""
+"2022-05-25,15:08:05","jordan.public","#0","https://showcase.ethglobal.com/hackmoney2022/ipdex-interplanetary-decentralized-exchange-498o0
+IPDEX received the following prizes:
+🥇 First Place from IPFS/Filecoin
+🥇 First Place / Most Innovative from Uniswap Grants Program
+
+Thank you, Uniswap Grants Program and IPFS/Filecoin!","",""
+"2022-06-14,21:22:40","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/986440575253352498/unknown.png"
+"2022-06-16,23:57:59","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Uniswap Grants Program Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, **UGP** wants you to make sure you can build it! Please let us know what you're working on and let's discuss how we might be able to help you!
+
+Our current focus is to support specific areas accomplishing the following:
+
+Usability - improving the user experience
+Community - growing the ecosystem
+Tooling - improving the developer experience
+
+
+🏆 **PRIZE OVERVIEW **
+*More information soon!*
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+*Uniswap Grants Program will not be hosting a workshop.*
+
+
+🔗 **IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-06-26,09:35:18","defivas","#0","Hey there, we've submitted Velvet.Capital - building a DeFi protocol that helps people & institutions create tokenized index funds, portfolios & other financial products with additional yield and using Uniswap as a liquidity provider during portfolio creation and rebalancing! Please check us out 🙂","",""
+"2022-10-02,17:39:41","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/1026247124100329542/unknown.png"
+"2022-10-03,09:25:49","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Uniswap Grants Team at any point with your questions!
+
+
+👀 **ABOUT** 
+If you're building something 🔥🔥🔥 on Uniswap - whether it's a tool, swap extensions, governance improvements, or even infrastructure for helping others, **UGP** wants you to make sure you can build it! Please let us know what you're working on and let's discuss how we might be able to help you!
+
+Our current focus is to support specific areas accomplishing the following:
+
+Usability - improving the user experience
+Community - growing the ecosystem
+Tooling - improving the developer experience
+
+
+🏆 **PRIZE OVERVIEW **
+
+**🤝 Tooling and Improvements for LPs and Governance engagement**
+🥇 $1,500
+🥈 $1,000 
+
+💡 **Most Innovative Uniswap Integrations**
+🥇 $1,500
+🥈 $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-10-07,20:48:02","Devin731","#9508","Hello!! So excited to meet everyone who is interested in building on Uniswap!","",""
+"2022-10-07,20:48:06","Devin731","#9508","Here are our prizes:","",""
+"2022-10-07,20:48:07","Devin731","#9508","🤝 Tooling and Improvements for LPs and Governance engagement
+
+🥇 $1,500
+🥈 $1,000","",""
+"2022-10-07,20:48:25","Devin731","#9508","💡 Most Innovative Uniswap Integrations
+
+🥇 $1,500
+🥈 $1,000","",""
+"2022-10-07,22:58:28","Devin731","#9508","Here's a blog post on how to do your first Uniswap integration! https://uniswap.org/blog/your-first-uniswap-integration","",""
+"2022-10-07,23:41:35","Devin731","#9508","Ideas for LPs 
+- Interface on v3 staker contract https://github.com/Uniswap/v3-staker
+- “Copy LP” tool 
+
+Ideas for governance 
+- Build an interface for The Franchiser https://github.com/NoahZinsmeister/franchiser
+- Build an interface that allows the creation of a governance proposal that interacts with any contract (today the Uniswap vote interface only allows you to create and approve a token) https://app.uniswap.org/#/vote/create-proposal 
+- Integrate Uniswap governance with Push (EPNS) https://push.org/#/","",""
+"2022-10-07,23:41:45","Devin731","#9508","A few more hacking ideas.... ^","",""
+"2022-10-07,23:43:38","Devin731","#9508","Lastly, you might find this v3 developer book handy or at minimum interesting! https://uniswapv3book.com/","",""
+"2022-10-08,12:25:15","brolag_","#0","hey <@775882950164086805> where can I learn more about what is required for governance notifications?","Devin731#9508",""
+"2022-10-08,13:15:04","Devin731","#9508","can definitely give some thoughts on that","",""
+"2022-10-08,13:16:42","Devin731","#9508","A few ideas: 1) Uniswap delegates can ""subscribe"" to various events for governance proposals - a new governance proposal being created, voting beginning, crossing the 40M quorum, voting ending, 2) Uniswap community members (or just general wallets - dont need to hold UNI) may want a notification on a subset of those events, like when a new proposal is created and when voting ends","",""
+"2022-10-08,13:16:52","Devin731","#9508","does that make sense?","",""
+"2022-10-08,13:17:13","Devin731","#9508","Integrating the new Push Chat app could also potentially be cool for all Uniswap delegates - creating a forum for them to discuss proposals (have thought less about this one)","",""
+"2022-10-08,13:17:22","Devin731","#9508","I will be at Agora in about 30 min and can chat more as well!","",""
+"2022-10-08,13:20:59","Devin731","#9508","A bit more info.... here is the governance portal with new proposals https://app.uniswap.org/#/vote","",""
+"2022-10-08,13:21:12","Devin731","#9508","Here's the tx to create the most recent proposal to deploy v3 on zksync https://etherscan.io/tx/0xb6cce24e8be56bd6b189ee6426f4f608d791a22600b27efafa7e6279c4e4d8bb","",""
+"2022-10-08,13:21:33","Devin731","#9508","Uniswap governor bravo: https://etherscan.io/address/0x408ed6354d4973f66138c91495f2f2fcbd8724c3","",""
+"2022-10-08,18:25:27","brolag_","#0","thanks <@775882950164086805> it makes sense! sorry I had to leave because of Internet connection but I'll check these out","Devin731#9508",""
+"2022-10-09,00:08:23","Devin731","#9508","Let me know if I can help with anything else","",""
+"2022-10-09,00:08:42","Devin731","#9508","Apologies for delayed response I’d don’t have Wi-Fi for a bit either","",""
+"2022-10-09,11:06:53","ulerdogan","#0","Do you have booth for presentation?","",""
+"2022-10-09,12:35:25","ulerdogan","#0","🥲🥲🥲","",""
+"2022-10-09,13:54:30","_ailton","#0","Hello Uniswap team
+We've built a product DEFI VISTA 
+We'd like to pitch the product for bounty purpose. Could you please advise?","",""
+"2022-10-09,14:56:49","awfm9","#3383","Hello Uniswap team. Hard to come by you guys at the event! I have been working on an AutoHedge tool for Uniswap v2 liquidity positions with James of Autonomy Network. Basically, I created a Go tool to mine all Uniswap pool information on a block-granularity level and dump it into InfluxDB, then another Go tool to run a backtest of the AutoHedge position versus a normal Uniswap liquidity position and a normal hold position. I think it might be useful to liquidity providers, and the metrics tool could be useful to a large range of people  - I believe The Graph only has 5 minute granularity, which is not appropriate for some use cases? Do you think it could be eligible for a price/grant? If so, what would I need to submit? I can do a slide deck with explanation on methodology and graphs?","",""
+"2022-10-09,14:56:58","awfm9","#3383","","","https://cdn.discordapp.com/attachments/819516506445840395/1028742890345746432/autohedge-v2-backtest.png"
+"2022-10-09,14:58:30","awfm9","#3383","This is essentially the result. On June 13th and June 14th, there was some volume spikes in massive transactions, so the hedging tool can't rebalance fast enough. After June, by coincidence, the network gas cost is averaging quite a bit lower, so the profitability goes up significantly, as rehedging costs gas each time.","",""
+"2022-10-09,14:58:50","awfm9","#3383","The difference between purple and blue line is impermanent loss incurred by liquidity providers.","",""
+"2022-10-09,14:59:42","awfm9","#3383","I would also like to work on a version for Uniswap v3, which needs to do repositioning of position bounds based on various metrics, and support that in both tools as well. Please let me know what you think!","",""
+"2022-10-09,15:00:04","awfm9","#3383","<@775882950164086805> it looks like you are the guy to speak to. Are you at the event? Can we have a chat over a coffee?","Devin731#9508",""
+"2022-10-09,15:39:43","Devin731","#9508","Yes! Sorry!","",""
+"2022-10-09,15:39:57","Devin731","#9508","Can chat now and after the final presentation as well","",""
+"2022-10-09,15:40:17","Devin731","#9508","Everyone reach out to me on telegram devinawalsh","",""
+"2022-10-09,15:40:21","Devin731","#9508","We can chat today!","",""
+"2022-10-09,15:46:03","awfm9","#3383","<@775882950164086805> I reached out on Telegram, but it would be cool if you could read the summary above 🙂","Devin731#9508",""
+"2022-10-09,15:46:28","Devin731","#9508","Hi I'm sorry we did not have a booth! We didn't haev a ton of people here (but will next time) - apologies I was unavailable earlier in theday but I would love to chat after the closign ceremony, dm me on telegram at devinawalsh","ulerdogan#0",""
+"2022-10-09,15:50:16","Devin731","#9508","Reach out to me on telegram devinawalsh and lets meet up after the closing ceremony!","_ailton#0",""
+"2022-10-09,15:51:28","Devin731","#9508","reading and also sending to larger grants team who are not here","awfm9#3383",""
+"2022-10-09,15:51:30","Devin731","#9508","will revert back","",""
+"2022-10-09,15:51:45","awfm9","#3383","Awesome, thank you.","",""
+"2022-10-09,15:51:53","Devin731","#9508","what instrument makes up the hedge? an equivalent short position?","",""
+"2022-10-09,15:52:14","Devin731","#9508","I thought The Graph had a block-level granularity - is that not true? its 5 minutes?","",""
+"2022-10-09,15:54:39","awfm9","#3383","We take out a flash loan to create 2x leverage, and hedge by taking out an ETH loan that we use to pay back the flash loan. The debt and the liquidity position are then balanced against each other so the ETH amounts always match, using automatic condition-triggered execution by the Autonomy Network.","",""
+"2022-10-09,15:55:47","awfm9","#3383","We are basically paying additional transaction costs, in return for removing volatility and impermanent loss.","",""
+"2022-10-09,15:57:03","awfm9","#3383","It's an improved second version of AutoHedge documented here: https://autonomy-network.gitbook.io/autonomy-docs/autonomy-network/products/autohedge","",""
+"2022-11-01,20:37:02","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/1037163391388758087/unknown.png"
+"2022-11-01,20:37:48","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Uniswap Grants Team at any point with your questions!
+
+
+👀 **ABOUT** 
+The **Uniswap Foundation** is the first Foundation of a major protocol to go through the community governance process, its mandate is to support the Uniswap protocol’s decentralized growth, reinvigorate governance, and serve as a Protocol advocate.
+
+Uniswap is the leading decentralized crypto trading protocol. The Uniswap protocol is a peer-to-peer system designed for exchanging cryptocurrencies (ERC-20 Tokens) on the Ethereum blockchain. The marketplace is open and accessible to all and anyone can build applications leveraging token swaps, oracles, liquidity pools (LP), and more.
+
+
+🏆 **PRIZE OVERVIEW **
+
+Requirement: Must be an integration built on top of Uniswap (more than just swapping!)
+
+**For LP:**
+🥇 $3,500 - Top LP Tool. Awarded for the most novel solution for LPing on Uniswap v3
+🦄 $1,500 - Runner-up LP Tools!
+
+**For Data:**
+🥇 $3,500 - Data Platform, Awarded to the best on-chain data alternative.
+🦄 $1,500 - Runner-up for data solutions!
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**Uniswap Foundation 🛠 Uniswap SDK Overview**
+Time: 05:30 PM PDT – Nov 04, 2022
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://www.unigrants.org/
+https://www.notion.so/unigrants/UNI-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5
+https://www.notion.so/RFPs-Challenges-3be614ba4e504b5caeee7b0159e64a42","",""
+"2022-11-04,01:56:40",".mwong","#0","hi!","",""
+"2022-11-04,01:56:52",".mwong","#0","i’m just curious what are some examples of things you’d be stoked to see built with uniswap","",""
+"2022-11-04,20:22:05","Devin731","#9508","Our Hackathon Getting Started Guide! https://www.notion.so/Uniswap-Foundation-Hackathon-Getting-Started-Guide-781b008a16c849c8bf4d9920744e77f5","",""
+"2022-11-04,20:32:16","Devin731","#9508","Was jsut talking to someone about the python library: https://github.com/makerdao/pyexchange","",""
+"2022-11-04,21:16:24","Devin731","#9508","Hi! So for LPs:
+1) improved UX/UI for LPs to understand historical LP position returns (maybe combined with other arbitrary positions held - as some LPs use LP positions as part of a larger strategy that they may want to track and assess future returns of)
+2.  This new paper decomposes LP returns into a market risk component and a “loss versus rebalancing” component - LVR. This may be a better metric to use for tracking LP returns. Use this paper to create a dashboard or hedging tool for LPs. 
+3. ERC-4626 vault tokens repo
+4. “V3 staking interface” - different types of interfaces for v3 staking
+5. “V3 limit orders” - limit orders utilizing single sided LP positions
+6. “V3 range orders” -  range orders utilizing v3 LP positions
+7. “V3 LP tokens + ERC-4626” - create ERC-4626 vaults that support Uniswap v3 LP positions (https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/)",".mwong#0",""
+"2022-11-04,21:27:13","Devin731","#9508","For data: 1. Think it would be cool to be able to pull in Uniswap data or LP positions specifically (potentially with other positions that may be part of a larger strategy) into a Google Sheet or Excel Spreadsheet to then manipulate additionally 
+2. Data repository/ dashdboard/tool that allows analysts to track LP returns over time (per pool, fee tier, etc.). Maybe using this to help: https://uniswap.org/feeReturnsMathAppendix.pdf","",""
+"2022-11-04,21:27:23","Devin731","#9508","3. Any other novel data idea you have!","",""
+"2022-11-04,21:55:09","Devin731","#9508","another data idea; 4) In order to advance the utility and security of TWAP oracles, the Uniswap Foundation is seeking proposals from researchers, developers, academics, and interested parties to explore the following questions:
+
+Under what conditions are pools most vulnerable to TWAP manipulation and what are the associated limits to where TWAP is economically resilient to exploits?
+Given the problem space for single-block attacks and MEV capture, what would an ideal POS-native on-chain price oracle look like (ignoring costs)?
+What are the different methodologies for us to compare the costs, efficiency of different, and resilience of various price oracle implementations (TWAP, TWMP, etc…)?","",""
+"2022-11-04,23:42:20","contractor","#3331","<@775882950164086805> friend requested","Devin731#9508",""
+"2022-11-05,00:03:40","Devin731","#9508","accepted1","",""
+"2022-11-06,05:41:16","amorphousguy","#0","<@775882950164086805> - we are submitting specifically for uniswap.  At what time more or less do you expect to be running the hacker presentations? Thanks!","Devin731#9508",""
+"2022-11-06,12:03:07","Devin731","#9508","hey! they will be judged virtually by <@420370295698751510>","nkennethk#0",""
+"2022-11-06,12:03:37","nkennethk","#0","👋 👋 👋","",""
+"2022-11-06,12:19:48","amorphousguy","#0","Hi <@!420370295698751510> !  What timing /logistics were you thinking?","nkennethk#0",""
+"2022-11-06,13:14:23","nkennethk","#0","we're judging virtually","amorphousguy#0",""
+"2022-11-06,13:14:30","nkennethk","#0","what project are you <@754938116674158674>","amorphousguy#0",""
+"2022-11-06,13:41:35","amorphousguy","#0","https://ethglobal.com/showcase/fungible-v3-lp-wm905","",""
+"2022-11-06,14:08:22","nkennethk","#0","gotcha - if you have time, would love to jump on a google hangouts and get a runthrough","amorphousguy#0",""
+"2022-11-06,14:08:35","nkennethk","#0","if not, it's also totally fine without! <@754938116674158674>","amorphousguy#0",""
+"2022-11-06,14:29:20","rahulkumaran","#0","Quick question - do we have an estimated timeframe for the results? Also, do we need to do anything else from our end so that the hacks can be judged smoothly virtually?","",""
+"2022-11-06,14:31:28","amorphousguy","#0","Happy to - more if you have any questions really.  If so, want to dm what time today works?","nkennethk#0",""
+"2022-11-06,14:32:45","amorphousguy","#0","Will also dm the presentation I guess, not all slides uploaded as screenshots (eg next steps)","nkennethk#0",""
+"2022-11-06,14:35:23","nkennethk","#0","nope nothing needed! results should be out soon from the ethglobal team","rahulkumaran#0",""
+"2022-11-06,14:35:41","nkennethk","#0","we're actually okay for now but would love to talk after the hackathon 🤗","amorphousguy#0",""
+"2022-11-06,14:39:25","Vasily","#7221","<@420370295698751510>  Hi, i was talking to Devin yesterday about an interesting hack i came up with in the uni v3 formula (84% bounds). I wanted to present it, is there some link I follow to present it?","nkennethk#0",""
+"2022-11-06,14:47:52","Vasily","#7221","I wanted to present my solution to uniswap, feel free to dm when you're available,","",""
+"2022-11-06,14:58:10","Vasily","#7221","I left my contact in dm","",""
+"2022-11-06,15:10:38","ethanz4945","#0","<@420370295698751510>  Hello, our team's project is easyLP for ETH San Francisco hack. The URL is https://ethglobal.com/showcase/easylp-8o44q. I am happy to live demo it if you would like to do so.","nkennethk#0",""
+"2022-11-06,15:52:57","ben.zzz","#0","hey frens - we built https://cambria-front.fly.dev/ to visualize on-chain activity in real time - across multiple chains and protocols.  super interesting to see uniswap activity relative to everything thats happening on chain!","",""
+"2022-11-06,16:28:48","gnarlycow_aperture","#0","Hi! We built a UniV3-based leveraged pseudo-delta-neutral strategy vault, with full on-chain position setup and management (reinvestment & rebalance). Project page: https://ethglobal.com/showcase/univ3leveragedcrab-x6gkc","",""
+"2022-11-06,16:28:50","gnarlycow_aperture","#0","Slides: https://docs.google.com/presentation/d/1cF4UtT3ZUT2WEDzwUPZw9zyYZfVkgNkGERe7B9HohkI/edit?usp=sharing","",""
+"2022-11-06,16:30:37","hogspogs","#0","hey, FR me, let’s chat","gnarlycow_aperture#0",""
+"2022-11-06,16:48:56","gnarlycow_aperture","#0","Just sent FR.","hogspogs#0",""
+"2022-11-06,17:00:45","gnarlycow_aperture","#0","<@568667374249574400>","hogspogs#0",""
+"2022-11-06,20:25:07","rahulkumaran","#0","Wasn't there a Uniswap data related track? Because I believe the prizes for that weren't announced?","",""
+"2023-03-14,06:49:28","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/1085152714838773791/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,12:07:22","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Uniswap Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Uniswap** **Foundation** is the first Foundation of a major protocol to go through the community governance process, its mandate is to support the Uniswap protocol’s decentralized growth, reinvigorate governance, and serve as a Protocol advocate.
+
+Uniswap is the most renowned decentralized exchange (DEX) in the world, built on the Ethereum network. The revolutionary platform has transformed the way digital assets are traded, allowing users to swap tokens without the need for intermediaries or centralized exchanges. Uniswap's innovative approach to liquidity provision, driven by its Automated Market Maker (AMM) system, has disrupted the traditional financial landscape and set the standard for other decentralized finance (DeFi) projects.
+
+The launch of Uniswap V3 brought forth even more groundbreaking features, including concentrated liquidity, customizable fee tiers, and optimized capital efficiency. These improvements keep pushing Uniswap's position as the leading DEX and a cornerstone of the rapidly evolving DeFi ecosystem. With its massive user base, exceptional trading volume, and cutting-edge technology, Uniswap continues to inspire new ideas and drive the future of decentralized finance.
+
+Despite boasting impressive features like concentrated liquidity and adjustable fee tiers, Uniswap V3 has untapped potential for further enhancements. We invite you to join us in driving these advancements and shaping the future of the Uniswap ecosystem
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 **Open/Innovation Track - $1,500 - Unleash Uniswap V3 Potential**
+
+🌍 **Ecosystem Track - $2,500 - Expand and Connect the Uniswap World**
+
+🛠 **Developer Tooling Track - $1,500 - Empower Uniswap Developers**
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes","",""
+"2023-04-15,01:35:33","andre_3kx","#0","Hi there, quick question, would we qualify for the expand the uniswap world bounty if we manage to include the UNI token as a form of payment on our dapp?","",""
+"2023-04-15,03:34:29","tyllen.uni","#8894","Hey Andre, it would need to incorporate the Uniswap V3 SDK or Protocol to qualify for the bounty","andre_3kx#0",""
+"2023-04-15,10:45:12","timbresociety","#0","Getting a failure while swapping USDC to WETH on Uniswap V3 pool on Goerli Testnet.
+
+
+Here's the transaction hash -
+0x784a011cc9738352a1cbab7ed0831426b96def40751fec6d9ff4c84619709cbb
+
+Can anyone help us debug the issue here?","",""
+"2023-04-15,20:38:24","cecco_","#0","Hello, where can we present for the uniswap prize?","",""
+"2023-05-01,14:23:20","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/1102661551317590127/Viewable_on_TV.png"
+"2023-05-08,12:27:46","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Uniswap Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Uniswap Foundation** is the first Foundation of a major protocol to go through the community governance process, its mandate is to support the Uniswap protocol’s decentralized growth, reinvigorate governance, and serve as a Protocol advocate.
+
+Uniswap is the most renowned decentralized exchange (DEX) in the world, built on the Ethereum network. The revolutionary platform has transformed the way digital assets are traded, allowing users to swap tokens without the need for intermediaries or centralized exchanges. Uniswap's innovative approach to liquidity provision, driven by its Automated Market Maker (AMM) system, has disrupted the traditional financial landscape and set the standard for other decentralized finance (DeFi) projects.
+
+The launch of Uniswap V3 brought forth concentrated liquidity, customizable fee tiers, and optimized capital efficiency. With its massive user base, exceptional trading volume, and cutting-edge technology, Uniswap continues to inspire new ideas and drive the future of decentralized finance.
+
+Despite boasting impressive features like concentrated liquidity and adjustable fee tiers, Uniswap V3 has untapped potential for further enhancements. We invite you to join us in driving these advancements and shaping the future of the Uniswap ecosystem
+
+
+🏆 **PRIZE OVERVIEW**
+
+🏆 **Open/Innovation Track - $1,000 - Unleash Uniswap V3 Potential**
+
+🌍 **Ecosystem Track - $2,500 - Expand and Connect the Uniswap World**
+
+🛠 **Developer Tooling Track - $1,500 - Empower Uniswap Developers**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🚀 **WORKSHOP**
+An Introduction To Building On Uniswap
+Time: 05:00 PM WEST – May 12, 2023
+Location: 2nd Floor | Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+https://www.uniswapfoundation.org/hacker-home","",""
+"2023-05-12,21:33:20","sudolabel","#0","is unswap's prize limited only to v3 sdk or also universal sdk? from ""Uniswap V3 Protocol or SDK""","",""
+"2023-05-13,07:39:44","voerch","#0","hey anyone around from uni team, would love to ask couple questions?","",""
+"2023-05-13,08:43:54","anson5805","#0","hey, is there the slides from yesterday's workshop?","",""
+"2023-05-13,08:58:33","anson5805","#0","also i'm currently following:
+https://docs.uniswap.org/sdk/v3/guides/quoting
+
+and trying to run this code:
+```
+    const poolContract = new ethers.Contract(
+      currentPoolAddress,
+      IUniswapV3PoolABI.abi,
+      provider
+    );
+
+    console.log(""poolContract:"", poolContract);
+
+    const token0 = await poolContract.token0();
+```
+but receiving this, any idea?","","https://cdn.discordapp.com/attachments/819516506445840395/1106928474037440622/image.png"
+"2023-05-13,12:01:17","tyllen.uni","#8894","Hey <@1096216069921853641> try code from here
+
+https://tyllen-bicakcic.gitbook.io/fetching-spot-prices/","anson5805#0",""
+"2023-05-13,12:01:25","tyllen.uni","#8894","That sdk might have some outdated info","",""
+"2023-05-13,12:06:35","anson5805","#0","anybody knows what does this error mean?
+```
+ge.tsx:463 Uncaught (in promise) Error: legacy pre-eip-155 transactions not supported (error={""reason"":""processing response error"",""code"":""SERVER_ERROR"",""body"":""{\""jsonrpc\"":\""2.0\"",\""id\"":57,\""error\"":{\""code\"":-32000,\""message\"":\""only replay-protected (EIP-155) transactions allowed over RPC\""}}"",""error"":{""code"":-32000},""requestBody"":""{\""method\"":\""eth_sendRawTransaction\"",\""params\"":[\
+```","",""
+"2023-05-13,12:07:17","anson5805","#0","what's uniswap foundation telegram?","",""
+"2023-05-13,16:23:59","andreribeiro","#0","Hello, we are currently trying to implement a swap with the UniswapSDKV3 on Goerli network. We are having troubles with how to get the right ABI. 
+
+Is there anyone around that can help us? Thank you!","",""
+"2023-05-13,16:52:12","doncord","#0","What is the definition of a *social token*?","",""
+"2023-05-13,17:52:42","tyllen.uni","#8894","Hey <@245650179598974986> I’m about to be at event do you still need help?","andreribeiro#0",""
+"2023-05-13,17:53:43","tyllen.uni","#8894","<@645968180849934346> social token might be too broad. Can be a token for any purpose. Just a basic crypto token","doncord#0",""
+"2023-05-13,17:54:17","tyllen.uni","#8894","<@1096216069921853641> are you still having errors?","anson5805#0",""
+"2023-05-13,17:55:49","andreribeiro","#0","yes, we are currently on the top floor, where can we find you?","tyllen.uni#8894",""
+"2023-05-13,18:04:58","tyllen.uni","#8894","<@245650179598974986> I’m at the uniswap booth downstairs","andreribeiro#0",""
+"2023-05-13,19:47:57","jordan.public","#0","https://ethglobal.com/showcase/guardian-oracle-keeper-protocol-rpcws","",""
+"2023-09-13,13:22:11","awliang","#0","","","https://cdn.discordapp.com/attachments/819516506445840395/1151568523131363359/image.png"
+"2023-09-17,13:03:40","awliang","#0","Hello and welcome to the <#819516506445840395> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Uniswap Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Uniswap Foundation** is the first Foundation of a major protocol to go through the community governance process, its mandate is to support the Uniswap protocol’s decentralized growth, reinvigorate governance, and serve as a Protocol advocate.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🎣 **Hookathon - $12,000** (Pool Prize)
+🛠 **Developer Tooling for Hooks/Uniswap V4 - $3,000** (Pool Prize)
+🏆 **Open/Innovation Prize - $5,000** (Pool Prize)
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🛠️ Uniswap Foundation Workshop - Introduction to Uniswap V4
+Time: 05:00 PM EDT – Sep 22, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+[Uniswap Foundation Hacker Home](https://www.uniswapfoundation.org/hacker-home)  
+[Uniswap Foundation V4 Docs](https://docs.uniswapfoundation.org/)","",""
+"2023-09-19,19:21:07","marcuswentz","#0","Anyone interested in doing Uniswap V4 hooks?","",""
+"2023-09-20,15:51:54","marcuswentz","#0","I will be on a panel for a side event during the Uniswap V4 hooks workshop at 5PM EST Friday. Can anyone share the recording as soon as it is done? Thank you.","",""
+"2023-09-20,16:19:16","cankisagun","#0","would be interested in experimenting with hooks","marcuswentz#0",""

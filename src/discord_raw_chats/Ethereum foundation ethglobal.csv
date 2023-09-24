@@ -1,0 +1,382 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-12-02,04:07:08","awliang","#0","","","https://cdn.discordapp.com/attachments/1048163280264364032/1048163400628322345/unknown.png"
+"2022-12-02,04:13:28","awliang","#0","Hello and welcome to the <#1048163280264364032> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the EF Team at any point with your questions!
+
+
+👀 **ABOUT** 
+The **Ethereum Support Program (ESP) **is the public-facing allocation arm of the Ethereum Foundation focused on strengthening Ethereum's foundations and enabling future builders: improving infrastructure, expanding the range of tools available to those building on Ethereum, deepening our understanding of cryptographic primitives, and growing the builder ecosystem through education and community development.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**The Ethereum Foundation will award $10,000 for projects building using Account Abstraction.**
+
+📲 A browser-based or mobile wallet demonstrating creative use of ERC 4337:
+2x🥇 — $2,500
+
+🛠 Best ERC-4337 tools for developers and users:
+2x🥇 — $2,500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/xHWlJiL_iZA
+
+
+🔗 **IMPORTANT LINKS**
+https://youtu.be/QuYZWJj65AY
+https://eip4337.com/en/latest/resources.html","",""
+"2022-12-02,14:26:26","0xdhruv","#0","Thanks for the resources.","",""
+"2022-12-02,23:06:43","supernovahs","#0","<@784463459218751528>","plusminushalf#0",""
+"2022-12-02,23:06:47","supernovahs","#0","Need help","",""
+"2022-12-02,23:07:11","plusminushalf","#0","Hey yes tell me, I will be at the venue by 10:30","",""
+"2022-12-02,23:10:05","supernovahs","#0","Ok  I'll meet u at the mentor table","",""
+"2022-12-02,23:58:50","supernovahs","#0","<@784463459218751528> I'm at the mentor table","plusminushalf#0",""
+"2022-12-03,00:14:46","plusminushalf","#0","Hey apologies, running late. Should be at the venue soon","",""
+"2022-12-03,00:45:24","plusminushalf","#0","Checkout - https://github.com/plusminushalf/demo-aa/blob/main/src/runop.ts","",""
+"2022-12-03,02:39:09","satwikkansal","#0","Hello! we wanted to discuss something wrt ERC4337, is it possible to speak to someone?","",""
+"2022-12-03,08:08:05","chiefbee","#0","<@784463459218751528> Hey are you at the venue right now? Had some doubts.","plusminushalf#0",""
+"2022-12-03,08:08:26","plusminushalf","#0","He yes I am in the room 8","",""
+"2022-12-03,08:10:33","chiefbee","#0","May I know till what time you'll be at the venue?","plusminushalf#0",""
+"2022-12-03,08:10:51","plusminushalf","#0","I should be here till late night","",""
+"2022-12-03,08:11:03","chiefbee","#0","Okay awesome. Will meet with you. Thank you!","plusminushalf#0",""
+"2022-12-04,00:11:54","piyo.eth","#0","In ETHIndia2022, we built a tool that enables devs and users to use ERC-4337 easily. Thank you!
+https://devfolio.co/projects/aa-snap-c064","",""
+"2022-12-04,01:15:59","roamingrahi","#0","Hey,
+Here’s another approach built at ETHIndia ‘22. It is a virtual web based wallet that makes the use of EIP4337 compliant smart wallet much easier.
+
+https://devfolio.co/projects/anyaee-0e8e","",""
+"2022-12-04,01:43:51","taijusanagi","#0","Hi, we built a payment and royalty reward application with a custom ERC4337 module for Safe. We built a bundler, contract wallet, SDK, and Safe module together and built the actual use case of Account Abstraction. 
+
+The reason why we use Safe is to provide multi-sig for restaurants and provide session keys for customers. This is about giving users a choice of the balance of security and usability based on the requirement.
+https://devfolio.co/projects/digigo-l-one-reward-to-rule-them-all-7e94","",""
+"2023-02-16,07:17:38","awliang","#0","","","https://cdn.discordapp.com/attachments/1048163280264364032/1075752820566929498/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,12:22:30","awliang","#0","Hello and welcome to the <#1048163280264364032> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Ethereum Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Ethereum Foundation (EF)** is a non-profit organization that supports the Ethereum ecosystem. We are part of a larger community of organizations and individuals that fund protocol development, grow the ecosystem, and advocate for Ethereum.
+
+**Ecosystem Support Program (ESP)**
+
+ESP is the public-facing allocation arm of the Ethereum Foundation focused on strengthening Ethereum's foundations and enabling future builders: improving infrastructure, expanding the range of tools available to those building on Ethereum, deepening our understanding of cryptographic primitives, and growing the builder ecosystem through education and community development.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Prize - Account Abstraction: Wallets, Paymasters, & Developer Tooling**
+🏅 - $2,500 x 4
+
+**Prize - ZK, Semaphore, RLN, & Unirep**
+🏅 - $2,500 x 4
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🚀 **WORKSHOP**
+Unlocking Account Abstraction - Smart accounts for the next billion users
+Time: 6:00 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+See list of full resources here: https://ethglobal.com/events/tokyo/prizes#ethereum-foundation","",""
+"2023-04-14,04:21:24","anbulynx","#0","hey guys. Where can I ask a silly question about account abstraction?","",""
+"2023-04-14,09:42:12","christopherlema","#0","Hey <@477802527920750601> - apologies for not getting back to you sooner! Feel free to post your questions here","anbulynx#0",""
+"2023-04-14,09:43:25","christopherlema","#0","We can also connect you with any mentors around account abstraction","",""
+"2023-04-14,19:29:25","taijusanagi","#0","Hi, I'd like to get technical support for interacting with paymaster.
+
+This is addPaymaster code in Trampoline.
+```
+      const paymasterRPC = new ethers.providers.JsonRpcProvider(paymasterUrl, {
+        name: 'Paymaster',
+        chainId: parseInt(activeNetwork.chainID),
+      });
+```
+I'm not sure how to build the JSONRPCProvider for custom paymaster
+I tried adding custom paymaster with Infinitism account/paymaster API before, and it worked. 
+But I could not find documentation on how to build rpc for paymaster.","",""
+"2023-04-14,22:06:32","prairienotes","#0","Hey there, thanks for your question! The AA mentors will be at the EF booth today, we'll give you a ping when they reach 🙂","taijusanagi#0",""
+"2023-04-14,22:46:54","prairienotes","#0","Hackers building anything ZK-related or using the Unirep, RLN, and Semaphore protocols! If you have any questions or require mentorship, please post them in this new thread by the PSE team: https://discord.com/channels/943612659163602974/1096626566362038392","",""
+"2023-04-14,22:50:40","j0xn","#0727","Hello, i have some questions regarding MACI. Especially about the implications of the trusted coordinator & gas costs for registration/voting.","",""
+"2023-04-14,22:50:53","j0xn","#0727","Could you connect me with someone from the team?","",""
+"2023-04-14,23:09:05","wanseoblim","#0","<@649820400577937418> Phini can you help this?","j0xn#0727、phiniqq#0",""
+"2023-04-14,23:48:00","prairienotes","#0","Hackers working on Account Abstraction! We have mentors available near the EF booth, so feel free to come up and ask your questions! 😊","",""
+"2023-04-14,23:57:29","taijusanagi","#0","Thanks, I'll be there soon!","prairienotes#0",""
+"2023-04-15,02:26:05","atheartengineer","#0","https://discord.com/channels/943612659163602974/1096626566362038392","j0xn#0727",""
+"2023-04-15,05:53:52","Kurose","#5055","I have a question about AA. 
+The first contract function call , ""setSecondOwner"", always fails.
+But the second time, it works fine.
+I thought it's because of the gas related params, because there is a extra deployment process at the first call and '@account-abstraction/sdk' hardcoded some gas calculations.
+But even if I set high ""maxPriorityFeePerGas"", ""maxFeePerGas"", ""verificationGasLimit"", ""preVerificationGas"", it still fails.
+
+If I call simply transfer at the first time, it works fine.  
+
+Are there any possible reasons for this problem?
+
+this is the transaction log.
+It says only ""success :False"".
+https://mumbai.polygonscan.com/tx/0x7dbf54eecfaf4afe3813075c577c9bed6a337772c5b5aacda3dc76b6fa0a5768#eventlog","",""
+"2023-04-15,13:32:24","drortirosh","#0","<@784463459218751528> , any idea why?","Kurose#5055、plusminushalf#0",""
+"2023-04-15,13:38:11","plusminushalf","#0","Hey <@173910568640446464> is this from two-owner-account branch?","Kurose#5055",""
+"2023-04-15,14:07:58","Kurose","#5055","I have no idea😢
+We use Stackup bundler and entrypoint.  it's implementation problem?🤔 
+Our temporary solution is very ugly; simply send transactions twice.
+https://github.com/enu-kuro/bailout/blob/240fdad12d49143de4ed7bbdb0f92595a5d843f6/packages/site/src/snapMock/aaWallet.ts#L86","drortirosh#0",""
+"2023-04-15,14:11:55","Kurose","#5055","What do you mean?
+We implemented 2FA(multisig) in AA and encountered a problem to set the socondOwner during the first contract call.","plusminushalf#0",""
+"2023-04-15,14:13:16","plusminushalf","#0","Why are you creating `accountAPI` from `SimpleAccountAPI` You should be using your own API specific to your wallet. This will deploy the simpleAccount which doesn't have `setSecondOwner` function inside it","",""
+"2023-04-15,14:54:18","Kurose","#5055","> You should be using your own API specific to your wallet.
+
+I know but we don't have enough time to fully implement our own API.
+In most cases, ""@account-abstraction/sdk"" works fine without customization.
+The only modification we made was to use ""myWrapProvider"".
+https://github.com/enu-kuro/bailout/blob/main/packages/site/src/snapMock/myWrapProvider.ts","plusminushalf#0",""
+"2023-04-15,15:30:15","plusminushalf","#0","Unfortunately, you will have to implement custom API. But you can fast track it by extending SimpleAccountAPI and modifying the functions that need change,","Kurose#5055",""
+"2023-04-15,21:13:35","prairienotes","#0","G'morning hackers! Head up to the EF Booth to demo your ZK-related projects or projects using Semaphore, RLN and Unirep! Account Abstraction projects, please present your projects at the table diagonally in front of the EF Booth 💫","",""
+"2023-04-17,21:10:06","guiguhacker","#0","Hi Ethereum Foundation Team. 
+This is Wilson from Musubi! 
+Thank you for choosing us as one of the winners! 
+We will continue developing it as a public good to boost efficiency for talent matching!
+Just have a quick question, I saw the page mistyped our project's name. Could you help confirm it? Thank you very much!","",""
+"2023-04-27,05:06:47","awliang","#0","","","https://cdn.discordapp.com/attachments/1048163280264364032/1101071937628819536/Viewable_on_TV.png"
+"2023-05-08,12:41:31","awliang","#0","Hello and welcome to the <#1048163280264364032> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Ethereum Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Ethereum Foundation (EF)** is a non-profit organization that supports the Ethereum ecosystem. We are part of a larger community of organizations and individuals that fund protocol development, grow the ecosystem, and advocate for Ethereum.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Ethereum.org reimagined with web3**
+🏅 We will award $2,500 USDC to the top two projects.
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🚀 **WORKSHOP**
+Unlocking Account Abstraction - Smart accounts for the next billion users
+Time: 07:00 PM WEST – May 12, 2023
+Location: 2nd Floor | Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+https://github.com/ethereum/ethereum-org-website
+https://github.com/ethereum/ethereum-org-website/blob/dev/docs/stack.md
+https://ethereum.org/en/about/#our-mission
+https://ethereum.org/en/about/#core-principles","",""
+"2023-05-12,11:45:57","maxim3615","#0","is there any interest from EF for exec specs in rust?","",""
+"2023-05-12,13:28:00","heymarcopolo","#0","which specs do you mean?","maxim3615#0",""
+"2023-05-12,13:31:46","maxim3615","#0","https://ethereum.github.io/execution-specs/","heymarcopolo#0",""
+"2023-05-12,14:00:09","prairienotes","#0","If it's for any of the two categories of prizes we've put up (https://ethglobal.com/events/lisbon/prizes#ethereum-foundation), we're open to it!","maxim3615#0",""
+"2023-05-12,14:03:43","prairienotes","#0","For any hackers working on the ethereum.org prize, we have mentors at the EF booth right now if you need some advice or feedback! They'll also be here over the next 2 days 😊","",""
+"2023-05-12,14:21:49","isabelladebrito","#0","Yes! <@947755008609361950> and I will be around, come say hi 👋","prairienotes#0、nuno.loureiro#0",""
+"2023-05-12,14:58:08","maxim3615","#0","Yes we're looking to reimagine ethereum. Educate with Rust.","prairienotes#0",""
+"2023-05-12,19:03:17","heymarcopolo","#0","where's the EF booth? https://twitter.com/EF_ESP/status/1657095904292380672","",""
+"2023-05-13,01:48:18","tommyl","#4234","Hi - got some issue with trying out Trampoline. With the given Goerli setting (https://github.com/eth-infinitism/trampoline/blob/2b09df1da7e749dda821908f16465f4149ae549b/src/exconfig.ts), after filling some test ETH with the newly created account, I tried to deploy the account via ""DEPLOY ACCOUNT"" button (or send some ETH out to other addresses), the `txHash` returned `null`. See attached console screen.","","https://cdn.discordapp.com/attachments/1048163280264364032/1106820198046113812/image.png"
+"2023-05-13,01:50:12","tommyl","#4234","I did the same with the current Sepolia setup (https://github.com/eth-infinitism/trampoline/blob/master/src/exconfig.ts) - it gave error instead - `4001: Invalid UserOp signature or paymaster signature`. Wonder if there is any pointer around such observation.","",""
+"2023-05-13,04:38:02","prairienotes","#0","Hey! Our booth is right beside the mentors booth","heymarcopolo#0",""
+"2023-05-13,04:38:58","prairienotes","#0","Thanks for your question! We're getting in touch with the folks who built Trampoline, and will get back to you ASAP","tommyl#4234",""
+"2023-05-13,04:47:20","plusminushalf","#0","Hey <@701416168505737217> did you make any changes to `account-api`?","tommyl#4234",""
+"2023-05-13,04:48:17","tommyl","#4234","no - just cloned from repo","",""
+"2023-05-13,04:49:19","plusminushalf","#0","umm, then it shouldn't have happened. what is your operating system?","",""
+"2023-05-13,04:50:37","tommyl","#4234","MacOS","plusminushalf#0",""
+"2023-05-13,04:51:39","tommyl","#4234","with Chrome as browser","",""
+"2023-05-13,04:57:42","plusminushalf","#0","<@701416168505737217>  try changing the `stateVersion` in `exconfig.ts` and restarting `yarn start` after compilation is complete try reloading it. Somehow your local state might have been corrupted, this would reset the state. I will try and do an RCA in the meantime to see why this might have happened.","tommyl#4234",""
+"2023-05-13,04:57:53","plusminushalf","#0","You can bump it to `0.2`","",""
+"2023-05-13,04:58:31","plusminushalf","#0","`stateVersion` is a random version we give to the state we store in `localstorage` to be able to re-load the previous extension state. Changing it would just reset the state.","",""
+"2023-05-13,05:00:11","taijusanagi","#0","<@784463459218751528> 
+Hi, I'm also working on the AA wallet extending the Trampoline wallet and need help.
+
+I got this error when I call the function sends 0x as data from Trampoline.
+
+```
+{""message"":""preVerificationGas too low: expected at least 45748"",""code"":-32602}
+```
+
+We are working on a chain that StackUp does not support, so we are running a local bundler with --an unsafe option.","plusminushalf#0",""
+"2023-05-13,05:02:39","plusminushalf","#0","Hey <@531244382905565195>  are you on the latest pull? we added support for `eth_estimateUserOperation`.
+If you are on the latest pull then this might be returning some wrong estimations.
+
+For this you can checkout the blog https://mirror.xyz/erc4337official.eth/r0Sxa_ncYJA8y7_YHeKz9cShDgfTNR1fVBolcBN7VZ4 and search for `preVerificationGas`. 
+
+You will have to try overwriting `createUnsignedUserOp` in account-api like how we  did it in the blog.","taijusanagi#0",""
+"2023-05-13,05:11:22","taijusanagi","#0","Thanks! We clone the repo yesterday, so it should be almost the latest commit, and I checked it is getting estimation from ""eth_estimateUserOperation"".
+
+It looks like my local bundler currently giving a lower estimation, so I try to override it, thanks!!","plusminushalf#0",""
+"2023-05-13,05:20:52","tommyl","#4234","changing `stateVersion` makes Sepolia setup work, but Goerli one still doesn't work (returning null)","plusminushalf#0",""
+"2023-05-13,05:21:22","plusminushalf","#0","I would still suggest taking a pull once. I have pushed a change just sometime ago","taijusanagi#0",""
+"2023-05-13,05:21:35","plusminushalf","#0","are you using stackup's bundler or running locally?","tommyl#4234",""
+"2023-05-13,05:21:53","tommyl","#4234","I suspected the old default config (https://github.com/eth-infinitism/trampoline/blob/2b09df1da7e749dda821908f16465f4149ae549b/src/exconfig.ts) no longer worked?","",""
+"2023-05-13,05:22:14","tommyl","#4234","stackup bundler","plusminushalf#0",""
+"2023-05-13,05:23:09","plusminushalf","#0","```
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  enablePasswordEncryption: false,
+  showTransactionConfirmationScreen: true,
+  factory_address: '0x9406Cc6185a346906296840746125a0E44976454',
+  stateVersion: '0.1',
+  network: {
+    chainID: '5',
+    family: 'EVM',
+    name: 'Goerli',
+    provider: 'https://goerli.infura.io/v3/bdabe9d2f9244005af0f566398e648da',
+    entryPointAddress: '0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789',
+    bundler: '<bundler_url>',
+    baseAsset: {
+      symbol: 'ETH',
+      name: 'ETH',
+      decimals: 18,
+      image:
+        'https://ethereum.org/static/6b935ac0e6194247347855dc3d328e83/6ed5f/eth-diamond-black.webp',
+    },
+  },
+};
+```
+
+<@701416168505737217>  Can you try this config with your bundler URL?","tommyl#4234",""
+"2023-05-13,05:23:30","plusminushalf","#0","The old config was for v0.5, we need to change addresses to support v0.6","",""
+"2023-05-13,05:37:21","taijusanagi","#0","Thanks, I can now send the tx with manual modification of the gas estimation!
+
+I saw the commit, but I already modified a lot of code in our own repo, and bit difficult to pull the latest one now.","plusminushalf#0",""
+"2023-05-13,05:40:03","taijusanagi","#0","<@784463459218751528> 
+I'm working on verifying Paymaster and I need to set paymasterAndData.
+
+Is there any guide for that? I found a link in your blog, but this issue has no content.
+https://github.com/eth-infinitism/trampoline/issues/4","plusminushalf#0","https://cdn.discordapp.com/attachments/1048163280264364032/1106878516999507988/Screenshot_2023-05-13_at_10.39.56.png"
+"2023-05-13,05:40:32","tommyl","#4234","working now with the stackup bundler also on v0.6","plusminushalf#0",""
+"2023-05-13,05:41:42","tommyl","#4234","thank you for the help","",""
+"2023-05-13,05:45:00","plusminushalf","#0","There is no standard rpc call for setting `paymasterAndData` by the dapp as of now. I think once we have adoption then Dapps can use `eth_sendUserOperation` and specify `paymasterAndData`. I don't have the support for `eth_sendUserOperation` as of now. 
+
+But if you want to set `paymasterAndData` as part of your wallet, then you can set it and return it in `createUnsignedUserOp` only.","taijusanagi#0",""
+"2023-05-13,05:47:03","plusminushalf","#0","If you do need support for a dapp to send `eth_sendUserOperation` let me know. I think I can make some changes quickly","",""
+"2023-05-13,05:47:27","taijusanagi","#0","Thanks, currently we are implementing paymasterAndData as part of my wallet, so I think I can insert simple paymasterAndData in createUnsignedUserOp process.","plusminushalf#0",""
+"2023-05-13,05:51:17","taijusanagi","#0","However, I think the current paymaster requires:
+
+1. user signs the userOp with a blank paymaster signature
+2. paymaster signs the userOp with a user signature from step.1
+3. user signs the useOp with the signature from step.2
+
+https://github.com/eth-infinitism/account-abstraction/blob/develop/contracts/samples/VerifyingPaymaster.sol
+
+So I need to do one extra user signing process in Trampoline wallet for step.1.
+Do you have any suggestion to sign the userOp for step.1?","",""
+"2023-05-13,05:52:31","taijusanagi","#0","I think we can add PaymasterAPI in accountAPI or sign directly with keyring, but it is a bit complex for me to analyze where to modify in Trampoline wallet.","",""
+"2023-05-13,05:57:31","jacque006","#0","We discovered an issue when using `@account-abstraction/sdk` in the browser: https://github.com/eth-infinitism/bundler/issues/107 . Workaround is also there","",""
+"2023-05-13,05:58:31","plusminushalf","#0","I think you don't need step 1. Also if you need to add paymasterAndData later, you will have to:
+
+1. return dummy `paymasterAndData` in `createUnsignedUserOp` - this is to make sure we have correct gas estimations
+2. return the actual `paymasterAndData` in `signUserOpWithContext`","taijusanagi#0",""
+"2023-05-13,06:05:32","taijusanagi","#0","Actually, I'm not very sure how to use Verifying Paymaster, but it looks like we need step 1 in the test code. I think that's required for sig verification to make sure paymaster sign for a specific account tx.
+
+https://github.com/eth-infinitism/account-abstraction/blob/develop/test/verifying_paymaster.test.ts#L93
+
+line 94-> step1
+line 99-> step2
+line 100-> step3","plusminushalf#0",""
+"2023-05-13,06:06:51","taijusanagi","#0","I'm getting a bit confused, can you please check the above test code of Infinitism team?","",""
+"2023-05-13,06:09:20","plusminushalf","#0","In this case you can return `paymasterAndData: hexConcat([paymaster.address, defaultAbiCoder.encode(['uint48', 'uint48'], [MOCK_VALID_UNTIL, MOCK_VALID_AFTER]), '0x' + '00'.repeat(65)])` in `createUnsignedUserOp`
+
+while in `signUserOpWithContext` since you will get the complete `userOp` with dummy `paymasterAndData` you can first sign it using the owner and then later append the actual `paymasterAndData` and return the userOp","taijusanagi#0",""
+"2023-05-13,06:14:52","plusminushalf","#0","I am unsure of this, I will have to re-check this. But last I checked and worked with an older entryPoint and older verifyingPaymaster. I did not sign before the `paymasterAndData`","taijusanagi#0",""
+"2023-05-13,06:15:21","plusminushalf","#0","But if the tests work, you can use the way I described above to create a similar flow.","",""
+"2023-05-13,06:21:19","taijusanagi","#0","Thanks! 
+
+I check the old version of verifying paymaster, and it looks like not having step1, so it maybe because of the version difference.
+https://github.com/eth-infinitism/account-abstraction/blob/9b64a3c5dc0e9e2c4b9aa5cc834394ac66ed4fc2/contracts/samples/VerifyingPaymaster.sol
+
+I found actual code sign the userOp with keyring, I try to check and modify around signUserOpWithContext.","plusminushalf#0",""
+"2023-05-13,14:07:08","tommyl","#4234","Hi <@784463459218751528> - see if you can help. I got a custom Account contract, but when it tried to deploy the contract via the UI (by clicking DEPLOY ACCOUNT button). It resulted in a `AA23` error at `eth_estimateUserOperationGas`.  Looking at past post (e.g. https://github.com/eth-infinitism/account-abstraction/issues/263), as there is no revert reason, it seems to be related to gas limit. Is there any way to adjust the call gas limit?","plusminushalf#0","https://cdn.discordapp.com/attachments/1048163280264364032/1107006128912597193/image.png"
+"2023-05-13,14:07:10","tommyl","#4234","thanks in advance","",""
+"2023-05-13,14:25:03","plusminushalf","#0","Hey can tou share the github link to your code? I can check in 15 mins","",""
+"2023-05-13,14:34:30","tommyl","#4234","yeah just DM","plusminushalf#0",""
+"2023-05-13,14:50:48","dannprinc","#0","hey <@701416168505737217>  I just hit your dm","tommyl#4234",""
+"2023-05-13,15:04:30","plusminushalf","#0","Replied","tommyl#4234",""
+"2023-05-14,01:35:57","prairienotes","#0","Good morning hackers 🌞 Once you've completed your project submissions, please head to the EF Booth (near the mentors table) to demo your project!
+
+We will have two judges from the ethereum.org team and one judge from the Account Abstraction team there.","",""
+"2023-05-14,09:15:38","markeljan","#0","Hi are there any judges still available to demo my project 🙏  I will be very quick!","",""
+"2023-07-10,15:07:48","awliang","#0","","","https://cdn.discordapp.com/attachments/1048163280264364032/1128039893415772380/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,18:32:06","awliang","#0","Hello and welcome to the <#1048163280264364032> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Ethereum Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Ethereum Foundation (EF)** is a non-profit organization that supports the Ethereum ecosystem. We are part of a larger community of organizations and individuals that fund protocol development, grow the ecosystem, and advocate for Ethereum.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best ERC-4337: $1,666 x 3
+Open track: $1,250 x 4
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Privacy and Scaling Explorations - How to hack on a ZK Project!
+Time: 03:00 PM CEST – Jul 21, 2023
+Location: Workshop Room 2
+
+https://youtu.be/05WOFwiOrao
+
+
+🔗 **IMPORTANT LINKS**
+See list of full resources here: https://ethglobal.com/events/paris2023/prizes#ethereum-foundation","",""
+"2023-07-21,07:24:04","adrianmcli","#0","For those of you hacking on ZK-related prizes, here is some information (still WIP)!
+https://pse-team.notion.site/ETHGlobal-Paris-Hacker-Resource-003e19b1b46f46e2948b45ad5f6a6041?pvs=4","",""
+"2023-07-21,07:58:02","AdrianDole","#8734","Hey, is anyone here who can help us with AA? 
+We have a pretty cool idea and would love to take 5 minutes of your time, if possible 🙂","",""
+"2023-07-21,08:10:00","monetmignon","#0","<@703292811969036399> <@703324390699565058> : <@306507631269249026> stopped by the booth and just wanted to brainstorm on the best patch of action! feel free to chat async or convene at the booth 🙂","AdrianDole#8734、shahafn#0、drortirosh#0",""
+"2023-07-21,08:12:27","prairienotes","#0","Hey Adrian, we have a few folks from the ERC-4337 team at the EF booth now! But if you're not able to catch them, you can shoot a message to Tom on Telegram (his username is tomteman) to discuss your ideas, he's the Product Manager for the EF's ERC-4337 team 😊","AdrianDole#8734",""
+"2023-07-21,08:18:02","drortirosh","#0","We're at the booth right now.","AdrianDole#8734",""
+"2023-07-21,09:59:06","markus_ether","#0","Hey 👋 anyone can help to answer some questions about that erc-4337 standard?","",""
+"2023-07-21,10:09:09","prairienotes","#0","Hey Markus! We're looking for the right person to help, and will get back to you as soon as possible","markus_ether#0",""
+"2023-07-21,10:12:05","drortirosh","#0","We're coming back to the booth at 16:45","markus_ether#0",""
+"2023-07-21,17:41:29","shouvikghosh","#0","Hey, anyone from AA team still at the venue. ?","",""
+"2023-07-21,17:52:03","launamu","#0","I think everyone is out for the night, but they will be back tomorrow morning 🙂","shouvikghosh#0",""
+"2023-07-22,03:39:20","monetmignon","#0","bonjour! i’m at the booth and taking down information and will notify everyone when the AA experts arrive. Thank you for your patience 🙂","",""
+"2023-07-22,05:32:54","drortirosh","#0","We arrive in 5-10 min","monetmignon#0",""
+"2023-07-22,13:52:45","shahafn","#0","For any hackers working on the ethereum.org erc4337 prizes, we have mentors at the EF booth right now if you need some advice or feedback! We're here until 21:00","",""
+"2023-07-23,06:02:15","adrianmcli","#0","For anyone hacking on Privacy and Scaling related projects (like using Semaphore, Unirep, etc.), please visit the Ethereum Foundation booth. There is no queue right now!","",""
+"2023-07-23,06:23:31","capgblocktorch.xyz","#0","https://ethglobal.com/showcase/voulez-vous-authenticate-ik3ad","",""
+"2023-09-13,13:35:53","awliang","#0","","","https://cdn.discordapp.com/attachments/1048163280264364032/1151571972019453962/image.png"
+"2023-09-15,00:55:07","awliang","#0","Hello and welcome to the <#1048163280264364032> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Ethereum Foundation Team at any point with your questions!
+
+👀 **ABOUT**
+The **Ethereum Foundation (EF) **is a non-profit organization that supports the Ethereum ecosystem. We are part of a larger community of organizations and individuals that fund protocol development, grow the ecosystem, and advocate for Ethereum.
+
+The Privacy & Scaling Explorations (PSE) team explores new use cases for zero-knowledge proofs and other cryptographic primitives through research and proof-of-concepts.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Best Use of TLSNotary
+🏅 $5,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🛠️ Make data portable with TLSNotary
+Time: 03:40 PM EDT – Sep 22, 2023
+Location: Workshop Room 2
+Link: https://youtu.be/B3OJjaSVDOI
+
+
+🔗 **IMPORTANT LINKS**
+https://tlsnotary.org/","",""

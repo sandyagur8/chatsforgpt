@@ -1,0 +1,1102 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-08-19,10:23:41","TimoKing","#3556","Hey Guys, 
+
+i wanted to set up my own graph node and got this error after running ""docker-compose up"" 
+
+ERRO Connection to provider failed. Not using this provider, error: deadline has elapsed, provider: mainnet-rpc-0
+ERRO No store configured for Ethereum chain mainnet; ignoring this chain
+
+i changed in the yml file the Ethereum environment to mainnet/xdai/gnosischain nothing would work.        'mainnet:http://ip-address/:port' 
+(nodes run in different container)
+if somebody set up a graph node and know what to do pls help","",""
+"2022-08-22,16:01:49","plato-gnosis","#5517","cc <@638658323708903425>","alebanzas#0、TimoKing#3556",""
+"2022-08-23,03:35:25","alebanzas","#0","Hi <@760198199934976001> we will work in the next days to build a guide","TimoKing#3556",""
+"2022-08-23,13:44:58","TimoKing","#3556","Hi <@638658323708903425>,
+that would be amazing, pls post it in announcements or here in this chatroom thx a lot looking forward to fix the bug...","alebanzas#0",""
+"2022-08-25,18:12:18","hildobby","#0","Hey guys! I'm looking to add a list of tokens available on Gnosis to add them to Dune Analytics (so they would be available for everyone to easily query).
+
+1. Where could I find an extensive list containing the contract_address, symbol name and number of decimal places for each token? 
+
+2. Also looking for a list for NFTs with the contract_address and the name of each collection would be amazing!
+
+The more extensive those lists are, the better, thanks!","",""
+"2022-08-25,18:35:40","hildobby","#0","<@638658323708903425> I don't have permission to message in that thread you created 😅 
+
+answer to your question is yes I have but the api doesn't allow me to easily pull a list with contract address, token ticker and amount of decimal places, ideally I would get this in a csv format somehow","alebanzas#0",""
+"2022-08-25,18:38:45","alebanzas","#0","https://blockscout.com/xdai/mainnet/tokens
+Maybe doing some web scrapping?","",""
+"2022-08-26,21:53:27","Gimlu","#7305","Multiple DEXs have token lists
+Honeyswap: https://unpkg.com/@1hive/default-token-list
+Sushiswap: https://token-list.sushi.com
+BaoFinance: https://raw.githubusercontent.com/baofinance/tokenlists/main/xdai.json
+1inch: https://tokens.1inch.io/v1.2/100","hildobby#0",""
+"2022-08-27,18:18:53","Gimlu","#7305","If you want to scrape tokens from blockscout:
+https://plik.root.gg/file/6UzimdVX1j66mbk6/HatYe7581OJapZUy/tokens.csv
+https://plik.root.gg/file/6UzimdVX1j66mbk6/UQnnEbj3b38CWxe7/token-scraper.py","hildobby#0",""
+"2022-08-29,14:49:00","hildobby","#0","this is amazing, are those tokens all for gnosis?","Gimlu#7305",""
+"2022-08-30,03:17:59","Gimlu","#7305","Yes","hildobby#0",""
+"2022-08-30,09:35:30","hildobby","#0","amazing thank you!","Gimlu#7305",""
+"2022-08-31,15:07:10","TimoKing","#3556","Hi Guys, 
+i try to get a free archive node RPC or an archive node setup guide. 
+Has someone an advice","",""
+"2022-08-31,15:08:05","TimoKing","#3556","does someone know the current size of such a node?","",""
+"2022-08-31,15:14:31","alebanzas","#0","Could you try setting these 2 configs?:
+--Pruning.Mode=None
+--Sync.FastSync=false","TimoKing#3556",""
+"2022-08-31,18:29:30","Gimlu","#7305","`--config xdai_archive` should work. The easiest way is to use docker, here is an example of a `docker-compose.yml` file: https://pastebin.com/2QDnQ7dg
+You are probably gonna need a couple TB of SSD storage.","TimoKing#3556",""
+"2022-09-01,02:13:24","TimoKing","#3556","thx guys, 
+is it more like 3Tb or 8-10Tb that will make a bit of a difference 😄","",""
+"2022-09-01,06:38:18","ricky","#4211","3TB will be enough 😊👍","TimoKing#3556",""
+"2022-09-01,12:50:34","TimoKing","#3556","THX","",""
+"2022-09-01,21:34:40","olfal","#0","Given a Gnosis Safe transaction hash, how can I retrieve the on-chain transaction hash? I'm thinking I could use this API https://safe-transaction.gnosis.io (precisely the /v1/multisig-transactions/{safe-tx-hash}/confirmations endpoint), but can't find how to get an API key. Any idea?","",""
+"2022-09-01,22:03:16","কাী 群不利","#5891","Can I have a free token ?","",""
+"2022-09-01,22:03:26","কাী 群不利","#5891","I’m new too this NFT thingy","",""
+"2022-09-07,09:28:00","cYcX","#3298","<@909897765121851463> <@105819900815101952> <@733031986167545967>","hiteck.#0、plato-gnosis#5517、armagan.ethgnosis#0",""
+"2022-09-07,09:28:34","cYcX","#3298","I run it locally https://docs.gnosis.io/conditionaltokens/docs/pmtutorial1/ But I can't find the modules to add liquidity and remove liquidity. Please help me solve this problem!","",""
+"2022-09-09,02:48:24","Micki","#8154","<@446967354375798804>","koeppelmann#0",""
+"2022-09-09,02:48:49","Micki","#8154","Please I have a stuck but completed transaction","",""
+"2022-09-09,02:49:16","Micki","#8154","<@255832236555894794>","no_planet_b#0",""
+"2022-09-12,03:26:37","sirpush","#0","Hey all. i'm trying to verify the gnosis chain blockhash, by computing the rlp of the header fields and hashing it.
+The same method i've used for 3 different blockchains and it works fine, but i'm unable to reach the correct blockhash on gnosis.
+Any ideas?","",""
+"2022-09-12,18:37:12","Gimlu","#7305","I'm guessing those blockchains use a different consensus containing slightly different block headers.","sirpush#0",""
+"2022-09-13,06:34:09","sirpush","#0","<@751614148927815793> the way blockheaders hash are calculated is supposed to be sort of universal, otherwise the client code ie nethermind etc that produces the blockhash has to be customized.
+I couldnt find anywhere that gnosis chain uses customized code, but rather just the default clients","Gimlu#7305",""
+"2022-09-14,04:36:11","Praise Bot","#9657","**❌ Praise Restricted**
+Praise not allowed in this channel.
+To praise, use the following channels - <#920642136272166972>","",""
+"2022-09-15,05:31:34","Gimlu","#7305","For example a PoW blockchain may not have header fields for validator signature, while a PoS blockchain may have that field.
+> I couldnt find anywhere that gnosis chain uses customized code, but rather just the default clients
+I didn't state otherwise.","sirpush#0",""
+"2022-09-15,17:09:33","nachobritos","#0","Hey everyone is there any channel for CirclesUBI to see if we can integrate as currency on Yubiai?","",""
+"2022-09-17,04:03:28","ethpow","#0","any one from the security team?","",""
+"2022-09-17,20:24:40","doshtech","#0","im not from the security team but i can relay a message. I have gone ahead and added you as a friend dm me","ethpow#0",""
+"2022-09-18,10:22:20","_squidz_","#0","Is this a problem? https://twitter.com/EthereumPoW/status/1571445910290468864","",""
+"2022-09-19,08:29:55","doshtech","#0","check reply from Martin https://discord.com/channels/502416149343109121/909861711803191296/1021076456476000256","_squidz_#0",""
+"2022-09-19,10:02:24","tintinthong","#0","Where is the code for the  https://blockscout.com/xdai/mainnet/api/v1/gas-price-oracle","",""
+"2022-09-19,10:02:42","tintinthong","#0","Does it take into account EIP1559 (baseGas + priorityFees)??","",""
+"2022-09-19,10:23:50","_squidz_","#0","I saw his reply. Seemed to calm everything down after that 🧘‍♂️","",""
+"2022-09-19,16:13:14","0xtangle","#0","Hey all! Just want to make sure I am in the right place in the docs for RPCs and Testnet. 
+
+https://docs.gnosischain.com/tools/rpc
+
+Chiado Testnet
+https://rpc-chiado.gnosistestnet.com
+
+Trying to put together all the info for some devs","",""
+"2022-09-19,16:14:18","0xtangle","#0","Also wondering how to get a good amount of testnet tokens, and whats the best way to go about that","",""
+"2022-09-20,01:46:28","doshtech","#0","you can get some testnet tokens from the official faucet here https://gnosisfaucet.com/","0xtangle#0",""
+"2022-09-20,01:48:33","0xtangle","#0","I’d be looking for a massive amount for protocol testing not just a small test deployment.","",""
+"2022-09-20,02:18:05","doshtech","#0","just acquired a few, send me address in dm will send you","0xtangle#0",""
+"2022-09-21,05:06:46",".bitwiz","#0","Hello Frens! 👋  Is there already a ERC2771 compliant gasless/meta tx infrastructure on Gnosis Main/Testnet? I cannot find anything on https://docs.opengsn.org/ And google leads me to https://developers.gnosischain.com/for-developers/developer-resources/meta-transactions/gas-station-network but this just refers to the new docs, where I don't find any hints.","",""
+"2022-09-22,07:33:50","shalzzj","#0","Hi, I'm unable to deploy a contract on the chiado testnet with foundary","",""
+"2022-09-22,07:34:13","shalzzj","#0","I get the error:
+```
+
+Error:
+custom error: EIP-1559 not activated
+
+
+```","",""
+"2022-09-22,07:58:56","alebanzas","#0","Yes, Chiado is being re-deployed including EIP 1559 and this new chiado will become the long term testnet. Unfortunately, for now in this error case, we will need to look for a workaround","",""
+"2022-09-22,18:17:23","0xtangle","#0","Any ball park on timeline for Chiado re-deployment?","alebanzas#0",""
+"2022-09-28,13:25:47",".explory","#0","Hi guys,
+Can you please advise if it is possible to get mnemonic and keys without CLI interaction?
+https://github.com/gnosischain/validator-data-generator
+I am looking for non interaction way of doing this if possible please.","",""
+"2022-09-28,16:37:17","alebanzas","#0","Hi <@966766823095795733> , can you elaborate on the “non interaction way”? If you are looking for an easy way: https://github.com/alexpeterson91/wagyu-key-gen/releases/tag/v0.1.1-beta",".explory#0",""
+"2022-09-30,02:01:00","shalzzj","#0","chaido rpc seems down:","",""
+"2022-09-30,02:05:12","shalzzj","#0","Oh, I see the rpc url changed","",""
+"2022-10-01,05:39:53","andreus","#5660","Hi, is there a Goerli-Gnosis AMB deployment?","",""
+"2022-10-02,07:11:44","alebanzas","#0","Chiado <> Goerli bridge will be deployed next week","",""
+"2022-10-02,11:34:14","andreus","#5660","The graph does not support Chiado, right? Not big problem I guess since I could use Chiado as intermediary between Goerli and Gnosis","",""
+"2022-10-07,07:33:42","surfingnerd","#0","Hello, i found a minor Issue or Confusion in the Contracts. But there is no Issue tracking on Github.
+The function ""RemoveMyPool"" does allow to remove a pool even if it is an active validator  during the Epoch. 
+While other logics like Withdrawal, they do it right and   add the Pool to the ""_poolsToBeRemoved"" data storage, and it is then removed from the Pools during the RNG for the next validatorset. Or dit i miss something ?","",""
+"2022-10-09,05:49:30","plato-gnosis","#5517","Hey - this is an interesting issue. Can I trouble you to open a ticket in <#1011635135206137927> and our team will follow up?","surfingnerd#0",""
+"2022-10-09,05:53:09","surfingnerd","#0","yeah i have created one, Ticket 0059.","plato-gnosis#5517",""
+"2022-10-11,21:08:31","robim.","#0","Hello!
+
+I have a custom token in the Gnosis Chain. 
+
+I wanna bridge it. What options do I hace?
+
+Thanks for your time","",""
+"2022-10-12,08:01:11","alebanzas","#0","Had you tried the omnibridge?","",""
+"2022-10-12,22:29:37","robim.","#0","Too high fees. Why happen this? They use mint-lock model for bridge?","alebanzas#0",""
+"2022-10-13,03:48:24","doshtech","#0","all custom tokens must use the omni bridge, for common tokens like stables and eth there are cheaper bridge  alternatives like https://hop.exchange/ or  https://bridge.connext.network/","robim.#0",""
+"2022-10-17,00:59:17","shalzzj","#0","Hi, is there a grant program for launching dapps on the gnosischain?","",""
+"2022-10-17,08:01:08","doshtech","#0","hello, there are talks about having one but nothing set in stone for an official program. If you do have something in mind or are building a project you are welcome to DM me we can chat more","shalzzj#0",""
+"2022-10-18,14:47:03","nachobritos","#0","Ok, I could deploy now, im trying to verify","",""
+"2022-10-18,22:36:09","grraarrgghh","#0","Anyone here heading to EthIndia in December? Connext is hosting a Hacker House (free accomodations, meal stipend) to promote builders to create xApps on their new Amarok platform
+ https://www.connext.network/hackerhouse","",""
+"2022-10-20,01:04:32","shalzzj","#0","Okay., tried to message you, can you add me as friend?","doshtech#0",""
+"2022-10-20,10:10:28","doshtech","#0","added","shalzzj#0",""
+"2022-10-21,17:19:29","miratcan","#0","Will  random aurora be closed after the merge?","",""
+"2022-10-22,14:44:07","plato-gnosis","#5517","**Announcement: Rebooting of Chiado Testnet**
+- The Core Devs have rebooted the Chiado testnet on a new ChainID
+* Chiado was rebooted with minor bugfixes to ensure a smooth Merge. 
+
+**For Chiado Validators:** 
+- If you are a current Chiado validator, we recommend turning off your existing Chiado nodes. 
+- Core Devs will be releasing new Chiado node images later this week
+- Official announcement with public participation instruction later this week
+
+**For Chiado ""Users"":**
+- https://blockscout.chiadochain.net/ is already tracking the new Chiado testnet
+- https://beacon.chiadochain.net/ will be re-launched later this week
+
+**What will happen to Chiado?**
+- Chiado will be merged soon after public launch to collect data for the eventual Gnosis Merge. 
+- Chiado will thereafter transition to being a long-living developer testnet for Gnosis.","",""
+"2022-10-22,16:07:49","jamesbradach","#0","Has anyone explored forking Rocket Pool for Gnosis Chain?","",""
+"2022-10-25,20:50:34","aznergnox","#0","What happened to the flashbot relay? It's still accepts bundles but none of them got included","",""
+"2022-10-27,12:04:26","heuss","#0","Hi, does the gnosis chain bug bounty program on immunefi still up ? and is the payement still in STAKE or its now in GNO ?","",""
+"2022-10-30,17:57:55","andreus","#5660","Anyone knows of some AMB deployments that allow passing between 2 testnets that also support the graph hosted service?","",""
+"2022-10-31,02:47:38",".theproducer","#0","Working on DVT implementation for Gnosis","jamesbradach#0",""
+"2022-10-31,18:39:02","trillionzmaxi","#0","Hi Gnosis Chain Team,
+
+I am the Lead Project Manager for Space Protocol, an exciting new DeFi 2.0 hard asset protocol.
+
+I am reaching out to you regarding future cross-chain integration with Space Protocol and Gnosis Chain.
+
+Space Protocol’s goal is to provide a mechanism that stores value through real-world assets, outside of central banking systems and on the blockchain. Here is a link to a medium article with more information on the project: https://medium.com/@spaceprotocol_/a-beginners-guide-to-space-protocol-902782e0130b
+
+SPACE Protocol is going to be launching on 15 EVM Chains in the next couple of weeks. Smart contracts & UIs are finalized.
+
+We're looking for partnerships thru the following:
+1. Grants and/or
+2. Co-marketing
+
+Please let us know when would be a good time to schedule the call","",""
+"2022-10-31,18:43:42","doshtech","#0","Hello Trellionz please feel free to DM me we can chat more about Space protocol","trillionzmaxi#0",""
+"2022-10-31,18:48:07","trillionzmaxi","#0","Perfect will do","doshtech#0",""
+"2022-11-01,14:36:35","pegahcarter","#0","Hey team! I'm having an issue interacting with smart contracts and I'm following the tutorial correct.  Here's my hardhat config:
+```
+require(""@nomicfoundation/hardhat-toolbox"");
+
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: ""0.8.17"",
+  networks: {
+    localhost: {
+      url: 'http://localhost:8545',
+    },
+    gnosis: {
+      url: 'https://rpc.gnosischain.com/',
+      gasPrice: 1000000000,
+      accounts: ['0xSomePrivateKey'], (edited)
+    },
+  }
+};
+```
+And here's my `main.js`:
+```
+const hre = require(""hardhat"");
+const ABI = [...]; // copy-pasta'd from contract address
+
+
+async function main() {
+
+  const WALLET_FROM = '0x00000000005dbcB0d0513FcDa746382Fe8a53468';
+  const WALLET_DEST = '0x8321926c8AAe281ef9d8520a772Eb1d94a9Ec6dd';
+  const WXDAI = '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d';
+  const ETH_MIN = hre.ethers.utils.parseUnits(""0.0000000001"", ""ether"");
+
+  const [signer] = await hre.ethers.getSigners();
+  const provider = hre.ethers.provider;
+  
+  const wxDai = new hre.ethers.Contract(WXDAI, ABI, provider);
+  const balance = await wxDai.balanceOf(WALLET_FROM);
+
+  if (Number(balance) > Number(ETH_MIN)) {
+    const options = {
+      gasLimit: 30000,
+      gasPrice: 7
+    };
+    await wxDai.connect(signer).transfer(WALLET_DEST, balance, options);
+  }
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
+```
+And the script/error is: 
+```
+$ npx hardhat run scripts/main.js --network gnosis
+ProviderError: HttpProviderError
+    at HttpProvider.request (.../node_modules/hardhat/src/internal/core/providers/http.ts:78:19)
+    at LocalAccountsProvider.request (.../node_modules/hardhat/src/internal/core/providers/accounts.ts:181:36)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at EthersProviderWrapper.send (.../node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
+```
+
+What am I doing wrong?","",""
+"2022-11-01,14:36:58","pegahcarter","#0","This is failing on the `transfer()`","",""
+"2022-11-01,15:19:07","doshtech","#0","hey Carter, can you please create a  <#1011635135206137927> and will get one of  the <a:aPES_BrainScratch:625255080857174033> to help you out","pegahcarter#0",""
+"2022-11-01,15:19:37","pegahcarter","#0","yes","doshtech#0",""
+"2022-11-03,12:27:46","Basti | ARCH","#7296","hey guys","",""
+"2022-11-03,15:39:23","Basti | ARCH","#7296","can you help me checking this?","",""
+"2022-11-03,15:39:35","Basti | ARCH","#7296","https://github.com/akegaviar/gnosis-nft-staking","",""
+"2022-11-03,15:40:53","Basti | ARCH","#7296","I've deployed to xdai network but somehow I can't unstake an ERC721 from the Generator.sol contract, although if you check the require statements by calling the functions inside from outside the require, the conditions are true but somehow return false when calling them inside the require and get reverted","",""
+"2022-11-03,16:13:06","doshtech","#0","hey there Basti, if you could please create a <#1011635135206137927> that would be the best route to have someone dig into this","Basti | ARCH#7296",""
+"2022-11-03,16:56:35","Basti | ARCH","#7296","great, thank you","",""
+"2022-11-09,08:19:50","shipoclu","#0","Hi, I see that POAPs have an eventid associated with them. How do I get the event information for an eventid?","",""
+"2022-11-09,08:20:28","shipoclu","#0","so far i've done a lot of googling and looked at the contracts","",""
+"2022-11-09,08:31:33","shipoclu","#0","I found this but it's not machine-readable: https://app.poap.xyz/admin/events/666","",""
+"2022-11-09,08:40:14","shipoclu","#0","oh, i seem to have found it: https://frontend.poap.tech/events/id/666","",""
+"2022-11-11,11:03:18","damianlluch","#0","hello!!! do you know any way to use a call to chainlink inside the remix or local tests?
+i need to do some unit tests, and i am forced to do all the history of passing link to the goerlo or testnet contract...and i would like to do it from local or inside the remix.
+Thanks!","",""
+"2022-11-14,19:26:34","lukemelia","#0","Does Chiado have an official deployment of the gnosis safe contracts?","",""
+"2022-11-17,14:56:59","shanefontaine","#0","What is the max tx size (in kb) that gnosis chain supports? I know `geth` uses 128kb https://github.com/ethereum/go-ethereum/pull/20835, but it is unclear to me what the gnosis chain validators/nethermind is configured to.
+
+Some questions about this:
+* What is the max size of a tx (in kb)
+* With any future upgrades, are there plans to change this number?
+* Does this exist in any documentation I can reference?
+
+Thanks!","",""
+"2022-11-18,13:31:00","PavelCT","#6403","Does Gnosis Chain have a developer grant program?","",""
+"2022-11-22,11:50:17","m3rlin5ky","#1182","Would it be possible to implement a RUST-EVM on GBC? The Gnosis Beacon Chain could be the rescue chain for Solana projects if Solana fails","",""
+"2022-11-23,04:33:13","filoozom","#0","Not sure where I should ask this, but the fork id on Nethermind and Erigon didn't change after the last hardfork (https://docs.gnosischain.com/specs/hard-forks/21735000). Based on EIP-2124 (https://eips.ethereum.org/EIPS/eip-2124), I think it should have changed, as the nodes are now technically incompatible and could be running different chains. I'd thus say that this is a bug in all three of the currently compatible clients, but then the question is: is it actually correct, or is everyone following the way one client implemented it initially?
+(I guess at this point it's too late anyways, can't change it without a chain split or another hardfork 😅)","",""
+"2022-11-30,05:45:11","luzzif","#0","Hey guys, is the flashbots relay at https://xdai-relay.nethermind.io/ working fine? I keep getting 504","",""
+"2022-11-30,15:31:44","_20goto10_","#0","Is this maybe the reason for the Nethermind spam blocks everyone is seeing now?","filoozom#0",""
+"2022-11-30,15:32:40","filoozom","#0","Hmmmm, unlikely I'd say","_20goto10_#0",""
+"2022-11-30,15:33:01","filoozom","#0","Although... That might be possible?","",""
+"2022-12-01,03:55:13","filoozom","#0","The explorer is broken again... 🥲","",""
+"2022-12-01,04:28:55","_luke_.","#0","Is there another way to see if my validator is still attesting 👀 ?","",""
+"2022-12-01,05:13:07","filoozom","#0","Check the logs of your validator 😜","_luke_.#0",""
+"2022-12-01,18:44:19","robim.","#0","Hello! There is a fiat on ramp method for gnosis? I want to buy a token on gnosis chain directly from my credit card or any other payment methods.","",""
+"2022-12-01,18:44:28","robim.","#0","I want to implment this on my dapp","",""
+"2022-12-01,19:03:47","doshtech","#0","yes check https://buyxdai.com/","robim.#0",""
+"2022-12-02,23:08:24","robim.","#0","Hello. I'm looking a way to create a wallet that support gnosis, from my dApp. For example for people who doesn't have any wallet. Is it possible?","",""
+"2022-12-03,06:45:02","filoozom","#0","Please don't cross post in multiple channels. I answered in <#815295532079513641>.","robim.#0",""
+"2022-12-06,18:59:58","kajav","#0","hello guys, trying to add CL to my gnosis node. im getting this error. 
+
+engine_exchangeTransitionConfigurationV1 found but the containing module is disabled for the url. 
+
+any ideas? 
+
+thanks in advance.","",""
+"2022-12-07,12:12:03","ia73","#0","Only if Gnosis team could implement a safe protocol improvement to Bitcoin network and adding multi-sig wallets to Bitcoin I think it would be one of the things that make the bull wake up + probably you will be rewarded with some BTC you could use it to buyback, hodl, or back GNO token etc...","",""
+"2022-12-07,15:31:17","doshtech","#0","Would be sweet but BTC network isn't compatible with smart contracts","ia73#0",""
+"2022-12-07,22:10:32","ia73","#0","Perhaps a base code implementation? So it's part of the network more than a SC support","doshtech#0",""
+"2022-12-08,10:07:58","kylestarz","#0","You could try Etherspot.io","robim.#0",""
+"2022-12-08,15:21:45","filoozom","#0","<@909897765121851463>","EVEREST#9704、plato-gnosis#5517",""
+"2022-12-08,19:54:52","jayb_ozys","#0","Hello. I'm trying to find out proper image for gnosis chain beacon node on Docker hub. But can't find it. May I ask for help?","",""
+"2022-12-08,20:56:18","doshtech","#0","Hey Jay validator support hangs out in <#920642136272166972> chat try asking in there","jayb_ozys#0",""
+"2022-12-11,15:19:10","alpo","#1937","I'm testing the conditional token contracts using hardhat at the moment. I'm not able to use the `ERC1155` method `balanceOf(address account, uint id)` because the `getPositionId()` method returns a massive `BigNumber` value that cannot be converted into a `uint` using `toNumber()` in JS because it will generate an overflow error. Has anyone experienced this or aware of a work around? I'd rather not refactor the `getPositionId()` method. For example, let `collateralToken` = `0x2Dd78Fd9B8F40659Af32eF98555B8b31bC97A351`, `collectionId` = `0x6f6f41ff811f45c6dfe727fcb2a278f07323fb85ec753bece2f9a690cca7a01d`. Then the `getPositionId()` method will return `74229324384859666491956367114251131107901747002219700387957564294760735619703` which is a `uint` converted keccak256 hash. This value cannot be passed into `balanceOf` because its a `BigNumber`, not a `uint`","",""
+"2022-12-11,17:30:47","Deleted User","#0000","It sounds like you are running into an issue with the fact that JavaScript numbers are represented in IEEE 754 double-precision floating-point format, which has a limited range of approximately +/- 1.8e308. As a result, it is not possible to represent very large numbers like the one returned by the getPositionId() method as a JavaScript Number type without losing precision.
+
+One potential solution to this problem would be to use a library like bignumber.js that provides support for representing and manipulating large numbers in JavaScript. This library allows you to create BigNumber objects that can represent numbers with arbitrary precision, and it provides methods for converting these numbers to and from other data types.
+
+For example, you could use bignumber.js to convert the BigNumber value returned by getPositionId() to a hexadecimal string, and then pass this string to the balanceOf() method as the id parameter. Here is an example of how this could be done:
+
+const BigNumber = require('bignumber.js');
+
+const collateralToken = '0x2Dd78Fd9B8F40659Af32eF98555B8b31bC97A351';
+const collectionId = '0x6f6f41ff811f45c6dfe727fcb2a278f07323fb85ec753bece2f9a690cca7a01d';
+
+const positionId = getPositionId(collateralToken, collectionId);
+
+// Convert the positionId BigNumber to a hexadecimal string
+const positionIdHex = positionId.toString(16);
+
+// Call the balanceOf() method using the hexadecimal string as the id parameter
+balanceOf(account, positionIdHex);
+
+Another option would be to refactor the getPositionId() method to return a bytes32 value instead of a uint, which would allow you to pass the resulting value directly to the balanceOf() method without having to convert it to a different data type. You would need to modify the getPositionId() method to return a bytes32 value","alpo#1937",""
+"2022-12-11,17:55:59","alpo","#1937","hmm thanks coffee","",""
+"2022-12-11,17:56:31","alpo","#1937","it appears its the `_collateralToken` variable causing the problem","",""
+"2022-12-11,17:57:07","alpo","#1937","`
+    function getPositionId(IERC20 _collateralToken, bytes32 _collectionId) internal pure returns (uint) {
+        return uint(keccak256(abi.encodePacked(""0x2Dd78Fd9B8F40659Af32eF98555B8b31bC97A351"", _collectionId)));
+    }
+`","",""
+"2022-12-11,17:58:02","alpo","#1937","I hardcoded the expected `_collateralToken` address inside the function and was able to resolve the problem without having to convert the `positionId` with `toNumber()`","",""
+"2022-12-11,17:58:36","alpo","#1937","so now I'm wondering what type IERC20 is showing in solidity? I always thought it was the address as a string","",""
+"2022-12-11,22:13:38","mfw78","#0","In solidity any reference to an instance of a contract is of type address (it is it's own type).","alpo#1937",""
+"2022-12-16,05:52:06","filoozom","#0","Hey guys, could we get IPv6 bootnodes?","",""
+"2022-12-16,09:33:48","1Proof_fan","#5743","IPv6 bootnodes would not be available for anyone using IPv4 addressing, add additional firewall issues, extends the enode address length significantly, etc.  Adds complexity without value.","filoozom#0",""
+"2022-12-16,09:38:32","filoozom","#0","What do you mean ""without value""?
+1) There are IPv4 boot nodes for the IPv4-only folk out there, it doesn't change anything for them, I'm not suggesting we remove them.
+2) What about the IPv6-only folk? It's a fact that IPv4 is basically impossible to get by these days with ARIN, LACNIC and RIPE completely out of them, and most users are already on CGNAT without any possibility of opening ports.
+
+I only see net positives? IPv6-only folk get access, IPv4 nodes don't lose anything, and IPv6 is supposedly the future, so... Might as well? Why would the enode address length be important in this case? The peer id is already way longer than an IPv4 address. And if you don't want to run your firewall over IPv6, don't, again, not suggesting we remove IPv6 connectivity.","1Proof_fan#5743",""
+"2022-12-16,09:39:53","1Proof_fan","#5743","Go ahead and run one and make it available for the Community to use then.","filoozom#0",""
+"2022-12-16,09:42:10","mfw78","#0","Gnosis Chain is positioning itself as ""credibly neutral"". One would expect that this would also play with which IP version to support (support both), and there being clear net advantages as have been described.","1Proof_fan#5743",""
+"2022-12-16,09:42:43","filoozom","#0","Sure, and then what, I open pull requests to Erigon, Nethermind and Geth and force them at gun point to use my bootnodes?","1Proof_fan#5743",""
+"2022-12-16,09:43:02","mfw78","#0","The amount of shit I have had to deal with with respect to CGNAT is nothing short of a joke. IPv6 would've made this a _lot_ easier.","",""
+"2022-12-16,09:43:25","1Proof_fan","#5743","No advantages, since IPv6 address space can reach IPv4 by default.  If you want to run an IPv6 Bootnode and make it available, go for it.","mfw78#0",""
+"2022-12-16,09:46:15","filoozom","#0","Sorry, but that's not true at all. At home, sure, you can reach IPv4 through your CGNAT or whatever, but that doesn't mean that anything with IPv6 connectivity can reach IPv4. You can rent servers that don't have an IPv4 and no access to the IPv4 network for example. And then you still can't open your ports, although that's not directly related to boot nodes.","1Proof_fan#5743",""
+"2022-12-16,09:48:48","1Proof_fan","#5743","Any IPv6 space correctly allocated with default gateways can reach public IPv4 space by default; not the other way around.  It would be a mistake to rent a sever with no access to IPv4 since it is non-compliant.
+At any rate, spin one up, see if you get any takers.  Good luck!","filoozom#0",""
+"2022-12-16,10:04:49","filoozom","#0","Thanks 🙂","1Proof_fan#5743",""
+"2022-12-16,10:15:17","filoozom","#0","https://github.com/sigp/lighthouse/issues/1617
+Interesting thread","",""
+"2022-12-16,10:46:22","critical3645","#0","This is pro blockchain dev with blockchain network creation , p2p payment, nft, metaverse experience","",""
+"2022-12-20,08:02:05","alex_000001","#0","Hello,
+
+Should I understand that it is to the devs of Gnosis to propose an app so that ledger integrates by default this blockchain? 😀","","https://cdn.discordapp.com/attachments/1009514669406429214/1054745507416780871/photo_2022-12-10_17-16-48.jpg"
+"2022-12-20,09:43:20","filoozom","#0","Hmmm, I'm pretty sure I've used my Ledger on Gnosis already through MetaMask","alex_000001#0",""
+"2022-12-20,09:54:50","alex_000001","#0","Yes with metamask, but I was talking about a complete integration on ledger (like Polygon, BSC, etc..) 😀","filoozom#0",""
+"2022-12-20,10:47:48","filoozom","#0","Ah, then I guess some work is needed haha. Shouldn't be that complicated though as it's most likely fairly similar to the Polygon / BSC apps just with different assets?","alex_000001#0",""
+"2022-12-20,10:48:31","alex_000001","#0","Yes i think.","",""
+"2022-12-30,13:13:39","saicharan3843","#0","i tried using gnosis solidity data structure's library idtoaddressbimap.i have a doubt while using the insert function 
+ function insert(Data storage self, uint16 id, address addr) public returns (bool) {}
+what should i give the input for the first param->Data storage self?
+https://github.com/gnosis/solidity-data-structures/blob/master/contracts/libraries/IdToAddressBiMap.sol","",""
+"2023-01-03,11:28:30","filoozom","#0","I'm not exactly sure I understand this right, but `Data` is just this: https://github.com/gnosis/solidity-data-structures/blob/master/contracts/libraries/IdToAddressBiMap.sol#L5-L8","saicharan3843#0",""
+"2023-01-03,11:30:07","filoozom","#0","So you can create a variable, array or mapping of that type and just pass that, i.e.:
+```solidity
+Data data;
+Data[] datas;
+mapping(uint256 => Data) dataMap;
+
+insert(data, ...)
+insert(datas[0], ...)
+insert(dataMap[0], ...)
+```","",""
+"2023-01-03,11:30:46","saicharan3843","#0","Thanx!!","filoozom#0",""
+"2023-01-03,11:32:06","filoozom","#0","Of course, it's a library with a struct, so you need to reference it as `IdToAddressBiMap.Data`, and then you can do something like:
+```solidity
+using IdToAddressBiMap for IdToAddressBiMap.DaTa;
+
+data.insert(...)
+datas[0].insert(...)
+dataMap[0].insert(...)
+```
+(and skip the first argument)","saicharan3843#0",""
+"2023-01-03,11:32:18","filoozom","#0","Syntax might not be entirely accurate, but hopefully you get the gist","",""
+"2023-01-03,11:32:50","saicharan3843","#0","Okie","filoozom#0",""
+"2023-01-04,11:24:47","spuddy.eth","#0","hello gnosis devs 👋 
+I'm working on integrating gnosis chain into the tellor oracle client software. I'm wondering, is there ever any case where the price of xdai/usd would deviate from dai/usd?","",""
+"2023-01-04,11:25:23","spuddy.eth","#0","I'm reading the docs, and looking for apis / sources, but thought it might be worth simply asking in here 😅","",""
+"2023-01-04,11:30:58","spuddy.eth","#0","I can see that they are a little bit different now, but it's not really a significant difference (less than 1 penny). for now this is mostly just for calculating profitability for our reporters but someone might request the feed for deFi purposes in the future too","",""
+"2023-01-04,13:11:55","0xtimboj","#0","Hi all, does anyone know if GC Nethermind (or other clients) support eth_call state_overrides? I'm getting ""Incorrect parameters count, expected :2 , actual: 3"" (3rd param is the state override set). Same query works ok on mainnet/polygon/arbtrum etc","",""
+"2023-01-05,07:00:15","konandan","#0","Hi ! I have a question to ask regarding to the tutorial here https://docs.gnosischain.com/bridges/tutorials/using-omnibridge/ . I'd like to bridge some tokens from Gnosis to Ethereum using ""transferAndCall"" function. How can I get the signature to retrieve my funds on Ethererum ? The guide does not include how to claim the funds manually (without UI) on Ethereum. Thanks","",""
+"2023-01-05,11:55:00","drhongo","#0","Where is the best place to find people interested in contribute to a conditional tokens project? 
+My love proj is getting to the MVP phase and would love to share and talk about it 
+https://gateway.pinata.cloud/ipfs/Qma4S498HKWcim5puQ5Bp5EpRNy1HfVhPLK5Gk828X64xi","",""
+"2023-01-10,12:12:35","tjayrush","#0","Is there place to find information on running my own Gnosis node in house? Up until the merge, I was running OpenEthereum, but of course, that no longer works. An Erigon install would be the best (disc size matters to me because I need an archive node).","",""
+"2023-01-12,01:33:51","andrp92","#0","Hello. This guide should help  https://docs.gnosischain.com/node/guide/","tjayrush#0",""
+"2023-01-12,01:34:27","andrp92","#0","I suggest you use the validators channel if you need any help with setting up your validators 🙂","",""
+"2023-01-12,01:34:31","andrp92","#0","Welcome!","",""
+"2023-01-12,15:59:54","dangus","#5667","Hi is it possible to send two tx with a safe contratct where the second tx depends on the success of the first?  For example buying a token and then transfering it.  Apologies if this isnt the right place to ask, thanks.","",""
+"2023-01-12,16:00:46","doshtech","#0","hey there, you can do batch transactions by just signing the messages of the action you want to perform","dangus#5667",""
+"2023-01-12,16:01:57","dangus","#5667","Oh, is that using the sdk only?  I was trying to avoid the sdk and using multicall does not seem to work for what I'm trying.","",""
+"2023-01-12,16:02:17","dangus","#5667","multisend, i mean.","",""
+"2023-01-12,16:14:45","doshtech","#0","hmm maybe best to ask in Safe discord https://discord.gg/Qm4w8zJE","dangus#5667",""
+"2023-01-12,16:22:25","dangus","#5667","Ah thanks for the link, could not find that.  Have a good one","",""
+"2023-01-15,13:56:21","0xavogado","#0","Hey guys, I am trying to deploy a few contracts using foundry. I was able to deploy contracts on gnosis mainnet, but the deployment is not working on optimism on gnosis. Is there any issue with optimism on gnosis rpc/chain atm? I am using the rpc and wss links which are provided in the official gnosis docs - https://docs.gnosischain.com/about/networks/optimism/","",""
+"2023-01-20,18:09:10","ariscyberscope","#0","Hi all, I am development manager of a cyber security company doing Smart Contract Audits cyberscope.io If you would like to get a free quote for an affordable and fast turnover Audit feel free to message me. Fix your contract and protect your project by securing vulnerabilities and following best practices","",""
+"2023-01-25,00:32:49","cryptopanda9871","#0","Hi guys, I would like to know about how to get POA native token for gas fee","",""
+"2023-01-25,03:28:47","filoozom","#0","I'm assuming you're talking about Gnosis Chain (previously xDai)? You can get some tokens for gas here: https://gnosisfaucet.com/
+Also, please don't spam multiple channels. Three channels in less than 10 minutes is a bit much and only slows down everything 😉","cryptopanda9871#0",""
+"2023-01-25,05:53:08","cryptopanda9871","#0","Thank you for your reply
+For now I need some POA for gas
+I found this https://www.poa.network/v/master-1/for-users/tutorials/airdrops-via-discord and that's why I'm here
+Please help me","filoozom#0",""
+"2023-01-25,06:01:40","filoozom","#0","I think all that information is very much outdated, but I'm not exactly sure how POA relates to Gnosis now, let me check","cryptopanda9871#0",""
+"2023-01-25,06:02:47","filoozom","#0","Why specifically are you looking into POA? I think you should use this: https://www.gnosis.io/, https://docs.gnosischain.com/","",""
+"2023-01-25,06:04:19","cryptopanda9871","#0","I'm working on a blockchain project and the client want to deploy contracts on POA network especially","filoozom#0",""
+"2023-01-25,06:07:55","filoozom","#0","I don't think that network exists any longer and think it was replaced by Gnosis Chain?","cryptopanda9871#0",""
+"2023-01-25,06:10:56","cryptopanda9871","#0","Okay so it means I can't get any POA tokens anymore?","filoozom#0",""
+"2023-01-25,06:11:34","filoozom","#0","I don't think so, but I'm not very familiar with that situation. Maybe  <@638658323708903425> can shed some light?","cryptopanda9871#0、alebanzas#0",""
+"2023-01-25,06:14:37","alebanzas","#0","hi <@965998301503684608> , xdai chain (launched by the poa network team in 2018) is now gnosis chain. the native token is xdai. check this page for tooling and tutorials to deploy your project on the chain: https://docs.gnosischain.com/developers/","cryptopanda9871#0",""
+"2023-01-25,06:17:26","cryptopanda9871","#0","Hi, thank you for sharing
+For now I already deployed contracts on Gnosis but still need contracts on POA separately
+That's why I need POA native tokens, could you share some if you have?","alebanzas#0",""
+"2023-01-25,06:18:04","alebanzas","#0","Can you share the POA contract address and a link to the blockchain explorer?","cryptopanda9871#0",""
+"2023-01-25,06:19:11","cryptopanda9871","#0","https://blockscout.com/poa/core- this is blockchain explorer","alebanzas#0",""
+"2023-01-25,06:20:55","cryptopanda9871","#0","And I can see there still new transactions happening
+https://blockscout.com/poa/core/block/30904823/transactions","",""
+"2023-01-25,06:27:25","alebanzas","#0","Check on the explorer top bar: ""POA Network merged with the Gnosis Chain. More information about the merger.""","",""
+"2023-01-25,06:28:13","cryptopanda9871","#0","Okay","",""
+"2023-01-25,06:28:48","cryptopanda9871","#0","I already tried to bridge GC to POA using WPOA token","",""
+"2023-01-25,06:29:25","cryptopanda9871","#0","https://prnt.sc/BsxRPuUg3X3C","",""
+"2023-01-25,06:30:08","cryptopanda9871","#0","But some native POA to claim the bridged POA","",""
+"2023-01-25,06:30:16","alebanzas","#0","Let's continue in the support ticket, so we don't spam here.","",""
+"2023-01-25,12:11:40","1Proof_fan","#5743","HitBTC lists POA:
+
+https://www.coingecko.com/en/coins/poa-network#markets","cryptopanda9871#0",""
+"2023-01-25,12:23:31","cryptopanda9871","#0","Thank you man","1Proof_fan#5743",""
+"2023-01-26,07:44:05","simple_user","#0","hello, is this correct channel to ask technical question about ConditionalTokens ?","",""
+"2023-01-31,14:21:02","spuddy.eth","#0","hello again! Reaching out again to try to get some Chiado testnet xdai tokens 🙏  If anyone reading this has the power, please let me know. I'm going to be running some testnet oracle data reporters for people building on Gnosis Tellor. 🙏","",""
+"2023-01-31,14:21:17","spuddy.eth","#0","We need more gas than I can get from the faucet, there has to be a way to get more right?","",""
+"2023-02-02,02:58:33","alebanzas","#0","Hey! Send me a DM with your address, I'll send you xdai in chiado!","spuddy.eth#0",""
+"2023-02-02,09:58:00","spuddy.eth","#0","<@638658323708903425> just saw this! Thank you DM is on the way 🫡","alebanzas#0",""
+"2023-02-03,02:19:10","mfw78","#0","There is some issue at Gnosisscan.","",""
+"2023-02-03,02:19:23","mfw78","#0","I try to sign up for a new account so I can get an API key - no emails come through.","",""
+"2023-02-05,13:20:24","rachelg.eth","#0","Hey what's up
+
+Is there an API or some sort of token list for token logo data that we could incorporate @ our aggregator to keep token logo images from breaking in the frontend?
+
+What do you guys recommend?
+Sushi, uni, etc have single endpoint solutions but was curious if there was an ecosystem specific one perhaps from gnosisscan?","",""
+"2023-02-06,04:55:59","alebanzas","#0","Was this solved? Or is still buggy?","mfw78#0",""
+"2023-02-06,05:02:14","mfw78","#0","Still buggy","alebanzas#0",""
+"2023-02-06,05:10:46","alebanzas","#0","reported to the team, keep you posted","mfw78#0",""
+"2023-02-06,06:02:39","nicolasmarin","#0","Hi!
+
+I'd like to present our like child project we've just released. It's a free NFT platform for creators with lots of advanced functionalities for free (token gating, anypayments, SBT, collection ownership as NFTs...). 
+
+We're are a small Spanish 🇪🇸 team very accesible, so feel free to reach us with any doubts. 
+We'd love to hear your thoughts and comments!!
+
+Check it out at:
+https://nfts2me.com - https://twitter.com/nfts2me","",""
+"2023-02-06,07:37:38","alebanzas","#0","from Gnosisscan team: `If they is still experiencing an issue, can get in contact with the team at https://gnosisscan.io/contactus and we can help him out.`","mfw78#0",""
+"2023-02-06,07:38:13","mfw78","#0","Reached out on the weekend, haven't heard anything.","alebanzas#0",""
+"2023-02-06,20:17:57","rachelg.eth","#0","Anyone know what to do to fix this?","",""
+"2023-02-08,18:13:43","rachelg.eth","#0","Hey what's up
+
+Is there an endpoint or some sort of token list for token logo data that we could incorporate to keep token logo images from breaking in our project's frontend?
+
+We have the proper addresses set for stablecoins, wbtc, weth, etc, but the only logo which appears correctly is GNO.","",""
+"2023-02-13,02:42:21","z3n0684","#0","Not sure if these docs contain what you are requesting for.
+https://blockscout.com/xdai/mainnet/api-docs
+https://gnosisscan.io/apis","rachelg.eth#0",""
+"2023-02-13,11:03:08","rachelg.eth","#0","Hey I appreciate this, 😊 those links will be super useful so I passed them on.
+
+Think we found another source for the token logo data too.
+
+I appreciate your time wholeheartedly 🙏 💙","z3n0684#0",""
+"2023-02-14,00:31:54","z3n0684","#0","awesome!","rachelg.eth#0",""
+"2023-02-14,01:52:57","harrison8259","#0","Hey, does anyone have any recommendations for a cheap and effective VPS provider for Gnosis node?","",""
+"2023-02-20,23:30:36","zimbabao","#0","Hi all, my gnosis node is stuck at ```[INFO] [02-21|04:15:09.709] new subscription to logs established
+[INFO] [02-21|04:15:09.724] [Sentinel] Sentinel started              enr=enr:-Ly4QAsz2YPs7ur3pKJnyC7nC24KwaWKS6c0A7D-P2KJaPH7B0Q-Nk4LmJ7W-QuIfr67c7pQJzIsHwQqz37Oe40MmKYBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCCS-QxAwAAAP__________gmlkgnY0gmlwhH8AAAGJc2VjcDI1NmsxoQJ341hZOl2z2XkaTf1IV2_9Q7KlTxfeLwtURpMQn-b_I4hzeW5jbmV0cwCDdGNwgg-hg3VkcIIPoA
+[INFO] [02-21|04:15:09.728] [Checkpoint Sync] Requesting beacon state uri=https://checkpoint.gnosis.gateway.fm/eth/v2/debug/beacon/states/finalized
+[INFO] [02-21|04:15:13.211] [Checkpoint Sync] Retrieving lightclient bootstrap from sentinel root=325197e02f2d22681ae459a9e2a9489fbf97fe1d0342297b65ae84045ed51d20
+[INFO] [02-21|04:15:23.212] [Checkpoint Sync] P2P                    peers=0```
+
+Any idea?","",""
+"2023-02-21,02:04:15","doshtech","#0","Hey there zimbabo please paste ask in <#920642136272166972>","zimbabao#0",""
+"2023-02-22,16:23:42","youngpatrice","#0","not sure how many of you are devs, but we just added all evm chain support, including Gnosis Chain, across **thirdweb** tooling. would drop a link if I wasn't afraid of being banned 🙂 
+
+looking forward to seeing what y'all build with thirdweb on Gnosis ❤️ <:GnosisChain:938902103160655904>","",""
+"2023-02-22,22:42:58","billyjitsu","#0","nice!  Good to have some gnosis support on thirdweb","youngpatrice#0",""
+"2023-02-23,11:10:50","1Proof_fan","#5743","Good stuff!  Can you share a link without the periods  in link example form?  Interested in seeing the Thirdweb Gnosis tooling!","youngpatrice#0",""
+"2023-02-26,14:48:26","nachobritos","#0","Hey, we deployed on gnosis but are unable to verify the contract, where can we ask for support to solve this ? the bug is with viaIR","",""
+"2023-02-27,00:51:10","z3n0684","#0","Is it possibe to share more info about the bug?","nachobritos#0",""
+"2023-02-28,10:39:59","commercium.sys","#0","Hi","",""
+"2023-02-28,10:40:27","commercium.sys","#0","I'm developing an application that periodically requires high utilization of blockspace so I am educating myself on all the EVM chains and how they approach block production","",""
+"2023-02-28,10:40:48","commercium.sys","#0","Can someone please send me the best resources to understand this for GnosisChain?","",""
+"2023-02-28,11:45:14","doshtech","#0","hi ser the best place would be here https://docs.gnosischain.com/ it has all relevant info","commercium.sys#0",""
+"2023-03-02,06:22:39","peteris8560","#0","if a contract method is `payable` the Gnosis Chain
+will it receive xDAI or GNO?","",""
+"2023-03-02,06:32:13","doshtech","#0","hey there can you expand on to what you are referencing?  If you are referring to contracts on gnosis chain, all fees are paid in xDAI","peteris8560#0",""
+"2023-03-02,06:34:35","peteris8560","#0","on ethereum if you call `function mint() payable` as `contract.mint({ value: 1 eth })` it'd receive ETH and the gas would also be paid in ETH
+
+what is it on gnosis chain? gas fees are paid in  xDAI that's clear
+but will the contract receive 1 xDAI or 1 GNO?","",""
+"2023-03-02,08:12:03","doshtech","#0","im not entirely sure, i would assume it would be xdai in this case. CC: <@638658323708903425> can you verify?","alebanzas#0、peteris8560#0",""
+"2023-03-02,12:52:29","doshtech","#0","Hey there Peteris the answer i got from a dev was as follows ""the { value } on a transaction is always paid out in the native token, so xDAI in this case. If they want to accept GNO, they have to do an ERC20 transfer."" hope that answers your question","peteris8560#0",""
+"2023-03-02,14:18:41","lplit","#0","Hi! I'm trying to connect to my gnosis safe from my app, If I connect with walletconnect, should that integration be seamless? or does it require some extra code?","",""
+"2023-03-02,14:54:05","doshtech","#0","hey there, best to ask this in Safe discord https://discord.gg/krAPncac","lplit#0",""
+"2023-03-02,15:08:29","lplit","#0","Thanks!","doshtech#0",""
+"2023-03-10,01:56:52","mukunddaolens","#0","Hi can you please send the invite again","doshtech#0",""
+"2023-03-10,01:59:10","doshtech","#0","https://discord.gg/Gg3aRxxb","",""
+"2023-03-13,07:12:03","tolgayayci","#0","Hey, I am wondering that is there any on-going grant program on Gnosis Chain?","",""
+"2023-03-13,10:05:24","mukunddaolens","#0","Hi, which api service can help me get the NFT collections metadata on the gnosis chain?","",""
+"2023-03-13,10:05:45","mukunddaolens","#0","Most api services don't support the chain","",""
+"2023-03-13,10:30:26","CodeBlueJaye","#0054","<@1066004726589689907> are you using chrome or brave ?","mukunddaolens#0",""
+"2023-03-13,10:31:04","mukunddaolens","#0","chrome","",""
+"2023-03-13,10:34:35","CodeBlueJaye","#0054","<@1066004726589689907> Right-click on the MetaMask Extension window then Click on 'Inspect' to open the Web Inspector.","mukunddaolens#0",""
+"2023-03-13,14:45:08","tolgayayci","#0","anyone have information about that?","",""
+"2023-03-13,19:58:46","pumpedlunch","#0","Hey, I'm building on Gnosis Chain for Scaling Ethereum and March to AA account hackathons. 
+Are there any 4337 bundlers currently on or coming to Gnosis Chain? 
+Are there any developer office hours where we could discuss our projects with the core team?","",""
+"2023-03-14,22:30:52","z3n0684","#0","Hi, there are chat groups on discord dedicated to each team.  Your team may request for the office hour there.
+For another question, I'm still waiting for the confirmation from the team.","pumpedlunch#0",""
+"2023-03-14,23:21:47","pumpedlunch","#0","Do you mean the sponsor-gnosis-chain Channel on the ETHGlobal server? If so,  I asked my question there first, but have not had a reply.","z3n0684#0",""
+"2023-03-15,04:57:02","z3n0684","#0","Yes, grants for public goods can be applied here https://www.gnosis.builders/contact-us","tolgayayci#0",""
+"2023-03-15,15:33:55","arturobx","#0","Hi! Where Can I find more info about hashi bridge?","",""
+"2023-03-15,23:30:35","z3n0684","#0","Follow up:
+Is your question getting respond in the ETHGlobal server?","pumpedlunch#0",""
+"2023-03-16,20:30:51","samkamani","#0","Wrote a small tweet thread on deploying Smart Contracts on Gnosis chain. 
+let me know what you all think about it and if i forgot something... thx 🦉
+https://twitter.com/cookbook_dev/status/1636522065070292992?s=20","",""
+"2023-03-16,22:35:51","z3n0684","#0","awesome. I tried cookbook and it is super simple to use!","samkamani#0",""
+"2023-03-17,16:06:02","samkamani","#0","Thank you 🙏🏽","z3n0684#0",""
+"2023-03-21,12:20:21","zahwa","#3948","tggg","",""
+"2023-03-21,12:30:37","GregEgi","#4622","hello","",""
+"2023-03-21,13:02:55","werts_eth","#0","Hi all","",""
+"2023-03-21,22:41:20","elmhiftanie","#0","Good","",""
+"2023-03-23,00:30:35","harrison8259","#0","Hey, for running a Gnosis node, does anyone know how many CPU cores are required?","",""
+"2023-03-23,06:55:27","pimaldave","#0","Cookbook is pretty nice 🔥 Was in a space of them when a smaller chain invited them to speak.","z3n0684#0",""
+"2023-03-23,15:22:56","dominichackett","#0","The faucet doesn't seem to work where can I  get testnet xDai?","",""
+"2023-03-24,00:13:08","z3n0684","#0","Hi, can you try again to see if it's working now https://gnosisfaucet.com/ ?","dominichackett#0",""
+"2023-03-24,06:41:22","kenilshah","#0","Hey @everyone , Kenil here BTech student currently in my pre final year (SWE intern at JPMorgan Chase and Co), a student from Mumbai. I have attended a few virtual ETHGlobal hackathons in the past and i really wanted to be a part of an ETHGlobal IRL event. I was recently accepted at ETHGlobal Tokyo. But as a student i won't be able to afford the expenses. Do you guys know some organisation that can offer some support to students?","",""
+"2023-03-24,21:15:49","Deleted User","#0000","Hello everyone.
+I am an professional developer with 7+ years of experience in web development. I have implemented a number of applications and solutions using various technologies and programming languages, ensuring optimal functionality, quality, and reliability.
+My skills and experience:
+— advanced level of React/Redux, Node/Express as my most proficient skills
+— experienced in other JS frameworks like Next, and Vue.js
+— solid knowledge of SEO techniques and a good sense of UI/UX and responsiveness
+— pretty rich experience in both RDBMS and NoSQL databases(MySQL, PostgreSQL, MongoDB, etc)
+— strong understanding of HTML, CSS/SASS, Tailwind CSS, JavaScript/TypeScript, PHP, Solidity, REST and GraphQL API
+— AWS, Git and test libraries like Cypress, Jest, Web3 integration
+— experience of working under Agile methodology
+Here is my portfolio
+https://lucaswong-portfolio.netlify.app/
+I appreciate any offer you make for a position that I might be a good fit for. Cheers!","",""
+"2023-03-30,01:49:58","mfw78","#0","<@909897765121851463>  <@334552861918887936> Who do I speak to with regards to Gnosis Chain contracts? Particularly with reference to the implementations for `PermittableToken`","doshtech#0、plato-gnosis#5517",""
+"2023-03-30,01:50:25","mfw78","#0","```solidity
+    function permit(
+        address _holder,
+        address _spender,
+        uint256 _value,
+        uint256 _deadline,
+        uint8 _v,
+        bytes32 _r,
+        bytes32 _s
+    ) external {
+        require(now <= _deadline);
+
+        uint256 nonce = nonces[_holder]++;
+        bytes32 digest = _digest(abi.encode(PERMIT_TYPEHASH, _holder, _spender, _value, nonce, _deadline));
+
+        require(_holder == _recover(digest, _v, _r, _s));
+
+        _approveAndResetExpirations(_holder, _spender, _value);
+    }
+```","",""
+"2023-03-30,01:50:40","mfw78","#0","Having functions that just die with no reversion msg is bad form.","",""
+"2023-03-30,01:52:08","doshtech","#0","Hey mfw","",""
+"2023-03-30,01:52:24","mfw78","#0","Additionally, when digging further (and this could very well be a Tenderly specific issue) - gnosis scan / blockscout vs tenderly have different ""verified"" source code","",""
+"2023-03-30,01:52:55","doshtech","#0","i think best would be to create a support ticket and il ping some of the devs to take a look","",""
+"2023-03-31,00:03:22","aryanjain","#0","📢 Calling Buildooors, 🧑‍💻
+
+🧙‍♂️ We're thrilled to invite you to our very first Connext meetup - ""Let's Connext, Bangalore"". 🚀
+
+🤩 Come and let's connext! 😉
+
+📍 Location: 91springboard, Indiranagar 
+📆 Date: April 8th (Saturday) 
+🕓 Time: 4 PM
+
+Register now: https://lu.ma/letsconnextblr","",""
+"2023-03-31,00:03:42","aryanjain","#0","I hope you don’t mind if I post this here","",""
+"2023-03-31,09:52:23","crypto_junkie","#0","Gm sers, is there a dev specific tg channel? Need to ask some questions.","",""
+"2023-03-31,10:25:02","doshtech","#0","you are welcome to drop it in here, or of its sensitive submit a <#1011635135206137927>","crypto_junkie#0",""
+"2023-04-01,07:32:31","imnotlk","#0","Hi. Who can we talk to if we are interested to deploy on here?","",""
+"2023-04-01,08:17:58","doshtech","#0","hi there feel free to dm me or create a <#1011635135206137927>","imnotlk#0",""
+"2023-04-03,02:38:00","saimano","#0","Metamask is not connecting to https://rpc.gnosischain.com/ this rpc. Is it working fine?","",""
+"2023-04-03,02:38:29","saimano","#0","<@334552861918887936> <@1067099008226562188>","doshtech#0、z3n0684#0",""
+"2023-04-03,03:00:42","doshtech","#0","let me check","saimano#0",""
+"2023-04-03,03:01:48","doshtech","#0","<@505789102222737420> i think there is an outage right now on it, use this one https://rpc.ankr.com/gnosis","saimano#0",""
+"2023-04-03,03:09:01","saimano","#0","Okay. Was using wagmi chains to connect my dapp to gnosis. And wagmi seems to use the `rpc.gnosischain.com` internally. Hence the connection fails. But I configured a custom chain with the other rpc :))","doshtech#0",""
+"2023-04-03,03:09:32","doshtech","#0","i see, devs looking into it as we speak to resolve","saimano#0",""
+"2023-04-03,03:27:11","doshtech","#0","<@505789102222737420> should be back up npw","saimano#0",""
+"2023-04-03,03:29:37","saimano","#0","great. thanks for the instant help.","doshtech#0",""
+"2023-04-05,03:57:27","akikazu__","#0","Hi, wss rpc is down again atm","",""
+"2023-04-05,03:57:46","akikazu__","#0","looking for free backup wss rpc","",""
+"2023-04-05,07:49:35","geleeroyale","#0","Same here - pls investigate the issue.","",""
+"2023-04-08,14:13:49","NGC |BitScoper |FusionX Finance","#8254","wow","",""
+"2023-04-11,07:35:40","teodor_51","#0","Hello guys! Is there anyone from the project team I can discuss a possible collaboration?","",""
+"2023-04-11,07:55:23","doshtech","#0","hello there, please create a <#1011635135206137927> and we can discuss more in there","teodor_51#0",""
+"2023-04-11,08:36:59","teodor_51","#0","done, thank you!","doshtech#0",""
+"2023-04-11,18:45:36","aldewan","#0310","Hello!  I noticed your team is attending Eth Tokyo, and as we make crypto data indexing and alerting tools, I believe our companies share similar interests in the space. Can I connect our founder Matt  with your representative at the event?  Happy to set up a group telegram chat for intros and to coordinate. Thank you.","",""
+"2023-04-13,06:52:41","namaskaram","#0","Is Gnosis auction frontend support ended or does the server need a kick?","",""
+"2023-04-13,08:29:11","cortze","#0","Hey there, could anyone share with me the latest `fork_digest` and `bootnodes` for the Gnosis p2p network?","",""
+"2023-04-13,09:21:07","doshtech","#0","hey there best to ask this in <#920642136272166972>","cortze#0",""
+"2023-04-13,09:21:46","cortze","#0","ohh, sorry! thanks <@334552861918887936>","doshtech#0",""
+"2023-04-13,16:20:58","Wichard","#8301","How can I connect to my node through ipc?","",""
+"2023-04-13,16:23:20","doshtech","#0","hey there best to ask this in <#920642136272166972>","Wichard#8301",""
+"2023-04-17,21:12:43","macmacmacprime","#0","Do any of the RPC nodes on Chiado support account abstraction","",""
+"2023-04-17,21:13:16","macmacmacprime","#0","We deployed a bunch of contracts at eth Tokyo but then had problems with RPC gas estimates from our bundler","",""
+"2023-04-17,21:14:15","macmacmacprime","#0","So A) we probably were doing something wrong or B) if you don't support it we can just run our own nethermind node with AA enabled","",""
+"2023-04-17,21:15:47","macmacmacprime","#0","And we also were seeing contract creation calls getting reverted but then being committed later","",""
+"2023-04-17,21:16:16","macmacmacprime","#0","But it's testnet so that's not a big deal","",""
+"2023-04-18,00:50:46","macmacmacprime","#0","hmm it must work, just saw this:  https://github.com/eth-infinitism/account-abstraction/blob/develop/contracts/samples/gnosis/EIP4337Manager.sol","",""
+"2023-04-18,01:23:34","akashmondal1","#0","Great","",""
+"2023-04-18,02:01:20","arya_rohit","#0","To good","",""
+"2023-04-18,06:30:23","z3n0684","#0","Hey Developers, starting from April 13, you can **Create a Safe ** and **Send transactions  for FREE**  for the next 30 days on Gnosis Chain!!! 🔥 🔥 🔥 
+https://safe.mirror.xyz/UX6Q-IsqST6vIuwBzcozFgZ81RfUcgkr2RxVzrYcmlc","",""
+"2023-04-19,12:15:54","cgebe","#0","Is the agnostic relay already supporting optimistic block submission? Would appreciate to get in contact with the relay operator.","",""
+"2023-04-20,05:42:42","walodja1987","#0","Hi everyone,
+
+is it possible to verify contracts on Chiado testnet using hardhat's etherscan plugin? I created an API Key in blockscout, but it seems not to work when I use it for Chiado. Any help is appreciated.","",""
+"2023-04-20,12:52:03","alebanzas","#0","https://docs.gnosischain.com/developers/smart-contracts/hardhat#verify-contract select ""chiado testnet"" in the tabs.","walodja1987#0",""
+"2023-04-20,12:59:03","walodja1987","#0","I’ve done that but I think I don’t have the right api key. For gnosis, I have the api key from gnosisscan,  the same key doesn’t seem to work when verifying on Chiado.","alebanzas#0",""
+"2023-04-22,20:49:01","macmacmacprime","#0","<@817812006056493118> gm I'm at the hackathon and Taipei and I'm having some issues with overloading Mechs","ethan88#1863",""
+"2023-04-22,20:49:43","macmacmacprime","#0","I've got all the things deployed locally but the way y'all are using storage is funky","",""
+"2023-04-22,20:50:07","macmacmacprime","#0","I wrote a custom mechFactory to untangle it from safe / zodiac","",""
+"2023-04-22,20:50:39","macmacmacprime","#0","Are any of the guild  folks around","",""
+"2023-04-22,20:50:44","macmacmacprime","#0","My use case is a little strange","",""
+"2023-04-22,20:52:32","macmacmacprime","#0","` const BubblegumToken = await nft.deploy()
+ const generated = await proxy.callStatic.createAccount(BubblegumToken.address, 1, 1);
+ const { proxy: alice } = await createAccount(ethers.provider.getSigner(), accounts[0], entryPoint)
+ await BubblegumToken.mintToken(alice.address, 1)
+ const ecdsaSignature = await alice.signMessage(message)
+ const messageHash = ethers.utils.hashMessage(message)
+ const ownContractSignature = signWithMech(mech1.address, ecdsaSignature)
+`","",""
+"2023-04-22,20:52:49","macmacmacprime","#0","Essentially my users won't have an eoa","",""
+"2023-04-22,20:55:44","macmacmacprime","#0","To make a long story short it's the create2 address calc that's causing some problems I think","",""
+"2023-04-22,20:56:11","macmacmacprime","#0","My mechs are uupsupgradable","",""
+"2023-04-22,20:56:24","macmacmacprime","#0","But maybe that doesn't matter given how your storage works","",""
+"2023-04-23,01:33:57","macmacmacprime","#0","Ok I still haven't slept but I can articulate my needs better now that I'm punch drunk","",""
+"2023-04-23,01:34:57","macmacmacprime","#0","I'd like to use Yoavs / gsl AA entry point deployer factory","",""
+"2023-04-23,01:35:44","macmacmacprime","#0","But the eth-infinitism repo is a little over my head","",""
+"2023-04-23,01:36:18","macmacmacprime","#0","Turns out it's not as easy as slapping OZ interfaces on the mech and deploying via callStatic(setup)","",""
+"2023-04-23,01:36:25","macmacmacprime","#0","Some other magic going on","",""
+"2023-04-23,03:30:50","hashguide","#0","did you check out the examples in the repo? Might give you some context of what's going on.","macmacmacprime#0",""
+"2023-04-23,05:26:22","macmacmacprime","#0","They've got a gnosis signer","",""
+"2023-04-23,05:26:32","macmacmacprime","#0","But it's for safes","",""
+"2023-04-23,05:26:42","macmacmacprime","#0","I tried to adapt their simple account factory","",""
+"2023-04-23,05:43:05","macmacmacprime","#0","Dream demo; bls agg pet mech","",""
+"2023-04-23,05:44:17","macmacmacprime","#0","+ erc4466 mech so grandparents get paid","",""
+"2023-04-23,05:46:17","macmacmacprime","#0","But what I really want is a demo of a mech that can allocate an ecdsa pair and let anyone sign that sends a valid jwt / etc","",""
+"2023-04-23,05:47:21","macmacmacprime","#0","Could probably make that work with onlyowner","",""
+"2023-04-23,05:47:23","macmacmacprime","#0","Hmm","",""
+"2023-04-23,05:53:05","macmacmacprime","#0","Looks like the work of two evil geniuses","",""
+"2023-04-23,05:55:10","macmacmacprime","#0","https://github.com/gnosis/mech/commits?author=jfschwarz and https://github.com/samepant","",""
+"2023-04-23,21:33:11","macmacmacprime","#0","Ok My brain thought about this while I was sleeping","",""
+"2023-04-23,21:35:46","macmacmacprime","#0","I need a paymaster that maps ERC721mechs to an es256 pubKeyCredParams credential","",""
+"2023-04-23,21:37:38","macmacmacprime","#0","And a safeTransferTo that checks the pubkey","",""
+"2023-04-23,21:37:57","macmacmacprime","#0","Actually maybe this could just be in the mech itself","",""
+"2023-04-23,21:39:05","macmacmacprime","#0","But I need ddos mitigation because my paymaster has to create new accounts from anywhere","",""
+"2023-04-23,21:39:18","macmacmacprime","#0","For the bootstrap use case","",""
+"2023-04-23,21:40:11","macmacmacprime","#0","A new user, bob, has a modern client that uses fido and it will generate an ephemeral EOA that calls the paymaster to create a new erc721/erc1155 mech","",""
+"2023-04-23,21:40:37","macmacmacprime","#0","It will also send the fido pubkey and maybe a jwt","",""
+"2023-04-23,21:41:17","macmacmacprime","#0","Err wait, bobs client can't call anything","",""
+"2023-04-23,21:41:22","macmacmacprime","#0","It has zero eth","",""
+"2023-04-23,21:41:52","macmacmacprime","#0","Gonna head to the venue and noodle this more","",""
+"2023-04-23,22:57:42","tintinthong","#0","Ive got some code here
+
+```
+ */
+export async function executeTransaction(
+  web3OrEthersProvider: Web3 | JsonRpcProvider,
+  from: string,
+  to: string,
+  data: any,
+  operation: Operation,
+  estimate: Estimate,
+  nonce: BN,
+  signatures: any,
+  eip1271Data?: string
+): Promise<GnosisExecTx> {
+  let relayServiceURL = await getConstant('relayServiceURL', web3OrEthersProvider);
+  const url = `${relayServiceURL}/v1/safes/${from}/transactions/`;
+  const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify({
+      to,
+      value: 0, // we don't have any safe tx with a value
+      data,
+      operation: operation,
+      safeTxGas: estimate.safeTxGas,
+      baseGas: estimate.baseGas,
+      dataGas: estimate.dataGas,
+      gasPrice: estimate.gasPrice,
+      nonce: nonce.toString(),
+      signatures,
+      gasToken: estimate.gasToken,
+      refundReceiver: estimate.refundReceiver,
+      eip1271Data,
+    }),
+  };
+  let response = await fetch(url, options);
+  if (!response?.ok) {
+    throw new Error(await response.text());
+  }
+  return response.json();
+}
+```
+
+Since gnosis is a mult-signature wallet, I'd have have to concat all signatures from all owners. Is there a way to do this without depending on offchain services? Can I use your service to do this for a custom contract call?","",""
+"2023-04-23,22:58:14","tintinthong","#0","We host our own relay service","",""
+"2023-04-23,23:11:31","tintinthong","#0","https://help.safe.global/en/articles/3940875-gas-less-signatures I don't really need gasless signatures. I just want to trigger a transaction using 2 owner threshold (from two diff clients)","",""
+"2023-04-23,23:11:59","tintinthong","#0","I dont mind if two of the clients pay for gas","",""
+"2023-04-23,23:15:59","tintinthong","#0","It seems clear https://github.com/5afe/safe-relay-service/blob/23224971060e55f1767eb8baf35e3fd66a7205e6/safe_relay_service/relay/services/transaction_service.py#L495-L496 that the relay service requires you to put the signatures together offchain","",""
+"2023-04-26,07:23:22","brianonchain","#0","Hey guys, small issue, I want to auto add Gnosis (if not added in MetaMask) using addEthereumChain method, for params, should I include the icon URL? If so, what is it? I just want Gnosis icon to appear during switch chain pop up","",""
+"2023-04-27,09:53:53","themandalore","#0","Hey gnosischain, I keep getting this error chiado:  
+
+ ProviderError: FeeTooLowToCompete
+    at HttpProvider.request ...
+
+when trying to submit functions.  A lot of times it will run the first txn, but then this one spits out on the second.  It seems like if I have any non-confirmed txn, the node won't accept it.  (for reference, the script works fine on mainnet, sepolia, and mumbai and I'm the only person doing txn's on chiado for like the last 10 minutes)","",""
+"2023-05-04,09:49:35","themandalore","#0","Hey gnosischain folks, is the verify working on chiado?  Trying to verify a contract but I can't put in what compiler:  https://blockscout.com/gnosis/chiado/address/0xb72D0D4C8DA3fDeEe8F95f2afdDb66118e92c78e/verify-via-flattened-code/new","",""
+"2023-05-05,02:58:28","z3n0684","#0","You can try sourcify https://docs.gnosischain.com/developers/verify/sourcify","themandalore#0",""
+"2023-05-05,11:16:14","themandalore","#0","works now, thx to whoever fixed it","z3n0684#0",""
+"2023-05-09,20:32:08","danimesq","#0","Why Optimism on GnosisChain was sunsetted?","",""
+"2023-05-13,08:18:56","themandalore","#0","can you guys verify the bridged tokens...(e.g. : https://gnosisscan.io/address/0xaad66432d27737ecf6ed183160adc5ef36ab99f2 )","",""
+"2023-05-13,08:22:36","themandalore","#0","nvm...blockscout does !","",""
+"2023-05-15,03:04:44","shisukeurahara","#0","hi <@1067099008226562188>  , i want to deploy an erc20 token and make its owner a multisig owner where some functions like mint and burn are onlyOwner functions and need to be signed by the threshold of signers to be executed. How can i do that with safe contracts? I was able to create a safe with the signers i want on goerli. Now how can i make it interact with the erc20 contract ?","z3n0684#0",""
+"2023-05-15,03:16:42","z3n0684","#0","For safe related questions, you can ask in Safe's server. https://discord.gg/CFUZeNgC","shisukeurahara#0",""
+"2023-05-15,03:17:37","shisukeurahara","#0","ok , thanks for the help","",""
+"2023-05-16,15:47:17","bretep","#0","Any TokenBridge developers here or on the bridge team at gnosis?","",""
+"2023-05-16,18:49:48","g4mm4io","#0","Hi I’m with bretep looking for TokenBridge Developers","",""
+"2023-05-17,03:37:21","z3n0684","#0","Hi <@241784193330184192> <@1049025514473529414> , it would be helpful if you can convey your idea here first so that the team can find the right person to approach your request.","bretep#0、g4mm4io#0",""
+"2023-05-19,06:21:07","maheshnaik","#0","Which nft marketplace supports gnosis mainnet and testnet?","",""
+"2023-05-19,06:38:17","z3n0684","#0","https://docs.gnosischain.com/ecosystems/nfts","maheshnaik#0",""
+"2023-05-19,06:56:57","maheshnaik","#0","none of this supports chiado testnet","z3n0684#0",""
+"2023-05-19,06:59:15","z3n0684","#0","AFAIK there isn't one for Chiado. Maybe you can start building one 😉","maheshnaik#0",""
+"2023-05-19,07:00:01","maheshnaik","#0","so there is no way to check NFTs on gnosis testnet?","z3n0684#0",""
+"2023-05-19,07:00:58","z3n0684","#0","Do you mean checking what NFTs you're holding on Chiado?","maheshnaik#0",""
+"2023-05-19,07:05:27","maheshnaik","#0","Yes, and also to check metadata and buy/sell","z3n0684#0",""
+"2023-05-19,08:24:01","z3n0684","#0","Currently there is no","maheshnaik#0",""
+"2023-05-19,08:31:23","maheshnaik","#0","Okay","z3n0684#0",""
+"2023-05-19,09:56:01","suiswapgooglyee","#0","Hi","",""
+"2023-05-19,14:04:08","kitkatmarty","#0","Let's build one?","maheshnaik#0",""
+"2023-05-19,14:04:30","kitkatmarty","#0","I can actually add Chiado network on the nft marketplace I just deployed if you want","",""
+"2023-05-20,06:08:20","thenewautonomy","#0","Can anyone point me towards a token pricing oracle deployed on Gnosis?","",""
+"2023-05-21,01:19:48","kitkatmarty","#0","Added you so we can discuss","maheshnaik#0",""
+"2023-05-21,01:20:27","kitkatmarty","#0","Did you find anything? I built something on top of cowswap that could be used as oracle but would not be on-chain","thenewautonomy#0",""
+"2023-05-21,09:22:39","thenewautonomy","#0","I didn't find anything on chain, I'd have to build something to either pull live prices or to simulate it since I just need data to test some other contracts.","kitkatmarty#0",""
+"2023-05-22,16:45:12","besomebody","#0","hello, ther is a eth fork called pulsechain, people can do replay attack through interact with omni bridge contract, can dev close the contract on the pulsechain side?","",""
+"2023-05-22,16:46:09","besomebody","#0","https://scan.pulsechain.com/address/0x88ad09518695c6c3712AC10a214bE5109a655671","",""
+"2023-05-23,16:24:27","carlosip","#0","do you have in handy the chiado testnet deposit contract address?","",""
+"2023-05-23,16:31:26","doshtech","#0","bridge team is looking into it","besomebody#0",""
+"2023-05-23,16:31:54","doshtech","#0","https://blockscout.com/gnosis/chiado/address/0xc5Be8Bf53755a41C2385e7Aa86f6a9E28746f466","carlosip#0",""
+"2023-05-23,16:32:13","doshtech","#0","you can also find all the details around Chiado in the docs here https://docs.gnosischain.com/about/networks/chiado/","",""
+"2023-05-23,16:35:50","carlosip","#0","thanks!","doshtech#0",""
+"2023-05-24,03:34:26","akachi0905","#0","I am going to build Ethereum - Avalanche Bridge using Gnosis, how and where can I start from??
+As I am new for Gnosis, some guide is very helpful for me to start up.","",""
+"2023-05-24,08:04:34","doshtech","#0","Hey there, you most likely will need to use the AMB. You can check our docs https://docs.gnosischain.com/bridges/tutorials/using-amb","akachi0905#0",""
+"2023-05-24,10:11:37","carlosip","#0","hi, are there any guides on how to interact with the deposit contract? I want to make use of the deposit() function in my own contract, for that I need to define an interface. But since the contract `0xb97036A26259B7147018913bD58a774cf91acf25` is an upgradeable proxy contract, its implementation (and thus the interface) could change over time. What's the best approach to defining in my contract a way to deposit to the implementation of the deposit contract?","",""
+"2023-05-24,10:44:02","carlosip","#0","I think that the interface for the deposit contract won't ever change, am I wrong? if that's so I just need to use it, and then in my contract store `0xb97036A26259B7147018913bD58a774cf91acf25` as the deposit contract address, and from there whenever a deposit is to be done, I should get the implementation address for using the `deposit()` function from it. Is this the proper path? Please let me know","",""
+"2023-05-24,22:52:58","kitkatmarty","#0","Lets build it together?","thenewautonomy#0",""
+"2023-05-25,04:48:04","shotaronowhere","#0","Hi, maybe I have problems on my end, but I'm pretty sure i'm usingthe exact same contracts and deploy scripts as a few days ago, but now chiado deployments fail throwing a contract too large error, but the contracts most certainly are not too large.
+
+I also just tested this in remix, every rpc end point on chainlist is giving me this error on contract deployment","",""
+"2023-05-25,04:49:26","shotaronowhere","#0","> Gas estimation errored with the following message (see below). The transaction execution will likely fail. Do you want to force sending? 
+> Returned error: {""jsonrpc"":""2.0"",""error"":""EIP-3860 - transaction size over max init code size"",""id"":5859139709052669}","",""
+"2023-05-25,18:46:49","llama6666","#0","I had the same issue with a super simple test contract as well,  literally just one function.
+
+What's funny is it deploys on mainnet just fine... maybe test in prod? 😂","shotaronowhere#0",""
+"2023-05-25,19:02:12","no_planet_b","#0","Hi <@280112290961948672> and <@329234510740717571> thank you for surfacing this - we've brought it to the attention of Gnosis Chain core devs","shotaronowhere#0、llama6666#0",""
+"2023-05-27,09:06:01","shotaronowhere","#0","Hey, I made a dashboard to look at Ethereumverse (Ethereum and Gnosis) network performance. Testnet performance for goerli and chiado are also included, take a look
+
+https://ethereumverse.vercel.app/","",""
+"2023-05-29,10:59:07","chitty27","#0","Hi, we are testing out dapp on chiado, but we need some GNO for at least 1 validator, faucet is not working.","",""
+"2023-05-29,10:59:26","chitty27","#0","If anyone can provide some GNO it would be much appreciated it: 0xe44a718817387e585B3dFc775212C88c68e60a58","",""
+"2023-05-31,19:58:46","no_planet_b","#0","this is super cool!","shotaronowhere#0",""
+"2023-05-31,19:59:15","no_planet_b","#0","the faucet is for xdai not GNO","chitty27#0",""
+"2023-05-31,21:27:19","kitkatmarty","#0","Hey hi there,
+I built new concept of Vault to fit context of memecoins and nft and built a minimalist dapp to interact with the contracts,
+The deposit function require;
+address(for tokens to deposit,
+Assets(amount of tokens)
+Recipient (to receive minted tokens)
+
+I achieved in development server to make it work perfect, but now the same exact code is not working anymore,
+
+I'm using the window.ethereum with react and ethers,
+
+The approval function works and then the request to deposit never come up,
+
+Would be so grateful if someone can try run it and help find a fix,
+
+https://github.com/PuppyFrogCoin/MemeVault-dApp
+
+deployed here;
+https://memevault.puppyfrogcoin.com
+
+Thanks in advance🙏","",""
+"2023-05-31,21:28:01","kitkatmarty","#0","Seems the error is/
+
+Internal rpc error.. background.js","",""
+"2023-05-31,21:39:02","kitkatmarty","#0","https://gnosisscan.io/address/0x326A7E9F6Efb0Da6F3a91BDb2611c14597034826#writeContract","",""
+"2023-05-31,21:39:06","kitkatmarty","#0","Here the contracts","",""
+"2023-05-31,21:47:56","no_planet_b","#0","Hi <@1067099008226562188> when you have a moment, curious if you have any insight here!","kitkatmarty#0、z3n0684#0",""
+"2023-05-31,22:23:55","kitkatmarty","#0","Would be so happy if you can help","no_planet_b#0",""
+"2023-05-31,22:24:08","kitkatmarty","#0","I don't know if it is problem with window.ethereum with gnosis or is it my code","",""
+"2023-05-31,22:24:12","kitkatmarty","#0","const Deposit = ({ account }) => {
+    const [amount, setAmount] = useState("""");
+
+    const handleDeposit = async event => {
+        event.preventDefault();
+
+        // Replace with the appropriate addresses
+        const tokenAddress = ""0x35520fFcCFf5fE5b1860d8C561c83059Fb52b464"";
+        const vaultAddress = ""0x326A7E9F6Efb0Da6F3a91BDb2611c14597034826"";
+
+        // Create a signer instance
+        const signer = provider.getSigner(account);
+        
+        // Connect to the ERC20 Token contract
+        const erc20Token = new ethers.Contract(tokenAddress, DummyTokenABI, signer);
+        const amountToDeposit = ethers.utils.parseUnits(amount, 18); // assuming 18 decimal places
+
+        // Approve the MemeVault to use your tokens
+        const allowance = await erc20Token.allowance(account, vaultAddress);
+
+        if (allowance.lt(amountToDeposit)) {
+            const tx = await erc20Token.approve(vaultAddress, amountToDeposit);
+            await tx.wait();
+        }
+
+        // Connect to the MemeVault contract
+        const memeVault = new ethers.Contract(vaultAddress, MEME_VAULT_ABI, signer);
+
+        // Deposit the tokens to the MemeVault
+        const tx = await memeVault.deposit(tokenAddress, amountToDeposit, account);
+        await tx.wait();
+    };","",""
+"2023-05-31,22:24:20","kitkatmarty","#0","This is where it happens","",""
+"2023-05-31,22:24:31","kitkatmarty","#0","The approval always seem to pop up but not the second tx","",""
+"2023-05-31,23:11:13","kitkatmarty","#0","Still not works anymore:(","",""
+"2023-05-31,23:48:37","kitkatmarty","#0","Ooh I think i found,
+Parseunits is outputting a Hex number, and the contract shall accept a string,
+
+It is so weird that it worked at a time","",""
+"2023-06-01,00:19:46","kitkatmarty","#0","But I tried many other ether.utils and still no luck","",""
+"2023-06-01,00:20:11","kitkatmarty","#0","Waiting for advices from a friend bjt was trying my luck here","",""
+"2023-06-01,05:49:43","1Proof_fan","#5743","Good work, thanks for posting!","shotaronowhere#0",""
+"2023-06-02,05:20:03","Deleted User","#0000","Hi there, I'd have a question regarding some ""logic"" underlying the Gnosis chain. I noticed that sometimes, validators prefer type-0 (like pre EIP1559) transactions over type-2 (EIP1559) transactions, although the type-2 transactions provide higher priority and base fees than the type-0 transactions. Can somebody explain to me why that is? For example, these transactions here follow this pattern: 
+- type-0 transaction: https://gnosisscan.io/tx/0x60e0485b9e8a8b56409ff5a72a464b2d1921a9ac4919377e2a5ec243b3aa5b8d
+- type-2 transaction: https://gnosisscan.io/tx/0x186b07a3f522af757f887b88f46bc894507485bf3e806e647cbdcb881145a107
+Both are in the same block, 28249603, the type-0 transaction is at position 3, while the type-2 transaction is at position 5? Thanks in advance for any pointers, hints, etc.! 🙂","",""
+"2023-06-03,02:42:25","Deleted User","#0000","@here - anyone? 😇","",""
+"2023-06-03,11:06:30","Deleted User","#0000","No one has any ideas/insights? 😦","",""
+"2023-06-03,16:19:38","brightiron","#0","does the gnosis auction repo,  https://github.com/gnosis/ido-ux have the latest code published publicly? It looks like https://gnosis-auction.eth.link/ is running a different version the codebase. 
+All API requests on https://gnosis-auction.eth.link/ are querying a subgraph to pull back auction data, but on the develop branch of the codebase it's still configured to call an ""additional services""  API with /api/v1 appended on the end of it . 
+None of the network requests on gnosis-auction website are querying this /api/v1 
+see (https://github.com/gnosis/ido-ux/blob/164ab627a6c6a1f516ab148bb390eb8124cfe457/src/api/AdditionalServicesApi.ts#LL101C10-L101C10) 
+
+trying to get this spun up locally to contribute . 
+
+cc <@334552861918887936> / <@255832236555894794>","doshtech#0、no_planet_b#0",""
+"2023-06-05,04:10:15","Deleted User","#0000","Nobody has any idea? 🙏","",""
+"2023-06-05,09:25:10","doshtech","#0","let me ask around and see if i can get an answer for you","Deleted User#0000",""
+"2023-06-05,18:41:49","spuddy.eth","#0","Just realized I accidentally asked a filecoin question here and nobody called me out y'all are so polite 💗","",""
+"2023-06-05,18:44:04","doshtech","#0","welcome to gnosis chain 😄","spuddy.eth#0",""
+"2023-06-05,18:44:23","spuddy.eth","#0","Thank you!! I already love it here","",""
+"2023-06-05,18:44:42","doshtech","#0","if you like filecoin, check out fileverse","spuddy.eth#0",""
+"2023-06-05,18:44:52","doshtech","#0","https://fileverse.io/","",""
+"2023-06-05,18:47:22","spuddy.eth","#0","Oh cool! But no, I work for tellor running clients on all the chains and I get the testnet confused sometimes.","",""
+"2023-06-05,18:48:00","doshtech","#0","oh i see, no worries!","",""
+"2023-06-05,18:51:14","spuddy.eth","#0","Gnosis chain is my favorite now","",""
+"2023-06-06,03:23:33","Deleted User","#0000","Cool, thanks! 🙏","doshtech#0",""
+"2023-06-07,08:50:37",".ferula","#0","Hi! I'm using RealT for a while now, and I decided to get into one of their futures: the whitelisted addresses. Basically, one has to ask RealT on their website to get whitelisted in order to buy tokens. If that thing works on their website, nothing special. But then I realized something: there's a DEX for RealT tokens, and the whitelist checking still works! So I asked how it was possible in the RealT's Discord, and some people told me in was in the smart contract of the token itself. Brilliant, that was the precise point of my question: where this checking occurs? So I tried to look in the code, but I cannot understand much... Can someone point me where this verification is written is the code? https://gnosisscan.io/address/0xFc5073816Fe9671859EF1e6936EFd23BB7814274/transactions#code","",""
+"2023-06-08,01:31:19","macmacprime","#0434","That repo looks dead to me: the last real commit was over a year ago","brightiron#0",""
+"2023-06-08,04:01:46","wfgh","#0","Hello gm. I'm having problems launching a Gnosis Auction, Can anyone in the team DM me to share my console log?","",""
+"2023-06-08,06:07:16","_20goto10_","#0","I got curious and tried to look. Well, the contracts are quite complex, they use proxy contracts everywhere so you have to find the implementation contracts. Also, the first contract points to a Processor contract which points to a Rules contract: https://gnosisscan.io/address/0xfb397f6f82c426c9cf5ca302c4aa21dc876d6ed2#code This one uses a table of rules. Seems very dynamic and flexible but a bit too complex for my taste. I gave up... 🙂",".ferula#0",""
+"2023-06-08,06:13:28","_20goto10_","#0","And, if you just want some whitelisting, put a guard in all transfer functions that lookups the address in a hash map...",".ferula#0",""
+"2023-06-08,07:09:20",".ferula","#0","Hi! Thanks for your answer, I didn't suspect it was thtat complex 😅 but thanks for the advice!","_20goto10_#0",""
+"2023-06-16,17:54:35","jaybuidl","#0","gnosisscan for chiado would be a great quality of life improvement for devs building on GC","",""
+"2023-06-17,08:55:15","z3n0684","#0","https://blockscout.com/gnosis/chiado","jaybuidl#0",""
+"2023-06-26,14:48:39","accelnorm","#0","Does Gnosis Chain have an alternative to Polygon ID?","",""
+"2023-06-26,15:39:34","doshtech","#0","BrightID 🙂","accelnorm#0",""
+"2023-06-27,04:02:48","shotaronowhere","#0","hey I want to test a contract on chiado that uses WETH. Is there any WETH like contract on chiado? I guess I can deploy my own, but I was hoping I don't have to explicitly give testers WETH. There's no token bridge goerli -> chiado?","",""
+"2023-06-27,04:05:21","shotaronowhere","#0","https://docs.gnosischain.com/bridges/tokenbridge/omnibridge
+
+I guess there are some contract deployments, but the goerli OmniBridge Mediator (Foreign) contract is unverified and the omni bridge ui doesn't support goerli -> chiado","",""
+"2023-06-29,11:22:49","bole2653","#0","Hi there,
+I was wondering, as Goerli is being deprecated, have you planned deployment of AMB in order to support interaction between Chiado <-> Sepolia?
+<@909897765121851463>  <@255832236555894794>","no_planet_b#0、plato-gnosis#5517",""
+"2023-06-29,12:26:52","steve0xp","#0","Hi there, not sure if this is the right spot to task but just manually created a sequence of actions with the Transaction Builder, and was hoping to know if there was a way to create a more automated workflow to create transactions","",""
+"2023-06-29,23:50:01","z3n0684","#0","I believe there is no WETH in Chiado. It'd better to deploy your own for testing.🙂","shotaronowhere#0",""
+"2023-06-30,00:56:56","z3n0684","#0","yes, there isn't UI or contract verified on Goerli<->Chiado. May I ask what are you trying to build?","shotaronowhere#0",""
+"2023-07-03,07:20:14","spider143","#0","I recently migrated my validators to a different infrastructure yesterday. However, since the migration, the validators have not yet produced a block. I am concerned about the current state of their operation and need to confirm whether everything is functioning correctly. Unfortunately, even the Gnosis Beacon Chain Explorer is displaying incorrect data.
+
+Is there a way to verify from the command line whether everything is running smoothly?","",""
+"2023-07-03,07:53:27","z3n0684","#0","Hi <@549498339025092609> , <#920642136272166972>  channel is more suitable for this question. Also, what do you mean by different infrastructure ?","spider143#0",""
+"2023-07-03,10:52:03","spider143","#0","from dappNode to hosted server","z3n0684#0",""
+"2023-07-05,01:15:23","shotaronowhere","#0","https://gnosis-chiado.blockscout.com 🔥  this ui looks nice, it's new right?","",""
+"2023-07-05,01:18:27","shotaronowhere","#0","A *permissionless* (*read*: no multisig, 1 of n trust assumption) bridge from arbitrum to gnosis with deposits in WETH for some economic mechanism design reasons.
+
+I just deployed a burnable erc20 wrapped xdai in place of a WETH token, so I don't need to distribute WETH to anyone who wants to test running watchers who participate in fraud proving, they can just wrap xdai. I just wanted the same erc20 as the weth on gnosis mainnet, but it can emulate that with burnable erc20","z3n0684#0",""
+"2023-07-05,01:20:55","shotaronowhere","#0","*arbitrary message bridge, not designed for tokens atm","",""
+"2023-07-05,18:19:23","chinrock","#0","hii, I'm running a deploy script with foundry and I'm not being able to verify the contract in Gnosis using the `--verify` flag, I get the following error: `Response result is unexpectedly empty: status=0, message=Something went wrong`. I have deployed with the same script to polygon mumbai and it worked completely fine, anyone found a similar error?","",""
+"2023-07-07,00:57:58","0xdams","#0","Hi! I'm sending transactions from backend with ethers.js but can't get clear readeable message from custom errors, only get a ""Reverted 0x..."" But the hex is often incomplete and don't give me the custom errors name.
+Looks like rpc endpoints response on gnosis and chiado are incomplete for custom errors.
+Is there an api key or something to help getting more data from errors ?","",""
+"2023-07-07,11:12:26","z3n0684","#0","You can try to verify on sourcify  or gnosisscan https://docs.gnosischain.com/developers/verify/","chinrock#0",""
+"2023-07-07,11:14:28","z3n0684","#0","Have you try Tenderly or Foundary to show all the traces of your transactions?","0xdams#0",""
+"2023-07-07,11:39:14","0xdams","#0","i try with hardhat hre and it's fine but can't get the same result with node + ethers.js, same issue on gnosisscan i only get ""reverted"" with no error description from my verified contract","z3n0684#0",""
+"2023-07-11,10:48:41","dan1664","#0","Hi Gnosis, URGENT MESSAGE. I have a multisig Gnosis Safe connection to a borrow supply balance on AAVE.  The Wallet Connect App will not allow me to connect to many DAPPS, including AAVE! Which puts me at liquidation risk. This is on Polygon (and other chains except for mainnet). There seem to be a major flaw with the wallet connect feature in the safe. My devs has looked into it and told me that there was a fix in safe-react-apps repo in the last few days, but this fix was somehow rolled back and didn't make it into the latest release. Is there a way to work around this problem and connect the safe to AAVE? Please can you make the Safe Dev team aware, thank you!","",""
+"2023-07-11,12:10:20","afx5294","#0","Hello, I am looking for a product that can return all transactions given a wallet address on Gnosis. This includes transactions where the address A:
+* Is the sender of the transaction
+* Is the receiver of the transaction
+* Is contained in one of the events from the event log
+* Is the receiver of an internal transaction
+
+Are you aware of any such tool?
+
+Thanks!","",""
+"2023-07-11,18:42:58","brittanyseales","#0","Hey <@403481049822134273> SubQuery (https://subquery.network/) might be just the tool for you! I can't DM you due to your privacy settings but feel free to reach out to me.
+|","afx5294#0",""
+"2023-07-11,18:43:01","brittanyseales","#0","Hi Everyone,
+
+I am from SubQuery, a leading data indexing tool and we have just announceed our support for Gnosis!
+
+SubQuery is a data-as-a-service provider that aggregates and organises data from the blockchain, serving up well-structured data for developers to use for a wide array of projects.
+
+Essentially we can help you get on-chain data into a format where you can use it faster and more easily in your applications (often saving 1-2 months development time!).
+
+Also we support multiple blockchains as well as Gnosis if you're interested in multi-chain indexing!
+
+Read more about the integration here:
+https://subquery.medium.com/subquery-joins-forces-with-gnosis-chain-for-advanced-blockchain-data-indexing-ed4a333723f9
+
+If you're interested in discussing further or getting a demo, DM me!","",""
+"2023-07-14,01:26:46","z3n0684","#0","Hey <@918600582971916318> , I would suggest you to raise your question in Safe Discord directly. https://discord.gg/qcDhVSwH","dan1664#0",""
+"2023-07-14,03:19:02","clintin.arf","#0","Hi Dan, are you still experiencing this issue?","dan1664#0",""
+"2023-07-15,05:53:10","porco_rosso_j","#0","Hey,  I've got xDAI from all the faucet I could find but it's not enough given the amount of contracts I wanna deploy. Any idea to accumulate more quickly?","",""
+"2023-07-15,06:37:38","eddyoff","#0","Hi , i’m looking to be the discord moderator ( full full time ) , are you available ?","z3n0684#0",""
+"2023-07-15,06:59:48","chim9.","#0","The recruitment process is paused for now https://discord.com/channels/502416149343109121/909861711803191296/1127240757535838208 and the offer removed from the website but yeah I guess keep in eye on https://gnosis.jobs.personio.com/?language=en for any potential jobs that might interest you in the future....","eddyoff#0",""
+"2023-07-15,07:12:09","eddyoff","#0","Thank you 😄","",""
+"2023-07-18,22:35:46","chim9.","#0","Hey, if you want to take a look at current job opportunities, check the website : https://www.gnosis.io/careers","0xdevnet.eth#0",""
+"2023-07-25,20:05:50","racnela","#3289","Hi there; I still haven’t been able to find some answer to this question: https://discord.com/channels/502416149343109121/909861711803191296/1126782370431897670","",""
+"2023-07-25,20:07:30","racnela","#3289","I’m wondering if it’s kind of an “elephant in the room” question, or if I’m asking in the wrong place","",""
+"2023-07-25,22:39:48","beemeeupnow","#0","not sure if it helps you, but there is some good discussion here somewhat along that thought train: https://forum.gnosis.io/t/should-gnosisdao-implement-multiple-stablecoins-on-gbc-additional-to-xdai/6143/
+
+after reading everything there it seems generally safer to stick to the way things are","racnela#3289",""
+"2023-07-27,16:36:10","racnela","#3289","I see. The article  discusses adding more stablecoins as fee payment to remove the single point of failure. It's an interesting idea though probably adds even more risks than it could potentially reduce. I'm more interested in what are the current risks and assumptions around gnosis chain, in order to make an informed decision about deploying my app on it . Right now I don't even know exactly what are the risks, so it is hard to make a decision.
+My current understanding is that GC has a poorer security than a ""stage zero"" L2, because not only it has a multisig wallet as an oracle for the bridge, but it also has this potential systemic problem where it depends on MakerDAO DAI to function properly. I don't buy into the stable coin as fee payment because gas costs should anyways be abstracted via Account Abstraction, so my personal opinion is that GC should drop the idea of stablecoin as payment idea as well.","beemeeupnow#0",""
+"2023-07-27,16:36:53","racnela","#3289","Perhaps I should make a proper post on the forum, but currently lack the time, but I thought that it would be easier to find out if my assumptions/understanding about security in GC are correct.","",""
+"2023-07-27,16:38:52","mrtdlgc","#0","the bridge risk is about to be mitigated with hashi by the way. some info 
+https://twitter.com/gnosischain/status/1684492221112807424
+https://twitter.com/gnosischain/status/1684225825388863489","",""
+"2023-07-27,16:39:18","mrtdlgc","#0","but yeah, during the USDC depeg event, xdai also depegged. so it is most definitely a problem to consider","",""
+"2023-07-27,16:40:46","mrtdlgc","#0","and the abstraction of gas costs actually is a great idea, which cowswap is already doing. i'm hoping one day, we'll get to a point where all txs will be abstracted away from gas costs","",""
+"2023-07-27,16:41:00","racnela","#3289","I've seen those (twitter links), while It improves the security, it appears to be an additional meausre and not a replacement for the current multisig oracle (please correct me if I'm wrong). In any case, even if the bridge was perfect, it seems the systemic MakerDAO/DAI risk will still exist, and even worse, there is no contingency/mitigation plan in case things go wrong with it.","",""
+"2023-07-27,16:41:03","mrtdlgc","#0","like not only GC, but in general all EVMs 😄","",""
+"2023-07-27,16:42:28","mrtdlgc","#0","even before joining the team last week, i still favored gnosis chain's security over ethereum L2s with a single sequencer btw. so yeah, it's more like a preference and yeah, there are still trust assumptions in play <:feelscryptoman:826630854285459456>","",""
+"2023-07-27,16:43:23","mrtdlgc","#0","and ideally, what hashi will develop into will be actually relying on the validators of each chain, similar to the cosmos way","",""
+"2023-07-27,16:43:59","racnela","#3289","yeah, I think GC would be a great competitor / alternative to ethereum L1 , it only messes up for me with the payment in DAI thing IMHO","",""
+"2023-07-27,16:44:28","racnela","#3289","specially considering all L2s are currently basically multisigs","",""
+"2023-07-27,16:44:53","mrtdlgc","#0","i think there must be some internal discussions addressing that concern as well. but yeah, a forum post whenever you have time voicing these concerns would be a great way to kickstart a wider discussion 🙂","",""
+"2023-07-27,16:45:00","racnela","#3289","its something GC could have leap-frogged (because then one could actually argue gnosis is more secure than any L2, while still having lower costs etc)","",""
+"2023-07-27,16:45:15","mrtdlgc","#0","l2s rn are a meme, personal opinion 😄","racnela#3289",""
+"2023-07-27,16:46:01","racnela","#3289","well at least there is a theoretical path towards ""stage 3"", where the multisigs go away, per l2beat definition.","mrtdlgc#0",""
+"2023-07-27,16:46:15","mrtdlgc","#0","yeah, soon ™️ <:kek:1059580261278437427>","",""
+"2023-07-27,16:46:25","racnela","#3289","hehe","",""
+"2023-07-27,16:46:49","mrtdlgc","#0","i mean the transition to a beacon chain securing GC was a huge step imo","",""
+"2023-07-27,16:46:57","racnela","#3289","my point is, for GC, I don't even see any discussions on the theoretical level to remove the multisig oracles","",""
+"2023-07-27,16:47:10","racnela","#3289","yes","mrtdlgc#0",""
+"2023-07-27,16:47:18","mrtdlgc","#0","stay tuned for what we call etherverse 👀","",""
+"2023-07-27,16:49:02","mrtdlgc","#0","btw, a good read on what was dicussed at ethCC to have a good idea where the industry is moving forward. even though david didn't mention gnosis chain there, i know we're pretty much aligned with this discussion https://twitter.com/divine_economy/status/1683506775515975681","",""
+"2023-07-27,16:53:06","mrtdlgc","#0","and yeah, kickstart this discussion on the forum when you have time. i'm curious to read on various perspectives <:paper_hmm:839474862991999006>","racnela#3289",""
+"2023-07-31,05:01:28","iam_afei","#0","hello, how to exit Validator? I'm running the Validator by docker compose. The doc about Voluntary Exit seems useless","",""
+"2023-08-03,22:48:33","0xdevnet.eth","#0","Hi how are you doing today? I am a Tech Lead, Full Stack Software Engineer with a background in web app development, blockchain technologies, and fintech. I have over 5 years of experience in the industry, and I have worked with a number of startup companies. I am proficient in a variety of programming languages and technologies, including:
+
+- JavaScript (including TypeScript, React.js, Angular, Vue.js, Node.js, and Express.js)
+- Frontend development (HTML5, CSS3, Bootstrap, and Material UI)
+- Databases (MySQL, Postgres, and MongoDB)
+- Smart contracts (Solidity, Rust, Clarity, and Move)
+- Web3 technologies (Web3.js, Ethers.js, Solana/Web3.js, and CosmJS)
+- Cloud services (AWS, Firebase, Heroku, and Azure)
+- Blockchain Network: EVM, Solana, Aptos, Bitcoin
+
+I am a highly motivated and results-oriented individual with a strong work ethic. I am also a team player and I am always willing to go the extra mile. I am confident that I can make a significant contribution to your team.
+
+I am currently looking for full-time or part-time opportunities as a Web or Blockchain developer. I am available to start immediately.
+
+I would appreciate the opportunity to discuss my qualifications in more detail.","",""
+"2023-08-04,04:46:12","chim9.","#0","Hey, thanks for your interest, you can find current open positions at https://www.gnosis.io/careers","0xdevnet.eth#0",""
+"2023-08-05,08:00:08","barthlmw_kuma","#0","Good day all any hirings for mods yet?","",""
+"2023-08-05,08:00:48","chim9.","#0","Gm, the offer for the Discord moderator job is not available anymore currently, you can find currently open positions at https://www.gnosis.io/careers","",""
+"2023-08-05,11:41:54","p1aymaker","#1351","hello, i send a bzz transaction , the transaction hash is also returned , but this transaction  failed , The error message is Warning! An error was encountered while the contract was executing .","",""
+"2023-08-05,11:42:04","p1aymaker","#1351","transaction hash ：0x6d59a2c078161a4e4d46de3859b3a500782c9648468afab0328f310bd7377484","",""
+"2023-08-05,11:42:17","p1aymaker","#1351","help me please","",""
+"2023-08-05,11:42:43","chim9.","#0","Hey, do you know this token? There's a lot of scam tokens around....","p1aymaker#1351",""
+"2023-08-05,11:43:05","chim9.","#0","Nvm this one looks legit","",""
+"2023-08-05,11:43:42","p1aymaker","#1351","yes.","chim9.#0",""
+"2023-08-05,11:44:06","chim9.","#0","I think people are not able to transfer this token, all the reacent transactions I see on the contract have failed","",""
+"2023-08-05,11:44:21","chim9.","#0","","","https://cdn.discordapp.com/attachments/1009514669406429214/1137410775749767228/image.png"
+"2023-08-05,11:46:18","mrtdlgc","#0","i would recommend asking the Swarm guys about it https://discord.gg/GU22h2utj6","",""
+"2023-08-05,11:47:00","p1aymaker","#1351","There are many transactions that have been successful","",""
+"2023-08-05,11:47:44","chim9.","#0","But also a lot that didn't, and the transactions doesn't seems to state why very clearly. The best is to ask Swarm like Mrtdlgc just said <:Reading:938470578849972234>","",""
+"2023-08-05,11:48:10","p1aymaker","#1351","ok, thanks so much sir.","chim9.#0",""
+"2023-08-05,11:48:18","p1aymaker","#1351","have a nice day.","chim9.#0",""
+"2023-08-05,11:48:29","chim9.","#0","Thanks, you too <:cth:887623131659902996>","",""
+"2023-08-05,12:16:28","chim9.","#0","Just got an answer but it looks like you're trying to transfer more than you have, try reducing the number of decimals, for example send 6.79 instead of 6.794747363","p1aymaker#1351",""
+"2023-08-05,23:59:51","p1aymaker","#1351","Ok, I'll try","chim9.#0",""
+"2023-08-07,04:03:49","p1aymaker","#1351","Hello , My gnosis mainnet rpc node has been unavailable since August 1st, I tried redeploying but this issue is still unresolved.","",""
+"2023-08-07,04:03:57","p1aymaker","#1351","Can anyone help me","",""
+"2023-08-08,03:10:08","mirceanis","#0","Sounds like it might be related to the Shapella hard fork that happened on August 1st.
+
+Were your clients up to date?","p1aymaker#1351",""
+"2023-08-08,06:36:38","chim9.","#0","Could it be related to this? https://discord.com/channels/502416149343109121/815295532079513641/1135932518856659046","p1aymaker#1351",""
+"2023-08-08,08:23:39","matt_mm","#0","Does anyone know:
+```
+time=""2023-08-08T11:44:44Z"" level=error msg=""ERROR: column \""performance1d\"" of relation \""validator_performance\"" does not exist (SQLSTATE 42703)""
+time=""2023-08-08T11:44:44Z"" level=error msg=""error exporting stats for day 0: ERROR: column \""performance1d\"" of relation \""validator_performance\"" does not exist (SQLSTATE 42703)""
+```
+error in beacon explorer? (I know that Gnosis has fork of beaconcha.in explorer)","",""
+"2023-08-08,08:25:52","chim9.","#0","Like this is an error in Gnosischa.in?","matt_mm#0",""
+"2023-08-08,08:40:03","matt_mm","#0","No, my local playground 🙂 This log is available for developers only, so I can't see it any public explorer (website console etc), only your dev team","chim9.#0",""
+"2023-08-08,08:40:50","chim9.","#0","Oh yeah my bad then, sorry I don't know, if it was a Gnosischa.in problem I could have pinged someone who works on it....","",""
+"2023-08-08,08:41:42","matt_mm","#0","Sure... no issues on Gnosischa.in 👍","chim9.#0",""
+"2023-08-12,02:48:18","alberts","#1136","I've deployed this Safe apps sdk guide for draining a safe to netlify: https://eclectic-muffin-1f3108.netlify.app/
+Code: https://github.com/AlbertSu123/safe-app-demo
+
+It works when I connect to it via a localhost, but it doesn't work when I connect to the netlify link. Does anyone know why?","",""
+"2023-08-12,05:10:10","chim9.","#0","If you don't know Safe have their own Discord now : https://chat.safe.global","alberts#1136",""
+"2023-08-12,05:11:32","alberts","#1136","Any ideas wrt to this bubg?","",""
+"2023-08-12,05:20:04","chim9.","#0","Sorry I don't know.","",""
+"2023-08-14,08:02:32","_qiuyue","#0","hi my lighthouse crashed several times, anyone has the same issue?","",""
+"2023-08-14,08:02:42","_qiuyue","#0","```
+ 0x989a…aeb8 (verified), peers: 80, service: slot_notifier
+Aug 14 09:56:10.733 INFO New block received                      root: 0xede12cce015e5e9b7aad15811e1c147d3abd4175a072a09ae79fbbc725bdb1d5, slot: 10602726
+Aug 14 09:56:12.500 INFO Synced                                  slot: 10602726, block: 0xede1…b1d5, epoch: 662670, finalized_epoch: 662668, finalized_root: 0xed2f…1297, exec_hash: 0x59b1…cc62 (verified), peers: 80, service: slot_notifier
+
+thread 'tokio-runtime-worker' has overflowed its stack
+fatal runtime error: stack overflow
+Aborted (core dumped)
+```","",""
+"2023-08-14,08:13:03","mrtdlgc","#0","this seems to be overly specific to lighthouse. checked on their discord and couldn't really find an answer to this specific error. but i guess lighthouse guys can assist you better if you ask them directly on their discord https://discord.gg/kGrrKRKE","_qiuyue#0",""
+"2023-08-14,08:15:13","_qiuyue","#0","cool, thx","",""
+"2023-08-24,05:06:06","sahilpanhotra","#0","hey guys i want to know how can i build an app to recover your safe smart contract acc keys if u lost them
+
+but thing is i know it is possible with safe protocol but i am not able to get what i need to deploy and what to use to play with plugins and integrate it onto my website","",""
+"2023-08-24,05:07:13","chim9.","#0","Hey, I would recommend that you check on Safe's Discord, they also have a lot more Safe related ressources :  https://chat.safe.global/","sahilpanhotra#0",""
+"2023-08-24,05:08:12","sahilpanhotra","#0","is this not safe discord?","",""
+"2023-08-24,05:08:28","sahilpanhotra","#0","i joined using this link only sir","chim9.#0",""
+"2023-08-24,05:08:31","chim9.","#0","No, that's Gnosis Chain, Safe is a distinct project now","sahilpanhotra#0",""
+"2023-08-24,05:08:55","sahilpanhotra","#0","ohh ok sir can u give link to join them?","chim9.#0",""
+"2023-08-24,05:09:02","chim9.","#0","https://chat.safe.global/","sahilpanhotra#0",""
+"2023-08-24,05:09:12","sahilpanhotra","#0","thanx","chim9.#0",""
+"2023-09-01,09:01:22","spider143","#0","I am planning to spin up more validators, however this time my GNO is in another contract. 
+As per the requirement, I need to transfer the GNO only from contract (which is upgradable). Is there any existing tool set that can help me generate the calldata required for submitting the transaction to GBC deposit contract.","",""
+"2023-09-01,09:16:31","mrtdlgc","#0","hey <@549498339025092609> if you ask your question in the <#920642136272166972> channel, more people will see and have a chance to answer","spider143#0",""
+"2023-09-01,09:21:31","spider143","#0","Posted there,
+Though I guess, this is more of a developer challenge, rather than running a validator..","mrtdlgc#0",""
+"2023-09-01,09:21:55","chim9.","#0","Probably both 😅 But we have some good devs in the validators community","",""
+"2023-09-01,09:22:25","mrtdlgc","#0","yeah, and that channel is also connected to dappnode server as well. so, makes sense to have it there 😄","",""
+"2023-09-03,03:01:10","saimano","#0","Need help with a signature validation challenge between how a message is signed using a foundary script vs how it's signed with wagmi & other libraries using EIP 191 format.
+
+```
+A message signed with a foundary script like below works,
+(v, r, s) = vmSafe.sign(privKey, digest);
+    bytes memory signature = abi.encodePacked(r, s, v);
+```
+
+while a message signed from a frontend to the contract with wagmi, viem or ethers doesn't work. It's because of the EIP 191 standard I guess that prefixes signatures with `""\x19Ethereum Signed Message:\n""` while the foundary way of signing doesn't.
+
+Is there a way to get the signatures match?","",""
+"2023-09-03,09:14:39","kebabtent","#0","prepend that string to the foundry message too","",""
+"2023-09-06,15:54:52","spider143","#0","<@273619874285355009> <@299280741592989696> 
+any info on this. Seems no one responded in <#920642136272166972> as well!...
+
+Really need this.. I am building one tool and this is a blocker.","chim9.#0、mrtdlgc#0",""
+"2023-09-06,15:55:49","mrtdlgc","#0","let me raise it internally. thought someone from the validator community might come up with a solution. nope 😄","",""
+"2023-09-07,02:00:33","spider143","#0","Thanks a lot!..","mrtdlgc#0",""
+"2023-09-12,03:29:53","spider143","#0","Can I get an update on my previous inquiry? To clarify, I'm attempting to deposit for a validator using my custom contract due to an associated atomic operation. I've created the BLS signature for the validator. While I can interpret the GBCDepositContract, there are certain fields in the deposit function that I'm unsure about in terms of their calculation. Hence, I'm seeking guidance on how to generate the calldata needed to invoke the GBCDepositContract from my custom contract.","mrtdlgc#0",""
+"2023-09-12,07:55:15","mrtdlgc","#0","hey, apologies for the lack of response. i asked internally once again. but almost everyone in gnosis are at dappcon this week. so, it may again take some time to get a response","spider143#0",""
+"2023-09-12,19:49:14","spider143","#0","Ok!.
+I will be waiting.","mrtdlgc#0",""
+"2023-09-13,14:03:46","rameshprasad1","#0","I am trying to use this project https://github.com/gnosis/conditional-tokens-market-makers/blob/master/contracts/LMSRMarketMaker.sol#L3","",""
+"2023-09-13,14:12:49","rameshprasad1","#0","In the above line `Fixed192x64Math.sol`  contract is being imported from this repo https://github.com/gnosis/util-contracts which is also listed on npmjs under `@gnosis.pm/util-contracts`.
+
+Also here is the screenshot of import. https://lensdump.com/i/9fSYh9","",""
+"2023-09-13,14:15:50","rameshprasad1","#0","But the package or repo doesnot have any contract with above name `Fixed192x64Math.sol`. Here is the screenshot from local node_modules folder. https://lensdump.com/i/9fSMMo","",""
+"2023-09-13,14:20:10","rameshprasad1","#0","<@273619874285355009> <@255832236555894794> <@299280741592989696> <@733031986167545967> Guys can you help me with that? Really waiting for your help asap. 🙂","chim9.#0、mrtdlgc#0、no_planet_b#0、armagan.ethgnosis#0",""
+"2023-09-14,06:19:54","filoozom","#0","Hey, did we not already talk about this previously? I thought this issue was resolved, but maybe it wasn't you 😅","spider143#0",""
+"2023-09-14,06:21:03","filoozom","#0","I'm not sure why you need this exactly, you know you can deposit GNO with any way you want and choose different credentials from the depositor, right?","",""
+"2023-09-14,06:22:00","filoozom","#0","In any case, it's quite easy to generate that transaction, an example can be found here: https://github.com/gnosischain/gbc-deposit-ui/blob/main/src/hooks/use-deposit.js#L140-L146","",""

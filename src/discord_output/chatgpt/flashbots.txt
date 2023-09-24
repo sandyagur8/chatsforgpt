@@ -1,0 +1,136 @@
+undefined
+awliang says 
+awliang says Hello and welcome to the <#1131830864888737862> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Flashbots Team at any point with your questions!
+
+👀 **ABOUT**
+Flashbots is a research and development organization formed to mitigate the negative externalities posed by Maximal Extractable Value (MEV) to stateful blockchains. Our primary focus is to enable a *permissionless*, *transparent*, and *sustainable* ecosystem for MEV, via a three-pronged approach:
+
+- **Illuminate:** bringing transparency to MEV activity.
+- **Democratize:** democratizing access to MEV revenue.
+- **Distribute:** enabling sustainable distribution of MEV revenue.
+
+We have brought transparency through open MEV activity analytics and dashboard and public and open , with the community, for the ecosystem. We have democratized access to MEV revenue with MEV-Boost that gives all validators access to MEV revenue on equal footing, with the support of a vibrant ecosystem of builders and searchers.
+
+We have started distributing MEV revenue using the MEV-share protocol. This protocol returns 90% of captured MEV to users, wallets, and dapps, who can enjoy its benefits simply by sending transactions with programmable privacy to Flashbots Protect. MEV-share also poses a new challenge for searchers, as they must now learn how to compete for and execute against users' private transactions.
+
+
+🏆 **PRIZE OVERVIEW**
+
+💰 $2500 - most useful onboarding site for Flashbots Protect with MEV-Share
+ 💸 $1500 -  building the coolest bot searching on MEV-Share
+🏆 $1000 - best design for using MEV-Share and programmable privacy in another application
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Leveling up the MEV Game with Flashbots
+Time: 02:30 PM CEST – Jul 21, 2023
+Location: Workshop Room 2
+odysseus0z says Thanks a ton for the help setting up the channel!
+epheph says hi
+epheph says I'm here to help if anyone has any questions
+.cryptowanderer says <@378236262743801867> where can I find you? I have some questions and Shea is mia
+epheph says hi! i'm not at ethCC but i can talk
+epheph says <@605745673555542026>
+.cryptowanderer says ok cool, whats up!
+.cryptowanderer says I am playing around with searchers, but prefer to keep that to myself 😅
+.cryptowanderer says So I'm building you a website
+.cryptowanderer says I wonder if you have any thoughts about frameworks you'd prefer? I see that most of your stuff is managed with vercel, so I have gone down the nextjs route, with an automated vercel setup that should work with what you're already using for other site
+.cryptowanderer says My main question is: how can I identify which transactions from a given connected account have specifically come from the Protect RPC so that I can display those to users and show them how much Flashbots has saved them... Any leads on how to do such a thing?
+.cryptowanderer says <@378236262743801867>
+epheph says hey
+epheph says so we have an api for this. as an example this transaction came through the flashbots protect: https://etherscan.io/block/17749257
+epheph says https://blocks.flashbots.net/v1/blocks?block_number=17749257
+epheph says this API lists various tx in each block as `bundle_type":"flashbots` or `bundle_type":"mempool`
+epheph says although flashbots could either mean it came from protect OR from eth_sendBundle (like searchers)
+.cryptowanderer says yeah, exactly - it sees hard to figure out which one it actually came from just by calling the api. It also seems hard to get the information for a single user account so I can display it when/if they choose to connect a wallet to see what the effect of using the RPC has been. Is there any more detail than this available?
+
+https://docs.flashbots.net/flashbots-data/blockapi
+.cryptowanderer says <@378236262743801867>
+epheph says https://blocks.flashbots.net/v1/blocks?from=0x85F420f0dA9535E307814e5d2EDd6a0F57B0EA84
+.cryptowanderer says oh, fair, my bad
+epheph says but identifying the ones that are bundles vs regular protect transactions are hard
+epheph says although, you can remove a lot of bundles because if you look at the response, it'll be bundle_index=2,tx_index=0 + bundle_index=2,tx_index=1
+epheph says that means there were 2 tx in that bundle (tx 0 and tx1)
+epheph says a protect transaction will never have 2 tx
+epheph says a bundle CAN have 1 tx, but a protect tx CANNOT have more than 1
+.cryptowanderer says OK, so filtering out all responses with bundle_index > 1 should get me maybe halfway there, but still not perfect i.t.o identifying just the protect txes?
+.cryptowanderer says And, is the amount "saved" for the user who has just connected their account `eth_sent_to_fee_recipient - fee_recipient_eth_diff`  for those filtered txes, or have the new names got me confused there?
+.cryptowanderer says <@378236262743801867>
+epheph says you can filter out all bundles that have a tx_index > 0
+epheph says `bundle_index=2,tx_index=0 + bundle_index=2,tx_index=1`
+epheph says this will have a tx_index=0 in it, but you know it's not a protect, because it ALSO has a tx_index=1 (and a protect tx is a bundle with only a tx_index=0)
+.cryptowanderer says Cool, thanks <@378236262743801867> 
+
+The request is:
+
+    A tool that shows the user the history of the wallet address’ interactions with Flashbots Protect
+    Statuses of user's Protected txs
+    User's MEV-Share refund total
+
+which is why I ask about how to calculate the refund total... It's not obvious to me which amounts this relates to just by looking at the json returned when querying a given account
+.cryptowanderer says <@378236262743801867> you still around at all?
+epheph says Hi
+epheph says The mev - share data is not yet publicized. It’s easy to gather on chain , but we don’t have a easy to use tool
+.cryptowanderer says what happens if I have a tx_index of 0, but a bundle_index of like 10? Is that still indicative of a Protect tx, or am I only looking for bundle_index === 0 and tx_index === 0?
+
+I hear you about gathering from the chain, but that adds another layer to the site which I want to be simple and static 😅
+.cryptowanderer says OK, so say I go ahead and fetch it from the chain <@378236262743801867> ... Please forgive me noobness, but here is my basic strategy:
+
+.edited
+
+slowly figuring this out...
+epheph says Sounds like it from what I could read before you edited
+.cryptowanderer says Yeah, etherscan doesn't like me much anymore because I was hammering their API until like 3am in the morning 😅 
+
+But here it is: https://flashbots-protect-andytudhope.vercel.app/
+
+https://github.com/andytudhope/flashbots-protect/blob/main/hooks/useFetchProtectTxes.tsx#L41
+.cryptowanderer says <@378236262743801867> who should I present to? Is there anyone from flashbots here?
+chloelxu says please post your project async here in this channel ⭐️
+.rpal says just the link to the project submission?
+.cryptowanderer says 🤷 https://ethglobal.com/showcase/flashbots-protect-1f25k
+chloelxu says jep and any context you would like to provide!
+.rpal says https://ethglobal.com/showcase/mev-share-uni-sushi-arb-bot-veu1e
+fudgydrs says https://github.com/qi-protocol/eth-paris-2023/
+fudgydrs says Hey is there anyone around to judge?
+mpagani says Hello
+Hackers asking if there's a booth to pitch for Flashbots
+poupou.eth says Hello, we hacked on xDomain. It is a Cross-Domain Arbitrage Historical Visualization. Here is the main repo of the submission https://github.com/0xsamgreen/xDomain
+https://ethglobal.com/showcase/xdomain-f5xnp
+.cryptowanderer says Odos is very cool - nice to see you all working here 👌
+fudgydrs says 
+.rpal says where is that?
+fudgydrs says Like center. Nobody was there so @ me if they show up <:DisappointedbutnotsurprisedMemeE:1023180653371588678>
+fudgydrs says Sign is facing towards the main entrance
+botztina says I'm Tina from the Flashbots team, please come to the Flashbots  table for judging.
+markeljan says My Uber is 10 minutes away can I still make it 🙏🙏
+.cryptowanderer says coming
+awliang says Hello and welcome to the <#1131830864888737862> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Flashbots Team at any point with your questions!
+
+👀 **ABOUT**
+**Flashbots** is a research and development organization formed to mitigate the negative externalities posed by Maximal Extractable Value (MEV) to stateful blockchains. Our primary focus is to enable a *permissionless*, *transparent*, and *sustainable* ecosystem for MEV, via a three-pronged approach:
+
+*   **Illuminate:** bringing transparency to MEV activity.
+*   **Democratize:** democratizing access to MEV revenue.
+*   **Distribute:** enabling sustainable distribution of MEV revenue.
+
+🏆 **PRIZE OVERVIEW**
+
+🚀 Open/Innovation Track - $1500 - Unveiling the MEV Potential
+🌍 Ecosystem Track - $2000 - Broaden the MEV Landscape
+📈 Data Analysis Track - $1500 - Illuminate the MEV Supply chain
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://0x.org/post/measuring-the-impact-of-hidden-dex-costs
+https://github.com/flashbots/mempool-dumpster

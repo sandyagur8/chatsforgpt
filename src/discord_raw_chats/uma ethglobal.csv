@@ -1,0 +1,1668 @@
+Date,Username,User tag,Content,Mentions,link
+"2021-01-13,04:27:15","emilyhobbs","#0","Hello and welcome to the <#798845148892889128> channel!
+
+Feel free to reach out to the UMA Team at any point with your questions! 🙌
+
+cc <@!496447655032127499> <@!386752977177673728> <@!324024585869721612>","claytonroche#0、hartlambur#0、sbreezy636#0",""
+"2021-01-13,11:28:24","trent_vanepps","#0","https://twitter.com/ETHGlobal/status/1349389930422804480?s=20","",""
+"2021-01-13,19:40:44","anu__","#0","<:PogU:613968091394867202> uma sponsor","",""
+"2021-01-13,23:38:12","Meir","#7064","Great news 🚀","",""
+"2021-01-14,02:05:02","claytonroche","#0","🙃","anu__#0",""
+"2021-01-14,08:55:57","emilyhobbs","#0","Here are some docs. to check out! 👀 
+
+**Introduction to what UMA does:**
+https://docs.umaproject.org/
+**Starting point for Developers: **https://docs.umaproject.org/build-walkthrough/build-process","",""
+"2021-01-14,10:28:39","qryptoz","#0","Hey, I have an idea but I'm unsure what platform to use for it. My idea is a decentralized startup incubator so I would need some sort of reward system similar to profit sharing tokens. Uma could be useful for tracking the worth of ideas  but does Uma have any reward system that could be used to reward contributions to startups?","",""
+"2021-01-14,10:39:20","Meir","#7064","Hey guys I want to build a synthetic asset platform on top of UMA for this hackathon. I have some stuff laid out on paper but I need feedback. Would like to set up a technical brainstorming call with someone from the development team if possible.","",""
+"2021-01-14,11:51:37","Mhairi","#2271","<@!475680632471814144>   Are you aware of our Developer Mining scheme?
+https://medium.com/uma-project/uma-announces-developer-mining-6f6fe15d5604","qryptoz#0",""
+"2021-01-14,11:57:21","Mhairi","#2271","<@!604521785223938048> Hey Meir, our technical team hang out quite often on our own server,where we have a dedicated channel for developer questions.   It might be worth posting in there and you should get a fairly reply from one of our engineers.
+
+https://discord.com/channels/718590743446290492/718591751543062548","Meir#7064",""
+"2021-01-14,12:00:04","qryptoz","#0","<@!786323819052269608> interesting, I have not heard of this. I could potentially leverage that. My idea is similar but with more of a focus on non-tech ideas and ideas from people with little to no tech background, as well as trying to incentive contributions to ideas from people with more knowledge. Does the Developer mining scheme need some initial investment from the developer? I'm trying to make my idea accessible to anyone, so ideally no initial investment required","Mhairi#2271",""
+"2021-01-14,12:10:54","Mhairi","#2271","<@!475680632471814144> No investment required in monetary terms, but it does require investment in building the product that will be used for dev mining, as the rewards are based on the proportion of the Total Value Locked in the smart contract.","qryptoz#0",""
+"2021-01-14,13:13:23","qryptoz","#0","<@786323819052269608>  so as I'm understanding it, I could build my product used for dev mining and then spread rewards to users myself? Any possibility we can talk more on a zoom call or something?","Mhairi#2271",""
+"2021-01-14,13:39:04","chandlerdk","#0","<@!475680632471814144> happy to chat with you about your idea and really excited for you to build on UMA. 
+
+What is your timelines looking like for the event and what timezone are you in. We can set-up a call tomorrow at the start of the hackathon","qryptoz#0",""
+"2021-01-14,14:05:38","qryptoz","#0","<@!410024989002170368> I'm in the Atlantic timezone and I am unfortunately working around school and part-time work during the event but I'm planning on devoting as much time as humanely possible. There was a scheduling error tomorrow that I just found out about so I work tomorrow (but im trying to sort it out)  but I could potentially do a call later on in the evening if that works for you 🙂","chandlerdk#0",""
+"2021-01-14,14:06:55","chandlerdk","#0","Works for me. Let's chat in more detail in a DM. Sent you a requst","",""
+"2021-01-14,14:08:16","qryptoz","#0","Got it 🙂","",""
+"2021-01-14,14:11:49","Meir","#7064","<@!410024989002170368> Could I also get some feedback from you on a call? Planning to build on UMA","chandlerdk#0",""
+"2021-01-14,14:12:24","chandlerdk","#0","Just saw your request.
+
+Absolutely lets chat more about what you want to build.","",""
+"2021-01-14,14:37:11","jdshutt","#0","Hi everyone! I'm a smart contract engineer at UMA [1] and a former finalist during the #HackMoney hackathon for Oya [2]. I'll be lurking in the hackathon channels (along with <@!786323819052269608>, <@!410024989002170368>, <@!386752977177673728>, <@!496447655032127499>, and <@!324024585869721612>) and would love to help anyone who is interested in building with UMA or just wants feedback on their hack.
+
+[1] https://umaproject.org/
+[2] https://youtu.be/fiTo4vj58qk","claytonroche#0、chandlerdk#0、Mhairi#2271、hartlambur#0、sbreezy636#0",""
+"2021-01-14,19:11:13","nathan.eth","#6476","I'm considering building a CFD platform on UMA - I think UMA could be a great fit for providing the baseline/template contracts","",""
+"2021-01-14,22:24:47","claytonroche","#0","yep absolutely","nathan.eth#6476",""
+"2021-01-14,22:25:39","Meir","#7064","Hi John, looking forward to hearing your feedback. Added you.","jdshutt#0",""
+"2021-01-15,03:06:54","nathan.eth","#6476","Yeah, I'm gonna build it this hackathon. Should be fun!","claytonroche#0",""
+"2021-01-15,03:32:53","chandlerdk","#0","<@!794805316515790848> do you need some help to get the project started? If you need to bounce ideas off the UMA team, please feel free to reach out 🙂","nathan.eth#6476",""
+"2021-01-15,03:33:49","nathan.eth","#6476","Yeah, that would be awesome! If you guys are down to hop on a call, feel free to shoot me a DM!","chandlerdk#0",""
+"2021-01-15,03:35:51","claytonroche","#0","I like the office hours idea - So anyone can join and chat an open call.","",""
+"2021-01-16,17:08:07","kane_theintermesh_com","#0","Is there a link to office hours? I have a contract design issue with the project our team is working on.","",""
+"2021-01-16,19:06:35","_timothea","#0","<@!324024585869721612>  hi im very interested in building this: Create long and short synths for $1INCH token using UMA Protocol. Could I dm you about questions about it? thanks!","sbreezy636#0",""
+"2021-01-18,00:10:19","claytonroche","#0","Hey Umans, how is it going in here?","",""
+"2021-01-18,00:10:41","claytonroche","#0","Yes you definitely should create that","_timothea#0",""
+"2021-01-18,00:11:18","claytonroche","#0","Actually encourage you to ask either here or even better, in the #developer-questions channel in discord.umaproject.org","",""
+"2021-01-18,00:11:38","claytonroche","#0","That way you'll have the full benefit of the community of developers for insight","",""
+"2021-01-18,00:12:06","claytonroche","#0","I don't think we have them set yet, <@410024989002170368> would be our guy here","chandlerdk#0、kane_theintermesh_com#0",""
+"2021-01-18,00:12:36","claytonroche","#0","In the meantime, also suggest if you don't mind, to post in the develeoper questions channel on UMA discord","",""
+"2021-01-18,00:47:00","kane_theintermesh_com","#0","Ok thanks.","",""
+"2021-01-18,03:02:44","nathan.eth","#6476","👍","claytonroche#0",""
+"2021-01-18,04:03:02","chandlerdk","#0","Hey <@!330517604613619732> , we may very well be on different timezones so chatting on this channel or in DM may work. As Clayton mentioned already, checking out UMA's Discord and asking the developers there for help is also a great use of time. Let me know a bit more detail on the help you need and we can take it from there.","kane_theintermesh_com#0",""
+"2021-01-19,11:12:27","frankensteinpei","#0","<@!410024989002170368> I post the idea we hacked for MarketMake in the channel of developers mining of UMA, the securities and bonds of Intellectual property  possibility synthetic tokens built on UMA protocol, could you give some advice?","chandlerdk#0",""
+"2021-01-20,03:09:37","chandlerdk","#0","<@!564655881434693633> , yea I saw that and we started a bit of a chat about that. More than happy to discuss these ideas with you. I'll pop you a DM","frankensteinpei#0",""
+"2021-01-21,02:44:14","claytonroche","#0","Sup Super Umans! 💪🦸🏼‍♀️","",""
+"2021-01-21,12:38:00","trent_vanepps","#0","https://twitter.com/ETHGlobal/status/1352309390087507970?s=20","",""
+"2021-01-21,13:41:26","chandlerdk","#0","https://docs.google.com/presentation/d/15vRHdRuLPVsq8q76pBWthRFMiEnnFwatqCq10hhApdw/edit?usp=sharing","",""
+"2021-01-23,07:39:16","chandlerdk","#0","Do any of the teams have a working prototype to show yet?","",""
+"2021-01-23,10:08:48","qryptoz","#0","define working 🤔","chandlerdk#0",""
+"2021-01-23,13:08:34","chandlerdk","#0","Something you are keen to show off. Very excited to see some of the progress.","",""
+"2021-01-23,15:33:44","qryptoz","#0","I'm going to start trying to implement uma into our project so hopefully by monday we may have something to show off. No promises though","chandlerdk#0",""
+"2021-01-23,22:39:17","jamestheory","#2167","Is it possible to use UMA to create a basket/index of defi tokens?","",""
+"2021-01-24,11:37:02","chandlerdk","#0","This is awesome.","qryptoz#0",""
+"2021-01-24,11:37:51","chandlerdk","#0","Will need a bit more to better answer this. What kinda index you wanting to make?","jamestheory#2167",""
+"2021-01-24,11:38:24","chandlerdk","#0","If I think very simply, then as long as their is a price feed for the asset, then totally yes.","",""
+"2021-01-25,12:13:06","jdshutt","#0","Yep! There are a couple of ways to go about this. One is to set up price feeds for each of the assets you want in your basket and create a composite synthetic representing the basket of assets. Another path is to take an existing index (like the DeFiPulse Index [1] [2]) and create a synthetic to track the price of that.
+
+[1] https://help.tokensets.com/en/articles/4439391-how-do-i-buy-the-defi-pulse-index-set
+[2] https://www.coingecko.com/en/coins/defipulse-index","jamestheory#2167",""
+"2021-01-26,16:42:28","sbreezy636","#0","We already have an existing price identifier that tracks DeFi Pulse TVL. You could use this like <@!412678595555885061> described in option 2 . Detailed here -> https://github.com/UMAprotocol/UMIPs/blob/master/UMIPs/umip-24.md","jamestheory#2167、jdshutt#0",""
+"2021-01-28,10:41:09","cyrillicw","#0","Could you please suggest if I can make bets with UMA? For example, A says that some event will take place and B says no. The event is on-chain provable","",""
+"2021-01-29,14:58:58","aveeshhaplogroupf","#0","We are building Credit default Swap for marketmake","",""
+"2021-01-29,14:59:11","aveeshhaplogroupf","#0","https://github.com/fifikobayashi/SugarDaddyFlashloan/blob/main/derivatives%20market.png","",""
+"2021-01-29,14:59:21","aveeshhaplogroupf","#0","We are looking for more feature to add, can we use UMA  ,somehow?
+I was thinking about it","",""
+"2021-01-29,14:59:24","aveeshhaplogroupf","#0","<@!324024585869721612>","sbreezy636#0",""
+"2021-01-29,15:00:42","aveeshhaplogroupf","#0","<@!386752977177673728>","claytonroche#0",""
+"2021-01-29,15:01:04","aveeshhaplogroupf","#0","<@!410024989002170368>","chandlerdk#0",""
+"2021-01-29,19:41:08","0xHephaestus","#5440","trying to build a twitter bot that tweets out UMA liquidation/dispute opportunities. could anyone provide clues on how to find these through this subgraph? https://thegraph.com/explorer/subgraph/protofire/uma
+
+<@!324024585869721612> <@!386752977177673728> <@!410024989002170368>","claytonroche#0、chandlerdk#0、sbreezy636#0",""
+"2021-01-30,21:21:08","somebody","#2131","Can anyone explain to me how the protocol incentivizes the topping up of collateral? For example, let's say I short COMP through minting synthetics at a high collateralization ratio. Then over several days COMP goes up in price. I'm still collateralized but it seems like COMP will continue to go up. What incentive do I have to fix my ratio vs. just cutting my losses and letting my position get liquidated?","",""
+"2021-01-31,05:06:20","chandlerdk","#0","Will need to know a little more about what you are trying to build. Theoretically any financial product could use UMA - tricks are in the details though","aveeshhaplogroupf#0",""
+"2021-01-31,05:07:57","chandlerdk","#0","This is a very cool idea. Best way I can think of to do this is to monitor the contracts UMA has running.","0xHephaestus#5440",""
+"2021-01-31,05:09:49","chandlerdk","#0","I am not too sure this is meant to be a protocol incentive, it seems financial to me. Either you want to keep your position or you want to get liquidated. That choice, as far as I can tell, is up to the user. Is there a specific reason why you are asking about this?","somebody#2131",""
+"2021-01-31,14:23:29","somebody","#2131","Yes, we're concerned about making a synthetic that is extremely volatile. 
+
+If there is no incentive to increase collateral and the starting collateralization ratio is too low, wouldn't the probability of the synthetic breaking be quite high? I.E. at expiration of the synthetic token there would be no way to redeem it for its full value. This would be a bad experience for the buyers.
+
+One way to fix this would be to require a very high initial collateralization ratio but we're afraid that would be a bad experience for the sellers. Would people really be interested in minting a volatile synth if the ratio was 3X or 5X?
+
+We're not sure how to reconcile this for the buyers and sellers (seller = someone who mints, not who buys and sells on a secondary market). 
+
+One thought was to have a way to incentivize adding collateral to avoid liquidation. 
+
+Do you have any examples of users or people on your team calculating the trade-off of allowing their collateral to be liquidated vs. hypothetical losses incurred for different ranges of price movements (e.g. 100%, 200%, 300%)??","chandlerdk#0",""
+"2021-01-31,14:25:50","somebody","#2131","So the incentive we're interested in understanding is definitely economic and set by us but facilitated by how you set up your protocol (i.e. liquidation).","",""
+"2021-01-31,16:54:15","nathan.eth","#6476","👋 Hey all, still hacking on UMA, building a CFD platform. Kind of stuck figuring out a central logistic of the platform:
+
+Option A) Have a few premade contracts that track prices of major Ethereum tokens/indexes like Ether, Chainlink, Uniswap Token, etc. The user can still set parameters such as strike and expiry when opening a CFD.
+
+Option B) Have a system in which users create their own contracts on-demand from scratch and enter their own token addresses. This would allow anyone to trade CFDs for ANY Ethereum security token.
+
+With Option A, each contract would be individually collateralized, totally separate of one another (easier to integrate with UMA and more accessible to retail investors but with less customization).
+
+With Option B, there would be one pool of collateral proportionally collateralizing each token based on how many active CFDs are tracking its price (endless options for users, but with higher gas fees and tricky business logic).
+
+Thanks for your time!","",""
+"2021-01-31,16:54:51","nathan.eth","#6476","^ Apologies if parts of this are a bit unclear; I can provide more details/examples","",""
+"2021-01-31,23:16:00","0xHephaestus","#5440","Based on your response, does it mean that this data is not available via the UMA subgraph and I'll need to monitor the contracts on my own? https://thegraph.com/explorer/subgraph/protofire/uma
+
+If so, then would be great if you could provide some details on what contracts need to be watched for disputes/liquidations.
+
+Every piece of clue helps, thanks!","chandlerdk#0",""
+"2021-02-01,05:48:42","chandlerdk","#0","You can have a look at all the projects that are busy being built on UMA hear: https://umaproject.org/projects.html","0xHephaestus#5440",""
+"2021-02-01,05:49:14","chandlerdk","#0","Happy to provide as much context that you need. 
+
+Where do you feel like your gaps are?","",""
+"2021-02-01,23:16:15","nathan.eth","#6476","Probably going to stick with Option A for now, then maybe do Option B for a V2","",""
+"2021-02-03,05:56:22","chandlerdk","#0","Sounds good.","nathan.eth#6476",""
+"2021-02-03,11:47:01","jdshutt","#0","Basically, your incentive is that your collateral becomes liquidatable while it is still more valuable than the synthetic. Let's say the cutoff point is 1.25 collateralization. You become liquidatable when your collateral reaches 1.24, so the liquidator has an incentive to pay back your debt (in the synthetic) and take all of your collateral, and you're incentivized to top it off.
+
+If the price crashes fast enough that you're actually *undercapitalized*, below 1.00, then there's no incentive to liquidate a position or to top off collateral. For extremely volatile collateral, the safe collateralization ratio would be higher than for less volatile collateral, and can be set in the contract configuration.","somebody#2131",""
+"2021-02-06,17:12:06","somebody","#2131","<@!410024989002170368> My team member posted in the UMA developer-questions channel as well but can we get the following two price feed identifiers added to Kovan for our hack: ethVIX/USDC  and ethVIX/ETH","chandlerdk#0",""
+"2021-02-06,21:36:01","somebody","#2131","Sorry the two price feeds are: ethVIX/USDC  and btcVIX/USDC","",""
+"2021-02-08,06:58:22","chandlerdk","#0","<@!410611135776030721> I see we added them for you? Are you sorted?","somebody#2131",""
+"2021-02-08,07:55:28","somebody","#2131","<@!410024989002170368> Yes! Thank you.","chandlerdk#0",""
+"2021-02-09,11:01:46","Mhairi","#2271","Hey, I havent been following these developments as closely as some other team members but am blown away at the amazing stuff you've built!
+
+I've put links to project descriptions and videos up in the new Ethglobal hackathon section in our discourse forum.   Feel free to take a wander over there and chat with our community about the developments.
+
+https://discourse.umaproject.org/c/networking/ethglobal-hackathon/16","",""
+"2021-02-11,13:58:32","_timothea","#0","Hey wasnt there a prize for 1inch synthetic uma token?","",""
+"2021-02-11,14:09:55","jacobw","#0","Hey <@!199128734681399296> this was provided by the 1Inch team and they did not decide to award any prize for this category","_timothea#0",""
+"2021-02-11,18:08:00","0xHephaestus","#5440","Thank you <@!410024989002170368> <@!786323819052269608> and the rest of the UMA team for sponsoring the hackathon. Excited to build more tools to help the protocol even further.","chandlerdk#0、Mhairi#2271",""
+"2021-02-12,01:40:20","chandlerdk","#0","Thanks <@320773598304272384> for your hack. You impressed our community","0xHephaestus#5440",""
+"2021-06-04,16:32:56","Catherine","#6155","","","https://cdn.discordapp.com/attachments/798845148892889128/850472210128044052/unknown.png"
+"2021-06-11,06:08:46","emilyhobbs","#0","Hello and welcome to the <#798845148892889128> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!410024989002170368> <@!412678595555885061>","chandlerdk#0、jdshutt#0",""
+"2021-06-11,17:10:54","emilyhobbs","#0","<@!824996929854898216> , <@!318511843020767252> , <@!803661699239641098>, <@!249709896335884305>  & <@!793658433513324575> supporting the UMA team! 
+
+(cc <@!386752977177673728>)","claytonroche#0、Hagz48#3853、deadcoin#0、fruitycup#0、poopster#0、futurdelafrance#0",""
+"2021-06-11,17:12:26","Hagz48","#3853","👋","",""
+"2021-06-11,17:12:50","poopster","#0","hey hey hey
+<@!682637756274442245> thank you for the warm welcome","emilyhobbs#0",""
+"2021-06-11,17:13:00","poopster","#0","glad to be here!","",""
+"2021-06-11,22:03:11","Hagz48","#3853","Yes very honored to be here. Cannot wait.","",""
+"2021-06-14,04:22:14","Mona | Enzyme Finance","#9237","an easy way of doing this would be to provide price feeds that are compatible with enzyme and build the index on Enzyme. this would potentially qualify you for the enzyme prize too....UMA is a protocol we have been interested in integrating for some time","",""
+"2021-06-14,19:03:13","jdshutt","#0","Let us know how we can help with integration! I could see UMA-based synthetics being useful to building portfolios. We have a lot of price identifiers already, and our Long-Short Pair contract and upcoming generalized price identifiers (think: any crypto or stock price) should make it even easier to hedge risk and invest in new opportunities dynamically. https://docs.umaproject.org/synthetic-tokens/long-short-pair","Mona | Enzyme Finance#9237",""
+"2021-06-14,19:05:48","jdshutt","#0","Vault strategies could also buy and sell structured products put out by token treasuries, like the range token we discussed on our blog today. It functions similarly to convertible debt, but fully on-chain and trustless. https://twitter.com/UMAprotocol/status/1404554484651421697?s=20","",""
+"2021-06-15,14:57:57","claytonroche","#0","This has gotten an super positive response","jdshutt#0",""
+"2021-06-15,14:58:15","claytonroche","#0","I hope it perks someone's interest and they build something with it, I think the whole world will be behind you","",""
+"2021-06-15,15:26:48","chandlerdk","#0","Hey Hackers. The UMA team are excited to see the new ideas being developed! 
+
+To draw inspiration, we will be posting a series of tweet threads over the course of the next few days of our new products, the ideas you could come up with them and how to get started! 
+
+The first rabbit hole we would like to share was created by <@!508210747109539860>  and talks about our the endless flexibility of our Optimistic Oracle. There is a $2000 prize for the team that comes up with the most creative use of the Optimistic Oracle. 
+
+Happy reading: https://twitter.com/UMAprotocol/status/1404860110464176134","cmareez#0",""
+"2021-06-16,17:28:26","Babi","#0930","You can also create a basket of **assets**(like ETH or interest bearing ETH) and **options** tokens using Pods options, creating a structured product. I'm around if you want to brainstorm possibilities 🤗","",""
+"2021-06-16,18:27:51","easports1","#0","Just saw this- It would be awesome for some hackers to build on Polygon for UMA products now that we have the ability to do so- https://twitter.com/UMAprotocol/status/1405280750962806787?s=20","",""
+"2021-06-16,19:01:37","imbritt","#0","Hey UMA fam, just popped over here today. Anyone know of a team that is need of an extra non-developer hand? Brownie points if they have a governance or KPI concept they are hoping to build.","",""
+"2021-06-16,19:15:08","imbritt","#0","Or are we not allowed to join teams since Uma is a sponsor?","",""
+"2021-06-16,19:40:09","hash_error","#0","hi guys👋","",""
+"2021-06-16,20:03:49","xbalbinus","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for UMA!
+
+👀 About
+UMA is a decentralized financial contracts platform built to enable Universal Market Access.
+
+🏆 Prize Overview
+See more on Prizes here 👉  https://hackmoney.ethglobal.co/prizes
+
+Most creative use of UMA's Optimistic Oracle - $2,000
+The best use case of UMA's new LSP contract $3,000
+The team that comes up with best community based KPI option - $3,000
+
+Workshop:
+https://www.youtube.com/watch?v=xfQKeUuOA0U
+
+🔗 Important Links
+**Documentation and other useful Docs.**
+
+**UMA Documentation**
+
+Welcome to UMA | UMA Docs (https://docs.umaproject.org/)
+
+**UMA GitHub**
+
+UMA (https://github.com/UMAprotocol)
+
+**UMA Discord**
+
+Join the UMA Discord Server!
+(https://discord.com/invite/PyVPACfTZE)","",""
+"2021-06-17,05:56:36","emilyhobbs","#0","","",""
+"2021-06-17,10:13:29","poopster","#0","hey britt i know almost EVERY team needs help honestly","imbritt#0",""
+"2021-06-17,10:13:43","poopster","#0","specifically i saw stakedao and polygon looking","",""
+"2021-06-17,10:17:50","poopster","#0","https://twitter.com/StakeDAOHQ/status/1405527840339107842?s=20.","",""
+"2021-06-17,10:25:51","easports1","#0","yeah, agreed. Looks like many teams want and could use help. I think even if it is non-technical, providing perspective and user thoughts is great as well!","",""
+"2021-06-17,13:37:28","imbritt","#0","If anyone in here is considering using UMA for their project, be sure to tune in to this event, starting at the top of the hour!
+
+https://www.youtube.com/watch?v=xfQKeUuOA0U","",""
+"2021-06-17,13:59:28","andrew9355","#0","Hey <@&839828617772007434> 👋 
+
+**Starting NOW:** UMA: Building with UMA's New Products 
+
+https://ethglobal-co.zoom.us/j/83985867954","",""
+"2021-06-17,14:32:07","Hagz48","#3853","Great job Chandler and John🙂","",""
+"2021-06-17,14:33:33",".christn","#0","While waiting for the LSP launch repo to come out, are there any ressources more low level than the documentation to look at in order to try to understand the contract interfaces ? Like certain tests etc ?","",""
+"2021-06-17,14:47:34","imbritt","#0","I am not sure how helpful this will be, but you might start here:
+https://github.com/UMAprotocol/protocol/tree/8a68b0f9919e3ef28f0d031d1ffcc467f6bee860/packages/core/test/financial-templates/long-short-pair",".christn#0",""
+"2021-06-17,15:18:56","chandlerdk","#0","We have deployments on Kovan and Polygon, and you can look at the deployed contracts on Etherscan:
+**Kovan**
+LongShortPairCreator: 0x81b0A8206C559a0747D86B4489D0055db4720E84
+
+BinaryOptionLongShortPairFinancialProductLibrary: 0xB1d60d41246B6d679cF89A1e57c46B1387538009
+
+CoveredCallLongShortPairFinancialProductLibrary: 0x2CcA11DbbDC3E028D6c293eA5d386eE887071C59
+
+LinearLongShortPairFinancialProductLibrary: 0x46b541E0fE2E817340A1A88740607329fF5ED279
+
+RangeBondLongShortPairFinancialProductLibrary: 0xb8f4f21c9d276fddcece80e7a3e4c5d9f6addd63
+
+Deployed LSP example: 0x2a6957a7d56416492213dc1f5d73884ba02f6db7
+
+**Polygon Mumbai**
+LongShortPairCreator: 0x6883FeB1c131F58C1Cd629289Da3dE0051d2aa0d
+
+BinaryOptionLongShortPairFinancialProductLibrary: 0x2158C256b2d9B2b58D90D3ddA1b6a90d64498F7d
+
+CoveredCallLongShortPairFinancialProductLibrary: 0xc19B7EF43a6eBd393446F401d1eCFac01B181ac0
+
+LinearLongShortPairFinancialProductLibrary: 0x2aBf1Bd76655de80eDB3086114315Eec75AF500c
+
+RangeBondLongShortPairFinancialProductLibrary: 0xb53A60f595EE2418be9F6057121EE77f0249AC28
+
+There are also comments in the contracts on GitHub: https://github.com/UMAprotocol/protocol/tree/master/packages/core/contracts/financial-templates/long-short-pair
+And LSP tests: https://github.com/UMAprotocol/protocol/tree/master/packages/core/contracts/financial-templates/test",".christn#0",""
+"2021-06-17,18:40:35","snakepoison","#0","Hey Umans, wanted to ask for some clarification. 
+
+Looking at the docs here:
+https://docs.umaproject.org/synthetic-tokens/long-short-pair#lsp-example
+
+Why would Bob in this story deploy the contract and call expire (utilizing gas!) when he had no part in establishing a position? Is this an oversight and it should have been Alice or am I missing something?","",""
+"2021-06-18,02:51:08",".christn","#0","Hey UMAns,
+
+In our team we are pretty sure we want to build a UI for the new LSP contracts.
+
+We are still thinking about the right configuration that provides an attractive use case.
+One idea we are currently considering is using the Linear Payout function combined with Foreign Exchange Price Feeds and (potentially interest yielding) USD Stable Coin collateral to enable users to hedge against currency risk with respect to their home (non-USD) currency.
+
+The users would be able to mint / redeem the tokens through our DApp and could then trade the long / short tokens on the secondary market. (Maybe we could integrate Uniswap etc. to allow the user to trade these tokens through the same UI).
+
+What do you think about that idea ? 
+Do you think it is an attractive use case ?
+Are there projects building something similar already that you are aware of ?
+Do you see any technical pitfalls / challenges with this contract setup ?
+
+One aspect we aren't quite sure about yet is, what the incentive would be for ""liquidity providers"" that mint the tokens in the first place and put them up on uniswap to get the secondary market started. (beyond potential Uniswap fees).","",""
+"2021-06-18,06:43:09","chandlerdk","#0","We are stoked you are keen to use the LSP. 
+
+On the surface of it, your idea is very cool! And one I am interested to unpack with you.
+
+I'm not fully aware of another project doing this specific idea so you have the first stab at it (although this is just my optics) 
+
+We'd need to unpack the idea a bit more to figure out pitfalls - but on the surface it all seems possible. 
+
+So the benefit of the LP is to either mint both side of the trade and LP with that, or take one side of the trade and sell the other side to an LP pool - there are a few challenges with LPing the LSP since it is not as straight forward as traditional LP pools. I also see an interesting case for an LP to use these tokens as a far easier hedge.",".christn#0",""
+"2021-06-18,07:26:48",".christn","#0","Thanks a lot for the feedback, I will take you up on your offer to unpack the idea once we have a bit of a more detailed concept on this.
+
+Regarding the complexity / required work for this I think I have somewhat of an idea regarding the Frontend UI and integration with the UMA contracts.
+
+Where I am still pretty much in the dark is what will need to be done to implement / host  the disputer / proposer bots that I understand are needed to secure the contracts.
+
+Do you have some documentation / example implementations or hosting setups (docker containers etc.)  for the proposer / disputer bots ?","chandlerdk#0",""
+"2021-06-18,08:51:29","chandlerdk","#0","The  bot system we use is serverless, but that really is not even a needed since, and this is also why the LSP is cool - you dont need any liquidation bots AT ALL. The financial concepts used to build the LSP mean that it you will never go under collateralised (as a side note, it also means that your gains are also bounded).  
+
+So if you want to create a UI for this + run bots, your workload just got easier!",".christn#0",""
+"2021-06-18,08:54:34","chandlerdk","#0","In terms of UI's for various parts of UMA's ecosystem, you can check out: 
+https://syntheticbuilder.xyz/ - which allows you to deploy new EMP contracts easily
+
+https://tools.umaproject.org/- which allows you to interact with currently deployed EMP's",".christn#0",""
+"2021-06-18,09:52:35",".christn","#0","Thanks for the clarification. I got the idea that we don't need liquidations for the LSP, which is one of the reason why I am so excited about this product.
+However when I asked during yesterdays presentation I understood that you still need bots to propose / dispute the price feed value at the time of expiry. (Unless you want to let your user propose / dispute manually). Did I misunderstand something there ?","chandlerdk#0",""
+"2021-06-18,10:16:56","chandlerdk","#0","Oh right - I got it. You understood correctly. Yes, these bots are _very_ similiar to the liquidator and disputer bots we have on our doc site, with a few small differences, lemme double check the difference. 
+
+In the meantime: https://docs.umaproject.org/developers/bots",".christn#0",""
+"2021-06-18,12:14:55","jdshutt","#0","<@!690193444907515989> You can also find some details in the code for the proposer bot: https://github.com/UMAprotocol/protocol/blob/5e444413827573cc7da8cf335df29daf80b6a244/packages/optimistic-oracle/src/proposer.js",".christn#0",""
+"2021-06-18,18:40:25","jdshutt","#0","In this case, Bob is the one who launched the product, like Yam launching uSTONKS or Opium launching SpaceX insurance, so he wants his product to expire on time. Alice (or others) would also have an incentive to trigger expiry so that they could settle up faster, so it doesn't necessarily have to be Bob.","",""
+"2021-06-18,21:01:31","snakepoison","#0","Oh ok. So I take it that Bob here would be motivated by something like UMA kpi options or the dev mining type incentives? As I understand that's what motivates Opium and Yam currently with the EMP.","jdshutt#0",""
+"2021-06-18,23:43:55","jdshutt","#0","Not necessarily! If Bob is an engineer for a different protocol (or non-protocol company) that has its own value capture mechanism but needs off-chain data for settlement, he could use the LSP as part of his stack without needing rewards from UMA.","snakepoison#0",""
+"2021-06-18,23:50:31","snakepoison","#0","That’s interesting and I hadn’t thought of that. You are saying here that bob wants to know the price at specific time in his contract, he may launch the  LSP with the price feed he wants to know and wait for an Alice or Rachel to call expire to save on posting the data on chain? And have that price feed backed by UMA as a plus.","jdshutt#0",""
+"2021-06-18,23:52:51","jdshutt","#0","Sure! Anybody involved in the particular LSP has an incentive to call expire to settle, and it's relatively easy to set up a price feed with UMA and take advantage of the DVM backstop for security.
+
+But this is also a broader question: Bob might have a non-LSP use case where he wants a particular price at a specific time, and he can use UMA's Optimistic Oracle to get that price. It doesn't necessarily have to be an LSP or EMP or any other contract from UMA's library.","snakepoison#0",""
+"2021-06-18,23:54:00","jdshutt","#0","Here's a simple example: https://docs.umaproject.org/developers/optimistic-oracle-integration","",""
+"2021-06-18,23:54:47","snakepoison","#0","Cool, thanks for explaining!","",""
+"2021-06-18,23:55:06","jdshutt","#0","I think that's aligned with what you're asking here. In the LSP case, Bob would need to have some other reason to want to deploy an LSP specifically, either to take a long or short position, or as a component of a larger mechanism (like maybe Bob is building an AMM for call options).","",""
+"2021-06-18,23:55:27","jdshutt","#0","Or for clout or for fun, which are also legitimate motivations, haha.","",""
+"2021-06-18,23:57:02","jdshutt","#0","But the solution space for ""how to make money from crypto trading"" is pretty large, and Bob can take his pick.","",""
+"2021-06-18,23:59:17","snakepoison","#0","True but at these gas prices 😆, but guess this could be deployed on L2 or polygon to make that not as big of a deal.","jdshutt#0",""
+"2021-06-19,00:03:19","jdshutt","#0","Yep! We're on Polygon now and planning to expand to other EVM-compatible L2s and scaling layers.","",""
+"2021-06-19,00:03:39","jdshutt","#0","Working on a launch repo to make it easy to deploy LSPs and adding Polygon deployment information to our other launch repos.","",""
+"2021-06-19,09:48:24",".christn","#0","Hey UMAns,
+I am currently trying to deepen my understanding of the LSP contracts by building a few tests that go through the whole create / mint /redeem lifecycle. I run these tests on a Kovan fork using the Kovan contract addresses and built them based on the Unittests for the LSP / -Creator contracts in the UMA repo.
+
+I am currently facing a transaction revertion  here:https://github.com/MoneyLSP/avow/blob/LSP-Interface-Tests-Extension/test/contracts/LSP.spec.ts#L263 which I have a hard time debugging.
+I compared to this test case but wasn't able to identify the error based on that yet: https://github.com/UMAprotocol/protocol/blob/master/packages/core/test/financial-templates/long-short-pair/LongShortPair.js#L151
+
+If someone could take a quick look and tell me if I am committing any obvious mistakes in how I use the contract, that would be great, before I spent too much time going down the wrong rabbit hole  🐰","",""
+"2021-06-21,06:42:32","chandlerdk","#0","Hey <@!690193444907515989> - this particular issue is outside of my realm of knowledge. Just letting you know that I have passed this message to the team members who would be able to help - I'll keep you posted",".christn#0",""
+"2021-06-21,06:48:35",".christn","#0","Thanks for the info.
+Note that this is the same issue that I raised in the UMA discord (https://discord.com/channels/718590743446290492/718591751543062548/855806734609678356)
+
+As I mentioned here it might also be due to some misconfiguration on my side regarding the hardhat / kovan-forking setup or something like that.","chandlerdk#0",""
+"2021-06-21,06:49:39","chandlerdk","#0","Yea saw that message in our Discord as well. 
+
+Should be a minor fix",".christn#0",""
+"2021-06-21,12:34:31","vintro1873","#0","Hey UMAns. My teammate <@!430504266633838602>  and I are interested in building an oracle to track the volatility of the APYs of popular pools/vaults. They have variable APYs but we're interested in just _how_ variable they are over time.
+
+If we are successful in this endeavor, we'd like to be able to make bets on the volatility. Am I correct in understanding we could use UMA to mint a token that tracks our oracle? Or is this a synthetix use case?","se3jay#0",""
+"2021-06-21,14:19:49","jdshutt","#0","You can create a price identifier (or several price identifiers) that track APY volatility and use that with UMA's oracle to mint synthetics. This sounds pretty similar to the ethVIX identifier, which tracks ETH volatility. In the ethVIX case, the development team provides the VIX values via an API, but with a fallback to calculating with raw data. In your case, since the raw data comes from on-chain, you may not need to make a centralized API available, except for your own convenience. You could write a price feed interface that gets the on-chain values and runs the calculations, so anybody could use that for bots watching positions. https://github.com/UMAprotocol/UMIPs/blob/master/UMIPs/umip-74.md","vintro1873#0",""
+"2021-06-21,14:24:01","jdshutt","#0","Also, this is a great use case for UMA, since APY volatility is a fairly specialized data feed, and you would need Chainlink nodes delivering these specific prices on-chain repeatedly to do this with Synthetix. That's pretty expensive for long-tail synthetics like these. With UMA, you only have to get a prices on-chain at expiry or when there is a dispute about a liquidation or withdrawal.","",""
+"2021-06-21,14:35:33","chandlerdk","#0","Hey <@!782729216461897798> 👋 
+Great to see you here again 🥳","vintro1873#0",""
+"2021-06-21,15:39:53","vintro1873","#0","haha great to be here again, this time with a MUCH better understanding of _why_ lol","chandlerdk#0",""
+"2021-06-21,16:15:59","_hamzahkhan","#0","Happy to help on the Polygon side of things bro. 🙂","jdshutt#0",""
+"2021-06-21,18:32:44","jdshutt","#0","Awesome, thanks!","_hamzahkhan#0",""
+"2021-06-22,05:03:35","chandlerdk","#0","Keen to hear more about what you want to build!","vintro1873#0",""
+"2021-06-22,12:48:03","ZER8🧠","#9093","Hello amazing people nice to see familiar faces <@!410024989002170368> <@!824996929854898216> <@!382743009122582528> 😄","hiten_s#0、chandlerdk#0、Hagz48#3853",""
+"2021-06-22,12:49:05","ZER8🧠","#9093","Only tommorow night I will have good internet acces in order to join the hackaton","",""
+"2021-06-22,13:07:59","jdshutt","#0","I wanted to share this thread from Kevin Chan about improving liquidity mining with call options and KPI options built on UMA. Really interesting ideas here! https://twitter.com/kevinchan2020/status/1407368295846612992?s=20","",""
+"2021-06-22,13:09:36","chandlerdk","#0","This is an amazing idea - any team keen to build on this would be awesome!","jdshutt#0",""
+"2021-06-22,13:19:37","Hagz48","#3853","Hey he finally made it","ZER8🧠#9093",""
+"2021-06-22,19:49:35","jdshutt","#0","In case anybody is interested in multi-chain and L2 stuff for the hackathon, here's a thread on how you could implement fast and secure cross-chain transactions with UMA's Optimistic Oracle! https://twitter.com/jdshutt/status/1407485240117841920?s=20","",""
+"2021-06-22,19:57:15","jdshutt","#0","<@!806800019632947262> would be really curious to hear your thoughts on this thread","_hamzahkhan#0",""
+"2021-06-23,12:46:31","jdshutt","#0","Btw, we're digging into a revert issue people have been running into when calling `redeem` on the LSP. There are a few threads on this in the UMA Discord. Sharing a link here in case other hackers are running into this. 
+
+Edit: It looks like the problem is an outdated deployment of `TokenFactory` on Kovan, so we're redeploying that contract.
+
+https://discord.com/channels/718590743446290492/718591751543062548/857291667275382844","",""
+"2021-06-23,15:21:37","henrystats","#0","An updated version of the LongShortPairCreator has been deployed here: <https://kovan.etherscan.io/address/0x4c68829dbd07febb250b90f5624d4a5c30bbec2c#code>.
+
+ Two things to note:
+- This points to a token contract that is compatible, so you shouldn't see any more reverts on redeem (but let us know if you do!).
+- The constructor arguments have been slightly updated as they have changed since our last deployment. The only difference should be the prepaidProposerReward, which allows the deployer to prepay a reward for providing a settlement price. For simplicity, you can safely set this to 0 and nothing should change.
+
+Let us know if you have any issues!","jdshutt#0",""
+"2021-06-23,20:34:08","henrystats","#0","Hey $UMA hackers! Here's a playlist of short videos (walkthroughs and explainers) showcasing the products you can build on $UMA and how to build them. 
+
+https://www.youtube.com/playlist?list=PLAN0tXP211ZYOiYtLwyEByeEw_EDcFUvh
+
+Check the description of a video to find the links mentioned in the video. Let me know if you have any questions.!","",""
+"2021-06-25,14:19:58","jdshutt","#0","We have a `launch-lsp` repo available now to make it easier to launch Long-Short Pair contracts! Give it a whirl and let us know if you have any feedback. https://github.com/UMAprotocol/launch-lsp","",""
+"2021-06-25,20:31:45","hack3r_0m","#0","hi, can i get some KETH ?
+`0x825aE6fb177186e9551ab1CDd6D4aB10B22A0Dba`","",""
+"2021-06-27,12:36:12","snakepoison","#0","Hello wanted to ask if there was a way to change the liveness period for a dispute on the proposed time in the new LSP contract. There seemed to be a way to customize on the EMP, so wondering if it could be done in this new contract. Thanks!","",""
+"2021-06-27,16:33:45","henrystats","#0","cc <@!412678595555885061> <@!324024585869721612>","snakepoison#0、sbreezy636#0、jdshutt#0",""
+"2021-06-28,12:08:07","jdshutt","#0","You can set custom liveness for a request in the Optimistic Oracle with this function: https://github.com/UMAprotocol/protocol/blob/d146d4feddcf99e157a909032a3071e95ca51eb9/packages/core/contracts/oracle/implementation/OptimisticOracle.sol#L245
+
+To bake a standard custom liveness into the LPS, you should provide a way to call `setCustomLiveness` through the LSP contract, with a hardcoded liveness in the function.
+
+You can also make a price request, set a custom liveness, and maybe propose a price within the same function in the LSP.
+
+If you make all price requests through the LSP itself and set the custom liveness internally in the function, that will make sure that all price requests recognized as valid by the LSP will follow the custom liveness rules for that particular product. Every price request notes its sender, and price requests where the LSP is not the sender can be ignored.","snakepoison#0",""
+"2021-06-28,12:09:38","jdshutt","#0","sent!","hack3r_0m#0",""
+"2021-06-28,13:25:20","mrice32","#0","You would need to modify the LSP contract to do this, as it doesn't expose a parameter for it.","snakepoison#0",""
+"2021-06-29,08:45:12","Mauri ~","#1157","Hi there, Im part of the 2pi.finance team, and we plan to use the UMA KPI Options for our airdrop. Any chances to jump to a call with any of the UMA team members?","",""
+"2021-06-29,11:38:46","chandlerdk","#0","Hey man. Happy to chat with you","Mauri ~#1157",""
+"2021-06-29,14:40:32","jdshutt","#0","Kind of a funny idea for anyone working on KPI options. https://twitter.com/jdshutt/status/1409943888500969475?s=20","",""
+"2021-06-30,16:16:23","jdshutt","#0","Be advised that the LSP Creator factory contract is being upgraded to allow users to specify the names and symbols of the long and short tokens. Updates to the `launch-lsp` repo will be coming shortly.","",""
+"2021-06-30,16:16:40","jdshutt","#0","The new factory addresses are here, and will be merged into `core` soon. https://github.com/UMAprotocol/protocol/pull/3175/files","",""
+"2021-07-01,04:22:37","Philipp | LI.FI","#6757","<@!412678595555885061> I'll send you a PM if that's alright. As it's slightly off-topic","jdshutt#0",""
+"2021-07-01,08:49:07",".christn","#0","Will code built on the old version still continue to work ? Or is this a breaking change ?","jdshutt#0",""
+"2021-07-01,10:18:27","jdshutt","#0","Code built on the old version will continue to work. This is just a change in the factory that allows for more name customization. The LSP contract itself is the same.",".christn#0",""
+"2021-07-01,10:19:37","jdshutt","#0","Also, if you want to use the new creator (for a production deployment, for instance) but like the naming scheme built into the old creator, you could just give the same names that would have been generated by the old creator.","",""
+"2021-07-01,10:23:19","jdshutt","#0","Oh, let me modify what I said just a bit, since you're building a client. The call to `createLongShortPair` will expect different name and symbol parameters for the new creator contract, which is what you would almost certainly want to use in your case.
+
+Old params:
+""syntheticName"", ""syntheticSymbol""
+
+New params:
+""longSynthName"", ""longSynthSymbol"", ""shortSynthName"", ""shortSynthSymbol""
+
+Hopefully not a big change on your end and will provide a better user experience for people creating new LSPs.","",""
+"2021-07-01,11:44:36",".christn","#0","Thanks for the info.
+We have already created the LSP contracts for our demo-case so it shouldn't be any effort right now.
+Btw: I think it is a good idea to make the token names cbustomizable 👍","jdshutt#0",""
+"2021-07-03,13:12:06","jdshutt","#0","We also have an open PR to allow deployers to customize the liveness and bond for Optimistic Oracle requests, another thing that came up last week. https://github.com/UMAprotocol/protocol/pull/3184","",""
+"2021-07-09,16:14:30","Shelvak","#1583","Hey thanks to all the UMA team for the help and the rewards 😄 🥳","",""
+"2021-08-25,11:27:29","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/880111144587657286/unknown.png"
+"2021-09-08,09:44:23","emilyhobbs","#0","Hello and welcome to the <#798845148892889128>  channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!410024989002170368> <@!386752977177673728>","claytonroche#0、chandlerdk#0",""
+"2021-09-09,12:59:13","chandlerdk","#0","Woop woop. Great to be here","emilyhobbs#0",""
+"2021-09-10,03:30:53","chandlerdk","#0","Looking for ideas on what you can build on UMA for the hackathon: check out these ideas. Each day we will post a new idea from the UMA team. 
+https://twitter.com/hal2001/status/1435978803658907648","",""
+"2021-09-10,03:31:15","chandlerdk","#0","https://twitter.com/mountainwaterpi/status/1435961351084523529?s=20","",""
+"2021-09-10,03:32:23","chandlerdk","#0","https://twitter.com/jdshutt/status/1436086377792212992?s=20","",""
+"2021-09-14,06:13:54","chandlerdk","#0","https://twitter.com/kevinchan2020/status/1437524322206109698?s=20 
+Kevin Chan speaks about how easy it is to build financial products using the LSP.","",""
+"2021-09-15,00:53:08","wraithers","#0","Hiya! Excited to get started on this!","",""
+"2021-09-15,00:53:39","wraithers","#0","<@735348936562442280>! Where the rest at? 😊","jbamadeus#0",""
+"2021-09-15,00:57:48","0m0t","#0","anyone looking to build on UMA?","",""
+"2021-09-15,00:58:05","jbamadeus","#0","Where is what?","wraithers#0",""
+"2021-09-15,00:59:12","wraithers","#0","Rest of the SuperUMAn team 😊 Let's check with them on the other Discord 👍","jbamadeus#0",""
+"2021-09-16,09:23:22","Crazyfrog","#8344","Hello UMA peeps","",""
+"2021-09-18,10:38:59","boredlegend","#0","Could an Uma dev help me out with a few questions?","",""
+"2021-09-19,20:26:35","Crazyfrog","#8344","Tag tomo","boredlegend#0",""
+"2021-09-20,02:58:50","0m0t","#0","Your best bet is to go to umas main discord and ask in the developer channel there but also feel free to just shout out your question","",""
+"2021-09-20,06:03:48","chandlerdk","#0","I am also more than happy to help out with questions","boredlegend#0",""
+"2021-09-25,10:00:02","puremood","#0","we need some guidance creating a new price feed, is it possible?","",""
+"2021-09-27,03:00:38","chandlerdk","#0","<@!271343595838111747> should be possible. 
+
+What price feed are you looking for?","puremood#0",""
+"2021-09-27,03:01:27","chandlerdk","#0","With a little more detail we can help you with the guidance you need","",""
+"2021-09-28,03:57:42","puremood","#0","we’d like to use a get request on opensea api","chandlerdk#0",""
+"2021-09-28,11:17:55","chandlerdk","#0","Thats should be possible to do. Do you have more details on what you want to build?","puremood#0",""
+"2021-09-28,12:43:20","puremood","#0","yeah, i submitted the form for a new identifier but the info it askd for was a bit minimal.  do you mind DMing?","chandlerdk#0",""
+"2021-09-28,13:50:59","chandlerdk","#0","Yea feel free to touch base.","puremood#0",""
+"2021-09-28,13:51:04","chandlerdk","#0","Always happy to help","",""
+"2021-10-06,23:28:11","leon_do","#0","spending the night looking at different sponsors. your project is dope. Also wanted to pop in and share what I've been working on. community is small so we'll cross paths again <@!410024989002170368> <@!386752977177673728> <@!501703866341916682> <@!775440208228646932> <@!742980032393117787>","claytonroche#0、chandlerdk#0、henrystats#0、Melissa | UMA#3959、reinis_frp#0","https://cdn.discordapp.com/attachments/798845148892889128/895512804738605056/Screen_Recording_2021-10-06_at_10.41.27_PM.mov"
+"2021-10-12,08:37:16","0m0t","#0","Curious, is anyone from UMA involved as a judge?","",""
+"2021-10-12,09:17:27","oxmarco","#0","Hello, just curious, how is UMA incorporated?","",""
+"2021-10-12,10:04:46","0m0t","#0","UMA is a protocol","",""
+"2021-10-12,11:33:11","oxmarco","#0","okay but is there a legal framework supporting the UMA protocol?","",""
+"2021-10-12,11:33:48","oxmarco","#0","like Uniswap Labs for the Uniswap dex","",""
+"2021-10-12,21:30:03","0m0t","#0","It's meant to be decentralized, like Uniswap","oxmarco#0",""
+"2021-10-12,21:30:21","0m0t","#0","there's a company which supports development like Uniswap Labs","",""
+"2021-10-12,21:30:33","0m0t","#0","anyways here's what we built for the hackathon: https://showcase.ethglobal.com/ethonline2021/floorwars","",""
+"2022-03-28,10:06:30","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/958004158097686629/Logo_1.png"
+"2022-04-12,15:23:57","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**UMA** is a decentralized financial contracts platform built to enable Universal Market Access. Use UMA’s self-enforcing contract design patterns and provably honest oracle mechanism to create your own financial products using standards like ERC20.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st prize - $6,000
+🥈 Runner up - $2,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethamsterdam.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**Getting started with UMA's Optimistic Oracle**
+Friday, April 22 @ 22:00
+w/ Chandler De Kock
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.umaproject.org/
+https://github.com/UMAprotocol
+https://discord.com/invite/PyVPACfTZE
+https://medium.com/uma-project/uma-kpi-options-and-airdrop-bae86be16ce4
+https://medium.com/uma-project/introducing-umas-optimistic-oracle-d92ce5d1a4bc","",""
+"2022-04-22,13:08:41","chandlerdk","#0","Well hello there!","",""
+"2022-04-22,13:08:48","chandlerdk","#0","Chandler here from the UMA team","",""
+"2022-04-22,13:09:43","chandlerdk","#0","Keen to help out teams with support issues during the hackathon and even up to brainstorm some ideas. Reach out if you want to talk through a few killer ideas we have","",""
+"2022-04-23,04:26:28","chandlerdk","#0","Ideas can be hard to come by: Want a killer idea (that will most certainly be built into a product) and be eligible for two teams hackathons. Check out this tweet.
+*Inside Alpha: *We are excited by this idea so hacking it will earn a lot of favour. We are also going to add an extra $10000 as an outside bounty to any team that builds this (even if its not at the hackathon). https://twitter.com/umaprotocol/status/1517165913706930176?s=21&t=bBJeMSshYcx13Y8fnljM9g","",""
+"2022-04-23,09:03:40","Gabe H","#4937","How long are you guys here for tonight?","",""
+"2022-04-23,09:04:21","Gabe H","#4937","Still working on stuff but we wanna integrate with uma later tonight","",""
+"2022-04-23,09:23:01","chandlerdk","#0","Yea we will be here for a while. <@895000572497895585> feel free to come by the booth or ping us directly. We are here to support","Gabe H#4937",""
+"2022-04-23,10:52:16","Gabe H","#4937","Sweet. Coming now","",""
+"2022-04-23,11:32:19","vuyotjie","#0","Any suggestions for getting a large amount of kovan eth?","",""
+"2022-04-23,12:10:56","sbreezy636","#0","sent you friend request","vuyotjie#0",""
+"2022-04-24,05:40:36","ebrue","#0","Hey there! is UMA team still here?","",""
+"2022-04-24,10:09:11","chandlerdk","#0","Yes we are","",""
+"2022-05-02,15:17:23","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/970765971809783808/unknown.png"
+"2022-05-04,00:23:07","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀** ABOUT **
+**UMA** is a decentralized financial contracts platform built to enable Universal Market Access. Use UMA’s self-enforcing contract design patterns and provably honest oracle mechanism to create your own financial products using standards like ERC20.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 $5,000 for the best use case of our Optimistic Oracle
+🥈 $3,000 for a runner up prize
+
+**↓ Full Prize Breakdown Here ↓ **
+https://defi.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP **
+https://youtu.be/ipazTP-hQxI
+
+
+**🔗 IMPORTANT LINKS**
+https://docs.umaproject.org/
+https://github.com/UMAprotocol
+https://discord.com/invite/PyVPACfTZE
+https://medium.com/uma-project/uma-kpi-options-and-airdrop-bae86be16ce4
+https://medium.com/uma-project/introducing-umas-optimistic-oracle-d92ce5d1a4bc","",""
+"2022-05-05,03:35:47","chandlerdk","#0","Hey hackers. We also wrote an article, which if you read the ideas section has some legit alpha ideas. 
+
+We have more specced out versions of these ideas so feel free to reach out to the team to talk through the ideas a little more: 
+https://medium.com/uma-project/help-to-build-the-defi-products-of-tomorrow-at-hackmoney-8efc2bc80acb","",""
+"2022-05-05,03:36:46","chandlerdk","#0","**IDEA 1**
+Use the OO to build a zero-slippage gas-less optimistic decentralized exchange, in which assets can be swapped within a smart contract based on orders posted publicly by users, but bundled and executed on-chain by relayers.
+
+**IDEA 2**
+Protocol owned liquidity has become the next big area for DeFi to try and solve. Come up with your own POL service that uses UMA’s financial contracts. You can use the standard Success Token or create your own payout ”Olympus Pro”
+
+**IDEA 3**
+Cross chain validation applied to a lending protocol. Design a system that uses the OO to allow your assets that are deposited on one chain to be used as collateral on another chain. For example, one deposits 10 ETH on Ethereum and uses that to borrow $1000 on Optimism where the OO verifies and secures the transaction.","",""
+"2022-05-05,07:25:52","chandlerdk","#0","https://twitter.com/UMAprotocol/status/1521952017253429248?s=20&t=CLJ-fL0KeYUiIbEhzJ0Erg","",""
+"2022-05-05,12:55:33","mach3e","#0","Thanks for sponsoring <@410024989002170368>","chandlerdk#0",""
+"2022-05-05,14:25:33","manhuichi","#0641","Hey ! 👋
+
+Come join us for UMA 🛠 How to get started with DeFi's easiest Oracle session happening now!
+
+👀Join on Zoom:
+ https://ethglobal.zoom.us/j/87085277134
+
+
+📺 Watch on YouTube:
+https://youtu.be/ipazTP-hQxI
+——","",""
+"2022-05-06,12:32:34","mach3e","#0","Will be using UMA to build our ""Xchange"" ! Check it out at www.xsauce.io","",""
+"2022-05-06,12:54:05","jdshutt","#0","Interesting! Are these pure synthetics or are they meant to settle for an actual physical item at some point (like a futures market)?","mach3e#0",""
+"2022-05-06,13:06:55","mach3e","#0","<@412678595555885061>  pure synthetics currently. We have on our roadmap a marketplace where you can purchase real items using our token you have earned from minting a long/short position. 
+
+We are looking at getting custom and retail fashion designers/brands to list certain items on this marketplace to act as redeemable items for our users at a discount.","jdshutt#0",""
+"2022-05-06,14:35:55","jdshutt","#0","It definitely seems like you could write a UMIP for the reseller market(s) and use that with a long-short pair contract to mint these -- up to a certain level. The LSP requires full collateral backing, so if you had some shoes worth $420 and you think they might go as high as $2,000 at the maximum, you could back the synthetic with $2,000 worth of collateral, and at a certain point it hits a maximum.
+
+Alternatively, you could maintain full backing with our older expiring multi-party contract, but that requires liquidator bots that monitor the positions and is generally more of a hassle. We tend not to recommend them to new projects because of the overhead.","mach3e#0",""
+"2022-05-06,15:04:50","mach3e","#0","The hassle might be worth it. My cofounder and I were going back and forth between these. My concern is that the end user wont understand collateralization ratios so we looked at float.capital to figure out how they did it.","jdshutt#0",""
+"2022-05-06,20:29:54","rostyslavdzhohola","#0","I've read that your protocol can create custom agreements. Is it possible to create a contract between two parties for giving undercollateralized loans? For example, a manufacturer gets paid full price for the inventory instead of having a 90-day payment agreement.","",""
+"2022-05-07,03:15:59","chandlerdk","#0","May need some details around this idea to better help you. How are the manufacturers and suppliers interacting with the “loan”?","rostyslavdzhohola#0",""
+"2022-05-09,08:05:54","chandlerdk","#0","The ideas keep flowing in: If you want more ideas for your own future protocol, check these out. All possible with UMA's tech.
+https://twitter.com/utopialabs_/status/1519317064535654400?s=21&t=1zPwxYnBUK2p3VIymsGmTw
+
+This one is a personal favourite of mine:
+https://twitter.com/umaprotocol/status/1516872903458910208?s=21&t=1zPwxYnBUK2p3VIymsGmTw","",""
+"2022-05-10,14:27:44","alex245.eth","#0","Hi can you share the address of the ropsten dashboard that you used during the demo?","",""
+"2022-05-11,06:45:42","chandlerdk","#0","I think it was the Kovan Dashboard. 
+You can have a look at it here: https://optimistic-oracle-dapp-git-feature-sc-5344make-kovan-4179fe-uma.vercel.app/
+
+<@412678595555885061> tagging you here as you did the workshop","alex245.eth#0、jdshutt#0",""
+"2022-05-11,10:09:34","jdshutt","#0","Yep! It was a Kovan dashboard.","",""
+"2022-05-13,05:49:57","donoso_eth","#0","Hi everyone, I am doing some test with Yes or no query on kovan","",""
+"2022-05-13,05:49:59","donoso_eth","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/974609445294313532/unknown.png"
+"2022-05-13,05:50:51","donoso_eth","#0","The last two requests are miine","",""
+"2022-05-13,05:52:09","donoso_eth","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/974609989761138699/Screenshot_2022-05-13_at_11.50.34.png"
+"2022-05-13,05:53:33","donoso_eth","#0","I don't get the title of the question to be displayed as the ""NBA;...."" Probably I am doing some mistakes formating the ancillaryData but not found the error yet","",""
+"2022-05-13,05:53:48","donoso_eth","#0","Any hint would be appreciated","",""
+"2022-05-13,09:30:02","chandlerdk","#0","<@923971611047112705> are you using the demo script we have?","donoso_eth#0",""
+"2022-05-13,09:30:50","chandlerdk","#0","What contract are you using for this request?","",""
+"2022-05-13,10:21:30","chandlerdk","#0","cc <@412678595555885061>","jdshutt#0",""
+"2022-05-13,10:30:05","donoso_eth","#0","<@410024989002170368> <@412678595555885061>  I have used as a basis the OptimisticDistributor.sol.","chandlerdk#0、jdshutt#0",""
+"2022-05-13,10:43:24","donoso_eth","#0","here is the contract","",""
+"2022-05-13,10:43:25","donoso_eth","#0","https://github.com/donoso-eth/pcr/blob/master/hardhat/contracts/PcrOptimisticOracle.sol","",""
+"2022-05-13,11:48:59","jdshutt","#0","<@923971611047112705> looking into this with our front-end team! My guess is that it's having trouble parsing the ancillary data correctly and plucking out the title.","donoso_eth#0",""
+"2022-05-13,11:53:18","donoso_eth","#0","👍🏻","",""
+"2022-05-13,11:59:18","jdshutt","#0","Looks like it pulls the title on the detail page but not on the index so we'll look into that.","",""
+"2022-05-13,12:05:18","donoso_eth","#0","yes, indeeed, I saw that","",""
+"2022-05-13,13:37:03","jdshutt","#0","<@923971611047112705> this PR might fix it by making title parsing from the ancillary data less restrictive. Let me know how it looks! https://github.com/UMAprotocol/optimistic-oracle-dapp/pull/62","donoso_eth#0",""
+"2022-05-14,05:50:11","donoso_eth","#0","When adding a space after the semicolon works perfectly","jdshutt#0",""
+"2022-05-15,19:35:01","chrisipk","#0","hi guys, we are trying to create an integration for babylon finance to interact with UMA tokens. however, we could only find the uma contracts in NPM packages. are there any interface definitions for the contracts that we could use?
+(issue is that we only need to interact with UMA contracts, so all we need are the interfaces. UMA code is using solidity 0.8.0 and babylon is using 0.7.6, so we thought it would be easier to downgrade UMA interfaces instead of the entire implementation)","",""
+"2022-05-15,19:38:53","chrisipk","#0","also, one more question: is there any way to easily verify if a contract address is a certain kind of UMA token address? so, for example, is there an easy way to verify on-chain that a contract is a `LongShortPair` via solidity?","",""
+"2022-05-16,04:07:12","chandlerdk","#0","Hey <@769689963109285898> 
+
+I'm not 100% sure if a downgrade will cause any breaking changes. <@412678595555885061> let me know if there are any issues around that","chrisipk#0、jdshutt#0",""
+"2022-05-16,04:08:46","chandlerdk","#0","As for the interfaces, our docsite is the best place to go. Here is the once for the LSP as an example: https://docs.umaproject.org/contracts/financial-templates/long-short-pair/LongShortPair","",""
+"2022-05-16,04:38:50","chandlerdk","#0","Also if you are deploying using the latest version of the contracts it “should” auto verify. It may be a little tricker if you are using older versions.
+(I am assuming you are using Kovan). Then it’ll have to be a manual verify 
+
+Behavior might be different on other chains","",""
+"2022-05-16,11:17:56","chrisipk","#0","thanks! we are currently not thinking about deploying our own UMA tokens but just interacting with already deployed tokens. so we don't really need to compile/deploy the UMA tokens code. all we need right now are some .sol files which contain the interfaces for the UMA tokens. but we couldn't find them in your repositories, so now we created them ourselves.","chandlerdk#0",""
+"2022-05-16,11:19:31","chandlerdk","#0","I see, so you want to interface with the tokens themselves. Thanks for clearing that up. 
+
+All the tokens that you mint from UMA contracts are ERC-20 tokens","chrisipk#0",""
+"2022-05-16,11:43:17","chrisipk","#0","we want to interface with the UMA contracts. i.e., we want to use USDC pooled in a babylon garden to e.g. mint and redeem `LongShortPair` tokens. so we need to interface with the UMA contracts, not just the ERC-20 tokens. we also interface with the ERC-20 tokens, but the interface for those is widely available 😉","chandlerdk#0",""
+"2022-05-16,11:45:07","chrisipk","#0","see below what we have now created ourselves. i was hoping that maybe this interface definition was available in some UMA package and we just couldn't find it. maybe this makes it a bit more clear what we were looking for.
+https://github.com/StockCoin-hackmoney/scaffold-eth/tree/release/packages/hardhat-ts/contracts/interface-uma","",""
+"2022-05-18,07:30:09","chandlerdk","#0","<@412678595555885061> tagging you here to help out and give <@769689963109285898> a hand","chrisipk#0、jdshutt#0",""
+"2022-05-18,10:20:35","jdshutt","#0","Hi <@769689963109285898> sorry for the slow response on my end! I understand what you're trying to do and think that creating your own interface for the LongShortPair contracts makes sense. We don't have an interface in the package but it seems like maybe we should.
+
+If you also want to *deploy* LongShortPair contracts, and not just mint and redeem on existing LongShortPair contracts, you would also need to make an interface for the LongShortPairCreator. https://docs.umaproject.org/contracts/financial-templates/long-short-pair/LongShortPairCreator","chrisipk#0",""
+"2022-05-18,10:21:07","jdshutt","#0","One way to figure out if a contract is an LSP or not, off-chain at least, is to watch the events from the LSP Creator contract.","",""
+"2022-05-18,11:24:20","chrisipk","#0","thanks for getting back to me! so far, we are only trying to integrate existing UMA tokens with babylon gardens, so i don't think we will need to deploy a creator for now. maybe we will have a look at this once the integration with existing contracts works fine","jdshutt#0",""
+"2022-05-18,11:25:25","chrisipk","#0","thanks, this is not really possible for us as all the integration is only on-chain. i was hoping to find an easy way to validate if a supplied address is actually an LSP, but maybe we will just leave this to the user.","jdshutt#0",""
+"2022-05-18,11:26:40","chrisipk","#0","another question: we want to sell LSP tokens on exchanges (e.g. uniswap). as those pools are often somewhat small, those transactions are vulnerable to miners frontrunning their own transactions to drive up the prize in the pool. do you know of any price oracles for LSP tokens that we could use to mitigate this?","",""
+"2022-05-18,14:06:37","jdshutt","#0","You could use a TWAP from the Uniswap oracle or you could create a custom price feed using UMA that adds extra protections against price manipulation, but the second option could be a little bit complicated to write out.","chrisipk#0",""
+"2022-05-18,14:08:22","jdshutt","#0","The tricky thing is that the only market price would probably be coming from those pools but you could set up a price identifier within UMA that sets some reasonable boundaries on that market price. What those boundaries and corrections are depends on the KPI in question. For example, it wouldn't make sense for the value of a success token to drop too far below the price of the collateral underlying it, since at expiry you can redeem the success token for the collateral 1:1. It's similar for any other KPI option that has some minimum payout at some point in the future.","",""
+"2022-05-18,15:00:31","chrisipk","#0","i see, thanks. so the only way to do this, probably, would be to periodically query the pool price and send it to a UMA oracle so i can access it when i want to trade with the pool, right?","jdshutt#0",""
+"2022-05-18,15:51:57","jdshutt","#0","I'm actually thinking about this more...I would think the best way to do this is to actively manage pool positions on Uniswap v3. You can set a price range that's acceptable to you based on other factors and your position won't trade outside of that range.","chrisipk#0",""
+"2022-05-18,15:52:28","jdshutt","#0","So in that case, you wouldn't need an oracle, as a trader. You're just setting the range and depositing or withdrawing funds within the range.","",""
+"2022-05-18,15:52:52","jdshutt","#0","That could all be done by a bot that watches external prices or other factors or it could be done manually by the trader but in either case you wouldn't need an on-chain oracle.","",""
+"2022-05-18,17:13:13","chrisipk","#0","thanks. this sounds like a better option, but is probably too involved for our use case. we are just creating an integration to babylon finance, so there is a single step where we can sell the tokens at whatever price is available at that moment.","jdshutt#0",""
+"2022-05-18,19:03:08","chrisipk","#0","is there some way to find pools to swap `LongShortPair` tokens? for most of the tokens, i am unable to swap them on uniswap. however, everyone who mints this token, will have to swap it, right? or is there something i am missing?","",""
+"2022-05-18,20:01:44","wizgotd","#0","Hello, was trying to use the success tokens in a project. Is it right to understand that only tokens https://docs.umaproject.org/uma-tokenholders/approved-collateral-currencies can be used as collateral? I assumed that the idea of the success token is that any project can list their tokens and create a success token. 
+In order to execute the below, can i use USDC as collateral on goerli for eg. to test it out? or like how do i use my own pair etc
+```bash
+node index.js --gasprice 80 --url YOUR_NODE_URL --mnemonic ""your mnemonic (12 word seed phrase)"" --pairName ""UMA \$12 Success Token Pair August 2022"" --expirationTimestamp 1661983200 --collateralPerPair 1000000000000000000 --priceIdentifier UMAUSD --longSynthName ""UMA \$12 Success Token August 2022"" --longSynthSymbol UMA-0822 --shortSynthName ""UMA \$12 Success Short Token August 2022"" --shortSynthSymbol UMA-0822s --collateralToken 0xd35CCeEAD182dcee0F148EbaC9447DA2c4D449c4 --fpl SimpleSuccessToken --strikePrice 12000000000000000000 --proposerReward 20000000000000000000 --optimisticOracleProposerBond 40000000000000000000
+```","",""
+"2022-05-19,07:26:01","chandlerdk","#0","We dont have any deployers on Goerli - this will work if you try on Kovan.","wizgotd#0",""
+"2022-05-19,07:27:02","chandlerdk","#0","The swap part of this is a second step. You can use any swap protocol to create a pool and the add the tokens for swapping.","chrisipk#0",""
+"2022-05-19,07:28:54","wizgotd","#0","Ok thanks, for the collateral just to confirm, I have to use one from the DAO approved list right? If a user U1 brings his token X, he first needs to get it approved and then subsequently he can create success tokens ( I am getting this flow correct right?)","chandlerdk#0",""
+"2022-05-19,07:32:11","chandlerdk","#0","Yes correct. There is an address whitelist. If you want to use a specific address, I can quickly add it as an approved collateral on testnet","wizgotd#0",""
+"2022-05-19,07:33:46","chandlerdk","#0","Otherwise you can see the approved collaterals here: https://kovan.etherscan.io/address/0xf8bdAb5d675F76eD863fF9Fa35B129A6e43e71cA#readContract","",""
+"2022-05-19,07:33:56","wizgotd","#0","Alrite thank you!","",""
+"2022-05-19,09:13:22","wizgotd","#0","<@410024989002170368> if I can trouble you again to add LINK -> 0xa36085F69e2889c224210F603D836748e7dC0088 to the whitelist","chandlerdk#0",""
+"2022-05-19,09:20:26","chandlerdk","#0","For sure - done: https://kovan.etherscan.io/tx/0x832048ae07530b11c227c1d4f8f4d8b3fce8f9b28323dd20785c9bf7365d9873","wizgotd#0",""
+"2022-05-19,09:51:28","wizgotd","#0","Just trying to create it , is there a way to check if the LINKUSD price identifier is valid on kovan? I see it on mainnet","chandlerdk#0",""
+"2022-05-19,09:51:45","wizgotd","#0","https://docs.umaproject.org/uma-tokenholders/approved-price-identifiers","",""
+"2022-05-19,09:52:32","wizgotd","#0","i currently get the following - 
+
+```
+network id: 42
+final fee: 0
+fpl: 0x906Bf04a36822299293e0ee8dE0dA557e183319B
+params: {
+  pairName: 'LINK $12 Success Token Pair August 2022',
+  expirationTimestamp: '1661983200',
+  collateralPerPair: '1000000000000000000',
+  priceIdentifier: '0x4c494e4b55534400000000000000000000000000000000000000000000000000',
+  longSynthName: 'LINK $12 Success Token August 2022',
+  longSynthSymbol: 'LINK-0822',
+  shortSynthName: 'LINK $12 Success Short Token August 2022',
+  shortSynthSymbol: 'LINK-0822s',
+  collateralToken: '0xa36085F69e2889c224210F603D836748e7dC0088',
+  financialProductLibrary: '0x906Bf04a36822299293e0ee8dE0dA557e183319B',
+  customAncillaryData: '0x',
+  proposerReward: '2000000000000000000',
+  optimisticOracleLivenessTime: 7200,
+  optimisticOracleProposerBond: '4000000000000000000',
+  enableEarlyExpiration: false
+}
+creator address: 0x440E830b0b1Babd2e7595A6998f7ab4D8b4444dF
+transaction options: {
+  gas: 10000000,
+  gasPrice: 80000000000,
+  from: '0xAbbb0DbaE8DA6E9857dA090625bb99Fb87AA64ca'
+}
+Simulating Deployment...
+Error: VM execution error.
+Reverted 0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000194964656e746966696572206e6f74207265676973746572656400000000000000
+```","",""
+"2022-05-19,09:54:42","wizgotd","#0","Also is there an equivalent dashboard for kovan?","",""
+"2022-05-19,09:54:43","wizgotd","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/976845364424495145/unknown.png"
+"2022-05-19,09:59:20","chandlerdk","#0","I dont think it was on Kovan - just added it so give it another go.
+
+You can use any whitelist to be honest as the identifier on testnets dont do anything","wizgotd#0",""
+"2022-05-19,09:59:29","chandlerdk","#0","Let me check but I doubt it","wizgotd#0",""
+"2022-05-19,10:02:36","wizgotd","#0","Looks like I need to go eth faucet hunting 😄","chandlerdk#0",""
+"2022-05-19,10:02:47","chandlerdk","#0","I can send you some","wizgotd#0",""
+"2022-05-19,12:44:00","chrisipk","#0","Thanks. However, for our intention with Babylon Finance, we cannot really create a pool anytime someone wants to invest in a LSP token. Aside from swapping, is there so other way to sell the unwanted part of the pair?","chandlerdk#0",""
+"2022-05-19,13:12:18","chandlerdk","#0","Not off the top of my head.","chrisipk#0",""
+"2022-05-19,13:12:25","chandlerdk","#0","Let me see what other options are out there","",""
+"2022-05-31,00:38:35","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/981054061883314236/unknown.png"
+"2022-06-16,23:57:52","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**UMA** is a decentralized financial contracts platform built to enable Universal Market Access. Use UMA’s self-enforcing contract design patterns and provably honest oracle mechanism to create your own financial products using standards like ERC20.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 $5,000 for the best use case of our Optimistic Oracle
+🥈 $3,000
+🥉 $2,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**Accessing the long tail with UMA’s Optimistic Oracle**
+w/ Matt Rice, Sean Brown & Nick Pai
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.umaproject.org/
+https://github.com/UMAprotocol
+https://discord.com/invite/PyVPACfTZE
+https://medium.com/uma-project/uma-kpi-options-and-airdrop-bae86be16ce4
+https://medium.com/uma-project/introducing-umas-optimistic-oracle-d92ce5d1a4bc","",""
+"2022-06-21,09:03:15","Mhairi","#2271","UMA will be attending Eth NYC in force with seven team mates attending, including Hart Lambur, co-founder. 
+
+We have prizes available to the value of $10k with the potential to apply for further funding to fully productionise a hack post-conference. 
+
+UMA is a very flexibile oracle that can handle a range of different data sources including long tail data which makes it ideal for novel implementations and mash ups with other protocols.
+
+More info is available on our ""Hacking on UMA"" notion page
+https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa","",""
+"2022-06-22,19:42:36","Mhairi","#2271","More info on UMA at Eth NYC is available in this medium article
+https://medium.com/uma-project/step-into-the-light-with-uma-at-ethnewyork-d1568fdb0399
+
+As well as a short list of awesome ideas that you can build with UMA's Optimistic Oractle in this article
+
+https://medium.com/uma-project/three-ideas-to-bring-your-builds-into-focus-with-uma-at-ethnewyork-47a63c6f8956","",""
+"2022-06-23,07:16:25","Mhairi","#2271","<@875633201568161824> I saw your suggestion for minting soulbound tokens for ZK KYC.   Really interesting concept.
+
+I wondered if there was a scaling efficiency you could implement by having automated video recognition software as a first instance, then using UMA as an escalation oracle to determine cases where there was ambiguity.
+
+If you'd be interested in pursuing that further, we have a booth at eth nyc, where you could chat over the mechanics with some of our engineers.","kirilligum#0",""
+"2022-06-23,17:15:26","kirilligum","#0","yes I'm interested. is there an example in your docs that I could look over?","Mhairi#2271",""
+"2022-06-23,17:30:16","Mhairi","#2271","This is probably the best place to start as it gives an overview of how the oracle works https://docs.umaproject.org/protocol-overview/how-does-umas-oracle-work
+
+It refers to ""prices"" but we also have a binary option (where the ""prices"" are effectively 0 or 1) which would be used to indicate valid/invalid.  
+
+There is more info and links to developer resources on our ""Hacking on UMA"" page https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa, and its worth taking a swing by our booth and having a chat with some of our eng folk. 
+
+There is also a presentation from Matt (our CTO), Nick (one of our Lead Engineers) and Sean (who leads on developer experience) tomorrow at 10pm EDT in Room 3 of the Met Paviliion if you were free at that time.","kirilligum#0",""
+"2022-06-24,19:04:54","taijusanagi","#0","Hi nice talking to you guys at the booth, I'm Taiju queried about the cross-chain bridge for NFT lending","",""
+"2022-06-24,19:39:09","taijusanagi","#0","Hi can you tell me the approximate time for the challenge period of UMA's optimistic approach?","",""
+"2022-06-24,22:05:54","Mhairi","#2271","Hey <@531244382905565195> glad you got a chance to speak to some of our team.
+
+The dispute period interval, during which a proposal can be disputed is quite flexible.  Most contracts have a 2h dispute period, but in some cases it can make sense to be longer","taijusanagi#0",""
+"2022-06-24,22:06:20","hartlambur","#0","Apologies for a slow reply. We’ll be monitoring the channel now","taijusanagi#0",""
+"2022-06-24,22:06:52","hartlambur","#0","We are also on the 4th floor (room 3) giving a overview of how to build on UMA.","",""
+"2022-06-24,23:21:14","taijusanagi","#0","Hi, I'm trying to follow this docs
+https://docs.umaproject.org/developers/getting-started
+
+```
+clone https://github.com/UMAprotocol/dev-quickstart|
+yarn 
+yarn test
+```
+
+and it is having following error in typechain
+
+```
+test/EventBasedPredictionMarket.ts:3:53 - error TS2305: Module '""../typechain""' has no exported member 'OptimisticOracleV2'.
+3 import { EventBasedPredictionMarket, ExpandedERC20, OptimisticOracleV2 } from ""../typechain"";
+```","",""
+"2022-06-24,23:23:30","taijusanagi","#0","Do you have same error or there's something wrong in my setting?","",""
+"2022-06-24,23:33:03","taijusanagi","#0","As a workaround I just put below one line code in EventBasedPredictionMarket.sol to generate OptimisticOracleV2 type, and it works
+
+```
+import ""@uma/core/contracts/oracle/implementation/OptimisticOracleV2.sol"";
+```","",""
+"2022-06-25,03:07:17","hartlambur","#0","<@560901848173903882> need your help here!","mrice32#0",""
+"2022-06-25,06:13:11","taijusanagi","#0","Hi, I'm trying to archive this bridging using UMA optimistic oracle, this is discussed with <@496447655032127499> at workshop
+I think this is quite similar to the model which Across uses for the ERC20, so I'm checking quick start and across repository.
+
+And I found this repo seems managing deposit and withdraw
+https://github.com/across-protocol/contracts-v2/blob/bbc102a9b7a6cb5c8dd75047a13a8482706aea78/contracts/SpokePool.sol
+
+I found  deposit is just emit the event, but I'm still look for the code how withdraw happens in destination chain","hartlambur#0","https://cdn.discordapp.com/attachments/798845148892889128/990197964536442910/Screen_Shot_2022-06-24_at_22.33.36.png"
+"2022-06-25,08:10:23","mrice32","#0","Awesome! We’ll look into why this is erroring, but glad you found a workaround! Sorry about that!","taijusanagi#0",""
+"2022-06-25,08:12:06","mrice32","#0","This function (fillRelay) https://github.com/across-protocol/contracts-v2/blob/bbc102a9b7a6cb5c8dd75047a13a8482706aea78/contracts/SpokePool.sol#L359 is called on the destination chain by a third party to send the funds to the user.","taijusanagi#0",""
+"2022-06-25,08:13:32","mrice32","#0","That relayer will be repaid after a few hours once that relay is confirmed as valid by the optimistic oracle.","",""
+"2022-06-25,08:15:25","mrice32","#0","So the user doesn’t withdraw — a relayer pays them up-front (for a fee) and is relaid later by the pool.
+
+
+Does that make sense?","",""
+"2022-06-25,08:25:11","mrice32","#0","(And sorry for the slow reply!)","",""
+"2022-06-25,08:45:07","taijusanagi","#0","Thank you!
+
+Oh, I see!
+
+I got that when fillRelay is called, the funds to send user, and when the relay is confirmed as valid by the optimistic oracle, the funds replay to the relayer.
+
+Can I ask what happens when a dispute happens and the relay is confirmed as invalid? 
+Because the fund is already sent to the user when the relay is filled. so I want to know how this fund is going to be recovered.","mrice32#0",""
+"2022-06-25,08:46:32","taijusanagi","#0","We are considering using this UMA optimistic oracle for NFT bridging, so if the  NFT is sent to the other user, it seems difficult to recover it.","",""
+"2022-06-25,10:55:11","hartlambur","#0","I am here at the booth and will be here for the rest of the day if you have questions!","taijusanagi#0",""
+"2022-06-25,11:22:05","mrice32","#0","The relayer doesn’t get their funds back (since they were wrong), but the relay won’t be repaid by the pool.
+
+Disputes occur on the repayment batches that are proposed to the hub pool.","taijusanagi#0",""
+"2022-06-25,11:24:29","mrice32","#0","I think for an NFT, a different model would be required. You would need the pool to hold the NFT and only release once the OO goes through liveness to confirm that it should be sent.","taijusanagi#0",""
+"2022-06-25,11:24:48","mrice32","#0","This is just due to the fact that the NFTs aren’t fungible.","",""
+"2022-06-25,11:30:24","sbreezy636","#0","Thanks to everyone that came to the workshop yesterday! Here are the slides: https://docs.google.com/presentation/d/1pArA9dyKkGZ25Rm-pud34Wg7OB6qGDkDqKsm9lu-0Fg/edit?usp=sharing","",""
+"2022-06-25,11:56:46","taijusanagi","#0","Thank you! I also think so, so currently, I'm implementing it in this way!","mrice32#0","https://cdn.discordapp.com/attachments/798845148892889128/990284428838305842/Screen_Shot_2022-06-25_at_11.55.53.png"
+"2022-06-25,12:09:48","mrice32","#0","Awesome! That makes sense!","taijusanagi#0",""
+"2022-06-25,14:03:52","taijusanagi","#0","Thanks!!","mrice32#0",""
+"2022-06-25,15:24:33","pumpedlunch","#0","<@496447655032127499>, <@560901848173903882>: thanks for the help.
+Can you please white list fDAIx on Kovan? 
+Address: ```0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00```","mrice32#0、hartlambur#0",""
+"2022-06-25,15:31:32","mrice32","#0","Working on it.","pumpedlunch#0",""
+"2022-06-25,15:35:17","mrice32","#0","Okay, should be approved! https://kovan.etherscan.io/tx/0x4589bf2fec39aa012874db411bbbd7461cf93fb5fc081ca381695d364977d1a8","pumpedlunch#0",""
+"2022-06-25,15:35:39","mrice32","#0","Let me know if you have any issues","",""
+"2022-06-25,15:35:41","pumpedlunch","#0","thanks!","mrice32#0",""
+"2022-06-25,16:23:15","pumpedlunch","#0","Hey Matt, I accidentally sent to the Goerli address! Here's the Kovan address:
+```0xe3cb950cb164a31c66e32c320a800d477019dcff```
+Sorry for the confusion.","mrice32#0",""
+"2022-06-25,17:33:13","taijusanagi","#0","<@496447655032127499> <@560901848173903882> 
+I think I have done implementing UMA optimistic oracle to NFT cross chain bridge, thank you for the support
+
+I used yes_no question and also I use NFT contract/tokenId info in question text bytes, because each NFT is unique so I think each request should be distinguished.","mrice32#0、hartlambur#0",""
+"2022-06-25,18:05:31","mrice32","#0","That's perfect! Yes, as long as the question is unique that should work","taijusanagi#0",""
+"2022-06-25,18:28:19","taijusanagi","#0","Ok! Thank you!","mrice32#0",""
+"2022-06-26,05:22:07","taijusanagi","#0","Hi I tested locally and it is working fine now in local, but when I tested in RInkeby I have this error : Implementation not found
+https://rinkeby.etherscan.io/tx/0x47bb695267fe77f6eaa9a3728baf3fbc019da7b8ccf89a07a36139a2881b7615
+
+I put this as finder.
+0xbb6206fb01fAad31e8aaFc3AD303cEA89D8c8157
+
+Can you please tell me how to fix this issue?","",""
+"2022-06-26,05:31:12","taijusanagi","#0","I analyzed tenderly and rinkeby finder: 0xbb6206fb01fAad31e8aaFc3AD303cEA89D8c8157 does not have OptimisticOracle implementation
+https://dashboard.tenderly.co/tx/rinkeby/0x47bb695267fe77f6eaa9a3728baf3fbc019da7b8ccf89a07a36139a2881b7615?trace=0.2.0.0","",""
+"2022-06-26,06:09:09","taijusanagi","#0","I tested in Optimism too, but I'm having same error, so something may be wrong in my setting
+https://optimistic.etherscan.io/tx/0xfd6f3a9b0df29a66090ac036740a36a8d174c0d412430b386f1ac4256ba9da35","",""
+"2022-06-26,06:13:59","taijusanagi","#0","I think this is because I'm using below interface name, this is copied from quick start and it gives error
+```
+  function _getOptimisticOracle() internal view returns (OptimisticOracleV2Interface) {
+    return OptimisticOracleV2Interface(_finder.getImplementationAddress(""OptimisticOracleV2""));
+  }
+```","",""
+"2022-06-26,06:45:34","taijusanagi","#0","I changed OptimisticOracleV2 -> OptimisticOracle, it is working now","",""
+"2022-06-26,07:58:12","mrice32","#0","Yep, that’s correct!","taijusanagi#0",""
+"2022-06-26,07:59:23","mrice32","#0","Sorry for the delay, but we are in the process of rolling out the OO  v2, but haven’t deployed it most places yet. We’ll make sure the docs get updated. Sorry about that!!","",""
+"2022-06-26,09:21:03","hartlambur","#0","Hi all! If you have a project you’d like to submit for a prize from UMA, please email the details of your submission to me at hart@umaproject.org
+
+We will be around the booth later this morning (starting at around 10:30am) and we’ll ask you to demo your project live. But please still email us so we know to expect you!","",""
+"2022-06-26,10:01:43","taijusanagi","#0","I see, we sent the email!","",""
+"2022-06-26,11:13:22","taijusanagi","#0","hi is pitch available?","",""
+"2022-06-26,11:36:43","hartlambur","#0","Team had some travel issues getting here but we here now and ready for any live pitches.","",""
+"2022-06-26,13:25:42","kirilligum","#0","<@496447655032127499> can't dm. doesn't let me","hartlambur#0",""
+"2022-06-26,13:32:06","kirilligum","#0","https://www.dropbox.com/s/s96uokwr7ug10mg/zk%20elkan%20%28zk%20kyc%20sbt%29.pdf?dl=0","hartlambur#0",""
+"2022-06-28,09:10:53","newway1220","#0","XrossLend : Cross Bridge Lending NFTs dApp using @UMAprotocol and deployed on @optimismPBC at @ETHGlobal. 
+
+Amazing experience working with <@531244382905565195>  and winning 1st prize ! 🏆⚡️
+
+We will continue working on the project, thanks everyone in the team. 
+
+Built with <@531244382905565195> ⚡️","taijusanagi#0",""
+"2022-08-25,22:11:53","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1012544884869169182/unknown.png"
+"2022-08-30,13:11:38","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**UMA** is an optimistic oracle (OO) that can record any knowable truth onto a blockchain. The OO empowers and secures a diverse ecosystem of web3 applications including the Across bridge and Outcome.Finance, a suite of DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**UMA is offering for the best use of their OO:**
+🥇 $5,000
+🥈 $2,000
+🥉 $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/tyi6PnlIHw8
+
+
+🔗 **IMPORTANT LINKS**
+UMA Website: http://umaproject.org/
+UMA Docs: https://docs.umaproject.org/
+Quickstart tutorial: https://docs.umaproject.org/developers/getting-started
+Hack on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+Ideas Bank: https://discourse.umaproject.org/c/ideas-bank/23
+Discord: https://discord.com/invite/jsb9XQJ
+Twitter: https://twitter.com/UMAprotocol","",""
+"2022-08-31,13:32:07","awliang","#0","Hey <@&978595534812102666> 
+
+The UMA 🛠 Building with the Optimistic Oracle workshop has started!
+
+Join on Zoom: https://ethglobal.zoom.us/j/85054371869
+Watch on YouTube: https://youtu.be/tyi6PnlIHw8","",""
+"2022-08-31,13:34:07","Lofi Radio","#1753","","","https://cdn.discordapp.com/attachments/798845148892889128/1014588916935958618/lofi_radio_profile.png"
+"2022-08-31,23:35:47","procellulaire","#4475","Hello, is everything ok with your captcha bot for verification? The username shown seems wrong;   I received a DM during the process","",""
+"2022-08-31,23:51:48","Sunil Reddy","#0620","Good","",""
+"2022-09-01,10:30:16","vishuu0123","#0","Hi  ,  We are going to work on insurance project for ethonline hackathon . We really need some mentorship on how uma can help us building better claims management system in our protocol","",""
+"2022-09-01,13:07:34","markcarey","#0","I watched the video of yesterday's workshop. Good stuff. The testnet oracle UI for answering questions is really helpful. But what if we wanted to build our own UI for someone to propose an answer? Is there some example code for that? Is it just sending a transaction to the `OO` contract?","",""
+"2022-09-02,06:35:21","kannu","#2618","Hi UMA team,
+
+I am confused which oracle to use for my project UMA or Tellor? Can you give me some details on pros and cons of using one over the other.","",""
+"2022-09-02,06:38:10","kannu","#2618","I have stated my idea on miro board (True fantasy sports) please review and provide your valuable feedback.","",""
+"2022-09-02,11:06:47","jdshutt","#0","Hi We are going to work on insurance","",""
+"2022-09-02,11:09:44","jdshutt","#0","I watched the video of yesterday s","",""
+"2022-09-02,11:16:25","jdshutt","#0","Hi UMA team","",""
+"2022-09-02,15:38:14",".smoothyyy","#0","Hi UMA team","",""
+"2022-09-02,15:39:17",".smoothyyy","#0","I am making a project 
+ where  I need to verify something  So I know i can use UMA for it but  I am little bit confuse","",""
+"2022-09-03,01:56:58","kirrttiraj","#0","Hello, we wanted to call our api and make a decision on the basis of that in a Smart contract. Can it be possible using UMA Oracle?","",""
+"2022-09-03,04:18:01","hashharan","#0","Hey, just watching John Shutt's workshop on UMA. In the demo he's able to sign all transactions automatically in meta mask without him having to click the sign button every time. This is a boon when testing some dapps from scratch. Does anyone know how to do this?","",""
+"2022-09-03,08:23:55","Mhairi","#2271","<@976884479127871548> feel free to post your query in here and we'll make a thread.","AndresJM#8442",""
+"2022-09-03,19:55:16","0xcuau","#0","Hi all! We want to implement UMA in our project but I have a question and can't seem to find an answer after reading the docs. Is it possible to ""gatekeep"" who is a proposer given an on-chain condition (eg some specific NFT  owner) ?","",""
+"2022-09-03,22:38:18","Mhairi","#2271","Can UMA be used to verify something?","",""
+"2022-09-03,22:40:41","Mhairi","#2271","Using an API as a basis for decisions","",""
+"2022-09-03,22:41:50","Mhairi","#2271","Automatically sign transactions without clicking sign","",""
+"2022-09-03,22:46:11","Mhairi","#2271","Gatekeeping proposers","",""
+"2022-09-05,11:04:49","sangbejo19.eth","#0","Great team","",""
+"2022-09-05,14:25:58","mattydoe","#0","gm, we will be using UMA for our hackathon project. 🐨","",""
+"2022-09-05,19:58:20","mattydoe","#0","@mentors lets setup a chat soon, we have a good question to ask the Oracle. just need to know if it is a fit.  We may want to create a new kind of Public Data Source","",""
+"2022-09-06,06:31:12","Mhairi","#2271","Mystery Project","",""
+"2022-09-06,09:34:04","0xgoldenlion","#0","i really like uma it sounds quite fun to use , but i know that i cant gatekeep the participant in any given question , now im trying to make a coding together platform where people can jump in and start coding together and practicing technical interviews ... so any idea how can i implement uma into that ?","",""
+"2022-09-06,10:00:57","Mhairi","#2271","At 16.00UTC today, UMA will hold the first ""Office Hours"" in the UMA server for Eth Global hackathon participants to ask questions with our tech evangelists and smart contract engineers.
+
+https://discord.com/invite/jsb9XQJ","",""
+"2022-09-06,12:02:50","Mhairi","#2271","Note that office hours are starting now in the UMA server
+https://discord.com/events/718590743446290492/1016739189737398304","",""
+"2022-09-06,16:31:32","alexuma","#0","i really like uma it sounds quite fun to","",""
+"2022-09-08,09:10:33","stanislav6300","#0","Hello! We`d like to implement optimistic oracle to our project. Could we set up a small call to discuss it?","",""
+"2022-09-08,14:38:01","jdshutt","#0","Hello We`d like to implement optimistic","",""
+"2022-09-09,04:18:16","lana_oll","#0","Hey! I need to connect UMA to get the USD price. I'm looking at dev-quickstart and address Finder is used there to connect oracle. Where can I get this address?","",""
+"2022-09-09,04:22:56","lana_oll","#0","or how to connect the oracle itself at all?","",""
+"2022-09-09,06:08:14","Mhairi","#2271","Connecting to the oracle","",""
+"2022-09-09,21:18:13","blimgy","#0","Hi! Our team is building an anti-farm-and-dump mechanism for airdrops and marketing campaigns. We plan to use UMA's oracle network as a third-party auditor to randomly check whether a certain twitter profile is a real profile (Yes-No answer) or fake profile set-up to farm the reward. We still have a couple of questions after going through the docs and watching the demo video:
+1. Do we need to set-up a special instance of the oracle or just tweak the `identifier` and `ancillaryData` in the remix contract? It seems weird to call `requestPrice` when the data we are requesting is not a price (https://remix.ethereum.org/#version=soljson-v0.8.16+commit.07a7930e.js&optimize=false&runs=200&gist=6daf7b504087e447edabcf078bfef4fa&evmVersion=null)
+2. Can all the oracle functions on the contract be triggered automatically by Chainlink Keepers?","",""
+"2022-09-13,08:58:06","Mhairi","#2271","Airdrops and Marketing","",""
+"2022-09-13,08:59:10","Mhairi","#2271","Note that Developer Office Hours will start in the UMA discord at 16.00UTC today.  UMA eng staff will be on hand to answer any queries you may have around using the oracle or intrgrating UMA products","",""
+"2022-09-13,12:21:54","Mhairi","#2271","https://discord.com/events/718590743446290492/1019281638099800164","",""
+"2022-09-13,13:28:18","pumpedlunch","#0","<@786323819052269608> & <@324024585869721612>: for the project we discussed today, I'm trying to pick a network and oracle version. For the hackathon, I'm planning on testing on Mumbai and deploying on Polygon because it's fast, cheap and seems to be popular for your OO. I see there are OOV2 addresses listed for Polygon, but not Mumbai. 
+-Any recommendations on network?  
+-Is there an advantage to using the OOV2 for my project?","Mhairi#2271、sbreezy636#0",""
+"2022-09-14,08:46:01","Mhairi","#2271","Bonded News","",""
+"2022-09-16,08:36:18","Mhairi","#2271","UMA's next developer Office Hours for EthGlobal will be on Tuesday in the UMA server.
+Do come along and chat about your project and ask any questions of our engineers.
+https://discord.com/events/718590743446290492/1019283690527936532","",""
+"2022-09-16,15:18:46","jdshutt","#0","Hello everybody! Sorry that I've been less available this week; I was out with COVID. Back online and answering a lot of questions and helping with Goerli identifiers. Let me know if there is anything I can help you with on the final stretch of the hackathon!","",""
+"2022-09-21,15:58:28","markcarey","#0","<@786323819052269608> I am looking at https://docs.umaproject.org/developers/getting-started and the link to the contract on Remix is broken. Personally, I would prefer a github link, but either way ... would be good to look at the contract code! 😉","Mhairi#2271",""
+"2022-09-21,16:20:16","alexuma","#0","Hey <@822180265753444412> I just checked the Remix link from the docs and it works for me...are you able to maybe try in a different browser or describe the error you are seeing?","markcarey#0",""
+"2022-09-21,16:21:50","alexuma","#0","If it still isn't working, it is a pretty short code snippet so I could send it to you or whatever is easiest for you","",""
+"2022-09-21,16:29:14","markcarey","#0","I managed to find the code via a cached Google result! 😉","",""
+"2022-09-21,16:30:55","markcarey","#0","<@598658277072568339> Question: is the `requestTime` parameter simply used in conjunction with `ancillaryData` as a unique identifier? Or is it also used with customLiveness calculations?","alexuma#0",""
+"2022-09-21,17:10:41","alexuma","#0","Alex | UMA5012 Question is the","",""
+"2022-09-22,15:29:14","AlainS","#9496","can the  OptimisticOracleV2Interface handle multiple requests at once?","",""
+"2022-09-22,15:29:39","AlainS","#9496","or would we have to spawn multiple contracts for that","",""
+"2022-09-22,15:30:56","AlainS","#9496","with ""at once"" im not saying at the exact same time. Just the abiity to call requestData() twice in a row without settling the first request","",""
+"2022-09-22,15:36:54","AlainS","#9496","actuall yes, it should work because there is a mapping ""requests"" in the OptimisticOracleV2.sol","",""
+"2022-09-22,22:54:03","markcarey","#0","I modified the example contract for exactly this purpose. I have it setup such that the contract can handle multiple assertions at the same time (hence the need to ensure that `requestTime` and `ancillaryData` are not a global storage variables like in the Remix example.  https://github.com/markcarey/onramp/blob/main/contracts/Assert.sol","AlainS#9496",""
+"2022-09-22,23:39:35","AlainS","#9496","Do you guys have a docs site for the uma sdk","",""
+"2022-09-23,11:44:21","alexuma","#0","I would say these are the two best resources for uma sdk documentation https://docs.umaproject.org/developers/sdk and https://github.com/UMAprotocol/protocol/tree/master/packages/sdk. Let me know if there is something specific you are looking for.","AlainS#9496",""
+"2022-09-23,13:59:59","jdshutt","#0","*Final Stretch!*
+
+We've seen a ton of great projects this hackathon and want to help you position yourselves for the best chance at success, not just in your UMA integration but for other prizes. I'm available to give feedback on your submissions over the weekend if you think it would help.
+
+We'd love to see one or more of the teams in this channel make it to the finale!","",""
+"2022-09-23,14:26:17","jdshutt","#0","I love this! I actually think that an assertion contract would be useful as a core UMA contract, since the assertion pattern is such a common way of interacting with the oracle.","markcarey#0",""
+"2022-09-24,22:24:19","mohammed08","#0","Hey guys which testnets do we have deployments?","",""
+"2022-09-25,02:14:40","AlainS","#9496","Short question. Which erc20 address do you guys use for the requestData() function when deploying on mumbai?","",""
+"2022-09-25,02:15:01","AlainS","#9496","we are having trouble using our own erc20 token that we deployed on mumbai","",""
+"2022-09-26,04:11:13","0xsoe","#0","Hey <@324024585869721612> <@412678595555885061> <@598658277072568339> 
+
+we are Napier Finance, the most efficient fixed-yield market compatible with any DeFi yield sources and Principal Tokens. Let's check it out!
+
+Napier integrates various lending protocol as yield source.  Napier AMM aggregates PTs into one nPT.  so, integrating larger TVL protocol results in more liqudity.
+
+-------
+
+Here's what we built:
+
+Name: 🧮 Napier Finance
+Description: The most efficient fixed-yield market compatible with any DeFi yield sources and Principal Tokens.
+Github: https://github.com/massun-onibakuchi/napier
+
+Public URL: https://ethglobal.com/showcase/napier-finance-suazx","alexuma#0、sbreezy636#0、jdshutt#0",""
+"2022-09-26,07:58:07","helloworlt","#0","gm <@324024585869721612> <@412678595555885061> <@598658277072568339> 
+I think we came up with quite interesting idea how to apply your protocol, we made NFT ownership rental protocol with UMA dispute resolution support, to resolve conflicts between lenders and borrowers, check it out please
+https://ethglobal.com/showcase/mirror-ip-qa372","alexuma#0、sbreezy636#0、jdshutt#0",""
+"2022-09-26,13:08:03","Mhairi","#2271","Hey, we dont have this as a formal submission.  Did you submit for the UMA prizes?","0xsoe#0",""
+"2022-09-26,13:55:13","0xsoe","#0","Unfortunately we couldn't apply uma until deadline🥲","Mhairi#2271",""
+"2022-09-26,19:05:43","jdshutt","#0","Wow, I'm reviewing all of our submissions now and I'm blown away by how strong they are. This is easily the best overall cohort of UMA integrations we've seen at a hackathon. Well done, everybody!
+
+We're deciding on the prize winners right now but ultimately want to encourage everyone who submitted a project and wants to keep working on it to apply for a grant from the UMA DAO. We won't be able to give a hackathon prize to every team that submitted (we can only do three!) but want to provide ongoing support and encouragement.","",""
+"2022-09-27,15:40:32","jdshutt","#0","We'd like to help hype all of our submissions on Twitter, so if you are comfortable sharing your teams' Twitter accounts, post them here!","",""
+"2022-09-27,19:17:07","emremre","#0","As aidDAO, my twitter acc is https://twitter.com/0xemremre","",""
+"2022-09-27,19:38:16","pumpedlunch","#0","Thanks John! 
+https://twitter.com/pumpedlunch/status/1574568072002019328","jdshutt#0",""
+"2022-09-27,20:57:12","markcarey","#0","https://twitter.com/mthacks/status/1574132356935360512 Personal twitter @mthacks ... also created @onrampquest for the project, but nothing really there yet 😉","jdshutt#0",""
+"2022-09-28,16:07:53","mattydoe","#0","forever grateful to the UMA team that helped answer our questions for the last 3 weeks and supported the whole community!  ❤️ 🙏","",""
+"2022-10-02,17:33:38","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1026245603119861790/unknown.png"
+"2022-10-03,09:25:36","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+
+👀 **ABOUT** 
+
+**UMA** is an optimistic oracle (OO) that can record any knowable truth onto a blockchain. The OO empowers and secures a diverse ecosystem of web3 applications including the Across bridge and Outcome.Finance, a suite of DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**UMA is offering for the best use of their OO:**
+🥇 $5,000
+🥈 $2,000
+🥉 $1,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+
+**UMA 🛠 Optimistic truth verification | We know it works, but what's its full potential for web3?**
+**Time:** 10:30 PM – Oct 07, 2022
+**Location:** Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+UMA Website: http://umaproject.org/
+UMA Docs: https://docs.umaproject.org/
+Quickstart tutorial: https://docs.umaproject.org/developers/getting-started
+Hack on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+Ideas Bank: https://discourse.umaproject.org/c/ideas-bank/23
+Discord: https://discord.com/invite/jsb9XQJ
+Twitter: https://twitter.com/UMAprotocol","",""
+"2022-10-07,10:37:53","Mhairi","#2271","Hey!
+
+Big welcome to everyone at Eth Bogota!  
+
+Our quickstart tutorial aims to give people the opportunity to deploy the oracle within 30 mins and we have a team of smart contract engineers and tech evangelists at the event who are happy to help anyone who encounters any issues when building on UMA. 
+
+If you want to chat through any ideas that you might have for what can be built on UMA head over to our booth and have a chat.  Hart is giving a workshop tonight at 10.30pm in Workshop room 3  on Optimistic truth verification -  worth waiting up for!
+
+Happy hacking!!","",""
+"2022-10-07,17:25:17","hartlambur","#0","Hey all! Our booth is at the top of the escalator leading up to the third floor. We have sweet UMA SOCKS to give away. Come by and say hi.","",""
+"2022-10-07,18:22:45","hartlambur","#0","This article gives an overview of our prizes and some ideas on things to build: https://medium.com/uma-project/create-with-umas-optimistic-oracle-at-ethbogota-f250476841d6","",""
+"2022-10-07,18:37:24","hartlambur","#0","This is another idea for enforcing NFT royalties using the Optimistic Oracle: https://twitter.com/hal2001/status/1577497322602496000?s=20&t=M7379sa43-fgPC112fg_pQ","",""
+"2022-10-07,19:24:07","claytonroche","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1028085344400314489/40C5C302-32B6-4171-9B9F-876C51AE540C.jpg"
+"2022-10-07,23:10:47","hartlambur","#0","My workshop is starting in 20min!
+
+UMA 🛠 Optimistic truth verification | We know it works, but what's its full potential for web3?
+Time: 10:30 PM – Oct 07, 2022
+Location: Workshop Room 3","",""
+"2022-10-08,12:49:01","hartlambur","#0","Also hackers, if you are in need of some Goerli testnet ETH, please let us know.","",""
+"2022-10-08,13:42:51","brandon19296","#0","Going to dm you!","hartlambur#0",""
+"2022-10-08,13:43:32","brandon19296","#0","Unable to. Could you send some to 0x2D60F23aEd1d7eB1AA18d0b954eAC509e93635e7","",""
+"2022-10-08,13:43:34","brandon19296","#0","thank you!","",""
+"2022-10-08,13:45:53","sbreezy636","#0","got u","brandon19296#0",""
+"2022-10-08,13:47:56","sbreezy636","#0","sent","brandon19296#0",""
+"2022-10-08,13:58:10","brandon19296","#0","Thanks!!","sbreezy636#0",""
+"2022-10-08,16:27:25","sandraa0250","#0","Hi UMA team, <@324024585869721612> <@496447655032127499> <@386752977177673728> can we build our dApp on lens and use UMA? Will this affect using our own tokens?","claytonroche#0、hartlambur#0、sbreezy636#0",""
+"2022-10-08,16:54:28","sbreezy636","#0","Can you explain a bit more by what you mean about affecting using your tokens?","sandraa0250#0",""
+"2022-10-08,17:36:03","hartlambur","#0","Feel free to come by the booth to discuss too. There’s no reason why this should affect using any of your own tokens.","sandraa0250#0",""
+"2022-10-08,18:09:24","claytonroche","#0","anyone wanna share how their hack is going?","",""
+"2022-10-08,23:18:40","chicomaravilla","#0","Hi","",""
+"2022-10-08,23:18:49","chicomaravilla","#0","Are you still over here?","",""
+"2022-10-08,23:19:38","chicomaravilla","#0","<@496447655032127499>, <@386752977177673728>, <@324024585869721612>","claytonroche#0、hartlambur#0、sbreezy636#0",""
+"2022-10-08,23:54:52","chicomaravilla","#0","Not so good on UMA","claytonroche#0",""
+"2022-10-09,00:08:40","ml_sudo","#0","<@324024585869721612> could you please send some Goerli ETH here? 0x3490DF2E587924e7BeC71Ea0FeefeE8A85AeB1e2","sbreezy636#0",""
+"2022-10-09,00:15:30","ml_sudo","#0","anybody have any idea how to simply query Uma oracles for ETHUSD price info? is that possible? I dont want to create my own oracle","",""
+"2022-10-09,00:37:28","0xcuau","#0","Someone around?","",""
+"2022-10-09,00:38:02","0xcuau","#0","Can't make the ""assertion"" flow work","",""
+"2022-10-09,00:38:02","0xcuau","#0","D:","",""
+"2022-10-09,01:18:19",".nickpai","#0","<@386752977177673728> can you help ?","claytonroche#0",""
+"2022-10-09,01:18:21","hartlambur","#0","Can you share details on where you are stuck?","0xcuau#0",""
+"2022-10-09,01:18:55","hartlambur","#0","We left the venue but can help if you share details on your sticking points.","chicomaravilla#0",""
+"2022-10-09,01:19:19","hartlambur","#0","Do you still need goerli eth?","ml_sudo#0",""
+"2022-10-09,02:30:47","chicomaravilla","#0","this might be already too late... but anyways...","hartlambur#0",""
+"2022-10-09,02:30:54","chicomaravilla","#0","UMA works with polygon too, right?","",""
+"2022-10-09,03:36:11","ml_sudo","#0","<@496447655032127499> yes pls!","hartlambur#0",""
+"2022-10-09,03:36:17","ml_sudo","#0","if yuo are alive and kicking heh","",""
+"2022-10-09,07:32:59","0xcuau","#0","We figured it out! We just need to know where we can check the whitelisted ERC20 tokens for each network","hartlambur#0",""
+"2022-10-09,07:33:47","0xcuau","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1028631360816033852/Screen_Shot_2022-10-09_at_6.32.30.png"
+"2022-10-09,07:47:08","0xcuau","#0","btw there's no optimisticoracle v2 deployed on Gnosis, right?","",""
+"2022-10-09,08:39:38","claytonroche","#0","Correct","0xcuau#0",""
+"2022-10-09,08:39:54","claytonroche","#0","Also - I'm here and happy to help anyone brainstorm blockers","",""
+"2022-10-09,08:48:04","lancenonce","#0","I would appreciate learning more about whitelisting our ERC20! We are doing a LongShortPair but our contract needs to be approved by Owner","",""
+"2022-10-09,08:48:28","claytonroche","#0","Let me see what I can find","",""
+"2022-10-09,08:50:26","claytonroche","#0","This is for it to be used as collateral, yes?","lancenonce#0",""
+"2022-10-09,08:50:52","claytonroche","#0","This looks relevant: https://docs.umaproject.org/resources/subgraph-data/mainnet-voting-entities#collateral","",""
+"2022-10-09,08:51:28","claytonroche","#0","I've pinged the engs too but they were out ""networking"" last night so","",""
+"2022-10-09,09:05:48","lancenonce","#0","Yep Clayton! Hey no@worries. We were up late but definitely got stuck on the approvals side","",""
+"2022-10-09,09:06:16","lancenonce","#0","Should I send my erc20 address?","",""
+"2022-10-09,09:06:39","sbreezy636","#0","Ya, you can approve new collateral types through governance. There are also tons approved already and documented here: https://docs.umaproject.org/resources/approved-collateral-types","",""
+"2022-10-09,09:07:28","sbreezy636","#0","For test net tokens, we could add new ones immediately. But really all testnet tokens are essentially the same","",""
+"2022-10-09,09:07:32","lancenonce","#0","Through governance like we need to get a proposal in?","",""
+"2022-10-09,09:07:36","lancenonce","#0","https://optimistic.etherscan.io/address/0xd782AC4Ee247e0986522ca05c08Cda330DFc14c4#readProxyContract","",""
+"2022-10-09,09:07:51","lancenonce","#0","This is our token, just one issue: we need to use main net for a prize","",""
+"2022-10-09,09:08:03","lancenonce","#0","So will we need formal governance approval?","",""
+"2022-10-09,09:09:04","sbreezy636","#0","Yep correct. Could you use usdc or some other already approved currency as a replacement for now?","lancenonce#0",""
+"2022-10-09,09:09:26","sbreezy636","#0","Yep correct. You’re using gnosis chain?","0xcuau#0",""
+"2022-10-09,09:13:05","lancenonce","#0","Darn! Okay will check out usdc","",""
+"2022-10-09,09:13:46","lancenonce","#0","Thank you <@324024585869721612>","sbreezy636#0",""
+"2022-10-09,09:15:58","sbreezy636","#0","No problem, sorry for confusion :/","lancenonce#0",""
+"2022-10-09,09:16:59","lancenonce","#0","Yeah no worries!","sbreezy636#0",""
+"2022-10-09,09:35:41","0xcuau","#0","We were thinking about deploying on Gnosis too but I guess the smartcontract wont work as intended","sbreezy636#0",""
+"2022-10-09,09:46:15","claytonroche","#0","AS people were thinking through how to use UMA, I'm curious what *other* ideas came to mind for what to do with UMA that you didn't end up building","",""
+"2022-10-09,09:46:35","claytonroche","#0","Always curious to see how different people understand how to use an optimistic oracle","",""
+"2022-10-09,10:07:24","hartlambur","#0","NOTE ON JUDGING TODAY: if your hack used UMA or Across and you want to be considered for our prizes, we will be judging projects in person at our booth starting at 11am today. Please reply to this message with the name of your project so we can make sure we don’t miss anybody. Thank you!","",""
+"2022-10-09,11:29:25","ulerdogan","#0","We are waiting for you as MetaBlast team","hartlambur#0",""
+"2022-10-09,11:46:59","sbreezy636","#0","Great! We’ll be ready for judging in  ~20 minutes","ulerdogan#0",""
+"2022-10-09,11:48:14","claytonroche","#0","We are on our way sorry !!","",""
+"2022-10-09,12:10:59","claytonroche","#0","We are here","",""
+"2022-10-09,12:11:02","claytonroche","#0","At the uma table","",""
+"2022-10-09,12:33:26","claytonroche","#0","Please come check in if you built on uma","",""
+"2022-10-09,12:33:46","claytonroche","#0","I can give you a number so you don’t stand in line. We are on number 1/5 at the moment.","",""
+"2022-10-09,12:40:52","claytonroche","#0","2/5","",""
+"2022-10-09,13:09:17","claytonroche","#0","4/7 now","",""
+"2022-10-09,13:15:25","claytonroche","#0","5/7","",""
+"2022-10-09,13:25:50","claytonroche","#0","Calling 6 or 7","",""
+"2022-10-09,13:28:32","claytonroche","#0","We have to submit our prizes before 1:00 so please come!","",""
+"2022-10-09,13:28:47","ulerdogan","#0","https://ethglobal.com/showcase/metablast-wpsv2
+
+https://twitter.com/itublockchain?s=21&t=YoTav1Rfx8RUElaG22JZ2Q","",""
+"2022-10-09,13:45:40","claytonroche","#0","Amazing contributors","",""
+"2022-10-09,14:05:04","someguy5420","#0","Thanks for hearing our pitch!
+Project: https://ethglobal.com/showcase/wayback-aoye3
+Repo: https://github.com/dylancaponi/wayback
+Node Operator 1-liner for screenshot: https://github.com/dylancaponi/wayback/blob/main/snippets/cutycapt.txt","",""
+"2022-10-09,14:07:11","0xcuau","#0","Hey UMA team, thanks for all the help!
+
+our repo: https://github.com/EthHackatones/Pic2Peer
+project: https://ethglobal.com/showcase/pic-to-peer-9eona","",""
+"2022-10-09,15:25:41","marcinredstone","#0","Hey <@386752977177673728> <@496447655032127499> <@324024585869721612>, as you asked we'd like to present again **Bet Streams 🤑**
+
+Bet Streams is the **pay-per-view live stream platform**, enabling viewers to bet on the results that are streamed in real-time, all based on the Web3 stack Livepeer, Superfluid, UMA, with Bogotex token & UMA contract deployed on Optimism mainnet.
+We build Web3TV, so that you can watch sport games, TV-shows and other live streams and do betting with friends on their outcomes✌️
+
+Submission: https://ethglobal.com/showcase/bet-streams-i90s7
+TT: https://twitter.com/Marcin_Kaz13/status/1579112051775279104
+Deck: https://docs.google.com/presentation/d/1W-aBaG0i2ozqxojY-5LS_zElYcgjIqGU-1nvEE4Elo4/edit#slide=id.g163cba8e8d3_0_6
+
+Ps. We had a lot of fun working on the hack together and using UMA tech with <@770342544797204500> <@788708811031707668> <@240486346848731136> <@1019373824074063953>","duckception#0、claytonroche#0、hartlambur#0、sbreezy636#0、julia_nowosad#0、lancenonce#0、teghnet#0","https://cdn.discordapp.com/attachments/798845148892889128/1028750121023848569/215C47B2-61B4-4354-8E56-2653791416FC_1_201_a.jpeg"
+"2022-10-10,11:47:55","Mhairi","#2271","@here Amazing submissions from Eth Bogota!  Am impressed with the creativity and skill shown. 
+
+If you've hacked on UMA (whether you ended up submitting or not), we'd love to get your feedback on our developer support.  Only 3 questions and will take under 5 mins.
+
+https://www.surveymonkey.co.uk/r/87HQRVD","",""
+"2022-10-20,09:03:44","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1032640262083715153/unknown.png"
+"2022-11-01,05:12:02","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the UMA & Across Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**UMA** is an optimistic oracle (OO) that can verify any statement proposed on the blockchain. Using economic incentives, the OO tells smart contracts “things about the world” so contracts and markets asking for that data can be settled. 
+
+**Across**, UMA's sister project is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use OO as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA’s OO secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇- $5,000
+🥈 - $2,000
+🏊‍♀️ - $3,000 pool prize
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**UMA & Across 🛠 Optimistic Oracles: How to verify any truth trustlessly**
+Time: 06:30 PM PDT – Nov 04, 2022
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+Hacking on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+UMA Docs: https://docs.umaproject.org/
+Across Docs: https://docs.across.to/v2
+Discord: https://discord.com/invite/jsb9XQJ","",""
+"2022-11-04,21:28:34","hartlambur","#0","All! Workshop on UMA starting in workshop 2 now!","",""
+"2022-11-04,22:58:35","muddybrown","#0","Can we get the `VIX` identifier on goerli whitelisted?","",""
+"2022-11-04,23:07:42","hartlambur","#0","yup, on it.","muddybrown#0",""
+"2022-11-04,23:09:22","jdshutt","#0","https://goerli.etherscan.io/tx/0xc11ddcafeec41de2cfbc2ef6954c560059b2deb3081c6a7d2d5dcdece96dd2ed","",""
+"2022-11-04,23:09:38","jdshutt","#0","^ pending, should confirm in a second","",""
+"2022-11-04,23:12:04","hartlambur","#0","If you are looking for hack ideas, here are some suggestions for WHAT TO BUILD at ETHSF with UMA and Across:","",""
+"2022-11-04,23:12:09","muddybrown","#0","Ah cool thx","",""
+"2022-11-04,23:12:25","hartlambur","#0","Reversible ERC20 transactions!
+
+https://twitter.com/UMAprotocol/status/1587931788281671681","",""
+"2022-11-04,23:13:45","hartlambur","#0","An oracle for event data, aka making it easy to access event data from smart contracts. https://twitter.com/jdshutt/status/1587848184000221185","",""
+"2022-11-05,13:56:24","dtb_","#0","<@412678595555885061> <@496447655032127499> does your oracle support a straightforward API call? it seems like `ancillaryData` is meant for arbitrary data as human readable questions / resolution, along with rather long resolution times (a workshop video noted 2 hours). i'm looking for something to simply hit an endpoint (provided in a smart contract call) and return the response on-chain, in a relatively short period of time","hartlambur#0、jdshutt#0",""
+"2022-11-05,13:56:31","dtb_","#0","(but i may have missed something...first time diving into your docs 🙌 )","",""
+"2022-11-05,14:00:35","dtb_","#0","a simple example -- i want to simply have an oracle provide this data in an on-chain response, where the smart contract would pass this URL and let the oracles do the rest: https://testnet.tableland.network/query?s=select%20counter%20from%20healthbot_1_1","",""
+"2022-11-05,14:04:08","dtb_","#0","(*maybe* the Optimistic Arbitrator can be used, idk)","",""
+"2022-11-05,14:11:02","hartlambur","#0","<@726966670211678378> if you are in the building, happy to discuss in person! (I'll also respond in here)","dtb_#0",""
+"2022-11-05,14:29:05","hartlambur","#0","<@726966670211678378>: part of our philosophy in building our oracle is that the data provided should be truly decentralized / without a point of trust. For this reason, I am personally skeptically of trusting API data directly since APIs are controlled by centralized parties (aka the endpoint publishing the API data can report any value they want).
+
+But if your API data is ""verifiable"", this is solved. For example, if your question is ""the price of XYZ is 123"" (and XYZ is publicly knowable), then you can do the following.
+
+1. Have an off-chain bot query your API to get the price of XYZ.
+2. Have the off-chain bot ""propose"" the price of XYZ on-chain by making the following statement:
+
+```
+bytes ancillaryData = bytes(""Q:The price of XYZ is $123? A:1 for yes. 0 for no."");
+// fill in a couple other parameters; see the quick start guide on the docs site
+oo.requestPrice(identifier, requestTime, ancillaryData, bondCurrency, reward); // request price
+oo.setCustomLiveness(identifier, requestTime, ancillaryData, 30); // set 30 sec challenge period
+// now we propose the value of ""1"" proposing that ""Yes! The price of XYZ is $123"". 
+oo.proposePriceFor(msg.sender, address(this), priceIdentifier, timestamp, ancillaryData, int256(1e18);
+```
+3. After the challenge period (which we set to 30 sec—this is a parameter you can change depending on your security needs), we can query to see if the proposed answer was undisputed, and therefore accepted as true.
+
+```
+oo.settle(address(this), identifier, requestTime, ancillaryData);
+oo.getRequest(address(this), identifier, requestTime, ancillaryData).resolvedPrice;
+```","dtb_#0",""
+"2022-11-05,14:41:46","jdshutt","#0","And just to follow up on that, a typical challenge period is two hours, but there are a couple of approaches to speed up execution.
+
+One is to shorten the challenge period, if you know there is an active disputer network that will spot and challenge any bad proposals immediately. That might be doable for an API value but you have to consider the risks.
+
+Another approach is to have someone post a large bond to ""insure"" the value, which will be slashed if the value turns out to be incorrect, to compensate the affected parties. That would allow you to use the proposed value immediately, while the longer challenge window is available to challenge the value, slash the proposer, and compensate whoever was harmed (probably by taking the slashed bond for the protocol and redistributing in some way).","",""
+"2022-11-05,15:11:44","dtb_","#0","gotcha, appreciate the explanation! so, for the sake of the hackathon, the gateway i'm calling *is* centralized. there's more to unpack, but the TLDR is that i'm part of the team at https://tableland.xyz, which is a decentralized relational database network. on-chain SQL writes get materialized by off-chain nodes, and querying the table data happens by way of off-chain SQL at a gateway.
+
+so, i'm trying to hack an easy way to get that off-chain data back on-chain, using a SQL query like the one i noted above. (we actually are exploring this, past the hackathon.) there will one day be more sophisticated ways to do so that are more protocol / decentralized driven, but right now, it's just a single gateway endpoint to our network (controlled by us).","hartlambur#0",""
+"2022-11-05,15:14:22","dtb_","#0","so in the first approach, it's not as simple as a boolean response...i need the actual off-chain payload to then be stored *in* the smart contract. is that aspect possible?","",""
+"2022-11-05,15:14:38","dtb_","#0","(maybe i'll stop by...i'm not at the venue rn, tho)","",""
+"2022-11-05,15:40:45","hartlambur","#0","first off, this is v cool. I get the use case, and we are working on some new design patterns (going to audit beginning of Dec) that I think will make this easier. So we should continue the convo post hackathon too.
+
+For the hackathon, I think there are a few approaches to take here, but fundamentally there is a two step process: step 1, the data is proposed, either by a smart contract triggered by a user action (in a dapp, for example), or by an off-chain bot that makes the call to the smart contract; step 2: after the challenge period has passed, the smart contract that wants to use the data calls `getRequest().resolvedPrice`.","dtb_#0",""
+"2022-11-05,15:43:48","hartlambur","#0","The smart contract that calls `getRequest().resolvedPrice` in step 2 needs to know what to call. So from this perspective, yes it needs to track this ""payload"". But this resolvedPrice response can be interpreted as a boolean (1 = true; 0 = false).","dtb_#0",""
+"2022-11-05,15:55:36","dtb_","#0","ok cool...i think i follow. lemme play with it and see what i come up with. might pop by, depending on when yall plan to leave the venue","hartlambur#0",""
+"2022-11-05,15:56:33","dtb_","#0","(def interested to see what those new contracts look like too 👀)","",""
+"2022-11-05,20:41:08","andreteves","#0","hey guys, I'm testing UMA on Mumbai","",""
+"2022-11-05,20:41:15","andreteves","#0","Could please add a token in the whitelist for that network?","",""
+"2022-11-05,20:41:35","andreteves","#0","At moment I'm getting the following error -> ""message"": ""execution reverted: Unsupported currency"",","",""
+"2022-11-05,20:43:42","andreteves","#0","The currency is tUSDC from Alluo","",""
+"2022-11-05,20:44:14","andreteves","#0","The address is 0xB579C5ba3Bc8EA2F5DD5622f1a5EaC6282516fB1","",""
+"2022-11-05,21:18:12","hartlambur","#0","<@689199884196249647> did you talk to the team at the booth? (I’m not in the building right now). We need to add new currencies (like tUSDC) which is why this isn’t working for you.","andreteves#0",""
+"2022-11-05,21:21:56","andreteves","#0","I left for the Starbucks because the internet in the event was terrible","",""
+"2022-11-05,21:22:01","andreteves","#0","But I will be back soon","",""
+"2022-11-05,21:34:38","jdshutt","#0","<@689199884196249647> I'll add the token to the whitelist after dinner!","andreteves#0",""
+"2022-11-05,22:44:08","jdshutt","#0","<@689199884196249647> adding in this transaction https://mumbai.polygonscan.com/tx/0xf4744a1f5fe4c4f66658d41f62d5a55cb0f99b5fd3dca03c52d6b7be2c4dc7a0","andreteves#0",""
+"2022-11-05,22:44:17","jdshutt","#0","Should be good to go now.","",""
+"2022-11-05,23:06:20","andreteves","#0","Thanks a lot","",""
+"2022-11-05,23:06:45","andreteves","#0","We have some more doubts that would be nice if we could discuss with you","",""
+"2022-11-05,23:06:51","andreteves","#0","You guys are still in the venue?","",""
+"2022-11-06,01:25:43","hartlambur","#0","Can we help over discord?","andreteves#0",""
+"2022-11-06,01:26:05","andreteves","#0","hi, I guess so","",""
+"2022-11-06,01:26:22","andreteves","#0","Any idea on why my callback (priceSettled) is not been called?","",""
+"2022-11-06,01:26:38","andreteves","#0","this is the query","",""
+"2022-11-06,01:26:38","andreteves","#0","https://testnet.oracle.umaproject.org/request?transactionHash=0xd2c3c21e0d372a4e4a990a74d2d4f2ef6620de7f3cf00fad9b7491a9cf08be30&chainId=5&oracleType=OptimisticV2&eventIndex=0","",""
+"2022-11-06,01:28:43","andreteves","#0","Our contract is like 95% similar to this one","",""
+"2022-11-06,01:28:43","andreteves","#0","https://docs.umaproject.org/developers/tutorials/in-depth-tutorial-insurance-claims-arbitration","",""
+"2022-11-06,01:20:12","andreteves","#0","I tried to manually call the function `priceSettled` and it works just fine, but it is never called as a callback by the uma oracle","",""
+"2022-11-06,01:51:34","jdshutt","#0","You might need to call `setCallbacks` for your request so that the Optimistic Oracle knows to trigger the callback when the time comes. https://github.com/UMAprotocol/protocol/blob/master/packages/core/contracts/oracle/implementation/OptimisticOracleV2.sol#L273","",""
+"2022-11-06,01:52:24","jdshutt","#0","For the first three parameters you would use the same values as the initial request, and for the latter three you would say ""true"" or ""false"" (1 or 0) based on whether or not you will implement a callback function in your requesting contract.","",""
+"2022-11-06,01:54:59","jdshutt","#0","<@689199884196249647> ^","andreteves#0",""
+"2022-11-06,03:38:22","andreteves","#0","Sorry for the delay <@412678595555885061>","jdshutt#0",""
+"2022-11-06,03:38:25","andreteves","#0","yeah, I know what you mean, we actually did that","",""
+"2022-11-06,03:38:33","andreteves","#0","this is our smart contract -> https://github.com/CoverFi/insurance-contracts/blob/main/contracts/CoverFi.sol#L198","",""
+"2022-11-06,03:38:45","andreteves","#0","but even tough the callback is not being called","",""
+"2022-11-06,04:21:26","pumpedlunch","#0","I've run into this before! Your liveness period is expired, but the price is not actually settled. You can check the status of the request on Etherscan here:
+https://goerli.etherscan.io/address/0xA5B9d8a0B0Fa04Ba71BDD68069661ED5C0848884#writeContract#F12 - it returns an int that corresponds to a State enum
+
+To settle a testnet request, I call the settle function on Etherscan:
+https://goerli.etherscan.io/address/0xA5B9d8a0B0Fa04Ba71BDD68069661ED5C0848884#writeContract#F12 - you just need to get the required arguments from your request... the identifier needs to converted to hex and start with 0x.","andreteves#0",""
+"2022-11-06,05:06:08","kirilligum","#0","remix link is 403 in your ""getting started"" https://docs.umaproject.org/developers/getting-started 
+```
+Go to this example contract on Remix. This gives you the minimum data request and retrieval flow possible. We'll work through the code in the sections that follow.
+```
+https://remix.ethereum.org/#version=soljson-v0.8.16+commit.07a7930e.js&optimize=false&runs=200&gist=fba5d2812d940759f4f7585741b529a4","",""
+"2022-11-06,11:28:02","hartlambur","#0","Sorry for delayed reply. Link is working for me… so I’m hoping it was a temporary issue on remix’s side?","kirilligum#0",""
+"2022-11-06,11:29:01","kirilligum","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1038852517154521199/Screenshot_20221106-082853.png"
+"2022-11-06,11:29:10","kirilligum","#0","not working for me","",""
+"2022-11-06,12:55:02","jdshutt","#0","We're here at the booth if you want to present your projects!","",""
+"2022-11-06,13:07:06","kirilligum","#0","could you copy paste the remix here please? sorry rushing","",""
+"2022-11-06,13:14:20","hartlambur","#0","Ugh <@875633201568161824> I’m so sorry. The ETHGlobal IP has been rare limited by GitHub… that’s why the gist isn’t loading. (I didn’t get a 403 error from my hotel, but I did get it here).","kirilligum#0",""
+"2022-11-06,13:17:12","hartlambur","#0","<@875633201568161824> here’s the direct gist link that works: https://gist.github.com/chrismaree/fba5d2812d940759f4f7585741b529a4","kirilligum#0",""
+"2022-11-06,13:17:42","hartlambur","#0","You’ll need to copy/paste that code into remix.","",""
+"2022-11-06,13:19:00","hartlambur","#0","*** TEAMS *** we are ready for your presentations. We are reviewing submissions at the booth next to ours.","",""
+"2022-11-06,17:36:01","jdshutt","#0","Thanks to everyone who hacked on us! We were absolutely blown away by the quality of your projects.","",""
+"2022-11-06,17:37:06","andreteves","#0","Thanks for the support <@412678595555885061> and all UMA team","jdshutt#0",""
+"2022-11-06,17:44:43","pgalex","#0","<@412678595555885061> UMA is a really nice project! Thanks for your assistance!","jdshutt#0",""
+"2022-11-06,19:20:01","jdshutt","#0","Congratulations to DAOCensus for making it into the finale! I'm going to post about everyone's projects in the coming days. Truly amazing work. https://twitter.com/jdshutt/status/1589411750365233152","",""
+"2022-11-08,10:11:43","jdshutt","#0","If you're planning to continue working on your hackathon project, we'd love to keep supporting you. Please shoot me a DM with your preferred method of contact if we aren't already talking.","",""
+"2023-02-09,06:30:16","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1073204181172748298/image.png"
+"2023-03-06,04:09:48","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+
+👀 **ABOUT**
+**UMA** is an optimistic oracle (OO) that can verify any statement proposed on the blockchain. Using economic incentives, the OO tells smart contracts “things about the world” so contracts and markets asking for that data can be settled. 
+
+**Across**, UMA's sister project is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use OO as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA’s OO secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+UMA's OO expands what can be built in Web3 and there are many use cases that haven't been thought of yet. We're looking for submissions that build new and innovative on-chain protocols that require off-chain, cross-chain, or aggregated data verified by our oracle.By hacking on Across you will help to strengthen and broaden the bridging ecosystem and increase adoption of L2s. To do this, we need projects that improve scalability, security, and simplicity — and help to provide solid bridging infrastructure that people use without hesitation.
+
+🥇- $5,000
+🥈 - $2,000
+🏊‍♀️ - $3,000 pool prize
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/scaling2023/prizes
+
+
+👀  **WORKSHOP**
+https://www.youtube.com/live/ZQiDM4Flj9Y?feature=share
+
+
+🔗 **IMPORTANT LINKS**
+Hacking on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+UMA Docs: https://docs.umaproject.org/
+Across Docs: https://docs.across.to/","",""
+"2023-03-08,11:58:06","emilyhobbs","#0","<@&1051797938625597490> 
+
+**UMA & Across 🛠 Building Optimistic DAOs with oSnap** starting now!!!
+
+**↓ Check it out ↓**
+https://ethglobal.zoom.us/j/88517488067","",""
+"2023-03-09,15:04:47","jdshutt","#0","Hey everyone! I'll be checking this channel throughout the hackathon to help with questions. We have some cool new toys for you to build with and great prizes available and we'll do our best to support you in the hackathon (and beyond!).","",""
+"2023-03-09,22:12:10","0xibuki","#0","Hi John, now I'm going through this tutorial and got an error when I compiled the example contract 
+https://docs.uma.xyz/developers/quick-start","jdshutt#0","https://cdn.discordapp.com/attachments/798845148892889128/1083588079509573732/Screen_Shot_2023-03-10_at_12.09.09.png"
+"2023-03-09,22:13:11","0xibuki","#0","error cause is that this contract does not exist in your contracts repo
+https://github.com/UMAprotocol/protocol/blob/master/packages/core/contracts/optimistic-asserter/interfaces/OptimisticAsserterInterface.sol
+
+https://github.com/UMAprotocol/protocol/tree/master/packages/core/contracts","",""
+"2023-03-09,22:14:09","0xibuki","#0","Which smart contract interface should I use?","",""
+"2023-03-11,09:56:57","0xkamal7","#0","Hi <@412678595555885061> , I want to know of how does UMA verify any arbitary off-chain data , This https://docs.uma.xyz/protocol-overview/how-does-umas-oracle-work#umas-data-verification-mechanism tells only about the dispute.","jdshutt#0",""
+"2023-03-11,10:02:37","stevugnin","#0","Hello, how do you wrap a REST API?","",""
+"2023-03-13,10:26:04","Mhairi","#2271","Missing Contract","",""
+"2023-03-13,10:29:23","Mhairi","#2271","Hi John Shutt 9370 I want to know of how","",""
+"2023-03-13,10:30:20","Mhairi","#2271","Rest API","",""
+"2023-03-13,17:48:39","jdshutt","#0","We're working on revised versions of the docs and I'm sorry for the trouble you ran into. The Optimistic Asserter was renamed to Optimistic Oracle V3, so you should use that interface.","0xibuki#0",""
+"2023-03-13,21:19:10",".sofaman","#0","The example contract isn't compiling on remix. It says: Member ""requestPrice"" not found or not visible after argument-dependent lookup in contract OptimisticOracleV3Interface.","",""
+"2023-03-13,21:19:36",".sofaman","#0","This is after i tried using the v3 interface","",""
+"2023-03-13,23:16:20","0xibuki","#0","What's the benefit or competitive advantage of UMA oracle over other oracle services like Chainlink?
+I understand how the whole process of UMA works.
+
+My understanding is that UMA is more flexible than chainlink.
+Is that correct? And any other unique advantage UMA has? (ex. Average cost of using oracle is cheaper than others)","",""
+"2023-03-14,10:33:44","Mhairi","#2271","Advantages of UMA v Chainlink","",""
+"2023-03-14,17:37:17","jdshutt","#0","I'll look into this, I think the quickstart demo needs to be rewritten to use the OptimisticOracleV3 contract. Sorry for the bumpy ride, our new contract releases came right before the hackathon and we need to tighten up our documentation.",".sofaman#0",""
+"2023-03-15,05:44:46","aniruddha","#0","hey <@412678595555885061> do across provide any bridge for cross chain NFTs ?","jdshutt#0",""
+"2023-03-16,18:15:59",".sofaman","#0","I'm trying to create a functionality in which you can  create a yes or no poll, and once the poll is over, you push the question onto uma. What might be a straightforward way to do this?","",""
+"2023-03-16,19:12:19","jdshutt","#0","hey John Shutt 9370 do across provide","",""
+"2023-03-16,19:13:35","jdshutt","#0","I m trying to create a functionality in","",""
+"2023-03-18,02:54:38","aniruddha","#0","Hey can I create a dao voting system using UMA ?","",""
+"2023-03-18,11:09:24","dany_hdl","#0","Hi, does UMA offer tools to obtain random numbers?","",""
+"2023-03-20,07:58:34","Mhairi","#2271","DAO Voting","",""
+"2023-03-20,07:59:41","Mhairi","#2271","Hi does UMA offer tools to obtain random","",""
+"2023-03-20,08:02:09","harshalbhangale","#0","Is it necessay to use safe or Osnap to be eligible for bounties ??Can't we only use optimistic oracle ??","",""
+"2023-03-20,10:32:38","Mhairi","#2271","Are OO Hacks without oSnap/safe eligable for prizes?","",""
+"2023-03-20,12:42:03","jdshutt","#0","For folks who were running into issues with the quickstart demo, are you using the latest version (linked here)? https://docs.uma.xyz/developers/quick-start 
+
+We think we're sorted out all the kinks but let us know if you're still having issues! Thanks for your patience; we just rolled out UMA 2.0 contracts, so the docs were in transition when the hackathon started.
+
+Edit: Actually, looks like there is still a revert issue. We're investigating.
+
+Edit x2: It's fixed now! The problem was that the default liveness was set to two hours, when we want it to be set to two minutes for testing purposes.","",""
+"2023-03-21,03:10:12","aniruddha","#0","guys what is the testnet URL for https://oracle.uma.xyz/ oracle","",""
+"2023-03-21,08:07:55","Mhairi","#2271","UMA - Optimistic Oracle","",""
+"2023-03-21,08:10:58","pierre0362","#0","Hey 👋 I am just beginning to hack rn because I was to busy before, I’d love to have a small call with someone from Uma if possible, I already dm ed John on Twitter","",""
+"2023-03-21,09:53:48",".0xvaibhav","#0","Considering the example contract present in the quick start page how can we make multiple request from a single contract and will it always going to show the latest request when we will call `settleRequest` function. I need to make multiple request from a single contract, but how can I differentiate between them??","",""
+"2023-03-21,11:00:34","Mhairi","#2271","Multiple requests from the same contract","",""
+"2023-03-21,11:13:02","Mhairi","#2271","Hacking on UMA?  Come along to our Dev Office Hours over in the UMA server and chat with our growth engineers.  
+
+Today at 18.30UTC in the UMA server
+https://discord.com/events/718590743446290492/1087751620965703791","",""
+"2023-03-23,07:44:59","fabriziogianni7","#0","hey guys,  I would to talk with you about some project. can you reach out?","",""
+"2023-03-23,08:59:39","Mhairi","#2271","mystery project","",""
+"2023-03-23,12:37:24","noro9954","#0","Hello, can i use UMA to get the price of a given token ? If yes, is there a simple entry point or smart contract we can use ?","",""
+"2023-03-23,16:26:27","cyberroninn","#0","how does one get goerli node url and the mneomic ?","",""
+"2023-03-23,18:28:55","Mhairi","#2271","Using UMA to get a token price","",""
+"2023-03-23,18:34:31","Mhairi","#2271","Goerli URL and Mneomics","",""
+"2023-03-24,06:44:38",".0xvaibhav","#0","Hey I need some Goerli eth for testing UMA contract can you send some Goerli Eth on this address 0x5e97BBfb258fBb110231c4f01C693ef6BA9553a6","hartlambur#0",""
+"2023-03-24,07:34:50","aniruddha","#0","<@412678595555885061> <@786323819052269608> Is there any issue with the testnet oracle website ?
+I am not able to connect wallet, while my wallet is already connected 
+I want to propose an input but I am unable to do so","Mhairi#2271、jdshutt#0","https://cdn.discordapp.com/attachments/798845148892889128/1088788009584951486/image.png"
+"2023-03-24,07:34:56","aniruddha","#0","please help*","",""
+"2023-03-24,09:48:13","gringo1984","#0","🙏🏿  ``0x99A1C397a5fc48b3c76c70ca1f52810959a22F2e``","hartlambur#0",""
+"2023-03-24,11:24:28","aniruddha","#0","I am not able to import the contract from github
+how to install the sdk of uma ??","","https://cdn.discordapp.com/attachments/798845148892889128/1088845799737266276/image.png"
+"2023-03-24,11:41:10","Mhairi","#2271","Goerli Eth","",""
+"2023-03-24,13:25:28","aniruddha","#0","<@786323819052269608> <@412678595555885061> please reply guys !!","Mhairi#2271、jdshutt#0",""
+"2023-03-24,14:42:20","shravan.a","#0","0x392021135a39786167d85a4BFDAa791fea7877Db <@786323819052269608>","Mhairi#2271",""
+"2023-03-24,14:42:26","shravan.a","#0","I need funds on goerli","",""
+"2023-03-25,00:02:11","juancamp1987","#0","Hello do anyone have the link to the UMA Faucet please?","",""
+"2023-03-25,06:34:32","Mhairi","#2271","UMA Faucet","",""
+"2023-03-25,13:04:14","chadxeth","#0","Hi UMA, cant really seem to add module on the mainnet. It is greyed out. anyone has any ideas?","",""
+"2023-03-25,13:04:55","chadxeth","#0","By module, i mean OSnap Module following this tutorial: https://www.youtube.com/watch?v=R97GIW5M_r0&t=6s
+at about 2:48","",""
+"2023-03-25,13:05:36","chadxeth","#0","<@412678595555885061>","jdshutt#0",""
+"2023-03-25,13:05:52","chadxeth","#0","<@786323819052269608>","Mhairi#2271",""
+"2023-03-26,05:53:16","lyledavids","#0","Does Across sdk support any testnets?","",""
+"2023-03-26,05:56:00","lyledavids","#0","<@786323819052269608>","Mhairi#2271",""
+"2023-03-26,05:56:09","lyledavids","#0","<@412678595555885061>","jdshutt#0",""
+"2023-03-26,07:12:28","aooa1009","#0","UMA!","",""
+"2023-03-26,07:12:40","aooa1009","#0","What's the contract address for the ETH price feed on Goerli","",""
+"2023-03-26,07:14:01","aooa1009","#0","kinda in a hurry, so lmk pls","",""
+"2023-03-26,07:38:17","distroinfinity","#0","Hi, I wanted to know if there's an API that UMA exposes to fetch eth/usd price on the client side of the dapp","",""
+"2023-03-26,07:38:54","distroinfinity","#0","<@786323819052269608> <@412678595555885061> ??","Mhairi#2271、jdshutt#0",""
+"2023-03-26,11:13:12","_eric","#7111","Hi, does anyone know how does the 'data' being created from the information in the transaction batch in snapshot?","","https://cdn.discordapp.com/attachments/798845148892889128/1089567740295131236/image.png"
+"2023-03-26,11:50:07","lyledavids","#0","Looking for docs on LongShort pairs on UMA? Looks like it's been removed, everything is just about the oracle now
+<@786323819052269608> <@412678595555885061> Please provide a link if it's still somewhere","Mhairi#2271、jdshutt#0",""
+"2023-03-27,03:13:39","Mhairi","#2271","What s the contract address for the ETH","",""
+"2023-03-27,03:16:48","Mhairi","#2271","info in transaction batch in Snapshot","",""
+"2023-03-28,07:49:09","Mhairi","#2271","Docs on LSP","",""
+"2023-03-28,23:48:21","sreethereum","#0","<@786323819052269608> <@412678595555885061> - hope you're well!
+
+Building a decentralized prediction market (for a personal project) and would greatly appreciate help with the economics!","Mhairi#2271、jdshutt#0",""
+"2023-03-29,11:46:58","jdshutt","#0","Mhairi 2271 John Shutt 9370 hope you re","",""
+"2023-04-03,08:42:36","askcasmir","#0","HOW DO WE COLLECT OUT BOUNTY?","",""
+"2023-04-03,08:45:21","emilyhobbs","#0","Jacob from the ETHGlobal will be reaching out later this week regarding prizes and how to claim this","askcasmir#0",""
+"2023-04-09,11:17:26","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1094642235242450944/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,12:06:13","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA & Across Team at any point with your questions!
+
+👀 **ABOUT**
+**UMA** is an optimistic oracle (OO) that can verify any statement proposed on the blockchain. Using economic incentives, the OO tells smart contracts “things about the world” so contracts and markets asking for that data can be settled. 
+
+**Across**, UMA's sister project is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use OO as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA’s OO secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 First Winner - $5,000 in UMA tokens
+🥈 Second winner - $2,000 in UMA tokens
+🏊 Pool Prize - $3,000 in UMA tokens
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🔗 **IMPORTANT LINKS**
+Hacking on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+UMA Docs: https://docs.umaproject.org/
+Across Docs: https://docs.across.to/","",""
+"2023-04-14,03:06:49","claytonroche","#0","Hi hackers 🙂","",""
+"2023-04-14,14:54:56","jdshutt","#0","Hi everyone! I'll be checking in here along with other members of the engineering team to help you with your projects. Be sure to read our docs—we have a few in-depth tutorials that should help you get started—and then post any questions here!","",""
+"2023-04-14,23:56:36","aliabdilah","#0","Hi, is there a possibility to have effect on contract for a proposal of aomething not happening.
+
+Our product wants to stop stream of fund to a person if there's a successful proposal of that person is not doing a job. Is it possible?","",""
+"2023-04-14,23:57:18","aliabdilah","#0","Will LSP help in this case?","",""
+"2023-04-15,00:01:08","aliabdilah","#0","<@412678595555885061>","jdshutt#0",""
+"2023-04-15,00:09:01","0xibuki","#0","Hi, has uma v3 oracle deployed on polygon Mumbai testnet?","",""
+"2023-04-15,00:36:51","aliabdilah","#0","Anogher thing, is your testnet oracle doesnt work? I cant see my question in your app","",""
+"2023-04-15,03:26:48","claytonroche","#0","Our engineers should be awake again sooon 🙂 thank you for your patience","",""
+"2023-04-15,12:03:56","hikikomori_vm","#0","Hey, anyone awake from UMA team?","",""
+"2023-04-15,20:55:02","claytonroche","#0","gm","hikikomori_vm#0",""
+"2023-04-15,21:57:30","zak3939","#0","https://ethglobal.com/showcase/hackathonattestation-5zhge","",""
+"2023-04-15,21:57:51","zak3939","#0","hackathon attestion","",""
+"2023-04-15,22:01:30","zak3939","#0","## hackathon attestation https://ethglobal.com/showcase/hackathonattestation-5zhge","",""
+"2023-04-15,22:05:28","illshin","#0","this is Wave protocol 🌊
+https://ethglobal.com/showcase/waveprotocol-73zzz","",""
+"2023-04-15,22:15:00","hodltony","#0","0xMarket's github link: https://github.com/TeamHeimdallr/ethglobal2023-tokyo-0xMarket","",""
+"2023-04-15,22:15:17","greengaguri","#0","https://ethglobal.com/showcase/0xmarket-u0kea","",""
+"2023-04-15,23:25:11","Meir","#7064","Hi this is for DeFi Guardian for Across: https://github.com/diyahir/ETH-TOKYO-2023-Rate-Limits/tree/main/contracts","",""
+"2023-04-17,06:13:22","0xibuki","#0","Hi UMA team!
+Thank you for your support during the hackathon!
+
+When will you announce pool prize winners?","",""
+"2023-04-19,00:41:17","snubeaver","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1098106020603101214/image.png"
+"2023-04-19,00:41:47","snubeaver","#0","It seems in last hackathon, UMA prize winner also won the pool prize. Will it be same this time?","",""
+"2023-04-19,00:42:46","claytonroche","#0","Remind me which team you're on please 🙂","snubeaver#0",""
+"2023-04-19,00:43:01","snubeaver","#0","Oh I am from team 0xMarket!","",""
+"2023-04-19,00:44:02","claytonroche","#0","To be honest, I'm not sure. When I selected the winners, it only gave me the option to choose one per project, so there wasn't a way for me to add both. ETH Global handles the rewards from this stage on","",""
+"2023-04-19,00:44:51","snubeaver","#0","Oh I got it. Thanks for clarification!","",""
+"2023-04-19,00:57:09","kf9498","#0","Hi!
+Uma team!!
+Thank you for your support during the hackathon!!
+It was great pleasure to meet you IRL.","",""
+"2023-04-19,00:59:04","kf9498","#0","I heard that UMA is Universal market automaker or something like that.
+And I didn't see that at first, 
+but now,I confirmed that Universal market will be rebuild ,not for money, for their utility.
+using many ID (Worldcoin, lens,  etc...),vector (not scalar) just like AokiApp,
+Thank you!","",""
+"2023-04-24,20:22:15","waterreptile19","#0","<@386752977177673728> This is Sushmit from Blitzsquad. I sent you a DM if you could please check","claytonroche#0",""
+"2023-05-08,12:21:41","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1105167654009962547/Viewable_on_TV.png"
+"2023-05-08,12:22:28","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+👀 **ABOUT**
+**UMA** is an optimistic oracle (OO) that can verify any statement proposed on the blockchain. Using economic incentives, the OO tells smart contracts “things about the world” so contracts and markets asking for that data can be settled. 
+
+**Across**, UMA's sister project is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use OO as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA’s OO secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+*   🥇 First Winner - $5,000 in UMA tokens
+*   🥈 Second winner - $2,000 in UMA tokens
+*   🏊 Pool Prize - $3,000 in UMA tokens
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🔗 **IMPORTANT LINKS**
+Hacking on UMA: https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+UMA Docs: https://docs.umaproject.org/
+Across Docs: https://docs.across.to/","",""
+"2023-05-14,12:14:17","kenilshah","#0","Wasn't there a Pool Prize for UMA at ETHLisbon?","",""
+"2023-06-08,11:37:59","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1116390678046449754/Waterloo_2.png"
+"2023-06-19,00:37:18","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+👀 **ABOUT**
+**UMA** is an optimistic oracle (OO) that can verify any statement proposed on the blockchain. Using economic incentives, the OO tells smart contracts “things about the world” so contracts and markets asking for that data can be settled. 
+
+**Across**, UMA's sister project is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use OO as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA’s OO secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 First Place: $5,000 in UMA TOKENS
+🥈 Second Place: $2,000 in UMA TOKENS
+🏊 Pool Prize: $3,000 in UMA TOKENS
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🚀 **WORKSHOP**
+Decentralize Your DAO with oSnap
+Time: 06:30 PM EDT – Jun 23, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://www.notion.so/umaproject/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa](https://umaproject.notion.site/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+https://docs.umaproject.org/
+https://docs.across.to/","",""
+"2023-06-23,11:57:45","_caaa","#0","novice question: what is likely to happen for claims that are hard to verify on UMA? For example, my claim is ""I worked out today for 30mins"". Will it be likely be challenged?","",""
+"2023-06-23,19:58:43","hartlambur","#0","yes that's correct. UMA can only answer questions that can be verified with public data, like ""who won an election"" or ""this computation using publicly available data is correct"". Since UMA voters can't verify if you actually worked out, your question would get disputed / not really work for this system.","_caaa#0",""
+"2023-06-24,14:33:57","jdshutt","#0","For anyone who needs it, this is the ""Networks"" page with all of our contract addresses on various chains: https://docs.uma.xyz/resources/network-addresses","",""
+"2023-06-24,23:06:21","stphnim","#0","is anyone at UMA available for a private question about our teams project? maximum 3 minutes!","",""
+"2023-06-25,00:17:04","hartlambur","#0","Yes","stphnim#0",""
+"2023-06-25,00:17:23","hartlambur","#0","We are at the table now and walking the floor.","",""
+"2023-06-25,00:41:36","hartlambur","#0","Guys we’re here now but heading home soon if you want to swing by","stphnim#0",""
+"2023-06-25,00:50:05","stphnim","#0","Did you guys head out?","hartlambur#0",""
+"2023-06-25,09:31:36","jdshutt","#0","We did, sorry!","stphnim#0",""
+"2023-06-25,09:31:53","jdshutt","#0","To all the UMA hackers: We'll be at our booth starting judging at 10am.","",""
+"2023-06-25,13:50:26","vernon323","#0","Hey guys, just wondering when will the prize winners be announced?","",""
+"2023-06-25,14:09:52","jdshutt","#0","I think ETH Global announces finalists at the beginning of the closing ceremony and sponsor prizes either partway through or at the end.","",""
+"2023-07-10,14:52:02","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1128035926128480296/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,11:03:39","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+👀 **ABOUT**
+**UMA** is an optimistic oracle that can verify any natural language statement as true on the blockchain, so contracts asking for that data can be settled. 
+
+**Across** is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use UMA as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 First prize: **$5,000** in $UMA
+🥈 Second prize: **$2,000** in $UMA
+🏊 Pool Prize: **$3,000** distributed between all qualifying submissions
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://umaproject.notion.site/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa
+https://docs.umaproject.org/
+https://docs.across.to/","",""
+"2023-07-21,12:50:19","stonkbronker","#0","GM GM","",""
+"2023-07-21,12:50:24","stonkbronker","#0","Welcome frens","",""
+"2023-07-21,17:48:22","0xmantastic","#0","You-know-who: I'm looking for the Waterloo project we just talked about, sorry cannot find your handle.","",""
+"2023-07-21,17:48:32","0xmantastic","#0","https://tenor.com/view/space-great-office-space-do-that-cubicle-gif-5513243","",""
+"2023-07-22,06:05:03","arjanjohan","#0","gm! we are building a game where we use uma to verifiy the winner. we have 2 questions.
+1. the bond that is posted, is returned when the claim settles to true and is lost when the claim is false. is this correct?
+2. apecoin is not in the list of approved collatoral types. Can we still use this on testnet (goerli)? We would like to apply for their bounty as well","",""
+"2023-07-22,07:23:40","stonkbronker","#0","Heya <@329218663922008066>! 
+
+1. Yes. 100% correct.
+
+2. No — but if you send us the contract address in goerli we can whitelist it for you.","arjanjohan#0",""
+"2023-07-22,07:32:35","stonkbronker","#0","ETHGlobal Waterloo","",""
+"2023-07-22,07:35:45","arjanjohan","#0","cool thanks!","",""
+"2023-07-22,07:35:46","arjanjohan","#0","0x328507DC29C95c170B56a1b3A758eB7a9E73455c","",""
+"2023-07-22,07:35:54","arjanjohan","#0","This is the contract address for apecoin on goerli","",""
+"2023-07-22,07:40:16","alexuma","#0","I added it, let me know if you have any issues!","",""
+"2023-07-22,07:40:19","0xmantastic","#0","Ok thanks","stonkbronker#0",""
+"2023-07-22,08:29:11","arjanjohan","#0","thanks! 🙏","",""
+"2023-07-22,15:01:03","arjanjohan","#0","im still having issues, till what time are u at the venue?","",""
+"2023-07-22,15:16:53","lucaorb","#0","I have problems deploying a contract depending on the UMA OptimisticOracleV3 contract on goerli testnet. I have no problems deploying the same contract on a mainnet fork.
+
+To deploy on goerli, I am using this as defaultCurrency: 0x07865c6E87B9F70255377e024ace6630C1Eaa37F
+and this as the OptimisticOracleV3 contract:
+0x9923D42eF695B5dd9911D05Ac944d4cAca3c4EAB
+
+however the contract does not deploy and fails during construction.
+Do I somehow have the wrong contract addresses?","",""
+"2023-07-22,15:59:31","hartlambur","#0","What error are you seeing?","arjanjohan#0",""
+"2023-07-22,16:01:12","hartlambur","#0","Can you share your error in more detail?","lucaorb#0",""
+"2023-07-22,16:01:39","lucaorb","#0","fixed it already, i was being dumb, thank you👍","",""
+"2023-07-22,16:05:37","arjanjohan","#0","When I want to do the assertTruth with metamask I see ""We were not able to estimate gas. There might be an error in the contract and this transaction may fail.""","",""
+"2023-07-22,16:07:32","arjanjohan","#0","https://goerli.etherscan.io/address/0x8e15972e023235A7c755CCB172cF0660402D9858#writeContract
+
+I have approved the uma contract to spend the currency token, but still doesnt work. Maybe you can have a look?","",""
+"2023-07-22,16:07:50","arjanjohan","#0","We are calling assertTruth with some default values from our smart contract","",""
+"2023-07-22,16:21:49","arjanjohan","#0","I'm trying to test the function directly in the UMA OracleV3 contract. I assume the claim value is wrong, could you point me in the right direction and maybe have a look if the other values are correctly set? <@496447655032127499>","hartlambur#0","https://cdn.discordapp.com/attachments/798845148892889128/1132407174258249822/image.png"
+"2023-07-22,16:27:51","hartlambur","#0","Can you input the identifier as bytes32? That would cause an error. Also, can you also convert the claim and domainID to bytes.","arjanjohan#0",""
+"2023-07-22,16:29:46","arjanjohan","#0","Is there a specific format required for the claim? Or just convert ""test"" to bytes?","",""
+"2023-07-22,17:04:52","hartlambur","#0","Yes, if you are just testing you can convert test to bytes","arjanjohan#0",""
+"2023-07-22,17:11:48","arjanjohan","#0","okay ty!","",""
+"2023-07-22,17:22:07","arjanjohan","#0","it seems to now be an issue with the bond value. if i put it at 0, there is no issue. but higher and it fails","",""
+"2023-07-22,18:29:43","alexuma","#0","How much apecoin do you have in your wallet? I am at the booth if you want to come over","arjanjohan#0",""
+"2023-07-23,03:30:38","arjanjohan","#0","a lot, we could mint unlimited apecoins. in the end we opted to put the bond at 0 so we could continue to build and test. it works but still curious to learn why we got this error.","alexuma#0",""
+"2023-07-23,04:02:39","alexuma","#0","Did you do an approve transaction and check the allowance for the address making the assertion?","arjanjohan#0",""
+"2023-07-23,08:04:55","arjanjohan","#0","i just see your msg now. i’ll double check it out tomorrow but i did do the approvals because they were needed to join the quest via out contract already","",""
+"2023-09-13,13:32:09","awliang","#0","","","https://cdn.discordapp.com/attachments/798845148892889128/1151571033229377648/image.png"
+"2023-09-17,13:01:25","awliang","#0","Hello and welcome to the <#798845148892889128> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the UMA Team at any point with your questions!
+
+👀 **ABOUT**
+[**UMA**](http://umaproject.org/) is an optimistic oracle that can verify any natural language statement as true on the blockchain, so contracts asking for that data can be settled. 
+
+[**Across**](http://across.to/)**,** is a cross-chain bridge that supports cheap, secure, and near-instantaneous transfers between L2s and to L1. Across transfers are secured by UMA’s optimistic oracle. 
+
+Builders can use UMA as a decentralized truth machine that is flexible enough to handle ambiguity and real-world data with human-powered dispute resolution. UMA secures and empowers a diverse set of Web3 applications, including cross-chain bridges, insurance protocols, prediction markets and customizable DAO tooling products.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Prizes will be awarded to the best projects built on top of UMA's optimistic oracle, or the Across bridge.
+*   🥇 First prize: **$5,000** in $UMA
+*   🥈 Second prize: **$2,000** in $UMA
+*   🏊 Pool Prize: **$3,000** in $UMA distributed between all qualifying submissions
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+Use oSnap for community treasury payments — Multisigs as a last resort
+Time: 03:40 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+*   [Guide to hacking on UMA](https://umaproject.notion.site/Hacking-on-UMA-7f70c694baed4e83b384bd67b422c3aa) 
+*   [UMA documentation](https://docs.umaproject.org/)
+*   [Across documentation](https://docs.across.to/)","",""

@@ -1,0 +1,716 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-09-12,17:50:40","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1019002130037739682/unknown.png"
+"2022-10-03,09:11:30","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+
+👀 **ABOUT** 
+
+Extend the functionality of **MetaMask**. The most popular wallet is now an extensible platform for permissionless innovation. Bring your features and APIs to MetaMask with Snaps.
+
+A snap is a program run in an isolated environment that customizes and extends the wallet experience. We are looking for new and interesting use cases to modify MetaMask using Snaps.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st Prize - $3,500
+🥈 2nd Prize - $2,500
+🥉 3rd Prize - $1,500
+✨ Runner up x5 - $500 each
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+
+**MetaMask 🛠 Transaction Insights**
+**Time:** 10:30 PM – Oct 07, 2022
+**Location: **Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.metamask.io/guide/snaps.html?utm_source=ethbogota&utm_medium=event&utm_campaign=2022_Sep_ethbogota-hackathon-page_awareness_event
+https://docs.metamask.io/guide/snaps.html?utm_source=ethbogota&utm_medium=event&utm_campaign=2022_Sep_ethbogota-hackathon-page_awareness_event%20#getting-started
+https://github.com/MetaMask/template-snap-monorepo
+https://github.com/MetaMask/snaps-skunkworks/discussions/474","",""
+"2022-10-03,17:48:11","andreolf","#0","Welcome guys to the MM channel for the hackathon!","",""
+"2022-10-03,17:53:05","andreolf","#0","Also check out those snaps wishlist, useful to get inspiration: https://github.com/MetaMask/snaps-skunkworks/discussions/474","",""
+"2022-10-03,19:32:08","icree8","#0","The 5 minute tutorial source code from github, is different from the video explanation.  Where do we find an upated video with source code to follow? Thanks","",""
+"2022-10-03,20:34:37","andreolf","#0","Hey guys, bunch of people are asking. you can target 1 of the challenges, not all three (transactions insights, notifications and custom confirmation screen). This is important","",""
+"2022-10-03,20:38:57","andreolf","#0","mmm checking","icree8#0",""
+"2022-10-03,23:23:19","icree8","#0","On the github repo -> under src/index.js 
+Line 1: module.exports.onRpcRequest = async ({ origin, request }) => {
+
+
+on the tutorial the line is shown as:
+wallet.registerRpcMessageHandler(async (originString, requestObject) => {","",""
+"2022-10-03,23:24:32","icree8","#0","<@327450725053497344>","andreolf#0",""
+"2022-10-03,23:43:22","icree8","#0","","andreolf#0","https://cdn.discordapp.com/attachments/1018999236144156722/1026701038771769454/unknown.png"
+"2022-10-03,23:44:14","icree8","#0","The connect button works, once you click SEND HELLO -> that messsage appears.
+
+I don't know if it has to do with the code I mentioned above","",""
+"2022-10-04,08:32:07","andreolf","#0","The video is based on older api version. Nowadays we use module.exports","icree8#0",""
+"2022-10-04,08:34:59","andreolf","#0","<@349611142697451520> here also from the snaps team!","m0nt0y4#0",""
+"2022-10-04,08:35:44","m0nt0y4","#0","Hi, it took a while for me to access this channel but I'm finally here","",""
+"2022-10-04,08:36:25","m0nt0y4","#0","<@885198099876814938> please follow the tutorial on our docs and use the template-snap-monorepo repository: https://docs.metamask.io/guide/snaps.html#getting-started","icree8#0",""
+"2022-10-04,08:36:31","m0nt0y4","#0","Also make sure you are on the latest version of Flask","",""
+"2022-10-04,08:36:51","m0nt0y4","#0","The screenshot you posted is from an old template that doesn't work anymore. Sorry about the confusion.","",""
+"2022-10-05,17:50:34","inigozart","#0","hey team! thanks for putting up these guys","",""
+"2022-10-05,17:51:00","inigozart","#0","Been doing research into how we can implement Metamask snaps into our project on Eth Bogotá","",""
+"2022-10-06,11:12:42","andreolf","#0","nice, you have already some use case ideas?","inigozart#0",""
+"2022-10-06,19:06:22","andreolf","#0","Check this out guys, we just did with <@349611142697451520> , let us know if is useful to learn snaps fast! https://ethglobal.com/guides/introduction-to-metamask-snaps-54ej1","m0nt0y4#0",""
+"2022-10-07,09:44:21","andreolf","#0","Who is already at the venue today?","",""
+"2022-10-07,09:44:33","andreolf","#0","<@885198099876814938> ?","icree8#0",""
+"2022-10-07,09:44:49","andreolf","#0","<@472426060441714688> ?","inigozart#0",""
+"2022-10-07,09:55:06","emilyhobbs","#0","hey!
+
+sponsors are coming in around 10am 🙂","andreolf#0",""
+"2022-10-07,10:27:15","colombo3306","#0","Hey! My name is Andres and Im looking fo a team to build on snaps. I come from the music NFT and intellectual property ecosystem. Just published a research paper via the Water and Music research DAO about onchain splits and their applications for music and creators. We identified the need for a tool that allows for multiplayer admin of IP registry (non transferable) tokens and admin of digital assets and would like to build on Meta Mask snaps exploring pop-up and notification functionality for this sprint. Dms open if you'd like to learn more. First hackathon 🙂","",""
+"2022-10-07,15:16:52","andreolf","#0","Hey hey nice! We are on our way to the hackathon, are you already there?","",""
+"2022-10-07,16:41:41","ritave","#0","Hey, I'm an engineer from Snaps, if you have any technical questions @ me and I'll respond as quickly as I can!","",""
+"2022-10-07,17:03:18","alexb0x","#0","Easily explore Snaps with our gettign started guide ➡️ https://github.com/MetaMask/snaps-skunkworks/discussions/821","",""
+"2022-10-07,17:44:56","ritave","#0","@here ^ We have some special features just for Bogota, use that guide to get them","",""
+"2022-10-07,17:52:28","andreolf","#0","This is nice","alexb0x#0",""
+"2022-10-07,18:18:46","andreolf","#0","<@570689259535728660> https://github.com/MetaMask/snaps-skunkworks/discussions/675","0xbenzy#0",""
+"2022-10-07,18:18:51","andreolf","#0","Re the guide","",""
+"2022-10-07,19:08:22","lancenonce","#0","Gn!","",""
+"2022-10-07,19:08:34","duckception","#0","Hi!","lancenonce#0",""
+"2022-10-07,19:09:45","andreolf","#0","<@240486346848731136> <@770342544797204500> hacking in snaps! Good luck and come to the workshop later","duckception#0、lancenonce#0","https://cdn.discordapp.com/attachments/1018999236144156722/1028081728906080327/camphoto_1804928587.jpg"
+"2022-10-07,19:18:12","ritave","#0","gn <@770342544797204500> and <@240486346848731136> !","duckception#0、lancenonce#0",""
+"2022-10-07,19:39:05","hidetaka","#3633","<@327450725053497344> 
+What is the advantage for notification by using  Metamask Snap compared to Push for mobile app?","andreolf#0",""
+"2022-10-07,19:54:07","poppunkonchain","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1028092893916823552/IMG_8844.jpg"
+"2022-10-07,19:59:43","andreolf","#0","This video is a notification snap and it is self explanatory why https://m.youtube.com/watch?v=XN0lGZVFllI&feature=emb_title let me know if you have more questions","hidetaka#3633",""
+"2022-10-07,20:00:28","andreolf","#0","<@449232806531301376> here is the guide https://github.com/MetaMask/snaps-skunkworks/discussions/675","0bijuan#0",""
+"2022-10-07,20:07:41","andreolf","#0","Here is the repo https://devpost.com/software/vikings-2rp1lc <@292040190896373760>","jhb3#0",""
+"2022-10-07,20:16:33","hidetaka","#3633","I watched this youtube but I can't watch about the advantage for notification by using  Metamask Snap compared to Push Protocol for mobile app?","andreolf#0",""
+"2022-10-07,20:25:25","andreolf","#0","You could integrate push notifications inside MM at this point","hidetaka#3633",""
+"2022-10-07,20:53:19","samschmitt","#0","Hi","",""
+"2022-10-07,20:53:32","andreolf","#0","Check out this video re notification <@219517162728062978>","samschmitt#0",""
+"2022-10-07,20:56:18","andreolf","#0","check also this one https://github.com/ritave/snap-passwordManager","samschmitt#0",""
+"2022-10-07,22:31:35","ritave","#0","<@286578500314464258> 
+How to encrypt / decrypt data inside of a snap
+https://github.com/MetaMask/snaps-skunkworks/blob/main/packages/examples/examples/bls-signer/src/index.js#51
+
+https://github.com/MetaMask/browser-passworder","gonzaotc.eth#0",""
+"2022-10-07,22:39:40","ritave","#0","@here We've released 0.22.1 that fixes `@metamask/multichain-provider`, if you were using that package, please upgrade to the newest version","",""
+"2022-10-07,22:55:47","doncord","#0","hi frens, i’m a product designer at metamask excited to see what’s being built and to help out.
+ 
+anyone @here need input on a snap they’re working on—let me know and i’ll swing by 👌","",""
+"2022-10-07,23:05:43","andreolf","#0","Hi all, snaps workshop in 25 min!","",""
+"2022-10-07,23:28:40","andreolf","#0","Workshop on MetaMask happening now with Hassan. Building a snap from scratch!","",""
+"2022-10-07,23:45:28","doncord","#0","Getting Started for Bogota
+https://github.com/MetaMask/snaps-skunkworks/discussions/821","",""
+"2022-10-07,23:55:55","doncord","#0","SIP-3: https://github.com/MetaMask/SIPs/blob/main/SIPS/sip-3.md
+CAIP-2: https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md
+Typescript-template-snap: https://github.com/MetaMask/template-typescript-snap","",""
+"2022-10-08,00:47:41","ritave","#0","Last call for any questions before MetaMask teams goes to get some sleep","",""
+"2022-10-08,01:14:29","jarku.","#0","Hi! I want to make web3 calls in my Snap (like `decimals` on an ERC20). Currently we are using Rainbow Kit wrapped with WAGMI to connect to MetaMask--is there a way to import/access the Snap API from there?","",""
+"2022-10-08,09:36:31","andreolf","#0","Checking","jarku.#0",""
+"2022-10-08,11:09:09","alexb0x","#0","GM! If your team is looking for funding, a quick break, and a change of location, this GitCoin chat at our hacker house could be the answer.  Feel free to stay as long as you need to code, chat with mentors, and eat. https://lu.ma/sozuhaus-gitcoin","",""
+"2022-10-08,11:35:13","ritave","#0","<@443901349516673035> the `wallet` is a normal web3 provider, same as `window.ethereum`, you can use it with any library that supports providers. Example would be `ethers.js`","jarku.#0",""
+"2022-10-08,12:57:39","authenticexit","#0","Hey metamask, I'm building a chrome extension & i'd like to access the window.ethereum object provided from the user's metamask extension from my chrome extension (e.g. in content.js) 
+
+i.e. i'd like to call a users metamask chrome extension to approve a tx from my chrome extension
+
+any tips on the simplest way to do so?","",""
+"2022-10-08,13:27:55","ritave","#0","<@519309306089308163> You can create a provider specifically designed to work with other extensions 
+
+https://github.com/MetaMask/providers/blob/main/src/extension-provider/createExternalExtensionProvider.ts","authenticexit#0",""
+"2022-10-08,14:43:27","ritave","#0","We're at the MetaMask booth if you want to talk technical face to face","",""
+"2022-10-08,14:44:12","ismailemin","#0","Coming to ask a few questions","",""
+"2022-10-08,14:47:54","andreolf","#0","<@834586505548267601> mira eso https://github.com/MetaMask/snaps-skunkworks/discussions/474","boris.polania#0",""
+"2022-10-08,14:49:52","andreolf","#0","check this out too <@834586505548267601>","boris.polania#0、doncord#0",""
+"2022-10-08,15:08:21","andreolf","#0","<@747212603717189655> the monorepo is here: https://github.com/MetaMask/snaps-skunkworks/discussions/675","thealexyao#0",""
+"2022-10-08,16:24:23","ritave","#0","<@314849650509348864> 
+https://github.com/trailofbits/manticore
+https://github.com/ConsenSys/mythril",".m.f#0",""
+"2022-10-08,18:38:14","ritave","#0","<@897599249687121970> 
+1. Request `endowment:network-access`
+2. Use fetch as normal inside snap (not cross-fetch)
+3. Read about fetch and CORS headers problem","quantum.a#0",""
+"2022-10-08,19:37:06","quantum.a","#0","quantum2839","",""
+"2022-10-08,20:45:15","0xbenzy","#0","Hey guys, just a quick question regarding the snaps. I am trying to implement the request and one of the requirements is a snapId, does this need to be a globally unique ID? And this ID is the name of the npm package that needs to be deployed for the snap? Only managed to find this in terms of docs
+
+https://docs.metamask.io/guide/snaps-development-guide.html#developing-a-snap","",""
+"2022-10-08,20:49:23","0xbenzy","#0","And I also saw that the `wallet_invokeSnap` call is only invokable by websites? Is there a way to invoke this on-chain?","",""
+"2022-10-08,20:50:04","0xbenzy","#0","Found the answer, `local:` for local testing and `npm:` prefixed string for public. 👍","",""
+"2022-10-08,21:10:26","andreolf","#0","Yes","0xbenzy#0",""
+"2022-10-08,23:45:15","likerod","#0","Do you guys have Small shirts left by any chance? :( I picked mine too big","",""
+"2022-10-09,10:23:22","andreolf","#0","Yeah try to check out the booth","likerod#0",""
+"2022-10-09,10:35:34","andreolf","#0","For everybody that is submitting a **MM Snaps**, we are at the booth and we would love to hear about your Build too! We are here for the next 2h at least","",""
+"2022-10-09,10:38:28","madjarevicn","#0","Coming soon <@327450725053497344> ! 🙂","andreolf#0",""
+"2022-10-09,10:49:30","andreolf","#0","great!","madjarevicn#0",""
+"2022-10-09,11:19:46","andreolf","#0","@here we still miss some submissions presentation. If you submit your Snaps Build please come at the MetaMask booth for the presentation!","",""
+"2022-10-09,14:13:35","andreolf","#0","ZK-Nullifier Snap please come to present to the MetaMask booth if you still didn't present-","",""
+"2022-10-09,14:27:48","piotr0874","#0","I'm running, ETA 10 min","andreolf#0",""
+"2022-10-09,14:36:17","andreolf","#0","ok thanks","piotr0874#0",""
+"2022-10-10,13:10:24","andreolf","#0","To everybody that participated in the MM Snaps bounty! You guys were Awesome! Let's stay in touch and if you are in ETHLisbon feel free to connect! If you also plan to build Snap related content or new demos and have questions: this is the ConsenSys Discord Snaps channel: https://discord.gg/J53a556aY2","",""
+"2023-02-09,06:27:54","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1073203586105888788/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-04,11:27:14","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+👀 **ABOUT**
+A crypto wallet & gateway to blockchain apps.
+
+**MetaMask** is the leading self-custodial wallet. The safe and simple way to access blockchain applications and web3. Trusted by millions of users worldwide.
+
+
+🏆 **PRIZE OVERVIEW**
+
+1️⃣ **Build on MetaMask SDK**
+We have $3k max for up to 2 winners ($1.5 each or $3k for one team).
+
+2️⃣ **Best Snap Use-case**
+We have $3k max for up to 2 winners ($1.5 each or $3k for one team).
+
+3️⃣ **Unity & MetaMask ❤️ Builders**
+We have $1500 for one winner.
+
+4️⃣ **Build a dapp on Linea**
+We have $7500 max for up to 5 winners
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🚀 **WORKSHOP**
+Build with zkEVM: An L2 crash course
+Time: 6:30 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+Metamask SDK Documentation: <https://c0f4f41c-2f55-4863-921b-sdk-docs.github.io/guide/metamask-sdk-intro.html>
+Metamask SDK Dev Guide: <https://dev.to/metamask/metamask-sdk-dev-guide-4f6m>
+MetaMask Snaps Documentation: <https://docs.metamask.io/guide/snaps.html#extend-the-functionality-of-metamask>
+MetaMask Snaps Dev Guide: <https://dev.to/metamask/metamask-snaps-dev-guide-3dm3>
+Unity SDK Docs: <https://c0f4f41c-2f55-4863-921b-sdk-docs.github.io/guide/metamask-sdk-unity.html>
+Unity SDK video: <https://www.youtube.com/watch?v=fSt3eMTI7Zc>","",""
+"2023-04-12,22:23:40","labsterx","#5485","Questions for the MetaMask team: I was trying to use the MetaMask SDK with VueJS and found it quite difficult to get started. I found a number of error messages from metamask-sdk.js when used with Vue.js.
+
+Could you please help taking a look at this code: https://github.com/labsterx/veutify-metamask-sdk-test
+
+You can see the error messages after running it using ""npm run dev"". The code for using MetaMask SDK is in src/main.js.
+
+I'd appreciate your help! Thanks!","",""
+"2023-04-14,08:36:30","Kurose","#5055","I got the same error as the following issue, when I tried MetaMask Snap.
+How to fix this?
+https://github.com/MetaMask/snaps-monorepo/issues/1345","",""
+"2023-04-14,10:17:28","Kurose","#5055","I have trouble using 'wallet_switchEthereumChain' on MetaMask Flask. Does anyone know how to solve this?
+I think this is the same problem with these issues. 
+https://github.com/MetaMask/metamask-extension/issues/18453
+https://github.com/MetaMask/metamask-extension/issues/18509","",""
+"2023-04-14,10:25:08","Kurose","#5055","Now 'wallet_switchEthereumChain' works. Probably because I followed the instructions in the link below.
+https://github.com/MetaMask/metamask-extension/issues/18453#issuecomment-1500799968","",""
+"2023-04-14,13:52:04","gregskril","#0","hey I'm having trouble following this guide in the docs https://docs.metamask.io/snaps/get-started/quickstart
+
+I installed Flask for FireFox, the Snaps CLI, created a repo from the github template, then on `yarn start` and attempt to connect wallet, I get this error: `An error happened: Failed to fetch Snap ""local:http://localhost:8080"": Invalid Snap manifest: manifest shasum does not match computed shasum..`","",""
+"2023-04-14,13:56:54","gregskril","#0","update: reverting the most recent commit fixed it","",""
+"2023-04-14,23:29:19","andreolf","#0","did you solve it?","gregskril#0",""
+"2023-04-14,23:59:19","gregskril","#0","No, can I dm?","andreolf#0",""
+"2023-04-15,04:11:20","justdoek","#0","<@327450725053497344> 
+I wanna transfer ETH through cmd but having issue. Could I get explanation of this?
+What is difference between ETH and LineaETH?
+LineaETH is from hop exchange just like tech docs.
+https://explorer.goerli.linea.build/address/0x5eC945dE12315FdB212d0518148e730A4E99176d/internal-transactions","andreolf#0","https://cdn.discordapp.com/attachments/1018999236144156722/1096709330457333770/image.png"
+"2023-04-15,06:44:32","swiiny12","#0","Hey 😃 I'm having this error while connection on Desktop and scanning QR code from metamask iOS app - Error: StreamMiddleware - Unknown response id ""3379203126"". Do someone knows what is happening?","",""
+"2023-04-15,06:58:07","_emjlin","#0","0x5eC945dE12315FdB212d0518148e730A4E9917...","",""
+"2023-04-15,07:05:04","mer9673","#0","would love to receive some linea goerli eth <:nfteth:822186186016948314> 🙏 
+0x34827f4719e8BA3489Aa3f8FA14D9247Fa3b104d","",""
+"2023-04-15,07:50:27","_emjlin","#0","would love to receive some linea goerli","",""
+"2023-04-15,10:59:38","richa","#0775","How do we deploy to linea?","",""
+"2023-04-15,11:23:28","_emjlin","#0","How to deploy on Linea","",""
+"2023-04-15,12:54:40","zh3036","#0","i know it is very late now, but if anyone is still up , can i be sent some linear eth? 0xF9E30ad2236105B93f72f0342CD11da569fB3a03","",""
+"2023-04-15,18:03:11","bchief","#0","Hey i need linea testnet funds please provide urgently 0x0062623038c3A46765b359Cc6621C4b8BD7fca5c","",""
+"2023-04-15,19:02:37","_emjlin","#0","i know it is very late now but if anyone","",""
+"2023-04-15,19:03:30","_emjlin","#0","Hey i need linea testnet funds please","",""
+"2023-04-15,23:27:25","swiiny12","#0","This error occurs while connecting using MetaMaskSDK on brave browser, then if I retry to connect it show ""Channel is already open"" error","","https://cdn.discordapp.com/attachments/1018999236144156722/1097000269868453889/image.png"
+"2023-04-16,00:36:08","andreolf","#0","AbSwapX can you come to the MetaMask booth","",""
+"2023-04-16,20:52:07","landshark6969","#0","We built fully on-chain SVG Pokémon Battler Game with Metamask SDK Integration! <a:pokeball:728894310233145384> 
+
+Live Game - https://ethmonsters.io/
+ETHGlobal Project - https://ethglobal.com/showcase/ethmonsters-hze33","",""
+"2023-04-16,23:19:12","andreolf","#0","Congratz to all the winners and who participated to our bounties!  It was great!","",""
+"2023-04-17,22:22:10","landshark6969","#0","Where can we see winners?","andreolf#0",""
+"2023-04-19,01:10:33","andreolf","#0","```
+1️⃣ Metamask — Best SDK Usage — Cryptalk — $1000.00
+1️⃣ Metamask — Best SDK Usage — Mimiku — $1000.00
+1️⃣ Metamask — Best SDK Usage — Asguard — $1000.00
+1️⃣ Metamask — Best SDK Usage — Github verified Lens — $1000.00
+
+2️⃣ Metamask — Best Snap — De_Terminal — $1500.00
+2️⃣ Metamask — Best Snap — ENS Expiry Notice from MetaMask — $1500.00
+
+3️⃣ Metamask — Best Unity Hack — MARM(Music Assets and Rights Management) — $500.00
+
+4️⃣ Linea — Best Use — Penguin Network — $1500.00
+4️⃣ Linea — Best Use — Accio.NFT — $1500.00
+4️⃣ Linea — Best Use — dApp/Contract Verifier — $1500.00
+4️⃣ Linea — Best Use — Catch — $1500.00
+4️⃣ Linea — Best Use — DeFuture — $1500.00
+```","landshark6969#0",""
+"2023-05-08,12:36:22","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1105171347719602196/Viewable_on_TV.png"
+"2023-05-08,12:39:41","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+👀 **ABOUT**
+**MetaMask** is the leading self-custodial wallet. The safe and simple way to access blockchain applications and web3. Trusted by millions of users worldwide.
+
+**Linea** is a type 2 zero knowledge Ethereum Virtual Machine (zkEVM). A zkEVM replicates the Ethereum environment as a rollup and allows developers to build on it as they would on Ethereum mainnet. Linea allows you to deploy any smart contract, use any tool, and develop as if you're building on Ethereum. For users, this enables the experience and security guarantees of Ethereum, but with lower transaction costs.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**1. Build a dapp on Linea**
+*We have $5000 max for up to 5 winners*
+
+**2. Unity & MetaMask ❤️ Builders**
+*We have $1000 for one winner.*
+
+**3. Build on MetaMask SDK**
+We have $2k max for up to 2 winners ($1k each or $2k for one team).
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🚀 **WORKSHOP**
+Build with Linea: An L2 crash course
+Time: 06:30 PM WEST – May 12, 2023
+Location: 2nd Floor | Workshop Room 2
+
+https://youtu.be/xm_vqVXUYhI
+
+
+🔗 **IMPORTANT LINKS**
+**Build a dapp on Linea**
+https://docs.linea.build/overview
+https://community.linea.build/
+https://support.linea.build/hc/en-us
+
+**MetaMask Snaps**
+https://docs.metamask.io/snaps/
+https://dev.to/metamask/metamask-snaps-dev-guide-3dm3
+
+**Unity & MetaMask ❤️ Builders**
+https://assetstore.unity.com/preview/249789/793929
+https://docs.metamask.io/wallet/how-to/use-sdk/gaming/unity
+https://www.youtube.com/watch?v=fSt3eMTI7Zc
+
+**Build on MetaMask SDK**
+https://docs.metamask.io/wallet/how-to/use-sdk
+https://dev.to/metamask/metamask-sdk-dev-guide-4f6m","",""
+"2023-05-11,11:21:29","alexqnder","#0752","Hello!","",""
+"2023-05-11,11:22:32","alexqnder","#0752","Is Linea having rpc issues? I saw that hop.exchange said that bridging to Linea may not work and I am getting an error when getting data from the chain","",""
+"2023-05-11,12:04:49","sventime","#0","Hi! We've been working on our web3 game for a while, but for now we built only client part without web3 integration. We are keen to utilize Metamask Unity SDK and compete for the prize. Will we be eligible to compete for the prize, if we already have some developments (not web3 part), or the game should be developed from the scratch during hacking event? Thank you!","awliang#0",""
+"2023-05-12,11:30:09","_emjlin","#0","We were last week cause we saw insane volume! It should be fine now
+
+If you need linea eth please DM me!","alexqnder#0752",""
+"2023-05-12,14:28:03","_emjlin","#0","hihi! if anyone here needs linea eth please DM me on telegram!
+@pokemilymon","",""
+"2023-05-13,09:02:24","doncord","#0","Hey all 🦊 
+
+We're introducing a work-in-progress ✨**Snaps Simulator**✨
+
+Our main goal is to reduce the friction for devs trying to build snaps, so we've decoupled snaps execution from MetaMask and run the production snaps environment directly in the browser.
+
+This means:
+— **Hot-reloading snaps with no install screens**
+— Easy-access to sending requests to all types of snaps handlers (no building a dapp required)
+— Simulation of the MetaMask background and connection to the underlying node
+— Simulation of Snaps Custom UI dialogs and transaction insights directly in the browser
+
+We hope this will help anyone building a snap during the hackathon — any feedback is much appreciated!
+
+https://metamask.github.io/snaps-simulator/staging","",""
+"2023-05-13,17:23:01","nichitagutu","#0","Hey, is there any SDK mentor somewhere around hacker space? Need some help with it in React 🤕","",""
+"2023-05-13,18:08:31","gedithejedi","#0","<@1079036756353105968> me too, maybe we can find something together?","nichitagutu#0",""
+"2023-05-13,18:09:06","nichitagutu","#0","What type of problem so you have and where are you? I'm on the 2 floor on the right","gedithejedi#0",""
+"2023-05-13,18:10:22","gedithejedi","#0","I'm on the right in the balcony","",""
+"2023-05-13,18:11:57","nichitagutu","#0","Where? I'm walking with laptop in my hands","gedithejedi#0",""
+"2023-05-13,18:14:13","gedithejedi","#0","im just at the balcony doore","",""
+"2023-05-13,18:14:37","gedithejedi","#0","<@1079036756353105968>","nichitagutu#0",""
+"2023-05-13,18:15:24","gedithejedi","#0","on the blue couches","",""
+"2023-05-13,18:15:52","nichitagutu","#0","Trying to find you 😆","gedithejedi#0",""
+"2023-05-13,19:14:55","holsetymoon","#0","I can't seem to get any LineaETH token on Linea testnet. Can someone from Linea help with this please? I need some to deploy the contract on Linea!","",""
+"2023-05-13,19:26:58","gedithejedi","#0","<@817578956294979625> I got some spare, can send you some. Im at the 2nd floor balcony to the right","holsetymoon#0",""
+"2023-05-13,19:31:04","gedithejedi","#0","Im having some issues deploying on Linea, keep getting this while trying to mint an NFT on hardhat. It works no problem on REMIX though. Has anyone encountered this?","","https://cdn.discordapp.com/attachments/1018999236144156722/1107087650390814830/image.png"
+"2023-05-13,19:33:02","gedithejedi","#0","<@501535981724499988> are you still online? 🙂","_emjlin#0",""
+"2023-05-13,19:35:19","holsetymoon","#0","Thank you so much! Actually Emily has sent some over to me, so I'm good for now! 🙂","gedithejedi#0",""
+"2023-05-13,19:42:41","gedithejedi","#0","<@817578956294979625> have you any luck minting nfts on the chain?","holsetymoon#0",""
+"2023-05-13,19:47:03","holsetymoon","#0","That's something that my team did not try, unfortunately","gedithejedi#0",""
+"2023-05-13,19:47:32","jordan.public","#0","https://ethglobal.com/showcase/guardian-oracle-keeper-protocol-rpcws","",""
+"2023-05-13,19:55:43","jordan.public","#0","It looks like there is a problem with the Linea RPC for Görli testnet. The deployment runs eveywhere else (same script, just the RPC is different) and I get (BTW, using Foundry / Forge):
+
+No files changed, compilation skipped
+2023-05-13T23:53:14.524897Z ERROR sharedbackend: Failed to send/recv `basic` err=GetAccount(0x0000000000000000000000000000000000000000, 
+Deserialization Error: expected value at line 1 column 1. Response: <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+) address=0x0000000000000000000000000000000000000000
+The application panicked (crashed).
+Message:  called `Option::unwrap()` on a `None` value
+Location: /Users/runner/.cargo/registry/src/github.com-1ecc6299db9ec823/revm-3.1.1/src/evm_impl.rs:363
+
+This is a bug. Consider reporting it at https://github.com/foundry-rs/foundry
+
+Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
+Run with RUST_BACKTRACE=full to include source snippets.
+
+
+Please help if it is possible to mitigate this problem.","",""
+"2023-05-14,00:06:21","nelsonrodmar.sismo.eth","#0","Hi can I get some ETH on Linea please ?
+0x621AC9c06cf1aa650cFA198DA175dC5a5d2Ba516","",""
+"2023-05-14,02:30:09","_emjlin","#0","I wonder if you’re getting rate limited? Can you try again?","jordan.public#0",""
+"2023-05-14,02:30:16","_emjlin","#0","Sent","nelsonrodmar.sismo.eth#0",""
+"2023-05-14,02:33:32","nelsonrodmar.sismo.eth","#0","Thanks","_emjlin#0",""
+"2023-05-14,04:48:48","andreolf","#0","Well done with the submissions everybody! For all the teams that hack on Linea, SDK, or Snaps! please come to the 🦊 booth","",""
+"2023-05-14,05:12:20","andreolf","#0","For all the teams that hack on Linea, SDK, or Snaps! please come to the 🦊 booth to present","",""
+"2023-05-19,05:21:03","nichitagutu","#0","Hey there! I'm from ReCO2 team, we've made project for MetaMaskSDK track and I'd like to ask for feedback on our project, tips and points where we could've done better and how to improve our project","",""
+"2023-05-19,10:42:20","nichitagutu","#0","<@327450725053497344> 
+Hi Francesco! Can I get a reply, please? 🙏
+We've got will to develop project further, but we're in need of feedback","andreolf#0",""
+"2023-06-08,15:02:56","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1116442257416011836/Waterloo_2.png"
+"2023-06-19,14:41:26","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+👀 **ABOUT**
+A crypto wallet & gateway to blockchain apps
+
+**Buy, store, send and swap tokens**
+Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.
+
+**Explore blockchain apps**
+MetaMask provides the simplest yet most secure way to connect to blockchain-based applications. You are always in control when interacting on the new decentralized web.
+
+**Own your data**
+MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.
+
+---
+
+**Connect with MetaMask SDK**
+MetaMask provides the simplest yet most secure way to connect your blockchain-based applications to millions of MetaMask Wallet users via MetaMask SDK.
+Our goal is to enable delightful user experiences for your apps that are built for diverse communities of users and use-cases, and compatible with various platforms.
+
+**Linea**
+A developer-ready zk rollup for scaling Ethereum dapps.
+Projects across web3 are building with Linea to unlock new capabilities without compromising the security and developer experience of L1 Ethereum.
+
+
+🏆 **PRIZE OVERVIEW**
+
+Just deploy on Linea
+**We have $2500 max for up to 2 winners**
+
+Mobile Fun with the MetaMask SDK
+**We have $2500 max for up to 2 winners**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+👀 **WORKSHOP**
+https://youtu.be/38z-ROHxduM
+
+
+🔗 **IMPORTANT LINKS**
+Linea Helpful Materials:
+https://docs.linea.build/overview
+https://community.linea.build/
+https://support.linea.build/hc/en-us
+MetaMask SDK Useful Materials:
+https://docs.metamask.io/wallet/how-to/use-sdk/
+https://www.youtube.com/watch?v=1ElzZ8KU7Lg","",""
+"2023-06-23,17:28:30","_emjlin","#0","hihi! please dm me on TG @pokemilymon if you want any Linea test ETH!","",""
+"2023-06-24,19:14:21","greenc4rd","#0","Hey, has anybody ever successfully built metamask from source and used it in a browser?","",""
+"2023-06-24,19:15:49","greenc4rd","#0","I've been trying to do that and successfully built, but it doesn't seem to actually work in the browser. Totally unmodified, except for the addition of my Infura key as per the docs.","",""
+"2023-06-24,19:16:05","greenc4rd","#0","Is there anybody on the team that I could ask some questions about this?","",""
+"2023-06-24,20:23:42","_emjlin","#0","Hey hey Daniel! I’m on the Linea team - but I’ll send your question to our MetaMask team
+
+I can’t guarantee they’ll be checking their messages given that it’s a Saturday and most of them are in Europe 😦","greenc4rd#0",""
+"2023-06-24,20:27:38","_emjlin","#0","Were you running these instructions? https://github.com/MetaMask/metamask-extension
+
+I can try it on my machine","",""
+"2023-06-25,02:19:00","greenc4rd","#0","sorry, didn't see your message in time","",""
+"2023-06-25,02:19:16","greenc4rd","#0","I just cloned the repo and followed the readme","",""
+"2023-06-25,02:19:29","greenc4rd","#0","with the exception that I ran yarn install before building","",""
+"2023-06-25,02:19:51","greenc4rd","#0","because otherwise you get an error from missing dependencies","",""
+"2023-06-25,02:21:15","greenc4rd","#0","but basically I was able to build once with ""yarn dist"" but the extension simply didn't work (it wasn't able to connect to dapps, it simply wouldn't open up)","",""
+"2023-06-25,02:21:37","greenc4rd","#0","later, I wiped the entire thing and cloned it again","",""
+"2023-06-25,02:21:43","greenc4rd","#0","repeated the procedure","",""
+"2023-06-25,02:22:01","greenc4rd","#0","and now it is freezing after: 
+scripts:core:dev:standardEntryPoints: Bundle end: ""primary""","",""
+"2023-06-25,02:22:42","greenc4rd","#0","a similar thing that people were reporting here: https://github.com/MetaMask/metamask-extension/issues/14451","",""
+"2023-06-25,02:23:03","greenc4rd","#0","seems this was never resolved, but the issue was closed because there were other people who had builds failing for other reasons","",""
+"2023-06-25,02:23:14","greenc4rd","#0","I also tried ""yarn start""","",""
+"2023-06-25,02:23:34","greenc4rd","#0","and ""yarn start --platform=chrome"" to just build for chrome, but all to no avail","",""
+"2023-06-25,02:25:42","greenc4rd","#0","the complete set of steps to reproduce is as follows:","",""
+"2023-06-25,02:26:08","greenc4rd","#0","1. git clone https://github.com/MetaMask/metamask-extension.git","",""
+"2023-06-25,02:26:56","greenc4rd","#0","2. cd metamask-extension","",""
+"2023-06-25,02:27:18","greenc4rd","#0","3. cp .metamakrc.dist .metamaskrc","",""
+"2023-06-25,02:28:02","greenc4rd","#0","4. add the Infura ID to the INFURA_PROJECT_ID= on line 5 of .metamaskrc","",""
+"2023-06-25,02:28:10","greenc4rd","#0","6. yarn install","",""
+"2023-06-25,02:28:20","greenc4rd","#0","7. yarn start","",""
+"2023-06-25,02:29:07","greenc4rd","#0","I tried replacing step 7 with ""yarn dist"" and ""yarn start --platform=chrome"" and ""yarn dist --platform=chrome"" all with the same freezing at the same step in building, as outlined above.","",""
+"2023-06-25,02:35:17","greenc4rd","#0","note that the ""yarn dist"" variations seem to actually freeze at ""Finished 'static:prod'"" but I think thst's just because of the difference in verbosity between start and dist","",""
+"2023-06-25,02:36:21","greenc4rd","#0","also, as to the ""where"": I tried on WSL initially, then switched to Windows","",""
+"2023-06-25,02:37:46","greenc4rd","#0","in windows I just performed the equivalent actions as outlined above, but I just copied the file in step 3 in the file explorer","",""
+"2023-06-25,06:35:02","kannu","#2618","can anyone sent some test token on Linea  on these two accounts?
+0x2cA7f10827ef2833f0785F23e12bC39b8D80780A
+0x9b39249FC8820372A48a6C51E4CeffaFf355b8D2","",""
+"2023-06-25,07:11:53","_emjlin","#0","<@866378337064976414> sent!","kannu#2618",""
+"2023-06-25,09:03:29","greenc4rd","#0","Hey, my team's video upload didn't work via the ethglobal web app","",""
+"2023-06-25,09:03:35","greenc4rd","#0","it seems to be absent in the preview","",""
+"2023-06-25,09:03:50","greenc4rd","#0","is it possible to send one of the metamask reps the video directly?","",""
+"2023-07-10,14:07:16","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1128024657786830939/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,10:02:59","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+👀 **ABOUT**
+
+**A crypto wallet & gateway to blockchain apps**
+
+**Buy, store, send and swap tokens**
+
+Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.
+
+**Explore blockchain apps**
+
+MetaMask provides the simplest yet most secure way to connect to blockchain-based applications. You are always in control when interacting on the new decentralized web.
+
+**Own your data**
+
+MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.
+
+**Connect with MetaMask SDK**
+
+MetaMask provides the simplest yet most secure way to connect your blockchain-based applications to millions of MetaMask Wallet users via MetaMask SDK.  
+  
+Our goal is to enable delightful user experiences for your apps that are built for diverse communities of users and use-cases, and compatible with various platforms.
+
+**Linea**
+
+A developer-ready zk rollup for scaling Ethereum dapps.
+
+Projects across web3 are building with Linea to unlock new capabilities without compromising the security and developer experience of L1 Ethereum.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🦊 Best dapp on MetaMask SDK - $2,000 x 5
+🥷 Build a dapp on Linea - $2,000 x 3
+🖼 Build an NFT indexer on Linea - $2,000 x 2
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Linea in the L2 Landscape: How to and where do you build?
+Time: 06:00 PM CEST – Jul 21, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://metamask.io/sdk/
+https://c0f4f41c-2f55-4863-921b-sdk-docs.github.io/guide/metamask-sdk-unity.html
+https://docs.linea.build
+https://support.linea.build/hc/en-us","",""
+"2023-07-18,09:41:53","leeederek","#0","Hi Metamask team, I see there are no prizes for using Metamask Snaps explicitly - will there be people form the Metamask team available to answer questions about Snaps? Would it qualify under ""best dapp on metamask sdk""?","",""
+"2023-07-21,09:38:31","mikesposito","#2665","Hey <@459963806450450432>! The bounty is specific for using the Metamask SDK, so if it is not used in your project it would not meet the bounty requirements, despite of the Snap. But you can definitely ask questions about it at the Metamask stand or to mentors","leeederek#0",""
+"2023-07-21,15:20:35","youtpout","#0","Hello, I’m building a NftIndexer for linea, if an other team build the same thing I’m open, or I’m looking for a frontend developer","",""
+"2023-07-21,15:35:36","arjanjohan","#0","gm i have trouble accessing the linea faucets. can anyone share a working one or send us some funds to test our contracts?","",""
+"2023-07-21,15:48:59","albe111","#0","Dmed you","youtpout#0",""
+"2023-07-21,16:13:19","_emjlin","#0","hihi @here I can send LInea ETH if people message me on telegram: @pokemilymon","",""
+"2023-07-21,16:14:53","_emjlin","#0","what's your address?","arjanjohan#0",""
+"2023-07-21,16:25:32","sibkatya","#0","0x12642c2d22b9B148a941f124BDb7B6BcB78C89FE please send us ETH","",""
+"2023-07-21,16:30:39","arjanjohan","#0","0x388615CDF39FE5934Ac05AcFf2bbB86DB933CcB7","_emjlin#0",""
+"2023-07-21,16:50:41","colingplatt","#0","Is anyone else having issues with the RPC?","",""
+"2023-07-21,16:50:51","colingplatt","#0","Linea Goerli","",""
+"2023-07-21,17:11:58","_emjlin","#0","sent!","arjanjohan#0",""
+"2023-07-21,17:12:11","_emjlin","#0","Is anyone else having issues with the","",""
+"2023-07-21,17:39:21","arjanjohan","#0","received, thank you! 🙏","_emjlin#0",""
+"2023-07-21,18:08:00","metoinside","#0","Hello <@501535981724499988> or anyone from Metamask team,
+Can you please send some test Linea ETH on this account: 0xa9B3e57A741D5dDe1940A8F6f076DB4B00fD7612
+Thanks in advance","_emjlin#0",""
+"2023-07-21,18:18:30","_emjlin","#0","Sent!","metoinside#0",""
+"2023-07-21,18:22:11","_emjlin","#0","Lmk if you got it","",""
+"2023-07-21,18:36:42","metoinside","#0","Yeap, we have it. Thanks Emily","_emjlin#0",""
+"2023-07-21,20:43:34","rickk","#0","Can I also get some please:
+
+0x1ADB39541ddf5e2A9081f4f8454F31BC56C75A4B","_emjlin#0",""
+"2023-07-21,20:43:48","rickk","#0","Gas is very expensive","",""
+"2023-07-22,05:25:36","sibkatya","#0","Hi there) Do you know what protocols or dapps are available on Linea at the moment? We know only Biconomy. Maybe anything else?","",""
+"2023-07-22,05:26:54","sibkatya","#0","<@501535981724499988>","_emjlin#0",""
+"2023-07-22,06:54:17","albe111","#0","0x9d8004ff22964b53fe88eb15c52ba6abad63087f
+
+Hey can I have some linea eth please?","",""
+"2023-07-22,08:15:39","elshan_eth","#0","Hi","",""
+"2023-07-22,08:15:51","elshan_eth","#0","Can I get testnet Linea ETH?","",""
+"2023-07-22,08:16:03","elshan_eth","#0","it's so expensive","",""
+"2023-07-22,08:16:16","elshan_eth","#0","5-10 ETH  will be good","",""
+"2023-07-22,08:16:44","elshan_eth","#0","0x85fbC7b5087cC7b4Fe3Fe97755D8E01c9Fd727D9","",""
+"2023-07-22,08:25:00","elshan_eth","#0","Guys?","",""
+"2023-07-22,08:28:22","elshan_eth","#0","<@501535981724499988> Can you help me? Thanks","_emjlin#0",""
+"2023-07-22,08:28:59","_emjlin","#0","hmm I don't think it should be getting to 5 or 10? How big is your contract","elshan_eth#0",""
+"2023-07-22,08:31:54","elshan_eth","#0","We have contract creation going to 0.02  ETH, but we haven't started using bridges yet. It seems that 5-10 would be enough for the testing and the live demo to run for a sufficient time.
+
+Can we ask for a 1 ETH and if it runs out, then ask again?","",""
+"2023-07-22,08:32:01","ocandocrypto","#0","Hey guys, we're working with Metamask SDK but I'd like to ask which doc do we have to add to our repository to participate with you guys? I think yesterday you said something like add a txt doc in repo. Can ypu pls help us with details?","",""
+"2023-07-22,11:11:22","andreolf","#0","Hey all, we are here at the booth if you have questions!","",""
+"2023-07-22,13:09:40","sibkatya","#0","Hi) does the rpc work?","",""
+"2023-07-22,14:13:31","_emjlin","#0","I think it might be down right now - checking with the team 😦","sibkatya#0",""
+"2023-07-22,15:37:26","_emjlin","#0","Hi does the rpc work","",""
+"2023-07-22,16:29:37","vovunku","#0","Hi! Can I submit a contract call with a value (payment) via qr code??","",""
+"2023-07-22,19:23:38","_marcus","#0","Hi could someone send some linea test eth to this account 0x7730B4Cdc1B1E7a33A309AB7205411faD009C106","",""
+"2023-07-22,19:23:44","_marcus","#0","Thank you 🙏","",""
+"2023-07-22,19:57:01","_emjlin","#0","Sent!","_marcus#0",""
+"2023-07-22,20:54:07","colingplatt","#0","having more issues with Linea, getting secondary node pickup but not seeing it with the RPC","",""
+"2023-07-22,21:28:29","sibkatya","#0","the txs are pending even with high gasFees, smth is wrong","",""
+"2023-07-22,21:35:09","seeinplays","#0","how would I bridge goerli to testnet linea","",""
+"2023-07-22,21:57:59","rutefig","#0","hey, can I have some goerli eth pls? 0xF716C2F67B7cBd4426324a050082a32a714723aA","",""
+"2023-07-23,01:25:01","nicnode","#0","gm, any kind soul who can get me some testnet ETH for Linea, pls? 🙏","",""
+"2023-07-23,01:31:28","nicnode","#0","0xA9B686e0da47568c981c4182567c61C8d421A9a4","",""
+"2023-07-23,01:50:46","andreolf","#0","<@501535981724499988>","nicnode#0、_emjlin#0",""
+"2023-07-23,01:51:03","andreolf","#0","Do you still need it?","",""
+"2023-07-23,01:52:10","nicnode","#0","yes ser pls","andreolf#0",""
+"2023-07-23,01:53:25","sogol_malek","#0","Hello Metamask guys! Here's what we built with 1Inch Protocol, Metamask and Airstack!!
+
+**Name**: 🤖 Xtreamly
+**Description**: Hacked RPC Nodes & LUA Libraries for Scripting as-a-Service!💰🤖 Control Your Ethereum Account with AI-Powered Scripting.🌐 Apple Store-like outlet with Data-driven Scripts for your Accounts,tailored to each protocol.🎯Customize Your DeFi Experience,goodbye multiple  seed phrases
+**Github**: https://gitlab.com/SogolHack/xtreamly-hackethon
+
+Public URL: https://ethglobal.com/showcase/xtreamly-bqyjk","",""
+"2023-07-23,01:53:43","nicnode","#0","we only need like 0.05, the Infura faucet was at capacity","andreolf#0",""
+"2023-07-23,02:02:10","_emjlin","#0","Sent! Hopefully not too late","nicnode#0",""
+"2023-07-23,02:03:23","nicnode","#0","Yes, we can still make it - tysm! :))","_emjlin#0",""
+"2023-07-23,02:12:27","nicnode","#0","still not there 😦","_emjlin#0",""
+"2023-07-23,02:19:35","_emjlin","#0","Ah sorry I don’t have access to the network dashboard
+
+My suspicion is maybe the gas wasn’t high enough, as ppl were competing to get their tx in 😦","",""
+"2023-07-23,02:19:52","_emjlin","#0","Did you get it?","nicnode#0",""
+"2023-07-23,02:21:23","_emjlin","#0","ie playing around with maxpriorityfee values 
+
+Not sure if you’re able to deploy in time","",""
+"2023-07-23,02:27:10","andreolf","#0","<@831683312413835274>","jannik.io#0",""
+"2023-07-23,02:28:59","jannik.io","#0","0xD1dC255101bF3cD1Cc98d6fd19041419B2121179","",""
+"2023-07-23,02:29:34","andreolf","#0","sending you some, let me know when you got it","jannik.io#0",""
+"2023-07-23,02:29:52","andreolf","#0","https://goerli.lineascan.build/tx/0x14817b39d6d82cc05b95af606daf51550cd2e03133970b3a54cc565cde1055ab","",""
+"2023-07-23,02:52:32","andreolf","#0","<@358399169028685825> sent","_timtimtim#0",""
+"2023-07-23,02:52:47","andreolf","#0","https://goerli.lineascan.build/tx/0xd292ea4136ad91ca1cf842f176534e3e73cc2e52832d900ff44bd75c6fb31cd9","",""
+"2023-07-23,03:05:46","andreolf","#0","<@655811657016279063>","t0bou#0",""
+"2023-07-23,03:06:23","t0bou","#0","0x17259f913eb1D8529c751090083eebb21f957b97","",""
+"2023-07-23,03:07:18","andreolf","#0","sent","t0bou#0",""
+"2023-07-23,03:07:22","andreolf","#0","speeded up","",""
+"2023-07-23,03:08:29","andreolf","#0","<@655811657016279063> 
+
+*   Deployment: on Linea
+*   Link to the deployed contract address on [Lineascan](https://goerli.lineascan.build/)
+*   Linea network configured using a [Infura](https://linea-goerli.infura.io/v3/YOUR_INFURA_API_KEY) endpoint in your code
+*   Code needs to be viewable on GitHub
+*   Each submission should have a short video that describes scope and functionality of the dapp","t0bou#0",""
+"2023-07-23,03:10:38","andreolf","#0","here https://goerli.lineascan.build/tx/0xa73e1479a2831bcee96ee55ae81853b6fb613e5db88a04c33902f0fe4e296b2d","",""
+"2023-07-23,03:11:38","_emjlin","#0","Hihi recognize some of y’all had issues deploying due to gas prices (to an extent expected because everyone is deploying at the same time with potentially large contracts and then adding additional gas to compete for block space)","",""
+"2023-07-23,03:12:22","_emjlin","#0","If you have a screenshot of a pending tx on goerli we’ll still take a look at your project","",""
+"2023-07-23,03:13:00","_emjlin","#0","(FYI <@564345498471759890> )","sibkatya#0",""
+"2023-07-23,03:13:45","sibkatya","#0","ok","",""
+"2023-07-23,03:13:57","sibkatya","#0","we have a tx on goerli","",""
+"2023-07-23,03:18:31","sibkatya","#0","it isn't working again?","",""
+"2023-07-23,03:18:33","sibkatya","#0","https://chainlist.org/?testnets=true&search=linea","",""
+"2023-07-23,03:25:18","andreolf","#0","If you submit your MetaMask SDK and Linea please come at the booth to present that we are ready to judge!","",""
+"2023-07-23,03:37:55","sogol_malek","#0","hello <@327450725053497344> shall teams demo live or video is fine ?","andreolf#0",""
+"2023-07-23,03:49:44","andreolf","#0","demo live is better, we are here at the booth","sogol_malek#0",""
+"2023-07-23,03:50:33","sogol_malek","#0","cool, coming soon","andreolf#0",""
+"2023-07-23,04:27:11","jonjonclark","#0","Hi friends 🙂
+
+We built lindexer, a project that indexes on-chain NFT data, while also indexing NFT metadata (which is off-chain) in a blazingly fast and concurrent manner to a single database (all happening on linea). <a:Fire1:869563667841175552> https://ethglobal.com/showcase/lindexer-hyvic
+
+We hacked most of the night so haven't made it back to the venue yet, but we'd love to demo in person in about an hours time at 11h30am if that works?
+
+Bonus: we also deployed Parimals (Paris animals, what else?) https://goerli.lineascan.build/address/0xdff3e7c548857399bff017f7326977eaedbbe948  and have a couple to safe mint all our friends here <a:1397_partywizardparrot:828514959893463052> 
+
+We also built a clean NFT UI explorer showing the richness of the indexing API we built (see image attached)!","","https://cdn.discordapp.com/attachments/1018999236144156722/1132589718480113755/Screenshot_2023-07-23_at_08.58.57.png"
+"2023-07-23,04:28:18","andreolf","#0","thanks, 11.30 will be good. we are at the booth","jonjonclark#0",""
+"2023-07-23,04:29:19","jonjonclark","#0","Great, will see you around 11h30ish or just after 🙏","andreolf#0",""
+"2023-07-23,05:13:46","andreolf","#0","Lindexer please come to the MM booth","",""
+"2023-07-23,05:15:27","0xsachin","#0","need some ETH urgently 0xF338Ee47cC5B9630ac403e2663ff42E0c57bAA7C","",""
+"2023-07-23,05:15:35","0xsachin","#0","testnet ETH*","",""
+"2023-07-23,05:15:55","0xsachin","#0","on Linea* 🙂","",""
+"2023-07-23,05:19:33","jonjonclark","#0","On our way to the venue! Will be there in 15min","andreolf#0",""
+"2023-07-23,05:23:42","andreolf","#0","sent","0xsachin#0",""
+"2023-07-23,06:37:02","andreolf","#0","Kinetex Light Clients (MMR), did you deploy on linea?","",""
+"2023-07-25,03:27:02","andreolf","#0","Thanks everybody who came to hack, you are all winners! hope to see you in the next hackathon!","",""
+"2023-09-13,13:33:09","awliang","#0","","","https://cdn.discordapp.com/attachments/1018999236144156722/1151571284308795463/image.png"
+"2023-09-17,13:20:27","awliang","#0","Hello and welcome to the <#1018999236144156722> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the MetaMask Team at any point with your questions!
+
+👀 **ABOUT**
+**A crypto wallet & gateway to blockchain apps**
+
+**Buy, store, send and swap tokens**
+
+**Explore blockchain apps**
+
+**Own your data**
+
+**Connect with MetaMask SDK**
+
+MetaMask provides the simplest yet most secure way to connect your blockchain-based applications to millions of MetaMask Wallet users via MetaMask SDK.
+
+Our goal is to enable delightful user experiences for your apps that are built for diverse communities of users and use-cases, and compatible with various platforms.
+
+**Linea**
+
+A developer-ready zk rollup for scaling Ethereum dapps.
+
+Projects across web3 are building with Linea to unlock new capabilities without compromising the security and developer experience of L1 Ethereum.
+
+
+🏆 **PRIZE OVERVIEW**
+
+💹 Best Transaction Insights Snap $1,000
+🌐 Best Domain Resolution $1,000
+🖥️ Best dApp $3,000
+2️⃣ Deploy on Linea $1,000
+🏗️ Best Public Attestation $1,000
+🏗️ Best Social & ID dApp $1,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🛠️ MetaMask Snaps Workshop
+Time: 03:20 PM EDT – Sep 22, 2023
+Location: Workshop Room 2
+Link: https://youtu.be/-yYQVA6nO_I
+
+
+🔗 **IMPORTANT LINKS**
+MetaMask Snaps
+https://docs.metamask.io/snaps
+https://metamask.github.io/SIPs/SIPS/sip-11
+https://metamask.github.io/SIPs/SIPS/sip-12
+MetaMask SDK
+https://metamask.io/sdk/
+https://github.com/MetaMask/metamask-sdk/tree/main/packages/examples/
+https://docs.metamask.io/wallet/how-to/use-sdk/
+https://github.com/MetaMask/react-sdk-linea-workshop
+https://www.npmjs.com/package/@metamask/sdk-react
+Linea
+https://docs.linea.build/overview
+https://verax.gitbook.io/verax/
+https://docs.google.com/document/d/1zukSdc4QoMNS6FvZ3-A1o6OmT6qRDEyeavFvdxRIJJ4/edit?usp=sharing","",""

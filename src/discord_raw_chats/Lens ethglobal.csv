@@ -1,0 +1,1096 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-04-02,19:40:58","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/959960667505451008/unknown.png"
+"2022-04-12,15:23:26","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Lens Protocol** is a composable and decentralized social graph, ready for you to build on so you can focus on creating a great experience, not scaling your users. 
+
+It's a user-owned, open social graph that any application can plug into. Each application using Lens benefits the whole ecosystem, turning the zero-sum game into a collaborative one. Developers can focus on crafting an excellent experience for their users and leave the growth hacking to the protocol!
+
+Read more here: https://lens.dev/
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 $6K for first prize
+🥈 $2K for second prize
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethamsterdam.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**Building on Lens Protocol**
+Friday, April 22 @ 23:30
+w/ David Silverman
+
+
+🔗 **IMPORTANT LINKS**
+- https://lens.dev/garden
+- https://docs.lens.dev/docs","",""
+"2022-04-21,06:41:28","Alex Groves","#6219","Hey","",""
+"2022-04-21,06:41:37","Alex Groves","#6219","Really excited to build on lens this weekend","",""
+"2022-04-21,06:41:49","Alex Groves","#6219","If you are interested in partnering - I'm a pm/entrepreneur","",""
+"2022-04-23,05:03:39","Lsq","#9495","Is there someone from Lens at the co-working space that we can chat with regarding some technical questions?","",""
+"2022-04-23,07:53:51","fluiddrop","#7004","gm, we'd love to chat with someone from lens about our project :)","",""
+"2022-04-23,14:39:26","denhampreen","#0","Hi Lens 🌱 
+
+We are hacking along on a unique follower module and have been working on the ui asynchronously on top of lenster (very cool btw). Naturally to side step the whitelisting of the custom follower module we are working locally. 
+
+The ui is 'ready' 😅  and I would like to start doing the wiring to the contracts however need to reconfigure lenster to the local network. Lenster is quite heavily reliant on the api and I cant seem to find the api repo to run a local api. Is this something I can possibly do or get access to or should I shift gears and develop directly to the contracts via an embeded pvt key in the ui ?<a:blobsweat:963483356962648105>","",""
+"2022-04-23,14:59:36","denhampreen","#0","Sitting in the EthAmsterdam hall next to the big screen if anyone from the team is around still <:pray:885657771524112386>","",""
+"2022-04-23,15:07:31",".knos","#0","Hi, is there anyone from lens team still around? I am trying to mirror someone's post and having an error code 3.","",""
+"2022-04-23,15:08:09","paweldev","#0","Hi there, we have very similar problem here. Is there anyone here to help with the LENS Api implementation?","",""
+"2022-04-23,18:04:09","maggo","#0","Anyone seeing the issue when you transfer a profile NFT to another account that it disappears from the API? 🤔","",""
+"2022-04-24,05:07:31","ayeayecapt3n","#1977","Can the sponsors <@376836186402193419> ping here if the judging booth is available for teams to participate in?","trotnixonline#0",""
+"2022-04-24,05:08:13","trotnixonline","#0","gm gm stop by the lens booth to pitch!","",""
+"2022-06-01,20:24:34","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/981714913288421466/unknown.png"
+"2022-06-16,23:55:04","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+The **Aave Companies** are a group of software development companies that build open-source blockchain-based software. To date, they are best known for having built the Aave Protocol, a decentralized, non-custodial liquidity protocol. At its peak, the Aave Protocol has reached over $30B TVL (total value locked). Aave V3 launched in March 2022.
+
+Continuing to build on their vision of creating paradigm-shifting web3 software, the Aave Companies recently launched the **Lens Protocol**, a composable and decentralized social graph, in May 2022. Lens Protocol is designed to empower creators to own the links between themselves and their community, forming a fully composable, user-owned social graph.
+
+
+🏆 **PRIZE OVERVIEW **
+
+Theme: Privacy + Verification
+🥇 1st - $2000
+🥈 2nd - $1500
+🥉 3rd - $1000
+🤝 Integrate w/ ""follow on lens"" or ""sign in with lens"" - $100 x 5
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+https://youtu.be/XGEDArAtfBw
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz","",""
+"2022-06-23,16:53:48","cruzdanilo","#0","hello 🙂 how can i mint a profile?","",""
+"2022-06-24,14:21:24","Andy 4pool","#2486","LFGGGGGGG!!!!!!","",""
+"2022-06-24,17:10:55","shandysulen","#0","Hey! We have an idea that we’d love to run by the Lens team 🙂 where can I find you guys?","",""
+"2022-06-24,20:35:02","emmajane1313","#0","hey! im building a dapp on lens for the hackathon! how can i mint a profile? is any of the team hanging about","",""
+"2022-06-24,20:35:07","emmajane1313","#0","im on lvl 2 currentlyyyy","",""
+"2022-06-25,11:17:03","zacque","#1044","GM - hope everyone is having a lensational day................
+
+Are there test accounts with known private keys we can use on mumbai or testnet? We are building on lens and are a bit blocked w/o test profiles we can use in browser!","",""
+"2022-06-25,11:17:57","zacque","#1044","Alternatively, if we could bootstrap a graphql server from our local hardhat that would work too","",""
+"2022-06-25,11:21:25","shannon","#3176","Hey! 
+We are working on a hack called BlockFuse. The problems we are solving:
+
+- Web2 recruitment solutions are not user-friendly
+- They’re expensive
+- They’re not suited for web3 candidates
+- It’s hard for candidates to prove skill
+- It’s difficult for recruiters to verify talent. 
+
+BlockFuse revolutionizes the recruitment process in web3 by providing the infrastructure for educators, recruiters, and candidates to mint and aggregate proof-of-skill badges with the rest of your professional identity.
+
+We’re looking for hiring managers, recruiters, job seekers or anyone who is currently working in web3 to complete a short, 5 minute survey to help us refine our solution. https://forms.gle/NBWzVqRbJoTEtsrL6
+
+Thank you in advance, 
+Shannon & the BlockFuse team ☺️","",""
+"2022-06-25,12:41:11","arno39","#0","We have some hackers that would love to use Tatum & Lens. I am with Tatum; if someone from Lens is here. I would love to chat.","",""
+"2022-06-25,14:42:47","paweldev","#0","Hi there! Is there anyone from core devs here on site Today? We are working on social media app with Lens protocol as a core but our profiles need some extra attributes. Should I just add them as a metadata?","",""
+"2022-06-25,14:53:49","Becky Button","#5076","^^ our team also needs some help with lens if there are any devs here, we would love some help!","",""
+"2022-06-25,15:22:14","yuchens","#0","same ^","",""
+"2022-06-26,05:12:43","paweldev","#0","Hey what's going on with Lens on Mumbai, none of the publications that I add show up in the profile. Did you disable it for spaming issues or something like that?","",""
+"2022-06-26,06:32:29","paweldev","#0","There is apparently problem with the GraphQL API at least on mumbai, we have tried to deploy our own Graph but still it doesn't have the same functionalities","",""
+"2022-06-26,06:53:05","imxeno","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/990570389644144690/unknown.png"
+"2022-06-26,06:53:08","imxeno","#0","lenster doesn't work too","",""
+"2022-06-26,06:54:51","imxeno","#0","transactions go through on the chain, but they are not being indexed","",""
+"2022-06-26,06:54:54","mellowbaton","#0","It looks like everything using testnet lens is dead in the water","",""
+"2022-06-26,06:55:20","imxeno","#0","https://tenor.com/view/disney-plus-disney-sad-sad-eyes-sad-face-gif-15549594","",""
+"2022-06-26,06:55:23","imxeno","#0","goodbye victory","",""
+"2022-06-26,12:58:43",".keesvb","#0","OK so I heard from the Lens team that there was an issue with a provider they were using, Alchemy, and they already have plans to minimize dependencies on third parties like these to prevent issues in the future.","",""
+"2022-06-26,13:02:27",".keesvb","#0","Still, despite all the issues, I'm proud of the project and the functionality we were still able to implement and show with Lens. Check it out here: https://ethglobal.com/showcase/podcha-xptrv. We are using Lens Protocol to store the Podcast Profile NFTs, podcast episodes (as Lens Posts) and we are directly interacting with the smart contracts as well as using the Lens API. We are using both the Follow as well as the Collect module to model different kinds of monetization of the podcast resp. episode content.","",""
+"2022-07-01,11:21:35","lanzdingz","#0","<@376836186402193419> thanks for sponsoring the hackathon and for all your words or encouragement. I was wondering if Its possible to get additional lens profile passes for a wallet that already has a lens profile? I want to make one for our hackathon project Gard3n as well as a business one for myself
+
+Thank you!","trotnixonline#0",""
+"2022-08-09,18:05:35","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1006684699336384543/unknown.png"
+"2022-08-16,04:49:50","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+The **Aave Companies** are a group of software development companies that build open-source blockchain-based software. To date, they are best known for having built the Aave Protocol, a decentralized, non-custodial liquidity protocol. At its peak, the Aave Protocol has reached over $30B TVL (total value locked). Aave V3 launched in March 2022.
+
+Continuing to build on their vision of creating paradigm-shifting web3 software, the Aave Companies recently launched the **Lens Protocol**, a composable and decentralized social graph, in May 2022. Lens Protocol is designed to empower creators to own the links between themselves and their community, forming a fully composable, user-owned social graph.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🔊 **Audio** - provide music artists a dedicated space to drop music and leverage collect modules to monetize, users to share music, co-listening spaces
+🥇 1st prize - $4,000
+🥈 2nd prize - $1,500
+ 
+
+🔎 **Marketplace discovery** - discover the top collectible user generated content on Lens, leaderboards for top curators, collectors, content posters, etc.
+🥇 1st prize - $4,000
+🥈 2nd prize - $1,500
+
+
+📸 **Photo Sharing** – an Instagram-like experience (the old Instagram) for sharing photos and videos with your friends
+🥇 1st prize - $4,000
+🥈 2nd prize - $1,500
+
+🤝 Integrate w/ ""follow on lens"" or ""sign in with lens"" - $100 x 35
+
+**↓ Full Prize Breakdown Here ↓ **
+https://mexico.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**Build Web3 Experiences with Lens Protocol**
+*w/ David Silverman*
+Friday August 19th @ 5:30pm
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz","",""
+"2022-08-18,15:00:52","irwingtello","#0","Hi <@328625947198750720> , <@376836186402193419> , i was exploring Lens, and i think this a future blocker for us in the ETHMexico-Hackhaton","donosonaumczuk#0、trotnixonline#0","https://cdn.discordapp.com/attachments/959960606729977986/1009899703032361131/unknown.png"
+"2022-08-19,14:50:02","pdroooooo","#0","Hi! <@328625947198750720> <@376836186402193419> ! Exploring the documentation I have found that: ""Profiles can only be minted by addresses that have been whitelisted by governance... If you are building an application on Lens that requires the minting of Profiles, please join the Discord and get in touch!"". Our plans for the hackathon product requires some profile mintings, can we discuss how to whitelist us?","donosonaumczuk#0、trotnixonline#0",""
+"2022-08-19,14:50:03","pdroooooo","#0","Thank you!","",""
+"2022-08-19,22:11:17","sofieeeco","#9204","<@328625947198750720> <@376836186402193419> ! Looks like https://github.com/lens-protocol/lens-protocol is missing an `address.json` file?","donosonaumczuk#0、trotnixonline#0",""
+"2022-08-19,22:11:44","trotnixonline","#0","Testnet is unrestricted via the profile proxy","pdroooooo#0",""
+"2022-08-19,22:12:43","trotnixonline","#0","Looking into this by don’t believe there is supposed to be one cc: <@328625947198750720>","donosonaumczuk#0、sofieeeco#9204",""
+"2022-08-19,22:13:57","sofieeeco","#9204","This LOC: https://github.com/lens-protocol/lens-protocol/blob/9f3b62aab1a4983d9bc11ee4f5c2892e8f1f148a/tasks/helpers/utils.ts#L16 wants one 😄","trotnixonline#0",""
+"2022-08-19,22:14:24","sofieeeco","#9204","And I'm getting a file not found error when trying to unpause the protocol","",""
+"2022-08-19,22:14:34","sofieeeco","#9204","So I think there should be one? 🤔","",""
+"2022-08-19,22:20:07","sofieeeco","#9204","OK, found the issue- it's git ignored. Can we get the shape of the JSON so we can continue with the tutorial? <@376836186402193419> <@328625947198750720>","donosonaumczuk#0、trotnixonline#0",""
+"2022-08-19,22:22:58","donosonaumczuk","#0","Hi! That's generated after doing a successful deployment or you can write your own. But it's not supposed to be pushed to the repo","sofieeeco#9204",""
+"2022-08-19,22:25:02","sofieeeco","#9204","Yep! Found it's git-ignored but I can't do a successful deploy bc running `npx hardhat unpause --network localhost`  results in a `Error: ENOENT: no such file or directory, open 'addresses.json'` because I don't have that file. I can create that, but I don't know the shape the JSON needs to be?","donosonaumczuk#0",""
+"2022-08-19,22:26:20","sofieeeco","#9204","<@328625947198750720> I think just the shape of that JSON would be helpful and then I can get unblocked. I didn't see anything about creating that file / the shape of that data in the docs though...","donosonaumczuk#0",""
+"2022-08-19,22:28:32","donosonaumczuk","#0","```
+{
+  ""lensHub proxy"": ""0xDe0FDE34DB892879b3921CaA829E9A51C7744577"",
+  ""lensHub impl:"": ""0x5D9151A7Abb82A7057C747833Fe962cA11987beb"",
+  ""publishing logic lib"": ""0x357841F88CAd2D477403A1683524C09B887014A7"",
+  ""interaction logic lib"": ""0xcD7C66a64ccc7fE4d6eb8391E67B0916d41C2D7F"",
+  ""profile token URI logic lib"": ""0x63D27F6E8C7e3aE23d264743c04529c1CB7Df494"",
+  ""follow NFT impl"": ""0xb89cae8bf393a75744699b8ae2cd21f233cc98e5"",
+  ""collect NFT impl"": ""0x434026678da8c2ce031bf9e058da668b16527f8c"",
+  ""lens periphery"": ""0xEBB913C9dAe832aaBE04e97A07ce5F0870553de6"",
+  ""module globals"": ""0xccE861340ddD0A56Db9F9b30B0313019777b302F"",
+  ""fee collect module"": ""0xd4E6a922AEdF4f2b7e5f760f0ef5ad63E03035e3"",
+  ""limited fee collect module"": ""0x9fD74b1fC4F785e02EA8CC501980AeBB0dFFB38e"",
+  ""timed fee collect module"": ""0xc8aC2BbEd1293cfA5fb8A6AFbbBB6634aee6E0E5"",
+  ""limited timed fee collect module"": ""0x02F3b9e786B25ec0848199950d23cbEd73c4B9Ab"",
+  ""revert collect module"": ""0xB0e47717845b7970Ad003B5444e95C63b2B9f386"",
+  ""free collect module"": ""0xaeB7E3326e4745639574092801ad5C4467d513c9"",
+  ""fee follow module"": ""0x6A98d71A94738B346193B2996EFcf4B75b370bCb"",
+  ""profile follow module"": ""0xdfd1d6e0323E2e9BD84B2f1515473C95311005Bf"",
+  ""revert follow module"": ""0xE103E76d9f51f27157114e4b41A61a41eb8D700D"",
+  ""follower only reference module"": ""0x70478B8393592aC47eB81fd959fDB6D2b04Cb7Ae"",
+  ""profile creation proxy"": ""0x2068c87369318D7ADbd9c2F6221EB5aC34095389"",
+  ""UI data provider"": ""0x4074b1b9Ad2108B5b21b0cad0b2e6225FA7E8700""
+}
+```","",""
+"2022-08-19,22:28:37","donosonaumczuk","#0","It should look like that","",""
+"2022-08-19,22:29:26","donosonaumczuk","#0","But with proper addresses","",""
+"2022-08-19,22:29:40","donosonaumczuk","#0","Sorry I'm from phone right now","",""
+"2022-08-19,22:31:47","donosonaumczuk","#0","By the way, if you do a successful deployment you should end up with the addresses.json file in your directory","sofieeeco#9204",""
+"2022-08-19,22:37:50","donosonaumczuk","#0","The unpause operation becomes after the deployment","",""
+"2022-08-19,22:40:20","sofieeeco","#9204","Yep! Makes sense. I *thought* the deploy was successful but I'll try again. I wasn't expecting any changes in the repo from the deploy, so I didn't think to see if there were any files generated or anything.","",""
+"2022-08-19,22:41:47","sofieeeco","#9204","Ok yeah, so the deploy was successful and I now see the contents of the JSON in the terminal but there's no new file!","",""
+"2022-08-19,22:41:59","sofieeeco","#9204","But I'm unblocked from here, so thank you! 😄","",""
+"2022-08-19,22:45:34","donosonaumczuk","#0","You are welcome! Happy to help","",""
+"2022-08-19,22:48:14","donosonaumczuk","#0","Also guys feel free to ask in Spanish 🇦🇷🤝🇲🇽","",""
+"2022-08-19,23:31:31","j3rga","#0","Hola! Tenemos dudas sobre la compatibilidad del smart contract con otros smart contracts de otros protocolos, ayuda por favor!","",""
+"2022-08-19,23:32:55","j3rga","#0","<@328625947198750720> are you available?","donosonaumczuk#0",""
+"2022-08-20,00:02:50","pdroooooo","#0","Hello team Lens, can anyone help with some tech questions still here at the hackathon?","",""
+"2022-08-20,10:14:42","pdroooooo","#0","...","",""
+"2022-08-20,10:19:10","donosonaumczuk","#0","Yes send the questions directly here or DM so we can answer as soon as we read them","",""
+"2022-08-20,11:11:18","nanquiedo","#0","Hi, I have some doubts making queries with the api","",""
+"2022-08-20,11:12:46","nanquiedo","#0","specifically for publications, I don't how to shorten the query appropiately to only get the information I need","",""
+"2022-08-20,11:13:01","nanquiedo","#0","specifically the metadata that contains the media","",""
+"2022-08-20,11:53:13","donosonaumczuk","#0","I think David addressed that already but on Mumbai you can create profiles without being whitelisted","pdroooooo#0",""
+"2022-08-20,11:53:26","donosonaumczuk","#0","Same here","irwingtello#0",""
+"2022-08-20,11:53:43","donosonaumczuk","#0","In Graph QL you can remove the fields you don't want to if you want to shorten the response","nanquiedo#0",""
+"2022-08-20,12:11:08","donosonaumczuk","#0","I'll put a link to a part of the docs that might help
+https://docs.lens.xyz/docs/get-publications","nanquiedo#0",""
+"2022-08-20,12:11:31","donosonaumczuk","#0","I'd need a bit more details to be more helpful","",""
+"2022-08-20,12:12:20","donosonaumczuk","#0","But each publication has a metadata field that then has MetadataOutputFields","",""
+"2022-08-20,12:12:33","donosonaumczuk","#0","So you should be able to only get that if you only want that","",""
+"2022-08-20,13:39:02","donosonaumczuk","#0","Btw I'm in the venue, come to ask questions  :)","",""
+"2022-08-20,16:41:51","laluy.garduno","#0","Hey Lens team, take a look at what we are building at Kiwik! 
+<@567542143409848327><@595460255245139968>
+<@726992743309639680>
+
+https://twitter.com/Kiwiklabs/status/1561083040515985408?s=20&t=lGAANB3kO0ht6jRLNAUOUg","samgarcia#0、shannon#3176、daphlaughlove#0",""
+"2022-08-20,16:43:38","donosonaumczuk","#0","Looks great! Good job integrating most of the sponsors 😎","",""
+"2022-08-20,18:46:26","petra_betx9","#0","hey","",""
+"2022-08-20,21:54:23","horsefacts","#0","👋 anyone from Lens around to help us debug creating comments?","",""
+"2022-08-20,22:01:13","horsefacts","#0","(we are trying to create a comment by calling `LensHub.comment` directly. The tx succeds, but the comment isn't being indexed)","",""
+"2022-08-20,22:23:14","donosonaumczuk","#0","The Lens API only index publications who's content follow the Lens API metadata standard","horsefacts#0",""
+"2022-08-20,22:24:05","donosonaumczuk","#0","https://docs.lens.xyz/docs/metadata-standards","",""
+"2022-08-20,22:24:08","donosonaumczuk","#0","That might help","",""
+"2022-08-20,22:24:20","donosonaumczuk","#0","Also comparing with other posts that have been indexed","",""
+"2022-08-20,22:24:46","donosonaumczuk","#0","testnet.lenster.xyz is good for looking for indexed publications","",""
+"2022-08-20,22:25:40","horsefacts","#0","Ah, thank you! That testnet link is very helpful.","",""
+"2022-08-20,22:25:54","donosonaumczuk","#0","Glad to hear that 🙂","",""
+"2022-08-20,22:27:30","horsefacts","#0","Anything obviously wrong in this metadata? https://ipfs.io/ipfs/bafkreiawm34levgev3kpkon4gej7sjjkq5v7nubezcrgygl7g7qdknnt54","donosonaumczuk#0",""
+"2022-08-20,22:33:32","horsefacts","#0","I think I see it — `audio/x-m4a` is not a supported mime type. Thank you!","",""
+"2022-08-20,22:39:39","donosonaumczuk","#0","Ok cool! I hope it get indexed now","horsefacts#0",""
+"2022-08-20,22:44:51","horsefacts","#0","it worked 🎉","",""
+"2022-08-20,22:52:09","donosonaumczuk","#0","Amazing 😎","",""
+"2022-08-20,22:56:15","nanquiedo","#0","Is it possible to create a custom type for publications and have them indexed ?","",""
+"2022-08-20,22:56:47","donosonaumczuk","#0","No. But the metadata has free fields where you can put your custom stuff","nanquiedo#0",""
+"2022-08-20,22:56:48","nanquiedo","#0","so I can for example query for all the pubs with the custom type for a certain profile","",""
+"2022-08-20,22:57:52","donosonaumczuk","#0","`attributes: PublicationMetadataAttribute[];`","",""
+"2022-08-20,22:58:03","nanquiedo","#0","yeah, right","",""
+"2022-08-20,22:58:21","nanquiedo","#0","how could I query wether the attributes have a certain custom type?","",""
+"2022-08-20,22:58:42","nanquiedo","#0","let's say for example I add an object on the attributes list like","",""
+"2022-08-20,22:58:43","nanquiedo","#0","{
+        traitType: ""hexagon-type"",
+        value: ""album""
+      }","",""
+"2022-08-20,22:59:06","nanquiedo","#0","and then I want to query for all the pubs with the ""album"" type","",""
+"2022-08-20,23:05:04","donosonaumczuk","#0","Hmm I think if you use tags on metadata V2 it should be queriable","",""
+"2022-08-20,23:06:22","donosonaumczuk","#0","```
+on the cards super soon! you do have metadata v2 which allows you to tag stuff etc and searchable across all publication endpoints. Full search on everything will be coming though!
+```
+From Josh, our Lens API Lead dev, on the Lens server a few days ago","",""
+"2022-08-20,23:07:22","donosonaumczuk","#0","```
+Ability to tag dynamically on a publication, this will allow you to do queries on these tags throughout the API.
+
+    can not have more than 5 tags per publication or it will be rejected
+    each tag char length can be no more then 50
+
+```","",""
+"2022-08-20,23:07:40","donosonaumczuk","#0","From the Lens API docs, in the metadata section","",""
+"2022-08-20,23:08:07","donosonaumczuk","#0","src: https://docs.lens.xyz/docs/metadata-standards","",""
+"2022-08-20,23:12:56","nanquiedo","#0","thank you, i'll read into that","",""
+"2022-08-20,23:42:42","nanquiedo","#0","thank you Alan, that worked","",""
+"2022-08-20,23:47:29","donosonaumczuk","#0","Amazing man!","",""
+"2022-08-21,01:33:08","nanquiedo","#0","https://pastebin.com/Mg7vmzxG","",""
+"2022-08-21,01:33:33","nanquiedo","#0","any ideas why this query works on playground but not when ran with urql?","",""
+"2022-08-21,01:33:50","nanquiedo","#0","does urql support fragments?","",""
+"2022-08-21,01:35:09","nanquiedo","#0","it says ""Invalid AST Node""","",""
+"2022-08-21,01:46:10","navina0550","#0","Hi <@328625947198750720> , we're building on Lens and integrating with Gnosis Safe. Would it be possible to get whitelisted to create profiles on mainnet?","donosonaumczuk#0",""
+"2022-08-21,08:12:35","CA","#3597","Im looking to add a follow module on CryptoRestaurantWeek- on the documents not sure what to run","",""
+"2022-08-21,09:07:09","donosonaumczuk","#0","This should be an error with parenthesis or braces. I'm trying to find it","nanquiedo#0",""
+"2022-08-21,09:09:35","donosonaumczuk","#0","Sorry the delay. We can't do that now. I was looking at the Gnosis safe supported networks and I guess the issue is that they're not on Mumbai, right?","navina0550#0",""
+"2022-08-21,09:16:32","donosonaumczuk","#0","You should deploy Lens setting yourself as governance, and then you can whitelist the follow module","CA#3597",""
+"2022-08-21,10:58:32","trotnixonline","#0","Stop by the Lens Booth and pitch! looking forward to see what everyone built! [pitch can be in either english or spanish]","",""
+"2022-08-21,14:08:57","donosonaumczuk","#0","All amazing projects, thank you so much for all your submissions (: 🌿","",""
+"2022-08-31,20:13:54","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1014689524783272076/unknown.png"
+"2022-08-31,20:14:45","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Lens Protocol** is a composable and decentralized social graph. It lets creators take ownership of their content wherever they go in the digital garden of the decentralized internet. With Lens Protocol, you are in control. You own your profile, where you use it, how you use it, and even how you monetize it. That means you have the power over your content, and it’s all right there, as an NFT, in your wallet. It’s not just easy. It’s how digital identity should be: yours.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Fast Publishing ✍️ Ideas around how to publish any type of content to Lens as fast as possible.**
+🥇 1st Prize: 3500
+🥈 2nd Prize: 1500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+https://youtu.be/S5bXI51Qm0o
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz","",""
+"2022-09-01,16:03:44","kirrttiraj","#0","Hello, how can I get access to lens account?","",""
+"2022-09-01,21:45:41","kirrttiraj","#0","<@328625947198750720>","donosonaumczuk#0",""
+"2022-09-02,12:14:54","fabriguespe","#0","gm!","",""
+"2022-09-02,19:17:55","armiesoto","#8424","Hey! Can you elaborate more on fast publishing? What exactly is Lens looking for in terms of solutions?","",""
+"2022-09-02,19:19:00","fabriguespe","#0","Hey!","",""
+"2022-09-02,19:21:11","fabriguespe","#0","Think about ux solutions. Can be browser widgets, components, mobile, embedables. Can be application agnostic or can be application specific","",""
+"2022-09-02,19:21:27","fabriguespe","#0","Lowest amount of steps as Kpi","",""
+"2022-09-02,23:50:27","4ni4","#8790","<@902919763305594890>","drumfeet#0",""
+"2022-09-02,23:50:33","4ni4","#8790","<@563935785720741908>","davemx#0",""
+"2022-09-03,14:47:19","simmonsd","#0","https://github.com/lens-protocol/brand-kit/issues/1","",""
+"2022-09-03,14:48:28","simmonsd","#0","<@533994454391062529> any idea of anyone that'd know the answer to this (brand asset licensing) by chance? 🙂","fabriguespe#0",""
+"2022-09-03,14:49:15","simmonsd","#0","Also, just an FYI that the `design@lens.xyz` email address called out on the branding page doesn't work!","",""
+"2022-09-03,14:49:33","fabriguespe","#0","let me check that","",""
+"2022-09-03,14:49:56","fabriguespe","#0","if it's for the hackaton would be no issue","",""
+"2022-09-03,14:50:07","simmonsd","#0","Sounds good!","",""
+"2022-09-03,14:50:28","fabriguespe","#0","you can just use lens branding lol","",""
+"2022-09-03,14:50:30","simmonsd","#0","Ideally, the thing I make has value outside of the hackathon, so that's part of my train of thought 😅","",""
+"2022-09-03,14:50:30","fabriguespe","#0","less time for you","",""
+"2022-09-03,14:50:55","fabriguespe","#0","you can say for example LENSXXX","",""
+"2022-09-03,14:50:57","fabriguespe","#0","like more official","",""
+"2022-09-03,14:51:00","fabriguespe","#0","no problem","",""
+"2022-09-03,14:51:04","simmonsd","#0","It wouldn't be anything that I'd be monetizing, just a tool to help facilitate connections within the ecosystem!","",""
+"2022-09-03,14:51:10","simmonsd","#0","👌","",""
+"2022-09-03,14:51:53","simmonsd","#0","Thanks for your 2c!","",""
+"2022-09-03,18:01:17","realkdi","#0","Hi. Could you explain the eligibility requirements for the lens prizes?","",""
+"2022-09-04,11:49:58","bufficornqueen","#0","Hi, I'd really like to claim a .lens name but do not qualify on your public site.  Could my address be added to the whitelist?  Please?  I did sign the open letter with Twitter verification.","",""
+"2022-09-04,21:31:51","fabriguespe","#0","Hey! What u mean? Have u read previous comments?","realkdi#0",""
+"2022-09-04,21:32:33","fabriguespe","#0","Hi ser, you would have to wait for the open letter to be released sorry","bufficornqueen#0",""
+"2022-09-04,22:05:12","andreth207","#0","Hi! We are ShareEth our project is about to having subscription content paid in crypto, to get people into web3 and allow people to  build community using it. We are going to use Lens for our app, so we'll be amazing to have some of Lens sponsors in our discord on order to share our ideas with you!","",""
+"2022-09-05,07:37:12","fabriguespe","#0","pls no handles here! this is only for the hackaton","bufficornqueen#0",""
+"2022-09-05,15:14:23","bufficornqueen","#0","OK","fabriguespe#0",""
+"2022-09-06,19:48:48","emmajane1313","#0","heyy 
+
+i tried to make a test profile on mumbai `0x420f0257d43145bb002e69b14ff2eb9630fc4736` but got this tx error revert.. is there some permissions required to create a test profile?","fabriguespe#0",""
+"2022-09-06,19:57:03","fabriguespe","#0","What error did you get?","",""
+"2022-09-06,20:36:34","emmajane1313","#0","","fabriguespe#0","https://cdn.discordapp.com/attachments/959960606729977986/1016869556104474684/message.txt"
+"2022-09-06,20:36:49","emmajane1313","#0","my input was:
+
+{     to:""0x3D1f8A6D6584a1672d2817368783B9a2a36ae361"",     handle: 'zer0dot',     imageURI: 'https://ipfs.io/ipfs/QmY9dUwYu67puaWBMxRKW98LPbXCznPwHUbhX5NeWnCJbX',     followModule: ""0x0000000000000000000000000000000000000000"",     followModuleInitData: [],     followNFTURI: 'https://ipfs.io/ipfs/QmTFLSXdEQ6qsSzaXaCSNtiv6wA56qq87ytXJ182dXDQJS',   }","",""
+"2022-09-07,03:47:25","motxxa","#0","<@328625947198750720>  hey! is it possible to get an access to lens account?","donosonaumczuk#0",""
+"2022-09-07,09:06:27","fabriguespe","#0","what u mean? you can create a handle in testnet.lenster.xyz","motxxa#0",""
+"2022-09-07,09:07:54","fabriguespe","#0","hey sir, im not sure what are u trying to do. What repo/env are you using?","emmajane1313#0",""
+"2022-09-07,09:27:50","emmajane1313","#0","im a girl 🤣  but sir is ok 🤷  
+
+it's ok i was helped in the main lens discord, but smth is wrong with the contracts if they are called on mumbai, it's just a basic create profile call on testnet","fabriguespe#0",""
+"2022-09-07,09:59:32","fabriguespe","#0","Haha sorry Emma. Great you could solve it. That’s the proper channel","emmajane1313#0",""
+"2022-09-07,13:13:22","emmajane1313","#0","no probs 🤣  btw im getting user not authenticated when i try to do a post type publication despite being logged in","fabriguespe#0",""
+"2022-09-07,13:13:56","fabriguespe","#0","are you sending the auth token properly?","",""
+"2022-09-08,11:53:50","gabrielaxy.eth","#0","Hey Lens team <@533994454391062529><@328625947198750720> <@376836186402193419>  , I'm building an application using Lens and I wish to display all the publications created by a profile using my application only. Fetching the posts using the API gives me all the posts of that profile which I'm not interested in filtering after the fetch (since I need the posts created using my dApp). Is there any way to filter the publications using it's metadata in the graphQL query ( I'm new to gql )","donosonaumczuk#0、fabriguespe#0、trotnixonline#0",""
+"2022-09-08,14:38:00","nftartboy","#0","Hi Aave and Lens team,
+our team is considering to use Lens Protocol, but our wallet adresses seem to be not eligible. Is there any chance to get our handles anyways?","",""
+"2022-09-09,00:59:17","b6ack","#0","Whats up! Quick question what is the best way to know that a profile is associated with a given site. Would this be what the followmodule could be used for?","",""
+"2022-09-09,01:52:14","CA","#3597","Saludos 🖖","",""
+"2022-09-09,01:52:23","CA","#3597","Is this the only prize category ?","",""
+"2022-09-09,01:52:27","CA","#3597","## Lens ($5k)
+
+**Fast Publishing ✍️** 
+
+Ideas around how to publish any type of content to Lens as fast as possible.
+
+- 🥇 1st Prize: 3500
+- 🥈 2nd Prize: 1500","",""
+"2022-09-09,16:49:53","emmajane1313","#0","<@533994454391062529> my postWithSig is going through but i'm not receiving an NFT back, does this mean there is some typer error with the post args?","fabriguespe#0",""
+"2022-09-09,16:57:26","fabriguespe","#0","It is yes! We want this to be very focused","CA#3597",""
+"2022-09-09,16:57:51","fabriguespe","#0","Definetly that would be the case","emmajane1313#0",""
+"2022-09-09,17:06:05","fabriguespe","#0","yes you have the sources parameter","gabrielaxy.eth#0",""
+"2022-09-09,17:06:46","fabriguespe","#0","","gabrielaxy.eth#0","https://cdn.discordapp.com/attachments/959960606729977986/1017903921630560276/Screen_Shot_2022-09-09_at_18.05.51.png"
+"2022-09-09,17:06:48","fabriguespe","#0","for example","",""
+"2022-09-09,17:07:06","fabriguespe","#0","where you put your appid","",""
+"2022-09-09,17:08:50","fabriguespe","#0","profiles are site agnostic. what you mean?","b6ack#0",""
+"2022-09-09,17:09:22","fabriguespe","#0","yes we do that","nftartboy#0",""
+"2022-09-09,17:12:46","emmajane1313","#0","ok, what im confused about tho is that apparently when doing publication post type you don't actually mint an nft until someone collects something... it just gets indexed with ""lens"" ..... so then why would i also be getting an nft? which one is correct....","fabriguespe#0",""
+"2022-09-09,17:25:47","fabriguespe","#0","correct. the publications are not nft's","",""
+"2022-09-09,17:25:57","fabriguespe","#0","the follows and collects are nft's, also profiles","",""
+"2022-09-09,17:31:47","emmajane1313","#0","so why do i need to write to the contract when i post? in the docs it shows calling the contract with postWithSig","fabriguespe#0",""
+"2022-09-09,17:32:07","emmajane1313","#0","am i indexing on-chain in that case? ... but the docs mention the indexer is just the lens api","",""
+"2022-09-09,17:52:14","emmajane1313","#0","im also a bit confused how come u mentioned i should receive an nft back on postWithSig... when at the same time post types don't have nfts?","fabriguespe#0",""
+"2022-09-09,17:52:52","fabriguespe","#0","you shouldn't expect an nft back from posting. sorry for the confusion","",""
+"2022-09-09,17:58:55","emmajane1313","#0","ok  got it, so i check if it's gone through via querying index?","fabriguespe#0",""
+"2022-09-09,17:59:26","fabriguespe","#0","yeah success response from API and then get's indexed","",""
+"2022-09-09,17:59:37","emmajane1313","#0","ok i got a success repsonse but false for index","fabriguespe#0",""
+"2022-09-09,17:59:48","fabriguespe","#0","it's not instant","",""
+"2022-09-09,18:00:12","fabriguespe","#0","allow for a little delay","",""
+"2022-09-09,18:00:16","emmajane1313","#0","i get this error on my args from tx response: `TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at Function.invokeGetter (<anonymous>:3:28)`
+
+i'm not in strict mode ... so i'm wondering if it's something wrong with my args","",""
+"2022-09-09,18:00:38","emmajane1313","#0","or if there is a better way to test? for example, if it does index successfully, should it show up on lenster testnet?","",""
+"2022-09-09,18:02:01","fabriguespe","#0","pls for more  bugs or errors  use the lens discord channel","",""
+"2022-09-09,18:02:49","emmajane1313","#0","alright .","",""
+"2022-09-09,18:03:16","fabriguespe","#0","the better way to test is to assume the transaction will go throught. Optimistic mindset 🙂","emmajane1313#0",""
+"2022-09-09,18:03:52","fabriguespe","#0","but you have to allow for the delay to see it with your eyes","",""
+"2022-09-09,18:04:22","emmajane1313","#0",".... totally disagree... it's a dark forest .. building in blockchain is all about assuming you are dealing with bad actors and preparing for it.","fabriguespe#0",""
+"2022-09-09,18:04:45","emmajane1313","#0","i am fully optimistic in the world that we can build, but that has to recognise that the current world is on fire.","",""
+"2022-09-09,18:05:16","fabriguespe","#0","i understand your point of view, but we need to build optimistic user experiences","",""
+"2022-09-09,18:05:48","fabriguespe","#0","we can't wait for the validators to reach consensus when we make a follow or post an image","",""
+"2022-09-09,18:07:00","fabriguespe","#0","actually i was writing just about this https://medium.com/@fabriguespe/optimistic-uis-3dac0a0ff098
+what do you think?","",""
+"2022-09-09,18:08:00","emmajane1313","#0","cool. i will read this tonight","fabriguespe#0",""
+"2022-09-09,18:10:47","fabriguespe","#0","that's the idea around fast publishing 🙂 fast publishing means optimistic publishing also","",""
+"2022-09-09,18:11:18","fabriguespe","#0","it's like the trilemma issue , we are focusing on user experience and  the 99.9% of use cases","",""
+"2022-09-09,18:11:35","fabriguespe","#0","if something goes wrong we will get a rollback but not much, it;'s not financial assets.","",""
+"2022-09-09,18:11:44","fabriguespe","#0","thinking out loud here","",""
+"2022-09-09,18:17:19","fabriguespe","#0","https://docs.lens.xyz/docs/has-transaction-been-indexed","emmajane1313#0",""
+"2022-09-09,18:17:43","fabriguespe","#0","we advise await pollUntilIndexed(txHash); doing in the background","",""
+"2022-09-09,18:23:44","emmajane1313","#0","interesting take, where i struggle to agree, is how it's similar to when people say we don't need decentralisation... it doesn't matter until it does. Of course as you mention there is essentially  maybe ""less"" on the line, at the same time, if we make that assumption we might find ourselves rapidly back where web2 has taken us","fabriguespe#0",""
+"2022-09-09,18:24:05","emmajane1313","#0","it shouldn't be up to us to decide what's of heavier value: financial content, social content or any other form of creative transaction","",""
+"2022-09-09,18:24:40","emmajane1313","#0","maximising decentralisation lets the edges of the network (the users) decide. We are not going to get 100% decentralisation out of the box, but there is a reason why I don't have any interest in developing on Flow or Solana","",""
+"2022-09-09,18:25:42","emmajane1313","#0","the balance between maximising the experience and maximising how bullet proof the decentralisation of the tech layer really is can be less of a stark trade off if we put more time into thinking things through in a dark forest design approach","",""
+"2022-09-09,18:26:54","emmajane1313","#0","i guess what i'm trying to say it's a really bad user experience to have what you think you own get lost or destroyed or stolen because the system broke down","",""
+"2022-09-09,18:27:18","emmajane1313","#0","but that's why i love web3 and doing this hackathon! cause there is a way to solve this!... that's my optimism!! 🤣","",""
+"2022-09-09,18:28:39","fabriguespe","#0","definitely all valid points 🙂 yess, exciting to be so early in the adoption curve and with so many challenges ahead","",""
+"2022-09-10,00:18:07","b6ack","#0","What is the best way to search a profile by its attributes?","",""
+"2022-09-10,04:34:29","zkgpt","#0","Hi <@533994454391062529> do you have any idea to get the earnings of the profile/publication revenue in the smart contracts? I saw there's an API to get the data but would love to know how to get it in SC, and I'd appreciate it if you could give some hints on this, thanks","fabriguespe#0",""
+"2022-09-10,15:13:32","hidetaka","#3633","<@533994454391062529> 
+In this way of linking Lens to my profile, am I eligible for the prize money?
+
+https://ethglobal.com/events/ethonline2022/prizes#lens","fabriguespe#0","https://cdn.discordapp.com/attachments/959960606729977986/1018237813206036480/Screen_Shot_2022-09-10_at_4.12.16_PM.png"
+"2022-09-10,18:17:29","0xchampi","#0","Hey there, is it possible to get an allocation of handles to give our users for integrating lens into what we're building, so we can test and have some users use it.","",""
+"2022-09-11,03:50:57","0xjm","#5026","hello 'im starting to add lens protocol","",""
+"2022-09-11,03:52:02","0xjm","#5026","i want to use lens profile on my service. How can i do ?","",""
+"2022-09-11,13:16:47","fabriguespe","#0","hey jim, here is only for hackaton. pls go to our discord 🙂","0xjm#5026",""
+"2022-09-11,13:16:59","fabriguespe","#0","it;'s possible, what are u building","0xchampi#0",""
+"2022-09-11,13:17:14","fabriguespe","#0","what u mean?","hidetaka#3633",""
+"2022-09-11,13:17:54","fabriguespe","#0","from my knowledge there is no way to pull it from the smart contract aka we dont have a getter for it you have to write a script to work it out.. 
+
+grab all publications the profile has done
+loop through each of them > grab the collect module details
+grab the collect nft address
+on that contract grab the balance of
+x that by the collect module details amount
+repeat for every publication
+this will not work out how much referrals you got .. doing what he wants only from smart contracts is i think right now is near impossible he needs to look at the events if he doesnt want to use the API","zkgpt#0",""
+"2022-09-11,13:21:42","0xjm","#5026","Yes for this hackathon","fabriguespe#0",""
+"2022-09-11,13:32:15","fabriguespe","#0","oh sorry","",""
+"2022-09-11,13:32:32","fabriguespe","#0","you can start working on testnet","",""
+"2022-09-11,13:32:43","fabriguespe","#0","https://testnet.lenster.xyz/","",""
+"2022-09-11,13:32:47","fabriguespe","#0","create a handle there","",""
+"2022-09-11,14:18:41","hidetaka","#3633","Lens's Prize qualification is like below. I need to know if just being able to incorporate Lens into my profile qualifies me for this qualification.
+
+**Lens is offering:**Fast Publishing ✍️ Ideas around how to publish any type of content to Lens as fast as possible. 🥇 1st Prize: 3500 🥈 2nd Prize: 1500","fabriguespe#0",""
+"2022-09-11,14:19:29","fabriguespe","#0","what u mean by incorporating it into your profile","hidetaka#3633",""
+"2022-09-11,14:21:38","hidetaka","#3633","Adding Lens profile link like above in profile.","","https://cdn.discordapp.com/attachments/959960606729977986/1018587138658422785/5d0454e5551f44ff.png"
+"2022-09-11,15:22:09","fabriguespe","#0","but the hackaton is around fast publishing.","",""
+"2022-09-11,15:22:22","fabriguespe","#0","i dont understand you sir 😅","",""
+"2022-09-12,01:28:20","hidetaka","#3633","What is the fast publishing ? Is this?
+https://docs.lens.xyz/docs/publication-1","fabriguespe#0",""
+"2022-09-12,03:10:07","paolocalzone","#0","<@533994454391062529> Hi, can I DM you? I'd like to share an idea with you and ask you a question.","fabriguespe#0",""
+"2022-09-12,06:37:46","0xjm","#5026","tkx","fabriguespe#0",""
+"2022-09-12,07:35:08","fabriguespe","#0","is about publishing posts, fast, it;s about ux","hidetaka#3633",""
+"2022-09-12,07:35:18","fabriguespe","#0","you can dm me in the lens discord","paolocalzone#0",""
+"2022-09-12,10:47:36","giano95","#0","Hi, what do you mean exactly with fast publishing?","",""
+"2022-09-12,10:48:22","giano95","#0","My team and i were building a dApp that, among other things, gives users the possibility to interact with each other by publishing posts, following etc ...","",""
+"2022-09-12,10:52:30","paolocalzone","#0","I tried, but you don't accept DM in the lens discord.","fabriguespe#0",""
+"2022-09-12,12:25:26","fabriguespe","#0","i mean less steps possible for publishing. fastest experience possible","giano95#0",""
+"2022-09-12,12:25:33","fabriguespe","#0","add me as a friend","paolocalzone#0",""
+"2022-09-12,13:16:37","paolocalzone","#0","It seems you don't accept any.","",""
+"2022-09-12,14:07:24","fabriguespe","#0","I accept messages for sure.","paolocalzone#0",""
+"2022-09-12,14:07:55","fabriguespe","#0","I allowed it here now","",""
+"2022-09-12,14:50:47","nick_w3","#0","Hey Lens Folks i want to integrate Lens into my smart Contract just for creating profiles. I found the MockProfileCreationProxy.sol on mumbai but i cannot call it from my contract that is a proxy . Is it possible to whitelist my contract to create accounts ?","",""
+"2022-09-12,14:52:29","nick_w3","#0","all that bc in that function i am creating the profile i want to do add some related functionality and if i wont be able to execute that in one func i will have to execute two txts !","",""
+"2022-09-12,15:06:41","rcontre360","#0","Hello Lens team! I have a question from our team ShareEth. Some of your contracts exceed the contract size limit, specifically the LensHub contract. How did you upload them, taking in account that there is a contract size limit for deployment?","",""
+"2022-09-12,15:39:11","nick_w3","#0","basically i just want to know if u can provide me that functionality when i conclude to the final contract before the project submission thanks !!","",""
+"2022-09-12,16:05:04","rcontre360","#0","I ran your deployment script on rinkeby and it throws the ""contract size limit exceeded"" error","",""
+"2022-09-12,18:53:36","giano95","#0","Oh ok cool, can i DM you privately to talk about some stuff about lens that i'm not fully clear?","fabriguespe#0",""
+"2022-09-12,19:10:14","fabriguespe","#0","technical questions to the lens discord pls","nick_w3#0",""
+"2022-09-12,19:10:20","fabriguespe","#0","yes!","giano95#0",""
+"2022-09-12,19:11:22","fabriguespe","#0","technical questions to the lens discord pls","rcontre360#0",""
+"2022-09-19,02:43:59","dreamer.07","#0","Hi! I cannot mint my lens profile, it says only ones who have signed the open letter are allowed. I just signed it, yet I can't create new profile. Please help!","",""
+"2022-09-20,06:55:36","kabugu","#0","Hello, we have been working on a project during this hackaton but we forgot to submit the check ins. I wanted to ask are they mandatory and will we be eligible for prises if we just submit the final project on Sunday?","",""
+"2022-09-20,10:32:04","kabugu","#0","any faucet  for  wrapped matic  (WMATIC) OR    WRAPPED  ETHER ?","",""
+"2022-09-20,10:33:48","kabugu","#0","here  is  my  eth  address    0x345fdA96178147bF5E8cdFbfBDF723d15f2973C3","",""
+"2022-09-26,13:02:15","ramitphi","#0","https://ethglobal.com/showcase/storcrypt-00idw
+
+Hey Team IPFS, presenting you with Storcrypt
+Encrypted file storage and retrieval with DIDs and Wallet.
+
+Allowing the user to log-in with their lens id, 
+Used the IPFS to store the encrypted file, the idea being allowing different blockchain ecosystems to use IPFS as a shared/composable storage layer while integrating login with the lens. we are bringing the utility for the lens community to store their file over IPFS in an encrypted way
+
+Future ideas: Allowing the token gated private post(encrypted file), with a dACL based on user followers","",""
+"2022-09-26,14:40:53","ariutokintumi","#0","<@533994454391062529>  <@691744406180462633> hi there! here is German from clu3","fabriguespe#0、lukebateman#0",""
+"2022-09-26,14:41:48","ariutokintumi","#0","I sent you a DM, you looked for me to make a question but the moderator removed us from the call and then tried to add again but couldn't add me again.","",""
+"2022-10-02,17:44:19","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1026248291689693264/unknown.png"
+"2022-10-03,09:11:06","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Lens Protocol** is a composable and decentralized social graph. It lets creators take ownership of their content wherever they go in the digital garden of the decentralized internet. With Lens Protocol, you are in control. You own your profile, where you use it, how you use it, and even how you monetize it. That means you have the power over your content, and it’s all right there, as an NFT, in your wallet. It’s not just easy. It’s how digital identity should be: yours.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st Prize $3,000 for best mobile UX
+🥈 2nd Prize $2,000 for best mobile UX
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/S5bXI51Qm0o
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz","",""
+"2022-10-04,10:17:28","awfm9","#3383","How can I claim my handle on Lens on the main network? It says I have to sign the open letter, which I did. But it still won't let me claim my handle. It would be quite useful to actually be able to interact with existing applications in order to prepare for the hackathon.","",""
+"2022-10-06,17:25:16","willie","#8927","Hi guys. Planning on using lens protocol in the hackathon. I have a couple of questions. 
+
+Should we deploy the app to Mumbai testnet or running it local is enough? (my first hackathon)
+
+In case we should deploy the app to Mumbai, is it possible to whitelist a custom follow module?","",""
+"2022-10-06,22:17:38","awfm9","#3383","Hi guys Planning on using lens protocol","",""
+"2022-10-07,13:10:39","fabriguespe","#0","pls use testnet! https://testnet.lenster.xyz/","awfm9#3383",""
+"2022-10-07,13:10:48","fabriguespe","#0","u can give me wallet for me to whitlist, but no need for hackaton","",""
+"2022-10-07,13:11:25","fabriguespe","#0","in sandbox you can create modules without whitelist","willie#8927",""
+"2022-10-07,14:29:51","LordCharles","#7732","What are the testnet.Leinster network parameters in order to add to metamask","",""
+"2022-10-07,19:45:53","ownerofjk","#0","Anyone representing lens at ETH Bogota?
+
+We are building a networking dapp on top of it. Would love to connect and ask a few questions.","",""
+"2022-10-07,20:47:41","0xliberato","#0","can you whitelist mine?","fabriguespe#0",""
+"2022-10-07,20:58:20","inigozart","#0","Hello guys","",""
+"2022-10-07,20:58:39","inigozart","#0","We are at Eth Bogotá but can’t seem to find the lens stand. Anyone knows who can give support?","",""
+"2022-10-07,20:59:12","inigozart","#0","We want to see how to create posts in Lens using the API?","",""
+"2022-10-07,22:10:23","kittakat","#0","hey team! we'd love to talk too, just started hacking on the main floor! who are the points of contact at Bogota atm?","",""
+"2022-10-07,23:06:39","brunoeleodoro","#0","Anyone from Lens Protocol around (in person) for a talk?","",""
+"2022-10-08,00:17:18","seeinplays","#0","Anyone available to help with integrating lens modules?","",""
+"2022-10-08,04:09:16","chloelxu","#0","Hey hackers, there is no lens booth at ETHBogotá! 🌱 
+You should still be able to talk to the sponsor in this channel 
+I also recommend going up to the Tech Mentor table and asking fellow hackers","",""
+"2022-10-08,05:23:10","MemeConscious","#6394","are there any lens reps here","",""
+"2022-10-08,05:23:26","MemeConscious","#6394","meaning, at the venue","",""
+"2022-10-08,08:46:29","inigozart","#0","It’s been like 9 hours and no one from the team has answered 😔","chloelxu#0",""
+"2022-10-08,08:46:46","inigozart","#0","Do you know who we can text? 😄","",""
+"2022-10-08,09:43:28","MemeConscious","#6394","maybe try engaging their follow module","",""
+"2022-10-08,09:47:16","ownerofjk","#0","<@884503153414905917> yeah, how are we supposed to talk to a representative if no one is available.
+
+We have 36 and now only 24 hours left...","chloelxu#0",""
+"2022-10-08,09:48:53","ownerofjk","#0","Shows low effort from Lens without any representation.","",""
+"2022-10-08,12:27:22","willie","#8927","Hi, I'm having issues trying to create a gasless post","",""
+"2022-10-08,12:28:21","willie","#8927","Trying to execute this script from the examples repo
+https://github.com/lens-protocol/api-examples/blob/master/src/publications/post-gasless.ts
+But I go this error:","",""
+"2022-10-08,12:28:55","willie","#8927","","","https://cdn.discordapp.com/attachments/959960606729977986/1028343244121190400/unknown.png"
+"2022-10-08,12:29:36","willie","#8927","Someone can help me please? or is there another example? I cannot create post","",""
+"2022-10-08,12:38:35","MemeConscious","#6394","try declaring the signer in a var beforehand","",""
+"2022-10-08,12:39:06","fabriguespe","#0","hey! im going there this afternoon.","inigozart#0",""
+"2022-10-08,12:39:07","Crypto Papi","#6016","Hey can a dev help me out with setting up docker environment on windows for api and running into issues. Can someone please help?","",""
+"2022-10-08,12:39:13","fabriguespe","#0","we dont have a stand","",""
+"2022-10-08,12:39:40","fabriguespe","#0","yes team is arriving as we speak! see you later","MemeConscious#6394",""
+"2022-10-08,12:40:46","miguehb.","#0","do you have any spot where the team will be ?","",""
+"2022-10-08,12:41:02","fabriguespe","#0","we dont have a stand no, ping me at telegram fabriguespe","",""
+"2022-10-08,12:42:19","fabriguespe","#0","Hey everyone! Apologies for the redirection — the best and fastest way to get support is going to be the Lens Discord (https://discord.gg/lensprotocol)","",""
+"2022-10-08,12:49:32","fabriguespe","#0","send me","0xliberato#0",""
+"2022-10-08,12:49:51","0xliberato","#0","0xC293ab79eF135886e8650f81241748358Df5a1ed","fabriguespe#0",""
+"2022-10-08,12:50:44","0xliberato","#0","0x36781B49A5E29C46c161acF5A42dFea57975e00A","",""
+"2022-10-08,12:50:49","0xliberato","#0","0x6558e89b3399A2bC82Bfc98b0BcE6E13163243F1","",""
+"2022-10-08,12:51:14","0xliberato","#0","it's for me and my yeam","",""
+"2022-10-08,12:52:02","miguehb.","#0","0x87B61FFE9b1F3Ecf74253cF03E8561631F68F721","",""
+"2022-10-08,12:52:14","miguehb.","#0","can you whitelist this one as well pls ?","",""
+"2022-10-08,12:56:50","fabriguespe","#0","done!","",""
+"2022-10-08,14:59:56","seeinplays","#0","I need help with Lens integration, are there any mentors around?","",""
+"2022-10-08,16:29:25","bendumoulin","#0","Hi, we want to integrate Lens in our project. Is someone here for questions?","",""
+"2022-10-08,17:01:59","miguehb.","#0","Hello, I have a question, I am able to create a post using the method createPostTypedData , however, how I can collect it so it appears on my feed? can someone help on this process?","",""
+"2022-10-08,17:56:06","pat.zip","#0","hi fabri! I'm in the same team, could you whitelist this address:
+0x6e77e404C3107536a4E66647A2e4D8973981A426","fabriguespe#0",""
+"2022-10-08,20:22:34","pat.zip","#0","hi <@533994454391062529> or anyone from lens - could I get this whitelisted?","fabriguespe#0",""
+"2022-10-08,20:22:39","pat.zip","#0","thanks a lot!","",""
+"2022-10-08,20:42:49","kopykat0256","#0","Hey, we have an error when using the lens subgraph. Would anyone be able to help us out","",""
+"2022-10-08,21:23:35","mulleth.dude","#4255","hey lens! I am wondering how to create a profile on mumbai using the proxy?","",""
+"2022-10-08,23:08:10","migrenaa","#0","hey hey ! I post a publication with createPostTypedData, however I don't see it on lenster. Am I missing something?","",""
+"2022-10-08,23:24:11","mulleth.dude","#4255","ok I missed the mockcreateproxy^^ , it should be enough👍","",""
+"2022-10-09,01:22:48","inigozart","#0","hello!","",""
+"2022-10-09,01:23:00","inigozart","#0","need an address whitelisted for lens for eth bogota, doing some testing","",""
+"2022-10-09,01:23:05","inigozart","#0","anyone from lens can help me?","",""
+"2022-10-09,01:23:10","inigozart","#0","address is","",""
+"2022-10-09,01:23:24","inigozart","#0","0xE94a9D9d7F10E763B34Db0D718F322AC468dcdE9","",""
+"2022-10-09,02:34:55","nickbashour","#3654","is anyone having trouble confirming that publications actually post to the chain?","",""
+"2022-10-09,05:34:20","inigozart","#0","we are having trouble with making automatic posts on lens. you could make it work?","nickbashour#3654",""
+"2022-10-09,09:23:36","fabriguespe","#0","done!","inigozart#0",""
+"2022-10-09,09:23:46","fabriguespe","#0","pls go to our discord , best channel for support","inigozart#0",""
+"2022-10-09,09:23:50","fabriguespe","#0","done!","pat.zip#0",""
+"2022-10-09,11:07:29","fabriguespe","#0","hey teams! received 27 applications!","",""
+"2022-10-09,11:07:34","fabriguespe","#0","reviewing them now","",""
+"2022-10-09,11:07:52","fabriguespe","#0","come by to pitch if you feel so we are around in one table","",""
+"2022-10-09,11:08:04","fabriguespe","#0","web3 coffe url not woking..? are there figmas?","",""
+"2022-10-10,08:25:30","berroelcrack","#0","Heeey !! How do I get tickets for raave? I saw on twitter that if we hacked with lens we can have tickets for raave","",""
+"2022-10-10,08:25:47","berroelcrack","#0","I really want to go !!","",""
+"2022-10-10,10:02:56","nlnw","#0","Is there any way to claim a handle nowadays?","",""
+"2022-10-20,09:01:16","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1032639629037420577/unknown.png"
+"2022-11-01,05:10:20","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Lens Protocol** is a composable and decentralized social graph. It lets creators take ownership of their content wherever they go in the digital garden of the decentralized internet. With Lens Protocol, you are in control. You own your profile, where you use it, how you use it, and even how you monetize it. That means you have the power over your content, and it’s all right there, as an NFT, in your wallet. It’s not just easy. It’s how digital identity should be: yours.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 Top 2 Winners - 2 x $3,500
+
+🤝 Lens will also offer $100 per project to any project that integrates Follow-on Lens and Sign-in with Lens or uses the Lens API in some way (up to 30 projects)
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+*More info soon!*
+
+
+🔗 **IMPORTANT LINKS**
+https://aave.notion.site/Hackatons-Hub-d7411f54ef4547a99104fb6df4ac236b
+http://docs.lens.xyz/","",""
+"2022-11-03,11:50:39","oliz0808.eth","#0","hihi， sorry to interrupt, but i would like to ask is there a way to extract the footprint of the user (like/dislike a comment), i do not find it in developer quick starter","",""
+"2022-11-04,22:29:32","alllowercase","#0","hi can i have a beta key, im a builder","",""
+"2022-11-04,23:03:24","dinislam1","#0","Hello 👋  I'm a builder at ETH SF, wondering how I can get beta access?","",""
+"2022-11-05,03:57:57","Ger Godfrey","#0264","some video how connect the lens perfil to a my dapp ?","",""
+"2022-11-05,11:42:38","mayur2170","#0","I would like to get access as well please","",""
+"2022-11-05,19:27:13","nimapourjafar","#0","hey there","",""
+"2022-11-05,19:27:31","nimapourjafar","#0","im wondering how we can enable users to make posts on lens with a specific hashtag of some sort","",""
+"2022-11-05,21:57:16","sigil2389","#0","Hi! Trying to get the developer quickstart to work but npm run dev gets an error:
+`the top-level-await experiment is not enabled`
+
+Running node v18.12.1","",""
+"2022-11-06,01:17:42","sheikebab","#0","Hey we are trying to integrate Lens, how do we get access/beta access?","",""
+"2022-11-06,19:37:06","herbstephens","#0","Hey Lens .. I just attended ETH SF .. and want to build on Lens. Can I get a whitelist??","",""
+"2022-11-07,11:57:16","Rui","#3125","<@533994454391062529>Hello Fabri! We won the Lens prize yesterday, would love to further develop the idea! Can we connect on tg? I'll send u a DM ❤️","fabriguespe#0",""
+"2022-11-21,12:52:21","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1044309306629177484/unknown.png"
+"2022-11-28,05:42:18","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Lens Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Lens Protocol **is a composable and decentralized social graph. It lets creators take ownership of their content wherever they go in the digital garden of the decentralized internet. With Lens Protocol, you are in control. You own your profile, where you use it, how you use it, and even how you monetize it. That means you have the power over your content, and it’s all right there, as an NFT, in your wallet. It’s not just easy. It’s how digital identity should be: yours.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st Prize — $3,500 
+🥈 2nd Prize — $1,500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/1wv9VnFzj5s
+
+
+🔗 **IMPORTANT LINKS**
+https://aave.notion.site/Hackatons-Hub-d7411f54ef4547a99104fb6df4ac236b
+http://docs.lens.xyz/","",""
+"2022-11-30,09:31:30","harpaljadeja.eth","#0","https://mumbai.polygonscan.com/tx/0x9e6a42c6cf7cf48a0ba79b161e98b259eabf8177c1981e8e3ccb7c628f03922c","",""
+"2022-11-30,09:31:40","harpaljadeja.eth","#0","my post is not being indexed","",""
+"2022-12-02,07:37:55","0xssdd","#0","Hey is the SDK open source?","",""
+"2022-12-02,07:56:02","digitalbeacon","#0","Hi, whom should we contact for help on lens on the venue?I didn't find any stall for lens protocol","",""
+"2022-12-02,08:36:25","geoist","#0","Anyone from Lens team in the venue?","",""
+"2022-12-02,08:42:59","yoginth","#0","Gm y’all I’ll be in venue at 11","",""
+"2022-12-02,08:43:05","yoginth","#0","Let’s all catchup there","",""
+"2022-12-02,08:51:09","fabriguespe","#0","Don’t forget to check this out https://aave.notion.site/Hackatons-Hub-d7411f54ef4547a99104fb6df4ac236b","",""
+"2022-12-02,09:00:37","digitalbeacon","#0","<@533994454391062529> where can I catch up with you?","fabriguespe#0",""
+"2022-12-02,10:01:33","denniarems","#0","<@533994454391062529>  where can i find you in ethindia. I'm hacking on lens","fabriguespe#0",""
+"2022-12-02,13:05:56","ishita30","#0","Hey I am working on Set profile metadata but getting this error. can you please let me know what's wrong?
+
+Attached error and code snippet","","https://cdn.discordapp.com/attachments/959960606729977986/1048298991026196490/Screenshot_2022-12-02_at_11.25.22_PM.png"
+"2022-12-02,13:27:39","keiser","#9469","Anyone from the team who can help us with the whitelist? We are unable to use it at EthIndia as our addresses are not eligible","",""
+"2022-12-02,13:29:45","keiser","#9469","<@533994454391062529>","fabriguespe#0",""
+"2022-12-02,13:36:46","fabriguespe","#0","u can code on testnet testnet.lenster.xyz","keiser#9469",""
+"2022-12-02,13:36:52","fabriguespe","#0","No need whitelist on testnet","",""
+"2022-12-02,13:55:05","ishita30","#0","<@533994454391062529>  any input on this?","fabriguespe#0",""
+"2022-12-02,13:55:20","fabriguespe","#0","Team is going there now","",""
+"2022-12-02,13:55:27","fabriguespe","#0","Ping <@736059227465973900>","yoginth#0",""
+"2022-12-02,14:44:55","datahunter98","#0","Hello our team is looking for some support from AAVE. Is anyone here at the hacker house?","",""
+"2022-12-02,15:04:43","yoginth","#0","We are here infront of stage","datahunter98#0",""
+"2022-12-02,15:04:48","yoginth","#0","in the VIP lounge","",""
+"2022-12-02,23:12:00","sunnyrk","#0","Hey, I think my address need to whitelist because i am not able to fetch my feed
+0xb50685c25485CA8C520F5286Bbbf1d3F216D6989","",""
+"2022-12-02,23:12:08","sunnyrk","#0","can you help me?","",""
+"2022-12-02,23:15:15","sunnyrk","#0","<@533994454391062529> <@736059227465973900>","fabriguespe#0、yoginth#0",""
+"2022-12-02,23:27:45","robinrrt","#0","Hey is there a way I can do a lookup of a lens profile using just the address using solidity?","",""
+"2022-12-02,23:28:24","robinrrt","#0","<@736059227465973900> <@533994454391062529>","fabriguespe#0、yoginth#0",""
+"2022-12-03,00:03:59","fabriguespe","#0","check now!","sunnyrk#0",""
+"2022-12-03,00:26:46","sunnyrk","#0","ok <@533994454391062529>","fabriguespe#0",""
+"2022-12-03,01:02:49","yoginth","#0","yes that's possible with `getProfile()` method
+
+https://docs.lens.xyz/docs/view-functions#getprofile","robinrrt#0",""
+"2022-12-03,01:02:59","yoginth","#0","hope this is fixed now 🙇‍♂️","ishita30#0",""
+"2022-12-03,01:03:49","yoginth","#0","is this still an issue?","harpaljadeja.eth#0",""
+"2022-12-03,01:05:20","sunnyrk","#0","hey <@533994454391062529> did you get chance to look into it","fabriguespe#0",""
+"2022-12-03,01:08:24","harpaljadeja.eth","#0","works now thanks","yoginth#0",""
+"2022-12-03,01:08:58","fabriguespe","#0","Already whitelisted ser","sunnyrk#0",""
+"2022-12-03,01:09:54","ishita30","#0","Yesss! Thank you for your help. 🚀","yoginth#0",""
+"2022-12-03,01:22:47","sunnyrk","#0","Okay thanks
+but i am trying to getpublicationData on polygon mainnet but instead only lenster data can fetch","fabriguespe#0",""
+"2022-12-03,01:57:41","yoginth","#0","wdym lenster data?","sunnyrk#0",""
+"2022-12-03,02:05:53","sunnyrk","#0","i mean whatever i posted using my app can't retrieve that publication. 
+only my old publication of lenster coming for my address","yoginth#0",""
+"2022-12-03,02:06:22","yoginth","#0","is your txn got indexed?","sunnyrk#0",""
+"2022-12-03,02:07:15","yoginth","#0","```gql
+{
+  hasTxHashBeenIndexed(request: {
+    txHash: """"
+  }) {
+    ... on TransactionIndexedResult {
+      indexed
+      metadataStatus {
+        status
+        reason
+      }
+    }
+  }
+}
+```
+
+you can run this in api playground to check the status","",""
+"2022-12-03,02:09:16","sunnyrk","#0","I was just calling this post function of lens hub
+
+```
+
+    try {
+      const tx = await contract.post({
+        profileId: userLensId,
+        contentURI: uri.toString(),
+        collectModule: Collect_Module,
+        collectModuleInitData: ZERO_BYTES,
+        referenceModule: Reference_Module,
+        referenceModuleInitData: ReferenceModuleInitData
+      })
+
+```","",""
+"2022-12-03,02:09:24","sunnyrk","#0","to post on lens","",""
+"2022-12-03,02:09:40","sunnyrk","#0","and tx was succeed","",""
+"2022-12-03,02:10:56","sunnyrk","#0","<@736059227465973900>","yoginth#0",""
+"2022-12-03,02:16:50","yoginth","#0","did that got indexed? you can check with the above query in https://api-mumbai.lens.dev/","sunnyrk#0",""
+"2022-12-03,02:17:13","sunnyrk","#0","ok, i am using polygon mainnet","",""
+"2022-12-03,02:17:19","sunnyrk","#0","is it ok?","",""
+"2022-12-03,02:17:51","yoginth","#0","https://api.lens.dev/","",""
+"2022-12-03,02:18:20","yoginth","#0","we always suggest using testnet for development 🙇‍♂️","",""
+"2022-12-03,02:20:02","sunnyrk","#0","okay i will integrate with it then","",""
+"2022-12-03,02:53:03","yoginth","#0","We are in the venue now! Ping me with table number I’ll be there","",""
+"2022-12-03,03:05:01","geoist","#0","41/42","yoginth#0",""
+"2022-12-03,03:57:52","keiser","#9469","Hey we are at the registration counter. Do you have a stall or location where we can come and visit","yoginth#0",""
+"2022-12-03,05:35:46","TheBlackReaper17","#4482","+1 <@736059227465973900>","keiser#9469、yoginth#0",""
+"2022-12-03,05:51:41","thunder07_","#0","<@736059227465973900> We are near the registration desk, Gate-B. Do let us know whenever you have some time to spare, would love to discuss with you.","yoginth#0",""
+"2022-12-03,06:11:02","heemankv","#0","Where is lens protocol!😭","",""
+"2022-12-03,07:24:21","MAZY","#0561","<@736059227465973900> Hello Yogi, I would like to use create profile feature to integrate Lens profile into our Dapp. How can I use this function? I found It's needed to get approval from Lens team.","yoginth#0",""
+"2022-12-03,08:48:07","robinrrt","#0","This requires the `profile id` right? What If i  don't have it? Can i lookup maybe a `default profile` or check if a particular address has a lens profile?","yoginth#0",""
+"2022-12-03,08:56:59","harpaljadeja.eth","#0","<@736059227465973900> 
+
+I put this url as followNFTURI during profile creation
+
+https://revise.link/295903d4-5d9f-4d22-b396-bd14ce0651a2
+
+When I follow this profile I don't get NFT with this metadata","yoginth#0",""
+"2022-12-03,08:57:39","keiser","#9469","<@736059227465973900> are you available in person here. We had a few queries we wanted to clear","yoginth#0",""
+"2022-12-03,09:34:17","yoginth","#0","in vip lounge in zone 1","thunder07_#0",""
+"2022-12-03,09:35:22","thunder07_","#0","Would you be available tomorrow morning ?","yoginth#0",""
+"2022-12-03,09:42:11","yoginth","#0","same place","thunder07_#0",""
+"2022-12-03,10:04:11","sal2701","#3025","<@736059227465973900> we are at zone 1 where can we meet you?","yoginth#0",""
+"2022-12-03,10:17:22","thunder07_","#0","Epic! See ya!","yoginth#0",""
+"2022-12-03,22:37:13","heemankv","#0","<@736059227465973900> it was a pleasure building on Lens protocol, learnt a lot and had a lot of fun, looking forward to your reviews on our submission AlkyneFi 🥳","yoginth#0",""
+"2022-12-03,23:05:14","fabriguespe","#0","On our way","",""
+"2022-12-04,08:45:13","rashtrakoff","#0","Hey, sorry to disturb you <@736059227465973900> , but by the winners of Lens protocol bounty (teamrains), did you actually mean LensMaxi? That is the github repo that I believe you are referring to: https://devfolio.co/projects/lensmaxi-4212","yoginth#0",""
+"2022-12-05,21:02:45","digitalbeacon","#0","Hi all","",""
+"2022-12-05,21:03:24","digitalbeacon","#0","Just a quick query..when will the addresses submitted at lens booth during ETHIndia be whitelisted for lens  handle?","",""
+"2022-12-06,19:05:06","nightfallsh4","#0","Hey Is there a way to get a lens profile?, I missed you guys on the hackathon. 
+
+Been trying to get a lens profile for months.
+
+My ENS is :- rustboot.eth","",""
+"2023-03-14,06:49:14","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1085152654616953014/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,11:30:17","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lens Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lens Protocol** is a composable and decentralized social graph. It lets creators take ownership of their content wherever they go in the digital garden of the decentralized internet. With Lens Protocol, you are in control. You own your profile, where you use it, how you use it, and even how you monetize it. That means you have the power over your content, and it’s all right there, as an NFT, in your wallet. It’s not just easy. It’s how digital identity should be: yours.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 - $5,000 USDC
+🥈 - $3,000 USDC
+🥉 - $2,000 USDC
+🎖 10 best Lens Integrations for $1,000 USDC each
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🚀 **WORKSHOP**
+Building Full Stack Web3 Social Applications
+Time: 07:00 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz/","",""
+"2023-04-12,21:42:09","dabit3","#0","Hi everyone, so excited for the hackathon this week!
+
+If you're interested in learning more about Lens or the Lens bounties, this thread is a great place to start:
+https://twitter.com/LensProtocol/status/1646294369471991810
+
+Here are a great set of resources to get started building:
+https://twitter.com/LensProtocol/status/1646294456205967360
+
+If you have any questions, feel free to drop a question here or reach out to me on Telegram at `@naderdabit`
+
+Me and Jess from the DevRel team will be around the venue over the next 3 days and will be happy to answer questions or help you in any way, so definitely come find us 🫡
+
+Also if you're hacking, be sure to stop by the booth, let us know what you're building, and pick up some swag!","",""
+"2023-04-13,04:15:16","0xacid","#0","hello everyone!
+
+We're a team of 2, thinking to build a simple dapp that makes it easy and effortless to leverage the value of your networking efforts on an event or hackathon just like this one !
+
+The idea is to use the dapp to connect with people you meet, so at its core its a social app and thus we decided to build on Lens network to leverage interoperability & composability with other social platforms.
+
+Interested to see what else will people be building on Lens in ETHTokyo, identifying overlaps early might lead to either team to pivot or even merge 🙂","",""
+"2023-04-13,22:53:29","couscous4304","#0","hello Lens team, may I know if there's a deployment on Scroll network? Thank you very much. 🙏","",""
+"2023-04-13,23:00:35","0xyuzu","#0","HI, Is it possible to get the number of followers and followers of a specific lens domain on-chain?","",""
+"2023-04-13,23:37:20","couscous4304","#0","I'm interested in `useFeed()`.Is it possible to create a feed for a number of people to follow? Something like a channel or hashtag. 
+What I understand is that one can only specify `Profile interests` , and it will become the feed. Is it correct?","",""
+"2023-04-13,23:43:15","0xacid","#0","gm! <@105679772993994752> are you or any teammate of yours at the venue early by any chance? need to pick your minds 🙂","dabit3#0",""
+"2023-04-14,02:49:00","dabit3","#0","hey, no not atm","couscous4304#0",""
+"2023-04-14,06:47:19","dabit3","#0","hey, for a user?","0xyuzu#0",""
+"2023-04-14,06:48:40","dabit3","#0","if so, yes:
+
+```
+query getProfile {
+  profile(request:{
+    profileId: ""0x28a2""
+  }) {
+    stats {
+      totalFollowing
+      totalFollowers
+    }
+    
+    handle
+  }
+}
+```
+
+and to get followers:
+
+```
+query Followers {
+  followers(request: { 
+    profileId: ""0x01"",
+      limit: 10
+   }) {
+    items {
+      wallet {
+        defaultProfile {
+          handle
+        }
+      }
+    }
+  }
+}
+```","",""
+"2023-04-14,06:48:58","dabit3","#0","hey, yes! We'll be here all day the next two days, we're here now but leaving soon","0xacid#0",""
+"2023-04-14,12:00:22","gabriele815","#0","hi - for testing purposes can someone help our team with generating profiles?","",""
+"2023-04-14,12:56:49","dabit3","#0","hey, yes can you dm me on telegram with some details of what you're considering to build along with the wallet addresses of your dev team?","gabriele815#0",""
+"2023-04-14,19:50:17","sjbao","#0","Hello I am trying to join the Lens Protocol discord channel but the bot isn't able to send me a dm when I try to verify, anyone have an idea what I could be missing?","",""
+"2023-04-14,20:37:44","dabit3","#0","hey, sorry you're running into issues, were you still unable to figure this out?","sjbao#0",""
+"2023-04-14,20:38:40","sjbao","#0","Hello not yet","",""
+"2023-04-14,23:01:45","dabit3","#0","looks like we connected at the event lets chat on dms","sjbao#0",""
+"2023-04-14,23:30:11","xentoshi","#0","huge thank you to the queen at the lens booth -- you know who you are! ❤️ ❤️ ❤️","",""
+"2023-04-15,00:30:37","ervin.zk","#0","Is it possible for me to claim a handle of lens? we're working on lens.","",""
+"2023-04-15,02:16:09","valentino","#8180","hi wanted to know why the lens widget it somehow cant detect if i have my lens handle","",""
+"2023-04-15,05:09:22","dabit3","#0","hey, can you reach out to me on Telegram at `@naderdabit ` and I can help you out?","ervin.zk#0",""
+"2023-04-15,05:09:41","dabit3","#0","hey, can you give more info here, or the use case so I can understand better please?","valentino#8180",""
+"2023-04-15,05:20:15","0xsarah","#0","Hi, how shd we claim lens profile on Mumbai?","",""
+"2023-04-15,05:39:10","dabit3","#0","you can claim a testnet profile at https://testnet.lenster.xyz/","0xsarah#0",""
+"2023-04-15,06:02:00","0xacid","#0","Hi <@105679772993994752> , I'm struggling to find how to query for profiles that have specific custom attributes.
+
+i.e. let's say we want to fetch profiles that have the following kv pair in their profile metadata `{""key"":""tokyoDapp"",""value"":""1""}`. How would we go about that?","dabit3#0",""
+"2023-04-15,10:41:00","dabit3","#0","hey, I don't think this is currently supported by our search API
+
+you could build something like this fairly easily though with the BigQuery API, there is a video guide on how to use this here:","0xacid#0",""
+"2023-04-15,10:41:10","dabit3","#0","https://www.youtube.com/watch?v=b98UZ0Bqr7E","",""
+"2023-04-15,10:41:28","dabit3","#0","https://docs.lens.xyz/docs/public-big-query","",""
+"2023-04-15,10:42:14","0xacid","#0","hey nader thanks for the reply, I;ve already pivoted to a slightly different project on Lens, using BigQuery 🙂
+awesome trove of data you've got there.. will show you tomorrow I guess 🙂","dabit3#0",""
+"2023-04-16,01:08:17","darrylyeo","#0","Hey Lens frens! Missed the in-person presentation so posting here.
+
+For ETHTokyo I built a Lens interface with profile lookups and authentication, with support for all three deployed instances of the protocol (Polygon PoS, Polygon Mumbai, and Sandbox Polygon Mumbai).
+
+I also added first-class support for Lens handles across all address inputs in the interface - you can type any Lens handle (e.g. stani.lens) and it will automatically resolve to the owner's address if it makes sense for the given context.
+
+I just scratched the surface of the Lens API this weekend and hope to dive even deeper for future events!
+
+Check it out:
+https://blockhead.info/apps/lens
+https://ethglobal.com/showcase/blockhead-ethtokyo-2023-kx4rh","",""
+"2023-04-16,19:26:37","dabit3","#0","hey, awesome work!!! this looks really great","darrylyeo#0",""
+"2023-05-01,14:24:35","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1102661868499247194/Viewable_on_TV.png"
+"2023-05-08,12:33:44","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lens Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lens Protocol** is the social layer for web3.
+
+The Lens social graph enables creators to take ownership of their content wherever they go across the dozens of high quality apps across the Ecosystem, with new ones coming online every month.
+
+With Lens, you can easily build social applications or integrate social features into your existing applications. For developers, one of Lens' most powerful features is that it eliminates the need to build, maintain and pay for back-end infrastructure, allowing developers to focus 100% on building the consumer experience.
+
+Teams with as few as 1 developer are able to build polished experiences on Lens using the variety of APIs and SDKs available to builders.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇$3,500 USDC - Prize for best social web or mobile application built on Lens.
+🥈$2,500 USDC - Prize for second best social web or mobile application built on Lens.
+🥉$1,500 USDC - Prize for third best social web or mobile application built on Lens.
+
+5️⃣ Plus 5 best Lens integrations for $500 USDC each
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🚀 **WORKSHOP**
+Lens Protocol 101: A Workshop for Building Full Stack Web3 Social Applications
+Time: 05:30 PM WEST – May 12, 2023
+Location: 2nd Floor | Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.lens.xyz/
+https://lens.xyz/apps
+https://aave.notion.site/Inspiration-for-Builders-1db7dbd3e7b14eaf9a97a341b1a3ff55
+https://aave.notion.site/Hackathons-d7411f54ef4547a99104fb6df4ac236b
+https://github.com/lens-protocol/lens-widgets/tree/main","",""
+"2023-05-11,20:32:39","dabit3","#0","Hi everyone, excited for the hackathon this week in Lisbon!
+
+The links above dropped by <@720407640131240026> are a great place to start if you're planning on building with Lens
+
+If you have any questions, feel free to drop a question here or reach out to me on Telegram -> `@naderdabit`
+
+Me and Jess from the DevRel team will be around the venue over the next 3 days and will be happy to answer questions or help you in any way, so definitely come find us 🫡
+
+Also if you're hacking, be sure to stop by the booth, let us know what you're building, and pick up some swag!","awliang#0",""
+"2023-05-12,11:31:40","0xdorifto","#0","hey Nader, is the workshop going to be the same as this one? I also want to go to another workshop that happens at the same time so I need to make a decision 😅 
+
+https://www.youtube.com/watch?v=3UAZJf6GhlE&ab_channel=ETHGlobal","dabit3#0",""
+"2023-05-12,12:14:06","dabit3","#0","hey, it will be this workshop - https://github.com/dabit3/lens-protocol-workshop
+
+which is new because it uses the new Lens SDK, but the introduction will be similar","0xdorifto#0",""
+"2023-05-12,16:32:29","pleaner","#0","Hey <@105679772993994752>, please will you green light me for Lens, pleaner.eth
+Thank you","dabit3#0",""
+"2023-05-12,20:15:10","dabit3","#0","hey you are gtg","pleaner#0",""
+"2023-05-12,20:42:15","paulbecker","#0","anybody did the authentication on the testnet lens api ?","",""
+"2023-05-12,22:11:55","dabit3","#0","heads up - if anyone wants an easy way to mint a testnet profile, you can do so at https://testnet.lenster.xyz/","",""
+"2023-05-13,03:12:41","jaimebarrancos","#0","Hey, how do I go about to get a lens profile","",""
+"2023-05-13,06:26:10","tyomych_13","#0","we did","paulbecker#0",""
+"2023-05-13,06:35:32","Tamlyn","#2335","Is there a Lens desk here at the venue?","",""
+"2023-05-13,07:00:02",".deisenberg","#0","Good Morning <@105679772993994752> , could you also whitelist me for Lens please, deisen.eth
+Thank you","dabit3#0",""
+"2023-05-13,07:00:36","markh51","#0","<@105679772993994752> is the SDK working? everyone we speak to is having issues","dabit3#0",""
+"2023-05-13,07:21:36","maija_here","#0","Have played with the basic functions, with some tweaking got it working. DM me if you still having issue","markh51#0",""
+"2023-05-13,07:53:26","samueloh","#0","```
+import dynamic from ""next/dynamic"";
+
+import { SignInWithLens } from ""@lens-protocol/widgets-react"";
+
+export default function Signup() {
+  async function onSignIn(tokens: any, profile: any) {
+    console.log(""tokens: "", tokens);
+    console.log(""profile: "", profile);
+  }
+
+  return (
+    <main className=""flex min-h-screen flex-col items-center justify-between"">
+      <div className=""flex w-full h-full border border-white flex-grow justify-center items-center"">
+        <div className=""flex border border-white flex-col justify-center items-center"">
+          <h1 className=""text-2xl mb-6 font-bold"">My Profile</h1>
+
+          <SignInWithLens onSignIn={onSignIn} />
+        </div>
+      </div>
+    </main>
+  );
+}
+
+```
+
+Does anyone getting this error while trying to import SignInWithLens Component from 
+import { SignInWithLens } from ""@lens-protocol/widgets-react""; ?","","https://cdn.discordapp.com/attachments/959960606729977986/1106912085499199538/Screenshot_from_2023-05-13_12-52-14.png"
+"2023-05-13,07:54:25","samueloh","#0","Using nextjs ""13.3.1"",","",""
+"2023-05-13,07:54:34","samueloh","#0","typescript  ""5.0.4"",","",""
+"2023-05-13,08:15:49","lunsen_","#0","hey, we are building on lens. spoke with amit as I would need a profile..","",""
+"2023-05-13,08:35:16","dabit3","#0","hey, what issues are ppl having?","markh51#0",""
+"2023-05-13,08:35:27","dabit3","#0","i'm around and csn help","",""
+"2023-05-13,09:03:51","DannySantos","#8833","Is there anything else we need to do to get a profile other than claim the poap and wait?","",""
+"2023-05-13,09:27:08","markh51","#0","<@105679772993994752> where are you? Easier to explain!","dabit3#0",""
+"2023-05-13,09:58:37","seanwbren","#0","hey, I tried doing the human.withlens.app Worldcoin verification and got this","","https://cdn.discordapp.com/attachments/959960606729977986/1106943588610363402/IMG_3056.png"
+"2023-05-13,09:59:55","markh51","#0","<@101107934380957696> that's a problem with worldcoin - the frontend isn't updated. They were hoping its fixed by this hackathon but its not. Will be fixed in weeks not months I was told.","seanwbren#0",""
+"2023-05-13,10:00:08","markh51","#0","has anyone seen <@105679772993994752> ?","dabit3#0",""
+"2023-05-13,10:33:46","pleaner","#0","Check the Lounge, Bean Bag 3","markh51#0",""
+"2023-05-13,10:34:36","pleaner","#0","Whats the best practice with regards to receive and fallback functions on Reference Modules?","",""
+"2023-05-13,10:43:18","dabit3","#0","hey, I can help you claim one, I'm downstairs","DannySantos#8833",""
+"2023-05-13,10:43:47","dabit3","#0","yes, I'm downstairs, will be walking around for the next 2 hours at the tables","markh51#0",""
+"2023-05-13,10:45:52","dabit3","#0","schedule today will be here until 5:30pm, be back at 9pm until midnight or 1am","",""
+"2023-05-13,11:02:27","DannySantos","#8833","We just need the addresses whitelisted that Ilya sent to you","dabit3#0",""
+"2023-05-13,11:23:21","dabit3","#0","those are all now whitlisted
+
+should be able to claim at https://lens.xyz
+
+If you want to check out a couple of apps, have a look at Orb (mobile), Buttrfly (Mobile), and https://lenster.xyz (web)","DannySantos#8833",""
+"2023-05-13,11:46:22","DannySantos","#8833","We claimed, thanks <@105679772993994752>","dabit3#0",""
+"2023-05-13,12:47:43","nezz9461","#0","Can we call custom modules through the SDK or do we need to ""manually"" call the API ?","","https://cdn.discordapp.com/attachments/959960606729977986/1106986142856912987/Screenshot_2023-05-13_at_17.46.20.png"
+"2023-05-13,12:51:17","nezz9461","#0","Or the contract directly ? 🧐","",""
+"2023-05-13,12:58:07","paulbecker","#0","Does anyone know, where i can get from a publication_id to the corresponding profile_id of the publication ? Working with bigquery and i dont really get the connection between these... Maybe <@105679772993994752> ?","dabit3#0",""
+"2023-05-13,14:23:57","DannySantos","#8833","Anyone know how to query collections?","",""
+"2023-05-13,14:26:28","paulbecker","#0","yes, hit me up","DannySantos#8833",""
+"2023-05-13,14:54:28",".deisenberg","#0","bump.","",""
+"2023-05-13,15:43:23","ilyothehorrid","#0","Has anyone used react/js to successfully post a post to lens?","",""
+"2023-05-13,16:14:56","0xdorifto","#0","Hey, I have the ETHGlobal Lisbon Lens POAP, how can I get a lens handle?","",""
+"2023-05-13,17:07:15","paulbecker","#0","We are trying to unfollow multiple people at the same time. Since every follow is represented by an NFT in your wallet, we understood that to unfollow someone you have to burn the matching NFT.
+We also found out that each creator has his own Follow-NFT collection, which means if someone is following 5 people he is going to have 5 different NFTs from 5 different collections in his wallet.
+
+Is there any possibility do burn multiple Follow-NFTs in one single transaction (batching)?","",""
+"2023-05-14,09:55:50","seanwbren","#0","Using multicall3 from this repo could be a solution, https://github.com/mds1/multicall","paulbecker#0",""
+"2023-05-14,15:47:41","seanwbren","#0","For anyone at rAAVE fyi your wristband qr is a POAP","",""
+"2023-05-16,05:14:37","João","#6312","Me and my team won the Lens Protocol's 1st place with InfluLENser. Is there any chance to get a Lens profile? 🫶 🌿","",""
+"2023-05-17,10:22:32","João","#6312","No? Ok then 🥲 <@105679772993994752>","dabit3#0",""
+"2023-09-13,13:23:39","awliang","#0","","","https://cdn.discordapp.com/attachments/959960606729977986/1151568892859256842/image.png"
+"2023-09-15,01:14:39","awliang","#0","Hello and welcome to the <#959960606729977986> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Lens Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Lens Protocol** is the social layer for web3.
+
+The Lens social graph enables creators to take ownership of their content wherever they go across the dozens of high quality apps across the Ecosystem, with new ones coming online every month.
+
+With Lens, you can easily build social applications or integrate social features into your existing applications. For developers, one of Lens' most powerful features is that it eliminates the need to build, maintain and pay for back-end infrastructure, allowing developers to focus 100% on building the consumer experience.
+
+Teams with as few as 1 developer are able to build polished experiences on Lens using the variety of APIs and SDKs available to builders.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🏆 Best Lens App $4,000
+🫡 Most Original Lens App - $2,500
+👩🏻‍💻 Best SocialFi Lens App - $2,500
+🤝 Best Lens Integrations (x2) - $500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🌱 Lens 101 - Building Full Stack On-chain Social Apps
+Time: 04:20 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+*   [Lens Docs](https://docs.lens.xyz/)
+*   [Lens Apps](https://lens.xyz/apps)
+*   [Inspiration for builders](https://aave.notion.site/Inspiration-for-Builders-1db7dbd3e7b14eaf9a97a341b1a3ff55)
+*   [Hackathon Guide](https://aave.notion.site/Hackathons-d7411f54ef4547a99104fb6df4ac236b)
+*   [Lens Integration Widgets](https://github.com/lens-protocol/lens-widgets/tree/main)","",""
+"2023-09-20,16:11:17","1m1_dd","#0","hello ~ i will be working on wiki3 (https://github.com/1m1-github/wiki3) based on Lens ~ anyone and everyone is welcome to join (frontend dev, smart contract dev, artist, whatever) ~ looking forward to seeing y'all soon 🙂","",""

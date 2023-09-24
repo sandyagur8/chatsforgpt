@@ -1,0 +1,945 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-03-21,09:51:31","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/955463672346583040/Logo_1.png"
+"2022-04-12,15:24:02","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the WalletConnect Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**WalletConnect** is the web3 standard for connecting blockchain wallets to dapps. We offer SDKs and infrastructure to provide wallets with more interoperability. Our protocol enables a secure connection between a dapp and a wallet that a user can expose its blockchain accounts and sign messages and transactions.
+
+Learn more: https://walletconnect.com/
+
+
+🏆 **PRIZE OVERVIEW **
+** DeFi Track**
+🥇 1st - $4,000
+🥈 2nd - $2,000
+🥉 3rd - $1,000
+
+**Social Track**
+🥇 1st - $4,000
+🥈 2nd - $2,000
+🥉 3rd - $1,000
+
+🏊 **Pool Prize** - $2,000 to honorable mentions that have full integration with WalletConnect
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethamsterdam.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**How to connect your dapp with WalletConnect**
+Friday, April 22 @ 17:00
+w/ Pedro Gomes
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.walletconnect.com/","",""
+"2022-04-21,05:30:20","chrishobcroft","#0","Hey, is there any sample code for connecting 2 wallets to 1 app?","",""
+"2022-04-21,05:31:48","chrishobcroft","#0","e.g. App on laptop, 1 wallet on Rainbow/iPhone, 1 wallet on WallETH/Android. For e.g. paired programming in Remix, two-player games, etc.","",""
+"2022-04-22,03:14:47","pedrouid","#0","Hey <@365524730628931598>","chrishobcroft#0",""
+"2022-04-22,03:15:08","pedrouid","#0","You can definitely connect 2 wallets to 1 app","",""
+"2022-04-22,03:15:33","pedrouid","#0","However it definitely requires some hacking around it","",""
+"2022-04-22,03:16:45","pedrouid","#0","you can pass a variable named `storageId` which by default is set to ""walletconnect""","",""
+"2022-04-22,03:18:11","pedrouid","#0","however since you are customizing the `storageId` then you will need to track the custom storageId's you have created to re-intializes clients","",""
+"2022-04-22,03:24:19","pedrouid","#0","```javascript
+// when creating a new connector
+const storageIds = localstorage.getItem(""walletconnect-storage-ids"")
+
+const storageId = ""walletconnect-"" + storageIds.length + 1
+
+const connector = new WalletConnect({ storageId })
+
+localstorage.setItem(""walletconnect-storage-ids"", [...storageIds, storageId])
+
+
+// when loading connectors on page load
+const storageIds = localstorage.getItem(""walletconnect-storage-ids"")
+
+const connectors = storageIds.map(storageId => new WalletConnect({ storageId })
+```","",""
+"2022-04-22,03:24:56","pedrouid","#0","PS - we have improved this experience significantly for v2.0 so the example above is only applicable for v1.0","",""
+"2022-04-22,06:32:41","pedrouid","#0","For all the Flutter devs out there, check out: https://github.com/Orange-Wallet/wallet-connect-dart","",""
+"2022-04-22,08:32:09","pedrouid","#0","Don't miss out the WalletConnect workshop TODAY
+
+**How to connect your dapp with WalletConnect**
+Friday, April 22 @ 17:00
+w/ Pedro Gomes","",""
+"2022-04-23,05:10:06","pedrouid","#0","Generating JWT tokens from ETH signatures
+
+https://github.com/0xsequence/ethauth.js","",""
+"2022-04-23,05:36:46","pedrouid","#0","For those that might have missed the WalletConnect workshop you can watch the recording here
+
+https://www.youtube.com/watch?v=qCdAc3KCEmg","",""
+"2022-04-23,05:37:53","pedrouid","#0","PS - you can watch it from the beggining up to min 34:20","",""
+"2022-04-23,17:45:40","duckception","#0","Hey, have anyone encountered this problem? I'm using `@web3-react/walletconnect-connector` and this is thrown in that library","",""
+"2022-04-23,17:45:52","duckception","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/967541845808803900/unknown.png"
+"2022-04-23,17:46:20","duckception","#0","it's thrown in the `activate` function for the connector","",""
+"2022-04-23,18:21:11","normadn","#0","Hey walletConnect team, sorry for bugging u at that time but we have an error we need to fix and we believe it might be a problem in ur sdk. We r trying to sign a contract via ethers-rs and we get the following error message. Would be rly great if u could help!","",""
+"2022-04-23,18:21:18","normadn","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/967550761489805352/IMG_9429.jpg"
+"2022-04-23,19:14:01","pedrouid","#0","Hey <@240486346848731136> we actually are not aware exactly where activate is being under web3-react but you can also our provider separately","duckception#0",""
+"2022-04-23,19:15:41","pedrouid","#0","Unsure how it affects our sdk, but I could be wrong…
+
+However I do recognize that error message from ethers so you should look into using a sanitize hex util to make sure all inputs have 0x prefix encoded","normadn#0",""
+"2022-04-23,19:18:36","normadn","#0","thx for ur answer. We try to debug more.","",""
+"2022-04-23,19:26:58","duckception","#0","We changed parcel to webpack and it worked 👌🏻","pedrouid#0",""
+"2022-04-24,03:18:14","samgarcia","#0","Hi WalletConnect team! <:SamWave:774134801531404330>  It was great to integrate with your wallet for the sign in process of our project. Looking forward to showing you our 3D and VR enabled metaverse gaming dApp called DAOVerse during judging today. https://twitter.com/TheDaoverseOrg/status/1518110548990337024?s=20&t=IRWzPalglxg1x5QLotAjcA
+
+Is there anything else we need to do to submit for the bounty?","",""
+"2022-05-03,17:08:37","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/971156351420104744/unknown.png"
+"2022-05-04,00:23:42","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the WalletConnect team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀** ABOUT **
+**WalletConnect** is the web3 standard for connecting blockchain wallets to dapps. We offer SDKs and infrastructure to provide wallets with more interoperability. Our protocol enables a secure connection between a dapp and a wallet that a user can expose its blockchain accounts and sign messages and transactions.
+
+Learn more: https://walletconnect.com/
+
+
+🏆 **PRIZE OVERVIEW **
+
+**DeFi track**
+🥇 1st - $4,000
+🥈 2nd - $2,000
+🥉 3rd - $1,000
+
+**Social Track**
+🥇 1st - $4,000
+🥈 2nd - $2,000
+🥉 3rd - $1,000
+
+🏊 Pool prize - $2,000 to honorable mentions that have full integration with WalletConnect
+
+**↓ Full Prize Breakdown Here ↓ **
+https://defi.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP **
+https://youtu.be/aw9ezhmh4FI
+
+
+**🔗 IMPORTANT LINKS**
+https://docs.walletconnect.com/","",""
+"2022-05-05,14:16:10","riite.","#0","A social track for a DeFi hackathon? Is that SocialFi?","",""
+"2022-05-05,14:16:30","riite.","#0","Or are they sponsoring 2 different hackathons?","",""
+"2022-05-05,15:58:37","ShannaDaphne","#0794","Hi its a social focused track but still focused on DeFi projects built on HackMoney.","riite.#0",""
+"2022-05-06,12:46:05","romuald_hog","#0","Hi there, is there a change log available to compare v1.0 vs v2.0?","",""
+"2022-05-07,09:40:03","0xasimetriq","#0","No changelog at this time, as v2 is still in development. Best way to compare both would be through githubs history https://github.com/WalletConnect/walletconnect-monorepo/compare/v1.0...v2.0 but there is a lot to unpack there 😅","romuald_hog#0",""
+"2022-05-07,10:04:34","romuald_hog","#0","hahhaha, no worries it's on the doc, I believe that'd be better to use v2 on our side because we do already implement v1.","0xasimetriq#0",""
+"2022-05-08,15:32:26","mixalisgg","#0","Hi wallet connect team, quick question. What's the relationship between WC and web3modal? Are they alternatives? I saw web3modal supports WC, but since WC is not a wallet but an integration/messaging service I'm a bit confused","",""
+"2022-05-08,17:33:07","ShannaDaphne","#0794","Web3Modal makes it easier to integrate WalletConnect and other wallet providers like Metamask and Coinbase Wallet
+
+WalletConnect is not a wallet but is supported by more than 100 wallets to connect to your dapp","mixalisgg#0",""
+"2022-05-09,20:52:11","temi0x","#0","Hi guys
+How do I integrate Walletconnect with Moralis
+
+Tried it out, but don't seem to get it yet","",""
+"2022-05-10,01:02:09","temi0x","#0","<@907658437737979934> <@292230513177919488>","pedrouid#0、ShannaDaphne#0794",""
+"2022-05-10,05:01:59","pedrouid","#0","Here is a quick guide about it
+
+https://hackmd.io/@hackyguru/walletconnect","temi0x#0",""
+"2022-05-10,05:10:16","temi0x","#0","Alright","",""
+"2022-05-10,05:10:22","temi0x","#0","Thanks","",""
+"2022-05-11,16:31:23","Kevin Kudu | ETHGlobal","#3615","Hey <@&963056755703693332>  hackers ! 👋
+
+Come join us for WalletConnect 🛠 How to Connect your dapp with WalletConnect?
+
+👀 Join on Zoom:
+https://ethglobal.zoom.us/j/81895166948
+
+📺 Watch on YouTube:
+https://youtu.be/aw9ezhmh4FI","",""
+"2022-05-11,16:54:57","victorf42","#0","Hey <@292230513177919488> thanks for the Zoom! I wondered if Wallet Connect had anything planned that would let users connect in a ZK way to dApps? Seems difficult but would be really cool","pedrouid#0",""
+"2022-05-11,16:56:06","pedrouid","#0","Maybe we could in the future… WalletConnect 2.0 is designed to use multi-chain with chain-agnostic interfaces which will describe new methods for basic EVMs and more extended EVMs","victorf42#0",""
+"2022-05-11,23:19:58","joelcodes","#0","Hey <@292230513177919488> , hope all is well. Our teams building a decentralized protocol for scheduling token transfers. It’s meant to be a public utility for the polygon network. Any dApps/devs could integrate it into their existing DeFi wallets, yields farms, etc. do you think this would be helpful ?","pedrouid#0",""
+"2022-05-12,05:22:10","riki6059","#0","Hi WalletConnect team","",""
+"2022-05-12,05:22:32","riki6059","#0","I am having one question. If we are using Moralis to make use of WalletConnect are we still gonna be eligible for the prize?","",""
+"2022-05-12,07:05:22","pedrouid","#0","I guess it will depend how its designed but as concept I believe it’s valuable","joelcodes#0",""
+"2022-05-12,07:05:46","pedrouid","#0","That’s correct… you can use any library you want to support WalletConnect and be eligible for the sponsor bounties","riki6059#0",""
+"2022-05-12,07:35:14","joelcodes","#0","Any specific design details that you believe would need to be the most polished ?","pedrouid#0",""
+"2022-05-12,10:01:34","pedrouid","#0","Without knowing much about your project, I would consider the following:
+- will this work with any Ethereum wallet? Smart Contract Wallets? Seed Phrase Wallets?
+- who's responsible for the execution of the scheduled token transfers? Tx Relayer? Wallet Provider? Dapp?
+- will there be a single implementation on-chain or will each wallet have to deploy its own? Read for example about EIP-3074 which is designed to have a single invoker contract
+- can users cancel their scheduled transactions? If so, do they just need to sign a message like before or need to send a transaction on-chain?","",""
+"2022-05-12,12:11:04","jallrich","#0","Hey, any way that I can make the project or web3modal work with Svelte using rollup? I'm struggling a lot 😦","",""
+"2022-05-12,12:51:18","0xasimetriq","#0","Does this default js usage work for your case? https://github.com/Web3Modal/web3modal#using-in-vanilla-javascript","jallrich#0",""
+"2022-05-12,12:51:55","0xasimetriq","#0","There is also a demo for using it with vite as bundler and this one includes rollupOptions
+https://github.com/Web3Modal/web3modal#using-with-vite","",""
+"2022-05-12,17:05:16","jallrich","#0","I created a basic svelte app using `npm vite@init` and just added the following code that I execute from a button:
+```typescript
+import Web3Modal from ""web3modal"";
+import WalletConnectProvider from ""@walletconnect/web3-provider"";
+
+const providerOptions = {
+    walletconnect: {
+        package: WalletConnectProvider, // required
+        options: {
+            infuraId: ""INFURA_ID"" // required
+        }
+    }
+};
+
+const web3Modal = new Web3Modal({
+    network: ""mainnet"", // optional
+    cacheProvider: true, // optional
+    providerOptions // required
+});
+
+export async function connect() {
+    const instance = await web3Modal.connect();
+    return instance;
+}
+```
+
+It throws this error when trying to render the site:
+```
+Uncaught TypeError: util.inherits is not a function
+```
+
+If I remove the import from wallet connect it works without any issues","0xasimetriq#0",""
+"2022-05-12,19:24:09","Dlucia","#7458","I have a question from a UX perspective. In terms of the business end of wallet connect, how basic does that look in terms of how you can look at what users have connected their wallet, etc.","",""
+"2022-05-13,00:15:27","riite.","#0","You could push them to an array as people connect","Dlucia#7458",""
+"2022-05-13,02:43:12","riite.","#0","I’ve got a lot of questions about WalletConnect. Sorry I missed the workshop. 
+I’m trying to get it to work for Discord, having it show the QR code in a Discord embed after a bot command.
+
+Right now it’s giving me the QR code in my terminal on provider.enable().. how can I put it in an image instead?","",""
+"2022-05-13,04:14:28",".bkrem","#0","Hi Javyer, regarding your original question of Svelte with rollup, here's a codesandbox with rollup+svelte with a working implementation of your code (I just copied it into the `web3Modal.js` file and used `connect` on the button):
+https://codesandbox.io/s/sad-butterfly-qq5rku?file=/web3Modal.js","jallrich#0",""
+"2022-05-13,04:15:26",".bkrem","#0","The rollup config is as-is from the codesandbox template, so it seems it handles the polyfilling of node dependencies (i.e. `util`) already out of the box","",""
+"2022-05-13,04:50:23","jallrich","#0","Thank you for doing that! I'm working with typescript, could that be the problem?",".bkrem#0",""
+"2022-05-13,06:00:39","jallrich","#0","I created the same repo in TS and it is not working: https://github.com/Bullrich/walletconnect-svelte-ts
+
+Could you tell me if you have the same problem on your side?",".bkrem#0",""
+"2022-05-13,07:11:47",".bkrem","#0","Hi Autocrat, based on your description I'm assuming you're using the `@walletconnect/web3-provider` pkg for your use case. If you want to produce a custom QRCode image, you could listen for the `display_uri` event on the provider and then generate one suited to your needs (this is also how the qrcode-modal does this internally via the external `qrcode` pkg).
+
+I put together a quick sandbox with the default provider example + a listener for the `display_uri` event:
+https://codesandbox.io/s/musing-raman-86q8qh?file=/src/App.js
+
+Here's how the QRCode modal generates the QRCode SVG internally, which may help as a reference point:
+https://github.com/WalletConnect/walletconnect-monorepo/blob/v1.0/packages/helpers/qrcode-modal/src/browser/components/QRCodeDisplay.tsx#L12
+
+Hope that helps!","riite.#0",""
+"2022-05-13,07:14:37",".bkrem","#0","Hmm I had a quick try of this locally and it's also erroring for me. The rollup config seems to be quite different here though. Maybe try simply adding the typescript rollup plugin to a local clone of codesandbox example since that one already works?","jallrich#0",""
+"2022-05-13,07:15:21","jallrich","#0","That’s the default roll up plugin provided by svelte when you port the project to ts",".bkrem#0",""
+"2022-05-13,07:17:10",".bkrem","#0","Sorry I'm also not sure what the exact issue is for that config, I need to tackle some other things on my side for now but can try to dig deeper later today","",""
+"2022-05-13,07:41:25","jallrich","#0","Thank you!
+To setup a new project run `npx degit sveltejs/template walletconnect-test && cd walletconnect-test && node scripts/setupTypeScript.js` and you'll have the project set up to work with Typescript.
+
+After that I just installed the rest of the stuff (`npm install --save web3modal @walletconnect/web3-provider`) and added the connection class.",".bkrem#0",""
+"2022-05-13,15:53:57","plentyweb3.crypto","#1357","Hi I am trying to connect Web3Modal to my dapp and I have questions about the documentation. I have a simple button and when the user clicks on it I want to display the wallet options they can use to connect with my dapp. Here is the documentation: https://github.com/Web3Modal/web3modal I want it to look like the image under preview. I followed all the steps for ethers and my wallets aren’t popping up as shown in the examples (I’m using react). I am getting console.logging this from provider: provider Web3Provider {_isProvider: true, _events: Array(0), _emitted: {…}, disableCcipRead: false, formatter: Formatter, …}
+Here is my code:","",""
+"2022-05-13,15:54:09","plentyweb3.crypto","#1357","```import React, { useState, useEffect } from ""react"";
+import ""semantic-ui-css/semantic.min.css"";
+import { Button, Form, Container } from ""semantic-ui-react"";
+import { Magic } from ""magic-sdk"";
+import { ethers } from ""ethers"";
+import Web3Modal from ""web3modal"";
+import WalletConnectProvider from ""@walletconnect/web3-provider"";
+import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
+
+const User = (props) => {
+
+
+      const providerOptions = {
+          binancechainwallet: {
+            package: true
+          },
+          walletconnect: {
+            package: WalletConnectProvider, // required
+            options: {
+              infuraId: process.env.NEXT_PUBLIC_INFURA_API_KEY // required
+          }
+        },
+        coinbasewallet: {
+          package: CoinbaseWalletSDK, // Required
+          options: {
+            appName: ""MeTag"", // Required
+            infuraId: process.env.NEXT_PUBLIC_INFURA_API_KEY, // Required
+            chainId: 1, // Optional. It defaults to 1 if not provided
+            darkMode: false // Optional. Use dark theme, defaults to false
+          }
+        },
+    };
+      
+      const web3Modal = new Web3Modal({
+        network: ""mainnet"", // optional
+        cacheProvider: true, // optional
+        providerOptions // required
+      });
+
+      async function handleClick() {
+        const instance = await web3Modal.connect();
+        const provider = new ethers.providers.Web3Provider(instance);
+        console.log('provider', provider);
+        const signer = provider.getSigner();
+    }
+
+
+  return (
+    <div>
+      <div>Welcome User</div>
+      <Button onClick={handleClick}>Connect to MetaMask</Button>
+    </div>
+  );
+};
+
+export default User;
+```","",""
+"2022-05-13,19:51:23","samgarcia","#0","<:samwave:973004242631663676> Hey all! I'm trying to use WalletConnect in my dapp, but I can't seem to import it, just including it gives me a polyfill error
+
+`""@walletconnect/web3-provider"": ""^1.7.8"",`
+`""core-js"": ""^3.8.3"",`
+`import WalletConnectProvider from ""@walletconnect/web3-provider"";`
+
+Any help would be appreciated thanks! :)
+
+ <:samshock:973004148129796106> **error**
+```
+Compiled with problems:X
+
+ERROR in ./node_modules/cipher-base/index.js 5:16-43
+
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\saman\Desktop\supervest\node_modules\cipher-base'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { ""stream"": require.resolve(""stream-browserify"") }'
+    - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { ""stream"": false }
+
+
+ERROR in ./node_modules/xhr2-cookies/dist/xml-http-request.js 43:11-26
+
+Module not found: Error: Can't resolve 'http' in 'C:\Users\saman\Desktop\supervest\node_modules\xhr2-cookies\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { ""http"": require.resolve(""stream-http"") }'
+    - install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { ""http"": false }
+
+
+ERROR in ./node_modules/xhr2-cookies/dist/xml-http-request.js 45:12-28
+
+Module not found: Error: Can't resolve 'https' in 'C:\Users\saman\Desktop\supervest\node_modules\xhr2-cookies\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { ""https"": require.resolve(""https-browserify"") }'
+    - install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { ""https"": false }
+
+
+ERROR in ./node_modules/xhr2-cookies/dist/xml-http-request.js 47:9-22
+
+Module not found: Error: Can't resolve 'os' in 'C:\Users\saman\Desktop\supervest\node_modules\xhr2-cookies\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { ""os"": require.resolve(""os-browserify/browser"") }'
+    - install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { ""os"": false }
+```","",""
+"2022-05-13,20:25:50","riite.","#0","Also what is @walletconnect/ethereum-provider vs @walletconnect/web3-provider?","",""
+"2022-05-13,21:24:03","riite.","#0","I'm getting the error 'Web3Modal is not a constructor' for this","","https://cdn.discordapp.com/attachments/955463647918981150/974844510678941756/Screen_Shot_2022-05-13_at_6.22.06_PM.png"
+"2022-05-14,04:53:32","pedrouid","#0","They are the same API but ethereum-provider is a lighter version","riite.#0",""
+"2022-05-14,04:53:45","pedrouid","#0","You must have an import issue","riite.#0",""
+"2022-05-14,05:07:56","temi0x","#0","Hi <@292230513177919488> This didn't work","pedrouid#0",""
+"2022-05-14,10:09:11","riite.","#0","And just to confirm: this has nothing to do with using vanilla node and not typescript?","pedrouid#0",""
+"2022-05-14,10:14:32","0xmaguro","#0","Hi. I'm using localStorage to keep user's connected state. Are there any other good options in the case?","",""
+"2022-05-14,10:14:54","plentyweb3.crypto","#1357","```import React, { useState, useEffect } from ""react"";
+import ""semantic-ui-css/semantic.min.css"";
+import { Button, Form, Container } from ""semantic-ui-react"";
+import { Magic } from ""magic-sdk"";
+import { ethers } from ""ethers"";
+import Web3Modal from ""web3modal"";
+import WalletConnectProvider from ""@walletconnect/web3-provider"";
+import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
+
+const User = (props) => {
+
+
+      const providerOptionsObj = {
+        walletconnect: {
+          package: WalletConnectProvider, // required
+          options: {
+            infuraId: '92f495c06a4b48f0b0410e64561b8891' // required
+        }
+      },
+        binancechainwallet: {
+          package: true
+        },
+        coinbasewallet: {
+          package: CoinbaseWalletSDK, // Required
+          options: {
+            appName: ""MeTag"", // Required
+            infuraId: '92f495c06a4b48f0b0410e64561b8891', // Required
+            chainId: 1, // Optional. It defaults to 1 if not provided
+            darkMode: true // Optional. Use dark theme, defaults to false
+          }
+        },
+    };
+    
+    async function handleClick() {
+        const web3Modal = new Web3Modal({
+          network: ""mainnet"", // optional
+          providerOptions: providerOptionsObj
+        }); 
+        await web3Modal.clearCachedProvider();
+        const instance = await web3Modal.connect();
+        const provider = new ethers.providers.Web3Provider(instance);
+        const signer = provider.getSigner();
+    }
+
+
+  return (
+    <div>
+      <div>Welcome User</div>
+      <Button onClick={handleClick}>Connect to MetaMask</Button>
+    </div>
+  );
+};
+
+export default User;
+```","",""
+"2022-05-14,10:19:13","plentyweb3.crypto","#1357","I have my wallet options appearing in the web3modal (see below image) but when I click on any of them they don't go anywhere. The only one that responds is binance wallet that says ""No Binance Chain Wallet found"". Is there anything y'all can see in my code that is missing. I've watched the videos from this hack-a-thon, read the documentation, and watched other videos and am still having issues. Any help is great appreciated","",""
+"2022-05-14,10:19:34","plentyweb3.crypto","#1357","","","https://cdn.discordapp.com/attachments/955463647918981150/975039673191772201/Screen_Shot_2022-05-14_at_8.05.29_AM.png"
+"2022-05-14,10:19:58","plentyweb3.crypto","#1357","Thanks 🙂","",""
+"2022-05-14,14:56:50","samgarcia","#0","Just replying a solution to my issue:
+-Am using vuejs and had to install these packages `yarn add stream-browserify url assert util stream-http https-browserify os-browserify buffer` and add them as polyfills to the config file as it states here in the second to last answer by mikjakbiak : https://github.com/Web3Modal/web3modal/issues/317","",""
+"2022-05-14,17:47:09","tehodin","#0","hi team quick question, can you shed light on the error I get","","https://cdn.discordapp.com/attachments/955463647918981150/975152314665037845/unknown.png"
+"2022-05-15,18:18:09","riite.","#0","**Goal**: Establish connections within Discord upon bot command.
+**Problem**: Seems like I can only establish one connection and it throws an error if I try to establish another","","https://cdn.discordapp.com/attachments/955463647918981150/975522505190166589/Screen_Shot_2022-05-15_at_3.17.19_PM.png"
+"2022-05-15,21:01:22","greenpeppers100","#0","The solution that was posted on that github issues page suggests installing craco, is that what you did? Because craco doesn't want to install with react-scripts 5","samgarcia#0",""
+"2022-05-15,22:47:20","samgarcia","#0","No I didnt install craco I just followed the steps of the previous answer :)","greenpeppers100#0",""
+"2022-05-15,23:14:38","greenpeppers100","#0","ahh, which config files did you add the polyfills to?","samgarcia#0",""
+"2022-05-15,23:15:57","samgarcia","#0","I’m using vue so I added it to the vue.config.js like so:
+
+configureWebpack: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        Buffer: ['buffer', 'Buffer'],
+      }),
+    ],
+    resolve: {
+      fallback: {
+          stream: require.resolve('stream-browserify'),
+          https: require.resolve('https-browserify'),
+          os: require.resolve('os-browserify/browser'),
+          http: require.resolve('stream-http'),
+          buffer: require.resolve('buffer'),
+      },
+    },","greenpeppers100#0",""
+"2022-05-16,11:17:14","0xasimetriq","#0","Are you re-using same qr code for second connection? That could be the issue, you'd need to generate new one for same wallet to establish second session.","riite.#0",""
+"2022-05-16,13:29:58","plentyweb3.crypto","#1357","************ If someone could help me that would be so greatly appreciated I've been stuck on walletconnect integration for days and it must be something simple because I've been tediously going through the documentation and trying everything********","",""
+"2022-05-16,13:30:09","plentyweb3.crypto","#1357","```import React, { useState, useEffect } from ""react"";
+import Web3 from ""web3"";
+import Web3Modal from ""web3modal"";
+import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
+import WalletConnectProvider from ""@walletconnect/web3-provider"";
+
+
+const User = () => {
+
+  const providerOptions = {
+    coinbasewallet: {
+      package: CoinbaseWalletSDK, // Required
+      options: {
+        appName: ""MeTag"", // Required
+        infuraId: process.env.NEXT_PUBLIC_INFURA_PROJECT_ID, // Required
+        darkMode: false // Optional. Use dark theme, defaults to false
+      }
+    },
+    walletconnect: {
+      package: WalletConnectProvider, // required
+      options: {
+        infuraId: process.env.NEXT_PUBLIC_INFURA_PROJECT_ID // required
+      }
+    },
+  };
+
+  const handleClick = async () => {
+    const web3Modal = new Web3Modal({
+      network: ""mainnet"", // optional
+      cacheProvider: true, // optional
+      providerOptions // required
+    });
+    web3Modal.clearCachedProvider();
+    const provider = await web3Modal.connect();
+    provider.enable();
+    console.log('provider', provider);
+    const web3 = new Web3(provider);
+  }
+
+  return (
+    <div>
+      <div>Welcome User</div>
+      <button onClick={handleClick}>Connect</button>
+    </div>
+  );
+}
+
+
+
+export default User;
+
+```","",""
+"2022-05-16,13:30:58","plentyweb3.crypto","#1357","******This is my code the wed3modal popup appears with the wallets I want there but none of them go anywhere when i click them. Any help is greatly appreciated!!!!!!!************","",""
+"2022-05-16,13:39:04","riite.","#0","It wont generate a new one because there is already a connection","0xasimetriq#0",""
+"2022-05-16,13:39:20","riite.","#0","I'm also now removing the old QR code once the connection is established","",""
+"2022-05-17,00:21:10","greenpeppers100","#0","Has anyone been able to get Web3Modal to work with walletconnect?","",""
+"2022-05-18,04:35:59",".bkrem","#0","Hi exclusiveoranges,
+Your code seems to work as-is for me, as you can see in the following codesandbox:
+https://codesandbox.io/s/headless-resonance-lr96c7?file=/src/User.js
+
+The only thing I altered was using an infura ID explicitly rather than from environment variables.
+The only immediate reason I can see why the WalletConnect or Coinbase modals won't open is if the Infura ID is not defined. So it may be worth checking if those are properly defined in your next.js environment (e.g. via `console.log` in your code). 
+If that's not it, please provide us a reproduction of the issue or the errors you're seeing on your side","plentyweb3.crypto#1357",""
+"2022-05-18,06:22:09","goldcoin64","#4717","Hey Guys, does anybody know that if I use Wagmi.sh to have a ""connect wallet"" button supporting multiple wallets, we become eligible for the pool prize?","",""
+"2022-05-18,10:24:38",".bkrem","#0","Discord QRCode generator","",""
+"2022-05-18,20:45:33","plentyweb3.crypto","#1357","Hi Ben the issue was my browser the code is working fine for me in codebox Thank You. 1 more question: Is there a web3modal method or way for getting all the accounts of all wallets user has that are displayed in modal without user signing into each one? My use case is the first time my user signs into my dapp i want to save all their public keys to my db but i dont want to require them to log into every wallet separately for me to gain access to that data. Thank You in advance for your time it is greatly appreciated!",".bkrem#0",""
+"2022-05-19,14:34:53","plentyweb3.crypto","#1357","<@292230513177919488>
+
+When a user signs into my dapp for the first time I want to retrieve all the public addresses of every wallet they have that is shown in the web3modal I’m using. I want to do all that  without a user having to log into each individual wallet. Is there a web3modal or ether method that does this? And/or is there a way to do this? Thank you!!!","pedrouid#0",""
+"2022-05-20,11:19:02","jordan.public","#0","I am trying to use web3modal and Walletconnect with **React 18**. After configuring as instructed (and BTW, without the WalletConnect as provider it runs with MetaMask), and running with React dev server (npm start) I get the following same message several times. Is there a workaround?:
+
+ERROR in ./node_modules/cipher-base/index.js 3:16-43
+
+Module not found: Error: Can't resolve 'stream' in '/Users/jordan/ip-clob-dex/web/node_modules/cipher-base'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { ""stream"": require.resolve(""stream-browserify"") }'
+    - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { ""stream"": false }","",""
+"2022-05-20,18:52:27","zacque","#1044","I'm Sure y'all are aware of this","","https://cdn.discordapp.com/attachments/955463647918981150/977343074239914025/Screen_Shot_2022-05-20_at_3.51.00_PM.png"
+"2022-05-20,18:52:43","zacque","#1044","But seems like the wallet connect dapp is on metamask's phishing registry","",""
+"2022-05-20,18:53:24","zacque","#1044","Just 2 b safe I'm only using hot wallets here lest there is an XSS / DNS attack","",""
+"2022-05-21,14:36:41","zacque","#1044","Feature request (or question maybe its possible): It would be nice if we could know ahead of time if `provider.enable()` would trigger the wallet connect popup","",""
+"2022-05-21,14:38:32","zacque","#1044","If you already have a connection, it can connect w/o the QR code pop up. If this is the case, you can enable the provider right away w/o needing the user to log in again","",""
+"2022-05-22,06:10:17","markcarey","#0","Is it possible to test WalletConnect against `localhost` (hardhat local fork of mainnet)?","",""
+"2022-05-22,08:33:18","0xasimetriq","#0","Yep, we reached out to metamask, thing is we don't even require you to connect your wallet in our cloud app <:facepalm:937999158747475988>","zacque#1044",""
+"2022-05-22,08:35:09","0xasimetriq","#0","There are some issues with web3modal and react 18 that we are still looking into, best thing to do atm is use v17, sorry for inconvenience <a:sadblob:883002739519545414>","jordan.public#0",""
+"2022-05-22,10:02:43","jordan.public","#0","Tnx <@215776216215584768>, it is too late to switch back to React 17 for the hackathon. I wanted to apply for WalletConnect, as I am using it to sign off-chain Order Book transactions. Should I still apply? Here is my project: 
+https://showcase.ethglobal.com/hackmoney2022/ipdex-interplanetary-decentralized-exchange-498o0","0xasimetriq#0",""
+"2022-05-22,12:58:11","jordan.public","#0","OK <@215776216215584768> , I managed to downgrade the project from React 18 to react 17 (in a separate git branch). npm installs ok and I still get the following errors when running npm start in the React 17 app root:
+Module not found: Error: Can't resolve 'react-dom/client' in '/Users/jordan/ip-clob-dex/web/src'
+WARNING in ./node_modules/@metamask/safe-event-emitter/index.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/jordan/ip-clob-dex/web/node_modules/@metamask/safe-event-emitter/index.ts' file: Error: ENOENT: no such file or directory, open '/Users/jordan/ip-clob-dex/web/node_modules/@metamask/safe-event-emitter/index.ts'
+
+WARNING in ./node_modules/@walletconnect/browser-utils/dist/esm/browser.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/Users/jordan/ip-clob-dex/web/node_modules/@walletconnect/browser-utils/src/browser.ts' file: Error: ENOENT: no such file or directory, open '/Users/jordan/ip-clob-dex/web/node_modules/@walletconnect/browser-utils/src/browser.ts'","0xasimetriq#0",""
+"2022-05-22,12:59:35","jordan.public","#0","BTW, my package.json is:","","https://cdn.discordapp.com/attachments/955463647918981150/977979050960240650/package.json"
+"2022-05-22,15:14:42","samgarcia","#0","Hey WalletConnect! I integrated your wallet sign on into my project and it was pretty easy to set up! Thanks for your hard work on all the awesome tools and APIs <a:ty:824394592740573215> 
+Here's my project <:samthumbsup:973004110435594342> 
+*Supervest limits risk on crypto investments by setting up streams to slowly invest in a token over time and earn yields.*
+https://showcase.ethglobal.com/hackmoney2022/supervest-oxgoi","",""
+"2022-05-22,17:20:18","Gyan0890","#9895","Hi WalletConnect team! We have built a dapp called CrypChip to split bills amongst friends and integrated the WalletConnect wallet into our project. We haven't been able to show it properly due to the time restriction of the demo. Here is our video on Youtube which shows the working integration:
+https://youtu.be/TJ7FtqCA3gY
+<@782979588896325662>  <@763667790908489738>","niveditavivek#0、lakshmi0529#0",""
+"2022-05-23,00:48:24","Jea9o","#3888","On our Dapp, through wallet connect, 
+the user can exchange 
+•    crypto to Time tokens
+•    KYC process
+•    mint an extra-life token
+•    interact with the marketplace
+
+https://showcase.ethglobal.com/hackmoney2022/once-w12m9","",""
+"2022-05-23,00:48:48","Jea9o","#3888","Once Discord Server
+https://discord.gg/eykVfp2ZF7","",""
+"2022-05-23,09:10:44","ahmad_alaziz","#0","Hey there <#955463647918981150> we have implemented your technology in our dapp - Wolon 3.0, which is an application for connecting help seekers and volunteers. Thanks to WalletConnect we have improved both the user experience by giving them more flexibility in terms potentially bringing many wallet providers in one place, and developers experience so that it's easier to integrate various technologies. We would love to use your technology more in the future aswell!  You can find our project here: https://showcase.ethglobal.com/hackmoney2022/wolon-3-0-mfsx8","",""
+"2022-05-23,11:03:58","annam4119","#0","Hello there, we build Samsara - recurring crypto payments (subscription for  crypto donation) and used WalletConnect (added config to blocknative)   as a method to connect the wallet. 
+https://samsara.technology/
+
+https://github.com/yrik/VoLia/blob/bcbf279582527e02c6419d35a31107a57ceffa0d/frontend/src/crypto.js#L40","",""
+"2022-05-23,11:48:58","markcarey","#0","This is my first project to support **WalletConnect**! Relieved that it was pretty easy to layer it on after I already had Metamask support working. 😅 
+
+SuperStaker is a Zero TVL protocol that boosts your ETH staking rewards with Lido and Aave: https://showcase.ethglobal.com/hackmoney2022/superstaker-xmfnv Live on Mainnet!: https://superstaker.xyz/","",""
+"2022-05-23,14:09:04","pierre9793","#0","Copycat protocol lets anyone with any skill level copy another address' investment strategy without getting to know or even having to learn about DeFi.
+
+We integrated Wallet Connect in our protocol to let users connect their wallet using it.
+
+Showcase: https://showcase.ethglobal.com/hackmoney2022/copycat-2p4z9
+
+Github repo: https://github.com/jpldcarvalho/hackathons/tree/master/2022-HackMoney","",""
+"2022-05-23,15:08:48","riite.","#0","ValuDAO is a SocialFi project that tokenizes social engagement in Discord. This allows community members to earn based on the value they provide to communities. We're using Wallet Connect to authenticate users without ever having to leave the app <a:lol:976505843950424154> 
+
+https://valudao.xyz","","https://cdn.discordapp.com/attachments/955463647918981150/978373957059215421/Screen_Recording_2022-05-23_at_12.05.19_PM.mov"
+"2022-05-23,17:08:42","madhukar01","#0","We've just submitted our project 🙂
+
+Name: rubix
+Showcase: https://showcase.ethglobal.com/hackmoney2022/rubix-jjfem
+Description: Rubix is a real life exploration game. Players visit portals, add missing information and earn rewards.
+
+We are using Walletconnect for logging-in users to access the GameUI on web.
+(it is a mobile game with view-only access on web)","",""
+"2022-05-24,09:21:38","techstars","#0","Hey <@130774012325265409> <@215776216215584768> <@130774012325265409> 👋 
+We have submitted the project (MeTag)🚀  
+
+We created an amazing use case of WalletConnect and its web3modal- namely, integrating them with a wearable stylish hardware device. Our unique wearable device with ingrained QR code, WalletConnect, and web3modal come together to simplify the user registration and payment process drastically. 
+
+Name: MeTag
+Showcase Link: https://showcase.ethglobal.com/hackmoney2022/metag-nc54i
+
+About MeTag:
+MeTag is the next gen. product that would enable users to share their public keys and socials and pay in crypto without any hassle of taking out their phone or using any other platform to share to believe on. We are creating a very stylish tag with a QR embedded on it, which would have all the public keys/ socials/ eth linked. With the help of this, they could connect with people more quickly, and MeTag makes connecting in the new era easier and futuristic. 
+
+We are looking forward to use WalletConnet in a more better and impactful way! 💯 
+
+Thanks,
+Vansh","0xasimetriq#0、.bkrem#0",""
+"2022-05-25,07:57:04","ashishjoshidev","#3755","We've just submitted our project 🙂
+
+Name: DefiBoard
+Showcase: https://showcase.ethglobal.com/hackmoney2022/defiboard-unv91
+Github:https://github.com/defiboard/defiboard-ui/blob/main/wallet-connect.md
+Description: DefiBoard mange portfolio, Budget Manager, Multiswap and multi-chain analytic dashboard, a tool for Investors, Cryptocurrency holders to visualize, and analyse data on various blockchains and decentralization exchanges on one platform.","",""
+"2022-05-25,13:52:13","anshik1998","#0","Hey <#955463647918981150> .  I'm Anshik B. from project SafeZen. We had integrated our project with WalletConnect, yet we found our project name missing from the pool prize. 
+Please have a look, and let us know why we were not qualified for the pool prize, or if it's just an error.
+
+Showcase Link: https://showcase.ethglobal.com/hackmoney2022/safezen-rjwh7
+Github: https://github.com/SafeZen","",""
+"2022-05-25,14:11:28","riite.","#0","There is no pool prize for WC","itcrw#0",""
+"2022-05-25,15:28:46","itcrw","#0","Ok","",""
+"2022-05-30,15:01:58","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/980908949274525736/unknown.png"
+"2022-06-16,23:58:31","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the WalletConnect Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**WalletConnect** is the web3 standard for connecting blockchain wallets to dapps. We offer SDKs and infrastructure to provide wallets with more interoperability. Our protocol enables a secure connection between a dapp and a wallet that a user can expose its blockchain accounts and sign messages and transactions.
+
+Learn more: https://walletconnect.com/
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Best projects that use WalletConnect:**
+
+DeFi track:
+🥇 - $5000
+🥈 - $2500
+🥉 - $1250
+
+Social Track:
+🥇 - $5000
+🥈 - $2500
+🥉 - $1250
+
+🏊‍♀️ - $2500 pool prize to honorable mentions that have full integration with WalletConnect
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**WalletConnect quick start**
+w/ Sebastian Bolaños
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.walletconnect.com/","",""
+"2022-06-22,17:25:44","grimace.yo","#0","Hi, was looking at wallet connect and trying to use with flutter / dart. I came a cross a package, but calls to use the bridge ""https://bridge.walletconnect.org"". But I'm not able to get my test working, and saw this tweet: https://twitter.com/walletconnect/status/1421092594365472773?lang=en-GB","",""
+"2022-06-22,17:26:02","grimace.yo","#0","Which bridge should I be using?","",""
+"2022-06-25,11:21:13","shannon","#3176","Hey! 
+We are working on a hack called BlockFuse. The problems we are solving:
+
+- Web2 recruitment solutions are not user-friendly
+- They’re expensive
+- They’re not suited for web3 candidates
+- It’s hard for candidates to prove skill
+- It’s difficult for recruiters to verify talent. 
+
+BlockFuse revolutionizes the recruitment process in web3 by providing the infrastructure for educators, recruiters, and candidates to mint and aggregate proof-of-skill badges with the rest of your professional identity.
+
+We’re looking for hiring managers, recruiters, job seekers or anyone who is currently working in web3 to complete a short, 5 minute survey to help us refine our solution. https://forms.gle/NBWzVqRbJoTEtsrL6
+
+Thank you in advance, 
+Shannon & the BlockFuse team ☺️","",""
+"2022-06-25,14:18:57","se_bs","#0","The Javascript  sdk does client side load balancing with the bridges that we host. It select randomly accross 42 bridges.
+
+You can use the one in the tweet but i recommend you use something like w.bridge.walletconnect.org if your dapp doesnt randomly select an upstream bridge","grimace.yo#0",""
+"2022-06-25,16:28:41","reupped","#0","Getting stuck on this screen on mobile wallet (never loads gas fee), looks like gas estimation fail? Any thoughts on how to resolve?","","https://cdn.discordapp.com/attachments/955463647918981150/990352857813368892/Screenshot_20220625-162620.png"
+"2022-06-25,16:29:48","reupped","#0","Currently wiring hardcoded gas fees/limits as last argument:","","https://cdn.discordapp.com/attachments/955463647918981150/990353137955139634/unknown.png"
+"2022-06-25,19:32:57","ᐢ•ﻌ•ᐢ","#0323","Hi, can anyone help me integrate wallet connect into a react application?","",""
+"2022-06-25,20:15:27","helenag10","#0","Hi guys are you still at the conference? Just dropped by your booth to say hi but couldn’t find anyone 😊","",""
+"2022-06-25,21:01:53","jeongminc","#0","hi just to clarify, does using a third-party library like rainbowkit to integrate WC count as ""full integration with WC""","",""
+"2022-06-26,01:47:25","jordan.public","#0","https://ethglobal.com/showcase/fair-referral-network-cz9m0","",""
+"2022-06-26,01:48:43","jordan.public","#0","https://github.com/jordan-public/fair-referral-network","",""
+"2022-06-26,09:36:21","defivas","#0","Hey there, we've submitted Velvet.Capital - building a DeFi protocol that helps people & institutions create tokenized index funds, portfolios & other financial products with additional yield. We're using Wallet connect to streamline user onboarding! Please check us out 🙂","",""
+"2022-06-26,10:06:19","yanjaa","#0824","Hey there, I've submitted 🧀 CHEDDA' - A win-win finance solution for both borrowers and lenders. Build credit by paying back crypto micro loans on time, get access to bigger and better loan terms! As an investor, get full transparency into who and what you are funding from your wallet and get social credit for funding more.","",""
+"2022-06-26,11:14:09","lakshmi0529","#0","Hi we built a expense splitting application called Splytto for Cryptos. 
+That allows to split and share expenses, bounties Amongst a group of people using crypto","",""
+"2022-06-26,13:28:43",".keesvb","#0","We submitted Podcha, a decentralized podcast app: https://www.podcha.app/: https://ethglobal.com/showcase/podcha-xptrv. We are using WalletConnect to provide both podcast creators and consumers with multiple options to sign in with their wallet.","",""
+"2022-06-26,13:38:29","lyons800","#0","we tried to demo or project to walletconnect guys but the demos were over because of queues. upset as we had built the application with a sole reliance on wallet connect to ensure an abstraction layer between the identi3 dapp and device needed for connection .","",""
+"2022-06-26,13:38:47","lyons800","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/990672489589927936/ETHNYC.mp4"
+"2022-06-26,13:39:56","lyons800","#0","Disappointed we didnt get to show it to you guys but attached here for visibilty 😉","",""
+"2022-06-26,16:42:03","Kalina","#2368","Hey walletconnect, would love to talk to you, we're the messageBottle group. Where can we find you?","",""
+"2022-06-26,19:07:38","se_bs","#0","Sorry Kalina, we had to leave early to take care of the booth items","Kalina#2368",""
+"2022-08-09,18:05:23","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/1006684647742259340/unknown.png"
+"2022-08-15,10:49:44","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the WalletConnect Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**WalletConnect** is the web3 communications protocol enabling wallets and apps to securely connect. Our mission is to expand interoperability and realize richer experiences by providing developers with the infrastructure and tools that underpin user interaction in web3. The recently-launched WalletConnect v2.0 takes our interoperability promise one step further with multi-chain support, allowing developers to build and achieve compatibility across blockchains and roll-ups.
+
+Learn more: https://walletconnect.com/
+
+
+🏆 **PRIZE OVERVIEW**
+
+1️⃣ **v1.0 Track**
+🥇 1st - $5,000
+🥈 2nd - $2,500
+🥉 3rd - $1,250
+
+2️⃣ **v2.0 Track**
+🥇 1st - $5,000
+🥈 2nd - $2,500
+🥉 3rd - $1,250
+
+🏊 **Pool prize** - $2,500 total distributed to honorable mentions that have full integration with WalletConnect
+
+**↓ Full Prize Breakdown Here ↓ **
+https://mexico.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+**Quick Start for WalletConnect V1 and an explanation of WalletConnect V2**
+*w/ Sebastian Bolanos*
+Friday, August 19th @ 10:00pm
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.walletconnect.com/","",""
+"2022-08-20,00:26:12","matseq","#0","anyone from walletconnect at the venue?","",""
+"2022-08-20,16:12:11","andrescarreon","#0","Anyone from wallet connect that could help me with something? I am not able to display the QR code","",""
+"2022-08-20,22:24:33","laluy.garduno","#0","Hola Wallet Connect team, take a look at what we are building at Kiwik! 
+<@567542143409848327> <@595460255245139968> 
+<@726992743309639680>
+
+https://twitter.com/Kiwiklabs/status/1561176954354769922?s=20&t=gWGD1GgQhPgyKb3x-i2E0w","samgarcia#0、shannon#3176、daphlaughlove#0",""
+"2022-08-21,08:42:18","Trenton Gaddis","#9951","Here's what we built:
+
+**Name**: 🤑 $DTT DEX
+**Description**: There is a niche for $DERO w/ pmts since it is much faster than $XMR & you will be able to pay in wrapped stablecoins like $DAI. I paid for a hotel in Mazatlan in DAI but we are working towards bringing wrapped stablecoins to DERO via an Ethereum-DERO bridge.
+**Github**: https://github.com/philip920/dero-dex
+
+Public URL: https://ethglobal.com/showcase/dtt-dex-m6nyz","",""
+"2022-08-25,15:20:30","trojan2016","#0","Hey just wanna ask anyone won the pool prize received the bonus?","",""
+"2022-08-25,22:25:05","jacobw","#0","Prizes have not been distributed yet!","trojan2016#0",""
+"2022-09-12,17:50:47","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/1019002162086424647/unknown.png"
+"2022-10-03,09:26:02","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the WalletConnect Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**WalletConnect** is the web3 communications protocol enabling wallets and apps to securely connect. Our mission is to expand interoperability and realize richer experiences by providing developers with the infrastructure and tools that underpin user interaction in web3. The recently-launched WalletConnect v2.0 takes our interoperability promise one step further with multi-chain support, allowing developers to build and achieve compatibility across blockchains and roll-ups.
+
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Best projects that use WalletConnect:**
+
+1️⃣ v**1.0 track**
+🥇 1st - $5,000 USD
+🥈 2nd - $2,500 USD
+🥉 3rd - $1,250 USD
+
+2️⃣ **v2.0 Track**
+🥇 1st - $5,000 USD
+🥈 2nd - $2,500 USD
+🥉 3rd - $1,250 USD
+
+🏊**Pool prize** - $2,500 USD to honorable mentions that have full integration with WalletConnect.
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+
+**WalletConnect 🛠 WalletConnect Quick Start**
+**Time: **4:30 PM – Oct 07, 2022
+**Location:** Workshop Room 4
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.walletconnect.com/","",""
+"2022-10-08,03:55:20","constacrypto","#0","Hi guys, I am having some issues with the connection to the relay wallet connect v2, this is the error that I get:
+
+ ws.ts:102 WebSocket connection to 'wss://relay.walletconnect.com/?env=browser&host=localhost%3A3000&projectId=086f...&protocol=wc&version=2' failed:
+
+I made sure the project id is valid, and directly copy-pasted it from cloud wallet.","",""
+"2022-10-08,09:10:11","xoxoderek","#9169","Hey Consta! Let's see if I can help. Can you please provide full repro steps? Ideally a curl command that allows me to reproduce this. Ideally a curl command or wscat that I can use to repro. In chrome you can right click on the request ""Copy -> as cURL""","constacrypto#0",""
+"2022-10-08,09:11:03","xoxoderek","#9169","Example of how to get that curl","","https://cdn.discordapp.com/attachments/955463647918981150/1028293452418523196/Screen_Shot_2022-10-08_at_8.10.46_AM.png"
+"2022-10-08,09:12:00","xoxoderek","#9169","Please also provide how you are creating this call. Are you using web3modal v2? or some other tool? as much information as possibe and ideally a link to your code would allow us to help faster","",""
+"2022-10-08,09:35:38","jeffprestes","#0","Hey WalletConnect team, when will arrive in the booth?","",""
+"2022-10-08,09:44:36","elynis","#0","Someone should be there in 15 min","",""
+"2022-10-08,09:46:25","jeffprestes","#0","Thanks <@271280217484558336> 🙂","elynis#0",""
+"2022-10-08,10:19:33","finessevanes","#0","<@482648952160649246> gm! i'm over here rn","jeffprestes#0",""
+"2022-10-08,11:56:53","brendo13","#0","<@774471947932794890> Hey, could you send a link to the documentation page for web3Modal? I can't find it in the walletConnect docs","finessevanes#0",""
+"2022-10-08,12:07:58","finessevanes","#0","https://github.com/WalletConnect/web3modal/blob/V2/packages/react !","brendo13#0",""
+"2022-10-08,22:36:01",".candrew","#0","Hi, my team is integrating walletconnect via @web3-react/walletconnect-connector. When I call the activate function passing the connector , it does not show the walletconnect modal.
+
+versions
+ ""@web3-react/core"": ""^6.1.9"",
+    ""@web3-react/injected-connector"": ""^6.0.7"",
+    ""@web3-react/walletconnect-connector"": ""^6.2.13"",
+    ""@web3-react/walletlink-connector"": ""^6.2.14"",
+    ""ethers"": ""^5.7.1"",
+  ""next"": ""12.3.1"",","","https://cdn.discordapp.com/attachments/955463647918981150/1028496025746411580/WalletConnectConectorSetup"
+"2022-10-08,23:26:25","finessevanes","#0","<@704779161675497523> heyy are you trying to use v2 or v1 modal? (bounty is for v2 modal 😉  )",".candrew#0",""
+"2022-10-08,23:29:16","finessevanes","#0","<@704779161675497523> if you're trying to use v2, check out this create-react-app example https://github.com/finessevanes/wc-demo . react docs: https://github.com/WalletConnect/web3modal/blob/V2/packages/react",".candrew#0",""
+"2022-10-08,23:30:20",".candrew","#0","Thanks I will check this links","",""
+"2022-10-08,23:30:43","finessevanes","#0","for sure! i'm still at the venue if u need some help",".candrew#0",""
+"2022-10-09,01:53:41","brendo13","#0","<@774471947932794890> 
+Using @walletconnect/react-native-dapp gives this error after install, wondering if you’ve seen this before?","finessevanes#0","https://cdn.discordapp.com/attachments/955463647918981150/1028545770250571776/IMG_3904.png"
+"2022-10-15,22:18:06","_wbt_","#0","Howdy! I'm wondering why UnblockReceipts didn't qualify for any WalletConnect prize, not even the pool, despite having that fully integrated?  We spent a fair amount of the hackathon time trying to get that working!","",""
+"2023-07-10,14:14:42","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/1128026529008459837/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,10:12:51","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the WalletConnect Team at any point with your questions!
+
+👀 **ABOUT**
+The communications protocol for web3, **WalletConnect** brings the ecosystem together by enabling wallets and apps to securely connect and interact.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Web3Modal Mobile Track**
+Best mobile app using either react-native, flutter, swift, or kotlin
+1.  $4,000
+2.  $2,000
+
+**Innovation Track**
+Best hack making use of ZK proofs and/or + ERC-6551
+1.  $4,000
+2.  $2,000
+
+**Auth Track**
+Best hack using Auth
+1.  $2,000
+2.  $1,000
+
+**Cloud Track**
+Best **UX** re-design of https://cloud.walletconnect.com
+1.  $2,000
+2.  $1,000
+
+**Pooled Track + Tweet about it.**
+Top 10 projects that uses Web3Modal will be eligible. Each project is awarded $200
+$2,000
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Mobile-First: Building Web3 Mobile dapps with WalletConnect Modal
+Time: 05:30 PM CEST – Jul 21, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+View it on Notion: https://walletconnect.notion.site/Hacker-Docs-7f1f3254d82847fbb763ef8cfa9a5995","",""
+"2023-07-21,17:11:04","thewinnie.","#0","Hey ❤️ !
+
+I have some issue using the Auth feature according to the docs
+(https://react-auth-dapp.walletconnect.com/)
+
+I tried with Zerion and Infinity but I can't manage to connect with the live demo or a localhost app 😦
+
+Is there a wallet connect mentor available or someone who manage to sucess with this around ?","",""
+"2023-07-21,17:30:18","thewinnie.","#0","don't know why, but it's fix 😄","",""
+"2023-07-21,19:20:43","kris0x","#0","hello i'm having issues connecting to the wc","","https://cdn.discordapp.com/attachments/955463647918981150/1132089806277586994/image.png"
+"2023-07-21,19:21:01","kris0x","#0","i'm suspicous it is issue on my side, since i hacked the code together very quickly 😅 but sometimes it works, sometimes it doesn't","",""
+"2023-07-22,07:05:33","crypblizz","#0","Hey still having this issue <@160874396897116160> ? Drop by the booth?","kris0x#0",""
+"2023-07-22,07:08:37","finessevanes","#0","hey, that's because not all wallets have implemented auth. you can use this wallet to test: https://react-web3wallet.vercel.app/","thewinnie.#0",""
+"2023-07-22,09:38:49","ayushtom","#0","hey the wallet connect modal project is in pending review state on the dashboard. Can someone from team escalate the review process so we can start testing the modal?","",""
+"2023-07-22,12:45:48","kenilshah","#0","How to use this?","finessevanes#0",""
+"2023-07-22,12:45:58","kenilshah","#0","I mean how do we integrate this on the front end","",""
+"2023-07-22,15:10:50","finessevanes","#0","Hey there- you don’t need the project to be approved to start hacking!","ayushtom#0",""
+"2023-07-22,15:14:53",".yssf.","#0","Hello guys, is there a mobile wallet that implemented auth?","",""
+"2023-07-22,17:01:15","seeinplays","#0","question, I'm using biconomy social log in which has wallet connect dependencies, and also web3 modal. I'm running into a error and I'm not sure where it's coming from, any idea how I can fix this?
+
+```index.js:82 WebSocket connection to 'wss://q.bridge.walletconnect.org/?env=browser&host=localhost%3A3000&protocol=wc&version=1' failed: ```","",""
+"2023-07-22,17:33:01","poochyc","#0","Anyone here able to help with using Rainbowkit? <@799202474992599050>","oleksiynov#0",""
+"2023-07-22,17:59:02","puncar","#0","Same - what do we need to do to get WalletConnect ID working - or do you have some generic ID for demo purposes?","",""
+"2023-07-22,18:26:15","finessevanes","#0","You just have to sign up and create a project. It doesn’t need to be approved to use the project id","puncar#0",""
+"2023-07-22,18:26:49","finessevanes","#0","Hey, using rainbow kit won’t qualify you for a bounty. Do you need help implementing the modal?","poochyc#0",""
+"2023-07-22,19:43:17","finessevanes","#0","you'll want to message biconomy and let them know to use the v2 relay, not the v1 bridge (it's been deprecated)","seeinplays#0",""
+"2023-07-22,19:43:57","finessevanes","#0","https://docs.walletconnect.com/2.0/web/walletConnectModal/auth/react/installation","kenilshah#0",""
+"2023-07-22,20:53:38","cryptosmiff","#0","<@774471947932794890> hello can you help us w this?","finessevanes#0","https://cdn.discordapp.com/attachments/955463647918981150/1132475579170566194/telegram-cloud-photo-size-5-6188114075087648514-y.jpg"
+"2023-07-23,01:13:38","kenilshah","#0","Integrated thanks","finessevanes#0",""
+"2023-07-26,04:11:13","dani.ortega","#0","Hello! What are the the steps to follow after being top10 integrators?","",""
+"2023-09-13,13:20:01","awliang","#0","","","https://cdn.discordapp.com/attachments/955463647918981150/1151567979193041016/image.png"
+"2023-09-17,13:11:00","awliang","#0","Hello and welcome to the <#955463647918981150> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the WalletConnect Team at any point with your questions!
+
+👀 **ABOUT**
+The communications protocol for web3, [**WalletConnect**](https://walletconnect.com/) brings the ecosystem together by enabling wallets and apps to securely connect and interact.
+
+
+🏆 **PRIZE OVERVIEW**
+
+*   **$8,000** for Web3Inbox
+*   **$5,000** for Web3Modal V3 Usage
+*   **$3,000** for Mobile Usage (React Native / iOS / Android)
+*   **$2,000** for Innovation. Go wild and create anything using any of the WalletConnect SDKs
+*   **$1,000** for the top 10 pool prize submissions
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+🛠️ Build Dapp Notifications with Web3Inbox
+Time: 05:30 PM EDT – Sep 22, 2023
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+[Documentation](https://docs.walletconnect.com/)
+[Web Examples](https://github.com/WalletConnect/web-examples)
+[React Native Examples](https://github.com/WalletConnect/react-native-examples)
+[Android Examples](https://github.com/WalletConnect/WalletConnectKotlinV2/tree/develop/sample)
+[iOS Examples](https://github.com/WalletConnect/WalletConnectSwiftV2/tree/develop/Example)
+Hacker Guide: Coming soon!","",""
+"2023-09-20,08:54:55","crypblizz","#0","👋🏻","",""
+"2023-09-20,10:45:59","clinenerd","#0","👋","",""

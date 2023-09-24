@@ -1,0 +1,155 @@
+Date,Username,User tag,Content,Mentions,link
+"2023-07-10,14:57:42","awliang","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1128037352867123200/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,18:15:16","awliang","#0","Hello and welcome to the <#1128037342284877914> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Mask Network Team at any point with your questions!
+
+👀 **ABOUT**
+**Mask Network** brings privacy and benefits from Web3 to social media like Facebook & Twitter - with an open-sourced browser extension.
+Next.ID was initiated by the core team responsible for the development of Mask Network last year.
+
+Next ID is an open-source protocol designed for developers to create and manage identities. The Next ID protocol acts as a secure conduit connecting various web2 and web3 identifiers, such as wallets, Twitter profiles, ENS names, Lens profiles, and more.
+
+When a person's different identifiers are linked together, they form an identity graph, creating powerful, portable, and self-sovereign digital identities. We refer to these identities, digital representations of self, as avatars at Next ID.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**Best Use of RelationService - Develop the Next-Gen Application with a Portable Universal Profile**
+🥇 $3,000
+🥈 $2,000
+🥉 $800
+
+✍️ **Best Use of ProofService **- $600
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Take Reputation Anywhere with DIDs and Universal Profiles
+Time: 04:00 PM CEST – Jul 21, 2023
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.next.id/","",""
+"2023-07-17,23:20:54","hanachan5378","#0","Hi! This is Afra from Mask Network!","",""
+"2023-07-18,03:07:16","binaryhb","#0","Hi Everyone! Wei from Mask Network & Next.ID, feel free to ask question you may have","",""
+"2023-07-21,16:19:18","0xguy","#0","hello team, I am facing an issue with twitter verfication from docs","","https://cdn.discordapp.com/attachments/1128037342284877914/1132044154478801000/Screenshot_2023-07-21_at_10.18.55_PM.png"
+"2023-07-21,16:20:44","0xguy","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1132044512764633128/Screen_Recording_2023-07-21_at_10.18.06_PM.mov"
+"2023-07-21,17:09:41","0xguy","#0","sorry i was using eth public instead of next avatar private key my bad","",""
+"2023-07-21,17:09:49","0xguy","#0","public key*","",""
+"2023-07-21,19:02:14","0xguy","#0","hello  guys,I'm still unable to understand what exactly to pass in the public_key, whether the only way is by generating a new key pair as specified in docs or is possible to import  exisiting address from ethereum chain","",""
+"2023-07-22,03:10:48","nyk.ma","#0","Hi, technically NextID Avatar is exactly the same as Ethereum wallet (secp256k1 public/private keypair). What NextID want is `0xHEXSTRING` representation of your avatar's public key. 
+Both Compressed `0x33BYTES` and Uncompressed `0x65BYTES` are supported.","0xguy#0",""
+"2023-07-22,04:08:00","0xguy","#0","Hello <@346635066912407553>  when I tried to pass the public as mentioned above it is giving me “public key not recognised “ error”. How to proceed from here","nyk.ma#0",""
+"2023-07-22,04:08:26","0xguy","#0","for debugging i have attached screenshots and video of it","",""
+"2023-07-22,04:23:48","nyk.ma","#0","I want to see what request body you used in this req","0xguy#0",""
+"2023-07-22,04:24:31","nyk.ma","#0","Here is a request sample in the doc: https://docs.next.id/rest-api/proofservice-api#proof-payload","",""
+"2023-07-22,04:24:45","nyk.ma","#0","⬆️ `Body` part","",""
+"2023-07-22,04:26:40","nyk.ma","#0","Doc here shows which format of public key NextID accepts: https://docs.next.id/proof-service/ps-faq#how-do-i-generate-a-avatar","",""
+"2023-07-22,05:00:10","0xguy","#0","compressed example, in the docs  it is mentioned that public key should start from an certain value like 0x02 but that doesn't work for me as well","","https://cdn.discordapp.com/attachments/1128037342284877914/1132235630471041034/Screenshot_2023-07-22_at_10.55.33_AM.png"
+"2023-07-22,05:00:32","0xguy","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1132235725295845476/Screenshot_2023-07-22_at_11.00.21_AM.png"
+"2023-07-22,05:43:27","nyk.ma","#0","Your `""public_key""` looks more like a wallet address, instead of a public key. Notice that wallet address is not equivalent to public key.","0xguy#0",""
+"2023-07-22,09:35:35","Charles117","#9267","Hello everyone, our Chief Technology Officer is here. We invite you to visit our booth to share your ideas and seek assistance.<:nfthearteyes:822186185727148053>","",""
+"2023-07-22,10:23:35","lucacreates","#0","Hey guys, trying to use the `profile` route that's used by web3.bio but struggling to get a request to respond, I was told your Tiger network is down, and to try using: https://relation-service.next.id/ but still getting Internal Server Errors","",""
+"2023-07-22,10:24:39","lucacreates","#0","i.e. https://relation-service.next.id/profile/ENS/jordydutch.eth","",""
+"2023-07-22,10:27:26","Charles117","#9267","Sample：
+{
+  identity(platform: ""twitter"", identity: ""bgm38"") {
+    status
+    uuid
+    displayName
+    createdAt
+    addedAt
+    updatedAt
+    # Here we perform a 3-depth deep search for this identity's ""neighbor"".
+    neighbor(depth: 3) {
+      sources # Which upstreams provide these connection infos.
+      identity {
+        uuid
+        platform
+        identity
+        displayName
+      }
+    }
+  }
+}","",""
+"2023-07-22,10:27:29","Charles117","#9267","Sample 2:
+{
+  identity(platform: ""twitter"", identity: ""bgm38"") {
+    status
+    uuid
+    displayName
+    createdAt
+    addedAt
+    updatedAt
+    # Here we perform a 3-depth deep search for this identity's ""neighbor"".
+    neighborWithTraversal(depth: 3) {
+     updatedAt
+      source
+      from {
+        platform
+        identity
+        nft(category: ENS) {
+          id
+        }
+      }
+      to {
+        platform
+        identity
+        nft(category: ENS) {
+          id
+        }
+      }
+    }
+  }
+}","",""
+"2023-07-22,15:57:26","0xguy","#0","hey guys this is the post content which i'm getting back from the proof/payload post method  ""🎭 Verify <@767041451271913482> with @NextDotID.\nSig: %SIG_BASE64%\nMisc: ca4c2efc-012f-4809-a520-b4c986597e9a|1690055368|"" and after replacing the sig it looks like this  ""🎭 Verify <@767041451271913482> with @NextDotID.
+Sig: 0x95b47e8d596934f178a511cd73cd219953046e210ced39e99b992ed764e521432d45a469c5067ee94b2b10a7bbedfb22e9fb1b8c88386de076e19058ebb6a0b91b
+Misc: ca4c2efc-012f-4809-a520-b4c986597e9a|1690055368| "" but the example given in docs is this https://twitter.com/BinaryHB/status/1543541274254639104.","0xkitetsu#0",""
+"2023-07-22,16:01:47","0xguy","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1132402133380108349/Screenshot_2023-07-22_at_10.01.15_PM.png"
+"2023-07-22,16:27:59","0xguy","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1132408725559324723/Screenshot_2023-07-22_at_10.27.31_PM.png"
+"2023-07-22,16:48:09","0xguy","#0","this is the method i'm using for recovering public key and it is quite large, I have solved other issues this is the last one remainig","","https://cdn.discordapp.com/attachments/1128037342284877914/1132413802659450910/Screenshot_2023-07-22_at_10.47.12_PM.png"
+"2023-07-22,16:54:58","Charles117","#9267","Hi I had created a tg group for you 👍","",""
+"2023-07-22,16:55:39","Charles117","#9267","we have team there helping you 👀","",""
+"2023-09-13,13:25:26","awliang","#0","","","https://cdn.discordapp.com/attachments/1128037342284877914/1151569343252008990/image.png"
+"2023-09-16,12:45:15","awliang","#0","Hello and welcome to the <#1128037342284877914> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Mask Network Team at any point with your questions!
+
+👀 **ABOUT**
+Dear Builders,
+
+Mask Network brings privacy and benefits from Web3 to social media like Facebook & Twitter - with an open-sourced browser extension. Next.ID was initiated by the core team responsible for the development of Mask Network last year.
+
+Next.ID is an open-source protocol designed for developers to create and manage identities. The Next.ID protocol acts as a secure conduit connecting various web2 and web3 identifiers, such as wallets, Twitter profiles, ENS names, Lens profiles, and more.
+
+When a person's different identifiers are linked together, they form an identity graph, creating powerful, portable, and self-sovereign digital identities. We refer to these identities, digital representations of self, as **Avatars** at Next ID.
+
+
+🏆 **PRIZE OVERVIEW**
+
+#1 Paving the Way for an Autonomous World: Creating a Secure and User-Friendly Identity Solution for On-Chain Gaming
+1st prize - $3k USD
+2nd prize - $1k USD
+
+#2 Best Use of RelationService - Develop the Next-Gen Application with a Portable Universal Profile
+1st prize - $3k USD
+2nd prize - $2k USD
+3rd prize - $1k USD
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+Take Reputation Anywhere with DIDs and Universal Profiles
+Time: 03:00 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+Getting Started: https://docs.next.id/
+Universal Profile SDK API: https://api.web3.bio/","",""

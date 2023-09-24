@@ -1,0 +1,562 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-06-02,11:24:38","awliang","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/981941421621780550/unknown.png"
+"2022-06-16,23:58:09","awliang","#0","Hello and welcome to the <#981941412713087037> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Unlock Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Unlock** is an open source, Ethereum-based protocol designed to streamline membership benefits for online communities. Unlock is meant to help creators find ways to monetize or manage membership without relying on a middleman. It’s a protocol — and not a centralized platform that controls everything that happens on it.Unlock’s mission is about taking back subscription and access from the domain of middlemen — from a million tiny silos and a handful of gigantic ones — and transforming it into a fundamental business model for the web.The Unlock Protocol can be applied to DAO tooling (e.g. token gating) content locking (paywalls), newsletters, software licenses or even the physical world, such as NFT ticketing.
+
+
+🏆 **PRIZE OVERVIEW **
+
+Most inventive use of Unlock Protocol:
+🥇 1st Prize $3,000
+🥈 2nd Prize $1,500
+🥉 3rd Prize $500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+https://youtu.be/Eri8FcwMk3w
+
+
+🔗 **IMPORTANT LINKS**
+https://unlock-protocol.com/guides/
+https://docs.unlock-protocol.com/unlock/
+https://docs.unlock-protocol.com/unlock/developers/tutorials?_ga=2.109252163.778530295.1654545442-1987130015.1654295853
+https://www.youtube.com/c/UnlockProtocol
+https://github.com/unlock-protocol","",""
+"2022-06-21,05:48:44","HenryHoffman","#7933","Hey everyone. I took part in the EthGlobal HackFS hackathon a year ago with our NFT-based PC game marketplace GameVault. We've since built on that hackathon entry and raised $500k in pre-seed funding, as well as taking part in Animoca-backed accelerator Launchpad Luna. We're very busy working towards MVP launch in the next few months. You can see our entry here: https://showcase.ethglobal.com/hackfs2021/games-vault
+
+We used Unlock extensively for GameVault, so I'm going to be around here during the hackathon to help out as best I can! I also built the Unity and Decentraland integrations for Unlock, so if you have any questions on them, I can help out there too!
+
+Best of luck everyone! 🔒 🚀","",""
+"2022-06-21,15:05:56","wonderwomancode","#0","Thanks for joining! We appreciate you.","HenryHoffman#7933",""
+"2022-06-24,16:41:22","wonderwomancode","#0","Alright devs, who will be the first to build a Zoom app that uses Unlock to token gate a stream? https://www.producthunt.com/posts/zoom-apps-sdk","",""
+"2022-06-24,22:09:01","rpavlovs","#0","Hi, is anyone at the event rn? We have a few questions about a hack we are thinking of making","",""
+"2022-06-24,22:09:49","ccarfi","#0","ask away! how can we help?","",""
+"2022-06-24,22:11:46","rpavlovs","#0","We want to make gated pay-per-view text publication using lens protocol. Would it be possible to use unlock for the actual gating mechanism?","",""
+"2022-06-24,22:15:30","ccarfi","#0","absolutely should be!","",""
+"2022-06-24,22:22:45","ccarfi","#0","lots of guides and examples here https://docs-unlock-protocol-com.netlify.app/Tutorials/locking-media-content","rpavlovs#0",""
+"2022-06-25,10:33:26","wonderwomancode","#0","I'm here all day if you need any more help!","rpavlovs#0",""
+"2022-06-25,12:30:21","wonderwomancode","#0","I'm hanging out at the white tables by the food lines in case anyone has any questions!","",""
+"2022-06-25,14:53:48","wonderwomancode","#0","For those of you who want an example application this project was one of our grantees and it's an open source project https://viaheadline.xyz/","",""
+"2022-06-25,14:53:50","wonderwomancode","#0","https://github.com/raid-guild/headline","",""
+"2022-06-25,15:01:04","wonderwomancode","#0","More than one person now has asked me about file storage and I wanted to make sure there was a reference here for anyone that needed it. https://docs.unlock-protocol.com/unlock/developers/tutorials/what-is-a-decentralised-application-aka-dapp#file-storage-networks-ipfs-arweave-filecoin","",""
+"2022-06-25,15:02:24","wonderwomancode","#0","Many of you are wanting more information on how our ""roles"" work and here is the reference for that https://docs.unlock-protocol.com/unlock/developers/smart-contracts/lock-api/access-control#roles","",""
+"2022-06-25,15:08:03","Becky Button","#5076","https://unlock-event-ticket.glitch.me/","",""
+"2022-06-25,15:08:09","Becky Button","#5076","is there a github for this ^^","",""
+"2022-06-25,15:22:18","Becky Button","#5076","i think i may be copying examples incorrectly! is there a dev i could get some help from here?","",""
+"2022-06-25,15:27:39","wonderwomancode","#0","<@846084450697740289> this one with glitch is not one I had seen, how about you?","Becky Button#5076、ccarfi#0",""
+"2022-06-25,15:28:12","wonderwomancode","#0","I'm over by the food tables if you want to come find me.","Becky Button#5076",""
+"2022-06-25,16:19:30","wonderwomancode","#0","For non-technical hackers you might find the guides more useful than the protocol docs, these are geared towards that audience. cc <@332308563903119360>  https://unlock-protocol.com/guides/","Becky Button#5076",""
+"2022-06-25,16:29:19","Becky Button","#5076","i just tried to find you!","wonderwomancode#0",""
+"2022-06-25,16:40:49","wonderwomancode","#0","Sorry I just sat back down.","",""
+"2022-06-25,16:43:43","wonderwomancode","#0","Customizing the NFT --> for those people looking to add metadata and change the image on one of our NFTs https://docs.unlock-protocol.com/unlock/creators/customizing-the-nft","",""
+"2022-06-25,16:45:37","wonderwomancode","#0","Our javascript library to help you connect your frontend https://docs.unlock-protocol.com/unlock/developers/tools/unlock.js","",""
+"2022-06-25,16:48:36","wonderwomancode","#0","If all you want to do is lock web2 content you can use our paywall to accomplish that https://docs.unlock-protocol.com/unlock/developers/tools/paywall","",""
+"2022-06-25,16:49:51","wonderwomancode","#0","If you'd also like to use The Graph we have created some subgraphs for your convenience https://docs.unlock-protocol.com/unlock/developers/tools/subgraph","",""
+"2022-06-25,17:26:22","wonderwomancode","#0","Somebody was looking for event ticketing information https://unlock-protocol.com/guides/how-to-sell-nft-tickets-for-an-event/","",""
+"2022-06-25,17:27:00","wonderwomancode","#0","Please let me know if you have any trouble with your implementation.","",""
+"2022-06-25,18:23:30","Becky Button","#5076","I am still having issues","wonderwomancode#0",""
+"2022-06-25,18:43:31","HenryHoffman","#7933","<@332308563903119360> if you can post a description of the problem, I might be able to help 🙂","Becky Button#5076",""
+"2022-06-25,20:40:39","chaskinonchain","#0","Hey is anyone from unlock still here","",""
+"2022-06-25,20:40:40","chaskinonchain","#0","?","",""
+"2022-06-25,20:52:40","wonderwomancode","#0","Hey Jason I finally need a break before I lost my voice. I'm still online though and others have been in the channel helping out. What I can we help you with?","chaskinonchain#0",""
+"2022-06-25,21:02:17","chaskinonchain","#0","Let me gather my thoughts on this dynamic nft blog first haha. No worries, I wish I caught you earlier, this is my first hackathon & bit off a little more than I could chew at first","",""
+"2022-06-25,21:13:00","wonderwomancode","#0","Check out the guides because they're step by step for non-technical people and you can use the convenience tools we've created with little or no code. This can get you up and running very quickly and if you'd like to get fancier later you can keep working on it after the event. https://unlock-protocol.com/guides/","chaskinonchain#0",""
+"2022-06-25,21:14:44","Becky Button","#5076","do you have a guide like this that uses unlock.js","wonderwomancode#0",""
+"2022-06-25,21:15:20","Becky Button","#5076","i think this guide is very useful, but im having trouble integrating it into react","",""
+"2022-06-25,21:19:07","Becky Button","#5076","https://github.com/ethereum-push-notification-service/epns-frontend-sdk/blob/main/sample_codes/loadNotifications/src/App.js this resource is great but it would be really helpful if it had smaller examples. 1500 lines of code is kinda hard to skim through in a hackathon and i really would like to integrate unlock into our project. thank you!","",""
+"2022-06-25,21:22:49","wonderwomancode","#0","https://github.com/unlock-protocol/react-example","Becky Button#5076",""
+"2022-06-26,10:15:04","mirrash.eth","#0","Hey guys, where should we go for unlock presentations?","",""
+"2022-06-26,11:45:29","ccarfi","#0","hey there! we are in the sponsor area just past Superfluid.","mirrash.eth#0",""
+"2022-06-26,13:04:00","paweldev","#0","Hey guys, team Podcha here - are you still around?","",""
+"2022-06-26,13:30:06",".keesvb","#0","Podcha is a decentralized podcast app: https://www.podcha.app/: https://ethglobal.com/showcase/podcha-xptrv. We created a React component which wraps content with Unlock. The idea was to use Lens Follow NFTs (at podcast level) or Collect NFTs (at episode level) but due to issues with the Lens API unfortunately we did not get around to this integration.","",""
+"2022-06-26,14:37:16","newway1220","#0","We have used Unlock NFT as one of our NFTs that we enable cross-bridging lending !! 
+Team : XrossLend 
+https://ethglobal.com/showcase/xrosslend-ywawa","",""
+"2022-08-26,02:19:33","awliang","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1012607213946282034/unknown.png"
+"2022-08-30,13:11:47","awliang","#0","Hello and welcome to the <#981941412713087037> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Unlock Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Unlock** is a protocol developers, creators, and platforms can use to create memberships. Unlock’s goal is to ease implementation and increase conversion from “users” to “members,” creating a much healthier monetization environment for the web.
+
+In short, Unlock is an open-source, collectively owned, community-governed, peer-to-peer system that creates time-based memberships.
+
+Unlock Protocol belongs to the Unlock Ecosystem, not Unlock Labs, and is governed by the Unlock DAO.
+
+We aim for Unlock Protocol to be the primitive for every membership, both online and offline, around the globe. Together, we will create an internet owned and monetized by creators and their supporters.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Unlock is awarding prizes to projects that have the most inventive use of Unlock:**
+🥇 1st Prize: $3000
+🥈 2nd Prize: $1500
+🥉 3rd Prize: $500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/AhbIL_OeWE4
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.unlock-protocol.com/
+https://unlock-protocol.com/guides/
+https://unlock-protocol.com/blog
+https://github.com/unlock-protocol
+https://discord.com/invite/R4ppmsC6bv","",""
+"2022-08-31,13:50:59","hidetaka","#3633","We are thinking of creating something like a Web3 version of Patreon.
+
+We envision the following use cases for your technology lie below.
+
+Are you eligible in either case for your prize?　
+Or do you have any other idea?
+
+
+1. Used for membership NFT Gateway of creator submissions.","",""
+"2022-09-01,09:55:52","julien1972","#0","This is a great idea <@521629505345945602> !","hidetaka#3633",""
+"2022-09-01,09:56:50","julien1972","#0","Like always we're very excited about this hackathon and seeing what you all end up building!","",""
+"2022-09-01,10:05:12","hidetaka","#3633","Thank you. I'm curious.
+
+Is the Unlock protocol compatible with The Graph?
+Or is subgraph already in use?
+
+Can I use Graph protocol separetly? 
+
+I read it.
+https://docs.unlock-protocol.com/tools/subgraph","julien1972#0",""
+"2022-09-01,10:06:05","hidetaka","#3633","I would like to know if Graph is already being used for Unlock, so there is no need to use it anew and it does not satisfy the conditions of Graph's Prize, or if there is value to be gained by using it anew and separately.","",""
+"2022-09-01,13:54:38","wonderwomancode","#0","Hey so I wanted to let you know that since The Graph as so many options in the way you implement there might be some opportunities there to create new subgraphs that could be of use to the community. <@418849261761986561> I know Clement was working on new subgraphs already, but is there anything beyond the scope of what he was already working on that you think would be useful to have?","julien1972#0、hidetaka#3633",""
+"2022-09-01,14:21:51","wonderwomancode","#0","Some building inspiration https://unlockprotocol.notion.site/Building-Inspiration-cf7e525034dc49c3b45d111ce8476413","",""
+"2022-09-02,08:54:19","sarvagnakadiya","#1069","<#822657841420435486>","",""
+"2022-09-02,08:55:00","sarvagnakadiya","#1069","I'm getting difficulties with integrating unlock.js with FrontEnd (react)","",""
+"2022-09-02,08:56:59","sarvagnakadiya","#1069","I tried to Unlock the Lock(purchasing a key using WalletService)","",""
+"2022-09-02,08:57:37","sarvagnakadiya","#1069","and I'm getting error: 
+Invalid mnemonics","",""
+"2022-09-02,11:29:53","schmidsi","#0","There is already a subgraph for Unlock Protocol: https://thegraph.com/hosted-service/subgraph/unlock-protocol/unlock. By using this subgraph in your project, you'll be eligible for the track ""Best use of existing subgraph"". That said, if there are any features missing in this subgraph that you think would be interesting for the broader community, you can write a new subgraph or make a pull-request to the existing one. That would both count as ""Best new subgraph""","hidetaka#3633",""
+"2022-09-02,14:20:25","wonderwomancode","#0","Hey there can you give me a little bit more info? A screenshot of the entire stack?","sarvagnakadiya#1069",""
+"2022-09-02,14:24:44","wonderwomancode","#0","Also I want to make sure you're aware of these example repos that are all using react in different ways with Unlock, they might help. 
+https://github.com/unlock-protocol/scaffold-eth-unlock
+https://github.com/unlock-protocol/unlock-with-next","",""
+"2022-09-03,05:27:08","sarvagnakadiya","#1069","I tried the above repo(unlock-with-next) and in unlock.ts file I changed the lock address (which is on rinkeby only) but still getting errors","",""
+"2022-09-03,05:27:35","sarvagnakadiya","#1069","","","https://cdn.discordapp.com/attachments/981941412713087037/1015553639714144336/unknown.png"
+"2022-09-03,06:32:41","sarvagnakadiya","#1069","Also I tried this repo https://docs.unlock-protocol.com/tutorials/react-example given in the documentation
+it let me purchase Membership but I am not been able to redirect to another link as we do in dashboard.
+when i click on Return it shown just Unlocked
+how can I make changes and make it as if I have the membership i'll be redirected to the given address","",""
+"2022-09-03,16:29:46","mrx1868","#0","Is there a github repo for this tutorial ? https://youtu.be/YzVq-kMISK0","",""
+"2022-09-05,11:05:47","sangbejo19.eth","#0","Thanks sir","mrx1868#0",""
+"2022-09-05,11:05:54","Lofi Radio","#1753","","","https://cdn.discordapp.com/attachments/981941412713087037/1016363552300347483/lofi_radio_profile.png"
+"2022-09-06,12:48:27","wonderwomancode","#0","All information you need about that can be found in the tutorial in our docs and you can use the npm module or there is a link to the code repo there. https://docs.unlock-protocol.com/tutorials/backend-locking-with-express.js","mrx1868#0",""
+"2022-09-06,12:50:38","wonderwomancode","#0","<@565759960445616139> <@771165449874309142> you might also find this repo using Next helpful, it has examples of both frontend and backend locking https://github.com/unlock-protocol/unlock-with-next","mrx1868#0、sangbejo19.eth#0",""
+"2022-09-06,12:57:32","mrx1868","#0","Would that work with React Native?","wonderwomancode#0",""
+"2022-09-06,13:00:21","wonderwomancode","#0","I can't think of any reason why it wouldn't.","mrx1868#0",""
+"2022-09-06,13:01:04","mrx1868","#0","Thank you! Will give it a shot 🛠","wonderwomancode#0",""
+"2022-09-06,13:01:46","wonderwomancode","#0","Let me know if you have any issues, I'm here to help.","mrx1868#0",""
+"2022-09-06,13:29:40","wonderwomancode","#0","Just wanted to drop a note in here in case anyone saw any problems using the Unlock Dashboard in the last couple of hours. We had an issue with our RPC provider for Rinkeby, engineering recognized the problem and had a fix out before I even had a chance to put a message out, but in case you had any issues this should be working fine now. We encourage the use of Goerli since we'll be deprecating Rinkeby by the end of the year but will continue supporting it until then.","",""
+"2022-09-06,21:28:47","mrx1868","#0","hello. How would the dependencies that you need to install such as : npm install --save-dev html-webpack-plugin \
+                       webpack             \
+                       webpack-cli         \
+                       webpack-dev-server","",""
+"2022-09-06,21:28:57","mrx1868","#0","how would they be install or work on reactnative?","",""
+"2022-09-07,21:20:19","wonderwomancode","#0","You can use ReactNative and webpack together, in fact it's pretty commonly done on projects that share a codebase between a web-app and a native app. Here is a good article that goes over how that can be accomplished https://sonalake.com/latest/code-sharing-with-react-native-and-webpack/","mrx1868#0",""
+"2022-09-08,00:24:52","mrx1868","#0","Thank you! <@403684446299095042>","wonderwomancode#0",""
+"2022-09-08,11:27:35","dinesh11515","#0","Hey i tried unlock protocol with mumbai testnet it is not working and i tried in goerli it's working fine.can you guys check <@403684446299095042> <@418849261761986561>","julien1972#0、wonderwomancode#0",""
+"2022-09-09,09:41:53","mfrayha","#0","Hello lads. My team wants to build a membership nft that can evolve over time giving access to more features. If there is anyone looking for a project to build, we gladly accept new members","",""
+"2022-09-09,15:46:07","wonderwomancode","#0","Thanks can you give me more information and what you tried? I'm still seeing network activity for Unlock on Mumbai, maybe it was possible that there was an issue with Mumbai being down for a bit. Have you tried it today?","dinesh11515#0",""
+"2022-09-10,09:48:35","dinesh11515","#0","Yeah i tried it's still not working.Actually i am creating a lock in mumbai testnet whenever i am generating a link that link is not working.Also after refreshing the dashboard page it's showing that no locks created yet. Everything works fine in goerli.
+https://mumbai.polygonscan.com/tx/0x222180f00dcfe510762f6f4237a7d57bf8e8683990adb485f872291d28bb1d01","wonderwomancode#0",""
+"2022-09-10,09:49:18","dinesh11515","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1018156214745575444/Screenshot_from_2022-09-10_19-18-54.png"
+"2022-09-12,21:27:23","dov","#0657","so it looks like you can token gate your frontend with unlock.js, is there away to token gate a smartcontract itself using an unlock membership token?","",""
+"2022-09-13,10:46:19","wonderwomancode","#0","Looks like this is an issue only on Mumbai and only from the Dashboard currently, lock creation on Mumbai are still working programmatically, which is why I was still seeing traffic on that testnet. I entered an issue in case you'd like to get updates https://github.com/unlock-protocol/unlock/issues/9599. In the meantime since you're just testing you can create a lock on Goerli for testing and it will work the same way as a Lock deployed later on Polygon.","dinesh11515#0",""
+"2022-09-13,10:48:14","wonderwomancode","#0","Unlock.js works in node and you can see an example of that works here https://github.com/unlock-protocol/unlock-with-next","dov#0657",""
+"2022-09-13,12:05:35","karthi1908","#0","I was about to ask the same. I had created locks for my dapp CC-EX but i am not able to see them now.. Let me try to create in Goerli and see","wonderwomancode#0",""
+"2022-09-13,15:00:26","wonderwomancode","#0","Definitely a UI to network related issue and your locks aren't missing.","karthi1908#0",""
+"2022-09-13,21:34:05","dinesh11515","#0","okay","wonderwomancode#0",""
+"2022-09-14,09:48:55","mfrayha","#0","Is it possible to customize the lock? I wanted to mint an unlock key with some custom metadata, particularly I want my unlock NFT to have different levels. Can anyone give me some light on how to do it?","",""
+"2022-09-15,16:23:26","romreactor","#0","Hello Unlock team, we just presented at the project review session regarding securing messenger communication on chain. May you point us in the right direction on how we can decrypt and encrypt messages with Unlock.","",""
+"2022-09-15,16:28:24","vlprosvirkin","#3513","Hello guys, I am from ASPIS, do you currently run as a DAO? We can help you with that!
+
+Regarding Unlock implementation we may use recurring payments for an NFT subscription, is it possible with Unlock?","",""
+"2022-09-15,16:35:48","wonderwomancode","#0","We do have a DAO","vlprosvirkin#3513",""
+"2022-09-15,16:36:08","wonderwomancode","#0","https://docs.unlock-protocol.com/governance/","",""
+"2022-09-15,16:37:03","wonderwomancode","#0","Recurring subscriptions is all on chain with Unlock Protocol","vlprosvirkin#3513",""
+"2022-09-15,16:37:40","wonderwomancode","#0","https://unlock-protocol.com/guides/recurring-memberships/","",""
+"2022-09-15,16:46:08","wonderwomancode","#0","So searchableguy wrote this for people using Unlock to do ticketing and you'll be able to leverage his work on it. I already messaged him to get the repo link for you https://ticket-chat.netlify.app/","romreactor#0",""
+"2022-09-15,16:47:38","romreactor","#0","Awesome, please do share that repo. I will take a look at this now.","wonderwomancode#0",""
+"2022-09-15,16:49:11","wonderwomancode","#0","It's the end of his day right now, so it might be tomorrow but I'll definitely get that for you. Everything we do is open source. He's not here in this channel but after you take a look at the code on that you can hit him up directly in the dev channel of our Discord server and I'm always here to answer questions.","",""
+"2022-09-15,16:55:54","romreactor","#0","Ah no rush  if anything I'll check back in here if I don't recieve anything ny tom night. =]","wonderwomancode#0",""
+"2022-09-15,17:12:01","wonderwomancode","#0","Here is where he started back in March. I know there is a more current repo used to deploy the app that I linked above but this has examples for both back and frontend gating will get you started and I'll drop the link to the updated when I get it in case the QR code drop part is useful to you.","romreactor#0",""
+"2022-09-15,17:12:03","wonderwomancode","#0","https://github.com/searchableguy/nft_chat","",""
+"2022-09-15,17:43:47","romreactor","#0","Thanks Angela you are awesome. Will look through this now.","",""
+"2022-09-15,21:52:40","wonderwomancode","#0","<@418849261761986561> wrote a hook you can use for password protecting your purchases (mints). Tutorial available on the docs soon. https://github.com/unlock-protocol/password-required-hook","julien1972#0",""
+"2022-09-20,10:55:14","nucleargeek","#0","Hi Angela! So I was reading through the react-example and I was trying to see if we could gate our site with an unlock token. Do you have other examples of including unlock as a react component? Just trying to think about how we can add it in to what we have already.","wonderwomancode#0",""
+"2022-09-20,10:58:11","wonderwomancode","#0","Yes that example is a bit outdated and you can find examples in https://github.com/unlock-protocol/scaffold-eth-unlock with using more current patterns in components and using react setState.","nucleargeek#0",""
+"2022-09-21,20:32:16","mrx1868","#0","how would I go about implementing the ```window.localStorage.getItem(""unlock""));```
+
+for react native?
+https://github.com/unlock-protocol/scaffold-eth-unlock/blob/79d3916f4b7900e2ab6c576a219a341540f8d746/packages/react-app/src/App.jsx#L251","wonderwomancode#0",""
+"2022-09-22,13:10:14","wonderwomancode","#0","You can't use localStorage in react native BUT there are several packages that you can use with RN that will provide the same functionality. https://reactnative.directory/?search=storage","mrx1868#0",""
+"2022-09-22,13:15:36","wonderwomancode","#0","Let me know if you have any trouble implementing one of those and I'll see if I can help. I've used reactive-native-storage in the past because it works for both web and mobile. Although if you're looking for just mobile support then async-storage is the way to go.","",""
+"2022-09-22,17:25:00","0xYee","#3607","Hi, Unlock checkout for Mumbai isn't working on my end, but other chains are. Is this a known bug or does it have something to do with my `paywallConfig` ?","",""
+"2022-09-22,18:53:18","wonderwomancode","#0","No it's not you, it's a known issue with Mumbai currently. You can use any other test chain though and your configuration will work exactly the same if launched on Polygon. I suggest Goerli. See https://github.com/unlock-protocol/unlock/issues/9599 and the underlying issue seems to be network related so it is understandable that it affects also the checkout because the checkout uses the same network configuration.","0xYee#3607",""
+"2022-09-23,06:25:15","0xYee","#3607","Thanks! Another issue I've found, in the Goerli subgraph it says the `totalSupply` is 0, when there are 2 keys created. And I also checked on goerli.etherscan and it says the `totalSupply` = 2. Is this also a bug? And does it also happen on mainnets?","wonderwomancode#0","https://cdn.discordapp.com/attachments/981941412713087037/1022815908160360508/unknown.png"
+"2022-09-23,10:04:13","hidetaka","#3633","For the hackathon, is Mainnet the only way to deploy to Polygon?
+
+Goeri is the testnet for ETH, right?","wonderwomancode#0",""
+"2022-09-23,11:07:35","wonderwomancode","#0","Yes Goerli is the testnet for ETH, however the protocol works the same on any chain it's deployed since they are all evm compatible. This means you can use any testnet and it's not an issue if your plan is deploy on polygon for production. If your concern is being able to show a deployment on polygon for the sake of judging then I'd suggest one of two things, either deploy on polygon mainnet OR simply state that Unlock is compatible with polygon, but you're deployed on the ETH testnet because of a current issue mumbai, but all production deployments will be on polygon not eth mainnet. I'll poke the engineering team and see if we can't get a fix on mumbai before the end of the hackathon too.","hidetaka#3633",""
+"2022-09-23,11:12:44","wonderwomancode","#0","Not an issue I was aware of but it certainly seems that way. I know that we're about to deploy a complete rewrite of the subgraphs anyway so I'm not sure it's even worth entering an issue on it. I'm wondering how quickly you looked because it does take time for the index on The Graph to be updated. I can go give this a test myself today too.","0xYee#3607",""
+"2022-09-23,11:17:00","0xYee","#3607","Yeah I took a look at the subgraph src code and didn't find anywhere where the `totalSupply` is updated. But if you're going to deploy a rewrite then it's not worth doing an issue. Thanks!","wonderwomancode#0",""
+"2022-09-23,11:36:16","wonderwomancode","#0","I just checked our product calendar, looks like refactored subgraphs are due to be deployed next week. I see a pull request is already open for review on the deployment script. We have it marked for announcement on the 29th, which usually means it will be deployed several days before that, so likely early part of next week.","0xYee#3607",""
+"2022-09-23,13:13:02","0xYee","#3607","Quick question, when using `await walletService.createLock(...)` is there a way to call something like `await tx.wait()` ? Because after that I'm trying to call `await walletService.grantKey(...)` but sometimes I get this error:","","https://cdn.discordapp.com/attachments/981941412713087037/1022918531869855805/unknown.png"
+"2022-09-23,13:13:34","0xYee","#3607","Or is there a way to grant a key to the Lock creator on the same tx?","",""
+"2022-09-23,13:55:01","wonderwomancode","#0","Can you explain in more detail exactly what you're trying to accomplish. I want to make sure I'm sending you down the right path but I don't know why you would want to grant a key to the lock creator in the same transaction. What's the bigger goal?","0xYee#3607",""
+"2022-09-23,13:57:35","0xYee","#3607","We're using Lit to encrypt some posts, so the lock creator needs a key as well to be able to decrypt those posts. Doesn't need to be in the same tx","wonderwomancode#0",""
+"2022-09-23,17:19:02","hidetaka","#3633","We are on the same team.
+
+>Can you explain in more detail exactly what you're trying to accomplish. I want to make sure I'm sending you down the right path but I don't know why you would want to grant a key to the lock creator in the same transaction. What's the bigger goal?
+
+We're building dapp for creators called Raindrop.
+
+Raindrop offers creators a decentralized alternative to platform subscriptions sites like Patreon or Onlyfans. We help creators access web3 technology to better.
+
+Our goals is to make it easy for creators to issue their own membership NFTs so that they can connect with their fans without middlemen. The bug above is a problem that is occurring when issuing Membership NFTs.
+
+https://raindrop-gold.vercel.app/app","wonderwomancode#0",""
+"2022-09-23,18:36:59","wonderwomancode","#0","Saw searchable guy got you an answer in the developer channel but let me know if you're having any more trouble with that. Since we're headed into the last couple of days of the event I will be around this weekend to answer questions.","hidetaka#3633",""
+"2022-09-23,18:41:17","hidetaka","#3633","Thank you. We're exciting to show the demo and get real creators!","wonderwomancode#0",""
+"2022-09-23,19:35:50","wonderwomancode","#0","It's really coming together 🙌","hidetaka#3633",""
+"2022-09-24,07:13:32","0xYee","#3607","Hi again, quick question. with `walletService` when setting the key price, I saw on the code that it checks for decimals of the ERC20 so that we don't have to convert the price ourselves. But in Goerli using DAI (18 decimals) it sets the price as if it had 6 decimals. Do you know why this is? Goerli DAI: https://goerli.etherscan.io/token/0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60","",""
+"2022-09-24,07:14:05","0xYee","#3607","But when I put `price: ""1""` , it gets set with just 6 zeroes:","","https://cdn.discordapp.com/attachments/981941412713087037/1023190585202446448/unknown.png"
+"2022-09-25,15:38:32","wonderwomancode","#0","Indeed that looks like an issue. Did you already enter an issue for this on the repository. I haven't tried yet to see if it's Unlock.js or an underlying lib. I saw <@521629505345945602> post in the developer channel. Nice job you guys!","hidetaka#3633、0xYee#3607",""
+"2022-09-27,02:07:21","ishita30","#0","Hey, I forgot to add unlock protocol in sponsor uses at the time of submission. I have edited the submission later after deadline, hope it will count. The unlock protocol is used both at frontend and in smart contract. <@403684446299095042>","wonderwomancode#0",""
+"2022-09-28,06:49:14","satwikkansal","#0","Hello team! Excited to share my hack; I tried to build a permissionless video streaming platform where the creator can be paid by viewers for their precise watch-time (per second) , I used Unlock protocol's public lock to check a user's accessiblity to a video stream.  It was quite easy to add features like limited access (number of viewers) and expiry.  
+
+If I may I'd also like to mention that I felt the need of a bit more details in the documentation. The ""turorials"" section was most helpful, but there were some sections where I felt the need for more details (like Locksmith). 
+ 
+and lastly here's the link to my hack video! https://www.youtube.com/watch?v=wJ4hR4cdusQ","",""
+"2022-09-28,12:40:03","wonderwomancode","#0","Thank you so much for all of your submissions! There were so many great projects! <@399142881484341248> <@697319221100806184> <@984092555832594462> <@521629505345945602> <@565759960445616139> <@695299262283776131> <@476303918779990026> <@839117157345525780> <@826719181692207124> <@903430323927416852> <@950486146796900412> <@771165449874309142> <@581447949641580544> come join us today to find out news, ask questions or talk about your projects if you'd like https://twitter.com/UnlockProtocol/status/1574475139919462400?s=20&t=CiGcucarVcoc9qdRd-3aTw","satwikkansal#0、sarvagnakadiya#1069、hidetaka#3633、romreactor#0、ishita30#0、vlprosvirkin#3513、mrx1868#0、karthi1908#0、dinesh11515#0、sangbejo19.eth#0、dov#0657、mfrayha#0、0xYee#3607",""
+"2022-09-28,12:44:51","hidetaka","#3633","I'm down! Thank you.","wonderwomancode#0",""
+"2022-09-28,12:49:49","ishita30","#0","Sure!!","",""
+"2022-10-17,18:49:46","awliang","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1031700581439524905/unknown.png"
+"2022-11-01,05:12:06","awliang","#0","Hello and welcome to the <#981941412713087037> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Unlock Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Unlock** is an open source, Ethereum-based protocol designed to streamline membership benefits for online communities. Unlock is meant to help creators find ways to monetize or manage membership without relying on a middleman. It’s a protocol — and not a centralized platform that controls everything that happens on it.Unlock’s mission is about taking back subscription and access from the domain of middlemen — from a million tiny silos and a handful of gigantic ones — and transforming it into a fundamental business model for the web.The Unlock Protocol can be applied to DAO tooling (e.g. token gating) content locking (paywalls), newsletters, software licenses or even the physical world, such as NFT ticketing.
+
+
+🏆 **PRIZE OVERVIEW **
+
+**Most inventive use of Unlock Protocol:**
+🥇 1st Prize $3,000
+🥈 2nd Prize $1,500
+🥉 3rd Prize $500
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**Unlock 🛠 Integrating Memberships Into Your Project with Unlock Protocol**
+Time: 06:00 PM PDT – Nov 04, 2022
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+https://unlock-protocol.com/guides/
+https://docs.unlock-protocol.com/
+https://unlock-protocol.com/guides/category/plugins/?_ga=2.146014706.778530295.1654545442-1987130015.1654295853
+https://www.youtube.com/c/UnlockProtocol
+https://github.com/unlock-protocol","",""
+"2022-11-02,14:28:34","patrickworkman","#0","gm! I'm stoked to experience what everyone builds this weekend!","",""
+"2022-11-04,11:50:47","buryh","#0","gm! We are start to looking into using unlock + polygon. Do we have to use polygon mainnet? Or there is some way we can use Unlock with polygon testnet?","",""
+"2022-11-04,15:22:01","ispeaknerd","#0","interested in unlock! ecosystem leaders in subscription tech 💪🏾","",""
+"2022-11-04,18:43:40","ccarfi","#0","hello! unlock is available on the polygon mumbai testnet, so go for it!","buryh#0",""
+"2022-11-04,18:44:06","ccarfi","#0","woo hoo! swing by our booth and get a t-shirt!","ispeaknerd#0",""
+"2022-11-04,18:44:40","ccarfi","#0","https://twitter.com/UnlockProtocol/status/1588659850485325825","",""
+"2022-11-04,22:02:17","buryh","#0","We are using polygon Mumbai, member trying to purchase a test service, but this pops up. The account has valid Mumbai MATIC. Any clue?","","https://cdn.discordapp.com/attachments/981941412713087037/1038272012327587930/unknown.png"
+"2022-11-04,23:48:19","ccarfi","#0","checking!!!","",""
+"2022-11-05,00:55:58","julien1972","#0","Hi hello!","",""
+"2022-11-05,00:56:17","julien1972","#0","We had a minor UI bug and it should now be resolved!","buryh#0",""
+"2022-11-05,10:47:00","justin.zh","#0","can we pay the membership with multiple erc20 token, for example support both usdt and ape","",""
+"2022-11-05,12:15:39","ccarfi","#0","hey there! in this case, what you'd do is:
+1) Set up two different locks, each priced in the respective ERC-20 (one lock for usdt and one lock for ape)
+2) set up your checkout to show both of those locks (so when someone is purchasing, they see both choices)
+3) have whatever resource you are setting up a membership for look for a key (NFT) from *either* of those locks","justin.zh#0",""
+"2022-11-05,12:15:46","ccarfi","#0","please let us know if that makes sense!","",""
+"2022-11-05,12:25:03","ccarfi","#0","hello, Unlock Locksmiths! a couple of new goodies for you that just launched...
+1) <@403684446299095042> just dropped a tutorial video on ""How to Token Gate with Next.js"" — covers front-end locking, server-side locking, and even how to token-gate an API. check it: https://www.youtube.com/watch?v=OV7kicgkpKc","wonderwomancode#0",""
+"2022-11-05,12:26:22","ccarfi","#0","2) if you are using the **thirdweb** smart contract registry and tools, Unlock is now included! you can use all the Unlock goodness from right inside of thirdweb: https://unlock-protocol.com/blog/thirdweb-unlock-announce","",""
+"2022-11-05,22:18:48","manasbir","#0","how do i change the tokenURI?","",""
+"2022-11-05,22:18:52","manasbir","#0","on a per NFT basis","",""
+"2022-11-05,22:31:42","ccarfi","#0","hey there! this might be what you need… https://unlock-protocol.com/guides/customizing-locks-on-opensea/","manasbir#0",""
+"2022-11-05,22:34:02","manasbir","#0","i want locks to all be unique","ccarfi#0",""
+"2022-11-05,22:59:18","ccarfi","#0","yes. the process above should set the `baseTokenURI` and each token (key/nft) can have a unique image. <@403684446299095042> or <@418849261761986561> can confirm.","julien1972#0、wonderwomancode#0",""
+"2022-11-05,23:44:34","caarl_eth","#0","Hi! I'm getting the purchase function reverted without a reason, I already did setEventHooks,. I'm stuck with this rn","",""
+"2022-11-05,23:58:56","julien1972","#0","Any error?","caarl_eth#0",""
+"2022-11-05,23:59:13","julien1972","#0","Yes please follow the guide that Chris sent.","manasbir#0",""
+"2022-11-06,00:00:06","julien1972","#0","The tokenURI is built with the base token uri (which you can change) and appending the token id.","manasbir#0",""
+"2022-11-06,00:01:03","julien1972","#0","So if your base is https://host.tld/tokens/ then the token URI for token 1 is https://host.tld/tokens/1 ... Etc","",""
+"2022-11-06,00:01:57","manasbir","#0","we cant do that rn, ig we will stick to the generalized variant","",""
+"2022-11-06,00:11:55","caarl_eth","#0","Error: Transaction reverted without a reason string","julien1972#0",""
+"2022-11-06,00:16:47","julien1972","#0","Ok that's not if much help. You can plug into tenderly the data?","caarl_eth#0",""
+"2022-11-06,00:16:54","julien1972","#0","Or issue things here and I'll try to help","",""
+"2022-11-06,00:26:32","caarl_eth","#0","The hook is the one for payment and is not doing anything (just returning 1 on the view function), so the error shouldnt be there.","",""
+"2022-11-06,00:26:47","caarl_eth","#0","await lock.setEventHooks(
+        testingContract.address, // The first address is the onKeyPurchase hook
+        ethers.constants.AddressZero, // Other non-used hooks
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero
+      )
+      
+      console.log(testingContract.address);
+      await lock.purchase([0], [RANDOM_WALLET], [RANDOM_WALLET], [RANDOM_WALLET], [[]]);","",""
+"2022-11-06,00:30:46","julien1972","#0","Can you paste the transaction data though?","",""
+"2022-11-06,00:31:07","julien1972","#0","Abd the contract address?","caarl_eth#0",""
+"2022-11-06,00:45:19","caarl_eth","#0","at <UnrecognizedContract>.<unknown> (0xbf9fbff01664500a33080da5d437028b07dfcc55)
+    at <UnrecognizedContract>.<unknown> (0xbf9fbff01664500a33080da5d437028b07dfcc55)
+    at HardhatNode._mineBlockWithPendingTxs (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:1773:23)
+    at HardhatNode.mineBlock (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:466:16)
+    at EthModule._sendTransactionAndReturnHash (node_modules/hardhat/src/internal/hardhat-network/provider/modules/eth.ts:1504:18)
+    at HardhatNetworkProvider.request (node_modules/hardhat/src/internal/hardhat-network/provider/provider.ts:118:18)
+    at EthersProviderWrapper.send (node_modules/@unlock-protocol/hardhat-plugin/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)","julien1972#0",""
+"2022-11-06,00:45:31","caarl_eth","#0","The only data I got","",""
+"2022-11-06,00:48:44","julien1972","#0","That's hard. It's there any long string that starts with 0x?","",""
+"2022-11-06,01:00:50","caarl_eth","#0","No  ; (","",""
+"2022-11-06,01:02:22","caarl_eth","#0","I tried to do it from the scratch again without any custom things and I have the same error","",""
+"2022-11-06,01:26:06","julien1972","#0","Is that in the browser?","",""
+"2022-11-06,01:26:26","julien1972","#0","Can you just share a screen shot of the whole error?","",""
+"2022-11-06,01:45:46","caarl_eth","#0","VS","julien1972#0",""
+"2022-11-06,01:46:01","caarl_eth","#0","","julien1972#0","https://cdn.discordapp.com/attachments/981941412713087037/1038690703041101984/Captura_de_Pantalla_2022-11-05_a_las_22.45.13.png"
+"2022-11-06,01:46:36","julien1972","#0","Ok, i think ethers let's you create the ""raw"" transaction","",""
+"2022-11-06,01:47:55","julien1972","#0","Actually what line is triggering this?","",""
+"2022-11-06,01:47:55","caarl_eth","#0","In the browser, right?","",""
+"2022-11-06,01:48:09","julien1972","#0","Is this the setEventHooks?","",""
+"2022-11-06,01:48:16","caarl_eth","#0","The purchase","julien1972#0",""
+"2022-11-06,01:48:25","caarl_eth","#0","lock.purchase","",""
+"2022-11-06,01:48:35","julien1972","#0","Ok can you paste the code you use for that call?","",""
+"2022-11-06,01:48:58","julien1972","#0","Abd the code for your hook?","",""
+"2022-11-06,01:49:25","caarl_eth","#0","Sure","",""
+"2022-11-06,01:50:19","caarl_eth","#0","it(""Attach"", async () => {
+
+      const { lock } = await unlock.createLock({
+        expirationDuration: 60 * 60 * 24 * 7,
+        maxNumberOfKeys: 100,
+        keyPrice: 0,
+        name: ""My NFT membership contract"",
+      });
+      const Test = await ethers.getContractFactory(""PurchaseHook"");
+      const testingContract = await Test.deploy(MIN_PRICE, TIME_LAPSE, MIN_SELL, TIME_UPDATE, INTEREST);
+      await testingContract.deployed();
+
+       await lock.setEventHooks(
+        testingContract.address, // The first address is the onKeyPurchase hook
+        ethers.constants.AddressZero, // Other non-used hooks
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero,
+        ethers.constants.AddressZero
+      )
+      
+     const tx = await lock.purchase([0], [RANDOM_WALLET], [RANDOM_WALLET], [RANDOM_WALLET], [[]]);
+
+
+
+    })","",""
+"2022-11-06,01:51:10","julien1972","#0","Ok console log the tx object please?","",""
+"2022-11-06,01:52:09","caarl_eth","#0","It just gives me the same error","",""
+"2022-11-06,01:52:14","caarl_eth","#0","I cant make a console log","",""
+"2022-11-06,01:53:05","julien1972","#0","`console.log(tx)` ?","",""
+"2022-11-06,01:53:22","julien1972","#0","just after `     const tx = await lock.purchase([0], [RANDOM_WALLET], [RANDOM_WALLET], [RANDOM_WALLET], [[]]);`","",""
+"2022-11-06,01:53:44","julien1972","#0","can you paste the content of the hook ?","",""
+"2022-11-06,01:58:26","caarl_eth","#0","Yeah but the test gets reverted before calling the next line","julien1972#0",""
+"2022-11-06,01:59:37","caarl_eth","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1038694125148590080/message.txt"
+"2022-11-06,01:59:56","caarl_eth","#0","logic is commented to avoid other problems","",""
+"2022-11-06,01:00:12","julien1972","#0","can you try `const tx = await lock.populateTransaction.purchase([0], [RANDOM_WALLET], [RANDOM_WALLET], [RANDOM_WALLET], [[]]);`","",""
+"2022-11-06,01:00:18","julien1972","#0","and then console.log tx","",""
+"2022-11-06,01:01:16","caarl_eth","#0","Its working now","",""
+"2022-11-06,01:02:02","caarl_eth","#0","With this code","julien1972#0",""
+"2022-11-06,01:02:13","julien1972","#0","well no the tx is not sent","",""
+"2022-11-06,01:02:25","caarl_eth","#0","0x3381899700000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000","",""
+"2022-11-06,01:02:25","julien1972","#0","but at least we can see what is going on","",""
+"2022-11-06,01:02:34","julien1972","#0","paste the whole thing please?","",""
+"2022-11-06,01:02:49","caarl_eth","#0","sure","",""
+"2022-11-06,01:03:05","caarl_eth","#0","{
+  data: '0x3381899700000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000548d484f5d768a497a1919a57f643aef403fe3be000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000',
+  to: '0xbf9fBFf01664500A33080Da5d437028b07DFcC55',
+  from: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  gasLimit: BigNumber { value: ""29028056"" }
+}","",""
+"2022-11-06,01:03:18","julien1972","#0","ok","",""
+"2022-11-06,01:03:27","julien1972","#0","what network is this?","",""
+"2022-11-06,01:03:58","caarl_eth","#0","local","",""
+"2022-11-06,01:05:26","julien1972","#0","dang","",""
+"2022-11-06,01:05:48","julien1972","#0","ok so I think we need to debug by changing the code in the hook","",""
+"2022-11-06,01:05:58","julien1972","#0","because I can;t use tracing","",""
+"2022-11-06,01:06:31","julien1972","#0","can you comment some lines and see if that eventually works?","",""
+"2022-11-06,01:06:57","caarl_eth","#0","Sure","",""
+"2022-11-06,01:07:18","caarl_eth","#0","I already did it but I'll try it again","",""
+"2022-11-06,01:07:45","julien1972","#0","ok and without any content in the hook functions does it pass?","",""
+"2022-11-06,01:09:53","caarl_eth","#0","It doesnt","",""
+"2022-11-06,01:10:01","julien1972","#0","ok so that's good news","",""
+"2022-11-06,01:10:14","julien1972","#0","it means it;s an issue in the function signature themselves","",""
+"2022-11-06,01:10:25","julien1972","#0","what is the version of your lock","",""
+"2022-11-06,01:10:26","julien1972","#0","?","",""
+"2022-11-06,01:13:30","caarl_eth","#0","Its working now","",""
+"2022-11-06,01:13:34","caarl_eth","#0","I found the error","",""
+"2022-11-06,01:14:22","caarl_eth","#0","https://github.com/unlock-protocol/unlock/blob/master/smart-contracts/contracts/interfaces/hooks/ILockKeyPurchaseHook.sol","",""
+"2022-11-06,01:14:28","caarl_eth","#0","I was using this interface","",""
+"2022-11-06,01:14:48","caarl_eth","#0","I had one extra input","",""
+"2022-11-06,01:15:02","caarl_eth","#0","🤦","",""
+"2022-11-06,01:15:42","julien1972","#0","😄","",""
+"2022-11-06,01:16:01","julien1972","#0","is your lock v11?","",""
+"2022-11-06,01:18:34","caarl_eth","#0","Yeah","",""
+"2022-11-06,01:23:04","julien1972","#0","that's why!","",""
+"2023-05-11,08:36:25","awliang","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1106198127842689095/Waterloo_2.png"
+"2023-06-19,00:38:44","awliang","#0","Hello and welcome to the <#981941412713087037> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Unlock Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+
+**Unlock Protocol** is a system to create memberships and sell access NFTs in minutes.
+
+Common use cases include:
+
+*   Memberships
+*   Subscriptions
+*   Ticketing
+*   Token gating
+*   Certifications
+*   Loyalty Programs
+*   Gaming
+
+Unlock Protocol is an open-source, community governed protocol with apps, libraries and dev tools.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🏆 Most inventive use of Unlock Protocol
+
+🥇 1st Prize: $3,000
+🥈 2nd Prize: $1,500
+🥉 3rd Prize: $500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🚀 **WORKSHOP**
+Integrating Membership Smart Contracts Into Your Project with Unlock Protocol
+Time: 05:30 PM EDT – Jun 23, 2023
+Location: Workshop Room 2
+
+https://youtu.be/ydFRUFNXRk0
+
+🔗 **IMPORTANT LINKS**
+https://www.youtube.com/c/UnlockProtocol
+https://docs.unlock-protocol.com/
+https://www.unlock-protocol.com/guides
+https://discord.unlock-protocol.com","",""
+"2023-06-23,17:46:20","ccarfi","#0","Unlock Protocol workshop starting in room 2 now!","",""
+"2023-06-23,17:46:26","ccarfi","#0","https://www.youtube.com/watch?v=ppYLt2GTeKA","",""
+"2023-06-23,18:07:43","ccarfi","#0","Have questions about Unlock Protocol and how you can integrate memberships or subscriptions into your project? Swing by the booth!","",""
+"2023-06-23,18:09:10","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1121924940048900176/IMG_4966.jpg"
+"2023-06-23,18:13:06","ccarfi","#0","Thinking about any of these kinds of use cases? The Unlock Protocol smart contracts are here for you to get up and running quickly!","",""
+"2023-06-23,18:13:42","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1121926082170474506/unlock-use-cases.png"
+"2023-06-23,18:14:55","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1121926389394833479/unlock-resources.png"
+"2023-06-23,20:24:28","julien1972","#0","👋","",""
+"2023-06-23,23:34:05","ccarfi","#0","*** 30 minutes until Midnight Poutine!!! ***","",""
+"2023-06-24,06:11:40","ccarfi","#0","gm hackers!","",""
+"2023-06-24,10:50:52","julien1972","#0","<@437881543789117440> Hey! to listlock metadata(which includes event details if this is an event, just use this API call: https://docs.unlock-protocol.com/api/locksmith/lock-metadata","gizahong#0",""
+"2023-06-24,10:50:58","julien1972","#0","example : https://locksmith.unlock-protocol.com/v2/api/metadata/137/locks/0x91d76351388768d7380bf5e9fd4746471beb6ad5","",""
+"2023-06-24,10:51:14","julien1972","#0","and to update https://docs.unlock-protocol.com/api/locksmith/update-lock-metadata","",""
+"2023-06-24,11:22:03","ccarfi","#0","we just had a great question at the Unlock Protocl booth: `Can Unlock Protocol be used to create soul-bound tokens (SBTs)?` ABSOLUTELY! here's how to do it...","",""
+"2023-06-24,11:22:15","ccarfi","#0","https://unlock-protocol.com/guides/soulbound-token/","",""
+"2023-06-24,11:24:14","ccarfi","#0","Non-transferrable NFTs can also be created programmatically. Check out the section of the Unlock Protocol documentation on “*Disabling Transfers*” for further information. https://docs.unlock-protocol.com/core-protocol/public-lock/transfers/#fees-on-transfers","",""
+"2023-06-24,11:36:03","ccarfi","#0","we'll just keep dropping knowledge here in case other folks have the same questions! most recent one at the booth: `If someone is using Unlock Protocol for recurring onchain subscriptions, what happens the renewal attempt fails for lack of funds in the subscriber's wallet?""`","",""
+"2023-06-24,11:36:55","ccarfi","#0","in this situation, the protocol will retry a number of times until the renewal transaction succeeds.","",""
+"2023-06-24,11:37:12","ccarfi","#0","more on using Unlock Protocol for renewable, recurring onchain subscriptions here:","",""
+"2023-06-24,11:37:31","ccarfi","#0","https://unlock-protocol.com/blog/recurring-subscription-nft","",""
+"2023-06-24,14:17:44","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1122229085947572254/IMG_5101.jpg"
+"2023-06-24,14:18:15","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1122229217120243862/IMG_5102.jpg"
+"2023-06-24,14:18:53","ccarfi","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1122229374888984607/IMG_5103.jpg"
+"2023-06-24,14:21:23","ccarfi","#0","Just sayin’…","",""
+"2023-06-24,18:12:43","ccarfi","#0","cool questions from the booth this afternoon have included....","",""
+"2023-06-24,18:19:28","ccarfi","#0","how do I do soul-bound tokens using unlock programmatically ? https://discord.com/channels/554623348622098432/981941412713087037/1122185423066767503","",""
+"2023-06-24,19:55:34","ccarfi","#0","another great question:","",""
+"2023-06-24,19:55:56","ccarfi","#0","""where can i find the example repo from <@418849261761986561> 's live workshop on friday?"" https://github.com/julien51/eth-waterloo-blog-demo","julien1972#0",""
+"2023-06-24,19:56:51","ccarfi","#0","""where can i find the livestream video recording of julien's workshop on friday?"" https://www.youtube.com/live/MF9LvktaVQs?feature=share&t=8098","",""
+"2023-06-24,19:58:18","ccarfi","#0","""what function do i use to airdrop a membership NFT (key) to someone?"" `grantKeys` https://docs.unlock-protocol.com/core-protocol/smart-contracts-api/publiclock/#grantkeys","",""
+"2023-06-24,21:28:00","ccarfi","#0","hackers! unlock team is heading out of the venue, but if you have any questions drop them here and we will do our best to answer any questions you can’t find in the docs! glhf, and we will see you in person again in the morning!
+https://docs.unlock-protocol.com","",""
+"2023-06-25,09:33:01","ccarfi","#0","The Unlock team is back and open for judging. Locksmiths, swing on by and pitch your projects!","",""
+"2023-06-25,09:34:13","ccarfi","#0","https://tenor.com/view/dance-presentation-school-program-gif-10944344","",""
+"2023-09-13,13:28:53","awliang","#0","","","https://cdn.discordapp.com/attachments/981941412713087037/1151570211628134585/image.png"
+"2023-09-17,13:10:14","awliang","#0","Hello and welcome to the <#981941412713087037> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Unlock Protocol Team at any point with your questions!
+
+👀 **ABOUT**
+**Unlock Protocol** is a system to create memberships and sell access NFTs in minutes.
+
+Common use cases include:
+
+*   Memberships
+*   Subscriptions
+*   Ticketing
+*   Token gating
+*   Certifications
+*   Loyalty Programs
+*   Gaming
+
+Unlock Protocol is an open-source, community governed protocol with apps, libraries and dev tools.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🏆 Most inventive use of Unlock Protocol
+
+*   🥇 1st Prize: $3,000
+*   🥈 2nd Prize: $1,500
+*   🥉 3rd Prize: $500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+Integrating Membership Smart Contracts with Unlock Protocol
+Time: 02:40 PM EDT – Sep 22, 2023
+Location: Workshop Room 3
+Link: https://youtu.be/lsMKNVQ1agI
+
+
+🔗 **IMPORTANT LINKS**
+*   Walkthroughs and tutorial videos <https://www.youtube.com/c/UnlockProtocol>
+*   Docs and tutorials <https://docs.unlock-protocol.com/>
+*   Implementation guides <https://www.unlock-protocol.com/guides>
+*   Discord, too! <https://discord.unlock-protocol.com>","",""

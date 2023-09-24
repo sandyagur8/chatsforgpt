@@ -1,0 +1,1791 @@
+Date,Username,User tag,Content,Mentions,link
+"2023-07-21,17:18:29","marsxr","#0","Does it mean that apps we create in developer portal have to be “production”?
+
+Or maybe possible to change the app preference to “staging”?
+
+**EDIT:**
+
+Found somewhere in the readme:
+
+> Staging apps must use the Worldcoin Simulator for authentication, whereas production apps will use the World App.","","https://cdn.discordapp.com/attachments/971226642276057088/1132059046866853958/IMG_6776.png"
+"2023-07-21,17:26:29","zpedro.eth","#0","worked for me now, come back <@392354272957956096>","madztheo#0",""
+"2023-07-21,17:27:01","zpedro.eth","#0","https://tenor.com/view/skeletor-no-come-back-come-back-get-back-here-dont-leave-gif-22388339","",""
+"2023-07-21,17:27:23","zpedro.eth","#0","https://tenor.com/view/come-on-come-to-me-i-got-you-austin-powers-dr-evil-gif-22424600","",""
+"2023-07-21,17:39:45","zpedro.eth","#0","stopped working again, even with a private window (supposedly ""clean"")","",""
+"2023-07-21,17:41:09","zpedro.eth","#0","same error also","","https://cdn.discordapp.com/attachments/971226642276057088/1132064749853626430/Screenshot_2023-07-21_at_23.41.03.png"
+"2023-07-21,17:46:42","ivand5690","#0","I also need a short tutorial for React","mike_1108#0",""
+"2023-07-21,17:48:07","didicasso","#0","Same problem in my team !  Trying to implement it in our react app .. can someone support? 🐣","",""
+"2023-07-21,18:26:56","penryn","#0","using IDKit in React should be the exact same as Next, but the api verification section will have to be adjusted based on what you use for your backend","",""
+"2023-07-21,18:33:29","whoisazure","#0","Hi <@341347831942217731> I'm trying to clone and run this template repo: https://github.com/worldcoin/world-id-nextauth-template
+
+I followed the readme, cloned the `.env.template` changed the url to `https://localhost:3000` and added my client_id and client_secret, however, when I click the sign in button it brings me to this page:","penryn#0",""
+"2023-07-21,18:33:36","whoisazure","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1132077952268501032/image.png"
+"2023-07-21,18:36:34","whoisazure","#0","I'm not sure if I'm meant to add the localhost redirect uri in the portal but thats not working for me","",""
+"2023-07-21,18:36:37","whoisazure","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1132078710036635668/image.png"
+"2023-07-21,18:37:28","mike_1108","#0","The Next.js uses specific next.js functionalities like NextApiRequest and NextApiResponse 
+
+Is there maybe a small react demo or recommendations on how to integrate it easily in our react app? We can’t migrate to Next.js 😦","",""
+"2023-07-21,18:43:01","whoisazure","#0","Also getting this error screen:","","https://cdn.discordapp.com/attachments/971226642276057088/1132080318967455945/image.png"
+"2023-07-21,18:53:18","penryn","#0","oh it looks like our developer portal is improperly preventing you from saving the localhost redirect URI, can you try removing the `http://` at the beginning?","whoisazure#0",""
+"2023-07-21,18:53:53","penryn","#0","those are just types with a few extra features -- you should be able to replace them with the generic `Request` and `Response` types with no issue","mike_1108#0",""
+"2023-07-21,18:54:29","penryn","#0","it's a fairly simple API request so you should be able to reimplement it based on your framework without much effort","mike_1108#0",""
+"2023-07-21,18:55:09","whoisazure","#0","accidentally posted the secret (:","",""
+"2023-07-21,18:55:36","whoisazure","#0","But thank you very much for checking it for me","",""
+"2023-07-21,18:58:35","ivand5690","#0","can we pm you?","penryn#0",""
+"2023-07-21,18:59:05","penryn","#0","if necessary, yes -- would prefer to keep conversation here if possible because it may help other hackers","",""
+"2023-07-21,19:11:31","mike_1108","#0","do you know what this error message might mean? ""Access to XMLHttpRequest at 'https://developer.worldcoin.org/api/v1/verify/HERE_WOULD_BE_THE_ID' from origin 'http://localhost:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource""","",""
+"2023-07-21,19:14:52","ismailemin","#0","Hey guys, World App is not available in my country. Can you give me testflight access for it?","",""
+"2023-07-21,19:17:12","penryn","#0","CORS issues are always a pain -- let me check with the team","mike_1108#0",""
+"2023-07-21,19:17:37","penryn","#0","unfortunately we can't, is there anyone else on your team who has the app?","ismailemin#0",""
+"2023-07-21,19:17:55","mike_1108","#0","Thank you a lot for your help!","penryn#0",""
+"2023-07-21,19:18:24","ismailemin","#0","We're all from Turkey and App Store don't allow to access the app. So if we couldn't acces Developer Portal we can't integrate World ID right?","",""
+"2023-07-21,19:20:11","penryn","#0","is there anyone on your team not from turkey?","ismailemin#0",""
+"2023-07-21,19:20:26","penryn","#0","if not, dm me, i can create an app and action for you in our developer portal","",""
+"2023-07-21,22:43:38","marsxr","#0","Might be possible to change the location of your App Store: https://support.apple.com/en-us/HT201389","ismailemin#0",""
+"2023-07-22,05:28:39","penryn","#0","hey all! i heard from our team at the booth that there were quite a few people who had questions this morning -- i'm now at our booth, feel free to come by so i can help!","",""
+"2023-07-22,05:41:54","whoisazure","#0","Do you mind sharing some of the most common questions/answers so that other hackers can benefit from it as well","penryn#0",""
+"2023-07-22,06:24:04","trinityy0","#0","guys i try to sign-in in the worldcoin developer portal but the page says there is nothing : https://worldcoin.org/auth0-invite ? do you have a solution ?","",""
+"2023-07-22,07:05:26","trinityy0","#0","Its ok i downloaded the app but apparently cant register because of server problem 🥲","",""
+"2023-07-22,07:25:37","penryn","#0","use worldcoin.org/auth0 instead, and there’s a known issue with sign in when you’re only phone verified — so it should work if you get verified at the orb at our booth!","trinityy0#0",""
+"2023-07-22,07:40:30","trinityy0","#0","Unfortunately when i want to register using my phone there is a fail like the server got problem","penryn#0",""
+"2023-07-22,07:41:50","penryn","#0","we’re aware of that issue, but we can work around it if you get orb-verified at our booth","",""
+"2023-07-22,08:26:01","marsxr","#0","Don't want to run into issues later on... I have `node --version` 16 already installed.
+
+Will I run into problems later on?
+
+Has anyone got success on 16?
+
+Screenshot from the repo: https://github.com/worldcoin/world-id-cloud-template","","https://cdn.discordapp.com/attachments/971226642276057088/1132287435087286402/image.png"
+"2023-07-22,08:43:40","whoisazure","#0","I haven't been able to get the repo to work, have you?","marsxr#0",""
+"2023-07-22,08:52:46","marsxr","#0","I think I got it to work last night.
+
+I was on v16 but assumed that v18 shouldn't be much different and took my chances without installing the NVM.
+
+> ""run into issues later on""
+
+I guess if it builds once, shouldn't be any problems. Would be great to know what is the minimal supported node version?","whoisazure#0",""
+"2023-07-22,09:01:07","jih2nn","#0","How can I set ""signal"" for my anonymous action on developer portal? I think it was there before but I can't find it.","",""
+"2023-07-22,09:30:07","jih2nn","#0","Where can I see worldcoin sequencers in operation? It seems like sequencer for Polygon mainnet is not working. (or not working in timely manner","penryn#0",""
+"2023-07-22,09:30:52","penryn","#0","you set the signal in IDKit in your app’s frontend","jih2nn#0",""
+"2023-07-22,09:31:57","penryn","#0","it takes 40 minutes for identity insertions to get bridged to polygon","jih2nn#0",""
+"2023-07-22,09:32:37","jih2nn","#0","It is mandatory? If I don't set it in my frontend, does it just set to empty?","penryn#0",""
+"2023-07-22,09:32:44","jih2nn","#0","Thanks for the answer","penryn#0",""
+"2023-07-22,10:00:43","penryn","#0","if you're not using it in the frontend then use an empty string when calling the `verify` endpoint","jih2nn#0",""
+"2023-07-22,10:52:55","dhruv9739","#0","hi team, for the application template https://github.com/worldcoin/world-id-onchain-template/blob/main/contracts/src/Contract.sol
+
+i wanted to tweak this contract to implement in my usecase as a modifier for role based access (to execute another function ) , so i wanted to ask the following: 
+
+- what will be the address of the worldId address to be set
+- how can i mock the creation of the external nullifiers via a script , do you guys have some example of script to simulate the workflow and parameters . thanks","",""
+"2023-07-22,11:02:42","penryn","#0","find the relevant address in our address book at https://docs.worldcoin.org/reference/address-book
+
+as for testing with multiple identities, you should use the simulator at https://simulator.worldcoin.org and deploy to testnet (eth goerli, op goerli, polygon mumbai are supported)","dhruv9739#0",""
+"2023-07-22,12:33:43","jih2nn","#0","Can we do on-chain verification other than Ethereum mainnet? It seems like sequencer adds new root to Ethereum mainnet only","",""
+"2023-07-22,13:03:01","penryn","#0","the root gets bridged to optimism and polygon","",""
+"2023-07-22,13:03:30","penryn","#0","use the correct WorldIDRouter contract address for your chain at https://docs.worldcoin.org/reference/address-book","",""
+"2023-07-22,13:10:50","trinityy0","#0","Guys I’m trying to integrate WorldCoin Sign in to my app, I already registered at the orb to access to the Dev portal, but it’s keep running like that since 5h50PM, any idea ?","","https://cdn.discordapp.com/attachments/971226642276057088/1132359113079263415/IMG_8899.png"
+"2023-07-22,13:41:47","jih2nn","#0","How long is the bridge interval? 40mins? I'd like to do on-chain verification live demo but doing it on Ethereum mainnet is too costy. Do you have any recommendation?","penryn#0",""
+"2023-07-22,14:14:32","penryn","#0","see the smart contract reference section of the docs for details on bridging time, but that time is between a user signing up at the orb and them being able to do actions that verify on chain","jih2nn#0",""
+"2023-07-22,14:15:02","penryn","#0","so if a user got verified at the orb more than an hour ago, they’ll have no issue verifying proofs on chain","",""
+"2023-07-22,14:22:46","jih2nn","#0","But isn't the root only valid for 1 hour?","penryn#0",""
+"2023-07-22,15:03:26","penryn","#0","i’m not sure how long a root is valid for, i thought it was a week","",""
+"2023-07-22,15:03:48","penryn","#0","either way i know it shouldn’t be an issue, i wish we had someone from out protocol team in this chat to answer more deeply","",""
+"2023-07-22,15:05:49","rplusq","#0","Based on this Contract function
+
+```
+    /// @param signal An arbitrary input from the user, usually the user's wallet address (check README for further details)
+    /// @param root The root of the Merkle tree (returned by the JS widget).
+    /// @param nullifierHash The nullifier hash for this proof, preventing double signaling (returned by the JS widget).
+    /// @param proof The zero-knowledge proof that demonstrates the claimer is registered with World ID (returned by the JS widget).
+    function verifyAndRegister(address signal, uint256 root, uint256 nullifierHash, uint256[8] calldata proof) public {
+    require(nullifierHash != 0, ""Nullifier hash cannot be 0"");
+        // First, we make sure this person hasn't done this before
+        if (_addressToWorldcoinNullifierHash[msg.sender] != 0) revert AlreadyRegisteredNullifier();
+
+        // We now verify the provided proof is valid and the user is verified by World ID
+        _worldId.verifyProof(
+            root,
+            _worldcoinGroupId,
+            abi.encodePacked(signal).hashToField(),
+            nullifierHash,
+            _worldcoinExternalNullifier,
+            proof
+        );
+
+        // We now record the user has done this, so they can't do it again (proof of uniqueness)
+        _addressToWorldcoinNullifierHash[msg.sender] = nullifierHash;
+    }
+```","",""
+"2023-07-22,15:06:29","rplusq","#0","With this constructor:
+
+    /// @param worldId_ The WorldID instance that will verify the proofs
+    /// @param appId The World ID app ID
+    /// @param actionId The World ID action ID
+    /// @param token_ The token that will be used for payments
+    constructor(IWorldId worldId_, string memory appId, string memory actionId, IERC20 token_) {
+        require(address(worldId_) != address(0), ""World ID address cannot be 0"");
+        require(bytes(appId).length > 0, ""App ID cannot be empty"");
+        require(bytes(actionId).length > 0, ""Action ID cannot be empty"");
+        require(address(token_) != address(0), ""Token address cannot be 0"");
+        _worldcoinExternalNullifier = abi.encodePacked(abi.encodePacked(appId).hashToField(), actionId).hashToField();
+        _worldId = worldId_;
+        token = token_;
+        _setupRole(ARBITRATOR_ROLE, msg.sender);
+    }","",""
+"2023-07-22,15:07:06","rplusq","#0","using actionId ""register""","",""
+"2023-07-22,15:07:23","rplusq","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1132388441410248794/CleanShot_2023-07-22_at_21.07.142x.png"
+"2023-07-22,15:08:05","rplusq","#0","And this FE","","https://cdn.discordapp.com/attachments/971226642276057088/1132388619181629531/CleanShot_2023-07-22_at_21.07.402x.png"
+"2023-07-22,15:08:17","rplusq","#0","Do you see any obvious error? This is for on-chain verification","",""
+"2023-07-22,15:09:02","rplusq","#0","Where I keep getting issues with the ABI the contract:","","https://cdn.discordapp.com/attachments/971226642276057088/1132388855711006790/CleanShot_2023-07-22_at_21.08.502x.png"
+"2023-07-22,15:09:21","rplusq","#0","Here's the Mumbai Contract (verified)
+https://mumbai.polygonscan.com/address/0xa007ec2d54883d538e6895b6f2e29c3ee28c7c33","",""
+"2023-07-22,15:26:16","jih2nn","#0","The default value is 1 hour","penryn#0",""
+"2023-07-22,15:27:28","jih2nn","#0","Is it okay to run locally when we do live demo? Perhaps, we can prove that we know how to on-chain verification by leaving 'verifyProof' transaction to WorldIDRouter on Ethereum mainnet.","penryn#0",""
+"2023-07-22,15:28:35","penryn","#0","your frontend can definitely run locally, but you should deploy your smart contract (even if it’s just to a testnet)","",""
+"2023-07-22,15:43:00","timmytimmyjellyjelly","#7498","I am really conused how to ship the javascript application configured with worldcoin to github or out of auth0.com","",""
+"2023-07-22,16:03:35","rplusq","#0","My question is around this:","","https://cdn.discordapp.com/attachments/971226642276057088/1132402586922787027/CleanShot_2023-07-22_at_22.03.112x.png"
+"2023-07-22,16:03:43","rplusq","#0","if my action is register","",""
+"2023-07-22,16:04:03","rplusq","#0","should I do solidityEncode([""uint256""],[""register""])?","",""
+"2023-07-22,17:08:50","Radium","#1577","Hi, does onchain verification seem to be working? we are having issues verififying proofs","",""
+"2023-07-22,17:09:23","Radium","#1577","https://dashboard.tenderly.co/tx/polygon-mumbai/0x050cc3e828c4763b2a1fb13e5b93b59e9402f73ace11c2c36ca91ef4172586df?trace=0.0.4.0.1.1.0.2.0.0
+
+this is the tenderly tx of failed tx","",""
+"2023-07-22,17:30:02","rplusq","#0","Same for us :p Let us know if you find a solution  <@770080334359298100>","Radium#1577",""
+"2023-07-22,17:31:11","rplusq","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1132424632570486827/CleanShot_2023-07-22_at_23.31.052x.png"
+"2023-07-22,17:36:13","rplusq","#0","Are you running on staging + using the https://simulator.worldcoin.org/? With an on-chain verification app?  <@770080334359298100>","Radium#1577",""
+"2023-07-22,18:29:28","bibdwdinwiw","#5663","Does anyone know when the worldcoin devs will arrive?","",""
+"2023-07-22,19:01:27","rplusq","#0","Nope, but feel free to share when they do arrive 🙋","",""
+"2023-07-22,19:29:23","rafael450","#0","Yeah, I didn't get verified yet","",""
+"2023-07-22,19:39:41","penryn","#0","i'm back here now! i don't have orbs with me, but i'm here at our booth to answer questions for a while","",""
+"2023-07-22,19:51:15","joyfuljoy410","#0","Hi!!","penryn#0",""
+"2023-07-22,19:51:45","joyfuljoy410","#0","I have issue with this below","","https://cdn.discordapp.com/attachments/971226642276057088/1132460003668791377/image0.jpg"
+"2023-07-22,20:53:24","rplusq","#0","Ethers solution didn't work 😢 <@341347831942217731>","penryn#0",""
+"2023-07-22,20:54:46","rplusq","#0","Encoded the same as viem","",""
+"2023-07-23,01:37:52","0xguy","#0","is anyone available at booth ?","",""
+"2023-07-23,14:40:06","kenilshah","#0","Hey, we used world coin for on chain verification, can we know why we were not added to the pool prize?","",""
+"2023-07-25,13:40:31","kenilshah","#0","<@341347831942217731>","penryn#0",""
+"2023-07-31,13:46:05","awliang","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1135629473346224209/Superhack.png"
+"2023-07-31,23:04:43","awliang","#0","Hello and welcome to the <#971226642276057088> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Worldcoin Team at any point with your questions!
+
+👀 **ABOUT**
+**Worldcoin** is building the world’s largest identity and financial network as a public utility, giving ownership to everyone. Introducing the beta SDK for World ID. World ID is the protocol to bring global proof of personhood to the internet. World ID is privacy-first, decentralized and self-custodial.
+
+
+🏆 **PRIZE OVERVIEW**
+
+$5000 to the Best Overall 🥇
+$2500 to the Most Creative Use Case 🧞
+$2500 to the Best Governance App 🧑‍⚖️ 
+$2500 to the Best AI Use Case 🤖 
+$2500 to the Best Sign in with Worldcoin App 🔑
+Up to 2x $1000 to Honorable Mentions 🏆
+$3000 Prize Pool - distributed equally among all qualifying submissions 🏊
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/superhack/prizes
+
+
+🔗 **IMPORTANT LINKS**
+
+🔗 **IMPORTANT LINKS**
+Superhack Notion Page: https://worldcoin.org/superhack
+Developer Documentation: https://docs.worldcoin.org
+Developer Portal: https://developer.worldcoin.org
+Template Repositories:
+https://github.com/worldcoin/world-id-cloud-template
+https://github.com/worldcoin/world-id-onchain-template
+https://github.com/worldcoin/world-id-nextauth-template","",""
+"2023-08-01,06:41:04","Gi","#0984","Hi Anna! thanks so much for this info, do you know when we can see the Worldcoin challenges and details? thank you 🙏","",""
+"2023-08-02,17:45:31","awliang","#0","Just updated 🏆 
+
+I would advise referring to https://ethglobal.com/events/superhack/prizes for the entire prize details","Gi#0984",""
+"2023-08-03,06:42:50",".aj77","#0","I am trying to learn abt worldcoin and start building but I can’t even make an account. Can I get help plz ?","",""
+"2023-08-03,06:42:57",".aj77","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1136610153144266762/RPReplay_Final1691059334.mov"
+"2023-08-03,06:43:24",".aj77","#0","I scan the dev QR code and nothing been doing this for an hour","",""
+"2023-08-03,06:43:30",".aj77","#0","Any help rly apprictaed","",""
+"2023-08-03,06:51:37","jmulq","#0","Having the same issue. Restarted the app and rescanned it, and now just getting an infinite spinner. Have messaged support in the app and also have not received a response. Are we able to get any support around this? If it is not resolved, it will be a blocker to using Worldcoin for the hack. Thanks 🙂",".aj77#0",""
+"2023-08-03,06:54:21",".aj77","#0","SERIOUS BLOCKER fr.  i tried this last nite and got the infinite spiner and I just loaded into it again. also did app suport and got nothing. worldcoin team plz let us know","jmulq#0","https://cdn.discordapp.com/attachments/971226642276057088/1136613019338674226/IMG_D105969001E1-1.jpeg"
+"2023-08-03,06:54:49",".aj77","#0","the spinner of dooom","",""
+"2023-08-03,07:43:30","yyigit","#0","I'm from Turkey, World ID isn't available in my country so I can't login to developer portal. Can you help about it?","",""
+"2023-08-03,08:04:52","tarangpadia","#0","Hey guys,
+I am facing the same issue, need support for this as soon as possible, want to try out some worldcoin related code to familiarize myself with the platform before the hack,
+Any help is appreciated!
+Thank you","","https://cdn.discordapp.com/attachments/971226642276057088/1136630768504930405/WorldcoinSpinner.jpg"
+"2023-08-03,09:47:30","lupin4549","#0","is it necessary to have worldcoin id to login to developer portal, also is there a way to simulate worldcoin user during development as i don't have a worldcoin ID and we need to test during development","",""
+"2023-08-03,10:03:47","tarangpadia","#0","I am assuming we would need to login into Developer Portal to get access to the API keys for our account to make calls to their API endpoints. Can we get a confirmation?","",""
+"2023-08-03,11:28:02","anyaogu","#0","Same issue here 
+
+Says feature not available yet.","yyigit#0",""
+"2023-08-03,14:17:41",".aj77","#0","help plz wrld coin team","",""
+"2023-08-03,14:19:22",".aj77","#0","anyone having trouble I hope we get word soon.  there is a notion link that I think will activate on the 4th when the hackathon starts.  complete guess","",""
+"2023-08-03,18:47:43","taionewgate","#0","Have you scanned your irises yet?",".aj77#0",""
+"2023-08-03,18:48:52","taionewgate","#0","because you have not scanned the iris so you will not be able to use the worldcoin app. use simulation instead","",""
+"2023-08-03,18:50:25","penryn","#0","hey everyone! sorry for the issues here -- there were some issues earlier that i believe are now resolved. if you see the screen that <@769160167240761425> did after the 3 minute ""creating your world ID"" countdown, try force-closing the app and rescanning the QR code to sign in to the developer portal. you don't need to be orb-verfieid to sign in to the developer portal, but you must be at least phone-verified in World App (https://worldcoin.org/download).","tarangpadia#0",""
+"2023-08-03,18:50:52","penryn","#0","and the notion page with lots of resources is now live at https://worldcoin.org/superhack","",""
+"2023-08-03,20:52:42",".aj77","#0","Got it it works now Ty for help","penryn#0",""
+"2023-08-04,02:59:47","heisenburger_2023","#0","When I scan the QR code getting ""Your world ID will be ready soon"" and website just regenerates QR code again? At least it's the same screen as before. Says Loading... for a second and returns to QR code","",""
+"2023-08-04,04:10:46","heisenburger_2023","#0","Ok logged in","",""
+"2023-08-04,04:39:06","tarangpadia","#0","Hey, thank you for the help, I can login now!","penryn#0",""
+"2023-08-04,07:32:33","heisenburger_2023","#0","So world coin assigns you wallet address via the app? Is it possible to use WorldCoin to verify uniqueness of external wallet?","",""
+"2023-08-04,08:41:17","heisenburger_2023","#0","When creating off-chain proofs for uniqueness of wallets, can I get user's wallet address from the IDKit SDK?","",""
+"2023-08-04,10:15:44","nezouse","#0","Hey <@341347831942217731> , i try to login to developer portal, but still have the issue with spinner, i even redownloaded the app, but still the same. Any hints what can be wrong?","penryn#0",""
+"2023-08-04,10:16:08","heisenburger_2023","#0","try force closing, it worked for me","nezouse#0",""
+"2023-08-04,10:16:14","penryn","#0","have you verified your phone number in World App? can you send a screen recording the issue you're seeing?","nezouse#0",""
+"2023-08-04,10:18:19","nezouse","#0","I think it's verified as i have it displayed in the app","","https://cdn.discordapp.com/attachments/971226642276057088/1137026736954036244/image.png"
+"2023-08-04,10:19:54","nezouse","#0","I just scan the qr code from developer portal and then im stuck on the same screen Tarang shown <@341347831942217731>","penryn#0",""
+"2023-08-04,10:20:33","penryn","#0","if you're seeing ""your world ID will be ready soon"" then force close the app and reopen, then try to log in to the developer portal again","",""
+"2023-08-04,10:20:59","nezouse","#0","by force close you mean just swiping up the app or its something different?","",""
+"2023-08-04,10:21:06","heisenburger_2023","#0","via phone settings","nezouse#0",""
+"2023-08-04,10:21:12","nezouse","#0","on ios?","",""
+"2023-08-04,10:21:16","heisenburger_2023","#0","find app and click ""force close""","",""
+"2023-08-04,10:21:25","heisenburger_2023","#0","https://www.youtube.com/watch?v=Hpl2dsXGYYU&ab_channel=Foxtecc","",""
+"2023-08-04,10:21:27","penryn","#0","on ios, it's swiping up from the app switcher","",""
+"2023-08-04,10:21:38","heisenburger_2023","#0","i'm android noob","",""
+"2023-08-04,10:22:25","nezouse","#0","so i did it a few times already","",""
+"2023-08-04,10:22:36","heisenburger_2023","#0","ye I had to do it multiple times too","",""
+"2023-08-04,10:22:43","heisenburger_2023","#0","and then it worked : P","",""
+"2023-08-04,10:23:05","heisenburger_2023","#0","anyone? 😄","",""
+"2023-08-04,10:23:26","penryn","#0","no, your user must connect a wallet through walletconnect or some other method","heisenburger_2023#0",""
+"2023-08-04,10:23:46","penryn","#0","please DM me your wallet address so i can report to the team to try to get this bug fixed!","nezouse#0",""
+"2023-08-04,10:23:47","heisenburger_2023","#0","Okay but doesn't world app assign you address?","",""
+"2023-08-04,10:24:09","heisenburger_2023","#0","I assume world Id can only be linked to one address?","",""
+"2023-08-04,10:24:16","penryn","#0","there is an account abstraction wallet with Safe in World App, but it's not currently able to be connected to dApps","heisenburger_2023#0",""
+"2023-08-04,10:24:55","heisenburger_2023","#0","Ok so how do I get on about linking address to their unique address?","",""
+"2023-08-04,10:25:09","penryn","#0","we designed world id to allow proving uniqueness and personhood with different wallets for different applications -- so i can claim two different airdrops with two different wallets to avoid linking that activity to the same identity","heisenburger_2023#0",""
+"2023-08-04,10:25:56","penryn","#0","in a smart contract, you can have a user verify with world ID and you can map the `nullifierHash` (the unique identifier for that action returned from World ID) to the address of the sender of the TX (which would be the user's wallet address)","heisenburger_2023#0",""
+"2023-08-04,10:26:31","heisenburger_2023","#0","Can I DM you on what I'm thinking to build and maybe you can help me understand it better 😄","",""
+"2023-08-04,10:27:20","penryn","#0","i'd prefer to keep the conversation here if possible (both because my DM's are a mess, and also because it may prove helpful for other hackers)","",""
+"2023-08-04,10:27:29","penryn","#0","but you can DM if you'd prefer","",""
+"2023-08-04,10:27:34","nezouse","#0","<@341347831942217731> DMed you the address","penryn#0",""
+"2023-08-04,10:35:38","heisenburger_2023","#0","So, let's say user connects to my dapp via metamask. Can I use world ID verification to produce a ""proof"", tangible data that I can then use later that proves the world ID verification? And then limit that specific ID to singular wallet. So if they connect different wallet but try to verify with same world ID, I get to reject their request","penryn#0",""
+"2023-08-04,10:53:34","penryn","#0","that's completely right! any time a user tries to verify for the same action twice with World ID, that proof will contain the same `nullifierHash`, which is what you can use to implement sybil-resistance","heisenburger_2023#0",""
+"2023-08-04,10:58:02","nezouse","#0","<@341347831942217731> worked on like 10th time, but at least you dont have to worry about it anymore","penryn#0",""
+"2023-08-04,10:58:15","penryn","#0","i'll still take this back to the team to hopefully get it resolved","",""
+"2023-08-04,11:01:36","heisenburger_2023","#0","Ok I see now, makes things clearer","",""
+"2023-08-04,11:17:23","nezouse","#0","Now trying to setup an example next app and can't add redirect url. It just throws ""something went wrong error""","","https://cdn.discordapp.com/attachments/971226642276057088/1137041601617723462/image.png"
+"2023-08-04,12:47:35","zatara7","#0","How can we test this out without having an orb?","",""
+"2023-08-04,12:48:23","penryn","#0","this is a bug we're currently working to fix -- if you deploy your app to a platform such as Vercel it will accept that URL","nezouse#0",""
+"2023-08-04,12:48:46","penryn","#0","create a staging app in the developer portal, and use the simulator (https://simulator.worldcoin.org) instead of the world app","zatara7#0",""
+"2023-08-04,12:49:08","penryn","#0","and if you're verifying proofs on-chain, use one of the testnets we support (goerli, op-goerli, mumbai)","",""
+"2023-08-04,13:04:34","heisenburger_2023","#0","```
+credential_types={['phone']} // the credentials you want to accept
+
+Type '""phone""' is not assignable to type 'CredentialType'
+```
+
+is this normal?","",""
+"2023-08-04,13:04:46","heisenburger_2023","#0","Lately my typescript is too strict","",""
+"2023-08-04,13:05:03","heisenburger_2023","#0","It was more loose before on my other user : P","",""
+"2023-08-04,13:12:01","jmulq","#0","ye I had the same issue. just do `as CredentialType[]` or something","",""
+"2023-08-04,13:12:27","jmulq","#0","import it ofc","",""
+"2023-08-04,13:12:28","penryn","#0","or ‘CredentialType.Phone’","",""
+"2023-08-04,13:27:36","cyberpunq","#0","Can one send WLD using the SDK? Or through the Optimism Address?","",""
+"2023-08-04,13:28:04","penryn","#0","users can send WLD on optimism from World App, but the wallet cannot be accessed or controlled through the SDK","",""
+"2023-08-04,13:29:07","cyberpunq","#0","Can one authenticate transactions through the World app like one would do with metamask when e.g. calling a payable solidity function?","",""
+"2023-08-04,13:29:47","penryn","#0","no, the wallet in World App cannot be connected to dApps at this time. users must connect a wallet via metamask, walletconnect, etc to your dApp","",""
+"2023-08-04,13:29:56","penryn","#0","the World ID SDK is only for the proof-of-personhood","",""
+"2023-08-04,13:30:39","cyberpunq","#0","Alright, got it. Will try to figure something out, thanks!","",""
+"2023-08-04,13:50:28","cyberpunq","#0","Also Penryn, has that bug with the developer portal not accepting localhost been fixed? I don't wanna use Auth0 anymore 😄","",""
+"2023-08-04,14:00:45","jmulq","#0","you can deploy using vercel which is easy to resolve this, and then use the vercel staging URL in redirect URLs for your worldcoin app 🙂 
+
+https://vercel.com/docs/concepts/deployments/overview","",""
+"2023-08-04,14:02:10","cyberpunq","#0","So each time I add a change to my app, I'd need to deploy to vercel first?","",""
+"2023-08-04,14:02:33","jmulq","#0","correct but it only takes a short amount of time for each deployment!","",""
+"2023-08-04,14:02:51","cyberpunq","#0","Alright, thanks","",""
+"2023-08-04,16:45:09","jmulq","#0","hey <@341347831942217731> , I've been going through some of the on-chain validation stuff after familiarising myself with the cloud validation.
+
+I have created an app in the dev portal, and I've noticed that the sign in tab is unavailable for on-chain, meaning I can't get the relevant secret from the next-auth flow.
+
+Is this because users don't need to sign in on a dapp, and instead will connect their wallet? The world ID stuff will then only be used when completing an action within the application?","penryn#0",""
+"2023-08-04,16:45:47","jmulq","#0","are there any example dapps that do this? I'm curious about the flow.","",""
+"2023-08-04,16:46:03","penryn","#0","correct, use either sign-in (which is mainly meant for web2 apps) _or_ anonymous actions","",""
+"2023-08-04,16:46:34","penryn","#0","for a dapp the user should connect a wallet and world ID should only be used for proof of personhood when performing an action","",""
+"2023-08-04,16:49:30","jmulq","#0","user flow feels weird in my head. it feels like there should be a way to tie a certain wallet address to a world ID or vice versa - is this a known issue? using a web3 wallet and then your world app/ID feels like one too many steps","",""
+"2023-08-04,16:51:12","penryn","#0","it's done that way so a user could perform multiple actions within the same app with different wallets for privacy (for example, claiming two separate airdrops)
+
+you can certainly correlate a world ID `nullifierHash` with a user's wallet address in your smart contract, though, and only require that user to verify once for everything they want to do in your app","",""
+"2023-08-04,16:53:32","jmulq","#0","ah right this makes sense now 🙂","",""
+"2023-08-04,17:59:09","jmulq","#0","I'm getting an error when passing the same object as here into the `usePrepareContractWrite` hook -> https://github.com/worldcoin/world-id-onchain-template/blob/main/src/pages/index.tsx
+
+Initially I noticed the `write` function was undefined, and upon further investigation, its because the above hook is erroring.
+
+The error is:
+
+```
+error ContractFunctionExecutionError: The contract function ""verifyAndExecute"" reverted with the following signature:
+0x728ade92
+
+Unable to decode signature ""0x728ade92"" as it was not found on the provided ABI.
+Make sure you are using the correct ABI and that the error exists on it.
+You can look up the decoded signature here: https://openchain.xyz/signatures?query=0x728ade92.
+ 
+```","",""
+"2023-08-04,17:59:43","jmulq","#0","Not entirely sure what the issue is, plus I've followed the example contract and react code pretty much..","",""
+"2023-08-04,19:09:36","morganmoskalyk","#0","I'm wondering when office hours are, or if someone is around later today to debug making this example to work in a react app: https://docs.worldcoin.org/id/on-chain#id-kit-configuration","",""
+"2023-08-04,19:14:15","2pats","#0","<@341347831942217731> 
+Hi! apologies if this is redundant to ask
+
+I'm still blocked at the sign in to the developer portal step. Here is the status
+- no orb verification yet 🚫 
+- phone verification ✅ 
+- i'm on iOS
+- QR code scan results in infinite loading
+- last night I passed the ""creating world ID"" stage (3 minutes long)
+
+Thank you in advance for your help","penryn#0",""
+"2023-08-04,19:29:00","jmulq","#0","I have also cloned this template repo (https://github.com/worldcoin/world-id-onchain-template), deployed the contracts, updated relevant env vars, and tried to perform the same on-chain verification, and am still getting an error. Has this recently been tested and is working?","",""
+"2023-08-04,23:14:54",".knpz","#0","Hi <@341347831942217731>. Im trying to logIn to the developersPortal with my orbScannedAccount and a brandNew phoneVerifiedAccount but neither of them let me.","penryn#0",""
+"2023-08-04,23:15:02",".knpz","#0","Can someone help me?","",""
+"2023-08-04,23:23:44",".knpz","#0","<@233245979548188673>","jacobw#0",""
+"2023-08-05,03:09:42","harpaljadeja.eth","#0","<@341347831942217731> I am not able to open Developer Portal","penryn#0",""
+"2023-08-05,03:09:50","harpaljadeja.eth","#0","I am using the World App on iOS","",""
+"2023-08-05,03:10:16","harpaljadeja.eth","#0","when I scan the QR code of the portal my iOS crashes and the Portal asks to scan the QR again","",""
+"2023-08-05,03:15:26","harpaljadeja.eth","#0","no orb verification yet 🚫
+phone verification 🚫","",""
+"2023-08-05,03:25:19","heisenburger_2023","#0","ye looks like smths down on their side","",""
+"2023-08-05,05:15:47","adielliot","#0","is there any tutorial on worldcoin available on youtube ?","",""
+"2023-08-05,05:58:57","andersonchen","#0","Hey, I run the nextauth template and use the simulator to log in, but I got ""Cannnot verify production app on simulator"". It looks wired to me since I'm sure that my app is in staing not production. Do you might know what happen?","","https://cdn.discordapp.com/attachments/971226642276057088/1137323854985953361/2023-08-05_5.49.20.png"
+"2023-08-05,06:18:38","heisenburger_2023","#0","```
+SyntaxError: Cannot convert attest-uniqueness to a BigInt
+```
+
+Action itself:
+```
+action={solidityEncode(['uint256'], [""attest-uniqueness""])}
+```
+
+attest uniqueness is name of the action","","https://cdn.discordapp.com/attachments/971226642276057088/1137328809792765982/image.png"
+"2023-08-05,06:20:30","andersonchen","#0","I'm also wondering that is there anyway to ask World ID users to reveal their on-chain states e.g. the WLD balance?","",""
+"2023-08-05,07:52:04","heisenburger_2023","#0","rip","",""
+"2023-08-05,08:37:37","mxber2022","#0","any solution to it ?","nezouse#0",""
+"2023-08-05,08:37:55","mxber2022","#0","same issue facing","",""
+"2023-08-05,09:16:38","lupin4549","#0","same issue i am facing, any resolution of this","nezouse#0",""
+"2023-08-05,09:18:33","lupin4549","#0","hey, there i have been trying to puth my auth0 redirect url but it is not getting added it says something went wrong","penryn#0",""
+"2023-08-05,09:28:56","tarangpadia","#0","Hey <@341347831942217731> 
+Can World ID Sign in be used for mobile applications as well. For example, if I want to integrate the World ID into a React Native application using a custom authentication engine, will that work, I am struggling to find any mobile app related documentation in the official docs.","penryn#0",""
+"2023-08-05,09:29:00","jmulq","#0","your next app is a production build I imagine. run the dev script instead of the script which creates a production build.. `pnpm run dev` or something","andersonchen#0",""
+"2023-08-05,09:29:52","jmulq","#0","this is a known bug. deploy it using vercel, and then add the URL for that to the redirect URL in your world app.","lupin4549#0",""
+"2023-08-05,09:33:39","cyberpunq","#0","Hi, what is the Worldcoin ID sdk equivalent to a ""User id""? Like a unique identifier you can put in your db to specify as the ""Owner"" of some record.","",""
+"2023-08-05,09:35:07","lupin4549","#0","anyone using worldcoin with auth0 ?","",""
+"2023-08-05,09:35:47","cyberpunq","#0","Me unfortunately, but looking to migrate","",""
+"2023-08-05,09:58:47","lupin4549","#0","why unfornately","cyberpunq#0",""
+"2023-08-05,09:58:54","lupin4549","#0","what are the downside of this","",""
+"2023-08-05,10:01:48","cyberpunq","#0","I just want to have it directly working through next-auth, without having that service inbetween, but there is a bug that prevents that unless you deploy to vercel on each change.","",""
+"2023-08-05,10:01:56","heisenburger_2023","#0","anyone experiencing
+
+```
+ GET https://verify.walletconnect.com/attestation/63dff72584f2dc930aca26190f3479888c2baa1b9309dc869cc15f3be8d6863b 404
+```
+
+on simulator?","",""
+"2023-08-05,10:09:37","lupin4549","#0","i am trying to test my connection and getting this . is your auth0 connection is working properly ?","cyberpunq#0","https://cdn.discordapp.com/attachments/971226642276057088/1137386935279685712/image.png"
+"2023-08-05,10:36:48","heisenburger_2023","#0","Aight I'm creating my own Worldcoin V2 but it works","",""
+"2023-08-05,10:37:18","heisenburger_2023","#0","https://tenor.com/view/the-office-dwight-schrute-rainn-wilson-eyeglasses-no-way-gif-17690612","",""
+"2023-08-05,11:08:54","cyberpunq","#0","it is working correctly, your redirect_uri in the developer portal is probably wrong","lupin4549#0",""
+"2023-08-05,11:09:05","cyberpunq","#0","feeling you on this one 😁","heisenburger_2023#0",""
+"2023-08-05,11:09:16","penryn","#0","you have to set the redirect URI in the developer portal, under the sign in tab","lupin4549#0",""
+"2023-08-05,11:10:02","penryn","#0","support for this was recently added but we don't have public documentation yet -- my colleague is writing up documentation now and i'll send it here as soon as I have it from them","tarangpadia#0",""
+"2023-08-05,11:10:33","penryn","#0","there's a bug that doesn't allow localhost redirect URI's, please deploy your app to a platform like Vercel and use the URL provided by them","lupin4549#0",""
+"2023-08-05,11:11:18","penryn","#0","create a new _staging_ app in the developer portal, and the simulator will work","andersonchen#0",""
+"2023-08-05,11:11:42","mxber2022","#0","Working for me now","",""
+"2023-08-05,11:11:47","penryn","#0","the `nullifierHash` is the unique identifier for a user in the context of a specific app and action","cyberpunq#0",""
+"2023-08-05,11:12:15","cyberpunq","#0","Nice, so I can just put this as the owner inside a smart contract?","",""
+"2023-08-05,11:12:22","penryn","#0","not at this time, users should connect a wallet to your dApp through metamask, walletconnect, or similar","andersonchen#0",""
+"2023-08-05,11:12:31","cyberpunq","#0","Or does it make sense to use the optimism address here?","",""
+"2023-08-05,11:13:00","penryn","#0","your user should connect a wallet to your dApp, with the nullifierHash just being used to confirm uniqueness and personhood of that user","cyberpunq#0",""
+"2023-08-05,11:13:11","rcontre360","#0","Hi! <@341347831942217731> ! We are building a custom chain with worldocoin authentication to make certain actions (native on the chain). I was reading your docs and I want to ask if its possible to deploy our own chain (OP Layer 2), listen to your Ethereum contracts to get any new identity commitments and deploy our own verifier in our chain.
+
+Also, by any chance do you support any test network?","penryn#0",""
+"2023-08-05,11:13:15","penryn","#0","it may make sense for you to map the nullifierHash to the user's wallet address","cyberpunq#0",""
+"2023-08-05,11:13:44","cyberpunq","#0","Ok you've put me on the path here, will keep exploring that. Thanks!","",""
+"2023-08-05,11:15:07","heisenburger_2023","#0","Also confused about this","",""
+"2023-08-05,11:15:16","penryn","#0","this could definitely be feasible! out current architecture does push updates to the merkle tree from ethereum to optimism and polygon, but this pull architecture would be very interesting to explore
+
+as for testnets, we have the same setup as mainnets on testnets -- eth goerli, optimism goerli, and polygon mumbai","rcontre360#0",""
+"2023-08-05,11:17:01","penryn","#0","this is a mistake in the documentation (which i'll fix now) -- just pass the action as a string directly","heisenburger_2023#0",""
+"2023-08-05,11:18:09","rcontre360","#0","Great to know! just to let you know more about our project we are building 2 things in a single new OP layer 2
+
+-  Fees for contract deployers (surprisingly it was very easy to build  🙂 ). Currently its for *any* user
+
+- Next feature is only fees for *Registered* users, using worldcoin. 
+
+In general, we wanted to experiment a lot with the EVM and we think all of this is possible seeing your architecture
+Ill keep you posted if we have issues or need more help building the second part","penryn#0",""
+"2023-08-05,11:21:44","heisenburger_2023","#0","aight","penryn#0",""
+"2023-08-05,11:23:31","morganmoskalyk","#0","I have a question about testing in staging environments. I’m looking to receive the nullifierHash with a world ID login so I can prove uniqueness onchain. I make a simple action and test in the app and this is my result. Any advice?","",""
+"2023-08-05,11:23:36","morganmoskalyk","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137405556873764896/IMG_9033.png"
+"2023-08-05,11:33:41","lupin4549","#0","Hey, using auth0 for signin with worldcoin also works, right ? means we can do that and still be eligible for bounty ?","penryn#0",""
+"2023-08-05,11:36:14","penryn","#0","absolutely!","lupin4549#0",""
+"2023-08-05,11:36:37","penryn","#0","instead of the world app, use the simulator at https://simulator.worldcoin.org","morganmoskalyk#0",""
+"2023-08-05,11:37:11","morganmoskalyk","#0","I'll give that a try, thanks","penryn#0",""
+"2023-08-05,11:44:02","morganmoskalyk","#0","Had another question, is the `handleVerify={handleVerify}` used in the id-kit component called and returned with the https://docs.worldcoin.org/id/idkit#response? Getting an error reading 
+
+```
+The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.ts(2362)
+```","",""
+"2023-08-05,11:46:50","heisenburger_2023","#0","ok so I copy pasted response from widget to my contract I deployed on optimism
+
+transact to Contract.verifyAndExecute errored: Error encoding arguments: Error: expected array value (argument=null, value=""0x2b916de0f8309f4a58c4f04**********2fd1de1790b"", code=INVALID_ARGUMENT, version=abi/5.7.0)
+
+Getting this. Currently not manipulating response data at all","",""
+"2023-08-05,11:51:21","lupin4549","#0","Thanks for info","",""
+"2023-08-05,11:53:24","penryn","#0","`handleVerify` is an *optional* callback function called after the proof is returned from a user's device, but _before_ the widget is closed. errors thrown in this function will be displayed in the widget. if it succeeds, the widget shows a success state, then when the modal is closed, it calls the `onSuccess` callback function
+
+it's useful to use `handleVerify` for API verification (to present errors to the user gracefully, like if they've already performed this action) but it's not typically used for on-chain use cases","morganmoskalyk#0",""
+"2023-08-05,11:54:28","penryn","#0","you have to break the `proof` into an array of BigInts. see the very bottom of this page https://docs.worldcoin.org/id/on-chain","heisenburger_2023#0",""
+"2023-08-05,11:55:49","morganmoskalyk","#0","Okay that makes sense. I guess my question, which doesn't seem clear to me is how I get this Response from the widget: https://docs.worldcoin.org/id/idkit#response
+```
+{
+    ""merkle_root"": ""0x1f38b57f3bdf96f05ea62fa68814871bf0ca8ce4dbe073d8497d5a6b0a53e5e0"",
+    ""nullifier_hash"": ""0x0339861e70a9bdb6b01a88c7534a3332db915d3d06511b79a5724221a6958fbe"",
+    ""proof"": ""0x063942fd7ea1616f17787d2e3374c1826ebcd2d41d2394..."",
+    ""credential_type"": ""orb""
+}
+```","penryn#0",""
+"2023-08-05,11:56:45","heisenburger_2023","#0","```
+const onSuccess = (response: any) => {
+    console.log('Merkle Root:', response.merkle_root);
+    console.log('Nullifier Hash:', response.nullifier_hash);
+    console.log('Proof:', response.proof);
+    console.log('Credential Type:', response.credential_type);
+
+  }
+```","morganmoskalyk#0",""
+"2023-08-05,11:57:30","penryn","#0","this is correct, other than the fact that you should use the `ISuccessResult` type for the response 🙂","heisenburger_2023#0",""
+"2023-08-05,11:57:51","morganmoskalyk","#0","Oh thanks, i did try that and the function didn't return a response after i verified","",""
+"2023-08-05,11:57:55","heisenburger_2023","#0","Yeah currently working on smart contract","",""
+"2023-08-05,11:58:12","heisenburger_2023","#0","Just wanted to visualize it 😄","",""
+"2023-08-05,11:58:51","morganmoskalyk","#0","nvm, i had to close the modal","",""
+"2023-08-05,11:59:19","heisenburger_2023","#0","onSuccess fires after modal is closed like Penryn said","",""
+"2023-08-05,11:59:27","heisenburger_2023","#0","i was confused too","",""
+"2023-08-05,11:59:49","morganmoskalyk","#0","thanks all i think i have what i need to continue to build. super excited","",""
+"2023-08-05,11:59:55","penryn","#0","you can also add the autoClose param to IDKit to automatically close after `handleVerify` completes (or after the proof is received if `handleVerify` is not defined)","morganmoskalyk#0",""
+"2023-08-05,12:03:49","tarangpadia","#0","Great! Thank you so much for this, I will be continuing the rest of my app, hoping to receive the documentation soon!","penryn#0",""
+"2023-08-05,12:18:57","zatara7","#0","Hello the phone verification isn't working on the app. I'm trying two different numbers from two different countries and still not receiving anything or getting a ""something went wrong""","",""
+"2023-08-05,12:21:43","penryn","#0","which two countries?","zatara7#0",""
+"2023-08-05,12:21:53","zatara7","#0","USA and Turkey","",""
+"2023-08-05,12:22:34","penryn","#0","unfortunately World App isn't available in Turkey","",""
+"2023-08-05,12:24:42","zatara7","#0","Okay. And the US?","",""
+"2023-08-05,12:25:12","zatara7","#0","I'm guessing I should VPN to the US to remove any hidden restriction that's detecting I'm in Turkey?","",""
+"2023-08-05,12:27:08","morganmoskalyk","#0","When using the simulator and verifying with an onchain app, I noticed the response also returns the chain. It's says polygon, how might you change the network for when you're verifying","",""
+"2023-08-05,12:27:36","penryn","#0","you can ignore that chain response -- it's left over from a past configuration and i'll flag the team to remove it","morganmoskalyk#0",""
+"2023-08-05,12:27:42","penryn","#0","proofs can be verified on any chain","",""
+"2023-08-05,12:27:53","morganmoskalyk","#0","rad","",""
+"2023-08-05,12:27:59","morganmoskalyk","#0","thanks","",""
+"2023-08-05,12:28:18","zatara7","#0","<@341347831942217731> how can I get into the developer portal? VPN didn't help","penryn#0",""
+"2023-08-05,12:29:12","penryn","#0","the best thing is to contact in-app support, to help get past the SMS issue","zatara7#0",""
+"2023-08-05,12:29:35","penryn","#0","we'll be adding support for other sign-in methods to the developer portal soon, but likely not within the timeframe of the hackathon, unfortunately","",""
+"2023-08-05,12:30:07","zatara7","#0","understood thanks I'll reach out to them","",""
+"2023-08-05,12:54:50","heisenburger_2023","#0","What should I pass as world id to constructor exactly?","",""
+"2023-08-05,12:55:30","penryn","#0","the address of the world id router contract, find the correct address for your chain at https://docs.worldcoin.org/reference/address-book","heisenburger_2023#0",""
+"2023-08-05,12:55:45","heisenburger_2023","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137428746375266324/image.png"
+"2023-08-05,12:55:50","heisenburger_2023","#0","ok so I set it correctly before","",""
+"2023-08-05,12:56:17","penryn","#0","it's best to use the World ID Router directly","",""
+"2023-08-05,12:56:43","heisenburger_2023","#0","Ah so it's World ID Router field","",""
+"2023-08-05,12:56:59","heisenburger_2023","#0","So it's op.goerli.id.worldcoin.eth which is 0xFc1315089316FcFe586a8E0a92873c258De8aaC1","",""
+"2023-08-05,12:57:28","heisenburger_2023","#0","Thought 1st field and 2nd were the same","",""
+"2023-08-05,12:57:50","penryn","#0","op-goerli.id.worldcoin.eth, just to correct the typo for anyone else, but the address is correct","heisenburger_2023#0",""
+"2023-08-05,13:24:52","mxber2022","#0","how to fix this","","https://cdn.discordapp.com/attachments/971226642276057088/1137436072234717285/Screenshot_2023-08-05_at_19.24.28.png"
+"2023-08-05,13:25:26","mxber2022","#0","this dont continue further","",""
+"2023-08-05,13:25:36","penryn","#0","can you share your IDKit configuration?","",""
+"2023-08-05,13:26:40","mxber2022","#0","<IDKitWidget
+      action=""hello""
+      onSuccess={onSuccess}
+      handleVerify={handleProof}
+      app_id={process.env.id}
+      credential_types={[CredentialType.Orb, CredentialType.Phone]}
+      enableTelemetry
+    >
+    {({ open }) => <button onClick={open}>Verify with World ID</button>}
+    </IDKitWidget>","",""
+"2023-08-05,13:27:38","penryn","#0","everything looks correct there -- are you sure that `process.env.id` is set properly to the appId of a staging app?","",""
+"2023-08-05,13:27:51","mxber2022","#0","yes","",""
+"2023-08-05,13:29:16","penryn","#0","can you share the handleProof function? i'm guessing the ""cannot convert BigInt to a number"" error is coming from there","",""
+"2023-08-05,13:29:32","mxber2022","#0","my handle proof is empty","",""
+"2023-08-05,13:30:06","mxber2022","#0","empty function","",""
+"2023-08-05,13:30:25","penryn","#0","in that case you can remove the `handleVerify={handleProof}` from your IDKit params","",""
+"2023-08-05,13:30:46","mxber2022","#0","okay  let me try if it works","",""
+"2023-08-05,13:34:18","mxber2022","#0","same problem","",""
+"2023-08-05,13:34:51","penryn","#0","will you try clearing cache/cookies on the simulator?","",""
+"2023-08-05,13:35:58","mxber2022","#0","not working","",""
+"2023-08-05,13:39:18","penryn","#0","does the simulator just stay at the loading state after inputting the QR code?","",""
+"2023-08-05,13:39:26","mxber2022","#0","yes","",""
+"2023-08-05,13:44:01","heisenburger_2023","#0","$16 for goerli deployment","",""
+"2023-08-05,13:44:13","heisenburger_2023","#0","💀","",""
+"2023-08-05,13:44:57","penryn","#0","it may just be an issue with walletconnect then -- is there a different internet network you can try? if not then try again in an hour or so and see if the issue still persists","mxber2022#0",""
+"2023-08-05,13:47:28","mxber2022","#0","okay","",""
+"2023-08-05,13:49:36","heisenburger_2023","#0","As a windows user i'm done with forge","",""
+"2023-08-05,13:55:17","heisenburger_2023","#0","Module '""ethers""' has no exported member 'defaultAbiCoder'.ts(2305)
+
+```
+    const unpackedProof = abi.decode(['uint256[8]'], response.proof)[0];
+```","",""
+"2023-08-05,13:57:24","penryn","#0","are you importing from ethers/utils? 
+
+`import { defaultAbiCoder as abi } from '@ethers/utils'`","heisenburger_2023#0",""
+"2023-08-05,13:58:09","heisenburger_2023","#0","```
+Cannot find module '@ethers/utils' or its corresponding type declarations.ts(2307)
+```
+
+Yeah tried that, when trying to install @ethers/utils it says it doesn't exist","",""
+"2023-08-05,13:58:23","heisenburger_2023","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137444507902808094/image.png"
+"2023-08-05,13:59:06","penryn","#0","oh interesting -- try utils.defaultAbiCoder from ethers?","",""
+"2023-08-05,13:59:15","heisenburger_2023","#0","Hm it worked without @ (npm install ethers-utils)","",""
+"2023-08-05,14:01:11","heisenburger_2023","#0","Module '""ethers""' has no exported member 'utils'.
+
+```
+
+import { utils } from 'ethers';
+const unpackedProof = utils.defaultAbiCoder(['uint256[8]'], response.proof)[0];
+
+```","",""
+"2023-08-05,14:02:07","penryn","#0","i'm not exactly sure how to help from here -- https://docs.ethers.org/v5/api/utils/abi/coder/ may be a useful reference","",""
+"2023-08-05,14:02:22","penryn","#0","if you still have issues i'll ping one of our devs to help","",""
+"2023-08-05,14:06:44","mxber2022","#0","doesnt work with react","penryn#0",""
+"2023-08-05,14:06:49","mxber2022","#0","but works with next js","",""
+"2023-08-05,14:06:53","mxber2022","#0","interesting","",""
+"2023-08-05,14:07:22","penryn","#0","hm","",""
+"2023-08-05,14:07:26","penryn","#0","that is interesting","",""
+"2023-08-05,14:07:37","penryn","#0","can you share what versions of next and react you tested with so i can pass on to the team?","",""
+"2023-08-05,14:08:19","mxber2022","#0","""dependencies"": {
+    ""@worldcoin/idkit"": ""^0.5.1"",
+    ""next"": ""latest"",
+    ""next-auth"": ""latest"",
+    ""react"": ""^18.2.0"",
+    ""react-dom"": ""^18.2.0""
+  },
+  ""devDependencies"": {
+    ""@types/node"": ""^18.16.2"",
+    ""@types/react"": ""^18.2.0"",
+    ""typescript"": ""^5.0.4""
+  }","",""
+"2023-08-05,14:18:59","mxber2022","#0","the above was for next js","",""
+"2023-08-05,14:19:05","mxber2022","#0","for react","",""
+"2023-08-05,14:19:13","mxber2022","#0","{
+  ""name"": ""yy"",
+  ""version"": ""0.1.0"",
+  ""private"": true,
+  ""dependencies"": {
+    ""@testing-library/jest-dom"": ""^5.17.0"",
+    ""@testing-library/react"": ""^13.4.0"",
+    ""@testing-library/user-event"": ""^13.5.0"",
+    ""@worldcoin/idkit"": ""^0.5.1"",
+    ""dotenv"": ""^16.3.1"",
+    ""react"": ""^18.2.0"",
+    ""react-dom"": ""^18.2.0"",
+    ""react-scripts"": ""5.0.1"",
+    ""web-vitals"": ""^2.1.4""}","",""
+"2023-08-05,14:24:18","marvinmarnold","#0","I'm in the USA trying to login to developer portal for first time. Trying from an iPhone 11 and  Android 11. Can't get past this on either. Have tried with and without VPNs. Waited over 15min.","","https://cdn.discordapp.com/attachments/971226642276057088/1137451030930522292/Screenshot_2023-08-05_at_1.22.29_PM.png"
+"2023-08-05,14:27:05","heisenburger_2023","#0","I guess I managed to decode it? <@341347831942217731>","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1137451730070671442/image.png"
+"2023-08-05,14:39:10","marvinmarnold","#0","Brave browser with my iPhone is working now. Chrome failing silently. Android + Brave says that phone number not verified -- but it is.","",""
+"2023-08-05,15:27:32","heisenburger_2023","#0","Hm not able to verify, not sure what it is","","https://cdn.discordapp.com/attachments/971226642276057088/1137466943083925615/image.png"
+"2023-08-05,15:42:51","heisenburger_2023","#0","Input
+
+```
+{
+    ""address signal"": ""0x7fc*****d895AfC843"",
+    ""uint256 root"": ""963940188***29588"",
+    ""uint256 nullifierHash"": ""11731035***00809954971635"",
+    ""uint256[8] proof"": [
+        ""144018****380727094"",
+        ""384997****920751180"",
+        ""132818****001604412"",
+        ""100303****839143292"",
+        ""189978****868570531"",
+        ""727746****909863222"",
+        ""320013****244244739"",
+        ""637860****396328245""
+    ]
+}
+```","",""
+"2023-08-05,15:59:34","jmulq","#0","let me know if you manage to get the tx and validate on-chain, I'll do the same. feel like I've been banging my head against the wall with this problem for some time. copied the exact code in the on-chain template and no luck.. <@341347831942217731> - would you be able to assist with this?","heisenburger_2023#0、penryn#0",""
+"2023-08-05,16:31:08","penryn","#0","try force-closing the app and signing in again","marvinmarnold#0",""
+"2023-08-05,16:45:20","heisenburger_2023","#0","yup","jmulq#0",""
+"2023-08-05,16:47:09","penryn","#0","i'll get our dev who wrote this example repository to take a look at everything you've both sent here","jmulq#0",""
+"2023-08-05,16:47:29","jmulq","#0","nice one appreciate that","penryn#0",""
+"2023-08-05,16:49:08","heisenburger_2023","#0","Thanks! Hopefully I can get this sorted so I can speedrun the hacakthon 😄","",""
+"2023-08-05,17:46:49","marvinmarnold","#0","I'm trying to deploy https://github.com/worldcoin/world-id-example-airdrop to OP Goerli. I have over .1 ETH in a wallet but getting insufficient funds error. I'll try to deploy locally now but curious if my issue is really insufficient funds.
+
+```
+Error: Command failed: forge script scripts/WorldIDAirdrop.s.sol:DeployWorldIDAirdrop --fork-url https://goerli.optimism.io        --broadcast -vvvv --chain-id 420
+
+## Setting up (1) EVMs.
+Error:
+(code: -32000, message: insufficient funds for gas * price + value, data: None)
+```","",""
+"2023-08-05,18:44:26","marvinmarnold","#0","Deploying locally works and cost 0.0017 ETH @ 4 gwei. Seems like 0.1 ETH should def be enough on OP Goerli.","",""
+"2023-08-05,18:52:58","marvinmarnold","#0","darn, was just missing `0x` for `PRIVATE_KEY=` in `.env`. Was able to deploy to goerli.","",""
+"2023-08-05,19:52:57","jmulq","#0","I think I may know whats wrong but might be worth checking with the dev as well. Looks like instead of passing in a `IWorldId` instance for the  `_worldId` param, to the constructor, the contract address is being passed in. Fairly sure this script will have never worked. Will check in the morning to see if I'm barking up the wrong tree.","penryn#0",""
+"2023-08-05,21:06:55",".knpz","#0","Hi. I have a question regarding onChain verifications.   // @param signal An arbitrary input from the user, usually the user's wallet address (check README for further details) 
+/// @param root The root of the Merkle tree (returned by the JS widget). /
+// @param nullifierHash The nullifier hash for this proof, preventing double signaling (returned by the JS widget). /
+// @param proof The zero-knowledge proof that demonstrates the claimer is registered with World ID (returned by the JS widget). 
+/// @dev Feel free to rename this method however you want! We've used claim, verify or execute in the 
+past. 
+
+    worldId.verifyProof( 
+        root, 
+        groupId, 
+        abi.encodePacked(signal).hashToField(), 
+        nullifierHash, 
+        externalNullifier, 
+        proof ); 
+
+The data provided by the widget will always be the same? I want to use worldId to permit only a single user perform actions on a smartContract. For example have a counter and only that that user (with a specific nullifierHash) increment the counter multiple times.","",""
+"2023-08-05,21:07:27",".knpz","#0","<@341347831942217731>","penryn#0",""
+"2023-08-05,21:09:31","penryn","#0","the `nullifierHash` will be the same for any given user when they perform the same action -- so if the appId and action name (which create the `externalNullifier`) remain the same, a user's nullifierHash will also be the same","",""
+"2023-08-05,21:10:00","penryn","#0","if the user performs a different action or is interacting with a different app, the `nullifierHash` will be different, in order to preserve their privacy","",""
+"2023-08-05,21:13:50",".knpz","#0","For example, an abstractedAccount that lets only the owner perform a transaction of assets. If I use worldId to permit only the owner (nullifierHash) send tokens of the abstractedAccount the operation would always be the same?","",""
+"2023-08-05,21:14:42",".knpz","#0","If I do that someone thats checking the transactions can just copy the values and pass them to effect the transaction even if its not the owner, right?","",""
+"2023-08-05,21:15:00",".knpz","#0","<@341347831942217731>","penryn#0",""
+"2023-08-05,21:15:17","penryn","#0","no need to tag me every time, i get notifications for this channel if i'm awake",".knpz#0",""
+"2023-08-05,21:15:42",".knpz","#0","gotIt, sorry about that.","",""
+"2023-08-05,21:16:57","penryn","#0","you can prevent this type of replay by using the `signal` field as a nonce",".knpz#0",""
+"2023-08-05,21:18:02",".knpz","#0","The signal is arbitrary, right?, so its not given by the widget.","",""
+"2023-08-05,21:18:40",".knpz","#0","Could I just have a variable that keeps record of it?","",""
+"2023-08-05,21:18:57",".knpz","#0","A uint conter variable.","",""
+"2023-08-05,21:19:46",".knpz","#0","counter*","",""
+"2023-08-05,21:20:06","penryn","#0","the signal is an input to the widget and is part of the proof -- if a different signal is used as an input to the widget and as an input to the verify function, the proof will not verify correctly
+
+i'd recommend using a counter in your smart contract for the signal, which would ensure the proof is unique for every world ID verification","",""
+"2023-08-05,21:24:52",".knpz","#0","Okay, so if I understood correctly, I can have a counterVariable and every time that the widget generates a proof I can read that counter value from the smartContract from my frontEnd using ethersJs and finally passing it to the widget so they match?","",""
+"2023-08-05,21:24:56",".knpz","#0","Would that work?","",""
+"2023-08-05,21:25:08","penryn","#0","that may work, yes","",""
+"2023-08-05,21:25:24",".knpz","#0","Okay. Thanks a lot Penryn.","",""
+"2023-08-05,21:25:51",".knpz","#0","https://tenor.com/view/thank-you-gracias-ty-thnx-takk-gif-26160678","",""
+"2023-08-05,23:05:31","asgarovf","#0","Hi, I am receiving an error about not being verified my phone number to access developer portal. I don't get any sms to my different phone numbers. What is the easiest way to access developer portal?","",""
+"2023-08-05,23:37:09","heisenburger_2023","#0","Any updates on smart contract template?","",""
+"2023-08-05,23:37:47","heisenburger_2023","#0","Hmm lmk if it works","jmulq#0",""
+"2023-08-06,00:18:53","heisenburger_2023","#0","Is it possible to prove Twitter authentication by Worldcoin ID? I.e. user authenticates twitter login, then worldcoin id confirms this authentication","",""
+"2023-08-06,03:35:51","harpaljadeja.eth","#0","to get in the developer portal is it necessary to have verification done?","",""
+"2023-08-06,04:10:57","jelilat","#0","We need to verify our phone number to log in to the Developer portal but sending phone verification SMS fails.
+
+Tried multiple times already","","https://cdn.discordapp.com/attachments/971226642276057088/1137659064080416768/image0.jpg"
+"2023-08-06,05:23:18","harpaljadeja.eth","#0","I did phone verification still not able to connect to developer portal","jelilat#0",""
+"2023-08-06,05:32:16","harpaljadeja.eth","#0","Everytime I sign up says Creating World ID and then the your ID will be ready then stuck forever","marvinmarnold#0",""
+"2023-08-06,05:48:53","harpaljadeja.eth","#0","finally able to get into the developer portal 😅","",""
+"2023-08-06,05:49:10","harpaljadeja.eth","#0","did nothing after a few minutes the world id might have been created and it works now","",""
+"2023-08-06,05:56:21","taionewgate","#0","what is worldcoin simulation link","",""
+"2023-08-06,06:21:13","jmulq","#0","https://simulator.worldcoin.org/","",""
+"2023-08-06,06:45:55","jmulq","#0","no luck so far this morning. getting quite frustrating now.","heisenburger_2023#0",""
+"2023-08-06,06:59:11",".knpz","#0","Hi, i have a doubt.","",""
+"2023-08-06,06:59:13",".knpz","#0","constructor(
+        IWorldID _worldId,
+        string memory _appId,
+        string memory _actionId
+    ) {
+        worldId = _worldId;
+        externalNullifier = abi
+            .encodePacked(abi.encodePacked(_appId).hashToField(), _actionId)
+            .hashToField();
+    }","",""
+"2023-08-06,06:59:37",".knpz","#0","The construct of sample contract.sol ask for an appId.","",""
+"2023-08-06,07:00:08",".knpz","#0","Where do I get that appId?, do I have to get from the developers portal like the appId?","",""
+"2023-08-06,07:30:21","0xpetra","#0","gm! A heads up for a question we asked in the mentorship channel:
+https://discord.com/channels/554623348622098432/822657841420435486/1137708349866123345","",""
+"2023-08-06,07:40:26","morganmoskalyk","#0","I just wanted to verify, in the code example the code is supplied with 6 params, including groupId: https://docs.worldcoin.org/id/on-chain#verify-proof. 
+
+In this interface I've found online for IWorldID it has 5 parameters, no groupId: https://github.com/worldcoin/world-id-contracts/blob/main/src/interfaces/IWorldID.sol#L22 .. Which one should be used?","",""
+"2023-08-06,09:34:01","heisenburger_2023","#0","I think that's what me and jmulq are trying to figure out","morganmoskalyk#0",""
+"2023-08-06,09:34:39","taionewgate","#0","Hi 
+i try to use https://docs.worldcoin.org/id/on-chain#id-kit-configuration
+```
+import { IDKitWidget, solidityEncode } from '@worldcoin/idkit' // add import for solidityEncode
+
+const { address } = useAddress() // get the user's wallet address
+
+<IDKitWidget
+    app_id=""app_GBkZ1KlVUdFTjeMXKlVUdFT"" // must be an app set to on-chain
+    action=""claim_nft""
+    signal={address} // only for on-chain use cases, this is used to prevent tampering with a message
+    onSuccess={onSuccess}
+    // no use for handleVerify, so it is removed
+    credential_types={['orb']} // we recommend only allowing orb verification on-chain
+    enableTelemetry
+>
+    {({ open }) => <button onClick={open}>Verify with World ID</button>}
+</IDKitWidget>
+```
+it's return 
+```
+chain:""polygon""
+credential_type:""orb""
+merkle_root:""xxxxx""
+....
+```
+How can i set it to chain: OP goelri ?","",""
+"2023-08-06,09:42:32","jmulq","#0","The world ID router which should be being called when we verify proofs on chain has 6 params (https://github.com/worldcoin/world-id-contracts/blob/main/src/WorldIDRouterImplV1.sol), so I think the example on docs is what we want to use.","morganmoskalyk#0",""
+"2023-08-06,10:27:22","jmulq","#0","I am getting the same `chain: ""polygon`  response back when using optimism goerli (I've set up a wagmi config that connects my app to OP goerli). The transaction is being submitted and going through on OP goerli also so I presume this is a hardcoded ""polygon"" value somewhere, or a bug, in the worldcoins IDKit repo or elsewhere 🤷‍♂️","taionewgate#0",""
+"2023-08-06,10:46:22","heisenburger_2023","#0","That might be it","jmulq#0",""
+"2023-08-06,10:46:29","heisenburger_2023","#0","Rip my hackathon","",""
+"2023-08-06,10:48:01","penryn","#0","use the World ID Router contracts at https://docs.worldcoin.org/reference/address-book","morganmoskalyk#0",""
+"2023-08-06,10:48:53","penryn","#0","this is correct -- i've flagged to the team to fix
+
+it's left over from an older version of the simulator that had completely separate World ID contracts on polygon and optimism that didn't bridge between the two","jmulq#0",""
+"2023-08-06,10:49:43","penryn","#0","you can completely ignore the chain value, proofs will verify on any supported chain (using World App for mainnets, and the Simulator on testnets)","taionewgate#0",""
+"2023-08-06,10:54:42","jmulq","#0","Would this be causing the issue we are having when trying to complete on chain verification on OP goerli, or is the proof chain agnostic? still unable to verify on-chain. getting a call revert earlier with an unidentified error code, which I'm assuming means the error is happening in the world ID contract 🤔 could we get a working example, or a screenshare run through at some point?","penryn#0",""
+"2023-08-06,10:55:25","penryn","#0","proof is chain agnostic! and i'm doing a workshop tuesday at 1:00pm GMT-5","jmulq#0",""
+"2023-08-06,10:56:25","penryn","#0","i'll let the team know about this","jelilat#0",""
+"2023-08-06,10:58:11","jmulq","#0","awesome. cant see the workshop in the schedule atm","",""
+"2023-08-06,11:33:24","idtechv","#0","<@368389733908348948> here","ausaf007#0",""
+"2023-08-06,11:33:47","ausaf007","#0","Thanks <@613462838047932437> got it","idtechv#0",""
+"2023-08-06,11:35:03","idtechv","#0","<@341347831942217731> can we create a credential schema with worldcoin and issue verifiable credentials? Naming may be different but I’m using W3C terms. When clicking on the docs last week the link was broken for credentials. Thank you!","penryn#0",""
+"2023-08-06,11:37:03","penryn","#0","we're likely going to add support ourselves for verifiable credentials in the future -- when we say ""credentials"" in the docs, we're referring to orb-verification and phone-verification","idtechv#0",""
+"2023-08-06,11:38:59","ausaf007","#0","same, stuck at this step, how do I proceed <@341347831942217731> ?","penryn#0、marvinmarnold#0",""
+"2023-08-06,11:40:35","idtechv","#0","Correct, we want to issue a credential that verifies identity based on ID+selfie+background check with worldcoin, but seem to be stuck at the limitations right now.","",""
+"2023-08-06,11:41:22","idtechv","#0","Typically an organization would push a credential schema, then issue that credential to consumers verifying whatever about them.","",""
+"2023-08-06,11:41:56","penryn","#0","<@902654345856819220> as well -- once you reach the ""your world id will be ready soon"" state (after the countdown has finished), force quit the app and it should work","ausaf007#0、marvinmarnold#0",""
+"2023-08-06,11:43:24","penryn","#0","you can use world ID as part of this verification, but there's currently no way to compare the biometrics to a user's World ID, if that's what you're trying to do","idtechv#0",""
+"2023-08-06,11:45:05","ausaf007","#0","awesome, this worked","penryn#0",""
+"2023-08-06,11:48:13","idtechv","#0","<@341347831942217731> we’ll work with that","penryn#0",""
+"2023-08-06,12:20:26","rcontre360","#0","Hi <@341347831942217731> ! I want to deploy https://github.com/worldcoin/world-id-state-bridge/blob/main/src/abstract/WorldIDBridge.sol#L7 to our custom OP Layer 2. I was copying the necessary contracts to our repository and I found this import that I didnt see in package.json.
+
+https://github.com/worldcoin/world-id-state-bridge/blob/main/src/abstract/WorldIDBridge.sol#L7
+""import {SemaphoreVerifier} from ""semaphore/base/SemaphoreVerifier.sol"";""
+
+Where it comes from?","penryn#0",""
+"2023-08-06,12:21:37","penryn","#0","semaphore is the zkp system that world id is based on","rcontre360#0",""
+"2023-08-06,12:22:22","rcontre360","#0","Yes, but where the import comes from? I mean its a package or...? because I dont see the contract it in that repo","penryn#0",""
+"2023-08-06,12:24:45","rcontre360","#0","Oh, just found it 🙂 https://github.com/worldcoin/semaphore-v3","",""
+"2023-08-06,12:25:15","penryn","#0","glad you found it!","",""
+"2023-08-06,14:52:14",".knpz","#0","Hi <@341347831942217731> .","penryn#0",""
+"2023-08-06,14:53:34",".knpz","#0","Where can I get the addresses for the IWordlID instance where I call the verifyProof function?","",""
+"2023-08-06,14:54:06","penryn","#0","https://docs.worldcoin.org/reference/address-book",".knpz#0",""
+"2023-08-06,14:54:10",".knpz","#0","Is the worldIdRouter?","",""
+"2023-08-06,14:54:17","penryn","#0","correct",".knpz#0",""
+"2023-08-06,14:55:00",".knpz","#0","Okay.","",""
+"2023-08-06,14:55:05",".knpz","#0","Thanks a lot.","",""
+"2023-08-06,16:05:52",".knpz","#0","Hi again <@341347831942217731> . Sorry to bother you again.","penryn#0",""
+"2023-08-06,16:06:12",".knpz","#0","Im using the IDKitWidget.","",""
+"2023-08-06,16:06:18","gabrielaxy.eth","#0","Hey <@341347831942217731> 
+I got a situation here. I have my Worldcoin ID verified in my iPhone. But my front camera got damaged and I cannot scan any QR at all.
+I have a new phone now. Can I transfer my WorldID from iPhone to Samsung?","penryn#0",""
+"2023-08-06,16:06:39",".knpz","#0","I installed the package as the docs says.","",""
+"2023-08-06,16:06:56",".knpz","#0","And used but got this erros in my reactJs project:","",""
+"2023-08-06,16:06:58",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137839255834611882/image.png"
+"2023-08-06,16:07:26","gabrielaxy.eth","#0","You should define those functions",".knpz#0",""
+"2023-08-06,16:07:33","gabrielaxy.eth","#0","Those are placeholders","",""
+"2023-08-06,16:07:37",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137839416736493678/image.png"
+"2023-08-06,16:07:43","gabrielaxy.eth","#0","You need to define the action for those functions","",""
+"2023-08-06,16:08:04","gabrielaxy.eth","#0","<@583516422454378502>",".knpz#0",""
+"2023-08-06,16:08:08","penryn","#0","right now it's not possible to transfer from iphone to android or vice versa -- but you should use a staging app during development (selected when creating the app in the developer portal) and instead of World App use the simulator (https://simulator.worldcoin.org, either on desktop or mobile, but desktop would be best for you), and you can click the QR code to copy it to paste in to the simulator rather than scanning with the camera","gabrielaxy.eth#0",""
+"2023-08-06,16:08:38",".knpz","#0","Any example for that?","gabrielaxy.eth#0",""
+"2023-08-06,16:08:44","gabrielaxy.eth","#0","Does using Staging qualify for prizes?","penryn#0",""
+"2023-08-06,16:08:51",".knpz","#0","Normal funcs?, asunc funcs?","",""
+"2023-08-06,16:08:54","penryn","#0","yes","gabrielaxy.eth#0",""
+"2023-08-06,16:09:05","gabrielaxy.eth","#0","Anything",".knpz#0",""
+"2023-08-06,21:35:26",".knpz","#0","Hi one more time <@341347831942217731> .","penryn#0",""
+"2023-08-06,21:36:06",".knpz","#0","I have an error I dont undertand calling a function on my smartContract through my reactJs frontEndApp.","",""
+"2023-08-06,21:36:21",".knpz","#0","Heres the git with the error description:","",""
+"2023-08-06,21:36:23",".knpz","#0","https://github.com/Kanoopz/worldcoinFrontendFunctionCallError/tree/main","",""
+"2023-08-07,01:06:09",".knpz","#0","I dont know if this has something to do:","",""
+"2023-08-07,01:07:26",".knpz","#0","The verifyFunction requires to have the root, groupid anh hashNullifier as uint:","",""
+"2023-08-07,01:07:55",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137975391403909170/image.png"
+"2023-08-07,01:08:40",".knpz","#0","But the response of the widget returns them as strings, and the documentation says that the results have to be passed as theyre received:","",""
+"2023-08-07,01:09:28",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1137975780631134338/image.png"
+"2023-08-07,02:30:55","tarangpadia","#0","Hey <@341347831942217731> 
+Were you able to get your hands on the docs for mobile development on React Native?","penryn#0",""
+"2023-08-07,04:57:45","heisenburger_2023","#0","was anyone able to verify onchain?","",""
+"2023-08-07,05:52:30","morganmoskalyk","#0","Seems like there's a worldcoin library to decode in the example found here: https://github.com/worldcoin/world-id-onchain-template/blob/main/src/pages/index.tsx#L20",".knpz#0",""
+"2023-08-07,05:58:21","jmulq","#0","I've tried and failed on OP Goerli. No idea what the issue is. Haven't heard anything back yet about how to resolve. Any update from the dev <@341347831942217731> ?","heisenburger_2023#0、penryn#0",""
+"2023-08-07,06:04:25","heisenburger_2023","#0","Ye thats a rip","",""
+"2023-08-07,06:09:21","cryptoshenoy","#0","Hey <@341347831942217731>. Hope you're doing well. I'm trying to signup for the developer portal, but worldid app is giving me this error ""Network error occured: Sending phone verification SMS has failed"", and now it says the max limit has reached. How can I solve this? I do have an active phone network.","penryn#0",""
+"2023-08-07,06:14:10","morganmoskalyk","#0","the simulator seems to not be verifying the action flow, just in the console.
+
+btw all, we don't have to tag the dev they've said they'll see the messages when they're around","",""
+"2023-08-07,06:17:45","morganmoskalyk","#0","it's actually just using abi.decode from ethers under the hood","",""
+"2023-08-07,08:15:49","harpaljadeja.eth","#0","Is there a test net app?","","https://cdn.discordapp.com/attachments/971226642276057088/1138083074014453780/IMG_0890.png"
+"2023-08-07,08:16:04","penryn","#0","https://simulator.worldcoin.org","harpaljadeja.eth#0",""
+"2023-08-07,08:16:20","penryn","#0","hopefully he'll be hopping in to this channel today, stay tuned","jmulq#0",""
+"2023-08-07,08:16:40","penryn","#0","not yet, will post here when i have them","tarangpadia#0",""
+"2023-08-07,08:18:57","harpaljadeja.eth","#0","if you are able to let me know how","heisenburger_2023#0",""
+"2023-08-07,08:21:47","harpaljadeja.eth","#0","how can we change the chain?","","https://cdn.discordapp.com/attachments/971226642276057088/1138084575172636712/image.png"
+"2023-08-07,09:19:13","jelilat","#0","Phone number verification isn’t working still. Any feedback?","","https://cdn.discordapp.com/attachments/971226642276057088/1138099028714856468/image0.jpg"
+"2023-08-07,09:19:40","penryn","#0","ignore the chain, it's leftover from a past version of the simulator. the proof should verify on any chain","harpaljadeja.eth#0",""
+"2023-08-07,09:19:57","penryn","#0","app is seeing lots of demand today, please retry in ~15-30 minutes","jelilat#0",""
+"2023-08-07,09:59:05","harpaljadeja.eth","#0","did anyone get this error?","","https://cdn.discordapp.com/attachments/971226642276057088/1138109064010805298/image.png"
+"2023-08-07,09:59:29","harpaljadeja.eth","#0","I calculate fn sig but it doesn't come to this I don't know how wagmi is getting this as the fn sig","",""
+"2023-08-07,10:01:15","penryn","#0","i'm working with our team right now, i think we've identified why proofs aren't verifying on-chain. will update you all here when i can","harpaljadeja.eth#0",""
+"2023-08-07,10:02:17","harpaljadeja.eth","#0","Thanks but this seems like an issue with function signature 😅","penryn#0",""
+"2023-08-07,10:03:43","harpaljadeja.eth","#0","Oh maybe it’s an error signature and I am completely wrong 😅","",""
+"2023-08-07,10:45:36","supreme2580","#0","Hey guys what happens to builders who want to build on worldcoin but orbs aren't available in their countries","",""
+"2023-08-07,10:55:59","penryn","#0","you can use the simulator (https://simulator.worldcoin.org) to test orb verification on our staging environment. if you're doing on-chain verification you must do so on testnets (see https://docs.worldcoin.org/id/on-chain)","supreme2580#0",""
+"2023-08-07,11:52:56","heisenburger_2023","#0","Hopefully onchain verification is fixed within next 2 day😂","",""
+"2023-08-07,12:32:39","anjana_haridas","#0","Trying to integrate the worldcoin signin functionality but the WorldCoin Developer Portal seems to be throwing an error while adding a localhost callback url (they've mentioned to add the localhost url for staging apps in their github example app readme - https://github.com/worldcoin/world-id-nextauth-template) <@341347831942217731> 
+Looking forward to your reply! Thanks!","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138147708666912818/Screenshot_2023-08-07_at_9.png"
+"2023-08-07,15:27:02",".smoothyyy","#0","can any one explain me why i am getting this error while scanning in simulator .","","https://cdn.discordapp.com/attachments/971226642276057088/1138191592772092005/image.png"
+"2023-08-07,15:27:34","penryn","#0","this is a known issue, and one we're working to resolve","anjana_haridas#0",""
+"2023-08-07,15:27:58","penryn","#0","can you attempt the on-chain verification now and let me know if the issue is still happening?","heisenburger_2023#0",""
+"2023-08-07,15:28:44","heisenburger_2023","#0","I'm in the mountains rn really bad reach cant even download nodejs. Can any other check it out?","",""
+"2023-08-07,15:28:57","egeaybars123","#0","Hey <@341347831942217731> , we have some questions about Superhack hackathon. The only thing that blocks us from building a dApp is having access to a Worldcoin app or action ID because we cannot use their SDK without any app ID which can only be obtained from their Developer Platform. 
+We sent an e-mail to the Worldcoin team and tried to reach them on Discord regarding this issue. One of our teammates lives in Germany, and he could download the app, but you are required to scan your retina to get an appID which raises privacy concerns for us. We'd be happy if Worldcoin could provide Superhack hackers with temporary access to their Developer Platform.","penryn#0",""
+"2023-08-07,15:29:02","heisenburger_2023","#0","I will be back on 10th so I'll have to speedrun entire hackathon😂","",""
+"2023-08-07,15:29:08","penryn","#0","this feels like a walletconnect issue -- will you try clearing cache on the simulator?",".smoothyyy#0",""
+"2023-08-07,15:29:38","penryn","#0","you're not required to be orb-verified to access the developer portal -- just need to verify your phone number in world app","egeaybars123#0",""
+"2023-08-07,15:29:46",".smoothyyy","#0","yeah it's working now .  I am having network issue 🥲","penryn#0",""
+"2023-08-07,15:29:54","egeaybars123","#0","it still doesnt work for us","penryn#0",""
+"2023-08-07,15:30:06","jmulq","#0","I'll give it a go now","heisenburger_2023#0",""
+"2023-08-07,15:30:17","penryn","#0","what issue do you see when trying to sign in?","egeaybars123#0",""
+"2023-08-07,15:35:15","harpaljadeja.eth","#0","hey I am getting this on on-chain verification","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138193662858236098/image.png"
+"2023-08-07,15:35:25","harpaljadeja.eth","#0","not sure if this was the same error <@226348657639817216> was getting","heisenburger_2023#0",""
+"2023-08-07,15:36:05","egeaybars123","#0","we attempted to sign in right now, and it works! just one more question, though: we will test it in Goerli testnet, and should we open an appID in staging or prod?","penryn#0",""
+"2023-08-07,15:47:27","jmulq","#0","staging if using a testnet..","egeaybars123#0",""
+"2023-08-07,15:48:54","jmulq","#0","still getting an error attempting the on-chain verification","penryn#0",""
+"2023-08-07,15:49:00","egeaybars123","#0","Thx","jmulq#0",""
+"2023-08-07,15:50:56","jmulq","#0","Failed tx's on etherscan if they help:
+- https://goerli-optimism.etherscan.io/tx/0xe9d6d9df552d4526f9bc9e27c6a0759f7b45f2d3df9573032509eaa54f68f9c7
+- https://goerli-optimism.etherscan.io/tx/0x8919d09b8eca9a2206a4d223bc70bef2421c3c99f8ef83a22ed04049e3d10530
+
+I've just deployed the contract using the world ID on-chain veri starter contracts, and then used the template front-end to get this issue.","penryn#0",""
+"2023-08-07,16:52:23","andriy656","#0","one question Worldcoin exact World ID is not compatible with Optimism?It can only work with Polygon?","",""
+"2023-08-07,18:10:57","penryn","#0","it can be used on ethereum, optimism, and polygon","andriy656#0",""
+"2023-08-07,18:20:31",".knpz","#0","Hi <@341347831942217731> Im using reactJs instead of typescript. What would be the equivalent to using this functions:","penryn#0",""
+"2023-08-07,18:20:32","penryn","#0","ok everyone, the issues verifying on-chain appear to only be on optimism goerli -- our contract had incorrect parameter ordering. while i wait for the team member who manages ENS records to wake up, please use `0x515f06B36E6D3b707eAecBdeD18d8B384944c87f` instead of op-goerli.id.worldcoin.eth for verifications on optimism goerli","",""
+"2023-08-07,18:20:53",".knpz","#0","decode<BigNumber>('uint256', proof?.merkle_root ?? '')","",""
+"2023-08-07,18:20:55",".knpz","#0","?","",""
+"2023-08-07,18:27:42","penryn","#0","is this during the prepareContractWrite in your frontend?",".knpz#0",""
+"2023-08-07,18:28:34","penryn","#0","<@651399927519379476> <@533355122340659200> please try again with this World ID Router address","harpaljadeja.eth#0、jmulq#0",""
+"2023-08-07,18:29:22","jmulq","#0","Will do. Just finishing up something.","",""
+"2023-08-07,18:32:52",".knpz","#0","Yeah, when I get the resultObject of the onSuccessFunc.","penryn#0",""
+"2023-08-07,18:34:46","penryn","#0","try just replacing this whole line: `proof?.nullifier_hash ? decode<BigNumber>('uint256', proof?.nullifier_hash ?? '') : BigNumber.from(0),` with `proof.nullifier_hash`","",""
+"2023-08-07,18:35:04","penryn","#0","the `decode` function is also only for typescript","",""
+"2023-08-07,18:37:05",".knpz","#0","Yeah, I stored every value alone.","penryn#0",""
+"2023-08-07,18:37:44",".knpz","#0","Theres no equivalent in JS I can use?","penryn#0",""
+"2023-08-07,18:38:50","penryn","#0","you shouldn’t have to at all, it just assigns types properly. try without it and if it doesn’t work properly i can bring in the dev who wrote that frontend code in the template to help out",".knpz#0",""
+"2023-08-07,18:39:59",".knpz","#0","What should I try?, just pasaing nullifier_hash value without decoding?","penryn#0",""
+"2023-08-07,18:40:08","penryn","#0","yes, try that","",""
+"2023-08-07,18:42:06",".knpz","#0","Okay.","",""
+"2023-08-07,18:55:41",".knpz","#0","Doesnt work.","penryn#0",""
+"2023-08-07,18:55:48",".knpz","#0","I get this errors:","",""
+"2023-08-07,18:55:50",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1138244140551917682/image.png"
+"2023-08-07,18:56:11",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1138244226619027457/image.png"
+"2023-08-07,18:56:32",".knpz","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1138244316012228658/image.png"
+"2023-08-07,19:41:49","jmulq","#0","Still not working. If the dev(s) can provide a working code example, or update the repo that is referenced in the docs, that would be helpful.","penryn#0",""
+"2023-08-07,21:19:21",".knpz","#0","<@341347831942217731> .","penryn#0",""
+"2023-08-07,21:23:05","penryn","#0","what error are you getting with the new address? is it the same one?","jmulq#0",""
+"2023-08-07,21:26:32","penryn","#0","this isn't an error signature that's in our ABI -- which chain have you deployed to?",".knpz#0",""
+"2023-08-07,22:01:43","marvinmarnold","#0","<@341347831942217731> still not able to perform vefrifyAndExecute on OP Goerli using world address 0x515f06B36E6D3b707eAecBdeD18d8B384944c87f
+Failed tx: https://goerli-optimism.etherscan.io/tx/0x110934a3b20622fa0295c7cfaf8dbb463d917040603c78ae20d42a37e50df9ba
+
+I've also not been able to get past ABI and gas issues when trying to interact with our deployed contract (https://github.com/worldcoin/world-id-onchain-template/blob/main/contracts/src/Contract.sol) through React/wagmi. To get as far as the failed tx, I used Remix to directly send a TX after uploading the ABI and copying the root/nullifier from the WC response. Previously, I've tried OP mainnet, ETH goerli, and Mumbai. The issues have varied but ultimately, haven't been able to do onchain verification anywhere. I have not yet tried ETH mainnet.","penryn#0",""
+"2023-08-07,22:04:00","penryn","#0","tagging <@215866112972161036> to see if he can help figure out what the issue is here (he may be asleep already, so please be patient)","m1guelpf#0、marvinmarnold#0",""
+"2023-08-07,22:17:25","marvinmarnold","#0","Here's a failed transaction on OP mainnet following the same process FWIW: https://optimistic.etherscan.io/tx/0x265bd5d960fef7db8be9fc7923b0d59bd3ae4a0be4a023e96e35a8a56efb1178","",""
+"2023-08-07,22:47:05",".knpz","#0","mumbaiTestnet <@341347831942217731> .","penryn#0",""
+"2023-08-08,07:43:12","jmulq","#0","it isn't clear what the error is as the execution just reverts on chain.","penryn#0",""
+"2023-08-08,07:44:45","jmulq","#0","Hey <@215866112972161036> , could you confirm that the on-chain verification is working on OP Goerli? If so, what repo/code are you using? I think a few of us have been using the on-chain template and starter repo, and are unable to get verification to work.
+- https://github.com/worldcoin/world-id-onchain-template
+- https://github.com/worldcoin/world-id-starter/","m1guelpf#0",""
+"2023-08-08,08:19:16","harpaljadeja.eth","#0","on-chain template definitely doesn't work 😅","jmulq#0",""
+"2023-08-08,08:19:37","harpaljadeja.eth","#0","I haven't yet directly verified on the router itself","",""
+"2023-08-08,08:19:51","harpaljadeja.eth","#0","I am going via my contract which is the same as the one in the on-chain template","",""
+"2023-08-08,08:41:10","harpaljadeja.eth","#0","doesn't work","","https://cdn.discordapp.com/attachments/971226642276057088/1138451841823289344/image.png"
+"2023-08-08,08:41:14","harpaljadeja.eth","#0","directly on optimism router","",""
+"2023-08-08,13:06:25","avinash8295","#0","hey getting ""Access to fetch at 'https://developer.worldcoin.org/api/v1/oidc/authorize' from origin 'http://localhost:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled."" when using import { SignInWithWorldID } from ""@worldcoin/idkit"";","",""
+"2023-08-08,13:08:00","penryn","#0","we're aware of this issue and have removed documentation for this component while we work to resolve the issue -- if you'd like to use Sign in with Worldcoin please use our OIDC provider as described here https://docs.worldcoin.org/id/sign-in","avinash8295#0",""
+"2023-08-08,13:27:29","andreth207","#0","We were trying to get the events every time a group is added in goerli testnet, but the implementation in goerli for the WorldID Smart contract doesn't emit events, is this the right implementation? https://goerli.etherscan.io/address/0xa527146e57a992ba3f338e8c2b732a8b71c794d2#code <@341347831942217731>","penryn#0",""
+"2023-08-08,13:34:05","avinash8295","#0","Hey can you share any code using /autherize endpoint","penryn#0",""
+"2023-08-08,14:04:48","timecoder15","#0","Hi, when i get response from IDKit, it creates for polygon chain. Does it matter which chain the answer is for? Because, we couldn't find how to change chain","","https://cdn.discordapp.com/attachments/971226642276057088/1138533287153909942/image.png"
+"2023-08-08,14:05:33","timecoder15","#0","Also, i get error from verify proof with these arguments","",""
+"2023-08-08,14:06:39","timecoder15","#0","Also, can i ask do you have world id for zora?","",""
+"2023-08-08,14:28:59","penryn","#0","ignore the chain response -- it's left over from an old version of the simulator, these proofs are valid for any chain","timecoder15#0",""
+"2023-08-08,14:29:05","penryn","#0","we do not at this time","timecoder15#0",""
+"2023-08-08,14:29:48","timecoder15","#0","Thank you","",""
+"2023-08-08,14:29:56","timecoder15","#0","I get, ""0x728ade92"" error from the verify proof","",""
+"2023-08-08,14:30:20","harpaljadeja.eth","#0","pretty much everyone is getting the same thing doing on-chain verification","timecoder15#0",""
+"2023-08-08,14:30:34","harpaljadeja.eth","#0","let me know when you find a solution 😜","",""
+"2023-08-08,14:30:37","penryn","#0","which chain are you attempting to verify on?","timecoder15#0",""
+"2023-08-08,14:31:27","timecoder15","#0","optimism goerli","penryn#0",""
+"2023-08-08,14:32:42","timecoder15","#0","if it is an error about chain, we can change it to goerli","",""
+"2023-08-08,14:33:04","penryn","#0","please try on eth goerli and let me know if you still have the same issue","timecoder15#0",""
+"2023-08-08,14:33:22","timecoder15","#0","ok, thanks!","",""
+"2023-08-08,14:33:45","avinash8295","#0","Hey just getting this response when called user info,how do i get user email","","https://cdn.discordapp.com/attachments/971226642276057088/1138540570319540304/Screenshot_2023-08-09_at_12.03.02_AM.png"
+"2023-08-08,14:34:16","avinash8295","#0","and what does sub mean??","",""
+"2023-08-08,14:36:01","harpaljadeja.eth","#0","let me try too!","penryn#0",""
+"2023-08-08,14:38:07","penryn","#0","`sub` is the unique identifier of a user (in this case, the user's `nullifierHash` from World ID)
+
+we don't have access to a user's true email, but you can enable a dummy email response of `{nullifierHash}@id.worldcoin.org` by adding `email` to your OIDC scope parameter. we don't recommend using the email returned from our OIDC provider as it won't receive messages, but it's provided for apps that _require_ and email returned from a sign-in provider","avinash8295#0",""
+"2023-08-08,14:39:22","avinash8295","#0","But my nullifierhash and sub are different","penryn#0",""
+"2023-08-08,14:41:27","penryn","#0","where are you getting the nullifierHash from? you shouldn't need to use Anonymous Actions and Sign in with Worldcoin in the same app, and if you're using anonymous actions with an action name given, it will create a different nullifierHash by design","avinash8295#0",""
+"2023-08-08,14:43:38","avinash8295","#0","Oh my bad,So do I need to create 2 apps i.e for signin and other for anonymous actions??","penryn#0",""
+"2023-08-08,14:44:07","penryn","#0","what's your use case that requires both? generally we recommend using only one or the other","avinash8295#0",""
+"2023-08-08,14:45:28","avinash8295","#0","Ok I thought of user signing with worldID (To maintain user state)and then verify an action","",""
+"2023-08-08,14:48:49","penryn","#0","when someone signs in with worldcoin, you know that they're a unique human. if you're looking to allow them to perform certain actions only once, the best way if they've already signed in with worldcoin would be to track in your database if they've performed an action before, since you know that the user only has one account","",""
+"2023-08-08,14:54:17","harpaljadeja.eth","#0","exactly the same issue 😅 on Ethereum Goerli","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138545740000542741/image.png"
+"2023-08-08,16:29:59","cyberpunq","#0","Does someone know whether a worldcoin nullifier hash fits into a solidity `bytes32`?","",""
+"2023-08-08,16:30:05","cyberpunq","#0","Thanks in advance.","",""
+"2023-08-08,16:52:05","andreth207","#0","I'm now using hyperlane to get the data from other blockchain, it works for me! Now I wanted to know which data (and from which contract if you can tell me) I have to get from the testnet worldcoin smart contract each time a user is added, in order to allow them to make their verification in our L2","",""
+"2023-08-08,17:29:49",".smoothyyy","#0","hey I am getting this error can anyone help me","","https://cdn.discordapp.com/attachments/971226642276057088/1138584880133980160/image.png"
+"2023-08-08,17:31:05","penryn","#0","can you sent the merkle root from the proof?",".smoothyyy#0",""
+"2023-08-08,17:31:30",".smoothyyy","#0","0x047ff1eb43d210756f5ccbe8de6c12935b2043a8bbae3a03cf0ccf10e21ba567","",""
+"2023-08-08,17:32:14",".smoothyyy","#0","this is the merkle_root  which i got from IDKit","",""
+"2023-08-08,17:32:36",".smoothyyy","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1138585581379665990/IMG_20230809_030113.jpg"
+"2023-08-08,17:32:54",".smoothyyy","#0","Also why it's showing not verified in my simulator","",""
+"2023-08-08,17:35:32","penryn","#0","hm this merkle root doesn't seem to be valid -- this was using the simulator, right?",".smoothyyy#0",""
+"2023-08-08,17:35:47",".smoothyyy","#0","Yeah","penryn#0",""
+"2023-08-08,17:36:28","penryn","#0","app verification is for high-profile integrations that we want to prevent phishing attacks -- verification is done manually by the World ID team",".smoothyyy#0",""
+"2023-08-08,17:36:36","penryn","#0","i'll look into this now",".smoothyyy#0",""
+"2023-08-08,17:37:14",".smoothyyy","#0","Ohh I see 👀 . by the way Thanks for the help sir.","penryn#0",""
+"2023-08-08,17:38:30","morganmoskalyk","#0","Hey, I'm looking to deploy a contract in remix, and I'm wondering what do I put for the bytes type of `bytes memory _appId` in the constructor. Like I have the App ID in the developer portal, putting in ""<app_id>"" didn't work.","",""
+"2023-08-08,18:44:56","rcontre360","#0","Hi guys! <@341347831942217731> Im deploying the world-id-state-bridge in our custom chain. What is _treeDepth in the constructor parameter? Our L2 will listen to the worldcoin contracts in goerli and update accordingly. A pull architecture instead of the current push architecture between ethereum and OP/Polygon","penryn#0",""
+"2023-08-08,20:28:59","dominichackett","#0","I am getting session timeout when I try to login to the developer portal","",""
+"2023-08-08,21:27:52","shivalisharma","#0","Hi Team, little confused on how to add the ""Verify with World ID"" functionality into my app using idkit. I have added the widget to my react app. I am trying to signup in developer portal but when I scan the code using my mobile world app it says to validate with world id but looks like that will need me to have my iris scan. for the hackathon is there a way to use staging env and simulate something? Please direct to me correct documentation for that. Thank you","",""
+"2023-08-08,23:40:16",".knpz","#0","wolrdID onChain still not working?","",""
+"2023-08-09,00:51:34","sam_1392","#0","Hi 
+Worldcoin is not available in my country so I can't have orb verification 
+is there anyway that I can test my on-chain verification ?","",""
+"2023-08-09,03:16:05","ec2ainun","#0","Hi <@341347831942217731> i cannot login to developer portal even though the phone number already verified","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138732418472362054/Screenshot_20230809-141417.png"
+"2023-08-09,04:52:06","taionewgate","#0","0x05C4AE6bC33e6308004a47EbFa99E5Abb4133f86
+is this ethereum goerli worldID address ?","",""
+"2023-08-09,04:53:37","taionewgate","#0","base on my setting actionId is `verifyandexecute` ,right ?","","https://cdn.discordapp.com/attachments/971226642276057088/1138756962583060550/Screen_Shot_2023-08-09_at_17.52.38.png"
+"2023-08-09,04:54:45","taionewgate","#0","application should be staging and on-chan for use `anonymous actions`, right?","","https://cdn.discordapp.com/attachments/971226642276057088/1138757250060652554/Screen_Shot_2023-08-09_at_17.54.01.png"
+"2023-08-09,05:09:20","yurydefi","#0","Hi team! Is on-chain verification expected to work on hardhat mainnet fork? 
+I got `reverted with an unrecognized custom error`","",""
+"2023-08-09,06:14:31","harpaljadeja.eth","#0","actionId can be anything, `verifyAndExecute` is the name of the smart contract function in the example repo","taionewgate#0",""
+"2023-08-09,06:27:22","taionewgate","#0","> actionId can be anything
+yeah but in my case it's verifyandexecute right? not verifyAndExecute","harpaljadeja.eth#0",""
+"2023-08-09,06:59:53","harpaljadeja.eth","#0","i think so yeah","taionewgate#0",""
+"2023-08-09,07:57:36","_shutanaka","#2305","I am trying to implement Sign in with worldcoin using NextAuth.
+I created a production app in Developer potal and put the secrets in the environment variable, I was able to add the deployed URL in vercel to the Redirects link with no problem.
+When I sign in with my WorldApp, it returns an error like the attached picture.
+When I put the localhost link into Redirects, it returned an error, so I'm trying it in production.....
+https://github.com/tnkshuuhei/superhack/blob/a6ec7d978cbd0893f82b095353286204158deaab/pages/api/auth/%5B...nextauth%5D.ts#L5","","https://cdn.discordapp.com/attachments/971226642276057088/1138803264964530206/worldid_error.jpg"
+"2023-08-09,07:58:40","taionewgate","#0","you need use simulator instead of your worldcoin app","_shutanaka#2305",""
+"2023-08-09,07:59:00","taionewgate","#0","or recreate with production mode instead of staging","",""
+"2023-08-09,08:10:57","_shutanaka","#2305","you mean create production app on developer potal right?
+I did that and used worldapp only for production","taionewgate#0",""
+"2023-08-09,08:19:20","_shutanaka","#2305","is this solved? it also doesn't work in my staging environment...
+If anyone knows of a solution, please let me know","penryn#0",""
+"2023-08-09,08:22:26","taionewgate","#0","> you mean create production app on developer potal right?
+yep in case u still want to user your mobile app","_shutanaka#2305",""
+"2023-08-09,08:25:06","_shutanaka","#2305","thank you","taionewgate#0",""
+"2023-08-09,08:32:54","shivalisharma","#0","Any help with this will be greatly appreciated. Thank you","",""
+"2023-08-09,09:28:48",".smoothyyy","#0","hey can anyone tell me  what is the use of secret key  which we get from signin with worldcoin ?","",""
+"2023-08-09,10:20:59","taionewgate","#0","hey, have you solved it yet?","harpaljadeja.eth#0",""
+"2023-08-09,10:24:06","harpaljadeja.eth","#0","no ser 😅","taionewgate#0",""
+"2023-08-09,11:34:42","0xaxit","#0","not able to sign in to the dev portal anymore, can anyone help ? <@341347831942217731>","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138857902044614676/Screenshot_2023-08-09_at_9.03.46_PM.png"
+"2023-08-09,11:58:09","aeoniv","#0","Hello forks, how can we access our own iris data? <@341347831942217731>","penryn#0",""
+"2023-08-09,12:16:24","paulburke","#0","I haven't been able to get in since this hackathon started...","0xaxit#0",""
+"2023-08-09,12:21:40","penryn","#0","hey all, we're aware of the issues with sign in and on-chain verification on testnet -- resolving these two is my highest priority today to unblock all of you. i know this isn't the best developer experience for all of you, and i want to make it right as quickly as i can. please continue to report any new issues you find and i'll make sure the team is aware and they get resolved in a timely fashion!
+
+thanks for all of your patience!","",""
+"2023-08-09,13:55:33","penryn","#0","we've resolved the issue with signing in to the dev portal! please refresh the developer portal and log in should now work","",""
+"2023-08-09,14:22:11","sam_1392","#0","Hi","",""
+"2023-08-09,15:51:37","shivalisharma","#0","I am unable to get to developer portal, it gives me a QR to scan from my mobile app but then asks to verify with WorldID which I dont have verified via orb. So, does that mean I wont be able to integrate using IDKIT? Please confirm if I am missing something - Thank you","penryn#0",""
+"2023-08-09,15:52:07","penryn","#0","phone-verified users can also access the developer portal","shivalisharma#0",""
+"2023-08-09,15:52:58","shivalisharma","#0","Its not letting, gives something went wrong error","",""
+"2023-08-09,15:53:35","shivalisharma","#0","in the app on that anonymous card it does say phone verified","",""
+"2023-08-09,15:54:32","penryn","#0","investigating now","",""
+"2023-08-09,15:54:47","shivalisharma","#0","Thank you","",""
+"2023-08-09,15:57:04","penryn","#0","i was able to replicate the issue at first but it appears to be working for me now -- we're pushing some updates to our sign-in provider today so it may have been a temporary issue with updating the deployment. will you try again?","",""
+"2023-08-09,15:57:32","shivalisharma","#0","Sure, trying now","",""
+"2023-08-09,15:58:50","shivalisharma","#0","I DMed you the screenshot, please take a look - thank you","",""
+"2023-08-09,16:01:38","penryn","#0","will you force close the app, ensure your app is up-to-date, and clear cache on the developer portal?","",""
+"2023-08-09,16:04:56","shivalisharma","#0","yeah app is up to date, never got to  developer portal actually. Will try again in sometime - thank you","",""
+"2023-08-09,16:23:56","ec2ainun","#0","The issue still persist, cannot login to developer portal, phone is verified","",""
+"2023-08-09,16:27:20","penryn","#0","what do you see when attempting to log in to the developer portal? what happens immediately before it fails, and what are the error messages you see on the developer portal login page and in the app?","ec2ainun#0",""
+"2023-08-09,16:33:31","ec2ainun","#0","scan QR code in my phone -> dev portal give feedback like the screenshoot -> confirming, and the app in the phone give feedback error code 4008, something went wrong -> dev portal showing the QR code again
+
+hope that helps","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1138933098629845093/Screenshot_2023-08-10_at_03.28.31.png"
+"2023-08-09,16:35:27","penryn","#0","you're on android, correct?","ec2ainun#0",""
+"2023-08-09,16:35:39","ec2ainun","#0","yes correct","penryn#0",""
+"2023-08-09,16:35:52","penryn","#0","will report this to the team","",""
+"2023-08-09,16:36:42","penryn","#0","will you send me your wallet address from World App via DM?","ec2ainun#0",""
+"2023-08-09,16:36:54","ec2ainun","#0","okay","penryn#0",""
+"2023-08-09,16:55:55","jmulq","#0","any update regarding on-chain verification? 🙂","",""
+"2023-08-09,17:28:17","paperliss","#0","If im not signed up is that going to make things harder? I'm not very close to an orb.","",""
+"2023-08-09,17:28:29","penryn","#0","still working on it","jmulq#0",""
+"2023-08-09,17:29:09","penryn","#0","nope! you should be able to to sign in to the developer portal with a phone-verified world id, although some users are reporting issues at this time, which have been reported to the team.","paperliss#0",""
+"2023-08-09,17:46:31","lenoftawa.eth","#0","<@341347831942217731> I understand that you must be busy. Our team would like to prove that: *the owner of two Ethereum accounts is the same person*. The action would be to create an EAS attestation to that effect. Looking at the docs, this would likely require a sign in rather than an anonymous action.  Is that correct?","penryn#0",""
+"2023-08-09,17:48:54","askcasmir","#0","Sames . :/","shivalisharma#0",""
+"2023-08-09,17:52:45","penryn","#0","to prove true ownership of two wallets on-chain, anonymous actions would work better for this! here's roughly what you'd have to do:
+
+connected with wallet 1, have the user perform a World ID verification with the wallet address as the signal, and submit a transaction to verify this proof on-chain and ensure the message sender matches the signal!
+
+then, have them connect wallet 2 to your dapp, and have them perform a second World ID verification for the **same action** with the second wallet address as the signal, and once again submit a transaction to verify this proof on-chain and check the message sender against the address in the signal
+
+if the `nullifierHash`es of the proof are identical (which they will be if it's the same World ID user performing the same action), and the message sender matches the signal of each proof, you now know that the same world ID user controls both wallets used
+
+using the wallet address as the signal is done to prevent replaying one proof multiple times, and checking that the message sender matches ensures that the user actually controls the wallet they claim to","lenoftawa.eth#0",""
+"2023-08-09,17:54:39","lenoftawa.eth","#0","Wow.  Thanks... I will let this sink in.  But the use of the nullifier hash seems to suggest that we can use an 'annonymous action' - correct?","",""
+"2023-08-09,17:56:06","penryn","#0","you can use anonymous actions for on-chain! if you wanted an off-chain solution using Sign in with Worldcoin, you could have a users sign in to the frontend and submit a signed message from each wallet. it's less robust, but it would also work","lenoftawa.eth#0",""
+"2023-08-09,20:33:55","taionewgate","#0","did you fix it? I think deploying a new contract can solve the problem","penryn#0",""
+"2023-08-09,21:47:37","adielliot","#0","Its not necessary na ? to be ORB verified on WorldID app to be eligible for its track prize","",""
+"2023-08-09,22:12:15","penryn","#0","for everyone attempting on-chain verification: please attempt using **simulator identity #5 or higher**. you will need to click the emoji in the top-right to open the identity selector, then hit the ""+"" button to add more identities. please test on **optimism goerli or polygon mumbai**.
+
+if you'd like to test this on ethereum goerli, the parameter ordering for the World ID Router has the *root* and *groupId* switched -- meaning you must put the groupId first and the merkle root second in your call to the verifyProof function. this will be fixed soon, but this information is necessary if you'd like to test on ethereum goerli now. *this only applies to ethereum goerli.*","",""
+"2023-08-09,22:18:15","taionewgate","#0","the signature of func change but still not match with WorldID contract ( verifyProof (0x3bc778e3) )
+i want to confirm is it address of worldID contract on op goerli: 
+0xFc1315089316FcFe586a8E0a92873c258De8aaC1","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1139019856906309742/Screen_Shot_2023-08-10_at_11.16.28.png"
+"2023-08-09,22:19:22","penryn","#0","on optimism goerli, the correct address to use for the WorldIDRouter is 0x515f06B36E6D3b707eAecBdeD18d8B384944c87f. the documentation will be updated to correct this shortly.","taionewgate#0",""
+"2023-08-09,22:27:00","taionewgate","#0","i confirm it works!","penryn#0",""
+"2023-08-09,22:27:25","penryn","#0","oh that's such great news to hear","taionewgate#0",""
+"2023-08-09,22:28:13","penryn","#0","i'm terribly sorry about all the issues here -- can you also test clearing the cache and cookies on the developer portal and use any one from identity 0-4?","",""
+"2023-08-09,22:28:31","penryn","#0","(just to help confirm if i identified the root cause correctly)","",""
+"2023-08-09,22:33:25","taionewgate","#0","but it still show 0 unique peoples","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1139023672829542400/Screen_Shot_2023-08-10_at_11.32.17.png"
+"2023-08-09,22:33:48","penryn","#0","this tracking in the developer portal is only for API verifications, it doesn't track on-chain","taionewgate#0",""
+"2023-08-09,22:34:27","taionewgate","#0","you mean clear it all ?","","https://cdn.discordapp.com/attachments/971226642276057088/1139023933010620416/Screen_Shot_2023-08-10_at_11.33.45.png"
+"2023-08-09,22:35:03","penryn","#0","only data for simulator.worldcoin.org should need to be cleared -- there may not even be cookies to worry about, just cache","",""
+"2023-08-09,22:35:24","taionewgate","#0","ah ok
+anyway i use user #.16","",""
+"2023-08-09,22:38:10","taionewgate","#0","i clear it all and create #.0 and it still works 👌","","https://cdn.discordapp.com/attachments/971226642276057088/1139024865987407932/Screen_Shot_2023-08-10_at_11.37.42.png"
+"2023-08-09,22:38:36","penryn","#0","great! thanks for the help testing, i really appreciate it","",""
+"2023-08-09,22:39:14","penryn","#0","which chain did you test on?","",""
+"2023-08-09,22:39:26","penryn","#0","op-goerli?","",""
+"2023-08-09,22:40:02","taionewgate","#0","i have a question
+i use 2 identity for same address and it still pass verifyProof so what is verifyProof use for ?","",""
+"2023-08-09,22:40:18","taionewgate","#0","yes","penryn#0",""
+"2023-08-09,22:40:54","penryn","#0","does your smart contract store the nullifierHash and check to ensure it hasn't already been used?","taionewgate#0",""
+"2023-08-09,22:41:49","penryn","#0","you can see an example of how to do this to implement sybil-resistance here https://docs.worldcoin.org/id/on-chain#verify-proof","",""
+"2023-08-09,22:42:43","taionewgate","#0","ah ok i will add it on
+but i want to know
+one identity will map to only one address, right?
+it will failed if i map same address to 2 identity or 2 identity to one address","",""
+"2023-08-09,22:42:48","taionewgate","#0","right ?","",""
+"2023-08-09,22:43:55","penryn","#0","you have to implement those constraints yourself in your smart contract. a given world ID user performing a given action will always generate the same `nullifierHash` when they perform that action. as long as you check to make sure that `nullifierHash` is unique, then you should be good","",""
+"2023-08-09,22:44:49","taionewgate","#0","i see
+thank you!","",""
+"2023-08-09,22:46:17","taionewgate","#0","wait but i use same identity for 2 address -> nullifierHash will be different or the same","",""
+"2023-08-09,22:47:26","penryn","#0","World ID is completely separate from the wallet -- and the `nullifierHash` will even stay the same with different wallet addresses being used as the `signal` in the World ID proof","",""
+"2023-08-09,22:48:37","taionewgate","#0","i got it 🫡","",""
+"2023-08-09,23:30:23","tonyy5969","#0","Hi Worldcoin team!","",""
+"2023-08-09,23:30:33","tonyy5969","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1139038047942484069/Screenshot_2023-08-09_at_21.22.08.png"
+"2023-08-09,23:31:02","tonyy5969","#0","I'm trying to add the redirect URL to the dev portal but an error throws","",""
+"2023-08-10,02:33:04","tarangpadia","#0","Hi <@341347831942217731> 
+Any news on the React Native/mobile development docs, with the deadline approaching, would appreciate if the docs could be made available today?
+Thank you!","penryn#0",""
+"2023-08-10,03:14:43","zhou","#0","Hi team, everytime I scan the QR code to log in to the dev portal and choose to verify with world id, it says something went wrong and resets. Is there anything I'm missing?","",""
+"2023-08-10,03:36:03","Kobayashi Tomoya","#7484","Maybe, verifyProof function is broken?","",""
+"2023-08-10,03:47:33","adielliot","#0","Can anyone confirm","",""
+"2023-08-10,08:28:09","avinash8295","#0","Is it possible to get the optmism address of an user registered on worldcoin by using sign in with worldcoin?","",""
+"2023-08-10,09:00:17","0xaxit","#0","<@341347831942217731> I'm also getting the same error, its difficult to develop without having localhost added in redirects, do let me know if there any workarounds. 
+Also really appreciate your swift responses and issue resolving. Thanks a tonne!","tonyy5969#0、penryn#0",""
+"2023-08-10,09:02:25","penryn","#0","hi! after talking with the team, the mobile support we can offer is using Sign in with Worldcoin. users who sign in will be automatically deeplinked into the app without having to scan a QR code","tarangpadia#0",""
+"2023-08-10,09:02:57","penryn","#0","best workaround is to deploy your app to a platform such as Vercel and use the URL they assign your app","0xaxit#0",""
+"2023-08-10,09:03:23","penryn","#0","no, the wallet is completely separate from World ID. your users would need to connect an app via metamask or walletconnect or similar","avinash8295#0",""
+"2023-08-10,10:07:37","avinash8295","#0","okay thanks","penryn#0",""
+"2023-08-10,10:30:14","aeoniv","#0","Hello <@341347831942217731> is there a way to access our iris data? thank you","penryn#0",""
+"2023-08-10,10:32:06","penryn","#0","this data is intentionally not accessible through our SDK","aeoniv#0",""
+"2023-08-10,10:34:42","tarangpadia","#0","Yes that should work for my usecase, are there any supported docs to try this solution out for React Native?
+Also this would be eligible for the sign-in prizes under WorldCoin correct?","penryn#0",""
+"2023-08-10,10:36:32","penryn","#0","all you need to do is direct your users to the id.worldcoin.org/authorize endpoint with the correct  query params -- i'd recommend using some OIDC authentication engine in your app like this one from auth0 https://auth0.com/docs/quickstart/native/react-native/00-login and integrate sign in with worldcoin with auth0 as described here https://docs.worldcoin.org/id/sign-in","tarangpadia#0",""
+"2023-08-10,11:32:09","tonyy5969","#0","Ok thank you","penryn#0",""
+"2023-08-10,12:12:09","heisenburger_2023","#0","Any news on onchain verification?","",""
+"2023-08-10,12:12:25","heisenburger_2023","#0","Just got back","",""
+"2023-08-10,12:12:37","penryn","#0","yes it should work now! make sure you clear cache on the simulator","heisenburger_2023#0",""
+"2023-08-10,12:12:49","heisenburger_2023","#0","Ok I'll give it a try, thanks!","",""
+"2023-08-10,12:13:13","penryn","#0","make sure you're using the latest addresses from https://docs.worldcoin.org/reference/address-book","",""
+"2023-08-10,12:13:49","penryn","#0","we've also updated the router on eth goerli to use the correct parameter ordering and the new address is in the docs as well!","",""
+"2023-08-10,20:45:40","timecoder15","#0","Does external nullifier hash must be "" combination of the app ID and the action.""?","",""
+"2023-08-10,20:45:59","timecoder15","#0","must we use app id in hash?","",""
+"2023-08-10,20:54:19","penryn","#0","the external nullifier (which, to be clear is entirely different from the nullifierHash) is formed as described in this docs page (see the constructor section) https://docs.worldcoin.org/id/on-chain","timecoder15#0",""
+"2023-08-10,20:55:27","timecoder15","#0","can we create dynamic external nullfier hashes like vote_1, vote_2 vote_3","",""
+"2023-08-10,20:56:03","timecoder15","#0","to ensure that all indexes will be executed only once for each individual","",""
+"2023-08-10,20:56:34","harpaljadeja.eth","#0","Anybody able to do on chain verification on Optimism?","",""
+"2023-08-10,21:48:56","maushish","#0","I am facing issues on making my developer account on world id","",""
+"2023-08-10,21:49:03","maushish","#0","is it because i am not verified","",""
+"2023-08-10,21:49:05","maushish","#0","?","",""
+"2023-08-10,23:29:31","penryn","#0","changing the action name will change the resulting externall nullifier -- you'd just have to modify your contract to calculate the externalnullifier in the function call, rather than in the constructor","timecoder15#0",""
+"2023-08-10,23:29:58","penryn","#0","if you're phone verified in World App you should be able to sign in","maushish#0",""
+"2023-08-10,23:31:37","maushish","#0","It actually is showing the issue like it was in the tutorial you showed in ethglobal superhack showcase i had the qr code i scanned it then it just stuck on qr it would be great if you could help me with this","penryn#0",""
+"2023-08-10,23:55:31","penryn","#0","my issue in that situation was actually caused by my adblocker","maushish#0",""
+"2023-08-11,01:34:23","ec2ainun","#0","Hi <@341347831942217731> is this issue already resolved?
+i also try to install it into my iphone, with different verified number, but the issue still persist","penryn#0",""
+"2023-08-11,02:21:06","maushish","#0","Oh 😭","penryn#0",""
+"2023-08-11,02:21:15","maushish","#0","Sorry my fault","",""
+"2023-08-11,02:23:16","maushish","#0","It worked out thanks","",""
+"2023-08-11,02:30:38","penryn","#0","i still haven’t heard updates from our team on this, unfortunately","ec2ainun#0",""
+"2023-08-11,02:56:44","heisenburger_2023","#0","I'd like to implement 2 actions","","https://cdn.discordapp.com/attachments/971226642276057088/1139452326604701756/image.png"
+"2023-08-11,02:56:58","heisenburger_2023","#0","So, do I not set _actionId within constructor","",""
+"2023-08-11,02:58:21","heisenburger_2023","#0","Only _worldID, _appId and externalNullifier stay, though with only ``` encodePacked(_appId).hashToField() ```  and I pass in _actionId to verifyAndExecute function?","",""
+"2023-08-11,03:15:17","0xaxit","#0","Now started facing a new issue on id.worldcoin 😢  <@341347831942217731>","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1139456992608538644/Screenshot_2023-08-11_at_12.44.23_PM.png"
+"2023-08-11,03:23:37","heisenburger_2023","#0","Hmm not able to verify proof. I don't know if it's me.","","https://cdn.discordapp.com/attachments/971226642276057088/1139459091077550142/image.png"
+"2023-08-11,03:24:37","heisenburger_2023","#0","Passed in these params to constructor","","https://cdn.discordapp.com/attachments/971226642276057088/1139459344182816798/image.png"
+"2023-08-11,04:04:44","heisenburger_2023","#0","Was able to verify. I didn't use identity #5 or high","",""
+"2023-08-11,04:15:26","zhou","#0","I'm still unable to verify for the developer portal using the ios app, I am phone-verified only","",""
+"2023-08-11,04:16:30","avinash8295","#0","Try to use chrome","0xaxit#0",""
+"2023-08-11,04:48:54","raldblox","#0","may I ask, where can user add nickname and name for worldid?","",""
+"2023-08-11,05:05:16","maushish","#0","Hey Penryn i am facing a pretty small issue regarding pasting the alternate link on worldid developer portal to use the sign in function","penryn#0",""
+"2023-08-11,05:05:52","maushish","#0","which link is it asking for? Auth0 doesn't work and same goes for localhost","",""
+"2023-08-11,05:43:27","gabrielaxy.eth","#0","Does Optimism Mainnet work? <@341347831942217731>","penryn#0",""
+"2023-08-11,08:44:48",".knpz","#0","@Is the onChain verification problem solved? <@341347831942217731>","penryn#0",""
+"2023-08-11,09:00:28","shivalisharma","#0","Hi, I am having the same issue, how did it worked for you?","maushish#0",""
+"2023-08-11,09:01:10","maushish","#0","Simple","",""
+"2023-08-11,09:01:17","maushish","#0","Disable ad blocker","",""
+"2023-08-11,09:20:46","pxvvxn","#0","hey guys! not able to add redirect url on the developer portal any help?","",""
+"2023-08-11,09:35:00","andreth207","#0","Hi Guys! I need to create an appID for my Worldcoin App on goerli, where can I create this?","",""
+"2023-08-11,09:43:38","andreth207","#0","and also a worldID to test the verifyProof function","",""
+"2023-08-11,10:13:14","andreth207","#0","Was trying to login to the dev portal, it asked me to join by the app but I see this","","https://cdn.discordapp.com/attachments/971226642276057088/1139562174776365096/f75dcea6-da3a-4ff2-9fb4-c4c885bf51e6.jpeg"
+"2023-08-11,10:26:32","mattwong.ca","#0","is supabase the easiest way for cloud verification?","",""
+"2023-08-11,11:13:14","cyberpunq","#0","https://docs.worldcoin.org/reference/sign-in#exchange-code
+
+When using Worldcoin Sign in in combination with Next Auth, what auth code could one exchange for the token and how can one obtain it? Help would be much appreciated.","",""
+"2023-08-11,11:24:01","avinash8295","#0","Add a prod url that works","pxvvxn#0",""
+"2023-08-11,11:37:49","mattwong.ca","#0","Hey <@341347831942217731>, should the worldcoin simulator be working atm? I was previously able to verify but the simulator has a under maintenance pop up now, and it's giving errors when I try to confirm","penryn#0",""
+"2023-08-11,11:39:11","mattwong.ca","#0","nvm, it works again!","",""
+"2023-08-11,11:47:52","heisenburger_2023","#0","Now i can't verify onchain","",""
+"2023-08-11,11:48:03","heisenburger_2023","#0","Very confusing : P","",""
+"2023-08-11,11:53:23","heisenburger_2023","#0","I changed user in simulator, same wallet address, tried to verify proof, getting reverted","",""
+"2023-08-11,11:54:59","heisenburger_2023","#0","It does generate different proof & nullifier","",""
+"2023-08-11,12:05:41","heisenburger_2023","#0","Ye I don't think I'll be able to finish my dapp on time or at least it'll be unstable : /","",""
+"2023-08-11,12:06:03","cyberpunq","#0","Same here, Worldcoin making me act up","",""
+"2023-08-11,12:06:50","heisenburger_2023","#0","I will code rest of the dapp only have 2 days left and I was on vacation so","",""
+"2023-08-11,12:06:57","heisenburger_2023","#0","have nothing done really lmao","",""
+"2023-08-11,12:07:48","cyberpunq","#0","I barely have a working smart contract and now I am superglueing this bad boy to an improvised frontend haha","",""
+"2023-08-11,12:08:04","heisenburger_2023","#0","lmao gl hopefully we can get stable version working","",""
+"2023-08-11,12:08:30","heisenburger_2023","#0","I might create worldcoin proof verification simulator 😄","",""
+"2023-08-11,12:08:33","cyberpunq","#0","Yeah we will manage somehow, good luck to you too.","",""
+"2023-08-11,12:08:35","heisenburger_2023","#0","so it simulates that proof is verified lmao","",""
+"2023-08-11,12:09:03","heisenburger_2023","#0","actually 200 iq idea","",""
+"2023-08-11,12:09:04","cyberpunq","#0","See, that's innovative thinking lmao","",""
+"2023-08-11,12:09:39","cyberpunq","#0","You could make try to go for a win in the DevTool category","",""
+"2023-08-11,12:10:17","heisenburger_2023","#0","it'll probably be simple function that always returns true lol","",""
+"2023-08-11,12:11:09","cyberpunq","#0","Give it a Start-up type name, a website with flashy gradients and a VC will drop a barrel full of money onto you lol","",""
+"2023-08-11,12:11:29","heisenburger_2023","#0","ezClap","",""
+"2023-08-11,12:17:42","heisenburger_2023","#0","https://tenor.com/view/wolf-of-wall-street-lets-goo-gif-23073371","",""
+"2023-08-11,12:19:56","cyberpunq","#0","You can vent here, it's alright","",""
+"2023-08-11,12:20:01","cyberpunq","#0","We're here for you","",""
+"2023-08-11,12:27:27","heisenburger_2023","#0","sigh","",""
+"2023-08-11,12:33:18","yurydefi","#0","Hi team, can anybody help with basic on-chain verification for opGoerli ?
+The process ended up failing in Orb State Bridge.
+What do I check to understand the rootcause? seems like bridge contract is not verified on Tenderly
+
+https://dashboard.tenderly.co/tx/optimistic-goerli/0xc797de3161a099eca9d3594b6ce07455c76bd0572ff2d385f1ea77f6b854c17e","",""
+"2023-08-11,13:21:12","martelaxe","#0","On chain verification doesnt work ,right?","",""
+"2023-08-11,13:24:35","anyaogu","#0","i am trying to verify phone number, i get the error. 
+`something went wrong!`
+
+edit: tried a couple times, still the same error","",""
+"2023-08-11,13:31:41","penryn","#0","next auth automatically handles this process for you, follow the instructions in the NextAuth tab on this page https://docs.worldcoin.org/id/sign-in","cyberpunq#0",""
+"2023-08-11,13:33:23","penryn","#0","currently we have a bug preventing the use of localhost redirect URIs, please deploy your app to a platform such as vercel and use the URL they provide to test","pxvvxn#0",""
+"2023-08-11,13:34:13","penryn","#0","use the WorldIDRouter contract and get the latest address from https://docs.worldcoin.org/reference/address-book","yurydefi#0",""
+"2023-08-11,13:35:29","penryn","#0","are you using the up-to-date addresses from https://docs.worldcoin.org/reference/address-book ? there have been a couple issues that we've resolved","heisenburger_2023#0",""
+"2023-08-11,13:38:57","heisenburger_2023","#0","Yes, it worked and then when I tried again, it didn't","penryn#0",""
+"2023-08-11,13:41:45","yurydefi","#0","Yes, you can see the new address in the stacktrace. But still it fails somewhere further","penryn#0",""
+"2023-08-11,13:43:31","penryn","#0","ah, i've identified the issue -- our team has deployed updated identityManager contracts and i'm asking them to update the routers ASAP across all chains. once that update is made proofs should start verifying again","",""
+"2023-08-11,13:45:52","heisenburger_2023","#0","Ok I won't have to deploy worldid onchain verification simulation then","",""
+"2023-08-11,13:46:49","heisenburger_2023","#0","https://tenor.com/view/leonardo-dicaprio-wolf-of-wallstreet-absolutely-not-gif-8727965","",""
+"2023-08-11,13:57:41","lakshmi0529","#0","Hi we need help with worldcoin integration .","",""
+"2023-08-11,14:04:19","penryn","#0","what can i help with?","lakshmi0529#0",""
+"2023-08-11,14:05:10","lakshmi0529","#0","After scanning the QR code to developer portal it’s only loading. 
+Or it’s failing . 
+So we are unable to access it.","",""
+"2023-08-11,14:08:52","penryn","#0","please force quit and reopen World App and clear cache on the developer portal -- are you orb-verified or only phone-verified in World App?","lakshmi0529#0",""
+"2023-08-11,14:09:59","lakshmi0529","#0","I am orb verified.","",""
+"2023-08-11,14:10:40","lakshmi0529","#0","And phone verified","",""
+"2023-08-11,14:12:10","penryn","#0","can you send screenshots of what happens right before it gets stuck? feel free to DM if you'd prefer","",""
+"2023-08-11,14:15:10","mattwong.ca","#0","Hey <@341347831942217731>! do u mind if I dm about using databases for cloud verification? currently trying to use supabase but it's not working😅","penryn#0",""
+"2023-08-11,14:15:33","lakshmi0529","#0","Okay it worked!","penryn#0",""
+"2023-08-11,14:15:38","lakshmi0529","#0","Thank you 🙂","",""
+"2023-08-11,14:16:04","penryn","#0","feel free!","mattwong.ca#0",""
+"2023-08-11,14:29:09","heisenburger_2023","#0","any ETA on onchain verification?","",""
+"2023-08-11,14:30:34","penryn","#0","eth goerli and optimism goerli should be good to go (base goerli and polygon mumbai are still in progress) -- please clear cache on the developer portal before trying again","heisenburger_2023#0",""
+"2023-08-11,14:34:10","heisenburger_2023","#0","hmm transaction failed","",""
+"2023-08-11,14:34:22","heisenburger_2023","#0","So I already verified this wallet once with different worldID simulator account","",""
+"2023-08-11,14:34:31","heisenburger_2023","#0","nullifier is different","",""
+"2023-08-11,14:34:38","heisenburger_2023","#0","proof is different","",""
+"2023-08-11,14:37:19","heisenburger_2023","#0","can't figure out what's causing the issue","",""
+"2023-08-11,14:41:08","heisenburger_2023","#0","```Returned error: {""jsonrpc"":""2.0"",""error"":""The method \""debug_traceTransaction\"" does not exist / is not available."",""id"":1939290673031300}
+```","",""
+"2023-08-11,14:42:03","penryn","#0","i'm not sure exactly what that issue is -- i've also identified one more step that must be taken for OP goerli before proofs will verify, but eth goerli should be working now","",""
+"2023-08-11,14:42:07","penryn","#0","so sorry about all of this","",""
+"2023-08-11,14:43:08","heisenburger_2023","#0","Do I need to update WorldID contract instance and deploy new one?","",""
+"2023-08-11,14:45:01","penryn","#0","if you're using the WorldIDRouter on eth goerli at address 0x11cA3127182f7583EfC416a8771BD4d11Fae4334 then you won't need to redeploy","",""
+"2023-08-11,14:45:32","heisenburger_2023","#0","optimism goerli is this right 0x515f06B36E6D3b707eAecBdeD18d8B384944c87f","",""
+"2023-08-11,14:46:55","penryn","#0","that's the correct address from the router -- it points to the new state bridge, but the merkle root hasn't yet been bridged from eth goerli (team doing this now) so proofs won't verify on op goerli quite yet","",""
+"2023-08-11,14:47:08","penryn","#0","but there won't be any changes you need to make","",""
+"2023-08-11,14:47:12","heisenburger_2023","#0","ok so It's not on me then","",""
+"2023-08-11,14:47:17","penryn","#0","correct","",""
+"2023-08-11,14:47:24","heisenburger_2023","#0","Ok got it","",""
+"2023-08-11,15:01:08","andreth207","#0","<@341347831942217731> how I can create my appId And worldId to test the Worldcoin verifyProof?","penryn#0",""
+"2023-08-11,15:05:16","penryn","#0","you create an app in the developer portal (https://developer.worldcoin.org) to get the appId and action name -- for worldId are you referring to the actual account (which you create in World App for production use cases or using the simulator https://simulator.worldcoin.org for testing) or to the contract address you use to verify proofs on chain (you can find this at https://docs.worldcoin.org/reference/address-book)","andreth207#0",""
+"2023-08-11,15:07:30","heisenburger_2023","#0","Can signal be public or not?","",""
+"2023-08-11,15:07:35","heisenburger_2023","#0","stupid question :d","",""
+"2023-08-11,15:07:37","andreth207","#0","Thank you!","",""
+"2023-08-11,15:11:25","andreth207","#0","I'm scanning the QR code from the login app in the simulator and I got this","","https://cdn.discordapp.com/attachments/971226642276057088/1139637216704995438/Captura_de_pantalla_20230811-150916.png"
+"2023-08-11,15:11:47","penryn","#0","signal is expected to be public","heisenburger_2023#0",""
+"2023-08-11,15:12:24","penryn","#0","ah sorry if i wasn't clear -- you have to use World App to sign in to the developer portal (with at least a phone-verified account) and then use the simulator for testing your app","andreth207#0",""
+"2023-08-11,15:12:50","andreth207","#0","Oh got it 👍","",""
+"2023-08-11,15:39:59","maushish","#0",".","",""
+"2023-08-11,15:40:09","maushish","#0","Can someone look into my issue","",""
+"2023-08-11,15:40:18","maushish","#0","<@341347831942217731>","penryn#0",""
+"2023-08-11,15:41:19","penryn","#0","if you're using the auth0 social login integration, you should set your redirect like so from the integration's installation instructions (https://marketplace.auth0.com/integrations/worldcoin):
+
+Add a Redirect URI to https:// {domain} /login/callback, replacing {domain} with your Auth0 tenant domain.","",""
+"2023-08-11,16:29:05","gabrielaxy.eth","#0","<@341347831942217731> Please let me know.. We are about to go mainnet.. need your confirmation..","penryn#0",""
+"2023-08-11,16:29:26","penryn","#0","optimism mainnet should work fine!","",""
+"2023-08-11,16:29:31","gabrielaxy.eth","#0","Wow thanks!","",""
+"2023-08-11,16:35:00","marvinmarnold","#0","Are we still waiting on OP goerli?","penryn#0",""
+"2023-08-11,16:36:01","penryn","#0","yes, still waiting for the merkle root to be bridged to op goerli, base goerli, and polygon mumbai","",""
+"2023-08-11,17:47:13","cyberpunq","#0","I have been looking and reading for a while now, there is no way to currently do this, what should I do? In order to get `/userinfo` , I need the token returned `/token` which in turn needs an auth code. it does not describe a way of obtaining that automatically.","penryn#0",""
+"2023-08-11,17:48:02","penryn","#0","the auth code is returned as a URL parameter when the user is redirected back to your app from the /authorize page","cyberpunq#0",""
+"2023-08-11,17:51:44","cyberpunq","#0","I see, thanks","",""
+"2023-08-11,19:27:10","penryn","#0","hey everyone! on-chain verification should now work properly across **all testnets!**","",""
+"2023-08-11,19:49:28","cyberpunq","#0","Hi <@341347831942217731>, How can one use the VanillaJS version of IDKit when importing using NPM? Tried importing it through the source, but all I get is this:","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1139707189439778947/image.png"
+"2023-08-11,19:50:36","anyaogu","#0","<@341347831942217731>  is it possible for user a to verifyproof onchain and user b uses users a's input to simulate verify proof on chain again?","penryn#0",""
+"2023-08-11,19:52:01","penryn","#0","not if you check that the nullifierhash is unique
+
+if you want to allow a user to perform an action multiple times but still prevent this, you can enforce uniqueness on the signal to require a new proof to be generated each time","anyaogu#0",""
+"2023-08-11,19:52:09","penryn","#0","looking into this","cyberpunq#0",""
+"2023-08-11,19:54:13","penryn","#0","try import “@worldcoin/idkit” and use the init and open methods described here https://docs.worldcoin.org/reference/idkit#methods","cyberpunq#0",""
+"2023-08-11,20:01:17","cyberpunq","#0","That's the starting point I used for implementation, but it does not work this way unless you wanna use React Hooks and components.
+
+I went ahead and dug into the Github and the file that contains these functions:
+```
+https://github.com/worldcoin/idkit-js/blob/main/idkit/src/vanilla.tsx
+```
+
+The `README.md` explains what that file does. 
+See here: https://github.com/worldcoin/idkit-js/blob/main/idkit
+
+This is the path I am using to import these functions like you see above.
+I am still getting the error.","penryn#0",""
+"2023-08-11,20:56:33","cyberpunq","#0","I hate myself, I hope I wont need to reimplement it all in Next.js","",""
+"2023-08-11,20:56:45","cyberpunq","#0","going to sleep rn, will figure it out later.","",""
+"2023-08-11,21:06:44","anyaogu","#0","<@341347831942217731> if i do something like this, am i able to guarantee that only one person can forever call verifyAndContinue?
+
+```solidity
+function verifyAndContinue(
+        address entropy,
+        ...
+    ) public {
+        require(nullifierHash != 0, ""Not initialized"");
+
+        if (usedEntropy[entropy]) revert EntropyHasBeenUsed();
+        if (_nullifierHash != nullifierHash) revert InvalidNullifier();
+        usedEntropy[entropy] = true;
+
+        worldId.verifyProof(
+            ...
+        );
+    }
+```","penryn#0",""
+"2023-08-11,22:14:43","andreth207","#0","Hi! We are almost done with our Project, <@341347831942217731> we would want to explain how we have used worldcoin on it by this way","penryn#0",""
+"2023-08-11,22:20:45","andreth207","#0","We are presenting our project C3 Blockchain, to explain how we did it, and how we have used OP Stack and Worldcoin in order to achieve our goal that was to give part of the gas fee to the creator on each transaction within their verified smart contracts. The process is like this diagram, here is the explanation.
+
+1- When the blockchain is running, C3 Node listens to the events from the State Bridge (Worldcoin) Smart Contract in the Goerli testnet and pull the latest state.
+
+2- C3 Node (op-node) updates the C3WorldID (State Bridge on C3) with the State Bridge from Goerli.
+
+3- WorldID Verified User creates a Contract in C3 Blockchain.
+
+4- WorldID Verified User registers the contract in the C3FeeRegistry.
+
+5- C3FeeRegistry checks if WorldID Verified User is verified with Worldcoin in the C3WorldID and returns true in case the verification success. 
+
+6- Standard User makes a transaction in the smart contract.
+
+7- At the moment the transaction is being executed, C3 Node checks if the contract is verified.
+
+8- If contract is verified WorldID Verified User balance is updated with the fee received.
+
+I hope you like our application with worldcoin in this hackathon, we would love to keep building with it!","","https://cdn.discordapp.com/attachments/971226642276057088/1139745260377997373/f4b1c8ab-7668-4074-8b6f-7b78effa1336.png"
+"2023-08-12,02:15:18","heisenburger_2023","#0","Now it works 😄","","https://cdn.discordapp.com/attachments/971226642276057088/1139804287988400200/image.png"
+"2023-08-12,02:23:06","ethharpreet","#0","I am unable to Sign in to Developer Portal (I dont have any Orb center near and Have ETHGLoabl Hackathon)
+Error is Session Timeout","",""
+"2023-08-12,04:52:33","0xcestclaire","#0","Anyone also encounter the same problem? Not sure why worldid can’t successfully authorize the dapp our team built <@662173613830570016> <@776794973848862731>","dawson54068#0、ron1518#0","https://cdn.discordapp.com/attachments/971226642276057088/1139843859032064090/IMG_7465.png"
+"2023-08-12,05:01:35","0xcestclaire","#0","<@730578523236073494> appreciate if you could take a look at the problem thanks cc <@662173613830570016> <@776794973848862731>","dawson54068#0、ron1518#0、andreth207#0",""
+"2023-08-12,06:48:09","heisenburger_2023","#0","```
+
+      <VerifyWidget src={world} action={ACTION_ID_UNIQUENESS} userAddress={userAddress ?? """"} />
+      <VerifyWidget src={twitter} action=""test"" userAddress={userAddress ?? """"} />
+```
+
+Doesn't matter which component I click, prop action is always equal to ""test"". Any advice on how to differentiate between two components?","",""
+"2023-08-12,07:01:46","nick_w3","#0","ON goerli it should work the onChain verification ?","",""
+"2023-08-12,07:01:54","heisenburger_2023","#0","yes","",""
+"2023-08-12,07:01:55","nick_w3","#0","should i consider anything","",""
+"2023-08-12,07:01:58","heisenburger_2023","#0","onchain works on goerli","",""
+"2023-08-12,07:02:00","heisenburger_2023","#0","op","",""
+"2023-08-12,07:06:03","nick_w3","#0","in the contract i should pass the worldidRouter ?","",""
+"2023-08-12,07:07:13","heisenburger_2023","#0","yes","",""
+"2023-08-12,07:12:25","nick_w3","#0","Is it a problem to put in my action the production instead of staging and use goerli ?","",""
+"2023-08-12,07:14:41","nick_w3","#0","I am encoutering this error","",""
+"2023-08-12,07:14:48","nick_w3","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1139879656808534077/Screenshot_from_2023-08-12_14-14-26.png"
+"2023-08-12,07:16:39","nick_w3","#0","If i pass a wrong msg.value that is required in my smart contract  logic it reverts with the message ""wrong msg.value"" so this revert is comming from the Worldcoin contract  i suppose. Any idea ?","",""
+"2023-08-12,07:32:51","heisenburger_2023","#0","verification stopped working","",""
+"2023-08-12,07:34:49","heisenburger_2023","#0","https://tenor.com/view/headache-stupid-people-oh-my-god-omg-oh-my-gosh-gif-22026951","",""
+"2023-08-12,07:43:04","nick_w3","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1139886770826260580/Screenshot_from_2023-08-12_14-40-21.png"
+"2023-08-12,07:44:11","nick_w3","#0","Yes it is not ... Currently hope that it will later on","",""
+"2023-08-12,07:44:32","heisenburger_2023","#0","ye I'm creating mock function","",""
+"2023-08-12,08:29:33","cyberpunq","#0","Anyone from the Worldcoin team has looked into this","",""
+"2023-08-12,08:34:07","cyberpunq","#0","I now know that it's a declaration file. I I wouldnt know where the main code is.","",""
+"2023-08-12,11:51:44","penryn","#0","are you expecting a single user to be able to call this function multiple times?","anyaogu#0",""
+"2023-08-12,11:52:40","penryn","#0","yes, you must use a staging action for testnets","nick_w3#0",""
+"2023-08-12,11:55:09","penryn","#0","try resetting the simulator you're using (settings button in top right -> reset simulator) to ensure it's getting the latest valid root from the sequencer, and ensure you're using the latest worldIdRouter address in your contract (https://docs.worldcoin.org/reference/address-book)","nick_w3#0",""
+"2023-08-12,12:12:59","jmulq","#0","Hey <@341347831942217731> , can I get clarification on what test networks on-chain verification is currently working for?","penryn#0",""
+"2023-08-12,12:13:20","jmulq","#0","or from anyone else who knows 🙂","",""
+"2023-08-12,12:13:42","jmulq","#0","<@226348657639817216> did you get it working, if so on what networks?","heisenburger_2023#0",""
+"2023-08-12,12:15:45","heisenburger_2023","#0","Nah using mock function","",""
+"2023-08-12,12:16:08","penryn","#0","it should work on eth goerli, optimism goerli, polygon mumbai, and base goerli","jmulq#0",""
+"2023-08-12,12:16:47","jmulq","#0","is this confirmed as working by devs/testers?","penryn#0",""
+"2023-08-12,12:17:31","penryn","#0","our engineers did confirm it's functional now -- what issue are you running into?","jmulq#0",""
+"2023-08-12,12:18:25","jmulq","#0","nothing at the moment, have implemented the logic in a branch previously so will test that now. will update if theres any issue 🤞","",""
+"2023-08-12,12:21:00","heisenburger_2023","#0","I still have to implement layerzero, nft and error handlings 😄 Going to be a crazy 24h","",""
+"2023-08-12,12:22:30","jmulq","#0","dude I'm in a similar situation 😆 front-end has definitely taken a backseat with all the other components","heisenburger_2023#0",""
+"2023-08-12,12:23:13","heisenburger_2023","#0","I need energy drinks","",""
+"2023-08-12,12:23:24","heisenburger_2023","#0","https://tenor.com/view/angry-leonardo-dicaprio-wolf-of-wall-street-gif-5271427","",""
+"2023-08-12,12:23:47","penryn","#0","personally i recommend celsius, good luck soldier 🫡","heisenburger_2023#0",""
+"2023-08-12,12:24:21","heisenburger_2023","#0","I only got Boom Fire : (","",""
+"2023-08-12,12:26:44","nick_w3","#0","It worked for me though !!! On goerli it works now i am going to test it on Goerli optimism","",""
+"2023-08-12,12:27:28","heisenburger_2023","#0","Ye it works but sometimes it fails so I decided to create mock function that simulates. Hopefully it'll work but I do have plan B 😄","",""
+"2023-08-12,12:27:45","jmulq","#0","whats the error when it fails?","",""
+"2023-08-12,12:27:52","heisenburger_2023","#0","Gas estimation","",""
+"2023-08-12,12:27:58","heisenburger_2023","#0","Just revert nothing else","",""
+"2023-08-12,12:28:03","heisenburger_2023","#0","I never got ""signer"" issues","",""
+"2023-08-12,12:28:10","jmulq","#0","hmmm","",""
+"2023-08-12,12:28:11","jmulq","#0","odd","",""
+"2023-08-12,12:28:14","nick_w3","#0","Our idea is to Verify on one chain and mint a human soulbound token then using Layer Zero  in the same transaction to mint it on all the other chains we are team superAttestations cheers !!!","",""
+"2023-08-12,12:28:27","heisenburger_2023","#0","Nice","",""
+"2023-08-12,12:31:11","nick_w3","#0","Thanks!","",""
+"2023-08-12,12:40:55","jmulq","#0","think these need updating <@341347831942217731>  https://developer.worldcoin.org/api/v1/contracts","penryn#0",""
+"2023-08-12,12:43:18","penryn","#0","thanks for the flag! will let the team know","jmulq#0",""
+"2023-08-12,12:59:08","heisenburger_2023","#0","For anyone speedrunning https://www.youtube.com/watch?v=EANuxQr6NQs&ab_channel=MidnightVibes","",""
+"2023-08-12,13:01:32","nick_w3","#0","It works also on goerli optimism !!!","",""
+"2023-08-12,16:11:48","cyberpunq","#0","this is what keeps me going rn","heisenburger_2023#0",""
+"2023-08-12,16:11:55","cyberpunq","#0","all nighter it is, baby","",""
+"2023-08-12,16:12:30","heisenburger_2023","#0","very scuffed UI for now","","https://cdn.discordapp.com/attachments/971226642276057088/1140014976422121673/image.png"
+"2023-08-12,16:12:59","cyberpunq","#0","Silly Flexbox shenanigans","",""
+"2023-08-12,16:14:02","kannu","#2618","How much time does it take worldid to be ready to use, I am getting ""Your world ID will be ready soon"" when i tried login to dev portal","",""
+"2023-08-12,16:14:24","cyberpunq","#0","Took like 30 minutes for me.","",""
+"2023-08-12,16:14:35","cyberpunq","#0","You don't get notified or anything, so you gotta keep trying to use it.","",""
+"2023-08-12,16:14:52","kannu","#2618","okay thanks <@1024041668212695152>","cyberpunq#0",""
+"2023-08-12,18:17:24","yurydefi","#0","Hi <@341347831942217731> 
+Is the ZKP root always the same for  the same user and action?
+I tried to do the same action several times and root parameter is the same for all the transactions.
+If that is true - then 2 questions:
+1) why do I need a nullifier_hash then?
+2) can I associate this root to a wallet address and in other application not allow same action too?","penryn#0",""
+"2023-08-12,18:18:41","penryn","#0","the root changes any time new identities are added to the list of verified identities — this happens very infrequently on testnets (so you don’t have to wait for identities to be inserted into the merkle tree while testing your app), but in production we batch identity insertions every 3 minutes","yurydefi#0",""
+"2023-08-12,18:19:59","penryn","#0","so you shouldn’t use the merkle root as a uniqueness check or associate it with any other information, only pass it as part of the proof verification","",""
+"2023-08-12,18:24:56","yurydefi","#0","got it, thank you for the explanation!
+And the nullifier_hash, does it only depends on { worldId, action, signal } or on appId too?
+for example can I pass nullifier to another app not allow user to do action even once?","penryn#0",""
+"2023-08-12,18:25:44","penryn","#0","nullifier hash depends on app id, action, and the user verifying for that action","",""
+"2023-08-12,18:27:40","yurydefi","#0","alright, so as doc says there is no way to track same action across multiple apps by design?","",""
+"2023-08-12,19:03:57","maushish","#0","Hi <@341347831942217731> i am using auth0 integration when i test it it generates a qr code i scan it through my phone and then it gives : ```{
+  ""error"": ""invalid_request"",
+  ""error_description"": ""Invalid authentication credentials""
+}``` FYI verification is sucessfull
+could you please help me out with this","penryn#0",""
+"2023-08-12,19:04:43","penryn","#0","correct","yurydefi#0",""
+"2023-08-12,19:05:08","penryn","#0","is this a staging app or a production app in the worldcoin developer portal?","maushish#0",""
+"2023-08-12,19:05:47","maushish","#0","production","penryn#0",""
+"2023-08-12,19:06:30","penryn","#0","and the world id is at least phone-verified?","",""
+"2023-08-12,19:06:54","maushish","#0","Yup","penryn#0",""
+"2023-08-12,19:07:49","maushish","#0","Just to be clear i didn't had to wrote much code for this simple just copy  pasting ids and client secret most of the code was for auth0","",""
+"2023-08-12,19:08:06","maushish","#0","did i misss something that is not in docs?","",""
+"2023-08-12,19:09:25","maushish","#0","<@341347831942217731> ?","penryn#0",""
+"2023-08-12,19:09:57","penryn","#0","i just tested the auth0 integration on my end and it appears that it works for me -- let me keep doing a bit of testing to see if it's an issue on our end","",""
+"2023-08-12,19:11:11","penryn","#0","are you sure you set the client id and client secret correctly in the auth0 dashboard and saved them after you input them?","",""
+"2023-08-12,19:11:33","penryn","#0","(i've made the mistake of forgetting to click save myself, which is why i ask)","",""
+"2023-08-12,19:15:54","maushish","#0","looks like i forgot to paste the client secret","",""
+"2023-08-12,19:16:00","maushish","#0","thanks","",""
+"2023-08-12,19:28:55","penryn","#0","glad it was an easy fix!","",""
+"2023-08-12,23:36:23","kannu","#2618","Is verification via simulator under maintainance? I request to verifying is getting failed. Anyone else facing similar issue?","",""
+"2023-08-12,23:46:37","anyaogu","#0","yes, i wanted a situation, they could use their worldId and perform the same action even if they switch wallets.","penryn#0",""
+"2023-08-12,23:48:33","penryn","#0","it should be working — try resetting the simulator (settings -> reset simulator) and ensuring your smart contract (if you’re doing on-chain verification) is pointed at the latest WorldIDRouter address for your testnet, find this at https://docs.worldcoin.org/reference/address-book","kannu#2618",""
+"2023-08-12,23:49:02","penryn","#0","this makes sense — sounds like you’ve found a good solution!","anyaogu#0",""
+"2023-08-13,07:04:05","ethharpreet","#0","Can anyone help in this?
+I am unable to login to it","","https://cdn.discordapp.com/attachments/971226642276057088/1140239347015229480/Screenshot_2023-08-11_at_4.30.24_PM.png"
+"2023-08-13,07:46:08","iamjaycee","#0","how are you trying to log in?","ethharpreet#0",""
+"2023-08-13,09:32:58","yurydefi","#0","Hi team <@341347831942217731> 
+I keep getting the error `error code invalid semaphore proof` today for Cloud verification.
+Yesterday it was working. Any advice?","penryn#0",""
+"2023-08-13,09:34:11","penryn","#0","reset the simulator (settings -> reset simulator) and try again","yurydefi#0",""
+"2023-08-13,09:37:03","yurydefi","#0","just did that, no luck","penryn#0",""
+"2023-08-13,09:37:30","yurydefi","#0","maybe delete action and create again?","",""
+"2023-08-13,09:40:02","penryn","#0","try that — i’ll investigate from my end as well","",""
+"2023-08-13,09:45:10","yurydefi","#0","didn't help as well unfortunately","penryn#0",""
+"2023-08-13,09:46:12","yurydefi","#0","<@341347831942217731>  here is request - response if it is useful
+```
+Sending request to World ID /verify endpoint:
+ {
+  nullifier_hash: '0x296e0c25b3933c662c67324c6583509da55da780275598db926c4f8452fc38ee',
+  merkle_root: '0x2e80cd1fd17935d4ff96eb9c4b47d24f6c4d7d18073a452374a01c5ba4d2a92d',
+  proof: '0x0a6f6f946c2746fbb4f6f766e69c8904654feaad1277d25ae579f5a712879bb412547b363bb48526c6f7c7d9b8c6fa3464e45df02a16295f03032c6f4c47d1151386b89808b1af2f07113c0d859c45d52875889ae30801cde75d03ebdd9b988d274db7d3ef8a967f87aa1e6ec89dec7411c11e029742d27b82250ddd96c4e9651aefee17a717863d29e213ab26151e2a76285eaa8db31b88e03c4b14699613c111b9d051369780ff33318b4ebc3b7307e528c6b7d56b2a4dddd01a53b881abda0f97cc21f2f1d2c7a3ea73c6fd2dc5caaa29890d825a7c1c29895c4e74f8450f24616bb6d50ca8035e18a39db7f5340297072d3c4558621a814532373f33e6b1',
+  credential_type: 'orb',
+  action: 'lend2',
+  signal: '0x82437eaE4D114EB2c64E5C734eE088EDBaF73A4E'
+}
+Received 400 response from World ID /verify endpoint:
+ {
+  code: 'invalid_proof',
+  detail: ""We couldn't verify the provided proof (error code invalid semaphore proof)."",
+  attribute: null
+}
+```","penryn#0",""
+"2023-08-13,09:47:17","penryn","#0","are you absolutely sure that the signal is being passed to IDKit correctly?","",""
+"2023-08-13,09:50:24","yurydefi","#0","Nope! Now it works! Thank you, you saved my demo! 🔥","penryn#0",""
+"2023-08-13,09:52:38","paulburke","#0","Jesus I lost so much time to this 😭","jmulq#0",""
+"2023-08-13,10:16:44","serafimeth","#0","It is still not working for me. After force quitting and performing a new scan, it shows a new countdown.","penryn#0",""
+"2023-08-13,10:17:40","penryn","#0","this is an issue in the app that our team is aware of — had you logged into the developer portal previously?","serafimeth#0",""
+"2023-08-13,10:17:55","serafimeth","#0","No, We can't login","",""
+"2023-08-13,10:18:07","serafimeth","#0","We integrated everething, just need app key","",""
+"2023-08-13,10:23:51","serafimeth","#0","any ideas?","",""
+"2023-08-13,10:24:22","serafimeth","#0","Can you generate an ID for me, please?","",""
+"2023-08-13,10:24:43","penryn","#0","what integration did you do? sign in with worldcoin or anonymous actions? if anonymous actions, cloud or on-chain?","",""
+"2023-08-13,10:25:06","serafimeth","#0","sign in with worldcoin","",""
+"2023-08-13,10:40:05","penryn","#0","i’ll generate a client id and client secret for a staging app for you real quick, will DM them to you","",""
+"2023-08-13,10:45:51","geekychirag","#0","having lot of issues while using the worldcoin app, not able to generate the unique id, don't know what's the issue??","",""
+"2023-08-13,10:46:27","penryn","#0","what error message do you see in World App or in your application?","",""
+"2023-08-13,10:47:35","geekychirag","#0","not able to scan the orb from app","",""
+"2023-08-13,10:48:32","penryn","#0","are you with an orb now? these verifications must be done in-person and the orb operator is the best person to help you troubleshoot any issues you're having","",""
+"2023-08-13,10:49:34","geekychirag","#0","using from phone app","",""
+"2023-08-13,10:50:31","geekychirag","#0","not able to generate, the issue shows, orb confirmation fails try again.
+
+It shows same from all our teammates","",""
+"2023-08-13,10:52:00","penryn","#0","are you at a physical orb? you must visit one of our locations with an orb in person, you cannot orb-verify from your phone alone","",""
+"2023-08-13,10:52:28","penryn","#0","you can find locations in World App by pressing the settings button in the top right and clicking ""Find an Orb""","",""
+"2023-08-13,10:53:42","penryn","#0","for the purpose of this hackathon, you can use a world ID with a verified phone number (settings -> account -> phone number) or create a staging app in the developer portal and use the simulator (https://simulator.worldcoin.org) instead of World App when verifying with world ID in your app","",""
+"2023-08-13,10:57:11","geekychirag","#0","Ok, thank you","",""
+"2023-08-13,11:58:38","heisenburger_2023","#0","Thanks for the support Penryn! I really only had 3 days to code but I'd be willing to work on working production ready app in case you guys want to take it to the next level!","",""
+"2023-08-13,12:02:49","heisenburger_2023","#0","Gl everyone","",""
+"2023-08-13,12:03:01","heisenburger_2023","#0","https://tenor.com/view/pout-christian-bale-american-psycho-kissy-face-nod-gif-4860124","",""
+"2023-08-13,12:03:12","penryn","#0","i'd love to help support continued development!","heisenburger_2023#0",""
+"2023-08-13,12:05:14","0xpetra","#0","We finally submitted 🤝 Refer! It was cool to see you hack along with use to push support for Base 🤣","",""
+"2023-08-13,12:05:40","0xpetra","#0","Let's see how these use cases evolve from now on","",""
+"2023-08-13,12:05:57","0xcestclaire","#0","Thank you so much <@341347831942217731> for the support! We’re so happy we integrated worldid with our dapp ✨ would love to contribute more in the ecosystem!","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1140315318485528677/IMG_7649.jpg"
+"2023-08-13,17:50:09","kannu","#2618","My Submission ""SPONSOR GAS"" for ETHGlobal Superhack hackathon.
+SponsorGas is a platform that brings together users and gas fee sponsors in a seamless ecosystem. Gas fee sponsors can configure conditions for sponsoring user operations. Users who wish to avail of this sponsorship can fulfill the requirements set by the sponsor, and in return, get their user operations funded.
+For hackathon purpose sponsors can configure four distinct paymaster conditions:
+
+Watch a Video (Ad): Users fulfill the requirement of watching a video.
+Answer a Question: Users complete a question-based challenge.
+NFT Verification: Users prove ownership of a specific NFT from a given collection.
+Human Identity Verification: Users prove their unique human identity via Worldcoin ID.
+
+Feel free to provide feedback to enhance the SponsorGas project
+https://ethglobal.com/showcase/sponsor-gas-9y1xm","",""
+"2023-08-14,08:01:56","kirillsibirski","#0","Hey <@341347831942217731> I'm trying to integrate the Worldcoin anonymous actions functionality but for some reason after I scan the qr I get this error, however, in the app it says that it has been successful. It seems like the problem is how I make the API call but I'm not sure what exactly is wrong, can you take a look at that? My verify.ts is an exact copy from the cloud template.
+
+Another thing: once I have verified the id and try to do it again, it works as expected, and indeed gives a message that says ""This has been already verified"" or something like that.
+
+Here is my github repo: https://github.com/Kirillr-Sibirski/oir","penryn#0","https://cdn.discordapp.com/attachments/971226642276057088/1140616296095027260/Screenshot202023-08-1420at2013.png"
+"2023-08-14,11:54:25","penryn","#0","i think the issue may be that your environment variables arne't set correctly, please ensure that the ones in your environment properly match the ones in verify.ts","",""
+"2023-08-14,13:31:16","kirillsibirski","#0","Will check, thanks","penryn#0",""
+"2023-08-14,14:21:36","Gi","#0984","Hello! posting our project here as suggested
+
+Name: Project Migrante
+Description: EarnForGood. Perform daily tasks, share skills, and offer services to the local community. Users can donate for tasks completed, empowering individuals to earn and support people they believe in. Make an impact while earning extra income.
+
+https://ethglobal.com/showcase/project-migrante-bxv1v","",""
+"2023-08-14,14:29:14","richardkingxyz","#0","Our submission! 
+https://ethglobal.com/showcase/atestamint-xi8ch","",""
+"2023-08-14,14:31:18","anjana_haridas","#0","Hii Worldcoin Team! Sharing our project down below, was really fun to integrate worldcoin to our DAPP!
+
+Project Name : GameDay
+Description : GameDay is an on chain competitive retro play-to-earn mini games platform with features such as leaderboard which is decided on Xp points, GameDayToken airdrop to top players of the leaderboard on a weekly basis, NFT marketplace for Pac-Man/car lovers.
+ETHGlobal Submission: https://ethglobal.com/showcase/gameday-gnmna
+Hosted DAPP: https://game-day-two.vercel.app/","",""
+"2023-08-14,14:36:43","ottodevs","#0","Sharing our project here as well 🙂
+
+Name:  Mejora
+
+Description: A beacon in the web3 space, uniting mentors and learners through a decentralized journey. 
+
+Github: https://github.com/Nexa-Havenworks/mejora
+
+Public URL:  https://ethglobal.com/showcase/mejora-15qoy
+
+thank you for your time!","",""
+"2023-08-14,14:52:36","d9j9v","#0","Hello Worldcoin wizards! 🌍
+Major thanks for those game-changing videos and for always being there in the text channels. Your identity magic's got us inspired at Coupon.Dog. Eager for the post-judging phase. Here’s our showcase: https://ethglobal.com/showcase/coupon-dog-nkkg2. Cheers to the future!","",""
+"2023-08-14,15:04:26","adielliot","#0","RateChain  -  https://ethglobal.com/showcase/ratechain-7gic6","",""
+"2023-08-14,15:05:02","mattwong.ca","#0","Any Taylor Swift fans around? 👀 
+
+**Name**: 🎤 Swift Tickets (Taylor's Version)
+**Description**: Taylor Swift tickets belong to genuine fans. Our events platform disrupts the $78B Event Tickets market, leveraging World ID to prevent bots from buying tickets. Bots will never steal your tickets again!
+**Github**: https://github.com/MattWong-ca/swift-tickets
+
+Public URL: https://ethglobal.com/showcase/swift-tickets-taylors-version-zvhsz","",""
+"2023-08-14,15:23:13","0xcestclaire","#0","Hi <@341347831942217731> We integrated with worldid to ensure each human is a unique voter on our platform, would love to know some feedback from you guys! Thank you so much for your help! 🌟
+
+**Name: GhostVoter 👻 **
+
+**Description:** Unique human votes, total privacy. GhostVoter ensures vote authenticity while safeguarding anonymity with World ID and EAS
+
+**Problem we're trying to solve:** Designed to counter AI sybil bot attacks and guarantee unique human participation, Ghost Voter combines World ID and Ethereum Attestation Service (EAS) for a seamless and secure experience.
+
+Github: https://github.com/andrew54068/GhostVoter
+Showcase: https://ethglobal.com/showcase/ghostvoter-xd972","penryn#0",""
+"2023-08-14,15:35:37","0xtekgrinder","#0","SHould we share our project ?","",""
+"2023-08-14,15:59:15","taionewgate","#0","Here's what we built:
+
+**Name**: 🎮 super/Place
+**Description**: We are fans of the game r/place on reddit which have a large and united community. I want blockchain users like that too. That's the inspiration for us to create **super/place**
+The game logic is quite similar to r/place, which is a game with rounds, each round is 3 minutes. In those 3 minutes, each player can only place a single canvas cell. The interesting point is that we use worldID to verify the user is unique. The main contract is deployed in op-goerli but we support users from other chains like goerli, base, zora by using message API from hyperlane. also we have migrate nft from canvas that allows players to create their own nft at a time and sell it by using the zora createDrop contract.
+**Demo**: We currently don't maintain hyperlane validator and replicar so it will only be playable from goerli and op-goerli. but can mint NFT on goerli, base goerli, op goerli and zora goerli
+https://super-place.vercel.app/
+**Github**: https://github.com/ragingrahul/superPlace
+
+Public URL: https://ethglobal.com/showcase/super-place-iq3cz","",""
+"2023-08-14,16:04:45","ad0ll","#0","Hey WorldCoin, we used your tech in our most recent project. Our project is OptiStable, a full stack app that allows users to buy and sell insurance that protects stablecoins against depegs. 
+
+We believe that trust in stablecoins is essential for the industry, and for added assurance, we implemented the ability for users to identify themselves using Worldcoin so they know that there's a real person on the other side when they enter an insurance agreement. 
+
+We'd greatly appreciate your time and review, and any feedback that you have for us. 
+
+Our project can be found at this link: https://ethglobal.com/showcase/optistable-fdwiw","",""
+"2023-08-14,16:24:33","cyberpunq","#0","https://ethglobal.com/showcase/orb-vote-tnfjg
+
+Here is mine!","",""
+"2023-08-14,16:47:21","lakshmi0529","#0","Hi Worldcoin Team , Please see our project details for Bounty review.
+
+**Name** : ValiDate
+
+**Description** : ValiDate: A decentralized dating app where users connect authentically through blind interactions, fostering genuine connections while ensuring privacy with zeroknowledge-verified age and gender.
+
+**Github** : https://github.com/gyan0890/Superhack_ValiDate 
+
+**Live application** : https://superhack-vali-date-seven.vercel.app/
+
+**Public URL **: https://ethglobal.com/showcase/validate-1osme","",""
+"2023-08-14,16:49:19","0xtekgrinder","#0","Hey Worldcoin Team,
+
+During this hackaton we created a platform to help the Optimism Fundation measure impact on projects and know which one to grant for the RetroPGF. And to be able to make the voting mechanism sybil resistant, we enforce users to own a world ID to be able to vote.
+
+**What is Retro Red ?**
+
+This platform serves as a hub for consolidating projects within the optimism ecosystem. Any user has the option to include their project by adhering to a simple data structure in our open-source repository, ensuring its listing on the platform.
+
+For each of these projects, we have diligently collected data using our proprietary indexer, supplementing it with additional information sourced from GitHub and DeFiLlama. This approach ensures a diverse range of impactful insights from various corners of the ecosystem.
+
+Subsequently, we've validated this data on-chain, a step that empowers the optimism foundation in streamlining the RetroPGF process (detailed information available on RetroPGFs), while also granting users the opportunity to explore novel undertakings.
+
+Moreover, users hold the ability to cast their votes in a sybil resistant way with  Worldcoin in favor of projects they prefer, thereby contributing to their overall appraisal.
+
+**Submission link**: https://ethglobal.com/showcase/retro-red-ubory
+**github** https://github.com/quartz-technology/retro-red-eth-global-superhack-2023
+** demo** https://retrored.dev/","",""
+"2023-08-14,17:13:18","andreth207","#0","Hi Worldcoin Team! Thanks for all the support and interest you've shown during the hackathon. As you know our project primary aims to be an op-stack hack.
+
+What we built? 🖥️
+We created a fee rewarding blockchain modifying the op-geth of OP Stack. Half of the gas from any transaction goes to the contract owner address which is saved in a certain part of the contract storage. We also made worldcoin updates and verifications on the op-node, we modified it to fetch the latest worldcoin state and update our own worldcoin verifier. This pull architecture allows any OP chain to use worldcoin without waiting for them to whitelist their chain. Only whitelisted contracts by verified users can receive fees
+
+Why we built it?🤔
+We are very curious people and we wanted to make something original out of the op-stack. Currently we are aiming to work as infra/core devs and this was an excelent oportunity. On the business side we think that fee rewarding blockchains are perfect for fast grow and solve a critical issue in projects such as Safe, Aragon and Superfluid, not having a concrete source of income. 😎
+
+We are <@875208119293190215>  , <@731565293830144110>  and me, and we are C3
+
+ETH Showcase: https://ethglobal.com/showcase/c3-blockchain-cnyv7
+
+Github: https://github.com/Rcontre360/c3-blockchain","rcontre360#0、francheska1#0",""
+"2023-08-14,17:40:50","timecoder15","#0","We want to introduce our project, **PerCapita**.
+**How PerCapita Works?** Per Capita is a smart contract on the Zora Testnet. Collection owners can launch their Initial NFT Offerings from the PerCapita website. Individuals can join offerings by depositing the required amount and proving they are a human and participating in that offering for the first time. This proof is generated by World App and verified on-chain thanks to the Proof of Personhood technology of Worldcoin. When the deadline is over, the execution of offerings will be incentivized by rewards from the deposit pool so that anyone can execute distribution. Execution requests a random seed for determining who the winners are and it is received from Chainlink VRF. Thanks to Lehmer Random Number Generation algorithm, we can determine winners and which NFT they won only in constant time complexity O(1).  After distribution, individuals can claim their NFTs if they won,. Because Chainlink VRF and Worldcoin contracts do not exist in Zora, we have deployed Hyperlane to Zora, which provides fast cross-chain messaging.
+**Why do we use WorldCoin:** PerCapita is an Initial NFT Offerings platform, enables individuals to create their own NFT offerings. As expected, one of the critical aspects for an NFT offering platform is to prevent a single person from participating in the same offering with multiple accounts, as the possibility of disruption by numerous bot accounts exists. Preventing Sybil attacks is very important for fair distributions, which will take on-chain. And thanks to Worldcoin, we can do that without third-party services, KYC or Web2 solutions.
+**How we use WorldCoin:** We used Hyperlane to verify personhood proof on Goerli network and send the result back to Zora network. PerCapita sends the proof generated by Worldcoin IDKit widget to Goerli, and validate on World ID Router contract.
+
+See here for more details: https://ethglobal.com/showcase/percapita-rzg64","",""
+"2023-08-14,18:08:16","claudio_barreira","#0","Hey team, here's our project for your review
+
+**Name:** VESTED 
+
+**Description:** VESTED is a new way to incentivise DAO members to vote and participate in DAO proposals by rewarding them with autonomous vesting reduction.
+
+**Project:** https://ethglobal.com/showcase/vested-pq98s
+
+**Github:** https://github.com/claudioBarreira89/vested
+
+Thanks for the consideration!","",""
+"2023-08-14,19:35:38",".knpz","#0","Hey worldCoinTeam, I used your identityInfraestructure to build my project “chainAbstraction”; basic accountAbstractionImplementation thats able to link a users abstractedAccounts between multiple chains.
+
+https://ethglobal.com/showcase/chainabstraction-9k511
+
+Desciption:
+multiChain accountAbstraction implementation. One abstractedAccount at its originalChain is able to manipulate its linked otherChain abstractedAccount with operations being done by the address that created the AA or the owner of the nullifierHash that crated the AA with his worldID (even if its not the same EOA address).
+
+exampleUseCase:
+We have a user that has linkedAbstractedAccounts in polygon and optimism. He has 70 usdc on polygon aa and 50 in optimism aa. He wants to send 100 usdc to an EOA on optimism, so what he does is he send the 70 he has on his polygon aa to the optimism EOA using multichainInfraestructure and at the same time invoques a transaction (invoques from the polygon aa) on the optimism aa to send the remaining 30 usdc to the EOA.
+The end result of the balances of the users abstractedAccounts are:
+* PolygonAA; 0
+* OptimismAA; 20 And the optimism EOA has received 100 usdc without even knowing that transfer was done through a multiChain process.
+The project is been built with solidity, react and ethersJs stack in this multiple blockchains :
+- goerliEthereum 
+- sepoliaEthereum
+- goerliOptimism
+- baseTestnet
+- zoraTestnet
+- modeTestnet 
+thanks to chainlinkCcip and layerZero multiChain infraestructure. Tools being used are metamaskWallet, hardhat for test development and remix for quick smartContracts design.
+
+
+Github:
+https://github.com/Kanoopz/chainAbstractionSuperhackProject
+
+Please check it out!","",""
+"2023-08-14,20:01:22","jmulq","#0","Hey Worldcoin team, hope you're all keeping well!
+
+For the hack I worked on DAOmocracy, a thought experiment that reimagines deomocracy by utilising blockchain technology.
+
+The project description is incomplete, so refer to the project readme for a more complete description.
+
+Worldcoin was utilised for on-chain verification performing voting actions, either on a core chain, or cross-chain using CCIP
+
+Github - https://github.com/jmulq/DAOmocracy
+
+EthGlobal - https://ethglobal.com/showcase/daomocracy-jfdd6","",""
+"2023-08-14,20:43:24","deltantrio","#0","Hello Worldcoin,
+
+As keepIt we have managed to create an infrastructure/protocol for hosting any file entirely on chain! Which turns the blockchain into a CDN 😉 
+
+We are using Worldcoin to add verification to the file about its uploader (works similar to twitter checkmark)
+
+Further information about the project can be found inside of our repo, as README and a presentation pdf. 
+
+Project Page: https://ethglobal.com/showcase/keepit-er84k
+Github: https://github.com/cbayraktaroglu/SuperHack2023","",""
+"2023-08-14,22:14:07","iamjaycee","#0","Sharing ours:
+
+Introducing ""Fest3"" – The Premier DApp for Web3 Experiences
+
+Fest3 is a groundbreaking web application designed to revolutionize the way we pay and participate in Web3 events. As the very first platform of its kind, Fest3 seamlessly integrates the power of blockchain technology, cryptocurrency payments, decentralized ID, and reputational NFTs to create an unparalleled event experience for attendees and hosts.
+
+🔑 Key Features:
+
+💰 **Crypto-Powered Simplicity:** Embrace the future of transactions with the convenience of cryptocurrency payments. Say farewell to outdated payment methods as Fest3 empowers attendees to effortlessly register for events using their preferred cryptocurrencies. 
+
+🔑 **World ID - Your Passport to Anonymously Verified Identity:** Embrace the future of identity verification with World ID, a one-of-its-kind digital passport that validates your uniqueness and authenticity while preserving your anonymity. Say farewell to intrusive personal data requests; with World ID, you can securely access Fest3, revealing your true identity only when necessary, ensuring both your privacy and security.
+
+🚀 **Optimism Network Integration:** Our EventsWeb3 App harnesses the power of Optimism's Layer 2 scaling solution to deliver lightning-fast interactions, making your event interactions smoother and more efficient than ever before.
+
+**Github**: https://github.com/happyNariman/fest3 
+
+Public URL: https://ethglobal.com/showcase/fest3-g0n6a","",""
+"2023-08-15,00:53:40","raldblox","#0","Hello there, sharing here our cheat-proof loyalty reward platform with personalized blockchain tokens!
+
+**TokenTreats** is redefining loyalty with personalized blockchain rewards! Our mission is to revolutionize how businesses, communities, and enterprises engage with their loyal members. Through a seamless blend of blockchain technology, personalized rewards, and real-time impact insights, TokenTreats offers a new dimension to loyalty.
+
+Here's Our Top Innovative Features:
+
+✅  Personalized Rewards: TokenTreats enables members to handpick their preferred reward tokens, whether they're fungible or non-fungible, resulting in a truly unique loyalty experience.
+
+✅ Cheat-Proof System: To ensure security and prevent fraud, we've integrated World ID sign-in. This unique identity verification process prevents double reward spending on the same person, maintaining the cheat-proof integrity of the system.
+
+There's more in our deck at https://tokentreats.co/deck
+
+Website: https://tokentreats.co
+Github: https://github.com/raldblox/tokentreats
+EthGlobal: https://ethglobal.com/showcase/tokentreats-ihi4a","",""
+"2023-08-15,02:00:03","brianwst","#0540","Hi WorldCoin team,
+
+We created a trustless Onchain microgrant for hackathon or public good projects. The project includes a offchain rating system and SmartContract as PaymentSplitter to distribute funds.
+
+**Adoption of Worldcoin** We use worldcoin to gate judge attesting projects / fund release and limit how many times one can do so. The worldId is one of the factor we used in the offchain rating system. 
+
+Submission link: https://ethglobal.com/showcase/automicrogrant-0g0b7
+Github: https://github.com/debuggingfuture/superhack2023/blob/master/apps/web/src/app/page.tsx#L70","",""
+"2023-08-15,02:14:12","avinash8295","#0","Hey Worldcoin team, it was a pleasure collaborating with you! We've developed SafeStream, an AI-powered video sharing platform that harnesses the capabilities of NSFWJS and TensorFlow for advanced content filtering. By leveraging AI-driven content attribution, we ensure the prevention of NSFW content, ensuring a safer user experience. Additionally, we've integrated the Worldcoin OIDC provider for seamless user authentication. Proud to showcase our innovative solution!https://ethglobal.com/showcase/safestream-k2gk0","",""
+"2023-08-15,03:38:55","akirawuc","#0","Hi Worldcoin team! We want to share our project we built during SuperHack.
+CPA Protocol is designed to enhance active user engagement for other protocols through CPA (Cost per Action) campaigns. By integrating with the Graph, it offers flexibility in defining an active user's criteria, such as token swaps or liquidity provisions, based on specific sub-graph actions. Influencers can promote these campaigns, and in return, CPA Protocol issues them a ""Collab NFT"" via the Zora NFT Factory. Influencers then encourage their followers to mint this NFT and fulfill the campaign's criteria. (To be noted, to ensure genuine user participation and prevent Sybil attacks, we've incorporated Worldcoin ID to verify the authenticity of users during the NFT minting process.) Once achieved, rewards are directly distributed to the influencers, ensuring a direct market expense to active user conversion.
+Here’s the link to our project: https://ethglobal.com/showcase/cpa-e46mm
+Source code: https://github.com/akirawuc/cpa","",""
+"2023-08-15,09:59:47","hiromaru1514","#0","Hello, Worldcoin team 🙂
+It was a great honor to collaborate with you and we’d like to share our project before the live judging!
+
+We will be presenting Eternal Commons, which is a funding tool for OSS public goods that any community can run RetroPGF easily and continuously fund builders as long as they achieve their milestones.
+
+We have adopted World ID on it, where community members verify as an unique human themselves and then they will be able to post their opinions or reputation about each project.
+
+World ID was the best solution to get proper reputation from community members since we only want to see valid reputation.
+
+Submission page :https://ethglobal.com/showcase/eternal-commons-dnt9j
+Github : https://github.com/tnkshuuhei/superhack","",""
+"2023-08-15,10:38:26","0xcem","#0","Hello WorldCoin team,
+
+Our platform ensures genuine users through OTP and Worldcoin verification, while enabling cross-chain discussions and chats on user-chosen weekly topics based on DAO decisions. 
+
+Detailed explanation can be found in the submission page. 
+
+Submission Page: 
+https://ethglobal.com/showcase/luxsolo-ucvbt
+Github:
+https://github.com/DogukanGun/DecentralizedSocialMediahttps://github.com/DogukanGun/DecentralizedSocialMedia","",""
+"2023-08-15,10:54:42","cyberpunq","#0","LuxSolo | ETHGlobal","",""
+"2023-08-15,10:54:43","cyberpunq","#0","That's super cool, did you get into round 2 judging?","",""
+"2023-08-15,10:55:06","0xcem","#0","Hi, thank you, no we did not","",""
+"2023-08-15,10:57:05","cyberpunq","#0","Still, it has a lot of potential, keep up the good work!","",""
+"2023-08-15,11:01:24","0xcem","#0","thank you very much","",""
+"2023-08-15,13:20:49","taionewgate","#0","<@215866112972161036> 
+Hi we from super/place team 
+https://ethglobal.com/showcase/super-place-iq3cz
+Since the demo is only me so you won't be able to see the brilliance that super/space can have. This is a video of the r/place game we inspired. it might look like this if a big community joins
+https://www.youtube.com/watch?v=K5O3UgLG2Jw
+live here but now only works for op-goerli and goerli
+https://super-place.vercel.app/","m1guelpf#0",""
+"2023-08-15,14:14:53","jmulq","#0","I think I went off on a tangent when answering your question <@341347831942217731> 😅 . I imagine DAOs would have to implement the on-chain verification stuff from scratch, but there is a WorldIDVerifier contract I built which other contracts inherit from. 
+
+Your question has made me think, maybe a set of generic contracts that DAOs (sets of smart contracts) can use to inherit different types of wordlcoin on-chain verification functionality. For example instead of just basic one action per nullifier hash, (one vote per person), contracts can have configurable amounts of votes/actions, and different types of voting. Feels like something that would be of benefit to help smart contract / Dapp developers to get on-chain verification integrated easily.","penryn#0",""
+"2023-08-15,14:16:58","harpaljadeja.eth","#0","tried my best to integrate worldcoin on-chain verification 😅 thanks <@341347831942217731> for your support!
+
+https://ethglobal.com/showcase/worldcoinpaymaster-9d8dm","penryn#0",""
+"2023-08-15,14:35:22","cyberpunq","#0","Did the partner Interviews already happen or was <@341347831942217731>  one of the Judges? Just curious 😁","penryn#0、jmulq#0",""
+"2023-08-15,15:52:24","penryn","#0","i was one of the judges!","cyberpunq#0",""
+"2023-08-15,15:53:03","cyberpunq","#0","Good to know, thanks!","",""
+"2023-08-15,17:10:23","timothyagevi","#0","hello created a decentralized exchange that allows users buy,sell,swap and transfer any crypto currency most especially their worldcoin ,from various networks most network,and using Chainlink to get real-time price feeds.Below is the repository
+https://github.com/SukumaSwap/sukuma_marketplace.git","",""
+"2023-08-15,21:50:46","shiyasmohd","#0","**Devlance**
+
+**Decentralized Freelancing platform built on top of Zora and Worldcoin (for authentication). Our project focuses on making a trustless connnection between client and freelancer and take 0% fee from client an freelancer where freelancing platforms like Fiverr and Upwork takes 20% as fee from client and freeelancer. To amke it fare and trustless, Devlance solves a real world problem everyone faces.**
+
+https://github.com/shiyasmohd/devlance","",""
+"2023-08-15,23:29:23","iamjaycee","#0","Hello <@341347831942217731> as discussed yesterday, we were looking into continuing what we've built (Fest3) and we were wondering if WorldCoin is offering some kind of accelerator program or grants, thanks! 😊","penryn#0",""
+"2023-08-16,04:13:59","begum2935","#0","Hello hello, we created a event ticket selling platform for charities during Superhack. 
+Project name: BuyTicket
+The Ticket-Selling Platform with Verified User Identity and Charitable Donation Integration is an innovative and secure solution that aims to revolutionize the ticket-selling industry by leveraging blockchain technology, user verification, and philanthropic features. 
+Here is our project details: https://ethglobal.com/showcase/buyticket-jofmn
+Github: https://github.com/metoinside/superhack","",""
+"2023-08-18,14:02:18","sambitsargam","#0","Hey <@341347831942217731> i used worldcoin in my project but i can't see project name in pool prize","penryn#0",""
+"2023-08-18,15:31:18","newmoon","#4240","Same for our project <@341347831942217731> but was not included on the prize pool","penryn#0",""
+"2023-08-18,16:31:56","0xayush","#0","Same for our project <@341347831942217731> the name of our project is Swiftfeed . hope to hear from you soon","penryn#0",""
+"2023-08-18,18:29:25","annabnn","#0","Hey <@341347831942217731>  I hope you are doing well. I want to say thank you for your work and the time you spent with us. For the opportunity to work with your tools .  But to be honest, I didn't understand why my “A member club with a loyalty program “ WorldCoin-powered DApp didn't even get into the pool where 3k is divided between teams that submitted qualifying applications. Thank you and Happy Friday","penryn#0",""
+"2023-08-18,19:11:03","jacobw","#0","Hey everyone, let's take it easy aha","",""
+"2023-08-18,19:12:32","jacobw","#0","<@792655188233945109> <@941200397169750026> <@610751775145984002> <@887355019148546139> can you please email me at jacob@ethglobal.com with the following info and I'll work with Worldcoin team to see if you qualify.
+
+Project name:
+Project Showcase link:
+Link to github line where you use the Worldcoin/WorldID API:
+
+Same goes for anyone else. You'll have until Aug 20th to do this after which we'll wrap up this appeals process.","0xayush#0、annabnn#0、newmoon#4240、sambitsargam#0",""
+"2023-08-19,11:45:37","ethanol48","#0","Hey everyone, they are granting access to mint Soulbound Optimism NFT, for the SuperHackers participants!! more info in this message:
+
+https://discord.com/channels/554623348622098432/830059424965328947/1142109726927233035","",""
+"2023-09-13,13:20:47","awliang","#0","","","https://cdn.discordapp.com/attachments/971226642276057088/1151568173695504454/image.png"
+"2023-09-17,13:12:10","awliang","#0","Hello and welcome to the <#971226642276057088> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Worldcoin Team at any point with your questions!
+
+👀 **ABOUT**
+[**Worldcoin**](https://worldcoin.org/) is building the world’s largest identity and financial network as a public utility, giving ownership to everyone. World ID is the protocol to bring global proof of personhood to the internet, built to be privacy-first, decentralized and self-custodial.
+
+
+🏆 **PRIZE OVERVIEW**
+
+*   **$5000** to the Best Overall 🥇
+*   **$2500** to the Most Creative Use Case 🧞
+*   **$2500** to the Best Governance App 🧑‍⚖️ (This can include democratic voting, DAO governance, etc…)
+*   **$2500** to the Best AI Use Case 🤖 (This can include AI safety, reputation systems, or any idea leveraging AI)
+*   **$2500** to the Best Sign in with Worldcoin App 🔑
+*   Up to 2x **$1000** to Honorable Mentions 🏆
+*   **$3000** Prize Pool - distributed equally among all qualifying submissions 🏊
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+Global Proof of Personhood with World ID
+Time: 05:30 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+ETHGlobal NYC Notion Page: [worldcoin.org/nyc23](https://worldcoin.org/nyc23)
+Developer Documentation: [docs.worldcoin.org](https://docs.worldcoin.org)
+Developer Portal: [developer.worldcoin.org](https://developer.worldcoin.org)
+Template Repositories:
+*   [Anonymous Actions (API)](https://github.com/worldcoin/world-id-cloud-template)
+*   [Anonymous Actions (On-Chain)](https://github.com/worldcoin/world-id-onchain-template)
+*   [Sign In with Worldcoin](https://github.com/worldcoin/world-id-nextauth-template)","",""

@@ -1,0 +1,1783 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-08-11,17:22:48","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1007398708960301116/unknown.png"
+"2022-08-15,10:46:12","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Abacus Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Abacus** is an interchain messaging API for your interoperability needs. Built as a network between blockchains, you can use Abacus to easily create interoperable applications.
+
+
+🏆 **PRIZE OVERVIEW **
+
+💰 Best use of Abacus in a DeFi Application: $2,000
+🎮 Best use of Abacus in a Gaming or NFT Application: $2,000
+🏗 Best use of Abacus with any other infrastructure: $1,000
+
+
+**↓ Full Prize Breakdown Here ↓ **
+https://mexico.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/Rh2aBRvqtF4
+
+
+🔗 **IMPORTANT LINKS**
+https://www.useabacus.network/
+https://github.com/abacus-network/abacus-monorepo
+https://docs.useabacus.network/abacus-docs/developers/getting-started","",""
+"2022-08-16,13:32:25","jkol","#0","hey everyone, looking forward to seeing you this week!","",""
+"2022-08-16,13:32:38","jkol","#0","We'll be hosting office hours before the hackathon, will provide details here","",""
+"2022-08-16,13:34:04","jkol","#0","ahead of the hackathon you can watch our workshop by <@531629114097139733> to get familiar with the framework
+
+https://www.youtube.com/watch?v=Rh2aBRvqtF4","yorhodes#0",""
+"2022-08-16,13:35:20","jkol","#0","We're also hosting a small get together with drinks on Thursday before the hackathon, you can sign up here https://forms.gle/Pe9oFk6KWZPgY3nv6","",""
+"2022-08-16,13:35:27","jkol","#0","invites on a first come first serve basis 🙂","",""
+"2022-08-18,20:58:46","pdroooooo","#0","Hii","",""
+"2022-08-18,20:59:07","pdroooooo","#0","Anybody knows where the rooftop event is?","",""
+"2022-08-19,09:21:11","jkol","#0","<@778049932879593482> very sorry if you weren’t able to get the details from the invite, we’ve had a limit on invites set by the location 😦","pdroooooo#0",""
+"2022-08-19,09:24:27","marcosha","#9540","is abacas messaging between evm cchainshainschains only?","",""
+"2022-08-19,09:26:20","jkol","#0","At the moment yes, but that is temporary 😉","",""
+"2022-08-19,20:19:34","jkol","#0","Please feel free to join our discord 🙂
+
+https://discord.gg/KBD3aD78Bb","",""
+"2022-08-26,20:43:25","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1012885010115723274/unknown.png"
+"2022-08-30,12:52:02","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Abacus Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+**Abacus** is an interchain messaging API for your interoperability needs. Built as a network between blockchains, you can use Abacus to easily create interoperable applications.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇Top prize - 4k 'Best use of Abacus' messaging API
+💸 2k - Best use of Abacus - DeFi related
+🌠 2k - Best use of Abacus - NFT related
+🏗 2k - Best use of Abacus - Infrastructure
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+https://youtu.be/Gv0sTmvJaM4
+
+
+🔗 **IMPORTANT LINKS**
+https://www.useabacus.network/
+https://github.com/abacus-network/abacus-monorepo
+https://docs.useabacus.network/abacus-docs/developers/getting-started","",""
+"2022-08-31,08:44:06","jkol","#0","hey there everyone, we're stoked to have you with us 🙂","",""
+"2022-08-31,08:46:13","jkol","#0","we are reworking the workshop for Ethonline, but in the meantime here's an older rendition of it that shows how to use the router pattern to build interchain applications. our next workshop will focus on a new feature we're building that lets you implement what we're calling interchain accounts (sometimes 'identity proxies') and how those simplify the interchain experience for developers and users","",""
+"2022-08-31,08:46:18","jkol","#0","the previous workshop https://www.youtube.com/watch?v=Rh2aBRvqtF4","",""
+"2022-09-02,10:45:17","jkol","#0","<@280791808655622145> following up, there's a project called Sismo https://www.sismo.io/","skarard#0",""
+"2022-09-02,10:45:26","jkol","#0","they're pretty relevant for what youre working on","",""
+"2022-09-02,10:45:38","skarard","#0","Thanks!","jkol#0",""
+"2022-09-02,10:47:04","jkol","#0","<@898528068275142726> same thing as above 🙂","nftartboy#0",""
+"2022-09-02,16:45:43","0xcuau","#0","Hey guys! Any plans on deploying on Goerli? From the docs I can tell there's a contract on Kovan but the network has been deprecated","",""
+"2022-09-02,18:18:15","jkol","#0","yes should be on goerli within the next ~10 days","",""
+"2022-09-02,19:25:42","0xcuau","#0","Great, thanks!","",""
+"2022-09-07,10:51:57","leon_do","#0","hey <@821575762742083655> found a DNS issues for your website
+
+this works: https://www.useabacus.network/
+this does not work: https://useabacus.network/","jkol#0",""
+"2022-09-07,10:52:32","jkol","#0","appreciate it leon we'll make sure to address it!","",""
+"2022-09-07,10:52:41","leon_do","#0","jon right?","",""
+"2022-09-07,10:52:48","jkol","#0","indeed","",""
+"2022-09-07,10:53:00","leon_do","#0","rememer the gaming sdk from a few years back?","",""
+"2022-09-07,10:53:13","jkol","#0","oh yes!","",""
+"2022-09-07,10:54:05","leon_do","#0","Ended up selling it to chainsafe. Cronos is using it too https://cronos.org/docs/play/cronos-gamefi-integraton.html","",""
+"2022-09-07,10:54:22","jkol","#0","that's amazing, congrats my friend","",""
+"2022-09-07,10:57:26","leon_do","#0","been tinkering. looking for the next thing","jkol#0",""
+"2022-09-07,11:18:18","jkol","#0","love it","",""
+"2022-09-07,11:18:31","jkol","#0","maybe the next thing involves some interchain messaging 😉","",""
+"2022-09-07,13:54:52","manhuichi","#0641","Hey  ! 👋
+
+Abacus 🛠 How to use Interchain Accounts with Abacus session happening now!
+
+👀 Join on Zoom: https://ethglobal.zoom.us/j/84439259290
+📺 Watch on YouTube: https://youtu.be/Gv0sTmvJaM4","",""
+"2022-09-07,14:48:17","mmsaki","#0","whats the rebranding name","",""
+"2022-09-09,07:10:30","jkol","#0","Stay tuned 😉","",""
+"2022-09-12,03:05:30","jennifertran.web3","#0","Hey all! I'm Jennifer and am a software developer at Notifi.Network: https://notifi.network/. We recently launched off and on-chain chat between wallets - I'm exploring Abacus to enable chat between Solana and Ethereum wallets.","",""
+"2022-09-12,12:08:47","jkol","#0","that is a very cool project you're working on <@545032582321012736>! Personally very interested in cross wallet messaging and would love to see it being built. Unfortunately our support for Solana is not yet live, and won't be live in time for the hackathon. However you could use our protocol for messaging between Eth wallets and wallets on Optimism, Arbitrum, Avalanche, Polygon, Celo, BNB, and soon Moonbeam","jennifertran.web3#0",""
+"2022-09-12,18:29:27","0xcuau","#0","Hey guys, is abacus live on goerli already? Any news?","",""
+"2022-09-12,18:29:28","0xcuau","#0","Thanks!","",""
+"2022-09-12,19:58:55","jennifertran.web3","#0","Great, yes, we are working on ETH support for Notifi right now but it may not be ready in time for the hackathon. However, still going to create a react-app and test things out 🙂","jkol#0",""
+"2022-09-12,19:59:19","jkol","#0","love to hear that 🙂","",""
+"2022-09-12,20:02:01","jkol","#0","not yet, but will be within the next week or so. currently live on kovan if you want to play with it on testnet","0xcuau#0",""
+"2022-09-13,08:01:08","flyguy352","#0","Is the Interchain Accounts feature released already?","",""
+"2022-09-13,11:39:45","jkol","#0","live on testnets, shipping on mainnets by tomorrow","",""
+"2022-09-13,12:24:48","flyguy352","#0","thanks <@821575762742083655> , wondering is there any code examples on github?
+
+Also I'd love to know what are the testnets supported","jkol#0",""
+"2022-09-13,13:13:27","jkol","#0","out of pocket right now but <@531629114097139733> should be able to help 🙂","yorhodes#0",""
+"2022-09-14,12:08:59","flyguy352","#0","Will appreciate some help. I deployed the HelloWorld.sol (https://github.com/abacus-network/abacus-app-template/blob/main/contracts/HelloWorld.sol) contracts on both Polygon Mumbai and BSC Testnet. I based the AbacusConnectionManager and InterchainGasPaymaster contract addresses on the documentation.
+
+Next I called the Router's enrollRemoteRouter method to enable communication between my two contracts - on both contracts. Using the addressToBytes32 method of the typecast library I cast the address into the bytes32 type expected by the method.
+
+Next I called the sendHelloWorld function on both contracts, but the 'received' variable value never increments, although the 'sent' variable value does. Did I do something wrong?
+
+Ok on the bright side I tried the simpler stuff with Outbox/Inbox and it seems to be working nicely for me 😄. Just one thing is I noticed a couple of minutes' delay between the time I get the Metamask transaction confirmed prompt vs when the 'received' variable value actually increments in the receiving contract. Hopefully that's normal and I didn't screw something up.","",""
+"2022-09-14,16:08:28","yorhodes","#0","Glad you got Outbox/Inbox stuff working! Polygon Mumbai has one of the highest finality configurations https://docs.useabacus.network/abacus-docs/developers/latencies#testnet (160s) so that minutes delay is somewhat expected.","flyguy352#0",""
+"2022-09-14,16:09:35","yorhodes","#0","Your approach for enrolling the routers sounds correct. Did you make sure to use these domain identifiers?https://docs.useabacus.network/abacus-docs/developers/domains","flyguy352#0",""
+"2022-09-14,16:10:02","yorhodes","#0","Let me know if you have a router contract address I can look at.","flyguy352#0",""
+"2022-09-16,15:13:36","jkol","#0","<@367107035688337408> <@219737310403624960> saw you guys mentioned in the Check In form, feel free to hit us up if you have any questions","markeljan#0、alexb9699#0",""
+"2022-09-16,15:14:02","jkol","#0","we're actually working on an interchain query feature that could help you guys out but not sure if it will be shipped in time for a submission, either way happy to jam","",""
+"2022-09-16,15:25:26","markeljan","#0","<@821575762742083655> Yes, will do thanks! Loving the docs so far very detailed.  Have been testing simple inbox / outbox without the access control / management features quite yet.","jkol#0",""
+"2022-09-16,15:55:49","jkol","#0","love to hear that!","",""
+"2022-09-16,15:56:07","jkol","#0","definitely let us know if you get stuck anywhere or have any ideas you want help with","",""
+"2022-09-16,17:38:36","jkol","#0","btw our rebrand just went live, Abacus is now Hyperlane 🙂 https://twitter.com/hyperlane_xyz/status/1570888313648877568","",""
+"2022-09-18,07:51:59","flyguy352","#0","Hey sorry for getting back so late, I decided the simple inbox/outbox was good enough for me.
+
+Regarding that I faced a strange/interesting issue, which is I could send data from BSC Testnet to Mumbai but not the other way around. I'm wondering is it maybe to do with how I'm handling the domain identifier in ethers.js? My code looks something like this:
+
+const domainId = 80001;
+const targetContractAddress = '0x...';
+const someRandomData = '....';
+const contract = await ethers.getContract('MyContract');
+contract.send(domainId, targetContractAddress, someRandomData);
+
+The contract's send method is really simple, it does some simple stuff before forwarding the data on the the Outbox's dispatch method. It all works fine but when domainId is instead assigned to the documented BSC value of 0x62732d74 (needless to say I also change the targetContractAddress accordingly), the transaction goes through but I never ever receive the message on the destination contract.
+
+Do you have any thoughts on maybe how I could be handling the BSC domain identifier number value starting with '0x' wrongly in ethers.js? Thanks!","yorhodes#0",""
+"2022-09-18,10:44:48","jkol","#0","interesting, let us look into it","",""
+"2022-09-18,14:40:26","nambrot","#0","Have you seen https://docs.hyperlane.xyz/hyperlane-docs/developers/debugging ?","flyguy352#0",""
+"2022-09-18,14:40:41","nambrot","#0","If not, give us your TX hash on the origin and we can look into it.","",""
+"2022-09-18,14:40:54","nambrot","#0","We will be working on surfacing the revert reason better this week","",""
+"2022-09-18,15:04:04","Bhakti","#9576","In abacus can we interact with multiple wallets(people) at the same time ? just like in live chat of youtube","",""
+"2022-09-18,15:05:00","jkol","#0","oh interesting, tell me more about how/what you're thinking about","",""
+"2022-09-18,15:09:52","Bhakti","#9576","We wanted to ask if abacus has the feature of live chat?","jkol#0",""
+"2022-09-18,15:15:33","jkol","#0","oh i think you're thinking about the concept of messages a bit differently 😛 a message is not just limited to the concept of a chat","",""
+"2022-09-18,15:19:46","jkol","#0","since you're limited by the speed of the blockchain you're sending from, it probably would not feel like a live chat if you built an onchain messenger","",""
+"2022-09-18,15:36:37","Bhakti","#9576","so can abacus provide us with the feature you are describing?","jkol#0",""
+"2022-09-18,15:37:06","Bhakti","#9576","yeah you are right it wont feel like a live chat","",""
+"2022-09-18,15:37:10","jkol","#0","what are you trying to build?","",""
+"2022-09-18,15:37:28","Bhakti","#9576","but we want a feature where the host can view the msgs of the people watching his stream","",""
+"2022-09-18,15:37:48","jkol","#0","ah","",""
+"2022-09-18,15:38:14","jkol","#0","do you want the messages to be posted on chain? or is wallet verification enough?","",""
+"2022-09-18,15:38:45","jkol","#0","because you could verify the user owns the wallet they are saying they own by having them sign something, and then have the messages off chain and handled through your stream app","",""
+"2022-09-18,15:39:13","Bhakti","#9576","we are trying to build D3EVENT it is a web3 application where you can host any event and as well attend any event . It also allows ad providers to showcase their ad during the stream which gives profits to both host and watcher .
+
+we read the docs of xmtp and it has only one to one messaging feature but we want it like a live chat","jkol#0",""
+"2022-09-18,15:39:47","jkol","#0","sounds really cool","",""
+"2022-09-18,15:39:58","Bhakti","#9576","yeah this would be fine , is it possible via abacus?","jkol#0",""
+"2022-09-18,15:40:32","jkol","#0","should be yeah, you could receive the interactions from wallets on the 7 (soon to be 8) networks we're live on","",""
+"2022-09-18,15:43:26","Bhakti","#9576","Is their any example you can share?","jkol#0",""
+"2022-09-18,15:44:31","jkol","#0","unfortunately i don't believe we have any live apps that are looking to do something like this, but ill check in with our engineers and see if they can think of the best way you could do this","",""
+"2022-09-18,15:45:22","jkol","#0","also you might be able to source ideas in our discord https://discord.gg/hyperlane","",""
+"2022-09-18,15:45:37","jkol","#0","its possible there are others who have begun working on something like this that i just dont know about yet","",""
+"2022-09-18,15:47:27","Bhakti","#9576","Okay I have joined , can you connect me with some developers?","",""
+"2022-09-18,15:47:30","Bhakti","#9576","please","",""
+"2022-09-19,03:42:00","flyguy352","#0","<@546510663246413836> thanks for your help, the debugger's really cool. I have this transaction hash - 0x4411d307cb5d54f6b4b2fd3984ab2ad0ef54252150df832457db5f2d2e27e6c5 - from Mumbai testnet to BSC Testnet. It says:
+
+Error calling recipient `handle` function from the inbox
+
+{""reason"":null, ""errorArgs"": null, ""code"": ""CALL_EXCEPTION""...""errorName"": null...(...whole bunch of hex characters)}
+
+Is there any further more human-readable error messages I can get out of it? Thanks!","nambrot#0",""
+"2022-09-19,10:03:28","flyguy352","#0","quick update, I've solved it. I didn't do some custom whitelisting function I wrote myself 😄 . But thanks for the debugging bot, it looks cool! (But also it ran into internal error when i just tried it)","",""
+"2022-09-19,10:46:53","jkol","#0","love to hear that <@1016724938234789889> 🙂","flyguy352#0",""
+"2022-09-20,15:19:07","jennifermarie","#4624","Just dropped you a note! Looking forward to learning how we can help.","Bhakti#9576",""
+"2022-09-20,15:19:57","jennifermarie","#4624","Glad to hear you've solved that! Just sent a quick note to see if there's anything else we can support with.","flyguy352#0",""
+"2022-09-20,15:22:46","jennifermarie","#4624","Glad to hear you've been enjoying the docs. Just sent a note in case there's anything we can do to support your efforts!","markeljan#0",""
+"2022-09-21,08:16:46","flyguy352","#0","Hi <@588103290995212318> actually there is something. I have a failed transaction 0x7b7c211549178d5e307201af6a7cd916a3b695ddb0ab8db2fc705236f4569a2a from BSC Testnet to Mumbai. Tried the debugger but honestly I'm not getting much meaningful info about why the transaction failed. Would you be able to help? Thanks!","jennifermarie#4624",""
+"2022-09-21,09:01:26","jennifermarie","#4624","Let’s see what we can sort out for you! I’ll ping when I get to the office today (soon).","flyguy352#0",""
+"2022-09-21,09:50:27","nambrot","#0","Hey happy to look into this for you","flyguy352#0",""
+"2022-09-21,09:51:13","nambrot","#0","There is a known bug in the debugger that I have as a ticket to fix this sprint actually","",""
+"2022-09-21,09:51:51","nambrot","#0","Look like its actually processed?","",""
+"2022-09-21,09:55:46","flyguy352","#0","Thanks <@546510663246413836> ! Sorry to trouble you again... now I have this transaction 0x47e3b87c6fc84d444dd3704f252be70fdf688bf87e75d7aadd7a746077927734 and it says the message is already processed. But when I look at my destination contract on BSC testnet etherscan I don't find it:
+https://testnet.bscscan.com/address/0x2406279641d7cB37cDAF72B6D353aB58c4e004a4","nambrot#0",""
+"2022-09-21,09:56:42","flyguy352","#0","Thanks this was my mistake. I didn't do some custom whitelisting function I wrote myself. Am very new and careless at this.. and now I'll really appreciate it if you could help out with this transaction 0x47e3b87c6fc84d444dd3704f252be70fdf688bf87e75d7aadd7a746077927734 with the details stated above.
+
+Sorry for the trouble 🥲","nambrot#0",""
+"2022-09-21,09:58:38","nambrot","#0","No trouble!","",""
+"2022-09-21,09:58:44","nambrot","#0","This is all very useful feedback for us!!","",""
+"2022-09-21,10:00:25","jennifermarie","#4624","Hyperlane and Live Chat use case","",""
+"2022-09-22,06:14:11","thebillzh","#0","Hi there, I'm in the process of integrating Hyperlane into our project. Just wanted to confirm that it is available on Mumbai Testnet?","",""
+"2022-09-22,11:02:17","jennifermarie","#4624","Yep!","thebillzh#0",""
+"2022-09-22,15:59:36","jkol","#0","Everyone, we'll be hosting office hours on 2 separate slots tomorrow, one at 8am ET/12pm UTC and 4pm ET/8pm UTC. They'll be in our discord in the Office Hours voice channel! Join here https://discord.gg/hyperlane","",""
+"2022-09-23,07:05:24","jkol","#0","1 hour to go before round 1 of ethonline office hours! Join us if you have any questions regarding Hyperlane","",""
+"2022-09-23,08:02:39","jkol","#0","And we’re off 🙂","",""
+"2022-09-23,08:02:44","jkol","#0","https://discord.gg/CXA2R2bX","",""
+"2022-09-23,08:02:54","jkol","#0","Join us here if you have anything you need help with","",""
+"2022-09-23,08:02:54","jennifermarie","#4624","Can't wait to hear more about what you're working on!","",""
+"2022-09-23,15:21:30","jkol","#0","2nd round of office hours coming up in 40 minutes!","",""
+"2022-09-23,16:04:39","jkol","#0","just kicked off the 2nd session, join us in the voice channel, come get feedback on your Ethonline project, get any questions answered, or just hang out!
+
+https://discord.gg/CXA2R2bX","",""
+"2022-09-27,10:38:20","jkol","#0","If you were working with Hyperlane for your submission but were not able to get your submission in on time definitely reach out to us we'd love to learn what you were working on","",""
+"2022-09-28,13:42:44","jkol","#0","<@699914110690787348> <@361211885003079690> could you share your twitter handles? we're writing a twitter thread with some of our submissions and would love to tag you guys","pbt_kodam#0、john_femi#0",""
+"2022-09-28,13:43:40","jkol","#0","<@1016724938234789889> is there a twitter handle we should use?","flyguy352#0",""
+"2022-09-28,13:48:02","flyguy352","#0","Sure it's FlyGuy352","",""
+"2022-09-28,13:50:57","jkol","#0","<:imin:880914081039654953>","",""
+"2022-09-28,13:52:11","pbt_kodam","#0","Of course!  Mine is @hunkodam","jkol#0",""
+"2022-09-28,14:12:38","jkol","#0","thank you! any chance you know <@699914110690787348>'s?","pbt_kodam#0、john_femi#0",""
+"2022-09-28,14:13:22","pbt_kodam","#0","Sadly no, but I'll text him too","",""
+"2022-09-28,14:15:21","pbt_kodam","#0","Found it! https://twitter.com/agbanusijohn","",""
+"2022-09-28,14:17:31","jkol","#0","awesome thank you","",""
+"2022-09-28,14:19:54","john_femi","#0","Hi","jkol#0",""
+"2022-09-28,14:20:14","john_femi","#0","My twitter handle is @agbanusijohn","",""
+"2022-09-28,14:25:25","jkol","#0","ty 🙂","",""
+"2022-09-28,14:25:30","jkol","#0","be on the lookout for our thread soon!","",""
+"2022-10-02,16:44:06","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1026233138818584676/unknown.png"
+"2022-10-03,09:10:31","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Hyperlane** (formerly Abacus) is an interoperability platform providing an interchain messaging API empowering you to easily and securely communicate between blockchains. You can use Hyperlane to build interchain applications, or you can use it to conduct actions on remote chains without deploying any contracts by leveraging Hyperlane's Interchain Accounts.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇Top prize - 4k 'Best use of Hyperlane' messaging API
+💸 2k - Best use of Hyperlane - DeFi related
+🌠 2k - Best use of Hyperlane - NFT related
+🏗 2k - Best use of Hyperlane - Infrastructure
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+
+**Hyperlane 🛠 Interchain Accounts with Hyperlane!**
+**Time:** 10:00 PM – Oct 07, 2022
+**Location:** Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://docs.hyperlane.xyz/hyperlane-docs/
+Quickstart - https://docs.hyperlane.xyz/hyperlane-docs/developers/messaging-api/quickstart-tutorial
+Where is My Message - https://docs.hyperlane.xyz/hyperlane-docs/developers/observability
+Website - https://hyperlane.xyz 
+Discord - https://discord.gg/hyperlane
+Twitter - https://twitter.com/Hyperlane_xyz
+Blog - https://medium.com/hyperlane","",""
+"2022-10-04,10:40:44","jkol","#0","Guys, here's some more info about our prizes! 
+
+- 🥇Top prize - 4k 'Best use of Hyperlane' interchain API
+    - To win this prize you simply need to build an application that utilizes Hyperlane's API to establish interchain connectivity. You could be passing messages or assets. You could be making cross-chain view calls or oraclize data between blockchains. There is really no end to what you could build, but given that time is of the essence you don’t want to expand scope too much.
+    - A great way to shoot for the top prize is to attempt to make an interchain version of a popular app, i.e. an interchain Compound  or Sudoswap.
+- 💸 2k - Best use of Hyperlane - DeFi related
+    - As noted above there are many ways you can win our prizes, but here are some DeFi related ideas:
+        - You could use our Interchain Accounts API to create an app that allows for interchain swaps without having to deploy any contracts on remote chains.
+        - You could create an interchain Stableswap, accepting deposits of assets on multiple chains and creating unified liquidity pools.
+        - You could create a contract that allows you to control multiple SAFEs or DAOs on remote chains. Using Interchain Accounts you could do this without having to deploy any additional logic on the receiving chains.
+        - You could create interchain payment streaming contracts, collecting deposits on a number of chains and directing assets to their destinations.
+- 🌠 2k - Best use of Hyperlane - NFT related
+    - You could create an interchain minting contract that acts as a load balancer between chains, i.e collecting orders on several chains (with lower fees or higher throughput) and executing the mint on a different chain.
+    - You could create an interchain nft collection where the NFTs have different properties based on the chain they’re currently on.
+- 🏗 2k - Best use of Hyperlane - Infrastructure
+    - With respect to infrastructure, here’s a chance to build infrastructure either for Hyperlane or build infrastructure for other protocols that uses Hyperlane.
+    - For example, a previous Hyperlane prize winner built infrastructure that supports Hyperlane relayers","",""
+"2022-10-07,15:57:53","jkol","#0","Hackers! Come find us, we are between the Polygon and Web3Auth booths!","",""
+"2022-10-07,15:59:02","jkol","#0","<#1006683697841459230> anyone who wants to message us here, please tag one of <@531629114097139733><@588103290995212318> or myself <@821575762742083655> with your message to make it easier for us to find 🙂","yorhodes#0、jennifermarie#4624、jkol#0",""
+"2022-10-07,19:41:38","jkol","#0","<#1006683697841459230> everyone the Hyperlane workshop will be starting in about 3 hours, at 10pm at Room 2 on the second floor","",""
+"2022-10-07,20:05:07","jkol","#0","friends i am devestated to say we are officially out of mens shirts in M/L/XL 😢","",""
+"2022-10-07,20:48:36","jkol","#0","2 hours to the workshop!","",""
+"2022-10-07,21:55:16","jennifermarie","#4624","<#1006683697841459230> It's just about one hour until the workshop! Room 2, second floor. Come join us and learn more about Hyperlane!","",""
+"2022-10-07,22:57:05","jkol","#0","Workshop starting in just a few minutes, join us in Room 2 on the second floor!","",""
+"2022-10-07,23:10:39","jennifermarie","#4624","And we’re live! Come join us in Room 2 or catch the stream of the talk","",""
+"2022-10-08,11:05:19","alexlwg","#0","Hey, does this issue seem familiar to you? Sending more than enough gas with my call to dispatch.","","https://cdn.discordapp.com/attachments/1006683697841459230/1028322206368927805/unknown.png"
+"2022-10-08,11:35:02","jkol","#0","One sec giving it a look","",""
+"2022-10-08,11:35:13","jkol","#0","We're also en route to the venue so could do hands on help","",""
+"2022-10-08,11:41:04","jkol","#0","Ok looks like it's related to a processing error, i.e the message can't process, maybe hitting a recipient that doesn't exist or a recipient w/o handle()","",""
+"2022-10-08,11:41:54","jkol","#0","<@494108160064225290>","alexlwg#0",""
+"2022-10-08,11:42:09","jkol","#0","We can come by in about 20 mins to look at it","",""
+"2022-10-08,11:58:37","jkol","#0","<@494108160064225290> we're back at the booth if you still need some help debugging","alexlwg#0",""
+"2022-10-08,15:17:27","yorhodes","#0","can you post the failing tx hash? trying to test some improvements to the debugger","alexlwg#0",""
+"2022-10-08,17:23:28","alexlwg","#0","Thanks again for helping! Just read your message, but do not have the tx hash anymore. Can checkout an older branch and send the tx again.","",""
+"2022-10-08,23:22:37","alexlwg","#0","Hey here a transaction where I am 99% sure that the recipient implements the handle() function and fails due to a revert in the recipient contract 0x4a6878b7012aaf80a31242226e850cc1e1607b41461032db56891efefba4bf86","",""
+"2022-10-08,23:22:53","alexlwg","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1028507823690227814/unknown.png"
+"2022-10-09,04:21:52","alexlwg","#0","Ok nevermind, my function signature was different as I used memory instead of calldata... Thanks for helping out!!","",""
+"2022-10-09,10:02:58","jkol","#0","<#1006683697841459230> Buenos Dias hackers!! If you were working on Hyperlane this weekend, even if you didn't get to finish your submission please come by the booth starting at 930 today, we'd love to see what you were working on!","",""
+"2022-10-20,09:00:38","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1032639484656889948/unknown.png"
+"2022-11-01,05:10:09","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Hyperlane** is an interoperability platform providing an interchain messaging API empowering you to easily and securely communicate between blockchains. You can use Hyperlane to build interchain applications, or you can use it to conduct actions on remote chains without deploying any contracts by leveraging Hyperlane's Interchain Accounts.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 Top prize - 4k 'Best use of Hyperlane' messaging API
+💸 2k - Best use of Hyperlane - DeFi related
+🌠 2k - Best use of Hyperlane - NFT related
+🏗 2k - Best use of Hyperlane - Infrastructure
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**Hyperlane 🛠 Go Interchain With Hyperlane!**
+Time: 04:30 PM PDT – Nov 04, 2022
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://docs.hyperlane.xyz/hyperlane-docs/
+Quickstart - https://docs.hyperlane.xyz/hyperlane-docs/developers/messaging-api/quickstart-tutorial
+Where is My Message - https://docs.hyperlane.xyz/hyperlane-docs/developers/observability
+Website - https://hyperlane.xyz 
+Discord - https://discord.gg/hyperlane
+Twitter - https://twitter.com/Hyperlane_xyz
+Blog - https://medium.com/hyperlane","",""
+"2022-11-02,16:10:23","jkol","#0","We're very excited to be sponsoring EthSF! For more information about our prizes and some initial ideas, look no further!
+
+- 🥇Top prize - 4k 'Best use of Hyperlane' interchain API
+    - To win this prize you simply need to build an application that utilizes the Hyperlane API to establish interchain connectivity. You could be passing messages or assets. You could be making cross-chain view calls or oraclize data between blockchains. There is really no end to what you could build, but given that time is of the essence you don’t want to expand scope too much.
+    - A great way to shoot for the top prize is to attempt to make an interchain version of a popular app, i.e. an interchain Compound or Sudoswap.
+- 💸 2k - Best use of Hyperlane - DeFi related
+    - As noted above there are many ways you can win our prizes, but here are some DeFi related ideas:
+        - You could use our Accounts API to create an app that allows for interchain swaps without having to deploy any contracts on remote chains.
+        - You could create an interchain Stableswap, accepting deposits of assets on multiple chains and creating unified liquidity pools.
+        - You could create a contract that allows you to control multiple SAFEs or DAOs on remote chains. Using Interchain Accounts you could do this without having to deploy any additional logic on the receiving chains.
+        - You could create interchain payment streaming contracts, collecting deposits on a number of chains and directing assets to their destinations.
+- 🌠 2k - Best use of Hyperlane - NFT related
+    - You could create an interchain minting contract that acts as a load balancer between chains, i.e collecting orders on several chains (with lower fees or higher throughput) and executing the mint on a different chain.
+    - You could create an interchain nft collection where the NFTs have different properties based on the chain they’re currently on.
+- 🏗 2k - Best use of Hyperlane - Infrastructure
+    - With respect to infrastructure, here’s a chance to build infrastructure either for Hyperlane or build infrastructure for other protocols that uses Hyperlane.
+    - For example, a previous Hyperlane prize winner built infrastructure that supports Hyperlane relayers","",""
+"2022-11-04,18:47:31","jkol","#0","<#1006683697841459230> come by our workshop at 430pm pacific time and learn how to build in the interchain with Hyperlane! You’ll also be able to get one of the first ever Hyperlane POAPs 😏","",""
+"2022-11-04,19:40:21","mof3078","#0","Where is the workshop, I thought it was workshop room 3 but looks like 0x is in there","jkol#0",""
+"2022-11-04,19:41:26","jkol","#0","<@588103290995212318> which room? 👀","jennifermarie#4624",""
+"2022-11-04,21:56:22","nambrot","#0","0x was just running late, i hope you were able to catch us","",""
+"2022-11-06,02:19:48","clague17","#2168","Hello! should i be worried about this `package no longer supported` ?","","https://cdn.discordapp.com/attachments/1006683697841459230/1038714304498769940/image.png"
+"2022-11-06,07:38:08","jkol","#0","sorry for the delay, but no you should not, it's because the packages were renamed when the name switched to Hyperlane 🙂","",""
+"2022-11-06,07:38:09","jkol","#0","https://www.npmjs.com/package/@hyperlane-xyz/sdk","",""
+"2022-11-06,07:38:14","jkol","#0","most recent sdk at this link","",""
+"2022-11-06,12:17:15","jkol","#0","<#1006683697841459230> we've got some amazing submissions! if you built with Hyperlane but didn't get to submit in time please stop by our booth and showcase your project to <@546510663246413836> and <@588103290995212318>","nambrot#0、jennifermarie#4624",""
+"2022-11-21,12:52:16","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1044309287188562022/unknown.png"
+"2022-11-28,05:40:21","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Hyperlane** is an interoperability platform providing an interchain messaging API empowering you to easily and securely communicate between blockchains. You can use Hyperlane to build interchain applications, or you can use it to conduct actions on remote chains without deploying any contracts by leveraging Hyperlane's Interchain Accounts.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 $4,000 - 'Best use of Hyperlane' interchain API 
+💸 $2,000 - Best use of Hyperlane - DeFi related
+🌠 $2,000 - Best use of Hyperlane - NFT related 
+🏗 $2,000 - Best use of Hyperlane - Infrastructure, Governance, or Gaming
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🚀 **WORKSHOP**
+**Building Interchain With Hyperlane**
+Time: 05:30 PM IST – Dec 02, 2022
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+Docs - https://docs.hyperlane.xyz/hyperlane-docs/
+Quickstart - https://docs.hyperlane.xyz/hyperlane-docs/developers/messaging-api/quickstart-tutorial
+Where is My Message - https://docs.hyperlane.xyz/hyperlane-docs/developers/observability
+Website - https://hyperlane.xyz 
+Discord - https://discord.gg/hyperlane
+Twitter - https://twitter.com/Hyperlane_xyz
+Blog - https://medium.com/hyperlane","",""
+"2022-12-01,08:05:33","jkol","#0","<#1006683697841459230> everyone we're so excited to meeting you guys this weekend! If you'd like some more info on our prizes and how you can win them, check this out 
+
+- 🥇Top prize - 4k 'Best use of Hyperlane' interchain API
+    - To win this prize you simply need to build an application that utilizes the Hyperlane API to establish interchain connectivity. You could be passing messages or assets. You could be making cross-chain view calls or oraclize data between blockchains. There is really no end to what you could build, but given that time is of the essence you don’t want to expand scope too much.
+    - A great way to shoot for the top prize is to attempt to make an interchain version of a popular app, i.e. an interchain Compound or Sudoswap.
+    - Another application we would love to see if a Blockchain Smart Router. Imagine being able to route computation to the cheapest blockchain within the Hyperlane network, and then being able to retrieve or read that state whenever necessary from your home chain. Effectively turning any blockchain into your layer 2 and beyond. This will be incredibly challenging to build, but the rewards will be far greater than you can imagine!
+- 💸 2k - Best use of Hyperlane - DeFi related
+    - As noted above there are many ways you can win our prizes, but here are some DeFi related ideas:
+        - You could use our Accounts API to create an app that allows for interchain swaps without having to deploy any contracts on remote chains.
+        - You could create an interchain Stableswap, accepting deposits of assets on multiple chains and creating unified liquidity pools.
+        - You could create an interchain lending app, allowing borrowers to borrow against collateral from a remote chain.
+        - You could create a contract that allows you to control multiple SAFEs or DAOs on remote chains. Using Interchain Accounts you could do this without having to deploy any additional logic on the receiving chains.
+        - You could create interchain payment streaming contracts, collecting deposits on a number of chains and directing assets to their destinations.
+- 🌠 2k - Best use of Hyperlane - NFT related
+    - You could create an interchain minting contract that acts as a load balancer between chains, i.e collecting orders on several chains (with lower fees or higher throughput) and executing the mint on a different chain.
+    - You could create an interchain nft collection where the NFTs have different properties based on the chain they’re currently on.
+- 🏗 2k - Best use of Hyperlane - Infrastructure, Governance, or Gaming
+    - With respect to infrastructure, here’s a chance to build infrastructure either for Hyperlane or build infrastructure for other protocols that uses Hyperlane.
+    - More specific applications and examples include:
+        - SAFE based app would be one that allows you to create a SAFE on one chain, and use any app on any Hyperlane supported chain from that SAFE.
+        - An EIP 5164 implementation
+        - A Tally or other Governance related integration
+        - Lastly, an example we'd love to see built would be a modification with Hyperlane mailboxes or agents (relayer and validator) binaries to make them compatible with non-EVM environments such as Cosmos, Fuel, and others.
+    - On the gaming front, either a game, or gaming related infrastructure would qualify.","",""
+"2022-12-02,10:07:11","jkol","#0","<#1006683697841459230> if you have questions about Hyperlane, please drop into our discord at https://discord.gg/hyperlane and ask them there, the rest of our engineering team will be available all weekend. They might not be able to see them in this channel. Please make sure to post them in our discord!","",""
+"2022-12-02,16:55:35","anshik1998","#0","hey <#1006683697841459230>, anyone of you folks are online at present?","",""
+"2022-12-02,16:58:58","asaoines","#0","I’m here!","anshik1998#0",""
+"2022-12-02,17:04:53","anshik1998","#0","just dm'ed you.","asaoines#0",""
+"2022-12-02,17:05:03","anshik1998","#0","awaiting for your reply.","",""
+"2022-12-02,17:07:07","anshik1998","#0","<#1006683697841459230>","",""
+"2022-12-02,17:22:52","asaoines","#0","For those interested we're chatting in the hyperlane discord 🙂","",""
+"2022-12-06,01:45:54","raijin9696","#0","Hi, is Hyperlane looking for summer interns/any career opportunities the following year? Loved using ur SDK with relevant features such as Cross chain transactions, nft minting support etc. and would love to work with you guys if given the opportunity","",""
+"2022-12-06,01:46:09","raijin9696","#0","<@908853223287324712>","asaoines#0",""
+"2022-12-14,09:47:32","jkol","#0","<@748802248615919629> love to hear that, we don't have defined internship programs right now but definitely have full time opportunities","raijin9696#0",""
+"2022-12-14,09:47:36","jkol","#0","join our discord and stay in touch 🙂","",""
+"2023-02-09,06:30:35","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1073204264240947201/image.png"
+"2023-03-06,02:27:31","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+
+👀 **ABOUT**
+**Hyperlane** is the permissionless interoperability layer pioneering a modular security architecture that empowers developers to own and customize their security stack. With Hyperlane, anyone can bring interoperability anywhere, the interoperability layer purpose built for the modular blockchain world.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**🥇Top prize - $4,000 - Best use of Permissionless Interoperability**
+
+💸 $**2,000 - Best use of Hyperlane Warp Routes**
+
+**🏗 $2,000 - Hyperlane Powered Scaling Infrastructure**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/scaling2023/prizes
+
+
+👀 **WORKSHOP**
+https://www.youtube.com/live/NpCOi7iZhHI?feature=share
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.hyperlane.xyz/docs/
+https://docs.hyperlane.xyz/docs/build-with-hyperlane/quickstarts
+https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane
+https://github.com/hyperlane-xyz
+https://explorer.hyperlane.xyz/
+https://discord.gg/hyperlane","",""
+"2023-03-07,13:07:30","mehul0011","#0","Hi, Tried to test warp routes, by deploying a new warp route on a custom deployed erc 20, the transaction do not go through and remain pending. Is this because we have to deploy our node/amazon s3 also while doing this.
+Need urgent help","",""
+"2023-03-07,13:07:47","mehul0011","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1082726307915382884/image.png"
+"2023-03-07,13:07:52","mehul0011","#0","https://explorer.hyperlane.xyz/message/cd44ca43aaf4e9b2995d8b715ffd9c405859a7a6083afc72d967c17c96b106c2","",""
+"2023-03-07,13:08:08","jkol","#0","interesting, let us take a look immediately","",""
+"2023-03-07,13:08:21","jkol","#0","could i ask you to jump into our discord?","",""
+"2023-03-07,13:09:07","jkol","#0","https://discord.gg/hyperlane","",""
+"2023-03-07,13:15:31","mehul0011","#0","Not able to to captcha","",""
+"2023-03-07,13:15:40","jkol","#0","weird","",""
+"2023-03-07,13:15:47","mehul0011","#0","is there anything obvious i am missing","",""
+"2023-03-07,13:16:10","mehul0011","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1082728414487777290/image.png"
+"2023-03-07,13:16:56","jkol","#0","thats what you get when clicking start verification?","mehul0011#0",""
+"2023-03-07,13:17:01","mehul0011","#0","yes","",""
+"2023-03-07,13:24:05","jkol","#0","working on fixing it right now, sorry","",""
+"2023-03-07,13:24:14","jkol","#0","looks like its blocking anyone from joining the server which is very bad..","",""
+"2023-03-07,14:15:19","jkol","#0","ok we figured it out, it actually is a very simple issue but we're glad we saw it. so you paid for gas but unfortunately using the old IGP address. can you show me which guide or page you were following so we can update the address there?","",""
+"2023-03-07,14:15:24","jkol","#0","<@803306957393756171>","mehul0011#0",""
+"2023-03-07,14:16:45","jkol","#0","We deprecated that contract a few weeks ago in favor of the ones found here: https://docs.hyperlane.xyz/docs/resources/addresses#defaultisminterchaingaspaymaster-1. You can check out this guide for more details https://docs.hyperlane.xyz/docs/build-with-hyperlane/guides/paying-for-interchain-gas","",""
+"2023-03-07,14:17:03","jkol","#0","but please let me know where you got the address you used as i would like to update it as soon as possible <@803306957393756171>","mehul0011#0",""
+"2023-03-07,15:05:33","mehul0011","#0","We used the repo that hyperlane deploy repo, for warp routes","jkol#0",""
+"2023-03-07,15:07:30","mehul0011","#0","In that contract addresses are mentioned in configs file","",""
+"2023-03-07,15:11:57","jkol","#0","Yeah we gotta fix it, thank you we are fixing rn","",""
+"2023-03-07,15:33:34","jkol","#0","<@803306957393756171> do you have a better idea of how to debug this now? redoing your warp route with the updated IGP addresses should fix the issue. I'm very sorry we had the old addresses in the config. PR's to fix it are already submitted","mehul0011#0",""
+"2023-03-08,02:29:05","mehul0011","#0","Hey <@821575762742083655>, I have updated the IGP addresses as you mentioned but still there seems to be some issue.
+Approve goes through but the transfer fails, by the error of isufficient inter chain gas/out of gas error. 
+
+please have look at the ss attached.
+https://mumbai.polygonscan.com/tx/0x94be63641f146c9554ff01e8ba7c12bfd1cc3ca7ad6b573413d9dd5cb5e30e23","jkol#0",""
+"2023-03-08,02:29:38","mehul0011","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1082928099307573288/image.png"
+"2023-03-08,05:29:01","jkol","#0","Interesting we will examine this as soon as most of the team is awake","",""
+"2023-03-08,05:29:30","jkol","#0","Btw <@803306957393756171> can you try rejoining the server? Was able to fix the discord not yesterday so it should work for you now","mehul0011#0",""
+"2023-03-08,06:15:05","mehul0011","#0","okay !!","",""
+"2023-03-08,06:19:57","jkol","#0","🙏","",""
+"2023-03-10,15:49:00","skey1038","#0","have you got some example app showcasing hyperlane?","",""
+"2023-03-11,06:34:56","sandman","#1577","What chains supported in this hackathon do you guys support?","",""
+"2023-03-11,06:35:17","sandman","#1577","Optimism, Polygon, Gnosis, Scroll, zkSync, Polygon zkEVM","",""
+"2023-03-11,07:52:29","zkgpt","#0","you can check them here 👉 https://docs.hyperlane.xyz/docs/resources/domains, I'm about to deploy one to scroll testnet soon","","https://cdn.discordapp.com/attachments/1006683697841459230/1084096511463395358/image.png"
+"2023-03-11,09:43:32","jkol","#0","<@886110100190801921> already hinted at this, but the coolest thing about Hyperlane is that you can deploy it yourself to any chain that isnt already supported! thats what you get with the first permissionless interoperability layer 🙂","sandman#1577、zkgpt#0",""
+"2023-03-11,09:43:47","jkol","#0","infact, that is the primary bounty we're giving out, for people to bring Hyperlane to new chains and do something interesting there","",""
+"2023-03-11,09:44:09","jkol","#0","so would recommend experimenting with deploying hyperlane on ZkSync, polygon zkevm or Scroll","",""
+"2023-03-11,09:44:24","jkol","#0","but its already lvie on Polygon, Optimism and Gnosis 🙂","",""
+"2023-03-11,10:24:33","zkgpt","#0","that's cool, do we have any doc that guide us the processes to deploy hyperlane on other chains, from my knowledge about the hyperlane so far, seems we have to host a validator ourselves to bridge messages between the new chain and existing chains, right?","jkol#0",""
+"2023-03-11,10:25:36","jkol","#0","https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane","",""
+"2023-03-11,10:25:39","jkol","#0","Correct 🙂","",""
+"2023-03-12,01:20:53","jashwanthp","#0","is hyperlane only present in evm chains","",""
+"2023-03-12,06:30:17","bolajahmad","#0","I'd like to ask about how responses are handled in Hyperlane's API. Say I send a message to another chain, does the response come automatically, or do we have to implement a own receive function on the receiving chain?","",""
+"2023-03-13,00:11:07","zkgpt","#0","it quite depends, by far as I know if you just need to read states value from another chain then you can use the Query API, but if you want do sth on another chain and get the result of it then you have to implement and call a func on the original chain","bolajahmad#0",""
+"2023-03-13,00:12:37","zkgpt","#0","yes for now but they will support non-evm chains someday later according to the doc","jashwanthp#0","https://cdn.discordapp.com/attachments/1006683697841459230/1084690455670825060/image.png"
+"2023-03-13,00:17:59","jashwanthp","#0","Ohh ,thanks a lot for the information","zkgpt#0",""
+"2023-03-13,11:25:25","jkol","#0","yeah in the works are additional vms like Solana, Fuel, and cosmos sdk, but sdk is a bit further out","",""
+"2023-03-13,11:39:15","jkol","#0","stay tuned we will be scheduling office hours this week and next <#1006683697841459230>","",""
+"2023-03-13,16:12:43","anetteth","#0","@here  GM fellow Builders & Hackers <:nfteth:822186186016948314> 
+
+Hyperlane is going to host Office Hours AMA on Wednesday (15th of March) at 12:30pm EST (right after Project check in) on Hyperlane Discord ⏩ 
+
+More details: https://discord.com/events/935678348330434570/1084911411894960188","",""
+"2023-03-15,12:33:26","jkol","#0","<#1006683697841459230> OH starting now 🙂","anetteth#0",""
+"2023-03-15,16:30:33","yikesawjeez","#0","Hey, missed the office hours, but was curious -- trying to sort the meaningful differences between hyperlane, Connext, and something like chainlink's CCIP. https://chain.link/cross-chain#programmable-token-bridge Are they essentially largely interchangeable in terms of functionality, just with different approaches to the problem?","",""
+"2023-03-15,17:01:08","jkol","#0","conceptually CCIP and Hyperlane are similar, connext is more different but still has some similarities.
+
+CCIP and Hyperlane both are built to transfer any information between blockchains. beyond that there are meaningful differences in how Hyperlane works. Hyperlane is the first permissionless interoperability layer, and it has a modular security architecture that lets any developer that uses it configure their own security (i.e. how they accept/validate information they receive from Hyperlane). The most unique thing about hyperlane is its permissionless nature, anyone can deploy it anywhere, which makes it the only option will suited for the world of many rollups, the modular blockchain world","yikesawjeez#0",""
+"2023-03-15,17:14:50","yikesawjeez","#0","As opposed to CCIP being primarily about transferring data between other L1s, primarily, and including an interoperability standard proposal rather than a modular security endpoint type of thing? If I understand right, until someone builds their chain to said specs, CCIP can't be just ""plugged in"" to it, which hyperlane can do, is that right or am I off base there? I.e. it would need some permissions","",""
+"2023-03-15,17:15:56","yikesawjeez","#0","(should I ask in the Connext chat how they differ from Hyperlane, as they look like they primarily do the same thing with a different approach, but my understanding of interop/low-level is limited, lol
+
+edit: after reading it seems like Connext mostly diverges after ""we also move things across chains"" with primitives and being it's own network and whatnot, scratch this question ig 😅)","",""
+"2023-03-17,07:21:06","jkol","#0","yeah thats right, the unique thing about hyperlane comes down to how anyone can put it anywhere and having that ubiquitous level of support and access, while others are gated by their creators","yikesawjeez#0",""
+"2023-03-20,03:10:04","yikesawjeez","#0","So I'm reading the hyperlane+celestia bit of the docs.....I think my blockchain understanding might be a little limited here, but in theory, could I on my Mocha rollup, make hypERC20 ETH and warp my testnet eth over to goerli? It sort of sounds like I could but maybe I'm not super good with how rollups work, heh.","",""
+"2023-03-20,14:55:02","anetteth","#0","Hey @here we are going to host Community Call! Join us to learn more about what we are building at Hyperlane, development updates and maybe some alpha and a lot of updates! 🫢
+https://discord.com/events/935678348330434570/1084939627464503376","",""
+"2023-03-20,16:02:53","jkol","#0","yes correct! assuming i understand your question properly 😛","yikesawjeez#0",""
+"2023-03-20,16:41:04","yikesawjeez","#0","ps-- did you mention a particular sdk or sdk update on the community call? i have ""hyperlane sdk and scroll?"" written in my notes but i dont know what that means 😂","",""
+"2023-03-21,10:47:32","klyaus","#0","Hello guys!
+we are already using Hyperlane Warp Route for ERC721 token bridge in our project. But I would like to add support for Polygon zkEVM.
+I'm trying to deploy Hyperlane on the zkEVM Polygon network and I'm getting this error.
+```forge script scripts/DeployCore.s.sol --broadcast --rpc-url $RPC_URL \
+    --private-key $PRIVATE_KEY
+[⠊] Compiling...
+[⠒] Compiling 60 files with 0.8.17
+[⠘] Solc 0.8.17 finished in 2.61s
+Compiler run successful
+Script ran successfully.
+
+== Logs ==
+  ProxyAdmin deployed at address 0xD836Ad1b20eFD15a405895d702634b8F43130e70
+  InterchainGasPaymaster deployed at address 0x5f375107F1711088bD97ceb4870c7b9452997DA5
+  MultisigIsm deployed at address 0x7C173495a24DF0577D85f5B2d3c89a5f05f515a1
+  Mailbox deployed at address 0x614D170C38af2BB751f0038E6B9732716D8e4Eb4
+  TestRecipient deployed at address 0x3761D98fC5bF5410ACc07261cDA5ae2aABF2Ce04
+  ValidatorAnnounce deployed at address 0x8214fD583a75f0c7a7ddD400D772DfD140118a9a
+  Succesfully checked Hyperlane deployment for zkevm
+
+## Setting up (1) EVMs.
+
+Transactions saved to: /Users/dmitry/PycharmProjects/EthScalling/hyperlane/hyperlane-deploy/broadcast/DeployCore.s.sol/1442/run-latest.json
+
+Error: 
+Failed to get EIP-1559 fees```
+
+I assume that this could be solved by adding gasLimit or gasPrice to the config, but before that I did not work with deployment through forge and I cannot find a suitable config file. Maybe you could suggest how to get around this error?
+I will try to write my own deployment script using the usual hardhat deploy, but I would like to deal with a new tool for me.","",""
+"2023-03-21,10:55:32","nambrot","#0","Hey, this is an issue with foundry, you should be able to use the `--legacy` flag to overcome that error","klyaus#0",""
+"2023-03-21,10:56:00","nambrot","#0","Very cool though!!!","",""
+"2023-03-21,10:58:51","klyaus","#0","OMG! 
+it worked!🔥 
+thank you very much!
+Very grateful! 🤗","nambrot#0",""
+"2023-03-21,10:59:06","jkol","#0","hyperlane tech support","",""
+"2023-03-21,10:59:07","jkol","#0","very good","",""
+"2023-03-21,10:59:12","jkol","#0","<:1hyperlanepepe:1067528269156581487>","",""
+"2023-03-21,13:40:30","zhanganiev","#0","Hello guys!
+
+I'm from a team that build bridge app using hyperlane.
+And we are curious if any of listed below chains has active validators, relayers and deployed infrastructure contracts (Mailbox and default ISM, IGP)?
+- Scroll
+- Mantle
+- Taiko
+- polygon zkEVM
+- zkSync Era","",""
+"2023-03-21,13:55:58","zhanganiev","#0","Hey <@539018098905317381> 
+
+I saw your team is using Hyperlane for nft bridging.
+We also use Hyperlane in our project, we bridge erc20.
+
+We want to cover multiple chains that presented on the hackathon.
+That is why we are looking a team to partner up in running Hyperlane's validators, relayers and node.
+
+Let me if we can cooperate on it.","klyaus#0",""
+"2023-03-21,14:00:21","jkol","#0","this is awesome!","zhanganiev#0",""
+"2023-03-21,14:05:27","tkporter","#0","very cool!
+I think <@909865544243642418> deployed Hyperlane onto Scroll. The others don't have any Hyperlane infra yet to my knowledge","0xkamal7#0、zhanganiev#0",""
+"2023-03-21,15:27:21","yikesawjeez","#0","i am also on lois' team and also learning foundry with this hackathon, maybe we should make a scaling Hyperlane teams discord tbh 😂","klyaus#0",""
+"2023-03-21,15:28:02","yikesawjeez","#0","but in the meantime feel free to dm with cool foundry tips and/or bugs to look out for 😂","",""
+"2023-03-21,17:43:58","yikesawjeez","#0","nice, we should pick some brains,  I think we were shooting for scroll too so maybe we can share relayers/validators :3
+
+for the team, is there any benefit to deploying additional validators or relayers if they're already on a given path? Fallbacks, security, etc?
+
+edit: i read the docs and see that validators do provide more security 😂","",""
+"2023-03-21,17:44:47","yikesawjeez","#0","and/or just keep each other posted on what chains we hit and Hyperlane all over the place? 😛","",""
+"2023-03-21,18:07:31","Sgt 🪖","#1787","Hello, it seems the InterchainQueryRouter isnt live on Gnosis yet. Am i correct?","jkol#0",""
+"2023-03-21,18:42:24","yikesawjeez","#0","i think this got answered in their discord, Queries middleware isn't deployed, not sure on timeline on a deploy","",""
+"2023-03-21,20:24:15","Sgt 🪖","#1787","Okay thanks","yikesawjeez#0",""
+"2023-03-21,21:26:11","timdiamond","#0","Question, do you guys have a non typescript version of the Hello World example?
+
+https://github.com/hyperlane-xyz/hyperlane-app-template","",""
+"2023-03-22,01:40:25","klyaus","#0","Hello <@526853083993735173>
+We are already using the existing Warp Route infrastructure on goerli + optimism goerli + mumbai polygon for the ERC721 bridge with addresses from this list (https://docs.hyperlane.xyz/docs/resources/addresses). And we already have a working prototype and a clear user flow.
+And now I'm trying to run Hyperlane completely with validators and relayers on zkEVM and use mumbai polygon instead. If everything goes well, then we could well cooperate and share the addresses of our contracts on zkEVM.","zhanganiev#0",""
+"2023-03-22,12:27:54","jkol","#0","<#1006683697841459230> join us in a few minutes for the 2nd set of Office Hours!
+
+https://discord.com/events/935678348330434570/1084911544778887249","",""
+"2023-03-22,12:36:39","anetteth","#0","@here Join us for Office Hours and let's discuss questions related to building at this Hackathon!","jkol#0",""
+"2023-03-23,05:14:36","zhanganiev","#0","Got you <@539018098905317381> 
+We are setting up hyperlane on Mantle and Taiko in case you are interested in those chains.
+Let me know if you managed to run Hyperlane on polygon zkEVM side?","klyaus#0",""
+"2023-03-23,05:23:45","klyaus","#0","Of course I'll let you know!
+At the moment, I have already deployed Hyperlane contracts on zkEvm, but I am having difficulty launching the validator (we have the entire project in docker, and I am trying to launch the validator by adding it to our docker-compose. So far without success, but we are working on it.","zhanganiev#0",""
+"2023-03-23,06:48:53","zhanganiev","#0","Our teammate <@121586011355611136>  managed to run both Validator and Relayer
+I forwarded your issue to him","2pats#0、klyaus#0",""
+"2023-03-23,06:58:08","zhanganiev","#0","Can you put more details on the issue you run into?","klyaus#0",""
+"2023-03-23,07:37:30","klyaus","#0","thank you!
+
+i follow the instructions
+https://docs.hyperlane.xyz/docs/operators/validators
+run docker image locally:
+`docker run -it --env-file .validatorenv --mount type=bind,source=/path/hyperlane-validator-signatures-ethereum,target=/path/hyperlane-validator-signatures-ethereum $DOCKER_IMAGE ./validator`
+in envs:
+```
+CONFIG_FILES=./config/testnet_config.json
+HYP_VALIDATOR_ORIGINCHAINNAME=zkevm
+HYP_BASE_CHAINS_ZKEVM_CONNECTION_URL=https://rpc.public.zkevm-test.net```
+
+I added a block with the zkevm network to the config from the repository and when I try to start I get the error:
+```Error: Config loaded: ./config/testnet_config.json
+
+Caused by:
+    0: Config loaded: ""./config/testnet_config.json""
+    1: Config loaded: ""./config/mainnet_config.json""
+    2: missing field `validator` ```
+
+I think I'm doing something wrong.
+I can't figure out where to add the missing ""validator"" field","zhanganiev#0",""
+"2023-03-23,07:45:18","fabriziogianni7","#0","hey guys,  I would to talk with you about some project. can you reach out?","",""
+"2023-03-23,08:49:42","2pats","#0","is that your full ENV?","klyaus#0",""
+"2023-03-23,08:59:08","2pats","#0","For the AWS set up at least, I believe there's a validator field that looks something like this: 
+```
+""validator"": Value {
+                    origin: None,
+                    kind: Table(
+                        {
+                            ""type"": Value {
+                                origin: Some(
+                                    ""the environment"",
+                                ),
+                                kind: String(
+                                    ""aws"",
+                                ),
+                            },
+                            ""id"": Value {
+                                origin: Some(
+                                    ""the environment"",
+                                ),
+                                kind: String(
+                                    ${HYP_VALIDATOR_VALIDATOR_I},
+                                ),
+                            },
+                            ""region"": Value {
+                                origin: Some(
+                                    ""the environment"",
+                                ),
+                                kind: String(
+                                    ${HYP_VALIDATOR_VALIDATOR_REGION},
+                                ),
+                            },
+                        },
+                    ),
+                }
+```","",""
+"2023-03-23,08:59:50","zhanganiev","#0","Maybe this will help:
+```If you want support your own chain that you permissionlessly deployed, you specify the path to that agent config file here as well.```
+
+Source: `CONFIG_FILES Description`
+https://docs.hyperlane.xyz/docs/operators/validators/environment-variables","",""
+"2023-03-23,09:00:24","klyaus","#0","right now i added envs, moved on 🙂 thanks!
+I thought - there is not enough field in the config","2pats#0",""
+"2023-03-23,09:01:08","2pats","#0","sounds good ! 😄","klyaus#0",""
+"2023-03-23,12:39:18","zhanganiev","#0","Hello, 
+
+Talking about Warp Route and HypERC20 token deployement config.
+What should be **owner** value?
+
+```""goerli"": {
+    ""type"": ""collateral"",
+    ""token"": ""0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6"",
+    ""owner"": ""0x5bA371aeA18734Cb7195650aFdfCa4f9251aa513"",
+    ""mailbox"": ""0xCC737a94FecaeC165AbCf12dED095BB13F037685"",
+    ""interchainGasPaymaster"": ""0xF90cB82a76492614D07B82a7658917f3aC811Ac1""
+  },```
+https://github.com/hyperlane-xyz/hyperlane-token/blob/main/configs/warp-route-token-config.json","",""
+"2023-03-23,16:24:28","anetteth","#0","feel free to DM me 🙂","fabriziogianni7#0",""
+"2023-03-24,00:37:54","mckitat","#0","Hey, I read there are folks who deployed validators/relayers for Scroll! We're connecting Scroll with Optimism and would love some help on that. Well be running them on AWS. Are there any obvious pitfalls we can avoid?","",""
+"2023-03-24,01:11:41","itsalexey","#0","have anyone deployed hyperlane infrastructure on filecoin's hyperspace?","",""
+"2023-03-24,02:35:50","yikesawjeez","#0","Last I heard he's still working on scroll, how ya doin <@909865544243642418>? KitKat, we've deployed validators, haven't deployed relayers yet, but my validator/relayer guy seemed like there were a couple weird things with AWS. I recommend jumping in Hyperlane discord, been several sorta bugs.
+we've got mantle testnet -> goerli just about live
+
+Alexey, not sure personally yet.
+
+<@539018098905317381>, you've got zkEVM -> where piped? Or are you still on origin setup?
+
+1 more guy in the discord has chiado -> optimism Goerli piped with an error on the last step.
+
+I'm thinkin' it would be real cool for all of us to share infra contracts/knowledgepool, so we know where we're all connecting to core with synthetics/can build on top of each other's stuff in this last push here. If you're keen or just need troubleshooting help I'm checking HL discord more regularly than here.","0xkamal7#0、klyaus#0",""
+"2023-03-24,02:52:10","0xkamal7","#0","M doing good , deployed everything but there are bugs which need to be solved with tokens .","yikesawjeez#0",""
+"2023-03-24,02:54:21","klyaus","#0","i ran the validator locally yesterday thanks to <@121586011355611136>  and <@526853083993735173> 
+Now I'm working on launching a relayer. If everything works out today, I plan to deploy Warp Route on zkevm and I can share the addresses of the mailbox and interchainGasPaymaster contracts. And if someone else wants to add their own validator, then I can add it to ValidatorAnnounce.
+Of course, if we are pressed for time (I am still finishing the backend), as a last resort, we will refuse to use zkevm. But I don't lose hope 🙂","2pats#0、zhanganiev#0、yikesawjeez#0",""
+"2023-03-24,04:08:51","yikesawjeez","#0","Nice, so you got the test message sent, at least?
+
+What are you warping between, Dmitry? my conceptualizations are a little fuzzy but I'm feeling like getting us all interop with each other as long as we have some accessible Hyperlane core chain to connect to is just a matter of all of us completing our individual setups and knowing the addresses. After that the warp routes are just a matter of the hyper contracts. please do correct me if I'm wrong tho, actual-devs 😂 lol
+
+edit: im realizing that since the interop does rely on the core hub, do we still have messaging interop between each other? like can I bounce a message down from mantle to goerli to optimism up to scroll if we all finish our projects, or do i need to have an origin-remote between mantle and scroll for that?
+ooer, but then im paying a ton of igps aren't i. ok sleep time","",""
+"2023-03-24,13:19:18","armanpanda","#0","I am getting this error when I try to run my validator","","https://cdn.discordapp.com/attachments/1006683697841459230/1088874696910569624/Screenshot_2023-03-24_at_10.46.48_PM.png"
+"2023-03-24,13:19:28","armanpanda","#0","I have setup the validator.env files as said","",""
+"2023-03-24,13:27:47","jkol","#0","<@546510663246413836> <@443978788930453504> check thi sout","tkporter#0、nambrot#0",""
+"2023-03-24,13:36:08","jkol","#0","<@886866192080449569> could you join our discord? https://discord.gg/hyperlane","armanpanda#0",""
+"2023-03-24,13:54:11","nambrot","#0","That is the key name in `TAIKO_agent_config`, and how did you specify the URL for that chain?","armanpanda#0",""
+"2023-03-24,15:52:33","armanpanda","#0","Thanks I got this figured out","nambrot#0",""
+"2023-03-24,15:52:40","armanpanda","#0","I missed some configs","",""
+"2023-03-24,15:53:57","armanpanda","#0","But now when I try to run a relayer it gives error regarding db in config","",""
+"2023-03-24,15:54:07","armanpanda","#0","But there is no db field in config files","",""
+"2023-03-24,22:51:16","yikesawjeez","#0","<@899749804962365480> <@539018098905317381> + anybody else who isn't in the hyperlane discord, im setting up a notion so we can all share addresses and bugfixes and stuff to make real cool stuff for last day, either dm for a link or jump in there and check the community resources notion/wiki thread","mckitat#0、klyaus#0",""
+"2023-03-25,09:33:28","jkol","#0","Oh that’s sick <@315351812821745669>","yikesawjeez#0",""
+"2023-03-25,09:33:46","jkol","#0","Gonna make it much easier to document and implement DX improvements","",""
+"2023-03-25,15:07:49","yikesawjeez","#0","ayo any hyperlanebros workin otday? realise its saturday lol","",""
+"2023-03-26,22:16:37","anetteth","#0","would be awesome to have this in the Hyperlane docs ! Let's chat about this 🙂","yikesawjeez#0",""
+"2023-03-28,14:17:54","anetteth","#0","Reminder, we are hosting Office Hours for hackers and our Community to discuss all things related to Scaling Ethereum and AMA ! Join us tomorrow https://discord.com/events/935678348330434570/1084911644762705952","",""
+"2023-03-28,16:49:57","jkol","#0","<@933594286874853417> please DM me, reviewing your project submission now","harshalbhangale#0",""
+"2023-03-29,12:30:29","jkol","#0","<#1006683697841459230> OH to recap the hackathon starting now 🙂 https://discord.com/events/935678348330434570/1084911644762705952","",""
+"2023-04-04,04:09:12","klyaus","#0","Hello Hyprelane team!
+I wanted to thank you for choosing our project (Definme team, ScaleyValley Project) in the ""Best use of Hyperlane Warp Routes"" nomination! 🤗 
+For our team, this hackathon has become an unforgettable and valuable experience! And we believe that we will be able to use Hyperlane (and some other technologies explored in Scaling Ethereum 2023 <:nfteth:822186186016948314> ) in our future projects! ❤️","",""
+"2023-04-09,11:16:40","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1094642041830514688/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,11:28:17","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+👀 **ABOUT**
+Hyperlane is the permissionless interoperability layer pioneering a modular security architecture that empowers developers to own and customize their security stack. With Hyperlane, anyone can bring interoperability anywhere, the interoperability layer purpose built for the modular blockchain world.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇Top prize - $4,000 - Best use of Permissionless Interoperability
+💸 $2,000 - Best use of Hyperlane Warp Routes
+🌐 $2,000 - Write new Interchain Security Modules (ISMs)
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🚀 **WORKSHOP**
+Building the Interchain with Hyperlane
+Time: 5:30 PM JST – Apr 14, 2023
+Location: 5th Floor | Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.hyperlane.xyz/docs/
+https://docs.hyperlane.xyz/docs/build-with-hyperlane/quickstarts
+https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane
+https://github.com/hyperlane-xyz
+https://explorer.hyperlane.xyz/
+https://discord.gg/hyperlane","",""
+"2023-04-11,11:41:27","jkol","#0","Love to hear that 🙂","klyaus#0",""
+"2023-04-15,05:02:56","taionewgate","#0","hi i want to deploy new mailbox in blockchain mantle testnet
+i follow https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane/deploy-contracts
+but don't know what is validators address. could someone help me","",""
+"2023-04-15,05:56:04","taionewgate","#0","i try to run validator but got this error
+```
+docker run -it gcr.io/abacus-labs-dev/hyperlane-agent:debafb9-20230414-183521 ./validator --platform linux/amd64
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Error: ParsingError
+
+#####
+
+config_path: `checkpointsyncer`
+env_path: `HYP_BASE_CHECKPOINTSYNCER`
+error: Missing `checkpointsyncer`
+
+Location:
+    agents/validator/src/settings.rs:57:28
+
+#####
+
+config_path: `reorgperiod`
+env_path: `HYP_BASE_REORGPERIOD`
+error: Missing `reorgperiod`
+
+Location:
+    agents/validator/src/settings.rs:66:28
+
+#####
+
+config_path: `interval`
+env_path: `HYP_BASE_INTERVAL`
+error: Missing `interval`
+
+Location:
+    agents/validator/src/settings.rs:72:28
+
+#####
+
+config_path: `originchainname`
+env_path: `HYP_BASE_ORIGINCHAINNAME`
+error: Missing `originchainname`
+
+Location:
+    agents/validator/src/settings.rs:82:28
+
+
+Location:
+    /usr/src/hyperlane-base/src/agent.rs:67:20
+```","",""
+"2023-04-15,09:59:48","jkol","#0","I’m sorry we missed this, did you come to the booth for help or still need help?","taionewgate#0",""
+"2023-04-15,09:59:54","jkol","#0","<@546510663246413836>","nambrot#0",""
+"2023-04-15,10:00:07","jkol","#0","We’ve had bad wifi and didn’t see the chat messages 😦","",""
+"2023-04-15,10:00:48","jkol","#0","<@592650207582224384> if you’re around the hackathon come to the booth we can help out","taionewgate#0",""
+"2023-04-15,10:26:47","taionewgate","#0","i got supported from <@908853223287324712> in Hyperlane discord","asaoines#0",""
+"2023-04-15,10:27:22","taionewgate","#0","https://discord.com/channels/935678348330434570/1096444620172431410/1096803113047957615","",""
+"2023-04-15,10:28:54","jkol","#0","Amazing 🙂","",""
+"2023-05-18,14:41:32","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1108826725904818206/Waterloo_2.png"
+"2023-06-19,00:22:07","awliang","#0","Hello and welcome to the <#1006683697841459230>  channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+👀 **ABOUT**
+**Hyperlane** is the first interoperability layer that enables you to permissionlessly connect any blockchain, out-of-the-box. With Hyperlane you can connect your app to any chain, and easily have interchain function calls or asset transfers. Hyperlane has a one of a kind modular security stack, that allows you to configure your security model, and customize the security protocol you use to fit the action of your users.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇**Top prize - $4,000 - Best use of Permissionless Interoperability**
+🎼 **$2,000 - Best Interchain Application**
+💸 **$2,000 - Best use of Hyperlane Warp Routes**
+🌐 **$2,000 - Write new Interchain Security Modules (ISMs)**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/waterloo2023/prizes
+
+
+🚀 **WORKSHOP**
+Permissionless Interoperability - Connect Any Chain with Hyperlane
+Time: 06:00 PM EDT – Jun 23, 2023
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+📃Documentation
+https://www.hyperlane.xyz/
+https://docs.hyperlane.xyz/hyperlane-docs/
+https://docs.hyperlane.xyz/hyperlane-docs/developers/quickstarts
+https://github.com/hyperlane-xyz/hyperlane-monorepo
+(https://explorer.hyperlane.xyz/
+https://docs.hyperlane.xyz/docs/protocol/permissionless-interoperability
+💙Community
+https://discord.gg/hyperlane
+https://github.com/hyperlane-xyz/Hackathon-starterkit/blob/main/README.md#hyperlane-tools-which-you-can-use-in-your-project
+https://carpal-dove-f01.notion.site/Hyperlane-ETHWaterloo-ba09d3ae19134ed496ac3f2d8953e5e4","",""
+"2023-06-23,19:20:59","jkol","#0","If you have any questions find our booth! Between gnosis and worldcoin","",""
+"2023-06-24,01:50:18","jkol","#0","Gang we are heading out for the night, will have the booth manned again by the early morning. If you have any issues and need help please join our discord and ask for help in the developer channel","",""
+"2023-06-24,08:36:51","leeederek","#0","<@821575762742083655> :
+Three of the Hyperlane linked above are broken: https://docs.hyperlane.xyz/docs/hyperlane-docs, and https://docs.hyperlane.xyz/hyperlane-docs/developers/quickstarts and https://docs.hyperlane.xyz/docs/hyperlane-docs/developers/quickstarts as well","jkol#0",""
+"2023-06-24,08:51:44","jkol","#0","So strange let me fix","",""
+"2023-06-24,08:54:05","jkol","#0","https://docs.hyperlane.xyz/
+
+https://docs.hyperlane.xyz/docs/build-with-hyperlane/quickstarts
+
+https://docs.hyperlane.xyz/docs/deploy/permissionless-interoperability","",""
+"2023-06-24,08:54:23","jkol","#0","<@459963806450450432> these should be good 🙂","leeederek#0",""
+"2023-06-24,08:55:44","leeederek","#0","Also, curious for your thoughts <@821575762742083655>: we're currently training some models & ai agents to write and audit and deploy contracts all in one go to a private testnet for post-deploy tests (i.e. fuzzing). Are there any Hyperlane specific things that you would recommend us try? Examples could be an ISM or just a smart contract that is hyperlane-enabled?","jkol#0",""
+"2023-06-24,08:58:47","jkol","#0","Few things I’d try are 
+
+Deploying Hyperlane to a new chain (basically running through Deploy Hyperlane guide)
+
+Hyperlane integrated contract
+
+Hyperlane Mailbox implemented for a non EVM environment","",""
+"2023-06-24,08:58:52","jkol","#0","Any of those would be awesome","",""
+"2023-06-24,17:17:23","endymionjkb","#0","I'm looking for the Mailbox address on zkevm. Docs only have POS","",""
+"2023-06-24,21:45:40","leeederek","#0","Hey Hyperlane team: we deviated a bit to polish our v0, but are now back to hacking on Hyperlane functionality: how long will your team be at the venue for?","",""
+"2023-06-24,22:03:51","jkol","#0","We’re here for now 🙂","",""
+"2023-06-24,23:28:26","jkol","#0","<@338799466016669706> might be the case that the zkevm testnet deployment itself is faulty..","endymionjkb#0",""
+"2023-06-24,23:29:37","jkol","#0","Really sorry about the rough experience.. doesn’t tend to happen with other deployments","",""
+"2023-06-24,23:35:15","easonwu","#0","My messaging API deployment wasn’t working lol, switching from pzkevm to mumbai now","jkol#0",""
+"2023-06-24,23:37:15","easonwu","#0","Yeah the same deployment works on mumbai","",""
+"2023-06-24,23:40:26","jkol","#0","Yeah gotta be a bad batch or something.. sorry boys, this was done by an external team","",""
+"2023-06-25,10:51:20","jkol","#0","<#1006683697841459230> if you hacked with hyperlane and were not able to submit in time please still make sure to come by the booth and show us what youve got!","",""
+"2023-06-25,10:51:51","jkol","#0","https://media.giphy.com/media/iibEPf8xEDTedJcDJr/giphy.gif","",""
+"2023-07-10,14:16:16","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1128026925194022932/Screenshot_2023-07-10_at_12.png"
+"2023-07-17,10:39:04","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+👀 **ABOUT**
+**Hyperlane** is the first interoperability layer that enables you to permissionlessly connect any blockchain, out-of-the-box. With Hyperlane you can connect your app to any chain, and easily have interchain function calls or asset transfers. Hyperlane has a one of a kind modular security stack, that allows you to configure your security model, and customize the security protocol you use to fit the action of your users.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**PROJECT IDEAS** https://hyperlanexyz.notion.site/Hyperlane-ETHGlobal-Paris-ba09d3ae19134ed496ac3f2d8953e5e4
+
+🥇**Top prize - $4,000 - Best use of Permissionless Interoperability**
+🎼 **$2,000 - Best Interchain Application**
+💸 **$2,000 - Best use of Hyperlane Warp Routes**
+🌐 **$2,000 - Write new Interchain Security Modules (ISMs)**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/paris2023/prizes
+
+
+🚀 **WORKSHOP**
+Permissionless Interoperability - Connect Any Chain with Hyperlane
+Time: 06:00 PM CEST – Jul 21, 2023
+Location: Workshop Room 3
+
+
+🔗 **IMPORTANT LINKS**
+📃Documentation
+https://www.hyperlane.xyz/
+https://docs.hyperlane.xyz/hyperlane-docs/
+https://docs.hyperlane.xyz/hyperlane-docs/developers/quickstarts
+https://github.com/hyperlane-xyz/hyperlane-monorepo
+(https://explorer.hyperlane.xyz/
+https://docs.hyperlane.xyz/docs/protocol/permissionless-interoperability
+💙 Community
+https://discord.gg/hyperlane
+https://github.com/hyperlane-xyz/Hackathon-starterkit/blob/main/README.md#hyperlane-tools-which-you-can-use-in-your-project
+https://carpal-dove-f01.notion.site/Hyperlane-ETHWaterloo-ba09d3ae19134ed496ac3f2d8953e5e4","",""
+"2023-07-21,07:22:56","santiagotrujilloz","#0","Hi! Any mentor in Paris today?","",""
+"2023-07-22,21:23:16","gabrielaxy.eth","#0","Hey team! 
+Need help here... Are you guys still here","",""
+"2023-07-22,23:52:13","duckception","#0","<@562735785476882454> not from the team but I've been playing a lot with hyperlane today so maybe I can help 👀","gabrielaxy.eth#0",""
+"2023-07-22,23:52:35","gabrielaxy.eth","#0","Are you in the venue?","duckception#0",""
+"2023-07-22,23:52:42","duckception","#0","not anymore","gabrielaxy.eth#0",""
+"2023-07-22,23:52:47","gabrielaxy.eth","#0","Ahh","",""
+"2023-07-22,23:53:01","gabrielaxy.eth","#0","I am using the QueriesAPI","",""
+"2023-07-22,23:53:26","gabrielaxy.eth","#0","My message gets Delivered in the destination chain and the fallback is received in the receiver chain","",""
+"2023-07-22,23:53:50","gabrielaxy.eth","#0","But I am getting an error in the receiver fallback reciever contractr","",""
+"2023-07-22,23:54:12","duckception","#0","shit, haven't played with the queries api sadly","",""
+"2023-07-22,23:54:14","duckception","#0","what's the error?","",""
+"2023-07-22,23:54:46","gabrielaxy.eth","#0","https://explorer.hyperlane.xyz/message/0x62d5e9a7ce60b4e14ad77a509c333e753e4d699bec569507704096289e6de6cd","",""
+"2023-07-22,23:56:21","gabrielaxy.eth","#0","So this is the response transaction back to the sender contract","",""
+"2023-07-22,23:57:32","gabrielaxy.eth","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1132521859309641728/qqq.png"
+"2023-07-22,23:57:58","gabrielaxy.eth","#0","My contract is not a proxy contract BUT it deploys proxy contracts","",""
+"2023-07-22,23:58:05","gabrielaxy.eth","#0","It is a proxy factory","",""
+"2023-07-23,00:04:42","duckception","#0","sorry, no idea 😢","gabrielaxy.eth#0",""
+"2023-07-23,00:05:01","gabrielaxy.eth","#0","Thanks for your time 😄","duckception#0",""
+"2023-07-23,07:23:55","jkol","#0","sorry we missed you <@562735785476882454>","gabrielaxy.eth#0",""
+"2023-07-23,07:24:54","gabrielaxy.eth","#0","It's okay!😄","jkol#0",""
+"2023-07-31,13:48:44","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1135630142291595325/Superhack.png"
+"2023-07-31,23:11:39","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+👀 **ABOUT**
+Hyperlane is the permissionless interoperability layer, allowing anyone to connect any chain. Deploy Hyperlane to your own OP Stack chain, or to anyone else's, and bring it a full suite of interoperability capabilities!
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 Best Use of Permissionless Interoperability:  $4k USD
+🎼 Best Interchain Application: $2k USD
+💸 Best Use of Hyperlane Warp Routes: $2k USD
+ 🚝 Best Hyperlane Infrastructure: $2k USD
+
+More prize info here at the Hackathon Guide: https://hyperlanexyz.notion.site/Hackathon-Success-Guide-ba09d3ae19134ed496ac3f2d8953e5e4?pvs=4
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/superhack/prizes
+
+
+🔗 **IMPORTANT LINKS**
+📚 Read our documentation: https://docs.hyperlane.xyz/docs/introduction/readme
+🗺️ Explore our Github: https://github.com/hyperlane-xyz
+🔎 Browse hackathon ideas: https://www.notion.so/461d17f7b3184dfb97299e23a7b6b736?pvs=21 and open bounties: https://github.com/hyperlane-xyz/hyperlane-monorepo/labels/bounty
+⭐ Be inspired from our past winners: https://www.notion.so/39f011115909438cb892f72aec8eb0f7?pvs=21
+🏠 Join our discord: https://www.notion.so/Hackathon-Success-Guide-ba09d3ae19134ed496ac3f2d8953e5e4?pvs=21 to engage with the team and other builders 
+🍿 Watch previous talks and workshops: https://www.youtube.com/playlist?list=PLUcHSBFGGtwwFzOr-Z4famsCGcxhXfNX5","",""
+"2023-08-03,06:29:38","altugbakan","#0","Hello! Is it possible to deploy Hyperlane to an already existing testnet which we do not own such as Base testnet? I am guessing we would need to run a relayer but do we need to run a validator also?","",""
+"2023-08-03,07:19:09","altugbakan","#0","After reading the docs more thoroughly, I now understand that hyperlane validators are different than blockchain validators 😅. So I would assume that it is possible","",""
+"2023-08-03,18:56:38","jkol","#0","yes you are correct 🙂","",""
+"2023-08-03,18:58:14","jkol","#0","also check out this feature we just release, it will make it even easier to put hyperlane on any OP Stack chain 🙂 https://twitter.com/Hyperlane_xyz/status/1686700876302565376?s=20","",""
+"2023-08-03,19:07:20",".knpz","#0","Hi. Is it possible to call a function of a optimism contract from a polygon contract?","",""
+"2023-08-03,19:07:58","jkol","#0","yes absolutely","",""
+"2023-08-03,21:24:22",".knpz","#0","And Is it possible to check values of other chains?","",""
+"2023-08-03,21:24:44",".knpz","#0","For example, from a polygon contract I call a get function of a optimism contract that returns a uint value.","",""
+"2023-08-03,22:44:28","jkol","#0","Yes indeed","",""
+"2023-08-03,22:44:34","jkol","#0","Another feature you might enjoy","",""
+"2023-08-03,22:44:55","jkol","#0","Someone recently built a capability with Hyperlane that allows you to query chainlink feeds to any chain","",""
+"2023-08-04,14:43:32","tacocat9293","#0","this is with the queries api right","jkol#0",""
+"2023-08-04,14:44:21","tacocat9293","#0","also - what happens if you pay for too little gas in igp.payForGas? does it revert? refund? etc.","",""
+"2023-08-04,14:55:05","tacocat9293","#0","another q, what's the best way to calculate `gasAmount` in `igp.payForGas`?","",""
+"2023-08-04,14:55:33","tacocat9293","#0","and if gasAmount is too high, does the rest just get refunded on the origin chain?","",""
+"2023-08-04,15:07:15","nambrot","#0","If you specify not a large enough msg.value, it will revert. If you specify a not large enough gas amount, then the relayer will refuse to process the message until additional payments have been made (if the relayer enforces payments)","tacocat9293#0",""
+"2023-08-04,15:07:34","nambrot","#0","That's up to your contracts gas consumption on the destination chain","tacocat9293#0",""
+"2023-08-04,15:07:46","nambrot","#0","There is unfortunately no refund at the moment","tacocat9293#0",""
+"2023-08-04,15:14:22","tacocat9293","#0","ty - i know this isn't a pure hyperlane question per se, but what's a good way to estimate gas? i'm using hardhat atm and I know I could use the built in gas reporter, but that would involve sending test transactions with dummy data and impersonating the mailbox. this doesn't seem too hard in my head but i can see how it could get janky","",""
+"2023-08-04,15:14:28","tacocat9293","#0","<@546510663246413836>","nambrot#0",""
+"2023-08-04,15:15:10","tacocat9293","#0","also since this was a hackathon i was thinking of just manually eyeballing the gasAmount and testing via trial and error, again pretty easy but wondering if there's a better way","",""
+"2023-08-04,15:30:31",".knpz","#0","Hi, Im following this https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane deploymentGuide and when I try to do the actual deployment I get some errors that dont make sense.Heres my repo with my chains and multisig_ism files: https://github.com/Kanoopz/superhackHyperlaneProblems/tree/main","",""
+"2023-08-04,15:31:32",".knpz","#0","Can someone help me?","",""
+"2023-08-04,15:32:14","jkol","#0","would recommend you also drop into our discord at discord.gg/hyperlane",".knpz#0",""
+"2023-08-04,15:32:32","jkol","#0","as the support and dev channels have lots of folks who have dealt with similar issues 🙂","",""
+"2023-08-04,15:33:06","jkol","#0","nvm i see you did!","",""
+"2023-08-04,15:33:08","jkol","#0","perfect 🙂","",""
+"2023-08-04,15:34:07","serafimeth","#0","Hello,
+May we use the hyperlane via https://caldera.xyz/ to be eligible for your track?","",""
+"2023-08-04,15:34:42","jkol","#0","yes if you use it via caldera that is totally fine 🙂 you will not be disqualified for using a service provider like caldera, they're awesome","",""
+"2023-08-04,15:35:08","jkol","#0","im not sure about other sponsors though, but for Hyperlane, all we care about is whether or not you use Hyperlane in your submission 🙂","",""
+"2023-08-04,15:35:13","tacocat9293","#0","is the default caldera bridge hyperlane?","",""
+"2023-08-04,15:35:26","serafimeth","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1137106543091925133/2023-08-04_12.35.23.png"
+"2023-08-04,15:35:51","jkol","#0","not yet! i believe the default is the standard optimistic bridge, but you can use hyperlane of course","tacocat9293#0",""
+"2023-08-04,15:36:25","tacocat9293","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1137106792220999792/image.png"
+"2023-08-04,15:36:36","tacocat9293","#0","they mention setup upon request","",""
+"2023-08-04,15:36:40","jkol","#0","yeah","",""
+"2023-08-04,15:37:05","jkol","#0","we work with a good number of their users 🙂 but its not set up by default","",""
+"2023-08-04,15:37:23","tacocat9293","#0","does that mean we have to contact the caldera team?","",""
+"2023-08-04,15:37:46","tacocat9293","#0","im sure itd be easy to do manually but just curious abt the upon request part","",""
+"2023-08-04,15:37:57","serafimeth","#0","Maybe it's Rollup <-> Ethereum/Polygon only","",""
+"2023-08-04,15:38:08","jkol","#0","well it depends, but you def don't have to. if oyu use them to create your rollup you could just put hyperlane on it afterwards like you can with any other chain","",""
+"2023-08-04,15:38:29","jkol","#0","i imagine part of it the 'upon request' is that in certain cases they may do it for you?","tacocat9293#0",""
+"2023-08-04,15:58:04","nambrot","#0","I think the best practical path is to just set high gas amounts during testing, and then after the fact you can see how much it actually consumes and adjust","tacocat9293#0",""
+"2023-08-04,15:59:16","nambrot","#0","I'd recommend you setting it up yourself tbh, its in the spirit of the hackathon 😛","jkol#0",""
+"2023-08-04,16:19:37","tacocat9293","#0","testnet transactions with the default igp and gasAmount set to 0 seem to be going through no problem - assuming the default testnet relayer doesn't enforce payments?","nambrot#0",""
+"2023-08-04,16:22:30","tacocat9293","#0","(and the mainnet ones probably do, right?) 😛","",""
+"2023-08-04,16:32:03","nambrot","#0","Do you have the explorer link to share for your message?","tacocat9293#0",""
+"2023-08-04,16:32:07","tacocat9293","#0","Yep","",""
+"2023-08-04,16:32:31","tacocat9293","#0","https://explorer.hyperlane.xyz/message/0x8379c6d15ccf280ebe19819dea8f0b9b96759267a4a71c3a4aea4f1b9d9e7df8","nambrot#0",""
+"2023-08-04,16:33:22","tacocat9293","#0","read in the docs that the default igp automatically adds the gasAmount necessary for internal stuff","",""
+"2023-08-04,16:33:52","tacocat9293","#0","maybe there's a bit of gas leftover that can still cover the tx","",""
+"2023-08-04,16:33:53","tacocat9293","#0","either that, or not enforcing payments, idk","",""
+"2023-08-04,16:34:15","tacocat9293","#0","but would be good to know","",""
+"2023-08-04,16:35:39","avious00","#0","hi everyone 👋","",""
+"2023-08-04,16:45:08","nambrot","#0","Looks like 159k gas was paid","tacocat9293#0",""
+"2023-08-04,17:13:03","tacocat9293","#0","this is the gas that was auto added","nambrot#0","https://cdn.discordapp.com/attachments/1006683697841459230/1137131110623612928/image.png"
+"2023-08-04,17:13:28","tacocat9293","#0","not a huuuuge deal bc everything still works just curious abt how its working internally","",""
+"2023-08-04,19:57:44","mxber2022","#0","Hi, where can i find mailbox address ?","",""
+"2023-08-04,19:57:46","mxber2022","#0","hyperlane:ERROR Error running Warp route deployment TypeError: Cannot read properties of undefined (reading 'mailbox')","",""
+"2023-08-04,22:19:01",".knpz","#0","<@821575762742083655> Who can I ask regarding my deployment problem?","jkol#0",""
+"2023-08-04,22:19:24",".knpz","#0","Nobody answered me on hyperlane channel.","",""
+"2023-08-04,22:19:32","jkol","#0","I’ll nudge our team","",""
+"2023-08-04,22:19:48",".knpz","#0","Thanks a lot jkol.","",""
+"2023-08-05,10:51:07","seeinplays","#0","hi, gm. I want to use Hyperlane to call a smart contract from one chain to another, where in the docs should I be looking to do something like this?","",""
+"2023-08-05,10:52:30","kunala","#0","You can use interchain accounts to call any smart contract on the destination chain, docs here: https://docs.hyperlane.xyz/docs/apis-and-sdks/accounts","",""
+"2023-08-06,20:57:00",".knpz","#0","Hi <@821575762742083655> .","jkol#0",""
+"2023-08-06,20:57:36",".knpz","#0","Someone else I can ask questions too besides nambrot?","",""
+"2023-08-06,21:00:09","jkol","#0","Yeah the others on our team are available as well but I’d expect it will be a few more hours before folks are back online. Try pinging tkporter or Dan starting in 4-5 hours they’re London based and may be online by then","",""
+"2023-08-06,21:13:34",".knpz","#0","Got it.","",""
+"2023-08-06,21:13:40",".knpz","#0","Thanks a lot jkol.","",""
+"2023-08-07,23:43:15","obaone","#0","Seems Hyperlane has yet to be launched on Base, Zora, or Mode. Would like to deploy to these chains and it be added to the docs? Is that something the team is looking for or has someone already started with some of these chains?","",""
+"2023-08-08,05:30:09","sherlockvarm","#0","hey there, I need to create a process = Native tokens -> USDT ---bridge to another chain--- USDT -> Native token. can anyone suggest which tool is good to bridge those tokens. for Native token -> USDT i'm using uniswap","",""
+"2023-08-08,06:42:31","jkol","#0","That’s right, but the unique thing with Hyperlane is that anyone can bring it to those chains hence our biggest reward relates to someone deploying Hyperlane on a chain it’s not on yet (theirs or an existing one) and doing something with it 🙂","obaone#0",""
+"2023-08-08,06:43:46","jkol","#0","Uniswap is likely the best option for that portion, but to go USDT->native you’ll need actual (not wrapped) usdt on the destination chain, or you will a pool swapping wrapped usdt for the native asset","sherlockvarm#0",""
+"2023-08-08,06:45:11","jkol","#0","In both cases you’ll need a pool of sorts to execute this, either an Amm pool of wrapped usdt to native token, of wrapped usdt to usdt, and eventually of usdt to native token.","",""
+"2023-08-08,07:52:33","0xvaibhav11","#0","hello i am getting error deploing hyperlane and wrap routes on zora and mode?
+<@821575762742083655>","jkol#0",""
+"2023-08-08,07:52:53","0xvaibhav11","#0","invalid chain metaData","",""
+"2023-08-08,07:54:11","0xvaibhav11","#0","and also getting problem with setting multisig ism for hyperlane","",""
+"2023-08-08,07:54:29","jkol","#0","Can you jump in our discord and share your logs?","",""
+"2023-08-08,07:54:55","0xvaibhav11","#0","yes","",""
+"2023-08-08,10:21:46","sherlockvarm","#0","is there any cross chain payments system available?","",""
+"2023-08-08,14:34:31","jkol","#0","sorry we missed this, how do you mean?","sherlockvarm#0",""
+"2023-08-08,14:55:43","ahmetson","#0","<@821575762742083655> is it okay, that relayer syncs in backward?","jkol#0",""
+"2023-08-08,15:01:27","ahmetson","#0","<@821575762742083655> the data is delivered successfully from L2 to L1. But the reverse order is not working.","jkol#0",""
+"2023-08-08,15:03:45","ahmetson","#0","<@821575762742083655> Okay, if I use the L1 with the prebuilt contracts, does that mean, I have to wait until it will sync fully?","jkol#0",""
+"2023-08-08,15:06:52","ahmetson","#0","<@821575762742083655> okay, changed the RPC node from Alchemy to Infura, and magically it synced itself!","jkol#0",""
+"2023-08-08,15:06:55","ahmetson","#0","No more issues!","",""
+"2023-08-08,15:07:14","jkol","#0","wow look at that, i just had to take too long making my coffee and your issue was solved! 😂","",""
+"2023-08-08,15:07:19","jkol","#0","i should make coffee more often","",""
+"2023-08-08,15:14:36","kunala","#0","the relayer indexes forwards and backwards here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/8cbfd3cbc006c0b686df6db487ec008bf4c4a47d/rust/hyperlane-base/src/contract_sync/mod.rs#L147","ahmetson#0",""
+"2023-08-08,15:15:28","ahmetson","#0","<@398898564488495104> thanks. Is Account API works on one direction?","kunala#0",""
+"2023-08-08,15:15:35","ahmetson","#0","From local to remote?","",""
+"2023-08-08,15:22:57","kunala","#0","yaa the relayer needs to build the merge tree so it needs to sync up from message 0 to your message Id before actually delivering the message to destination","ahmetson#0",""
+"2023-08-08,15:25:50","kunala","#0","yess, that's correct","ahmetson#0",""
+"2023-08-08,17:05:25","andreth207","#0","Hi! I have a question about Hyperlane Query API, I'm implementing a query smart contract to test and this Call type declared here, from where can I import it?","","https://cdn.discordapp.com/attachments/1006683697841459230/1138578739148640368/image.png"
+"2023-08-08,17:06:11","andreth207","#0","Or is it just a struct with to and data variables?","",""
+"2023-08-08,17:07:32","andreth207","#0","Oh, I have founded it in the docs, np haha","",""
+"2023-08-08,17:07:42","jkol","#0","lol beat us to it","",""
+"2023-08-08,17:07:47","jkol","#0","let us know if any other questions come up","",""
+"2023-08-08,17:10:23","andreth207","#0","Of course, thanks!","jkol#0",""
+"2023-08-08,17:27:00","andreth207","#0","For the IInterchainQueryRouter implementation, there si an implementation deployed on Goerli or I have to be deploy it in order to get the address and call the query function?","",""
+"2023-08-08,17:27:12","andreth207","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1138584221636624555/image.png"
+"2023-08-08,17:27:52","jkol","#0","yep its all there 🙂 https://docs.hyperlane.xyz/docs/resources/addresses","",""
+"2023-08-08,17:27:59","jkol","#0","you can use that link to find out all the addresses you need","",""
+"2023-08-08,17:28:21","andreth207","#0","Thank you!","",""
+"2023-08-08,18:45:27","andreth207","#0","I would want to get data in my L2 from goerli, for this I need I would need to deploy InterchainQueryRouter in my l2 right?","",""
+"2023-08-08,18:45:49","jkol","#0","indeed","",""
+"2023-08-08,19:05:12","andreth207","#0","Do you have a guide on how deploy all the smart contracts needed for our L2?","",""
+"2023-08-08,19:05:44","kunala","#0","https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane","",""
+"2023-08-08,20:02:44","andreth207","#0","Error running Hyperlane deployment Error: Timed out in 300000ms.","",""
+"2023-08-08,20:02:54","andreth207","#0","How could I remove time out?","",""
+"2023-08-08,20:03:18","jkol","#0","can you jump in our discord and share more of what youre seeing?","",""
+"2023-08-08,20:03:25","jkol","#0","like maybe share your logs","",""
+"2023-08-08,20:04:25","andreth207","#0","got it, could you share me your discord?","",""
+"2023-08-08,20:04:36","jkol","#0","discord.gg/hyperlane","",""
+"2023-08-09,00:27:46","obaone","#0","The docs are hard to follow to deploy hyperlane, feel like I'm always pressing a link then trying to wallk my way back as to what am doing.","",""
+"2023-08-09,05:28:28","sherlockvarm","#0","I was getting this error while compiling contract, I have enabled the optimization to 200 but now it is taking very long time to deploye the contract on remix, can anyone help.","","https://cdn.discordapp.com/attachments/1006683697841459230/1138765733296357386/image.png"
+"2023-08-09,05:28:57","sherlockvarm","#0","how to set the optimization in foundry","","https://cdn.discordapp.com/attachments/1006683697841459230/1138765857137360956/image.png"
+"2023-08-09,06:24:12","rohanshrothrium","#0","```
+Error running Hyperlane deployment TypeError: Cannot read properties of undefined (reading 'mailbox')
+    at buildAgentConfigDeprecated (/Users/rohanshrothrium/Documents/hyperlane-rollOP/hyperlane-deploy/node_modules/@hyperlane-xyz/sdk/src/metadata/agentConfig.ts:137:35)
+```
+
+Hi guys, getting this when trying to deploy onto hardhat","",""
+"2023-08-09,08:40:49","jkol","#0","Yeah we need to make them better in that regard, sorry to hear you’re having a not great time 😦","",""
+"2023-08-09,08:40:53","jkol","#0","<@720688545018413170> <@367030885549080607> jump in our discord here and we can more easily help","rohanshrothrium#0、obaone#0",""
+"2023-08-09,08:46:50","rohanshrothrium","#0","Can I have a link for the discord?","",""
+"2023-08-09,08:54:22","jkol","#0","discord.gg/hyperlane","",""
+"2023-08-10,01:09:40","benzo888","#0","Hi guys, I'm having issues setting up a devnet using the `op-stack-hyperlane` repo. After installing dependencies & running `make devnet-up-deploy` I receive this error:
+
+```
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['forge', 'script', 'scripts/Deploy.s.sol:Deploy', '--private-key', '0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80', '--rpc-url', 'http://127.0.0.1:8545', '--broadcast']' returned non-zero exit status 1.
+make: *** [devnet-up-deploy] Error 1
+```
+
+Not sure if I'm missing any obvious steps but would appreciate the help. Thanks!","",""
+"2023-08-10,05:26:37","rohanshrothrium","#0","Hi guys!
+What should be the value of `fastWithdrawalOwner`","",""
+"2023-08-10,06:08:30","timecoder15","#0","Hello,  how much data do we need to download to deploy relayer on goerli?","",""
+"2023-08-10,07:54:54","jkol","#0","Generally syncs to the mailbox deployment, so it can take a little while to sync","timecoder15#0",""
+"2023-08-10,07:55:06","jkol","#0","Could you drop in our discord?","benzo888#0",""
+"2023-08-10,08:46:35","sherlockvarm","#0","getting this error while using account api in remix","","https://cdn.discordapp.com/attachments/1006683697841459230/1139177982091612190/image.png"
+"2023-08-10,08:46:51","sherlockvarm","#0","function callPolygonFunction(address _polygonContract) external payable {
+        require(msg.value >= 0.001 ether);
+        PolygonAccount temp = PolygonAccount(_polygonContract);
+        bytes32 messageid = IInterchainAccountRouter(
+            0xb0811feF53FF499bd8E09018F8E568b95c42A721
+        ).callRemote(
+                43113,
+                _polygonContract,
+                msg.value,
+                abi.encodeCall(temp.update, (1, address(2)))
+            );
+
+        IInterchainGasPaymaster igp = IInterchainGasPaymaster(
+            0x8f9C3888bFC8a5B25AED115A82eCbb788b196d2a
+        );
+        // Pay with the msg.value
+        igp.payForGas{value: msg.value}(
+            // The ID of the message
+            messageid,
+            // Destination domain
+            43113,
+            // The total gas amount. This should be the
+            // overhead gas amount + gas used by the call being made
+            30000,
+            // Refund the msg.sender
+            msg.sender
+        );
+    }","",""
+"2023-08-10,08:51:46","timecoder15","#0","How much storage or memory we need?","jkol#0",""
+"2023-08-10,09:17:55","jkol","#0","brother can you join us in the discord? ill get one of our eng team to help 🙂","sherlockvarm#0",""
+"2023-08-10,09:18:52","kevliu","#0","Hi, please could i have some assistance","",""
+"2023-08-10,09:18:55","jkol","#0","not sure exactly but its a low amount, its just a merkle tree, but the operation still takes long sadly","timecoder15#0",""
+"2023-08-10,09:18:58","jkol","#0","of course","kevliu#0",""
+"2023-08-10,09:19:53","kevliu","#0","i just want to do basic message passing this is the contract im trying to compile
+
+```
+// SPDX-License-Identifier: MIT OR Apache-2.0
+pragma solidity >=0.8.0;
+
+import {Ownable} from ""@openzeppelin/contracts/access/Ownable.sol"";
+
+import {IMessageRecipient} from ""./IMessageRecipient.sol"";
+import {IInterchainSecurityModule, ISpecifiesInterchainSecurityModule} from ""./IInterchainSecurityModule.sol"";
+
+contract TestRecipient is
+    Ownable,
+    IMessageRecipient,
+    ISpecifiesInterchainSecurityModule
+{
+    IInterchainSecurityModule public interchainSecurityModule;
+    bytes32 public lastSender;
+    bytes public lastData;
+
+    address public lastCaller;
+    string public lastCallMessage;
+
+    event ReceivedMessage(
+        uint32 indexed origin,
+        bytes32 indexed sender,
+        string message
+    );
+
+    event ReceivedCall(address indexed caller, uint256 amount, string message);
+
+    function handle(
+        uint32 _origin,
+        bytes32 _sender,
+        bytes calldata _data
+    ) external virtual override {
+        emit ReceivedMessage(_origin, _sender, string(_data));
+        lastSender = _sender;
+        lastData = _data;
+    }
+
+    function fooBar(uint256 amount, string calldata message) external {
+        emit ReceivedCall(msg.sender, amount, message);
+        lastCaller = msg.sender;
+        lastCallMessage = message;
+    }
+
+    function setInterchainSecurityModule(address _ism) external onlyOwner {
+        interchainSecurityModule = IInterchainSecurityModule(_ism);
+    }
+}
+
+```","",""
+"2023-08-10,09:20:03","timecoder15","#0","OK, thank you! Bandwith is important for us, because of that we want to ask.","jkol#0",""
+"2023-08-10,09:20:16","kevliu","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139186455239999628/Screenshot_2023-08-10_at_14.20.07.png"
+"2023-08-10,09:20:21","sherlockvarm","#0","Okk","jkol#0",""
+"2023-08-10,09:20:21","kevliu","#0","but i keep on getting this error","",""
+"2023-08-10,09:21:35","kevliu","#0","this is my IMessageRecipient.sol contract 
+
+```
+
+// SPDX-License-Identifier: MIT OR Apache-2.0
+pragma solidity >=0.8.0;
+
+interface IMessageRecipient {
+    function handle(
+        uint32 _origin,
+        bytes32 _sender,
+        bytes calldata _message
+    ) external;
+}
+
+```
+
+and this is my IInterchainSecurityModule.sol contract
+
+```
+// SPDX-License-Identifier: MIT OR Apache-2.0
+pragma solidity >=0.8.0;
+
+interface IInterchainSecurityModule {
+    enum Types {
+        UNUSED,
+        ROUTING,
+        AGGREGATION,
+        LEGACY_MULTISIG,
+        MERKLE_ROOT_MULTISIG,
+        MESSAGE_ID_MULTISIG,
+        NULL, // used with relayer carrying no metadata
+        CCIP_READ
+    }
+
+    /**
+     * @notice Returns an enum that represents the type of security model
+     * encoded by this ISM.
+     * @dev Relayers infer how to fetch and format metadata.
+     */
+    function moduleType() external view returns (uint8);
+
+    /**
+     * @notice Defines a security model responsible for verifying interchain
+     * messages based on the provided metadata.
+     * @param _metadata Off-chain metadata provided by a relayer, specific to
+     * the security model encoded by the module (e.g. validator signatures)
+     * @param _message Hyperlane encoded interchain message
+     * @return True if the message was verified
+     */
+    function verify(bytes calldata _metadata, bytes calldata _message)
+        external
+        returns (bool);
+}
+
+interface ISpecifiesInterchainSecurityModule {
+    function interchainSecurityModule()
+        external
+        view
+        returns (IInterchainSecurityModule);
+}
+
+
+```","",""
+"2023-08-10,09:22:05","jkol","#0","<@398898564488495104> give this a look when you have a sec","kunala#0",""
+"2023-08-10,09:24:00","kevliu","#0","Thank you so much for your help, im eagerly waiting for your response 🙂","",""
+"2023-08-10,09:46:04","kevliu","#0","<@398898564488495104> please could you take a look?","kunala#0",""
+"2023-08-10,09:46:29","sherlockvarm","#0","<@821575762742083655> I have sent the question in developers section of hyperlane","jkol#0",""
+"2023-08-10,10:11:36",".knpz","#0","Hi <@821575762742083655> , the team seems to be busy.","jkol#0",""
+"2023-08-10,10:11:52",".knpz","#0","Can I ask you some technical but basic questions?","",""
+"2023-08-10,10:24:29","kevliu","#0","nevermind i have sorted it now thanks","",""
+"2023-08-10,10:24:39","jkol","#0","kevin you are the real mvp","",""
+"2023-08-10,10:24:44","jkol","#0","<@583516422454378502> yessir whats up?",".knpz#0",""
+"2023-08-10,10:29:50",".knpz","#0","1 - How can I create an accountRouter (ICA) for a new blockchain?, during deployment (whole hyperlane protocol) this gets created?, I dont seem to find the address.","",""
+"2023-08-10,10:30:52",".knpz","#0","- The docs say the ICA router address is the same, is that true?","",""
+"2023-08-10,10:31:23",".knpz","#0","// consistent across all chains
+address icaRouter = 0xc011170d9795a7a2d065E384EAd1CA3394A7d35E;","",""
+"2023-08-10,10:32:23","jkol","#0","oh this is a very good question",".knpz#0",""
+"2023-08-10,10:32:32","jkol","#0","it is consistent across the chains its deployed on already","",""
+"2023-08-10,10:34:00",".knpz","#0","Is the mailbox and interChainGasPaymaster consistent too?","",""
+"2023-08-10,10:34:01",".knpz","#0","// The Mailbox (same address on all EVM chains)
+
+IMailbox mailbox = IMailbox(0x35231d4c2D8B8ADcB5617A638A0c4548684c7C70);
+
+// An IGP contract associated with the Abacus Works relayer
+
+// (same address on all mainnet EVM chains)
+
+IInterchainGasPaymaster igp = IInterchainGasPaymaster(
+
+0x56f52c0A1ddcD557285f7CBc782D3d83096CE1Cc
+
+);","",""
+"2023-08-10,10:35:42","jkol","#0","but currently you are right, Hyperlane Deploy does not put an ICA router on the new chain, you could do it manually. There's no real harm in your chain's ICA router having a unique address 🙂","",""
+"2023-08-10,10:36:03",".knpz","#0","Kunal is part of the dev team?","",""
+"2023-08-10,10:36:09","jkol","#0","indeed","",""
+"2023-08-10,10:36:47",".knpz","#0","Do you know wheres the contract? I searched all the repo to find it and didnt have luck.","jkol#0",""
+"2023-08-10,10:37:23",".knpz","#0","Same with warps (erc20 and 721 bridging), cant find those contracts.","",""
+"2023-08-10,10:41:36","kunala","#0","here's the ICA contract: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/c53c1f705935c8dbe2379a302c8f395bf9ecb79b/solidity/contracts/middleware/InterchainAccountRouter.sol",".knpz#0",""
+"2023-08-10,10:43:01","kunala","#0","erc20: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/c53c1f705935c8dbe2379a302c8f395bf9ecb79b/typescript/token/contracts/HypERC20.sol","",""
+"2023-08-10,10:43:09",".knpz","#0","<@398898564488495104> .","kunala#0",""
+"2023-08-10,10:43:26","kunala","#0","erc721: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/c53c1f705935c8dbe2379a302c8f395bf9ecb79b/typescript/token/contracts/HypERC721.sol","",""
+"2023-08-10,10:43:32",".knpz","#0","COuld you have a look into a problem i have?","",""
+"2023-08-10,10:43:48",".knpz","#0","https://github.com/Kanoopz/interchainCallErrors/tree/main","",""
+"2023-08-10,10:44:12",".knpz","#0","This is the repo with a ss of the error while calling a function that does a interchainFunctionCall.","",""
+"2023-08-10,10:44:53","kunala","#0","try making the call directly","",""
+"2023-08-10,10:45:08","kunala","#0","with cast send","",""
+"2023-08-10,10:45:12",".knpz","#0","Got it.","",""
+"2023-08-10,10:45:34",".knpz","#0","Cast send?, isnt that for foundry anvil?","kunala#0",""
+"2023-08-10,10:45:52","kunala","#0","you can use cast send with any evm network","",""
+"2023-08-10,10:46:03",".knpz","#0","Damn.","",""
+"2023-08-10,10:46:10",".knpz","#0","Any doc I can search for that?","",""
+"2023-08-10,10:46:31","kunala","#0","https://book.getfoundry.sh/reference/cast/cast-send","",""
+"2023-08-10,10:47:29",".knpz","#0","Thanks.","",""
+"2023-08-10,10:47:34",".knpz","#0","I have one more doubt.","",""
+"2023-08-10,10:47:53","kunala","#0","what's that?","",""
+"2023-08-10,10:48:07",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139208564129415209/image.png"
+"2023-08-10,10:48:32",".knpz","#0","In the callRemote functionCall what should I pass insetad of abi.encodeCall(pool.swap, (...))?
+abi.encodeWithSelector(x69fe0e2d, newFee)?","",""
+"2023-08-10,10:48:46",".knpz","#0","Theres the example of owner and ownee.","",""
+"2023-08-10,10:49:04",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139208805385781288/image.png"
+"2023-08-10,10:49:30",".knpz","#0","Insetad of abi.encodeCall(pool.swap, (...)), abi.encodeWithSelector(x69fe0e2d, newFee) would be okay?","",""
+"2023-08-10,10:51:11","kunala","#0","yup that looks good","",""
+"2023-08-10,10:52:34",".knpz","#0","Nice.","",""
+"2023-08-10,10:52:43",".knpz","#0","Could I bother you with one last question?","",""
+"2023-08-10,10:52:49","kunala","#0","ya go for it","",""
+"2023-08-10,10:54:37",".knpz","#0","When I deployed the whole protocol, I always got problems.","",""
+"2023-08-10,10:55:18",".knpz","#0","I managed to get until the tests step that sends two messages between the local and remote chain.","",""
+"2023-08-10,10:55:57",".knpz","#0","In theory I have to run the two validators in order for the two messages to reach.","",""
+"2023-08-10,10:56:13",".knpz","#0","But when I run my second validator Always ended up with an error.","",""
+"2023-08-10,10:56:40","kunala","#0","what kind of error?","",""
+"2023-08-10,10:56:55",".knpz","#0","I think it has something to do with running a second validator while the port/localhost is already being used.","",""
+"2023-08-10,10:56:57",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139210787785818213/image.png"
+"2023-08-10,10:57:09",".knpz","#0","This messages appears when I start the second validator.","",""
+"2023-08-10,10:57:49",".knpz","#0","And this is are the firstValidator logs:","",""
+"2023-08-10,10:57:58",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139211042585591988/image.png"
+"2023-08-10,10:58:07",".knpz","#0","Vs the logs of the secondOne:","",""
+"2023-08-10,10:58:15",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139211116564729856/image.png"
+"2023-08-10,10:58:34",".knpz","#0","Is because of the port being used?","",""
+"2023-08-10,10:59:57","kunala","#0","ya the metrics port defaults to 9090","",""
+"2023-08-10,11:00:12","kunala","#0","you can configure it 9091 for the second validator","",""
+"2023-08-10,11:00:31","kunala","#0","are u running it locallys or with docker?","",""
+"2023-08-10,11:00:36",".knpz","#0","Locally.","",""
+"2023-08-10,11:00:48",".knpz","#0","What would be the flag for that?","kunala#0",""
+"2023-08-10,11:01:24","kunala","#0","`export HYP_BASE_METRICS=9091`","",""
+"2023-08-10,11:01:59",".knpz","#0","Thats goes in the validator.env, right?","",""
+"2023-08-10,11:02:06","kunala","#0","yup","",""
+"2023-08-10,11:02:15","kunala","#0","also this is where it goes: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/c53c1f705935c8dbe2379a302c8f395bf9ecb79b/rust/helm/hyperlane-agent/","",""
+"2023-08-10,11:02:16",".knpz","#0","Nice.","",""
+"2023-08-10,11:02:32",".knpz","#0","Really, really, really, thanks a lot.","",""
+"2023-08-10,11:02:51",".knpz","#0","I appreciate it.","",""
+"2023-08-10,11:02:56","kunala","#0","np","",""
+"2023-08-10,11:37:54",".knpz","#0","Sorry to bother you again <@398898564488495104> .","kunala#0",""
+"2023-08-10,11:38:18",".knpz","#0","Could you tell me how to run another blockchain using foundryCast?","",""
+"2023-08-10,11:38:30",".knpz","#0","I cant find how in the docs.","",""
+"2023-08-10,12:51:33","timecoder15","#0","We're getting ""ERROR relayer::msg::metadata::base: error: When fetching module type"" error and pending messages not transmitted by relayer","",""
+"2023-08-10,12:51:48","timecoder15","#0","But message test of hyperlane deploy works","",""
+"2023-08-10,12:59:14","timecoder15","#0","other errors are ""INFO relayer::msg::metadata::aggregation: Could not fetch all metadata: Found 0 of the 1 required ISM metadata pieces"" and "" INFO relayer::msg::pending_message: Could not fetch metadata""","",""
+"2023-08-10,14:57:56","timecoder15","#0","i have this errors","",""
+"2023-08-10,15:14:28","timecoder15","#0","And another error is this ""hyperlane_ethereum::routing_ism: error: (code: 3, message: execution reverted: No ISM found for origin domain, data: Some (String(""0x08c379a000000
+020000000000000000000000000000000000000000000000000000000000000001e4e6£2049534d20666£756e642066672206£726967696e20646f6d61696e0000"")))
+00000000000000000000000000000000000""","",""
+"2023-08-10,18:29:49","jkol","#0","so this one is because in your config you aren't setting up the security module (the ISM) properly to secure the messages coming from the origin chain","timecoder15#0",""
+"2023-08-10,19:53:47","egeaybars123","#0","How can it be set up properly? We are setting the threshold to 1, and providing an address which will validate the messages. We set these configs in hyperlane-deploy, and there were no problems while test messaging in hyperlane-deploy.","jkol#0",""
+"2023-08-11,06:50:51","ahmetson","#0","<@398898564488495104> do I have to re-deploy the smartcontracts in the local (where the Mailbox is) when I want to add a new destination chains?","kunala#0",""
+"2023-08-11,07:54:43","kunala","#0","you don't need to redeploy any core contracts like mailbox, igp, etc but you have to redeploy the particular middleware you're using like ICA, queryRouter, etc and call the enroll router for that destination domain","",""
+"2023-08-11,07:57:44","kunala","#0","if the test messages are work, I suspect you are putting the wrong domain for your dispatch","egeaybars123#0",""
+"2023-08-11,07:57:56","kunala","#0","what chains are you messaging between?","",""
+"2023-08-11,08:38:27",".knpz","#0","Hi <@398898564488495104>","kunala#0",""
+"2023-08-11,08:38:48",".knpz","#0","When youre available can you check this error I get?","",""
+"2023-08-11,08:39:00",".knpz","#0","https://github.com/Kanoopz/interchainCallErrors/tree/main","",""
+"2023-08-11,08:39:13",".knpz","#0","Or if its easier here:","",""
+"2023-08-11,08:40:11",".knpz","#0","I keep getting this error even though I do have handle function in my receiver contract on mumbai:","",""
+"2023-08-11,08:40:13",".knpz","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1139538765795303434/image.png"
+"2023-08-11,08:40:21",".knpz","#0","My contract:","",""
+"2023-08-11,08:40:44",".knpz","#0","//SPDX-License-Identifier: MIT
+pragma solidity 0.8.13;
+
+import {IMessageRecipient} from ""./imports/IMessageRecipient.sol"";
+
+contract hyperReceive is IMessageRecipient
+{
+    uint public numberReceived;
+
+    uint32 public receivedOrigin;
+    bytes32 public receivedSender;
+
+
+
+    uint32 lastOrigin;
+    bytes32 public lastSender;
+    bytes public lastData;
+
+
+
+
+
+
+
+    function handle(uint32 _origin, bytes32 _sender, bytes calldata _data) external virtual override 
+    {
+        lastOrigin = _origin;
+        lastSender = _sender;
+        lastData = _data;
+    }
+
+    function setReceivedNumber(uint paramNumberReceived) internal
+    {
+        numberReceived = paramNumberReceived;
+    }
+
+    function setSelector() public pure returns (bytes4) 
+    {
+        bytes4 selector = bytes4(keccak256(""setReceivedNumber(uint)""));
+        return selector;
+    }
+}","",""
+"2023-08-11,08:59:07","timecoder15","#0","We think we solved the problem. Thank you!","kunala#0",""
+"2023-08-11,11:10:43","ahmetson","#0","is there any document descirbing where to change the middleware?","kunala#0",""
+"2023-08-11,11:16:52","ahmetson","#0","<@398898564488495104> also, what happens if the destination reverts the transaction, does the origin chain know about it?","kunala#0",""
+"2023-08-11,11:16:58","ahmetson","#0","I couldn't find any documentation about it","",""
+"2023-08-11,11:41:21","ahmetson","#0","What is ICA in the list of the middlewares?
+
+ I guess if I only want to use Mailbox, then I don't need configure the middlewares on the destination.","kunala#0",""
+"2023-08-11,11:42:02","ahmetson","#0","Like:
+
+deploy MailBox on Chain 1, and link it to Chain 2.
+deploy MailBox on Chain 2 and link it to Chain 1.","",""
+"2023-08-11,11:42:08","kunala","#0","the origin won't know about destination reverts","ahmetson#0",""
+"2023-08-11,11:42:28","ahmetson","#0","Yeah, so I am trying to add the mailboxes on two custom chains","",""
+"2023-08-11,11:42:31","kunala","#0","what's your app, I can provide better help that way","ahmetson#0",""
+"2023-08-11,11:43:00","ahmetson","#0","I am trying to build two mailboxes connected to each other.","",""
+"2023-08-11,11:43:17","ahmetson","#0","And getting a pain to understand how to do it using hyperlane-deploy","",""
+"2023-08-11,11:43:44","ahmetson","#0","Clear the message that I wrote?","kunala#0",""
+"2023-08-11,11:43:53","kunala","#0","ahh ok","",""
+"2023-08-11,11:43:58","kunala","#0","on what chains?","",""
+"2023-08-11,11:44:15","ahmetson","#0","My own chain and link it to 4 other chains","",""
+"2023-08-11,11:44:33","ahmetson","#0","Except Goerli, and Sepolia everything else are the chains listed on the partners list","",""
+"2023-08-11,11:44:49","kunala","#0","I see","",""
+"2023-08-11,11:44:58","ahmetson","#0","Base, Mode, Zora, Sepolia, Goerli, and Optimism, and my own chain","",""
+"2023-08-11,11:45:01","kunala","#0","in that case you don't need any middleware","",""
+"2023-08-11,11:45:05","ahmetson","#0","All should have the mailboxes.","",""
+"2023-08-11,11:45:29","ahmetson","#0","Okay. Thanks","",""
+"2023-08-11,11:45:37","ahmetson","#0","Let me try to finish. 🙂","",""
+"2023-08-11,11:45:39","kunala","#0","the core contracts includes the mailboxes","",""
+"2023-08-11,11:45:47","ahmetson","#0","How to skip the --remotes then?","",""
+"2023-08-11,11:46:08","ahmetson","#0","Is there any script that deploys the core contracts only?","",""
+"2023-08-11,11:46:18","kunala","#0","the remotes are needed","",""
+"2023-08-11,11:47:18","ahmetson","#0","If I will redeploy it, it won't affect the core contracts?","",""
+"2023-08-11,11:47:29","kunala","#0","also keep in mind to pass one arg for local","",""
+"2023-08-11,11:47:45","kunala","#0","yaa it'll recover the address","ahmetson#0",""
+"2023-08-11,11:47:46","ahmetson","#0","Basically all the chains that I listed, should be connected to the custom chain.","",""
+"2023-08-11,11:47:49","kunala","#0","and not redeploy","",""
+"2023-08-11,11:48:20","ahmetson","#0","So, --local chain_1 --remotes custom_chain
+--local chain_2 --remotes custom_chain","",""
+"2023-08-11,11:48:31","ahmetson","#0","They all talk to the custom chain.","",""
+"2023-08-11,11:48:47","ahmetson","#0","and then:
+
+--local custom_chain --remotes chain_1 chain_2 chain_3","",""
+"2023-08-11,11:48:54","ahmetson","#0","this is what I am trying to achieve.","",""
+"2023-08-11,11:49:32","ahmetson","#0","what happens If I will redeploy them?","kunala#0",""
+"2023-08-11,11:50:04","kunala","#0","```-local <your_chain> \
+  --remotes base mode sepolia 
+```
+
+should be good","",""
+"2023-08-11,11:51:02","kunala","#0","we recover addresses and if the config matches the past deployment, we don't redeploy","ahmetson#0",""
+"2023-08-11,11:51:17","ahmetson","#0","even for remotes?","",""
+"2023-08-11,11:53:28","ahmetson","#0","where to get the mailbox addresses for base, mode, and zora I couldn't find them on https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/typescript/sdk/src/consts/multisigIsm.ts","kunala#0",""
+"2023-08-11,11:53:59","kunala","#0","so while you are running the deploy script, you are deploying mailbox only on the local chains and ism on each remote chain","",""
+"2023-08-11,11:55:18","kunala","#0","we currently don't have deployments on base, mode or zora","",""
+"2023-08-11,11:55:29","ahmetson","#0","that's why I am making my own. 🙂","kunala#0",""
+"2023-08-11,11:55:42","ahmetson","#0","For testing, but I bet others are doing it as well.","",""
+"2023-08-11,11:56:25","ahmetson","#0","you mean you recover the addresses from the hyperlane server (hyperlane sdk list), or from the config files that I listed?","kunala#0",""
+"2023-08-11,11:56:37","kunala","#0","from the config filel","",""
+"2023-08-11,11:58:54","ahmetson","#0","Okay, so if the deployments are failing during the process (due to insufficient gas, or rpc crash), will the script continue deploying from the next contracts?","",""
+"2023-08-11,11:59:10","ahmetson","#0","Because for the last 10 hours I am trying to build the contracts, and deployed like 100 times","",""
+"2023-08-11,11:59:20","ahmetson","#0","thats why it gets messier","",""
+"2023-08-11,11:59:23","kunala","#0","yaa","",""
+"2023-08-11,11:59:44","kunala","#0","it should start at the next unrecovered address","",""
+"2023-08-11,11:59:56","ahmetson","#0","okay perfect.","",""
+"2023-08-11,12:00:09","ahmetson","#0","Also, how to run the relayer and validator for each of them","",""
+"2023-08-11,12:00:21","ahmetson","#0","I set CONFIG_FILES=<abosule path>","",""
+"2023-08-11,12:00:29","ahmetson","#0","but its not seen by the validator","",""
+"2023-08-11,12:01:31","ahmetson","#0","I have to set hyperlane-monorepo/rust/config/last_config.json from the hyperlane-deployer/agent","",""
+"2023-08-11,12:02:03","ahmetson","#0","oh wait, i can use the same config, just change the --originchane for each validator","",""
+"2023-08-11,12:02:17","kunala","#0","yaa exactly","",""
+"2023-08-11,12:02:37","kunala","#0","we do an intersection, so the config file only needs to include your chain","",""
+"2023-08-11,12:02:55","ahmetson","#0","could you describe more details?","kunala#0",""
+"2023-08-11,12:04:13","ahmetson","#0","Also, <@398898564488495104> https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/solidity/contracts/HyperlaneConnectionClient.sol#L65C1-L66C1  where does this initialize called?","kunala#0",""
+"2023-08-11,12:04:45","ahmetson","#0","I am currently calling it within the constructor.","",""
+"2023-08-11,12:09:03","kunala","#0","so this is the config we use as default for CONFIG_FILES: 
+
+https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/rust/config/mainnet_config.json
+
+You have to mirror the json structure and only include chains which are not part of our config (in your case local, base, zora, mode) but you can skip goerli, sepolia since we already have them","ahmetson#0",""
+"2023-08-11,12:09:36","ahmetson","#0","already doing it.","kunala#0",""
+"2023-08-11,12:10:30","kunala","#0","it's used in the router here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/f5b59c9a30617c9bb60554de5aedac840949fbeb/solidity/contracts/Router.sol#L46","ahmetson#0",""
+"2023-08-11,12:10:31","ahmetson","#0","I am writing some notes during the development","",""
+"2023-08-11,12:10:40","ahmetson","#0","https://github.com/ahmetson/superhack/blob/main/docs/HYPERLANE.md#using-hyperlane","",""
+"2023-08-11,12:11:04","ahmetson","#0","Okay, so basically need to call it in the constructor","kunala#0",""
+"2023-08-11,12:11:14","kunala","#0","hmm","",""
+"2023-08-11,12:11:24","kunala","#0","I thought you were only deploying mailboxes","",""
+"2023-08-11,12:11:44","kunala","#0","which doesn't need `__HyperlaneConnectionClient_initialize`","",""
+"2023-08-11,12:12:05","ahmetson","#0","and the https://github.com/ahmetson/superhack/blob/main/contracts/contracts/DexNotifier.sol#L8","kunala#0",""
+"2023-08-11,12:12:28","ahmetson","#0","This is the contract that should be deployed on all L2, and then it interacts with the custom network's mailbox.","",""
+"2023-08-11,12:12:44","ahmetson","#0","chain_1 -> custom_chain -> chain_2","",""
+"2023-08-11,12:12:48","ahmetson","#0","it's the flow","",""
+"2023-08-11,12:13:07","kunala","#0","ahh I see","",""
+"2023-08-11,12:13:22","kunala","#0","i would recommend you inherit from HypERC20: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/f5b59c9a30617c9bb60554de5aedac840949fbeb/typescript/token/contracts/HypERC20.sol","",""
+"2023-08-11,12:14:08","ahmetson","#0","I was thinking about it. But decided not to use yet.","",""
+"2023-08-11,12:14:22","kunala","#0","but even in your current contract, you're calling `__HyperlaneConnectionClient_initialize` at the right place","ahmetson#0",""
+"2023-08-11,12:14:51","ahmetson","#0","So the app could work with the deployed contracts, not only the one that i have. the more generic it is, the better.","",""
+"2023-08-11,12:15:45","ahmetson","#0","<@398898564488495104> is there any place where I can set the confirmation time?","kunala#0",""
+"2023-08-11,12:15:52","ahmetson","#0","to speed it up","",""
+"2023-08-11,12:16:01","ahmetson","#0","is it the confirmation blocks?","",""
+"2023-08-11,12:16:20","ahmetson","#0","to decrease as possible so that mailboxes exchange messages correctly.","",""
+"2023-08-11,12:17:02","kunala","#0","it's `finalityBlocks` in the config file","",""
+"2023-08-11,12:22:03","ahmetson","#0","thanks","kunala#0",""
+"2023-08-11,12:22:18","kunala","#0","np","",""
+"2023-08-11,12:24:16","ahmetson","#0","Kunal, out of interest, why is the deploy script redeploys the ISMs everytime","kunala#0",""
+"2023-08-11,12:24:27","ahmetson","#0","Routing ISM and Multisig ISM","",""
+"2023-08-11,12:24:42","kunala","#0","it's not redeploying multisig iirc","",""
+"2023-08-11,12:25:15","kunala","#0","the routingism config isn't deterministic so it can't recover","",""
+"2023-08-11,14:07:20","utkuomer.eth","#0","https://github.com/hyperlane-xyz/hyperlane-monorepo/issues/2645","",""
+"2023-08-11,14:07:23","utkuomer.eth","#0","need help","",""
+"2023-08-11,17:24:20","youtpout","#0","Hello, does hyperlane supports zora testnet ?","",""
+"2023-08-11,17:46:33","jkol","#0","It’s not on Zora officially, but several hackers are working to add it to Zora and anyone else can 🙂","",""
+"2023-08-11,19:06:54","utkuomer.eth","#0","i ran 2 validators (opstack, opgoerli) and 1 relayer between them, so i try to send test message from my opstack to opgoerli is succesfuly delivered but opgoerli to opstack not delivered. Is validator needed to index all the blocks or can i start the newest block indexing from?","",""
+"2023-08-11,20:20:48","taionewgate","#0","so how can i run relayer and validator if in base, mode, zora don't have mailbox contract ?","kunala#0",""
+"2023-08-11,20:24:45","taionewgate","#0","```
+docker run --platform linux/amd64 \
+  -it \
+  --env-file relayer.env \
+  --mount type=bind,source=""$(pwd)""/hyperlane_db,target=/hyperlane_db \
+  gcr.io/abacus-labs-dev/hyperlane-agent:ed7569d-20230725-171222 \
+  ./relayer
+Error: ParsingError
+
+#####
+
+config_path: `chains.optimismgoerli.connection`
+env_path: `HYP_BASE_CHAINS_OPTIMISMGOERLI_CONNECTION`
+arg_key: `--chains.optimismgoerli.connection`
+error: Missing `connection` configuration
+
+Location:
+    hyperlane-base/src/settings/chains.rs:234:28
+
+
+Location:
+    /usr/src/hyperlane-base/src/agent.rs:67:20
+```
+when i run 
+```
+ DEBUG=hyperlane* yarn ts-node scripts/deploy-hyperlane.ts --local optimismgoerli \
+  --remotes zoratest \
+  --key <private-key>
+```
+process stop but still have value from `/artifacts/addresses.json` , i don't have `/artifacts/agent_config.json` 
+could you share the command to run relayer and validator in docker","",""
+"2023-08-12,03:57:10","youtpout","#0","nice, if someone implement it on zora testnet/mode testnet, I'm interested, I need the query functionnality","jkol#0",""
+"2023-08-12,04:56:33","taionewgate","#0","does anyone know this error when run validator. my account have 0.5eth in op-goerli","","https://cdn.discordapp.com/attachments/1006683697841459230/1139844866877169684/Screen_Shot_2023-08-12_at_17.55.25.png"
+"2023-08-12,05:27:46","ahmetson","#0","<@821575762742083655> <@398898564488495104> does relayer works only with two chains only? If i want to connect N to N chains, then each pair should have it's own relayer?","kunala#0、jkol#0",""
+"2023-08-12,13:33:48","kevliu","#0","https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/solidity/contracts/isms/MultisigIsm.sol","",""
+"2023-08-12,13:33:51","kevliu","#0","file not found","",""
+"2023-08-12,18:53:01","jkol","#0","solidity/contracts/isms/multisig","kevliu#0",""
+"2023-08-12,18:59:33","kevliu","#0","ty","",""
+"2023-08-12,19:33:25","taionewgate","#0","<@821575762742083655> could you help me","jkol#0",""
+"2023-08-12,22:25:31","kunala","#0","sorry for the delay but you only need one relayer for any number of chains, you have to specify `HYP_BASE_RELAYCHAINS=zora,base,local_chain1` to relay between these chains","ahmetson#0",""
+"2023-08-12,22:26:20","ahmetson","#0","<@398898564488495104> I got this issue","kunala#0、timecoder15#0",""
+"2023-08-12,22:26:40","ahmetson","#0","Local is sepolia, the remote is custom chain.","",""
+"2023-08-12,22:27:24","ahmetson","#0","I deployed the contracts. Copied the result of custom chain into relayer. And left Sepolia as it is in from hyperlane.","",""
+"2023-08-12,22:27:33","ahmetson","#0","No idea, how to solve the config issue.","",""
+"2023-08-12,22:28:13","ahmetson","#0","<@398898564488495104> also, how to set the payments for the relayer already living relayers?","kunala#0",""
+"2023-08-12,22:28:45","kunala","#0","what's the contract call on the destination chain?","ahmetson#0",""
+"2023-08-12,22:28:59","ahmetson","#0","What do you mean?","kunala#0",""
+"2023-08-12,22:29:03","ahmetson","#0","handle?","",""
+"2023-08-12,22:29:07","kunala","#0","yaa","",""
+"2023-08-12,22:31:27","ahmetson","#0","https://github.com/ahmetson/superhack/blob/main/contracts/contracts/DexPull.sol#L109","",""
+"2023-08-12,22:32:12","ahmetson","#0","I am doing 2 stack:
+
+Goerli -> Sepolia. (Works fine)
+Sepolia -> Base (fails with ISM missing to verify origin)","",""
+"2023-08-12,22:32:30","kunala","#0","ahh I see","",""
+"2023-08-12,22:32:37","ahmetson","#0","I deployed the Base. But brain stopped to work to debug and find the data from the code.","",""
+"2023-08-12,22:32:48","ahmetson","#0","Sleeping 3 hours in the last 3 days.","",""
+"2023-08-12,22:33:37","ahmetson","#0","I deployed the Base multiple times. But I think it wasn't final. since hyperlane-deploy keeps screaming about timeout","",""
+"2023-08-12,22:33:55","kunala","#0","yaa I think that's the issue","",""
+"2023-08-12,22:34:12","kunala","#0","your base mailbox doesn't know which ism to use","",""
+"2023-08-12,22:34:26","ahmetson","#0","on destination?","",""
+"2023-08-12,22:34:32","kunala","#0","yaa","",""
+"2023-08-12,22:34:41","ahmetson","#0","If I will redeploy it?","",""
+"2023-08-12,22:34:50","kunala","#0","you can try it","",""
+"2023-08-12,22:35:02","ahmetson","#0","I tried, it recovers the mailbox that was deployed","",""
+"2023-08-12,22:35:39","kunala","#0","you can call `setDefaultIsm()` on the mailbox","",""
+"2023-08-12,22:35:58","ahmetson","#0","Okay, what if I will use three testnets used by Hyperlane. Deadline is today. So I don't have the time to run it.","",""
+"2023-08-12,22:36:21","ahmetson","#0","Already stopped custom chain. and Abstract wallet. 😦","",""
+"2023-08-12,22:37:37","kunala","#0","yaa I recommend doing op-goerli and sepolia for now","",""
+"2023-08-12,22:38:13","ahmetson","#0","I have one concern","",""
+"2023-08-12,22:38:22","ahmetson","#0","goerli sends message to sepolia.","",""
+"2023-08-12,22:38:46","ahmetson","#0","Sepolia's handle() dispatches the message to op-goerli.","",""
+"2023-08-12,22:39:34","ahmetson","#0","Now, since sepolia's handle is called by hyperlane relayer, then that relayer will pay for handle by op-goerli?","",""
+"2023-08-12,22:40:58","kunala","#0","no you have to pay for sepolia <-> op-goerli still","",""
+"2023-08-12,22:41:10","kunala","#0","otherwise the second leg won't go through","",""
+"2023-08-12,22:41:51","ahmetson","#0","is there any way how can I fill the smartcontract, and it will pass it to relayer?","",""
+"2023-08-12,22:42:55","kunala","#0","in sepolia's handle, you can call `igp.payForGas()`","",""
+"2023-08-12,22:43:21","ahmetson","#0","is it possible to calculate the gas price in the same transaction?","",""
+"2023-08-12,22:44:19","ahmetson","#0","quoteGasPayment","",""
+"2023-08-12,22:44:23","ahmetson","#0","This one.","",""
+"2023-08-12,22:44:23","kunala","#0","u mean from goerli, calculate sep->opgoerli price?","",""
+"2023-08-12,22:44:31","ahmetson","#0","yeah.","kunala#0",""
+"2023-08-12,22:44:43","ahmetson","#0","wait i think I know the solution.","",""
+"2023-08-12,22:45:23","kunala","#0","one quick way to do this is send the sepolia contract some extra value and then overpay the relayer","",""
+"2023-08-12,22:45:24","ahmetson","#0","I mean, can I do this in Sepolia in one transaction:
+
+1. quoteGas()
+2. dispatch()
+3. payForGas()","",""
+"2023-08-12,22:45:38","kunala","#0","the relayer refunds you back so shouldn't be a problem","",""
+"2023-08-12,22:45:46","ahmetson","#0","ah ok.","",""
+"2023-08-12,22:45:50","kunala","#0","yaa that works too","ahmetson#0",""
+"2023-08-12,22:46:04","ahmetson","#0","Okay.","kunala#0",""
+"2023-08-12,23:57:37","ahmetson","#0","In what the gas prices are set?","kunala#0",""
+"2023-08-12,23:57:40","ahmetson","#0","in wei?","",""
+"2023-08-12,23:58:06","ahmetson","#0","Is that the gas limit?","",""
+"2023-08-12,23:58:13","ahmetson","#0","or the base?","",""
+"2023-08-13,03:19:50","yikesawjeez","#0","ight, who's up my droogies","",""
+"2023-08-13,03:21:03","yikesawjeez","#0","i got an op-stack-hyperlane to troubleshoot","",""
+"2023-08-13,03:25:31","yikesawjeez","#0","anyone got validator addresses for goerli?","",""
+"2023-08-13,03:40:19","yikesawjeez","#0","nm gottem coach -- if anyone needs 0x0x62d08A5C0c8dC54187B02FD3C8a0d66C7B68c7Aa is core goerli validator","",""
+"2023-08-13,13:16:41","timecoder15","#0","Thanks for all helps!","",""
+"2023-08-13,13:18:21","timecoder15","#0","As PerCapita team, to use Chainlink VRF and Worldcoin was very crucial for us. But these technologies not supports Zora network. Thanks to Hyperlane, we deployed Hyperlane on Zora and used this technologies thanks to Messaging API. Our relayers and validator is running 24/7 on a dedicated server now 🙂","",""
+"2023-08-13,13:35:23","kunala","#0","lovely","",""
+"2023-08-13,13:58:09","rohanshrothrium","#0","Hi Guys!
+Thanks to the hyperlane team for constant support!
+
+RollOP is an Orderbook based Perpetuals DEX on a custom rollup based on the OP-Stack. You can start trading from Optimism, Base / Goerli. Using Hyperlane’s Messaging, we are able to create a unified pools and the warp routes allow a user to use the our synthetic token on Base/Goerli which is equivalent to a USDC and can easily be swaped on Base/Goerli.
+
+The rollup doesn't have access to oracles, so we built our own pricefeeds for the Orderbook. These are used to update the funding rates for our DEX.
+
+We have added the ISM Multisig and IGP contracts as pre deploys to in addition to the existing predeploys on op-stack-hyperlane repo and added scripts to deploy these on other L2s.
+Would love to include these changes to the op-stack-hyperlane repo!","",""
+"2023-08-13,14:35:46","jkol","#0","incredible stuff ser","rohanshrothrium#0",""
+"2023-08-13,21:09:03","kevliu","#0","That is fcking incredible","rohanshrothrium#0",""
+"2023-08-14,14:24:50","keenregen","#0","** The project that I submitted for Superhack (I used a Hyperlane Warp Route for the asset bridge part): **
+
+** Name **: ➡️ **CarbonSinksProject** ⬇️ 
+
+** Description  :  An engaging and educative, daily-challenge-based, mobile-friendly Superchain web 3 project, giving meaningful NFTs as prizes, promoting environmental responsibility **
+
+** Public URL **: https://ethglobal.com/showcase/carbonsinksproject-ijh9t","",""
+"2023-08-14,15:59:07","taionewgate","#0","Here's what we built:
+
+**Name**: 🎮 super/Place
+**Description**: We are fans of the game r/place on reddit which have a large and united community. I want blockchain users like that too. That's the inspiration for us to create **super/place**
+The game logic is quite similar to r/place, which is a game with rounds, each round is 3 minutes. In those 3 minutes, each player can only place a single canvas cell. The interesting point is that we use worldID to verify the user is unique. The main contract is deployed in op-goerli but we support users from other chains like goerli, base, zora by using message API from hyperlane. also we have migrate nft from canvas that allows players to create their own nft at a time and sell it by using the zora createDrop contract.
+**Demo**: We currently don't maintain hyperlane validator and replicar so it will only be playable from goerli and op-goerli. but can mint NFT on goerli, base goerli, op goerli and zora goerli
+https://super-place.vercel.app/
+**Github**: https://github.com/ragingrahul/superPlace
+
+Public URL: https://ethglobal.com/showcase/super-place-iq3cz","",""
+"2023-08-14,17:32:40","timecoder15","#0","We want to introduce our project, **PerCapita**.
+**How PerCapita Works:** Per Capita is a smart contract on the Zora Testnet. Collection owners can launch their Initial NFT Offerings from the PerCapita website. Individuals can join offerings by depositing the required amount and proving they are a human and participating in that offering for the first time. This proof is generated by WorldID app and verified on-chain thanks to the Proof of Personhood technology of Worldcoin. When the deadline is over, the execution of offerings will be incentivized by rewards from the deposit pool so that anyone can execute distribution. Execution requests a random seed for determining who the winners are and it is received from Chainlink VRF. Thanks to Lehmer Random Number Generation algorithm, we can determine winners and which NFT they won only in constant time complexity O(1).  After distribution, individuals can claim their NFTs if they won, or they can claim their deposits if they are not winners. Because Chainlink VRF and Worldcoin contracts do not exist in Zora, we have deployed Hyperlane to Zora and used Messaging API of Hyperlane, which provides fast cross-chain messaging.
+**Why do we use Hyperlane:** PerCapita is an Initial NFT Offering platform on Zora Testnet. While developing this project, we needed Chainlink VRF and WorldID. However, since these technologies were not active on the Zora network, we decided to utilize Hyperlane technology for cross-chain messaging. We have deployed Hyperlane on Zora and set up our validator and relayers, which are running now 24/7 on a dedicated server. You can find our Hyperlane deployment addresses in our GitHub repository.
+**How we use Hyperlane:** We have used Hyperlane's Messaging API to receive Chainlink VRF random seed and Worldcoin personhood proof result from the Goerli network.
+
+See here for more details: https://ethglobal.com/showcase/percapita-rzg64","",""
+"2023-08-14,19:34:03",".knpz","#0","Hey hyperlaneTeam, I used your crossChainInfraestructure to build my project “chainAbstraction”; basic accountAbstractionImplementation thats able to link a users abstractedAccounts between multiple chains.
+
+https://ethglobal.com/showcase/chainabstraction-9k511
+
+Desciption:
+multiChain accountAbstraction implementation. One abstractedAccount at its originalChain is able to manipulate its linked otherChain abstractedAccount with operations being done by the address that created the AA or the owner of the nullifierHash that crated the AA with his worldID (even if its not the same EOA address).
+
+exampleUseCase:
+We have a user that has linkedAbstractedAccounts in polygon and optimism. He has 70 usdc on polygon aa and 50 in optimism aa. He wants to send 100 usdc to an EOA on optimism, so what he does is he send the 70 he has on his polygon aa to the optimism EOA using multichainInfraestructure and at the same time invoques a transaction (invoques from the polygon aa) on the optimism aa to send the remaining 30 usdc to the EOA.
+The end result of the balances of the users abstractedAccounts are:
+* PolygonAA; 0
+* OptimismAA; 20 And the optimism EOA has received 100 usdc without even knowing that transfer was done through a multiChain process.
+The project is been built with solidity, react and ethersJs stack in this multiple blockchains :
+- goerliEthereum 
+- sepoliaEthereum
+- goerliOptimism
+- baseTestnet
+- zoraTestnet
+- modeTestnet 
+thanks to chainlinkCcip and layerZero multiChain infraestructure. Tools being used are metamaskWallet, hardhat for test development and remix for quick smartContracts design.
+
+
+Github:
+https://github.com/Kanoopz/chainAbstractionSuperhackProject
+
+Please check it out!","",""
+"2023-08-14,20:16:41","jkol","#0","these are awesome, we're very excited to review all of the great submissions we got 🙂","",""
+"2023-08-14,21:52:22","magical_vybez","#0","Here's what I built
+
+Name
+
+Pontis - An NFT bridge based on the implementation of a hyperlane EIP5164 adapter. It is an NFT bridge utilizing the EIP5164 using hyperlane as the transport layer, so it enforces the ERC5164 interfaces, and messages can be called on remote chains using dispatch on the source chain.
+
+How it works
+
+The sender NFT contract inherits from hyperlaneSenderAdapter which implements the MessageDispatch interface and the adapter also inherits all the interfaces from hyperlane necessary for cross chain message passing. The receiver NFT contract inherits from hyperlaneReceiverAdapter which implements the MessageExecutor interface and the adapter inherits all the interfaces from hyperlane necessary for cross chain message passing as well. When someone wants to mint an NFT on the remote chain, the user can call ""mintRemote"" passing a string ""uri"" to be used to mint the NFT on the destination chain, and this function makes a cross chain call by calling dispatch on the hyperlaneSenderAdapter which encodes a function ""mintLocal"" to be called on remote chain, now this message is going to be transported by the hyperlane bridge, and it will be received by the hyperlaneReceiverAdapter, which then decodes the message and executes ""mintLocal"" on the destination chain, thereby minting the NFT on the remote chain. This is just an example use case of the hyperlane EIP 5164 adapter in action using an NFT bridge as the usecase.
+
+Link
+
+https://ethglobal.com/showcase/undefined-hkoqa","",""
+"2023-08-15,13:27:22","taionewgate","#0","Hi we from super/place team 
+https://ethglobal.com/showcase/super-place-iq3cz
+Since the demo is only me so you won't be able to see the brilliance that super/space can have. This is a video of the r/place game we inspired. it might look like this if a big community joins
+https://www.youtube.com/watch?v=K5O3UgLG2Jw
+live here but now only works for op-goerli and goerli
+https://super-place.vercel.app/","",""
+"2023-08-15,19:40:32","jkol","#0","this is so cool","taionewgate#0",""
+"2023-08-19,11:44:57","ethanol48","#0","Hey everyone, they are granting access to mint Soulbound Optimism NFT, for the SuperHackers participants!! more info in this message:
+
+https://discord.com/channels/554623348622098432/830059424965328947/1142109726927233035","",""
+"2023-09-13,13:30:56","awliang","#0","","","https://cdn.discordapp.com/attachments/1006683697841459230/1151570727967928361/image.png"
+"2023-09-15,01:13:36","awliang","#0","Hello and welcome to the <#1006683697841459230> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Hyperlane Team at any point with your questions!
+
+👀 **ABOUT**
+**Hyperlane** is the first interoperability layer that enables you to permissionlessly connect any blockchain, out-of-the-box. With Hyperlane you can connect your app to any chain, and easily have interchain function calls or asset transfers. Hyperlane has a one of a kind modular security stack, that allows you to configure your security model, and customize the security protocol you use to fit the action of your users.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇**Top prize - $4,000 - Best use of Permissionless Interoperability**
+🎼 $**2,000 - Best Interchain Application**
+💸 $**2,000 - Best use of Hyperlane Warp Routes**
+🌐 $**2,000 - Write new Interchain Security Modules (ISMs)**
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+**📃 Documentation**
+https://www.hyperlane.xyz/
+https://docs.hyperlane.xyz/hyperlane-docs/
+https://docs.hyperlane.xyz/hyperlane-docs/developers/quickstarts
+https://github.com/hyperlane-xyz/hyperlane-monorepo
+https://explorer.hyperlane.xyz/
+https://docs.hyperlane.xyz/docs/protocol/permissionless-interoperability
+**💙 Community**
+https://discord.gg/hyperlane
+https://hyperlanexyz.notion.site/Hackathon-Success-Guide-ba09d3ae19134ed496ac3f2d8953e5e4
+https://hyperlanexyz.notion.site/461d17f7b3184dfb97299e23a7b6b736?v=cfa90fa2883a4906ab9095e384b853a7","",""

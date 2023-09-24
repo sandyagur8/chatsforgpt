@@ -1,0 +1,836 @@
+Date,Username,User tag,Content,Mentions,link
+"2022-09-12,17:50:47","awliang","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1019002159561461770/unknown.png"
+"2022-10-03,09:23:50","awliang","#0","Hello and welcome to the <#1018977212579446825> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Scroll Team at any point with your questions!
+
+
+👀 **ABOUT** 
+**Scroll** is a zkEVM, a zk-rollup layer2 on Ethereum, compatible with Ethereum at the bytecode level. Being built in the open for over a year, Scroll’s mission is to scale Ethereum in the best way possible while preserving its core values. With the launch of the Pre-alpha testnet, Scroll is inviting the developer community to join early and begin innovating.
+
+
+🏆 **PRIZE OVERVIEW **
+
+💡 $2,500 prize for most-innovative
+🚀 $2,500 prize for best zk-dapp
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+
+**Scroll 🛠 An Introduction to Scroll: Deploying contracts and a glimpse into the infrastructure**
+**Time: **10:00 PM – Oct 07, 2022
+**Location:** Workshop Room 4
+
+
+🔗 **IMPORTANT LINKS**
+Fill out the typeform: https://scroll.io/early-dev 
+Join https://t.co/FtH7U2ANW1","",""
+"2022-10-07,16:51:09","MeruemGungi","#2461","Hi guys","",""
+"2022-10-07,16:55:32","MeruemGungi","#2461","Welcome to the discord!","",""
+"2022-10-07,16:58:57","MeruemGungi","#2461","Everyone, do fill this typeform out for whitelisted access to the testnet:","",""
+"2022-10-07,17:01:22","MeruemGungi","#2461","https://scroll.io/early-dev","",""
+"2022-10-07,21:26:36","orestta","#0","Let us know if you're having any trouble!","",""
+"2022-10-07,23:30:41","hiroism007","#0","This question may not be directly related to Scroll, but I am having a hard time catching up on Halo2. Is there any good guide or example repos somewhere?  I have some experiences of writing circuit in Circom but it’s pretty different.","",""
+"2022-10-08,00:21:28","andyrdt","#0208","Halo2 can definitely be intimidating!
+I'd recommend watching this talk by Ying Tong as an intro to Halo2 (starts ~1:17:00): https://youtu.be/VMLx0j5JuG0?t=4614 
+The Zcash team also has a very good Halo2 book covering the math behind the proof system, as well as more practical documentation and examples: https://zcash.github.io/halo2/index.html
+Hope this helps!","hiroism007#0",""
+"2022-10-08,00:25:00","haichen_scroll","#0","We also have a Halo2 example repo to demonstrate how to write a Fibonacci circuit and a few simple gadgets using Halo2. https://github.com/icemelon/halo2-examples/","hiroism007#0",""
+"2022-10-08,07:23:30","hiroism007","#0","Thank you! I'm going to check it!","",""
+"2022-10-08,08:00:06","orestta","#0","Note: you don't need to use halo2 yourself to apply for our zk hackathon prize. Feel free to focus on a use case and let Scroll abstract the math away for you 🙂","",""
+"2022-10-08,08:08:29","hiroism007","#0","Yeah. I will try halo2 after this hackathon and now focusing on building another zk-dapp on Scroll!","",""
+"2022-10-08,08:15:30","orestta","#0","Great! You got whitelisted already?","hiroism007#0",""
+"2022-10-08,08:20:36","hiroism007","#0","Yes!  In fact, I applied for the allowlist some months ago and got it on 5 Oct.","orestta#0",""
+"2022-10-08,10:03:51","YonathanCruz","#0074","hello, i registered in the alpha testnet already","",""
+"2022-10-08,10:04:20","YonathanCruz","#0074","anyone else know how to be accepted","",""
+"2022-10-08,10:04:26","YonathanCruz","#0074","gm!","",""
+"2022-10-08,10:48:21","orestta","#0","Perfect. Hit us up if you need anything","hiroism007#0",""
+"2022-10-08,10:48:52","orestta","#0","Hi, could you DM me your addr? I'll make sure you get accepted sooner 🙂","YonathanCruz#0074",""
+"2022-10-08,10:49:11","YonathanCruz","#0074","Sure!!","",""
+"2022-10-08,13:10:22","turupawn","#0","Hello guys, I just successfully launched a test dapp on L2 testnet. And now I want to do interoperability between layers.
+
+Can anyone provide me the messanger contract on L1 and the solidity source code 🙏 🙏 
+
+I looked for it on github and on the guides but no luck","",""
+"2022-10-08,13:36:32","MeruemGungi","#2461","Hi all, we are whitelisting participants actively, please message here, <@648103584503693332> or me if you don't have access 🙂","orestta#0",""
+"2022-10-08,13:36:40","MeruemGungi","#2461","And everyone should also have received an email","",""
+"2022-10-08,17:55:21","haichen_scroll","#0","Right now our bridge frontend hasn't added custom ERC20 token bridging functionality. That's why there's no guide about it yet. We will have the doc once our bridge frontend supports it. Right now, you can just deploy and play with it on the L2.","turupawn#0",""
+"2022-10-08,21:46:20","ariutokintumi","#0","Hi guys","",""
+"2022-10-08,21:46:32","ariutokintumi","#0","Any stills on the hacking area?","",""
+"2022-10-09,17:44:51","orestta","#0","Congrats everyone!!!","",""
+"2022-10-16,21:47:15","orestta","#0","Hi guys, we'd really appreciate it if you could tweet about your experience with using Scroll and tag @Scroll_ZKP","",""
+"2023-02-10,04:22:02","awliang","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1073534300156338186/image.png"
+"2023-03-06,04:00:18","awliang","#0","Hello and welcome to the <#1018977212579446825> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Scroll Team at any point with your questions!
+
+
+👀 **ABOUT**
+**Scroll** is a zero-knowledge rollup built to scale Ethereum. We're committed to Ethereum's ethos, and like to call ourselves the community-first zkEVM.
+
+If you’re experienced in building on Ethereum, your code, dependencies, and tooling work with Scroll out of the box. This is possible because our network is compatible with EVM bytecode and designed to feel just like developing on Ethereum. With the launch of the Alpha testnet on Goerli, Scroll is inviting the developer community to join early and begin innovating.
+
+
+🏆 **PRIZE OVERVIEW**
+
+**📜Deploy your smart contract on Scroll** - $10,000 total (Pool Prize)
+**🧾Empower Ethereum's Future with AppliedZK **- 2 x $2,500
+**😋Cheap & Fast Blockspace Utilizoooor **- 2 x $2,500
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/scaling2023/prizes
+
+
+👀 **WORKSHOP**
+https://www.youtube.com/watch?v=4QegxMj6Udg
+
+
+🔗 **IMPORTANT LINKS**
+https://guide.scroll.io/developers/developer-quickstart
+https://guide.scroll.io/developers/building-on-scroll
+https://scroll.io/alpha
+https://scroll.io/blog/architecture","",""
+"2023-03-09,11:13:53","juliomcruz","#0","Hello, in my application I'm try to implement a easy onboarding for kids. this will be a kids App/Game","",""
+"2023-03-09,11:14:35","juliomcruz","#0","Some body can help me or let me know is this is possible with Scroll. Thank You","",""
+"2023-03-09,13:40:38","swagtimusprime","#0","hey! Scroll is compatible with any Solidity smart contract that runs on the EVM. So anything you code in Solidity will work on Scroll","juliomcruz#0",""
+"2023-03-09,13:41:07","swagtimusprime","#0","all of the developer tooling you're familiar with, such as HardHat, Truffle, Foundry, Brownie, Remix, etc. also work with Scroll","",""
+"2023-03-09,13:50:17","kypanz","#0","hello i have a question, i gonna build in testnet  network, is valid ?, or i need to deploy in mainnet ?","",""
+"2023-03-09,14:15:15","swagtimusprime","#0","yes please build on our alpha testnet: https://scroll.io/alpha. our mainnet has not launched yet","kypanz#0",""
+"2023-03-09,16:09:14","kypanz","#0","thank you ❤️","",""
+"2023-03-09,21:58:33","sandman","#1577","Does Scroll have account abstraction?","",""
+"2023-03-10,00:56:59","swagtimusprime","#0","Not at the moment, but we are considering the ERC-4337 standard which would provide Scroll with account abstraction","sandman#1577",""
+"2023-03-11,06:51:50","distroinfinity","#0","Hello 
+I was hoping to get some help on building our project for the scaling eth hack.
+My use case is basically that I want to hold some transactions in a pool, do some custom calculations once people are done adding their entires and then send a final transaction to the blockchain containing the result of the calculations on the entires of the pool.
+Correct me if I am wrong but I think rollups are build to serve this purpose? Can I build something like this using scroll?","",""
+"2023-03-11,09:52:00","0xkamal7","#0","Yes, rollups do exactly this. Are you looking to build a custom rollup ?","distroinfinity#0",""
+"2023-03-11,09:54:28","distroinfinity","#0","I am not sure what existing solution offer and if a custom rollup is needed to build a dapp like this","0xkamal7#0",""
+"2023-03-11,09:57:42","0xkamal7","#0","depends on what kind of custom calculations you are looking to execute on it.","distroinfinity#0",""
+"2023-03-11,12:21:51","distroinfinity","#0","<@909865544243642418> can we connect quickly and discuss what  I am trying to execute","0xkamal7#0",""
+"2023-03-11,20:48:01","aniketpr01","#0","Hello, we are trying to build a ZKP based dapp - ZK health ID and records systems and we wanted to try out scroll but unable to find any existing resource on how to create ZK proofs for any custom use case without writing circuits in Halo2, seeking support for some docs or existing projects on scroll","",""
+"2023-03-11,20:54:43","tony.stark","#0","> We want to see dApps taking advantage of cheap gas fees and 3 second block times. What new use cases or user experience benefits can these bring to applications? What can you build in this design space that Ethereum makes more difficult?
+
+Got some ideas on what to build around this, not sure if y'all have an office hour to validate this idea and would like to dig deeper into y'alls available resource. The POC dApp will be around e-commerce","",""
+"2023-03-13,11:42:31","dghelm","#0","This a really cool project idea! Scroll could definitely host the smart contracts for this, but it still sounds like you're trying to build something outside of Scroll that ""settles"" to Scroll (or whatever chain it's based on.) This could be a rollup, but it could be another off-chain protocol. If you haven't already, I suggest looking into what CoW Swap is doing -- they might be an inspiring model.","distroinfinity#0",""
+"2023-03-13,11:47:43","dghelm","#0","Scroll doesn't expose additional ZK primitives beyond those of Ethereum -- put another way, we support any proof system that can be verified on mainnet.
+
+So, if you want to try Circom, you could looking into verifying proofs using this: https://docs.circom.io/getting-started/proving-circuits/#verifying-from-a-smart-contract
+(you might be generating proofs in browser using something like https://github.com/iden3/snarkjs )
+
+Noir also has the ability to be verified by a solidity contract. I'm not sure the best resource for this, but a good search suggested https://github.com/gakonst/noir-hello-world","aniketpr01#0",""
+"2023-03-13,11:50:04","dghelm","#0","You might also take a look at this, which walks through code snippets in a few languages and should point you in the right direction: https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56","",""
+"2023-03-13,11:51:05","dghelm","#0","We don't have any scheduled yet, but this is a great idea. Let me get with the team and see if we can put something together -- if not, we can find a quick time to sync too.","tony.stark#0",""
+"2023-03-13,11:54:34","aniketpr01","#0","thank you, this helps 🙏","dghelm#0",""
+"2023-03-13,17:27:17","arredr2","#0","Hey <@&1051797938625597490>! 👋
+
+Come join us for the **Scroll 🛠️ Scaling Ethereum with Rollups and Zero-Knowledge Proofs workshop *happening now***!
+
+👀**Join on Zoom:**
+
+**https://ethglobal.zoom.us/j/84547015835**
+
+💻**Watch on YouTube:**
+
+**https://youtube.com/live/4QegxMj6Udg?feature=share**","",""
+"2023-03-13,18:21:25","dghelm","#0","Thanks to all who joined in and for all the great questions -- **don't hesitate to reach out if you need some goerliETH on Scroll!**","",""
+"2023-03-13,23:11:03","fm_dfmlab","#0","Hello @here
+I’m Femi from team Hardora 
+We are building Hardora Oracle a decentralized, mobile-first, hardware-enabled, compute-enabled oracle for off-chain data computation, such as verifiable true random number generation on scroll.
+Our goal is to make more off-chain data and computation available for DApps running on scroll😊","",""
+"2023-03-13,23:32:17",".wolfhack","#0","Hi, i need some, 0x749162D11F6F1Ec7Ae0ff9E337AD13901f44310C","dghelm#0",""
+"2023-03-13,23:32:49",".wolfhack","#0","💻","",""
+"2023-03-14,05:48:03","johnydrama.eth","#0","Hi, i also need some 0x62bc8C095f122CADeF3B263eBaaAB9D51F06c94D","",""
+"2023-03-14,08:57:49","bouchut","#0","Hello, 
+I also need some goerliETH : 0xC9C9b6C569062e7a5Fc641f4248D25814300e86A
+Thanks in advance <:nfteth:822186186016948314>","dghelm#0",""
+"2023-03-14,11:27:58","swagtimusprime","#0","<@429359693576667145> <@820629280517521448> <@293072814116831244> sent all of you some goerliETH on the alpha testnet!","johnydrama.eth#0、.wolfhack#0、bouchut#0",""
+"2023-03-14,11:29:26","swagtimusprime","#0","@here if anyone would like some feedback on their project, there will be a project feedback call tomorrow, Wednesday, at 3pm EST. we will be there to answer questions and give feedback. we've seen some requests for an office hour, so please use your chance to attend if you need feedback! 🙂","",""
+"2023-03-14,13:18:01","aniruddha","#0","hey i also need some 0x7671A05D4e947A7E991a8e2A92EEd7A3a9b9A861","swagtimusprime#0",""
+"2023-03-14,13:21:23","swagtimusprime","#0","sent!","aniruddha#0",""
+"2023-03-14,13:21:37","aniruddha","#0","thankyou so much","swagtimusprime#0",""
+"2023-03-15,07:41:00","dprazizz.eth","#0","Hey @here, I need some goerliETH on alpha testnet pls
+
+0xd95197b6E16414Ac0AFEBC412C93bc491EAa29A1
+
+Thanks alot !","",""
+"2023-03-15,09:43:04","swagtimusprime","#0","sent!","dprazizz.eth#0",""
+"2023-03-15,09:44:14","dprazizz.eth","#0","Thanks alot !","swagtimusprime#0",""
+"2023-03-15,09:51:38","dprazizz.eth","#0","<@134841241178341376> is there anyway to bridge eth to USDC in scroll alpha testnet ?","swagtimusprime#0",""
+"2023-03-15,09:52:02","swagtimusprime","#0","do you mean swapping ETH to USDC?","",""
+"2023-03-15,09:52:10","dprazizz.eth","#0","yess","",""
+"2023-03-15,09:53:02","swagtimusprime","#0","there is no ""official"" testnet USDC contract deployed by us, however some community members deployed something. you can also go to our uniswap v3 deployment and swap your ETH for this community-created testnet USDC there: https://uniswap-v3.scroll.io/#/swap
+
+here is the unofficial, community-created testnet USDC faucet. please use at your own risk! https://scroll-usdc-faucet.vercel.app/","",""
+"2023-03-15,09:55:56","dprazizz.eth","#0","Thank you !","",""
+"2023-03-15,13:36:19","sarveshlimaye","#0","Hey <@134841241178341376> need some goerliETH on alpha testnet . Wallet address - 0x12d0Ad7d21bdbe7E05AB0aDd973C58fB48b52Ae5","swagtimusprime#0",""
+"2023-03-15,13:55:01","swagtimusprime","#0","sent!","sarveshlimaye#0",""
+"2023-03-15,14:01:13","sarveshlimaye","#0","Thank you 😄","",""
+"2023-03-15,14:22:56",".0xvaibhav","#0","Hey I want to use the scroll L2 API but in the docs it says that the URL is `https://localhost:8554/api` is there a mistake in the URL?","",""
+"2023-03-15,14:31:19","dghelm","#0","That's a mistake -- the URL should be `https://alpha-rpc.scroll.io/l2` for our public RPC, but we also have others hosted in our ecosystem like `https://scroll-alphanet.public.blastapi.io`.
+
+See https://guide.scroll.io/developers/developer-quickstart for more info.",".0xvaibhav#0",""
+"2023-03-15,14:31:41","dghelm","#0","Also, mind pointing me to where you saw that so I can get it fixed?",".0xvaibhav#0",""
+"2023-03-15,14:32:24",".0xvaibhav","#0","https://blockscout.scroll.io/api-docs Here","dghelm#0",""
+"2023-03-15,14:34:00",".0xvaibhav","#0","but I am using the URL `https://blockscout.scroll.io/api` as specified by blockscout in their website. This also works right?","",""
+"2023-03-15,14:37:17","dghelm","#0","TBH, I've never tested it since that's the blockscout API, not an RPC endpoint. Happy to get back to you soon about it though. We also have indexers and providers that have supported APIs listed here: https://guide.scroll.io/developers/integrations",".0xvaibhav#0",""
+"2023-03-15,14:41:22","dghelm","#0","Seems to work for something like a GET request to `https://blockscout.scroll.io/api?module=account&action=eth_get_balance&address=0x98110937b5D6C5FCB0BA99480e585D2364e9809C` -- keep in mind this will be a JSON response and results will need to be interpreted as hex. For example, this result of `0x1d0cbcdbb0ff821d` converts to `2093255578573832733` for a wallet with 2.09ETH.",".0xvaibhav#0",""
+"2023-03-15,14:42:00","dghelm","#0","YMMV for in-browser requests due to CORS Headers and I will have to reach out to our infra team to see if this is heavily rate-limited.","",""
+"2023-03-15,14:42:45",".0xvaibhav","#0","Yes I tried the blockscout api and it works fine, besides I am looking for an API instead of an RPC endpoint for my app. Thanks for the help though","dghelm#0",""
+"2023-03-15,15:13:21","0xbaz","#0","hey <@344928363753897986> would be keen to jam and for you to meet <@503742597462753297> as well 🙂 can send you my calendly","goblinoats#0、dghelm#0",""
+"2023-03-15,15:13:30","0xbaz","#0","to talk all things Snarky Monsters!","",""
+"2023-03-15,15:44:55","swagtimusprime","#0","I'd also love to chat <@911052815613448192> - found your project really cool!","0xbaz#0",""
+"2023-03-15,16:02:46","0xkamal7","#0","<@134841241178341376>are u free for a chat in meantime, hv sent you a friend req.","swagtimusprime#0",""
+"2023-03-15,16:41:18",".wolfhack","#0","Thank you 🦾","swagtimusprime#0",""
+"2023-03-15,16:43:07","swagtimusprime","#0","sure!","0xkamal7#0",""
+"2023-03-16,07:56:42","0xbaz","#0","Added <@134841241178341376> and <@344928363753897986> as frens so we can chat with <@503742597462753297> too","swagtimusprime#0、goblinoats#0、dghelm#0",""
+"2023-03-16,11:12:51","purento","#3629","Hey! In the bounties section, it mentioned something about AppliedZK. Is there any link to that?","",""
+"2023-03-16,11:13:40","purento","#3629","Also, it might sound like a noob question, but could a smart contract developer leverage the underlying Scroll Circuits for Eth OpCodes?","",""
+"2023-03-16,12:24:54","swagtimusprime","#0","not sure what you mean by that, but the whole point of our zkEVM is to circuitify the EVM so we can use the EVM's OpCodes in a zk-setting","purento#3629",""
+"2023-03-16,12:25:13","swagtimusprime","#0","which basically means you can use all the EVM's opcodes on Scroll without having to jump through any hoops","",""
+"2023-03-16,17:09:40","dghelm","#0","So that would be a theme for a project, not a feature of Scroll. You'd use something like Semaphore, circom or Noir to build and deploy a ZK project on Scroll. Scroll doesn't expose anything special for ZK projects that doesn't exist on mainnet though.","purento#3629",""
+"2023-03-18,05:15:34","sino1729","#0","Hi, I'm going to work on app on Scroll and catching up rn. Is this workshop still applicable?","",""
+"2023-03-18,12:13:04","0xvaibhav11","#0","Hey I also needed some.
+1 or 2 if possible on goerli","swagtimusprime#0",""
+"2023-03-18,12:28:07","0xvaibhav11","#0","please help 
+my address 
+0xe159251810d23623a64Adb495648e44730bdfA27","",""
+"2023-03-18,13:50:09","armanpanda","#0","Goerli faucets are not working","",""
+"2023-03-18,13:50:22","armanpanda","#0","Can we bridge sepolia eth ??","",""
+"2023-03-18,14:47:20","0xvaibhav11","#0","You can mine
+https://goerli-faucet.pk910.de/
+
+If you need little geth","armanpanda#0",""
+"2023-03-18,19:55:15","swagtimusprime","#0","if you send me your address I can send you some bridged goerliETH","armanpanda#0",""
+"2023-03-18,19:55:22","swagtimusprime","#0","sent you some ETH!","0xvaibhav11#0",""
+"2023-03-18,19:56:13","swagtimusprime","#0","it's probably a bit outdated because we have now launched our alpha testnet. you can find all relevant details here: https://scroll.io/alpha","sino1729#0",""
+"2023-03-19,07:11:34","armanpanda","#0","0xbA46496e7E5A61a7A9DF5e54Ea330aD20C006d00 here you go","swagtimusprime#0",""
+"2023-03-20,00:58:59","rodotriton","#0","I just send you a friend request 🙂","dghelm#0",""
+"2023-03-20,00:59:21","rodotriton","#0","Have some doubts on scroll (:","",""
+"2023-03-20,02:57:15","MikeBroco","#3365","Hello! Tell me if this documentation is enough to build a Dapp on Scroll, are there any other useful links or video tutorials? Who can I contact if I have technical or other questions? Thx!","dghelm#0",""
+"2023-03-20,05:25:11","Kirill Varlamov","#3202","Hello everyone! This is Kirill from OnGrid team working on Transacta https://ethglobal.com/showcase/transacta-1v2t4 NFT cross-rollup bridge project. 
+
+We're currently working on using existing Scroll's L1 gateway to bridge ERC-721 tokens, but we've run into a bit of a snag. The gateway contract doesn't seem to have a specific function to bridge ERC-721 tokens. We expected to have something like the `depositERC20` function.
+
+We're wondering if it would be appropriate to use the depositETHAndCall function instead, with the following call sequence:
+
+1) user's tx calls L1-ERC-721-Token.depositToScroll(tokenId). Given TokenId gets burnt on L1
+2) ERC-721-Token.depositToScroll(tokenId) calls L1GatewayRouter.depositETHAndCall(_to=L2-ERC-721-Token, _amount=0, _data=rlp(L2-ERC-721-Token.receiveFunction.selector, tokenId))
+3) The call gets passed to L2 Scroll and L2-ERC-721-Token.receiveFunction(tokenId) gets executed and tokenId gets minted on L2
+
+If anyone has any insights or suggestions, we would greatly appreciate your input. Thank you!","",""
+"2023-03-20,05:30:27","karangoraniya","#0","try coinbase Goerli faucets 
+
+https://coinbase.com/faucets/ethereum-goerli-faucet","armanpanda#0",""
+"2023-03-20,07:10:37","Kirill Varlamov","#3202","I'm curious about how long it typically takes tx to be promoted from Goerly to Scroll? Almost 2 hrs passed but layer2 tx still didn't appear https://goerli.etherscan.io/tx/0x2bad900c7161d458c2c41a69c448a170e8e0939ee661fb9fda48b4562c00beda","","https://cdn.discordapp.com/attachments/1018977212579446825/1087332366516768928/image.png"
+"2023-03-20,09:05:16","swagtimusprime","#0","sent you some!","armanpanda#0",""
+"2023-03-20,09:06:24","swagtimusprime","#0","yes this should be enough. Scroll's developer experience is just like on L1 - any Solidity code you write works out of the box, and all the dev tools you're familiar with, eg HardHat, Foundry, Truffel, etc all work too","MikeBroco#3365",""
+"2023-03-20,09:07:16","swagtimusprime","#0","it should usually take 10-15 minutes, sometimes longer. have you received your funds yet?","Kirill Varlamov#3202",""
+"2023-03-20,09:09:56","swagtimusprime","#0","these are polygon transactions, this is Scroll 😄","Kirill Varlamov#3202",""
+"2023-03-20,09:10:15","Kirill Varlamov","#3202","ah ) working on both in parallel )","",""
+"2023-03-20,09:10:58","Kirill Varlamov","#3202","still stuck","","https://cdn.discordapp.com/attachments/1018977212579446825/1087362653376217108/image.png"
+"2023-03-20,09:12:08","swagtimusprime","#0","can you DM me the tx hash so we can investigate?","Kirill Varlamov#3202",""
+"2023-03-20,13:51:11","MikeBroco","#3365","Tnx! I'm more interested in sk integration with the frontend - maybe there is a video with a step by step guide?","swagtimusprime#0",""
+"2023-03-20,13:52:01","swagtimusprime","#0","what are you referring to with sk?","MikeBroco#3365",""
+"2023-03-20,14:14:30","MikeBroco","#3365","smart contract","swagtimusprime#0",""
+"2023-03-20,14:16:57","swagtimusprime","#0","if you've ever done any projects on an EVM-chain before, it's the same exact process. if you're completely new to coding Solidity, I recommend reading through some guides, eg: https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/","MikeBroco#3365",""
+"2023-03-21,10:44:01","0m0t","#0","0x7212f07cc038cC838B0B7F7AE236bf98dae221d4","",""
+"2023-03-21,10:44:20","0m0t","#0","Can you send me some bridged eth","",""
+"2023-03-21,10:45:28","0m0t","#0","I'm getting a Connect Timeout Error when deploying (first time on scroll, works on several other networks). Maybe the rpc?","",""
+"2023-03-21,10:48:08","zemse","#0","Currently the `eth_getProof` RPC on scroll's node gives an error `the method eth_getProof does not exist/is not available`.
+Is there any chance this method can be enabled?","",""
+"2023-03-21,10:59:08","0m0t","#0","rpc stopped timing out but now: Error: legacy pre-eip-155 transactions not supported","",""
+"2023-03-21,11:05:03","zemse","#0","yeah this one I think the zkevm circuits yet to support it.","0m0t#0",""
+"2023-03-21,11:32:19","swagtimusprime","#0","sent you some ETH on our Alpha!","0m0t#0",""
+"2023-03-21,11:32:35","swagtimusprime","#0","this is correct","zemse#0",""
+"2023-03-21,11:38:07","pajicf","#0","Hi, the L1Messenger is permissionless and I think this should work.
+There's also a ERC721 and ERC1155 Gateway which are permissioned right now so we can esnure each NFT has a correctly functioning counterpart on L2. We're working on the process so anyone can do it, but rn one of our engineers can help.
+
+If you'd use one of these two, you'd need to deploy a contract on both L1 and L2 and ask us to register it manually.","Kirill Varlamov#3202",""
+"2023-03-21,11:59:28","pajicf","#0","Hey, it's not enabled on our public RPC, but you can use it through 3rd party providers such as Unifra: https://console.unifra.io/
+
+There's also something to keep in mind, the L2 uses different trie structure, so resulting proof will be different from Ethereum, keep this in mind if you're using some libraries for this 🙂","zemse#0",""
+"2023-03-21,12:38:50","holyaustin","#0","Please devs can I use Scroll with subgraph? I can t find Scroll in the list of networks subgraph supports.","",""
+"2023-03-21,14:02:16","pajicf","#0","The Graph isn't yet available on the Scroll testnet, but we're working on the support for it","holyaustin#0",""
+"2023-03-21,14:32:18","dghelm","#0","What are you doing to see this error? EIP1155 is more about gas pricing and something we don't use in the sequencer, but would love to reproduce the error.","0m0t#0",""
+"2023-03-21,14:56:57","swagtimusprime","#0","hey <@163118061828833280> I saw at the check-in you've been asking for feedback. happy to chat about your project in DMs!","hunty.#0",""
+"2023-03-21,17:15:05","bchief","#0","Hey what are scroll-specific JSON-RPC methods for scroll transaction data like commit, precommit, etc","",""
+"2023-03-21,22:04:58","0m0t","#0","deploying a create2factory (error message is EIP-155 not 1155 btw) https://github.com/eth-infinitism/account-abstraction/blob/develop/src/Create2Factory.ts","dghelm#0",""
+"2023-03-22,00:49:16","zemse","#0","Awesome thanks! Yea I saw the extra two fields from the docs, I think I can try to add support for that in my project.","pajicf#0",""
+"2023-03-22,01:03:26","zemse","#0","Btw I'm facing an issue, an the empty storage root seems to be zero hash here, which does not make sense to me (for merkle patricia trie it's keccak256(rlp(""0x"")) but here its zero hash). Looking at the account proof it does not look like Merkle Patricial trie either. Can you please point me to any document with information on the trie structure used?
+
+I already tried finding info about trie structure in docs, here its just mentioned that just two field are added: <https://guide.scroll.io/developers/ethereum-and-alpha-testnet-differences#state-account>","",""
+"2023-03-22,06:03:37","0m0t","#0","is it possible to deploy the Deterministic Deployment Proxy from https://github.com/Arachnid/deterministic-deployment-proxy to Scroll? among other uses, hardhat-deploy depends on that (at the specific address) for deterministicDeployment","",""
+"2023-03-22,10:11:19","swagtimusprime","#0","I believe this *should* work, but regarding create2 maybe <@357424897535770627> can chime in here","0m0t#0、pajicf#0",""
+"2023-03-22,10:12:50","swagtimusprime","#0","can you specify where you're getting this error? is it when you tried to use Unifra?","zemse#0",""
+"2023-03-22,10:38:19","zemse","#0","This might not be an issue, just that I am not able to guess how it works by looking at the proof. I'm adding the details here:","",""
+"2023-03-22,10:42:15","zemse","#0","Request:
+```json
+{
+    ""jsonrpc"": ""2.0"",
+    ""method"": ""eth_getProof"",
+    ""params"": [""0xe7F262BAda4a4b488aD36aF2aA799fb34E5C2Bc3"", [], ""latest""], // this is an EOA
+    ""id"": 1
+}
+```
+Response
+```json
+{
+    ""jsonrpc"": ""2.0"",
+    ""id"": 1,
+    ""result"": {
+        ""address"": ""0xe7f262bada4a4b488ad36af2aa799fb34e5c2bc3"",
+        ""accountProof"": [
+""0x0019fc6d5517adde207d60ca4779ea0a433b962c378374f9e5f87a2407e43ef96318a900140dfef3f011ce6ee954a8e1981551e1ec1d7c9cb25255cdd428d3f918"", // looking at this it is easy to tell its not merkle patricia trie structure
+            ... // lot of elements redacted here
+            ""0x5448495320495320534f4d45204d4147494320425954455320464f5220534d54206d3172525867503278704449""
+        ],
+        ""balance"": ""0x2cfaa2c43eb022"",
+        ""poseidonCodeHash"": ""0x2098f5fb9e239eab3ceac3f27b81e481dc3124d55ffed523a839ee8446b64864"",
+        ""keccakCodeHash"": ""0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"",
+        ""codeSize"": ""0x0"",
+        ""nonce"": ""0x12"",
+        ""storageHash"": ""0x0000000000000000000000000000000000000000000000000000000000000000"", // this is zero hash, while usually it is keccak(""0x80"") i.e. 0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421
+        ""storageProof"": []
+    }
+}
+```
+Just any info reference to the structure of trie would be helpful, even if you dont have anything written some code reference I can try to manage.
+
+This seems to be a normal merkle tree, but not sure what the hash function is being used. maybe it is poseidon","",""
+"2023-03-22,11:00:57","zemse","#0","Also wanted to ask, what are the system specs of the zk prover being used for the alpha testnet?","",""
+"2023-03-22,11:03:51","swagtimusprime","#0","<@529352833439367178> here's a more detailed writeup of our trie structure: https://github.com/scroll-tech/mpt-circuit/blob/main/spec/mpt-proof.md
+
+let me know if that helps!","zemse#0",""
+"2023-03-22,11:30:11","zemse","#0","Thanks! I am installing scroll's zkevm circuits in my project I am getting this rust compilation error, I tried to find which features to enable but not sure how to make this compile.
+
+```rust
+error[E0277]: the trait bound `Fr: Hashable` is not satisfied
+  --> /Users/sohamzemse/Workspace/zero-knowledge/zkevm-circuits/eth-types/src/lib.rs:56:6
+   |
+56 | impl Field for Fr {}
+   |      ^^^^^ the trait `Hashable` is not implemented for `Fr`
+   |
+   = help: the trait `Hashable` is implemented for `halo2curves::bn256::fr::Fr`
+note: required by a bound in `Field`
+  --> /Users/sohamzemse/Workspace/zero-knowledge/zkevm-circuits/eth-types/src/lib.rs:50:59
+   |
+49 | pub trait Field:
+   |           ----- required by a bound in this
+50 |     FieldExt + Halo2Field + PrimeField<Repr = [u8; 32]> + mpt_circuits::hash::Hashable
+   |                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Field`
+
+```
+Previously I was using PSE's repo, I just switched to the scroll's fork develop branch, and my project has to adapt to it now. Here is how my cargo.toml looks like:
+```toml
+bus-mapping = { path = ""../zkevm-circuits/bus-mapping"", features = [ ""test"" ] }
+eth-types = { path = ""../zkevm-circuits/eth-types"", features=[""default""]}
+zkevm-circuits = { path = ""../zkevm-circuits/zkevm-circuits"", features = [""test""] }
+halo2_proofs = { git = ""https://github.com/privacy-scaling-explorations/halo2.git"", tag = ""v2023_02_02"" } 
+```
+Also I am using rust toolchain exactly as in the scroll develop branch. i.e. nightly-2022-12-10
+
+Any ideas to fix this compilation issue? It is coming from scroll's zkevm-circuits fork when referenced in a project, however the zkevm-circuit project compiles successfully on my system so I guess it's somewhere around the way I am referencing the project.","",""
+"2023-03-22,11:33:34","swagtimusprime","#0","hehe this is way over my head but I'll loop in someone who can help. I'll get back to you <@529352833439367178>","zemse#0",""
+"2023-03-22,11:35:33","pajicf","#0","looking into it","swagtimusprime#0",""
+"2023-03-22,12:23:04","pajicf","#0","I've deployed one instance here using my address, so the factory's address will be different and you'll have to modify hardhat config for this.
+This is Safe's singleton factory, we've made an issue already and are waiting for the deployment in a few days: https://github.com/safe-global/safe-singleton-factory/issues/88
+ 
+Deployment:
+https://blockscout.scroll.io/address/0xBEDFa841e8A5B0391e90061FccE7c99775d0e1a0/contracts#address-tabs
+
+Can you try using that one and getting back to me?
+
+Here's the config for Hardhat:
+https://gist.github.com/pajicf/e954855be50caf9ac9c61f910e96cd03","0m0t#0",""
+"2023-03-22,14:12:18","bchief","#0","Hey anyone","",""
+"2023-03-22,14:20:49","zemse","#0","This issue is reproducable using this simple toml on doing `cargo check`
+
+```
+[package]
+name = ""temp""
+version = ""0.1.0""
+edition = ""2021""
+
+[dependencies]
+zkevm-circuits = { git = ""https://github.com/scroll-tech/zkevm-circuits.git"", package=""zkevm-circuits"", features = [""test""] }
+```
+
+
+The error from this is:
+
+```
+error[E0277]: the trait bound `Fr: Hashable` is not satisfied
+```
+
+
+After a lot of googling I found out that patches applied by dependency are not applied by cargo, so I added further
+
+```
+[patch.""https://github.com/privacy-scaling-explorations/halo2.git""]
+halo2_proofs = { git = ""https://github.com/scroll-tech/halo2.git"", branch = ""scroll-dev-1220"" }
+```
+
+which moves on to another error
+
+```
+the trait bound `<C as CurveAffine>::ScalarExt: ff::PrimeField` is not satisfied
+```
+
+I would appreciate any guidance on this, I have been just trying to get installed package compile for the last 3 hours 😢","swagtimusprime#0",""
+"2023-03-22,14:23:44","swagtimusprime","#0","yes I'm on it. some patience please until I get more info 🙂","zemse#0",""
+"2023-03-22,17:48:10","hanspham","#0","Hello I'm trying to deploy a contract with Hardhat, but I get this error 
+```
+reason: 'insufficient funds for intrinsic transaction cost',
+  code: 'INSUFFICIENT_FUNDS',
+```","",""
+"2023-03-22,17:48:22","hanspham","#0","I'm connected to Goerli Test Network","",""
+"2023-03-22,17:48:43","hanspham","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1088217724687233045/Screenshot_from_2023-03-22_14-45-56.png"
+"2023-03-22,17:53:13","pajicf","#0","Did you bridge funds to the address you're trying to use on the L2?","",""
+"2023-03-22,17:57:57","dghelm","#0","Not sure if this got answered!
+
+Currently the sequencer itself is not aware of block batcher and the rollup state, and we have a separate module that does this. So there's not a clear RPC API for it, rather you have to query the rollup contract on L1.","bchief#0",""
+"2023-03-22,17:59:43","0xkamal7","#0","<@134841241178341376> please send me some goerlli  0x0439427C42a099E7E362D86e2Bbe1eA27300f6Cb","swagtimusprime#0",""
+"2023-03-22,18:01:08","dghelm","#0","Sent! (On Scroll Alpha) https://blockscout.scroll.io/tx/0x8b9dfe2c4aa17c7e2128e432f97f1b5fa26e6816e74e30057160b66f5e298669","0xkamal7#0",""
+"2023-03-22,18:07:33","0xkamal7","#0","Thank you ser  👍🏻","dghelm#0",""
+"2023-03-22,20:27:04","swagtimusprime","#0","<@529352833439367178> can you try the branch 'scroll-stable' and see if that works?","zemse#0",""
+"2023-03-23,01:04:10","zemse","#0","Just added `scroll-stable` to toml and still running into same issue
+
+```toml
+[package]
+name = ""temp""
+version = ""0.1.0""
+edition = ""2021""
+
+[dependencies]
+zkevm-circuits = { git = ""https://github.com/scroll-tech/zkevm-circuits.git"", package=""zkevm-circuits"", branch = ""scroll-stable"", features = [""test""] }
+
+# with and without the following patch, the compiler error is same as develop branch
+[patch.""https://github.com/privacy-scaling-explorations/halo2.git""]
+halo2_proofs = { git = ""https://github.com/scroll-tech/halo2.git"", branch = ""scroll-dev-0220"" }
+```","swagtimusprime#0",""
+"2023-03-23,04:16:38","swagtimusprime","#0","Hey <@529352833439367178> I'll set up a group chat with someone who can help 🙂","zemse#0",""
+"2023-03-23,04:18:31","zemse","#0","Thanks!","swagtimusprime#0",""
+"2023-03-23,07:45:05","fabriziogianni7","#0","hey guys,  I would to talk with you about some project. can you reach out?","",""
+"2023-03-23,11:51:38","swagtimusprime","#0","Can you send me a DM? I can't send you one","fabriziogianni7#0",""
+"2023-03-23,11:53:16","0xpanicerror","#0","Hey can you reply to my DM?","swagtimusprime#0",""
+"2023-03-23,11:54:37","swagtimusprime","#0","Yep!","0xpanicerror#0",""
+"2023-03-23,11:56:20","fabriziogianni7","#0","please accept my friendrequ","swagtimusprime#0",""
+"2023-03-23,13:19:15","gabrielaxy.eth","#0","In ERC4337, is it possible to bundle UserOps in Scroll?? If so where can I get the bundler URLs.. or creating my own local bundler work??? please someone help me out here","",""
+"2023-03-23,13:30:38","swagtimusprime","#0","will get back to you on this!","gabrielaxy.eth#0",""
+"2023-03-23,19:03:13","swagtimusprime","#0","hey <@562735785476882454>, we don't have this feature yet, but we're working on it. unfortunately I don't know exactly when that would be live, but probably not before the hackathon ends","gabrielaxy.eth#0",""
+"2023-03-24,00:06:38","askcasmir","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1088675218417004604/Screenshot_2023-03-23_at_11.05.56_PM.png"
+"2023-03-24,00:29:52","gabrielaxy.eth","#0","So erc4337 is not possible on scroll?","swagtimusprime#0",""
+"2023-03-24,00:31:31","Fiona","#8685","Hey Scroll team would any of you be around tomorrow around 11/11:30 (we are in nyc so eastern time) to speak about our project?","",""
+"2023-03-24,01:55:09","gabrielaxy.eth","#0","Hey team, I'm trying to verify my contract in https://blockscout.scroll.io but it's taking more than 20 minutes now and still it is loading... what should I do about this","",""
+"2023-03-24,03:29:51","zemse","#0","Yo guys, can I get some scroll ETH? `0x7842Ec9510F6AE46878C09a1a516Ef7b3C5Ae131`","",""
+"2023-03-24,07:22:28","Ordinary lunatic","#0788","Can I get some ETH on 0xaE93A422CB100d43f0F6bc5F0a8322119FD74385 ?","",""
+"2023-03-24,08:31:17","Ordinary lunatic","#0788","<@134841241178341376>","swagtimusprime#0",""
+"2023-03-24,10:17:28","visualizedturkey","#0","Hi scroll team! could I get some scroll testnet ETH? my address is `0x8115Dc941c059c846eB454a34285202DBd67f2FB`","",""
+"2023-03-24,11:38:35","fionaaboud","#0","Can you send some scroll eth to 0x12412aF7Db65f8608DCD87405C196aD7681bE614","",""
+"2023-03-24,11:47:56","juliomcruz","#0","same please: 0xc2564e41B7F5Cb66d2d99466450CfebcE9e8228f","",""
+"2023-03-24,12:53:59","swagtimusprime","#0","<@529352833439367178> <@760891629816250369> <@1060158535364780143> <@359770212616110081> <@887695020839276577> sent all of you some ETH on the Scroll Alpha testnet 🙂","fionaaboud#0、Ordinary lunatic#0788、juliomcruz#0、zemse#0、VisualTurkey#1162",""
+"2023-03-24,12:54:13","swagtimusprime","#0","it is possible, but we haven't gotten around to implementing it yet","gabrielaxy.eth#0",""
+"2023-03-24,12:56:22","kypanz","#0","i see a lot of good projects in the project updates channel","",""
+"2023-03-24,12:56:47","kypanz","#0","https://tenor.com/view/anime-frustrated-gif-23381439","",""
+"2023-03-24,12:57:25","kypanz","#0","i gonna start from here","arredr2#0",""
+"2023-03-24,12:57:45","kypanz","#0","there exist more videos about scroll in the hackthon ?","",""
+"2023-03-24,12:57:48","swagtimusprime","#0","hey Fiona, I'll get back to you about this. edit: sent you a DM","Fiona#8685",""
+"2023-03-24,13:56:03","visualizedturkey","#0","thanks alot <@134841241178341376> !","swagtimusprime#0",""
+"2023-03-24,14:59:27","pajicf","#0","Hey, can you maybe try using the API to verify?","gabrielaxy.eth#0",""
+"2023-03-24,15:00:01","pajicf","#0","If your project is in hardhat, you can use the hardhat-etherscan plugin","",""
+"2023-03-24,15:02:13","fionaaboud","#0","hey Fiona I ll get back to you about","",""
+"2023-03-24,15:08:28","gabrielaxy.eth","#0","Tried it...","pajicf#0",""
+"2023-03-24,15:09:24","gabrielaxy.eth","#0","This was my request","","https://cdn.discordapp.com/attachments/1018977212579446825/1088902406634483723/message.txt"
+"2023-03-24,15:09:58","gabrielaxy.eth","#0","% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  4558    0    11  100  4547     29  12178 --:--:-- --:--:-- --:--:-- 12219Bad request","",""
+"2023-03-24,15:10:06","gabrielaxy.eth","#0","This is the output","",""
+"2023-03-24,15:10:27","gabrielaxy.eth","#0","Can I use etherscan API key to verify contracts deployed on Scroll?","pajicf#0",""
+"2023-03-24,15:23:59","pajicf","#0","Yes, here's an example config file here: https://gist.github.com/pajicf/e67e35ecec956e98cf2d4139341cb358","",""
+"2023-03-24,18:33:23",".varience","#0","What are the requirements for scroll contracts ?","",""
+"2023-03-24,18:42:50","swagtimusprime","#0","can you explain what you mean by that? Scroll supports any Solidity contract",".varience#0",""
+"2023-03-24,20:13:26",".varience","#0","Do we need to include zk proofs in the contract or will any regular contract work on scroll ?
+Thank you","",""
+"2023-03-24,20:17:40","swagtimusprime","#0","it doesn't have to include zk proofs, any regular contract works 🙂",".varience#0",""
+"2023-03-24,23:59:39","0m0t","#0","cool! I'm not sure if our codebase can use it because it's at a different address than the original, but I'll try","pajicf#0",""
+"2023-03-25,00:00:39","juancamp1987","#0","Hello do anyone have the link to the Scroll Faucet please?","",""
+"2023-03-25,01:23:56","priyanka532002","#0","Hey, Can I get some scroll ETH please?
+0x8122F221aa5Ae3e9A0eCfaC53Bcc31fCFD2dA0D7","",""
+"2023-03-25,04:42:22","Mukul","#0973","Hey, Can I get some ETH on 0xc35fC43ae078961BfC34FfB6c2148571b6f87920 ?","",""
+"2023-03-25,08:07:37","0m0t","#0","I saw this deployment output for Scroll Alpha but it's different from your gist: https://github.com/safe-global/safe-singleton-factory/blob/main/artifacts/534353/deployment.json","pajicf#0",""
+"2023-03-25,08:14:36","0m0t","#0","can I also get some ETH 0x9230891a2f0d2c78Fb14F33d28AB6C1E3754AE1D","",""
+"2023-03-25,09:29:21","noro9954","#0","Heey, im getting 
+Failed to get EIP-1559 fees 
+ error when deploying to alpha testnet , i have 0.5 ETH in my wallet, does anyone have an idea of this error ??","",""
+"2023-03-25,09:29:30","noro9954","#0","im using Foundry","",""
+"2023-03-25,09:42:31","swagtimusprime","#0","You need to disable EIP-1559 style transactions in foundry","noro9954#0",""
+"2023-03-25,09:43:23","noro9954","#0","How can i do it ?","swagtimusprime#0",""
+"2023-03-25,09:45:44","swagtimusprime","#0","It should be an option in foundry somewhere","noro9954#0",""
+"2023-03-25,09:56:02","pajicf","#0","Feel free to use this one now, it's been deployed the other day officially","0m0t#0",""
+"2023-03-25,09:56:26","0m0t","#0","awesome, I'm making progress using it","pajicf#0",""
+"2023-03-25,09:56:29","pajicf","#0","Use --legacy flag","noro9954#0",""
+"2023-03-25,11:09:45","Dedede","#6809","Is there a way to run a scroll node locally instead of having to deploy to the testnet every time?","",""
+"2023-03-25,11:10:24","Dedede","#6809","Also is there a scroll developer that I can talk to today or tomorrow.","",""
+"2023-03-25,12:56:05","tao8617","#0","Anyone met the issue that the `transferFrom` function in ERC20 always revert, and `approve` already done?","",""
+"2023-03-25,14:43:03","ankit7241","#0","I deployed my smart contract on Scroll Alpha Testnet and used that to mint NFTs, so where I could see the minted NFT ?","",""
+"2023-03-25,15:07:04","ankit7241","#0","I've made a SBT smart contract but not able to see the minted NFT. Please help","pajicf#0",""
+"2023-03-25,15:20:08","reupped","#0","Any chance could get some scroll alpha eth? 0xFc62E94af9aBd25a1D7abfe00F7034Cf154BbBD9","",""
+"2023-03-25,15:38:24","dghelm","#0","Not documented at the moment. Are there things that hardhat or foundry's local setups aren't matching with Scroll testnet? Most of Scroll interaction from the app devs perspective is just geth on the backend.","Dedede#6809",""
+"2023-03-25,15:42:21","dghelm","#0","Sent!","reupped#0",""
+"2023-03-25,15:51:54","dghelm","#0","Mind sharing the contract address?
+
+You can try using the blockscout API if it's a 721 -- here is an example wallet showing its 721 tokens: https://blockscout.scroll.io/address/0xb550e2CC40cDBF4cF36088f6b6Aa8A4Ff4B6a158/tokens#address-tabs
+
+That said, we don't have an NFT viewer app deployed that I'm aware of that understand the collection's details, renders the image to screen, etc.","ankit7241#0",""
+"2023-03-25,15:56:17","bchief","#0","Is there any scroll sdk ?","",""
+"2023-03-25,15:59:12",".smoothyyy","#0","can I also get some ETH 0x56Db34Ae6c025506DC42d116916cDCf18769330b","",""
+"2023-03-25,16:04:15","Mukul","#0973","<@344928363753897986> <@134841241178341376>","swagtimusprime#0、dghelm#0",""
+"2023-03-25,16:20:58","swagtimusprime","#0","no, but you can refer to https://guide.scroll.io/developers/building-on-scroll for our documentation","bchief#0",""
+"2023-03-25,16:21:40","swagtimusprime","#0","sent you some!",".smoothyyy#0",""
+"2023-03-25,16:27:31","ankit7241","#0","Okay got it thanks","dghelm#0",""
+"2023-03-25,16:30:30","bchief","#0","how to get scroll l1 data like tx hash, root, batch index etc when tx done on l2","swagtimusprime#0",""
+"2023-03-25,17:25:44","dghelm","#0","Goerli (our L1 for testnet) doesn't expose the l2 txs like this -- it's used by the verifier contract but txs are not individually callable or indexed on L1.
+
+Hope that answers your question.","bchief#0",""
+"2023-03-25,20:51:36","askcasmir","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1089350913237454848/Screenshot_2023-03-25_at_7.50.41_PM.png"
+"2023-03-25,20:52:07","askcasmir","#0","is this error from my Foundry setup or: No files changed, compilation skipped
+Error: 
+(code: -32000, message: err: insufficient funds for gas * price + value: address 0x668417616f1502D13EA1f9528F83072A133e8E01 have 29630197845264 want 41303693435476 (supplied gas 2963), data: None)","",""
+"2023-03-25,21:04:07","askcasmir","#0","I think I need some Test Goerli on Scroll Alpha: 0x81D9069957Bfbd6fb29C3b0686Ce78397FF3E009","",""
+"2023-03-25,21:04:25","askcasmir","#0","I have some Goerli ETH but can I send it ccross chain?","",""
+"2023-03-25,22:19:07","swagtimusprime","#0","you can bridge goerliETH to Scroll Alpha using our bridge here: https://scroll.io/alpha/bridge
+
+I've also sent you some ETH on our Alpha!","askcasmir#0",""
+"2023-03-25,22:54:39","juancamp1987","#0","can you sent me some ETH on goerli to bridge","swagtimusprime#0",""
+"2023-03-26,04:06:52","karthikeya_44","#0","Can I deploy my contracts to scroll alpha testnet and as of indexing I set up an local graph node but I can't make it available to web is my submission is considered or do I have to make the deployment online plz respond","",""
+"2023-03-26,04:09:48","namngrg","#0","To be eligible for the prize pool bounty, will deploying the smart contracts to the scroll network make us eligible or do we also have to make the frontend interaction on top of scroll??","",""
+"2023-03-26,05:23:17","fabriziogianni7","#0","hey, can someone send testnet tokens to 0x39806bDCBd704970000Bd6DB4874D6e98cf15123","",""
+"2023-03-26,05:40:39","jordan.public","#0","https://ethglobal.com/showcase/cfd-dex-and-flash-trillions-ad666","",""
+"2023-03-26,08:17:51","namngrg","#0","hey, can someone send testnet tokens to 0x42066368D2b1c06E32e34c8A264a4fe7acE29606","",""
+"2023-03-26,09:00:09","karthikeya_44","#0","0x2103308394Ed0E5A02D3d1516C7fA17F1076A9bb
+
+I need some testnet eth at this can anyone just send me I do have 0.5 goerli eth but bridge app saying that's not enough","",""
+"2023-03-26,09:00:35","karthikeya_44","#0","Can anyone help me with this","",""
+"2023-03-26,09:04:02","lupin4549","#0","Hello, we need some alpha eth","dghelm#0",""
+"2023-03-26,09:55:39","aak0x","#0","I need some Scroll eth: 0x4eed9Ce331948932b3Df2817abcFA6F29B043868","",""
+"2023-03-26,09:55:58","aak0x","#0","can someone please help","",""
+"2023-03-26,10:07:42","swagtimusprime","#0","as long as you deploy a smart contract on Scroll it will be considered","karthikeya_44#0",""
+"2023-03-26,10:08:10","swagtimusprime","#0","deploying your smart contract will be enough","namngrg#0",""
+"2023-03-26,10:08:34","swagtimusprime","#0","what's your address? I will send you some bridged ETH","juancamp1987#0",""
+"2023-03-26,10:09:45","swagtimusprime","#0","what's your address? I'll send you some ETH","lupin4549#0",""
+"2023-03-26,10:10:41","swagtimusprime","#0","<@899942176258142269> <@898791107566112818> <@790944225117995048> <@856980943242919987> I sent you some bridged ETH!","karthikeya_44#0、namngrg#0、aak0x#0、fabriziogianni7#0",""
+"2023-03-26,10:11:12","lupin4549","#0","0x2D449c535E4B2e07Bc311fbe1c14bf17fEC16AAb","",""
+"2023-03-26,10:11:54","lupin4549","#0","<@134841241178341376>","swagtimusprime#0",""
+"2023-03-26,10:12:59","dghelm","#0","Beat Swag to it. Sent!","lupin4549#0",""
+"2023-03-26,10:13:04","fabriziogianni7","#0","thank you!","",""
+"2023-03-26,10:13:41","lupin4549","#0","on goerli testnet chain ?","dghelm#0",""
+"2023-03-26,10:14:05","dghelm","#0","No, on Scroll Alpha -- do you need it on Goerli?","",""
+"2023-03-26,10:14:13","lupin4549","#0","no","",""
+"2023-03-26,10:14:30","lupin4549","#0","i have to deploy on scroll","",""
+"2023-03-26,10:14:49","karthikeya_44","#0","0x2103308394Ed0E5A02D3d1516C7fA17F1076A9bb
+
+<@134841241178341376>","swagtimusprime#0",""
+"2023-03-26,10:15:20","dghelm","#0","Sent","karthikeya_44#0",""
+"2023-03-26,10:23:32","lupin4549","#0","can u send some, as i am planning a project later. so it will be useful for that","dghelm#0",""
+"2023-03-26,10:24:14","juancamp1987","#0","0x8f51DC0791CdDDDCE08052FfF939eb7cf0c17856","swagtimusprime#0",""
+"2023-03-26,10:28:48","dghelm","#0","Happy to send more, but DM me about your project if it's something that'll be burning through lots of gas.","lupin4549#0",""
+"2023-03-26,10:30:27","dghelm","#0","Sent more, but you already have some in your wallet too.","juancamp1987#0",""
+"2023-03-26,10:31:42","lupin4549","#0","Can I deploy my contracts to scroll alpha testnet and as of indexing I set up an local graph node but I can't run the graph till 31st, i can run it for 24h is my submission is considered or do I have to make the deployment online plz respond <@344928363753897986>","dghelm#0",""
+"2023-03-26,10:32:27","juancamp1987","#0","Need more thanks for sending","dghelm#0",""
+"2023-03-26,10:33:52","dghelm","#0","If you're deployed to Scroll Alpha, you'll be considered for the pool price. If you want to apply to the others (if your project fits), you don't need all of the pieces online, but please show them working locally in the video.
+
+If you can't get them working, still submit and describe what they _should_ be doing.","lupin4549#0",""
+"2023-03-26,10:34:28","dghelm","#0","Yup! LMK if you need more.","juancamp1987#0",""
+"2023-03-26,11:13:36","geekychirag","#0","need some alpha faucet : 0xb47409D9897915F38c6953110a4a23B120c15128","",""
+"2023-03-26,11:14:38","dghelm","#0","sent!","geekychirag#0",""
+"2023-03-26,11:52:15","aooa1009","#0","need scroll test tokens for deployng","",""
+"2023-03-26,11:52:16","aooa1009","#0","0x20A8f7eee66bE17110845413Bac91Fa66e0A8DA8","",""
+"2023-03-26,11:52:27","aooa1009","#0","<@344928363753897986> HELP!","dghelm#0",""
+"2023-03-26,11:52:35","aooa1009","#0","deadline nearing fast!","",""
+"2023-03-26,11:53:15","aooa1009","#0","Scroll Alpha Testnet","",""
+"2023-03-26,11:59:10","dghelm","#0","SENT!","aooa1009#0",""
+"2023-03-26,12:02:07","aooa1009","#0","doc link for deploying on scroll please","",""
+"2023-03-26,12:03:44","dghelm","#0","https://guide.scroll.io/developers/developer-quickstart","aooa1009#0",""
+"2023-03-26,12:11:50","aooa1009","#0","what's RPC url of scroll","",""
+"2023-03-26,12:14:55","dghelm","#0","https://alpha-rpc.scroll.io/l2","aooa1009#0",""
+"2023-03-26,12:52:02","geekychirag","#0","<@344928363753897986> thanks a lot for your help ☺️","dghelm#0",""
+"2023-03-26,14:31:58","tao8617","#0","Happy to connect here, we are zkDELX team!
+
+## Who we are:
+We are a team consisting of members with backgrounds in decentralized renewable energy market research (including Ph.D. theses), mechanical engineering in the energy industry, and senior web3 development experience. Our goal is to leverage blockchain technology to create a trustless and decentralized electricity exchange protocol that can match renewable energy supply with demand.
+
+## What we’ve built for this Hackathon:
+`zkDELX` is an innovative decentralized electricity exchange protocol based on zkEVM that facilitates the integration of electric vehicles and renewable energy industries. This protocol provides a user-friendly and efficient experience, similar to popular ride-sharing services like Uber, to match the supply side of green energy generated from households with surplus energy storage, and the demand side of electric vehicles finding charging sources in a very convenient way.
+
+Sellers can create an offer by providing their energy storage information, location, and electricity price, which is aggregated from local real-time electricity prices using a price oracle. Buyers can select the offer based on the options of price, demand for electricity, and distance between the seller's energy storage location and the buyer's electric vehicle.Powered by advanced zkEVM technology scaling solutions, the transaction is low-cost and high-volume.
+
+To further decentralize the platform, the backend database also utilizes a decentralized database to store information. As a result, the transaction data can potentially become a public good product that facilitates research and development within the green industry.
+
+## How does it work:
+The project utilizes smart contracts deployed on zkEVM blockchains. It is built upon two major pieces: zkEVM and a complete L2 architecture. Sponsor technologies such as Scroll, Polygon, and Taiko were used to enhance the capabilities of zkEVM.
+
+The backend of the project is decentralized and uses Polybase, a privacy-preserving decentralized database built on zk-STARKs. A zk-rollup combined with native indexing allows decentralized database rules, fast queries, and scalable writes.
+
+The frontend of the project is built using wagmi, a collection of React Hooks that makes it easy to work with EVM. wagmi enables the user to connect a wallet, display ENS and balance information, sign messages, interact with contracts.
+
+The project also relies on a price oracle that aggregates data from electricity price suppliers such as The U.S. Energy Information Administration and Alberta Electric System Operator.
+
+Overall, the project uses a variety of cutting-edge technologies to provide a decentralized platform for facilitating the integration of electric vehicles and renewable energy industries. By leveraging sponsor technologies and a decentralized database, the project is able to scale and offer fast, efficient, and secure transactions
+
+## Live-Demo
+https://youtu.be/CfW_8hKnIGM
+
+## Github:
+https://github.com/zk-DELX
+
+## Project page:
+https://ethglobal.com/showcase/zkdelx-54q26
+
+Please let us know if you need more information. Cheers! <:p_pepelove:1034832940372336660>","",""
+"2023-03-27,05:57:12","mauricewbr","#0","Hey guys, already submitted a deployed contract yesterday. Despite, it would be cool to get some additional testnet ETH if possible: 0x7dCbe47C7E83785d4277a1c3981184B56A8B3090
+Thanks a lot and looking forward to building something during ETHGlobal Lisbon with Scroll 🙂","",""
+"2023-03-27,06:48:02","xuryholder","#1657","Hey Scroll team. We have successfully deployed Scroll Alpha Testnet into our dApp https://ethglobal.com/showcase/cruzo-cards-xshdw","",""
+"2023-03-27,09:05:04","swagtimusprime","#0","Hey, I'll send you some more ETH soon!","mauricewbr#0",""
+"2023-03-27,10:25:39","lupin4549","#0","https://ethglobal.com/showcase/creatorz-kscy2","",""
+"2023-03-27,10:26:36","lupin4549","#0","hey scroll team we have successfully deployed our project on Scroll Alpha testnet,","",""
+"2023-03-27,10:28:35","lupin4549","#0","Thank you <@344928363753897986> <@134841241178341376>  for your last time help and for giving us ETH at the correct time else it will be difficult for us . Thanks😊✌️","swagtimusprime#0、dghelm#0",""
+"2023-03-27,10:29:17","swagtimusprime","#0","Of course! Happy to help and congrats 🙌","",""
+"2023-03-27,10:35:14","lupin4549","#0","Also, I want to mention one thing we are  documenting everything about our project in the respective repo readme files. Like for everything we have done with scroll, the difficulty we face, our experience, and everything. Do check our repos readme. Also, if u can give us some feedback, it would be great. U can leave feedback in project feedback that is there in the issues tab","",""
+"2023-03-27,10:35:31","lupin4549","#0","Thanks","",""
+"2023-03-27,10:54:58","swagtimusprime","#0","sent you some more ETH!","mauricewbr#0",""
+"2023-03-27,10:55:22","swagtimusprime","#0","this is amazing, thanks so much! we will definitely take a look at this.","lupin4549#0",""
+"2023-03-27,10:56:10","mauricewbr","#0","Thanks 🙂","swagtimusprime#0",""
+"2023-03-27,16:10:13","swagtimusprime","#0","I sent you some!","newmoon#4240",""
+"2023-03-27,19:52:03","lemonflav","#0","Greetings scroll. I somehow missed 😧 adding you to the sponsor prizes I was applying for. However I still would like y’all to take a look https://ethglobal.com/showcase/devents-u81ty  . I think it would be a perfect fit for scroll because the dapp depends on extreme quickness and cost-effectiveness for its usability. Thanks and cheers","",""
+"2023-03-27,22:31:33","sismotor","#0","I have also deployed our hackathon project on Scroll Alpha Testnet, looking forward to Scroll Mainnet! https://ethglobal.com/showcase/w3space-u5c5p","",""
+"2023-03-27,23:43:49","swagtimusprime","#0","Congrats! <@472697176602968064> <@804945717231747103>
+
+We'll be busy judging projects in the next few days 🙂","lemonflav#0、sismotor#0",""
+"2023-03-28,02:00:44",".0xdiv","#0","Hey Guys, Here's what built in this Hackathon!!
+
+Name:  Kutumb X Scroll
+Description: Revolutionize DAO with our multi-channel team communication, seamless file sharing, streamings and more, all in one platform on Scroll, so what you are waiting, subscribe us!
+
+Github: https://github.com/sumitchoudharySEM/KUTUMB-X-SCROLL
+
+Public URL: https://ethglobal.com/showcase/kutumb-x-scroll-2j5k5
+
+Contract Address:(Scroll) 0x1d1b476A54aDd22b547556c56D1cd62F3D3871B4","",""
+"2023-03-28,05:13:39","fm_dfmlab","#0","https://ethglobal.com/showcase/hardora-fwz87
+Kindly support us, so we can provide quality off-chain data and computation for DApps built on scroll😊🤝","",""
+"2023-03-28,05:51:54","not0xaa","#0","Solive is a flexible online playground for Solidity smart contracts, inspired by remix-IDE and react-live. You can edit, compile, deploy, and interact with solidity smart contracts in one React component. It will help onboard developers to Scroll testnet.
+We want to apply Scroll sponsor track.
+Project page: https://ethglobal.com/showcase/solive-picjb","",""
+"2023-03-28,11:37:07","bouchut","#0","do you know that the project must have been developed during the hackathon ? 🙄","sismotor#0",""
+"2023-03-28,17:52:23","sekaieth","#0","I used scroll to deploy my project; when will we hear about Scroll rewards?","",""
+"2023-03-28,18:42:54","swagtimusprime","#0","I don't know exactly when, but we will submit the list of winners tomorrow. I think ETHGlobal will announce the winners after that happened","sekaieth#0",""
+"2023-03-29,04:03:44","harlan009","#0","SilkPay is an arbitrable payment protocol on L2 that is capable of resolving disputes in various payment scenarios on a low cost and high efficiency basis. We introduce an arbitration mechanism to resolve disputes, and ZK technology to protect user privacy.
+We deploy our contracts to Scroll testnet,  and it works smoothly. Looking forward to Scroll mainnet!
+https://ethglobal.com/showcase/silkpay-67byt","",""
+"2023-03-29,10:22:24","lupin4549","#0","https://ethglobal.com/showcase/creatorz-kscy2
+
+I am from project Creatorz.
+We would like to bring this to your notice that, we have faced some last minute technical issues with our app on day of submission and we worked hard and resolved that but weren't able to fill the project description and how it's made properly
+But, We have updated the Readme file of our repos with all the necessary info.","",""
+"2023-03-29,10:22:45","lupin4549","#0","<@134841241178341376> <@344928363753897986>","swagtimusprime#0、dghelm#0",""
+"2023-03-29,11:41:06","antoxcapit","#0","Hi team!
+
+🔥 ** What we’ve built ?** A dApp that uses Chainlink oracle to provide escrow service to financial institutions, to increase the amount of credit they can lend in** fiat local currency **to unbanked people from LatAm, without taking extra risk. The person without credit scoring sets up a warranty in **stablecoin** and the institution grants them a credit card /credit for the same amount or more, according to their business rules. 
+
+🌐  **Where? **We’ve developed this project on EVM-compatible blockchains and love to developed on **Scroll. Would love some feedback 🙂 **
+
+🕯️ **Why?** This helps the **65% unbanked population of LatAm ** and contributes the overall economic growth of the region. After this first step, people demonstrate the ability to pay in local currency their debts and **start building their credit scoring** that will allow them to access better options in the future. 
+
+🚀 **What’s next?** We are working in the unification of different wallets using zero-knowledge proofs and verifiable credentials to create a n**ew decentralized digital identity**, cross-lender, cross-blockchain, and cross-scoring protocols unifying them. 
+
+Check it out:  https://ethglobal.com/showcase/xscrow-j571i
+
+Cheers! Xscrow team 🙂","",""
+"2023-03-31,12:41:59","avinash8295","#0","I deployed my contract to scroll but didn't get pool prize","",""
+"2023-03-31,13:06:54","lupin4549","#0","I have also deployed on scroll but didn't get pool prize","",""
+"2023-03-31,13:40:26","0xprank","#0","Same here, feels awful","lupin4549#0",""
+"2023-03-31,13:40:38","lupin4549","#0","Yeah","",""
+"2023-03-31,14:29:49","gabrielaxy.eth","#0","Yep our contract and dApp are fully functional. I guess Scroll missed it","",""
+"2023-03-31,14:30:30","swagtimusprime","#0","hey <@573876310628368394> <@711596938058793042> <@847749988809310260> <@562735785476882454> and anyone else who thinks they are affected - could you send me a DM with your project name so we can take a closer look?","avinash8295#0、0xprank#0、lupin4549#0、gabrielaxy.eth#0",""
+"2023-03-31,14:30:39","gabrielaxy.eth","#0","Sure","swagtimusprime#0",""
+"2023-03-31,16:31:25","swagtimusprime","#0","@here The winners have been announced 🎊 
+
+We'd like to thank you all for building with Scroll & it's been a pleasure to watch your progress and it's been fun helping you out as best as we could 😄
+
+As a thank you, we'll be giving out a POAP to every hacker, regardless of if they won or not. We have just sent out an email to all hackers which contains a link to a survey where you can share your wallet address with us, as well as any feedback you may have. We will then mint the POAP to the provided address. 
+
+The email has been sent from swag@scroll.io if you want to make sure it's legit 🙂
+
+Thanks everyone, see you at the next event! 📜","","https://cdn.discordapp.com/attachments/1018977212579446825/1091459761096097842/poap_Scaling_Ethereum.gif"
+"2023-03-31,17:04:02","swagtimusprime","#0","(emails are going out in a few minutes!)","",""
+"2023-04-09,11:23:10","awliang","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1094643678246604940/722D3D21-CF7E-47A6-A893-51380D4055D1_4_5005_c.png"
+"2023-04-09,11:52:15","awliang","#0","Hello and welcome to the <#1018977212579446825> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Scroll Team at any point with your questions!
+
+
+👀 **ABOUT**
+**Scroll** is a zero-knowledge rollup built to scale Ethereum. We're committed to Ethereum's ethos, and like to call ourselves the community-first zkEVM.
+
+If you’re experienced in building on Ethereum, your code, dependencies, and tooling work with Scroll out of the box. This is possible because our network is compatible with EVM bytecode and designed to feel just like developing on Ethereum. With the launch of the Alpha testnet on Goerli, Scroll is inviting the developer community to join early and begin innovating.
+
+🏆 **PRIZE OVERVIEW**
+
+📜**Deploy your smart contract on Scroll** - $5,000 total (Pool Prize)
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/tokyo/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://guide.scroll.io/developers/developer-quickstart
+https://guide.scroll.io/developers/
+https://scroll.io/alpha
+https://scroll.io/blog/architecture","",""
+"2023-04-11,18:54:05","dghelm","#0","Hello hackers! Drop your wallet address and ping me or <@134841241178341376> <@357424897535770627> if you need some testnet ETH on Scroll.
+
+We also have a bot you can use in our Scroll × ETHTokyo TG Group: https://t.me/+timXV7QRECs4Nzli -- just say `/drop [address]`","swagtimusprime#0、pajicf#0",""
+"2023-04-13,00:37:04","berkingurcan","#0","<@344928363753897986> drop 0x079217e9a45A0e4B49C3cb9B6D93b127513D1F07","dghelm#0",""
+"2023-04-13,09:47:33","dghelm","#0","Sent!","berkingurcan#0",""
+"2023-04-13,22:28:18","guiguhacker","#0","<@344928363753897986> 0xBc0f38b38Bdc878A90E89200f8f6A4A6810A7B22
+Thank you!","dghelm#0",""
+"2023-04-14,09:45:19","dghelm","#0","Sent!","guiguhacker#0",""
+"2023-04-14,09:46:08","dghelm","#0","Reminder to all -- I'm happy to send Scroll Alpha ETH, **but our Telegram bot will be much faster for you**. https://t.me/+timXV7QRECs4Nzli","",""
+"2023-04-14,14:23:02","guiguhacker","#0","Thank you!","dghelm#0",""
+"2023-04-14,18:33:19","newmoon","#4240","Can some one send me some goerli eth?  0xd86b4aAaE82617719Ee228a57AF202ee72c40fDd","",""
+"2023-04-14,21:04:39","junk0908","#0","Can some one send me some goerli eth? 0x9C24F5D1592D4A45DBf8d7453ce1c5093ebBB3b9","",""
+"2023-04-15,02:16:40","Dedede","#6809","Hello I need some goerli eth 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266","",""
+"2023-04-15,02:32:16","charmmon","#0","hello guys. I've been deploy the contract. but contract verify not working. can i help you?","","https://cdn.discordapp.com/attachments/1018977212579446825/1096684399296258098/Screen_Shot_2023-04-15_at_3.32.04_PM.png"
+"2023-04-15,03:58:19","alanc_","#0","is there a testnet rpc that we can use? thanks!","",""
+"2023-04-15,03:58:33","alanc_","#0","both wss and https would be great!","",""
+"2023-04-15,04:38:19","thegaram33","#0","you can use these: https://alpha-rpc.scroll.io/l2, wss://alpha-rpc.scroll.io/l2/ws, more info here: https://guide.scroll.io/developers/developer-quickstart","alanc_#0",""
+"2023-04-15,08:09:19","swagtimusprime","#0","<@941200397169750026> <@640334524785623050> <@427251916221710337> I sent you all some ETH on Scroll so you don't even have to bridge it anymore 🙂","Dedede#6809、junk0908#0、newmoon#4240",""
+"2023-04-15,09:21:01","antiyro","#0","Hey can we get eligible for the bounty share if we launch an infra project?","",""
+"2023-04-15,09:21:07","antiyro","#0","without any s-c","",""
+"2023-04-15,13:13:27","dghelm","#0","If you're having trouble, you might also try doing it from the command line: https://guide.scroll.io/developers/verifying-smart-contracts","charmmon#0",""
+"2023-04-15,13:14:04","dghelm","#0","Another alternative if our public RPC is giving you troubles:
+https://blastapi.io/public-api/scroll","thegaram33#0",""
+"2023-04-15,13:15:08","dghelm","#0","Hard to say -- if Scroll Alpha testnet is a meaningful part of the project, I'd say yes. Submit it and present it to the judges!","antiyro#0",""
+"2023-04-15,14:25:47","lakshmi0529","#0","Hi need some testnet tokens , is anyone up ?","",""
+"2023-04-15,14:31:55","dghelm","#0","Drop your wallet address.","lakshmi0529#0",""
+"2023-04-15,14:32:14","dghelm","#0","Or join the telegram group above and use the bot!","",""
+"2023-04-15,14:32:17","lakshmi0529","#0","0xa7FBD74b09f10F1B530f2Faa883Cb8F1d1198dEd","",""
+"2023-04-15,14:32:58","dghelm","#0","Sent!","lakshmi0529#0",""
+"2023-04-15,14:33:13","lakshmi0529","#0","Got it! Thanks","",""
+"2023-04-15,19:17:53","daws.eth","#0","Having forge enum errors on attempt to deploy my first contract:","","https://cdn.discordapp.com/attachments/1018977212579446825/1096937473126449192/image.png"
+"2023-04-15,19:25:36","bchief","#0","Hey i need SCROLL testnet funds please provide urgently 0x0062623038c3A46765b359Cc6621C4b8BD7fca5c","",""
+"2023-04-15,19:27:36","daws.eth","#0","Sent you 0.03 https://blockscout.scroll.io/tx/0xd919fad4ddd001fe1d43980eff85378f2259383d793df27c5130c52a0077a9ff <@886249907650981888>","bchief#0",""
+"2023-04-15,19:58:05","dghelm","#0","Oh no! Mind sharing the repo?","daws.eth#0",""
+"2023-04-15,20:01:32","moaazsidat","#0","For anyone running into issues with video upload, submit first without your video and then go back to add your video after. 
+
+If you're using Loom – search how to get Loom to set 1080p, sometimes it'll downsample when set to the auto resolution setting.","",""
+"2023-04-15,20:17:13","thegaram33","#0","we'll be waiting for you here right in the middle of the sponsor room at 9:30","","https://cdn.discordapp.com/attachments/1018977212579446825/1096952401585520750/IMG_3060.jpg"
+"2023-04-15,20:44:10","Meir","#7064","Hi folks, I'm from the DeFi Guardian team, just wanted to put our deployment here for y'all
+Deployer: 0x86D42386c4fC038E0bF4EdB457B2CAA96B1195Ed
+Deployed to: 0x7A5F80Ec128054D8D34f029b9C3B59cfc0d6229B
+Transaction hash: 0xf0412af9ad15e896aebda8a849e03a1cbefe00746159c0900c4513087652afd2","",""
+"2023-04-15,22:26:37","daws.eth","#0","fixed it all with hardhat 🙏","dghelm#0",""
+"2023-04-15,22:39:13","yano_s","#0","https://blockscout.scroll.io/tx/0x19ad6f1caeac2186ec88519210dc55d1eda711394da156329420bb5bce2b6fd8","",""
+"2023-04-16,01:27:02","yuramon_","#0","I couldn't find you🥲","thegaram33#0",""
+"2023-04-16,01:42:38","antiyro","#0","us neither, here is our submission: https://twitter.com/antiyro/status/1647451870594727937?s=46&t=PZEQOeE9ZJ0ulU5ruFT5UQ dont hesitate to give us feedback!","yuramon_#0",""
+"2023-04-16,01:56:00","waterreptile19","#0","Me neither","",""
+"2023-04-16,01:56:03","waterreptile19","#0","Blitzsquad","",""
+"2023-04-16,18:34:06","swagtimusprime","#0","Hi <@948590650050347048> <@450611236426481664> <@301287416017190912> we did take a quick look at all the projects 🙂
+
+If there are any issues please don't hesitate to reach out to us here!","waterreptile19#0、antiyro#0、yuramon_#0",""
+"2023-04-17,01:00:01","antiyro","#0","thanks!","swagtimusprime#0",""
+"2023-04-20,09:19:04","swagtimusprime","#0","@here Dear ETHTokyo Scroll hackers,
+
+The winners have been announced! 🎉
+
+We just published a recap thread of ETHTokyo on Twitter, celebrating the time we had there as well as all your great projects! https://twitter.com/BuildWithScroll/status/1649029729486524418 
+If you have any questions or issues, don't hesitate to reach out to me. 
+
+To celebrate your participation, we will be awarding special POAPs to all hackers that submitted a project. You just received an email from me (swag@scroll.io). In that email, there's a link to a typeform survey, where you can share your wallet address with us. We will then mint the POAP to your address.
+
+Thanks again - we had a lot of fun, and we hope you did, too! Don't hesitate to reach out to me if you want to keep building on Scroll, be it with your hackathon project or a new one. 🙌🏻📜","","https://cdn.discordapp.com/attachments/1018977212579446825/1098598713192091831/poap_TOKYO.gif"
+"2023-04-25,04:50:02",".aayush.eth","#0","By when can we expect the prizes?","",""
+"2023-05-02,15:54:27","awliang","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1103046870869233675/Viewable_on_TV.png"
+"2023-05-08,12:47:30","awliang","#0","Hello and welcome to the <#1018977212579446825> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Scroll Team at any point with your questions!
+
+👀 **ABOUT**
+**Scroll** is a zero-knowledge rollup built to scale Ethereum. We're committed to Ethereum's ethos, and like to call ourselves the community-first zkEVM.If you’re experienced in building on Ethereum, your code, dependencies, and tooling work with Scroll out of the box. This is possible because our network is compatible with EVM bytecode and designed to feel just like developing on Ethereum. With the launch of the Alpha testnet on Goerli, Scroll is inviting the developer community to join early and begin innovating.
+
+
+🏆 **PRIZE OVERVIEW**
+
+📜 **Deploy your smart contract on Scroll** - $5,000 total (Pool Prize)
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/lisbon/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://guide.scroll.io/developers/developer-quickstart
+https://guide.scroll.io/developers/verifying-smart-contracts
+https://guide.scroll.io/developers/building-on-scroll
+https://scroll.io/alpha
+https://scroll.io/blog/architecture","",""
+"2023-05-12,20:27:35","dghelm","#0","Hello hackers! Drop your wallet address and ping me or <@134841241178341376>  <@357424897535770627>  if you need some testnet ETH on Scroll.
+
+We also have a bot you can use in our Scroll × ETHGlobal Lisbon TG Group: https://t.me/+0MhMZmQW9dQyNWE6 -- just say `/drop [address]`","swagtimusprime#0、pajicf#0",""
+"2023-05-13,12:14:25","cjullien","#0910","Hi Scroll team ! Where can I find one of you please ? I have a coding question...","",""
+"2023-05-13,15:10:11","swagtimusprime","#0","Hey, I'm at the venue. Where are you?","cjullien#0910",""
+"2023-05-13,15:30:41","0xdanielpereira","#0","To get in the pool prize do I only need to put the smart contract address deployed on the readme?","",""
+"2023-05-13,16:40:23","dghelm","#0","You'll also want to verify the contract in blockscout and it helps to link that page. Also, be sure to present to a team member during judging!","0xdanielpereira#0",""
+"2023-05-13,19:47:50","jordan.public","#0","https://ethglobal.com/showcase/guardian-oracle-keeper-protocol-rpcws","",""
+"2023-05-14,05:27:51","itsencrypted","#0","Hey scroll team; where are you located ? We’re looking forward to pitch to  you 😉","",""
+"2023-05-14,05:50:36","developera","#0","Same question 👆🏻","",""
+"2023-05-14,06:35:21","rtree","#0","Same","",""
+"2023-05-14,06:59:36","jr____","#0","Hey, are you here for the pitch?","",""
+"2023-05-14,07:17:39","nunohvreis","#0","Scroll's booth is in the right wing of the main hall, next to the outdoors lobby. 
+You can find their logo in the small LED next to their table.","",""
+"2023-05-14,07:30:10","rtree","#0","They are behind this pillar.","","https://cdn.discordapp.com/attachments/1018977212579446825/1107268615910195250/PXL_20230514_112842483.jpg"
+"2023-05-14,08:30:13","0xmantastic","#0","Hi, are the judges from Scroll gonna be back? Their booth looks lonely.","",""
+"2023-05-14,08:52:44","swagtimusprime","#0","Yes we're back!","0xmantastic#0",""
+"2023-05-14,08:52:54","swagtimusprime","#0","Just went out for lunch but we're back","",""
+"2023-05-14,09:20:58","0xmantastic","#0","Thanks, we met each other around the same time you guys came back so its all good.","swagtimusprime#0",""
+"2023-05-14,09:51:46","0xshahnawaz","#0","If we don't present to judges, are we still eligible for pool prize?","dghelm#0",""
+"2023-05-14,09:54:20","swagtimusprime","#0","Yes","0xshahnawaz#0",""
+"2023-05-16,16:01:16","swagtimusprime","#0","Dear ETHGlobal Lisbon hackers,
+
+The event has concluded and the winners have been announced! 🎉
+
+To celebrate your participation, we will be awarding special POAPs to all hackers that submitted a project. You just received an email from me (swag@scroll.io). In that email is a link to a typeform survey, where you can share your wallet address with us. We will then mint the POAP to your address.
+
+If you have any questions or issues, don't hesitate to reach out to me.
+
+Thanks again - we had a lot of fun, and we hope you did, too! Don't hesitate to reach out to me if you want to keep building on Scroll, be it with your hackathon project or a new one. 🙌🏻📜","","https://cdn.discordapp.com/attachments/1018977212579446825/1108122016709619782/ETHGLOBAL_LISBON_POAP01.gif"
+"2023-09-13,13:20:28","awliang","#0","","","https://cdn.discordapp.com/attachments/1018977212579446825/1151568094825828372/image.png"
+"2023-09-17,12:55:46","awliang","#0","Hello and welcome to the <#1018977212579446825> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the Scroll Team at any point with your questions!
+
+👀 **ABOUT**
+**Scroll** is a zero-knowledge rollup built to scale Ethereum. We're committed to Ethereum's ethos, and like to call ourselves the community-first zkEVM.If you’re experienced in building on Ethereum, your code, dependencies, and tooling work with Scroll out of the box. This is possible because our network is compatible with EVM bytecode and designed to feel just like developing on Ethereum. With the launch of the Scroll testnet on Sepolia, Scroll is inviting the developer community to join early and begin innovating.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🏊‍♂️ Pool Prize - $7,000
+
+**🎯Best on Scroll**
+🥇$2000 x 3
+🥈$1000 x 3
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://guide.scroll.io/developers/developer-quickstart
+https://guide.scroll.io/developers/verifying-smart-contracts
+https://guide.scroll.io/developers/
+https://scroll.io/alpha
+https://scroll.io/blog/architecture","",""

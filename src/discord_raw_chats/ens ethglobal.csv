@@ -1,0 +1,1614 @@
+Date,Username,User tag,Content,Mentions,link
+"2021-01-19,14:49:51","brantly.eth","#0","Hey everyone! ENS is giving away $150 of ETH to each of the best 5 projects to integrate ENS. Check out our docs for help: docs.ens.domains","",""
+"2021-01-19,14:50:10","brantly.eth","#0","Thanks to everyone who came to my workshop today, here are my slides","","https://cdn.discordapp.com/attachments/801175268639113216/801176701534470185/MarketMake_presentation_January_2021.pdf"
+"2021-01-19,14:51:10","brantly.eth","#0","Here's the YouTube video of the workshop https://www.youtube.com/watch?v=PwnrbaGnYtM&ab_channel=ETHGlobal","",""
+"2021-01-19,15:05:40","heatherdavidson","#0","thanks for sharing <@!404096280307171328> and for hosting such a great workshop!","brantly.eth#0",""
+"2021-01-19,15:06:15","Texas Farmer 🏴(👥, 🤝)","#2662","thank you very much for today.","",""
+"2021-01-19,15:46:58","jawe.eth","#4889","million thanks <@!404096280307171328> & <@!633090260326154261>","brantly.eth#0、heatherdavidson#0",""
+"2021-01-19,15:48:05","jawe.eth","#4889","<@!404096280307171328> the https://docs.ens.domains/dns-registrar-guide had lost image","brantly.eth#0",""
+"2021-01-19,15:48:46","jawe.eth","#4889","","","https://cdn.discordapp.com/attachments/801175268639113216/801191441795383296/Screenshot_2021-01-19_at_12.48.22.png"
+"2021-01-20,13:33:29","moskalyk","#6720","when will .eth ens be composable parts of a platform / website, deriving value within each interface?
+
+IPFS loads from a react lazy load of the content resolver, might be cool if anyting out there now","",""
+"2021-01-27,15:44:23","brantly.eth","#0","Yeah sorry about that, we'll be updating all of this stuff soon with our expanded DNS namespace integration coming soon","jawe.eth#4889",""
+"2021-01-27,22:48:34","jawe.eth","#4889","million thanks <@!404096280307171328>","brantly.eth#0",""
+"2021-01-28,14:46:58","celthex_a.k.a_gae_mon","#0","Hi, 
+We are looking to Forward resolve ENS names in our project - Could you link me some codefeature to intergrate forward resolution in our Scaffold-eth framework ?","",""
+"2021-02-02,11:56:05","Cryptocastles","#4828","Hey I'm a dev on the EtherTree project 😊 is there a kovan deployment of ENS?","",""
+"2021-02-05,11:05:58","makoto","#1548","no","Cryptocastles#4828",""
+"2021-02-07,00:05:24","chimeradefi","#0","Hey, we integrated ENS for https://sharedstake.org/ 
+It should also work from `sharedstake.eth` which points to the website and the deployer.","",""
+"2021-02-08,04:29:49","borispovar","#0","Website: https://digiu-lab.github.io/MarketMake/
+ENS + IPFS website (regular browsers): digiu.eth.link
+ENS + IPFS website (required MetaMask): digiu.eth","",""
+"2021-02-11,16:05:49","_splidge","#0","Hi there ENS, many thanks for recognising my project ""Stake Your Name"" for a prize! Can't believe I've gone from nothing and taking part in my first hackathon to now an ""award winning dev"" 😆   
+I'm just reaching out as the ETH Global team have said we should make contact to sort out prizes.","",""
+"2021-02-11,16:52:48","habibify","#0","Hi ENS, the whole** sublimate.finance** team wanted to thank you for this amazing prize! 🛠
+We are happy that you awarded our project! 
+Like <@!403298188120948746>, I'm reaching out for the prize 👋","_splidge#0",""
+"2021-02-12,05:03:12","steve_pro.","#0","Hey ENS Team,
+
+Thanks a lot for selecting **ENS Analytics**  project for prize.  Dappquery is looking forward to continue collaboration for future work on same line.","",""
+"2021-03-16,10:51:11","brantly.eth","#0","Hey everyone! Happy to help you here with your questions if you're building with ENS","",""
+"2021-03-17,11:01:22","emilyhobbs","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for **ENS!**
+
+👀 **About**
+ENS - Have one name for all your cryptocurrency wallets, a decentralised website, & more - with the security, censorship-resistance, and programmability of Ethereum.
+
+
+🏆** Prize Overview**
+**A total of $150 in ETH to each of the best five projects to integrate ENS.**
+
+**See more on Prizes here:** https://www.notion.so/ethglobal/Prizes-NFTHack-9dfdb7ca6fd048d58631c41719cbdf4e
+
+
+🔗 **Important Links**
+**Webpage**
+https://ens.domains/
+
+**Intro: Decentralized naming for wallets, websites, & more.**
+https://docs.ens.domains/","",""
+"2021-03-17,11:01:28","emilyhobbs","#0","","",""
+"2021-03-19,16:27:20","jennifertran.web3","#0","Hello all, would we be able to get an ENS domain for our project?","",""
+"2021-03-19,17:38:31","jacobw","#0","For sure, you can grab them at https://ens.domains/","jennifertran.web3#0",""
+"2021-03-19,17:39:24","jennifertran.web3","#0","Awesome, yes, but should we pay for it or is there a NFTHack code that we can use to get one for free or reduced cost?","jacobw#0",""
+"2021-03-19,18:06:41","jacobw","#0","Hang tight, might have something for you","jennifertran.web3#0",""
+"2021-03-19,18:13:31","jacobw","#0","Yeah unfortunately unlikely we'll be able to do codes for this event 😦","",""
+"2021-03-19,18:23:11","jennifertran.web3","#0","Thank you for checking, Jacob!","jacobw#0",""
+"2021-03-20,10:09:53","buan_thomas","#0","is it possible to purchase a higher level domain ie ; myproject.art instead of myproject.art.eth","",""
+"2021-03-20,16:48:17","timhc22","#9337","hey <@!404096280307171328> are you around at the moment?","brantly.eth#0",""
+"2021-03-20,16:52:35","brantly.eth","#0","Hey","timhc22#9337",""
+"2021-03-20,16:55:01","timhc22","#9337","hows it going? I've been co-ordinating with Makoto last week for adding typescript support to ensjs, do you know if he has had a chance to check over it yet, I guess it is the weekend so he's probably taking time off","",""
+"2021-03-20,16:55:36","timhc22","#9337","https://github.com/ensdomains/ensjs/pull/58","",""
+"2021-03-20,16:55:58","timhc22","#9337","I've tested a few, but they could do with some more checking","",""
+"2021-03-20,16:56:14","timhc22","#9337","","","https://cdn.discordapp.com/attachments/801175268639113216/822936596474888192/unknown.png"
+"2021-03-20,17:01:40","brantly.eth","#0","You can get myproject.eth. If you have myproject.xyz on DNS you can claim that on ENS","buan_thomas#0",""
+"2021-03-20,17:02:06","brantly.eth","#0","Can you ping him in our normal ENS Discord?","timhc22#9337",""
+"2021-03-20,17:19:52","timhc22","#9337","sure will do!","",""
+"2021-03-20,17:27:18","timhc22","#9337","actually one more question <@!404096280307171328> , do you know of any way to pull down a list of ERC721 and ERC1155 tokens associated with a .eth address?  would one need to use something like the graph for that? I guess the complexity, is that (whatever system was doing it), would need to do this I think:
+
+1. gather all the transactions for every ERC721/ERC1155 token which exists
+2. filter out anything that isn't my ethereum wallet address
+3. 'replay the remaining transactions to get the current 'state' of what I own","brantly.eth#0",""
+"2021-03-20,17:27:54","timhc22","#9337","(if I'm understanding the challenge correctly)","",""
+"2021-03-20,17:42:08","brantly.eth","#0","So first, your want to look up the ETH Address record of the ENS name. Then you'd be looking up NFTs associated with that. Beyond that, you'll have to ask someone else","timhc22#9337",""
+"2021-03-20,17:46:16","timhc22","#9337","I think it involves something with reverse resolution or something https://docs.ens.domains/dapp-developer-guide/resolving-names#reverse-resolution","",""
+"2021-03-20,18:30:04","brantly.eth","#0","Name.eth --> ETH address is just normal forward resolution","",""
+"2021-03-20,18:30:42","brantly.eth","#0","Reverse resolution is if you have someone's Ethereum address and you look up to see if an ENS name is associated with it","",""
+"2021-03-20,19:17:07","timhc22","#9337","yes that is what I need to do, but with any ERC721 token associated with an address, I guess that functionality is unique to ens tokens though?","brantly.eth#0",""
+"2021-03-20,19:27:14","brantly.eth","#0","Ah I see. The way reverse resolution works wouldn't apply to other NFTs","",""
+"2021-03-20,21:32:52","timhc22","#9337","useful to know thanks, I need this function for something else so useful to know I can use it to find out what address is associated with an ens","",""
+"2021-03-20,23:30:31","ajb413","#0","Is there a thegraph query where I put in an ethereum address and the api returns the ens domain if it exists? I am trying to input my address and it keeps returning null. am I doing something wrong? https://thegraph.com/explorer/subgraph/ensdomains/ens
+
+```graph
+{
+  account(id: ""0x705a9CD6Ff3aC3891362217F01670f6a38820Ff2"") {
+    id
+    domains {
+      name
+      id
+    }
+  }
+}
+```
+returns
+```json
+{
+  ""data"": {
+    ""account"": null
+  }
+}
+```","",""
+"2021-03-20,23:36:04","brantly.eth","#0","Great question. Can you ask this in our normal ENS discord channel? https://discord.gg/AskZbFx","ajb413#0",""
+"2021-03-20,23:37:21","brantly.eth","#0","Hey everyone! If you are applying for the ENS prize, awesome. We are not going to do demos on Sunday. Instead, please be sure that your project description page has a short description of how you used ENS to help me out. I will look through all the projects and pick the winners from what I can see there. Thanks!","",""
+"2021-03-21,12:33:34","faraggi","#0","🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 
+
+Hello ENS! 
+We've applied to one of your prizes. We'd love to be considered 🙂
+
+Name: hashink
+Description: Hashink is the modern version of signing autographs for celebs! Awesome ux/ui, secondary market for residual dinero, transparent on blockchain, no greedy middlemen—wohooo!
+Demo: https://www.youtube.com/watch?v=SDRL909UsZQ
+
+https://hack.ethglobal.co/showcase/hashink-rechIlWuMbBysOmOJ
+
+🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉 🍉","",""
+"2021-03-21,12:40:19","scorp_only","#4131","Hi ENS, here's our hack!  We'd like to introduce - Souvenir.
+
+Description: Souvenir enables cities and towns to issue unique local NFTs that individual travelers can collect and display in a digital passport, just like real travel stamps!
+
+Demo: 
+https://www.youtube.com/watch?v=VoVKiUm2yxk
+
+Submission page: 
+hack.ethglobal.co/showcase/souvenir-rec2RqjAuFeZTpuaC","",""
+"2021-03-21,12:55:48","mnmli","#7427","Hi ens! I'd like to submit for judging NFTGlitch:
+https://hack.ethglobal.co/showcase/nftglitch-recG8afT5hdlxravl
+Demo: https://nftglitch.vercel.app/
+Make web 1.0 webpages in web 3.0 style – integrate the decentralized NFT ecosystems into your own style. Fetch NFTs from platforms, call organized external APIs, and animate the webpage too for more fun.
+We support ENS resolution for our backend functions rendering the NFTs in the page.","",""
+"2021-03-21,13:20:29","anzcash","#0","We've just submitted our project 🙂 and in the green room now... 
+                  Name: OURZ
+                  Description: Making it easy for collaborators to mint, showcase and monetize their work in their own space for now and for future.
+                  Demo: https://www.youtube.com/watch?v=5c_Ra59EVqQ","",""
+"2021-03-21,13:28:59","anjelicaroses","#0","Name: Gloatbook
+Description: Gloatbook is curated, aesthetic gallery and leaderboard for NFT Collectors and Artists
+Demo: https://youtu.be/7XNL4L0M7ew
+
+Submission Page: https://hack.ethglobal.co/showcase/gloatbook-rec0K7jI572W7mj3W","",""
+"2021-03-21,13:29:54","anjelicaroses","#0","we used ENS <@!404096280307171328> ✨ 😄","brantly.eth#0",""
+"2021-03-21,13:49:33","jennifertran.web3","#0","Hello ENS!
+
+DynamicRare created a simple bonding curve for NFTs, a DeFi solution that allows users to buy an NFT from the curve and sell back into it. We were also going to route our site to an ENS domain so that creators can always have access to the bonding curve as a DeFi solution but we were unable to due to financial constraints. 
+
+But still wanted you to check out our project! https://hack.ethglobal.co/showcase/dynamicrare-recU67th4eqm9GZvw","",""
+"2021-03-21,14:43:57","Gyan0890","#9895","Hey folks, how do we present our project?","",""
+"2021-03-21,14:45:04","jacobw","#0","Unfortunately ENS was not available for the judging session so please leave something like the above teams have","Gyan0890#9895",""
+"2021-03-21,14:45:13","Gyan0890","#9895","Sure 🙂","",""
+"2021-03-21,14:47:44","Gyan0890","#9895","Hey everyone! We are team Ethernaal with <@!488949464485330957> , <@!808420138301915226> , <@!751520168391213167>  and <@!113935301348425732> 🙂 Our project is aimed at creating a marketplace for a unique and niche set of arists/creators - Tattoo Artists. We have created NFT Designs that could be redeemed for actual designs created by artists. Each artist has a unique profile showcasing their previous work, their years of experience etc. Each of these artists will have an ENS to uniquely identify themselves and showcase their profile.","Bass It Up#6534、0xjm#5026、rishabh42#0、Paulisson#3385",""
+"2021-03-21,14:47:50","Gyan0890","#9895","Here is our project link: https://hack.ethglobal.co/showcase/ethernaal-recs6esunglawyAZ7","",""
+"2021-03-21,16:09:24","iNo_ (Lucas)","#1124","To give you a bit more insight on the use of ENS for our ""Souvenir"" project: we configured the souvenir.eth domain (on Rinkeby for now), and as we would have cities minting our NFTs,  we're planning to automatically setup subdomains for then under the format <city>.souvenir.eth so it is even more convenient for the users","scorp_only#4131",""
+"2021-04-09,10:08:28","emilyhobbs","#0","Hello and welcome to the <#801175268639113216> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328>","brantly.eth#0",""
+"2021-04-12,11:36:31","thecreative.eth","#0","Hi Steve, we're looking into using dappquery for our platform. I'd love to pick you brain on some useful analytics","steve_pro.#0",""
+"2021-04-12,14:55:26","emilyhobbs","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for ENS!
+
+👀 **About**
+ENS - Have one name for all your cryptocurrency wallets, a decentralised website, & more - with the security, censorship-resistance, and programmability of Ethereum.
+
+🏆 **Prize Overview**
+**ENS will be awarding their Prizes as follows:**
+
+**$1,000 in ETH** to the best project to make use of the new L2 scaling system for ENS
+
+**Demoed here:**
+https://medium.com/the-ethereum-name-service/mvp-of-ens-on-l2-with-optimism-demo-video-how-to-try-it-yourself-b44c390cbd67
+
+**See more on Prizes here:** 
+https://www.notion.so/ethglobal/Prizes-Scaling-Ethereum-1d3a6c2966dd4d8fa679d78890f2f8a6
+
+🔗** Important Links**
+**Webpage**
+https://ens.domains/
+
+**Intro: Decentralized naming for wallets, websites, & more.**
+https://docs.ens.domains/","",""
+"2021-04-12,15:56:33","emilyhobbs","#0","","",""
+"2021-04-19,08:00:12","dhruv9739","#0","<@!682637756274442245>   thanks , any dev  members from the ens are present in the hackathon channel ?","emilyhobbs#0",""
+"2021-04-19,08:25:56","emilyhobbs","#0","cc <@!404096280307171328> 👀","brantly.eth#0",""
+"2021-04-19,09:43:38","brantly.eth","#0","Hey! If you need help, ask in our normal discord channel https://discord.gg/AskZbFx","dhruv9739#0",""
+"2021-05-25,11:10:59","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/846767311720284160/unknown.png"
+"2021-05-25,11:13:49","emilyhobbs","#0","Hello and welcome to the <#801175268639113216>  channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328>","brantly.eth#0",""
+"2021-05-25,12:12:47","julien1972","#0","Hello <@!404096280307171328>  !","brantly.eth#0",""
+"2021-05-25,12:49:54","thedarkjester.eth","#0","I likes me some ens","",""
+"2021-05-25,18:23:36","xdrian","#0553","<@749598596164485120> ens is a necessity","4xroads#0",""
+"2021-05-26,11:11:02","brantly.eth","#0","Hey! Just reiterating, if you need help, I recommend asking in our normal discord channel https://discord.gg/AskZbFx","",""
+"2021-05-27,05:17:51","emilyhobbs","#0","Hey everyone 👋 
+
+Just wanted to drop a quick intro & overview for **ENS**!
+
+👀 **About**
+ENS - Have one name for all your cryptocurrency wallets, a decentralised website, & more - with the security, censorship-resistance, and programmability of Ethereum.
+
+🔗 **Important Links**
+
+Webpage
+https://ens.domains/
+
+Intro: Decentralized naming for wallets, websites, & more.
+https://docs.ens.domains/
+
+🏆 **Prize Overview**
+
+**See more on Prizes here: **
+https://web3.ethglobal.co/prizes
+
+***ENS will be awarding their Prizes as follows:***
+
+$1,000 in ETH to the best project to make best use of  ENS.","",""
+"2021-05-27,05:17:59","emilyhobbs","#0","","",""
+"2021-05-27,11:48:22","Soleauchain","#2022","Hi guys ! do you have a dispute resolution mode for the domaine name on ETH ?","",""
+"2021-05-27,14:05:05","brantly.eth","#0","There is none for .eth names","Soleauchain#2022",""
+"2021-05-27,14:05:40","brantly.eth","#0","If you submit for the ENS prize, please explain somewhere on your project page exactly how you used it so I'm not searching for it, this will greatly increase your odds of winning our prize","",""
+"2021-05-28,04:23:26","Soleauchain","#2022","Done thank you <@!404096280307171328>","brantly.eth#0",""
+"2021-05-28,12:39:21","joelcodes","#0","Are ENS names only for wallet address or can it be used for say an IPFS Hash ?","",""
+"2021-05-28,16:50:58","cyph.err","#0","you can add ipfs hash to the content field of the ens name","joelcodes#0",""
+"2021-05-28,16:57:55","joelcodes","#0","Great to hear thank you","",""
+"2021-05-28,20:11:38","brantly.eth","#0","Yes, that would go in the Content record","joelcodes#0",""
+"2021-05-29,20:03:28","pentacle","#0","Hello - I have forgotten the other step to get this working - or is is that chrome just doesn't play nice with .eth names?","","https://cdn.discordapp.com/attachments/801175268639113216/848350866943508570/unknown.png"
+"2021-05-29,20:04:29","pentacle","#0","ah! I see now - needs .link at the end `https://sockexplorer.eth.link/`","",""
+"2021-05-29,20:17:49","beist","#0","We've just submitted our project 🙂
+
+Name: dripshop
+Description: Taking NFTs from metaverse to meatspace with a one-stop dripshop","",""
+"2021-05-30,04:35:07","joelcodes","#0","We've just submitted our project 🙂 Thank you for helping put this hackathon together
+
+Name: One MoMint
+Description: One MoMint is a decentralized platform for capturing the moment in the form of an NFT. It does this by Snap Minting, which allows you to mint an image immediate after taking it.
+Demo: https://www.youtube.com/watch?v=WXgPmlwW5wo","",""
+"2021-05-30,07:00:15","Soleauchain","#2022","We've just submitted our project 🙂
+                  Name: Tokenart
+                  Description : Create a decentralized and opensource protocole for legal NFT : the TA-TO case : WRAPPED FONGIBLES TOKENS TO NFTs
+                  Demo: https://youtu.be/TX3oKgqyJWE","",""
+"2021-05-30,07:00:54","Soleauchain","#2022","We use ENS to give user identification proof on ETHEREUM through the following ENS : checkid.eth","",""
+"2021-05-30,07:44:56","mohamed.mansour","#0","We are so excited to share with you 3mail! Decentralized email, using ENS to send email to anyone on the network. Uses IPFS as the main communication medium, and ENS to store DID in a TXT record for name resolution! We created a Web Email client and a SMTP server for existing native clients to read 3mail from the decentralized network!
+
+So for example, we can send an email from `mohamed@mansour.eth` to `hello@ryan.eth` and it will arrive in our 3mail mail web client AND local Outlook Native App/Apple Mail app!","","https://cdn.discordapp.com/attachments/801175268639113216/848527397758566440/unknown.png"
+"2021-05-30,09:43:56","pentacle","#0","We made a $SOCKS explorer in d3js – deployed using Fleek, hosted on IPFS with a nice ENS domain and a POAP : )
+https://showcase.ethglobal.co/web3weekend/sock-explorer-by-pentacle
+https://sockexplorer.eth.link/","",""
+"2021-05-30,10:20:20","pentacle","#0","as we are on Nick-time (NZDT) we are submitting ours via the showcase and scuttling away to sleep now. We have used ENS in the project a) with our lovely domain name and b) have displayed those where they exist in our $SOCKS holders data set. Hope you enjoy!!","",""
+"2021-05-30,10:54:25","Jimothy","#8368","We have ENS pointing to a content hash in IPFS that renders as a website fine, but ENS keeps reverting back to an older content hash every time we update it. Any ideas why?","",""
+"2021-05-30,11:01:25","anudit","#0","We've just submitted our project 
+
+Name: The Convo Space
+Description: The Decentralized Conversation Layer of Internet, customizable plugins for apps connecting conversations and communities across the Internet.
+Demo: https://www.youtube.com/watch?v=p5-jQy7vKk8","",""
+"2021-05-30,12:47:44","viraj","#3203","We've just submitted our project 🙂
+
+Name: Canva NFT Minter
+Description: Canva NFT Minter allows the Canva users to publish their designs as NFT using the custom Canva Publish app
+Demo: https://www.youtube.com/watch?v=rfyR_e5XOzE","",""
+"2021-05-30,13:09:45",".keesvb","#0","We've just submitted our project 🙂
+Name: OpenPID
+Description: Creating globally unique and persistent identifiers (PIDs) and publishing accompanying metadata to facilitate open science
+https://www.loom.com/share/6a1207b33fa644d5a1218675ececd1fa","",""
+"2021-05-30,13:16:22","1723","#0","We've submitted our project: Mintlaab
+Description: IPFS CID seed-based generative art NFT platform on top of Zora and using ENS as the username standard.
+https://hack.ethglobal.co/web3weekend/teams/recxpYno4Z9ltNIrJ/reccjeNMBk6EvQL4J","",""
+"2021-05-30,14:25:13","mohamed.mansour","#0","Hey they asked us to demo to the sponsor, is ENS watching demos?","",""
+"2021-05-30,14:27:08","Catherine","#6155","ENS will get your projects via your submission only - no presentation needed 🙂","mohamed.mansour#0",""
+"2021-05-30,15:17:39","brantly.eth","#0","Hmm that's weird. Are you confirming the change and submitting a txn for the change?","Jimothy#8368",""
+"2021-05-30,15:53:42","Jimothy","#8368","Yup, MetaMask pops up when we try to change to the content path and we've put in something like `/ipfs/Qm...` then the transaction is confirmed, we open on etherscan and can watch it process. A minute later when it's done the link temporarily points to the hash we want but if you refresh the page it is the old hash again","brantly.eth#0",""
+"2021-05-30,16:02:00","brantly.eth","#0","Hmm ok that's weird. Can you describe this problem in our normal ENS discord channel?","Jimothy#8368",""
+"2021-05-30,16:02:19","brantly.eth","#0","https://discord.gg/AskZbFx","",""
+"2021-05-30,17:41:24","Catherine","#6155","⭐️ENS⭐️
+- OpenPID - $150 USD in ETH
+- Sock Explorer by Pentacle - $150 USD in ETH
+- The Convo Space - $150 USD in ETH
+- One MoMint - $150 USD in ETH
+- Canva NFT Minter - $150 USD in ETH","",""
+"2021-05-30,18:14:57","pentacle","#0","thank you <:pentageo:842750278121160734>","",""
+"2021-05-30,18:19:55","anudit","#0","Thanks a lot <:ENS:707232572048015462>","Catherine#6155",""
+"2021-06-04,16:33:43","Catherine","#6155","","","https://cdn.discordapp.com/attachments/801175268639113216/850472409688440912/unknown.png"
+"2021-06-11,05:50:21","emilyhobbs","#0","Hello and welcome to the <#801175268639113216> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328>","brantly.eth#0",""
+"2021-06-11,09:54:02","brantly.eth","#0","Hey everyone!
+
+**Support Help**: If you have a question about ENS, please ask it in our normal Discord channel: https://discord.gg/AskZbFx
+
+If you integrate ENS and submit for the ENS prize, **please explain on your project description page how you integrated ENS (could even be one sentence)**. If I have to go searching through your dapp for how you integrated ENS, you're unlikely to win our prize.
+
+Two easy ways to integrate ENS:
+- **Reverse Resolution**: If you display a 0x address anywhere (e.g. after the user connects their wallet), do a reverse look-up and display the user's ENS name in their reverse record instead: https://docs.ens.domains/dapp-developer-guide/resolving-names#reverse-resolution
+
+- **Forward Resolution**: In any field in which a person might enter a cryptocurrency address, enable the user to also enter an ENS name: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-ethereum-addresses
+
+- Lots of other things you could do with ENS so feel free to experiment or do more, but these two are easy and apply to most dapps","",""
+"2021-06-11,10:08:48","emilyhobbs","#0","","",""
+"2021-06-14,12:15:38","theo__","#9243","https://twitter.com/alexgausman/status/1404471771747684360?s=20","",""
+"2021-06-15,05:09:09","matthewfontana","#0","Hey ENS crew 👋 from Streamr - we're big fans and have integrated ENS into our streaming data infrastructure so that anyone can create streams on top of their ENS names like a website URL","","https://cdn.discordapp.com/attachments/801175268639113216/854286395685470218/Screenshot_2021-06-15_at_11.06.56.png"
+"2021-06-16,19:56:34","xbalbinus","#0","Hey everyone! 👋 
+
+Just wanted to drop a quick intro & overview for ENS!
+
+👀 About
+ENS - Have one name for all your cryptocurrency wallets, a decentralized website, & more - with the security, censorship-resistance, and programmability of Ethereum.
+
+🏆 Prize Overview
+$150 USD in ETH to the 5 best projects to make use of ENS. 
+
+Workshop:
+https://www.youtube.com/watch?v=9DdL7AQgXTM
+
+🔗 Important Links
+**Webpage**
+
+(https://ens.domains/)
+
+**Intro: Decentralized naming for wallets, websites & more**
+
+(https://docs.ens.domains/)","",""
+"2021-06-17,06:27:05","emilyhobbs","#0","","",""
+"2021-06-22,07:31:09","czhc","#0","Hello ENS, is it possible to set a new owner, plus change all controllers for subdomains to the new owner in a single call? i noticed when i setOwner(alice.eth) to a new user, my old user still retains controller access on all subdomains of alice.eth.
+pardon me, can't find the docs for this","",""
+"2021-06-25,10:29:39","leomarlo","#0","Hi ENS, nice to meet you 🙂 I would like to integrate ENS into a smart contract. Which is the ENS address? Is it 0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e ? I also found this one 0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85 . For instance to register a domain I have to interact with the BaseRegistrar, right? Going to the latter address 0x57f18...2e1e I find the following to functions
+```
+function register(uint256 id, address owner, uint duration) external returns(uint) {
+      return _register(id, owner, duration, true);
+    }
+function registerOnly(uint256 id, address owner, uint duration) external returns(uint) {
+      return _register(id, owner, duration, false);
+    }
+```
+Ah I see, the first address is the registrar and the second one is the token address?
+
+So for instance if I want to create a new ens domain I would have to call 
+```
+function register(uint256 id, address owner, uint duration) virtual external returns(uint);
+```
+with id being the keccak256 of the name, right? and suppose I would like to set a record of an existing ens domain, I would have to call this function?
+```
+function setRecord(bytes32 node, address owner, address resolver, uint64 ttl) external;
+```
+but whould I have to turn the domain name into bytes32 first? And the owner address is clear to me, that's mostly msg.sender, but the resolver address?","",""
+"2021-06-28,10:01:53","brantly.eth","#0","hey everyone!","",""
+"2021-06-28,10:02:14","brantly.eth","#0","If you need help, please ask in our normal ENS discord channel https://discord.gg/AskZbFx","",""
+"2021-06-28,12:26:29","translate3d","#6235","I did it 😉","brantly.eth#0",""
+"2021-06-28,23:03:55","brantly.eth","#0","hello! Thanks for your interest in the ENS prize!
+
+If you submit for the ENS prize, a few things to know:
+- Please explain in a sentence or two on your submission page exactly how you used ENS. If you don't, you'll have almost no chance of winning our prize because I'm not going to go searching for it.
+- There will be no presentations. I will look at submissions myself and choose winners.
+
+thanks! 👍👍👍","",""
+"2021-06-29,01:32:22","translate3d","#6235","I will submit the SIGMA project for the ENS prize. The ENS wiki page contains detailed information about the ENS integration: https://github.com/translate3d/sigma/wiki/ENS","brantly.eth#0",""
+"2021-07-01,16:13:57","oxmarco","#0","I've seen the https://github.com/ensdomains/react-ens-address module for decoding an ENS domain to a wallet address. Do you have anything working in reverse? I give an address and get the connected ENS domain name? Thanks","",""
+"2021-07-04,11:45:37","mizukiso","#0","Hello, ENS teams! I have submitted the project wise for the ENS prize, this is cli tool for ENS like whois command. https://showcase.ethglobal.co/hackmoney2021/wise
+As far as I know, I think there is no cli tool of ENS. Do you have something similar.....?","",""
+"2021-07-05,03:14:02","joelcodes","#0","We just submitted our Project! Thanks ETHGlobal team 🙂                 
+**Name:** fun-dPool
+**Description:** fundPool allows sellers to fund the creation of an NFT in a way that allows for minimal gas fees and leverages fractionalized NFT ownership.
+**Demo:** https://youtu.be/DB3O3dF9_JI          
+                  
+**Check out our project submission!**
+https://hack.ethglobal.co/showcase/fun-dpool-recRB1tOXrBAgGEXM","",""
+"2021-07-05,14:10:28","wmitsuda","#0","I described it in the project submission, but just making sure it is seem: I've just submitted Otterscan: https://showcase.ethglobal.co/hackmoney2021/otterscan","",""
+"2021-07-05,14:11:09","wmitsuda","#0","It accepts ENS names when searching for addresses and it does reverse lookups on search results","",""
+"2021-07-06,18:00:59","trozler","#0","We just submitted our Project! Thanks ETHGlobal team 🙂
+
+Name: supersaiyan
+Description: 
+Supersaiyan is a decentralised platform that allows anyone to create a subscription service on ethereum in a just few clicks. 
+
+We used ENS to automatically issue sub domains to subscription service providers. We did this by performing a DNSSEC ENS integration on supersaiyan.xyz. This was really cool as it meant that service providers could use their issued payment links http://trozler.supersaiyan.xyz/, as ENS names as well.
+
+The use case was inspired by the argent wallet DNSSEC integration.
+
+Demo: https://youtu.be/OIPjxV0EaXE
+
+Check out our project submission!
+https://showcase.ethglobal.co/hackmoney2021/supersaiyan","",""
+"2021-07-21,15:04:41","thecreative.eth","#0","Hi <@!404096280307171328> I'm having issues with adding Snapshot as a record on ENS","brantly.eth#0",""
+"2021-07-21,15:08:16","brantly.eth","#0","hey! you can get help in our normal discord 
+https://discord.gg/AskZbFx","thecreative.eth#0",""
+"2021-07-23,07:28:35","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/868092222678130708/unknown.png"
+"2021-07-26,08:29:17","emilyhobbs","#0","Hello and welcome to the <#801175268639113216> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328>","brantly.eth#0",""
+"2021-07-29,10:39:58","joelcodes","#0","Howdy, is there ENS support on MATIC network ?","",""
+"2021-07-29,10:42:32","emilyhobbs","#0","cc <@!404096280307171328> 👀","brantly.eth#0",""
+"2021-07-29,11:05:27","brantly.eth","#0","hey! there isn't right now. if you have further questions, feel free to get help in our normal discord channel https://discord.gg/AskZbFx","joelcodes#0",""
+"2021-08-01,19:25:41","AllyAlejandra","#7145","<@526532354265710602> <@!404096280307171328>  Thanks for asking Joel! Thanks Bradley for pointing the way.","brantly.eth#0、joelcodes#0",""
+"2021-08-03,15:20:25","AllyAlejandra","#7145","Hey , I’m Alejandra. I’m participating in #HackFS. I had to 180 pivot, in last 24 hours. 
+
+I have a new idea. I believe I can integrate with your tech, compose with it. Is anyone as a sponsor, able to chat? I can run you through what I have as idea. The feedback on best and worse case scenarios of integration with your tech would be extremely valuable :)! 
+
+FYI…I have a hard time scrolling in Discord 😦 
+
+Could you DM me instead? Thank you in advance :)!","",""
+"2021-08-03,17:23:53","brantly.eth","#0","Hey! You can get help in our normal ENS Discord channel here: https://discord.gg/AskZbFx","AllyAlejandra#7145",""
+"2021-08-03,20:55:52","AllyAlejandra","#7145","Need Guidance: engaging Collaboration","","https://cdn.discordapp.com/attachments/801175268639113216/872281652137705472/message.txt"
+"2021-08-04,06:22:52","sujithsomraaj","#0","<@404096280307171328> hi, is there a possibility of front running in ENS registration ?","brantly.eth#0",""
+"2021-08-04,10:13:21","brantly.eth","#0","there is not, due to the three step / two transaction process","sujithsomraaj#0",""
+"2021-08-06,10:25:09","AllyAlejandra","#7145","Hey ENS, 
+
+I’m Alejandra from Project: Yas @ETHGlobal #HackFS
+
+Wondering if it would be possible to schedule time to chat. I’ve been having persistent MetaMask wallet(S) issues in Browsers and Mobile in laptop and iOS phone.
+
+**PERSISTENT ISSUE:** 
+
+**Import Botton INACTIVE (see screen shot)**
+
+- MetaMask
+    - Have uninstalled and reinstalled MetaMask Chrome web extension . This is a new MetaMask account opened because I was having same issue with original account.Issue in Browser and Mobile experience
+        - In Browsers: Chrome, FireFox and Brave
+        - Mobile: iOS
+
+**DEPENDENCIES FOR PROJECT: YAS**
+
+- Blocked from creating ENS.domain for DApp: Yas
+- Blocked from Developing a web3 site
+- Blocked from IPFS Brave features","",""
+"2021-08-07,13:34:22","AllyAlejandra","#7145","Hello ENS Sponsor,","",""
+"2021-08-08,14:26:33","Deleted User","#0000","Hi","",""
+"2021-08-14,22:00:40","joelcodes","#0","We've just submitted our project - almost doesn't finish 
+
+Name: CryptoShooters
+Description: CryptoShooter is a blockchain play-to-earn game that gives you the opportunity to battle enemies with a mix of Operators and Gun NFTs. In the world of CryptoShooters, you must put together a team of operators and arm them with the best guns available to take down the enemies.
+Demo: https://www.youtube.com/watch?v=dqZArkkB4xE
+
+Check out our project submission!
+https://hack.ethglobal.co/showcase/cryptoshooters-recVdvf58a7sP1WSx","",""
+"2021-08-30,05:44:32","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/881836779483852800/unknown.png"
+"2021-09-08,09:33:53","emilyhobbs","#0","Hello and welcome to the <#801175268639113216> channel
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328>","brantly.eth#0",""
+"2021-09-08,13:59:27","brantly.eth","#0","hey everyone! A few things:
+
+1) The best place to get dev help is in our normal Discord server: https://discord.gg/AskZbFx
+
+2) If you submit for the ENS prize, please explicitly explain in your project description exactly what you did with ENS, or else it's unlikely we'll even consider you for the prize","",""
+"2021-09-08,15:20:53","milan3774","#0","hey, I have an idea for a project, but I'm new to the space and I've never used ENS (besides buying my own domain) so I'm not sure if it's possible - I was thinking it would be cool to have a way how to configure a subdomain, say gallery.anon.eth which would then display a web gallery of all the NFTs in the anon's wallet; does it make sense? is it at all that possible?","",""
+"2021-09-09,10:38:08","escav","#0","Seems pretty cool y not🥳","milan3774#0",""
+"2021-09-09,12:40:56","milan3774","#0","<@!404096280307171328> do you it's technically feasible to build the idea I described above?","brantly.eth#0",""
+"2021-09-09,12:41:41","brantly.eth","#0","sure, definitely possible","milan3774#0",""
+"2021-09-09,12:42:28","milan3774","#0","awesome, thanks","",""
+"2021-09-19,18:28:25","futurealisha","#0","hey everyone, ENS team member Makoto created a walkthrough about ENS integration for ETHOnline hackers. If you have any questions, Makoto is always around in the ENS discord (which Brantly linked earlier)
+
+https://www.youtube.com/watch?v=UXtqq52mo70","",""
+"2021-09-22,14:05:20","nethan.eth","#0","Hey all, we're thinking through some ideas around ENS and would love your inputs! Takes ≈1min to fill and would help a lot 🙌 
+https://docs.google.com/forms/d/1RMRgtDlJgcm31bYqmLvXfZOGeu472nM82ecL0EZf4u8/edit#responses","",""
+"2021-09-28,01:38:59","k.ller","#0","Hey, can we have nested subdomains on ENS? I imagine it just adds another layer to the registry and one more set of resolver-owner? I am thinking of say metamask is everyone's main so, `alice.metamask.eth` is `Alice`'s portfolio (say); then can I do stuff like `projects.alice.metamask.eth` or `blog.alice.metamask.eth`?","",""
+"2021-09-28,01:52:33","k.ller","#0","or should I just think of pages like `alice.metamask.eth/blog` because the alternative becomes akin to filepaths and kinda annoying after a while?","",""
+"2021-10-04,02:46:18","holyaustin","#0","please can i know how best to implement ENS in my project. i am building an NFT marketplace. what features of ENS can i implement in this marketplace and how?","",""
+"2021-10-06,05:18:08","futurealisha","#0","If you're working on an ENS project and want to jam on idea or get help from the team, there are Office Hours on Tuesdays at 5am EST / 10.30am BST in the voice channel of our ENS discord server. Would love for you to stop by and tell us what your working on!","",""
+"2021-10-06,06:49:04","matoken.eth","#0","Did you watch the video <@!587569055016288277> posted? most of the info is also in https://docs.ens.domains/","futurealisha#0、holyaustin#0",""
+"2021-10-06,06:49:59","matoken.eth","#0","ens doesn't have `/` so you can only nest subdomains like `projects.alice.metamask.eth`","k.ller#0",""
+"2021-10-06,06:52:51","matoken.eth","#0","@here Let us know how many people are working on ENS. Earlier we announced extra $1000 for ENS prize winners to pitch at our upcoming ENS workshop. We will do so if we have at least several projects working on it but may cancel/change to something else if there isn't enough demand. Please read more about the ""EthOnline Show & Tell"" and register if you are intending to participate in this pitch session (stating that in the comment section) https://medium.com/the-ethereum-name-service/ens-online-workshop-october-2021-ec1fb049b77f","futurealisha#0",""
+"2021-10-06,16:14:07","k.ller","#0","ah i see.. nevermind.. I went the route of not being able to search for specific content, but you can click around to stumble on it; using merkle roots and txn data","matoken.eth#0",""
+"2021-10-06,18:01:05","k.ller","#0","hey was just looking at registering a bunch of domains, and saw the gas is like 200$.. is there bulk checkout facilities for purchasing multiple domains on a single txn?","",""
+"2021-10-06,23:03:52","devtooligan","#0","Does anyone have any Rinkeby eth they could spare?  We've been planning on using Ropsten all week and accumulating Ropsten eth but now we have to switch to Rinkeby. 😩  We could also trade you for Ropsten eth or Kovan eth.  
+
+Our address:  0xE7aa7AF667016837733F3CA3809bdE04697730eF 🙏 🙏 🙏","",""
+"2021-10-08,12:06:32","matoken.eth","#0","Have you tried https://faucet.metamask.io/ ?","devtooligan#0",""
+"2021-10-08,14:59:52","devtooligan","#0","Yes we have.  We've all been trying all of them 😦   Do you have any we could trade kovan or ropsten eth for??","matoken.eth#0",""
+"2021-10-08,15:05:18","elboletaire","#0","can anyone explain me how am I supposed to sign (write) transactions using ensjs? I'd like to create subdomains from my app, but can't find a way to properly make the requests signed (the library documentation does not help much https://github.com/ensdomains/ensjs)","",""
+"2021-10-10,08:38:41","matoken.eth","#0","It should work like https://github.com/ensdomains/ensjs/blob/master/src/__tests__/ens.test.js#L182","elboletaire#0",""
+"2021-10-10,08:39:42","matoken.eth","#0","it should be the matter of passing `signer` object for ethers.js or `provider` for others when you instantiate the object https://github.com/ensdomains/ensjs/blob/master/src/__tests__/ens.test.js#L74","",""
+"2021-10-10,08:41:33","matoken.eth","#0","@here If you are working on to submit for ENS parize, can you comment on the brief summary of what you are working on? I am currently gauging whether if we are going to have enough submission to privde extra pitch session for ENS workshop  https://medium.com/the-ethereum-name-service/ens-online-workshop-october-2021-ec1fb049b77f","",""
+"2021-10-10,11:17:30","elboletaire","#0","doing this I ended up with this error: https://github.com/ensdomains/ensjs/issues/55 and I see there seems to be a workaround, so I'll give it another try","matoken.eth#0",""
+"2021-10-10,12:12:22","elboletaire","#0","sorry but I don't get it...  and all turns around the same issue: how should I set a signer for a custom provider? In your tests I only see the signer being forced when interacting directly with the contract, but the only interactions you do with ensjs (as far as I'm understanding) run with a mocked version of Web3... and what I'm trying to achieve is directly from a backend app, using a JsonRpcProvider  😕  if ensjs had a `signer` param that I could personally set, and that signer was used instead of taking `provider.getSigner()` for each signed transaction, then I'd understand something... but right now I don't get it 😔","matoken.eth#0",""
+"2021-10-11,06:38:51","matoken.eth","#0","Hi, 4 more days till the end of EthOnline and 1 week before our ENS workshop. If you are planning to submit for ENS integration and want to pitch at our ENS workshop next week, please fill in this form https://forms.gle/i4QkEUwn8sL3kcK88 We will reach out to you once we decide who can pitch for potential additional prize","",""
+"2021-10-11,08:05:55","matoken.eth","#0","Umm, I also tested and not working well with jsonrpc provider. You may want to fork and tweak for now","elboletaire#0",""
+"2021-10-19,07:54:26","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/899988862028369930/unknown.png"
+"2021-10-29,09:00:19","emilyhobbs","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Team at any point with your questions! 🙌
+
+cc <@!404096280307171328> <@!481734967723032589>","brantly.eth#0、matoken.eth#0",""
+"2021-10-29,09:24:01","brantly.eth","#0","best place to get help with ENS is at our normal discord: discord.gg/ens","",""
+"2021-11-01,09:02:06","emilyhobbs","#0","Hey everyone! <:nfteth:822186186016948314> 
+
+Just wanted to give you a quick snapshot for you to keep in mind.
+
+🤑 **Check out Prizes Here**
+https://showcase.ethglobal.com/unicode/prizes
+
+🛠️ **Workshop**
+https://www.youtube.com/embed/UXtqq52mo70
+
+🔥 **Important Documentation**
+https://drive.google.com/file/d/1IKKIWyBAV1EBGO-AfQ2W8_EUhKUvFRWi/view
+
+https://docs.ens.domains/
+
+https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+
+https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+
+https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+
+https://github.com/ensdomains/ccip-read
+
+https://docs.google.com/spreadsheets/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0","",""
+"2021-11-05,11:35:45","newway1220","#0","Hello","",""
+"2021-11-05,11:36:11","newway1220","#0","https://github.com/mrhouzlane/Unicode-Bets-ConditionalTokens","",""
+"2021-11-05,11:36:38","newway1220","#0","This is my project , my teammate left (for medical reasons ) , I'm working by myself and will need some help","",""
+"2021-11-06,15:12:33","brantly.eth","#0","hey!","",""
+"2021-11-06,15:12:40","brantly.eth","#0","best place to get help is our normal ENS discord","",""
+"2021-11-06,15:12:46","brantly.eth","#0","discord.gg/ENS","",""
+"2021-11-08,04:11:53","emilyhobbs","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/907195715787317289/unknown.png"
+"2021-11-09,15:12:04","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the Team at any point with your questions! 
+
+i.e. <@!404096280307171328> <@!481734967723032589> (the best place to get help is the ENS Discord: https://discord.gg/ENS)
+
+I also just wanted to drop a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+The Ethereum Name Service (ENS) enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW **
+ENS will be awarding a total of $750 in Prizes! 
+
+**↓ Full Prize Breakdown Here ↓ **
+https://jam.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP **
+https://www.youtube.com/embed/UXtqq52mo70
+
+
+🔗** IMPORTANT LINKS**
+ENS Website: https://ens.domains/
+
+Intro: Decentralized naming for wallets, websites & more: https://docs.ens.domains/
+
+Workshop Slide Deck: https://drive.google.com/file/d/1IKKIWyBAV1EBGO-AfQ2W8_EUhKUvFRWi/view?usp=sharing
+
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+
+Durin: https://github.com/ensdomains/durin
+
+The full idea list: https://docs.google.com/spreadsheets/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0","brantly.eth#0、matoken.eth#0",""
+"2021-11-11,16:38:09","elliotkoss","#1098","Will we need to pay for all the on-chain changes required to set-up ENS in this hackathon? Just checking if there are some credits or something. This is my first web3 hackathon, so I don't know what's normal. Thanks!","",""
+"2021-11-11,17:52:11","karelnagel","#0","I think you could set it up on a testnet for this hackathon and then if choose to go live with your project then go to mainnet","",""
+"2021-11-13,00:33:22","BurnRate","#4602","Since the snapshot for all allocations for $ENS was Halloween, after that date when I attempt to claim (Ex:  claim.ens.domains) I receive the message ""You are not eligible for the airdrop."" Therefore, what are my options for securing an .eth domain?","",""
+"2021-11-13,03:25:53",".0xprof","#0","You can still buy an ens name, what you can't do is claim the airdrop for ens tokens","BurnRate#4602",""
+"2021-11-13,03:38:49",".0xprof","#0","Is there any support in this channel ?","",""
+"2021-11-13,09:42:51","BurnRate","#4602","Ahh, that makes sense. You need to both 1) connect and 2) launch the app to buy the domain. I see it now. Thanks.",".0xprof#0",""
+"2021-11-15,04:39:17","twade","#0","Registered my first ENS domain 💪 🎉","",""
+"2021-11-15,05:19:30",".0xprof","#0","Nice","twade#0",""
+"2021-11-15,14:59:53","twade","#0","Does anyone have some fully populated ENS domains? Ideally ones with avatar and a bunch of TXT records","",""
+"2021-11-16,20:54:32","sth","#9789","Anyone try to register a .eth ens domain on ropsten?  I can’t seem to set up the reverse name link; the register/commit transactions worked, but no option to set up primary ens link.
+Any pointers?","",""
+"2021-11-17,14:49:06","username_thomas","#0","^ looking for something similar","twade#0",""
+"2021-11-17,15:03:12","twade","#0","nick.eth is quite good but not full","",""
+"2021-11-17,15:09:19","username_thomas","#0","nice, not perfect but pretty good","",""
+"2021-11-17,15:09:21","username_thomas","#0","thanks","",""
+"2021-11-20,17:07:24","behold_stonksman","#0","my team is having the same problem","sth#9789",""
+"2021-11-20,17:08:49","behold_stonksman","#0","can't update records on ropsten","",""
+"2021-11-20,17:10:45","behold_stonksman","#0","<@!404096280307171328> <@!481734967723032589> is it expected that this doesn't work on ropsten? i tried asking in the ENS discord a few days ago but no one responded, the support channels there are very crowded haha","brantly.eth#0、matoken.eth#0",""
+"2021-11-20,17:25:15",".0xprof","#0","Lol I think here is the worst 🙄🙄 they don't reply 🙄🙄😅","behold_stonksman#0",""
+"2021-11-20,17:25:52",".0xprof","#0","I don't think you can get a fake ens name","",""
+"2021-11-21,06:44:29","nft","#6666","you can join and ask in ENS Discord server, there're many more devs could help out","",""
+"2021-11-22,10:07:16","krishan711","#0","Hey guys, our hack for web3jam is now live and usable by everyone. We built https://web3-images.kibalabs.com which is the easiest way to show a profile picture alongside the ens name / account for a user in your dapp. its as easy as ```<img src='https://web3-images-api.kibalabs.com/v1/accounts/0xdCf1220Cd53506B1e7137bffC2b8814C6Cc24421/image' />``` (just replace my account address with your users). It's perfect if you're showing ens names in your app cos you can show the users profile picture right alongside it with no work! I'd love to hear any feedback 🤗","",""
+"2021-11-22,14:01:42","ramitphi","#0","Name Huddle01, 
+
+Description: Huddle01 is a web3-powered video conferencing platform with a focus on pseudo-anonymity, privacy, and utility of digital assets
+
+Integrated ENS domain names with huddle01, 
+
+https://showcase.ethglobal.com/web3jam/huddle01","",""
+"2021-11-25,10:21:24","jacobw","#0","Hey folks, just noting we're waiting to hear back on ENS prizes, will update this chat when we receive them!","",""
+"2021-11-25,10:58:13","twade","#0","Thanks for the update <@!233245979548188673> 🙂","jacobw#0",""
+"2021-11-25,10:59:22","twade","#0","Would it also be possible to chat with someone on the ENS domains team about potential ongoing support for my project? ❤️","",""
+"2021-11-25,11:11:26","jacobw","#0","They have dedicated channels for this on their Discord which you can join here! https://chat.ens.domains/","twade#0",""
+"2021-11-25,11:20:24","twade","#0","Ah thanks, have joined up there too 🙂","",""
+"2021-12-05,15:44:32","twade","#0","Hope this is alright to post, but my ETHGlobal project, ENS.me, was approved as a GitCoin Grant and if anyone is feeling generous, or just wants to follow the project I'd love to hear from you! It would make a huge difference ❤️
+
+https://gitcoin.co/grants/4027/ensme","",""
+"2022-01-04,14:57:40","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/928014340114772068/nfthack2022.png"
+"2022-01-10,14:03:57","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted (they will be more active on the ENS Discord)!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW** 
+$150 in ETH to each of the 5 best projects to use ENS. This can be ENS username and avatar support, name resolution for entering a crypto address, or hosting your website on ENS and a distributed file network.
+
+**↓ Full Prize Breakdown Here ↓** 
+https://nft.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+https://youtu.be/K5HTMAQfe_Y
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-01-10,16:10:01","iniret","#0","hey ENS guys - thanks for posting info about this hackathon - without your shutout I would totally missed it.","",""
+"2022-01-12,10:21:56","Filipe Veiga | WalliD.io","#0901","Hey everyone 👋 We're submitting our project on the Dashboard (we're bridging DocuSign and Ethereum allowing for PDF signatures with ENS domains) Should we list it on the spreadsheet above or wait until the weekend or what should we do?","",""
+"2022-01-12,12:50:54","iniret","#0","Hello ENS people. Have question about any existing ways to distribute name under eth domain? You are supporting subdomains but maybe there is something else available to let users get unique ids. Thx","",""
+"2022-01-12,15:22:48","0xnim","#0","I think you can have a contract that is for giving out subdomains","iniret#0",""
+"2022-01-12,15:23:09","0xnim","#0","And ens is puting it into the main registry if im correct?","",""
+"2022-01-12,15:23:17","0xnim","#0","I am not the most up to date","",""
+"2022-01-12,15:23:24","0xnim","#0","But that was what i last understood","",""
+"2022-01-12,16:02:04","iniret","#0","yep I saw that about subdomains - just a little bit pricy with current Gas price. Maybe there some alternatives for that.","",""
+"2022-01-12,20:18:41","jacobw","#0","<@!740363954202738810> 👋","Ginge#3511",""
+"2022-01-13,11:39:07","jacobw","#0","<@!481734967723032589> 👋","matoken.eth#0",""
+"2022-01-13,11:43:49","matoken.eth","#0","that's a logistic question probably <@!233245979548188673> can answer","jacobw#0、Filipe Veiga | WalliD.io#0901",""
+"2022-01-13,11:44:21","jacobw","#0","Which spreadsheet?","Filipe Veiga | WalliD.io#0901",""
+"2022-01-13,11:45:33","matoken.eth","#0","we have a upcoming ENSIP called ""wildcard"" which suits the purpose. Unfortunately the support is not out yet https://docs.ens.domains/ens-improvement-proposals/ensip-10-wildcard-resolution","iniret#0",""
+"2022-01-13,12:49:56","Filipe Veiga | WalliD.io","#0901","full idea list in the important links","jacobw#0",""
+"2022-01-13,13:30:26","emilyhobbs","#0","Hey <@&921304497035300864> 
+
+Join the ENS Integration Workshop  w// Makoto Inoue ***happening now!***
+
+Join here 👉  https://ethglobal.zoom.us/j/85247484912","",""
+"2022-01-13,13:31:33","jacobw","#0","Ah I think this is more for reference if you don't have an idea, sounds like you're likely good to go without adding!","Filipe Veiga | WalliD.io#0901",""
+"2022-01-13,13:34:55","Filipe Veiga | WalliD.io","#0901","thanks 🙏","jacobw#0",""
+"2022-01-13,13:35:50","sighhigh","#0","will these be recorded? cant join to due to work","",""
+"2022-01-13,13:37:22","emilyhobbs","#0","Yes
+
+https://www.youtube.com/playlist?list=PLXzKMXK2aHh5tcSpSIuqrKslupKmBaVOt","sighhigh#0",""
+"2022-01-13,13:42:43","Deleted User","#0000","Thank you for the meeting
+I've just jumped on the call and it gives me one new idea of integration already ! haha
+💪 🥳","",""
+"2022-01-13,14:01:45","emilyhobbs","#0","Thanks everyone for joining! <@!481734967723032589> 👀 some questions left over from the chat!
+
+1. So ens is just a url shortener, but for wallet addresses?
+
+2. Someone-what unrelated to the technical application but do you guys have an authorized secondary market for ENS buying/selling?
+
+3. Can I put a ENS to a contract? Like mint.nftproject.com
+    .eth sorry
+
+4. ens can be purchased on opensea etc","matoken.eth#0",""
+"2022-01-13,14:15:26",".0xprof","#0","1. if i would have a go at this, it is much more than a wallet like url shortener it is a decentralised identity 
+2. there is a discord for selling ens but ens is not affiliated with this but are aware that this exist ( at least i think), you can get their discord from the ens channel
+3. not sure about this (wait for the team member) but i would say it is a yes but only smart contract with support for it 
+4. yes ens can be purchase and sold at opeansea
+<@!481734967723032589>","emilyhobbs#0、matoken.eth#0",""
+"2022-01-13,14:36:41","matoken.eth","#0","For 3, you can point forward record to contract address, but the contract address has to have a special support for ENS to set primary ENS name","",""
+"2022-01-13,17:09:41","iniret","#0","can you please elaborate ""support is not out yet"" - it's not gonna work if we do anything with that or you don't have any samples/libs/support for that yet ? Thanks a lot!","matoken.eth#0",""
+"2022-01-13,18:27:54","Ginge","#3511","Hey! Are you referring to ""The full idea list ? Those ideas actually come from our amazing developers <@!481734967723032589> and nick.eth as inspirational ideas, it is not necessary to put your idea on that list to enter the ENS bounty!","Filipe Veiga | WalliD.io#0901、matoken.eth#0",""
+"2022-01-13,18:33:07","Ginge","#3511","Great answers!",".0xprof#0",""
+"2022-01-13,23:43:57","0xshugo","#0","Hey ENS guys and <@!481734967723032589> san! 
+
+I'm Shugo, founder of Nysm.Great to meet you guys! And I'm considering that my team is gonna develop a project utilizes the ENS sub domain in this hackathon.","matoken.eth#0",""
+"2022-01-14,00:12:39","Ginge","#3511","Amazing! Looking forward to seeing it! Happy hacking!","0xshugo#0",""
+"2022-01-14,00:34:50","matoken.eth","#0","No client library support yet. Ethers.js is working on the support but the release is not out yet","iniret#0",""
+"2022-01-14,00:39:11","matoken.eth","#0","Hi. My previous hackathon slide mentions how to issue subdomain as NFT https://speakerdeck.com/makoto_inoue/ethglobal-ens-workshop?slide=28","0xshugo#0",""
+"2022-01-14,01:30:56","0xshugo","#0","<@!740363954202738810> 
+Thanks! I'll show you interesting products!","Ginge#3511",""
+"2022-01-14,07:14:49","_.kayne","#0","can you tell how?","matoken.eth#0",""
+"2022-01-14,08:43:00","matoken.eth","#0","Are you creating the contract by yourself?","_.kayne#0",""
+"2022-01-14,08:43:49","matoken.eth","#0","If so your contract has to call these functions https://docs.ens.domains/contract-api-reference/reverseregistrar","",""
+"2022-01-14,08:44:33","matoken.eth","#0","If not, then you can't really do it unless the contract has own way to send arbitrary transactions like Gnosis safe does","",""
+"2022-01-14,10:55:56","jpmonette","#0","Is it possible to register an ENS address on L2?","",""
+"2022-01-14,12:07:07","Ginge","#3511","https://medium.com/the-ethereum-name-service/mvp-of-ens-on-l2-with-optimism-demo-video-how-to-try-it-yourself-b44c390cbd67#:~:text=This%20makes%20it%20possible%20to,support%20each%20L2%20platform%20individually.","jpmonette#0",""
+"2022-01-14,12:10:39","Ginge","#3511","Here is also <@!481734967723032589> slide deck detailing https://speakerdeck.com/makoto_inoue/ens-on-layer2-at-ethcc-2021","jpmonette#0、matoken.eth#0",""
+"2022-01-14,12:11:45","Ginge","#3511","And the video to go with it https://www.youtube.com/watch?v=fTgNVu1Y720","",""
+"2022-01-14,12:19:37","Ginge","#3511","Excited to see everyones hacks! The kick off ceremonies going on now in the main room! https://ethglobal.tv/","",""
+"2022-01-14,13:40:44","0xnats","#0","hello <@!740363954202738810> would like to chat with you about Cryptomurals integration.","Ginge#3511",""
+"2022-01-14,13:58:18","Ginge","#3511","Hey feel free to shoot me a DM, if you don't want to post the question here.","0xnats#0",""
+"2022-01-15,01:59:54","_.kayne","#0","I guess ENS doesnt work on polygon right?","",""
+"2022-01-15,02:08:13","kartik","#0","not yet","",""
+"2022-01-15,02:44:59","_.kayne","#0","Ok thanks","kartik#0",""
+"2022-01-15,06:59:07","Filipe Veiga | WalliD.io","#0901","Gm everyone","",""
+"2022-01-15,06:59:48","Filipe Veiga | WalliD.io","#0901","really excited for this 🔥","",""
+"2022-01-15,07:01:24","Filipe Veiga | WalliD.io","#0901","any feedback on what we're building would be more than welcome 🙏:https://showcase.ethglobal.com/nfthack2022/ens-signatures-on-docusign","",""
+"2022-01-15,12:27:22","jpmonette","#0","Do we need some API key to resolve name from provider?","",""
+"2022-01-15,12:36:23","Ginge","#3511","https://docs.ens.domains/dapp-developer-guide/resolving-names","jpmonette#0",""
+"2022-01-15,12:37:18","brianhhough","#0","Is there an easy way to transfer an NFT from one wallet to an ENS domain name?","",""
+"2022-01-15,12:39:02","brianhhough","#0","I’m building a react dapp if that’s helpful for context.","",""
+"2022-01-15,12:39:56","Ginge","#3511","It would be the same as sending to a normal wallet. The Ens names point to that wallet in easy to understand human readable text. It would be the same as sending to a numeric address","brianhhough#0",""
+"2022-01-15,12:40:50","brianhhough","#0","Oh ok great!! Thanks for letting me know, I’ll reach out if I run into any issues","Ginge#3511",""
+"2022-01-15,12:41:21","Ginge","#3511","Happy hacking!","brianhhough#0",""
+"2022-01-15,12:49:06","serg3","#0","Hey ENS Team, do you have a calendly link to book a feedback call with you?","",""
+"2022-01-15,12:52:19","joanna_life","#0","Hi Ens, I am building identity project, ETHGlobal said to us you would like to help participants with identity projects. With who I have to chat?","",""
+"2022-01-15,12:52:21","joanna_life","#0","Thank you","",""
+"2022-01-15,13:19:35","Ginge","#3511","Hey! We don’t have feedback calls for this hackathon, as the time crunch is really short. But we can answer questions here and in our discord! Thank you!","serg3#0",""
+"2022-01-15,13:21:28","Ginge","#3511","Hey Joanna! Excited to see your project! Do you want to share your project idea here?","joanna_life#0",""
+"2022-01-15,13:28:25","joanna_life","#0","Of course yes,","",""
+"2022-01-15,13:28:26","joanna_life","#0","https://hack.ethglobal.com/nfthack2022/teams/recXw4VjZwpBZmRQV/recRYKzePCcThxANn","",""
+"2022-01-15,13:28:58",".0xprof","#0","lol this is a direct link to join your team","joanna_life#0",""
+"2022-01-15,13:32:11","Ginge","#3511","Could I have a new link please?","joanna_life#0",""
+"2022-01-15,13:42:03","serg3","#0","ok sure, we are summarizing our project rn and will post here. We would like to hear some feedback from you. Here a first teaser: https://twitter.com/serglotz/status/1481006872551464961?s=20","Ginge#3511",""
+"2022-01-15,13:42:21","serg3","#0","and https://twitter.com/serglotz/status/1478713381339205638?s=20","",""
+"2022-01-15,13:55:11","willisdagrillis","#0","Is it cool to use ENS on non-mainnet chains?","",""
+"2022-01-15,14:57:08","Ginge","#3511","Saw the teaser, always love more decentralized methods. Excited to see what you build!","serg3#0",""
+"2022-01-15,15:02:49","Ginge","#3511","Hey! What are you trying to do?","willisdagrillis#0",""
+"2022-01-15,17:12:30","kingsarenothing","#6864","Hi ENS!
+
+A couple of quick questions about avatars:
+1. I see in the docs that 'avatar' can be a URL to an image. Are there any other restrictions on the file format?
+2. Is the avatar cached or can it be dynamic (i.e. return a different image on each call)?
+
+Thanks!","",""
+"2022-01-15,17:31:31",".0xprof","#0","till we wait for the ens team
+- the images are usually set (if you are the owner of a name) you can use an nft as your avatar ( i dont know if they allow to use regular pics)
+- and i dont think it is dynamic because it is something being set by the owner of the name but that is something we will love to see","kingsarenothing#6864",""
+"2022-01-15,18:25:15","Ginge","#3511","2. The actual metadata that gets returned from the tokenURI function of your NFT contract won't change (unless it's actually updated on-chain, if the contract allows that). But inside that metadata the `image` could potentially point to a web2 server hosting the image, and the centralized provider of that server could change the image that gets served up. Sort of defeats the point of decentralization obviously, but there are still NFTs out there that function this way.
+
+If the metadata points to an IPFS content hash then that won't change. But there are other non-standard metadata formats out there too like Async Art's which seek to do exactly that - dynamic images. Like someone showed me this NFT of the moon that changes dynamically depending on the time of day. https://async.art/art/master/0xb6dae651468e9593e4581705a09c10a76ac1e0c8-3447
+
+You can view the metadata for that here ipfs://Qmcvm5ddzgwQvdubTNoKRwJpUitLFT5Wo2PvWetsmZUB5M . You'll see that the `image` just points to the default new moon state, but the actual dynamic pieces are in a custom `layout` field that isn't supported by the ERC-721 or ERC-1155 standards. So on most sites the avatar would just show up as just a black circle. But theoretically a client dapp could support ENS primary names with dynamic avatars like that if they wanted. Same as how a client could support rendering MP4 file avatars if they wanted to (I think Rarible does this with some of their own custom contracts).
+
+In most cases, a client website/dapp, like OpenSea, is going to request the avatar from the ENS metadata service and then cache it on their own storage. That's why they also have a Refresh Metadata option. It's a tradeoff they make for efficiency I suppose.",".0xprof#0",""
+"2022-01-15,18:26:58",".0xprof","#0","nice","",""
+"2022-01-15,18:29:08","naklecha","#0","Guys how do I get the ENS from an address?","",""
+"2022-01-15,18:30:01","Ginge","#3511","1. There are no restrictions on file format per se, but practically with the integrations that are currently out there, it's best to stuck to image formats that can be rendered inside of an `img` tag in your browser, since that's what usually happens. So for example an MPEG video won't render most places, but GIFs and SVGs (which can do animations) will work.","kingsarenothing#6864",""
+"2022-01-15,18:31:12","Ginge","#3511","Hey! I would start with this amazing video from <@481734967723032589>","naklecha#0、matoken.eth#0",""
+"2022-01-15,18:31:15","Ginge","#3511","https://youtu.be/K5HTMAQfe_Y","",""
+"2022-01-15,18:31:33","Ginge","#3511","Can you narrow down your question a bit?","",""
+"2022-01-15,19:28:30","jpmonette","#0","Hey - how can I query some ENS domains using my provider (Metamask) when I'm connected to another chain? (Polygon Testnet)","",""
+"2022-01-15,19:28:47","kingsarenothing","#6864","Thanks for this super detailed answer!
+
+It looks like ENS is also caching the avatar image. I spun up a quick web2 server that generates a new image with each request but my avatar image is always the same. Is there a way to force Refresh Metadata on ENS?","Ginge#3511",""
+"2022-01-15,19:50:09","willisdagrillis","#0","Would it work on polygon for example?","Ginge#3511",""
+"2022-01-15,19:57:29","Ginge","#3511","Not yet","willisdagrillis#0",""
+"2022-01-15,20:22:18","Ginge","#3511","Where are you viewing the meta data?","kingsarenothing#6864",""
+"2022-01-15,22:49:21","Eggie","#0143","Is qualifying for the ens prize mainly connecting your project to an ens address? I was trying to connect the dns to the ens and gas fees were sending the price to $600 🥲","",""
+"2022-01-15,23:00:20","Ginge","#3511","$150 in ETH to each of the 5 best projects to use ENS. This can be ENS username and avatar support, name resolution for entering a crypto address, or hosting your website on ENS and a distributed file network.","Eggie#0143",""
+"2022-01-15,23:01:06","Eggie","#0143","Thank you!","",""
+"2022-01-15,23:01:21","Ginge","#3511","I would also use a testnet","Eggie#0143",""
+"2022-01-15,23:01:26","Ginge","#3511","Rinkeby","",""
+"2022-01-15,23:01:57","Ginge","#3511","Happy Hacking!","",""
+"2022-01-16,01:18:19","yoginth","#0","I just submitted my ens related project
+
+Name: ENS.events
+
+Submission: https://showcase.ethglobal.com/nfthack2022/ens-events
+Demo: https://ens.events/
+
+cc <@!481734967723032589>","matoken.eth#0",""
+"2022-01-16,04:27:10","danielmcclure","#0","Are there any examples of generating the namehash for a React app?","",""
+"2022-01-16,11:51:08","cecco_","#0","Can we present our hack to the ens team?","",""
+"2022-01-16,12:00:18","0xshugo","#0","<@481734967723032589> <@!740363954202738810>
+We've submitted our project for ENS. It would be happy to pitch our product to you guys.
+
+Our Project Overview
+Phi Land（φ Land）- Generates a unique Metaverse Land to Anyone with an ENS address.
+https://showcase.ethglobal.com/nfthack2022/phi-land","Ginge#3511、matoken.eth#0",""
+"2022-01-16,12:11:07","ratalie.eth","#0","https://showcase.ethglobal.co/nfthack2022/transparentnfts","",""
+"2022-01-16,12:19:18","sung4095","#0","Hello, we are team Kryptonium, who submitted project for ENS. 
+We created a NFT Native Social Platform - connecting people with NFT as a bond of identity, persona, and interest.
+Would be great if you could review.
+https://showcase.ethglobal.com/nfthack2022/whoodid-com","",""
+"2022-01-16,12:52:31","newway1220","#0","Hello we are dop.io , we have submitted !! 
+May Punks live forever","",""
+"2022-01-16,12:52:32","newway1220","#0","https://dopio.netlify.app/","",""
+"2022-01-16,13:17:40","jacobw","#0","Reminder to demo to the sponsor please head to the voice channel (scroll down on the left bar) to demo directly. There are no slots to book, just head on down to demo!","",""
+"2022-01-16,13:41:18","Charly ben 2202","#6693","https://docs.google.com/presentation/d/13pcWB9QpOvOCuUqcVWzXaP_LVz1NaAHM6Zia5Us2ASk/edit?usp=sharing
+Google Docs
+Tokenchef-prez
+TOQUE’N CHEF ETHGLOBAL NFT HACK 2022 toquenchef.com info@toquenchef.com @toquenchef","",""
+"2022-01-16,13:41:20","danielmcclure","#0","My somewhat unfinished NFT project featuring ENS usernames and avatars:
+
+https://showcase.ethglobal.co/nfthack2022/ethereum-the-tribe","",""
+"2022-01-16,14:24:54","locoblock","#0","Hi we did work with ENS that we would like to present but I'm having issues joining discord live streaming. It says I don't have permissions to join and that the connection is broken. I've already tried going through different browsers to no avail... Can someone do zoom/google meet ? My team is having a hard time presenting without me...","",""
+"2022-01-16,14:30:51","jacobw","#0","Tried to reset your permissions","locoblock#0",""
+"2022-01-16,14:30:53","jacobw","#0","maybe that worked","",""
+"2022-01-16,14:31:28","locoblock","#0","THANK YOU! IT WORKS NOW!!!!","",""
+"2022-01-16,15:18:49","agrawalananyaa","#0","Hey wifi of my entire neighbourhood went and I was not able to join for sponser judging. Is there something that can be done please?","",""
+"2022-01-16,15:19:09","jacobw","#0","https://discord.com/channels/554623348622098432/906117584838070293/932353511474208828","agrawalananyaa#0",""
+"2022-01-16,15:55:36","Ginge","#3511","Thank you so much to all our amazing participants, and <@!233245979548188673> and the whole EthGlobal team. I am so impressed by your talent, creativity, and passion.","jacobw#0",""
+"2022-01-16,15:55:44","Ginge","#3511","I wish I had more prizes to give away!","",""
+"2022-01-16,15:55:48","Ginge","#3511","You guys are incredible","",""
+"2022-01-16,15:55:50","Ginge","#3511","Thank you","",""
+"2022-01-16,17:39:29","agrawalananyaa","#0","Hey, our video  didn't get uploaded before. Please have a look at the same, updated:
+Project: https://showcase.ethglobal.com/nfthack2022/noodles-streaming-app","",""
+"2022-01-16,18:33:10","Filipe Veiga | WalliD.io","#0901","It was a real pleasure to be here with you guys during the weekend","",""
+"2022-01-16,18:33:35","Filipe Veiga | WalliD.io","#0901","congrats everyone for such an amount of amazing projects","",""
+"2022-01-16,18:59:47","Ginge","#3511","Congratulations and great work!","Filipe Veiga | WalliD.io#0901",""
+"2022-01-16,20:07:27","0xshugo","#0","<@!740363954202738810> <@!481734967723032589> 
+CC: <@!396107354682425355> <@!738191376495280212> 
+
+Hello! 
+
+We are Phi Land Team, thank you for the amazing prize! 😆 
+https://showcase.ethglobal.com/nfthack2022/phi-land
+
+ENS is one of the most decentralized and important web3 products among all the web3 products, and is used by many people. We participated in NFTHACK with the intention of winning the ENS sponsorship award from the beginning, so we were really happy now!
+
+It's honor to get this prize, thanks!","Ginge#3511、consome#0、zak3939#0、matoken.eth#0","https://cdn.discordapp.com/attachments/801175268639113216/932440955959787570/Screen_Shot_2022-01-16_at_14.19.56.png"
+"2022-01-16,20:29:00","Ginge","#3511","Your team deserved it! Amazing job!","0xshugo#0",""
+"2022-01-16,20:32:46","0xshugo","#0","Thank you Ginge-san! 😁 All thanks to my team, <@!396107354682425355>  & <@!738191376495280212> !!!","Ginge#3511、consome#0、zak3939#0",""
+"2022-01-17,00:29:51","consome","#0","wow!","",""
+"2022-01-17,05:28:44","Filipe Veiga | WalliD.io","#0901","sent you a friend request to DM the video and talk about the integration 🙂","Ginge#3511",""
+"2022-01-18,22:53:14","beauzab","#0","Hello <@!740363954202738810> please check dm's","Ginge#3511",""
+"2022-01-19,01:27:47","Ginge","#3511","Hey Zab I responded","beauzab#0",""
+"2022-06-01,20:04:55","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/981709967511916635/unknown.png"
+"2022-06-16,23:54:24","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW**
+
+🥇 1st $1,500
+🥈 2nd $1000
+🥉 3rd $500
+🏊 $2,000 pool prize for anyone that integrates
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ny.ethglobal.com/prizes/
+
+
+🚀 **WORKSHOP** 
+*Workshop link coming soon!*
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-06-24,22:29:21","relyt29","#0","hey is there anybody from ENS here","",""
+"2022-06-24,22:29:25","relyt29","#0","I haz question","",""
+"2022-06-24,22:29:50","relyt29","#0","<@740363954202738810> would you be the person to ask questions about ENS specifics","Ginge#3511",""
+"2022-06-25,04:41:29","eddyguo","#0","^ would love to know where you guys are located too!","",""
+"2022-06-25,10:38:18","lucemans","#0","Heya 👋","",""
+"2022-06-25,10:38:34","lucemans","#0","<@719966996548288573> How can I be of assistance?","relyt29#0",""
+"2022-06-25,11:38:07","relyt29","#0","I think we're good for now I just wanted to know who would be the person to ask if I had qs","lucemans#0",""
+"2022-06-25,12:51:07","0xmau","#9644","Hi! Is there anyone from the ENS team to chat with in person?","",""
+"2022-06-25,12:52:49","0xmau","#9644","<@389006437613043712> sent you a friend request to be able to DM","lucemans#0",""
+"2022-06-25,13:00:18","lucemans","#0","found u","",""
+"2022-06-26,01:58:27","s.tv","#0","Is anyone still here that would be able to answer an ENS q? Thanks!","",""
+"2022-06-26,04:06:10","newway1220","#0","Hey is there any doc for adding ens domains next to the address (sdk) ? tx","",""
+"2022-06-26,04:20:37","s.tv","#0","If you are referring to subdomains, here is a link to some ens documentation <@871813222758481970> 
+https://docs.ens.domains/dapp-developer-guide/managing-names#creating-subdomains","newway1220#0",""
+"2022-06-26,10:55:53","diversity2855","#0","hey where is the ens table?","",""
+"2022-06-26,11:12:47","diversity2855","#0","<@389006437613043712>","lucemans#0",""
+"2022-06-26,11:13:23","lakshmi0529","#0","Hi we built a expense splitting application called Splytto for Cryptos. 
+That allows to split and share expenses, bounties Amongst a group of people using crypto","",""
+"2022-06-26,11:15:56","lucemans","#0","We dont have an ENS table this time","diversity2855#0",""
+"2022-06-26,11:16:28","j_eth_id","#0","Would love to chat, is there a place to find you?","",""
+"2022-06-26,11:18:05","lucemans","#0","im personally still cooking breakfast, but there are a fair bit of other ENS family around the venue","s.tv#0",""
+"2022-06-26,11:18:23","lucemans","#0","Most of us have our ENS hats or shirts","",""
+"2022-06-26,11:20:50","diversity2855","#0","Is there a process we should go through to present you guys our project using ENS :)?","lucemans#0",""
+"2022-06-26,11:29:21","slobo.eth","#0","hi there","",""
+"2022-06-26,11:29:42","slobo.eth","#0","i'm on the first floor behind the booths i'm wearing a slobo.eth hat","",""
+"2022-06-26,11:32:03","slobo.eth","#0","does this help","","https://cdn.discordapp.com/attachments/801175268639113216/990640594953076746/unknown.png"
+"2022-06-26,11:32:03","lucemans","#0","We are part of the judges aswell, so during your interview would be the place to do so","diversity2855#0",""
+"2022-06-26,11:32:28","lucemans","#0","^ slobo is a cool guy, go find him xD","slobo.eth#0",""
+"2022-06-26,11:35:18","diversity2855","#0","I’ll be looking for you right after IPFS!","slobo.eth#0",""
+"2022-06-26,11:44:40","slobo.eth","#0","Great moved to the correct table where all the other sponsors are","",""
+"2022-06-26,12:31:10","lebed2045","#0","can't find your booth","",""
+"2022-06-26,12:57:55","brentable","#0","do we have to present to ENS to win the prize? lol","",""
+"2022-06-26,13:12:11","slobo.eth","#0","no, we will be reviewing submissions, but will help a lot","",""
+"2022-08-25,22:20:42","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1012547107288252447/unknown.png"
+"2022-08-30,13:02:39","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS Team at any point with your questions! 
+
+Just giving you all a quick snapshot for you to get quickly acquainted!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW **
+
+💎 $3000 - Platinum
+🗿 $2000 - Obelisk
+👷‍♂️ $2000 - Bob
+🍳 $1500 - Fried Eggs
+🕷 $1500 - Nick
+
+**↓ Full Prize Breakdown Here ↓ **
+https://online.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+*Workshop link coming soon!*
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-08-31,13:55:47","hidetaka","#3633","We are thinking of creating something like a Web3 version of Patreon.
+
+We envision the following use cases for your technology lie below.
+
+Are you eligible in either case for your prize?　
+Or do you have any idea?
+
+1. It is used as one of the creator's profile information.","",""
+"2022-09-02,15:17:28","hidetaka","#3633","although, I read your pages.
+
+https://ethglobal.com/events/ethonline2022/prizes#ens","",""
+"2022-09-03,10:16:36","joelcodes","#0","Howdy everyone, is there anyone from the sponsor team that can validate if our idea is worth building? I organized the key components in a document I can share with you. Feel free to DM or reply here. Thank you!","",""
+"2022-09-05,12:37:01","lucemans","#0","Heya <@526532354265710602> !","joelcodes#0",""
+"2022-09-05,12:37:28","lucemans","#0","Luc from ENS here! Lets chat about it!","",""
+"2022-09-06,10:52:38","armiesoto","#8424","Hey <@389006437613043712> ! Sending you a DM as well!","lucemans#0",""
+"2022-09-06,13:52:10","realkdi","#0","Hi. Is it possible to use ENS on polygon?","",""
+"2022-09-07,16:23:31","nucleargeek","#0","Cant get the youtube video to load","",""
+"2022-09-08,05:26:22","lucemans","#0","Which youtube video? <@742227718338510939>","nucleargeek#0",""
+"2022-09-08,09:45:58","nucleargeek","#0","The live EPNS video from yesterday, it never worked","lucemans#0",""
+"2022-09-08,09:46:20","nucleargeek","#0","wrong chat I see","",""
+"2022-09-08,09:53:48","creedebeauvoir","#0","Hey <@&978595534812102666> 👋 
+
+ENS 🛠️ Identity in your dApps ..... is starting soon-ish !!
+
+Join on Zoom: https://ethglobal.zoom.us/j/82103579517
+Watch on YouTube: https://youtu.be/26JAdqjcrDI","",""
+"2022-09-08,10:17:41","nucleargeek","#0","Is there a template or something that Lucemans.eth used in the presentation for tictac.so that shows the owner's wallet address in profile in the top right of the dapp? I see that often and would love to play around with it","",""
+"2022-09-08,10:32:25","nucleargeek","#0","great demo <@389006437613043712>","lucemans#0",""
+"2022-09-08,10:52:11","lucemans","#0","TicTacSo is open Source! (but the code is a mess but ok)","nucleargeek#0",""
+"2022-09-08,10:52:17","lucemans","#0","https://github.com/lucemans/tictacso","",""
+"2022-09-08,10:52:28","lucemans","#0","Source of the slides:
+https://github.com/lucemans/show","",""
+"2022-09-08,10:52:42","lucemans","#0","Slides:
+https://luc.show/eth-online-2022/","",""
+"2022-09-08,10:53:52","nucleargeek","#0","I get a 404 on this link","lucemans#0",""
+"2022-09-08,10:53:53","lucemans","#0","If youre building anything with react I highly recommend (and use):
+https://wagmi.sh/docs/hooks/useEnsName
+
+And obviously rainbowkit:
+https://www.rainbowkit.com/","",""
+"2022-09-08,10:54:13","nucleargeek","#0","ohhh nice! I am building with React! Thank you!","lucemans#0",""
+"2022-09-08,10:54:25","lucemans","#0","Oh shoot thats a private repo <a:awkward_monkey_look:954857469035835493>","nucleargeek#0",""
+"2022-09-08,10:54:39","lucemans","#0","Good luck!","nucleargeek#0",""
+"2022-09-08,10:54:49","lucemans","#0","If you have any more questions feel free to how in here or ping me!","",""
+"2022-09-08,10:54:58","nucleargeek","#0","thank you so much!","lucemans#0",""
+"2022-09-08,10:55:23","nucleargeek","#0","I figured out how to tie my Flask server into React this week, so I am feeling good! haha","",""
+"2022-09-08,10:55:40","lucemans","#0","Also have a look at https://ethglobal.com/guides/intro-to-ethereum-name-service-6vow7, for a written guide if you prefer that","",""
+"2022-09-08,10:57:24","nucleargeek","#0","Thanks man! I was starting to go through these this morning. I build a lot of discord and twitter bots and I always try to implement using their ENS name as an alternative to using their address. Now trying to expand my skills to webapps","lucemans#0",""
+"2022-09-08,11:09:20","lucemans","#0","Sweet!","",""
+"2022-09-08,12:31:24","nucleargeek","#0","Just wanted to stop back by and say thank you again! This was super helpful! Got it working","lucemans#0","https://cdn.discordapp.com/attachments/801175268639113216/1017472233544876032/unknown.png"
+"2022-09-08,12:32:04","lucemans","#0","sweeeeeet","",""
+"2022-09-08,13:29:03","julsr","#0","Hi all! Quick question, what does each prize mean? What means Platinum, Obelisk...?","",""
+"2022-09-08,14:12:41","nucleargeek","#0","I minted you an AiFREN and followed you on twitter. You can use this to get access to all my AI bots in discord: https://opensea.io/assets/ethereum/0xa22af618c601f1d202ce11c8e249a50d0d7934c9/130","lucemans#0",""
+"2022-09-08,14:13:10","lucemans","#0","Oh sweet thanks!","",""
+"2022-09-08,14:35:42","nucleargeek","#0","no, thank you! Super helpful!","lucemans#0",""
+"2022-09-09,00:05:15","madhav_28_","#0","Hey ENS Team I am currently building a  defi dapp with uma oracle. And I am thinking for using the ENS for registering the users with ENS (making profiles of the users , so it will be easy  give them points and rewards )
+My question is that if there will be any ens service where we can store the profiles and username data securely
+And If the project is eligible for price distribution","",""
+"2022-09-10,15:22:30","mrx1868","#0","Hello. I’m building a react native app for decentralized news. What library and dependencies would I need for my react native app?","",""
+"2022-09-12,21:23:57","tzumby","#0","Hey there, my team and I are building a dApp that integrates ENS. We need to set the content hash programatically and trying to call the `setContentHash(node bytes32, hash bytes)` in the `PublicResolver`. The second argument is pretty clear, but wondering what the `node` is and how we can retrieve that given an ENS domain. Thanks in advance 🙏","",""
+"2022-09-12,21:52:43","nucleargeek","#0","I built something like this but just in python. I used Google News RSS feed. https://news.google.com/rss/. You could use react-rss or something to inject the feed based on key words or something","mrx1868#0","https://cdn.discordapp.com/attachments/801175268639113216/1019063047161122886/unknown.png"
+"2022-09-13,08:22:40","tzumby","#0","For anyone else wondering, the `node` is the `name hash`  (https://docs.ens.domains/contract-api-reference/name-processing#normalising-names)","",""
+"2022-09-13,10:14:33","peterkrulis","#0","<@389006437613043712> hello would it be possible for some of your team to check short presentation of our project and just answer simple question please ? it is very short I promise , I can share it here no problem.thank you.","lucemans#0",""
+"2022-09-13,10:15:24","lucemans","#0","Oh yeah ofcourse send it over!","",""
+"2022-09-13,10:17:17","lucemans","#0","ENS already keeps track of usernames so you dont need to keep track of those. For storing data you can store it on chain and I would recommend associating it with the wallet address","madhav_28_#0",""
+"2022-09-13,11:28:00","madhav_28_","#0","Thanks. Yeah surely I am gonna to associate them with the wallet address","",""
+"2022-09-13,13:22:16","peterkrulis","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1019296975453167637/EARTH_PITCH.pdf"
+"2022-09-14,13:45:17","hidetaka","#3633","<@389006437613043712> 
+We are thinking of creating something like a Web3 version of Patreon.
+
+We envision the following use cases for your technology lie below.
+
+Are you eligible in either case for your prize?　
+Or do you have any idea?
+
+1. It is used as one of the creator's profile information.
+
+although, I read your pages.
+
+https://ethglobal.com/events/ethonline2022/prizes#ens","lucemans#0",""
+"2022-09-16,16:30:05","koheingt","#0","gm <@389006437613043712> just dmed you! plz check it out","lucemans#0",""
+"2022-09-16,16:32:40","StevenGT","#1955","Very basic question I think but I think I am missing something.... I'm trying to use ethers js to reverse lookup an ENS name but getting null as the result. For example, I'm using this to look up the address with a name:
+
+const address = await provider.resolveName('alice.eth')
+This returns: 0xcd2E72aEBe2A203b84f46DEEC948E6465dB51c75
+
+When I do a reverse look up though with the address:
+const name = await provider.lookupAddress('0xcd2E72aEBe2A203b84f46DEEC948E6465dB51c75')
+I get ""null"" 
+
+Am I missing something? (Using Alchemy as my provider on mainnet ""homestead"")","",""
+"2022-09-19,00:00:50","hidetaka","#3633","<@389006437613043712> What do you think?","lucemans#0",""
+"2022-09-19,00:03:01","lucemans","#0","hmm weird, im not sure alice has her reverse record set, will check","StevenGT#1955",""
+"2022-09-19,00:03:06","lucemans","#0","sounds cool!","hidetaka#3633",""
+"2022-09-19,00:04:21","hidetaka","#3633","Is there no requirments to eligible for the prize?","lucemans#0",""
+"2022-09-19,00:05:13","lucemans","#0","We just want people to build cool stuff and promote epic projects in the ecosystem","",""
+"2022-09-19,00:06:01","lucemans","#0","Most sites include ENS nowadays and for future hackathons we may do some kind of pool accross projects using ENS","",""
+"2022-09-19,00:06:33","lucemans","#0","elegibility is as simple as ""use ENS"", and make something cool","",""
+"2022-09-19,00:07:01","hidetaka","#3633","That's cool!","",""
+"2022-09-19,00:07:23","lucemans","#0","Obviously projects directly contributing to or soley to the ENS ecosystem get a bit of a headstart","",""
+"2022-09-19,00:07:44","lucemans","#0","But otherwise, just build something you think people would like / would use, and have a good time hacking!","",""
+"2022-09-19,10:34:06","vlprosvirkin","#3513","Hey guys, we're building ASPIS Protocol for DAOs (DAO Tooling for asset managers) and we're using same subdomains as Aragon v1 does so each DAO can have their Subdomain on [exampledao.aspisfinance.eth] is it counted as a good implementation? Managers would be able to add their DAO wallet from the registry to the frame.sh wallet and directly transact with their DAO balance","",""
+"2022-09-19,10:54:30","nucleargeek","#0","that has been our approach on every hackathon, not try to build something to meet requirements, but build something fun and just try to include as many sponsors as we can","lucemans#0",""
+"2022-09-19,10:54:49","nucleargeek","#0","but we haven't won either, so maybe not the best advice lol","",""
+"2022-09-20,10:00:48","l0gykal","#0","Hello friends, I'd like to build a contract that possesses an ENS name and that can distribute subdomain, how can I do that?
+I'm looking at the examples of subdomainRegistrar on ENS' GitHub but I'm not sure that they do what I'm describing
+Can you confirm?","",""
+"2022-09-20,13:37:14","nick_w3","#0","Hey ens team I have a question about if there is a way to give the functionality to my Capp users to buy .test domains with what contract do I have to interact","",""
+"2022-09-20,13:37:27","nick_w3","#0","And can that be established from Mumbai","",""
+"2022-09-20,13:37:31","nick_w3","#0","Test net","",""
+"2022-09-21,10:28:12","l0gykal","#0","Where can I get the contract interface that is used to let someone create subdomains from their ENS name","",""
+"2022-09-22,10:32:31","l0gykal","#0","<@389006437613043712>","lucemans#0",""
+"2022-09-22,10:32:38","lucemans","#0","Heya!","",""
+"2022-09-22,10:33:40","lucemans","#0","You should be able to find them on our github","",""
+"2022-09-22,10:33:48","lucemans","#0","One moment im currently on mobile but ill find you the link","",""
+"2022-09-22,15:03:11","lucemans","#0","We have most of our core functionality in https://github.com/ensdomains/ens","",""
+"2022-09-22,15:03:23","lucemans","#0","some in","",""
+"2022-09-22,15:03:28","lucemans","#0","https://github.com/ensdomains/ens-contracts","",""
+"2022-09-22,15:03:50","lucemans","#0","And you should always be able to find our docs at https://docs.ens.domains","",""
+"2022-09-22,15:04:00","lucemans","#0","Hope that helps, sorry I got distracted for a bit there xD","",""
+"2022-09-22,15:04:37","lucemans","#0","Heya! Yeah we have .test running on multiple of the testnets, check the docs for the addresses of those deployments","nick_w3#0",""
+"2022-09-22,15:05:12","lucemans","#0","<@292353897031532544> Have a read through the ""writing a resolver"" section","l0gykal#0",""
+"2022-09-22,15:05:28","lucemans","#0","It should be able to help you distribute subdomains and alter records etc","",""
+"2022-09-23,12:17:41","l0gykal","#0","Thanks, I'll take a look asap before the end of the hackaton😁","",""
+"2022-09-24,14:00:57","l0gykal","#0","<@389006437613043712> is it possible to burn a subnode?
+If I'm right a node is ""x.eth"" domain and a subnode is a ""y.x.eth""?
+It is pretty badly explained in the doc, when I read that I thought nodes related to actual nodes","lucemans#0",""
+"2022-09-24,19:21:28","jasonhu2","#0","is there an easy API for our website to know the ENS of a given wallet address?","",""
+"2022-09-24,22:41:20","nucleargeek","#0","Here is an example: https://www.npmjs.com/package/@ensdomains/react-ens-address","jasonhu2#0",""
+"2022-09-25,16:09:45","koheingt","#0","heyhey ens team
+
+we built the one-stop dashboard tool for delegatees to solve voter apathy issues to make protocols like ens to be robust and resilient at ethonline.
+
+but we didn't manage to leave a github link for applying the sponsor integration in our submission 😭
+
+this is the code here
+https://github.com/senate-xyz/senate/blob/e471ecaaa256a78f2e2a7f0b4f30df86670fd762/web-nextapp/components/navbar/NavBar.tsx#L75
+
+and we are pretty proud that this can help ENS DAO and ENS steward to have better governance and coordination so check this out sirrrr
+https://ethglobal.com/showcase/senate-pxfwm","",""
+"2022-09-26,06:38:42","nick_w3","#0","Hey there ens ! I was wondering what kind of ipfs urls are u supporting to link them with my ens","",""
+"2022-09-26,06:39:11","nick_w3","#0","Currently we used spheron and valist ipfs urls but it’s says that u don’t support them","",""
+"2022-09-26,06:39:31","nick_w3","#0","I also find out fleek is it going to work using fleek ?","",""
+"2022-09-26,11:23:45","iamminci","#0","Hey ENS team! Just wanted to share the project that I've built for your bounty. Thanks for your time:)
+
+**Telescope is a cross-chain EVM transaction explorer.** Learn more here: https://ethglobal.com/showcase/telescope-144tq
+
+Demo for your team here: https://vimeo.com/753896108","",""
+"2022-09-26,12:59:25","trmid","#0","Hey ENS team, <@130396053399797760> and I made 🌎 **World Hash** #️⃣ , an open source toolkit for sharing Minecraft worlds over ENS and IPFS.
+
+https://worldhash.eth.limo
+*^ World Hash Info ^*
+
+https://ethglobal.com/showcase/world-hash-qdx6t
+*^ ETHOnline 2022 Project Page ^*
+
+Please let us know if we need to set up a meeting time to present or if there are any other steps we need to take.
+Looking forward to your feedback!","ncookie#0",""
+"2022-10-03,09:08:06","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1026480768547037254/unknown.png"
+"2022-10-03,09:08:32","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS Team at any point with your questions!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🌳 **In the Wild - $1,500 **
+best use of Wildcard resolution + CCIP read
+
+🎁 **That’s a wrap - $1,500 **
+best use of NameWrapper on testnet
+
+👁 **I saw the sign - $1,000**
+best use of Sign in with Ethereum 
+
+💬 **2 x Say My Name - $500**
+fun/novel use of name and avatar resolution
+
+🤝 **Integration Bounty - $5,000**
+distributed equally amongst all projects that resolve ENS names and avatars
+
+**↓ Full Prize Breakdown Here ↓ **
+https://bogota.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+*More info coming soon!*
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-10-08,12:13:29","sharkcoochieboard","#0","Do you have abooth ?","",""
+"2022-10-08,12:13:35","sharkcoochieboard","#0","I would like to ask questions","",""
+"2022-10-09,07:48:53","lucemans","#0","Heya","",""
+"2022-10-09,07:49:30","lucemans","#0","Yeah we have a booth! Feel free to drop by at some point, jm also walking around w a black shirt w the ENS DAO logo on it so if you see me feel free to stop me anytime","",""
+"2022-10-09,09:10:54","0xjh0n","#0","Gm! <@389006437613043712>, there is someone at Ágora now? I'm having trouble setting an ens","lucemans#0",""
+"2022-10-09,09:11:53","lucemans","#0","I am on our way there! Im not sure who is there atm, but will ping once I get there","",""
+"2022-10-09,09:12:10","0xjh0n","#0","Thank u so much!","",""
+"2022-10-09,11:55:34","0xbenzy","#0","Where can I present for ENS, are you on the third floor?","",""
+"2022-10-20,08:58:37","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1032638975678103604/unknown.png"
+"2022-10-27,20:55:11","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS Team at any point with your questions!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 1st - $3,000
+🥈 2nd - $2,00o
+🥉3rd - $1,000
+🤝 Integration Bounty - $4,000
+
+**↓ Full Prize Breakdown Here ↓ **
+https://sf.ethglobal.com/prizes
+
+
+🚀 **WORKSHOP**
+**ENS 🛠 Identity in your dApps**
+Time: 04:30 PM PDT – Nov 04, 2022
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-11-04,23:07:45","slamdunk117","#0","<@389006437613043712> hey, is any team that has already done subdomain access control that would be beneficial to DAO and web3 native company?","lucemans#0",""
+"2022-11-04,23:10:38","slamdunk117","#0","I have heard from my teammates that u talked about lit protocol and pod.xyz that may have implemented it, but I actually am also working closely with lit protocol so I think it may not be available at this moment. Pls let me know if it’s a good idea to work on this!(since it doesn’t make sense if there is already solution out there","",""
+"2022-11-05,00:03:45","mmxmb","#8524","Is there ENS booth?","",""
+"2022-11-05,00:08:08","slamdunk117","#0","seems that the sponsors already left","",""
+"2022-11-05,07:46:13","abrand","#0383","What's the best way to get a user's indexedKey for getting text records?  I'm doing this in ethers rs btw","",""
+"2022-11-05,15:35:48","miajia","#0","<@720407640131240026> Thanks for the info for ETHGlobal! do you mind sharing the judging criteria for ETHGlobal SF?","awliang#0",""
+"2022-11-05,15:36:02","miajia","#0","https://tenor.com/view/please-begging-gif-25375904","",""
+"2022-11-06,01:09:58","pinokey","#0","<@389006437613043712> I have a technical question. Is there a way to resolve the ens on-chain and get the address?
+We are thinking of storing some ens as a string( “pinokey.eth”, “kevin.eth”, etc) in our contract and want to make sure that the msg.sender and the address of “pinokey.eth” stored in my contract are the same.
+→i found it https://docs.ens.domains/contract-developer-guide/resolving-names-on-chain","lucemans#0",""
+"2022-11-06,03:51:30","._.fang","#0","anyone familiar with durin/eip3668. do you know if there is any public explorer that supports this? i.e. I deployed a eip3668 contract to testnet. I would love to not to have to run my own frontend to showcase the offchain read functionality. etherscan seems to be no go and just returns the revert error","",""
+"2022-11-06,04:58:11","mainside","#0","Is anyone from ENS currently here?","",""
+"2022-11-06,04:58:36","mainside","#0","Having issues with installing both version 2 and 3 of the ens library","",""
+"2022-11-07,15:20:41","kashali","#0","Hi ENS team,
+
+How do claim about prize from ETH SF?","",""
+"2022-11-07,19:32:49","slamdunk117","#0","Thanks a ton for selecting us as the 1st place!! ❤️ 
+https://ethglobal.com/showcase/org3-rxvhj","",""
+"2022-11-09,21:55:21","tomokisun","#0","Thank you for your time at EthSF.
+I've created a redirect site with ENS text records, please take a look at it.
+https://twitter.com/0zurl/status/1590289791689822208?s=46&t=qsrrxTeWjRj51XHR4xQ82A","",""
+"2022-11-21,12:52:08","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1044309252619108402/unknown.png"
+"2022-11-28,05:39:09","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314> 
+
+Feel free to reach out to the ENS Team at any point with your questions!
+
+
+👀 **ABOUT** 
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW **
+
+🥇 - $3k
+🥈 - $2k
+🤝 - Integration bounty (distributed amongst all projects that resolves ENS names and avatars) - $5k
+
+**↓ Full Prize Breakdown Here ↓ **
+https://ethglobal.com/events/ethindia2022/prizes
+
+
+🚀 **WORKSHOP**
+**Identity in your dApps**
+Time: 04:30 PM IST – Dec 02, 2022
+Location: Workshop Room 2
+
+
+🔗 **IMPORTANT LINKS**
+ENS text record: https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+NFT Avatar field specification: https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+ENS subdomains: https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+Durin: https://github.com/ensdomains/durin
+The full idea list: https://docs.google.com/spreadsheets/u/1/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+ENS Website: https://ens.domains/
+Intro: Decentralized naming for wallets, websites & more
+Introduction: https://docs.ens.domains/","",""
+"2022-12-02,08:43:00","elviric","#0","does using rainbow kit which resolves addresses into ens names be considered for bounty ?","",""
+"2022-12-02,23:27:27","madhukar01","#0","I have some questions on ENS integration - is anyone at the booth?","",""
+"2022-12-03,04:02:08","saurabhdoteth","#0","how can i fetch ens names by address on goerli?","",""
+"2022-12-03,06:57:04","distroinfinity","#0","Can I use ENS on the Mumbai testnet, anybody help please?","",""
+"2022-12-03,12:19:52","gabrielaxy.eth","#0","Yes","distroinfinity#0",""
+"2022-12-03,12:20:45","gabrielaxy.eth","#0","It is chain agnostic.. you can fetch it on any network","saurabhdoteth#0",""
+"2022-12-03,15:32:23","prakharojha","#0","Is there anyone from the team here at the venue?","",""
+"2022-12-03,18:04:11","distroinfinity","#0","I managed to setup ENS but its just return null values of ENS name for any address that I enter, Help?","gabrielaxy.eth#0",""
+"2022-12-05,06:43:59","nyx52.","#0","Hi team,
+
+We had integrated ENS successfully in our project and also got a go ahead from the judges that we qualify for the pool prize. Can you please check if there has been a mistake. Our project name is New2Web3. Thank you!","",""
+"2022-12-05,06:48:29","ishanpathak","#0","Hi , 
+ We had integrated ENS successfully in our project and also got ahead with the judges in the judging session and also got confirmation that we are eligible for the pool prize, but we're not able to see the name in the prize list. 
+The name of the project is Asset Vault , can you check that, Thank you","",""
+"2023-05-29,12:26:03","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1112778898405593138/HackFS_youtube_bannerHackFS.png"
+"2023-05-29,12:40:08","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ENS Team at any point with your questions!
+
+👀 **ABOUT**
+The **Ethereum Name Service (ENS)** enables you to have a cross-platform web3 username and profile, to simplify crypto payments for any blockchain, and decentralized websites. ENS supports .ETH names natively, as well as importing DNS names you already own. ENS is integrated in over 300 services, including wallets, dapps, and browsers.
+
+
+🏆 **PRIZE OVERVIEW**
+*More to come!*
+
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/hackfs2023/prizes
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.ens.domains/dapp-developer-guide/resolving-names#looking-up-other-resources
+https://gist.github.com/Arachnid/9db60bd75277969ee1689c8742b75182
+https://docs.ens.domains/dapp-developer-guide/ens-enabling-your-dapp#3-let-users-name-things
+https://github.com/ensdomains/durin
+https://docs.google.com/spreadsheets/d/1F0duH3lAd163R4aW-kaeya2CbFygIy23cx8kSt9T_zU/edit#gid=0
+https://ens.domains/
+https://docs.ens.domains/","",""
+"2023-05-29,13:48:29","0xjasmine","#0","👍","",""
+"2023-06-01,13:42:55","maxxflyer","#0","hey frens  I am looking for hackers to join me. just drop me a line if you want to know more about my project based on ENS.","",""
+"2023-06-03,08:11:19","JoseKP","#8924","can i hack on ENS if i don't have a .eth name?","",""
+"2023-06-03,08:15:33","karangoraniya","#0","yes ,
+you can use testnet ens name for testing on goerli network 
+
+or you can buy cheap one on opensea marketplace if you want for testing on mainnet 
+
+otherwise testnet one you can buy on goerli network 
+
+
+
+https://app.ens.domains/","JoseKP#8924",""
+"2023-06-03,16:07:25","maxxflyer","#0","hallo, I am having  problems, I may need and ENS mentor to fix it!
+Here is my problem:
+1) I have  cyphertest.eth
+2) I built a ""shop"" contract accpeting eth and minting subnames
+3) the contract isn't minting since it isn't the owner of the name.eth (right?)
+4) yesterday I was on ENS discord where raffy sugggested to use setSubnodeOwner function to give permission to my shop_contract to mint subnames
+
+I had a look at the code but I don't understand
+And very likely the inputs I set are wrong since metamask gives error
+
+when I call with the wallet owner of pumptv.eth and create a subname this is what happens:
+https://goerli.etherscan.io/tx/0xef4f74d4694c7262bdecfef0e5658ea94b77e57154204d74bc2e4ee0da811a37
+and it is ok the wrapper creates a subname
+
+now I try to setSubNodeOwner and I am asked these inputs:
+https://goerli.etherscan.io/address/0x114d4603199df73e7d157787f8778e21fcd13066#writeContract#F17
+
+I really don't know how to interpretate those inputs and the code
+According to what raffy told me I was expecting to just have to set the shop_contract address in order to give it the permission to mint subnames
+he also told me I can use this function to turn off/on the minting permission of the shop_contract
+can anyone explain me please what inputs I should insert?
+it i asking the parent, the label  etc. etc. 
+I am confused
+any help? thanks in advance","",""
+"2023-06-03,16:14:10","maxxflyer","#0","(edited)","",""
+"2023-06-03,16:33:14","maxxflyer","#0","this is the function I found in the wrapper, but apparently it refers to subnames:
+`
+/**
+     * @notice Sets the subdomain owner in the registry and then wraps the subdomain
+     * @param parentNode Parent namehash of the subdomain
+     * @param label Label of the subdomain as a string
+     * @param owner New owner in the wrapper
+     * @param fuses Initial fuses for the wrapped subdomain
+     * @param expiry When the name will expire in seconds since the Unix epoch
+     * @return node Namehash of the subdomain
+     */
+    function setSubnodeOwner(
+        bytes32 parentNode,
+        string calldata label,
+        address owner,
+        uint32 fuses,
+        uint64 expiry
+    ) public onlyTokenOwner(parentNode) returns (bytes32 node) {
+        bytes32 labelhash = keccak256(bytes(label));
+        node = _makeNode(parentNode, labelhash);
+        _checkCanCallSetSubnodeOwner(parentNode, node);
+        _checkFusesAreSettable(node, fuses);
+        bytes memory name = _saveLabel(parentNode, node, label);
+        expiry = _checkParentFusesAndExpiry(parentNode, node, fuses, expiry);
+        if (!_isWrapped(node)) {
+            ens.setSubnodeOwner(parentNode, labelhash, address(this));
+            _wrap(node, name, owner, fuses, expiry);
+        } else {
+            _updateName(parentNode, node, label, owner, fuses, expiry);
+        }
+    }`
+
+so the parent node should be .eth right?","",""
+"2023-06-04,13:17:59","mattydoe","#0","Integrating ENS with our dapp for a dataDAO in this hackathon !","",""
+"2023-06-04,13:42:06","prakharojha","#0","Can you share the resources regarding building one? I'm overwhelmed by the information.","mattydoe#0",""
+"2023-06-10,12:36:05","xaek","#0","Hello team! I am trying to utilise the TestRegistrar in my application, but am having some issues...please help!","",""
+"2023-06-11,02:00:44",".sofaman","#0","Can we integrate ens with the filecoin calibration network","",""
+"2023-06-11,08:38:20","ronakgupta11","#0","can we use libraries like wagmi to integerate ens in our dapp for displaying es names and avatar to qualify for bounty, or using ens is compulsion?","",""
+"2023-06-11,11:38:52","0m0t","#0","Is simply resolving an ENS name enough to be applicable for a prize?","",""
+"2023-06-12,06:29:55","xaek","#0","Hi <@884503153414905917> <@712426851259252766> <@321785968371695617> - it seems like we aren't getting any responses from mentors here - could you direct us to people that can help with ENS?","kartik#0、chloelxu#0、nunohvreis#0",""
+"2023-06-12,08:55:39","nunohvreis","#0","Hey, everyone! On it 🙏","",""
+"2023-06-12,09:11:54","xaek","#0","^^","",""
+"2023-06-12,13:16:28","gregskril","#0","Hey! thanks for building on ENS - one of our prizes is `$4k ENS Integration Prize - distributed across every team that integrates ENS name and avatar resolution into their project.`
+
+So just resolving ENS name - likely not. but showing avatars is quite simple using any popular web3 library and brings some more personality to the name:
+
+ethers: `provider.getAvatar('nick.eth')` 
+viem: `client.getEnsAvatar('nick.eth')` 
+wagmi: `const { data: avatar } = useEnsAvatar({ name: 'nick.eth' })`","0m0t#0",""
+"2023-06-12,13:17:17","gregskril","#0","Hey! thanks for building on ENS and sorry for the delay - what are you trying to accomplish?","xaek#0",""
+"2023-06-12,13:17:41","gregskril","#0","libraries are recommended!","ronakgupta11#0",""
+"2023-06-12,13:18:37","gregskril","#0","hope it's going well! lmk if you've run into any blockers and I can try to help","mattydoe#0",""
+"2023-06-12,13:21:41","gregskril","#0","I'm not super familiar with the filecoin calibration network - how are you trying to use it with ENS? More context might help me answer",".sofaman#0",""
+"2023-06-12,13:36:46","madhav_28_","#0","Hey <@368179707910291458>. I am building project IPHS -> ""Inter Planetary Cultural Storage""  Network 
+It will be a ""Global Cultures DataDAO""
+
+Preserving cultural histories and places in a dynamic data verification and processing system.
+
+I want to use ENS naming service for the dapp. How can I accomplise it","gregskril#0",""
+"2023-06-12,14:09:40","gregskril","#0","Hey, awesome! I saw you sent a friend request so I'll get back to you there","madhav_28_#0",""
+"2023-06-12,14:09:47","madhav_28_","#0","sure","gregskril#0",""
+"2023-06-12,15:17:14","atharvvarshney","#0","Hey <@368179707910291458> I don't have a registered ENS on Mainnet. I have implemented ENS in my project but I am wondering how can I test it. I am unable to see any way to buy a domain on testnet. Is there any other way through which I can test it on mainnet or any other network?","gregskril#0",""
+"2023-06-12,15:54:35","gregskril","#0","You can do everything on testnet! Just connect to https://app.ens.domains/ and switch to goerli network in your wallet","atharvvarshney#0",""
+"2023-06-12,16:03:17","xaek","#0","Registering a temporary ENS name on the TestRegistrar contract","gregskril#0",""
+"2023-06-12,16:48:33","atharvvarshney","#0","I'm not able to switch to goerli, it shows network error. I will change the rpc url and then try and let you know, 
+
+Thanks","gregskril#0",""
+"2023-06-12,17:08:24","gregskril","#0","Goerli should work - I was able to just do it locally with MetaMask. Are you using another wallet maybe?","atharvvarshney#0",""
+"2023-06-12,17:35:28","gregskril","#0","The TestRegistrar contract isn't used in production afaik so I'm wondering what the bigger picture is you're trying to do?
+
+Issue subdomains (either temporary or not), register a .eth name (maybe on a testnet for testing), etc","xaek#0",""
+"2023-06-12,18:03:37","xaek","#0","<@368179707910291458> sorry for not being more clear. Yes, the intention is to register a .eth name on a test net.","gregskril#0",""
+"2023-06-12,21:20:58","gregskril","#0","No worries! You should be able to connect to https://app.ens.domains/ then switch to Goerli in MetaMask - everything in the app then changes to Goerli testnet
+
+or do you want to register from the contracts with code?","xaek#0",""
+"2023-06-13,06:29:06","atharvvarshney","#0","<@368179707910291458> I was able to register a domian on goerli. Now I am using Filecoin Mainnet in my dApp. I have integrated ENS using WAGMI Hook (https://wagmi.sh/react/hooks/useEnsName). 
+
+So when I am using this:
+```
+const { data, isError, isLoading } = useEnsName({
+        address: fetchedAddress,
+        chainId: 5
+    })
+```
+I am getting error ``ChainDoesNotSupportContract: Chain ""Filecoin Mainnet"" does not support contract ""ensUniversalResolver"".``","gregskril#0",""
+"2023-06-13,06:29:59","atharvvarshney","#0","here fetched address is ``0xbdfC42145aF525009d3eE7027036777Ed96BF6A4``","",""
+"2023-06-13,07:28:50","dysbulic","#0","> chainId (optional): Force a specific chain id for the request. The wagmi Client's `publicClient` must be set up as a chain-aware function for this to work correctly.
+> 
+> https://wagmi.sh/react/hooks/useEnsName#chainid-optional
+
+More than likely your `publicClient` (https://wagmi.sh/react/config#publicclient) is only accessing one chain.","atharvvarshney#0",""
+"2023-06-13,08:08:57","atharvvarshney","#0","```const { chains, publicClient, webSocketPublicClient } = configureChains(
+    [
+        filecoin,
+        filecoinHyperspace,
+        filecoinCalibration,
+        goerli
+    ],
+    [publicProvider()]
+);
+const wagmiConfig = createConfig({
+    autoConnect: true,
+    connectors,
+    publicClient,
+    webSocketPublicClient,
+});
+```
+
+This is my `publicClient` variable and its usage.
+
+In the docs (https://wagmi.sh/react/config#publicclient), this is written:
+> You can create a ""chain-aware"" provider by using the configureChains API or passing a function that updates based on chainId.
+
+I didn't understood what this exactly means. Can you help me?","dysbulic#0",""
+"2023-06-13,08:36:19","dysbulic","#0","https://wagmi.sh/react/providers/configuring-chains
+
+I've not used WAGMI before, but I suspect you need:
+```javascript
+const { chains, publicClient, webSocketPublicClient } = (
+  configureChains(
+    [
+        filecoin,
+        filecoinHyperspace,
+        filecoinCalibration,
+        goerli,
+    ],
+    [
+      alchemyProvider({ apiKey: process.env.ALCHEMY_KEY }),
+      publicProvider(),
+    ],
+  )
+)
+```
+
+Maybe. The docs for `configureChains` (https://wagmi.sh/react/providers/configuring-chains#providers) reads:
+
+> If a provider does not support a chain, it will fall back onto the next one in the array. If no RPC URLs are found, `configureChains` will throw an error.
+
+But you're not getting an error, you're reading from the wrong chain. So, I'm not 💯  that this will fix it.","atharvvarshney#0",""
+"2023-06-13,10:02:04","atharvvarshney","#0","Thanks, adding API key of Infura worked for me. Thanks a lot","dysbulic#0",""
+"2023-06-14,00:43:50","nftsaller67","#0","Is there any Goerli faucet without 0.001 ETH requirement on the mainet?","",""
+"2023-06-14,04:24:43","xaek","#0","Hi <@368179707910291458>  yes, I’m aiming to register from the contracts with code..","gregskril#0",""
+"2023-06-14,13:14:14","_eric","#7111","Hi <@368179707910291458> , wondering does using rainbowkit eligible for ens prize, since it automatically resolves the ens name and the avatar","gregskril#0",""
+"2023-06-15,06:49:08","allisterb","#0","hey all I have a question about using the ContentHash field in ENS records. So currently it seems using the web interface you can only enter IPFS CIDv0 records for ipfs records e.g. ipfs://Qm...is valid but if I try to use a base32 encoded CIDv1 e.g ipfs://b... it just says illegal character. i was wondering if it is possible to use CIDv1s with the ipfs:// scheme in the ContentHash record.","",""
+"2023-06-15,07:06:17","allisterb","#0","ok I just tried it again and I was able to use this as my contentHash: `ipfs://baguqefjq3qij3mvgp3sad7552q53mjkjyg2xvbenehwihyg6qsb4wjmi7ys2jqo73dnk5fxojnd6knvj6humo`","",""
+"2023-06-15,07:07:14","allisterb","#0","so now when I pull this ENS record in my app, can I assume that the first byte will be 0xe3 and the rest of the bytes will just be the bytes of the CIDv1?","",""
+"2023-06-15,07:07:34","allisterb","#0","because I tried doing this in my app but it seems I'm not getting the right CID","",""
+"2023-06-15,07:08:41","allisterb","#0","this is my ENS name records: https://app.ens.domains/allisterb.eth?tab=records","",""
+"2023-06-15,07:37:46","allisterb","#0","ok I think I figured it out: you have to skip the first 2 bytes in the ContentHas byte array, and then the rest is the CID bytes....I though the docs say you just have to skip the first byte.","",""
+"2023-06-15,07:43:54","allisterb","#0","so the prefix for IPFS content hashes is 0xe3 0x01 and then the rest of the data is the CID.","",""
+"2023-06-15,09:29:14","gregskril","#0","(Sorry for the late replies everyone, I was at jury duty all day yesterday 🥲)","",""
+"2023-06-15,09:29:28","gregskril","#0","I can send you Goerli ETH, just let me know an address","nftsaller67#0",""
+"2023-06-15,09:33:57","gregskril","#0","A bit deeper of an interegration is ideal
+
+In general I’d say that anywhere your user reads or writes an EVM address, they should be able to use an ENS name. 
+
+But if you don’t have any addresses in your app besides the connected user, rainbowkit is a good start","_eric#7111",""
+"2023-06-15,11:11:11","gregskril","#0","hey, sorry for the confusion. I just asked our support team about CIDv0 and CIDv1 showing differently on the web interface and they said
+
+> It supports V0 and V1 but will convert V0 -> V1 if it's entered which confuses users as it displays a different CID from the one they entered
+
+so it should work either way, but always display as CIDv1 in our interface currently. If that's not working, can you share the CID (either v1 or v2) you're trying to set and I can try to debug?","allisterb#0",""
+"2023-06-15,11:17:36","allisterb","#0","ok I think I got it, I don't know why in the web interface sometimes when I put in a CIDv1 it would say 'illegal character' which is why I thought maybe it didn't support CIDv1 but it seems to be working as expected now.","gregskril#0",""
+"2023-06-15,15:03:48","gregskril","#0","here's a demo of how you can do that! https://gregskril.notion.site/Register-eth-Names-1a75d0637f844725b4403427ef19710a?pvs=4
+
+its from a node environment but includes all the functions and contract info you'd need to do it from any other environment as well","xaek#0",""
+"2023-06-16,08:01:53","nftsaller67","#0","Hi. I`m trying to create subdomain in golang. 0x55D3a2918CBc15467Cba3c965d0Bb89352B047c6 is owner. Why tx 0x790706ab5536baeff23929825d560f8a85a6bab014e61a70cbdd1546b7de2b17 got rejected?","",""
+"2023-06-16,08:02:13","nftsaller67","#0","goerli chain","",""
+"2023-06-16,15:03:51","madhav_28_","#0","<@368179707910291458> Hey I have this Function   const getENSData = async() => {
+     const provider = new ethers.providers.JsonRpcProvider(""https://filecoin-calibration-testnet.rpc.thirdweb.com"");
+     const ens = new ENS({ provider, ensAddress: getEnsAddress(provider.network.chainId) })
+     try {
+       const name = await ens.getName(owner) 
+        const avatar = await ens.getAvatar(owner);
+       return { name, avatar }
+     } catch (error) {
+       console.error('Error fetching ENS data:', error);
+       return { name: '', avatar: '' };
+     }
+   }
+
+But Error Is saying -->  Cannot read properties of undefined (reading 'chainId')
+TypeError: Cannot read properties of undefined (reading 'chainId')
+
+How Do I fix it","gregskril#0",""
+"2023-06-16,21:11:02","gregskril","#0","Hey, what library are you using?
+
+Here's a version of the function using ethers.js that should work as intended on goerli (an Ethereum test network):
+```js
+const getENSData = async () => {
+  const provider = new ethers.providers.JsonRpcProvider(
+    'https://rpc.ankr.com/eth_goerli', // remove the ""_goerli"" for mainnet
+    'goerli' // change to ""homestead"" for mainnet Ethereum
+  )
+
+  try {
+    const name = await provider.lookupAddress(owner)
+    const avatar = await provider.getAvatar(owner)
+    return { name, avatar }
+  } catch (error) {
+    console.error('Error fetching ENS data:', error)
+    return { name: '', avatar: '' }
+  }
+}
+```
+It seems the thirdweb URL you were using is not an Ethereum RPC endpoint","madhav_28_#0",""
+"2023-06-16,21:35:23","gregskril","#0","Hi if your name is owned by the NameWrapper (it is by default on the latest contracts), you'll have to call `setSubnodeOwner` on the NameWrapper contract itself. 
+
+NameWrapper on Goerli: `0x114d4603199df73e7d157787f8778e21fcd13066`
+NameWrapper on Mainnet: `0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401`
+
+there are a few more arguments, namely `fuses` and `expiry` but for default functionality just set both to `0`","nftsaller67#0",""
+"2023-06-17,01:44:06",".aj77","#0","If I’m using scaffold-eth-2 as a frame work will my project be qualified for the   Prize pool split ? It reads ens","",""
+"2023-06-17,02:36:22","_venmus_","#0","I have an ENS name venmus.eth, while using polygon mumbai, I get ensName and avatar both as undefined. How can I get ens name and avatar for mumbai network just for testing purpose. <@368179707910291458> help","gregskril#0",""
+"2023-06-17,11:15:02","madhav_28_","#0","<@368179707910291458> Does ENS Supports Callibration testnet ?","gregskril#0",""
+"2023-06-17,11:54:50","atharvvarshney","#0","No, we need to fetch the names and avatar form another chain. We can do that by providing the chain ID in the call function.","madhav_28_#0",""
+"2023-06-17,12:21:13",".aj77","#0","<@368179707910291458> help plz","gregskril#0",""
+"2023-06-17,13:53:11","prakharojha","#0","Okay","atharvvarshney#0",""
+"2023-06-17,18:01:33","atharvvarshney","#0","Hey why is fetching ENS Name via Ethers taking so much time for goerli chain? Is it normal or some problem with implementation?","",""
+"2023-06-17,18:01:38","atharvvarshney","#0","<@368179707910291458>","gregskril#0",""
+"2023-06-18,01:40:04","atharvvarshney","#0","Hey <@233245979548188673> <@884503153414905917> we aren't getting any responses from the mentors, please look into this as the submission deadline is near. 
+
+Thanks","jacobw#0、chloelxu#0",""
+"2023-06-18,02:55:30","sumithprabhu","#0","I am getting it quickly like a second or two","atharvvarshney#0",""
+"2023-06-18,03:32:38","_venmus_","#0","Hey are you doing that using wagmi, as when I try do that it gives me undefined values.","atharvvarshney#0",""
+"2023-06-18,03:38:33","atharvvarshney","#0","I tried directly using ethers.js. are you using https://www.npmjs.com/package/@ensdomains/ensjs ?","sumithprabhu#0",""
+"2023-06-18,03:38:56","atharvvarshney","#0","Wagmi didn't worked out for me well","_venmus_#0",""
+"2023-06-18,03:39:05","sumithprabhu","#0","DMimg you my repo","atharvvarshney#0",""
+"2023-06-18,03:39:13","atharvvarshney","#0","thanks 🙂","sumithprabhu#0",""
+"2023-06-18,06:27:41","_venmus_","#0","bro dm me too 😦","sumithprabhu#0",""
+"2023-06-18,06:30:29","sumithprabhu","#0","On it","_venmus_#0",""
+"2023-06-18,06:31:41","sumithprabhu","#0","Sir DM me, not able to do it","_venmus_#0",""
+"2023-06-18,06:32:42","_venmus_","#0","try adding me as friend, I cant send friend request to you as you dont accept fr req","sumithprabhu#0",""
+"2023-06-18,06:38:23","_venmus_","#0","<@894799934572867675> bro can u accept my fr req","atharvvarshney#0",""
+"2023-06-18,11:26:48","wslyvh","#0","Here's what I built:
+
+**Name**: 📸 Archivooor
+**Description**: Watch and capture your favorite moments and highlights of events
+**Github**: https://github.com/wslyvh/archivooor
+
+Demo https://archivooor.vercel.app/","",""
+"2023-06-18,17:17:08","gregskril","#0","hi you should should always read ENS data from ETH mainnet, regardless of the chain your user is connected to
+
+so in wagmi for example:
+```jsx
+const ensName = useEnsName({
+  address: '0xA0Cf798816D4b9b9866b5330EEa46a18382f251e',
+  chainId: 1,
+})
+```
+
+this means you'll also have to add `mainnet` in wagmi's `configureChains` https://wagmi.sh/core/providers/configuring-chains","_venmus_#0",""
+"2023-06-18,17:21:14","gregskril","#0","The prize is ""distributed across every team that integrates ENS name and avatar resolution into their project.""
+
+I'm not sure if scaffold-eth does both of those things or just resolves ENS names, so hard to say
+
+In general I’d say that anywhere your user reads or writes an EVM address, they should be able to use an ENS name (which ideally also shows an avatar, if it's been set)",".aj77#0",""
+"2023-06-18,17:23:41","gregskril","#0","There's nothing wrong with ethers implementation that should be slower than any other one 🤔 I'd say even if it's a bit slow, don't worry too much about optimizations during a hackathon","atharvvarshney#0",""
+"2023-06-18,23:48:07","atharvvarshney","#0","I actually found the reason, my RPC service was slow","gregskril#0",""
+"2023-06-19,13:15:58","steph.lens","#0","hey ENS! Popping in to show you Wallet OTP, my HackFS project. It's got ENS name and avatar resolution. I really appreciated your ""ENS Front-End Design Guidelines"" doc. I'm admittedly not the best UX designer, so having guidelines and tips around things like ""Always provide a way to display the full Ethereum address"" when showing the ENS. My hack still lets users view and copy their full eth address even if ENS is shown
+
+https://www.ethglobal.com/showcase/wallet-otp-one-time-password-pp9gx","","https://cdn.discordapp.com/attachments/801175268639113216/1120401602411515955/projects2Fpp9gx2Fimages2FWallet20OTP20deck.png"
+"2023-06-19,17:03:25","gregskril","#0","Hey Steph! nice seeing you here - we met at the crypto cafe in tokyo 🙂
+
+super cool project and great demo!","steph.lens#0",""
+"2023-06-19,17:32:07","steph.lens","#0","Thanks Greg! So great meeting in Tokyo. Will you be at Eth Waterloo this week?","gregskril#0",""
+"2023-06-19,17:43:27","gregskril","#0","Yes! Sounds like I’ll see you there?","steph.lens#0",""
+"2023-06-21,13:31:13","floberlin","#0","Hey <@368179707910291458>, im from the project  Peer n Pay. we just watched the winner announcements and we were confused as we are not listed in the ENS integration pool prize. We actually implemented the name resolving and avatar resolving in our app. Or did we missed something to be eligible? Would be awesome if you can have a check on this! 😊","gregskril#0",""
+"2023-06-21,18:08:59","taionewgate","#0","I think this project already won the Wildcard Prize, it should not be added the Integration Prize
+https://ethglobal.com/showcase/patr-z194x","",""
+"2023-06-22,00:14:03","gregskril","#0","Hey <@646752902198853642> <@592650207582224384> thanks for the messages - I will take a look","taionewgate#0、floberlin#0",""
+"2023-06-22,04:44:10","jpoliveira.","#0","Hey <@368179707910291458>  same with cosmiwaves","gregskril#0","https://cdn.discordapp.com/attachments/801175268639113216/1121359967509811250/Screenshot_2023-06-22_at_09.43.47.png"
+"2023-09-13,13:26:45","awliang","#0","","","https://cdn.discordapp.com/attachments/801175268639113216/1151569672530051102/image.png"
+"2023-09-15,00:53:47","awliang","#0","Hello and welcome to the <#801175268639113216> channel <:nfteth:822186186016948314>
+
+Feel free to reach out to the ENS Team at any point with your questions!
+
+👀 **ABOUT**
+The Ethereum Name Service (ENS) enables you to have a portable web3 username and profile. Use it to establish an online identity, simplify crypto payments for any blockchain, and host decentralized websites.
+
+ENS supports `.eth` names natively, as well as any DNS names you already own. There are millions of ENS names, 700k+ unique users, and hundreds of integrated services including some of the largest wallets, dapps, and browsers.
+
+🏆 **PRIZE OVERVIEW**
+
+**$2,500 to the Best Overall Use of ENS**  
+**$2,000 to the Best Use of ENS Subnames**  
+**$2,000 to the Best Implementation of ENS with Account Abstraction**  
+**$1,000 to the Best Use of Thorin**  
+**$500 x 5 to Honorable Mentions**  
+
+All winners may have the opportunity to present at an ENS ecosystem call or Twitter space after the hackathon.
+
+**↓ Full Prize Breakdown Here ↓**
+https://ethglobal.com/events/newyork2023/prizes
+
+
+🚀 **WORKSHOP**
+ENS: Identity in Your Apps
+Time: 04:00 PM EDT – Sep 22, 2023
+Location: Workshop Room 1
+
+
+🔗 **IMPORTANT LINKS**
+https://docs.ens.domains/dapp-developer-guide/quickstart
+https://docs.ens.domains/dapp-developer-guide/ens-l2-offchain
+https://thorin.ens.domains/
+https://docs.ens.domains/","",""
