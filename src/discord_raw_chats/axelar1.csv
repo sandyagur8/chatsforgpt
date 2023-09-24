@@ -1,0 +1,369 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"761834826533568542","stefan_1","23/05/2023 11:09 pm",":Light: **Hackathons **:Light: 
+This channel is for news and updates about Axelar-related hackathons.
+Feel free to ask in here if you are looking for a team mate.
+Happy hacking :axelar: :axelarblue:","","Axelarcallme2 (3)"
+"761834826533568542","stefan_1","23/05/2023 11:09 pm","Pinned a message.","",""
+"767368050235670588","axelarnetwork","24/05/2023 2:06 am","@Axelar Builder ICYMI: 
+
+:axelar:  Axelar is excited to be participating in the Encode x Aurora Hackathon, kicking off next week! :axelarblue: 
+
+**Start date: **Tuesday, 30th May 2023
+**Submission date:** Sunday, 25th June 2023
+**Finale and Prizegiving:** Wednesday, 12th July 2023
+
+:Axelarstrong:  **Axelar's Bounty:** Use Axelar's GMP for sending Interchain Messages  or Tokens!
+
+> Use Axelar in your project to build a DApp that takes advantage of the ability to interact with contracts across multiple chains using Axelar’s General Message Passing.
+
+:takemymoney:  **Prizes:**
+
+1st Place - $3k
+
+2nd Place - $2k
+
+3rd Place - $1k
+
+🖇️  Link to register: https://www.encode.club/aurora-hackathon","",""
+"767368050235670588","axelarnetwork","24/05/2023 2:20 am",":UWBC:  Axelar wrapped up Olympihacks, Waterloo Blockchain Club's first ever hackathon this weekend and we were blown away by the submissions! :UWBC:
+
+🥇 In first place we had Glue, introducing abstraction contracts on target chains. Inheriting from AxelarGateway, these contracts allow developers to extend the reach of their own contracts across multiple blockchains:
+
+⚙️  https://devpost.com/software/glue-efjb72
+
+🥈 In second place we had Intergalactic PioNEARing with Axelar, which combines  Near XCC (cross- contract calls from within Aurora EVM) with the power of Axelar's GMP to allow users in any EVM or Cosmos chain to make a cross-chain call to NEAR smart contracts:
+
+⚙️ https://devpost.com/software/intergalactic-pionearing-with-axelar
+
+🥉 In third place we had BeSafe, a secure and trustless cross-chain estate planning service for any EVM compatible chain on the Axelar network: 
+
+⚙️ https://devpost.com/software/besafe-ecpqlr
+
+:rainbowcat: And, last but not least the Grand Prize winner of the main Olympihacks track was also build using Axelar! :Axelarstrong: 
+
+InterPal won big, using Axelar to send interchain messages, tokens, and mint NFTs across 13 chains through chat! InterPal simplifies everything blockchain with an intuitive chatbot with cross-chain interoperability: 
+
+⚙️ https://devpost.com/software/interpal","","🎉 (1)"
+"767368050235670588","axelarnetwork","24/05/2023 3:54 am","Axelar is excited to be participating in the The OSCAFest23 Hackathon! :Axelarstrong: 
+
+You can participate in this hybrid hackathon for the opportunity to win up to $5000 from the prize pool and other amazing prizes! 
+
+:axelarblue:  Axelar's bounties focus on Building InterChain Messages/Tokens with Axelar GMP :axelarblue: 
+
+:5385twitter: https://twitter.com/oscafest/status/1660693775847440404?s=46&t=vTlVxoqUfv5auN9ifxE4Rw
+
+📍 Register here: https://docs.google.com/forms/d/e/1FAIpQLSdCinbuR2D0QcvGJpeqESI0I_6IDP4dcwEqcx3Gs_IwJhjLPQ/viewform","",""
+"767368050235670588","axelarnetwork","31/05/2023 12:51 am",":herdao: @Axelar Builder Axelar is excited to be sponsoring the upcoming H.E.R. DAO HD Games Hackathon! 
+
+:alert: What's this hackathon all about?  HD Games is a 2 day hybrid hackathon- half IRL and half online! Sign up today for the HDGAMES Hackathon, powered by H.E.R. DAO, Womenhack and Aves Lair :9323cuteyes: 
+
+:axelarblue: Axelar's bounties: Using Axelar GMP for sending Interchain Messages / Tokens - Prize Pool: $5k USDC
+
+:Axelarstrong: AND each winning Axelar team will have priority access to $25,000 each worth of grants for continuing building :7784cuteomg: 
+
+:3214flowerpink: Ready to hack? Learn more and register here: https://dorahacks.io/hackathon/hdgames/detail","https://cdn.discordapp.com/attachments/1110622693461598308/1113185533980586015/HerDAO_x_Axelar.jpeg","axelarblue (9),axelar (4),🇺🇦 (2),👍 (4)"
+"767368050235670588","axelarnetwork","01/06/2023 9:01 pm","@Axelar Builder Reminder that today at 1pm EST/5pm UTC we'll be live for Axelar's first ever Demo Day!
+
+:UWBC:  We'll be showcasing the projects submitted from the winning teams from Waterloo Blockchain's Olympihacks :UWBC:
+
+Tune in to learn more about what they built, how they leveraged GMP in their projects, and to get some inspiration for tour next hackathon project!
+
+:Black: We're also offering a free OAT, powered by Galxe, for anyone who tunes in!
+
+:White:  Claim your OAT: https://galxe.com/axelar/campaign/GCQjNUNxyo
+
+⚙️  Tune in live: https://www.youtube.com/watch?v=2x3yQwpS7Yc","","Rocket (4),👍 (7)"
+"767368050235670588","axelarnetwork","05/06/2023 10:22 pm","Hey @Axelar Builder :Axelarstrong:
+
+:typingpeped:  Thinking of joining an upcoming hackathon but not sure where to start? We've got you covered!
+
+:UWBC:  You can check out our latest blog post on the inning projects from Waterloo Blockchain's Olympihacks, including their MVPs and Github repos here: https://axelar.network/blog/u-waterloo-olympihacks-hackathon-2023
+
+:bigbrain:  And if you want to see the teams demo their projects live and give a deep dive into how they used Axelar in their code, check out our Demo Day from last week: https://www.youtube.com/live/2x3yQwpS7Yc?feature=share","",""
+"1081218179205976226","rozbehan","05/06/2023 10:24 pm","Yes! I like to practice Axelar. It's great if I know about the next hackathon!","",""
+"1004792894252650506","kyotoeth","05/06/2023 10:24 pm","Hey ! idk if its normal but we can write here","",""
+"767368050235670588","axelarnetwork","05/06/2023 10:25 pm","We've got the next 2 hackathons we're participating in linked in the above messages!","",""
+"767368050235670588","axelarnetwork","05/06/2023 10:26 pm","Yep! This is meant to be an interactive channel for hackers to find teams, keep up to date with the past winners projects, all upcoming events and ask their questions :Shakehands:","","🙌 (1)"
+"762357287137443850","X-Factor#3617","05/06/2023 11:24 pm","Is there any new documentation on Interchain NFTs? I've seen the demo video online. I'm trying to create an NFT that exists on both Moonbeam and Fantom.","",""
+"767368050235670588","axelarnetwork","06/06/2023 12:06 am","Have you worked through the GMP docs? If not I'd start there: https://docs.axelar.dev/dev/general-message-passing/gmp-messages
+
+There's also a public repo of InterPal, a hackathon project built for Olympihacks where they minted and sent NFTs cross chain, you can check it out here: https://devpost.com/software/interpal","","👍 (2),🚀 (1)"
+"769863342189445130","Francis E.#4859","07/06/2023 6:31 pm","Hello @Axelar Network regarding the oscafest23 hackathon
+How would the prizes shared amongst winners?","",""
+"769863342189445130","Francis E.#4859","07/06/2023 6:31 pm","I can't find a breakdown 
+Don't know if I'm looking at the wrong place","",""
+"143113828081598464","rodin10","07/06/2023 7:09 pm","Probably best to check their Discord or ask the question there if the information is not available there!","",""
+"685950344848736285","olanetsoft","08/06/2023 11:49 am","You can find the breakdown here: https://blog.oscafrica.org/a-guide-to-the-axelar-web3-hackathon","",""
+"769863342189445130","Francis E.#4859","08/06/2023 11:57 am","Thanks @Idris Olubisi | Axelar","","👍🏻 (3)"
+"706134217993617438","mephisto0502","12/06/2023 6:44 pm","Hey hackathon organizers, I had a doubt, my team built a project for FVM dataverse hackathon and we won a bounty from Axelar. 
+We are wishing to participate in this hackathon and if we do, we are planning to use the project we built there and make significant changes on the front end side, we have planned a complete migration to website for frontend purpose. 
+
+Please let us know if we are allowed to use and build over a project which already won Axelar bounty in the past before we start building. @Idris Olubisi | Axelar","",""
+"761834826533568542","stefan_1","13/06/2023 11:29 am","Tagging @Axelar Network here for visibility.","",""
+"761834826533568542","stefan_1","13/06/2023 11:30 am","Which hackathon are you planning to attend?","",""
+"761834826533568542","stefan_1","13/06/2023 11:30 am","You could check the rules until Axelar can clarify.","",""
+"761834826533568542","stefan_1","13/06/2023 11:31 am","My general assumption would be that new works need to be submitted, especially if your project has already won a bounty from Axelar.","",""
+"761834826533568542","stefan_1","13/06/2023 11:31 am","Hope the team can clarify!","",""
+"767368050235670588","axelarnetwork","13/06/2023 5:29 pm","We will confirm with the team today- apologies for the delay on this","","👍 (2)"
+"706134217993617438","mephisto0502","13/06/2023 5:31 pm","oscafest23 hackathon","",""
+"706134217993617438","mephisto0502","13/06/2023 11:12 pm","@Axelar Network","",""
+"767368050235670588","axelarnetwork","13/06/2023 11:15 pm","Just confirming- you will be using the codebase from the FVM hacakthon and only migrating the front end to a website? Will you be adding or updating and of the backend you used from the previous hacakthon for this entry?","",""
+"706134217993617438","mephisto0502","13/06/2023 11:17 pm","our project is chrome extension based, we have plans to migrate it to a website based application, we won't be making any changes to the backend, that's what I know for now @Axelar Network","",""
+"767368050235670588","axelarnetwork","13/06/2023 11:18 pm","Will have to get the judging team's feedback, as novel code may be a requirement. Will update here by EOD","",""
+"706134217993617438","mephisto0502","13/06/2023 11:18 pm","we will only proceed after we get confirmation on this, or we won't. Thank you for your consideration!","","Shakehands (1)"
+"767368050235670588","axelarnetwork","14/06/2023 5:17 pm","Hello, you can proceed with the existing code, but please note that you will be evaluated on the frontend component that you build out only as the backend has already been written!","","👍 (1)"
+"766884274858360832","surbhit_agrawal","15/06/2023 11:03 am","The form in this URL asks only one member of the team to fill the second part of the form but actually all it's field are marked as required so what are other members of the team supposed to do? 
+@Axelar Network","",""
+"767368050235670588","axelarnetwork","15/06/2023 8:03 pm","Can you link the form here? Not sure which one you're referring to","",""
+"767368050235670588","axelarnetwork","15/06/2023 10:00 pm","@Axelar Builder we're 30 minutes out from the BNB Chain Zero 2 Hero Hackathon Winners Demo Day! :816456169920004137: 
+
+:826852331253530624: Join the winning teams as they shine a spotlight on what they build, how they built it and how Axelar helped power their wins!
+
+:arrow: Tune in here at 5pm UTC/1pm EST: https://www.youtube.com/watch?v=xH_agqwIXGY","","🔥 (6)"
+"588885086242471947","dimas_cryptodoc","15/06/2023 10:02 pm","🔥🔥🔥","",""
+"966273324210618388","leonfish","15/06/2023 10:32 pm",":Axelarheart:","",""
+"793129942111354880","chaveskrasavec","16/06/2023 9:49 am",":axelar:","",""
+"892179164688420884","magical_vybez","16/06/2023 6:10 pm","@Idris Olubisi | Axelar good day sir, please when is the deadline to submit this hackathon today?","",""
+"685950344848736285","olanetsoft","18/06/2023 6:55 pm","This is still ongoing, an announcement was made at the event about deadline extension.","",""
+"892179164688420884","magical_vybez","18/06/2023 7:01 pm","Alright thank you for the update sir","",""
+"892179164688420884","magical_vybez","18/06/2023 7:02 pm","I trust you enjoyed oscafest🫡","","🥳 (3)"
+"1069600107512737944","Quentin#7786","22/06/2023 9:09 pm","hey, are you gonna be at ethglobal waterloo?","",""
+"761834826533568542","stefan_1","23/06/2023 10:56 am","Axelar already organized a hackathon in Waterloo in June https://discord.com/channels/770814806105128977/1110622693461598308/1115322250397237379.","",""
+"761834826533568542","stefan_1","23/06/2023 10:56 am","I have no information if reps will visit ETHglobal in Waterloo as well but I think it may be possible.","",""
+"861300805612994590","holyaustin","23/06/2023 10:21 pm","Does Axelar support Mantle?","",""
+"1004775624914784387","bulldog6280","25/06/2023 9:12 pm","Not yet","",""
+"892632246710857738","anaj1717","30/06/2023 3:49 pm","GM - Came across the community you're building. Consensys (makers of Metamask) is running a global hack (US$100K+ Prize). Keen to feat your logo on their page as their official community partner? I'm scouting for interesting groups to onboard. lmk","",""
+"761834826533568542","stefan_1","03/07/2023 11:58 am","Thank you for your interest, forwarded your inquiry to the team.","",""
+"892632246710857738","anaj1717","03/07/2023 12:54 pm","Started a thread.","",""
+"620851130452279296","shivanshxyz","05/07/2023 11:04 pm","any updates about the results?","",""
+"767368050235670588","axelarnetwork","05/07/2023 11:30 pm","Winners will be announced on the H.E.R. DAO site once they've all been selected!","",""
+"767368050235670588","axelarnetwork","07/07/2023 10:18 pm",":cdaologo: @Axelar Builder we're excited to announce ""Axelathon: Axelar Online Hackathon 2023"" hosted by our long time friends at ContributionDAO :cdaoheart: 
+
+:cdaowork:  This is much more than a hackathon- it's an opportunity for those in Southeast Asia to build their knowledge base and portfolio, learn new skills and of course for the chance to win big! 
+
+Leading up to the main event, workshops will be held over 2 months, starting from July 6, 2023, to September 3, 2023, and will provide:
+
+:axelar:  Beginner friendly Resources
+:axelarblue:  Online articles & tutorials
+:axelar:  3 IRL workshops
+:axelarblue: Mentorship, advice & support
+
+:cdaomoon:Our goal is to ensure that anyone can participate in the hackathon without needing any prior knowledge of Axelar, and to provide hands on experience building blockchain dApps, cross-chain calls, and other fundamental knowledge related to Ethereum, Cosmos, and Axelar.
+
+:4563rainbow100:  Now for the most important past- the prizes!
+
+A Grand Prize of 15,000 USD :pepewow: 
+
+1st MVP: $4,000 
+2nd MVP: $2,000 
+3rd MVP: $1,000 
+4th MVP: $500 
+5th MVP: $500 
+
+:Axelarstrong:  In addition to the cash prize of 520,000 THB, the winning team will have the opportunity to participate in the Axelar Grants directly, a special program offering $60 million for builders who can lead the next gen of interoperable Web3 use cases!
+
+:alert: The conclusion of the Axelathon will take place on September 3, 2023, at ""DISTRICTX,"" a hub for blockchain innovations in Asia, located in the heart of Bangkok.
+
+:typingpeped: Learn more and register here: 
+
+Website: https://axelathon.contributiondao.com
+Devfolio: https://axelathon2023.devfolio.co
+Twitter: https://twitter.com/contributedao
+Facebook: https://facebook.com/groups/axelarthai
+Telegram: https://t.me/axelardeveloper","","❤️ (5)"
+"668470691258957876","kate_axl","07/07/2023 10:22 pm","An update from the team: 
+
+📌 We are still judging submissions since the hackathon got extended, but winners should be finalized by next week.
+
+We are still waiting on getting emails and names for all teams that submitted.","","👍 (2)"
+"668470691258957876","kate_axl","07/07/2023 10:22 pm","Pinned a message.","",""
+"767368050235670588","axelarnetwork","12/07/2023 8:40 pm","@Axelar Builder thinking of participating in an upcoming hackathon but not sure what to build  :typingpeped: 
+
+Looking for some inspiration to thing outside the box for your next project :peepo_big_brain: 
+
+:5393binancecoin: Check out our blog posts covering the winning projects from the BNB Chain Zero 2 Hero Hackathon!
+
+:arrow: https://axelar.network/blog/bnb-chain-hackathon-winners","","❤️ (7),🇱🇺 (1)"
+"431407030415392768","emmanuel3651","14/07/2023 12:11 pm","Can one participate remotely?","",""
+"199706851883876355","rok8697","14/07/2023 12:21 pm","@Thepleb | ContributionDAO","",""
+"803306957393756171","mehul0011","16/07/2023 12:50 am","Is this hackathon still running @Kate | Axelar","",""
+"761834826533568542","stefan_1","18/07/2023 8:16 pm","No, the hackathon has been wrapped up in June.","",""
+"1051831658359291924","horacle8448","19/07/2023 9:17 am","@Stefan oh","",""
+"668470691258957876","kate_axl","21/07/2023 7:59 pm","@england(Will never DM you first) do you know if folks can participate remotely?","",""
+"685516513759068166","england_","21/07/2023 7:59 pm","yesss! they can","",""
+"685516513759068166","england_","21/07/2023 7:59 pm","everyone around the world are free to join","",""
+"668470691258957876","kate_axl","21/07/2023 8:03 pm","👆","",""
+"431407030415392768","emmanuel3651","22/07/2023 12:25 am","alright thanks","",""
+"543667267729358848","maadhavsharma","22/07/2023 5:56 pm","Is anybody from the axelar team available at the EthParis venue?","",""
+"199706851883876355","rok8697","22/07/2023 6:07 pm","There are a few members from the BD team there, as far as I'm aware.","",""
+"668470691258957876","kate_axl","25/07/2023 8:14 pm","Sorry we missed this fren- we’re always manning the #💻│developers and #🌐│dev-tavern channels and the hackathon’s dedicated Discord channel!","",""
+"767368050235670588","axelarnetwork","25/07/2023 8:17 pm",":cdaologo: The first workshop in the Axelathon series hosted by ContributionDAO was a huge success! 
+
+:cdaowork:  This is the first of 3 in-person workshops that build on the technical skills from the last, leading up the Axelathon Hackathon this fall!
+
+With over 80 participants we can't wait to keep building with our amazing Thai community of Axelarators :Axelarstrong: 
+
+:twitter:  https://twitter.com/contributedao/status/1682784835738415105?s=46&t=1eRehTENYqLDtu_hAKBblA","","❤️‍🔥 (5),❤️ (1)"
+"685950344848736285","olanetsoft","26/07/2023 5:40 pm","Haha, we actually met him at EthGlobal Paris. He had posted that message earlier before the meeting took place.","",""
+"668470691258957876","kate_axl","26/07/2023 6:47 pm","Nice!! We’re too good 😂","","🔥 (1)"
+"668470691258957876","kate_axl","26/07/2023 8:20 pm","Thanks to all the teams who joined us in Paris for the ETHGlobal hackathon last week :Axelarstrong: 
+
+🇫🇷 It was great to meet with builders in the beautiful Palais Brongniart in the heart of Paris! 
+
+We’re excited to share the winners here: 
+
+🥇 1st place for $3000:  Web3 Soundbox
+
+🥈 Second place for $1500:  Ratatouille500 
+
+🥉 Third place for $500 PaySplit
+
+🔗 You can see demos of all the projects here: https://ethglobal.com/showcase?events=paris2023","https://cdn.discordapp.com/attachments/1110622693461598308/1133773287625855036/IMG_2533.jpg,https://cdn.discordapp.com/attachments/1110622693461598308/1133773288196276274/IMG_2548.jpg,https://cdn.discordapp.com/attachments/1110622693461598308/1133773289035141130/IMG_2551.jpg","Axelarheart (6)"
+"183910892776325120","md_argv","01/08/2023 6:06 am","thats amazing! couldnt go paris, but we are mostly based in singapore/indonesia so see u all at token 🙂","",""
+"818266534634979328","Pria#1431","01/08/2023 10:11 am","Hi Kate - I noticed Axelar is a sponsor at ETH Toronto, are they integrating into Shibarium? I would like to see this. I have a couple projects to look at there.","",""
+"889206354684833923","missionsaturn","02/08/2023 10:48 pm","Hi All Axelar Builders!
+Axelathon | Axelathon Online Hackathon 2023 
+🔖 Application Open: July 6, 2023-August 31, 2023
+🏆 Demo Day: Sunday, September 3, 2023
+🎖️ Prize: $15,000
+Interested in participating?
+Register: axelathon.contributiondao.com","","❤️ (2)"
+"767368050235670588","axelarnetwork","03/08/2023 7:25 pm","There are no plans as of now, but if there's enough community interest we can look into it!","",""
+"767368050235670588","axelarnetwork","03/08/2023 7:48 pm","Hey @Axelar Builder :Axelartip: 
+
+:herdao:  We're excited to host the winning team of the HD Games x H.E.R. DAO Hackathon on a YouTube livestream, which will also be streamed to Twitter! 
+
+:typingpeped:  The stream will feature a live demo, a deep dive into the code to explore how the team used Axelar's tools and SDK to power their win as well as which features they leveraged, and next steps for the project! :Axelarstrong: 
+
+
+> ⏲️  2pm EST / 6pm UTC
+> 
+> 📅  Today! August 3rd
+
+
+Follow the links below to tune in, hope to see you there! :minecraftheart: 
+
+:youtube: https://www.youtube.com/watch?v=LfsUpBkQOH4
+
+ :Twitter:  https://twitter.com/axl_ecosystem/status/1686830986749952000?s=46&t=e7yfEP7AsUOK6ns473IHTw","","❤️ (4),🚀 (5)"
+"620851130452279296","shivanshxyz","03/08/2023 8:21 pm","winner announcement blog post wen? 👉 👈","",""
+"767368050235670588","axelarnetwork","03/08/2023 8:27 pm","We've got the FVM winners blog post coming out this week, and HD Games x H.E.R. DAO will be next week!","","😞 (3),👍 (4)"
+"767368050235670588","axelarnetwork","10/08/2023 9:35 pm",":alert: @here We'll be live TODAY in **1 hour at 5pm UTC/1pm EST** for this week's Hackathon Winner Demo Day! :alert: 
+
+The two winning teams from the OSCAFEST 2023 by Open Source Community Africa, the biggest Open-Source Festival in Africa will walk us through their projects and designs :2167africa: 
+
+:peepolaptoppopcorn:  The teams from SUVe and DePay will walk through a live demo of their projects, followed by a deep dive into their code and how they leveraged Axelar's General Message Passing to go cross-chain :Axelarstrong: 
+
+:Youtube:  Link to the stream: https://www.youtube.com/watch?v=J8VDCHUoIXo","","🎉 (2)"
+"767368050235670588","axelarnetwork","11/08/2023 8:24 pm","Happy Friday @Axelar Builder :Axelarstrong: 
+
+The latest blog post is up featuring the 🗄️ FVM Dataverse Hackathon Winners 🗃️ 
+
+🏆  We detail the top 3 submissions featuring bridging, treasury and asset management and DAO based use cases! 
+
+Read about the projects and dive into the code here: 
+
+🖇️ https://axelar.network/blog/fvm-dataverse-axelar-hackathon-winners","","🔥 (17)"
+"544050672539271178","lyledavids","14/08/2023 10:00 am","Hey, where do we submit for this hackathon? Saw it on DoraHacks and Devfolio","",""
+"767368050235670588","axelarnetwork","18/08/2023 9:53 pm","Sorry for the delay here- it's on Devfolio: https://axelathon2023.devfolio.co/","","🫡 (1)"
+"544050672539271178","lyledavids","18/08/2023 10:41 pm","no worries, appreciate the update","","Shakehands (1)"
+"656512461729431583","matteoikari.eth","20/08/2023 2:35 am","here is Matteo from urbe.eth, a web3 community in Rome, we would like to talk with you about ETHRome, an hackathon based on Governance and zk/privacy.
+
+https://ethrome.org/
+
+Who I can talk with ?","",""
+"761834826533568542","stefan_1","21/08/2023 2:16 pm","Feel free to reach out to Jason Ma | Axelar#9781 or Jake | Axelar#7393","",""
+"656512461729431583","matteoikari.eth","21/08/2023 2:33 pm","thanks! I've sent a friend request to @Jason Ma | Axelar","","👍 (1)"
+"944829617825533953","josephweb3","23/08/2023 9:33 am","Pls can I get the axelar past hackathon wining project repo","",""
+"767368050235670588","axelarnetwork","23/08/2023 11:48 pm","Hey! All the past winners repos are linked in the blog posts we've published on them. We've linked them all here if you scroll up through the channel","",""
+"944829617825533953","josephweb3","24/08/2023 1:44 am","Okay thanks","",""
+"767368050235670588","axelarnetwork","24/08/2023 8:37 pm","GM @Axelar Builder :Axelarstrong: 
+
+:alert: Don't miss  this week's Hackathon Winner's Demo Day happening today! :alert: 
+
+🗓️ TODAY, August 24th 
+
+⏲️  1pm EST/ 5pm UTC
+
+:eth: Featuring the winning projects from the ETHGlobal Paris Hackathon!
+
+Tune in to learn about what the teams built and how, and to get some inspiration for your next hackathon project!
+
+:Youtube:  https://www.youtube.com/watch?v=cK02KLYsYsE","","🔥 (6)"
+"767368050235670588","axelarnetwork","29/08/2023 8:12 pm","@Axelar Builder the latest blog post is up featuring the winners from the OSCAFEST Hackathon :2167africa: 
+
+🏆  We cover the 2 winning projects from SUVe | Interchain Vaccine Verification, and DePay :Axelarstrong: 
+
+🖇️  Dive into the code and watch the demos here: https://axelar.network/blog/meet-the-axelar-bounty-winners-from-lagos-oscafest","","🔥 (10),👍 (1)"
+"944829617825533953","josephweb3","30/08/2023 1:11 pm","Hello I have a question regarding the axelathon hackathon","",""
+"944829617825533953","josephweb3","30/08/2023 1:11 pm","@Axelar Network","",""
+"767368050235670588","axelarnetwork","30/08/2023 7:14 pm","Hey, let us know! The Axelar team as well as the ContributionDAO team are here to help","",""
+"944829617825533953","josephweb3","30/08/2023 7:16 pm","The project I want to submit to the hackathon, was submitted to an hackathon but was built during this hack also. Hope that doesn’t affect, it’s a react native mobile app and I’m having issues deploying to the play stores","",""
+"944829617825533953","josephweb3","30/08/2023 7:16 pm","Can I still submit?","",""
+"767368050235670588","axelarnetwork","30/08/2023 7:17 pm","Not quite sure what you mean- the project was built during this hackathon and you want to reuse the code for another hackathon, or you're using code from a previous hackathon to submit to this one?","",""
+"944829617825533953","josephweb3","30/08/2023 7:18 pm","It a project I built the same time during this hack but I just submitted the project to another hack also","",""
+"944829617825533953","josephweb3","30/08/2023 7:23 pm","What do you say","",""
+"767368050235670588","axelarnetwork","30/08/2023 9:19 pm","We can't speak for the other hackathon if we aren't involved in it- we can only judge or comment on projects submitted to the Axelathon Hackathon","",""
+"886249907650981888","bchief","31/08/2023 5:11 pm","Hey is there a chance of deadline increase @Axelar Network","",""
+"767368050235670588","axelarnetwork","31/08/2023 7:53 pm","Hey, for which hackathon? Please note that Axelar doesn't organize the hackathons we participate in, we just host bounties, so you would need to reach out to the organizers.","",""
+"886249907650981888","bchief","31/08/2023 7:58 pm","Axelathon @Axelar Network","",""
+"767368050235670588","axelarnetwork","31/08/2023 8:01 pm","Contribution DAO is running this hackathon, @Thepleb | ContributionDAO can confirm but it is very unlikely any extensions can be given out unfortunately.","",""
+"886249907650981888","bchief","31/08/2023 8:11 pm","also is there any exchange on test netwroks goerli or polygon where ausdc swap pool is available @Axelar Network","",""
+"886249907650981888","bchief","31/08/2023 8:50 pm","@Thepleb | ContributionDAO","",""
+"892179164688420884","magical_vybez","31/08/2023 10:35 pm","I have submitted although I didn’t have the chance to deploy some contracts, could I quickly deploy and make the changes to github or I should I just leave it alone since the deadline has passed?","",""
+"767368050235670588","axelarnetwork","31/08/2023 10:42 pm","Since the deadline has passed any work submitted afterwards unfortunately won't be considered in the judging","",""
+"892179164688420884","magical_vybez","31/08/2023 10:51 pm","Okay thanks","",""
+"620851130452279296","shivanshxyz","03/09/2023 8:42 pm","any updates yet?","",""
+"767368050235670588","axelarnetwork","04/09/2023 1:55 am","Hey- we published the FVM Dataverse blog post a few weeks go: https://axelar.network/blog/fvm-dataverse-axelar-hackathon-winners
+
+Here's the announcement link: https://discord.com/channels/770814806105128977/1110622693461598308/1139572670795612160","",""
+"620851130452279296","shivanshxyz","04/09/2023 4:57 am","I meant to ask for the HD games hackathon","",""
+"761834826533568542","stefan_1","04/09/2023 12:09 pm","This is the latest update on the HD Games Hackathon that I'm aware of https://discord.com/channels/770814806105128977/1110622693461598308/1113185533909274644","",""
+"892179164688420884","magical_vybez","04/09/2023 2:58 pm","Gm are the results for axelathon out yet?","",""
+"889206354684833923","missionsaturn","05/09/2023 5:48 am","Hi Axelar Fam! Congratulations to Axelathon 5 MVPs 🔥
+https://x.com/contributedao/status/1698848449763119123?s=46&t=1eRehTENYqLDtu_hAKBblA","","🚀 (4)"
+"767368050235670588","axelarnetwork","06/09/2023 1:11 am","This one is coming this week- either today or tomorrow. Hackathon winners blog posts come out 1x a week!","",""
+"886249907650981888","bchief","12/09/2023 1:12 am","Hey when we will get prize money for axelar hackathon","",""
+"685950344848736285","olanetsoft","12/09/2023 2:47 am","Hello @Coder 
+
+Which hackathon? 
+
+Axelar doesn't organize the hackathons we participate in, we just host bounties. You might need to reach out to the organizers of the hackathon.","",""
+"886249907650981888","bchief","12/09/2023 11:13 am","Axelathon @Thepleb | ContributionDAO","",""
+"761834826533568542","stefan_1","12/09/2023 2:48 pm","Please reach out to the organizers of the hackathon.","",""
+"767368050235670588","axelarnetwork","13/09/2023 8:11 pm",":eth: Hey @Axelar Builder we were thrilled to host a bounty in last week's ETHcon Korea :eth: 
+
+🇰🇷  The team was on-site to give a workshop, mentor hackers and evaluate all the submissions!
+
+We're excited to share the track winners: 
+
+:axelarblue: Multi chain Mutation Dino, 
+
+:axelar: Simperby, 
+
+:axelarblue: Dexperience
+
+Congrats to all the teams who participated and to our winners! 
+
+:eth:  https://2023.ethcon.kr/","",""
+"767368050235670588","axelarnetwork","13/09/2023 8:29 pm",":eth: We also just wrapped up Ethereum Singapore, a huge thanks to everyone who came out and hacked on Axelar's bounty  🇸🇬 
+
+⏳ We will announce the winners shorty... good luck! 
+
+:axelarblue: https://www.ethereumsingapore.com/hackathon","","🚀 (3)"
+"767368050235670588","axelarnetwork","15/09/2023 10:08 pm",":13_gm: and Happy Friday @Axelar Builder!  
+
+:herdao: The latest blog post on the HD Games Hackathon winners is up :7784cuteomg: 
+
+:axelarblue: Read all about the winning team, check out their demos and dive into the code here: https://axelar.network/blog/meet-the-axelar-bounty-winners-from-the-hdgames-hackathon","",""
+"668470691258957876","kate_axl","15/09/2023 10:48 pm","@Shivansh 👆","","❤️ (1)"
+"641399675231928331",".pea22","19/09/2023 6:07 am","hi, sorry for the repost from general. just found this channel. 
+i participated in a hackathon and i'm supposed to get a bounty from Axelar. it was for ETHToronto/ETHWomen (team is partytricks). The event organizers have been totally unresponsive and I tried to reach the Axelar contact through email without success. Can someone from the team nudge the person responsible for bounties? Thank you!","",""
+"761834826533568542","stefan_1","19/09/2023 6:20 pm","Please try to reach out to the event organizers directly. Axelar only provided the prize but it needs to be distributed by the organizers.","",""
+"761834826533568542","stefan_1","19/09/2023 6:20 pm","If unable to reach them, please try to reach out to Kate.","","🙏 (1)"
+"641399675231928331",".pea22","19/09/2023 6:21 pm","Thanks @Stefan! I’m going to reach out to Kate now since the organizers have been unresponsive for 2 weeks 🫠","",""
+"761834826533568542","stefan_1","19/09/2023 6:21 pm","👍","",""
+"761834826533568542","stefan_1","19/09/2023 6:21 pm","I hope you can get your price soon!","","❤️ (1)"
+"641399675231928331",".pea22","19/09/2023 6:30 pm","@Kate | Axelar hi Kate, I’m not able to dm you. Would you prefer to speak in this channel? The events lead at Axelar was cc’d on the email for the Ethtoronto bounty, but she hasn’t responded to it yet. Would you mind giving her a nudge if possible?","",""
+"767368050235670588","axelarnetwork","19/09/2023 7:33 pm","Responded in the main channel- will get you some answers on this and continue the conversation over email! Sorry again for dropping the ball on this.","","❤️ (2)"
+"886249907650981888","bchief","23/09/2023 12:38 pm","I am not able to reach out, there has been no comunication, can you please let me know any email or something to reach out the contribution dao team","",""

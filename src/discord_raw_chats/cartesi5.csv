@@ -1,0 +1,106 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"489043089579835404","carsten.munk","16/06/2023 3:22 pm","👋 Hey all Cartesi Compute users!
+
+Here's where you can ask any and all questions about Cartesi Compute, the Compute team and the community is more than happy to help!
+
+Also see #compute and #deleted-channel for seeing more detail on Cartesi Compute's development","","cartesiHeart (2),🚀 (2)"
+"489043089579835404","carsten.munk","16/06/2023 3:26 pm","@Shaheen and 🤖  maybe for icon?","",""
+"489043089579835404","carsten.munk","16/06/2023 3:27 pm","or something more creative that symbolizes computation","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:28 pm","I was thinking about this! Toughest task! How about 🧮 ?","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:28 pm","Whatever you relate compute with let me know!","",""
+"489043089579835404","carsten.munk","16/06/2023 3:30 pm","🧱  maybe since we're a building block","",""
+"489043089579835404","carsten.munk","16/06/2023 3:30 pm","(also, i'm danish, so, that's obviously a LEGO 😂 )","","😂 (1)"
+"489043089579835404","carsten.munk","16/06/2023 3:33 pm",":bricks : ?","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:34 pm","I've to pick from macOS emojis","",""
+"489043089579835404","carsten.munk","16/06/2023 3:34 pm","ah fun","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:35 pm","It looks different to me! What do you see?","",""
+"489043089579835404","carsten.munk","16/06/2023 3:35 pm","","https://cdn.discordapp.com/attachments/1119202450100977695/1119206096612102194/Screenshot_2023-06-16_at_12.05.18.png",""
+"489043089579835404","carsten.munk","16/06/2023 3:35 pm","(on macos)","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:36 pm","ah same! This is the only block here!","",""
+"489043089579835404","carsten.munk","16/06/2023 3:37 pm","📦 maybe ?","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:38 pm","iT WORKS!","",""
+"489043089579835404","carsten.munk","16/06/2023 3:38 pm","hardest thing in computing: naming things and picking right discord emojis","","😂 (4)"
+"886909209629835264","riseandshaheen","16/06/2023 3:39 pm","Let's keep it for now! Later if we have anything better, we edit!","",""
+"886909209629835264","riseandshaheen","16/06/2023 3:39 pm","You can repost the intro again here if you want! Make the channel focused again!","",""
+"489043089579835404","carsten.munk","16/06/2023 3:40 pm","Pinned a message.","","cartesi100 (1)"
+"425209406163255317","dollyvolley","16/06/2023 3:50 pm","How can one maintain the machine? Is it possible to update the system while its deployed (e.g. via an upgrade command)","",""
+"489043089579835404","carsten.munk","16/06/2023 3:51 pm","so in general you can replace a flash drive in a state snapshot, but you also need to think of it in terms of how a linux kernel reacts to a disk drive being replaced without proper mounting/unmounting","",""
+"425209406163255317","dollyvolley","16/06/2023 4:05 pm","huiuiui, well alright for now but sounds pretty complex","",""
+"718458402862268496","max_h","16/06/2023 4:07 pm","Thanks for the updates on the Compute R&D channel @Carsten | Zippie! I'm quite curious (and excited) about these two experimental plans:
+
+> - To prototype a EigenLayer AVS that is slashable based on a Compute result
+> - Get a Cartesi Machine memory image backed RiscZero ZK proof of a Cartesi Machine working with a few (big machine) cycles
+
+Can you shed more light on EigenLayer AVS? Do you see this as the best option to spin up & bootstrap compute validators (given restaking/ability to tap into eth validators & stake)? Do you think this could also be beneficial for Cartesi Rollups?","",""
+"489043089579835404","carsten.munk","16/06/2023 4:11 pm","Right now it's mostly skill-up so we understand where the walls are there. I think AVS'es will help in:
+- Sequencing
+- Short term provable message busses (like, for arbitration verification games happening off-chain in a high security manner)
+- Data availability
+- Possible staking models around compute validators
+- Better ways to bridge and do L2<->L2 stuff
+- Better sync committes than Ethereum L1 itself provides since they're actually slashable","","🔥 (2)"
+"489043089579835404","carsten.munk","16/06/2023 4:12 pm","it's one of those a bit where i think there's potential and a lot of blind spots to where it can help verified computation","",""
+"489043089579835404","carsten.munk","16/06/2023 4:20 pm","will share all learnings here on discord and/or blogs, naturally, as things progress - think in 2024 ethereum-based systems likely are completely unrecognisable from what we see today so, because of tech like these","","🔥 (1)"
+"718458402862268496","max_h","16/06/2023 4:26 pm","Thanks for the insights and yea will definitely keep an eye out for your writings haha! This seems super promising and I can definitely imagine that it might shake up and change up some of the systems we have today","",""
+"489043089579835404","carsten.munk","16/06/2023 4:26 pm","i'm just looking forward to have to spend less time with the EVM 😂","","😂 (1)"
+"489043089579835404","carsten.munk","16/06/2023 4:29 pm","ah, also, DKG's at mass scale","",""
+"718458402862268496","max_h","16/06/2023 4:31 pm","Can you elaborate on this one?","",""
+"489043089579835404","carsten.munk","16/06/2023 4:33 pm","basically a bit like how dfinity does it, it has a single ICP public key, because there was a distributed key generation process across all nodes so each have a shard of the 'private key' but nobody ever has the whole private key; so you can ask a certain threshold of the nodes to sign for you and it adds up as if the ""private key"" signed it","",""
+"489043089579835404","carsten.munk","16/06/2023 4:34 pm","it's useful for a lot of things such as conditional decryption and so forth","",""
+"489043089579835404","carsten.munk","16/06/2023 4:34 pm","https://litprotocol.com/ is probably what comes close atm","","👀 (1)"
+"718458402862268496","max_h","16/06/2023 4:39 pm","Very interesting!","",""
+"718458402862268496","max_h","16/06/2023 4:47 pm","Regarding the RiscZero implementation. Is it sort of similar to the Layer N implementation, but this time putting the Cartesi Machine onto the RiscZero zkVM? https://twitter.com/RiscZero/status/1660712143032041472","",""
+"489043089579835404","carsten.munk","16/06/2023 7:26 pm","to be honest i'm not exactly sure what Layer N is actually doing 🙂 I want to be the first to boot up a Linux system in ZK, roughly around end of July latest. It'll be a lot of proofs, a lot of processing, but it'll be a nice accomplishment. Doing a single step big machine or uarch is probably a nice sideeffect too","","💯 (2)"
+"425209406163255317","dollyvolley","16/06/2023 7:28 pm","are the state changes recorded somewhere? So that they are traceable like with any DLT + Explorer?","",""
+"489043089579835404","carsten.munk","16/06/2023 7:29 pm","you've had a chance to read through https://docs.cartesi.io/cartesi-machine/ yet? - also, the original cartesi whitepaper is quite good","",""
+"425209406163255317","dollyvolley","16/06/2023 7:31 pm","I read some parts more indepth but mostly skipped through it. Will dig deeper when you say the info is hidden in there 👍","",""
+"489043089579835404","carsten.munk","16/06/2023 7:31 pm","it's somewhere in between that and realizations while sitting with a glass of red wine and playing with the machine and it's command line options itself 🙂","","😆 (1)"
+"489043089579835404","carsten.munk","16/06/2023 7:41 pm","https://www.youtube.com/watch?v=kGkd48vo6UI is a old video but i've used that to explain a bit when i originally was training them","",""
+"425209406163255317","dollyvolley","16/06/2023 7:44 pm","Based on your replies I get the feeling that I might have a different picture of Cartesi Compute than what it actually is 😅 So I will happily watch the video again","",""
+"489043089579835404","carsten.munk","16/06/2023 7:45 pm","in general you can do a lot with compute that's not immediately obvious from the docs, but start making sense if you understand how you can actually modify a state hash and so on and control the process more with a smart contract","",""
+"489043089579835404","carsten.munk","16/06/2023 7:46 pm","do i understand a bit that you are kind of looking for some kind of continous VM tho? like, same nodes iterating on same virtual machine\","",""
+"489043089579835404","carsten.munk","16/06/2023 7:48 pm","a bit like start up at point zero, take in some input, agree on machine state, take in more input, agree on new machine state, etc?","",""
+"425209406163255317","dollyvolley","16/06/2023 7:50 pm","YES!! exactly that one","",""
+"425209406163255317","dollyvolley","16/06/2023 7:51 pm","Thats the idea and I think this might only be feasible with rollup then right (neglecting the privacy requirement for now)","",""
+"425209406163255317","dollyvolley","16/06/2023 7:53 pm","The concept I have in mind was designed for EVM, so I make a lot of assumptions about the similarity of it and Cartesi (continuous VM, transactions, blockchain)","",""
+"425209406163255317","dollyvolley","16/06/2023 7:57 pm","Basically I thought Cartesi provides a L2 Network (wrong already) that has an Ubuntu State more or less which is also transitioned by transactions that inbound via L2 directly. Only the state hash is then anchored to L1.","",""
+"718458402862268496","max_h","16/06/2023 8:39 pm","I wasn't able to find too many details either, but I thought it was EVM based. But yeah putting Linux in there would be something else entirely haha. I was comparing more in terms of potential use cases/benefits of combining optimistic and zk rollups","",""
+"489043089579835404","carsten.munk","16/06/2023 8:45 pm","One thing I never really tested is how it’s exactly handled in compute when something does a yield - if it’s seen as end of execution (that you then can continue on in a second run based on the resulting machine hash)","",""
+"489043089579835404","carsten.munk","16/06/2023 8:45 pm","Yield is a bit like stopping the machine but it’s continuable, for example, for replacing a flash drive in between","",""
+"600602166679568424","erickdemoura","16/06/2023 9:00 pm","I don't know exactly what you are trying to achieve, but it is right to assume that Cartesi Rollups (unlike Cartesi Compute) is a continuous/stateful VM. Transactions go to L1 or a sequencer in L2 (if you use Cartesi as L3) and the VM updates its state accordingly.","","👌 (1)"
+"600602166679568424","erickdemoura","16/06/2023 9:01 pm","Then from time to time the validator nodes make a claim on-chain with a hash that represents the VM state.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:01 pm","The manual yield creates a fixed point in the machine, a trap, from which the machine cannot escape unless it is released from the outside.","","🔥 (1)"
+"1096420714489327719","diego.nehab","16/06/2023 9:02 pm","From the point of view or arbitration in compute, it is just as if the machine was halted.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:02 pm","You can, however, take that machine, ""unhalt it"" and give it whatever input it needs to continue running, and start a new compute stage.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:03 pm","This is the basis for ""rollups"".","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:03 pm","These transitions from a fixed state to a runnable state are doable with a few surgeries using hashes, or directly on the machine using a few entrypoints.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:05 pm","You could treat a manually yielded machine (iflags_Y set) just like you treat a halted machine (iflags_H set) for the purpose of compute, I think. Or you could consider it an error and bail.","",""
+"600602166679568424","erickdemoura","16/06/2023 9:05 pm","Also, in regard to your privacy requirement, the discussion you had previously with Carsten about permissioned nodes applies to rollups as well.","",""
+"425209406163255317","dollyvolley","16/06/2023 9:08 pm","Thanks a lot @erickdemoura! Is there no option to submit the transactions directly to the nodes? Because if they go via L1 then the privacy is not given","",""
+"489043089579835404","carsten.munk","16/06/2023 9:08 pm","@diego.nehab mostly out of idle curiousity, why the separate rollup/voucher/etc buffers and not go through flash drives? kernel / caching gotchas?","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:09 pm","They are just memory ranges that the kernel can access.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:10 pm","Flash drives load a driver for mtd (we will replace it with another driver later on) and get exposed as an mtd device and an associated block device.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:10 pm","We didn't want processes to access these memory ranges in random ways.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:10 pm","So we created an API for rollups and only the rollup driver can access these memory ranges.","",""
+"1096420714489327719","diego.nehab","16/06/2023 9:10 pm","Felt cleaner this way.","","👍 (1)"
+"600602166679568424","erickdemoura","16/06/2023 9:11 pm","I see. If data availability is given by the blockchain (or L2), then you could consider sending encrypted input. 
+In your case, you may not need hard DA assumptions. Perhaps you could use IPFS and only store the hashes on-chain. Or some customization of the rollups nodes to receive and retain data themselves.","",""
+"600602166679568424","erickdemoura","16/06/2023 9:12 pm","Then it's really up to the security and availability guarantees you want to work with.","",""
+"425209406163255317","dollyvolley","16/06/2023 9:33 pm","Edit: nvm that first part i sent 
+
+But in general I feel now more confident that Cartesi could be the right tool by applying certain modifications or workarounds.","",""
+"425209406163255317","dollyvolley","16/06/2023 9:55 pm","A core assumption from my side was that the Cartesi rollup nodes constitute a full fledged network themselves, so that DA is given","",""
+"517899425369030696","dtuler","16/06/2023 10:03 pm","No. Rollups nodes don’t communicate with each other (through p2p or whatever). Only “through” base layer, which currently works as DA and consensus.","","🤝 (1)"
+"489043089579835404","carsten.munk","27/06/2023 12:54 pm","and we just posted a new development increment update (increment 2) in ⁠https://discord.com/channels/600597137524391947/1108842830912307220 if anyone is interested 🙂","","🔥 (2)"
+"489043089579835404","carsten.munk","29/06/2023 11:54 am","https://docs.cartesi.io/compute/overview/ now has Compute 1.3.0 docs 🥂","","🙌 (4),🔥 (6)"
+"796375023426076673","cryptogamblerx","10/08/2023 6:41 pm","@Shaheen 
+Has Cartesi considered a partnership with CUDOS to leverage their tech for 3d rendering and motion graphics for dApps ? Seems like some good synergies. Interested in thoughts? Thanks
+
+https://www.cudocompute.com/solutions/rendering/","",""
+"406262750470340619","divesh","10/08/2023 7:10 pm","On a similar note , IDEX - who plans to build a COMPLETELY decentralised DEX ( which is as good as a  CEX )","","👍 (1)"
+"886909209629835264","riseandshaheen","22/08/2023 12:04 pm","From what I gather, they want to decentralize rendering graphics by leveraging idle gpu resources. I don't think they are trying to associate it with deterministic machines. It should be a developers' choice imo on which rendering service they would opt.","",""
+"424568925313957908","siannie","05/09/2023 7:11 am","Hey @Carsten | Zippie 
+
+Jessy from EigenLayer reached out and wanted to get in touch to chat about the design around building an economic layer on top of Cartesi Compute. Who can I best connect him with?
+He sadly doesn't have a Discord so he's unable to join in here.","",""
+"489043089579835404","carsten.munk","05/09/2023 6:06 pm","Yup Erick got same message, we are on it 🙂","","🙌 (2)"

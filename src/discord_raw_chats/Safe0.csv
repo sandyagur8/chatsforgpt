@@ -1,0 +1,18 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"778666534792331264","John | Safe#1403","16/12/2021 6:53 pm","The Safe core contributors team is relatively small, and we cannot keep up with the volume of developer questions we receive using a chat model. For this reason, we decided to move our developer support to Ethereum Stack Exchange.
+By doing this, we will create a knowledge base for Safe products and developer tools, indexed by search engines, making life easier for developers who will build on top of the Safe protocol in the future!
+
+**Please post your question here -**
+https://ethereum.stackexchange.com/questions/tagged/gnosis-safe
+Please be as detailed as possible and don’t forget to add `gnosis-safe` tag to your question 🙏 StackOverflow’s guide to asking a good question may be helpful:
+https://stackoverflow.com/help/how-to-ask
+
+**Types of dev support questions and where to ask:**
+- How do I? -- Ask in Stack Exchange with `gnosis-safe` tag
+- I got this error, why? -- Ask in Stack Exchange with `gnosis-safe` tag
+- I got this error and I’m sure it’s a bug -- file an issue in the relevant Github repo within https://github.com/safe-global
+- I have an idea/request -- file an issue in the relevant Github repo within https://github.com/safe-global
+- Why do you? -- discuss this in relevant Discord channel
+- Wen will you? -- same as Why do you
+
+Stay Safe out there 🔐","","gnosis_safe_2019_logo_rgb_sans_g (897),💻 (497)"

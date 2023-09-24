@@ -1,0 +1,98 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"847446263288037377","wchkarolpwebchefs","28/07/2022 2:49 pm","like it 🙂","","cartesiHeartYellow (3)"
+"640993117138321410","dawidnezo","01/08/2022 8:57 pm","Anyone has already done front end app in the Vue or am I first :D?","",""
+"847446263288037377","wchkarolpwebchefs","01/08/2022 8:59 pm","I think that this might be Vue or smth similar eg. angular, react or vanilla js 😉","",""
+"640993117138321410","dawidnezo","01/08/2022 9:06 pm","basically, any web frontend example will be helpful for us 😄","",""
+"965581010685280286","lynofz","02/08/2022 7:41 pm","Hi @wch-dawid-m | webchefs and @wch-karol-p | webchefs  
+We'll probably release a well polished web frontend version in a future release.
+Anyway, I've prepared a simple, quick and dirty version.
+Let me know if this helps.","https://cdn.discordapp.com/attachments/1001120619036950628/1004028696107163798/frontend-web.zip",""
+"640993117138321410","dawidnezo","03/08/2022 3:36 pm","It worked with my rust backend. A step forward for me, we will work on that 🙂","","🚀 (1),cartesiHeart (1)"
+"847446263288037377","wchkarolpwebchefs","22/08/2022 7:56 pm","Referring to: https://github.com/cartesi/rollups-examples/tree/main/echo-js
+Where Can I find info that txiki was implemented to machine?","",""
+"615539144638070784","carlofragni","22/08/2022 11:48 pm","txiki was added to the base rootfs image, no need to install it, just use an updated rootfs","",""
+"615539144638070784","carlofragni","22/08/2022 11:48 pm","it was added on this commit","",""
+"615539144638070784","carlofragni","22/08/2022 11:48 pm","https://github.com/cartesi/image-rootfs/commit/e13038f852d5421abacd5f06923cc330c15b14ab","","👍 (2)"
+"886909209629835264","riseandshaheen","13/12/2022 5:54 pm","Hey @Cartesi Developer! Check out the Sports betting DApp by @tuler.eth . It has backend and frontend built in TypeScript! Deployed on Goerli! 
+https://discord.com/channels/600597137524391947/1001138047313789071/1052190414343507988","",""
+"923429907885854742","elix1er","28/03/2023 5:49 pm","wen svelte SSR","",""
+"204444019407716352","glockchain","28/03/2023 7:49 pm","lol","",""
+"923429907885854742","elix1er","28/03/2023 7:49 pm","xd","",""
+"886909209629835264","riseandshaheen","05/04/2023 7:49 pm","Wen Node.js? It's time!
+
+Hey @Cartesi Developer! Update you would like to hear!
+
+Now you can write your back-ends using Node.js! 😍
+The Cartesi Rollups Echo JS Example DApp has been updated to show you how it's done!
+Explore it here: https://github.com/cartesi/rollups-examples/tree/main/echo-js","","👏 (11),😍 (4)"
+"702619152312959126","fabio.oshiro","27/06/2023 12:03 am","Hi guys, I’m trying to run the echo-js example and the `docker buildx bake --load` command gives me an error:
+```
+#0 0.554 exec /bin/sh: exec format error
+------
+Dockerfile:24
+--------------------
+  22 |     
+  23 |     # add the required 'dapp' user
+  24 | >>> RUN useradd --create-home --user-group --uid 2874 dapp
+  25 |     RUN chown -R 2874:2874 /opt/cartesi/dapp
+  26 |     
+--------------------
+ERROR: failed to solve: process ""/bin/sh -c useradd --create-home --user-group --uid 2874 dapp"" did not complete successfully: exit code: 1
+```","",""
+"396446463938396162","fxelipe","27/06/2023 10:57 pm","same","",""
+"886909209629835264","riseandshaheen","28/06/2023 12:13 pm","Trying to reproduce, it's building fine for me. On rollups-examples 0.14.0 Docker Desktop on MacOS. @Prototyping & Support Unit Any insights here?","",""
+"408395884804571136","arthurvianna","28/06/2023 4:31 pm","It's building and running fine for me too. Fabio, check if you are missing one of the requirements (qemu), to do it run the command ``docker buildx ls``  and you should see something like the screen that I sent. Notice that the ``linux/riscv64`` appears in the platform list, if it not appear to you refer to this part of the docs to solve the issue https://github.com/cartesi/rollups-examples/#docker-riscv-using-risc-v-base-docker-images.","https://cdn.discordapp.com/attachments/1001120619036950628/1123568927969120316/image.png",""
+"702619152312959126","fabio.oshiro","28/06/2023 5:47 pm","Ok, I got it. qemu isnt available on Gitpod...","",""
+"615539144638070784","carlofragni","28/06/2023 7:12 pm","There is this Ansible automation created by @Felipe Grael that sets a VPS with everything to get started on Cartesi and an in browser IDE as well. If you use the stackscript in Linode, you get started in a couple of clicks. 
+https://github.com/prototyp3-dev/code-server-dev-env","",""
+"615539144638070784","carlofragni","28/06/2023 7:13 pm","Linode stackscript: https://cloud.linode.com/linodes/create?type=StackScripts&subtype=Account&stackScriptID=1168216","",""
+"702619152312959126","fabio.oshiro","29/06/2023 9:08 pm","Thanks @Carlo, we decided to write the middleware with Rust/Actix, and the example with Nodejs","","👍 (2)"
+"517899425369030696","dtuler","12/09/2023 10:21 pm","bun.sh 1.0 is out. This is in interesting news. They don’t provide RISC-V builds, but it may be interesting if some hacker tries to build it.","",""
+"466343326023680000","edubart","13/09/2023 1:40 am","has anyone tried using bun.sh instead of nodejs for Sunodo + dapp Frontend ? Should it work as a replacement for node/npm?","",""
+"517899425369030696","dtuler","13/09/2023 1:42 am","It should work, but didn't on first try. I'll try more when I find the time.","",""
+"466343326023680000","edubart","13/09/2023 6:27 pm","If you were going to a Hackathon where you have a few hours to create a beautiful frontend for a web3 dapp. Which agile web frontend framework (or tools) would you use? Just researching opinions.","",""
+"517899425369030696","dtuler","13/09/2023 6:28 pm","https://wagmi.sh/cli/create-wagmi#nextjs
+next-rainbowkit","",""
+"466343326023680000","edubart","13/09/2023 6:31 pm","Interesting, will take a look and maybe try, thanks","",""
+"466343326023680000","edubart","13/09/2023 6:31 pm","I was thinking in Vue at first, because I had experience with Vue years ago and was ""ok"", but I might be a not a great option today, not sure","",""
+"466343326023680000","edubart","13/09/2023 6:32 pm","I think React derivated frameworks has dominated since then","",""
+"517899425369030696","dtuler","13/09/2023 6:34 pm","Vue itself is good (even though I don't speak from personal experience). The killer IMO is wagmi. And there is not an official vue-wagmi package, but people can build vue apps on top of @wagmi/core","",""
+"517899425369030696","dtuler","13/09/2023 6:35 pm","But @wagmi/react is pretty awesome.","",""
+"517899425369030696","dtuler","13/09/2023 6:38 pm","Let me rephrase, if you are into Vue, use @wagmi/core. I don't have personal experience with that yet. 
+@Bruno Menezes is a fan of svelte, but you would have to use @wagmi/core as well.
+Personally I choose React only because it's the one I have more experience.","",""
+"466343326023680000","edubart","13/09/2023 7:06 pm","I found this Vue + wagmi/core tutorial on WalletConnect website, giving it a try
+https://docs.walletconnect.com/2.0/web3modal/v3/vue/about
+But it is in Alpha","","👍 (1)"
+"466343326023680000","edubart","14/09/2023 4:07 pm","I gave both Next.js and Vue a try. I could achieve more in less time in the frontend with Vue, what I felt:
+- Next.js/React I had to learn how to use their own HTML components like `Link` instead of `a`, and I do not feel coding HTML code,  I had to re-learn some basic HTML components again, this slowed me, while in Vue I can still use raw HTML5 code
+- Next.js is meant to also have server side code, I had to use `typeof window !== ""undefined""` is places to trigger client side code only, this felt hacky, my frontend is single page only, while Vue is meant for single page apps only, no server side stuff
+- Next.js I must use TypeScript, there were places I need to use external JS libraries with untyped code, I spent valuable hours trying to please the type checker, eventually I gave up and I had to end up using `// @ts-ignore:next-line` everywhere, whereas in Vue without typescript I could go faster
+
+Overall I feel that TypeScript is valuable for large complex dapps when working with large teams, due type checking and safety. But for quickly hacking a prototype seems like to slow me down, might work better for people with experience on it. TypeScript+React+Next.js feels like you need to relearn both HTML and JS, while Vue+JS feels like bare old HTML5 and JS, requiring less to learn and faster to prototype. I only did web dev in a time before TS existed, so this is my biased opinion.","",""
+"466343326023680000","edubart","14/09/2023 4:08 pm","In both cases I could use `@wagmi`, and it was nice for wallet stuff","",""
+"517899425369030696","dtuler","14/09/2023 5:19 pm","- you can use plain html with next.js. `Link` does other goodies like pre-fetching.
+- just add `""use client;""` in the top of the file and the component will render on the client. By default it renders on the server for performance reasons
+- I rarely find libraries without typescript support. Which one you had problems with?","",""
+"466343326023680000","edubart","14/09/2023 6:13 pm","> I rarely find libraries without typescript support. Which one you had problems with?
+the JS APIs I made on top of Emscripten WASM APIs 😆 , I was doing stuff like JS <-> WASM calls, such as:
+```js
+        // @ts-ignore:next-line
+        let buf = Module._malloc(cartridge_data.length);
+        // @ts-ignore:next-line
+        Module.HEAPU8.set(cartridge_data, buf);
+        // @ts-ignore:next-line
+        Module.ccall('rivemu_start', null, [ 'number', 'number' ], [ buf, cartridge_data.length ]);
+        // @ts-ignore:next-line
+        Module._free(buf);
+```
+`ts-ignore:next-line` everywhere 🙂","",""
+"517899425369030696","dtuler","14/09/2023 6:14 pm","Ahh, so you are blaming yourself. got it 😆","",""
+"517899425369030696","dtuler","14/09/2023 6:14 pm","""external"" JS libraries","",""
+"466343326023680000","edubart","18/09/2023 8:00 pm","I wish we had a start template dapp example using Cartesi + Sunodo, where you can deposit/withdraw an ERC-20 token from L1<->L2, also execute vouchers, with a minimal frontend and test suite.  The frontend using some framework stack like (vite + wagmi + wagmi-cli + react + bootstrap v5 + rainbowkit) and a reference backend using any language (not that important, the developer could swap the backend to his language of choice), this would save me a lot of time and effort","","👍 (1)"
+"466343326023680000","edubart","18/09/2023 8:03 pm","I spent the weekend trying to figure out the frontend side of a dapp, I spent a lot of time figuring out these details, and found myself navigating source code of other cartesi dapps of hackathons, like the Ballum dapp, DCA.Monster dapp, and others. I learned some interesting ways to do stuff from them","",""
+"517899425369030696","dtuler","18/09/2023 9:39 pm","I agree that writing a good web3 frontend is quite a task. And most of the job is not related to Cartesi at all. Wallets interaction and GraphQL interaction are the bulk of it, and tools like wagmi (1) and graphql-codegen (2) help a lot. There is a lot of asynchronicity, even more with Cartesi, where inputs are transactions that can take a long time, and then there is machine execution that adds to that. It's hard IMO to provide a good template because I feel the frontend depends a lot on the application.
+
+1. https://wagmi.sh
+2. https://the-guild.dev/graphql/codegen","","👍 (1)"
+"466343326023680000","edubart","18/09/2023 10:10 pm","I used both wagmi and graphql-codegen, they were handy, I wish a had more time to elaborate a starter template for myself with everything related to Cartesi/GraphQL/wagmi/Wallet sorted out. Any frontend starter template would be very opinionated, but handy for hackathons, because people could start from this wallet dapp template from minute 0 already integrated with Cartesi, and just add the dapp logic with a few new advance states and UI components.","","👍 (3)"

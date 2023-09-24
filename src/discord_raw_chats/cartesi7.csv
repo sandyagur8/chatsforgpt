@@ -1,0 +1,138 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"886909209629835264","riseandshaheen","01/08/2022 7:53 pm","👋 🦀***Hello, Rustaceans!***
+
+This channel is for all your needs. Ask questions from setting up, building or deploying Rust DApps.
+
+**Run a simple Rust DApp**
+Check our echo-rust example: https://github.com/cartesi/rollups-examples/tree/main/echo-rust
+
+*Not sure where to begin you Cartesi Dev Journey? *
+Head over to #🐣┃beginner-friendly channel to take your first step.","",""
+"640993117138321410","dawidnezo","25/08/2022 4:17 pm","Hello, I have a problem with building rust dapp in production mode. The error is: ""cannot find -lsqlite3"" while I'm trying to add diesel crate (I want to use SQLite in the project). Is any help?","",""
+"640993117138321410","dawidnezo","25/08/2022 6:34 pm","","https://cdn.discordapp.com/attachments/1001119663947780278/1012346608228237432/unknown.png","👀 (1)"
+"615539144638070784","carlofragni","30/08/2022 11:54 pm","Can you share the steps to reproduce this? Seems like it's missing the libsqlite3-dev inside the toolchain containter","",""
+"615539144638070784","carlofragni","31/08/2022 12:01 am","https://github.com/cartesi/rollups-examples/blob/main/docker/Dockerfile#L3","",""
+"640993117138321410","dawidnezo","31/08/2022 12:01 am","I'm using this command to build an app.
+```docker buildx bake -f docker-bake.hcl -f docker-bake.override.hcl --load --no-cache```
+and adding this in the lib.rs file breaks build
+```#[macro_use]
+extern crate diesel;```
+
+git:
+https://github.com/wchfs/trip-poc-dapp/blob/ebe1abd5d678ce13ba92a46c358c98b142d7ebbe/backend/Cargo.toml#L19
+https://github.com/wchfs/trip-poc-dapp/blob/ebe1abd5d678ce13ba92a46c358c98b142d7ebbe/backend/src/lib.rs#L2
+https://github.com/wchfs/trip-poc-dapp/blob/ebe1abd5d678ce13ba92a46c358c98b142d7ebbe/backend/Dockerfile#L6","",""
+"640993117138321410","dawidnezo","31/08/2022 12:03 am","I suspected that but I'm not sure how to fix that issue.","",""
+"615539144638070784","carlofragni","31/08/2022 12:03 am","if you insert bellow line 3 (https://github.com/cartesi/rollups-examples/blob/main/docker/Dockerfile#L3):
+``` RUN \
+    apt-get update && \
+    apt-get install --no-install-recommends -y \
+    libsqlite3-dev
+```
+it should solve your issue","",""
+"615539144638070784","carlofragni","31/08/2022 12:04 am","can you give it a try and let me know how it goes @wch-dawid-m | webchefs ?","",""
+"640993117138321410","dawidnezo","31/08/2022 12:04 am","Ok, on my way to test 🙂","",""
+"615539144638070784","carlofragni","31/08/2022 12:04 am","great","",""
+"640993117138321410","dawidnezo","31/08/2022 12:31 am","still the same:","https://cdn.discordapp.com/attachments/1001119663947780278/1014248630477127740/unknown.png,https://cdn.discordapp.com/attachments/1001119663947780278/1014248631030792273/unknown.png",""
+"640993117138321410","dawidnezo","31/08/2022 12:36 am","If it is missing in the toolchain container should I rebuild that image and install the library there? I had to rebuild the toolchain image because of my M1 computer, is it correlated?","",""
+"615539144638070784","carlofragni","31/08/2022 12:43 am","Let me ask around here and get back to you, seems to me it's missing the riscv version of the libsqlite3.so in order to build","","cartesiHeart (1)"
+"640993117138321410","dawidnezo","31/08/2022 9:47 pm","Hi, I'm wondering if you have examples of the flow for paying procedure (maybe in rust?). I figure out something like this but confirmation will be useful.","https://cdn.discordapp.com/attachments/1001119663947780278/1014569610181365910/unknown.png",""
+"965581010685280286","lynofz","03/09/2022 9:03 am","Hey, @wch-dawid-m | webchefs!
+Yes, in the first flow chart, to query the state and check some information, you can use inspects.
+
+Regarding the other flow charts, they contain some unnecessary steps. To pay, Users can directly deposit assets without having to ask for a specific output. To deposit assets, instead of sending inputs to the InputFacet, the users interact with another Facet, either the EtherPortalFacet, ERC20PortalFacet, or ERC721PortalFacet. Using the deposit function of one of these facets, the user transfers the assets to the portal and includes any data. Then, the Rollups Framework sends a special advance state to the backend containing the deposit information.
+
+Vouchers, on the other hand, are outputs from the backend that define a contract call. So they are a way for the DApp to interact with the blockchain. For example, they allow users to withdraw assets from the portal. So, they aren't used to transfer assets to the DApp.
+Let me know if you have any more doubts!","",""
+"702619152312959126","fabio.oshiro","20/09/2022 8:59 pm","Hi guys! I got a error like this issue:
+https://github.com/briansmith/ring/issues/1488","",""
+"702619152312959126","fabio.oshiro","20/09/2022 9:00 pm","#0 41.90 error: failed to run custom build command for `ring v0.16.20`
+#0 41.90 
+#0 41.90 Caused by:
+#0 41.90   process didn't exit successfully: `/opt/cartesi/dapp/target/release/build/ring-0c5e4cd48b59c0c3/build-script-build` (exit status: 101)
+#0 41.90   --- stderr
+#0 41.90   thread 'main' panicked at 'called `Option::unwrap()` on a `None` value', /opt/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.16.20/build.rs:358:10
+#0 41.90   note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+#0 41.90 warning: build failed, waiting for other jobs to finish...
+------
+error: failed to solve: executor failed running [/bin/sh -c cargo build -Z build-std=std,core,alloc,panic_abort,proc_macro --target riscv64ima-cartesi-linux-gnu.json --release]: exit code: 101","",""
+"640993117138321410","dawidnezo","20/09/2022 9:03 pm","Hi, you are trying to use unwrap() method on the None and this method is not implemented within this type.","",""
+"640993117138321410","dawidnezo","20/09/2022 9:06 pm","If I understand correctly this is the issue inside the library that you are trying to use so it might be hard to fix. I think I can test if I can build my project with this version of Ring.","",""
+"640993117138321410","dawidnezo","20/09/2022 9:52 pm","I can confirm that I have the same issue and it looks like there are needed environment variables","","👍 (1),🙌 (1)"
+"702619152312959126","fabio.oshiro","08/10/2022 3:28 am","Hi guys! Is it possible to run the echo-rust on mac m1?","",""
+"640993117138321410","dawidnezo","10/10/2022 8:12 pm","A few weeks ago I was able to run echo-rust on M1 but there was an issue with the docker image. If you have any error messages, please share, and maybe I will be able to help with your issue (I have instructions from Carlo).","",""
+"702619152312959126","fabio.oshiro","10/10/2022 11:16 pm","docker --version
+Docker version 20.10.17, build 100c701","https://cdn.discordapp.com/attachments/1001119663947780278/1029087479510335570/docker-buildx-error.txt",""
+"640993117138321410","dawidnezo","12/10/2022 7:26 pm","```
+------
+ > [console 4/4] RUN cargo build -Z build-std=std,core,alloc,panic_abort,proc_macro --target riscv64ima-cartesi-linux-gnu.json --release:
+#0 2.906     Updating crates.io index
+#0 136.2 Killed
+------
+ERROR: failed to solve: executor failed running [/bin/sh -c cargo build -Z build-std=std,core,alloc,panic_abort,proc_macro --target riscv64ima-cartesi-linux-gnu.json --release]: exit code: 137
+```
+Ok, so after investigation I found out that the toolchain version changed from 0.10.0 to 0.11.0 and I also have an issue with building that echo-rust example. But when I change to the last toolchain image which is built for M1 everything works fine as it should.","",""
+"640993117138321410","dawidnezo","12/10/2022 7:30 pm","This is the instruction that helped me:
+```
+$ git clone https://github.com/cartesi/image-toolchain.git
+$ cd image-toolchain
+$ git checkout v0.10.0
+$ make build TOOLCHAIN_TAG=0.10.0
+```
+I think that if you try to build the 0.11.0 version everything should work again. I will try to build that version in the future (I'm currently working on something else)","",""
+"615539144638070784","carlofragni","13/10/2022 2:45 am","@fabio.oshiro @wch-dawid-m | webchefs we have issues building the M1 toolchain images in the CI/CD as those need to use an emulator and are getting a timeout. If you build them locally, should have no issues.","",""
+"702619152312959126","fabio.oshiro","14/10/2022 8:43 am","Success! After a while, like 31 min...
+Tomorrow I will try the 0.11.0 version!","https://cdn.discordapp.com/attachments/1001119663947780278/1030317329701146674/image-toolchain-out.txt","🚀 (2)"
+"702619152312959126","fabio.oshiro","18/10/2022 3:45 am","Hi guys it works with 0.11.0","","🆒 (1),cartesiHeart (2)"
+"678489086314676224","eigendude","09/11/2022 10:33 am","@fabio.oshiro Did you ever figure out how to compile ring? I forked ring 0.6.20 and backported two patches that allow it be to compiled for RISC-V","",""
+"678489086314676224","eigendude","09/11/2022 10:34 am","You can use my fork by adding these arguments to your `cargo build` command:
+
+-Z unstable-options
+--config ""patch.crates-io.ring.git='https://github.com/juztamau5/ring'""
+--config ""patch.crates-io.ring.rev='534f2cebbeeb3457bda2d62f98b37592ad56e269'""","",""
+"678489086314676224","eigendude","09/11/2022 10:35 am","You also need
+```
+export TARGET_CC=riscv64-cartesi-linux-gnu-gcc
+export CRATE_CC_NO_DEFAULTS=1
+```","",""
+"678489086314676224","eigendude","09/11/2022 10:36 am","My full command to build rust-ipfs is:
+
+```
+# Note: A patched version of ring is required to support RISC-V
+# See https://github.com/briansmith/ring/pull/1506
+export RING_REPO=https://github.com/juztamau5/ring
+export RING_VERSION=534f2cebbeeb3457bda2d62f98b37592ad56e269
+export TARGET_CC=riscv64-cartesi-linux-gnu-gcc
+export CRATE_CC_NO_DEFAULTS=1
+cargo build \
+  -Z build-std=std,core,alloc,panic_abort,proc_macro \
+  --target riscv64ima-cartesi-linux-gnu.json \
+  --release \
+  -Z unstable-options \
+  --config ""patch.crates-io.ring.git='${RING_REPO}'"" \
+  --config ""patch.crates-io.ring.rev='${RING_VERSION}'""
+```","",""
+"702619152312959126","fabio.oshiro","14/11/2022 8:35 pm","@eigendude  thank you so much! In the end I solved it without needing the `ring`","","👍 (1)"
+"678489086314676224","eigendude","15/11/2022 5:20 am","Nice. I commented on the long running RISC-V PR, maybe a maintainer will care","",""
+"965581010685280286","lynofz","19/11/2022 6:19 pm","Hey @wch-dawid-m | webchefs 
+We managed to reproduce and test different approaches to add sqlite to rust.
+We recommend changing rusqlite default config to have libsqlite3 built locally (using CC).
+This way, diesel, which uses rusqlite underneath should be able to find libsqlite3 in the file system and access SQLite DBs normally.
+
+Attached a patch which adapts the echo-rust example to use SQLite","https://cdn.discordapp.com/attachments/1001119663947780278/1043508339600011324/0001-Build-libsqlite3-from-source-for-testing.patch.txt",""
+"640993117138321410","dawidnezo","21/11/2022 10:12 pm","I appreciate your help! Production mode is now working fine just fine but I encountered another problem, I made a follow-up here (but sadly it seems like it's hardware related):
+https://discord.com/channels/600597137524391947/1001118234327666728/1044283071354130543","",""
+"965581010685280286","lynofz","09/12/2022 8:47 am","Hey @wch-dawid-m | webchefs, regarding the voucher issue
+I'm continuing the conversation here because the problem that you encountered is specific to the rust implementation.
+Basically there was 2 issues. The first was about the amount of the voucher. which it should convert to uint256 from decimal string. Also, the value  was missing some zeros (9).
+The second was about the encoding of the voucher. Basically it was converting the byte array to string, then encoding to hex. but it should encode directly to hex.
+I've included a patch that should help you.","https://cdn.discordapp.com/attachments/1001119663947780278/1050612155533242398/voucherfix.patch","👍 (1)"
+"449777486142636062","marcelofeitoza","09/08/2023 7:51 am","how do I know whether a cargo package is supported by the cartesi machine or not?","",""
+"449777486142636062","marcelofeitoza","09/08/2023 7:52 am","Having problems with tensorflow, and also can't get to use onnx runtime for risc-v to work at all","",""
+"449777486142636062","marcelofeitoza","09/08/2023 7:52 am","looking for alternatives and I think I might be able to do it with rust","",""
+"734733577677176985","claudio.silva","11/08/2023 12:45 am","@marcelofeitoza take a look at this message: https://discord.com/channels/600597137524391947/813381014104571904/1108351152409559062
+Hope it helps you!","",""
+"702619152312959126","fabio.oshiro","22/08/2023 10:42 pm","[Resolved] Hi everyone, I'm attempting to compile my application, and I encountered the following error:
+```error: package `socket2 v0.5.3` cannot be built because it requires rustc 1.63 or newer, while the currently active rustc version is 1.62.0-nightly
+```","",""
+"702619152312959126","fabio.oshiro","22/08/2023 11:30 pm","I also attempted to use the 0.15.0 toolchain without success...","",""

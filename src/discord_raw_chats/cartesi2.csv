@@ -1,0 +1,368 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"299868239662678018","cilippofilia","29/07/2022 5:50 pm","Hello guys! My name is Filippo and  I went back to study SwiftUI after taking a gap year. Is there any sort of framework I can implement to take full advantages of both swift and Cartesi?","",""
+"886909209629835264","riseandshaheen","29/07/2022 6:34 pm","Hey @cilippofilia! Welcome! 
+In theory, you can develop front-end in any language including SwiftUI. The back-end logic however runs inside the Cartesi Machine, our VM based on RISC-V architecture. Hence, it is important to know that the language in question can be cross-compiled to RISC-V. It seems that it can be pulled off with Swift but not going to be an easy path!","","❤️ (1)"
+"886909209629835264","riseandshaheen","01/08/2022 7:48 pm","👋 ***Hello! Glad to see you here!***
+
+*Not sure where to begin your Cartesi Development journey? Check* https://cartesi.io/en/docs/build-dapps/overview/ *to get started.*
+
+This channel is meant to ease your beginner journey. Ask doubts/questions, connect with other fellow developers, get guidance from our team, pioneers and other devs. And, of course, have fun!
+
+*Let's push the boundaries together!* 🚀","","👏 (3),💯 (1),📌 (1)"
+"918940649183649813","_tads","25/09/2022 5:20 am","Lets definitely jump outside the comfort zone and master something new","","🤝 (1),🚀 (1),cartesiHeart (1)"
+"918940649183649813","_tads","26/09/2022 7:16 am","this im starting with, have a fresh copy of Ubuntu loaded, was going to run firefly but it will now be Cartesi Machine","","cartesiHeart (2)"
+"615539144638070784","carlofragni","26/09/2022 9:16 am","Awesome!","",""
+"446371966257987584","hashgoal","03/10/2022 10:12 am","i see result of execution are very slow more then few minutes it takes to show a result of execution on chain. is it normal for local hardhat node ?","",""
+"886909209629835264","riseandshaheen","03/10/2022 12:19 pm","Hello @hashgoal! Generally, it shouldn't take that long unless you have a really complex computation or could be some other issue. What are you trying to execute? A bit more details would help.","",""
+"446371966257987584","hashgoal","03/10/2022 12:58 pm","I am running dogecoin hash example from doc.","",""
+"886909209629835264","riseandshaheen","03/10/2022 1:50 pm","It computes proof of work hashes that indeed are computational heavy. It's a way for us to show that Cartesi Machine can perform such complex computations off-chain in a reproducible and verifiable manner. In case you see any other issue in the logs, DM me the full logs, I'll take a look!","",""
+"446371966257987584","hashgoal","04/10/2022 8:56 am","Well, other app i tried from doc takes same much time. Also that computation hash shouldn’t take a more then minute.","",""
+"446371966257987584","hashgoal","04/10/2022 8:56 am","How can i get full logs from docker?","",""
+"886909209629835264","riseandshaheen","04/10/2022 1:43 pm","I see. You can use `docker-compose logs` command and direct them to a text file. Could you DM me? Let's see how we can build your use-case/idea with Cartesi Rollups in a better way.","",""
+"886445282919841833","lukabloomrox","09/10/2022 10:42 am","Hello, first day on this server.  Can somebody help me compare/contrast Blockchain OS with Radix DLT ecosystem?  I'm trying to figure out where this project sits in the grand scheme.  Thanks.  Please note: Radix is a Distributed Ledger technology, not technically a blockchain technology, but does support EVM through the Notoros project.","",""
+"886445282919841833","lukabloomrox","09/10/2022 10:46 am","Also, there is an omission on the https://cartesi.io Technological Comparison page, EVM languages also include the Python-based Vyper language.","",""
+"886909209629835264","riseandshaheen","10/10/2022 1:19 pm","Hello and welcome @LukaBloomRox! As I gather from Radix's official site, it seems a base layer aiming to simplify building dapps around DeFi use-cases with a new high-level language based on Rust. I'm sure there are nuances to it that requires more research. 
+Our goal on the other hand is to provide a scalable rollups framework that uses underlying base layer blockchain for dispute resolution. We let developers pick the language of their choice and let their imagination run wild on use-cases/possibilities. Our linux enabled VM - the Cartesi Machine makes this possible.","",""
+"886909209629835264","riseandshaheen","10/10/2022 1:23 pm","Yes, Vyper does work with EVM. The message we're trying to convey is the flexibility you get when running DApps on a linux runtime.","",""
+"406262750470340619","divesh","18/10/2022 9:14 am","Is it possible to build native android applications using CTSI APIs ?","",""
+"406262750470340619","divesh","18/10/2022 9:14 am","Or ... Is it on the roadmap?","",""
+"886909209629835264","riseandshaheen","18/10/2022 12:39 pm","Hello Divesh! The front-end interacts with backend via simple http API calls but this would require a good developer tooling for mobile DApps. It's not in our current roadmap but this is something we encourage our community members to contribute. We're here to support you! 🙂","",""
+"615539144638070784","carlofragni","21/10/2022 8:49 pm","You can. You just need to use a web3 client of your choice, a graphql client of your choice and a HTTP client of your choice to interact with the interfaces of your DApp backend","",""
+"945762231143002133","p.i.p.o.","25/10/2022 11:06 pm","Hi, I’m trying to deploy a custom DApp in Goerli following the instructions of the Readme.md file that comes inside the folder created by ./create-dapp.sh. I managed to build the backend machine and to send the deployment transaction. Now, when I start the node running the command from
+`DAPP_NAME=Pipo-dapp docker compose -f ./docker-compose-testnet.yml -f ./docker-compose.override.yml up` , I can’t get it to finish setting up everything that I think it should do. That is, get a similar response to what I was getting when running an example dapp like echo-python. In my case, the `concurrent call in session` error keeps appearing. This is what I get in the log of the command that starts the node:
+
+````
+pipo-dapp-rollups_dispatcher-1      | Error: `start_session` request failed
+pipo-dapp-rollups_dispatcher-1      | 
+pipo-dapp-rollups_dispatcher-1      | Caused by:
+pipo-dapp-rollups_dispatcher-1      |     status: DeadlineExceeded, message: ""Deadline Exceeded"", details: [], metadata: MetadataMap { headers: {""content-type"": ""application/grpc""} }
+pipo-dapp-rollups_dispatcher-1 exited with code 1
+```
+````
+pipo-dapp-rollups_indexer-1         |  INFO indexer::data_service: Connecting for sync to server manager http://server_manager:5001
+pipo-dapp-rollups_indexer-1         |  INFO indexer::data_service: Trying to sync epoch status from server manager...
+pipo-dapp-rollups_indexer-1         |  INFO rollups_data::database: Trying to connect to database postgresql://postgres@database:5432/postgres
+pipo-dapp-rollups_indexer-1         | ERROR indexer::data_service: Failed to sync from server manager, details: Tonic status error: Status { code: Aborted, message: ""concurrent call in session (already locked by RPC StartSession from ipv4:172.21.0.6:54780 when attempted lock by RPC GetSessionStatus from ipv4:172.21.0.8:34288)"", metadata: MetadataMap { headers: {""content-type"": ""application/grpc""} }, source: None }
+```
+Any idea what I might be doing wrong? Thanks in advance!","",""
+"615539144638070784","carlofragni","26/10/2022 6:20 am","can you provide the full docker compose logs?","",""
+"945762231143002133","p.i.p.o.","26/10/2022 7:13 pm","Hi Carlo! As there are 7 different containers, I extracted each log separately and compressed them in this file. Please let me know if you prefer them in another way. Thanks for your help!","https://cdn.discordapp.com/attachments/1001118234327666728/1034824504293216317/pipo-dapp.zip",""
+"615539144638070784","carlofragni","26/10/2022 7:24 pm","From your logs, seems like you had an issue when building your server manager container. Checking the logs of it there is an error ""finish_error_yield_none"" from the start. 
+
+Since your logs don't have a hardhat container, I'm assuming you are trying to deploy on testnet. When deploying on testnet the 1st thing you should do is build the Cartesi Machine (as its hash is needed for deploying the DApp smart contract). You do this using the `docker buildx bake -f docker-bake.hcl -f docker-bake.override.hcl machine --load` command. Once the machine is built it's time to have the DApp Smart contract created. This is done by defining some environment variables with the parameters to connect to the blockchain, for example:
+```
+export NETWORK=goerli
+export MNEMONIC=<user sequence of twelve words>
+export RPC_URL=https://eth-goerli.alchemyapi.io/v2/<USER_KEY>
+```
+and then using the command to deploy the contract, for example: `DAPP_NAME=pipo docker compose -f ./deploy-testnet.yml up`
+
+At this point the next step is initializing your server manager container. When you initialize the server manager container, it boots the Cartesi Machine and provides a special input as the 1st input ever. This input contains the address of the own DApp, you should handle this in a way that makes sense to your application (store on a database, file, hashmap, etc) as you'll need it to validate inputs coming from the portal, for instance. After handling it, it's expected for your application to yield (by calling the /finish HTTP endpoint). The error you are getting suggests me that during this initialization process, your application did not successfully yield, probably because it crashed. Do take a look at the server manager initialization output as it prints the output of the Cartesi Machine booting and also the outcome (cartesi machine yield).","",""
+"945762231143002133","p.i.p.o.","26/10/2022 8:06 pm","Thanks! I'll take a look and let you know what happened","",""
+"945762231143002133","p.i.p.o.","26/10/2022 8:32 pm","I have started the process from the beginning just for being sure. Now, when I run `DAPP_NAME=pipo docker compose -f ./deploy-testnet.yml up`, I'm getting an UNPREDICTABLE_GAS_LIMIT by the pipo-dapp-deployer-1 container. I've seen this error before when trying to run the same command. Eventually, it passed. Is it possible to modify the gas_limit parameter from my side. Could this crash affect the execution of the remaining steps? 
+The cartesi machine container (pipo-dapp-machine-1) runs successfully.","",""
+"615539144638070784","carlofragni","26/10/2022 8:40 pm","It's common to get that error if the 1st account of the wallet specified in the MNEMONIC environment variable doesn't have enough funds to deploy the contract.","",""
+"945762231143002133","p.i.p.o.","26/10/2022 9:23 pm","Ok, it seems goerli's gas is pretty expensive at this moment… I’ll try later. Meanwhile trying to get some GoerliETHs. Thanks!","","👍 (1)"
+"945762231143002133","p.i.p.o.","27/10/2022 10:45 pm","Sorry for not being clear in my first post about the deployment on testnet! I just realized.
+
+I have gone through the README.md step by step, but at no point does it talk about building the server manager container. At least not separately. Is it not built when I run the validator node with the command 
+`DAPP_NAME=<example> docker compose -f ../docker-compose-testnet.yml -f ./docker-compose.override.yml up`? At least on the docker desktop, there is a container called server_manager-1. This is the container with the `concurrent call in session` error, apparently because of some RPC lock related issue. Another thing I realized is that the dispatcher container continuously restarts. It logs a ""start session request failed"" with a deadline exceeded msg. I think that is the server-manager container that also causes this...","",""
+"615539144638070784","carlofragni","28/10/2022 1:34 am","Can you send us the log of the cartesi machine creation? `docker buildx bake machine --load`
+Also the deploy log? `DAPP_NAME=pipo docker compose -f ./deploy-testnet.yml up`","",""
+"615539144638070784","carlofragni","28/10/2022 1:38 am","Also, sorry, my message had an error on the last part, you build the server manager in the 1st step, in the 3rd step you just initialize it when bringing the Cartesi node up.","",""
+"945762231143002133","p.i.p.o.","28/10/2022 7:20 pm","Here they are, hope it helps. Thx!","https://cdn.discordapp.com/attachments/1001118234327666728/1035551040298291270/pipo-dapp_2.zip",""
+"750178567744127117","bigchickenwin","29/10/2022 6:54 pm","It's better not posting any suspicious zip file here or suggest others to download. It's not safe practice.","",""
+"945762231143002133","p.i.p.o.","01/11/2022 11:55 pm","Hi Carlo, I was finally able to find out what the problem was. After doing a research of everything I could think of, I found that the problem is in the step when running the validator node of the dapp. I was using a MacBook Pro with M1 chip last week and I had no crashes due to this, just the logs I sent you. But then, what I did notice were some alerts/warnings in docker when running the validator with the AMD64 caption. I was investigating, and although there was nothing too suspicious, I finally decided to start all over again with a Linux laptop (Lenovo E495 Ubuntu 20.04LTS). It turned out that everything worked as expected and I was able to deploy, run the validator node and interact with the dapp from the frontend-cli. At some point, this AMD64 architecture conflict with the M1 is playing a dark role when running docker containers. I hope it can be useful for M1 users!","",""
+"406262750470340619","divesh","13/11/2022 9:29 pm","btw , The voucher link is broken","https://cdn.discordapp.com/attachments/1001118234327666728/1041381693237506208/Screenshot_2022-11-13_at_9.28.02_PM.png",""
+"886909209629835264","riseandshaheen","14/11/2022 10:50 am","Thanks for letting us know! This is the auction example readme, right?","",""
+"886909209629835264","riseandshaheen","14/11/2022 10:53 am","Adding the correct link here https://github.com/cartesi/rollups-examples/tree/main/frontend-console#validating-notices-and-executing-vouchers","",""
+"406262750470340619","divesh","15/11/2022 10:31 am","Yep. It was , thanks","","👍 (1)"
+"640993117138321410","dawidnezo","21/11/2022 9:38 pm","I can confirm that there I encountered the same situation with those errors:
+from backend-server_manager-1
+```shell
+Received GetSessionStatus for session default_rollups_id
+Throwing from server-manager.cpp:913 at new_GetSessionStatus_handler(handler_context&)::<lambda(boost::coroutines2::coroutine<side_effect>::push_type&)>
+Caught finish_error_yield_none concurrent call in session (already locked by RPC StartSession from ipv4:192.168.0.8:44716 when attempted lock by RPC GetSessionStatus from ipv4:192.168.0.9:44138)
+```
+from backend-rollups_dispatcher-1
+```shell
+Error: `start_session` request failed
+
+Caused by:
+    status: DeadlineExceeded, message: ""Deadline Exceeded"", details: [], metadata: MetadataMap { headers: {""content-type"": ""application/grpc""} }
+```
+from backend-rollups_indexer-1
+```shell
+ERROR indexer::data_service: Failed to sync from server manager, details: Tonic status error: Status { code: Aborted, message: ""concurrent call in session (already locked by RPC StartSession from ipv4:192.168.0.8:51158 when attempted lock by RPC GetSessionStatus from ipv4:192.168.0.9:33452)"", metadata: MetadataMap { headers: {""content-type"": ""application/grpc""} }, source: None }
+```","",""
+"965581010685280286","lynofz","25/11/2022 6:20 pm","Hey @wch-dawid-m | webchefs 
+Could you provide the full logs?
+Also, does it stabilize at some point and or it's never stabilizing?","",""
+"640993117138321410","dawidnezo","28/11/2022 1:07 pm","I didn't see any stabilization after waiting a while. I will send logs from every container as soon as possible, thanks.","",""
+"640993117138321410","dawidnezo","30/11/2022 1:27 am","Logs:","https://cdn.discordapp.com/attachments/1001118234327666728/1047239773569421312/backend-rollups_indexer-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239773959508008/backend-hardhat_set_interval-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239774366347355/backend-hardhat_stop_automine-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239774731243620/backend-deployer-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239775129718824/backend-rollups_inspect_server-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239775607861258/backend-server_manager-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239775972757615/backend-state_server-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239776337678426/backend-query_server-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239776702566452/backend-hardhat-1,https://cdn.discordapp.com/attachments/1001118234327666728/1047239777117818920/backend-database-1","👀 (1),👍 (1)"
+"640993117138321410","dawidnezo","30/11/2022 1:27 am","","https://cdn.discordapp.com/attachments/1001118234327666728/1047239800878547004/backend-rollups_dispatcher-1",""
+"640993117138321410","dawidnezo","06/12/2022 10:52 pm","In terms of those logs, I made an update to the 0.7.0 rollups in our dApp and everything started working on the computer with an ARM CPU. So I encourage the update @Pipo","","🙌 (1),👌 (3)"
+"885050815553884240","umarsaeed","04/01/2023 1:37 pm","Hi, I'm new here and on Cartesi as well.
+
+Can someone help me how to install catresi","",""
+"886909209629835264","riseandshaheen","04/01/2023 1:48 pm","We've got developer docs to walk you through the steps for installing and building DApps with Cartesi here https://docs.cartesi.io/
+One of our main product is Cartesi Rollups that uses Cartesi Machine for running the logic of the DApps in a deterministic and decentralized manner. The Cartesi Machine provides you a Linux runtime that you can leverage to build decentralized applications using the languages and libraries that you already know like Python, Rust, C++ etc. Once you start going through the docs I hope you understand it better. In case you feel stuck or face any doubts, do post them here!","",""
+"886909209629835264","riseandshaheen","04/01/2023 1:52 pm","Also, I'd recommend a workshop video here https://youtu.be/pbLhHbOc-m0 to get an overview on what, why and how to build with Cartesi!","",""
+"465383657520234496","srwizzu","02/02/2023 5:22 pm","Hello @Shaheen","",""
+"465383657520234496","srwizzu","02/02/2023 5:23 pm","I'm having this error at yarn start echo.js","https://cdn.discordapp.com/attachments/1001118234327666728/1070673218974785546/image.png",""
+"465383657520234496","srwizzu","02/02/2023 5:26 pm","","https://cdn.discordapp.com/attachments/1001118234327666728/1070673982552023060/image.png",""
+"465383657520234496","srwizzu","02/02/2023 5:26 pm","this is my package.json","",""
+"465383657520234496","srwizzu","02/02/2023 5:28 pm","I know the problem is the promise but I think it's maybe failing at the start script","",""
+"465383657520234496","srwizzu","02/02/2023 5:28 pm","I changed 127.0.0.1 with localhost but it's still failing","",""
+"886909209629835264","riseandshaheen","02/02/2023 8:06 pm","@srwizzu·.+ Do you have rollups environment running in the background? This backend server needs to communicate with the rollups!","",""
+"465383657520234496","srwizzu","02/02/2023 8:15 pm","Yes","",""
+"465383657520234496","srwizzu","02/02/2023 8:15 pm","","https://cdn.discordapp.com/attachments/1001118234327666728/1070716690213650482/image.png",""
+"465383657520234496","srwizzu","02/02/2023 8:17 pm","I don't have any problems with the front-end console","https://cdn.discordapp.com/attachments/1001118234327666728/1070717118108139580/image.png",""
+"886909209629835264","riseandshaheen","02/02/2023 8:22 pm","How did you generate these notices without the backend server not being able to run? Are you trying host mode or prod mode?","",""
+"465383657520234496","srwizzu","02/02/2023 8:24 pm","If you see the dapp.js when i write start, it's calling the development mode","https://cdn.discordapp.com/attachments/1001118234327666728/1070718954311524412/image.png",""
+"465383657520234496","srwizzu","02/02/2023 8:25 pm","How did you generate these notices without the backend server not being able to run? 
+I'm following the quickstart guide","",""
+"465383657520234496","srwizzu","02/02/2023 8:26 pm","","https://cdn.discordapp.com/attachments/1001118234327666728/1070719352107700424/image.png",""
+"465383657520234496","srwizzu","02/02/2023 8:26 pm","see, I have 3 terminals","",""
+"465383657520234496","srwizzu","02/02/2023 8:26 pm","there is one fo the front-end console","",""
+"465383657520234496","srwizzu","02/02/2023 8:27 pm","another one for the docker stuff","",""
+"465383657520234496","srwizzu","02/02/2023 8:27 pm","and the third one with the js dapp","",""
+"465383657520234496","srwizzu","02/02/2023 8:28 pm","oh, now I understand what you're asking me","",""
+"465383657520234496","srwizzu","02/02/2023 8:28 pm","I build the echo app","",""
+"465383657520234496","srwizzu","02/02/2023 8:28 pm","docker buildx bake --load","",""
+"465383657520234496","srwizzu","02/02/2023 8:28 pm","cd echo-js","",""
+"465383657520234496","srwizzu","02/02/2023 8:28 pm","like that","",""
+"465383657520234496","srwizzu","02/02/2023 8:29 pm","I step into echo-js and build","",""
+"465383657520234496","srwizzu","02/02/2023 8:30 pm","I followed this instructions, instead of using echo-python, I use echo-js","https://cdn.discordapp.com/attachments/1001118234327666728/1070720258773618748/image.png",""
+"465383657520234496","srwizzu","02/02/2023 8:30 pm","because I want to work with JS dapp","",""
+"886909209629835264","riseandshaheen","02/02/2023 8:33 pm","Ok! So when you build the DApp and run the environment with quick start guide, that is the production mode. And I'm assuming you've no issues sending input and generating notices in prod mode.","",""
+"886909209629835264","riseandshaheen","02/02/2023 8:33 pm","Your issue with backend is when you run it in host mode i.e. the dev mode you shared above!","",""
+"886909209629835264","riseandshaheen","02/02/2023 8:36 pm","The `yarn start` is to run the backend in host mode! I hope you understand the differences here, your rollups environment also changes for this mode and you need a different docker command to run the same!","",""
+"465383657520234496","srwizzu","02/02/2023 8:55 pm","ok I think i get it","",""
+"465383657520234496","srwizzu","02/02/2023 8:55 pm","so if i call yarn build I'll be in production mode","",""
+"886909209629835264","riseandshaheen","03/02/2023 1:49 pm","Not really! Production mode means that your backend code(here echo.js example)  runs inside the Cartesi Machine. Here's more on it https://docs.cartesi.io/build-dapps/overview/#production-mode
+In quick start page, below is the command that'd build the prod mode backend for you:
+```
+docker buildx bake --load
+```
+After this, you spin up your prod mode docker environment and use frontend-console application to interact with it. `yarn build` is to build that frontend console app. It remains same irrespective of host or prod mode.
+Did you face any errors in the Quick Start page? Please specify that line for me to check! This page only deals with production mode.","",""
+"465383657520234496","srwizzu","03/02/2023 4:25 pm","There is no error","",""
+"465383657520234496","srwizzu","03/02/2023 4:25 pm","","https://cdn.discordapp.com/attachments/1001118234327666728/1071021025451581542/image.png",""
+"465383657520234496","srwizzu","03/02/2023 4:25 pm","reading the quickstart guide","",""
+"465383657520234496","srwizzu","03/02/2023 4:25 pm","I changed echo-python with echo-js, that's the only difference","",""
+"465383657520234496","srwizzu","03/02/2023 4:26 pm","This is working too","https://cdn.discordapp.com/attachments/1001118234327666728/1071021286261792788/image.png",""
+"465383657520234496","srwizzu","03/02/2023 4:28 pm","","https://cdn.discordapp.com/attachments/1001118234327666728/1071021751292661770/image.png",""
+"465383657520234496","srwizzu","03/02/2023 4:28 pm","but when I send a payload","",""
+"465383657520234496","srwizzu","03/02/2023 4:29 pm","I doesn't appear to me in the notice list","",""
+"465383657520234496","srwizzu","03/02/2023 4:30 pm","it seems like I'm pointing to the wrong graphql","",""
+"465383657520234496","srwizzu","03/02/2023 4:31 pm","because when I send the payload it says ""input 2 epoch 0""","",""
+"465383657520234496","srwizzu","03/02/2023 4:31 pm","but in the list that already exist","",""
+"886909209629835264","riseandshaheen","03/02/2023 8:44 pm","From your input count it seems you restarted the docker environment but the graphql server didn't shut correctly. It is picking the previous session notices and not generating new! Could you gracefully close the docker environment and restart! Share the full docker logs, let's see how the backend behaves when you send input! I'm not able to reproduce this issue! The echo.js DApp is working fine for me so I need to see your docker logs!","",""
+"465383657520234496","srwizzu","03/02/2023 8:45 pm","ok I get it","",""
+"465383657520234496","srwizzu","03/02/2023 8:45 pm","let me see","",""
+"1056452127821664287",".olivia33","03/02/2023 9:19 pm","How to run c++ code on my computer","",""
+"886909209629835264","riseandshaheen","06/02/2023 1:20 pm","If you're looking to develop a DApp in c++, here's an example in our rollups-examples repo https://github.com/cartesi/rollups-examples/tree/main/echo-cpp
+
+You might wanna follow steps in docs to build this example. Instead of echo-python, you'll be building echo-cpp example  https://docs.cartesi.io/build-dapps/run-dapp/","",""
+"886909209629835264","riseandshaheen","06/02/2023 1:22 pm","Any luck with echoJS DApp?","",""
+"465383657520234496","srwizzu","06/02/2023 4:22 pm","Not yet","",""
+"465383657520234496","srwizzu","06/02/2023 4:23 pm","I tried to out what you said","",""
+"465383657520234496","srwizzu","06/02/2023 4:24 pm","and shut down the docker environment","",""
+"465383657520234496","srwizzu","06/02/2023 4:24 pm","but I didn't realise this","",""
+"465383657520234496","srwizzu","06/02/2023 4:26 pm","whe you use up, you use ""docker compose""","https://cdn.discordapp.com/attachments/1001118234327666728/1072108442598252656/image.png",""
+"465383657520234496","srwizzu","06/02/2023 4:27 pm","when you use ""down"", you also use ""docker-compose""","https://cdn.discordapp.com/attachments/1001118234327666728/1072108665827508275/image.png",""
+"465383657520234496","srwizzu","06/02/2023 4:27 pm","I'm new in docker too, but I think this are 2 different commands","",""
+"465383657520234496","srwizzu","06/02/2023 4:28 pm","so when I tried to shut down the docker environment I had this error telling me that I have to install docker-compose","",""
+"465383657520234496","srwizzu","06/02/2023 4:28 pm","so I did","",""
+"465383657520234496","srwizzu","06/02/2023 4:28 pm","and now when I try to docker buildx bake --load","",""
+"465383657520234496","srwizzu","06/02/2023 4:29 pm","I'm having this error","https://cdn.discordapp.com/attachments/1001118234327666728/1072109343459262504/image.png",""
+"465383657520234496","srwizzu","06/02/2023 4:30 pm","but it's not the --load problem, the problem is that docker doesn't recognise the buildx","",""
+"465383657520234496","srwizzu","06/02/2023 4:30 pm","I tried several things to make it work but I couldn't yet","",""
+"465383657520234496","srwizzu","06/02/2023 4:31 pm","now I'll try uninstalling docker and reinstalling again","",""
+"465383657520234496","srwizzu","06/02/2023 4:48 pm","it worked :cartesiHeartYellow:","",""
+"886909209629835264","riseandshaheen","07/02/2023 11:56 am","Good to hear that! Yeah the docker compose command does seem to be a bit confusing! `docker-compose`(with hyphen) is the older version as per Docker. Good to have this feedback, we can streamline it more in coming updates. 
+Also, if you think there's something critical missing from docs or anything else that can be improved, do let us know!","",""
+"465383657520234496","srwizzu","07/02/2023 5:01 pm","So what I want to do next is create a login page with Metamask, is that part of Cartesi Machine ?","",""
+"465383657520234496","srwizzu","07/02/2023 5:02 pm","I think developers needs beginner to advance tutorials to se how the technology works","",""
+"465383657520234496","srwizzu","07/02/2023 5:05 pm","https://github.com/cartesi/rollups-deployment/blob/main/README.md like this but with practical - theorical information","",""
+"465383657520234496","srwizzu","07/02/2023 5:05 pm","At least for me, it's hard to understand the concept with just theorical information","",""
+"465383657520234496","srwizzu","07/02/2023 5:06 pm","I'm coming from web2 so my first time with blockchain is Cartesi","","cartesiHeart (2)"
+"465383657520234496","srwizzu","07/02/2023 5:06 pm","that's my feedback 🙂","",""
+"886909209629835264","riseandshaheen","08/02/2023 11:13 am","Great! You're stepping into the front-end part now! Here's an example in the repo https://github.com/cartesi/rollups-examples/tree/main/frontend-echo
+It does the same thing that you were doing with the frontend-console but with a simple React web application. Here you can connect your Metamask wallet and sign transactions when you interact with backend. Front-end is not a part of Cartesi Machine so bear in mind all the logic that you'd like to keep decentralized resides in backend.","",""
+"886909209629835264","riseandshaheen","08/02/2023 11:35 am","We're in process to have such content for developers catering more towards practical side of things. Also I'd recommend you attend technical workshop on 14th Feb. We'll be diving into building DApps from scratch. 🙂","",""
+"465383657520234496","srwizzu","08/02/2023 4:22 pm","Nice !!","",""
+"465383657520234496","srwizzu","08/02/2023 4:23 pm","Thanks 😎","","🤝 (1)"
+"465383657520234496","srwizzu","15/02/2023 8:10 pm","https://discord.com/channels/600597137524391947/615801550501314563/1075376061698813952 -> in reply to this announcement, can we have the github to cave echo ?","",""
+"965581010685280286","lynofz","15/02/2023 8:15 pm","Do you mean the frontend echo (web interface)
+It's available on the rollups-examples repo
+https://github.com/cartesi/rollups-examples/tree/main/frontend-echo","",""
+"465383657520234496","srwizzu","15/02/2023 8:26 pm","oh I see ! I didn't know that repo exist 😆","",""
+"465383657520234496","srwizzu","15/02/2023 8:26 pm","I would use it some time ago 😆","",""
+"465383657520234496","srwizzu","15/02/2023 8:26 pm","thanks Lyno !","","👍 (1)"
+"419925691832991754","user2m","18/02/2023 6:36 am","I cloned the repo from echo-python quickstart, but I'm having some issues with the `docker buildx bake --load` command when I try and run it I get this error","https://cdn.discordapp.com/attachments/1001118234327666728/1076308705873756220/image.png",""
+"886909209629835264","riseandshaheen","20/02/2023 2:37 pm","Hey @user2m could you share which OS and docker version are you currently on?","",""
+"590575965449748520","Yochorl#5509","14/04/2023 2:20 am","hello, I was working on my laptop (Ubuntu 22.04) and everything went smoothly but now I'm in another computer using Ubuntu 20.04 as WSL and I can't run echo-python","https://cdn.discordapp.com/attachments/1001118234327666728/1096175608251301908/image.png",""
+"590575965449748520","Yochorl#5509","14/04/2023 2:21 am","That error code went for Docker bake command. Any recommendations? 🫡","",""
+"590575965449748520","Yochorl#5509","14/04/2023 3:08 am","for now just decided to use my other device, no problems 🙂","",""
+"886909209629835264","riseandshaheen","14/04/2023 5:55 pm","Hey @Yochorl this seems like a network issue. Are you able to connect with Github from the device that you're facing this issue?
+Test `ping -c 10 github.com` from your host machine.","",""
+"590575965449748520","Yochorl#5509","14/04/2023 6:53 pm","Sure, I was able to connect properly from other devices 😵‍💫","",""
+"268571938799091714","lyorrei","21/04/2023 6:32 am","I'm a full stack developer, with lots of experience with web3, solidity, ethers, etc and am looking to get into Cartesi
+Can you answer me some questions?
+I'll go by parts, increasing the complexity as I understand
+first, assuming I want to write an erc20 contract and mint X amount of coins to a wallet that is coming from a frontend through metamask, how do I do this with cartesi?
+Secondly, how do I retrieve how many coins a wallet has?
+Thank you in advance","",""
+"886909209629835264","riseandshaheen","21/04/2023 8:22 pm","Okay so, Cartesi is a rollup solution that means you can port assets(like erc20) from base layer ethereum to your rollup dApp. You can create a mintable erc20 contract on Ethereum and use the same contract coupled with your application logic inside Cartesi rollup. You can retrieve the coins of a dApp wallet by an `inspect` api call to the cartesi machine, it can generate a `report` stating the balance of the wallet in question. This will be a part of your application logic and you'll have to define it.
+Let me see if I can find an example to your specific case but for starters here's a basic erc20 example that you can refer https://github.com/cartesi/rollups-examples/tree/main/erc20","",""
+"268571938799091714","lyorrei","21/04/2023 8:33 pm","Thank you for your answer Shaheen!
+So that means that I still have to write a solidity contract and deploy it on the mainnet, but I can refer to it inside the Cartesi Machine and execute more complex algorithms right? For example, I can run an AI that returns how many coins should be minted based on an input that is coming from a frontend. Can you confirm me that?
+Other question, how can I execute the mint function of an ERC20 contract deployed in the mainnet from the cartesi machine?","",""
+"886909209629835264","riseandshaheen","23/04/2023 9:34 pm","Yeah, you refer to the contract on chain and execute more complex algorithms inside the cartesi machine. I'm not aware of the whole application that you're building, but what you mentioned can be possibly achieved.
+For the mint functionality, on-chain part, I believe the erc20 contract in question should be ""mintable"" type and you'll have to give minting rights to the rollup dapp address. Inside the Cartesi rollup backend of your dApp, you'll process the input with the AI/ML logic and then you'll have to make a `voucher` api call that will target our erc20 contract with payload as per your requirement. 
+Here's this auction dapp that has some features that will def help you. It has a basic wallet implemented for you to deposit, withdraw, transfer and get balance. https://github.com/cartesi/rollups-examples/tree/main/auction","",""
+"886909209629835264","riseandshaheen","23/04/2023 9:34 pm","@Lyo | Inteli Blockchain","",""
+"268571938799091714","lyorrei","24/04/2023 11:19 pm","Thank you so much @Shaheen","",""
+"268571938799091714","lyorrei","24/04/2023 11:20 pm","Gonna study this repository that you sent and if i have any questions i'll ask you!","","💪 (2)"
+"735012451199746063","bminerrr","27/04/2023 8:35 am","Experienced dev team here who would love to get involved in the Cartesi ecosystem. If anyone has a cool idea or is building something already and needs help, let's discuss overlap","",""
+"886909209629835264","riseandshaheen","27/04/2023 5:05 pm","Hey @Bminer! In case you're interested in pre-vetted ""Request for Proposals(RFPs)"" by Cartesi core contributors, do check out https://governance.cartesi.io/c/request-for-proposals-rfp/9 and let us know!","","🙌 (1)"
+"735012451199746063","bminerrr","28/04/2023 3:22 am","thank you! that's smart, love good incentives","",""
+"735012451199746063","bminerrr","28/04/2023 3:22 am","checking this out","","👍 (1)"
+"268571938799091714","lyorrei","30/04/2023 3:13 am","@Shaheen, I'm having problems running the backend in host mode. Do you have any tips?","",""
+"886909209629835264","riseandshaheen","01/05/2023 10:12 am","Hey Lyo! What problem are you facing exactly? Could you share screenshot or something?","",""
+"268571938799091714","lyorrei","01/05/2023 11:06 pm","Of course!
+When I follow the instructions on the newly created custom dapp readme using the custom-dapps I get the following error:","https://cdn.discordapp.com/attachments/1001118234327666728/1102649885896998942/image.png",""
+"268571938799091714","lyorrei","01/05/2023 11:07 pm","Here is a screenshot of my docker too:","https://cdn.discordapp.com/attachments/1001118234327666728/1102650003400433705/image.png",""
+"268571938799091714","lyorrei","01/05/2023 11:09 pm","I have tried using the port 5005, but still no luck:","https://cdn.discordapp.com/attachments/1001118234327666728/1102650474685010051/image.png",""
+"268571938799091714","lyorrei","01/05/2023 11:11 pm","When running the backend in host mode I can see all the logs in the terminal and make the server restarts automatically right?","",""
+"886909209629835264","riseandshaheen","02/05/2023 10:51 pm","Which docker command did you use to spin up the node? @Lyo | Inteli Blockchain
+I think it's not picking up the correct host server-manager docker image referenced in `docker-compose-host.yml` file. Could you turn down the containers and remove the volume by:
+```
+docker compose down -v
+```
+And then spin it up again using:
+```
+docker compose -f docker-compose.yml -f docker-compose.override.yml -f docker-compose-host.yml up
+```
+then run your local server again:
+```
+ROLLUP_HTTP_SERVER_URL=""http://127.0.0.1:5004"" python3 your-dapp.py
+```","",""
+"268571938799091714","lyorrei","03/05/2023 1:07 am","just docker compose up","",""
+"268571938799091714","lyorrei","03/05/2023 1:20 am","It worked now, thank you so much Shaheen!","","👍 (1)"
+"268571938799091714","lyorrei","03/05/2023 2:19 am","Is there any way that I can send an Image to the backend? I was thinking maybe using the Input Contract and sending the image bytecode so that I can access that inside the backend. This is important so that I can use the image as an input of an AI model that is running in the backend.","",""
+"268571938799091714","lyorrei","03/05/2023 2:20 am","Or is there any other way that I can send it directly?","",""
+"886909209629835264","riseandshaheen","03/05/2023 3:10 pm","No, there is no direct path. Inputs should be available on-chain. You'll have to use the `addInput` frontend api call that sends input data to the Input contract. Try compressing the image data before sending and then decompress inside your backend logic.","",""
+"1015201146249433088","Kicky#8617","13/05/2023 1:03 am","Trying to swap my coins from BEP20 to ETH. I tried using cross chain but seems to throw up an error. Any tips ?","",""
+"261264375342432256","0xlparra","15/05/2023 2:06 am","is it possible to use tensor flow in a cartesi machine?","",""
+"261264375342432256","0xlparra","15/05/2023 4:30 am","it seems I'm not able to install it with pip through requirements.txt","","👀 (1)"
+"886909209629835264","riseandshaheen","23/05/2023 10:35 am","How is the progress for you @lusca? I believe the tensor flow question was answered in #📜┃cartesi-rollups! Should you have any further question specific to Cartesi Machine, feel free to drop them in #💻┃cartesi-machine channel.","",""
+"828122927437316107","leongkh","17/06/2023 1:10 pm","Hi may i know which docker version we are using for ubuntu ?
+
+As ""docker compose -f ../docker-compose.yml -f ./docker-compose.override.yml up"" gives me 
+unknown shorthand flag: 'f' in -f","",""
+"828122927437316107","leongkh","17/06/2023 1:14 pm","my current docker version is 
+Docker version 20.10.18, build b40c2f6","",""
+"828122927437316107","leongkh","17/06/2023 1:42 pm","solved my own problem, missing docker-compose-plugin","","cartesiHeart (1)"
+"360939141749276673","gustavooooooooo","25/06/2023 10:07 pm","im a beginner and im a bit confused on what cartesi really is","",""
+"360939141749276673","gustavooooooooo","25/06/2023 10:08 pm","specially about cartesi rollups, cartesi machine, how they relate to eachother","",""
+"360939141749276673","gustavooooooooo","25/06/2023 10:09 pm","my knowledge on blockchain stuff is still pretty poor too ngl","",""
+"360939141749276673","gustavooooooooo","25/06/2023 10:11 pm","but could someone explain in simple terms for someone whos not familiar with dapps, smart contracts, solidity?","",""
+"360939141749276673","gustavooooooooo","25/06/2023 10:11 pm","ive been trying to read the intro but i still dont get it quite well","",""
+"886909209629835264","riseandshaheen","26/06/2023 11:06 am","Hey Gustavo! Welcome to the community! 
+Cartesi rollups is an infrastructure layer that allows you to run complex dApps without compromising the security of a base layer like Ethereum. This infrastructure has multiple components, for instance handling inputs, outputs, managing assets, dispute resolution etc. At the heart of it lies the Cartesi machine, which is where the core logic(backend) of your dapp runs. You may refer to it as the ""execution environment"" or the ""virtual machine"" of the Cartesi rollups. Say you build a game on Cartesi, your on-chain component will fetch the input from the user and the game logic/rules would run inside the Cartesi machine. 
+Hope that adds some clarity. I'd suggest to get your hands dirty, build something and each component will unfold in front of you.","","🚀 (1)"
+"886909209629835264","riseandshaheen","26/06/2023 11:06 am","@gustavo","",""
+"734733577677176985","claudio.silva","05/07/2023 12:21 am","Hi @gustavo ! The new documentation website is live and there is a dedicated section for beginners. Check it out! 😉","https://cdn.discordapp.com/attachments/1001118234327666728/1125861400229720084/image.png","🙏 (2)"
+"360939141749276673","gustavooooooooo","05/07/2023 9:09 am","thanks guys","",""
+"728642847355699283",".nomarch","07/07/2023 8:03 pm","Hey guys! Are the 0.9 docs fully updated? I was doing my first test rollups yesterday and today, was able to put my input, but the notice command, from QuickStart guide, doesn't work properly. This one:
+
+***yarn start notice list --url https://echo-python.goerli.rollups.staging.cartesi.io/graphql***
+
+As I understood it doesn't work because now you need to also specify input index. So adding --input *index int* kinda works, but I still wasn't able to read back, getting just empty square braces. **input send** command returns messages like ""input 3 added"". But when I try to reach it with notice command, adding  --index with same number, I'm getting **[]** empty returns. What am I missing here?
+
+UPD. well, it actually works without --index too, but results are still the same - empty square brackets","",""
+"728642847355699283",".nomarch","07/07/2023 9:10 pm","@Cláudio @Shaheen any advice to my question? 😅","",""
+"886909209629835264","riseandshaheen","07/07/2023 11:08 pm","graphql service for echo-python seems to be down. Try sending input to another example echo-cpp. 
+```
+yarn start input send --payload ""Hello, Cartesi"" --dapp echo-cpp
+```
+and then list notice
+```
+yarn start notice list --url https://echo-cpp.goerli.rollups.staging.cartesi.io/graphql
+```","",""
+"886909209629835264","riseandshaheen","07/07/2023 11:09 pm","Let us know if this works!","",""
+"728642847355699283",".nomarch","07/07/2023 11:19 pm","Ah, I see! 
+
+Thank you @Shaheen. Is there a place where I can check which services are down if something similar happens in future?","",""
+"728642847355699283",".nomarch","07/07/2023 11:32 pm","It is working, but **notice** always gives the same template response, which doesn't correlate with the phrase I put in **input** 
+
+Is that normal behavior? Since it is just a testing echo maybe it gives back only one templated payload back?
+
+I always get this ""payload"":""Hello, Cartzee 1."", unrelated to what I put in the input command","",""
+"886909209629835264","riseandshaheen","08/07/2023 1:25 am","What you send is what you get back as output in any echo dapp so there seems to be an issue here. Which `rollups-examples` version are you testing with?","",""
+"734733577677176985","claudio.silva","13/07/2023 1:39 am","Hey @Roman 🐅 , could you share which rollups-exampled version are you using?","",""
+"728642847355699283",".nomarch","24/07/2023 11:22 pm","@Shaheen @Cláudio 
+
+I've sent you more detailed info to DM, please check when you have time","","👀 (1),👍 (1)"
+"734733577677176985","claudio.silva","26/07/2023 1:27 am","Ok Roman!","",""
+"734733577677176985","claudio.silva","28/07/2023 1:28 am","Hey @Roman 🐅 , my colleague Shaheen will answer you asap.
+We are all laser focused on preparing the next version for Cartesi Rollups... 😅 
+Cheers!","",""
+"728642847355699283",".nomarch","28/07/2023 1:29 am","@Cláudio Yes, we already scheduled a quick call with him tomorrow 🙂 he reached me today","","❤️ (1)"
+"268571938799091714","lyorrei","03/08/2023 12:49 am","Hey @Shaheen, can you help me?
+I am trying to create a custom dapp following the custom-dapps readme in the rollups-example in my mac os. The application works fine when i run docker compose up. But when I try to run the backend in host mode it returns me the following error","https://cdn.discordapp.com/attachments/1001118234327666728/1136377647946006578/image.png",""
+"268571938799091714","lyorrei","03/08/2023 12:49 am","I used the command 
+docker compose -f docker-compose.yml -f docker-compose.override.yml -f docker-compose-host.yml up
+to run the backend in host mode","",""
+"886909209629835264","riseandshaheen","03/08/2023 3:03 pm","Hey @Lyo | Inteli Blockchain I reproduced it and facing the same result. Seems some issue specific to host mode as prod mode containers are running fine. 
+rollups-examples-0.15.1
+System: Apple Silicon M1 `Docker Engine 24.0.2`
+Tagging @Node Ref Unit @Prototyping & Support Unit for any guidance here! cc @Cláudio @tuler.eth","",""
+"268571938799091714","lyorrei","03/08/2023 7:15 pm","Ok! Please tag me when you have any return on this","",""
+"502606132855046165","lemos.26","04/08/2023 12:55 am","Hi @Lyo | Inteli Blockchain  and @Shaheen ! 
+I just put ""platform: linux/x86_64"" in each service into ""docker-compose.yml"", except the database's services, and it worked! I hope that it could help!","",""
+"268571938799091714","lyorrei","04/08/2023 4:14 pm","Good morning!
+
+Hello @Shaheen ! Could you guide me on how to create a smart contract and set it up to be automatically deployed to the network when I execute the 'docker compose up' command in a custom DApp? 
+After this, how do I interact with the smart contract similar to what is made in frontend-console and automatically trigger the handle_advance and handle_inspect functions on my backend?","",""
+"886909209629835264","riseandshaheen","04/08/2023 7:01 pm","Hey @Lyo | Inteli Blockchain! Nico recently prepared a step-by-step guide to create a custom dapp - to be added in docs. You could be the first one to follow and give us feedback on this! 
+
+@NicoS is the custom-dapp PR merged?","",""
+"886909209629835264","riseandshaheen","04/08/2023 7:02 pm","Thanks for sharing! Could be a good workaround for now till we see some resolve!","",""
+"268571938799091714","lyorrei","04/08/2023 7:28 pm","Sure. I'll be glad to help!","","🙏 (2)"
+"1105048860356775986","nicos6357","04/08/2023 9:03 pm","Hi @Lyo | Inteli Blockchain , @Shaheen , we haven't merged it yet, but @Lyo | Inteli Blockchain , it'de be great if you could follow the steps here to test it out - https://github.com/cartesi/docs/pull/66/files","",""
+"268571938799091714","lyorrei","04/08/2023 11:05 pm","If I understood correctly, we are no longer supposed to use the .sh file from the custom-dapp folder to create a new DApp. Instead, it's more advisable to take an existing one and adapt it to our needs, right?","",""
+"268571938799091714","lyorrei","04/08/2023 11:05 pm","@NicoS","",""
+"1105048860356775986","nicos6357","04/08/2023 11:06 pm","Hi @Lyo | Inteli Blockchain , the script is being refurbrished at the moment, as it was not working correctly with the new build system. So it's currently more advisable to customise an existing DApp. Once the script is fixed, the preferred way would be using the script indeed.","",""
+"1105048860356775986","nicos6357","04/08/2023 11:07 pm","Btw, we have just published these instructions so you can see them on https://docs.cartesi.io/cartesi-rollups/build-dapps/create-dapp/","",""
+"268571938799091714","lyorrei","04/08/2023 11:07 pm","Ok!","",""
+"817411381992095795","victor.yves","05/08/2023 12:28 am","@Lyo | Inteli Blockchain  you're getting this error because there isn't an arm64 version of the host-server-manager:0.9.1 image, it will only be available in the next rollups-examples release. Meanwhile, adding  `platform: linux/x86_64` to the server_manager service in the docker-compose-host.yml file should work 😉","","✅ (2)"
+"268571938799091714","lyorrei","05/08/2023 10:51 pm","Hello @NicoS, one aspect that I believe is not adequately explained in the documentation is the process of developing a custom dApp, but not within the confines of the rollups-examples folder. How this can be accomplished in a different repository, for instance.","",""
+"268571938799091714","lyorrei","06/08/2023 10:57 pm","Hello guys, can you assist me? I'd like to understand if it's feasible to transfer Ether from my backend running on the Cartesi Machine. I was considering the possibility of the user sending Ether to a contract that Cartesi owns. Later on, when the time comes, the Ether would be transferred from this contract to a specific wallet. Maybe by a voucher transaction. Could you guide me on how to execute this process?","",""
+"886909209629835264","riseandshaheen","07/08/2023 1:03 pm","Hey Lyo! Yes, you can deposit and withdraw assets(ether, erc20, erc721 etc) to and from Cartesi dapps.
+You can use portal smart contract function `depositEther` to send ether from front-end to the Cartesi DApp. Depending on your back-end logic and conditions to withdraw, you can create a `voucher`.
+Please refer to this frontend example dapp, it has multiple features including deposit and withdrawals, will help you to build front-end part. https://github.com/prototyp3-dev/frontend-web-cartesi/blob/54cc41ac3592078197e5d56c528ae4d7db4a7a44/src/Input.tsx#L68
+
+For back-end you may refer to this https://github.com/prototyp3-dev/echo-plus/blob/main/dapp/echo-plus.py There are no special conditions to voucher creation, it simply transfers the assets back to the depositor hence the name ""echo"". You can modify it. Note: This backend is built on rollups-0.8, so I'd suggest using the correct method names for rollups-0.9. Here's a breaking change guide https://docs.cartesi.io/cartesi-rollups/migration-guides/from-08-to-09/","",""
+"268571938799091714","lyorrei","07/08/2023 4:40 pm","Thank you so much @Shaheen !","",""
+"1105048860356775986","nicos6357","07/08/2023 6:09 pm","Hi @Lyo | Inteli Blockchain , we strongly advise to clone the repository as the first step for the current customisation process. Once the .sh script has been fixed, you will be able to only create a DApp that you need, thus avoiding cloning examples you don't (as per the current process). So, for now I would say, you have to actually clone the examples repository.","",""
+"734733577677176985","claudio.silva","07/08/2023 6:21 pm","Hi @Lyo | Inteli Blockchain @NicoS @Shaheen , the custom dapp template script is working well since you have the correct version for `docker buildx`.
+Please check: https://github.com/cartesi/rollups-examples/issues/31
+Cheers","",""
+"1105048860356775986","nicos6357","07/08/2023 6:59 pm","Hi @Cláudio , there is a caveat here unfortunately. The current script only builds a DApp with the **old build system**. So, if you want to build a DApp with the new build system, you'll have to clone the repo (for now) as we advise using the new build system. The refurbished script will enable you to build a DApp with the new build system though (cc @Felipe Grael @lyno )","",""
+"734733577677176985","claudio.silva","07/08/2023 7:46 pm","Thanks for the clarification @NicoS !
+Just for alignment, @lyno and @Felipe Grael are you going to work on the refurbished script that will enable to build a DApp with the new build system though?
+
+(cc @Milton ) Since Sunodo 0.7 is coming, maybe it does not make sense to apply effort on it. Except if we need to use it and/or the effort is not significative before Sunodo 0.7.
+
+Please let me know your thoughts on that.","",""
+"728012210793873510","milton.jonathan","07/08/2023 8:14 pm","I think Sunodo is the way to go in general, but it does **not **support host mode.","",""
+"1105048860356775986","nicos6357","07/08/2023 8:45 pm","I believe a PR from @lyno  is in review for this, @Cláudio","",""
+"840821519298723840","jjhbktal","17/08/2023 8:59 am","What is the goto repository for a fully compatible boilerplate code for building a custom DApp using the latest rollups?","",""
+"593468434516279296","gabrielbarros1596","18/08/2023 6:52 pm","I'd still go with `rollups-examples`, mostly because of the lack of *host-mode* support in Sunodo; soon, however, I wouldn't go beyond just using Sunodo.","",""
+"593468434516279296","gabrielbarros1596","28/08/2023 4:36 pm","New resource for the new developers‼️  Awesome-cartesi  https://github.com/gbarros/awesome-cartesi
+I hope this can guide you in learning and using Cartesi!","","🔥 (7)"
+"730468340476411945","cynthiaro","14/09/2023 8:31 pm","@everyoneCreating your first Cartesi DApp can seem intimidating at first. Luckily, one of our amazing community members has just the right read for you! Check out @Eric's blogpost on creating your first Cartesi DApp https://ericks360.medium.com/how-to-create-your-first-cartesi-dapp-8576a11dde3c","","📄 (6),Cartesi (9),🛠️ (3)"

@@ -1,0 +1,584 @@
+undefined
+undefined says The Safe core contributors team is relatively small, and we cannot keep up with the volume of developer questions we receive using a chat model. For this reason, we decided to move our developer support to Ethereum Stack Exchange.
+By doing this, we will create a knowledge base for Safe products and developer tools, indexed by search engines, making life easier for developers who will build on top of the Safe protocol in the future!
+
+**Please post your question here -**
+https://ethereum.stackexchange.com/questions/tagged/gnosis-safe
+Please be as detailed as possible and don’t forget to add `gnosis-safe` tag to your question 🙏 StackOverflow’s guide to asking a good question may be helpful:
+https://stackoverflow.com/help/how-to-ask
+
+**Types of dev support questions and where to ask:**
+- How do I? -- Ask in Stack Exchange with `gnosis-safe` tag
+- I got this error, why? -- Ask in Stack Exchange with `gnosis-safe` tag
+- I got this error and I’m sure it’s a bug -- file an issue in the relevant Github repo within https://github.com/safe-global
+- I have an idea/request -- file an issue in the relevant Github repo within https://github.com/safe-global
+- Why do you? -- discuss this in relevant Discord channel
+- Wen will you? -- same as Why do you
+
+Stay Safe out there 🔐
+undefined
+undefined says Guys you need to see this
+undefined says @Deleted User
+undefined says Can i get some help pls
+undefined says eth:0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7
+undefined says Scammer gnosis address, took alot from not just me
+undefined says I know you you guys prob cant do much but you could prob not give him the airdrop maybe idk 🤷‍♀️
+undefined says You can literally see the scam tokens if u follow the tx from the link 😂
+undefined says This is our demo safe, how did they scam you?
+undefined says Oh sorry it wasnt from u guys at all,
+undefined says Theyre simply just using ur platform because it apparenlty is the best 😊
+undefined says https://bscscan.com/token/0x0ec76648de2CfbCb0eeC07beA0016e558CD66764
+undefined says received this airdrop in my gnosis wallet, seems scammy
+undefined says @Gnosis Dao Community/MOD
+undefined says I got this URL from someone
+undefined says https://gnosis-safe.roninchain.com/#/welcome
+undefined says is this a scam?
+undefined says This is not deployed by the Gnosis Safe team. Please check with Ronin team.
+undefined says Not a scam, but this Safe version is maintained by the Ronin chain team and not by the Safe team
+undefined says so it's an unofficial deployment
+undefined says Got it.
+undefined says Is the gnosis UI now having ppl sign eth raw messages?
+undefined says Cause the UI is trying to get me to sign this: https://i.imgur.com/L99EWqU.png
+undefined says Not familiar enough with Linux UI (assuming that's where it's from, based on UI), but that's a window popup, not a Metamask extension popup
+undefined says We figured it out. Its having us sign the safetxhash
+undefined says It really shouldn't be doing raw signatures though. Very sketchy
+undefined says Does Firefox on Linux put Metamask into a modal window, though?
+undefined says Yeah it does
+undefined says Brave on manjaro
+undefined says Okay then. That set off more alarm bells than the signature request, actually 😬 On Win/Mac, the popup doesn't have the window chrome
+undefined says it looks like lattice doesn't support eth_signTypedData
+undefined says we try signing with eth_signTypedData, eth_sign, on-chain approval
+undefined says in that order
+undefined says It actually does. The bug happened I think because my lattice disconnected
+undefined says unfortunately we don't know what methods a wallet supports
+undefined says However it always happens to trezor cause they don't support EIP-712
+undefined says My concern was that it appeared to be using an eth raw signature which is somewhat unsafe
+undefined says versus the other sig that prepends the ETH SIGNED DATA thing
+undefined says 
+undefined says @Deleted User
+undefined says management__desk✅#6010
+undefined says @Deleted User
+undefined says @Deleted User
+undefined says Hi guys, got hijacked in a multi sig account, is it impossible to recover the funds?
+undefined says Funds sent to another address will be irreversible thus no chance to recover. If one of your owner addresses is compromised please remove or replace it immediately.
+undefined says we did a multi sig with gnosis safe with 2 owners, so probably impossible to recover
+undefined says damn but, 2 people hijacked together?
+undefined says btw not sure if this is the right channel to report these kind of scams, but scam airdrops appear in my safe:
+undefined says 
+undefined says https://polygonscan.com/address/0x9E2d266D6c90F6C0D80a88159b15958f7135B8Af
+undefined says @Mitchy is a scammer, watch out
+undefined says Hi, can you share a screenshot of the conversation please?
+undefined says he deleted his messages before I could sc
+undefined says furthermore he periodically changes his user name
+undefined says reason he deleted is because I called him out on chat, I should've screenshotted before in hindsight
+undefined says his usernname is khalid now but it was rose before
+undefined says ^
+undefined says Hey guys my safe has been compromised
+undefined says Got 6k usd sitting there I can't access
+undefined says Please click on the chat icon at the bottom right part of this site https://gnosis-safe.io/app/welcome for support/help.
+undefined says The lady there was no help I was hoping a dev could do something
+undefined says Found your ticket. I believe they were able to explain to you why you are now locked out from your safe. Im sorry but if one of the owners does not confirm/sign transactions nothing can be executed and your funds will be stuck in the safe forever. 😢
+undefined says Just in case someone already did, DO NOT accept help in direct messages, they are all scammers.
+undefined says Hey I have a new issue
+undefined says The guy has replied but the wallet seems to be having a technical issue with the Execute feature
+undefined says Please use the chat feature here https://gnosis-safe.io/app/welcome for support/help.
+undefined says My bad. Thank you
+undefined says I'm seeing apecoin scams in my gnosis wallets. Also seeing a coin scam that actually increased the value of my safe.
+undefined says Hi, I've reported this to the team.
+undefined says Cool. Just want to let people know here as well.
+undefined says They have added more than a few hundred thousand to liquidity. That’s why maybe? So, either the scammers or the market has created a market value for this coin.
+undefined says Why is my gas charged repeatedly?
+undefined says all confirmed
+undefined says Most likely you did multiple confirmations. Please use the chat support feature on the site here https://gnosis-safe.io/app/welcome for help/support.
+Bottom right chat icon.
+undefined says hi，I was doing a rabbit hole quest and asked to create 2 signers, I added 4, then I removed 2 is it still possible to complete the quest
+undefined says you would have to ask the rabbithole team directly. We don't manage this quest.
+undefined says where can i currently stake my tokens to be eligible for the Safe airdrop?
+undefined says Suspicious SAFE token transaction. https://etherscan.io/tx/0x41ace89b8a97ca335525f4942dac667a1fc15c150dcb0289efd145896595ef2a.  Being airdropped to hundreds of accounts.
+undefined says How many addresses to transfer coins to say why the acceptance address is invalid?
+undefined says Hi there. Please open a ticket via the chat icon on the Gnosis Safe web app here https://gnosis-safe.io/app/welcome or reach out via Gnosis Safe DM on Twitter https://twitter.com/gnosisSafe
+undefined says I successfully submitted the hash for creating the safe box, but the system displayed an error because the gas was low. I repeated the submission twice, and now the original page still shows an error. When I reopen the safe box, the safe box creation is always in the loading state. . what should i do now
+undefined says 
+undefined says Hi there, for general support questions/queries, please use the dedicated Intercom service via mobile app in Settings >>> chat, the chat icon on the Gnosis Safe web app here https://gnosis-safe.io/app/welcome or reach out via Gnosis Safe DM on Twitter https://twitter.com/gnosisSafe.
+undefined says I see that the mobile terminal seems to only display ios, but I am using android
+undefined says I want to add a safe administrator, but I have been in this interface, I don't know how to confirm, can someone help me? I've tried too many times
+undefined says Can someone help me?
+undefined says @undoubted08 | serv.ethCan someone help me?
+undefined says @Micah | serv.eth@Dirk Jäckel@Mouaz Alzahabi@undoubted08 | serv.ethCan someone help me?
+undefined says Hi, please do not tag people here. For general support questions/queries, please use the dedicated Intercom service via mobile app in Settings >>> chat, the chat icon on the Gnosis Safe web app here https://gnosis-safe.io/app/welcome or reach out via Gnosis Safe DM on Twitter https://twitter.com/gnosisSafe.
+undefined says 
+undefined says D’z nuts
+undefined says ‼️ Gnosis safe Team and support members will **NEVER DM** you first and never ask for your information or send you links to "fix" your account. Always be suspicious of anyone reaching out to you in private. 
+
+⚠️ **DO NOT** share your seed phrases or private keys to anyone and **DO NOT** paste it in any website!
+undefined says Damn so close
+undefined says Nice one mate
+undefined says I want to update the metadata of a contract via Thirdweb, but the mobile app warns that 'please import safe owner key to initiate WalletConnect transactions'——I‘m pretty sure the key has been created beforehand.
+undefined says btw, the safe confirmation threshold is 1 out of 3, can anybody help me?
+undefined says 
+undefined says For general support questions/queries, please use the dedicated Intercom service via the chat icon on the Gnosis Safe web app here https://gnosis-safe.io/app/welcome or reach out via Gnosis Safe DM on Twitter https://twitter.com/gnosisSafe
+undefined says this phishin site is advertising on google https://gonsis-safe.info/
+undefined says ok
+undefined says oh
+undefined says 961078044418789447
+undefined says 
+undefined says please ban , scammers as support
+Khafildah#4661
+undefined says ok
+undefined says Greetings... quick thing about any URLs shared by scammers
+undefined says https://safebrowsing.google.com/
+undefined says Please REPORT them to Google Safe Browsing, which will result in immediate blacklisting on Firefox, Chrome and all other major browsers. The reporting links are at the bottom of the page / scroll down.
+undefined says @Deleted User
+undefined says from @[Fierce] GameBG in DMs
+undefined says from @ikon? in DMs
+undefined says 993118443974959154
+undefined says @Izaiah
+undefined says @Chocoprin
+undefined says @-van
+undefined says @diploma
+undefined says @Derrick You guys should look into beemo bot, its free and keeps most of these scammers out. Every scam message I have had in the last month or so has been from here.
+undefined says @Mauripkill banned 🔨
+undefined says Came across this phishing site today. Was the third listed search for “Gnosis Safe” on DuckDuckGo. Home page is identical to gnosis-safe.io but when you click on any link it asks you for your seed phrase
+undefined says 
+undefined says @𝑬𝒏𝒔𝒐 𝑭𝒊𝒏𝒂𝒏𝒄𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says 
+undefined says Discord ID 975744102085849178
+undefined says @Masmelao
+undefined says 𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔#1775
+undefined says ‼️ There's NO AIRDROP. Gnosis Safe Team and support members will **NEVER DM** you first and never ask for your information or send you links to "fix" your account. Always be suspicious of anyone reaching out to you in private. 
+
+⚠️ **DO NOT** share your seed phrases or private keys to anyone and **DO NOT** paste it in any website!
+undefined says @𝐎𝐨𝐤𝐞𝐞𝐧𝐠𝐚® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says 
+undefined says @𝑨𝒖𝒓𝒂 𝑵𝒆𝒕𝒘𝒐𝒓𝒌®
+undefined says Now it's Safe Community Whitelist
+undefined says 𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says Please also report them as spam in Discord. Hopefully it would help lessen these spams in the future. 
+
+‼️ **There's NO AIRDROP.** Gnosis Safe Team and support members will **NEVER DM** you first and never ask for your information or send you links to "fix" your account. Always be suspicious of anyone reaching out to you in private. 
+
+**⚠️ DO NOT share your seed phrases or private keys to anyone and DO NOT paste it in any website!**
+undefined says 
+undefined says 𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔#7296
+undefined says I cant @ it
+undefined says Copy the user ID here
+undefined says nvm, managed to ban him, thanks!
+undefined says do i get the tokens anyway? :kek:
+undefined says Did you click anything on that message? Or if you are referring to the legit airdrop, we'll have to wait for the #announcements
+undefined says i was joking but thanks for the alpha!
+undefined says Now 𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕#2851     user ID 974015784571514900   I will report as spam
+undefined says @𝑰𝒏𝑺𝒊𝒍𝒊𝒄𝒐 𝑻𝒓𝒂𝒅𝒊𝒏𝒈®
+undefined says For sure, always try to
+undefined says 
+undefined says pls ban
+974672845684748368
+undefined says @Deleted User
+undefined says DM scam
+undefined says Just got a dm
+undefined says 𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓#3784
+undefined says 
+undefined says @𝑰𝒏𝑺𝒊𝒍𝒊𝒄𝒐 𝑻𝒓𝒂𝒅𝒊𝒏𝒈®
+undefined says @𝑨𝒙𝒆𝒔 𝑴𝒆𝒕𝒂𝒗𝒆𝒓𝒔𝒆®
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝐓𝐨𝐤𝐞𝐧𝐩𝐫𝐨𝐨𝐟® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑨𝒏𝒐𝒎𝒂®
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑴𝒂𝒏𝒈𝒂𝒕𝒂 𝑭𝒊𝒏𝒂𝒏𝒄𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝒂𝒎𝒆𝒓𝑮𝒂𝒊𝒏𝒔® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝑨𝑮𝑨𝑹𝑰𝑵® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says 
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆®
+undefined says @Gabriel | Meeps
+undefined says @𝐎𝐨𝐤𝐞𝐞𝐧𝐠𝐚® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑩𝒍𝒂𝒔𝒕 𝑹𝒐𝒚𝒂𝒍𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝐀𝐬𝐡𝐰𝐚𝐫𝐝® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @𝑮𝒏𝒐𝒔𝒊𝒔 𝑺𝒂𝒇𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑰𝒈𝒖𝑽𝒆𝒓𝒔𝒆®
+undefined says @𝑪𝒐𝒔𝒎𝒊𝒄 𝑮𝒖𝒊𝒍𝒅® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®
+undefined says @Theresa | Meeps
+undefined says @Kay | YGPZ
+undefined says @Kate | HolyVerse
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®  𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑴𝒂𝒈𝒊𝒄 𝑺𝒒𝒖𝒂𝒓𝒆® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @𝑴𝒂𝒈𝒊𝒄 𝑺𝒒𝒖𝒂𝒓𝒆® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @Manny | Triverse
+undefined says @𝑬𝒏𝒔𝒐 𝑭𝒊𝒏𝒂𝒏𝒄𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑩𝒍𝒂𝒔𝒕 𝑹𝒐𝒚𝒂𝒍𝒆® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®  𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝑺𝒍𝒊𝒄𝒌𝒆𝒓 𝑪𝒂𝒕𝒔® 𝑨𝑵𝑵𝑶𝑼𝑵𝑪𝑬𝑴𝑬𝑵𝑻𝑺
+undefined says @𝑺𝒍𝒊𝒄𝒌𝒆𝒓 𝑪𝒂𝒕𝒔®
+undefined says @𝑮𝒓𝒂𝒗𝒊𝒔𝒉𝒊𝒑® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @Cradles® 𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says holy shit lol
+undefined says 
+undefined says cockroaches @Safe Team
+undefined says @Deleted User
+undefined says @Deleted User
+undefined says @Deleted User
+undefined says @Deleted User 4d49d351
+undefined says @Deleted User 58331aa1
+undefined says @Deleted User 58331aa1
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®  𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝐌𝐞𝐭𝐚𝐎𝐚𝐬𝐢𝐬® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚®  𝑨𝒏𝒏𝒐𝒖𝒏𝒄𝒆𝒎𝒆𝒏𝒕𝒔
+undefined says @𝐓𝐨𝐤𝐢 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+undefined says @Alexander BR
+undefined says @Deleted User 0dfc7430
+undefined says @Deleted User 2ba16a84
+undefined says @𝑺𝒂𝒇𝒆 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @𝐓𝐨𝐤𝐢 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞® 𝑹𝒆𝒎𝒊𝒏𝒅𝒆𝒓
+@Deleted User 58331aa1
+@Deleted User 4d49d351
+undefined says @𝐌𝐞𝐭𝐚𝐎𝐚𝐬𝐢𝐬® 𝑾𝒉𝒊𝒕𝒆𝒍𝒊𝒔𝒕
+undefined says @sixky11
+undefined says 
+undefined says How do we go about filtering out scam tokens from being listed in the "assets" in a gnosis safe?
+undefined says It's not possible at the moment. This feedback has been forwarded to the team already
+undefined says It's super annoying
+undefined says Glad I'm not the only one that's reported it.
+undefined says Yeah, it is 😬
+undefined says As a suggestion, it seems that it should be reasonable to have a toggle for "hide ERC20 assets without verified contract source code" or something like that.
+undefined says That would actually cover 80% of the scam / spam tokens in my safe
+undefined says Hi there, yeah, it is already being considered for development: https://github.com/gnosis/safe-react/issues/3362
+undefined says 
+undefined says 🔨
+undefined says @Tomek
+undefined says scam?
+undefined says Hi there, `@KristinaMayman#8123` is part of the Gnosis safe team.
+undefined says hey
+undefined says i want a token of our safe not to be shown, how i can do that
+undefined says https://etherscan.io/address/0x106EebF11F34ECCcaD59c1CA9398d828765f64f8
+undefined says that one
+undefined says Hi. There is no option in the safe to hide tokens yet. A feature request for this has already been submitted to the team I believe.
+undefined says Hi all. Just a heads-up that the team behind a blockchain known as "candle" or Candle Labs have been soliciting work from consultants (in regards to Gnosis-related development) through this server, under various names (Sam Walker, walkerranger on Telegram), and are performing wage theft. We have had more than $2k in wages stolen, and other people outside our team have similarly reported wage theft. Be careful!
+undefined says Indeed, the Candle CEO that reached to me goes by the name @walker in this server
+undefined says I also confirm @dionyziz’s report. @walker also solicited work from my side for Gnosis related development and didn’t pay according to our signed contract.
+undefined says Hi, please share a screenshot of the conversation. We can only report server members that you have conversations with in Discord.
+undefined says 
+undefined says Lol. You guys didn’t do any work. The PR was never merged, the code was sloppy, and you wanted $40,000+ when anyone could’ve done it in an hour.
+undefined says We can only ban users that are obviously scamming. e.g. asking for seed phrases, private keys or sending links that would ask for those, etc
+undefined says Is this obvious enough?
+undefined says We'll leave the decision to the devs about this.
+undefined says I mean that’s legal
+undefined says Sam, you said you made a payment and you haven't.
+undefined says This was an outright lie.
+undefined says There was also no expression that you were unhappy with our work, you just left the chat after we asked for a receipt.
+undefined says Come on now 🙂
+undefined says @Deleted User
+@BILA|| DEV🌀✨
+undefined says 
+undefined says 
+undefined says @Officials
+@Deleted User
+@Deleted User
+@Deleted User
+undefined says This is scam too, right?
+undefined says 
+undefined says Yes. Please block and report them. Safe team and support members will never DM you first.
+undefined says @Deleted User
+@Safe Announces
+undefined says 
+undefined says @Deleted User ❌
+undefined says @Deleted User
+@Deleted User
+undefined says Scammer alert
+undefined says Please block and report them. Safe team and support members will never DM you first.
+undefined says Thanks
+undefined says @lineout
+undefined says 
+undefined says Officials#6477
+undefined says 
+undefined says `Notification#0975`
+undefined says it seems a lot of bots are in here.
+undefined says Please block and report them. Safe team and support members will never DM you first.
+undefined says 
+undefined says @luxide is a scammer
+undefined says Thank you.
+undefined says Report scam:     Katauris#2628  971401150064627824
+undefined says Please provide screenshots of the conversation
+undefined says @Deleted User same scam as the rest. Reported and blocked.
+undefined says 
+undefined says @Deleted User
+undefined says @Deleted User
+undefined says @Whitelist
+undefined says @Deleted User
+undefined says @Whitelist
+undefined says @Deleted User
+undefined says @Deleted User a6ce099b
+undefined says @Deleted User
+undefined says @Deleted User
+undefined says @DPehThank you for reporting🔨
+undefined says @Deleted User @Deleted User @Deleted User @Deleted User @Deleted User etc etc
+undefined says @Deleted User 85ab6af3 @Deleted User c4767a1f @Deleted User f138e129 @Deleted User 3703ed5a @Deleted User 04eebee6
+undefined says All banned. Thank you for reporting
+undefined says Thanks for a _super_ fast response.
+undefined says HI,  I have been scammed by your website
+undefined says What the fuck is going on? I thought it was a fake website biut its actually the real one
+undefined says Why did you stole my money?
+undefined says Please open a ticket via the chat icon on the Gnosis Safe web app here https://gnosis-safe.io/app/welcome so we can check further
+undefined says Open a ticxket on the website that stole everything from my fucking metamask? Are you for real?
+undefined says You stole me
+undefined says We can chat here. Please explain what happened.
+undefined says I tried to create a multisig wallet with your safe yesterday night
+undefined says they asked me to enter my metamask seed phrase, on metamask what I did as your site seemed legit
+undefined says and this morning I realised that my whole metamask was empty
+undefined says Sorry for your loss but any platform asking for your seed phrase is trying to SCAM you
+
+You share your keys, your loose your fund. Don't do that
+
+SAFE will never ask for your seed phrase/private keys
+undefined says Please share the website URL
+undefined says I'm assuming you are using the MetaMask wallet extension here so you need to have already set up your wallet address in the MetaMask extension app. If you haven't, then yes you will need to go through importing your seedphrase/private keys but this is done on the MetaMask app itself and not on the Safe web app. The Safe web app will NEVER ask for your seedphrase or your private keys. If you have unauthorized transactions in your wallet, then you might have accessed a scam site or your wallet or computer is compromised.
+undefined says Safe did
+undefined says Share the website URLamd share some screenshots relating the incident
+undefined says How can I get the screeshots from the incident?
+undefined says It was yesterday, there were no incindents yesterday
+undefined says I realised it this aftyernoon
+undefined says www.user-gnosizsafes.xyz Shit, it wasn't the real website
+undefined says Your system must have been compromised, friend or you've used your personal wallet (not SAFE) to interact with
+undefined says Can you see.
+
+It's a fake website
+undefined says Here is the real website
+https://gnosis-safe.io/app/welcome
+undefined says Yes i know now
+undefined says Sorry for your loss 😢 Please be careful next time.
+undefined says next time lol they took everything
+undefined says no next time
+undefined says Next time if you don't know the real URL, ask in server but importantly, ignore any website asking for your seed phrase. The platform is trying to SCAM you
+undefined says Yes! Next time
+
+I have once lost 90% of my portfolio to a fake wallet too and I recovered from the loss.
+
+I believe you will recover your loss with profit
+undefined says Fuck
+undefined says Guys are you aware of the Reality.eth module exploit? My team has discovered it being able to drain funds from safes using iy
+undefined says Cc: @Lukas |  Safe ^^
+undefined says if you're talknig about this https://hackmd.io/g0txop3tTfGxcNKxn4z4Jg?view then yes we're aware
+undefined says as it is highlighted in the article is not really a module exploit but a lack of monitoring and attention
+undefined says and just to clarify we don't maintain the reality.eth module, it is maintained by https://www.gnosisguild.org/
+undefined says I've been in conversation with Lukas about this for a while today
+undefined says This is not simply a case of not paying attention ser.
+An attacker was able to bypass an entire Snapshot voting system, create (spoof?) a proposal on their own that used a proposal_id already used once in the past by the DAO. Then set a very short amount of time period, and pass it on their own
+undefined says It's a Storage Collision Attack at the contract level
+undefined says An outsider being able to access funds inside a safe, while not being an owner of the safe, not being an eligible voter in Snapshot either
+undefined says Update: the Storage Collision doesn't affect the Reality Contracts, only fake swaps that the attacker had created.
+undefined says This is what happened
+undefined says They were able to put malicious txn instructions in the eip712 hash, since the reality module just passed it, the Gnosis safe also passed the txn, which included token approval and transfer functions and the attacker was able to swipe the funds
+undefined says how to report scam ?
+undefined says Please share the details here.
+undefined says 
+undefined says @Deleted User
+undefined says Banned them. You'll probably get more in DMs. Please block and report anyone who reaches out to you in DMs offering help/support, there are scammers lurking. Safe team and support members will NEVER DM you first.
+undefined says talked to me a lot about multi-signature wallet and witch address
+undefined says :9210_safetyquip:
+undefined says Scammer on the loose! Beware.
+
+Discord-ID 1030511607551377519
+@Daniel | Quix
+
+He is impersonating me, and trying to DM-scam people on Orbiter-finance Discord where I am a mod.
+undefined says Banned 🔨  thanks for reporting.
+undefined says A few fake Safe websites out there when searching "gnosis-safe". Just letting you know.
+undefined says roninchain is legit, a fork I think
+undefined says Ah, ok. Never used roninchain. Didn't know.
+undefined says This is fine, thanks for reporting. Cant say for others, if anything, the one in the middle is very suspicious
+undefined says Wanted to check if https://gnosis-token.sale/ is a scam. Did others get a message recently for private token sale ?
+undefined says Hi @RakaCrypto, this site is NOT in any way affiliated with the Safe. This is a scam. Transferability of the Safe token is not enabled yet.
+undefined says Thanks for the clarification @undoubted08 | serv.eth
+undefined says @Captcha.bot
+undefined says Please do not forget to report any suspicious websites to Google Safe Browsing team. They will quickly ban scammer URLs and will broadcast the ban to all participating browsers (including Firefox). Users then get a big red warning page alerting them that the site is a scam.
+undefined says Hi there, for general support questions/queries, please open a ticket via the chat icon found in Safe help center: https://help.gnosis-safe.io/en/  (lower-right)
+undefined says @Deleted User
+undefined says @Nikky
+undefined says @yea
+undefined says @carrotcypher is DM'ing me, telling me to join a separate discord server to "open a support ticket". I don't have more screenshots of the convo because I blocked him beforehand.
+undefined says Ah wait, here's the convo.
+undefined says Thanks. Already banned this user.
+undefined says Hi, I have something to report.
+I just join to gnosis discord channel and the bot send me the link to verify human.
+But, when click "continue" this bot ask to connect wallet.
+undefined says 
+undefined says Hi, this account is not on this server already. Seems it's also on Gnosis chain/DAO. But thank you for reporting.
+undefined says I've wrongly connected but dced right now. Is my wallet safe further?
+undefined says https://twitter.com/gnosissafe?lang=en
+
+https://twitter.com/safe
+
+Which one is real? I am confused
+undefined says Depends if you sign something or entered your seed (for EOA) when you connected. Try running antivirus as well if ever there was a download
+undefined says https://twitter.com/safe
+undefined says didn't download anything and check at revoke.cash. 
+No allowance found to any smart contract
+undefined says and Didn't type seed phrase
+undefined says But The one you mention real safe twitter account tweeted his tweets.
+ https://twitter.com/safe/status/1605237225737912320
+undefined says True, let me double check on that. I think it's not a scam site
+undefined says yah... It made me really confused
+undefined says So it is third party but the tweet was legit and it's not a scam
+undefined says So, It's not scam, right?
+undefined says It's not. Deleting it
+undefined says How, can we check that the users are eligible for $SAFE airdrop? Because, my office use safe since last year. I want to know they are eligible or not.
+undefined says You can check here https://raw.githubusercontent.com/safe-global/safe-token/1e8661e4aba206f1b5c152591c177e4e1ad42b22/user-allocations/safes_tokens.csv
+undefined says Thanks, bro
+undefined says I will check it
+undefined says 
+undefined says 
+undefined says What's the meaning of this?
+undefined says I saw ERC20, I transferred eth to my safe wallet on Ethereum
+undefined says But now I can't find the money I transferred
+undefined says 
+undefined says Please help me，thanks bro
+undefined says Please open a ticket via the chat icon found in Safe help center: https://help.gnosis-safe.io/en/  (lower-right)
+undefined says @Cosme FuIanito - Ledger
+undefined says FYI, there seems to be a scam where they are impersonating support staff and having people join a "Gnosis Support" discord server
+undefined says @Blockchain
+undefined says Same on github I think (might just be an user in this case), I've seen a couple of comments this last week from people asking for more details regarding issues like this one: https://github.com/5afe/safe-support/issues/110
+undefined says 
+undefined says what happened?
+undefined says Hi there, for general support questions/queries, please open a ticket via the chat icon found in Safe help center: https://help.gnosis-safe.io/en/  (lower-right)
+undefined says @John | Safe @Micah | serv.eth I have reported vulnerability and the team said we will reward you
+undefined says but it has been more than 4 days I have not received the reward
+undefined says Do not spam. Best to wait for the devs response for now
+undefined says Also, you just joined today, might be best to introduce yourself who you are/were
+undefined says Where did you communicate this @Deleted User ?
+undefined says @La | serv.eth bounty@safe.global
+Richard Meissner richard@safe.global
+undefined says in this email
+undefined says Alright, let's wait for now. John is already tagged in the post. You can follow up via email as well
+undefined says @La | serv.eth i did not get response from email so tagging here
+undefined says @AlexPrincipalu
+undefined says @La | serv.eth still I have not got the response
+undefined says Please provide your email to Mikhail in DMs: https://discord.com/channels/907968493134155807/915922168846618674/1067111578689880064
+undefined says Hi how do i remove this scam tokens from my wallet?
+undefined says You can't remove, but there should be a "Hide asset" button on the very right part of each token when using the safe web app https://app.safe.global
+undefined says 
+undefined says Anyway to remove the Mobil ap
+undefined says Hi there. Not sure if this feature is available on mobile app but can you share what version of the Safe mobile app you have please?
+undefined says 3.6.1
+undefined says The feature to hide tokens is not currently available in safe mobile apps, unfortunately.
+undefined says Ah ok thank you!
+undefined says @Deleted User 979c57c6 🔨
+undefined says ID: 1069611830458204171 impersonating @Joan | serv.eth and inviting to a random server.
+undefined says @DF I NEAR.
+undefined says banned, thanks for reporting.
+undefined says Proof of it. 🤝🏻
+undefined says ID: 1071537346123661393
+undefined says @Qui♧♧
+undefined says i  cant execute
+undefined says Hi there, for general support questions/queries, please open a ticket via the chat icon found in Safe help center: https://help.safe.global/en/ (lower-right)
+undefined says o
+undefined says hi Safe team
+undefined says I need urgent support as user
+undefined says but I can't access #user-support channel
+undefined says @Bing² | serv.eth
+undefined says @Inah | serv.eth
+undefined says For support, please open a ticket via the chat icon in the Safe help center here https://help.gnosis-safe.io/en/
+undefined says 
+undefined says how can i make my token unhidden?
+undefined says usdc value is dropping...
+undefined says I urgently need to transfer my usdc tokens to usdt/dai
+undefined says You can select and unhide the token
+undefined says I can't see where i can unhide. Can you please point it out?
+undefined says 
+undefined says 
+undefined says ok
+undefined says now it works
+undefined says Thx so much
+undefined says Hello, I am using a multisig address on the Goerli testnet environment and cannot complete the OpenSea signature verification login.
+undefined says Hello, none of the stuff documented in the user-support channel works (no chat icons are visible on any of the sites linked), so reaching out here. Our startup is attempting to bridge USDC using Wormhole from Celo to Eth Mainnet and our Gnosis SAFE is stuck showing a transaction that has long since completed. On Etherscan we can see that the bridge worked, but we can't view our assets from the SAFE. Would appreciate any help or links to docs/resources that might help
+undefined says Please open a ticket via the chat icon found in Safe help center instead: https://help.safe.global/en/ (lower-right)
+undefined says @SafeJ
+undefined says @Littlebig620325LARGE
+undefined says @rMBNILC
+undefined says @Irerlish
+undefined says 266013037784334336
+undefined says @johnmck31
+undefined says @Celieth
+undefined says @MOrj 🔨
+undefined says I hope this is the correct channel to ask. Regarding the massive distributed hacks and wallet drains happening currently (https://www.reddit.com/r/CryptoCurrency/comments/12s45c5/an_update_on_the_crypto_hack_currently_taking/). **Does anybody know, if Safe Smart Contract multi-sig wallets also have been drained?** I've only limited amounts of money there, so I've not been pwned currently. Or perhaps the hackers haven't implemented that.
+
+On that regard, would it be possible to actually implement a variation of Gnosis Safes, where the owners are NOT publicly visible? (https://etherscan.io/address/0xE0a88c4E543a0e0d15d697403849A75Da40962B4#readProxyContract). Such a feature could provide interesting privacy guarantees and at the same time it could also shield the above attack, because the attacker would need to know which owners are used and cannot simply look them up on chain. Obviously this has drawbacks in case one forgets some of the owners, but nevertheless, it's interesting.
+undefined says No. Also, Safes are smart contract wallets, unlike those described in the article. Depending on the policy you set, having one owner wallet compromised will not immediately give access to the scammer/hacker.
+undefined says Indeed. Enough signers need to be compromised to hack the gnosis safe. I am asking whether perhaps the hacker didn't brother implementing this for gnosis safes, since going for EOAs was already lucrative.
+
+It's funny that months ago I decided for a gnosis safe instead of a hardware wallet - because I didn't like the *existence* of a single point of failure - the seed phrase. Maybe that's what has protected me until now with this current hack ^^'
+undefined says 896762234712240128
+undefined says @carolegulgowski
+undefined says banned, thanks
+undefined says @MEE6’
+undefined says @MEE 6 🤖
+undefined says You can add @МЕЕ6 ( 1096390761244786688 ) too, they just attacked another server with mass spam
+undefined says Banned. Thanks for reporting.
+undefined says @Xail♧♧
+undefined says GM everyone! please retweet this for awareness! This scam is targetting founders and teams. https://twitter.com/JonnyRingo711/status/1659269009190297603?s=20
+undefined says @Announcement @Announcement @Announced
+undefined says @Cust0mer süpp0rt|🆘
+undefined says @Deleted User
+undefined says @hhhg impersonator 🔨
+undefined says hi, looking for help with a hacking incident, this would concern the platform
+undefined says who can I speak with?
+undefined says Please open a ticket via the chat icon found in Safe help center: https://help.safe.global/en/ (lower right)
+undefined says is this safe made with a scam contract? https://polygonscan.com/address/0xc400044618A6B9315c010A8D66B99Db6f3c7a93f
+undefined says Not sure if it's a scam but it's definitely not from Safe contracts.
+undefined says exacly what i thought to, it doent seems to work but its annoying to see the safe showing up when switching to polygon chain, is there any way to remove it?
+undefined says Please open a ticket via the chat icon found in Safe help center: https://help.safe.global/en/ (lower right)
+undefined says will do that
+undefined says Martenelli#7414 please report this account he’s a scammer
+undefined says https://polygonscan.com/tx/0x4e50186e70741b295c70a43ec0cf152cf6448eebe5861e1f19482ee9fbb5c9df
+This is the txn I allowed (by scam) to drain my USDT
+undefined says https://polygonscan.com/tx/0xe4853556a2e32ffa19423674595ff52ebef7be9d8f8fd684aec01f695b307ac4
+This is the txn I revoked from drainer
+undefined says Sorry to hear about this 😦 We'll try reporting the site to be taken down. 🙏 Deleted the link so no one accidentally clicks on it. Thank you for reporting.
+undefined says done
+undefined says please, report the scammer's wallet address to be frozen
+undefined says There's nothing we can do unfortunately. 😦 Blockchains are basically decentralized so no one can stop an anyone from using it. You could report it to USDT to block the address from using USDT itself, but there's no guarantee unfortunately.
+undefined says twitter become trash... 😦
+undefined says I thought gold marked is trustworthy
+undefined says We can try reporting it to take the site down. I've copied the phishing site. ~~Please edit and delete it from your post so no one accidentally clicks on it.~~ Deleted the post
+undefined says ⛔ **DO NOT** share your seed phrases or private keys to anyone!
+⛔ **DO NOT** paste them in any website!
+undefined says @0xValarie 💠 just tried scamming me
+
+1138161853923610737
+
+https://discord.com/channels/907968493134155807/960898410037272616/1139611146396127392
+undefined says @3dreach
+undefined says I just used my safe wallet and saw a message about safe token distribution. Never heard of a safe token. What kinda scam is this?
+undefined says and how did the message show up in my wallet interface?
+undefined says Hi @0xFlexG are you referring to this notification? This is not a scam but this is an update for those eligible users. When you click on it you will see more info about it.
+undefined says yes thats it
+undefined says so it is real
+undefined says Thank you
+undefined says https://discord.com/channels/907968493134155807/1140735936259424327/1150933423624564818
+undefined says Please ban my impostor 😄
+undefined says is there support to report a thief that changed ownership of my safe wallet ? so the potential airdrop can be done to my original true ownership wallet?
+undefined says Please open a ticket via the chat icon in the Safe help center for further checking https://help.safe.global/en/
+undefined says ty
+undefined says Why OP chain can’t creat?
+undefined says Please open a ticket via the chat icon in the Safe help center for further checking https://help.safe.global/en/
+undefined says I just start to use safe wallet. You know that the address of safe account is not duplicate with the address of metamask wallet. But I have a mistake while i creat safe account on zksync. I used the address of my BNB safe account for 1 of 3 owner who own my zksync safe account , and the threshold has set 3 of 3. So I can not do any transaction. Pls let me know how i can keep my zksync safe acccount. Thank you!
+undefined says Hi. Please open a ticket via the chat icon found in Safe help center: https://help.safe.global/en/ (lower-right)
+undefined says Thank you!
+undefined
+undefined says For typical Safe user support queries, use our dedicated Intercom service. You can access it via the chat icon on:
+
+Help Center - https://help.safe.global/
+Safe Web - https://app.safe.global/
+Safe iOS Mobile - https://apps.apple.com/app/id1515759131
+
+Please be polite and respect the @Serv.eth team, they're our trusted partners for assisting with user support queries. Only those with the @Safe Team team or @Serv.eth support role should be trusted for DMs

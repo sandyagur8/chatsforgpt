@@ -1,0 +1,893 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"188027138891317249","eli_defi","10/06/2023 1:08 am",":one: :nova: :arbblue:","",""
+"393895812502913024","gideonjohn","10/06/2023 2:30 am",":arbiblobblue:","",""
+"1070401270550114396","sharcrypto","10/06/2023 7:50 pm","what this","",""
+"1067883318466580580","brothersvankirk","11/06/2023 7:17 am","👀","",""
+"989855102703665172","zhuangbiyang","11/06/2023 7:57 am","极域","",""
+"837938117897748520","aaronbarboza","11/06/2023 5:38 pm","Please ensure that the conversation remains in English as this community is global. If you prefer to chat in Chinese, kindly use the Chinese chat or feel free to ask your questions in English.","",""
+"635113700730208257","oxmobinu","12/06/2023 8:56 am","amazing","",""
+"511344743192461312","amarrazza","12/06/2023 9:50 pm","gm","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","13/06/2023 2:57 pm","","",""
+"933402461073457263","mehdi_ism#0890","15/06/2023 5:31 am",":one:","",""
+"883186389259260006","onarcism","16/06/2023 11:01 am","huh","",""
+"942865412310302770","duoplease","16/06/2023 11:03 pm","Good","",""
+"878904513279447062","naigai7111","17/06/2023 10:42 am","Is customer service available?","",""
+"837938117897748520","aaronbarboza","17/06/2023 1:51 pm","We have a dedicated customer #📬︱support channel available where you can ask your queries. Please feel free to use that channel for any assistance you need.","",""
+"1003657293080047818","Nachzo#5883","17/06/2023 2:02 pm","Are you a robot? Please don't post the same message on all channels","",""
+"1003657293080047818","Nachzo#5883","17/06/2023 2:02 pm","thank u","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","18/06/2023 11:01 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","18/06/2023 11:03 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","18/06/2023 11:04 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","19/06/2023 7:23 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","19/06/2023 7:23 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","19/06/2023 7:27 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 3:15 am","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 3:17 am","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 3:31 am","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 4:09 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 4:09 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","20/06/2023 4:14 pm","","",""
+"761169139095437333","vizrima","20/06/2023 4:31 pm","Hey team, I need support","",""
+"761169139095437333","vizrima","20/06/2023 4:32 pm","I hope I’m in right place, I’ve been watching a scammer who scammed me which I can prove, I reported the addresss on etherscan but nothing is done and I can seee he is doing wrong by people","",""
+"837938117897748520","aaronbarboza","20/06/2023 4:36 pm","It's truly disheartening to witness that you fell victim to a scam. I believe it's challenging to trace the perpetrators here, but there are some tools that could potentially assist you. By the way, could you please share how the scam occurred?","",""
+"761169139095437333","vizrima","20/06/2023 4:39 pm","It was at the time of a particular arb dodge","",""
+"761169139095437333","vizrima","20/06/2023 4:41 pm","I search on google about the event, wrong website, careless and signed all messages in my wallet, and the robbery was on","",""
+"761169139095437333","vizrima","20/06/2023 4:41 pm","Withnn no out knowing it all gone","",""
+"837938117897748520","aaronbarboza","20/06/2023 4:49 pm","That's unfortunate, my friend. I would advise you to refrain from using that wallet again. Sometimes, lessons can come at a high cost.","",""
+"837938117897748520","aaronbarboza","22/06/2023 11:38 pm","@eli_defi | Arbitrum @Ana 💙 Arbitrum @hunter | Offchain Labs spam , please delete 👀","","💙 (3),🙏 (1)"
+"800927513903104041","redmanstan","23/06/2023 11:45 pm","Question for offchain labs","",""
+"800927513903104041","redmanstan","23/06/2023 11:46 pm","Stake token    The token that your chain's validators must stake in order to participate in your chain. This is hardcoded to $ETH for now, but future versions of Orbit chains will let you specify an arbitrary ERC-20 token contract here.","",""
+"800927513903104041","redmanstan","23/06/2023 11:46 pm","Is this future arbitrary ERC-20 token able to be a arbitrum native token? Or is it ETH native?","",""
+"308034275909959690","anthonye","24/06/2023 12:05 am","Whats the system requirements for running an Orbit chain?
+Same as a full node? Any gotchas if I wanted to run my orbit chain on the cloud and expose a public IP for testing?","",""
+"967038927137566780","Tomfz#5247","24/06/2023 7:23 am","Arbitrum Orbit Chains are optimistic rollups. They use a fraud-proof mechanism to ensure the validity of transactions, which is less computationally expensive than using zero-knowledge proofs. This makes Orbit Chains more scalable and efficient, while still providing the same security guarantees as Ethereum.","",""
+"967038927137566780","Tomfz#5247","24/06/2023 7:23 am","@AnthonyE @RedManStan_0xMT 
+https://discord.com/channels/585084330037084172/1043523039104606239/1121541449125740564","",""
+"967038927137566780","Tomfz#5247","24/06/2023 7:24 am","You can choose to read the interpretation of Orbit by the team members. At the same time, it is mentioned that more explanations will continue to be updated","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","24/06/2023 5:38 pm","","","🇻🇳 (2)"
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","26/06/2023 2:30 pm","","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","27/06/2023 2:30 am","","",""
+"992455768404148224",".mehdisalehioffchainlabs","27/06/2023 3:30 am","Yeah for sure. It can be an Arb native ERC20 token as well.","",""
+"992455768404148224",".mehdisalehioffchainlabs","27/06/2023 3:33 am","It depends if you wanna run fullnode or an archive. currently we specify it as archive, cause in the process we deploy a blockscout explorer instance for you as well which works better which an archive. 
+Also because on Devnet, you may not have that much txs/users, things would be so smooth and no need for a strong config, but it is based on the amount of usage of your devnet for sure.","",""
+"1018669773325860896","0xmenna","27/06/2023 8:03 am","I went through the docs and I have a question: does the batch-poster need to be funded with the native token of the base chain (Arbitrum goerli for the devnet) in order to post transactions right ?","",""
+"874613699581714442","harukiontheroad","27/06/2023 12:04 pm","I met some difficulties in the final step of deploying a L3 chain. Wondering how to solve this problem?","https://cdn.discordapp.com/attachments/1116812793606328340/1123139257536610314/image.png",""
+"728149597565747210","damon4054","27/06/2023 12:39 pm","worldcoin, bsc and base is going to launch on op stack,  what about nova ?","",""
+"837938117897748520","aaronbarboza","27/06/2023 12:56 pm","Orbit was announced a few weeks ago, and many projects have started building on it. I think there will be a huge number of chains using Orbit instead of Optimism. Optimism will become congested because they are using L2, but Orbit is on L3 and is much cheaper and faster than OPStack. In the coming months, many top players might build on Orbit because of its features and customisation","",""
+"896760490628350002","hitesh7449","27/06/2023 1:14 pm","Does arbitrum orbit use arbitrum's common sequencer or does its own chain have its own sequencer","",""
+"1003657293080047818","Nachzo#5883","27/06/2023 1:23 pm","Arbitrum Orbit Chains are optimistic rollups. They use a fraud-proof mechanism to ensure the validity of transactions, which is less computationally expensive than using zero-knowledge proofs. This makes Orbit Chains more scalable and efficient, while still providing the same security guarantees as Ethereum.","",""
+"1003657293080047818","Nachzo#5883","27/06/2023 1:24 pm","I think it should have its own sequencer. But more information needs to be confirmed by team members","",""
+"274730732818268161","rooo555","27/06/2023 1:31 pm","@Mehdi Salehi | Offchain Labs @gzeon | Offchain Labs could you confirm pls when online","",""
+"900095429457362944","gzeon","27/06/2023 1:41 pm","currently you need your own sequencer","","👍 (1)"
+"1008487020680712273","vadym_zolotarov","28/06/2023 3:13 pm","we want to add your blockchain to our services, need some test tokens on this steps of development","",""
+"837938117897748520","aaronbarboza","28/06/2023 3:16 pm","Hey mate, Here is the list of faucets to get test tokens : https://discord.com/channels/585084330037084172/585084330037084180/1121961136007426129","",""
+"462210577662738433","ayub7455","28/06/2023 10:40 pm","Nice community","",""
+"841704400125034506","pasopatii","29/06/2023 12:37 am","Let's go","",""
+"656850069584216064","vl_morghulis","29/06/2023 2:00 am","Message to allthe team . Please I sent asset to the Arbitrum contract adress..... Please help me recover my funds..","",""
+"837938117897748520","aaronbarboza","29/06/2023 2:55 am","If you send funds directly to the foundation's contract address. Your funds will be lost","",""
+"1003657293080047818","Nachzo#5883","29/06/2023 2:07 pm","Have a look at this info, it might be useful
+https://discord.com/channels/585084330037084172/1113545831258271874/1123803784666152985","",""
+"993962375071924375","Arbitrum (will NEVER dm you)#1745","01/07/2023 1:02 am","","",""
+"830371304619769876","sintawati#0931","01/07/2023 11:46 pm","Sir, it's been more than a week but the assets that I bridged haven't arrived or returned !!!","",""
+"1107917233226788935",".donnaphillips","02/07/2023 1:53 am","did you reach out to support","",""
+"967038927137566780","Tomfz#5247","02/07/2023 7:36 am","I have already answered it for you in other channels
+https://discord.com/channels/585084330037084172/859511259183448084/1124882997670334554","",""
+"967038927137566780","Tomfz#5247","02/07/2023 7:36 am","try to seek help from #📬︱support   and #💬︱general 
+thanks","",""
+"1068220807202996286","upukii","02/07/2023 11:59 am","need help","",""
+"984668610356199424","sureshkohli","02/07/2023 12:11 pm","#🚀︱odyssey-faq","",""
+"1003657293080047818","Nachzo#5883","02/07/2023 1:34 pm","Is there anything I can help you? If it is an arbitrum one or nova problem, #💬︱general #📬︱support  can help you better","",""
+"896760490628350002","hitesh7449","02/07/2023 6:35 pm","If I cross-chain my assets from arbitrum layer3 to arbitrum layer2, do I need to wait seven days?","",""
+"1034067746935287839","Joemoe#1762","02/07/2023 8:53 pm","It shouldn't be necessary. Just like nova, one. It's more of a bridge through the ecosystem app bridge.","",""
+"815628905406791730","mojchain","02/07/2023 9:40 pm","I am eligible and I am not claimed That because my wallet been hacked from bot 
+
+I knew that my wallet have problem  on that time
+What I have to do??","",""
+"350285821540302849","harute9933","03/07/2023 3:59 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1125191435508002877/image.png",""
+"911041652553023508","pikamoon_support.","03/07/2023 3:59 am","What’s the issues?","",""
+"350285821540302849","harute9933","03/07/2023 4:01 am","When i try to bridge my funds to other network it fails when i have enough gas for it. Failed when moving to other addresses as well","",""
+"911041652553023508","pikamoon_support.","03/07/2023 4:01 am","Message me with the issues screenshot","",""
+"350285821540302849","harute9933","03/07/2023 4:01 am","It keeps showing up as this","https://cdn.discordapp.com/attachments/1116812793606328340/1125192091883032576/image.png",""
+"350285821540302849","harute9933","03/07/2023 4:07 am","@Ricardo__Gordon | Arbitrum","",""
+"828261986751086592","ricardo__gordon","03/07/2023 4:09 am","Either you don't have enough eth in your wallet to cover for gas fees or you need to change this into ""market""","https://cdn.discordapp.com/attachments/1116812793606328340/1125194091412590733/image.png",""
+"350285821540302849","harute9933","03/07/2023 4:14 am","Problem resolved, thank you so much!!!!","",""
+"828261986751086592","ricardo__gordon","03/07/2023 4:14 am","Glad to help 👍","",""
+"896760490628350002","hitesh7449","03/07/2023 8:11 am","No fraud proof on the layer3?","",""
+"1082402627444297738","fari049","03/07/2023 3:36 pm","What should I buy to vote?
+On which shell?","",""
+"274730732818268161","rooo555","03/07/2023 3:45 pm","please check the guides: https://docs.arbitrum.foundation/dao-glossary#arb","",""
+"274730732818268161","rooo555","03/07/2023 3:46 pm","https://docs.arbitrum.foundation/how-tos/vote-dao-proposals","",""
+"862245795722297354","0xanders","03/07/2023 6:08 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1125405281300521030/image.png",""
+"862245795722297354","0xanders","03/07/2023 6:09 pm","Is the ""Customizable fee token"" feature available now?","",""
+"605454912956137507","DevWeb#8018","03/07/2023 10:42 pm","What is the contract size limit for Nova?","",""
+"605454912956137507","DevWeb#8018","03/07/2023 10:42 pm","It seems it is 24kb for Arb. One
+Is it the same for Nova?","",""
+"781046902665379860","JasonWan#9935","04/07/2023 7:57 am","It’s the same","",""
+"781046902665379860","JasonWan#9935","04/07/2023 8:02 am","Yes, it’s available, anyone can customize it.","","👍 (1)"
+"896760490628350002","hitesh7449","04/07/2023 8:03 am","@Jason Wan | Offchain Labswhen i transfer my asset from orbit to arbitrum,is there a fault proof?","",""
+"896760490628350002","hitesh7449","04/07/2023 10:43 am","yep","",""
+"781046902665379860","JasonWan#9935","04/07/2023 12:04 pm","Yes, it has.","",""
+"862245795722297354","0xanders","04/07/2023 2:00 pm","Cool, is there a doc URL about ""Customizable fee token"" ?","",""
+"862245795722297354","0xanders","04/07/2023 2:16 pm","Or is there some demo code about ""Customizable fee token"" ?","",""
+"781046902665379860","JasonWan#9935","04/07/2023 2:39 pm","cc @Mehdi Salehi | Offchain Labs","",""
+"1018669773325860896","0xmenna","05/07/2023 4:36 pm","Is there a way to customize some aspects of orbit chains directly modifying the base chain contracts ?","",""
+"1018669773325860896","0xmenna","05/07/2023 4:41 pm","For example, I would like that only one specific evm account can make transactions in the orbit chain","",""
+"1062418969346179245","josefp","05/07/2023 6:20 pm","Yes, you can customise as much as you like the codebase (node software or contracts)","",""
+"159985870458322944","MEE6#4876","07/07/2023 12:37 am","","",""
+"1018669773325860896","0xmenna","07/07/2023 9:00 pm","How to ensure that the sequencer does not censor transactions ? Without trusting only it’s promise ?","",""
+"992455768404148224",".mehdisalehioffchainlabs","07/07/2023 10:08 pm","We explain it here:
+https://developer.arbitrum.io/sequencer
+
+You can submit your tx directly bypassing sequencer. If sequencer doesn’t even pick it up there, you can force include it, so completely bypass sequencer","","👍 (4),🇵🇱 (1),🇺🇦 (1)"
+"945548738607321089","adamdigitex","18/07/2023 8:14 pm","Can I configure my own block time on my L3 Orbit chain or does it depend on which L2 I’m settling on? For example, can I configure a 1 second block time but settle onto One?","",""
+"945548738607321089","adamdigitex","18/07/2023 8:18 pm","And can I use all Arbitrum One tokens on my L3 Orbit chain if it settles on One or does every token need to be bridged to my L3?","",""
+"945548738607321089","adamdigitex","18/07/2023 10:50 pm","I’m guessing I have to bridge all tokens between my L3 and Arb One, that’s done through the official bridge app right","",""
+"945548738607321089","adamdigitex","18/07/2023 11:54 pm","But I can’t find any info in the docs about whether I can configure the block time to be faster than the block time of the underlying Arb One chain","",""
+"808863308224528424","chrisco512","19/07/2023 2:00 am","yes when you deploy an L3, a bridge from L2 <-> L3 will be deployed as well, and tokens are bridged through that","",""
+"808863308224528424","chrisco512","19/07/2023 2:04 am","right now it's fixed at minimum of 250 ms block time, but new blocks only post whenever a new transaction posts; in future upgrade, we will make this configurable; and no, its not dependent on the L2 block time that it's deployed on","",""
+"945548738607321089","adamdigitex","19/07/2023 2:10 am","Ok that sounds great thanks for the reply","",""
+"945548738607321089","adamdigitex","19/07/2023 2:37 am","Do transactions on my L3 have instant Time to Finality as soon as they are included in a block? Or is there some kind of chain reorg possibility?","",""
+"808863308224528424","chrisco512","19/07/2023 5:26 am","Depends on the definition of finality; do you need to know for sure that a transaction will not be disputed via fraud proof? or just know that your call is provable?","",""
+"945548738607321089","adamdigitex","19/07/2023 6:03 am","I guess just provable. The transaction would be a bet placed so I just need to know that it won’t just disappear for some reason and that I can take actions based on its finality","",""
+"945548738607321089","adamdigitex","19/07/2023 6:06 am","I want to keep the game going and not have to wait 30 seconds or several minutes for confirmation","",""
+"945548738607321089","adamdigitex","19/07/2023 7:32 pm","For example, using Polygon I would have to wait 32 blocks to be certain that a chain reorg won’t cause the transaction to disappear. On my L3 is there any similar possibility of the transaction disappearing after the sequencer has soft confirmed it?","",""
+"808863308224528424","chrisco512","19/07/2023 9:12 pm","reorgs are rare on Arbitrum; you could consider it ""final enough"" as soon as the validator has ordered and published the transaction on its feed (which is technically shorter than even 1 block), as long as you trust the validator.  there's various levels of caution you could exercise, if the transaction's value carries a great deal of weight.","",""
+"808863308224528424","chrisco512","19/07/2023 9:15 pm","if it's your own L3, then the validator will most likely be run by a third party that you trust. if you want to wait until there's contractual proof of the tx, you can wait until the Sequencer posts the sequence of transactions to L2 (in practice, likely every few minutes)","",""
+"945548738607321089","adamdigitex","19/07/2023 10:02 pm","Thanks for the reply. One more question (sorry I just discovered Orbit and am blown away by the prospect of building my own blockchain) On my own L3 I will be running the sequencer correct? So this means my costs for running my L3 are the validator rewards and the gas cost of posting the sequence of transactions to L2 every few minutes?","",""
+"945548738607321089","adamdigitex","20/07/2023 4:07 am","In your QuickStart: Launch an Orbit chain docs your prerequisites say I need at least 1.5 Goerli ETH to cover gas costs. But Alchemy only gives away 0.02 Goerli ETH per day and quiknode gives 0.05 per day. From where can I get 1.5?","",""
+"945548738607321089","adamdigitex","20/07/2023 4:44 am","No worries I found some, you can buy unlimited amounts of Goerli ETH at testnetbridge dot com it costs $0.19 per token","","🙏 (1)"
+"1046302371065638962","sktusharkhan2","20/07/2023 7:48 am","Need help","",""
+"1046302371065638962","sktusharkhan2","20/07/2023 7:48 am","anybody here","",""
+"1075965823467933837","joshc__","20/07/2023 10:08 am","What’s up Buddy","",""
+"964529281365602384","0x_jp","20/07/2023 12:59 pm","Hey I'm building L3 orbit chain locally. How do I set the batch posting period (intervals) of Batch Posters? I guess it is set to default value of 1 hour, but cannot find how to customize it. I tried to change 'futureBlocks' and 'futureSeconds' from 'SequencerInbox.MaxTimeVariation' while calling `RollupCreator.createRollup` function, with `config` argument -- but it didn't work. Anyone can help me? 🥹","",""
+"159985870458322944","MEE6#4876","20/07/2023 1:05 pm","","",""
+"964529281365602384","0x_jp","20/07/2023 1:05 pm","I also looked at nitro codebase to see if there's somewhere I can configure the period of Batch Poster, posting L3 Tx batches, but failed. I thought it is somewhat related to `BatchPollDelay` from `arbnode/batch_poster.go` but couldn't find exactly how to set the batching intervals. Am I missing something here?","",""
+"165550481156866048","plasmapower","20/07/2023 8:18 pm","I think it's called BatchPostingDelay or something? Run the node with --help and look at the batch poster options. I think it's called something delay","",""
+"165550481156866048","plasmapower","20/07/2023 8:18 pm","It's a command line argument to set it","",""
+"1117045969805119548","pokerino00","20/07/2023 8:20 pm","Yes you can","",""
+"1117045969805119548","pokerino00","20/07/2023 8:20 pm","What is the issue","",""
+"808863308224528424","chrisco512","20/07/2023 8:24 pm","most likely a service provider will be running your sequencer; unless you are very experienced at dev ops, it's highly advisable to delegate that responsibility as managing uptime, load balancing, etc can be challenging if your app hits significant adoption.","",""
+"808863308224528424","chrisco512","20/07/2023 8:26 pm","you are correct on what the basic costs are (other than infrastructure cost)","",""
+"964529281365602384","0x_jp","20/07/2023 9:08 pm","Thank you so much it helped me a lot 🙂","",""
+"945548738607321089","adamdigitex","21/07/2023 9:35 am","I’ve deployed successfully and cloned the orbit-setup-script from GitHub but struggling with Docker. Do you have an example Dockerfile I could use for the setup?","",""
+"683912641902936125","royansroyce#7123","21/07/2023 3:11 pm","hey, i'm trying to start an Orbit Layer 3 network on Arbitrum Goerli using the public preview guide. 
+
+I've deployed all the `orbit-setup-script` howver when i look at `docker logs nitro` 
+
+I'm seeing:
+```
+Fatal configuration error: unable to create chain directory: mkdir /home/user/.arbitrum/Layer3: permission denied
+```
+
+This is in the container logs is anyone having any issues here?","",""
+"683912641902936125","royansroyce#7123","21/07/2023 4:05 pm","Never mind! this is my issue, I think it's because I've setup the `orbit-setup-script`  as `root` so when docker runs, it does not have permissions over the volume mount at all","",""
+"683912641902936125","royansroyce#7123","21/07/2023 5:12 pm","all fixed! it was extremely smooth process to deploy a layer3 testnet chain using the orbit scripts. 
+
+I have some feedback at the very end step:
+1. we specificly require node v16 (my version of ubuntu targets v12)
+2. If you bump into permission erros, check that the container can access the filesystem on the volume mount. most likely you created the ./config directory as `root`
+lastly the steps to setup the rollup contracts simply say:
+```
+PRIVATE_KEY=""blah"" L2_RPC_URL=""https://bla..."" L3_RPC_URL=""http://blah..."" yarn run setup
+```
+
+I suspect might be missing instructions to first issue `yarn install` to install the node modules
+
+secondly the command implies it's a 1 liner command, where as this actually needs to be more like:
+```
+export PRIVATE_KEY=""blah""
+export L2_RPC_URL=""https://bla...""
+export L3_RPC_URL=""http://blah..."" 
+yarn run setup
+```
+
+since the script is expecting environment variables","","👍 (2)"
+"945548738607321089","adamdigitex","21/07/2023 10:07 pm","I’ve only ever created a Dockerfile that uses npm, any chance you can post the code needed to run yarn in my Dockerfile?","",""
+"945548738607321089","adamdigitex","22/07/2023 12:06 am","no worries I figured out Dockerfile and successfully ran `docker-compose up -d`","",""
+"159985870458322944","MEE6#4876","22/07/2023 12:13 am","","",""
+"945548738607321089","adamdigitex","22/07/2023 12:14 am","am trying to post the error I get next but the bot wont let me","",""
+"945548738607321089","adamdigitex","22/07/2023 12:15 am","`Running ethDeposit Script to Deposit ETH from Arbitrum Goerli to your account on appchain ... 💰💰💰💰💰💰
+Error occurred: Error: could not detect network (event=""noNetwork"", code=NETWORK_ERROR, version=providers/5.7.2)`","",""
+"945548738607321089","adamdigitex","22/07/2023 12:19 am","presumably it means my localhost 8449 RPC address, do I need to enter my RPC address somewhere to fix this error?","",""
+"945548738607321089","adamdigitex","22/07/2023 12:57 am","My RPC address is in this command so it should be picked up from that in the ethDeposit Script `PRIVATE_KEY=""0xYourPrivateKey"" L2_RPC_URL=""goerli-url"" L3_RPC_URL=""localhost-8449-url"" yarn run setup`","",""
+"945548738607321089","adamdigitex","22/07/2023 12:58 am","I have the correct address in the real command I had to edit the above so the bot allows me to post it","",""
+"945548738607321089","adamdigitex","22/07/2023 4:31 am","in the setup.ts file this isn't working: `const L3Provider = new ethers.providers.JsonRpcProvider(L3_RPC_URL)`","",""
+"945548738607321089","adamdigitex","22/07/2023 4:32 am","is it something to do with L3_RPC_URL being a http instead of https? I'm on iMac","",""
+"945548738607321089","adamdigitex","22/07/2023 4:37 am","so I get as far as this console message and then it breaks because L3Provider is not set: 
+`console.log(
+      'Running ethDeposit Script to Deposit ETH from Arbitrum Goerli to your account on appchain ... 💰💰💰💰💰💰'
+    )
+    const oldBalance = await L3Provider.getBalance(config.chainOwner)
+    await ethDeposit(privateKey, L2_RPC_URL, L3_RPC_URL)`","",""
+"945548738607321089","adamdigitex","22/07/2023 4:52 am","I fixed it. The issue was the docs said to enter my RPC url localhost:8459 which didnt work but it worked when I used 127.0.0.1:8459","",""
+"945548738607321089","adamdigitex","22/07/2023 6:00 am","my L3 chain is running and producing blocks 🙂 Couple of issues with the block explorer: 
+
+The block explorer purple top header area doesn't update
+
+When I go to a smart contract address and click to the Code tab and then click on Verify and Publish the page shows an Internal Server Error message. I need to be able to verify my smart contracts so I can listen to emitted events from them","",""
+"1104910065795879043","layerxceo","22/07/2023 6:10 am","Mind sharing your explorer? I haven't got my l3 to run yet","",""
+"945548738607321089","adamdigitex","22/07/2023 6:11 am","I cant its only running on localhost:4000","",""
+"1104910065795879043","layerxceo","22/07/2023 6:12 am","Oh no worries I'm trying to run on a VPS","",""
+"945548738607321089","adamdigitex","22/07/2023 6:13 am","I'm on iMac. It was all pretty straightforward apart from the few hurdles with Dockerfile and having to use 127.0.0.1 instead of localhost","",""
+"1104910065795879043","layerxceo","22/07/2023 6:27 am","Ook I'll try on server thanks","",""
+"1104910065795879043","layerxceo","22/07/2023 9:01 am","Can anyone from team tell me if possible to go mainnet with arb L3? App specific","",""
+"1104910065795879043","layerxceo","22/07/2023 12:13 pm","Anyone getting this error ``` Error occurred: Error: could not detect network (event=""noNetwork"", code=NETWORK_ERROR, version=providers/5.7.2)  reason: 'could not detect network',
+  code: 'NETWORK_ERROR',
+  event: 'noNetwork' ```","",""
+"945548738607321089","adamdigitex","22/07/2023 12:22 pm","yes that was happening to me because I was using http:// localhost:8449 as my RPC in the yarn setup command. Use http:// 127.0.0.1:8449 instead and it will work","",""
+"1104910065795879043","layerxceo","22/07/2023 12:42 pm","I got same error ```   reason: 'could not detect network',
+  code: 'NETWORK_ERROR',
+  event: 'noNetwork' ```","",""
+"683912641902936125","royansroyce#7123","23/07/2023 2:04 pm","i think when i set mine up it just worked without changing the name localhost to an ip","",""
+"1104910065795879043","layerxceo","24/07/2023 7:05 am","I am trying to run on a VPS you try on server?","",""
+"945548738607321089","adamdigitex","25/07/2023 1:07 am","I need to see the decoded input data for transactions on my L3 but the block explorer's verify contract page is still an Internal server error message. Any ETA on when this will be fixed?","",""
+"992455768404148224",".mehdisalehioffchainlabs","25/07/2023 5:19 am","You can query your node via debugging rpc methods to have it","",""
+"945548738607321089","adamdigitex","25/07/2023 5:34 am","But I need end users to be able to go to the transaction page and see the decoded input data to verify it against another source.","",""
+"1065065191684976678","kohoshiro","25/07/2023 12:32 pm","just wondering for Orbit/L3, do we have a provider like conduit  for OP?","",""
+"901068420764807178","atharv181","25/07/2023 10:30 pm","I have created L3 and was trying to transfer my funds from l2 to l3 using bridge address provided but it is not working then how to transfer funds?","",""
+"901068420764807178","atharv181","25/07/2023 10:33 pm","When I check on explorer gas limit was predicted correctly and I got this error 
+Warning! Error encountered during contract execution [execution reverted]","",""
+"973687293355384842",".morotech","26/07/2023 5:44 am","Have you been directed yet on what to do?","",""
+"901068420764807178","atharv181","26/07/2023 9:02 am","Not yet","",""
+"781046902665379860","JasonWan#9935","26/07/2023 10:05 am","Do you want to transfer erc20 or ethers?","",""
+"901068420764807178","atharv181","26/07/2023 10:07 am","I want ethers to transfer on l3","",""
+"785365765645008957","sfffffff#5418","26/07/2023 11:23 am","Apologies if this has already been asked before. when I try to trace a transaction on arbitrum-one. the json rpc respond have fields like beforeEVMTransfers and afterEVMTransfers.
+
+May I know what the field imply? is it related to l1 -> l2?","",""
+"1104910065795879043","layerxceo","26/07/2023 11:56 am","I am building provider raas.build","",""
+"781046902665379860","JasonWan#9935","26/07/2023 11:59 am","So you need to call your inbox address with function depositEth.","",""
+"781046902665379860","JasonWan#9935","26/07/2023 12:01 pm","It may help you: https://discord.com/channels/585084330037084172/859511259183448084/1079908966160674856","","🙌 (1)"
+"781046902665379860","JasonWan#9935","26/07/2023 12:02 pm","Hey, could you send an email to partnerships@offchainlabs.com ?","",""
+"1104910065795879043","layerxceo","26/07/2023 12:16 pm","I have emailed from team at raas.build Thank you","",""
+"901068420764807178","atharv181","26/07/2023 12:30 pm","On Arbitrum scan I pasted the address of inbox it is not showing the depositEth","",""
+"901068420764807178","atharv181","26/07/2023 12:31 pm","I can only see these functions","",""
+"901068420764807178","atharv181","26/07/2023 12:31 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1133655409559883847/image.png",""
+"781046902665379860","JasonWan#9935","26/07/2023 1:32 pm","This is proxy contract, you need click `is this proxy` to let arbiscan know it is proxy contract. Or you can verify it here: https://arbiscan.io/proxyContractChecker","",""
+"901068420764807178","atharv181","26/07/2023 1:38 pm","Okay thank you","",""
+"901068420764807178","atharv181","26/07/2023 1:39 pm","Now I am able to bridge the eth but how to transfer erc 20tokens","",""
+"781046902665379860","JasonWan#9935","26/07/2023 2:43 pm","Call gateway router, it will be more difficulty than ethers, you can see tutorial here: https://github.com/OffchainLabs/arbitrum-tutorials/tree/master/packages/token-deposit","",""
+"1104910065795879043","layerxceo","26/07/2023 2:57 pm","Is the Orb L3 not meant to be ran on server side?  Local host no issue. Thank you","",""
+"901068420764807178","atharv181","26/07/2023 4:00 pm","Okay will try","",""
+"1062418969346179245","josefp","26/07/2023 4:47 pm","Hey, you should be able to run it on a VPS (I'm assuming that's where you're testing the deployment, right?)
+In what step are you blocked and what error are you getting?","",""
+"1104910065795879043","layerxceo","27/07/2023 4:26 am","Im getting this error on last step ```  reason: 'could not detect network',
+  code: 'NETWORK_ERROR',
+  event: 'noNetwork'  ```","",""
+"1104910065795879043","layerxceo","27/07/2023 4:27 am","our Provider Launchpad dashboard is complete we are working on one click server side and auto SSL","",""
+"781046902665379860","JasonWan#9935","27/07/2023 7:36 am","Did you open the related port?","",""
+"1104910065795879043","layerxceo","27/07/2023 9:06 am","Running smoothly!! 🙌🏾💪🏾 thanks @Jason Wan | Offchain Labs  In our user dashboard we want to give the option to connect to ""our"" Testnet chain id or have there own chain id. Do you know if it's possible to have multiple chains connect to the same L3 chain id? Thank you","",""
+"781046902665379860","JasonWan#9935","27/07/2023 9:19 am","It depends on your wallet, but mostly yes, metamask support different rpc url for the same chain id, but you need to specific the Name to avoid click wrong.","",""
+"1104910065795879043","layerxceo","27/07/2023 9:29 am","I'm sry I phrased that incorrectly.  I mean for other L3 to settle on ""our"" L3 if that  make sense? Think of it being like what Arbitrium is doing. Getting fees from L3 chains. I'm trying to see a way or know what to modify to basically be a ""L4"" if that make sense ?","",""
+"781046902665379860","JasonWan#9935","27/07/2023 9:40 am","You mean build another rollups on your layer3? Yes, you can do it, but our public ui doesn’t support this, you can modify the code to support your l3 as the base chain: https://github.com/OffchainLabs/orbit-deployment-ui","",""
+"1104910065795879043","layerxceo","27/07/2023 9:46 am","Yes we are currently modifying the ui code and integrating into our own, Is there any documentation on how to modify exactly? We will figure it out just asking. Thank you","",""
+"781046902665379860","JasonWan#9935","27/07/2023 10:18 am","Hmm, I don’t think we have docs about that now.","",""
+"1104910065795879043","layerxceo","27/07/2023 10:20 am","No worries we are anslytizing the code   Thank you","",""
+"1104910065795879043","layerxceo","27/07/2023 10:28 am","@Jason Wan | Offchain Labs  is there a ETA when L3 able to settle on mainnet?   If it's as simple as chaining chain id to mainnet and use ETH we are willing to test the outcome.","",""
+"781046902665379860","JasonWan#9935","27/07/2023 10:43 am","You can do it now by resetting the ui (set the base network to arb1 or nova).","",""
+"1104910065795879043","layerxceo","27/07/2023 10:53 am","I tried both it says wrong network but im sure I can do it manually if its possible? Is tehre any other project on L3 mainnet? Thanks","",""
+"781046902665379860","JasonWan#9935","27/07/2023 11:52 am","You can do it manually, our license already approve to let everyone deploy l3 on arb1/nova","","🔥 (1)"
+"1104910065795879043","layerxceo","27/07/2023 11:53 am","Thank you","",""
+"824788693796782101","alemaz98","27/07/2023 12:58 pm","I'd like to experiment with Orbit but I need 1.5 AGOR. Faucets give very low amounts of it. Can anyone give me that amount? I can later write my address. Thanks","",""
+"1104910065795879043","layerxceo","27/07/2023 1:33 pm","I'm sure sharing wallets isn't allowed here.  Google Testnetbridge tyere yih can get goerli eth and bridge on Testnet.  Nevermind the $AGOR the team needs to update the documentation.  Thank you","",""
+"901068420764807178","atharv181","27/07/2023 3:33 pm","Thank you so much Now able to transfer erc20 tokenss","","🔥 (1)"
+"989476139967852545","stefan_deward","27/07/2023 5:33 pm","I was trying to set up the on docker and got this message  in docker logs
+
+
+
+can anybody please explain? 
+
+**repo **:  ""orbit-setup-script/blob/main/docker-compose.yaml""
+
+**Container Logs**
+
+
+Version: v2.1.0-beta.6-152b9ff, time: 2023-06-20T14:55:39-06:00
+Sample usage: /usr/local/bin/nitro --help 
+
+Fatal configuration error: unable to create chain directory: mkdir /home/user/.arbitrum/L3Nitro Orbit Chain: permission denied","",""
+"1104910065795879043","layerxceo","27/07/2023 5:54 pm","Seems to be some permission issue but let the team respond.","",""
+"989476139967852545","stefan_deward","27/07/2023 6:47 pm","This error message is comming on the container of nitro.","https://cdn.discordapp.com/attachments/1116812793606328340/1134112444416020561/image.png",""
+"1104910065795879043","layerxceo","28/07/2023 12:51 am","How long does this process take?","https://cdn.discordapp.com/attachments/1116812793606328340/1134203958248882227/IMG_6974.png",""
+"1104910065795879043","layerxceo","28/07/2023 1:10 am","This is where were at. We are on auto deployment need a lil support from the team and we will blow up!","https://cdn.discordapp.com/attachments/1116812793606328340/1134208821162692698/Screenshot_-_2023-07-27T123908.993.png,https://cdn.discordapp.com/attachments/1116812793606328340/1134208821426917397/WhatsApp_Image_2023-07-27_at_1.56.52_AM.jpeg",""
+"808863308224528424","chrisco512","28/07/2023 1:21 am","try running the commands here: https://developer.arbitrum.io/node-running/how-tos/running-a-full-node#note-on-permissions","","👍 (1)"
+"808863308224528424","chrisco512","28/07/2023 1:25 am","also try removing spaces from the folder name ""L3Nitro Orbit Chain""","",""
+"165550481156866048","plasmapower","28/07/2023 1:39 am","Ensure the sequencer is running. If so, what are its logs?","",""
+"1104910065795879043","layerxceo","28/07/2023 1:42 am","Rookie move I should've not did with spacing from begging that's from me tearing down and rebuilding 15 x's in a row 😂🥹🥹 I'll update the output thanks for the support!","",""
+"159985870458322944","MEE6#4876","28/07/2023 1:45 am","","",""
+"1104910065795879043","layerxceo","28/07/2023 1:46 am","these are latest logs
+INFO [07-27|20:09:07.551] creating node                            hash=91554c..337e93 lastNode=0 parentNode=0
+INFO [07-27|20:09:08.156] staking to execute transactions 
+INFO [07-27|20:09:23.284] successfully executed staker transaction hash=4f45b4..475aaa","https://cdn.discordapp.com/attachments/1116812793606328340/1134217652953423872/IMG_6978.png",""
+"165550481156866048","plasmapower","28/07/2023 1:46 am","full logs? is the sequencer and delayed sequencer enabled in the config?","",""
+"1104910065795879043","layerxceo","28/07/2023 1:46 am","Sry about the link won't happen again my apologies","",""
+"165550481156866048","plasmapower","28/07/2023 1:46 am","No worries the bot's settings are pretty tight because otherwise we get a ton of spam","","🔥 (1)"
+"1104910065795879043","layerxceo","28/07/2023 1:48 am","Understandable running a community is a headache I've done it few times 😂😂  the logs are coming up but it seems to be still deploying contracts over time it has been running g for about a hour now contracts are just being deployed.  You can see explorer IP and port from image","https://cdn.discordapp.com/attachments/1116812793606328340/1134218346653548554/IMG_6979.png",""
+"1104910065795879043","layerxceo","28/07/2023 1:51 am","These are full logs of nitro and the yarn process","https://cdn.discordapp.com/attachments/1116812793606328340/1134219011614330900/IMG_6980.png",""
+"165550481156866048","plasmapower","28/07/2023 1:53 am","Ok that's good, a delayed message was sequenced at 20:08. I'm assuming that's when you ran the setup script?","",""
+"1104910065795879043","layerxceo","28/07/2023 1:55 am","Yes correct","",""
+"165550481156866048","plasmapower","28/07/2023 1:57 am","and I'm assuming 127.0.0.1:8449 is the RPC of your L3 sequencer?","",""
+"165550481156866048","plasmapower","28/07/2023 1:57 am","If you query it for the balance of 0x95d0c5fbc2c9ca1a70047c9ee84972362e7b28f4 what does it return?","",""
+"1104910065795879043","layerxceo","28/07/2023 1:58 am","@Lee Bousfield | Offchain Labs  is this the time it will take to deploy? We are building a ""one click provider"" Saas infrastructure   We will need to add time frames to whitepaper etc. we'd like to know how to speed up the process. Thanks","",""
+"165550481156866048","plasmapower","28/07/2023 2:00 am","Does it just take a while or is it stuck?","",""
+"165550481156866048","plasmapower","28/07/2023 2:00 am","I think it by default waits for the deposit to become marked as safe on L2","",""
+"1104910065795879043","layerxceo","28/07/2023 2:00 am","I'm on mobile now a team member of mines is here can you tell how to ""query"" the balance. Thank you sir","",""
+"165550481156866048","plasmapower","28/07/2023 2:01 am","I'm specifically asking to query it against that exact RPC on the computer running the script","",""
+"1104910065795879043","layerxceo","28/07/2023 2:01 am","Okay understood.  We also build OP Stack contracts bound right away do different process all good","",""
+"165550481156866048","plasmapower","28/07/2023 2:01 am","I think it should take about 10 minutes for the deposit to become marked as safe","",""
+"165550481156866048","plasmapower","28/07/2023 2:02 am","If you want to trust the L2 sequencer not to reorg to lower that wait, you can tell the L3 delayed sequencer to ignore L2 finality and sequence delayed messages immediately","",""
+"1104910065795879043","layerxceo","28/07/2023 2:02 am","Oh ok here's a new log ""one more log is printed
+INFO [07-27|20:27:34.112] data poster transactions confirmed       previousNonce=3 newNonce=4 previousL1Block=31,978,428 newL1Block=31,979,600
+""","",""
+"989476139967852545","stefan_deward","28/07/2023 2:03 am","@Lee Bousfield | Offchain Labs when we run the ""yarn setup"" command then  it's working from more than an hour and logs are printed like this","https://cdn.discordapp.com/attachments/1116812793606328340/1134222058268663860/image.png","🔥 (1)"
+"1104910065795879043","layerxceo","28/07/2023 2:03 am","Documentation? If none available I will start documenting myself and hand to you guys when I'm done as we need to perfect this ASAP out MVP will be ready within the week","",""
+"1104910065795879043","layerxceo","28/07/2023 2:04 am","Thank you for the assistance","",""
+"165550481156866048","plasmapower","28/07/2023 2:04 am","In that case it's probably stuck not just taking a bit. Try doing the balance query against that RPC I mentioned earlier. And confirm that RPC is indeed the L3 sequencer RPC URL.","",""
+"1104910065795879043","layerxceo","28/07/2023 2:07 am","Checking","",""
+"989476139967852545","stefan_deward","28/07/2023 2:11 am","@Lee Bousfield | Offchain Labs I have tried checking the balance.
+
+but it's just loading and loading not returning any reponse. can you check I'm using correct one?","https://cdn.discordapp.com/attachments/1116812793606328340/1134224071731707965/image.png","🔥 (1)"
+"1104910065795879043","layerxceo","28/07/2023 2:14 am","Our software we awant to launch in minutes we appreciate your support. This process is taking very long but we will dial it in to build and function properly per the docker compose xml file. We do plan on building bridge UI with the Orbit build.","https://cdn.discordapp.com/attachments/1116812793606328340/1134224768678240286/Screenshot_-_2023-07-27T134233.552.png",""
+"159985870458322944","MEE6#4876","28/07/2023 2:14 am","","",""
+"1104910065795879043","layerxceo","28/07/2023 2:15 am","gotta be careful with links LOL","","😅 (1)"
+"989476139967852545","stefan_deward","28/07/2023 2:15 am","@Lee Bousfield | Offchain Labs 
+
+you can verify the command
+
+PRIVATE_KEY="""" L2_RPC_URL=""goerli-rollup.arbitrum.io/rpc"" L3_RPC_URL=""127.0.0.1:8449"" yarn run setup","",""
+"989476139967852545","stefan_deward","28/07/2023 2:21 am","The latest logs from nitro are here.","https://cdn.discordapp.com/attachments/1116812793606328340/1134226571851468910/image.png","👆 (1)"
+"781046902665379860","JasonWan#9935","28/07/2023 7:24 am","You might probably run this script the second time with different chain config right? If so, you need delete the chain data on ./config first, because your l3 is using the chain state of last time config.","",""
+"1104910065795879043","layerxceo","28/07/2023 9:39 am","This is the case thank you we will update.","",""
+"781046902665379860","JasonWan#9935","28/07/2023 12:11 pm","Np","",""
+"539335702723297290","eveneasy","28/07/2023 1:09 pm","i have a question
+i wanna use the arbitrum one like wallet and create invoices for users to pay, but i bont know can i can do it (","",""
+"539335702723297290","eveneasy","28/07/2023 1:12 pm","I was given the task to write a telegram bot in which users will pay their tariffs through Arbitrum one, as I understand it, an invoice is generated through the API, sent to the user, he pays, and the result is returned with a webhook, but how can I do this in Arbitrum one?","",""
+"539335702723297290","eveneasy","28/07/2023 1:13 pm","I personally am a beginner in cryptocurrency, so I have no experience in such matters (but it is urgent (","",""
+"539335702723297290","eveneasy","28/07/2023 1:15 pm","this is part of the technical task
+
+```The ʼPayʼ and ʼTariffsʼ buttons will redirect to the message ""Choose your tariff""
+ with buttons for 4 types of tariff
+
+ each button should redirect to payment in crypto (here it depends on which payments you worked with. preferably USDT (TRC20) or USDT (Arbitrum One), the bot should check the confirmation of the trace via Txid) I can implement the payment on Binancepay myself, but I want  everything was automatic.
+
+ after that, the information about the payment should be sent to the google table with the user's nickname and his number, and he should receive a message in response that everything is successful, and I should be able to manually send messages with access data to each individual.  because I am not yet able to create it automatically.```","",""
+"539335702723297290","eveneasy","28/07/2023 1:18 pm","first i want to understand if my option i.e create invoices and get result via webhook is possible","",""
+"539335702723297290","eveneasy","28/07/2023 1:21 pm","sorry, my english is bad (","",""
+"781046902665379860","JasonWan#9935","28/07/2023 1:22 pm","You can use arbitrum one as a network, we have full evm rpc method which allows you to interact with blockchain: https://github.com/OffchainLabs/nitro-contracts/blob/1b10711dc5f2eeefebc8c9f07d5c5f580534f703/src/rollup/RollupUserLogic.sol#L309-L327 , you can see those api and find which fit your demands.","",""
+"268317969585537024","rnotoh","28/07/2023 3:05 pm","Hey, anyone here knows how the Orbit chain settlement works? Like is there an L2 tx that shows the settlement?","",""
+"539335702723297290","eveneasy","28/07/2023 3:13 pm","Do you have another example of how to do this in another programming language? For example, Python, JavaScript, or others?","",""
+"945548738607321089","adamdigitex","28/07/2023 3:15 pm","when bridging tokens its great that we can ignore L2 finality and sequence delayed messages immediately, its such a good UX for the user to be able to click on a button and his tokens instantly transfer from his Arbitrum wallet to his L3 wallet. So in the interests of minimizing the time it takes to withdraw his tokens from L3 to L2 what is the minimum practical challenge period I can set on my L3 chain?","",""
+"945548738607321089","adamdigitex","28/07/2023 3:19 pm","are there any technical limitations (like needing a signed signature maybe) why I couldn't create a L1 to L3 bridge that sends the tokens to L2 and then to L3 in the background without the user needing to worry about the L2 step?","",""
+"539335702723297290","eveneasy","28/07/2023 3:23 pm","i need use web3 ?","",""
+"539335702723297290","eveneasy","28/07/2023 3:49 pm","or maybe i can use Arbitrum Api ?
+for create invoices and get results","",""
+"539335702723297290","eveneasy","28/07/2023 3:53 pm","Does anyone have an example of how this can be implemented in Python or JavaScript or another similar language?","",""
+"165550481156866048","plasmapower","28/07/2023 6:44 pm","That isn't a matter of challenge time, it's a matter of the delayed sequencer. Adding the CLI options (or equivalent JSON config options) `--node.delayed-sequencer.use-merge-finality=false --node.delayed-sequencer.finalize-distance=0` should do that (try 1 if 0 doesn't work). The only implication here should be that you're trusting the L2 sequencer not to reorg, and if the L2 reorgs then the L3 will also reorg.","","🔥 (1),👍 (1)"
+"945548738607321089","adamdigitex","28/07/2023 7:13 pm","But the L2 practically never reorgs right?","",""
+"945548738607321089","adamdigitex","28/07/2023 7:14 pm","Does that mean I can also do instant L3 to L2 withdrawals as well as deposits?","",""
+"945548738607321089","adamdigitex","28/07/2023 7:15 pm","Because I thought the reason it takes a week to withdraw from L2 to L1 is because that’s the duration of the challenge period","",""
+"165550481156866048","plasmapower","28/07/2023 7:34 pm","L1 doesn't reorg a week of history. The reason why the challenge period is a week is because that's how long Vitalik theorized a censorship attack could last before social consensus steps in.","",""
+"945548738607321089","adamdigitex","28/07/2023 7:37 pm","Oh I thought it was a week because that’s how long they gave the two disagreeing stakers to play the challenge game","",""
+"165550481156866048","plasmapower","28/07/2023 7:41 pm","The challenge game can be played very quickly (I'd guess an hour would be more than enough normally), the concern is censorship attacks yeah","",""
+"539335702723297290","eveneasy","29/07/2023 12:10 am","Good evening, please advise on the algorithm to create an invoice for payment and receive the payment result on web3.","",""
+"1104910065795879043","layerxceo","29/07/2023 12:16 am","Will it reorg automatically or L3 have to adapt at same time? This is very important in our case as we plan on have over 100 users in the first 2 months thank you","",""
+"165550481156866048","plasmapower","29/07/2023 12:18 am","If the L2 reorgs, the L3 will automatically reorg if it sequenced a delayed message that got reorged","","❤️ (1)"
+"1104910065795879043","layerxceo","29/07/2023 12:22 am","We have emailed chainsafe we want to modify the rollup contract to add ""affiliate"" system in the contract so any other L3. On our platform  can get a fee with out breaking the system for future updates.","",""
+"683912641902936125","royansroyce#7123","30/07/2023 3:54 pm","I'm curious about this as well","",""
+"876778999228022785","skalez.sol","30/07/2023 5:10 pm","Pls im trying to deploy on the arbitrum blockchain but I cant seem to find faucet 
+Pls how do i get arbitrum test faucet for testing purposes ??","",""
+"876778999228022785","skalez.sol","30/07/2023 5:10 pm","Can anyone help me with this","",""
+"159985870458322944","MEE6#4876","30/07/2023 6:06 pm","","",""
+"683912641902936125","royansroyce#7123","30/07/2023 6:07 pm","wow i used layer zero's testnet bridge to simply buy Goerli eth","",""
+"876778999228022785","skalez.sol","30/07/2023 6:27 pm","How much do i have to pay to get Goerli eth ?
+and can you send in link here","",""
+"945548738607321089","adamdigitex","31/07/2023 7:00 am","you can buy Goerli ETH at testnetbridge dot com its about 19 cents per token","",""
+"563089782687662087","gafder","31/07/2023 2:48 pm","YO","",""
+"438760749050101760","benjaminjwhitby","01/08/2023 7:27 pm","This is Ben from qredo qsign - cross chain control functionality.  I'm trying to reach a mod who might be able to spend some time with me and discuss collaboration opportunities.  Can someone dm pls.","",""
+"945548738607321089","adamdigitex","01/08/2023 9:48 pm","What is the recommended way to enable gasless transactions for users of my L3?","",""
+"308034275909959690","anthonye","01/08/2023 10:20 pm","Easy way to turn on wss for the block explorer or my node?","",""
+"308034275909959690","anthonye","01/08/2023 10:20 pm","I figure its probably easy, will look later when I have time but figured id ask here","",""
+"945548738607321089","adamdigitex","01/08/2023 11:14 pm","can I edit the minL2BaseFee easily or do I need to reset everything and start again?","",""
+"945548738607321089","adamdigitex","02/08/2023 2:41 am","How can I verify a smart contract on the blockscout explorer? Verify page still showing Internal server error. In general the explorer is pretty buggy, is this just because its on localhost maybe?","",""
+"539335702723297290","eveneasy","02/08/2023 2:42 am","I need help. I want to get the transaction amount that was sent to my wallet, but I only receive some hashes and the 'to' address does not match my wallet. However, when I check on Oklink, everything is displayed correctly. Can you suggest how to fix this? Python web3","",""
+"539335702723297290","eveneasy","02/08/2023 3:09 am","how i can get that info using python web3 ?","https://cdn.discordapp.com/attachments/1116812793606328340/1136050517664071771/image.png",""
+"945548738607321089","adamdigitex","02/08/2023 1:08 pm","what VPS service would you recomend for hosting an Orbit chain?","",""
+"945548738607321089","adamdigitex","02/08/2023 1:14 pm","Is there a tutorial for deploying an Orbit chain to a VPS instead of localhost? Seems tricky using docker-compose in prod","",""
+"539335702723297290","eveneasy","02/08/2023 1:17 pm","how i can get Contract ABI ?","",""
+"539335702723297290","eveneasy","02/08/2023 1:23 pm","i just need get Token Transfers from transaction
+but i cannot (","",""
+"308034275909959690","anthonye","02/08/2023 2:58 pm","Got my chain mostly on the cloud","",""
+"308034275909959690","anthonye","02/08/2023 2:58 pm","Cant get ngnix setup right super annoying","",""
+"308034275909959690","anthonye","02/08/2023 3:01 pm","everything works fine except wss. I can get it working on that machine locally but cant use wss remotely. Spent so long on it today i dont wanna talk about it lol
+Cant stright use the ip address and port ether so maybe its a firewall thing, but would assume i couldn't remote connect to my block explore or metamask to the chain.
+It's just wss, and like i said i can access it fine on the same machine
+remote i get 404 or 200 depending on the header settings","","🇵🇱 (1)"
+"966523115272286218","_mr.lance","02/08/2023 3:16 pm","@Ricardo__Gordon | Arbitrum  Could you help me?
+I'm running a nitro node locally, and when I execute ""l1GatewayRouter.outboundTransfer"" I incorrectly estimate the gasLimit, causing the transaction on L2 to fail.
+Since then nitro has been prompting the following error:
+
+Error while recording                    err=""recording failed: blockNum 39, hash expected 0x1c25c78159c7b0af6c2bd7ed559f47bb3be9a1b7992a11d4192008f8a7a4b12c, got 0xf7caae5f54f35f6aa5ed58bd039033e71739b4b1720685bb4e89cf026181a740"" status=2","",""
+"828261986751086592","ricardo__gordon","02/08/2023 3:17 pm","@José FP | Offchain Labs","","✊ (1),arbiblobblue (1)"
+"966523115272286218","_mr.lance","02/08/2023 3:25 pm","I have to disable the block validator. But I think there should be anther better solution.","",""
+"1062418969346179245","josefp","02/08/2023 4:23 pm","Hey, I'm assuming you're running an orbit chain, right? Is it the standard codebase or does it have any customisation? 
+Also, can you provide some more lines of logs before and after that one?","",""
+"1062418969346179245","josefp","02/08/2023 4:29 pm","I'd say you'd need a different economic design, because, for starters, you need to provide the batch poster with enough funds to post batches on the L2. If you want a more standard approach, you might want to take a look at Account Abstraction, which proposes a design that allows gasless transactions via a Paymaster contract (some sources: https://eips.ethereum.org/EIPS/eip-4337 and for paymasters => https://alchemy.com/blog/account-abstraction-paymasters )","",""
+"1062418969346179245","josefp","02/08/2023 4:32 pm","Yeah, we are still working out the details of the block explorer, so some inconsistencies are to be expected. I'll note down your feedback, thanks!","",""
+"1062418969346179245","josefp","02/08/2023 4:39 pm","For web3.py questions, you might get better support in their discord server. From an on-chain perspective, you can get the information of a transaction by querying its receipt with eth_getTransactionReceipt","",""
+"1062418969346179245","josefp","02/08/2023 4:42 pm","Have you tried contacting your cloud provider in case it's a network issue?
+Also, can you send rpc requests to your node from outside your machine? (Directly, without metamask)","",""
+"901068420764807178","atharv181","02/08/2023 5:59 pm","Also can you add the latest version of blockscout instead of older version in the container?","",""
+"308034275909959690","anthonye","02/08/2023 11:22 pm","after like a day of wasted time lmao the official website of nginx has an article about ""A small NGINX recipe that makes Geth’s RPC and Websocket interface remotely accessible on a node"" 
+follow its formatting for nginx and use  Web3.providers.WebsocketProvider with http instead of ws and you can connect
+this helped me over come a response of 200 instead of 101, i was using gcp and cloudflare for dns","https://cdn.discordapp.com/attachments/1116812793606328340/1136355819185782834/FZMXdRxXwAc4fuc.png","🇵🇱 (1)"
+"308034275909959690","anthonye","02/08/2023 11:22 pm","it works great now though, but any other source about websockets and nginx failed me","",""
+"1062418969346179245","josefp","03/08/2023 12:24 am","Glad to know you found the solution, and thanks for sharing 🙂","",""
+"159985870458322944","MEE6#4876","03/08/2023 3:40 am","","",""
+"159985870458322944","MEE6#4876","03/08/2023 7:32 am","","",""
+"966523115272286218","_mr.lance","03/08/2023 8:15 am","Thank you. Yes, I'm running an orbit chain, and I commented lines 203-207 of tx_processor.go.
+I'm not sure if it's this change that's causing the error.","",""
+"966523115272286218","_mr.lance","03/08/2023 8:16 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1136490128668381184/image.png",""
+"165550481156866048","plasmapower","03/08/2023 8:40 am","Yeah, the error you're seeing is because the fraud proofs aren't working because you've modified the node software's state transition function but not the fraud proof's replay binary target","","✊ (1)"
+"165550481156866048","plasmapower","03/08/2023 8:42 am","you can do `make build-replay-env` to rebuild the replay environment. Then, update the wasm module root on the rollup contract via the owner with setWasmModuleRoot. You can get the wasm module root you need after building the replay environment with `cat target/machines/latest/module-root.txt`","",""
+"165550481156866048","plasmapower","03/08/2023 8:43 am","finally, you need to make sure any validators have that replay binary so they can validate the chain. You can look at ""Download WAVM machines"" to see how it's done in docker, or if you're running a validator outside of docker locally it should work after the `make build-replay-env`","",""
+"945548738607321089","adamdigitex","03/08/2023 5:51 pm","still trying to figure out how to host my Orbit chain online. I cant use docker-compose because each component needs to be setup as a separate application. Is nitro in the docker-compose file the same nitro node used to run the main chain and I just need to set it up to run my chain instead?","",""
+"945548738607321089","adamdigitex","03/08/2023 5:52 pm","Is there any kind of guide for getting an Orbit chain online and not just running locally?","",""
+"808863308224528424","chrisco512","03/08/2023 9:06 pm","It's highly recommended that you figure out how to get docker to work; it's possible to build locally but there is a large chain of dependencies","",""
+"966523115272286218","_mr.lance","04/08/2023 8:18 am","Thanks,  but I got 0xda4e3ad5e7feacb817c21c8d0220da7650fe9051ece68a3f0b1c5d38bbb27b21 via cat target/machines/latest/module-root.txt. It is same as before🧐","",""
+"165550481156866048","plasmapower","04/08/2023 8:36 am","are you doing this in docker or outside of docker?","",""
+"165550481156866048","plasmapower","04/08/2023 8:37 am","if you build the `nitro-node-dev` docker image it'll alternatively be in there","",""
+"966523115272286218","_mr.lance","04/08/2023 8:42 am","I build the nitro image then got it from the container","",""
+"966523115272286218","_mr.lance","04/08/2023 8:45 am","ps: git@github.com:OffchainLabs/nitro.git tag v2.1.0-beta.4","",""
+"966523115272286218","_mr.lance","04/08/2023 8:55 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1136862486172291102/image.png",""
+"966523115272286218","_mr.lance","04/08/2023 8:57 am","My coworker and I build images separately, and we get this same hash","",""
+"165550481156866048","plasmapower","04/08/2023 9:02 am","only the -dev container builds the wasm, the rest just download the last consensus release","",""
+"165550481156866048","plasmapower","04/08/2023 9:03 am","if you want to do it in docker, build the nitro-node-dev image instead of the regular nitro-node one","",""
+"966523115272286218","_mr.lance","04/08/2023 9:07 am","I got it, thanks","",""
+"945548738607321089","adamdigitex","05/08/2023 9:55 am","I successfully got orbit setup on a VPS and can run docker-compose.yaml and I can see the block explorer on http:// myIPaddress:4000 but I'm stuck on the last part trying to run the yarn run setup command, I'm getting this error:
+`reason: 'could not detect network',
+  code: 'NETWORK_ERROR',
+  event: 'noNetwork'`","",""
+"945548738607321089","adamdigitex","05/08/2023 9:58 am","port 8449 is open. In the docker-compose.yaml file I have edited the line:
+ `nitro:
+    image: offchainlabs/nitro-node:v2.1.0-beta.6-152b9ff
+    ports:
+      - ""127.0.0.1:8449:8449""` 
+to this:
+`nitro:
+    image: offchainlabs/nitro-node:v2.1.0-beta.6-152b9ff
+    ports:
+      - ""139.444.756.112:8449:8449""` 
+is this correct to do this?","",""
+"945548738607321089","adamdigitex","06/08/2023 1:23 am","@LockCEO I'm getting the exact same error you got on the last step of setting this up on a VPS, how did you fix it?","",""
+"945548738607321089","adamdigitex","06/08/2023 1:26 am","port 8449 is open on my VPS, is there anything I need to do on Cloudflare side? But I think it's not being blocked on Cloudflare too but cant confirm that","",""
+"1104910065795879043","layerxceo","06/08/2023 3:51 pm","Everyone's preference is different we built out our own  contabo or digitalocean  these 2 are good options. Thanks","",""
+"945548738607321089","adamdigitex","07/08/2023 1:26 am","I remember you were stuck on that last step for a few days how did you end up fixing it? I'm in the exact same spot now, have tried everything but cant get the yarn run setup command to work because my L3 RPC URL isnt right","",""
+"781046902665379860","JasonWan#9935","07/08/2023 7:33 am","You don't need to change the ip, if your ip is public and your port is open, you can also visit it via 139.444.756.112:8449.","",""
+"945548738607321089","adamdigitex","07/08/2023 7:39 am","IP is public and port is open but just can’t get past that no network error","",""
+"781046902665379860","JasonWan#9935","07/08/2023 7:40 am","You need reset it to 127.0.0.1","",""
+"945548738607321089","adamdigitex","07/08/2023 7:48 am","I reset it to 127.0.0.1:8449 but I still get same error","",""
+"781046902665379860","JasonWan#9935","07/08/2023 7:57 am","Can you provide more details about your errors? Like what ip:port you query failed. And if it is your l3 rpc, where did you send this request, are they on the same machine? Or different machine with different ip?","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:00 am","","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:02 am","","",""
+"945548738607321089","adamdigitex","07/08/2023 8:04 am","I've setup the orbit-setup-script on a remote VPS but when I run this final setup command I get the no network error:
+`PRIVATE_KEY=""0xxxxxxxxxxxxxxxx"" L2_RPC_URL=""my_alchemy_RPC"" L3_RPC_URL=""http:// 139.162.246.110:8449"" yarn run setup`","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:06 am","Can you visit 127.0.0.1:8449 in the same vps?","",""
+"945548738607321089","adamdigitex","07/08/2023 8:07 am","its a remote VPS sorry how can I do that?","",""
+"945548738607321089","adamdigitex","07/08/2023 8:09 am","is there a command I can run in my terminal while signed into the VPS to check that?","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:10 am","```
+curl localhost:8449 \
+  -X POST \
+  -H ""Content-Type: application/json"" \
+  --data '{""method"":""eth_blockNumber"",""params"":[],""id"":1,""jsonrpc"":""2.0""}'
+```","",""
+"945548738607321089","adamdigitex","07/08/2023 8:19 am","no I get following error 
+`curl: (7) Failed to connect to localhost port 8449 after 0 ms: Couldn't connect to server`","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:22 am","","",""
+"945548738607321089","adamdigitex","07/08/2023 8:22 am","its hard to post results and commands with this forum's bot it deletes everything","",""
+"945548738607321089","adamdigitex","07/08/2023 8:24 am","but I can ssh into the running VPS and do stuff no problem so the server is running","",""
+"945548738607321089","adamdigitex","07/08/2023 8:24 am","and I can successfully ping the IP address from a terminal window from my computer","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:27 am","You got this at your vps or your local machine? If is your vps, seems your node is not running, if is your local machine, you might not open the vps' port.","",""
+"945548738607321089","adamdigitex","07/08/2023 8:28 am","I got that error in the terminal window of my remote VPS. Thats where I pasted the curl command, into the terminal of the remote VPS after logging in with ssh","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:30 am","","",""
+"945548738607321089","adamdigitex","07/08/2023 8:31 am","I have successfully run the docker-compose up -d command and get success messages that postgres_1, das-server_1, nitro_1 and blockscout_1 are running","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:31 am","Can you take a look at your node? `docker-compose logs -f nitro` and `docker ps` to see if it is running.","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:32 am","How about the log?","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:33 am","","",""
+"945548738607321089","adamdigitex","07/08/2023 8:33 am","aye I cant post anything, but yes you're right the node isnt running","",""
+"945548738607321089","adamdigitex","07/08/2023 8:34 am","`Fatal configuration error: unable to create chain directory: mkdir /home/user/.arbitrum/Digitex Goerli: permission denied
+orbit-setup-script_nitro_1 exited with code 1`","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:35 am","Oh, if so you need grant the permission or use sudo to start.","",""
+"945548738607321089","adamdigitex","07/08/2023 8:39 am","but I'm logged in as root. I just ran `sudo docker-compose up -d` but same result","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:42 am","enter the orbit script dir and chmod -fR 777 ./config","",""
+"945548738607321089","adamdigitex","07/08/2023 8:47 am","oh you beauty!!! `docker-compose up -d` just worked and the logs are coming through now. Will try that setup command now","",""
+"945548738607321089","adamdigitex","07/08/2023 8:48 am","aye no I still get the same no network error","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:51 am","You can visit blockscout at remote machine right?","",""
+"945548738607321089","adamdigitex","07/08/2023 8:52 am","yes blockscout is working online","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:53 am","```curl http:// 139.162.246.110:8449 \
+  -X POST \
+  -H ""Content-Type: application/json"" \
+  --data '{""method"":""eth_blockNumber"",""params"":[],""id"":1,""jsonrpc"":""2.0""}'
+```","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:53 am","Can you try this?","",""
+"945548738607321089","adamdigitex","07/08/2023 8:55 am","`curl: (7) Failed to connect to 139.162.246.110 port 8449 after 0 ms: Couldn't connect to server`","",""
+"159985870458322944","MEE6#4876","07/08/2023 8:58 am","","",""
+"781046902665379860","JasonWan#9935","07/08/2023 8:58 am","Can you make sure you open 8449? Because this error quite like your port doesn't open or your cloud server safety group setting.","",""
+"945548738607321089","adamdigitex","07/08/2023 8:59 am","it's open, I did `ufw status` and it shows 8449 allowed","",""
+"781046902665379860","JasonWan#9935","07/08/2023 9:06 am","How about your cloud server's Security Groups?","",""
+"945548738607321089","adamdigitex","07/08/2023 9:17 am","ok I'll contact their support to check if they're blocking that port maybe. Thanks for your help with this, you pinpointed the problem for me and now I can try to figure out the solution, much appreciated","","💙 (1),🇵🇱 (1)"
+"966523115272286218","_mr.lance","09/08/2023 9:21 am","@AdamDigitex I ran a stress test on Layer 3 yesterday and found this error. After the error, batch-poster cannot rollup any data to Layer2. How to fix the error? Thanks!","https://cdn.discordapp.com/attachments/1116812793606328340/1138680956199374848/image.png",""
+"781046902665379860","JasonWan#9935","09/08/2023 11:33 am","Is your node still running? How is the logs?","",""
+"966523115272286218","_mr.lance","09/08/2023 11:44 am","My node is down, no anther logs i'm afraid","",""
+"781046902665379860","JasonWan#9935","09/08/2023 12:27 pm","Just this error logs cause before the node down? Can yo restart the node?","",""
+"966523115272286218","_mr.lance","09/08/2023 1:11 pm","Since rollup keeps failing, I've used another node rollup some data to L2, so all test txs  on error-node were droped. I'm trying to reproduce this error","",""
+"1138729209611681824","alirezadvm74","09/08/2023 1:25 pm","I didn't get my nft also i paid ethereum what should i do","https://cdn.discordapp.com/attachments/1116812793606328340/1138742442905063424/F2iuncOXgAARkGi.jpg",""
+"966523115272286218","_mr.lance","09/08/2023 2:06 pm","WARN [08-09|08:36:08.529] DataPoster failed to send transaction    err=""oversized data""     nonce=113  feeCap=250,000,000 tipCap=50,000,000
+ERROR[08-09|08:36:08.529] failed to replace-by-fee transaction     err=""oversized data""     nonce=113  feeCap=250,000,000 tipCap=50,000,000","",""
+"781046902665379860","JasonWan#9935","09/08/2023 2:24 pm","What are the logs after this?","",""
+"159985870458322944","MEE6#4876","09/08/2023 2:32 pm","","",""
+"966523115272286218","_mr.lance","09/08/2023 2:33 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1138759366254800947/image.png",""
+"966523115272286218","_mr.lance","09/08/2023 2:34 pm","Is this log useful?","",""
+"781046902665379860","JasonWan#9935","09/08/2023 2:37 pm","The logs between this error and shutdown info log","",""
+"966523115272286218","_mr.lance","09/08/2023 2:40 pm","take this log","https://cdn.discordapp.com/attachments/1116812793606328340/1138761141418459257/nitro.log",""
+"966523115272286218","_mr.lance","09/08/2023 2:41 pm","This node has not been shutdown so far.","",""
+"781046902665379860","JasonWan#9935","09/08/2023 3:05 pm","Oh, the logs show your tx failed due to revert, not because your batch poster not working","",""
+"966523115272286218","_mr.lance","09/08/2023 3:17 pm","I think that the ""oversized data"" caused the revert.","",""
+"966523115272286218","_mr.lance","09/08/2023 3:27 pm","the batch poster cannot to call the function ""addSequencerL2BatchFromOrigin"" due to the ""oversized data""","",""
+"781046902665379860","JasonWan#9935","09/08/2023 3:29 pm","Your tx reverted before the ""oversized data"" error, and you can check what your eth_call is. You should receive the revert reason after you send that eth_call.","",""
+"966523115272286218","_mr.lance","09/08/2023 3:30 pm","transfer ETH","",""
+"966523115272286218","_mr.lance","09/08/2023 3:33 pm","I want to limit the datasize per L3’s block","",""
+"781046902665379860","JasonWan#9935","09/08/2023 3:39 pm","Transfer eth should not use eth_call but eth_sendTransaction","","✊ (1)"
+"781046902665379860","JasonWan#9935","09/08/2023 3:40 pm","https://docs.alchemy.com/reference/eth-call","",""
+"781046902665379860","JasonWan#9935","09/08/2023 3:42 pm","Our config file doesn't support this, you need to re-write the hardcode number and compile it: https://docs.arbitrum.io/node-running/how-tos/build-nitro-locally","",""
+"966523115272286218","_mr.lance","09/08/2023 3:48 pm","Thank you! I will read it","",""
+"159985870458322944","MEE6#4876","09/08/2023 7:08 pm","","",""
+"159985870458322944","MEE6#4876","10/08/2023 12:51 pm","","",""
+"945548738607321089","adamdigitex","10/08/2023 12:54 pm","`reason: 'could not detect network',
+  code: 'NETWORK_ERROR',
+  event: 'noNetwork'`
+I just can't get past this error on the final step trying to do yarn run setup. The port 8449 is still closed but its allowed to be opened by iptables and ufw but no service is setup to be listening on it so thats why its still closed. No idea what to do next","",""
+"945548738607321089","adamdigitex","10/08/2023 12:55 pm","`docker-compose logs -f nitro` shows the logs fine so the node is running","",""
+"945548738607321089","adamdigitex","10/08/2023 12:58 pm","I also can't see the block explorer at http:// 123.456.78.999:4000 but if I edit the docker-compose.yaml file by changing the 127.0.0.1 part to my IP address in the blockscout section then I can see it","",""
+"781046902665379860","JasonWan#9935","10/08/2023 3:51 pm","How about try change 127.0.0.1 to  0.0.0.0?","",""
+"945548738607321089","adamdigitex","10/08/2023 5:17 pm","OMG that worked!!!","",""
+"945548738607321089","adamdigitex","10/08/2023 5:19 pm","thank you so much. I got a different error now 🙂 
+`Setting the infrastructure fee collector address for the appchain
+Error occurred: Error: processing response error (body=""{\""jsonrpc\"":\""2.0\"",\""id\"":77,\""error\"":{\""code\"":-32000,\""message\"":\""intrinsic gas too low\""}}\n"", error={""code"":-32000}`","",""
+"945548738607321089","adamdigitex","10/08/2023 5:23 pm","in my orbitSetupScriptConfig.json file I have set my base fee to be `""minL2BaseFee"": 10000000` but that worked fine when I did that on local. Or is the error referring to something else?","",""
+"945548738607321089","adamdigitex","10/08/2023 5:27 pm","I can set my base gas fee to be whatever I want right?","",""
+"945548738607321089","adamdigitex","10/08/2023 5:37 pm","ok no worries I just ran the yarn run setup command again unchanged and this time it worked. So I'm all set up on a VPS 🙂 👍","","🙏 (2),👍 (2)"
+"945548738607321089","adamdigitex","12/08/2023 4:57 am","guys your moderator bot is on crack, it blocks half the things I post","",""
+"945548738607321089","adamdigitex","12/08/2023 4:58 am","I just typed a message 4 times and cant figure out why its being blocked. No links, no dollar signs, just a regular question","",""
+"945548738607321089","adamdigitex","12/08/2023 5:13 am","just tried 3 more times I give up, just trying to ask about gas prices ffs","",""
+"941609672606093352","alekseyionov","12/08/2023 5:10 pm","Hello! Tell me why in the metamask it says that the transaction failed. Although in fact she passed","",""
+"915184466157252618","rexue.","13/08/2023 7:46 am","any update?","",""
+"773561807717662741","0xtsuan","13/08/2023 2:19 pm","Is it possibel hack a Orbit chain with our new verify protocol like AnyTrust but customized?","",""
+"577613876896727071","femzzyfembros","14/08/2023 1:21 am","Hello, you can see how we calculate gas here: https://developer.arbitrum.io/devs-how-tos/how-to-estimate-gas#breaking-down-the-formula","",""
+"945548738607321089","adamdigitex","15/08/2023 1:05 pm","I'm sending ~25 transactions a minute to my chain 24 hours a day and its running well so far. But I'm noticing that the memory usage of nitro on my VPS is creeping up everyday, now its at 54.5%. Its a dedicated server with 4GB RAM, 2 CPUs and 80 GB storage with nothing else running on it, do I need more RAM?","",""
+"781046902665379860","JasonWan#9935","15/08/2023 1:09 pm","Yes, 4gb ram is not so enough as geth recommand to have 16 gb ram: https://geth.ethereum.org/docs/getting-started/hardware-requirements","",""
+"945548738607321089","adamdigitex","15/08/2023 1:09 pm","ok thanks for that","",""
+"945548738607321089","adamdigitex","16/08/2023 4:11 am","https:// goerli.arbiscan.io/tx/0x16c87f8b72b17eb06a8a13a015a11d38760dfea3848db38d36665db02ced75e7","",""
+"945548738607321089","adamdigitex","16/08/2023 4:12 am","above is a transaction that posted my rollup onto L2 testnet, how is it possible that the gas cost 56 gwei?","",""
+"945548738607321089","adamdigitex","16/08/2023 4:14 am","my VPS is running 24 hours a day so my rollups are being posted every hour to L2 and the tx cost ranges between 3 cents and 31 cents depending on how much data is in there. But then this one comes along and costs 168 usd, is this an error with goerli testnet?","",""
+"945548738607321089","adamdigitex","16/08/2023 4:17 am","and now none of my L3 transactions will go through, I get the `intrinsic gas too low` error but nothing has changed on my end. Is this an error out of my control or is there something I can do?","",""
+"945548738607321089","adamdigitex","16/08/2023 4:23 am","I though gas on L2 was fixed at 0.1 gwei, how can a tx cost 56 gwei","",""
+"165550481156866048","plasmapower","16/08/2023 5:22 am","It's not fixed, that's just the minimum if there's no congestion. If so many people are transacting that the chain's speed limit is exceeded, then the gas price goes up until gas per second returns to the chain's speed limit.","",""
+"945548738607321089","adamdigitex","16/08/2023 6:54 am","I havent been able to do a transaction on my L3 since that 56 gwei rollup tx, `intrinsic gas too low` error is referring to my chain or to the estimated calculation for the L2 rollup tx?","",""
+"945548738607321089","adamdigitex","16/08/2023 7:38 am","if I 10x the gas limit on my transactions then they go through, the extra cost is for the estimated gas cost of the rollup tx","https://cdn.discordapp.com/attachments/1116812793606328340/1141191772823892131/Screen_Shot_2023-08-15_at_8.33.02_PM.png",""
+"945548738607321089","adamdigitex","16/08/2023 7:42 am","but that doesnt make any sense because gas costs on Goerli Arbitrum are back to normal now, it was just a spike but since then I cant do normal priced txs","",""
+"781046902665379860","JasonWan#9935","16/08/2023 7:47 am","This isn't real time sync, it depends on your last batches, because your node don't know what will the gas price of the base chain be next batch.","",""
+"945548738607321089","adamdigitex","16/08/2023 7:48 am","but its done 2 batch posts since then at the normal rate","",""
+"945548738607321089","adamdigitex","16/08/2023 7:48 am","both done at 0.1 gwei as normal","",""
+"781046902665379860","JasonWan#9935","16/08/2023 7:55 am","As it has some deny on this, your tx on l2 need to have enough tx to make the it balance, also, you shouldn't fix your tx's gasLimit too since it will also change due to l1's gas change.","",""
+"429895626239639572","josue.0","16/08/2023 8:03 am","sorry, has anyone run stress tests on orbit? (preferrably on anytrust) and what hardware did you use, I'm evaluating a chain for a potential project in my startup TuRuta in Peru ✌️
+
+I mean TPS limit","",""
+"945548738607321089","adamdigitex","16/08/2023 9:15 am","I added gas limit into the fee data because without it my node logs show 2 extra lines for every submitted transaction:
+`Caller gas above allowance, capping      requested=21,201,444,796 cap=51,676,483`
+`Gas estimation capped by limited funds   original=1,125,899,906,842,624 balance=423,987,979,716,899,040 sent=0 maxFeePerGas=20,000,000 fundable=21,199,398,985`","",""
+"945548738607321089","adamdigitex","16/08/2023 9:15 am","but yeah without the gas limit the txs go through no problem. They're still 10x the cost that they were but they go through","",""
+"945548738607321089","adamdigitex","16/08/2023 9:17 am","is there any way to tell it the actual current L1 gas to get my tx cost down to normal levels again?","",""
+"945548738607321089","adamdigitex","16/08/2023 9:30 am","I've been sending 25 txs per minute 24 hours a day for a few days to my orbit chain on a VPS and its pretty bullet proof. I started it on a 4GB RAM server which wasnt enough so I upped it to 24GB RAM and thats fine","https://cdn.discordapp.com/attachments/1116812793606328340/1141219997524430928/Screen_Shot_2023-08-15_at_12.50.05_PM.png","🙌 (1),🙏 (1)"
+"945548738607321089","adamdigitex","16/08/2023 9:34 am","but I havent hammered it to find out the TPS limit. I suspect its high because its very stable, feels very robust","",""
+"781046902665379860","JasonWan#9935","16/08/2023 11:33 am","You can call this to get the current l1 gas per byte: https://github.com/OffchainLabs/nitro-contracts/blob/main/src/precompiles/ArbGasInfo.sol#L22","",""
+"466788298610966530","pailoeth","16/08/2023 6:20 pm","i cant send BNB from BSC to opBNB can anyone help me, please","",""
+"945548738607321089","adamdigitex","16/08/2023 6:39 pm","yeah I get how it works now, my tx cost on L3 has been gradually dropping since that gas spike so all good","",""
+"828261986751086592","ricardo__gordon","16/08/2023 6:40 pm","@pailoeth Be very carefull with scammers trying to send you messages. I believe you're talking about Optimism so...better to talk with them.","",""
+"338192720403234816","0xmlze","16/08/2023 9:29 pm","hey have a few questions on Arbitrum Orbit that i dont think i can find in the docs
+
+are orbit chains obliged to share any sequencer profits with the Arbitrum DAO?","",""
+"1087208871329796136","rickey_cole","16/08/2023 9:47 pm","Have you gotten your issue resolved?","",""
+"1062418969346179245","josefp","16/08/2023 10:41 pm","Sequencers usually don't take any profit (they are refunded what they spent for posting transactions on L1). But in any case, Orbit chains are not obliged to share profits with the DAO.","",""
+"579972014538752001","lalagarwal","17/08/2023 5:39 pm","Have you sent your BNB from BSC to opBNB ?","",""
+"945548738607321089","adamdigitex","18/08/2023 2:43 pm","I've sent over 300k transactions in the last week but I can't get my block time below ~2.5 seconds. It's like the sequencer can't go any faster than that. If I start sending transactions from 2 different processes the sequencer still plods along at 2.5 seconds for each block and it takes twice as long for txs to go through. How do I speed it up to the maximum possible time of 250ms?","",""
+"945548738607321089","adamdigitex","18/08/2023 2:45 pm","I only have 2 CPUs on a dedicated VPS but I have 24GB RAM, is it a hardware issue?","",""
+"945548738607321089","adamdigitex","18/08/2023 2:49 pm","and when running both processes that send txs simultaneously I never get 2 of my txs in the same block. Every block only has one of my txs in it plus the StartBlock tx","",""
+"945548738607321089","adamdigitex","18/08/2023 3:14 pm","nitro CPU usage is ranging between only 2-7% and memory usage stands at 12% so I don't think its a hardware issue","",""
+"1064029319850102845",".kiI.lahcam#7344","18/08/2023 4:26 pm","Check lnbox","",""
+"274730732818268161","rooo555","18/08/2023 6:18 pm","@Tractors","",""
+"705450070161621004","tractorss","18/08/2023 6:19 pm","hey","",""
+"705450070161621004","tractorss","18/08/2023 6:19 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1142077829354369136/Screenshot_2023-08-18_at_6.16.09_PM.png",""
+"705450070161621004","tractorss","18/08/2023 6:19 pm","This is the error im facing, the node is running in docker","",""
+"159985870458322944","MEE6#4876","18/08/2023 6:31 pm","","",""
+"705450070161621004","tractorss","18/08/2023 6:47 pm","this is resolved, used http:// 127.0.0.1:8449  instead of localhost","","arbiblobblue (1)"
+"338192720403234816","0xmlze","18/08/2023 6:52 pm","trying to send this but getting blocked","https://cdn.discordapp.com/attachments/1116812793606328340/1142086187515904050/image.png",""
+"338192720403234816","0xmlze","18/08/2023 6:54 pm","E.g. Optimism details its 1559-like schema with different parameters to Ethereum mainnet. (As i understand Orbit settles back to Arbitrum L2, so i want to be able to understand exactly how Arbitrum prices L2-specific part of gas)","",""
+"1062418969346179245","josefp","18/08/2023 9:42 pm","Hey, this article might help you => https://medium.com/offchainlabs/understanding-arbitrum-2-dimensional-fees-fd1d582596c9
+Basically, high demand will increase the gas price, which might decrease the actual gas used (because of the factor of the L1 gas variable in the formula).
+The article explains the formula. For a more practical approach, you also have this how to => https://docs.arbitrum.io/devs-how-tos/how-to-estimate-gas","",""
+"338192720403234816","0xmlze","18/08/2023 10:15 pm","ty but  i've been through this many times - it doesn't mention how Arbitrum ramps up its L2 execution gas fee in periods of high demand. For example, Optimism has a page explaining theirs here: https://community.optimism.io/docs/developers/build/differences/#accessing-l1-information","",""
+"945548738607321089","adamdigitex","18/08/2023 10:26 pm","How do I get my block times to 250ms with multiple transactions in each block?","",""
+"945548738607321089","adamdigitex","19/08/2023 1:17 am","hmm so I sent the exact same txs to Arbitrum Goerli instead of my L3 and I'm getting the exact same latency so its not an error with Orbit. Trying to figure out now why it takes so long to process a tx to my smart contract","",""
+"945548738607321089","adamdigitex","19/08/2023 1:24 am","each transaction is created by sending a command to a nodejs file that does stuff like  `const provider = new ethers.providers.JsonRpcProvider(alchemy);` and `const tradingGameContract = new ethers.Contract(tradingGameAddress, tradingGameAbi, signer)` so I guess there's a latency to spinning all that up from scratch each time. I'll look into how to set it up once and then keep calling it","",""
+"945548738607321089","adamdigitex","19/08/2023 4:55 am","yeah I got it figured out it was just me doing it wrong, transactions are going through real fast. Sorry for all my dumb questions I'm new to all this","","👍 (1)"
+"504951851473567754","VienNguyen#4040","19/08/2023 5:01 pm","Can i ask a question ""is orbit chain permissionless , can we build our L3 chain without permission of ArbDAO ? "" @José FP | Offchain Labs","",""
+"371277669930893314","yanzero","20/08/2023 6:19 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1142802542745624686/image.png",""
+"781046902665379860","JasonWan#9935","21/08/2023 8:26 am","When gas speed higher than 7m/s, the price will follow: F = exp(-a(B-b)) which you can see details here: https://docs.arbitrum.io/inside-arbitrum-nitro/#l2-gas-fees","",""
+"781046902665379860","JasonWan#9935","21/08/2023 8:27 am","It's permissonless for deploying l3 using orbit","",""
+"781046902665379860","JasonWan#9935","21/08/2023 8:29 am","1.It's here: https://github.com/OffchainLabs/nitro/tree/master/precompiles and written by golang. 2. You can use eth_call or eth_estimate (If contract not specific, just use eth_call) to call the precompile contracts.","",""
+"371277669930893314","yanzero","21/08/2023 8:30 am","thank you","",""
+"890679564873912330","andris4091","22/08/2023 3:35 am","Hi!🤓","",""
+"1062465449708757013","cryptomonk_","22/08/2023 5:17 am","You’re having issues ?","",""
+"1008352019297353778","mxber2022","22/08/2023 9:04 pm","how to route message from L2 to L3 (orbit) ?. thanks","",""
+"755423697027727471","msv_mahsa#6693","22/08/2023 9:29 pm","You can send L2 -> L3 messages in the same way that you can send L1 -> L2 messages. It's not synchronous though. If you need synchronicity, you'll have to provide or use an oracle for that. For example an L2 contract can make an static call to an L3 contract via a ""Retryable Ticket"" (our name for cross-layer messages): see https://docs.arbitrum.io/arbos/l1-to-l2-messaging for analogous details which would also apply for L2 to L3","",""
+"1008352019297353778","mxber2022","22/08/2023 10:39 pm","Thanks for your responce. I get this error for orbit chain id:  throw new errors_1.ArbSdkError(`Unrecognized network ${chainID}.`);","",""
+"781046902665379860","JasonWan#9935","23/08/2023 8:05 am","You can call addCustomNetwork to add your orbit network support: https://github.com/OffchainLabs/arbitrum-sdk/blob/main/src/lib/dataEntities/networks.ts#L362","",""
+"1008352019297353778","mxber2022","23/08/2023 6:40 pm","great . thanks","",""
+"909865544243642418","0xkamal7","26/08/2023 6:12 pm","Hey @Jason Wan | Offchain Labs @Lee Bousfield | Offchain Labs , how can we deploy contracts on the orbit chain ?","",""
+"739875984265707611","oooo6738","27/08/2023 1:21 am","Came to ask the same question 😄","",""
+"739875984265707611","oooo6738","27/08/2023 1:30 am","The Quickstart guide (https://docs.arbitrum.io/launch-orbit-chain/orbit-quickstart) defaults the l2 url to `https://goerli-rollup.arbitrum.io/rpc    `","",""
+"739875984265707611","oooo6738","27/08/2023 1:31 am","is it possible to point your own Arb Nova currently?","",""
+"909865544243642418","0xkamal7","27/08/2023 7:24 am","No , I dont think .Theres very little customization available rn","","👌 (1)"
+"739875984265707611","oooo6738","27/08/2023 12:51 pm","How do you get a smart contract onto the QuickStart guide example orbit node to test?","",""
+"909865544243642418","0xkamal7","27/08/2023 7:53 pm","@tsahi @Churro | Offchain Labs anyone ? hints would be nice to have too","",""
+"781046902665379860","JasonWan#9935","28/08/2023 8:23 am","Of course, orbit is based on nitro tech, and it is evm-compatible, you can deploy your contract as what you do on arb1.","","👍 (1)"
+"781046902665379860","JasonWan#9935","28/08/2023 8:25 am","Do you meet any issues?","",""
+"909865544243642418","0xkamal7","28/08/2023 10:29 am","uhmm thats half part said , Can you please check your msges , I mma sending you some config related file","",""
+"781046902665379860","JasonWan#9935","28/08/2023 11:43 am","I didn't receive your message, I have sent a friend request","",""
+"909865544243642418","0xkamal7","28/08/2023 1:33 pm","Accepted, please check now","",""
+"909865544243642418","0xkamal7","28/08/2023 2:32 pm","are you there @Jason Wan | Offchain Labs  ?","",""
+"781046902665379860","JasonWan#9935","28/08/2023 4:18 pm","Yes, but I didn't see any messages, you need to send again","",""
+"909865544243642418","0xkamal7","28/08/2023 5:22 pm","sent","",""
+"634848172656820224","igor.ai","28/08/2023 11:43 pm","Hello! What are the plans to enable Sepolia support?","",""
+"992455768404148224",".mehdisalehioffchainlabs","29/08/2023 2:41 am","Would be in the next release, soon, but we don’t have exact release time yet","","👌 (1)"
+"470176164564959242","alsayadii","29/08/2023 4:22 am","is the Instructions on orbit-setup-script on github (https://github.com/OffchainLabs/orbit-setup-script) outdated?   i cannot find these file nodeConfig.json, orbitSetupScriptConfig.json","",""
+"470176164564959242","alsayadii","29/08/2023 4:25 am","@Mehdi Salehi | Offchain Labs","",""
+"992455768404148224",".mehdisalehioffchainlabs","29/08/2023 7:39 am","No, when you deploy, two black boxes will be shown on the page, there is a download button on each of them","",""
+"828261986751086592","ricardo__gordon","29/08/2023 7:47 pm","https://discord.com/channels/585084330037084172/978694555127930900/1146085075008622592","","👍 (1)"
+"634848172656820224","igor.ai","30/08/2023 1:33 am","Thanks! What changes are needed for the orbit setup script?
+Also, is orbit/nitro deve support for apple m2?","",""
+"755423697027727471","msv_mahsa#6693","30/08/2023 1:41 am","Here's the guide for launching your obit chain:
+https://docs.arbitrum.io/launch-orbit-chain/orbit-quickstart
+
+But if your'e asking about orbit and arb sepolia; stay tuned as we update our docs and UI respenctively when it's live","","👍 (1)"
+"634848172656820224","igor.ai","30/08/2023 1:42 am","Thanks! I've been following these instructions. I'm looking to run a custom nitro fork, however, and I'm experiencing build issues on m2.  It seems debian is supported only?
+
+https://docs.arbitrum.io/node-running/how-tos/build-nitro-locally","",""
+"755423697027727471","msv_mahsa#6693","30/08/2023 2:13 am","Yeah those instructions are for debian. I don't think we have official instructions for other distros or mac, but it can mostly be derived from the debian one","","👌 (1),👍 (1)"
+"786586258070831105","ambot2k","31/08/2023 1:25 am","Hey alien, get a life you just joined few days ago and you talk that you know everything","",""
+"985790543621677066","justfortest.","01/09/2023 2:04 pm","account= err=""no wallet exists, re-run with --l1-batch-poster.wallet.only-create-key to create a wallet""","",""
+"985790543621677066","justfortest.","01/09/2023 2:04 pm","anyone help me?","",""
+"985790543621677066","justfortest.","01/09/2023 2:23 pm","error getting latest batch count: missing trie node","",""
+"1146592338894917642","johnwebxcrypto","01/09/2023 3:21 pm","What error do you get ?","",""
+"985790543621677066","justfortest.","01/09/2023 4:15 pm","orbit-setup-script-nitro-1","",""
+"763054419029524503","gece48","04/09/2023 3:38 am","0x7B8f0B8E09ca522Ad3418fb89B9176f1bc74644c
+
+thanks, no problem","https://cdn.discordapp.com/attachments/1116812793606328340/1148016603829645372/image.png",""
+"1147297129774190632","johnxweb","04/09/2023 3:58 am","What is that ?","",""
+"985790543621677066","justfortest.","04/09/2023 8:41 am","This problem was solved after I set the private key of batch-poster.","",""
+"985790543621677066","justfortest.","04/09/2023 8:44 am","Does anyone know what node's forwarding-target should be set to? If I want to start an orbit chain locally","",""
+"966523115272286218","_mr.lance","04/09/2023 11:58 am","You can set it to """" if you set sequencer to enable","",""
+"985790543621677066","justfortest.","04/09/2023 2:00 pm","How should I transfer ETH from L3 to L2?","",""
+"985790543621677066","justfortest.","04/09/2023 2:14 pm","L3 is deployed locally and L2 is Arb-Goerli","",""
+"590272324331372554","happyk21#1712","04/09/2023 3:12 pm","Orbit is launching this month?","",""
+"1062418969346179245","josefp","04/09/2023 6:38 pm","Just do a regular withdraw from your L3, here's an example => https://github.com/OffchainLabs/arbitrum-tutorials/tree/master/packages/eth-withdraw","",""
+"1062418969346179245","josefp","04/09/2023 6:41 pm","Orbit is currently available on testnet to prototype and experiment, but it is not production-ready yet. There's no current ETA on when that'll happen, but we are working hard to have it ready as soon as possible.","",""
+"634848172656820224","igor.ai","04/09/2023 7:03 pm","What are the steps to add a new precompile?","",""
+"1062418969346179245","josefp","04/09/2023 8:25 pm","Hey, while it is technically possible, we are not providing support for adding new precompiles at the moment.
+You'd have to have a solidity interface and a go implementation, and you might have to change other parts of the nitro code base. You can take a look at one of the existing precompiles to see how it is integrated with the rest of the system.","","👍 (1)"
+"634848172656820224","igor.ai","04/09/2023 10:49 pm","Is Stylus available within orbit chains?","",""
+"822752651321933844","qweez1x","04/09/2023 11:33 pm","On the site, when changing a pair of networks in some places, the metamask extension always offers to switch to the mainnet. And so everything is very fast and detailed 
+0x3F04e50691cEE0F64bd2849931848229189DdF1E","https://cdn.discordapp.com/attachments/1116812793606328340/1148317502569463808/image.png",""
+"1022170556583399535",".scarletssstarktitan","05/09/2023 3:08 am","Hence were you able to disconnect from the main net yet ?","",""
+"634848172656820224","igor.ai","05/09/2023 6:34 am","How can I use the deployment tool for a Stylus sepolia chain?","",""
+"634848172656820224","igor.ai","05/09/2023 6:34 am","https://orbit.arbitrum.io/deployment","",""
+"808863308224528424","chrisco512","06/09/2023 12:17 am","it will be, yes, but Stylus is currently alpha and undergoing audits and rapid development so it will be likely a couple months before it's available for production use cases","","👌 (1),🇵🇱 (1)"
+"934863441146048603","heisenbergbufferfinance","06/09/2023 9:14 pm","Hey any estimate of the gas costs for transactions on a Orbit Anytrust deployment?
+
+Currently Arbitrum One is at 0.1 gwei and Nova at 0.01 gwei -- can I expect another 1 or 2 order of magnitude reduction in the gas costs?
+
+Or is the question itself wrong and the I can set the costs while deploying the chain?","",""
+"1062418969346179245","josefp","06/09/2023 10:47 pm","You can set that at deployment or by calling ArbOwner.setMinimumL2BaseFee as the owner of the chain => https://github.com/OffchainLabs/nitro/blob/36a6beaa22ab9d9b3257d210303ce7d49488856f/contracts/src/precompiles/ArbOwner.sol#L34","",""
+"934863441146048603","heisenbergbufferfinance","06/09/2023 10:49 pm","Thanks, I guess the better question would be how much gas would the validator be paying for making rollup txn on Arbitrum One -- my question is as a dapp operator we sponsor the fees for all our user on Arbitrum One, would running my dapp on a self deployed L3 help reduce these gas costs and by how much?","",""
+"1062418969346179245","josefp","06/09/2023 11:15 pm","It's hard to measure without actual numbers, but here are a few things to keep into consideration: 
+- Your biggest cost will be the sequencer posting the batches into the parent chain (L2). This cost will be a formula based on the computation costs of the transactions (L3) + cost of posting the batch on L2 + relative cost of posting the batch on L1 (small in its current state, if your batches aren't too big). 
+- If you deploy an Anytrust Orbit chain, you will benefit from smaller batches to post on L2 (and, thus, a reduction in costs).
+- Reducing the base fee too much opens up the possibility of users spamming your network.
+- You can try to get some numbers by running a testnet orbit chain, execute some transactions and scale that to current activity you have in your dapp, so you'll be able to have a clearer image.","",""
+"605968337637212173",".hero777","07/09/2023 9:15 pm","everything works perfect 0x34b111Ee7738604d034687E71dF51Bf2e5Bcec1A","https://cdn.discordapp.com/attachments/1116812793606328340/1149369821142720582/2023-09-07_18.40.11.png,https://cdn.discordapp.com/attachments/1116812793606328340/1149369821469888512/2023-09-07_18.42.49.png",""
+"590459958144008212","windowsnodeasy","08/09/2023 7:58 am","When there is no transaction, l3 orbit will not produce blocks. Is this normal?","",""
+"781046902665379860","JasonWan#9935","08/09/2023 8:31 am","It's normal","",""
+"590459958144008212","windowsnodeasy","08/09/2023 9:07 am","@Jason Wan | Offchain Labs Is it possible to set it so that no matter whether there is a transaction or not, the block will be generated at an interval?","",""
+"781046902665379860","JasonWan#9935","08/09/2023 9:29 am","I don't think so. And l2 block generation is different from l1 since we don't have a consensus like pos or pow, so l2 doesn't have a fixed block time.","",""
+"590459958144008212","windowsnodeasy","08/09/2023 12:07 pm","@Jason Wan | Offchain Labs After the deployment is complete, can I modify the gas cost of l3.","",""
+"590459958144008212","windowsnodeasy","08/09/2023 12:27 pm","Is it possible to extract eth from l3 to l2 now?","",""
+"1062418969346179245","josefp","08/09/2023 5:58 pm","If you mean the base fee, yes you can call ArbOwner.setMinimumL2BaseFee as the owner of the chain => https://github.com/OffchainLabs/nitro/blob/36a6beaa22ab9d9b3257d210303ce7d49488856f/contracts/src/precompiles/ArbOwner.sol#L34","",""
+"1062418969346179245","josefp","08/09/2023 6:01 pm","You should be able to withdraw ETH from L3 by calling the ArbSys.withdrawEth method => https://github.com/OffchainLabs/nitro/blob/36a6beaa22ab9d9b3257d210303ce7d49488856f/contracts/src/precompiles/ArbSys.sol#L79","",""
+"711300733449928784","otkrblvanie","08/09/2023 11:21 pm","Hej, i was tested a Sepolia, everything works great.
+ 0x0D3d3211fB37E86EfA97128fb77afC692A4be2Bb","https://cdn.discordapp.com/attachments/1116812793606328340/1149764001333522442/image.png",""
+"956594067599396864","lionwix","09/09/2023 11:14 am","0x63cE74Ca776D1cd528AC2F9cb3A85d9dC71f0B35","https://cdn.discordapp.com/attachments/1116812793606328340/1149943343669854300/Screenshot_9.png,https://cdn.discordapp.com/attachments/1116812793606328340/1149943343925698641/Screenshot_10.png",""
+"1093164207144435823","0xheyadityaa","10/09/2023 3:43 pm","how do u minted onchain power ?","",""
+"612297594634371072","whgreate","11/09/2023 2:51 pm","we are also interested in these two requirements. Do you have any progress now?","",""
+"371277669930893314","yanzero","11/09/2023 2:52 pm","yes just tested to call http request from precompiled contract. It works","",""
+"371277669930893314","yanzero","11/09/2023 2:53 pm","probably because the sequencer operate in single entity and doesn't have to be deterministic","",""
+"612297594634371072","whgreate","11/09/2023 2:57 pm","is the rust contract has size limitations ? we have a rust program which may  been more than 1M after compiled","",""
+"371277669930893314","yanzero","11/09/2023 2:58 pm","not yet tested the Stylus","",""
+"371277669930893314","yanzero","11/09/2023 2:58 pm","if you have complex logic, you may use precompiled contract","",""
+"371277669930893314","yanzero","11/09/2023 2:59 pm","just call the Rust app from precompiled contract","",""
+"612297594634371072","whgreate","11/09/2023 3:09 pm","you mean I use  precompiled contract to call  precompiled rust app ?","",""
+"612297594634371072","whgreate","11/09/2023 3:10 pm","I don't know their relations","",""
+"612297594634371072","whgreate","11/09/2023 3:12 pm","or did you write your own precompiled contract to fetch remote http service ?","",""
+"371277669930893314","yanzero","11/09/2023 3:42 pm","yes you can","",""
+"371277669930893314","yanzero","11/09/2023 3:43 pm","yes you can call the rust apps and do http request","",""
+"442478266616512513","hkalodner","11/09/2023 7:16 pm","All nodes executing the state transition function have to reach the same state so you definitely can't have non-determinism. Your state transition function also has to be provable on-chain where you definitely can't execute HTTP requests. It is possible to have your precompile implemented in rust though it's much more complex than go since it needs to be compiled into a single binary. This puts you in very unsupported/undocumented territory, but see for example how we include the brotli compression library","",""
+"634848172656820224","igor.ai","12/09/2023 3:36 am","How are precompiles with http calls handled?","",""
+"442478266616512513","hkalodner","12/09/2023 8:50 am","They aren't. If you need an external source of data, your best bet would be to find an oracle provider who can provide the data","",""
+"499185040014704641","alsu3109","12/09/2023 10:04 am","Arbitrum tokens were stolen from my wallet transaction hash 0x8898898dbc166fdb0be359e10851998e9350cde5c0a23e3e2c81f64d47666bf4
+  as if I paid for gas they disappeared from Meta Mask
+may have been stolen where should I write this?","",""
+"781046902665379860","JasonWan#9935","12/09/2023 11:47 am","Sorry, we can't help on this either because this is a decentralized network, we are sorry to hear that.","",""
+"612297594634371072","whgreate","12/09/2023 1:41 pm","thanks, i'll try","",""
+"741311121927176258","_sushiwarrior","12/09/2023 5:11 pm","Hey all! This is Wen Hau from AltLayer, We're providing Rollup-as-a-service infrastructure for anyone that would like to launch an Arbitrum Orbit L3s! If anyone wants to remove the burden of hosting yourself, Feel free to reach out to us! Would be happy to help. TG @engwenhau","",""
+"1068634872798781470","jacobeverly","13/09/2023 1:33 am","What is the relative cost for posting the batch to the L1? What from my batch posted to the L2 actually makes it to the L1","",""
+"442478266616512513","hkalodner","13/09/2023 7:07 am","If you're running an orbit chain as a rollup on top of arbitrum one your batches get posted to arbitrum one and then the full tx data is posted from there back to ethereum. Generally speaking the postings costs will be similar to using Arbitrum One, but if you want to you can configure the base fee to be arbitrarily low so the execution fees can be much lower. Picking out an example tx from arbiscan https://arbiscan.io/tx/0xef8ea301b69d13b32242961b6efd69cce7494473e77e6636c5d8245636385704#txninfo, you can see the L2 gas used was about half of the L1 gas used so you can approximate how much you might be able to save from moving to a orbit rollup chain. If you wanted to use an anytrust chain, either arbitrum nova or an anytrust orbit chain on top of Arbitrum one, you could save significant more costs because that would cut out the batch posting fee","","🔥 (3)"
+"1068634872798781470","jacobeverly","13/09/2023 7:10 am","Thank you ser","","arbheart (3)"
+"929539730671042600","nail3635","13/09/2023 11:51 pm","why can't I vote I have tokens for arbitrators then I've always voted for this?","https://cdn.discordapp.com/attachments/1116812793606328340/1151583549980418048/2023-09-13_23-18-07.png",""
+"828261986751086592","ricardo__gordon","14/09/2023 12:01 am","Please take this issue to our #📬︱support channel","",""
+"764891020327387167","yyy20119#4897","14/09/2023 8:19 am","How can I deploy Orbit Chain on the Arbitrum mainnet? It seems that it currently only supports Goerli and Sepolia (testnet) when using https://orbit.arbitrum.io/deployment.","",""
+"739064346528972810","luke1000","14/09/2023 7:00 pm","Hey guys, I'm having an issue","",""
+"739064346528972810","luke1000","14/09/2023 7:01 pm","When I get to this page I click deploy and it processes for a while and each time nothing happens, the deploy button comes up again","https://cdn.discordapp.com/attachments/1116812793606328340/1151872756116377620/image.png",""
+"739064346528972810","luke1000","14/09/2023 7:01 pm","Also, as mentioned by @yyy20119, how do we deploy on main net? Is there any code implemation instructions anywhere? I haven't seen any yet","",""
+"1075159132224638976","k4ndrell","14/09/2023 7:02 pm","@Luke-1000 Did you talk to the admin yet or opened a ticket support to get help?","",""
+"739064346528972810","luke1000","14/09/2023 7:02 pm","I haven't no, is that better to do than here?","",""
+"739064346528972810","luke1000","14/09/2023 7:02 pm","Thanks for the speedy response @Kendrell4eth","",""
+"828261986751086592","ricardo__gordon","14/09/2023 7:35 pm","Be very carefull with messages from people that aren't from the team.","",""
+"739064346528972810","luke1000","14/09/2023 7:35 pm","Oh ok thank you","",""
+"739064346528972810","luke1000","14/09/2023 7:36 pm","Are you able to help with my issue at all","",""
+"442478266616512513","hkalodner","15/09/2023 7:54 am","At that point you should be prompted to sign a transaction. Are you sure you don't have a signing prompt in your wallet? If not, what wallet did you use to connect","",""
+"442478266616512513","hkalodner","15/09/2023 7:58 am","There's currently no actively provided guidance on mainnet usage though Caldera, a company running rollups as a service, recently announced that they're planning on launching multiple mainnet orbit chains soon https://blog.caldera.xyz/unveiling-our-first-set-of-arbitrum-orbit-chains/","",""
+"447075474682806273","ecowealth","15/09/2023 7:59 am","I want to do an orbit chain","",""
+"991507190621950042","hbright","15/09/2023 1:17 pm","who can tell me work of this rpc ?","",""
+"991507190621950042","hbright","15/09/2023 1:17 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1152148741961297920/image.png",""
+"991507190621950042","hbright","15/09/2023 1:20 pm","I created a obrbit chain  with  orbit-setup-script , but it only  produced 27 blocks and soon blocked with this error","",""
+"739064346528972810","luke1000","15/09/2023 7:00 pm","Ah my browser was blocking it. Solved, thanks","",""
+"739064346528972810","luke1000","15/09/2023 7:01 pm","Thanks for this. What about a testnet?","",""
+"442478266616512513","hkalodner","15/09/2023 11:24 pm","Awesome! Re: testnet that's basically already the result of running through the deployment tool","",""
+"739064346528972810","luke1000","15/09/2023 11:25 pm","True and understood!","","arbheart (1)"
+"739064346528972810","luke1000","15/09/2023 11:25 pm","Do you have any reccomended resources of starting points for deploying contracts to the testnet chain","",""
+"442478266616512513","hkalodner","15/09/2023 11:25 pm","Looks like the chain is running successfully. Those were just some warnings emitted while it was booting. Blocks are only produced if you send transactions, but if you do you should see new blocks produced","",""
+"739064346528972810","luke1000","15/09/2023 11:26 pm","And thanks again Harry","",""
+"442478266616512513","hkalodner","15/09/2023 11:28 pm","No prob! If you run this step https://docs.arbitrum.io/launch-orbit-chain/orbit-quickstart#step-11-finish-setting-up-your-chain it should trigger a deposit that will fund your account on the orbit chain by depositing through the bridge. Once you have funds in your account you should be able to use any normal deployment tooling, eg. foundry, hardhat, or truffle to deploy on that chain pointing to the RPC interface of the node you're running","",""
+"442478266616512513","hkalodner","15/09/2023 11:28 pm","Pretty soon we should have an update out to the deployment tool that will actually let you use the official bridge UI to bridge into your orbit testnet","","💯 (1)"
+"764891020327387167","yyy20119#4897","16/09/2023 7:49 pm","Can I deploy the Orbit Chain on Arbitrum One (mainnet) by modifying this repository: https://github.com/OffchainLabs/orbit-deployment-ui?","",""
+"683912641902936125","royansroyce#7123","18/09/2023 2:59 pm","hey guys are we allowed to add our own Layer 3 chains to the SubGraph so they work with the arbitrum testnet bridge?","",""
+"683912641902936125","royansroyce#7123","18/09/2023 3:00 pm","api.thegraph.com/subgraphs/name/gvladika/layer2-token-gateway-goerli","",""
+"683912641902936125","royansroyce#7123","18/09/2023 3:04 pm","https://github.com/OffchainLabs/arbitrum-subgraphs","",""
+"442478266616512513","hkalodner","19/09/2023 6:12 am","There's currently no active guidance around deploying orbit chains on mainnet","",""
+"442478266616512513","hkalodner","19/09/2023 6:25 am","You can't add arbitrary chains to the hosted token bridge interface currently though the UI is open source so you could run it yourself. Note also, that it can work without the subraphs by failling back onto direct RPC calls if desired though there could be performance issues","",""
+"739064346528972810","luke1000","19/09/2023 9:41 pm","Hey guys can orbit use ens?","",""
+"991507190621950042","hbright","20/09/2023 8:31 am","when i run ""docker-compose  logs -f nitro   "" , i  found  ther error "" couldn't read L1 chainid "", so why?","",""
+"991507190621950042","hbright","20/09/2023 8:32 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1153888997072977970/image.png",""
+"991507190621950042","hbright","20/09/2023 8:33 am","who can give some suggestion?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 8:55 am","As it throw 403 error, so please check your l2 node's rpc, might be something wrong with that","",""
+"991507190621950042","hbright","20/09/2023 9:20 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1153901013204488232/image.png",""
+"991507190621950042","hbright","20/09/2023 9:22 am","run ""docker-compose up -d"", the  nitro can't run","",""
+"991507190621950042","hbright","20/09/2023 9:25 am","and i have a question:  when i run this script, and the nitro run in docker with our L3?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 9:26 am","This error thrown from your l2 node (l1 chain id here in orbit is actually l2 chain id), so please check your l2 rpc url","",""
+"781046902665379860","JasonWan#9935","20/09/2023 9:26 am","Your l3's code base is nitro","",""
+"991507190621950042","hbright","20/09/2023 9:27 am","so nitro code  can run L2 and L3,  just depending on our config","",""
+"781046902665379860","JasonWan#9935","20/09/2023 9:28 am","Yup, orbit use the nitro codebase","",""
+"781046902665379860","JasonWan#9935","20/09/2023 9:29 am","You can find that url at nodeConfig.json, it is parent-chain.connect.url","",""
+"991507190621950042","hbright","20/09/2023 9:29 am","ok","",""
+"991507190621950042","hbright","20/09/2023 9:31 am","i use this rpc","",""
+"991507190621950042","hbright","20/09/2023 9:32 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1153903879877046322/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 9:34 am","How about trying 3rd party rpc? like alchemy or infura","",""
+"991507190621950042","hbright","20/09/2023 9:36 am","ok. I try it afternoon,lunch first. 3Q","","👍 (1)"
+"991507190621950042","hbright","20/09/2023 11:54 am","@Jason Wan | Offchain Labs   I selected on rpc from chainlist and restart docker-compose, then get new error "" error posting batch""","",""
+"991507190621950042","hbright","20/09/2023 11:54 am","","https://cdn.discordapp.com/attachments/1116812793606328340/1153939781810663435/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:16 pm","But from the error content, your url is still the public rpc, you can try get one from infura or alchemy","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:17 pm","Is your ip address has a lot request to our public rpc?","",""
+"991507190621950042","hbright","20/09/2023 12:20 pm","i want to make some test on orbit, so the request maybe more than usual","",""
+"991507190621950042","hbright","20/09/2023 12:21 pm","Do you have some control with frequent address ?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:21 pm","The public rpc has some limits for the request number, but 3rd party rpc will be higher.","",""
+"991507190621950042","hbright","20/09/2023 12:21 pm","3rd party rpc should not be free?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:22 pm","They have free plan","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:22 pm","https://portal.arbitrum.io/projects?chains=arbitrum-one_arbitrum-nova&subcategories=node-provider","",""
+"991507190621950042","hbright","20/09/2023 12:24 pm","ok , i check it and find one to try","",""
+"991507190621950042","hbright","20/09/2023 12:31 pm","those rpc only support main network?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:32 pm","Alchemy or infura support arb-goerli","",""
+"991507190621950042","hbright","20/09/2023 12:38 pm","i register one, but find olny mainnet api key created","",""
+"991507190621950042","hbright","20/09/2023 12:38 pm","like this","https://cdn.discordapp.com/attachments/1116812793606328340/1153950865334472744/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:42 pm","You can go to your dashboard, and click create  new app, then select like this:","https://cdn.discordapp.com/attachments/1116812793606328340/1153951880553168896/image.png","💪 (1)"
+"991507190621950042","hbright","20/09/2023 12:43 pm","otherwise, how many TPS reach with orbit?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:48 pm","In theory, the mini block time is 0.25s and 32 m gas limit per block, but it depends on your machine's hardware finally.","",""
+"991507190621950042","hbright","20/09/2023 12:50 pm","so  how many transactions can be processed in one second?","",""
+"991507190621950042","hbright","20/09/2023 12:51 pm","I want to deploy an orbit specifically to serve my app. I want to know the highest tps it can achieve.","",""
+"991507190621950042","hbright","20/09/2023 12:52 pm","Because my game is high-frequency trading, it has higher TPS requirements.","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:53 pm","It depends on your hardware performance, and each tx will cost different gas, also those parameter (0.25s block time and 32m block limit) can be manually reset, so it hard to give you the number, but you can test it on your server directly.","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:54 pm","Do you know how much gas your game will cost per tx?","",""
+"991507190621950042","hbright","20/09/2023 12:56 pm","The game is still under development, so I'm not sure yet.","",""
+"781046902665379860","JasonWan#9935","20/09/2023 12:58 pm","Also if your game is high-frequency trading, you can try our stylus, it can allow you to use rust for contracts, it will be more faster and cheaper so you can have higher tx processed at the same time. https://docs.arbitrum.io/stylus/stylus-quickstart","",""
+"991507190621950042","hbright","20/09/2023 1:02 pm","I have never come across a stylus. I need to learn more about it first. If the stylus is more suitable for high-frequency trading, I can switch to it.","","👍 (1)"
+"781046902665379860","JasonWan#9935","20/09/2023 1:03 pm","We also have docs about the stylus gas: https://docs.arbitrum.io/stylus/concepts/stylus-gas#stylus-gas-costs","",""
+"991507190621950042","hbright","20/09/2023 1:07 pm","ok","",""
+"991507190621950042","hbright","20/09/2023 2:22 pm","@Jason Wan | Offchain Labs 
+I took a cursory look at the stylus documentation, and it feels like an extension of the wasm program has been added to nitro, so do you suggest that I use wasm to write our game program to obtain higher performance and low gas?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 2:25 pm","Yes, use stylus for better, but for now, we haven't supported stylus in orbit, but should not take long.","",""
+"991507190621950042","hbright","20/09/2023 2:28 pm","When will stylus mainnet be launched? Are you ready to open source it? If it is open source, can I use stylus to deploy L3 like I use Nitro now?","",""
+"991507190621950042","hbright","20/09/2023 2:55 pm","@Jason Wan | Offchain Labs  I use the 3rd rpc (alchemy), and reset my docker, this question also exist","",""
+"781046902665379860","JasonWan#9935","20/09/2023 2:55 pm","We already open source stylus https://github.com/OffchainLabs/stylus, but we don't have eta for mainnet since we need dao to approve.","",""
+"781046902665379860","JasonWan#9935","20/09/2023 2:55 pm","Is it also 403 forbidden?","",""
+"991507190621950042","hbright","20/09/2023 2:56 pm","yes","",""
+"781046902665379860","JasonWan#9935","20/09/2023 2:56 pm","Could you give me a screenshot?","",""
+"991507190621950042","hbright","20/09/2023 2:56 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153985562009686066/image.png",""
+"991507190621950042","hbright","20/09/2023 2:56 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153985633841315870/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:02 pm","Can you check the log line `2023-09-20 17:29:15 INFO [09-20|09:29:15.765] connected to l1 chain ` and see which the url is (it has l1url= info)? Because I still see our public rpc from your screenshot.","",""
+"991507190621950042","hbright","20/09/2023 3:06 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153988131914264616/image.png",""
+"991507190621950042","hbright","20/09/2023 3:07 pm","error changed, maybe i modify the rpc","",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:09 pm","From this screenshot, it doesn't say any non-200 rpc response","",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:10 pm","Also from this screenshot, I can see goerli-rollup.arbitrum.io which is our public rpc url.","",""
+"991507190621950042","hbright","20/09/2023 3:10 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153989145375559700/image.png",""
+"991507190621950042","hbright","20/09/2023 3:11 pm","i  modify rpc here, is any other place need to modify too?","",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:11 pm","So can you have a check on this line? It is in front of the log content","",""
+"991507190621950042","hbright","20/09/2023 3:16 pm","i  got, two place need to modify","",""
+"991507190621950042","hbright","20/09/2023 3:17 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153990765081530378/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:21 pm","Oh, can you see this request in your alchemy dashboard?","",""
+"991507190621950042","hbright","20/09/2023 3:25 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153992837780734073/image.png",""
+"991507190621950042","hbright","20/09/2023 3:26 pm","I solved this question, now the node run well","","👍 (1)"
+"781046902665379860","JasonWan#9935","20/09/2023 3:30 pm","May I ask which issue you found?","",""
+"991507190621950042","hbright","20/09/2023 3:31 pm","first,  in nodeConfig.json  file, two place need to modify rpc","",""
+"991507190621950042","hbright","20/09/2023 3:34 pm","second ,  my alchemy config error,  i add  a address to allowlist, actually,  i should not add address in here, because it's whitelist","https://cdn.discordapp.com/attachments/1116812793606328340/1153995194035880006/image.png",""
+"991507190621950042","hbright","20/09/2023 3:35 pm","","https://cdn.discordapp.com/attachments/1116812793606328340/1153995262176546859/image.png",""
+"781046902665379860","JasonWan#9935","20/09/2023 3:36 pm","Oh, I see, I thought you use rollups l3","",""
+"991507190621950042","hbright","20/09/2023 3:47 pm","actully, i want to use rollups l3","",""
+"991507190621950042","hbright","20/09/2023 3:50 pm","so i provided a L1 rpc to replace  ""https://goerli-rollup.arbitrum.io/rpc"", so i took a mistake?","",""
+"991507190621950042","hbright","20/09/2023 3:53 pm","https://goerli-rollup.arbitrum.io/rpc is  a rpc of your Nitro?","",""
+"1062418969346179245","josefp","20/09/2023 10:34 pm","Yeap, that's the URL of the public Arb Goerli's RPC. Was your issue resolved?","",""
+"991507190621950042","hbright","21/09/2023 6:33 am","Arbitrum Goerli is  L1 chain,  Nitro is L2 chain,  orbit is L3 chain.  In nodeConfig.json, thie   parent-chain-node-url  seems to be a  rpc  of L2?","",""
+"991507190621950042","hbright","21/09/2023 6:37 am","@Jason Wan | Offchain Labs","",""
+"781046902665379860","JasonWan#9935","21/09/2023 8:48 am","Because from your node config file, it has data-availability field, which is used for anytrust, it seems you click anytrust when you create l3 on our portal:","https://cdn.discordapp.com/attachments/1116812793606328340/1154255246877528144/image.png",""
+"991507190621950042","hbright","21/09/2023 8:50 am","I soloved this question","",""
+"781046902665379860","JasonWan#9935","21/09/2023 8:50 am","Actually, Arbitrum Goerli is l2 chain, orbit is used for l3 chain, and nitro is the technology stack name. Your logs show Arbitrum Goerli is l1 chain is because you are running l3 network, which the l2 compare to l3 is just like it is l1 compare to l2.","",""
+"991507190621950042","hbright","21/09/2023 8:50 am","Now my chain run ok","",""
+"991507190621950042","hbright","21/09/2023 8:52 am","Goerli is  L1 chain, Arbitrum Goerli   is L2 chain,  orbit is L3 chain.  I get it","","arbiblobblue (1)"
+"945548738607321089","adamdigitex","21/09/2023 9:35 am","any ETA on being able to verify smart contracts on Blockscout on my orbit chain? I need to listen to emitted events from my smart contract","",""
+"781046902665379860","JasonWan#9935","21/09/2023 10:26 am","Any issue whenyou try to verify your contract?","",""
+"781046902665379860","JasonWan#9935","21/09/2023 10:28 am","Is it internal server error? If so, you might not set `SECRET_KEY_BASE` . You can use mix phx.gen.secret to gen one, then go to the `docker-compose.yaml` file and set it under blockscout.environment","",""
+"945548738607321089","adamdigitex","21/09/2023 12:35 pm","yes its an internal server error message. OK thanks for that info I'll try that later. For now I have a new error, I'm building a fresh new orbit chain on a new VPS and everything works fine for a minute and then I get a fatal error that stops the blockchain, not sure if it's a problem with the server or the chain, here's the screenshot:","https://cdn.discordapp.com/attachments/1116812793606328340/1154312335339556864/Screen_Shot_2023-09-21_at_2.00.29_AM.png",""
+"945548738607321089","adamdigitex","21/09/2023 12:35 pm","err=""accept tcp4 127.0.0.1:34463: i/o timeout""","",""
+"945548738607321089","adamdigitex","21/09/2023 12:36 pm","I've had this running on a VPS without this problem but now I get this","",""
+"781046902665379860","JasonWan#9935","21/09/2023 3:00 pm","Do you set your l1 rpc manually?","",""
+"945548738607321089","adamdigitex","21/09/2023 9:36 pm","I do `docker-compose up -d` and then I do `PRIVATE_KEY=""xxxxxxxxxxxxxxxxx"" L2_RPC_URL=""https://arb-goerli.g.alchemy.com/v2/xxxxxxxxxxxx"" L3_RPC_URL=""http://xx.xx.xxx.x:8449"" yarn run setup` I'm using a private alchemy RPC endpoint for Arbitrum Goerli","",""
+"945548738607321089","adamdigitex","21/09/2023 9:40 pm","and in docker-compose.yaml I had to change `127.0.0.1` to `0.0.0.0` but I did that before and it worked on a VPS so I don't think thats the problem","",""
+"945548738607321089","adamdigitex","21/09/2023 10:07 pm","the block explorer is working and online, and the l3 RPC endpoint is also working:
+curl http://xx.xx.xxx.x:8449 \
+  -X POST \
+  -H ""Content-Type: application/json"" \
+  --data '{""method"":""eth_blockNumber"",""params"":[],""id"":1,""jsonrpc"":""2.0""}'
+
+returns this:
+`{""jsonrpc"":""2.0"",""id"":1,""result"":""0x2d""}`","",""
+"945548738607321089","adamdigitex","21/09/2023 10:10 pm","but each time its the same error but on a different port:
+ `err=""accept tcp4 127.0.0.1:46831: i/o timeout""`","",""
+"485438294348267552","jtseng","22/09/2023 6:47 am","What is B is this formula of gas F = exp(-a(B-b))
+and what's the actually value of a and b","",""
+"945548738607321089","adamdigitex","22/09/2023 7:07 am","I cloned my VPS to another machine in another location and still had the same problem. So I created a fresh new VPS using Ubuntu 23.04 instead of 22.04 and I did the entire setup process through a non-root account using sudo and that worked, the chain is working perfectly now 🙂","","👍 (1)"
+"945548738607321089","adamdigitex","22/09/2023 7:08 am","so I dont know what the problem was but whatever, just had to spend 24 hours building and rebuilding VPS machines 🙂","",""
+"781046902665379860","JasonWan#9935","22/09/2023 10:28 am","You can see from our code about this: https://github.com/OffchainLabs/nitro/blob/master/arbos/l2pricing/model.go#L38","","👍 (1)"
+"945548738607321089","adamdigitex","22/09/2023 11:07 am","everything is working fine and transactions going through no problem but getting this message appear in the logs:
+`nitro_1       | INFO [09-22|05:34:05.887] not posting more messages because block number or timestamp exceed L1 bounds blockNumber=9,737,851  l1BoundMaxBlockNumber=9,737,843 timestamp=1,695,360,823 l1BoundMaxTimestamp=1,695,363,638`","",""
+"945548738607321089","adamdigitex","22/09/2023 11:09 am","it appears every 10 seconds and a transaction will stop it, but then another transaction will start the messages again every 10 seconds","",""
+"945548738607321089","adamdigitex","22/09/2023 11:26 am","yes adding `SECRET_KEY_BASE` fixed the internal server error message, I just successfully verified my smart contract. I had to flatten it first with solidity-flattener","","👍 (1)"
+"781046902665379860","JasonWan#9935","22/09/2023 11:27 am","This is normal, it is not error","",""
+"945548738607321089","adamdigitex","23/09/2023 1:35 am","any tips on how to get https working on the RPC endpoint and the block explorer? I've installed nginx on the server and trying different things but can't get it working. They work fine over http","",""
+"945548738607321089","adamdigitex","23/09/2023 1:37 am","using Certbot certificate","",""
+"859016561339924531","trikaal7","24/09/2023 2:24 am","can anyone provide original orbiter testnet link","",""

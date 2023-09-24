@@ -1,0 +1,64 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"886909209629835264","riseandshaheen","01/08/2022 8:01 pm","👋 ***Hey! ***
+
+*Did we miss a channel for your favorite language? If there is enough demand, we'll make it happen. Until then, this channel is a good place for discussions on all other languages. :)*
+
+Check out our rollups-examples repo https://github.com/cartesi/rollups-examples","",""
+"702619152312959126","fabio.oshiro","20/10/2022 6:51 pm","my friend asked if there is any java support...","",""
+"965581010685280286","lynofz","21/10/2022 4:46 am","Hey @fabio.oshiro 
+Currently we haven't ported the jvm to the cartesi machine. If you have an attractive app, we'll consider porting it.","",""
+"702619152312959126","fabio.oshiro","28/10/2022 6:39 pm","and nodejs?","",""
+"517899425369030696","dtuler","29/10/2022 5:03 am","Nodejs is still unsupported but is in our medium term goals. However we have support for JavaScript, through another JS engine. Check the rollups-examples, there is an echo-js","",""
+"204444019407716352","glockchain","31/10/2022 7:48 am","Any behind the scenes work on getting Golang into the ctsi-machine.","",""
+"886909209629835264","riseandshaheen","01/11/2022 11:52 pm","We plan to run tests with Golang once we’ve implemented the microarchitecture and other RISC-V extensions. We’ll release an example as soon as we’re satisfied with its performance inside the Cartesi Machine.","",""
+"439817060013572107","richardcipher","02/12/2022 9:57 am","Will it ever be possible to run springboot on a Cartesi?","",""
+"886909209629835264","riseandshaheen","08/12/2022 7:25 pm","Springboot is a Java-based framework. Anything in this direction could only be thought once we have JVM ported inside the Cartesi Machine.","",""
+"439817060013572107","richardcipher","09/12/2022 4:16 am","Is that in the works?","",""
+"886909209629835264","riseandshaheen","09/12/2022 1:24 pm","Not really, but if you have some cool idea in mind or an open source Java library that makes sense to port to Cartesi Machine! We could possibly think of putting effort into it!","","👍 (1)"
+"439817060013572107","richardcipher","09/12/2022 9:44 pm","I'd be willing to contribute to the code as well. Let me think on this.","","💪 (2)"
+"1023674355881869363","deadcool#3637","01/05/2023 5:34 pm","hi","",""
+"886909209629835264","riseandshaheen","03/05/2023 11:42 am","Hey! 👋","",""
+"886909209629835264","riseandshaheen","03/05/2023 11:42 am","Need some help? Any questions?","","💪 (1)"
+"988722878256144386","python2707","11/05/2023 7:42 pm","nice","",""
+"875767156787277825","Darr Renn (Will never DM you)#0846","24/05/2023 7:02 pm","gm","","👋 (2)"
+"959078367372652594",".trandat123","27/05/2023 12:06 am","hu","",""
+"517899425369030696","dtuler","29/05/2023 5:16 pm","my lua dapp works with lua 5.3, but not with lua 5.4. Some incompatibility with luasocket. I get the error below. Any idea @edubart ?
+```
+lua: /usr/share/lua/5.4/socket/http.lua:41: bad argument #1 to 'receive' (string expected, got light userdata)
+stack traceback:
+ [C]: in function 'socket.http.request'
+ /opt/cartesi/dapp/dapp.lua:14: in local 'http_post'
+ /opt/cartesi/dapp/dapp.lua:47: in main chunk
+ [C]: in ?
+```","",""
+"466343326023680000","edubart","29/05/2023 5:20 pm","Does @diego.nehab still give support for LuaSocket?  He created it 🙂 . LuaSocket was ported to Lua5.4 right? Any API changed in 5.4?","",""
+"517899425369030696","dtuler","29/05/2023 5:21 pm","I think it's a bug that happens with 5.4.4 (which is the version for ubuntu 22.04. http://lua-users.org/lists/lua-l/2021-06/msg00101.html","",""
+"517899425369030696","dtuler","29/05/2023 5:22 pm","https://github.com/lunarmodules/luasocket/issues/331","",""
+"466343326023680000","edubart","29/05/2023 5:30 pm","I see, looks like that is the problem, it was fixed in LuaSocket 3.1, but Ubuntu provides 3.0 😕 . I guess you will need to use LuaRocks after all to workaround this and install with `luarocks install --lua-version=5.4 luasocket`, have a C compiler, maybe use a multi-stage build, it's more painful.","","👍 (1)"
+"466343326023680000","edubart","29/05/2023 5:31 pm","Or stick with Lua5.3 .. Sadly","",""
+"517899425369030696","dtuler","29/05/2023 5:39 pm","I think I'll stick with lua5.3. LuaRocks does not play nicely with lua5.4 either. Its ubuntu package is not updated to depend on lua5.4, so it's kind of a mess.","",""
+"517899425369030696","dtuler","29/05/2023 5:39 pm","I mean, I'm sure I could make it work.","",""
+"466343326023680000","edubart","29/05/2023 5:39 pm","@diego.nehab any opinion on how should we recommend using Lua in rollups examples? With 5.3 or 5.4? With LuaRocks or Ubuntu packages? With luasocket or something else?","",""
+"466343326023680000","edubart","29/05/2023 5:40 pm","Sad that the Ubuntu package managers leave some part of the Lua 5.4 ecosystem broken in their packages.","",""
+"517899425369030696","dtuler","29/05/2023 5:41 pm","@diego.nehab linked to this https://github.com/cartesi/machine-emulator/blob/14ad23327865adbc4d4d0761687ae4783feb4315/.github/workflows/Dockerfile#L13
+Which is still using 5.3. Let's see what kind of problem will happen there. You have a working branch for 5.4, right?","",""
+"466343326023680000","edubart","29/05/2023 5:43 pm","Yes, I have a working branch that I ported machine-emulator to use Lua 5.4 already, and it works on Ubuntu/Debian, but this in x86_64 host.","",""
+"517899425369030696","dtuler","29/05/2023 5:43 pm","I see you do, `feature/update-lua5.4`
+And you have `lua5.4 liblua5.4-dev luarocks`
+This `luarocks` will bring `lua5.1` with him.","",""
+"466343326023680000","edubart","29/05/2023 5:44 pm","But that is not a problem, just the default Lua that comes with it, luarocks is supposed to work and capable of installing packages for all Lua versions.","",""
+"517899425369030696","dtuler","29/05/2023 5:46 pm","Yeah, I just need to do that on a build stage, to not mess with the runtime stage with two lua versions.","",""
+"517899425369030696","dtuler","29/05/2023 5:55 pm","It works 👏","","👏 (1)"
+"517899425369030696","dtuler","29/05/2023 5:56 pm","curious that the http agent is `LuaSocket 3.0.0`, not `LuaSocket 3.1.0`","",""
+"517899425369030696","dtuler","29/05/2023 5:57 pm","variable was not updated.","",""
+"466343326023680000","edubart","29/05/2023 5:58 pm","https://github.com/lunarmodules/luasocket/issues/401
+looks like to be another issue from LuaRocks","",""
+"466343326023680000","edubart","29/05/2023 5:58 pm","the maintainer forgot to bump in last release 😕","","👍 (3)"
+"1096420714489327719","diego.nehab","29/05/2023 6:20 pm","I don't. 🙂","","🙂 (3)"
+"340525743723511818","glowinthetrade","09/09/2023 5:18 pm","gm","",""
+"702619152312959126","fabio.oshiro","10/09/2023 6:08 am","gm!","",""
+"340525743723511818","glowinthetrade","12/09/2023 9:10 pm","merhabalar","",""
+"730468340476411945","cynthiaro","12/09/2023 10:05 pm","Hi @Glowinthedark, this channel makes references to other programming languages. If you want to connect with Cartesi's Turkish community, please join us here https://t.me/CartesiTR and follow Cartesi Turkey on Twitter as well https://twitter.com/CartesiTurkiye. 
+
+Also, if you are eager to build with Cartesi, you'll be pleased to know that in November, we'll be participating in ETHGlobal Istanbul, and we'd be happy to see you at the hackathon: https://ethglobal.com/events/istanbul","","👍 (1)"
+"340525743723511818","glowinthetrade","13/09/2023 1:41 am","If you are interested, I can be a MOD for Turkish language accounts in your community.","",""

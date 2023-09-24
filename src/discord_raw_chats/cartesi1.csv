@@ -1,0 +1,225 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"886909209629835264","riseandshaheen","01/08/2022 7:50 pm","👋 ***Hi, Python lovers!***
+
+This channel is for all your needs. Ask questions about setting up, building or deploying Python DApps.
+
+**Run a simple Python DApp**
+Check our echo-python example: https://github.com/cartesi/rollups-examples/tree/main/echo-python
+
+**Create your own custom DApp**
+Get started with the template here: https://github.com/cartesi/rollups-examples/tree/main/custom-dapps
+
+*Not sure where to begin your Cartesi Dev Journey? *
+Head over to #🐣┃beginner-friendly channel to take your first step.","",""
+"456226577798135808","Deleted User","27/10/2022 8:27 pm","i want to use python to write a project like cmc and cg","",""
+"456226577798135808","Deleted User","27/10/2022 8:27 pm","anyone can help me or join me","",""
+"456226577798135808","Deleted User","27/10/2022 8:28 pm","and my target is the dapp can defeat both cmc and cg","",""
+"886909209629835264","riseandshaheen","28/10/2022 11:33 am","Hey @Deleted User, might wanna share more about this in #💡┃ideas＆use-cases channel! Let's then tag our developers here!","",""
+"351729826308161537",".tonygarcia","01/11/2022 8:58 pm","Hi guys, how can I find examples in Python for creating NFTs our Tokens in Python?","",""
+"351729826308161537",".tonygarcia","01/11/2022 8:58 pm","or* Tokens","",""
+"640993117138321410","dawidnezo","01/11/2022 8:59 pm","Maybe you will find something here: https://docs.openzeppelin.com/contracts/2.x/erc721","",""
+"351729826308161537",".tonygarcia","01/11/2022 9:51 pm","O thank you very much!! I´ll take a look!","",""
+"886909209629835264","riseandshaheen","02/11/2022 1:12 pm","Hey @Tony Garcia! To create Ethereum based assets(NFTs or Tokens), you'll have to work on the Smart Contract layer that @wch-dawid-m | webchefs shared. It requires you to have some Solidity knowledge.
+Another path is to develop on Application layer and use these assets as per your DApp's logic. You can very well use Python here. We've an ERC-20 example for this purpose: https://github.com/cartesi/rollups-examples/tree/main/erc20","",""
+"351729826308161537",".tonygarcia","19/11/2022 2:22 am","Thanks!!","",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:31 pm","Hi, team!
+
+**Context**
+We are trying to run a custom DApp written in Python
+
+**What we tried**
+We followed the tutorial on github (https://github.com/cartesi/rollups-examples/blob/main/custom-dapps/template/README.md) and made the following file (`house.py`)","",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:32 pm","(This message has house.py)","https://cdn.discordapp.com/attachments/1001119478865739827/1048524525396049950/message.txt",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:32 pm","We then used one of the addresses displayed while running `docker compose up` and ran the frontend as follows: `yarn start input send --payload '{""lot"" : 300000, ""bed"" : 3}' --dapp house --address 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f`","",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:34 pm","However, we were getting the following error:
+
+```sh
+connecting to http://localhost:8545
+connected to chain 31337
+using account ""0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266""
+sending ""{""lot"" : 300000, ""bed"" : 3}""
+transaction: 0x66f7a93c86cb4bd8d2415c84d6748108faa5944f22628a0fc25a1c0313a13bb3
+waiting for confirmation...
+index.ts input send
+
+Send string input to DApp
+
+Options:
+  --help          Show help                                          [boolean]
+  --version       Show version number                                [boolean]
+  --rpc           JSON-RPC provider URL
+                                   [string] [default: ""http://localhost:8545""]
+  --mnemonic      Wallet mnemonic
+   [string] [required] [default: ""test test test test test test test test test
+                                                              test test junk""]
+  --accountIndex  Account index from mnemonic            [number] [default: 0]
+  --dapp          DApp name                         [string] [default: ""dapp""]
+  --address       Rollups contract address                            [string]
+  --addressFile   File with rollups contract address                  [string]
+  --payload       Input payload to send                    [string] [required]
+
+Error: InputAdded event not found in receipt of transaction 0x66f7a93c86cb4bd8d2415c84d6748108faa5944f22628a0fc25a1c0313a13bb3
+    at getInputKeys (/home/vijay/Desktop/projects/hackathons/ethindia/rollups-examples/frontend-console/src/commands/input_commands/send.ts:59:15)
+    at Object.handler (/home/vijay/Desktop/projects/hackathons/ethindia/rollups-examples/frontend-console/src/commands/input_commands/send.ts:106:35)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```","",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:35 pm","For your reference, the log of the docker compose command is as follows.","https://cdn.discordapp.com/attachments/1001119478865739827/1048525265980117083/message.txt",""
+"703703244714672207","vijayjaisankar","03/12/2022 2:35 pm","Can someone please help us resolve this issue? Thanks a lot 🙂","",""
+"886909209629835264","riseandshaheen","03/12/2022 3:49 pm","Hey @Vijay Jaisankar ! This is running in host mode right? Does this work without adding --dapp or --address as options?","",""
+"886909209629835264","riseandshaheen","03/12/2022 3:50 pm","For local hardhat deployment you can drop the --dapp","",""
+"703703244714672207","vijayjaisankar","03/12/2022 3:55 pm","Hi @Shaheen!
+
+Thanks for the suggestion, here are the screenshots of the runs without `--dapp` and `--address`; the app still doesn't seem to work 😦","https://cdn.discordapp.com/attachments/1001119478865739827/1048545502494462043/Screenshot_from_2022-12-03_15-54-05.png,https://cdn.discordapp.com/attachments/1001119478865739827/1048545502838407199/Screenshot_from_2022-12-03_15-53-43.png,https://cdn.discordapp.com/attachments/1001119478865739827/1048545503199100958/Screenshot_from_2022-12-03_15-53-01.png",""
+"703703244714672207","vijayjaisankar","03/12/2022 3:57 pm","and when both of them are added, this is the error we're getting.","https://cdn.discordapp.com/attachments/1001119478865739827/1048546026539188244/Screenshot_from_2022-12-03_15-57-06.png",""
+"886909209629835264","riseandshaheen","03/12/2022 5:00 pm","@Vijay Jaisankar are you at ETH-India venue? If yes, please visit us at the booth!","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:06 pm","I am currently not at the venue, can we please have a discord call?","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:07 pm","As in, a VC","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:08 pm","(or any other method of communication is also perfectly fine 🙂 )","",""
+"886909209629835264","riseandshaheen","03/12/2022 5:18 pm","Which network are you using? Host mode?","",""
+"886909209629835264","riseandshaheen","03/12/2022 5:18 pm","Local hardhat node?","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:19 pm","Yes, I am using hardhat - I did **not** run it with the host mode docs i.e
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+ROLLUP_HTTP_SERVER_URL=""http://127.0.0.1:5004"" python3 house.py
+```, as it was producing errors
+
+So yes I think it is in local hardhat mode 🙂","",""
+"886909209629835264","riseandshaheen","03/12/2022 5:20 pm","Locally, you always have a hardhat node spin up!","",""
+"886909209629835264","riseandshaheen","03/12/2022 5:21 pm","That could be used in host mode as well as local production mode!","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:22 pm","Oh, okay, thanks for the clarification 🙂
+Sorry, I'm new to web3 and am a bit confused.
+
+I think it is local hardhat mode as I did not run the script given in the host mode docs - what should I do next?","",""
+"886909209629835264","riseandshaheen","03/12/2022 5:22 pm","Internet connection is bad here. Let me try a call! Wait!","",""
+"703703244714672207","vijayjaisankar","03/12/2022 5:23 pm","Sure thing 🙂","",""
+"965581010685280286","lynofz","03/12/2022 9:07 pm","Hey @Vijay Jaisankar , the parameters --dapp, --address, --addressFile serve the same purpose to get the address of the contracts tied to your dapp.
+With --address you provide the address directly, --addressFile you provide the file with address and  --dapp you provide the name of the dapp, so the frontend console searches for the dapp address in deployments/<network>/<dapp>.address. And without any of these parameters  the frontend console searches for the dapp address in deployments/localhost/dapp.address
+
+In your case, you used the custom DApp template to create the dapp and started the node there, so the address of your dapp should be in custom-dapps/house/deployments/localhost/dapp.address
+You can either provide the address directly (with --address) or provide the address file path (with --addressFile).
+
+Regarding the host mode, what errors did you get?","","👍 (1)"
+"1055571212203458725","jpaulobg","05/02/2023 6:43 am","Hello guys,  I'm trying to use ""yarn start input send --payload command inside a python code passing the value of a variable as payload using ""os.system""  command but when I try to see the notices, only the variable name is published, not the content. Can someone please help me?","",""
+"886909209629835264","riseandshaheen","06/02/2023 1:42 pm","Could you share the code snippet where you generate notice? Are you building frontend app in Python?","",""
+"1055571212203458725","jpaulobg","06/02/2023 11:47 pm","Hello @Shaheen , thank you for your reply, this is a code snippet:  if aggregated_weights is not None:
+            # Save aggregated_weights
+            print(f""Saving round {rnd} aggregated_weights..."")
+            np.savez(f""round-{rnd}-weights.npz"", *aggregated_weights)
+            os.system(""cd .."")
+            os.system(""yarn start input send --payload 'INSERT INTO ROUNDS VALUES (rnd, accuracy)'"")","",""
+"1055571212203458725","jpaulobg","06/02/2023 11:49 pm","I pre-created this ROUNDS table using frontend, I'm running sqlite dapp. I imagine that it doesn't get the value of the variables because os.system runs outside the code, in the OS but I would like to know if there is anything that can be done.","",""
+"408395884804571136","arthurvianna","08/02/2023 12:41 am","Hello, @jpaulobg.
+It looks like you aren't replacing the ""rnd"" and ""accuracy"" variables by their values in the command that goes to os.system.
+Since this command is a string, you could build it before executing it:
+```
+os.system(""cd .."")
+cmd = f""yarn start input send --payload 'INSERT INTO ROUNDS VALUES ({rnd}, {accuracy})'""
+os.system(cmd)
+```","",""
+"1055571212203458725","jpaulobg","08/02/2023 10:02 pm","Hello @Arthur Vianna, I had already tried this solution before but unfortunately it didn't work either.","",""
+"408395884804571136","arthurvianna","09/02/2023 2:58 am","And it produced the same result (notices)?
+If you have this code in a repository or remember the operations that you did, I could try to reproduce the issue.","",""
+"1055571212203458725","jpaulobg","14/02/2023 12:01 am","Yes! In this specific case, it generates empty notices as the input data is not in the correct table format.  @Shaheen , any sugestion? Thank you!","",""
+"886909209629835264","riseandshaheen","15/02/2023 7:22 pm","Hey @jpaulobg we suggest you use `addInput` call to submit SQL query inputs to the backend. Here's a simple python example that you could give a try:
+```
+from web3 import Web3
+import time
+import json
+​
+RPC_URL = ""http://localhost:8545""
+ROLLUPS_ADDRESS = ""../deployments/localhost/dapp.json""
+ROLLUPS_ABIS_PATH = ""../deployments/localhost/"" 
+INPUT_FACET_FILE = ""InputFacet.json""
+​
+def main():
+    web3 = Web3(Web3.HTTPProvider(RPC_URL))
+​
+    account = None
+    
+    while not account:
+        try:
+            account_index = input(""Please enter the account index to use: "")
+            account_index = int(account_index)
+            account = web3.eth.accounts[account_index]
+            print(f""Account (index {account_index}): {account}"")
+        except Exception as e:
+            print(f""Error: {e}"")
+​
+    address_file = open(ROLLUPS_ADDRESS,'r')
+    json_address_file = json.load(address_file)
+    rollups_address = json_address_file[""address""]
+    
+    input_abi_file = open(ROLLUPS_ABIS_PATH+INPUT_FACET_FILE,'r')
+    input_abi_json = json.load(input_abi_file)
+    input_abi = input_abi_json[""abi""]
+    input_contract = web3.eth.contract(abi=input_abi, address=rollups_address)
+    input_added_filter = input_contract.events.InputAdded.createFilter(fromBlock='latest')
+​
+    input_msg = ""Hello world!""
+    print(""Sending input"",input_msg)
+    input_payload = ""0x"" + input_msg.encode(""utf-8"").hex()
+​
+    tx_parameters = {""from"":account}
+    tx_hash = input_contract.functions.addInput(input_payload).transact(tx_parameters)
+​
+    tx_receipt = web3.eth.wait_for_transaction_receipt(tx_hash)
+    while not (new_entries := input_added_filter.get_new_entries()): time.sleep(1)
+    tx_event = new_entries.pop()
+    print(f""epoch {tx_event['args']['epochNumber']} - index {tx_event['args']['inputIndex']}"")
+​
+main()
+```","",""
+"1055571212203458725","jpaulobg","21/02/2023 1:52 am","thanks @Shaheen, I ran the program with some modifications but I have a doubt, what is the account index? I tried a Ethereum address acount and received an error.","",""
+"886909209629835264","riseandshaheen","21/02/2023 10:52 am","When you spin up Hardhat node, it creates multiple accounts for you. The account index is to simply select one from the list of accounts.","",""
+"1055571212203458725","jpaulobg","21/02/2023 7:30 pm","thank you, is it just a integer between 1 and 20?","",""
+"886909209629835264","riseandshaheen","21/02/2023 8:44 pm","Yes.","",""
+"886909209629835264","riseandshaheen","21/02/2023 8:46 pm","Should start from 0 though!","",""
+"1055571212203458725","jpaulobg","21/02/2023 9:00 pm","thanks @Shaheen, it worked and I saw the output using ""yarn start notice list"". So in this  case  is my application already a dapp? I inserted the code in my federated learning application.","",""
+"886909209629835264","riseandshaheen","22/02/2023 4:41 pm","Did you run the backend in host mode or production mode? And we'd love to know more about your DApp. If you wanna showcase to everyone what you're building, #🚀┃community-dapps is the channel!","",""
+"1055571212203458725","jpaulobg","22/02/2023 7:17 pm","hey @Shaheen, I am using in Production Mode but I want to deploy it in the public testnet Goerli.","",""
+"886909209629835264","riseandshaheen","23/02/2023 1:56 am","@jpaulobg These steps should help you deploy https://github.com/cartesi/rollups-examples#deploying-dapps","",""
+"1055571212203458725","jpaulobg","23/02/2023 9:28 pm","thank you! In this case will I be using the smarts contracts from Cartesi in Solidity already deployed in the Goerli testnet?","",""
+"886909209629835264","riseandshaheen","24/02/2023 11:36 am","True! These Solidity smart contracts are part of on-chain Rollups components. The development and deployment process abstracts it from developers so you can focus on the core logic of the DApp in language of your choice. But yeah, good to have its theoretical knowledge. For instance, whenever you call `addInput` method(as shared in Python code above), it is a JSON-RPC call to the Goerli smart contract function defined here https://github.com/cartesi/rollups/blob/main/onchain/rollups/contracts/facets/InputFacet.sol#L28","",""
+"1055571212203458725","jpaulobg","24/02/2023 9:49 pm","Wow! Really nice this parallel!","",""
+"542980468719484938","kbhatia24#9957","03/03/2023 2:12 am","every time i try to run a yarn command i keep getting this error","https://cdn.discordapp.com/attachments/1001119478865739827/1080953314696511569/Screenshot_2023-03-02_at_1.41.27_PM.png,https://cdn.discordapp.com/attachments/1001119478865739827/1080953314956550184/Screenshot_2023-03-02_at_1.42.04_PM.png",""
+"542980468719484938","kbhatia24#9957","03/03/2023 2:12 am","anyone know how i can solve this issue","",""
+"886909209629835264","riseandshaheen","03/03/2023 9:23 am","It should be working if you export your account's MNEMONIC and an RPC_URL correctly. It's not able to find the network, were you able to generate an RPC URL link from Alchemy or any other third party?","",""
+"542980468719484938","kbhatia24#9957","03/03/2023 9:51 am","I realized that I hadn't downloaded python correctly and that caused this issue","",""
+"542980468719484938","kbhatia24#9957","03/03/2023 9:51 am","I got it working now!","",""
+"886909209629835264","riseandshaheen","03/03/2023 9:52 am","Aha! Good to hear that! Let us know if you face any other issues!","","👍 (2)"
+"542980468719484938","kbhatia24#9957","03/03/2023 9:53 am","will do!","",""
+"1055571212203458725","jpaulobg","09/06/2023 9:05 am","Hello @Shaheen, I saw a presentation about Cartesi  and in a slide is mentioned that packages Numpy and Scikit-learn were ported to Cartesi machine and I could´t  do that.  Do you have any specific tip of how they managed to do that?","",""
+"886909209629835264","riseandshaheen","09/06/2023 11:03 am","Hey @jpaulobg! I think @Felipe Grael can give us better tips on playing with huge python libraries.","",""
+"1103491329528447017",".felipefg","09/06/2023 11:09 am","Hey @jpaulobg! Indeed we can use most python libraries, including numpy and sklearn. Using the new build system based on docker, you can install it from the ubuntu repository or build it by yourself. The catch is that you need to either cross-compile it to riscv64 or build it inside the emulated docker container. The second option is easier, albeit quite slow...","",""
+"1103491329528447017",".felipefg","09/06/2023 11:10 am","Have a look on the README of this repository: https://github.com/prototyp3-dev/sentiment . There I go through the process of building numpy and scikit-learn wheels, and then use these to build the final Dapp container","","🔥 (1)"
+"1055571212203458725","jpaulobg","10/06/2023 8:35 pm","Hey, @Felipe Grael , I managed to execute the steps in the respository, but for my application I am still receiving the following error when trying to build the image: #0 118.6   note: This error originates from a subprocess, and is likely not a problem with pip.
+#0 118.6   ERROR: Failed building wheel for numpy
+#0 118.6 Failed to build numpy
+#0 118.6 ERROR: Could not build wheels for numpy, which is required to install pyproject.toml-based projects
+Seems that albeit the webserver is running, docker is not accessing, it, and instead is trying to download a version from repository. is there anythong else I am missing?","",""
+"1055571212203458725","jpaulobg","11/06/2023 2:28 am","Hello @Felipe Grael , I already solved the problem, it worked. Thank you!","","🔥 (3)"
+"828122927437316107","leongkh","02/07/2023 7:32 pm","Hi, may I know how you solved it? As i am facing similar issue now","",""
+"828122927437316107","leongkh","02/07/2023 7:33 pm","I managed to install some module but not all","",""
+"398555561853190148","h3dgehog","22/07/2023 10:24 pm","Hey all, I am having an issue getting the echo-python example on https://docs.cartesi.io/cartesi-rollups/build-dapps/run-dapp/ to run. Seeing the following after verifying all prereqs satisfied:","https://cdn.discordapp.com/attachments/1001119478865739827/1132354930880028843/image.png",""
+"398555561853190148","h3dgehog","22/07/2023 10:24 pm","Using WSL2 Ubuntu","",""
+"398555561853190148","h3dgehog","22/07/2023 10:35 pm","Nevermind, figured it out. WSL was being strange about following paths","","👍 (2)"
+"796375023426076673","cryptogamblerx","31/08/2023 4:22 am","https://techxplore.com/news/2023-08-scientists-open-source-tool-language-python.html
+
+@Shaheen @Felipe Grael 
+Have you considered this?","","👀 (3)"
+"930817104872103957","mvazzano","05/09/2023 11:47 pm","Hello everyone! I am wondering if anyone has experience running OpenCV inside a Cartesi Machine","",""
+"930817104872103957","mvazzano","05/09/2023 11:51 pm","I attempted to generate the compiled wheels for riscv, following the repository shared by @Felipe Grael  (https://github.com/prototyp3-dev/sentiment), but was unsuccessful.","",""
+"489043089579835404","carsten.munk","06/09/2023 12:23 am","could you show what errors you're hitting? perhaps using gist.github.com and pasting link here","",""
+"930817104872103957","mvazzano","06/09/2023 1:33 am","This is the error message I am getting: https://gist.github.com/mmvazzano/67d7431aa4474f2a2346b96ba304483b","",""
+"489043089579835404","carsten.munk","06/09/2023 1:35 am","At a glance you need the OpenSSL development headers installed","",""
+"489043089579835404","carsten.munk","06/09/2023 1:39 am","I’m gonna make a wild guess here but try: 
+
+docker run --rm -it -v $PWD:/opt/cartesi/dapp --platform=linux/riscv64 cartesi-python-builder:latest /bin/bash
+
+apt-get update && apt-get install libssl-dev
+
+pip wheel -r req.txt -w wheels","",""
+"489043089579835404","carsten.munk","06/09/2023 1:39 am","And see if it gets further","",""

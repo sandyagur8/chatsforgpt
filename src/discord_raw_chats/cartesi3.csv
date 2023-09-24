@@ -1,0 +1,450 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"886909209629835264","riseandshaheen","17/05/2023 12:25 pm","Open community channel for questions, doubts and discussions focused on the Cartesi Machine.","",""
+"686118970809778231","Ice#1159","17/05/2023 2:09 pm","whats the cartesi machine?","",""
+"489043089579835404","carsten.munk","17/05/2023 2:17 pm","https://docs.cartesi.io/machine/intro/","",""
+"489043089579835404","carsten.munk","17/05/2023 2:26 pm","idle curiousity, did anyone try cartesi machine as a bare metal target for let's say, embedded Rust? Linux kernel-less, that is","",""
+"466343326023680000","edubart","17/05/2023 3:47 pm","In the cartesi machine team, we often build freestanding RISC-V binaries (without the need of a kernel), to run tests of the RISC-V instruction set, though most tests are made in RISC-V assembly, some parts are in C. So it is certainly possible to use freestanding C, I bet Rust can be compiled to freestanding environment too. However when you are in freestanding environment, you don't have access to any driver, virtual memory, general purpose allocator, or all the goodies that kernel handles for you, if you can live without that features and re implement the rollups/yield drivers from scratch, it would be possible. You could maybe re-implement them by looking the documentation and our drives in the kernel sources.","",""
+"466343326023680000","edubart","17/05/2023 3:54 pm","Not bare metal, but I did experiment sometimes ""distroless"" dapp. That is, I still boot the Linux, but with a custom `init=/dapp`, where `/dapp` is the only and lone file in the filesystem for my dapp. I build it as a RISC-V binary in freestanding mode and use just syscalls to call the kernel drivers and print stuff to stdout. This way the dapp is compiled to a freestadling environment, that is, no libc or any library linked. However you still can perform kernel syscalls to use kernel provided features or access drives.","",""
+"489043089579835404","carsten.munk","17/05/2023 3:56 pm","yeah should make a sample myself at some point, played a bit around with it for the MIPS/RISC-V-to-EVM transpiler I was working on (now a WASM to EVM); it's a nice way perhaps to lower the trusted computing base a lot","",""
+"489043089579835404","carsten.munk","17/05/2023 3:56 pm","even though linux as part of TCB is considered relatively OK today 🙂","",""
+"466343326023680000","edubart","17/05/2023 4:06 pm","Linux has an enormous code base, though most of it is disabled in the default cartesi machine config, we just enabled the features actually needed. So the attack surface is much lower when you compare with the Linux that comes with any distribution. Also I've seen in the past, by looking in Linux CVEs, that most vulnerabilities in the Linux seems like to come from vendor specific drivers, and they are all disabled.","",""
+"466343326023680000","edubart","17/05/2023 4:09 pm","But I bet you could even be more strict and disable more kernel configs, to minimize the attack surface further, and also enable some stricter security features like hardened Linux usually do, but all of them have cost in performance. You would need to provide a custom Linux kernel for your dapp, and that is doable.","","🔥 (3),👀 (1)"
+"489043089579835404","carsten.munk","22/05/2023 3:29 pm","@diego.nehab how does a 'dehashing device' look in 2023 out of curiousity? with uarch and so on involved - no major change?","",""
+"1096420714489327719","diego.nehab","22/05/2023 3:38 pm","The magic dehashing operation has to be performed by the uarch. So in a sense, it becomes a device that exists both at the big and small architecture level. When running the big machine, there is some mmio address that, when written to, triggers a dehashing operation. But that same address is mmio when running the small machine. Does it make sense? This is because, when the small machine is emulating the SD of the big machine to that mmio address, it has to trigger the dehashing  operation as well. So it gets into the step log.","",""
+"489043089579835404","carsten.munk","22/05/2023 3:41 pm","think it makes sense, will try to draw it a bit - for things like replacing rollup memory input ranges it's seen more as separate execution-until-yield runs from state S to S+1?","",""
+"1096420714489327719","diego.nehab","22/05/2023 3:46 pm","There has been some discussion about offering a simplified version of the dehashing device just to allow for on-demand inputs, under the auspices of alternative ways to run arbitration for rollups. But I don’t see this happening anytime soon. I’d like to see the dehashing device soon, in its full glory, to enable blockchain introspection or even cross-chain state reads. Every now and then, somebody shows up with an App idea that would benefit from that.","",""
+"1096420714489327719","diego.nehab","22/05/2023 3:49 pm","There are several parts to this. One is the creation and construction of a key/value database of existing hash/data values reachable from the latest block header. Another is the implementation of the device in the big and small architectures. Another is the implementation of the same logic in the solidity step. Another is the driver and higher level APIs to consume this data. It seems as though the first and last steps could be implemented with some help from minigeth.","",""
+"489043089579835404","carsten.munk","22/05/2023 3:51 pm","also been looking a bit at https://www.laconic.com/blog/how-laconic-network-uses-ipld 's approach in the past, it's kind of a derivation from parity's old eth->ipld stuff","","👀 (2)"
+"221656839853572110","gcdepaula","23/05/2023 12:05 am","Just to add another thing we have to figure out, is the size of the pre-images. If it’s too large, we won’t be able to perform onchain `step` since it could exceed the size of an Ethereum block. Furthermore, things like ERC-4844 may make this even harder to deal with. Bottom line; that’s an issue and I don’t have a clear fix in my head.
+
+However, if we could generate a ZK proof that tells us the hash of a certain pre-image matches a merkle root hash of the same pre-image, I believe it would fix all issues.","",""
+"489043089579835404","carsten.munk","23/05/2023 12:32 am","Well, a bit of a roundabout way could be to settle into a one-step 200kb risczero proof which then itself is sent on chain and gets verified in a separate cartesi machine execution yielding the output state..","","🔥 (1)"
+"489043089579835404","carsten.munk","23/05/2023 12:32 am","But I guess it becomes turtles all way down quickly","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:24 pm","I’d be curious to see how long risc0 takes to generate a proof that a chunk of data has a certain keccak hash. I’d be especially curious to see if there are other practical limitations on how large the block can be.","",""
+"489043089579835404","carsten.munk","23/05/2023 12:24 pm","well, they have accelerated sha256 which isn't too bad, but keccak comes later on i think","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:25 pm","I don’t think it would be that difficult to do the hash incrementally. It was designed to be incremental anyway.","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:26 pm","So you could create a Cartesi Machine, feed it chunks of data, and as a result it gives you both the Merkle tree root and the keccak of the data.","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:26 pm","I think they are the same.","",""
+"489043089579835404","carsten.munk","23/05/2023 12:26 pm","re perf, this was back in march of risczero perf if curious","https://cdn.discordapp.com/attachments/1107945240360394853/1110461282659876874/Performance_Datasheet_lisbon_1.pdf",""
+"489043089579835404","carsten.munk","23/05/2023 12:27 pm","roughly ~1 cycle per most risc-v instructions","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:28 pm","This is looking a lot better than when we tried! Pretty cool.","",""
+"1096420714489327719","diego.nehab","23/05/2023 12:30 pm","Any idea of how much memory the program can use?","",""
+"489043089579835404","carsten.munk","23/05/2023 12:32 pm","they are about to put out a release that allows 'continuations' as in separate a risc-v execution into multiple slices, but i think last i discussed this:
+
+""For the upcoming v0.12 release, the stack is 16MB and the heap is 32MB.""","",""
+"489043089579835404","carsten.munk","23/05/2023 12:33 pm","it eats into the cycles as the input becomes hashed and so on naturally","",""
+"489043089579835404","carsten.munk","23/05/2023 12:35 pm","oh and also interesting other tidbit: we managed to get cross-compiled c/c++ into risczero the other week, + zippie has an old uarch transpiled to rust somewhere","",""
+"489043089579835404","carsten.munk","23/05/2023 12:35 pm","in case we want to play with this topic at some point","",""
+"466343326023680000","edubart","23/05/2023 5:03 pm","So, their best benchmark is 98 kHz in M2 Macbook, while I bet the cartesi machine could boot at 100+ MHz in M2, so cartesi is 1000x ahead? Not counting how much RAM.","",""
+"466343326023680000","edubart","23/05/2023 5:06 pm","Nice performance datasheet, I think the cartesi machine could benefit from having something like that eventually, to track performance progress","",""
+"489043089579835404","carsten.munk","23/05/2023 5:10 pm","yeah 1000x to generate ZK sounds about right with current state of art - this is execution + proof generation tho, probably the risc-v trace is a lot quicker than the proof","",""
+"489043089579835404","carsten.munk","23/05/2023 5:16 pm","(and proof part can be divided up based on slices of risc-v and done in parallel)","",""
+"466343326023680000","edubart","23/05/2023 5:17 pm","So is it possible to benchmark it without proof? It would be interesting to know how its RISC-V interpreter compares with Cartesi Machine RISC-V interpreter","",""
+"466343326023680000","edubart","23/05/2023 5:19 pm","I am biased, but I bet cartesi machine interpreter is faster, and there is still room for future optimizations in case we need to focus on this","",""
+"489043089579835404","carsten.munk","23/05/2023 5:19 pm","yeah, they changed their API for this recently so can't tell you the exact way, we did it before, they run a pretty straightforward rv32im","",""
+"466343326023680000","edubart","23/05/2023 5:21 pm","Oh just rv32im, cartesi machine does a lot more than that, not fair to compare then.","",""
+"489043089579835404","carsten.munk","23/05/2023 5:22 pm","my personal feeling is that for actual deterministic linux/system running there's pretty much nobody else that does it as well as cartesi","",""
+"489043089579835404","carsten.munk","23/05/2023 5:22 pm","but there's certain areas where a cartesi (uarch or bigarch?)+risczero combo could make a lot of sense","","🤔 (1)"
+"1096420714489327719","diego.nehab","23/05/2023 5:40 pm","It's also not a fair comparison with 1 core vs all cores, right?","",""
+"1096420714489327719","diego.nehab","23/05/2023 5:40 pm","There is another factor of 10 at least there.","",""
+"1096420714489327719","diego.nehab","23/05/2023 5:40 pm","Maybe 20.","",""
+"1096420714489327719","diego.nehab","23/05/2023 5:41 pm","You could be running 10 independent Dapps on the same hardware, each 1000x faster.","",""
+"1096420714489327719","diego.nehab","23/05/2023 5:42 pm","But I am positively impressed by the performance.","",""
+"1096420714489327719","diego.nehab","23/05/2023 5:42 pm","I'd like to know about the memory restrictions, if there are any.","",""
+"221656839853572110","gcdepaula","23/05/2023 5:50 pm","Oh, I believe using risc0 inside Cartesi dapps is definitely a great use-case! Really using ZK for its zero-knowledge properties, instead of using it for rollups. I tried doing that (putting risc0’s verifier inside CM) for a hackathon with mixed results heh, @Carsten | Zippie even gave me some advice.
+
+And I think the endgame for maximum performance is bare-metal. Don’t generate proofs at all (unless you need them), and don’t even pay the price of emulation; balls to the wall performance in rollups!","",""
+"466343326023680000","edubart","23/05/2023 6:06 pm","I am not much familiar with ZKP. But since you played with this, I have a question, if I want to use zero-knowledge properties inside Cartesi Machine, say for a decentralized identity dapp, where I want prove for the dapp that I am myself without reveling myself, is risc0 a good choice for this? Do we have other options?","",""
+"466343326023680000","edubart","23/05/2023 6:15 pm","Or more concrete example, decentralized voting, a dapp where I want to vote without revealing myself, therefore keeping my vote private. So using zero-knowledge properties inside a Cartesi dapp.","",""
+"221745360337502208","felipeargento","23/05/2023 6:37 pm","A while ago I was playing around with these ones:
+https://github.com/iden3/snarkjs
+https://github.com/enricobottazzi/ZKverse
+
+They are pretty cool and explain step by step what is going on! Even with a good explanation, it still a very complex topic...but worth it to play around.
+There was also some circuit generator that I saw once, but can't remember the link. It was something that would turn normal code into a circuit, which is what you'd need I think. 
+
+Another very useful resource is this compilation:
+https://github.com/matter-labs/awesome-zero-knowledge-proofs
+
+Also, pretty sure there is an Ethereum project that does something similar with proofs of membership and also private votes...the name escaped me now but I'm sure @Gabriel Coutinho de Paula remembers it 🙂","","👀 (2)"
+"221656839853572110","gcdepaula","23/05/2023 7:01 pm","I’d favor risc0, for many many reasons. Now, please take everything I say with a grain of salt, my research wasn’t super thorough, and things change very fast. And I’m sure @Carsten | Zippie knows more about risc0 than I do!
+
+I’ll list a few reasons why I favor risc0, and something I worry about.
+
+* Their team is pretty solid and is delivering improvements on the regular.
+* Their verifier is in Rust nowadays I believe, so easy to put on CM. I believe many other projects rely on a Solidity implementation of their verifier, since the goal is blockchain first.
+* Their prover is (as far as I know) open source and distributed under a permissive license. I’m not sure this has changed, and if they’ve promised to remain this way. I remember there were talks about possibly releasing a hardware-accelerated version under a different license. In any case, other projects prover generally are not permissive at all, as far as being closed source.
+* Great programmability. Since it’s RISC-V, we can really code our programs in Rust. Other projects it’s usually something weird like janky DSLs like Cairo, or even directly building circuits. For example, I remember there was a Cairo implementation of EDSA for signature verification. For risc0, I could just import standard Rust implementations of ECDSA.
+* STARK, so no trusted setup needed. Maybe this isn’t such a big issue.
+
+Now, I worry about proof size. I remember they weren’t so small, and blockspace is a very limited resource.","","👍 (1)"
+"221745360337502208","felipeargento","23/05/2023 7:04 pm","https://blog.pantherprotocol.io/zk-snarks-vs-zk-starks-differences-in-zero-knowledge-technologies/","https://cdn.discordapp.com/attachments/1107945240360394853/1110561322048958505/image.png",""
+"221745360337502208","felipeargento","23/05/2023 7:04 pm","might be outdated, but this is what I usually check when I need to think of STARK vs SNARK, cause I always forget the details haha","",""
+"221656839853572110","gcdepaula","23/05/2023 7:05 pm","I was searching for that now! The name escapes me unfortunately. I think maybe periscope? Or maybe that was the Twitter thing haha, don’t remember.
+
+But yeah, I tried to re-implement that with risc0 inside CM. Don’t know if it made sense though haha, but it did came out fast and simple. I don’t believe that project in Solidity was that simple. I hit on issues related to building their verifier to our rv (nowadays should be trivial, since I believe they rewrote it in Rust and we have more extensions). And issues related to proof size.","","👍 (1)"
+"718458402862268496","max_h","23/05/2023 7:10 pm","You might be thinking of sismo ( https://docs.sismo.io/ ) or Personae labs ( https://twitter.com/personae_labs )? Personae is helping build out anon forum for Noun holders: https://twitter.com/HeyAnoun","",""
+"489043089579835404","carsten.munk","23/05/2023 7:11 pm","Now they do delayed release of new features (recursion for example) so there's 'early access program', but most development happens in open. GPU accel is public now.","","🔥 (1)"
+"489043089579835404","carsten.munk","23/05/2023 7:12 pm","Proof size is irritating and so is the lack of a evm based verifier.","",""
+"221656839853572110","gcdepaula","23/05/2023 7:12 pm","It was Semaphore! @felipeargento","","🙏 (2)"
+"489043089579835404","carsten.munk","31/05/2023 12:04 am","@edubart https://wasmer.io/posts/announcing-wasix","","🔥 (1)"
+"466343326023680000","edubart","31/05/2023 12:11 am","> WASIX is ready today for the community to build awesome apps and complete their runtimes: supporting threads, Berkeley sockets, forking and many more things that have been available for almost all the life of POSIX.
+Wow cool, even `fork()` support? @diego.nehab 
+This further opens the possibility of what I said to package the emulator, or really maybe even other cartesi components into portable .wasm binaries, that are able to run on any system, with mostly the same behavior. I like that WASM + WASI makes the dream of shipping a single binary to be supported on Linux, Windows, MacOS, or anything that WASI runtime is available viable, usually paying the price of something like ~20% performance hit when you have JIT or AOT compilation.","",""
+"466343326023680000","edubart","31/05/2023 12:18 am","Their interactive page at https://wasmer.sh/
+Is also very cool, I want to experiment doing a page like this for the Cartesi Machine someday, where people could play with a full Linux being emulated directly in the web browser with the cartesi machine, just to show off","",""
+"489043089579835404","carsten.munk","31/05/2023 12:26 am","@edubart could we do anything fun with a risczero proof being proved in browser setting (i got a PoC of that working the other week) and a cartesi machine-in-browser?","","🔥 (1)"
+"466343326023680000","edubart","31/05/2023 1:11 am","I am not much familiar with risczero, so not sure what we could do with it and cartesi machine in the context of a web-browser.","",""
+"489043089579835404","carsten.munk","31/05/2023 1:12 am","sure, just in general generate ZK execution proofs that's easy to evaluate inside a cartesi machine; inside a browser","",""
+"466343326023680000","edubart","31/05/2023 1:12 am","If we get the cartesi machine to run in a browser, we also get Linux and anything that can run on Linux in the browser. But have in mind that running Linux in browser is nothing new, this have been done before a dozen times, in projects like TinyEMU, WebVM, and others. WebVM even has networking support. Nevertheless I think yet-another Linux in the browser with Cartesi Machine is cool to show off.","","👀 (1)"
+"489043089579835404","carsten.munk","31/05/2023 1:13 am","true","",""
+"489043089579835404","carsten.munk","01/06/2023 4:53 pm","Btw readme.md still says ‘The emulator implements RISC-V's RV64IMASU ISA’","",""
+"489043089579835404","carsten.munk","01/06/2023 5:09 pm","@edubart is TLBConfig and providing a file for it a mandatory machine config element? Looks a lot like it in grpc and jsonrpc but wondered - and what should be the contents of such file?
+
+context, we're making a default machine config here: https://github.com/cartesi/machine-manager/blob/2e2f1d1380765d9e8cde081afedbb70ddbb3f594/tests/demo-machine-manager-client/src/main.rs#L23","",""
+"466343326023680000","edubart","01/06/2023 5:12 pm","For boot, it's not mandatory. But if you have saved a snapshot of the machine and try to load later, you need to always provide TLB config otherwise its state will be lost and won't function properly, and of course to preserve the machine root hash.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:14 pm","so should really be optional in here: https://github.com/cartesi/grpc-interfaces/blob/develop/cartesi-machine.proto#L270 / https://github.com/cartesi/machine-emulator/blob/develop/src/jsonrpc-discover.json#L1583 ?","",""
+"489043089579835404","carsten.munk","01/06/2023 5:16 pm","i guess the command line tools and such kinda bypass this as we save a machine there","",""
+"489043089579835404","carsten.munk","01/06/2023 5:20 pm","ugh, moment, wrong urls..","",""
+"489043089579835404","carsten.munk","01/06/2023 5:21 pm","https://github.com/cartesi/grpc-interfaces/blob/main/cartesi-machine.proto#L270 and https://github.com/cartesi/machine-emulator/blob/main/src/jsonrpc-discover.json#L1583","",""
+"466343326023680000","edubart","01/06/2023 5:23 pm","Indeed, could be optional, like other fields we mark as optional in `struct machine_config` (rollups and ram image filename), but are not optional in grpc or jsonrpc interfaces. CC @diego.nehab","",""
+"466343326023680000","edubart","01/06/2023 5:24 pm","Ugly, but you could workaround by grabbing `.bin` image for TLB memory range for any snapshot dump at cycle 0.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:24 pm","would be fine for the moment to work around it with a PMA_SHADOW_TLB_LENGTH empty file?","",""
+"489043089579835404","carsten.munk","01/06/2023 5:25 pm","ah, or that","",""
+"466343326023680000","edubart","01/06/2023 5:25 pm","The `.bin` of TLB are not all 0 on init, unfortunately, it has an unspecified formatting and values on initialization.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:28 pm","at MachineRequest state tho?","",""
+"489043089579835404","carsten.munk","01/06/2023 5:29 pm","as in, not from a saved state but fresh from scratch machine","",""
+"466343326023680000","edubart","01/06/2023 5:29 pm","I say unspecified because its length/value is an implementation detail that we may change if the TLB changes in the future.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:29 pm","ah yeah","",""
+"489043089579835404","carsten.munk","01/06/2023 5:30 pm","ok, so some kind of test helper that gets that .bin generated with the emulator then","",""
+"466343326023680000","edubart","01/06/2023 5:31 pm","As in `cartesi-machine --store=dump --max-mcycle=0` and then grab the `dump/0000000000020000-6000.bin` file.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:32 pm","thanks, @Liza | Zippie this gets you a file that we can use as tlbconfig filename; you'll take it forward from there?","",""
+"489043089579835404","carsten.munk","01/06/2023 5:33 pm","@edubart i'll file a ticket on machine-emulator on the optionality thing?","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:33 pm","Not sure I understand the issue here. The default machine config should be obtained from the machine itself.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:34 pm","Isn't there a `machine::get_default_config`?","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:34 pm","Then you fill out whatever you want.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:35 pm","This is for languages that do not have access to the C++ constructor for `machine_config`.","",""
+"466343326023680000","edubart","01/06/2023 5:35 pm","Oh true, there is that, yet the get default config won't save `.bin` file for the TLB","",""
+"489043089579835404","carsten.munk","01/06/2023 5:35 pm","@diego.nehab not in grpc/jsonrpc protocol at least, or some 'create a default machine'","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:36 pm","There is a get_default_config in jsonrpc.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:36 pm","it's not a 'real' issue for us in machine-manager but there is at least a call that makes a config and instantiates a machine with it","",""
+"489043089579835404","carsten.munk","01/06/2023 5:36 pm","ah, yes there is, my bad","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:37 pm","What is the scenario in which the TLB is a problem?","",""
+"489043089579835404","carsten.munk","01/06/2023 5:37 pm","and so there is grpc","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:37 pm","Yea, also in grpc.","",""
+"489043089579835404","carsten.munk","01/06/2023 5:37 pm","i'll have to look at what the tlbconfig is set to there tho","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:38 pm","It will probably be set to empty.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:38 pm","And the machine initialization figures out what to do about that on its own.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:38 pm","Why do you care, is my question, I guess. 🙂","",""
+"466343326023680000","edubart","01/06/2023 5:39 pm","Oh true, you could just leave the image filename empty, like """", I am little slow this morning","",""
+"489043089579835404","carsten.munk","01/06/2023 5:39 pm","machine-manager test cases that configures a runtime config from client side which now seems a bit wrong 😂","",""
+"489043089579835404","carsten.munk","01/06/2023 5:39 pm","@Liza | Zippie ok, new plan: try to leave the image filename empty","",""
+"489043089579835404","carsten.munk","01/06/2023 5:39 pm","ideally we use GetDefaultConfig tho and change that","",""
+"466343326023680000","edubart","01/06/2023 5:39 pm","I forgot for a brief moment that we use empty filenames as optionals","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:40 pm","If they are starting the machine from a machine_config, just leave the field empty.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:40 pm","The field is important internally, when loading a machine that was stored into a directory.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:40 pm","Then the config will contain the name of a file whose contents is the internal TLB format you shouldn't have to care about.","",""
+"1096420714489327719","diego.nehab","01/06/2023 5:41 pm","There is an internal `get_serialization_config` which, called at any point in the execution, would give you that config. But again, unless you are being creative, no need to mess with that.","",""
+"489043089579835404","carsten.munk","05/06/2023 2:52 pm","what was the reason post emulator 0.11+ for the 'range of flash drive X must use at most 56 bits to be addressable' thing, where we have to move away from 1<<63 and onwards positioned drives?","",""
+"466343326023680000","edubart","05/06/2023 3:52 pm","In short, because the RISC-V spec says so, that is, virtual memory translation can only translate to 56-bit physical address space:
+> The Sv39 and Sv48 page-based virtual-memory schemes described in Sections 4.4 and 4.5 support
+> a 56-bit physical address space
+We made a thorough review of the RISC-V spec, and this went missing.
+We also updated RISC-V privileged spec to 1.12, and started handling some new bits in page table entries and found that any physical address space using more than 56-bits would overflow into these new bits and cause serious issues in the emulator and kernel, so this was also a bug fix.","",""
+"489043089579835404","carsten.munk","05/06/2023 3:52 pm","alright, that makes a lot of sense - i thought it was somehow hypervisor or virtualization related for some reason. Thank you!","",""
+"489043089579835404","carsten.munk","11/06/2023 1:30 am","studying uarch machine-emulator part a bit.. uarch-machine-state-access is basically a ""HAL"" for the big emulator? as in, how the big emulator code accesses the machine's memory and other bits; and because we're practically inside our big memory's memory image, we can basically just read 'real' memory?","",""
+"489043089579835404","carsten.munk","11/06/2023 3:20 pm","very early proof of concept: big emulator built  in uarch fashion compiled into rv32im and running inside a risczero ZKVM guest; next up want to map up memory accesses to an external memory access list to get around 64-bit vs 32-bit pointers issue (and actually backing it with a 'physical memory') 
+
+[yes that's a cartesi machine emulator inside a ZK proof]","https://cdn.discordapp.com/attachments/1107945240360394853/1117390301997301770/Screenshot_2023-06-11_at_11.46.22.png","🔥 (2)"
+"495253418575790082","sidhujag","12/06/2023 10:51 am","Why would you run  Cartesi machine inside risc zero? Is it so you can run native code without changing within zk?","",""
+"489043089579835404","carsten.munk","12/06/2023 10:54 am","well, there surely are some use-cases around being possibly able to run full Linux-API computation in ZK, especially if you can store the proofs of what happened before some point","",""
+"495253418575790082","sidhujag","12/06/2023 10:54 am","Would it remove the need for a fraud proof of the Cartesi vm?","",""
+"489043089579835404","carsten.munk","12/06/2023 10:55 am","i don't personally think fraud proofs will go away any time soon because the ZK proof generation is still super heavy, but it might be another very useful thing in the toolbox","",""
+"495253418575790082","sidhujag","12/06/2023 10:55 am","So then why add the overhead of zk on top?","",""
+"495253418575790082","sidhujag","12/06/2023 10:56 am","General computation is already possible and fraud proven, what is the purpose of zkvm on top?","",""
+"489043089579835404","carsten.munk","12/06/2023 10:56 am","all about expressability to me, plus there -might- be interesting bits where we can do let's say, a few computation cycles running on confidential data, for example","",""
+"495253418575790082","sidhujag","12/06/2023 10:57 am","Personally I’d love if risc zero team wrote up plans for parallel trace proving, to create economies of scale.. if zkvm can be broken up and merklized like how polygon zkEVM is doing it, the overhead of zk can be minimized and actually cheaper","",""
+"489043089579835404","carsten.munk","12/06/2023 10:57 am","you saw their continuations stuff?","",""
+"495253418575790082","sidhujag","12/06/2023 10:58 am","Ah ok so zk for private data in the same program.. no I reached out the that girl who got hired on Twitter on their team, she’s in Seattle I think but she never replied back so that’s the last I looked at risc zero","",""
+"495253418575790082","sidhujag","12/06/2023 10:58 am","Tldr?","",""
+"489043089579835404","carsten.munk","12/06/2023 10:58 am","https://www.risczero.com/blog/continuations","",""
+"489043089579835404","carsten.munk","12/06/2023 10:59 am","tl;dr slice execution up in pieces and prove them separately","",""
+"489043089579835404","carsten.munk","12/06/2023 10:59 am","without having to care about the slice points as a coder","",""
+"495253418575790082","sidhujag","12/06/2023 10:59 am","There you go","",""
+"495253418575790082","sidhujag","12/06/2023 10:59 am","Was waiting for that, it’s a good direction and will minimize the overhead long term.. I think 3-5 years still before zk catches up","",""
+"495253418575790082","sidhujag","12/06/2023 11:01 am","So can you not just run zkvm along side Cartesi vm and include the proof inside the vm which is verified inside it (again fraud proven as well)","",""
+"495253418575790082","sidhujag","12/06/2023 11:01 am","This way you get the confidentiality and seperate the execution environments?","",""
+"489043089579835404","carsten.munk","12/06/2023 11:03 am","well you have to remember the fraud proof requires 1 honest node to really work, i.e. it's a narrowing down point of disagreement between a claimer and a disputer; but that doesn't mean you can't ZK prove that 'for some duration of blockchain history nobody successfully disputed'","",""
+"489043089579835404","carsten.munk","12/06/2023 11:03 am","but still requires the disputer(s) to have access to same state of machine","",""
+"489043089579835404","carsten.munk","12/06/2023 11:04 am","either way, i'm just messing around with this because even in it's most expensive proving, there can be usecases to being able to stuff a whole linux machine or part of it's execution into a ZK proof","",""
+"489043089579835404","carsten.munk","12/06/2023 11:05 am","for fast transaction stuff probably still some way to go 🙂","",""
+"495253418575790082","sidhujag","12/06/2023 11:05 am","Ok so for pseudo instant confirmation within the state transition time","",""
+"495253418575790082","sidhujag","12/06/2023 11:05 am","Without bond perhaps","",""
+"495253418575790082","sidhujag","12/06/2023 11:06 am","Aslong as you use DA on layer 1 I think the witness data can be all derived","",""
+"495253418575790082","sidhujag","12/06/2023 11:07 am","Pls keep me in loop, interesting line of research and thx for the link","",""
+"489043089579835404","carsten.munk","12/06/2023 11:08 am","sure, this is all public goods work i'm doing","","😍 (1)"
+"489043089579835404","carsten.munk","12/06/2023 11:11 am","at least what i really like is that now ZK is now possible to develop in without having to think about execution steps/constraints/etc at first; and then optimize your way down to feasibility with proper profiling information","",""
+"489043089579835404","carsten.munk","12/06/2023 11:11 am","so you can do 'stupid' things like stuffing a real linux VM inside it and understand how it could be made practical","",""
+"489043089579835404","carsten.munk","12/06/2023 11:12 am","versus the mode of 'i'm inside this tiny arduino and need to always fit or i don't have anything working to demonstrate'","",""
+"495253418575790082","sidhujag","12/06/2023 11:12 am","Yup.. I mean you don’t need fraud prover if you have zk of it but the provers are still inefficient.. but I get you","",""
+"495253418575790082","sidhujag","12/06/2023 11:15 am","Wonder if risc zero applies stark/snark recursion optimization like plonky2","",""
+"489043089579835404","carsten.munk","12/06/2023 11:16 am","probably a topic for their discord; but yeah they have (early access program) recursion","",""
+"495253418575790082","sidhujag","12/06/2023 11:16 am","Now with segments maybe it makes sense","",""
+"489043089579835404","carsten.munk","12/06/2023 11:16 am","in general just happy to see verified computation get bigger and bigger topic, ideal place for cartesi too","",""
+"495253418575790082","sidhujag","12/06/2023 11:16 am","I think it has a part to play in ai alignment technically","",""
+"828122927437316107","leongkh","17/06/2023 5:40 pm","Hi all, sorry for noob question. But would like to ask how can i install/build multiple binaries inside the dockerfile. Thanks","",""
+"828122927437316107","leongkh","17/06/2023 5:42 pm","I have existing dockerfile ready for arm64, but the dockerfile base that i am using is ubuntu, instead of the single language such as python/js.","",""
+"828122927437316107","leongkh","17/06/2023 5:43 pm","Thanks for advice","",""
+"489043089579835404","carsten.munk","17/06/2023 5:43 pm","@LeongKH so you want to add in python or node js and so on into your ubuntu docker image basically?","",""
+"828122927437316107","leongkh","17/06/2023 5:43 pm","Yep","",""
+"828122927437316107","leongkh","17/06/2023 5:43 pm","In addition, i wanna install app like blender","",""
+"489043089579835404","carsten.munk","17/06/2023 5:44 pm","basically what you need is RUN apt-get update && apt-get install <package names>","",""
+"489043089579835404","carsten.munk","17/06/2023 5:44 pm","inside the dockerfile","",""
+"489043089579835404","carsten.munk","17/06/2023 5:44 pm","if it's packaged for ubuntu","",""
+"828122927437316107","leongkh","17/06/2023 5:44 pm","I can do it in my existing arm64 system","",""
+"489043089579835404","carsten.munk","17/06/2023 5:46 pm","this is for rollup?","",""
+"828122927437316107","leongkh","17/06/2023 5:52 pm","I wanna replicate the dockerfile for rollup. I have done it in AWS lambda","",""
+"489043089579835404","carsten.munk","17/06/2023 5:53 pm","ok, bit out of my depth here but i'm sure some of the rollup team guys have some ideas 🙂","","👍 (2)"
+"489043089579835404","carsten.munk","19/06/2023 11:33 am","@Stephen Chen so https://github.com/cartesi/machine-solidity-step/blob/3d066f6fcc7437638c52bc51f57be29cb01321e3/test/UArchReplay.t.sol#L117 takes proofs in style of coming out of cartesi machine and turns them into IAccessLogs.Context metastep style proofs?","",""
+"489043089579835404","carsten.munk","19/06/2023 1:18 pm","@diego.nehab any particular reason there's no snapshot/rollback in the new jsonrpc interface?","",""
+"221656839853572110","gcdepaula","19/06/2023 3:12 pm","I believe it has been replaced in favor of fork! But I’d wait for his reply haha.","",""
+"104672696977100800","thebloodlessman","19/06/2023 4:14 pm","Hey 👋 I was reading the Cartesi whitepaper and I was wondering where I could find more documentation on this DAG scripting language they introduce","",""
+"1096420714489327719","diego.nehab","19/06/2023 5:57 pm","It is implemented on top of the new ""fork"".","",""
+"1096420714489327719","diego.nehab","19/06/2023 6:04 pm","This was planned but the demand for it was never there to justify the implementation. Can you explain your use case for the feature?","",""
+"828122927437316107","leongkh","28/06/2023 9:03 pm","@Carlo","",""
+"615539144638070784","carlofragni","28/06/2023 9:04 pm","👋","","👍 (1)"
+"828122927437316107","leongkh","28/06/2023 9:04 pm","Thanks @Max @Carlo","","cartesiHeart (1)"
+"828122927437316107","leongkh","30/06/2023 6:27 pm","Hi all, i am trying to work on dockerfile that i generated from the template, but it seems i couldnt pass the simple docker syntax
+
+`docker buildx bake -f docker-bake.hcl -f docker-bake.override.hcl --load`","https://cdn.discordapp.com/attachments/1107945240360394853/1124322709720023100/image.png",""
+"828122927437316107","leongkh","30/06/2023 6:28 pm","below is the error message, any help will be appreciated","https://cdn.discordapp.com/attachments/1107945240360394853/1124322993980575775/image.png",""
+"828122927437316107","leongkh","30/06/2023 6:31 pm","is there anything that missed out from my installation?","",""
+"965581010685280286","lynofz","30/06/2023 10:01 pm","Make sure you have qemu installed on your machine to emulate riscv
+In Ubuntu you can install with:
+```
+apt install qemu-user-static
+```","","👍 (1)"
+"828122927437316107","leongkh","02/07/2023 5:38 pm","Thanks for the tip, it solves the exec format error. 
+However, i am having difficulty to install scipy and some other python modules, do you have idea how to overcome this? Thanks in advance.","",""
+"965581010685280286","lynofz","03/07/2023 5:20 pm","If you try to install with pip it will download the sources and build, so you should have compilers and a prepared environment for it.
+But you can install the binaries from the distro:
+```
+apt install -y --no-install-recommends python3-numpy python3-scipy
+```
+If it doesn't find the package you can redefine the python path variable: 
+```export PYTHONPATH=PYTHONPATH:/usr/local/lib/python3.10/:/usr/lib/python3/dist-packages/```","",""
+"828122927437316107","leongkh","08/07/2023 3:26 pm","Ok, this is helpful, another dummy question, may i know how do i see the info that i log in the python script?","",""
+"828122927437316107","leongkh","08/07/2023 4:05 pm","These the the container ids after compose, but none of these give me the log that i added in the python script","https://cdn.discordapp.com/attachments/1107945240360394853/1127186187480735765/image.png",""
+"965581010685280286","lynofz","08/07/2023 6:17 pm","It should be the container running the image ```cartesi/dapp:<name>-devel-server```, (probably cartesi/dapp:pg-devel-server)
+It will have the server manager logs and also the logs you printed on your dapp.
+You can check with 
+```
+docker logs -f <container>
+```","",""
+"828122927437316107","leongkh","08/07/2023 6:20 pm","hmm, surprisingly, i couldnt find the log in the server. Is there special setting needed?","",""
+"828122927437316107","leongkh","08/07/2023 7:24 pm","And also how do i clean the cache of previous logs. Thanks","",""
+"965581010685280286","lynofz","08/07/2023 8:02 pm","No special setting. You can print some debug messages to check the overall logic.
+To clean the cache and previous logs, you should remove the containers and volumes. If you are running an example from rollups-example you can run:
+
+```
+docker compose -f ../docker-compose.yml -f ./docker-compose.override.yml down -v
+```
+If you are running a custom dapp you can run (just check the location of the yml files)
+```
+docker compose -f docker-compose.yml -f docker-compose.override.yml down -v
+```
+Optionally you can list the containers and volumes and remove them with
+
+```
+docker ps -a
+docker rm <container1> <container2> ...
+docker volume ls
+docker volume rm <volume1> <volume2> ...
+```","","👍 (1)"
+"423279034445725697","eshaaa0811","13/07/2023 7:51 pm","Question
+
+Do the NODES run DOCKER IMAGE ( the cartesi smart contracts ) of the DAPP and act as the server of DAPPs ?
+
+Or... Do they only verify the STATE of the cartesi emulator, which is being run by the DAPP's own server ?","",""
+"886909209629835264","riseandshaheen","15/07/2023 2:58 pm","You have to build a docker image to deploy the backend of the dapp that essentially runs inside the Cartesi machine in production. This kinda acts like your backend server however, the data source and verification game(in case of dispute) still runs on the underlying base chain/L1. In other words,  the cartesi node(running your backend server) will read inputs from the blockchain and submit outputs back to the base chain.","",""
+"886909209629835264","riseandshaheen","15/07/2023 3:00 pm","Hope that answers the question!","",""
+"423279034445725697","eshaaa0811","15/07/2023 10:21 pm","So.... There's a common Cartesi machine for all the DAPPs ?","",""
+"423279034445725697","eshaaa0811","15/07/2023 10:21 pm","All the DAPP images will run on the same machine ?","",""
+"886909209629835264","riseandshaheen","16/07/2023 1:23 am","No, each dapp has its own cartesi machine, that's what makes cartesi rollups application-specific. Here's a good article to dive in https://medium.com/cartesi/application-specific-rollups-e12ed5d9de01","",""
+"423279034445725697","eshaaa0811","16/07/2023 2:44 am","And... Who runs the machine ? 
+
+The node runners ? Or... The dapp sends machine logs to mode to verify ?","",""
+"886909209629835264","riseandshaheen","17/07/2023 1:54 pm","In theory, it is a set of validators who run the node. Not sure if you're thinking the cartesi machine and your dapp backend running on separate nodes, rather your backend is packaged to run inside the machine so it's the same node. Any state changes to the machine are recorded on-chain by the node.","",""
+"902594102703566898","ericks.me","02/08/2023 8:07 pm","Just need a little more clarity about Cartesi Machine vs Compute SDK.
+
+As of now, Cartesi is geared towards using Cartesi Machine and not the Compute SDK , right? 
+
+Is it right to say that as of v0.9,  Compute SDK is obsolete?","",""
+"517899425369030696","dtuler","02/08/2023 8:16 pm","Cartesi Machine is a core product (a VM) used by two products: Compute SDK and Rollups SDK.
+Compute SDK is being updated to use the latest version of the Cartesi Machine.","",""
+"902594102703566898","ericks.me","03/08/2023 1:29 pm","Alright.  What exactly does the command ""cartesi-machine"" do?
+
+I was following the Hello World Machine and saw that command in this context:
+
+docker run \
+  --rm cartesi/playground:0.5.0 cartesi-machine \
+    --append-rom-bootargs=""single=yes"" \
+    -- $'echo Hello World!'","",""
+"221656839853572110","gcdepaula","03/08/2023 1:34 pm","Take a look at this!
+https://docs.cartesi.io/machine/host/cmdline/","","🤝 (1)"
+"489043089579835404","carsten.munk","14/08/2023 9:52 pm","@mpolitzer does genext2fs have a 4gb fs size limit / u32?","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 9:58 pm","No. It should revision 1 of ext2 where file size is 64bits.
+lower 32 bits on `i_size` and higher 32 bits on `i_dir_acl`.
+
+ref: https://www.nongnu.org/ext2-doc/ext2.html#i-size","",""
+"489043089579835404","carsten.munk","14/08/2023 9:59 pm","Hmm, ok, I’ll dig a bit more","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 9:59 pm","Can you give a bit more details on what is happening?","",""
+"489043089579835404","carsten.munk","14/08/2023 10:00 pm","was doing SOURCE_DATE_EPOCH=1689943775 genext2fs -N 1638400 -f -d /replicate/release -b 8388608 /replicate/image.ext2
+
+and hit:
+
+genext2fs: Internal error, block out of range","",""
+"489043089579835404","carsten.munk","14/08/2023 10:00 pm","was fine at 2097152","",""
+"489043089579835404","carsten.munk","14/08/2023 10:02 pm","this being cartesi/genext2fs v1.5.2 fwiw","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 10:02 pm","You may want to experiment with different block sizes for larger filesystems","",""
+"489043089579835404","carsten.munk","14/08/2023 10:02 pm","alright","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 10:05 pm","Here are some limits based on block size: https://www.nongnu.org/ext2-doc/ext2.html#def-blocks","","🔥 (1)"
+"466343326023680000","edubart","14/08/2023 10:13 pm","I usually recommend using 4096 bytes for block size, because that will match the kernel page cache size, and TLB entry size. But what is the default block size of genext2fs?","",""
+"489043089579835404","carsten.munk","14/08/2023 10:13 pm","think 1024","","✅ (1)"
+"466343326023680000","edubart","14/08/2023 10:14 pm","Would be a good idea to make 4096 the default in our patched genext2fs ?","",""
+"489043089579835404","carsten.munk","14/08/2023 10:15 pm","or at least a honorable mention in README maybe","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 10:25 pm","I think so. We care more about speed than size overhead.
+Did you measure the speedup?","",""
+"489043089579835404","carsten.munk","14/08/2023 10:28 pm","does the whole pmem thing bring any speedups btw? or just properly away from mtd semantics","",""
+"489043089579835404","carsten.munk","14/08/2023 10:29 pm","(for example, being able to use partitions of a 'flash drive')","",""
+"466343326023680000","edubart","14/08/2023 10:31 pm","Yes, there was about ~20% cycle less usage for reading/writing files in some benchmarks I made","","🔥 (2)"
+"466343326023680000","edubart","14/08/2023 10:32 pm","In theory it should be faster, but I did not measure or confirm","",""
+"1138146940979253399","marcelo.politzer","14/08/2023 10:34 pm","I just had a look at the code and it looks like you ran out of blocks.
+Can you try out the automatic block calculation to check if this value is correct.
+Something like `SOURCE_DATE_EPOCH=1689943775 genext2fs -N 1638400 -f -d /replicate/release -r +1% /replicate/image.ext2` Should work.
+You can then check your actual block usage with: `e2freefrag $IMG | grep 'Total blocks'` - `e2freefrag $IMG | grep 'Free blocks'`","",""
+"489043089579835404","carsten.munk","14/08/2023 10:35 pm","yep will queue that for tomorrow","",""
+"887754257615425537","ERC_Brandon#3505","19/08/2023 3:27 am","Hey @Machine Ref Unit sharing here a draft article that @felipeargento and I wrote.  We'd welcome any review, comment, and feedback from anyone inclined to take a read.  (There's also a very high-level comparison to EVM+ and WASM projects that we'd like to make sure is fair and accurate.)  Feel free to have a look if you'd like!
+
+https://docs.google.com/document/d/1D9HBVdobIS9REluPZRCogoqWJ0FGeiYqZ2De-GA0MkQ/edit","","👍 (2)"
+"887754257615425537","ERC_Brandon#3505","19/08/2023 3:34 am","cc @Diego @Augusto @Carsten | Zippie","",""
+"489043089579835404","carsten.munk","21/08/2023 12:00 am","probably a stupid question, but, could i theoretically have a real risc-v board with hypervisor extension run a VM and end up in same memory state as same initial VM inside a cartesi machine with hypervisor extension? I presume timers are a nightmare","",""
+"489043089579835404","carsten.munk","21/08/2023 2:31 pm","didn't see anything completely outrageous here","",""
+"610468413512351788","augusto.teixeira","21/08/2023 3:49 pm","Great text, congrats. Just two small comments:
+- I believe even the WASM platforms still make ""instruction-based metering"", see WASMER. So in a sense they are following the same dynamics of ""shared block space"" as the EVM.
+- The point is not only that it would take decades to rebuild the current software infrastructure. The problem is that this is a moving target and after rewriting 10000 libraries in Solidity, there would be one million new ones.","","🙌 (3)"
+"466343326023680000","edubart","22/08/2023 3:53 am","An interesting discussion of WASM vs RISC-V vs eBPF vs custom VM in context of smart contracts that happened on Polkadot forum.
+https://forum.polkadot.network/t/exploring-alternatives-to-wasm-for-smart-contracts/2434
+There are some interesting insights there that might be worth reading and add. The author made a good write up and even benchmark the options. cc @Augusto @felipeargento","","👏 (2),🙌 (1),👀 (3)"
+"600602166679568424","erickdemoura","24/08/2023 1:34 pm","I am aware that the emulator unit has recently been working on various benchmarks. Is there a document or location where these analyses have been compiled or summarized?","",""
+"466343326023680000","edubart","24/08/2023 4:30 pm","We often run benchmarks internally on specific things we are working on, but it's not much useful for others to see. Last time we presented benchmarks for others to see in a nice chart was in a slide of December internal updates, in this screenshot.
+But that was for SDK 0.12 vs 0.13, since then SDK 0.14 and 0.15 was released, so it is outdated. For instance I know Linux Boot is taking ~0.3 seconds instead of ~1.1 seconds. We have a task to provide benchmarks more often in the future. @alexmikhalevich made these benchmarks","https://cdn.discordapp.com/attachments/1107945240360394853/1144224727863398400/image.png","👍 (2)"
+"221745360337502208","felipeargento","24/08/2023 10:42 pm","Super interesting discussion! Thanks for the tag @edubart !
+
+About the benchmarks, these improvements would be nice as stand-alone updates to share on socials too...Linux Boot going from 1.1seconds to ~0.3 seconds is definitely a feel-good nugget of information haha","","👍 (1)"
+"600602166679568424","erickdemoura","24/08/2023 10:46 pm","Indeed, I was also thinking on possible ways to share this kind of information to a broader technical audience in the industry.","","👍 (2)"
+"466343326023680000","edubart","26/08/2023 8:45 pm","Try Cartesi Machine from the latest SDK in interactive mode in your browser page:
+https://cartesi-machine.surge.sh/
+I got the Cartesi Machine to compile to WASM in a cleaner way this week,  then I hacked this this morning. Works on Google Chrome.","",""
+"517899425369030696","dtuler","26/08/2023 9:19 pm","Very cool! Some cool use cases popping","",""
+"517899425369030696","dtuler","26/08/2023 9:20 pm","works in Safari as well","",""
+"466343326023680000","edubart","26/08/2023 9:21 pm","I cannot get it to work on Firefox yet, dunno why","",""
+"517899425369030696","dtuler","26/08/2023 9:23 pm","yeah, doesn't start in my firefox","",""
+"517899425369030696","dtuler","26/08/2023 9:25 pm","in the sunodo web deployment procedure I was thinking about fetching the machine from IPFS (which works in the browser using a JS ipfs library), and then executing the machine in the browser to calculate its hash. Do you think it's easy to do that?","",""
+"466343326023680000","edubart","26/08/2023 9:28 pm","It is possible, just kind slow, I did compute machine root hash in WASM, it took a minute for a 64MB machine.","","👍 (1)"
+"517899425369030696","dtuler","26/08/2023 9:31 pm","yeah, don't know either how it would be to download a gigabyte machine in browser's memory space","",""
+"517899425369030696","dtuler","26/08/2023 9:31 pm","may be peanuts compared to chrome's core memory 😆","",""
+"517899425369030696","dtuler","26/08/2023 9:33 pm","","https://cdn.discordapp.com/attachments/1107945240360394853/1145025700806537256/Screenshot_2023-08-26_at_1.02.58_PM.png","😆 (3)"
+"466343326023680000","edubart","26/08/2023 9:34 pm","I shared this in #✨┃spotlight","","🔥 (4)"
+"517899425369030696","dtuler","26/08/2023 9:42 pm","`cartesi-term.js` is generated from where?","",""
+"489043089579835404","carsten.munk","26/08/2023 9:49 pm","Works on my iPhone:","https://cdn.discordapp.com/attachments/1107945240360394853/1145029784754208848/IMG_3618.png","✨ (8)"
+"489043089579835404","carsten.munk","27/08/2023 12:39 am","@edubart hitting ""Uncaught ReferenceError: SharedArrayBuffer is not defined"" on latest Brave and Chrome","",""
+"466343326023680000","edubart","27/08/2023 2:15 am","Started a thread.","",""
+"489043089579835404","carsten.munk","27/08/2023 2:32 pm","@edubart something more over in zkCartesi or JIT, but you ever saw https://twitter.com/snfernandez/status/1383394958317551616 ? pre-compiles a bunch of 'gadgets' for very common operations to emulate","",""
+"466343326023680000","edubart","27/08/2023 4:15 pm","I have discussed something very similar a few times before with the machine team and @diego.nehab , we call this just tracing. The idea is to first make a cache of decoded instructions from hot traces, often called trace cache, then to execute the instructions handlers chained by calling and returning from these ""gadgets"", which really are just each instruction implementation. We have an issue for it in <https://github.com/cartesi/machine-emulator/issues/48>, though the issue says nothing about chaining yet.
+It is something we want to explore in the future, I often say the emulator is 40x slower than native for single-threaded non-SIMD code, I *think* this idea has potential to make the emulator below 10x magnitude, and yet there is no need to use a JIT, everything is pre-compiled. But making this is a huge effort, and will require a huge rewrite in our interpreter, hopefully one day we will tackle this.
+This idea is not new, it was described in 2008 by the Bochs x86 emulator author, in <http://emulators.com/docs/nx25_nostradamus.htm>","","🔥 (2)"
+"489043089579835404","carsten.munk","28/08/2023 12:19 am","how are you guys best handling 'uninitialized urandom read (8 bytes read)' and getrandom blocking these days on cartesi machine software images?","",""
+"489043089579835404","carsten.munk","28/08/2023 12:19 am","rndaddentropy used to be it but with non-buildroot i'm not as sure","",""
+"466343326023680000","edubart","28/08/2023 12:57 am","Started a thread.","",""
+"221656839853572110","gcdepaula","28/08/2023 5:43 pm","Amazing! Do you have any thoughts about bare metal execution, using the lambda machine and leveraging good compilers?","",""
+"466343326023680000","edubart","28/08/2023 6:20 pm","I have biased opinions about on how to approach bare-metal execution, but I don't want spark a long conversation or generate noise 🙂","","🙂 (1)"
+"489043089579835404","carsten.munk","30/08/2023 7:22 pm","@edubart since you were down in the machine room, how difficult is it if i wanted to utilize another hash function for all the merkleization like let's say poseidon or other STARK/ZK friendly stuff? (got this question when talking to someone about my ZK demo)? ""one"" place to change, or many? (ignoring one-step using keccak for the moment)","",""
+"466343326023680000","edubart","30/08/2023 7:39 pm","Actually @diego.nehab experimented using KangaorooTwelve instead of Keccak yesterday, so in his commit you can get and idea of what files you should change https://github.com/cartesi/machine-emulator/commit/2c2997bddae1d86319c28e4e8a34871722b71d46 , you basically need to implement a class like `xkcp_kangarootwelve_hasher` from this commit, and rename a few lines to use it.","",""
+"489043089579835404","carsten.munk","30/08/2023 7:40 pm","cool, had some good discussions with one of the Tip5 hash authors as well","",""
+"1096420714489327719","diego.nehab","30/08/2023 7:57 pm","Ping me if you need any help.","","👍 (2)"
+"1047790885577949224","joakimeq","07/09/2023 5:33 pm","watf","","🔥 (2)"
+"1047790885577949224","joakimeq","07/09/2023 5:33 pm","crazy lol","",""
+"489043089579835404","carsten.munk","07/09/2023 6:26 pm","@edubart if you ever want to try would be curious to see how we build for https://wasix.org/","",""
+"466343326023680000","edubart","07/09/2023 8:21 pm","WASIX is cool because it adds `fork()` support, TTY support, and other goodies. But the cartesi machine library can be compiled to pure WASI (just tested now), the only benefit of using WASIX would be TTY support for interactive terminals. The libcartesi library does not need `fork()`, this is used only in `remote-cartesi-machine`.","",""
+"489043089579835404","carsten.munk","07/09/2023 8:21 pm","yeah thinking maybe threading if we wanted to calculate state hashes maybe","",""
+"489043089579835404","carsten.munk","11/09/2023 4:03 pm","is there a way currently in between calculations of state hashes, on jsonrpc level, to get a list of 'dirty' pages (not hashed since last state hash update)? kinda the merkle tree update queue","",""
+"466343326023680000","edubart","11/09/2023 4:20 pm","There is no API for that. In the C++ code we do have a state of dirty pages, but it is an implementation detail for internal optimizations, and it does not track precisely dirty pages because of the TLB, pages in TLB are always considered dirty even when not touched between state changes. I am not sure if an API for that should ever exist. What is the use case?","",""
+"489043089579835404","carsten.munk","11/09/2023 4:21 pm","thinking storing a whole machine state can be a bit heavy and storing deltas in state instead could be interesting","",""
+"489043089579835404","carsten.munk","11/09/2023 4:21 pm","like machine diff kind of thing","",""
+"489043089579835404","carsten.munk","11/09/2023 4:22 pm","and for ZK could be a way to know what pages will get touched / written out so it becomes confirmation instead of writing","",""
+"466343326023680000","edubart","11/09/2023 4:31 pm","Another option would be an API to retrieve a merkle tree nodes up to 4096 bytes leaves (or higher number), then you can use this to compute diffs between the merkle trees, I think such API would make more sense than relying on tracking dirty pages.","",""
+"466343326023680000","edubart","11/09/2023 4:31 pm","There is no way to track dirty pages precisely without hurting performance, so I think merkle tree APIs makes more sense, but just an idea","",""
+"489043089579835404","carsten.munk","11/09/2023 4:35 pm","ah, that actually makes sense","",""
+"661223271596949506","henriquemarlon","13/09/2023 9:34 am","Hello everyone, how's it going?!
+
+I purchased this RISC-V microprocessor called Vision Five 2: https://www.starfivetech.com/en/site/boards, and in the upcoming weeks, I'm going to attempt to run a DApp node on it.
+
+The idea is to see if I'll be surprised by any performance, as per the docs:
+
+""This means that software running inside it will not perform as well as running on the host machine using an x86 or ARM architecture. Expect performance to be at least 50x slower than bare metal.""
+
+Does anyone have any tips or suggestions?","",""
+"517899425369030696","dtuler","13/09/2023 9:36 am","a hardware RISC-V will only help you to build binaries targeting RISC-V. Not related to running the Cartesi Machine or the Cartesi Node.","","👍 (1)"
+"317408866973515786","swetiyeti","14/09/2023 4:14 pm","I'm working on getting llvm/clang to crosscompile to riscv64 in the cartesi/toolchain image (prereq for Godot engine) and running into some issues. I got clang compiling with gcc and it looks like it worked
+
+```
+root@e15ce56e1551:/opt/riscv# clang -v
+clang version 18.0.0
+Target: riscv64-cartesi-linux-gnu
+Thread model: posix
+InstalledDir: /opt/riscv/riscv64-cartesi-linux-gnu/bin
+Found candidate GCC installation: /opt/riscv/riscv64-cartesi-linux-gnu/bin/../lib/gcc/riscv64-cartesi-linux-gnu/10.2.0
+Selected GCC installation: /opt/riscv/riscv64-cartesi-linux-gnu/bin/../lib/gcc/riscv64-cartesi-linux-gnu/10.2.0
+```
+
+But it's trying to pull in nonexistent headers when compiling a simple hello world:
+```
+In file included from hello.cpp:1:
+In file included from /opt/riscv/riscv64-cartesi-linux-gnu/bin/../lib/gcc/riscv64-cartesi-linux-gnu/10.2.0/../../../../riscv64-cartesi-linux-gnu/include/c++/10.2.0/iostream:38:
+In file included from /opt/riscv/riscv64-cartesi-linux-gnu/bin/../lib/gcc/riscv64-cartesi-linux-gnu/10.2.0/../../../../riscv64-cartesi-linux-gnu/include/c++/10.2.0/riscv64-cartesi-linux-gnu/bits/c++config.h:518:
+In file included from /opt/riscv/riscv64-cartesi-linux-gnu/bin/../lib/gcc/riscv64-cartesi-linux-gnu/10.2.0/../../../../riscv64-cartesi-linux-gnu/include/c++/10.2.0/riscv64-cartesi-linux-gnu/bits/os_defines.h:39:
+In file included from /opt/riscv/riscv64-cartesi-linux-gnu/riscv64-cartesi-linux-gnu/sysroot/usr/include/features.h:489:
+/opt/riscv/riscv64-cartesi-linux-gnu/riscv64-cartesi-linux-gnu/sysroot/usr/include/gnu/stubs.h:11:11: fatal error: 'gnu/stubs-lp64d.h' file not found
+   11 | # include <gnu/stubs-lp64d.h>
+```
+
+I see a `gnu/stubs-lp64.h` but haven't been able to get clang to compile with soft floats. If I try to set `-mfloat-abi=lp64`  I get an error that the option isn't supported. The cartesi machine emulator readme also mentions that Cartesi implements RV64IMASU, which floating point (single OR double precision) is missing from.
+
+What am I doing wrong here? Does cartesi-riscv include floating point support?","",""
+"489043089579835404","carsten.munk","14/09/2023 4:15 pm","newest emulator/toolchain should be rv64gc","",""
+"489043089579835404","carsten.munk","14/09/2023 4:15 pm","what toolchain version image are you on?","",""
+"317408866973515786","swetiyeti","14/09/2023 4:18 pm","i pulled latest yesterday","",""
+"317408866973515786","swetiyeti","14/09/2023 4:19 pm","that's good to know we're on GC at least","",""
+"466343326023680000","edubart","14/09/2023 4:20 pm","Don't use the toolchain image, this toolchain image is to be used to compile the kernel, but for dapps you should use your dapp distribution toolchain, and you won't need to deal with cross compiling which can be painful","",""
+"317408866973515786","swetiyeti","14/09/2023 4:21 pm","Cross compiling is painful indeed 😆","",""
+"466343326023680000","edubart","14/09/2023 4:24 pm","Pull a Docker Ubuntu riscv64 image, and compile inside it, make sure to use the same Ubuntu for the dapp, this is the easiest way, here is a command:
+```
+docker run --rm -it --platform=linux/riscv64 riscv64/ubuntu:22.04
+root@bc7b3421419f:/#
+```
+Then compile stuff as you would typically compile for Ubuntu, you can later create a Dockerfile to automate compiling and move files around for you.","",""
+"317408866973515786","swetiyeti","14/09/2023 4:26 pm","Aaahh okay I'll try this next. Thank you!","",""
+"466343326023680000","edubart","14/09/2023 4:27 pm","Of course, your dapp will need to be using Ubuntu too (if its not already), things compiled inside Ubuntu  works inside Ubuntu","",""
+"317408866973515786","swetiyeti","14/09/2023 4:27 pm","Yes using Ubuntu already","",""
+"317408866973515786","swetiyeti","14/09/2023 4:28 pm","Is it generally safe to assume that if I compile something on riscv64 Ubuntu, it will run on the Cartesi machine?","",""
+"466343326023680000","edubart","14/09/2023 4:30 pm","As long the Cartesi Machine rootfs is also Ubuntu, this is not the case if you are using `cartesi/image-rootfs` for example","",""
+"466343326023680000","edubart","14/09/2023 4:30 pm","The `cartesi/image-rootfs` is to be deprecated and you should avoid using it for dapps, in favor of using Ubuntu","",""
+"489043089579835404","carsten.munk","14/09/2023 4:31 pm","did the base image discussion land on ubuntu or debian ooi?","",""
+"317408866973515786","swetiyeti","14/09/2023 4:33 pm","Okay good to know, appreciate the help here","",""
+"466343326023680000","edubart","14/09/2023 4:37 pm","We are still using Ubuntu because it has proper release tags in Docker hub, Debian announced official support for riscv64 few weeks ago, I will suggest switching to it once it has proper stable tags on Docker hub, at this time there are only `unstable`, `sid`, `experimental` tags.","",""
+"489043089579835404","carsten.munk","15/09/2023 4:12 pm","re: lambda
+
+do we have any stats on 'time to load a machine from snapshot/stored machine' and 'actual execution starting with run()'?","",""
+"1100048504635785367","vfusco","15/09/2023 6:41 pm","Not yet","",""
+"1096420714489327719","diego.nehab","15/09/2023 7:04 pm","Loading machine from storage can be slow if you want to check the merkle tree. Loading from a snapshot should be very fast. We are thinking about using the second alternative, and if we move to the second, we are thinking about how to optimize it.","",""

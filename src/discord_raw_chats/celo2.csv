@@ -1,0 +1,743 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"428567131110637579","critesjosh","09/02/2022 9:43 pm","Hi all, this is a channel to discuss the Celo Dapp Starter repo, which is a progressive web app, that aims to help devs get started building dapps on Celo. It uses hardhat, nextjs and use-contractkit out of the box. You can find more information here https://github.com/celo-org/celo-progressive-dapp-starter","","🚀 (3)"
+"694292242067751004","aaronmgdr","10/02/2022 8:56 am","so cool @joshc","",""
+"428567131110637579","critesjosh","10/02/2022 8:45 pm","community contributions are welcome! we are paying bounties for improvements https://gitcoin.co/issue/celo-org/celo-progressive-dapp-starter/2/100027610","","coinhug (4)"
+"850511259115192393","AriCoin#7976","14/02/2022 11:14 pm","Hello @Valentin | cLabs I am having issues downloading the CSV in our Token transaction as well as getting our snapshot","",""
+"520888511059066887","lopeselio","15/02/2022 2:58 am","This is super cool @joshc","","🙏 (1),➕ (1)"
+"722478850440953888","valentinclabs","15/02/2022 9:10 pm","Hi @AlexrealNFT! This issue should be resolved now, could you check please?","",""
+"850511259115192393","AriCoin#7976","15/02/2022 10:24 pm","Checking now","",""
+"850511259115192393","AriCoin#7976","16/02/2022 12:04 am","Working thank you.  @Valentin | cLabs can I dm tou","",""
+"722478850440953888","valentinclabs","16/02/2022 3:10 pm","Great, thanks. Of course, feel free to dm.","",""
+"854996238223015936","0xarthurxyz","01/03/2022 3:43 pm","This is so cool! Thanks @joshc 💯","",""
+"481457784156717086","anhnt4288","19/03/2022 10:21 pm","Hi @joshc 
+I've made a submissions here 
+https://gitcoin.co/issue/celo-org/celo-progressive-dapp-starter/2/100027610
+and my pull request has accepted
+https://github.com/celo-org/celo-progressive-dapp-starter/pull/12
+But i'ven't received bounty reward yet, can you please check ?","","👍🏽 (1)"
+"428567131110637579","critesjosh","21/03/2022 7:30 pm","hey thanks for flagging this. this was supposed to be paid, but obviously wasn't. I'll send it to you now","","🥳 (1)"
+"481457784156717086","anhnt4288","21/03/2022 9:39 pm","i've received it, many thanks","","👍 (1)"
+"481457784156717086","anhnt4288","22/03/2022 8:02 am","Can i create docker to improve this ?","",""
+"428567131110637579","critesjosh","22/03/2022 7:30 pm","i am open to it. how would you use docker to improve it?","",""
+"481457784156717086","anhnt4288","23/03/2022 9:00 am","I plan to do the following: 
+1. Create dockerfile, docker-compose and load frontend (react-app) as a container service
+2. Create Makefile to deploy contract & run docker frontend - it helps developer easily deploy quickly for their own services","","👌🏽 (1)"
+"428567131110637579","critesjosh","23/03/2022 7:16 pm","do you think this would improve the existing experience? i am not sure that it is needed. it adds more overhead and doesn't make it that much easier. am i missing something?","","👍 (1)"
+"481457784156717086","anhnt4288","23/03/2022 7:24 pm","oh okay, its may complicate for beginner user 😄","",""
+"428567131110637579","critesjosh","23/03/2022 8:31 pm","maybe we could add this as a new branch. as you mentioned, it might be useful for more advanced users","","💯 (2)"
+"481457784156717086","anhnt4288","24/03/2022 7:52 am","great, i will submit the PR soon","","👍 (1)"
+"963026055290060841","superbow1#4882","11/04/2022 4:19 pm","Hi @joshc , I've submitted PR https://github.com/celo-org/celo-progressive-dapp-starter/pull/34","",""
+"428567131110637579","critesjosh","11/04/2022 6:50 pm","hey thanks! sorry for the delay on this. I was at the Celo conference last week","","👍 (1)"
+"428567131110637579","critesjosh","11/04/2022 6:50 pm","i will review this today","",""
+"700760180811366420","markkos89","16/04/2022 4:48 am","hello","","👋 (2)"
+"434502645361934358","vissequ","22/04/2022 6:45 pm","Hello","",""
+"434502645361934358","vissequ","22/04/2022 6:47 pm","Can I ask specific questions here for support trying to modify the app, or is it more for letting people know when I've made changes?","",""
+"940977457878691910","shinazouzoualerts#5942","22/04/2022 9:50 pm","We'll make sure you get the help you need - ask away !🙂","",""
+"533355122340659200","harpaljadeja.eth","23/04/2022 3:51 pm","I am working on react native dapp starter","","🔥 (1)"
+"533355122340659200","harpaljadeja.eth","23/04/2022 3:51 pm","https://www.youtube.com/watch?v=iqXBkLkxZoU","","🔥 (5),👌 (2),👏 (2)"
+"738820430491549715","vividwood#1810","12/05/2022 2:42 am","New mobile UI","https://cdn.discordapp.com/attachments/941003424298856448/974056359999991868/ui.mp4","👌 (2)"
+"738820430491549715","vividwood#1810","12/05/2022 2:42 am","https://github.com/celo-org/celo-progressive-dapp-starter/pull/39","",""
+"434502645361934358","vissequ","15/05/2022 9:22 pm","Hello I am playing around with the celo progressive dapp starter and I'm adding WMATIC and WETH and I have used the Optics token. Is there a WBTC token that is also trustworthy to use? I am using Optics because I have used it many times and it always works. Thank you!","",""
+"902595383065215078","aishat2376","16/05/2022 8:01 pm","hello, please has anyone successfully used celo-contractkit with typescript. I'm getting some type error
+in` node_modules/@celo/contractkit/lib/contract-cache.d.ts:139:94`","https://cdn.discordapp.com/attachments/941003424298856448/975767354308964452/unknown.png",""
+"694292242067751004","aaronmgdr","16/05/2022 8:40 pm","yeah I can help (hopefully)","",""
+"694292242067751004","aaronmgdr","16/05/2022 8:40 pm","what are you trying to do?","",""
+"738820430491549715","vividwood#1810","17/05/2022 7:01 pm","hi @joshc, could you please review new PRs in celo-progressive-dapp-starter? Thanks","",""
+"428567131110637579","critesjosh","17/05/2022 7:20 pm","hey. @joenyzio is actually taking care of that now","",""
+"415304229524209666","_miguelvieira","18/05/2022 3:58 pm","Hi there, i'm trying to use on my website use-contractkit and everything is working, but when I scan the QRcode with valora I get an error: Failed to initialise WalletConnect connection Error: Unable to get pairing session, did you lose internet connection?","",""
+"738820430491549715","vividwood#1810","18/05/2022 7:02 pm","@joenyzio can you review please?","",""
+"535624109980385290","joenyzio","20/05/2022 7:03 pm","@vividwood sorry for the slow reply - I'm just getting up to speed with supporting this. I'll review the PR this weekend and get things moving! I'll stay more attentive in the future and I look forward to checking out your improvements 😃","",""
+"738820430491549715","vividwood#1810","20/05/2022 7:05 pm","ok, thank you","",""
+"810296241816600597","reneaavik","08/07/2022 12:45 pm","hi @joenyzio, can you review my PRs please? also the gitcoin bounty is broken (shouldn't be set to traditional project type)","","🤩 (1)"
+"533355122340659200","harpaljadeja.eth","10/07/2022 1:19 pm","can you share the link to PR","",""
+"810296241816600597","reneaavik","10/07/2022 3:12 pm","https://github.com/celo-org/celo-composer/pull/102 and https://github.com/celo-org/celo-composer/pull/103","","🚀 (1)"
+"910651756462096385","_baced","11/07/2022 11:09 am","Following the celo-composer react native for ios, when connecting the wallet, valora is shown but the alfojores test app is not able to connect to my dapp - as it is not seen in the list of wallets 
+
+Am I missing something here?","",""
+"822790345745760276","adebiyiemmanuel","11/07/2022 1:15 pm","cc: @joenyzio","",""
+"535624109980385290","joenyzio","11/07/2022 9:18 pm","Hey @Rene Aavik - amazing PRs! I just merged your changes, sent the payouts, and followed up in DM with a few extra details. 😃","","🔥 (1)"
+"535624109980385290","joenyzio","11/07/2022 9:19 pm","The **Improve Celo Composer Bounty** is now fixed to allow multiple submissions.
+
+https://gitcoin.co/issue/29058
+
+The issues are backfilled with ideas I can think of if anyone is looking to add more issues or contribute to the ones listed there.
+
+https://github.com/celo-org/celo-composer/issues","",""
+"822790345745760276","adebiyiemmanuel","11/07/2022 10:31 pm","Cool!","",""
+"535624109980385290","joenyzio","12/07/2022 12:02 am","New Bounty Alert! 🚀
+
+🛠️  **Improve Celo Composer**
+This one is staying open for anyone that wants to contribute!
+https://gitcoin.co/issue/29058
+
+📃  **Improve Celo Documentation** 
+A new bounty for anyone who wants to help improve our Documentation!
+https://gitcoin.co/issue/29087
+
+I'll be around if you have any questions and I'm looking forward to seeing any ideas you submit!","","❤️ (1)"
+"692288871836155943","mujhtech","15/07/2022 10:19 pm","@joenyzio is this bounty still available","",""
+"535624109980385290","joenyzio","15/07/2022 11:52 pm","hey @mujhtech yes it's available and you can submit your plan for either improving composer or docs and get started!","",""
+"692288871836155943","mujhtech","16/07/2022 12:01 am","What if one wan to build another starter template? Is it acceptable","",""
+"535624109980385290","joenyzio","16/07/2022 1:19 am","Anything that improves the tool would be helpful! A starter template sounds like a great contribution but if you could provide any additional details I'll be able to confirm for you. Thanks 🙂","",""
+"399334230880157718","oluwafemialofe","19/07/2022 6:11 pm","Hi @joenyzio , I recently opened PR: https://github.com/celo-org/celo-composer/pull/107","",""
+"399334230880157718","oluwafemialofe","19/07/2022 6:19 pm","I would also like to discuss in more details other ideas that I have for celo composer. More details via email will be more preferable if you don't mind?","",""
+"399334230880157718","oluwafemialofe","24/07/2022 2:46 am","@joenyzio Any chance you checked above PR 😃 ?","",""
+"822790345745760276","adebiyiemmanuel","24/07/2022 2:47 am","He will surely do.
+We just finished our Celo Connect","","❤️ (2)"
+"535624109980385290","joenyzio","24/07/2022 6:50 pm","I'll check this out tonight! Can you share your wallet address in the PR? Thanks 🙂","",""
+"399334230880157718","oluwafemialofe","24/07/2022 8:35 pm","Yes @joenyzio I just did.","",""
+"399334230880157718","oluwafemialofe","24/07/2022 8:51 pm","Sent you a DM @joenyzio","",""
+"535624109980385290","joenyzio","25/07/2022 2:12 pm","Hi @OluwafemiAlofe I merged your request and sent payment! Responded in DM for additional details 🙂","","❤️ (1)"
+"399334230880157718","oluwafemialofe","27/07/2022 3:47 am","HI @joenyzio , I recently opened three PR's. You can look into them once you get the chance, i recorded a video for the second PR just to show it working.
+
+https://github.com/celo-org/celo-composer/pull/112 (Minimal Fix)
+https://github.com/celo-org/celo-composer/pull/113 (New Feature)
+https://github.com/celo-org/celo-composer/pull/114 (New Feature)","",""
+"535624109980385290","joenyzio","01/08/2022 9:47 pm","Hey @OluwafemiAlofe , thanks for submitting these PRs! Are you able to open Gitcoin submissions for these so that we can track payouts? Thanks!","",""
+"399334230880157718","oluwafemialofe","02/08/2022 4:21 am","Hey @joenyzio , No I am unable to do so for the 3 New PRs I submitted.","","🙏 (1)"
+"692288871836155943","mujhtech","05/08/2022 9:14 pm","@joenyzio is it possible for someone to create many issue as in gitcoin for celo-composer for different contribution","",""
+"159985870458322944","MEE6#4876","07/08/2022 1:13 pm","","",""
+"399334230880157718","oluwafemialofe","07/08/2022 8:51 pm","Hey @joenyzio , New PR opened 😃 . Please review
+https://github.com/celo-org/celo-composer/pull/115","",""
+"692288871836155943","mujhtech","07/08/2022 11:35 pm","@joenyzio New PR opened https://github.com/celo-org/celo-composer/pull/116","","👀 (1)"
+"692288871836155943","mujhtech","07/08/2022 11:48 pm","Samething here, I wasn’t able to open submission in Gitcoin","",""
+"399334230880157718","oluwafemialofe","08/08/2022 4:03 am","@joenyzio I just opened another PR https://github.com/celo-org/celo-composer/pull/117, this one I am particularly excited about because its a new start of the Gitbook powered docs, guides, videos, builds and challenge.","",""
+"399334230880157718","oluwafemialofe","08/08/2022 4:04 am","Its currently on https://alofe-oluwafemi.gitbook.io/celo-composer-docs/. The domain will have to change to Celo's own sub-domain, I am sure I will get help with that from  @Ernest Nnamdi (GMT +1) 😃 tomorrow for this","","👀 (1)"
+"535624109980385290","joenyzio","09/08/2022 9:23 pm","Hey @mujhtech @OluwafemiAlofe I chatted with the Gitcoin team and it looks like that's unfortunately not possible! Sorry for the confusion I hadn't realized this. I'll eventually try and sort things out using milestones but for now we can keep your initial submissions open longer term and payout additional bounties based off of the PRs. Hope this helps!","",""
+"535624109980385290","joenyzio","09/08/2022 9:27 pm","Wow very cool! I'd love to hear more about plans for this. sounds like you've been talking to @Ernest Nnamdi (GMT +1) already so I'll try and get caught up 🙂","",""
+"535624109980385290","joenyzio","09/08/2022 9:29 pm","Hey @mujhtech - could you re-open your work in Gitcoin DM me your address to send bounties to? Left a note in here above about why. Thanks!","",""
+"692288871836155943","mujhtech","09/08/2022 9:29 pm","Ok, sure","",""
+"692288871836155943","mujhtech","09/08/2022 9:34 pm","@joenyzio unable to re-open","","🤔 (1)"
+"399334230880157718","oluwafemialofe","10/08/2022 5:00 am","Yes it does @joenyzio . I am already in talks with @Ernest Nnamdi (GMT +1) , thank you. I will expect your feedback on my PR's","","🤙🏾 (1)"
+"692288871836155943","mujhtech","15/08/2022 3:15 am","@joenyzio New Pr opened https://github.com/celo-org/celo-composer/pull/119","",""
+"692288871836155943","mujhtech","18/08/2022 4:35 pm","@joenyzio  Any chance you checked above PR","",""
+"535624109980385290","joenyzio","19/08/2022 12:34 am","I'll check this out today thanks!","","👍🏿 (1)"
+"692288871836155943","mujhtech","19/08/2022 12:14 pm","Thanks","",""
+"692288871836155943","mujhtech","28/08/2022 10:02 pm","@joenyzio New Pr Opened https://github.com/celo-org/celo-composer/pull/121/","","🚀 (1)"
+"520888511059066887","lopeselio","30/08/2022 10:42 am","This is interesting","","coinhug (1)"
+"159985870458322944","MEE6#4876","11/09/2022 7:46 pm","","",""
+"799202474992599050","oleksiynov","09/10/2022 2:48 pm","Hello,
+I wanted to try out celo composer, but unfortunately, it crashes  on the very first step of installation process:","https://cdn.discordapp.com/attachments/941003424298856448/1028597341088911391/Screenshot_2022-10-09_at_10.18.07.png",""
+"991383649331187812","vissequcelo","10/10/2022 5:10 am","Hey I reproduced your steps and I got the same error. My work around was to edit the create.js file on line 7 changing
+
+```
+fs-extra
+```
+to just
+
+```
+fs
+```
+so change line 7 of create.js to:
+```
+const { ensureDir, readdir } = require(""fs"");
+```","",""
+"991383649331187812","vissequcelo","10/10/2022 5:10 am","","https://cdn.discordapp.com/attachments/941003424298856448/1028814217953955942/Screen_Shot_2022-10-09_at_4.38.15_PM.png",""
+"991383649331187812","vissequcelo","10/10/2022 5:12 am","should become:","https://cdn.discordapp.com/attachments/941003424298856448/1028814644380450836/Screen_Shot_2022-10-09_at_4.39.32_PM.png",""
+"991383649331187812","vissequcelo","10/10/2022 5:13 am","run
+```
+npx @celo/celo-composer create
+```
+again and you'll proceed to the next step","https://cdn.discordapp.com/attachments/941003424298856448/1028814972819607562/Screen_Shot_2022-10-09_at_4.43.00_PM.png",""
+"991383649331187812","vissequcelo","10/10/2022 5:15 am","lastly a little info about it:
+https://www.npmjs.com/package/fs-extra","",""
+"991383649331187812","vissequcelo","10/10/2022 5:18 am","@Harpal Jadeja | Celo Foundation do you know why I had to modify the code? if that is the case for everyone I can submit a PR to change the instructions on the ReadMe for Celo Composer.","",""
+"991383649331187812","vissequcelo","10/10/2022 6:06 am","Now when I select one of the next options I receive this error:
+```
+Unhandled exception. Shutting down TypeError: ensureDir is not a function
+    at Command.createAsync (/Users/~/.npm/_npx/500f2d7f75beab14/node_modules/@celo/celo-composer/bin/create.js:58:11)
+```","",""
+"533355122340659200","harpaljadeja.eth","10/10/2022 9:55 am","Which template are you using?","",""
+"991383649331187812","vissequcelo","11/10/2022 3:49 am","I downloaded it from GitHub yesterday
+
+
+```
+{
+  ""name"": ""@celo/celo-composer"",
+  ""version"": ""0.0.2-alpha"",
+  ""description"": ""Get started building dApps on Celo"",
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""git+https://github.com/celo-org/celo-composer.git""
+  },
+  ""author"": ""celo"",
+  ""license"": ""MIT"",
+  ""bugs"": {
+    ""url"": ""https://github.com/celo-org/celo-composer/issues""
+  },
+  ""homepage"": ""https://github.com/celo-org/celo-composer/blob/main/README.md"",
+  ""workspaces"": [
+    ""bin/*""
+  ],
+  ""devDependencies"": {
+    ""@netlify/plugin-nextjs"": ""^4.2.5""
+  },
+  ""dependencies"": {
+    ""chalk"": ""4.1.2"",
+    ""commander"": ""^9.4.0"",
+    ""fs-extra"": ""^10.1.0"",
+    ""inquirer"": ""^8.2.4"",
+    ""node-emoji"": ""^1.11.0"",
+    ""ora"": ""5.4.1"",
+    ""shelljs"": ""^0.8.5"",
+    ""yargs"": ""17.5.1""
+  },
+  ""main"": ""bin/index.js"",
+  ""keywords"": [
+    ""celo-composer"",
+    ""celo""
+  ],
+  ""bin"": {
+    ""celo-composer"": ""bin/index.js""
+  },
+  ""files"": [
+    ""bin""
+  ]
+}
+```","",""
+"991383649331187812","vissequcelo","11/10/2022 3:53 am","thats the required dependency
+
+and i traced the source on my end and i have","https://cdn.discordapp.com/attachments/941003424298856448/1029157167175053402/Screen_Shot_2022-10-10_at_3.22.43_PM.png,https://cdn.discordapp.com/attachments/941003424298856448/1029157167581904906/Screen_Shot_2022-10-10_at_3.23.05_PM.png",""
+"991383649331187812","vissequcelo","11/10/2022 3:53 am","lemme try to upgrade it","",""
+"991383649331187812","vissequcelo","12/10/2022 6:05 am","Hey please take a look at these solution steps and tell me if this solves your issue. I've tested it multiple times on fresh accounts.
+
+Solution:
+
+```
+
+cd <folder location>
+
+npm install
+
+npx @celo/celo-composer
+
+```
+
+Agree to install package
+
+```
+
+npx ./ create
+
+```
+
+Agree to install the package (unnamed file)
+
+--------------------------","",""
+"991383649331187812","vissequcelo","12/10/2022 6:06 am","@Harpal Jadeja | Celo Foundation this is from a fresh download from
+https://github.com/celo-org/celo-composer","",""
+"414999932102115328","kharioki","19/10/2022 6:51 pm","I'm running into this issue with celo-composer on both with expo and without expo templates. I can't seen to find the right fix for it. 
+I'd appreciate anyone's help","https://cdn.discordapp.com/attachments/941003424298856448/1032282277864018000/Screenshot_2022-10-19_at_16.19.35.png",""
+"855060197356863510","iamoracle","19/10/2022 10:08 pm","Kindly paste the error from the console here","","👍 (1)"
+"797674530608644096","0xsaint7972","24/10/2022 2:28 pm","Just started with celo-composer, I'm following the doc and when i run `npx hardhat create-account`, i run into this error. Some help","https://cdn.discordapp.com/attachments/941003424298856448/1034028214043017216/Screenshot_2022-10-24_at_11.54.39.png",""
+"855060197356863510","iamoracle","24/10/2022 4:53 pm","Check the config file","",""
+"520888511059066887","lopeselio","25/10/2022 12:25 pm","Can you send the code to your config file?","",""
+"520888511059066887","lopeselio","25/10/2022 12:26 pm","Do you have an open-sourced repo?","",""
+"568412753841094682","viral_sangani","03/11/2022 11:31 am","You have to create .env file and add your keys first","",""
+"692071654863405198","kemal.eth","04/11/2022 3:51 am","hello , I'm using command `npx hardhat create-account`  but I get this error (screenshot)
+then I use `npm install --location=global 18.0.0`  but it gives me this error (next ss) 
+I can't install celo composer","https://cdn.discordapp.com/attachments/941003424298856448/1037854125033013298/image.png,https://cdn.discordapp.com/attachments/941003424298856448/1037854125410492537/image.png",""
+"692071654863405198","kemal.eth","04/11/2022 3:58 am","fixed it, just installed LTS node version","","🌱 (3)"
+"1004629209076990002","mj6700#1281","04/11/2022 1:41 pm","can anyone help me solve this error please","https://cdn.discordapp.com/attachments/941003424298856448/1038002493214437406/image.png",""
+"855060197356863510","iamoracle","04/11/2022 1:42 pm","Disable webpack watch mode. It should work.","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:43 pm","can u explain how can i do that","",""
+"855060197356863510","iamoracle","04/11/2022 1:44 pm","In the webpack configuration, set watch: false.","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:44 pm","actually i am getting this error while deployinng it to vercel 
+whereas it is working fine in my localhost...","https://cdn.discordapp.com/attachments/941003424298856448/1038003304984236072/image.png",""
+"855060197356863510","iamoracle","04/11/2022 1:45 pm","Is vercel using the same node version as the one you use offline?","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:46 pm","yes ig how can i check it tho","",""
+"855060197356863510","iamoracle","04/11/2022 1:46 pm","‘’’ 
+
+const config = {
+    ...
+    watch: false,
+   ....
+}
+
+‘’’","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:47 pm","still error","https://cdn.discordapp.com/attachments/941003424298856448/1038004151537381396/image.png",""
+"855060197356863510","iamoracle","04/11/2022 1:48 pm","I'm not sure. Just use the latest version online and locally. 
+
+https://vercel.com/changelog/node-js-16-lts-is-now-available","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:49 pm","yes installed latest in local","",""
+"1004629209076990002","mj6700#1281","04/11/2022 1:50 pm","@iamoracle | Celo","",""
+"1004629209076990002","mj6700#1281","04/11/2022 2:27 pm","can anyone help please....","",""
+"692071654863405198","kemal.eth","04/11/2022 2:54 pm","hi, 
+I'm following this tutorial https://developers.celo.org/build-celo-dapps-in-15-minutes-or-less-438ea954d0b1
+encountering errors, first of all in the repo https://github.com/celo-org/celo-composer  this file -> .nvmrc <- is not present and the repo is updated while the tutorial looks older, can anyone give me an updated resource ? also the repo in ""getting started"" doesn't have any command to use to install","",""
+"808338135527718952","azeezabidoye#9516","04/11/2022 8:29 pm","Post your error","",""
+"808338135527718952","azeezabidoye#9516","04/11/2022 8:31 pm","If you run _yarn install_ and get an error 👇","",""
+"808338135527718952","azeezabidoye#9516","04/11/2022 8:34 pm","error Workspaces can only be enabled in private projects. ❌","",""
+"808338135527718952","azeezabidoye#9516","04/11/2022 8:35 pm","Add a new property to the _package.json_ file in the root folder 👉 add **""private"": true**","",""
+"692071654863405198","kemal.eth","04/11/2022 9:47 pm","in fact the file .nvmrc is not present in the repo","https://cdn.discordapp.com/attachments/941003424298856448/1038124942287446106/image.png",""
+"568412753841094682","viral_sangani","04/11/2022 10:22 pm","Hey this article is outdated. Celo composer now has a CLI that you can use to get started very easily. You can follow the steps in readme here - https://github.com/celo-org/celo-composer","","coinhug (1)"
+"855060197356863510","iamoracle","04/11/2022 10:41 pm","Thank you @Viral | Celo 
+
+
+@vissequ it seems the problem has been solved.","","👍 (2)"
+"991383649331187812","vissequcelo","04/11/2022 10:55 pm","Okay great.","",""
+"692071654863405198","kemal.eth","05/11/2022 12:01 am","thanks a lot","","👍 (1)"
+"808338135527718952","azeezabidoye#9516","05/11/2022 12:54 am","The DevRel team is already working on an update. Will be released soon","",""
+"808338135527718952","azeezabidoye#9516","05/11/2022 12:55 am","@Viral | Celo If you need help kindly state your issue","",""
+"494071598412988416","neogoku5","05/11/2022 4:19 am","Hi team, I tried to start the react-app as per the instruction in the article, https://developers.celo.org/build-celo-dapps-in-15-minutes-or-less-438ea954d0b1","",""
+"494071598412988416","neogoku5","05/11/2022 4:19 am","But I'm unable to access the localhost:3000 page, getting the following error","",""
+"494071598412988416","neogoku5","05/11/2022 4:20 am","``` pages/index.tsx (45:48) @ eval
+
+  43 |     // address: contracts[contract].address,
+  44 |     // To use Truffle, Uncomment the below line and comment the above line
+> 45 |     address: contracts[contract].networks[network?.chainId?.toString()].address ?? ""44787"",
+     |                                          ^
+  46 |   });
+  47 | }
+  48 | ```","",""
+"494071598412988416","neogoku5","05/11/2022 4:22 am","I was able to successfully deploy the contracts though into Alfajores testnet and the address have been updated in hardhat/deployments/hardhat_contracts.json","",""
+"494071598412988416","neogoku5","05/11/2022 4:22 am","But still facing the issue. Am i missing something?","",""
+"822790345745760276","adebiyiemmanuel","05/11/2022 6:42 pm","cc: @joenyzio @Viral | Celo","","👍🏻 (1)"
+"692071654863405198","kemal.eth","06/11/2022 6:33 pm","hello again, already 3 days trying to fix this error, can't find solutions on google, anyone knows how to fix this? after doing ""yarn install"" (i added private true even if that's not the problem, also did cllean yarn cache) i get the error in the picture","https://cdn.discordapp.com/attachments/941003424298856448/1038800716111810660/image.png",""
+"568412753841094682","viral_sangani","06/11/2022 6:34 pm","Hey @kemal🥷.eth Are you using celo composer CLI?","",""
+"568412753841094682","viral_sangani","06/11/2022 6:35 pm","This should not be a problem. Let me recreate this on my end.","",""
+"692071654863405198","kemal.eth","06/11/2022 6:36 pm","hello, I think so i did `git clone https://github.com/celo-org/celo-composer` , cd celo-composer/packages/hardhat --> yarn install --> get the error","",""
+"568412753841094682","viral_sangani","06/11/2022 6:37 pm","Oh that's the old way of doing things. Try this - 
+`npx @celo/celo-composer create`. 
+Choose the packages you want.","","🔥 (1),👍 (1)"
+"520888511059066887","lopeselio","07/11/2022 12:00 pm","I think this would solve your issue https://discord.com/channels/600834479145353243/941003424298856448/1038801682680782858","",""
+"808338135527718952","azeezabidoye#9516","07/11/2022 4:41 pm","Do you have a link to the guide explaining this celo-composer CLI? Kindly post 🙏","",""
+"568412753841094682","viral_sangani","07/11/2022 6:41 pm","Hey @azeezabidoye We can in the middle of making a docs for celo composer.","",""
+"568412753841094682","viral_sangani","07/11/2022 6:43 pm","To get the desired framework starter kit, all you need is `npx @celo/celo-composer create`. But if you have any questions, you can ask here, and I am happy to answer. 
+We will try to get the docs ready in a few days.","","👍 (2)"
+"705462005309374466","mosnyik","08/11/2022 1:13 pm","Good day @Viral | Celo I am new here and I am from LearnWeb3","",""
+"705462005309374466","mosnyik","08/11/2022 1:14 pm","There is a bounty that I have complete and I want to ask about something, if it is okay I would like to ping you","",""
+"568412753841094682","viral_sangani","08/11/2022 1:33 pm","Hey @mosnyik.btc Sure.","",""
+"705462005309374466","mosnyik","08/11/2022 2:18 pm","Okay thanks","",""
+"808517798216859688","Aussie#5691","09/11/2022 11:12 pm","Hey guys using  the celo dApp composer when I try yarn install hardhat I get no lock file found.  Any ideas what could be cause","",""
+"520888511059066887","lopeselio","09/11/2022 11:32 pm","are you doing  `cd packages/hardhat` folder ?","",""
+"808517798216859688","Aussie#5691","09/11/2022 11:42 pm","Yeah","",""
+"520888511059066887","lopeselio","10/11/2022 12:25 am","You just have to do npx @celo/celo-composer create","",""
+"520888511059066887","lopeselio","10/11/2022 12:25 am","@Viral | Celo mentioned here","",""
+"520888511059066887","lopeselio","10/11/2022 12:25 am",".","",""
+"808517798216859688","Aussie#5691","10/11/2022 2:23 am","","https://cdn.discordapp.com/attachments/941003424298856448/1040006128915992586/IMG_0188.jpg,https://cdn.discordapp.com/attachments/941003424298856448/1040006129356386395/IMG_0189.jpg",""
+"808517798216859688","Aussie#5691","10/11/2022 2:23 am","Hey guys I get these errors when trying run yarn install","",""
+"692071654863405198","kemal.eth","10/11/2022 4:12 am","i have a problem with celo composer, once run `npx @celo/celo-composer create ` and created my root project, I go to `packages/hardhat`  type `yarn install`  and get the error in the screenshot","https://cdn.discordapp.com/attachments/941003424298856448/1040033767525453944/image.png",""
+"692071654863405198","kemal.eth","10/11/2022 4:13 am","I sow more people have this issue","",""
+"692071654863405198","kemal.eth","10/11/2022 4:19 am","I'm facing this error since 4 days, trying so desperately to build something for earn web 3 😭😭","",""
+"991383649331187812","vissequcelo","10/11/2022 6:44 am","is it possible to copy and paste the screenshot?","",""
+"991383649331187812","vissequcelo","10/11/2022 6:44 am","is it possible to copy and paste the screenshot?","",""
+"692071654863405198","kemal.eth","10/11/2022 1:05 pm","@vissequ here you go, thanks in advance","https://cdn.discordapp.com/attachments/941003424298856448/1040167806500618240/error_gyp.txt",""
+"991383649331187812","vissequcelo","11/11/2022 4:38 am","@Viral | Celo Hey. I believe he's still having trouble with the new method. Can you take a look when you have time? Thank you!","",""
+"745381641958195250","jackiesafari","11/11/2022 4:58 am","Hello I am having issues with the step after installing yarn. The step mentions ""Create a new account and print the account number and private key using hardhat create-account."" I get this error and am wondering if the command is outdated or there is another command similar to it in order to create an account.","https://cdn.discordapp.com/attachments/941003424298856448/1040407728482418828/Screen_Shot_2022-11-10_at_6.26.29_PM.png",""
+"520888511059066887","lopeselio","12/11/2022 2:12 am","Let me check it for you early tomorrow morning.","",""
+"520888511059066887","lopeselio","12/11/2022 2:14 am","It’s npx hardhat create-account","",""
+"520888511059066887","lopeselio","12/11/2022 2:15 am","Make sure you are in the hardhat folder @jackiesafari","",""
+"855060197356863510","iamoracle","12/11/2022 2:21 am","You should cd to packages/hardhat before running the command.","",""
+"745381641958195250","jackiesafari","12/11/2022 11:46 pm","Alrighty so now that i'm in the hardhat folder yarn install doesnt seem to work. I get a set of errors  ""Usage error: The nearest package directory..""","https://cdn.discordapp.com/attachments/941003424298856448/1041053828553920523/Screen_Shot_2022-11-12_at_1.07.33_PM.png",""
+"745381641958195250","jackiesafari","12/11/2022 11:48 pm","I get a new error now that i'm in hardhat. Yarn install is now giving me a lot of errors. Any tips? larger image in post above.","https://cdn.discordapp.com/attachments/941003424298856448/1041054520379191306/Screen_Shot_2022-11-12_at_1.18.10_PM.png",""
+"520888511059066887","lopeselio","12/11/2022 11:51 pm","To get the desired framework starter kit, all you need is `npx @celo/celo-composer create`. But if you have any questions, you can ask here.","",""
+"520888511059066887","lopeselio","12/11/2022 11:51 pm","Inside the packages/hardhat folder 📁","",""
+"855060197356863510","iamoracle","12/11/2022 11:53 pm","Navigate to the hardhat folder and run npm install command. If there is any yarn.lock file remove it and delete the npm_modules folder.","",""
+"692071654863405198","kemal.eth","13/11/2022 4:18 am","finally, removing yarn.lock fixed all problems","","👍 (1)"
+"692071654863405198","kemal.eth","13/11/2022 5:49 am","really dumb question: I finished my prject for earnweb3, now I want to upload it to github but it doesn't let me because I obviously can't publish main branch. how can I create a personal github repo from celo composer with my edited contracts and scripts?","",""
+"745381641958195250","jackiesafari","13/11/2022 8:22 am","Ok so now im following the read me from the celo-composer create and am in the section of getting testnet funds and installing dependencies. I am in hard hat but again when I try to ""yarn install"" I get errors. I already deleted the yarn.lock and made a new lock file but still get an error. Also tried not having a yarn.lock at all. but yea any new ideas are appreciated.","https://cdn.discordapp.com/attachments/941003424298856448/1041183755383087115/Screenshot_2022-11-12_at_9.48.25_PM.png",""
+"520888511059066887","lopeselio","13/11/2022 9:59 am","Fork the repo and build your own project and push it","",""
+"855060197356863510","iamoracle","13/11/2022 11:20 am","Have you tried removing the npm_modules folder? Remove it and the yarn.lock and reinstall.","",""
+"692071654863405198","kemal.eth","13/11/2022 6:16 pm","hi, I have this line of code,  `require(msg.value >= amount * 0.1 ether, ""You must pay at least 0.1 ETH per donut"");` , I wanna change ether to celo, how do I do it?","",""
+"855060197356863510","iamoracle","13/11/2022 6:33 pm","You don’t need to change it. ether is used to denote the native token of the blockchain you’re working on in Solidity.","",""
+"692071654863405198","kemal.eth","13/11/2022 6:34 pm","Thanks for clarifying so my contract should be alright","",""
+"855060197356863510","iamoracle","13/11/2022 6:35 pm","Yes. It will work fine, at least on every EVM-based blockchain.","",""
+"855060197356863510","iamoracle","13/11/2022 6:35 pm","Is there any other thing I can help you with?","",""
+"692071654863405198","kemal.eth","13/11/2022 6:36 pm","No, I'm done with my earnweb3 submission, now waiting for the results, thanks a lot 🙏","",""
+"855060197356863510","iamoracle","13/11/2022 6:37 pm","Congratulations 🎉 
+
+I would suggest you try CELO 201 on DACADE.org.","",""
+"855060197356863510","iamoracle","13/11/2022 6:37 pm","I wish you the best of luck @kemal🥷.eth","",""
+"692071654863405198","kemal.eth","13/11/2022 6:38 pm","I'll check it out !","","👍 (1)"
+"692071654863405198","kemal.eth","13/11/2022 6:38 pm","Thanks !","","👍 (1)"
+"991383649331187812","vissequcelo","14/11/2022 2:00 am","Congrats! 🙂","","❤️‍🔥 (1)"
+"745381641958195250","jackiesafari","14/11/2022 10:09 am","I think I already removed it. I tried looking for it and dont see it. But just to be on the safe side where would I find the npm_modules file?","",""
+"855060197356863510","iamoracle","14/11/2022 2:49 pm","You should see it inside the project/* folder. It's auto-generated whenever you run the npm install command.","",""
+"520888511059066887","lopeselio","14/11/2022 4:20 pm","in the same directory where you have your package.json file","",""
+"568412753841094682","viral_sangani","15/11/2022 1:09 am","@here Hey, for those having issues with Celo Composer react, I have made a short loom video that might help.
+https://www.loom.com/share/261fdc404d544e4d8267d66999a3ab85","",""
+"568412753841094682","viral_sangani","15/11/2022 1:10 am","All the readme are updated as well. Let me know if you need any help or facing any issues.","",""
+"745381641958195250","jackiesafari","15/11/2022 7:07 am","I started from scratch again because npm install wasnt working. However now I'm having difficulties in the beginning and getting an error about ""Too many arguments"". I tried the method as in the loom and also the readme version and keep getting the same error.    I have tried the npm cache clean --force to see if that was the problem but nothing.","https://cdn.discordapp.com/attachments/941003424298856448/1041889715131003000/Screenshot_2022-11-14_at_8.33.52_PM.png",""
+"568412753841094682","viral_sangani","15/11/2022 12:14 pm","@jackiesafari And older version of `@celo/celo-composer` might have cached in your system. Can you try running `npx @celo/celo-composer@latest create` and check if it's working.","",""
+"568412753841094682","viral_sangani","15/11/2022 12:14 pm","Started a thread.","",""
+"745381641958195250","jackiesafari","16/11/2022 2:47 am","I tried it but I keep getting the same error about fatal: Too many arguments. 🥲","",""
+"745381641958195250","jackiesafari","16/11/2022 2:50 am","","https://cdn.discordapp.com/attachments/941003424298856448/1042187238794080377/Screenshot_2022-11-15_at_4.19.47_PM.png",""
+"568412753841094682","viral_sangani","16/11/2022 7:53 pm","Hey @jackiesafari The issue is with the project name, try giving a name without extra spaces.","",""
+"568412753841094682","viral_sangani","16/11/2022 7:54 pm","We will get this issue fixed ASAP.","",""
+"533355122340659200","harpaljadeja.eth","16/11/2022 11:59 pm","Any Celo Composer related issues can be opened here for faster resolution
+
+https://github.com/celo-org/celo-composer/issues/new?assignees=&labels=&template=bug_report.yaml&title=%5BBug%5D%3A+","",""
+"533355122340659200","harpaljadeja.eth","16/11/2022 11:59 pm","Pinned a message.","","👍 (1)"
+"745381641958195250","jackiesafari","17/11/2022 10:38 am","Yayy it worked with the name change.","","👍 (1)"
+"520888511059066887","lopeselio","17/11/2022 11:04 am","Awesome!","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 3:44 pm","Can I get documentation or any blog on celo composer because I think in the website they are showing outdated one.","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 3:45 pm","I want to build a dapp using celo-composer and I creating all the setup according to the instructions given in the GitHub repo of celo-composer but can you explain how to deploy smart contract now  @ELIO | IntoTheVerse  @0xKnight","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 3:53 pm","@kemal🥷.eth  I am also getting same error while running npm install can you please help","",""
+"692071654863405198","kemal.eth","18/11/2022 3:54 pm","remove yarn.lock and node modules folder then try again","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 3:56 pm","Ok I will try","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:00 pm","Inside hardhat folder there is no yarn.lock file @kemal🥷.eth","",""
+"692071654863405198","kemal.eth","18/11/2022 4:00 pm","In the root folder","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:00 pm","Ok","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:00 pm","And should I  delete node_modules of root folder","",""
+"692071654863405198","kemal.eth","18/11/2022 4:01 pm","try with only yarn.lock first then if doesn't work also node_modules","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:01 pm","What is the command after deleting","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:02 pm","Now should I go to hardhat folder and try npm install","",""
+"692071654863405198","kemal.eth","18/11/2022 4:02 pm","yes same as before","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:02 pm","Ok I will try","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:07 pm","No @kemal🥷.eth  I am getting same error it will stuck while installing ganache should I delete node_nodules folder in root directory or inside hardhat folder","",""
+"692071654863405198","kemal.eth","18/11/2022 4:08 pm","root folder I think","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:08 pm","For you after deleting yarn.lock it worked","",""
+"692071654863405198","kemal.eth","18/11/2022 4:08 pm","if you delete node_modules in hardhat folder then you'll have to reinstall all modules but you could try","",""
+"692071654863405198","kemal.eth","18/11/2022 4:08 pm","yes","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:09 pm","You are using yarn ??","",""
+"692071654863405198","kemal.eth","18/11/2022 4:09 pm","yeah I used yarn install","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:10 pm","Ok I will also try with yarn","",""
+"797140003082731531","karthik_karthik#8212","18/11/2022 4:11 pm","What is the command to deploy smart contract using celo-composer ??","",""
+"692071654863405198","kemal.eth","18/11/2022 4:16 pm","maybe npx hardhat deploy but check the guide I don't remember perfectly 😂","",""
+"520888511059066887","lopeselio","18/11/2022 5:09 pm","https://www.loom.com/share/261fdc404d544e4d8267d66999a3ab85 this should help you!","","👍 (1)"
+"797140003082731531","karthik_karthik#8212","18/11/2022 5:10 pm","Thanks Kemal it worked","",""
+"692071654863405198","kemal.eth","18/11/2022 5:11 pm","You're welcome","",""
+"339795313911005188","bobelr","24/11/2022 11:05 pm","Hi friends, I'm having issue installing Celo composer. I had installed it before and it was fine. But now, whenever it got to @mui/icons-material it says there's trouble with your network. Even when my network is so strong.","",""
+"568412753841094682","viral_sangani","24/11/2022 11:06 pm","Can you try cleaning your npm cache?","",""
+"339795313911005188","bobelr","24/11/2022 11:44 pm","Done. But no difference","",""
+"855060197356863510","iamoracle","25/11/2022 1:15 am","Remove lock files.","",""
+"339795313911005188","bobelr","25/11/2022 1:16 am","That means it'll start downloading all over again. I already spent 4GB installing and only for it to get stuck. Maybe I'll have to spend another 2GB again.","",""
+"339795313911005188","bobelr","25/11/2022 1:16 am","Let me try that","",""
+"855060197356863510","iamoracle","25/11/2022 1:18 am","I'm sorry to hear that. Follow these steps:
+1. Remove the npm_modules folder 
+2. Remove all lock files
+3. Rerun npm install","",""
+"339795313911005188","bobelr","25/11/2022 1:19 am","I am doing this from the project's root directory right?","",""
+"855060197356863510","iamoracle","25/11/2022 1:21 am","Depends on your directory structure. The rule of thumb is to install from the directory with your package.json file.","",""
+"339795313911005188","bobelr","25/11/2022 1:23 am","Exactly. But according to Celo composer's structure as highlighted in the video, it says from the project's root directory because if run from the workspace, there will be 3 node_modules folders in one project.","",""
+"339795313911005188","bobelr","25/11/2022 1:23 am","I'll just try this method now","",""
+"855060197356863510","iamoracle","25/11/2022 1:23 am","Ok. You can send a screenshot here.","",""
+"339795313911005188","bobelr","25/11/2022 1:29 am","Here is the structure. I've 3 workspaces under the packages. And the root directory is ""restructured""","https://cdn.discordapp.com/attachments/941003424298856448/1045428417224527882/IMG_20221124_205710.jpg",""
+"339795313911005188","bobelr","25/11/2022 1:32 am","I get this error. What I did is this. When I couldn't install successfully, I removed @mui/icons-material from the package.json which reside inside the react-app workspace. And I run yarn. Then the first installation was done but didn't build well cos of nodegyp. So now I tried to run install the mui deps, and it throws same error I was trying to avoid.","https://cdn.discordapp.com/attachments/941003424298856448/1045429213118869604/IMG_20221124_205747.jpg",""
+"339795313911005188","bobelr","25/11/2022 1:35 am","Anytime I install Celo composer, I always get this error after the installation is trying to build. It's always from Node-gyp. I detest nodegyp with passion. Don't know how to remove it. Seems Celo composer use it under the hood.","https://cdn.discordapp.com/attachments/941003424298856448/1045430037526093864/IMG_20221124_210358.jpg",""
+"855060197356863510","iamoracle","25/11/2022 5:42 am","cd react-app
+
+Before you run npm install","",""
+"339795313911005188","bobelr","25/11/2022 11:59 am","Ok thanks","",""
+"855060197356863510","iamoracle","25/11/2022 12:00 pm","Welcome","",""
+"339795313911005188","bobelr","25/11/2022 12:00 pm","Though It was stated in this video to stay in the root directory b4 running yarn install. 👆","","👍 (1)"
+"339795313911005188","bobelr","25/11/2022 7:06 pm","Celo composer is really giving so much trouble. From previous chats I read, more people complain Similar issue. It's been over 15hours that I am unable to successfully install dependencies in any of the packages. I already spent over 7GB of data all wasted.
+
+I also tried installing using wsl. The installation command for composer does not even create a project. The error is often can't find file name.
+
+I suggest the the Celo devs look into it asap. It would be a big turn off if one spent a lot of time and can't event get the project set up.","",""
+"855060197356863510","iamoracle","25/11/2022 9:39 pm","We are sorry for the inconvenience. I have seen a lot of people who have been able to set up their projects successfully. Did you attempt the solution I provided above? If yes, you should join @Harpal Jadeja | Celo Foundation during the developers' office hours program for assistance.","",""
+"339795313911005188","bobelr","26/11/2022 11:50 am","No I haven't. Before now, I have successfully set up Celo composer. But I need to set up a new project, and suddenly not working.","",""
+"339795313911005188","bobelr","26/11/2022 11:51 am","When is the office hour?","",""
+"855060197356863510","iamoracle","26/11/2022 11:52 am","Ok. Try all the steps outlined above. 
+
+And make sure your date and time are correct.","",""
+"339795313911005188","bobelr","26/11/2022 11:54 am","Ok. I'll try set up a new project folder. But then data is the issue but I'll try. Thanks for support.","","👍 (1)"
+"855060197356863510","iamoracle","26/11/2022 11:55 am","Welcome, and let me know how it goes.","",""
+"339795313911005188","bobelr","26/11/2022 11:56 am","Ok","",""
+"520888511059066887","lopeselio","28/11/2022 8:10 am","The fixes suggested by @iamoracle | Celo should solve the issue 👍","",""
+"855060197356863510","iamoracle","28/11/2022 4:05 pm","Thanks 🙏","",""
+"407879596285886474","boggiman","02/12/2022 4:52 pm","I am trying to use command given to create the new project but it is throwing this error what should I do? I think issue is with creation of package.json","",""
+"407879596285886474","boggiman","02/12/2022 4:52 pm","","https://cdn.discordapp.com/attachments/941003424298856448/1048197564865974282/image.png",""
+"991383649331187812","vissequcelo","09/12/2022 6:19 am","@Harpal Jadeja | Celo Foundation hey we haven't been able to figure this out. Do you have any ideas?","",""
+"520888511059066887","lopeselio","09/12/2022 9:15 am","Try deleting your node modules and lock files and do a package install again.","",""
+"407879596285886474","boggiman","09/12/2022 3:59 pm","It should create the package.json file here, right? 
+
+Check this line in error:
+
+```
+error: failed to initialize sparse-checkout
+cat: no such file or directory: packages/react-app/package.json
+```
+
+This command should be able to create the project right? That is what my understanding. There is some error in creating the package.json file from this command and that's why the error is happening.
+
+I created whole new folder with all the files and files shown in the terminal including hidden files.","",""
+"407879596285886474","boggiman","09/12/2022 4:03 pm","","https://cdn.discordapp.com/attachments/941003424298856448/1050721927649574922/InkedUntitled_10.jpg",""
+"991383649331187812","vissequcelo","09/12/2022 9:22 pm","I don't know if this will help, and I know it will be a little annoying, but one option is to try creating a new user on your computer and reproducing the steps to see if you still have the same issue.","",""
+"407879596285886474","boggiman","09/12/2022 9:23 pm","I can install new wsl this is Ubuntu 20.04(wsl) maybe I can install debian and try. Do you think that would be enough to test this?","",""
+"991383649331187812","vissequcelo","09/12/2022 9:25 pm","I don't know to be honest. @Comm_Mod what do you guys think?","",""
+"407879596285886474","boggiman","09/12/2022 9:26 pm","Worked.","",""
+"991383649331187812","vissequcelo","09/12/2022 9:27 pm","Hmm okay. So it's probably with one of your installed modules or something I would think?","",""
+"407879596285886474","boggiman","09/12/2022 9:27 pm","","https://cdn.discordapp.com/attachments/941003424298856448/1050803453036867614/rn_image_picker_lib_temp_18cd4b38-7c3b-4378-b30c-c72686b41470.jpg",""
+"407879596285886474","boggiman","09/12/2022 9:28 pm","Yeah. I think so.","",""
+"991383649331187812","vissequcelo","09/12/2022 9:36 pm","I'm off work right now was just checking in, but I think another one of our moderators should be able to help soon.","","👍 (1)"
+"991383649331187812","vissequcelo","09/12/2022 9:36 pm","(Have to run for a few)","",""
+"407879596285886474","boggiman","09/12/2022 9:57 pm","Figured out. Git version was outdated. When you said your installed modules, I just checked if issue is on this wsl settings and git version was 2.25 now it is 2.38. I will add it in the tutorial that I am writing.","",""
+"407879596285886474","boggiman","09/12/2022 9:59 pm","Solution is found here: https://stackoverflow.com/questions/72223738/failed-to-initialize-sparse-checkout","","👍 (2)"
+"407879596285886474","boggiman","09/12/2022 9:59 pm","This was the actual error in the terminal.","",""
+"407879596285886474","boggiman","09/12/2022 10:03 pm","Do you think this should be added to repo? That git version should be up to date. Other people might face same issue if they have older version of git.","",""
+"991383649331187812","vissequcelo","10/12/2022 1:27 am","Absolutely. Would you mind doing a PR?","",""
+"991383649331187812","vissequcelo","10/12/2022 1:28 am","If so please tag me when submitted, or even better DM me.","",""
+"407879596285886474","boggiman","10/12/2022 9:00 am","I will create a PR","",""
+"991383649331187812","vissequcelo","10/12/2022 9:04 am","Thank you please DM me when you have. Thank you very much 🙂","",""
+"520888511059066887","lopeselio","11/12/2022 10:37 am","Thanks for sharing!","","👍 (1)"
+"697886088563392534","ewertonlp","01/02/2023 3:30 am","I got an error installing Celo Composer. Does anyone know how to solve this? I already cleared the npm-cache
+npx @celo/celo-composer create
+Celo Composer CLI
+? Choose front-end framework: React
+? Choose web3 library for react app: Rainbowkit-celo
+? Choose smart-contract framework: Hardhat
+? Create a subgraph: No
+? Project name: test
+- Generating custom Celo Composer project with the following packages: react-app, hardhat...
+Cloning into 'test'...
+/package.jsonfile or directory: packages/*
+Unhandled exception. Shutting down SyntaxError: Unexpected end of JSON input
+     at JSON.parse (<anonymous>)
+     at C:\Users\Evelyn\AppData\Local\npm-cache\_npx\500f2d7f75beab14\node_modules\@celo\celo-composer\bin\create.js:208:37
+     at Array.forEach(<anonymous>)
+     at Command.createAsync (C:\Users\Evelyn\AppData\Local\npm-cache\_npx\500f2d7f75beab14\node_modules\@celo\celo-composer\bin\create.js:202:16)","",""
+"991383649331187812","vissequcelo","01/02/2023 4:05 am","I also have an error, it's different though:
+
+```
+sh: celo-composer: command not found
+```","",""
+"694292242067751004","aaronmgdr","01/02/2023 4:49 am","i think its `npx celo-composer`","",""
+"697886088563392534","ewertonlp","01/02/2023 7:25 am","I tried installing it on two other computers and got the same error.
+
+I tested with node v18.13.0 but also with previous versions and had the same error.","",""
+"694292242067751004","aaronmgdr","01/02/2023 9:48 am","@Eric Nakagawa ◘","",""
+"697886088563392534","ewertonlp","01/02/2023 10:24 pm","There will be an update today and then I will perform the installation again","",""
+"991383649331187812","vissequcelo","02/02/2023 12:06 am","That's what I type (what it says in the README), but I get this error","https://cdn.discordapp.com/attachments/941003424298856448/1070412225187156029/Screenshot_2023-02-01_at_10.35.45_AM.png",""
+"697886088563392534","ewertonlp","02/02/2023 12:37 am","It looks like you installed node using nvm for Windows or you don't have it installed. Try teh command npm i -g npx and then run celo composer command","",""
+"697886088563392534","ewertonlp","02/02/2023 12:37 am","npm i -g npx","",""
+"697886088563392534","ewertonlp","02/02/2023 12:38 am","if you have node installed","",""
+"991383649331187812","vissequcelo","02/02/2023 3:10 am","The reason why it's weird for me is over the past few months I've used Celo composer off and on, I've always downloaded the zip on the same computer and then opened the directory in the terminal and followed the readme exactly. And it sometimes works and sometimes doesn't.","",""
+"991383649331187812","vissequcelo","02/02/2023 3:13 am","File exists: /Users/cfabiano/.nvm/versions/node/v16.14.2/bin/npx
+ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+Should I do --force ?","",""
+"697886088563392534","ewertonlp","02/02/2023 3:37 am","Better to wait because today an update of Celo Composer should be released","","👍 (1)"
+"991383649331187812","vissequcelo","03/02/2023 1:43 am","I saw they updated yesterday have you had any luck? I still receive the same result","",""
+"697886088563392534","ewertonlp","03/02/2023 1:52 am","I spoke with@0xNestor just now and he is checking it.","",""
+"697886088563392534","ewertonlp","03/02/2023 1:54 am","Please check what is your npm package version? 
+npm info @celo/celo-composer version","",""
+"991383649331187812","vissequcelo","03/02/2023 2:33 am","I typed npm version and I received:
+
+npm: '9.3.0'","",""
+"991383649331187812","vissequcelo","03/02/2023 2:33 am","i typed :
+npm info @celo/celo-composer version
+
+and got:
+1.0.3","",""
+"697886088563392534","ewertonlp","03/02/2023 2:48 am","@0xNestor, @vissequ  is experiencing a different error","",""
+"991383649331187812","vissequcelo","03/02/2023 11:10 pm","Celo","",""
+"991383649331187812","vissequcelo","03/02/2023 11:10 pm","https://tenor.com/view/bill-and-ted-beethoven-gif-19603476","",""
+"399334230880157718","oluwafemialofe","04/02/2023 12:39 am","@EwertonLP It works for me","",""
+"399334230880157718","oluwafemialofe","04/02/2023 12:39 am","","https://cdn.discordapp.com/attachments/941003424298856448/1071145478776946738/Screenshot_2023-02-03_at_11.08.45_PM.png",""
+"399334230880157718","oluwafemialofe","04/02/2023 12:39 am","I am using node `v16.19.0`","",""
+"399334230880157718","oluwafemialofe","04/02/2023 12:40 am","Nvm `8.19.3`","",""
+"399334230880157718","oluwafemialofe","04/02/2023 12:41 am","For anyone needing information with installation and usage of Celo composer. There is a community docs here https://celo-composer-community-docs.vercel.app/docs/frameworks/react-app/installation-and-setup. That you can take advantage of","","👍 (4)"
+"520888511059066887","lopeselio","05/02/2023 9:59 am","Works for me too","",""
+"991383649331187812","vissequcelo","06/02/2023 12:51 am","Thank you!!","","✅ (1)"
+"729000379752120501","chizaa38","05/03/2023 12:40 pm","Hi @vissequ . I'm having trouble deploying my celo composer app on vercel. Kindly assist","https://cdn.discordapp.com/attachments/941003424298856448/1081836166627729469/Screenshot_2023-03-05_101020.png",""
+"855060197356863510","iamoracle","06/03/2023 3:03 am","Create a folder under the root folder and name it pages.","","🙏 (1)"
+"991383649331187812","vissequcelo","06/03/2023 4:44 am","Thank you @iamoracle | Celo please let us know Chizaa if that doesn't work.","","👍 (1)"
+"855060197356863510","iamoracle","06/03/2023 4:45 am","You might need to create an index.js file inside the created folder.","","👍 (1)"
+"520888511059066887","lopeselio","06/03/2023 11:58 am","https://stackoverflow.com/a/61904007
+
+Check this out 👆","",""
+"729000379752120501","chizaa38","06/03/2023 7:06 pm","The application deployed but with a 404 error.","https://cdn.discordapp.com/attachments/941003424298856448/1082295552055713832/Screenshot_2023-03-06_162752.png",""
+"520888511059066887","lopeselio","06/03/2023 9:57 pm","Make sure your deploy settings match those of next js 
+
+https://stackoverflow.com/a/74437550","",""
+"729000379752120501","chizaa38","09/03/2023 2:46 am","Successfully deployed the app. Thanks.","","🔥 (1)"
+"520888511059066887","lopeselio","09/03/2023 3:18 am","Glad it helped 💯💯","",""
+"855060197356863510","iamoracle","07/04/2023 2:59 pm","Hello @aaron | cLabs | pretty clueless,
+
+
+React-Celo is failing while using cUSD as feeCurrency. Kindly look into this. 
+
+
+Error message:
+
+{""code"":-32000,""message"":""gasprice is less than gas price minimum floor""}}","",""
+"520888511059066887","lopeselio","08/04/2023 2:38 pm","Is it because of gas limit? Previously on truffle i used to manually set gas limit to 40000 for the deployments to work","",""
+"520888511059066887","lopeselio","08/04/2023 2:38 pm","https://github.com/critesjosh/hello_contract-truffle/issues/2","","👍 (1)"
+"855060197356863510","iamoracle","08/04/2023 8:27 pm","I guess as much too. How do I set this value in React Celo? There is no mention in the documentation.","",""
+"520888511059066887","lopeselio","08/04/2023 9:38 pm","Are you using hardhat or truffle?","",""
+"520888511059066887","lopeselio","08/04/2023 9:38 pm","https://github.com/celo-org/react-celo/issues better to create an issue here","","🚀 (1),👍 (1)"
+"855060197356863510","iamoracle","08/04/2023 9:47 pm","Hardhat","",""
+"855060197356863510","iamoracle","08/04/2023 9:49 pm","It's not a hardhat problem. You only see the error while sending a transaction with feeCurrency as cUSD","","🚀 (1)"
+"517322410526113792","habibi1469","28/04/2023 12:22 pm","i am still having issues working with celo composer","https://cdn.discordapp.com/attachments/941003424298856448/1101400595895693333/Screenshot_from_2023-04-25_09-16-38.png",""
+"520888511059066887","lopeselio","28/04/2023 10:02 pm","https://stackoverflow.com/a/73856490 check this out","",""
+"540516646889062400","cjustinobi","30/04/2023 1:25 am","You might want to try version 12","",""
+"520888511059066887","lopeselio","01/05/2023 1:02 pm","@Habibi this should solve your issue","",""
+"520888511059066887","lopeselio","01/05/2023 1:02 pm","It worked for @gabe.celo","","✅ (1)"
+"729000379752120501","chizaa38","05/05/2023 4:36 pm","Hello @ELIO | IntoTheVerse . Will celo composer intergrate next13 app router since its now stable?","",""
+"520888511059066887","lopeselio","05/05/2023 11:51 pm","cc: @0xNestor Hey Nestor, can you help here?","",""
+"622457724239872011","0xnestor","06/05/2023 8:38 am","Interesting; thanks for asking. Any particular need for this to be integrated it?","",""
+"758072509013819422","olarte","10/05/2023 8:10 pm","Hi there. We (DevRel team and the Celo Discord Morators), will be making a few changes to our server with the goal of improving the overall experience. The following are a list of changes you can expect in this channel and the Developer Category.
+
+- The Developers category will continue existing for those who select the Developer role
+
+- We will keep the #🧰︱celo-composer channel for all discussions regarding Celo Composer and Front-End development 
+
+- We will keep the #blockchain channel for all discussions regarding the Celo blockchain and smart contract development
+
+- We will create a new Developer Forum for developers to get to know and discuss technical topics. Channels like this one, Identity, wallet-development, stCelo, will become tags on the Developer Forum 
+
+- We will create a read-only FAQ channel 
+
+- This changes will be executed on May 17th, 2023 
+
+- If you have questions or concerns, please respond to this message. Or contact me, @Moderator | Celo (UTC-5), or @ELIO | IntoTheVerse  and we will do our best to respond
+
+- We appreciate your patience while we make these changes","",""
+"880635732367130694","chigoziejacob#6623","22/05/2023 6:17 pm","Hello please how do I fix this? I am trying  to install celo composer using this command:  npx @celo/celo-composer@latest create","https://cdn.discordapp.com/attachments/941003424298856448/1110187054987493457/image.png",""
+"729000379752120501","chizaa38","23/05/2023 6:53 pm","Do you have node installed?","","👍 (2)"
+"520888511059066887","lopeselio","24/05/2023 7:16 am","I think you’re not using a proper version of nodejs","",""
+"880635732367130694","chigoziejacob#6623","24/05/2023 12:04 pm","Ok I will look into the node version","","👍 (2)"
+"880635732367130694","chigoziejacob#6623","30/05/2023 1:31 pm","Hello @ELIO | IntoTheVerse I upgraded the node version to 18  and I am still getting the same error","",""
+"520888511059066887","lopeselio","30/05/2023 1:32 pm","Let me look into this today","",""
+"880635732367130694","chigoziejacob#6623","30/05/2023 2:48 pm","Ok thank you","",""
+"577826908528574475","busayo4524","30/05/2023 3:45 pm","Sometimes I remove the ‘@‘ ‘latest’ command and it works","",""
+"880635732367130694","chigoziejacob#6623","30/05/2023 4:37 pm","Did'nt work for me","",""
+"991383649331187812","vissequcelo","31/05/2023 4:32 am","No luck with this?
+
+```
+npx @celo/celo-composer
+```","",""
+"520888511059066887","lopeselio","31/05/2023 12:03 pm","I should get back to you on this issue by evening today. Would you mind creating a post on developer-forum, with 'celo-composer' tag, the discussions would be helpful for other developers in the future","",""
+"520888511059066887","lopeselio","31/05/2023 12:04 pm","Also post all error messages you enounter with screenshots to explain the problem well","",""
+"880635732367130694","chigoziejacob#6623","31/05/2023 2:23 pm","Ok I will do that","",""
+"520888511059066887","lopeselio","02/06/2023 12:23 am","Thanks","",""
+"809640204976652288","ianmunge","19/06/2023 8:01 pm","Hello @here, how do I install @celo/rainbowkit-celo in a react-native dapp ? Should I start by installing `@rainbow-me/rainbowkit wagmi viem` or does @celo/rainbowkit-celo add them as dependencies","",""
+"262183861570502659","farzeen","19/06/2023 11:02 pm","Hello, this is the issue I'm getting when trying to connect with the Valora and Celo wallet on the celo-composer boilerplate website","",""
+"262183861570502659","farzeen","19/06/2023 11:03 pm","```js
+Unhandled Runtime Error
+TypeError: Cannot read properties of undefined (reading 'uri')
+
+Call Stack
+Object.getUri
+javascript\node_modules\@celo\rainbowkit-celo\wallets\valora.js (34:0)
+async eval
+javascript\node_modules\@rainbow-me\rainbowkit\dist\chunk-IPXOMZEJ.js (3788:0)
+```","",""
+"694292242067751004","aaronmgdr","20/06/2023 12:59 am","they are not included as dependencies.  add them separately. 
+
+Im not sure that rainbowkit supports react native","",""
+"520888511059066887","lopeselio","20/06/2023 8:37 am","Can you guide me to your code ?","",""
+"262183861570502659","farzeen","20/06/2023 10:44 am","It is the same code as the one found in the boilerplate","",""
+"262183861570502659","farzeen","20/06/2023 10:45 am","Only difference is I added my projectId","",""
+"262183861570502659","farzeen","20/06/2023 10:45 am","https://github.com/celo-org/celo-composer/blob/main/packages/react-app/pages/_app.tsx","",""
+"262183861570502659","farzeen","20/06/2023 10:46 am","Sorry, should have been more specific about which boilerplate, it's the React one","",""
+"520888511059066887","lopeselio","20/06/2023 11:16 am","let me check and get back to you","","👍🏽 (1)"
+"262183861570502659","farzeen","21/06/2023 10:55 am","Hey, any update?","",""
+"520888511059066887","lopeselio","21/06/2023 2:03 pm","Hey sorry, did not get a chance to. Let me get back to you!","","🙏🏽 (1)"
+"520888511059066887","lopeselio","22/06/2023 1:14 pm","Hi, this has been posted by one of our community members. 
+
+Avoid running into errors while launching Celo-composer
+1. Navigate to `packages/hardhat` directory
+2. Install _node_modules_  with `yarn install`
+3. Visit `hardhat.config.js` file and do two things
+i. Comment out `require(""@typechain/hardhat"");`
+ii. Comment out `typechain` object provided in `module.exports` object
+
+⚠️ Do this before doing anything else
+
+Have a bugfree day 🍀
+resharing in case anyone has been running into issues","",""
+"262183861570502659","farzeen","22/06/2023 2:16 pm","Hey, have you been able to look into it?","",""
+"520888511059066887","lopeselio","22/06/2023 4:46 pm","are you using rainbowkit or react celo?","",""
+"262183861570502659","farzeen","22/06/2023 4:55 pm","Rainbowkit","",""
+"520888511059066887","lopeselio","22/06/2023 5:54 pm","https://github.com/celo-org/rainbowkit-celo do you have code to valora using rainbow kit in your project","","👍🏽 (1)"
+"262183861570502659","farzeen","22/06/2023 6:03 pm","This is the code I'm using https://github.com/celo-org/celo-composer/blob/main/packages/react-app/pages/_app.tsx . Worth noting, the code is unchanged, It's essentially the code you get when initialising the composer for a React.js project","",""
+"520888511059066887","lopeselio","22/06/2023 6:18 pm","got you, so you must be using wallet connect module right?","",""
+"262183861570502659","farzeen","22/06/2023 6:19 pm","yes","",""
+"520888511059066887","lopeselio","22/06/2023 6:43 pm","@iamoracle | Celo hey bro, have you tried connecting valora alfajores wallet to wallet connetc on celo composer. I am also facing issues with rainbow-kit 
+- using iOS Alfajores testing app of Valora and Valora wallet as well 
+- My connection times out while using the scanner through valora app
+
+However in the console i get websocket errors","https://cdn.discordapp.com/attachments/941003424298856448/1121427722242117692/image.png",""
+"855060197356863510","iamoracle","22/06/2023 6:45 pm","This is probably an error with the key. Create a new project key from https://cloud.walletconnect.com/app","",""
+"520888511059066887","lopeselio","22/06/2023 6:57 pm","Done that 😅","",""
+"855060197356863510","iamoracle","22/06/2023 6:57 pm","Is it working?","",""
+"855060197356863510","iamoracle","22/06/2023 6:59 pm","https://www.rainbowkit.com/docs/installation","",""
+"855060197356863510","iamoracle","22/06/2023 6:59 pm","...
+
+const { connectors } = getDefaultWallets({
+  appName: 'My RainbowKit App',
+  projectId: 'YOUR_PROJECT_ID',
+  chains
+});
+
+...","",""
+"262183861570502659","farzeen","22/06/2023 7:20 pm","The Valora and Celo Wallet options also do not work and this is the error that breaks the app:
+```js
+Unhandled Runtime Error
+TypeError: Cannot read properties of undefined (reading 'uri')
+
+Call Stack
+Object.getUri
+javascript\node_modules\@celo\rainbowkit-celo\wallets\valora.js (34:0)
+async eval
+javascript\node_modules\@rainbow-me\rainbowkit\dist\chunk-IPXOMZEJ.js (3788:0)
+
+```","",""
+"262183861570502659","farzeen","22/06/2023 8:30 pm","@ELIO | IntoTheVerse  Okay something weird happened, when I try to install the dependencies using yarn, everything works. However, I get the issues when using npm. I use the following versions for node, npm and yarn:
+**
+Node.js - v18.0.0
+Yarn - v3.6.0
+Npm - 8.6.0**","",""
+"520888511059066887","lopeselio","22/06/2023 8:35 pm","I use yarn itself. exactly the version you are using","",""
+"520888511059066887","lopeselio","22/06/2023 8:35 pm","cc: @Harpal Jadeja | Celo Foundation could you help here ?","",""
+"533355122340659200","harpaljadeja.eth","23/06/2023 7:17 pm","I am using rainbowkit and I didn't use any client id or key from WalletConnect works for me though","",""
+"533355122340659200","harpaljadeja.eth","23/06/2023 7:18 pm","have you tried a different wallet?","",""
+"533355122340659200","harpaljadeja.eth","23/06/2023 7:18 pm","I used Zerion","",""
+"520888511059066887","lopeselio","23/06/2023 9:19 pm","I was trying Valora","",""
+"520888511059066887","lopeselio","23/06/2023 9:20 pm","even @Farzeen is trying the same one. I thought we needed to add separate code for Valora. https://github.com/celo-org/rainbowkit-celo","",""
+"991383649331187812","vissequcelo","26/06/2023 5:37 am","@yannsolol Hey I removed the message for the Discord invitation, because I do not think this is the proper channel for promoting it. I'm not sure the best channel, and I wanted to reach out to you so that you knew what happened. Please feel free to reply to discuss the best channel if you wish!","",""
+"262183861570502659","farzeen","26/06/2023 3:37 pm","Hi, any update?","",""
+"262183861570502659","farzeen","28/06/2023 6:38 pm","@ELIO | IntoTheVerse @Harpal Jadeja | Celo Foundation Hi any update?","",""
+"520888511059066887","lopeselio","28/06/2023 8:50 pm","Hey @Farzeen I was not able to connect to Valora even with the key. Could you try using other wallets ? Or you need Valora specifically ?","",""
+"533355122340659200","harpaljadeja.eth","28/06/2023 9:13 pm","I was able to successfully connect","",""
+"533355122340659200","harpaljadeja.eth","28/06/2023 9:14 pm","Check this branch
+
+https://github.com/celo-org/celo-composer/tree/therealharpaljadeja/react-app-wcv2","",""
+"520888511059066887","lopeselio","28/06/2023 9:28 pm","Was it an issue with wallet connect then ?","",""
+"533355122340659200","harpaljadeja.eth","28/06/2023 9:39 pm","I don't think so","",""
+"533355122340659200","harpaljadeja.eth","28/06/2023 9:39 pm","Try remove `rainbowkit-celo` that did give me an issue after that I copied all the code I needed to make it work for Celo and Alfajores","",""
+"520888511059066887","lopeselio","28/06/2023 10:23 pm","Got it.","",""
+"694292242067751004","aaronmgdr","29/06/2023 1:25 am","we had one issue with rainbowkit-celo which we fixed in 1.0.1 https://github.com/celo-org/rainbowkit-celo/pull/47#discussion_r1245517043","","🙌 (2)"
+"431407030415392768","emmanuel3651","03/07/2023 1:21 am","can anyone point me to a codebase for building on CELO with fultter?
+or any framework based on flutter, thanks🙏","",""
+"806267449104007199","emiridbest","04/07/2023 3:09 am","Celo-composer has built in support for Flutter also. You can try it out","",""
+"520888511059066887","lopeselio","04/07/2023 2:55 pm","https://github.com/celo-org/celo-composer/tree/main/packages/flutter-app","",""
+"431407030415392768","emmanuel3651","05/07/2023 12:26 am","Thank you.","",""
+"339795313911005188","bobelr","07/07/2023 11:16 am","Hey guys","",""
+"339795313911005188","bobelr","07/07/2023 11:16 am","I've never been able to use Celo composer","",""
+"339795313911005188","bobelr","07/07/2023 11:16 am","The set up is always a pain in my neck","",""
+"339795313911005188","bobelr","07/07/2023 11:17 am","Anyone experienced what I'm experiencing?","",""
+"339795313911005188","bobelr","07/07/2023 11:18 am","I always get ""unexpected end of json input"" error anytime I run 'npx celo composer create'","",""
+"339795313911005188","bobelr","07/07/2023 11:19 am","It gets stuck when trying to clone the Celo composer repo and move into it.","",""
+"339795313911005188","bobelr","07/07/2023 11:22 am","When I switched to later version of npm 18.12.1 the issue is the same.","",""
+"520888511059066887","lopeselio","07/07/2023 11:39 am","Hey @bobelr#8524 this should fix your issue. Next time you have any problem with Celo Composer, create a post on #🔖︱developer-forums , and we will help you out. The post on forum would also help to deliver answers to similar issues faced by other developers in the community. 
+Thank you!","",""
+"339795313911005188","bobelr","07/07/2023 12:31 pm","Cool. I'll do that. Thanks","",""
+"339795313911005188","bobelr","08/07/2023 12:01 pm","@ELIO | IntoTheVerse It worked. I'm so excited about this. Been a long time I've tried to use Celo composer and wasn't working for me.
+
+Looks like the version of NPM I used was the problems. The recent npm version is a blast. I use nvm for installing the version of npm I need. Had to uninstall all of the versions of npm using `nvm uninstall <version>`. Uninstall nvm itself from the control panel. Then I install npm using the installer package from the official website, and viola, I have Celo composer running.","",""
+"339795313911005188","bobelr","08/07/2023 12:01 pm","Thanks you @ELIO | IntoTheVerse","",""
+"520888511059066887","lopeselio","08/07/2023 12:01 pm","I’m happy it worked! Cheers","","👍 (1)"
+"480393576912781351","luiseduardo7412","08/07/2023 11:03 pm","Hi guys, how I can connect Celo Extension Wallet to frontend with next, even if as no longer support","",""
+"480393576912781351","luiseduardo7412","08/07/2023 11:46 pm","Also, when I connect a wallet on IOS with safari, I need to reload the Page after connect the wallet.
+I'm using rainbowkit","",""
+"520888511059066887","lopeselio","09/07/2023 6:05 pm","https://github.com/critesjosh/celo-transactions-lesson check this repo 
+window.celo instead of window.ethereum","",""
+"694292242067751004","aaronmgdr","14/07/2023 2:58 am","im curious what your usecase is","",""
+"729000379752120501","chizaa38","15/07/2023 4:35 am","Hello guys, I'm having trouble with the latest celo composer hardhat environment. Even after setting up solidity-coverage, I still get the same error🤔","https://cdn.discordapp.com/attachments/941003424298856448/1129549180487082086/Screenshot_from_2023-07-15_02-02-14.png",""
+"520888511059066887","lopeselio","15/07/2023 9:56 am","have you installed solidity coverage properly?","",""
+"520888511059066887","lopeselio","15/07/2023 9:56 am","$ `npm install --save-dev solidity-coverage`","",""
+"520888511059066887","lopeselio","15/07/2023 9:57 am","What version of node, npm, are you using?","",""
+"729000379752120501","chizaa38","15/07/2023 7:02 pm","Working with node version 18","",""
+"729000379752120501","chizaa38","15/07/2023 7:06 pm","Yes. i have done that","",""
+"520888511059066887","lopeselio","04/08/2023 3:30 pm","https://discord.com/channels/600834479145353243/1113392971828690954/1113461101875699713","",""
+"520888511059066887","lopeselio","04/08/2023 3:30 pm","Can you check this please ?","",""
+"520888511059066887","lopeselio","04/08/2023 3:30 pm","Maybe some version of dependency conflicts","",""
+"744537997977845761","0xknight256","08/09/2023 10:40 pm","Hi there! Can you please create this post on #🔖︱developer-forums other devs will be able to help you.","",""
+"1138521644239958086","bioregionist","08/09/2023 11:30 pm","will do; thx!","","👍 (1)"
+"520888511059066887","lopeselio","09/09/2023 9:29 pm","have tagged you in the forum post","",""

@@ -1,0 +1,834 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"513559670070444038","cryptoiscute","31/08/2023 6:20 pm","Gm","",""
+"513559670070444038","cryptoiscute","31/08/2023 6:21 pm",":nekoheart::arbiflame:","",""
+"115318820557553664","gaming.grandpa","31/08/2023 6:24 pm","gm 👀","",""
+"755423697027727471","msv_mahsa#6693","31/08/2023 6:24 pm","Gm gm!:arbiblobblue:","",""
+"1062418969346179245","josefp","31/08/2023 6:25 pm","gm ! :arbblue:","",""
+"442478266616512513","hkalodner","31/08/2023 6:35 pm","What's up","","arbifrog (1)"
+"897541670793515071","anatech_eth","31/08/2023 6:48 pm","Gm :arbiscroll:","",""
+"577613876896727071","femzzyfembros","31/08/2023 6:49 pm","Gm","",""
+"188027138891317249","eli_defi","31/08/2023 6:52 pm","**Learn about Stylus below!**👇
+
+https://medium.com/offchainlabs/stylus-now-live-one-chain-many-languages-eee56ad7266d","",""
+"828261986751086592","ricardo__gordon","31/08/2023 6:53 pm","Pinned a message.","",""
+"828261986751086592","ricardo__gordon","31/08/2023 6:54 pm",":arbiblobblue:","",""
+"511344743192461312","amarrazza","31/08/2023 6:59 pm","gm","",""
+"511344743192461312","amarrazza","31/08/2023 7:03 pm",":Arbitrum_StylusLogomark:","","Arbitrum_StylusLogomark (7)"
+"513559670070444038","cryptoiscute","31/08/2023 7:03 pm","GMM","",""
+"513559670070444038","cryptoiscute","31/08/2023 7:03 pm",":arbiscroll::arbiscroll::arbiscroll::arbiscroll::arbiscroll:","",""
+"513559670070444038","cryptoiscute","31/08/2023 7:03 pm",":Arbitrum_StylusLogomark::Arbitrum_StylusLogomark::Arbitrum_StylusLogomark::Arbitrum_StylusLogomark::Arbitrum_StylusLogomark:","",""
+"311971895828283393","raulj","31/08/2023 7:04 pm","https://twitter.com/rauljordaneth/status/1697239801001578977 here's a program you can try on Stylus today: sha256 on testnet with examples of interacting with it via Rust","",""
+"889861011740450826",".fyray","31/08/2023 7:06 pm","Gmmmmmm","",""
+"513559670070444038","cryptoiscute","31/08/2023 7:09 pm","https://blockworks.co/news/arbitrum-stylus-testnet","","Stylus (1)"
+"513559670070444038","cryptoiscute","31/08/2023 7:17 pm","https://www.coindesk.com/tech/2023/08/31/arbitrum-developer-courts-coders-who-already-know-webassembly-compatible-languages/?outputType=amp","","Stylus (2)"
+"511344743192461312","amarrazza","31/08/2023 7:28 pm","https://twitter.com/gmEthereum/status/1697247202819842364 send it :Stylus:","",""
+"470381593626673163","haythem1666","31/08/2023 7:40 pm","What is the diff between `sol_storage!`  and `#[solidity_storage]` ?","",""
+"470381593626673163","haythem1666","31/08/2023 7:42 pm","Is it just the way the types are written? in `sol_storage!` it is basically like solidity, but in both cases it is the same in the EVM trie","",""
+"311971895828283393","raulj","31/08/2023 7:45 pm","@Haythem sol storage! Lets you write solidity code within to define structs that will be translated into rust code that is storage backed. #[solidity_storage] can be added directly to rust structs to give them storage backings","","👍 (1)"
+"470381593626673163","haythem1666","31/08/2023 7:49 pm","Why owner is returning Address and Vector, not only address? (I'm also a rust noob XD)
+
+```
+    pub fn owner(&self) -> Result<Address, Vec<u8>> {
+        Ok(self.owner.get())
+    }
+```","",""
+"311971895828283393","raulj","31/08/2023 7:53 pm","@Haythem all good, we’re excited for you to look more into the sdk! Result means something can fail. It will either return an address or an error. The error type is a vector of bytes","","👍 (1)"
+"311971895828283393","raulj","31/08/2023 7:53 pm","Result is a common rust pattern for error handling","",""
+"513559670070444038","cryptoiscute","31/08/2023 7:57 pm","We're going to soon let it be just `Address` if the method is infallible. The SDK is a work in progress, and we're super interested in whatever friction you run into","","👍 (1)"
+"470381593626673163","haythem1666","31/08/2023 8:14 pm","When running `cargo stylus check` inside the `examples/erc20`
+
+I get 
+
+```
+error: `core::slice::<impl [T]>::split_at` is not yet stable as a const fn
+  --> /xxxxxxxx/xxx/xxxx/stylus-sdk-rs/stylus-sdk/src/abi/const_string.rs:32:23
+   |
+32 |         (_, source) = source.split_at(1);
+   |                       ^^^^^^^^^^^^^^^^^^
+
+error: `core::slice::<impl [T]>::split_at` is not yet stable as a const fn
+  --> /xxxxxxxx/xxx/xxxx/stylus-sdk-rs/stylus-sdk/src/abi/const_string.rs:94:9
+   |
+94 |         self.data.split_at(self.len).0
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+error: could not compile `stylus-sdk` (lib) due to 2 previous errors
+Stylus checks failed: failed to build project to WASM: cargo build command failed
+```","",""
+"165550481156866048","plasmapower","31/08/2023 8:18 pm","I think you need a newer rust version. Try `rustup update` if you're using rustup (recommended)","",""
+"470381593626673163","haythem1666","31/08/2023 8:22 pm","Ah yeah working now, thnx","",""
+"470381593626673163","haythem1666","31/08/2023 8:29 pm","Is it possible to write modifier or need to write it as a function?","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:34 pm","Right now you need a function","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:35 pm","Btw we're about to roll out an upgrade to the hello-world contract in around an hour that'll cut costs. We mistakenly configured a large stack size","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:35 pm","If you want it early, add
+```rs
+[target.wasm32-unknown-unknown]
+rustflags = [
+  ""-C"", ""link-arg=-zstack-size=32768"",
+]
+```
+to your `.cargo/config`","",""
+"470381593626673163","haythem1666","31/08/2023 8:50 pm","niice","",""
+"470381593626673163","haythem1666","31/08/2023 8:50 pm","I don't get the `setter` function, it is meant to set value in storage right?","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:51 pm","Almost, it gives you a handle to a slot in storage, which you can then use to set the value","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:52 pm","Although you can often just `.set` directly","",""
+"470381593626673163","haythem1666","31/08/2023 8:52 pm","~~Ah, so it is only used for mapping? and vars like bool and uint256 can use .set directly?~~
+
+Why when updating `balance` in the erc20, it uses .setter to get that slot and then .set, vs when changing total_supply it just used .set()?","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:54 pm","Oh oops, we should change that, nice catch","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:54 pm","This is great feedback, much appreciated","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:54 pm",":Stylus:","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:55 pm","Oh looking at it now, in `transfer_impl` what's happening is we're using the setter to call `get`","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:56 pm","Like you'll see in the comments, we're going to make storage manipulation much prettier. Ideally you'd just do
+```rs
+self.balances[address] -= value;
+```","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:56 pm","But right now it's a bit verbose","",""
+"470381593626673163","haythem1666","31/08/2023 8:56 pm","so I can't just do now `self.balances.get(address)` ?","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:57 pm","You can","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:58 pm","Our method documentation on docs.rs is generating right now, but soon you'll have a page where you can browse all the methods","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:58 pm","In `self.balances` case, you'd see it's a `StorageMap`, and then be able to look at all the methods of `StorageMap` with comments detailing what they do","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:59 pm","We're 57th in the queue here 🙂
+https://docs.rs/releases/queue","",""
+"165550481156866048","plasmapower","31/08/2023 8:59 pm","If you want to get a head start you can check out the `stylus-sdk-rs` repo locally and run `cargo doc` 🙂","",""
+"470381593626673163","haythem1666","31/08/2023 8:59 pm","so what's the diff between `self.balances.get(address)` and using `setter() + .get()` ? if they are the same, what's the reason between ur decision to use setter() + .get() ?","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:59 pm","Great point!","",""
+"470381593626673163","haythem1666","31/08/2023 8:59 pm","okay make sense will stop asking for now and check doc later 😄","",""
+"513559670070444038","cryptoiscute","31/08/2023 8:59 pm","We re-use the setter to do `.get` and then `.set`. We could have split that","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:00 pm","Oh actually it also lets you hold the same storage slot instead of hashing twice","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:00 pm","So it's a minor performance optimization too that nets around 30 gas","","👍 (1)"
+"513559670070444038","cryptoiscute","31/08/2023 9:01 pm","Just to be clear though, we're going to rework this so that it's more straightforward 🙂","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:01 pm","Thanks for bearing with us!","",""
+"470381593626673163","haythem1666","31/08/2023 9:04 pm","for constructor, should I just do `pub fn new...` under `#[external] impl....` ?","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:07 pm","That's def a way to do it, though just be careful you're the first one to call the method. Otherwise someone else might initialize your contract","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:08 pm","We recommend deploying and calling it in the same tx","",""
+"513559670070444038","cryptoiscute","31/08/2023 9:08 pm","Though testnet's not so adversarial -- you're safe to just call the thing in a follow-up tx haha","",""
+"470381593626673163","haythem1666","31/08/2023 10:16 pm","I did
+
+```
+    pub fn new(initialOwner: Address) -> Self {
+        Self { owner: initialOwner }
+    }
+```
+
+getting the error
+
+```
+71 |         Self { owner: initialOwner }
+   |                       ^^^^^^^^^^^^ expected `StorageAddress`, found `Address`
+```
+
+Anyone know how to fix it?","",""
+"311971895828283393","raulj","31/08/2023 10:21 pm","@Haythem try to use stylus_sdk::storage::StorageAddress","",""
+"311971895828283393","raulj","31/08/2023 10:21 pm","pub fn new(initialOwner: StorageAddress) -> Self {
+        Self { owner: initialOwner }
+    }","",""
+"470381593626673163","haythem1666","31/08/2023 10:25 pm","getting this now
+```
+the trait `AbiType` is not implemented for `StorageAddress`
+```","",""
+"311971895828283393","raulj","31/08/2023 10:26 pm","ah so it seems like it must be an `Address` type instead...thanks for checking ill look into this in a few minutes","",""
+"513559670070444038","cryptoiscute","31/08/2023 10:34 pm","https://twitter.com/i/spaces/1kvJpmyRRBXxE?s=20","",""
+"513559670070444038","cryptoiscute","31/08/2023 10:35 pm","You should use an Alloy Address instead of a storage type or any other address","",""
+"828261986751086592","ricardo__gordon","31/08/2023 10:35 pm","🎙️:Twitter: **TUNE IN - OFFCHAIN LABS - STYLUS AMA** :offchain:
+
+Join the Offchain Labs AMA where it will be discussed the __release of :Stylus:**Stylus**__ - a technology where developers will be able to use both traditional EVM tools and WASM-compatible languages like Rust, C, and C++ to build applications on Arbitrum Nitro chains.
+
+:Twitter: https://twitter.com/i/spaces/1OwxWwXXldmxQ?s=20
+
+🖊️ More info here: <https://twitter.com/OffchainLabs/status/1697232795268177987?s=20>
+https://discord.com/channels/585084330037084172/585084330037084180/1146852133283569836","https://cdn.discordapp.com/attachments/1146789176939909251/1146853361543548928/F43nRdhWoAAIOIZ.png",""
+"311971895828283393","raulj","31/08/2023 10:41 pm","@Rachel 💙 | Offchain Labs I get the same issue as Haythem using the alloy primitive address","",""
+"513559670070444038","cryptoiscute","31/08/2023 10:49 pm","https://twitter.com/i/spaces/1OwxWwXXldmxQ","",""
+"513559670070444038","cryptoiscute","31/08/2023 10:59 pm","That’s not really the intended use case for storage variables. In our model you declare your contract’s storage, and then have access to it in the entrypoint.
+
+If you do want to declare storage yourself, you can use the `unsafe` `StorageAddress::new()` method, likely on the input 0,0","",""
+"470381593626673163","haythem1666","31/08/2023 10:59 pm","I did git pull to get latest repo version, and now I'm getting this error when doing stylus check
+`Stylus checks failed: failed to build project to WASM: could not read release dir: No such file or directory (os error 2)`","",""
+"311971895828283393","raulj","31/08/2023 11:02 pm","@Haythem are you in the top level folder of your rust project?","",""
+"470381593626673163","haythem1666","31/08/2023 11:11 pm","lol was running the command from outside the project 😅  thnx","",""
+"470381593626673163","haythem1666","31/08/2023 11:14 pm","I'm trying to write the Ownable contract in rust https://github.com/OffchainLabs/stylus-sdk-rs/pull/41/files and still can't fix 
+```
+expected `StorageAddress`, found `Address`
+```","",""
+"513559670070444038","cryptoiscute","31/08/2023 11:34 pm","You know @Haythem we have a Stylus hackathon in ETH NY where we're giving out 20k in bounties -- if you find this fun that could be a fun experience","",""
+"513559670070444038","cryptoiscute","31/08/2023 11:34 pm","That's next month","",""
+"513559670070444038","cryptoiscute","31/08/2023 11:34 pm","Also we're going to release additional tutorials, YouTube videos, etc 🙂","",""
+"470381593626673163","haythem1666","31/08/2023 11:40 pm","niice","",""
+"165550481156866048","plasmapower","31/08/2023 11:53 pm","@Haythem you shouldn't provide a constructor for Ownable, the StorageType derive already provides an unsafe one that will automatically be used if the Ownable is a field in another contract","","👍 (1)"
+"470381593626673163","haythem1666","01/09/2023 12:13 am","Aha make sense","",""
+"470381593626673163","haythem1666","01/09/2023 12:14 am","What's the best way to compare `msg::sender() != self.owner`, getting 
+```
+^^ no implementation for `stylus_sdk::alloy_primitives::Address == StorageAddress`
+``` 😅","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:14 am","Can you do
+```rs
+msg::sender() != *self.owner
+```","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:15 am","Or
+```rs
+msg::sender() != self.owner.get()
+```","",""
+"470381593626673163","haythem1666","01/09/2023 12:16 am","great, thnx","",""
+"470381593626673163","haythem1666","01/09/2023 12:23 am","Looks like I fixed all issues, only this last one
+```
+Stylus checks failed: program predeployment check failed when checking against ARB_WASM_ADDRESS 0000000000000000000000000000000000000071: (code: -32000, message: program activation failed: failed to parse program
+
+Caused by:
+    missing import memory_grow
+```","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:27 am","Oh wow, would you mind sharing your program?","",""
+"470381593626673163","haythem1666","01/09/2023 12:28 am","https://github.com/OffchainLabs/stylus-sdk-rs/pull/41","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:31 am","We'll improve this error message, but what's really happening here is that there's no entrypoint, so it's not deployable on chain 🙂","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:32 am","Your code looks like a library, which other people might import to use in their contracts. That's awesome and very powerful, but in order for your code to be used on chain by itself, it'll need to instead have an `#[entrypoint]` somewhere","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:32 am","So what you could do is add a `main.rs` file, import your file, and then add an entrypoint that uses the Ownable mechanism you've implemented","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:32 am","Does that make sense?","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:32 am",":sayori:","",""
+"513559670070444038","cryptoiscute","01/09/2023 12:33 am","Notice how the `erc20.rs` example has a corresponding `main.rs`, which declares a type that then uses `#[entrypoint]` and `#[inherit]` to use the `Erc20`","",""
+"470381593626673163","haythem1666","01/09/2023 12:34 am","Ah yeah, make sense, thnx","",""
+"828261986751086592","ricardo__gordon","01/09/2023 2:44 am","https://twitter.com/0xCygaar/status/1697334728331055555?s=20","",""
+"190895959381770241","alec1017","01/09/2023 2:45 am","hey everyone, are there any code examples of how i can deploy a contract using `RawDeploy`?","",""
+"808863308224528424","chrisco512","01/09/2023 4:31 am","hey @Alec1017 we're working to improve in-contract deployment on the SDK, but for now, there is an example on the stylus repo for `RawDeploy`: https://github.com/OffchainLabs/stylus/blob/stylus/arbitrator/stylus/tests/create/src/main.rs","","👍 (1)"
+"558933889415118858","zklim","01/09/2023 8:10 am","what is activation transaction?","",""
+"558933889415118858","zklim","01/09/2023 8:12 am","is there a Solidity abi export tool for other languages such as C?","",""
+"1064377402505044139","ainmox","01/09/2023 9:12 am","Hello!","",""
+"1064377402505044139","ainmox","01/09/2023 9:15 am","Is there a way to do something similar to a fallback function in Solidity? I see you can have a free function that accepts a `Vec<u8>` be an entrypoint but I don't see anything about how you'd structure things such that you can access the storage without defining the layout manually.","",""
+"470381593626673163","haythem1666","01/09/2023 9:16 am","I added `#[entrypoint]` to ownable.rs https://github.com/OffchainLabs/stylus-sdk-rs/blob/bc61955798fa47daaf6c5618d6cb553f8d16897b/examples/ownable/src/ownable.rs#L11
+
+and it works, Is that how it should be done if I want to write a contract that other will import(similar to OpenZeppelin Ownable in solidity) ?","",""
+"165550481156866048","plasmapower","01/09/2023 9:21 am","If you define a sol_storage! or #[solidity_storage] struct as normal you can create it in your custom entrypoint using the unsafe constructor. I'm on my phone but look at the StorageType trait, or try looking at the `cargo expand` of an autogenerated entrypoint.","",""
+"1064377402505044139","ainmox","01/09/2023 9:22 am","Sweet. I'll look into that. Appreciate it.","",""
+"531373377642823680","evmcheb","01/09/2023 10:52 am","What's the best way to do a factory-style pattern in stylus? Is there anything like `type(C).creationCode`?","",""
+"558933889415118858","zklim","01/09/2023 10:52 am","how do I test run the example of siphash in https://github.com/OffchainLabs/stylus-sdk-c?","",""
+"777736885245313034","ravill3","01/09/2023 10:56 am","can build dex in stylus?","",""
+"531373377642823680","evmcheb","01/09/2023 11:51 am","I think `sol_interface!` is broken with no arguments
+```
+sol_interface! {
+    interface A {
+        function B() view returns (address);
+    }
+}
+error: expected type, found `,`
+  --> src/main.rs:22:1
+   |
+22 | / sol_interface! {
+23 | |     interface A {
+24 | |         function B() view returns (address);
+25 | |     }
+26 | | }
+   | |_^ expected type
+   |
+```","",""
+"531373377642823680","evmcheb","01/09/2023 2:44 pm","yes
+https://twitter.com/evmcheb/status/1697537852522049990","",""
+"647883260617293844","de_vazi","01/09/2023 6:01 pm","no built in constructor huh","",""
+"647883260617293844","de_vazi","01/09/2023 6:31 pm","https://twitter.com/0xVazi/status/1697595586650767458","",""
+"760406348247597062","waifukollektor","01/09/2023 6:46 pm","I'm asking this out of curiosity, in theory would it be possible to use Noir in stylus? it's the rust based zksnark proving systems.","",""
+"965772108951081050","aussieexpat","01/09/2023 7:40 pm","Hi! I was really interested in how you are creating the bindings between stylus and various target languages? Right now, the number of solid binding generators is... really weak...","",""
+"311971895828283393","raulj","01/09/2023 8:28 pm","Started a thread.","",""
+"311971895828283393","raulj","01/09/2023 8:34 pm","Yes defiinitely!","",""
+"311971895828283393","raulj","01/09/2023 8:38 pm","Not familiar with Noir, but if it is pure Rust code that can compile to WASM then it is likely 🙂","",""
+"311971895828283393","raulj","01/09/2023 8:39 pm","hi Zk, ill put an example together for you today, but you can also try out sha256:","","👍 (1)"
+"311971895828283393","raulj","01/09/2023 8:44 pm","thanks so much for the PR cheb, we'll be looking into it today","",""
+"1128086725810462781","bilibilijoe#7420","01/09/2023 8:55 pm","@mcbk28","",""
+"1128086725810462781","bilibilijoe#7420","01/09/2023 8:55 pm","Are you there @mcbk28","",""
+"403029420203573250","bfresh","01/09/2023 9:02 pm","Please use #💬︱general ser","",""
+"558933889415118858","zklim","01/09/2023 9:03 pm","Thanks, but how to do test? like how should I write Solidity abi based on the example code given? or how to test it locally?","",""
+"513559670070444038","cryptoiscute","01/09/2023 9:17 pm","We plan to ship `v0.2.0` today, which should include a fix for this among other improvements!","",""
+"311971895828283393","raulj","01/09/2023 9:19 pm","Deploying Stylus programs to the testnet is a two-step process. You must first deploy your raw, compressed WASM code onchain. Then, you will need to send a follow-up tx that ""activates"" that WASM code. This activation process will compile the wasm code into a form that can be executed by our runtime. The nice thing is that if two people deployed the same code to different addresses, only one activation is necessary","","👍 (2)"
+"311971895828283393","raulj","01/09/2023 9:19 pm","Our `cargo stylus` tool does all this for you when you do `cargo stylus deploy` 🙂","",""
+"311971895828283393","raulj","01/09/2023 9:20 pm","Solidity ABI exports for our C sdk are not yet supported, but are totally doable in the future. At this time, if you want to use the siphash example, you will probably just have to send raw bytes via an eth_call to the siphash contract deployed onchain. The raw bytes start with a 16 byte key, followed by the input bytes you want to hash","",""
+"311971895828283393","raulj","01/09/2023 9:21 pm","ill put together an example of how to interact with the siphash contract in Rust using ethers-rs to talk to the Stylus testnet","",""
+"311971895828283393","raulj","01/09/2023 9:22 pm","@Zk , Rachel has also suggested that you could just include siphash in your C contracts that you want to deploy, as it is only 609 bytes so there is no size concern. However, if you want to just deploy siphash and call it, you would need to do it the way I mentioned above","",""
+"513559670070444038","cryptoiscute","01/09/2023 9:23 pm","Siphash is super small -- I'd just include it in your dapp directly. There's no need to introduce the overhead of calling out to another contract for something so tiny","","👍 (2)"
+"630089517772046368","0xren_cf","01/09/2023 9:47 pm","reading through stylus (had a few questions). is the right way to think about it that the rust wasm can read/write storage slots? how does the wasm side handle memory expansion? what happens to the call trace for stylus smart contract calls? does the wasm have a way to get transpiled into MIPs to generate fraud proofs?","",""
+"558933889415118858","zklim","01/09/2023 9:53 pm","I see, let me test out some custom code using eth_call and see how's it going","",""
+"808863308224528424","chrisco512","01/09/2023 9:54 pm","> is the right way to think about it that the rust wasm can read/write storage slots? 
+
+that's part of it, yes; the Rust wasm is accessing the equivalent storage slots that a Solidity contract would be accessing on the EVM. both Solidity contracts and Rust wasm contracts share the same state trie","","👍 (1)"
+"513559670070444038","cryptoiscute","01/09/2023 10:04 pm","The WASM the Rust is compiled to is fraud proven directly, rather similar to how we prove fraud over geth 🙂","","👍 (1)"
+"808863308224528424","chrisco512","01/09/2023 10:06 pm","re: memory expansion, the wasm expands memory one page at a time (64 KB pages); there is a separate pricing model for the wasm vm but I don't think we have it documented yet","","👍 (1)"
+"630089517772046368","0xren_cf","01/09/2023 10:18 pm","nice that's helpful thanks!","",""
+"1102269588089094217","bull_crpto","01/09/2023 10:41 pm","Can I get the link of stylus testnet ?","",""
+"694502504800452618","davirain","01/09/2023 10:42 pm","does arbitrum light client isnot have？","",""
+"694502504800452618","davirain","01/09/2023 10:43 pm","https://mp.weixin.qq.com/s/AbEZm9694_wCk1PnReoXuA this article is my writing.","",""
+"808863308224528424","chrisco512","01/09/2023 10:48 pm","https://docs.arbitrum.io/stylus/reference/testnet-information","",""
+"531373377642823680","evmcheb","01/09/2023 10:48 pm","no worries!","",""
+"531373377642823680","evmcheb","01/09/2023 10:48 pm","sweet","",""
+"409580895507447818","jtriley","01/09/2023 11:23 pm","where can i find the vm specification?","",""
+"311971895828283393","raulj","01/09/2023 11:28 pm","hi @jtriley the runtime we use is https://github.com/wasmerio/wasmer with some modifications,","",""
+"311971895828283393","raulj","01/09/2023 11:29 pm","but if you want to learn about the actual execution environment of the WASM code, would recommend looking into wasmer itself","",""
+"409580895507447818","jtriley","01/09/2023 11:29 pm","sweet, ty. where can i find the diffs?","",""
+"311971895828283393","raulj","01/09/2023 11:47 pm","https://github.com/OffchainLabs/wasmer this is our fork","",""
+"409580895507447818","jtriley","02/09/2023 12:18 am","what about `""vm_hooks""`? i'm seeing it in tests as an import, but i'm not seeing much about it. it seems to expose an evm-like interface, but is it something i need to install to compile a wat or assemblyscript file?","",""
+"311971895828283393","raulj","02/09/2023 1:01 am","Hi @jtriley these are imports that are provided to stylus wasm programs. For example, some of then allow you to grow memory, or read input args, or write output data to a caller. These are quite low level details we have yet to document","",""
+"311971895828283393","raulj","02/09/2023 1:02 am","For example, heres how I added support for the zig programming language using these imports https://github.com/rauljordan/zig-on-stylus/blob/main/src/lib.zig","",""
+"311971895828283393","raulj","02/09/2023 1:02 am","Ill share a tutorial on how to add new languages soon, hopefully next week","",""
+"311971895828283393","raulj","02/09/2023 1:03 am","These imports will be injected into your program by our wasm runtime","",""
+"808863308224528424","chrisco512","02/09/2023 1:06 am","@jtriley curious, so are you working on trying to get AssemblyScript working with Stylus?","",""
+"409580895507447818","jtriley","02/09/2023 1:09 am","no, just wat; wanna get a gas diff between wat and rs","",""
+"409580895507447818","jtriley","02/09/2023 1:14 am","but also i'm trying to work out what the hooks are doing under the hood & whether they're 'injected' as in they're where stylus diverges from wasmer or if it's a higher level of abstraction over the vm","",""
+"808863308224528424","chrisco512","02/09/2023 2:36 am","sorry for missing this earlier; we don't have light clients in the real sense of the word, but you can run a node locally: https://docs.arbitrum.io/node-running/how-tos/running-a-full-node also see the dev node section if you need a dev node. However, note that we don't yet have a docker image for Stylus","",""
+"513559670070444038","cryptoiscute","02/09/2023 2:39 am","We don't modify wasmer, but rather escape the wasm client to native execution in the host via special imports","",""
+"513559670070444038","cryptoiscute","02/09/2023 2:39 am","That's why they're called Host I/Os","",""
+"513559670070444038","cryptoiscute","02/09/2023 2:40 am","You leave wasm execution, and jump into the VM","",""
+"409580895507447818","jtriley","02/09/2023 3:14 am","makes sense. ty for your help 🫡","",""
+"513559670070444038","cryptoiscute","02/09/2023 4:05 am","Hey all, we just rolled out our first hot-fix to the Stylus testnet. We've reorged the chain in response to an issue around how we handled WASMs without memories. Here's the PR
+- https://github.com/OffchainLabs/stylus/pull/141
+
+As a reminder the Stylus testnet and SDKs are in alpha, and so reorgs and regenesis are expected until Stylus approaches mainnet readiness.","","👍 (2)"
+"513559670070444038","cryptoiscute","02/09/2023 4:07 am",":air: 
+Btw we've just rolled out a new version of `cargo stylus` that has better error messages. You can upgrade your tooling via
+```sh
+cargo install --force cargo-stylus
+```","",""
+"513559670070444038","cryptoiscute","02/09/2023 4:08 am","We'll soon release v0.2.0 of the Rust SDK too based on feedback from users","",""
+"694502504800452618","davirain","02/09/2023 5:00 am","😐 maybe i need talk more content, here talking about light client is ibc protocol light client . So I want to learn about Arbitrum about consensus and client state more information. Here’s is ics02 client specs https://github.com/cosmos/ibc/blob/main/spec/core/ics-002-client-semantics/README.md I am also happy implement ibc protocol on arbtrium by stylus🧐🧐🧐","",""
+"513559670070444038","cryptoiscute","02/09/2023 5:10 am","Hey guys, we've just released the newest version of the Stylus SDK after incorperating feedback from users.
+
+You can upgrade to `0.2.0` by updating your `Cargo.toml` like so
+```toml
+stylus-sdk = ""0.2.0""
+```
+Check out the release notes here!
+https://github.com/OffchainLabs/stylus-sdk-rs/releases/tag/v0.2.0","","Stylus (4)"
+"965772108951081050","aussieexpat","02/09/2023 11:23 am","Would love to hear your thoughts on wasmer vs wasmtime.","","🔥 (1)"
+"833289350576865320","jumaru_igano","02/09/2023 4:17 pm","I'm trying the `stylus quick start` to deploy a contract but even that i have 0.5 eth in `Arbitrum Sepolia` it says `gas required exceeds allowance`.
+I've tried the new one `cargo-stylus stylus deploy` and here the message tells me that my address is `has 0 balance onchain` even that is see in `sepolia-explorer.arbitrum.io/` that i have 0.5 eth.
+What might i get wrong?","",""
+"833289350576865320","jumaru_igano","02/09/2023 4:49 pm","Ok, no i got it that there is stylus testnet","https://cdn.discordapp.com/attachments/1146789176939909251/1147491052870181014/image.png","🙏 (1)"
+"833289350576865320","jumaru_igano","02/09/2023 4:49 pm","all good now!","",""
+"1102269588089094217","bull_crpto","02/09/2023 5:19 pm","https://bridge.arbitrum.io/
+
+Is this the real link of stylus testnet ?","",""
+"398483782958841860","leonid.msk","02/09/2023 5:44 pm","а где активность провести можно с новой сетью?","",""
+"536504720165175307","gio4899","02/09/2023 6:53 pm","https://bridge.arbitrum.io/","",""
+"981271964146601995","ziiaytinzeya","02/09/2023 10:34 pm","Can I get the link of stylus testnet ?","",""
+"935811533815021588","Bisc8#9910","02/09/2023 10:39 pm","There is a thread for this","",""
+"828261986751086592","ricardo__gordon","02/09/2023 10:47 pm","https://docs.arbitrum.io/stylus/reference/testnet-information","",""
+"947826569165033472","tushyomi","02/09/2023 11:44 pm","Note that if ur bridging from sepolia to ard sepo it will take 15min after confirmation 
+same as the bridging from arb sepo to stylus so give it time","","arbiblobblue (1)"
+"719889466541473913","k1nena","03/09/2023 12:16 am","why I can`t claim my ETH on L1? If I try to switch network to L1, the claiming window closes. So, what is the problem?","",""
+"802721731378151428","jon77777","03/09/2023 12:54 am","Are there any stylus test tasks besides bridging to sylus testnet? If so, where are the testing docs located?","",""
+"897774005082288128","idovwinnerov","03/09/2023 1:55 am","https://docs.arbitrum.io/stylus/stylus-gentle-introduction","",""
+"886320513717256282","amplitude101.eth","03/09/2023 1:56 am","can we do any activities on stylus right now?","",""
+"905350446460309534","dannysense","03/09/2023 2:05 am","How did the stylus","",""
+"905350446460309534","dannysense","03/09/2023 2:05 am","work","",""
+"802721731378151428","jon77777","03/09/2023 2:06 am","Thanks","",""
+"808863308224528424","chrisco512","03/09/2023 2:59 am","that is the official bridge yes; you can use that bridge to transfer Sepolia ETH from L2 testnet to the Stylus L3 testnet","",""
+"808863308224528424","chrisco512","03/09/2023 3:00 am","if you have Sepolia ETH on L1 you can bridge that to Arbitrum Sepolia L2 and then bridge again to Stylus Testnet L3","",""
+"808863308224528424","chrisco512","03/09/2023 3:01 am","you can do anything you can do on a normal Arbitrum chain plus build Rust or wasm-based smart contracts; right now it's just a testnet for alpha testing the chain as we go through audits and improve the SDK and dev experience","",""
+"1095090918639554680","eseyhan1969","03/09/2023 3:29 am","link doesnt work","",""
+"312968318510170114","max_ch3","03/09/2023 6:43 am","oh man I  love arbitrum :arbheart:","",""
+"985670913875935272","teressacarrier66","03/09/2023 10:28 am","Will stylus have its own website and discord and twitter?","",""
+"1052995968859111485","cryptoras","03/09/2023 12:26 pm","Can Stylus be used with for example C#? Perhaps with converter to C?","",""
+"1102269588089094217","bull_crpto","03/09/2023 1:06 pm","Is this stylus testnet incentivised ?","",""
+"288641419994726400","sadgoddd","03/09/2023 4:58 pm","How to manually add Stylus framework?","",""
+"288641419994726400","sadgoddd","03/09/2023 5:06 pm","What is the currency symbol?","",""
+"961611432116518943","chenhua123","03/09/2023 7:33 pm","+1","",""
+"403029420203573250","bfresh","03/09/2023 7:44 pm","No","",""
+"403029420203573250","bfresh","03/09/2023 7:44 pm","Nope","",""
+"1051714536664748042","dovicrypt","03/09/2023 10:13 pm","no drop no party","",""
+"614070308063674378","buratino2254","04/09/2023 2:10 am","ya","",""
+"614070308063674378","buratino2254","04/09/2023 2:11 am","Were can i get info about testnet ?","",""
+"614070308063674378","buratino2254","04/09/2023 2:11 am","thanks","",""
+"311971895828283393","raulj","04/09/2023 2:38 am","https://developer.arbitrum.io/stylus/reference/testnet-information","",""
+"833289350576865320","jumaru_igano","04/09/2023 3:29 am","How do we use `U256` when we need to pass the value as Eth?
+e.g.: `self.erc20.mint(msg::sender(), <<1 ether>>>);`  or something?","",""
+"472190219551244289","synthinks","04/09/2023 5:36 am","Everything is going well, starting from the bridge:
+Sepolia > Arbitrum Sepolia
+Arbitrum Sepolia > Stylus
+However, the only thing is that it takes more time than expected.","https://cdn.discordapp.com/attachments/1146789176939909251/1148046462119329833/Screenshot_2023-09-04-07-03-50-10_8c90bb820ecf12bb620c53b61014a1ba.jpg",""
+"513559670070444038","cryptoiscute","04/09/2023 7:54 am","Right now you’ll need to multiply by the number of wei per ether (1 billion). In the future we’ll provide nice constants","","❤️ (1)"
+"1052995968859111485","cryptoras","04/09/2023 12:23 pm","Can Stylus be used with for example C#? Perhaps with converter to C?","",""
+"833289350576865320","jumaru_igano","04/09/2023 3:07 pm","Finally got it. Here's how i managed to pass 10 eth:
+```
+let amount = U256:: from(10*((10u64).pow(18)));
+```","https://cdn.discordapp.com/attachments/1146789176939909251/1148190107317305404/image.png",""
+"970074631581098044","baqirweewx","04/09/2023 4:24 pm","@Rachel 💙 | Offchain Labs i got error sir","https://cdn.discordapp.com/attachments/1146789176939909251/1148209430484226090/image.png",""
+"970074631581098044","baqirweewx","04/09/2023 4:25 pm","while using ""cargo stylus check"" command","",""
+"807886797924466728","super.sui","04/09/2023 5:09 pm","Sooon","",""
+"447674750165057536","ronggo","04/09/2023 6:16 pm","Stylus smooth using easy to use","",""
+"1119113389860474943","aka2882aka","04/09/2023 8:07 pm","Does stylus only support rust languages so far? I checked the docs and there doesn't seem to be a guide for c/c++...","",""
+"1062418969346179245","josefp","04/09/2023 8:26 pm","Hey! We have an example for C/C++ here => https://github.com/OffchainLabs/stylus-sdk-c","",""
+"1119113389860474943","aka2882aka","04/09/2023 8:32 pm","Oh i miss these page, thx!","","arbiblobblue (2),Stylus (2)"
+"647883260617293844","de_vazi","05/09/2023 1:57 am","how do u guys test your Stylus contracts?","",""
+"694502504800452618","davirain","05/09/2023 9:29 am","you can intreact by ethers","",""
+"694502504800452618","davirain","05/09/2023 9:30 am","https://github.com/All-In-One-Blockchain/hello-world maybe you can look this.","",""
+"694502504800452618","davirain","05/09/2023 9:31 am","I think we can use all ethereum tools .","",""
+"398018355350470666","salo_paulo","05/09/2023 9:47 am","boy i wish i knew more about coding. i deployed a token with thirdweb and used remix to drop a simple contract. are there any other sites for contract dummies like me to deploy contracts. also finalizing the contract always messes with my mind.","",""
+"850384632411324457","lulu520.wallet#6277","05/09/2023 1:59 pm","hi,What tests are needed? Is it only possible to do bridge testing now?","",""
+"546063915549851659","cadozilla","05/09/2023 5:53 pm","i am a C dev and very happy to see that now i will be able to write contracts in C. I can understand VM_HOOK macro as an entrypoint but nok the CONSOLE one. Where it gonna print out the given param ?","",""
+"694502504800452618","davirain","05/09/2023 6:05 pm","I am rust","",""
+"694502504800452618","davirain","05/09/2023 6:05 pm","Dev","",""
+"828261986751086592","ricardo__gordon","05/09/2023 6:21 pm","https://tenor.com/view/groot-i-am-groot-cute-gotg-gif-15564811","","🤣 (8)"
+"595169782672654337","0xnic","05/09/2023 8:02 pm","Gm! Is there a timeline for when Stylus support will go live on Arbitrum One?","",""
+"595169782672654337","0xnic","05/09/2023 8:03 pm","Even a rough idea?","",""
+"1143202574577709137","daviddennis.","05/09/2023 8:46 pm","It needs to be voted on by the DAO, first.  It's probably a quarter or two away.","",""
+"803372406751887411","tsahi","05/09/2023 9:19 pm","You should generally consider debug-mode to be disabled and, accordingly, CONSOLE macros to be invalid.
+Debug mode can be used on a local stand-alone dev node, as part of the chain-config. Prints will be done to the log output of that node.","","👍 (1)"
+"706897924197580840",".milleniumx","06/09/2023 12:17 am","Already checking - great idea 🙂","",""
+"808863308224528424","chrisco512","06/09/2023 12:22 am","C# is difficult to use due to the size of the binaries and it's currently difficult to do garbage-collected languages like C#, Java, JavaScript, etc","",""
+"808863308224528424","chrisco512","06/09/2023 12:23 am","C can of course work, but I'd probably recommend using just straight C as the C# converter will likely produce bloated code","",""
+"409580895507447818","jtriley","06/09/2023 2:22 am","> Please come back in 12 hours.
+._.","",""
+"409580895507447818","jtriley","06/09/2023 2:22 am","is the faucet dry or is this sybil protection?","",""
+"511344743192461312","amarrazza","06/09/2023 2:45 am","sybil protection, but you can find more sepolia faucets here! https://docs.arbitrum.io/stylus/reference/testnet-information","",""
+"409580895507447818","jtriley","06/09/2023 2:48 am","🫡","",""
+"409580895507447818","jtriley","06/09/2023 3:13 am","is there a way to do local testing of a stylus contract? getting reverted txs and not sure why","",""
+"808863308224528424","chrisco512","06/09/2023 3:29 am","yes, but it's currently complicated; we're working on getting a docker image for it. can you share any errors or details about what you're running?","",""
+"1132153949378592860","manhtantg","06/09/2023 5:20 am",":arbblue:","",""
+"409580895507447818","jtriley","06/09/2023 5:26 am","here's the contract address: `0xe41104A38C35B464FcFebf85cf274760Ea120d02`
+
+here's the source:
+https://gist.github.com/jtriley-eth/8531b5f19769ed3a4777d066544d76b9
+
+it exposes the following abi:
+```solidity
+function hash() view returns (bytes32)
+function keccakLoop(string calldata str, uint256 iterations)
+```
+
+but it's reverting on a staticcall to `hash()`","",""
+"1064377402505044139","ainmox","06/09/2023 7:51 am","Are there any plans for local testing environments?","",""
+"1064377402505044139","ainmox","06/09/2023 7:52 am","^^","",""
+"833289350576865320","jumaru_igano","06/09/2023 12:36 pm","I've deployed a Rust token on Stylus: 
+https://rust-tokens.vercel.app/","","arbiflame (3)"
+"833289350576865320","jumaru_igano","06/09/2023 12:38 pm","Please let me know what you think and if you have any method to compare gas consumption between Rust & Solidity tokens:
+https://twitter.com/Jumaru_Igano/status/1699317829751759015","",""
+"356362868553416705","4tt1mi","06/09/2023 12:58 pm","minted 10 R20T","","❤️ (2)"
+"356362868553416705","4tt1mi","06/09/2023 1:01 pm","and 10 S20T","","❤️ (3)"
+"833289350576865320","jumaru_igano","06/09/2023 1:01 pm","You can mint also 10 S20T, the equivalent in Solidity.
+I'm looking for a way to compare gas consumption among those two implementations","","🔥 (2)"
+"1067896245911298058","elsie_19","06/09/2023 4:06 pm","The stylus testnet is for builders only right and not for public","",""
+"955883642750640139","vitalij5267","06/09/2023 4:19 pm","minted 10 R20T and 10 S20T   👍","","❤️ (2)"
+"472886957920485386","barkingmadman","06/09/2023 4:24 pm","It would be great to know plans on this 👍","",""
+"757949297953210379","kissgirlm","06/09/2023 5:02 pm","Hello! Where I can get test token ?","",""
+"828261986751086592","ricardo__gordon","06/09/2023 5:10 pm","https://docs.arbitrum.io/stylus/reference/testnet-information#faucets","",""
+"757949297953210379","kissgirlm","06/09/2023 5:17 pm","Thanks","",""
+"828261986751086592","ricardo__gordon","06/09/2023 5:17 pm","Always glad to help 💪","","🤝 (2)"
+"478308418877390850","cryptoflop","06/09/2023 7:01 pm","So Stylus is only working on the testnet right? Is there any information when it will come to mainnet?","",""
+"780423306532618290","allusernamesarebroken","06/09/2023 7:05 pm","Hey, does `--export-abi` support generating JSON ABI?","",""
+"513559670070444038","cryptoiscute","06/09/2023 7:10 pm","Not yet, you’ll need another tool like Solc that converts a Solidity interface into a JSON ABI.","","👍 (2)"
+"513559670070444038","cryptoiscute","06/09/2023 7:10 pm","We’re working on it 🙂","","👍 (3)"
+"513559670070444038","cryptoiscute","06/09/2023 7:12 pm","Stylus needs an audit and a DAO vote for L2 — but on L3 you can use it today. In fact, the Stylus testnet is an Orbit chain!
+
+Note though that Stylus is in alpha and needs to complete an audit before we’d suggest people use it in production","","❤️ (3)"
+"780423306532618290","allusernamesarebroken","06/09/2023 7:14 pm","Yes, I thought so. I've managed to interact with a WASM-deployed contract using JS and the experience is the same as a normal Solidity contract. Kudos!","","arbiflame (2)"
+"311971895828283393","raulj","06/09/2023 7:19 pm","We're thinking about different approaches to make testing these programs easier, but for now, testnet is the only way","","👍 (2)"
+"1102604394698133616","yamigoutam4438","06/09/2023 10:15 pm","Why I can't Swap arb to stylus,?","",""
+"1062418969346179245","josefp","06/09/2023 10:50 pm","Stylus is a testnet meant only to experiment new developments with it: https://docs.arbitrum.io/stylus/stylus-gentle-introduction","",""
+"447075474682806273","ecowealth","06/09/2023 11:20 pm","so all i have to do is setup testnet to try whatever i want?","",""
+"1062418969346179245","josefp","06/09/2023 11:22 pm","Testnet is ready. We have a quickstart available to try things out 🙂 => https://docs.arbitrum.io/stylus/stylus-quickstart","",""
+"447075474682806273","ecowealth","07/09/2023 12:20 am","i have to send real eth to mainnet dev account?","",""
+"447075474682806273","ecowealth","07/09/2023 12:25 am","@pitty76 | Will not PM u 1st","",""
+"442478266616512513","hkalodner","07/09/2023 12:25 am","This is an L3 testnet on top of sepolia. To use it you only need sepolia eth that you can get from a faucet","",""
+"447075474682806273","ecowealth","07/09/2023 12:28 am","i'm mining some eth","",""
+"447075474682806273","ecowealth","07/09/2023 1:25 am","failing to install git, errors around:
+
+(proc-macro2, libc, syn, typenum)","",""
+"447075474682806273","ecowealth","07/09/2023 1:25 am","@Harry | Offchain Labs","",""
+"447075474682806273","ecowealth","07/09/2023 1:28 am","@pitty76 | Will not PM u 1st let me know if not to ping you around this particularly","",""
+"447075474682806273","ecowealth","07/09/2023 1:53 am","this is the first error","",""
+"447075474682806273","ecowealth","07/09/2023 1:53 am","error: linking with `cc` failed: exit status: 1","",""
+"860608223492964374","pitty76","07/09/2023 2:18 am","No worries, I would actually reach out and tag @José FP | Offchain Labs or @Mahsa | Offchain Labs who seem to be on now.","",""
+"784690211232677898","tameranwar2020","07/09/2023 2:18 am","When can see Stylus Mainnet","",""
+"860608223492964374","pitty76","07/09/2023 2:18 am","Thank you all for looking into this. 🙏🏻","",""
+"860608223492964374","pitty76","07/09/2023 2:20 am","To be announced, Still need to go through their audit. ""Trails of Bits will be auditing the Stylus source code to ensure the safety of the contracts, as well as the Stylus SDKs."" https://medium.com/offchainlabs/stylus-now-live-one-chain-many-languages-eee56ad7266d","",""
+"447075474682806273","ecowealth","07/09/2023 2:42 am","success!!! i had to update xcode","",""
+"513559670070444038","cryptoiscute","07/09/2023 2:59 am","Hey everyone! We've just rolled out version `0.2.1` of the Rust SDK. [Check it out here](https://github.com/OffchainLabs/stylus-sdk-rs/releases/tag/v0.2.1)!
+
+To upgrade to the latest version, update your `Cargo.toml` like so
+```toml
+stylus-sdk = ""0.2.1""
+```","",""
+"447075474682806273","ecowealth","07/09/2023 4:31 am","I'm deploying but somehow it says i hve a 0 balance, but i looking at arb sepolia .05 eth...","",""
+"447075474682806273","ecowealth","07/09/2023 4:32 am","and .002 sepolia mainnet, whats the probelm","",""
+"447075474682806273","ecowealth","07/09/2023 4:55 am","@Ricardo__Gordon | Arbitrum","",""
+"828261986751086592","ricardo__gordon","07/09/2023 4:57 am","Check your wallet on:
+
+https://stylus-testnet-explorer.arbitrum.io/
+and
+https://sepolia.etherscan.io/
+
+To see if everything is okay and which assets do you have.","",""
+"447075474682806273","ecowealth","07/09/2023 4:58 am","I found the stylus testnet to send funds to on bridge.","",""
+"828261986751086592","ricardo__gordon","07/09/2023 5:00 am","Have you bridged your SepETH to Stylus?","https://cdn.discordapp.com/attachments/1146789176939909251/1149124423866142891/image.png",""
+"447075474682806273","ecowealth","07/09/2023 5:00 am","that was the problem, I couldn't find that, but I got it and deployed","",""
+"447075474682806273","ecowealth","07/09/2023 5:01 am","What should I do now ?","",""
+"447075474682806273","ecowealth","07/09/2023 5:06 am","finished the quickstart, deployed a ""program"", an empty one i guess","",""
+"447075474682806273","ecowealth","07/09/2023 5:09 am","So now do I program something to deploy again to this?","",""
+"447075474682806273","ecowealth","07/09/2023 5:18 am","I see yes I can deploy multiple contracts awesome","",""
+"513559670070444038","cryptoiscute","07/09/2023 6:10 am","[New Stylus SDK version!](https://github.com/OffchainLabs/stylus-sdk-rs/releases/tag/v0.2.2)","",""
+"1091056853712125952","zeiknuel","07/09/2023 10:53 am","@gzeon | Offchain Labs @davidb | Offchain Labs  please can you accept request","",""
+"900095429457362944","gzeon","07/09/2023 10:54 am","?","",""
+"1091056853712125952","zeiknuel","07/09/2023 10:55 am","I  will like to have a chat with you boss","",""
+"900095429457362944","gzeon","07/09/2023 10:55 am","I didn't see a DM request","",""
+"1091056853712125952","zeiknuel","07/09/2023 10:56 am","Please check again
+Friend request!","",""
+"356362868553416705","4tt1mi","07/09/2023 4:22 pm","this is now( on pic) PENDING, check now.","",""
+"1067896245911298058","elsie_19","07/09/2023 5:49 pm","I'm having difficulty bridging from Arb Sepolia to Stylus, it keep giving error
+
+What to do pls","",""
+"1084904605005123684","samcardoza","07/09/2023 5:56 pm","d m me the error you received","",""
+"1084904605005123684","samcardoza","07/09/2023 5:56 pm","@Elsie","",""
+"1067896245911298058","elsie_19","07/09/2023 7:17 pm","Done","",""
+"1149333100711661598","seanpa0","07/09/2023 8:20 pm","hey, I see that `memory_grow` is called only in `mark_used`. Are there any calls of it under the hood by the Rust standard library that I am missing? Probably this is how the wasm grows its linear memory. 
+I was wondering since it is only called in `mark_used`. If that's the case, what is the idea behind having them both imported and exported in the first place?","",""
+"1067896245911298058","elsie_19","07/09/2023 10:48 pm","Issue solved, I only change my browser","",""
+"447075474682806273","ecowealth","08/09/2023 2:07 am","Left me hanging","",""
+"513559670070444038","cryptoiscute","08/09/2023 2:35 am","`memory_grow` is the function that makes you pay to invoke the `memory.grow` WASM opcode. Any WASM that intends to grow must import the function in the Stylus VM","","👍 (1)"
+"513559670070444038","cryptoiscute","08/09/2023 2:36 am","`mark_used` exists solely to force the Rust compiler to import the symbol. A similar trick is done in the C/C++ SDK to force its import as well","",""
+"513559670070444038","cryptoiscute","08/09/2023 2:36 am",":air:","",""
+"513559670070444038","cryptoiscute","08/09/2023 2:37 am","[A new version of the SDK is out btw!](https://github.com/OffchainLabs/stylus-sdk-rs/releases)
+You can import it by updating your `Cargo.toml`
+```toml
+stylus-sdk = ""0.2.4""
+```","",""
+"513559670070444038","cryptoiscute","08/09/2023 2:47 am","You may need to update Rust for this version. You can do this via
+```sh
+rustup upgrade
+cargo install --force cargo-stylus
+```","",""
+"808863308224528424","chrisco512","08/09/2023 11:13 am","do not ask for dms, please; please disregard in future @Elsie better for everyone to keep convo here and be cautious about any DMs you receive (never share private info)","",""
+"1149333100711661598","seanpa0","08/09/2023 11:26 am","Thanks, is `memory_grow` expected to be called manually?","",""
+"1067896245911298058","elsie_19","08/09/2023 12:24 pm","Alright","",""
+"513559670070444038","cryptoiscute","08/09/2023 7:30 pm","No, your language’s compiler will generate `memory.grow` opcodes for you","","👍 (1)"
+"513559670070444038","cryptoiscute","08/09/2023 7:31 pm","If you call it manually, it’ll just burn gas without actually growing the memory","","👍 (1)"
+"984700205263912991","__ex9","09/09/2023 12:30 am","For the EthGlobal NY bounty, is it possible to submit and win the bounty remotely? Our team is planning to implement a zkVM in WASM on Stylus.","","👀 (1)"
+"833289350576865320","jumaru_igano","09/09/2023 2:10 pm","Will stylus be integrated with the rest of Arbitrum network or is it planned to be standalone network?","",""
+"808863308224528424","chrisco512","09/09/2023 2:20 pm","it is up to the DAO to vote on Stylus integration with One and Nova; it will definitely be available for Orbit chains (L3s), but it will take a couple months to go through audits","","❤️ (1)"
+"833289350576865320","jumaru_igano","09/09/2023 2:22 pm","I'm sure that the community will support it. It's a great advantage and unique feature 💪","","🙏 (3)"
+"808863308224528424","chrisco512","09/09/2023 3:08 pm","I checked on this and unfortunately there won't be a remote bounty available; you'll have to physically be in NY at least at the beginning, for it. There may be future ETHGlobal remote versions that we or the DAO participate in. In the meantime, we'd love to see zkVM projects on Stylus, and I think the idea is certainly valuable enough on its own to proceed without a bounty, please do!","","❤️ (3)"
+"808863308224528424","chrisco512","09/09/2023 3:09 pm","and if you build something cool, let us know and we'll connect you with our partnerships team","","❤️ (1)"
+"909395298323951667","phibi91","09/09/2023 6:39 pm","Is it just a bridge from Sepolia ARB to Sepolia Stylus and from Sepolia Stylus to Sepolia ARB, sir?","",""
+"1109430842452877354","braingalactic","10/09/2023 5:29 am","Hey, I read an interesting concept for Arbitrum Stylus. I want to help the project using my skills, I would like to install a node. As far as I understand correctly, this is a test version and any community member can do this.","","blueheart (1)"
+"513559670070444038","cryptoiscute","10/09/2023 5:30 am","We'll have a guide + docker image for setting up a node soon. Right now you'll want to use the public testnet, which is the default RPC of the `cargo stylus` tool","",""
+"1109430842452877354","braingalactic","10/09/2023 5:34 am","ok, Thanks.","",""
+"1109430842452877354","braingalactic","10/09/2023 5:34 am","And I also wanted to ask a few things. Now there will be Devnet, then testnet and at the end mainet, right?","",""
+"513559670070444038","cryptoiscute","10/09/2023 6:11 am","There’s a testnet right now 🙂","",""
+"513559670070444038","cryptoiscute","10/09/2023 6:12 am","Eventually, if the DAO approves, Arbitrum One and Arbitrum Nova will upgrade to Stylus","",""
+"708180308662550528","w3tester","10/09/2023 3:28 pm","@Rachel 💙 | Offchain Labs we understand there is a size limit for the stylus wasm program. It turns out our program is much larger than this limit—about 1024KB. My question is: will this limit be lifted in the future? If not, it seems our only option is to make our program as a pre-compile and run it in our Orbit chain?","",""
+"1062616562269433886","sica4068","10/09/2023 4:55 pm","Stylus is undergoing major upgrades, and some improvements are expected to require a chain reset.","",""
+"1062616562269433886","sica4068","10/09/2023 4:55 pm","Excuse me，will the cross-chain bridge eth to stylus be reset now?","",""
+"513559670070444038","cryptoiscute","10/09/2023 7:36 pm","Stylus is testnet only right now and sits on top of Arbitrum Sepolia. There’s no ETH bridge that I’m aware of","",""
+"1062616562269433886","sica4068","10/09/2023 7:40 pm","i mean,Arbitrum Sepolia to Stylus testnet","",""
+"513559670070444038","cryptoiscute","10/09/2023 7:45 pm","Yes, we’re working on binary sizes in a few ways
+- We’re improving the Rust SDK to make binaries smaller
+- We’re adding more features to the C SDK, which produces much smaller binaries
+- We’re working on increasing the contract size limit. It’s unclear yet if we’ll be able to allow contracts of that size (if we did, it’d be an unlimited policy where you’d pay more the larger the binary was)
+
+For something so large, your options right now are to
+- Create Orbit precompiles, which have no limit, allow SIMD and floating point, are lower fee, etc
+- Split your code over multiple contracts / optimize your binary (probs not worth it given 1024Kb is pretty far away from the 128Kb limit)
+
+Something I’m curious about is how compressible your contract is. I’m assuming that number is 1 megabyte before compression, but what is it after applying brotli 11?","","👍 (4)"
+"513559670070444038","cryptoiscute","10/09/2023 7:47 pm","Yes, if you don’t bridge out (takes 20 mins) you’ll lose your testnet ether. We’ll give everyone a heads up when we schedule upgrades","",""
+"1062616562269433886","sica4068","10/09/2023 8:03 pm","thanks","",""
+"728905476766433360","adamant3","10/09/2023 8:26 pm","thnks","",""
+"728905476766433360","adamant3","10/09/2023 8:41 pm","minted 10 R20T and 10 S20T   👍","","❤️ (1)"
+"942230135430598676","jayronclor24#8754","11/09/2023 3:02 am","not yet","",""
+"455393272873877515","romanb47","11/09/2023 4:09 am","Bridge worked without any issues","","👍 (2)"
+"942230135430598676","jayronclor24#8754","11/09/2023 5:54 am","how to do that? there is no clear activities","",""
+"942230135430598676","jayronclor24#8754","11/09/2023 6:03 am","same issue sir, i tried different browser, brave, chrome, firefox, even mobile","",""
+"942230135430598676","jayronclor24#8754","11/09/2023 6:04 am","when i change back to arbitrum sepolia when claiming eth, it disappears, but when i change to stylus, its there","",""
+"447075474682806273","ecowealth","11/09/2023 8:21 am","I did the quickstart but Its showing like 44 problems, are they supposed to be there for me to fix or what? because its not a quickstart if this is the case, 
+
+note: just getting into programming, its all the same to me whats easy is difficult whats hard is difficult, getting used to vscode, lots to read, but I need an interaction from somebody here please.","",""
+"942230135430598676","jayronclor24#8754","11/09/2023 12:01 pm","@Samuel | Arbitrum sir","",""
+"1062616562269433886","sica4068","11/09/2023 12:19 pm","Excuse me, when will the eth on Stylus testnet no longer be lost?Is there an exact time or announcement?","",""
+"920579151457570817","lalaland1449","11/09/2023 1:05 pm","I have two questions about stylus & precompile- How shall I do 'precompile' with go? Is there documentation or code demonstration (like stylus-hello-world)? 
+
+Since my wasm package is too large to be implemented with stylus(with the warning: Stylus checks failed: failed to build project to WASM: uncompressed WASM program size (1.1 MB) is bigger than size limit: (128.0 KB)), I want to run wasm code in go as prerecompile. Is that possible? What should i do?","",""
+"1085153649627500544","nordau","11/09/2023 1:31 pm","Bridge out from Stylus, right? Thank you.","",""
+"861961461861580800","sneak3613","11/09/2023 4:44 pm","the bridge did't work all day impossible to claim back the arb sepholia send from arb stylus . when i change the network the trasaction from arb stylus gone and i can see the transaction from sepholia only .","",""
+"513559670070444038","cryptoiscute","11/09/2023 6:46 pm","Maybe update your Rust version
+`rustup update`","",""
+"822890197267906580","sigma.btc","12/09/2023 12:40 am","heloo guys i sent 2 test eth from stylus  to  arbitrum spoila from 6 hours and i didnt get it yet why  ? its too late right or theres somthing wrong ?","",""
+"513559670070444038","cryptoiscute","12/09/2023 6:07 am","Hey guys! There's a new version of the Stylus SDK you can [check out here](https://github.com/OffchainLabs/stylus-sdk-rs/releases)!
+
+To adopt the latest version, edit your `Cargo.toml` as follows
+```toml
+stylus-sdk = ""0.3.0""
+```","",""
+"311971895828283393","raulj","13/09/2023 2:21 am","Hi all, our first developer tutorial is out for Stylus here https://twitter.com/OffchainLabs/status/1701695008251015535?s=20","","👏 (2)"
+"311971895828283393","raulj","13/09/2023 2:21 am","In this example, we go through rewriting a Counter.sol Solidity contract in Rust using Arbitrum Stylus, which results in the same, EVM-equivalent ABI that can be called using any Ethereum tooling","",""
+"311971895828283393","raulj","13/09/2023 2:21 am","Let us know if you have any questions 🦀","",""
+"455393272873877515","romanb47","13/09/2023 2:49 am","checking it out!","",""
+"828261986751086592","ricardo__gordon","13/09/2023 3:05 am","Just a gentle reminder that Stylus will be featured at the ETH Global NY Hackathon Sep 22-24.  There are $20,000 in Stylus prize bounties available.  You can register at https://ethglobal.com/events/newyork2023/apply","https://cdn.discordapp.com/attachments/1146789176939909251/1151269956042887259/0823_ETHGlobalHackathonAnnouncement-R1-option1.png","👍 (1)"
+"708180308662550528","w3tester","13/09/2023 5:11 am","Do we need to be physically in NYC to apply for this bounty?","",""
+"442478266616512513","hkalodner","13/09/2023 5:42 am","Yep, you have to be at the hackathon in person to participate unfortunately. If you're interested, but can't attend this one, I'm sure there will be other hackathons coming in the future","","👍 (1)"
+"1044167352750714891","yeho9610","13/09/2023 1:01 pm","Hey guys. Does someone already have a project in mainnet, that have been built using stylus rust sdk and rust in common?","",""
+"182258596791320577","benchainsight","13/09/2023 8:49 pm","can someone please give steps on how to build the siphash example in C?","",""
+"182258596791320577","benchainsight","13/09/2023 8:49 pm","using gcc?","",""
+"442478266616512513","hkalodner","13/09/2023 9:14 pm","Hey! We don't have instructions for using gcc, but there are instructions using clang here https://github.com/OffchainLabs/stylus-sdk-c/blob/689d977564d5454fb17f83e2294a9a351c13392e/examples/siphash/main.c#L5","",""
+"1143202574577709137","daviddennis.","13/09/2023 9:29 pm","Check out Raul's Getting Started video on Stylus https://www.youtube.com/watch?v=CF1hLTGnByM&t=1s","","❤️ (3),Stylus (1)"
+"447075474682806273","ecowealth","13/09/2023 10:46 pm","I’m going to do the quickstart over again. 
+It’s easy to mess things up in programming lol new to it but the passion is there 
+
+Just watched your talk, loving the arbitrum YouTube, I feel content storm coming real soon.","","arbiflame (2),blueheart (1)"
+"319526908209528833","0xdead123","13/09/2023 11:02 pm","Is some there arbitrum contract devs, I need help, much appriciate if you will try to figure out my issue?","",""
+"828261986751086592","ricardo__gordon","13/09/2023 11:07 pm","Hey. Write down you issue here and our engineers will try to help you when they're available.","",""
+"182258596791320577","benchainsight","13/09/2023 11:07 pm","i think there may need to be more setup isntructions, seem to be stuck on  that
+root@ubuntu-32gb-ash-1:~/stylus-sdk-c/examples/siphash# clang *.c -o siphash.wasm --target=wasm32 --no-standard-libraries -mbulk-memory -Wl,--no-entry -O3
+clang: error: unable to execute command: Executable ""wasm-ld"" doesn't exist!
+clang: error: linker command failed with exit code 1 (use -v to see invocation)","",""
+"319526908209528833","0xdead123","13/09/2023 11:08 pm","I have an issue, so I was trying to call sendL1FundedContractTransaction through the etherscan and I'm expecting the transaction to be executed at arbitrum but fo some reason it does not.
+my tx hash is 0xe483cbd978aada9b2bc33bd0dbce5087d5a0aeb241fcd23f866e20ad8b0a84f1 and I'm trying to call 0x47ec4768502ada411bce8b973a6609f3f96061f3, is it possible to do such transaction ? Actually I'm not quite sure what sendL1FundedContractTransaction does since it does not described at docs.","",""
+"897541670793515071","anatech_eth","14/09/2023 12:14 am","Thank you! 🙂 will pin it now!","",""
+"897541670793515071","anatech_eth","14/09/2023 12:29 am","Pinned a message.","",""
+"897541670793515071","anatech_eth","14/09/2023 12:30 am","**Gmgm! Here is a new video tutorial to learn more about Stylus**
+https://www.youtube.com/watch?v=CF1hLTGnByM&t=1s**","","🔥 (4)"
+"897541670793515071","anatech_eth","14/09/2023 12:30 am","Pinned a message.","",""
+"442478266616512513","hkalodner","14/09/2023 1:32 am","Stylus is still on testnet so there aren't mainnet contracts deployed, but there's a good example erc-20 implementation here https://github.com/OffchainLabs/stylus-sdk-rs/tree/stylus/examples/erc20","",""
+"442478266616512513","hkalodner","14/09/2023 4:13 am","Hey!  Looks like you don't have ldd installed. You can find instructions here for ubuntu https://installati.one/install-lld-ubuntu-22-04/","",""
+"431912975851585547","scottw3","14/09/2023 7:09 am","I am looking at stylus, as a C/C++ dev. The site mentions C/C++ but looks like only Rust has an SDK?  Are there any examples with C++?  Or is it yet to come down the road?  thanks!","",""
+"513559670070444038","cryptoiscute","14/09/2023 8:50 pm","The C/C++ SDK is here 🙂","",""
+"513559670070444038","cryptoiscute","14/09/2023 8:50 pm","https://github.com/OffchainLabs/stylus-sdk-c","","🔥 (2)"
+"431912975851585547","scottw3","14/09/2023 9:35 pm","Got it, thanks! Will take a look, and build something to try it out!","","blueheart (2)"
+"595169782672654337","0xnic","15/09/2023 11:06 am","Will stylus come to Nova as well?","",""
+"577613876896727071","femzzyfembros","15/09/2023 12:18 pm","Kindly refer to this https://discord.com/channels/585084330037084172/1146789176939909251/1150229757443702876","","👍 (1)"
+"828261986751086592","ricardo__gordon","15/09/2023 3:22 pm","https://x.com/rauljordaneth/status/1702348294318342560?s=20","",""
+"414744349512040449","demarco2016","15/09/2023 3:23 pm","The network is very fast, and everything works well. Thank you for the opportunity to be part of this wonderful community. I'm truly grateful for this experience with you. I work every day with pleasure and strive to improve my skills to become better at what I do. Have a good day, everyone","","arbiblobblue (2)"
+"828261986751086592","ricardo__gordon","15/09/2023 3:34 pm","https://x.com/rauljordaneth/status/1702399362146639932?s=20","","Stylus (2)"
+"511344743192461312","amarrazza","16/09/2023 2:55 am","Hey everyone, just wanted to let the group know that some new Stylus docs went live today that could be useful if you're interested in gas optimization 🙂 
+
+1. An overview of Gas and Ink in Stylus: https://docs.arbitrum.io/stylus/concepts/stylus-gas
+
+2. Opcode and host I/O pricing tables: https://docs.arbitrum.io/stylus/reference/opcode-hostio-pricing","","Stylus (6),👍 (1)"
+"206242996314832896","patrickalphac","16/09/2023 11:08 pm","Stylus smart contract verification not up yet?  https://ethereum.stackexchange.com/questions/154555/how-to-verify-a-stylus-smart-contract","","👍 (1)"
+"341884624001302532","elnurveliyev","16/09/2023 11:22 pm","Stylus","",""
+"311971895828283393","raulj","17/09/2023 1:04 am","Hi @Patrick Collins not at the moment but we’re actively thinking about reproducible build / verification solutions","","👍 (1)"
+"311971895828283393","raulj","17/09/2023 1:04 am","Thanks for trying this out! Let us know if you have any other questions","",""
+"206242996314832896","patrickalphac","17/09/2023 3:38 am","I will 🙂","",""
+"206242996314832896","patrickalphac","17/09/2023 3:40 am","Btw, devrel tip - I highly encourage people to post questions on a forum like Peeranha / Ethereum Stack Exchange. 
+
+For the following reasons:
+1. The questions will be indexed by web crawlers so that they show in web search results (discord does not)
+2. AIs that train on stack exchange will learn from the Q&A of such forums, meaning people who use AIs can then have better conversations
+
+I have created a `stylus` tag on Stack Exchange ETH if anyone is interested in following it so that other devs can find the answers and be better for it 🙂","","👍 (1)"
+"206242996314832896","patrickalphac","17/09/2023 3:41 am","I have another stylus question if anyone can help me out!
+
+I can't seem to understand why I need to use `extern crate alloc` vs just `use std::alloc`. Using the latter, my miniaml smart contract code does not compile.
+
+I get this error
+
+```bash
+error[E0433]: failed to resolve: could not find `vec` in `alloc`
+  --> src/main.rs:20:5
+   |
+20 |     #[entrypoint]
+   |     ^^^^^^^^^^^^^ could not find `vec` in `alloc`
+```
+
+The full context can be found here:
+https://ethereum.stackexchange.com/questions/154566/why-do-i-use-extern-crate-for-alloc-instead-of-use-stdalloc","","blueheart (1)"
+"206242996314832896","patrickalphac","17/09/2023 3:56 am","Got another question if anyone knows!
+
+Hard to try this stylus stuff with so few examples of what a full codebase looks like! 
+
+https://ethereum.stackexchange.com/questions/154568/how-to-make-a-struct-in-sol-storage-layout-in-stylus","",""
+"513559670070444038","cryptoiscute","17/09/2023 7:20 am","Thanks for making a Stylus tag 😄
+
+I’m on mobile rn so I’ll answer this one here for now, but for the storage definition you can do 
+```RA
+sol_storage! {
+    pub struct Contract {
+         Person[] list_of_people;
+    }
+
+    pub struct Person {
+        uint256 favorite_number;
+        string name;
+    }
+}
+```","",""
+"513559670070444038","cryptoiscute","17/09/2023 7:24 am","I’ll look into this when I get back to my computer, but it’s probably because the Stylus SDK is `#[no_std]` and we should tweak the macro for users who opt-in to the standard library","",""
+"1039513340315177000","dr4ffo","17/09/2023 6:45 pm","Guys, I am new into blockchain development. I am very happy about Arbitrum Stylus, since it will allows to develop smart contract in rust. I am trying to learn how to interact with this chain. The first thing that I want to do is to automate the interaction with the Arbitrum bridge to transfer ETH from Ethereum Sepolia to Arbitrum Sepolia to Arbitrum Stylus, to understand how this bridge works. Then I will try to develop smat contracts for Stylus. Can you tell me what are the steps for doing these bridges or share a tutorial? I already know how to develop smart contract with solidity for Ethereum testnets","",""
+"206242996314832896","patrickalphac","17/09/2023 10:45 pm","Thanks! This put me on the right path I think... But now I'm having an issue pushing new stuff to my array... playing with it now...","",""
+"206242996314832896","patrickalphac","17/09/2023 10:46 pm","Yeah I think this is the answer, but I couldn't figure out where the `no_std` section was. 
+
+We have this line:
+
+```
+#![cfg_attr(not(feature = ""export-abi""), no_main)]
+```
+
+but I wasn't able to figure out if that *also* meant `no_std` somehow.","",""
+"206242996314832896","patrickalphac","17/09/2023 11:12 pm","I'm just going to ignore structs for now...","",""
+"206242996314832896","patrickalphac","17/09/2023 11:41 pm","https://ethereum.stackexchange.com/questions/154586/how-to-make-a-test-in-stylus","","👍 (1)"
+"206242996314832896","patrickalphac","17/09/2023 11:41 pm","Probably my most important question!! ^ How do I write a test?","",""
+"206242996314832896","patrickalphac","17/09/2023 11:42 pm","(Sorry for the spam here, got a sunday to myself and am trying to get my learn on!)","","arbifrog (1)"
+"206242996314832896","patrickalphac","18/09/2023 2:04 am","Popped off a bit on the q's. Hopefully this will be helpful for other devs who run into this stuff. 
+
+I tried to ChatGPT them as much as possible ahah.
+
+https://ethereum.stackexchange.com/questions/tagged/stylus","","blueheart (1)"
+"206242996314832896","patrickalphac","18/09/2023 2:04 am","(My rust noobness is probably showing)","",""
+"513559670070444038","cryptoiscute","18/09/2023 3:35 am","Hey everyone, [a new version of the Stylus SDK is out](https://github.com/OffchainLabs/stylus-sdk-rs/releases)!
+
+To upgrade to the latest version, edit your `Cargo.toml` as follows
+```toml
+stylus-sdk = ""0.4.1""
+```","",""
+"447641000396062721","glazec","18/09/2023 4:28 am","How can we enable reentrant for stylus?","",""
+"1064377402505044139","ainmox","18/09/2023 4:41 am","Feature flag","","😀 (1),arbiblobblue (2)"
+"1064377402505044139","ainmox","18/09/2023 4:41 am","https://docs.arbitrum.io/stylus/reference/rust-sdk-guide#reentrancy","",""
+"513559670070444038","cryptoiscute","18/09/2023 5:12 am","It’s indeed a feature flag
+```toml
+stylus-sdk = { version = “0.4.1”, features = [“reentrant”] }
+```","",""
+"513559670070444038","cryptoiscute","18/09/2023 5:12 am","There’s other flags too!","",""
+"513559670070444038","cryptoiscute","18/09/2023 5:19 am","Btw introducing reentrancy with the default feature flags on will change the API a bit, since you have to be careful to flush the storage cache when making calls, among other safety considerations.
+
+Some users may prefer to only opt into the features they want, which you can do via
+```toml
+stylus-sdk = { version = “0.4.1”, no-default-features = true, features = [“reentrant”] }
+```","","😀 (2)"
+"389168228838146058","camo_inna_jungle","19/09/2023 1:13 am","It would be better not going the Sui/Aptos route. They require a local build and a command line to ensure the code on chain corresponds to some source. Browser based would be better imo","",""
+"1145113124475781162","ramdan0868","19/09/2023 3:40 am",":Stylus: :Stylus: :Stylus:","",""
+"1145113124475781162","ramdan0868","19/09/2023 3:50 am","Yas .stylus","",""
+"513559670070444038","cryptoiscute","19/09/2023 6:38 am","If any of y’all are participating in the ETH NY hackathon, here’s some project ideas if you’re still thinking about what you want to build!","",""
+"513559670070444038","cryptoiscute","19/09/2023 6:39 am","https://x.com/cryptoiscute/status/1703935593263308918?s=46","",""
+"511344743192461312","amarrazza","19/09/2023 6:53 am","Hey all, by popular demand, setting up a local dev node with Stylus enabled has been made easy, with instructions added to the docs!
+
+https://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node","","arbiflame (6)"
+"489286330954547201","jaysonbarrun","19/09/2023 1:37 pm","admin, may i suggest to add a choices for this pop up modal notif , make it for approved for 5,30 mins or 1hr while online","https://cdn.discordapp.com/attachments/1146789176939909251/1153603289225637909/image.png",""
+"879618061609598996","lovenftsbutnotdc","19/09/2023 2:56 pm","great one","",""
+"733185336276156436","kyleio","19/09/2023 7:29 pm","Hey, does Arbitrum Stylus have a live bug bounty? If not, when can we expect one?","",""
+"625599572579844106","arixon.eth","19/09/2023 7:42 pm","Quick question to devs? Is arbitrum stylus mulithreaded like solana's execution env or does it still run single threaded? Another thing is can geth run multithreaded, even if it's complied to wasm?","",""
+"847201446507708516","macmacmacprime","19/09/2023 8:05 pm","is there a way to run wasm's > 128KB on a local chain (for testing)?","",""
+"847201446507708516","macmacmacprime","19/09/2023 8:07 pm","```uncompressed WASM program size (190.2 KB)
+```
+trying:
+
+```
+cargo +nightly build -Z build-std=std,panic_abort -Z build-std-features=panic_immediate_abort
+```
+&&
+```
+wasm-opt --enable-nontrapping-float-to-int --enable-typed-function-references --enable-gc --enable-reference-types --enable-exception-handling  --inline-functions-with-loops --traps-never-happen --fast-math
+```","",""
+"513559670070444038","cryptoiscute","19/09/2023 9:44 pm","Yes, we're working on increasing limits for an upcomming upgrade, but for now what you can do is edit the following two lines in the node software
+
+https://github.com/OffchainLabs/stylus/blob/fc0a69d9a9e9fecfa7ae7ed028d16fc84b4ee62a/arbos/programs/programs.go#L63
+
+https://github.com/OffchainLabs/stylus-geth/blob/27113b8c17690a445e8d66b5988d5e34b42a574f/params/protocol_params.go#L127","",""
+"513559670070444038","cryptoiscute","19/09/2023 9:45 pm","Feel free to change those to whatever you like -- we're working on a model where larger contracts are possible.","","🌌 (1)"
+"511344743192461312","amarrazza","20/09/2023 4:09 am","Hey all, new doc for optimizing the binary size for your WASM programs just dropped!
+
+https://docs.arbitrum.io/stylus/how-tos/optimizing-binaries","",""
+"442478266616512513","hkalodner","20/09/2023 5:58 am","I'd expect there will be a live bounty before stylus is deployed on mainnet anywhere, but first it will have to be finalized and go through a full audit so that will take some time","","🙏 (1)"
+"442478266616512513","hkalodner","20/09/2023 6:01 am","Stylus currently only supports single threaded execution execution though multithreading could be explored as a possible future extension","",""
+"847201446507708516","macmacmacprime","20/09/2023 6:17 am","so close","",""
+"847201446507708516","macmacmacprime","20/09/2023 6:18 am","yet so far: 
+```
+uncompressed WASM program size (214.1 KB) is bigger than size limit: (128.0 KB)
+```
+https://github.com/maceip/tlsn-verify","",""
+"847201446507708516","macmacmacprime","20/09/2023 6:20 am","great doc! The Kotlin/Jetbrains devs seem to know what they are doing with wasm, and here's their binaryen configs: https://github.com/JetBrains/kotlin/blob/00fa09dbf3796554a583c7abe19838bbc48882f4/libraries/tools/kotlin-gradle-plugin/src/common/kotlin/org/jetbrains/kotlin/gradle/targets/js/binaryen/BinaryenExec.kt#L36","",""
+"847201446507708516","macmacmacprime","20/09/2023 7:58 am","```
+185K Sep 20 02:27 riced-tlsnotify.wasm
+```
+
+-> ```
+wasm-opt --enable-nontrapping-float-to-int --inline-functions-with-loops --traps-never-happen --fast-math --enable-gc --enable-reference-types --type-ssa -O3 -O3 --gufa -O3 -O3 -Oz target/wasm32-unknown-unknown/release/stylus-hello-world.wasm -o riced-tlsnotify.wasm
+```
+
+/me shakes fist","",""
+"757617534026383380","0xyyy","20/09/2023 9:20 am","were you able to figure this out?
+
+i'm trying to do a line-by-line uniswapv2 port to stylus, but also encountered this problem 
+
+probably the best way now is to compile the solidity UniswapV2Pair contract first, then extract the init bytecode to put in stylus code as a constant?","",""
+"311971895828283393","raulj","20/09/2023 9:36 am","Hi mac, I noticed youre reading from file which wont work in stylus. I would remove that and also try to avoid using the standard lib to help with size","",""
+"311971895828283393","raulj","20/09/2023 9:37 am","And would remove all the printfs","",""
+"847201446507708516","macmacmacprime","20/09/2023 1:35 pm","Ah yeah I was just doing a quick test to see how big the wasm would  be","",""
+"847201446507708516","macmacmacprime","20/09/2023 1:35 pm","I'm actually not sure how that even compiles because wasm32-u-u is nostd","",""
+"847201446507708516","macmacmacprime","20/09/2023 1:36 pm","Maybe the compiler optimized out everything since I just return Ok() Everytime","",""
+"847201446507708516","macmacmacprime","20/09/2023 1:36 pm","I'll play with it today 🐸","",""
+"847703234386722837","charith96","20/09/2023 2:53 pm",":Stylus:","",""
+"757617534026383380","0xyyy","20/09/2023 9:21 pm","is the `endowment` argument in `RawDeploy::deploy()` just the eth value sent when deploying a contract? if so, why not just name it `value`?","",""
+"513559670070444038","cryptoiscute","20/09/2023 10:31 pm","`endowment` is what it’s technically called in EIPs for whatever reason, but yes it’s the initial balance of the smart contract","",""
+"513559670070444038","cryptoiscute","20/09/2023 10:32 pm","https://evm.codes","",""
+"757617534026383380","0xyyy","21/09/2023 7:00 am","Got it, thanks for the explanation!","","blueheart (1)"
+"260693194533109760","defernus","21/09/2023 12:01 pm","Where can I find examples of stylus_sdk::call::call usage. I couldn't find the information in the documents.
+For example i have interface:
+```rust
+sol_interface! {
+    interface IErc20 {
+        function transfer(address recipient, uint256 amount) external returns (bool);
+        // ...
+    }
+}
+```
+I want to call `transfer` function, but I only have the token address.
+```rust
+#[external]
+impl SomeContract {
+    pub fn some_action(&mut self, token: Address, amount: U256) -> Result<(), Vec<u8>> {
+        let data = ...; // how do I encode call of `IErc20(token).transfer(msg::sender(), amount)`?
+        call::call(self, token, data);
+    }
+}
+```","",""
+"311971895828283393","raulj","21/09/2023 8:27 pm","hi @Defernus you can try something like:
+
+let erc20 = IErc20::new(token);
+let data = erc20.transfer(recipient, amount)","","💜 (1)"
+"311971895828283393","raulj","21/09/2023 8:28 pm","Hi everyone, we just published a guide on how to add support for new programming languages to Stylus, with Ziglang being newly added!","https://cdn.discordapp.com/attachments/1146789176939909251/1154431416076083310/F6jpz9vXIAA-O6b.jpeg",""
+"311971895828283393","raulj","21/09/2023 8:28 pm","https://docs.arbitrum.io/stylus/how-tos/adding-support-for-new-languages walkthrough here","",""
+"311971895828283393","raulj","21/09/2023 8:28 pm","and we also have a repository here with a Zig smart contract that checks for prime numbers https://github.com/OffchainLabs/zig-on-stylus","",""
+"311971895828283393","raulj","21/09/2023 8:29 pm","The coolest part is that anyone can add new languages 🙂 not just our team","",""
+"828261986751086592","ricardo__gordon","21/09/2023 9:09 pm","https://x.com/KAndrewHuang/status/1704848429883732256?s=20","",""
+"847201446507708516","macmacmacprime","21/09/2023 9:57 pm","Can't really get our code down below 120k -- and not sure if we want to spend time recompiling your fork of geth to increase the size","",""
+"847201446507708516","macmacmacprime","21/09/2023 9:57 pm","Do y'all know of other wasm / rust compatible evms","",""
+"847201446507708516","macmacmacprime","21/09/2023 9:58 pm","Or zkevms","",""
+"847201446507708516","macmacmacprime","22/09/2023 3:27 am","Anyone from Offchain labs in NYC tonight?","",""
+"1143202574577709137","daviddennis.","22/09/2023 6:03 pm","We have a team of about 12 people in the city for ETH Global NYC hackathon starting this Fri - Sun","",""
+"1131905717100621964","hanane7504","22/09/2023 11:02 pm","good project","",""
+"915140553144926210","bredislavxxx","23/09/2023 1:50 am","good project","",""
+"887472234002780181","annixpec","23/09/2023 3:10 am","I'm the founder of a web3 software development company with focus on blockchain technology. Currently, we are acquiring new clients, so we are looking for on-call developers especially familiar with node.js and solidity.
+Please fill out the following short form if you’re interested
+https://forms.gle/ri2US2YNLybpSZ318","",""
+"923323096222535732","younesstk","23/09/2023 3:25 am","good project","",""
+"953075016675770378","sooyoung_dsrv","23/09/2023 6:27 am","How about being able to develop Rust smart contracts on the Remix IDE?
+
+https://explorer.gitcoin.co/#/round/42161/0x1d16f0eedf8ced25f288056ddcbb653d0f0451ad/0x1d16f0eedf8ced25f288056ddcbb653d0f0451ad-17","",""
+"1123798538862735510","AUTUMN |#3998","23/09/2023 8:30 am","","",""
+"847201446507708516","macmacmacprime","23/09/2023 4:09 pm","running the test-node (eth-global branch), I can't get the cargo stylus cli to connect to my local stylus httprpc endpoint:
+```
+ubuntu@ip-10-0-0-5:~/tlsn-verifier-onchain$ export RPC_URL=http://arbos.gossip.cash:8547
+ubuntu@ip-10-0-0-5:~/tlsn-verifier-onchain$ export ENV_RPC_URL=http://arbos.gossip.cash:8547
+ubuntu@ip-10-0-0-5:~/tlsn-verifier-onchain$ cargo stylus check
+```
+...
+```
+Uncompressed WASM size: 626.1 KB
+Compressed WASM size to be deployed onchain: 185.8 KB
+Connecting to Stylus RPC endpoint: https://stylus-testnet.arbitrum.io/rpc
+Stylus checks failed: program predeployment check failed when checking against ARB_WASM_ADDRESS 0000000000000000000000000000000000000071: (code: -32000, message: failed decompression: 0, data: None)
+```","",""
+"847201446507708516","macmacmacprime","23/09/2023 4:12 pm","```
+~/tlsn-verifier-onchain$ cat .env
+PRIV_KEY_PATH=""./key.txt""
+RPC_URL=https://arbos.gossip.cash
+ENV_RPC_URL=https://arbos.gossip.cash
+```","",""
+"513559670070444038","cryptoiscute","23/09/2023 7:54 pm","You’ll need to change your endpoint to a local node built with the right docker image. Notice how in the logs the RPC you’re using shows up there, and it’s the testnet one","",""
+"513559670070444038","cryptoiscute","23/09/2023 7:55 pm","```sh
+cargo stylus check -e http://localhost:8545
+```","",""
+"513559670070444038","cryptoiscute","23/09/2023 7:55 pm","Or whatever your local node is 🙂","",""
+"828261986751086592","ricardo__gordon","24/09/2023 2:25 am","https://x.com/arbiboyyy/status/1705550190537540087?s=46&t=mu2hVGgLrQtkkfYrZ3vXuA","",""
+"212742685721755659","derked","24/09/2023 2:33 am","is it possible to verify contracts on the explorer that were written in rust via stylus with a verify command?","",""
+"212742685721755659","derked","24/09/2023 2:33 am","btw great project having fun playing around so far","",""
+"341884624001302532","elnurveliyev","24/09/2023 3:14 am","Stylus New news","",""
+"212742685721755659","derked","24/09/2023 3:47 am","can someone show me how to do example of a static call with alloy and look at estimated gas, etc? im a doofus with rust","",""
+"242360889213190145","varun0729","24/09/2023 8:13 am","Hey, I'm currently trying to use Stylus to deploy my rust file, and I need a private key file path to do it? Where do I get that from and what is it supposed to look like?","",""
+"1111531286109110284","oxlncognito|AI|#2200","24/09/2023 11:12 am","Got one Yh?","",""
+"242360889213190145","varun0729","24/09/2023 11:13 am","I figured it out, dw thanks boss","",""
+"1111531286109110284","oxlncognito|AI|#2200","24/09/2023 11:15 am","Okay mate , can I private text you","",""
+"513559670070444038","cryptoiscute","24/09/2023 11:34 am","You may have figured it out by now, but I recommend reading [this reference](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide#calls) to learn how to make calls in the SDK 🙂","",""
