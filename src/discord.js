@@ -2,7 +2,10 @@ import csv from 'csvtojson'
 import fs from 'fs'
 
 /* Change this file path to csv file name */
-const filesArray=['uniswap0.csv', 'uniswap1.csv', 'uniswap2.csv', 'uniswap3.csv', 'uniswap4.csv', 'uniswap5.csv', 'uniswap6.csv', 'uniswap7.csv', 'uniswap8.csv']
+const filesArray=['link0.csv', 'link1.csv', 'link2.csv', 'link3.csv']
+
+
+
 const nameSplit= filesArray[0].split(".")
 for(let i=0;i<filesArray.length;i++){
     const csvFilePath='discord_raw_chats/'+filesArray[i]
@@ -15,8 +18,8 @@ csv()
     let finalJSON = {messages:[]}
     jsonObj.map(obj=>{
         
-        const {Username, Content} = obj
-        const str = `${obj?.Username} says ${obj?.Content}`
+        const {Author, Content,Date} = obj
+        const str = `${obj?.Author} says ${obj?.Content} at ${obj?.Date}`
         // finalJSON.messages.push(
             // {"role": Username, "content": Content}
         // )
